@@ -1,5 +1,5 @@
 
-#  Genshin Wizard Locale
+#  Genshin Wizard Locale [![Crowdin](https://badges.crowdin.net/genshin-wizard/localized.svg)](https://crowdin.com/project/genshin-wizard)
 
 
 <div align="center">
@@ -14,7 +14,6 @@ Genshin Wizard Locale is the official localization library for Genshin Wizard. T
 ## Project Stack & Contributing
 
 - [Crowdin](https://crowdin.com/project/genshin-wizard) - Translation Platform
-> Contributional support has not yet been set-up. Keep an eye out for updates within the [Genshin Wizard Discord](https://discord.gg/genshinwizard) if you plan on contributing to this project.
 
 ## Source
 
