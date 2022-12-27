@@ -1,94 +1,93 @@
 ---
 GENSHIN_WIZARD_KEY: Genshin Wizard
-HELP_DIRECTORY_TITLE: Genshin Wizard | Help Directory
-HELP_CATEGORY_DESCRIPTION: Select a category from the dropdown to view commands specific to that category.
+HELP_DIRECTORY_TITLE: Genshin Wizard | Directorio de Ayuda
+HELP_CATEGORY_DESCRIPTION: Seleccione una categoría de la lista desplegable para ver comandos específicos de esa categoría.
 HELP_CATEGORIES: Categorías
 HELP_CATEGORY_LIST: |
-  > 👤 | Profile Commands
-  > 💫 | Wish Commands
-  > <:hoyolab:1016159766705344705> | HoYoLAB Commands
-  > 📝 | Guide Commands
-  > ⏰ | Miscellaneous Commands
-MISC_COMMANDS: Miscellaneous commands
+  > 👤 | Comandos de Perfil
+  > 💫 | Comandos de Deseos
+  > <:hoyolab:1016159766705344705> | Comandos de HoYoLAB
+  > 📝 | Comandos de Guía
+  > ⏰ | Comandos Misceláneos
+MISC_COMMANDS: Comandos misceláneos
 PING_INFORMATION: |
-  **Pong!** :ping_pong:
-  Bot Latency is **{bot_latency}ms.**
-  Websocket Latency is **{ws_latency}ms.**
+  **¡Pong!** :ping_pong:
+  Latencia del Bot es **{bot_latency}ms.**
+  Latencia del Websocket es **{ws_latency}ms.**
 UPTIME_INFORMATION: |
-  **Genshin Wizard Uptime**
-  **Last Restart:** <t:{last_restart}:R>
-  **Uptime:** {uptime}
-VERSION_KEY: Version
+  **Tiempo de actividad de Genshin Wizard**
+  **Último reinicio:** <t:{last_restart}:R>
+  **Tiempo de actividad:** {uptime}
+VERSION_KEY: Versión
 PING_KEY: Ping
-UNKNOWN_KEY: Unknown
-USER_NOT_PUBLIC: User data is not public.
-INVITE_INFORMATION: Use the link below to invite this bot to your own server.
-REQUESTED_BY: Requested by {user}
-SUPPORT_GWIZ_TITLE: Support Genshin Wizard
-SUPPORT_GWIZ_DESC: Support the development of Genshin Wizard.
-DONATE_KEY: Donate
-VOTE_GWIZ_DESCRIPTION: Click the links below to vote for Genshin Wizard.
-VOTE_KEY: Vote
-VOTE_BOT: Vote for Bot
-VOTE_SERVER: Vote for Server
-VOTE_BOT_LINK: Bot Vote Link
-VOTE_SERVER_LINK: Server Vote Link
-VOTE_BOT_BUTTON: Vote [Bot]
-VOTE_SERVER_BUTTON: Vote [Server]
-DEVELOPERS_KEY: Developers
-SERVER_KEY: Server
-SERVERS_KEY: Servers
-USERS_KEY: Users
-WEBSITE_KEY: Website
-INVITE_KEY: Invite
-DOCUMENTATION_KEY: Documentation
-GWIZ_INVITE: Genshin Wizard Invite
+UNKNOWN_KEY: Desconocido
+USER_NOT_PUBLIC: Los datos del usuario no son públicos.
+INVITE_INFORMATION: Utilice el enlace a continuación para invitar a este bot a su propio servidor.
+REQUESTED_BY: Solicitado por {user}
+SUPPORT_GWIZ_TITLE: Apoyo a Genshin Wizard
+SUPPORT_GWIZ_DESC: Apoye el desarrollo de Genshin Wizard.
+DONATE_KEY: Donar
+VOTE_GWIZ_DESCRIPTION: Haga clic en los enlaces a continuación para votar por Genshin Wizard.
+VOTE_KEY: Votar
+VOTE_BOT: Votar por Bot
+VOTE_SERVER: Votar por Servidor
+VOTE_BOT_LINK: Enlace de votación para el Bot
+VOTE_SERVER_LINK: Enlace de votación para el Servidor
+VOTE_BOT_BUTTON: Votar [Bot]
+VOTE_SERVER_BUTTON: Votar [Servidor]
+DEVELOPERS_KEY: Desarrolladores
+SERVER_KEY: Servidor
+SERVERS_KEY: Servidores
+USERS_KEY: Usuarios
+WEBSITE_KEY: Sitio web
+INVITE_KEY: Invitar
+DOCUMENTATION_KEY: Documentación
+GWIZ_INVITE: Invitación de Genshin Wizard
 AVATAR_KEY: Avatar
-ARTIFACT_CRIT_VALUE_TITLE: Artifact CRIT Value Calculator
-TOTAL_CRIT_VALUE: Total Crit Value
+ARTIFACT_CRIT_VALUE_TITLE: Calculadora de valor CRIT de artefacto
+TOTAL_CRIT_VALUE: Valor CRIT total
 TRUTH_COMMAND_RESPONSES:
-  - As I see it, yes.
-  - Yes.
-  - Positive.
-  - From my point of view, yes.
-  - Convinced.
-  - It is certain.
-  - It is decidedly so.
-  - Without a doubt.
-  - Most Likely.
-  - Chances High.
+  - Según lo veo, sí.
+  - Sí.
+  - Positivo.
+  - Desde mi punto de vista, sí.
+  - Convencido.
+  - Es cierto.
+  - Decididamente sí.
+  - Sin duda.
+  - Más probable.
+  - Altas posibilidades.
   - No.
-  - I think not.
-  - Negative.
-  - My sources say no.
-  - Not Convinced.
-  - Perhaps.
-  - Not Sure.
-  - Maybe.
-  - Who knows?
-  - I cannot predict now.
-  - I am tired. *proceeds with sleeping*
-  - Absolutely.
-TRUTH_COMMAND_TITLE: Paimon's Wisdom
-QUESTION_KEY: Question
-RESPONSE_KEY: Response
-PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
-PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
-PREFIX_TOO_SHORT: The prefix cannot be shorter than 1 character.
-PREFIX_CHANGED_TITLE: Genshin Wizard | Prefix Change
+  - Creo que no.
+  - Negativo.
+  - Mis fuentes dicen que no.
+  - No convencido.
+  - Tal vez.
+  - No estoy seguro.
+  - Tal vez.
+  - ¿Quién sabe?
+  - No puedo predecirlo ahora.
+  - Estoy cansado. *procede a dormir*
+  - Absolutamente.
+TRUTH_COMMAND_TITLE: Sabiduría de Paimon
+QUESTION_KEY: Pregunta
+RESPONSE_KEY: Respuesta
+PREFIX_COMMAND_CURRENT: El prefijo para este servidor es `{prefix}`
+PREFIX_TOO_LONG: El prefijo no puede tener más de 5 caracteres.
+PREFIX_TOO_SHORT: El prefijo no puede tener menos de 1 caracter.
+PREFIX_CHANGED_TITLE: Genshin Wizard | Cambio de prefijo
 PREFIX_CHANGED_DESCRIPTION: |
-  Successfully changed **Genshin Wizard's** prefix! Commands will now be invoked using this new prefix.
-
-  **Old Prefix:** `{old_prefix}`
-  **New Prefix:** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: Genshin Wizard Prefix Setting
-MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Computational Error. Try rephrasing!"
+  ¡Se ha cambiado el prefijo de **Genshin Wizard** de manera exitosa! Los comandos se invocarán ahora utilizando este nuevo prefijo.
+  **Prefijo antiguo:** `{old_prefix}`
+  **Prefijo nuevo:** `{new_prefix}`
+PREFIX_CHANGED_FOOTER: Ajuste de prefijo de Genshin Wizard
+MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Error de cálculo. ¡Intenta reformularlo!"
 MATH_COMMAND_RESULT: |
-  **Expression:** `{expression}`
-  **Result:**
+  **Expresión:** `{expression}`
+  **Resultado:**
   ```{result}```
-RECENT_GENSHIN_EVENTS: Recent Genshin Events
-SEND_CODES_COMMAND_TITLE: Genshin Wizard | Active Codes
+RECENT_GENSHIN_EVENTS: Eventos recientes de Genshin
+SEND_CODES_COMMAND_TITLE: Genshin Wizard | Códigos activos
 SEND_CODES_COMMAND_DESCRIPTION: |
   <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
   <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
