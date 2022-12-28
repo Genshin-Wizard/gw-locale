@@ -1,7 +1,7 @@
 ---
 GENSHIN_WIZARD_KEY: 원신위자드
 HELP_DIRECTORY_TITLE: 원신위자드 | 도움말 등록부
-HELP_CATEGORY_DESCRIPTION: 도움말_카테고리_설명
+HELP_CATEGORY_DESCRIPTION: 드롭다운에서 카테고리를 선택하여 해당 카테고리에 특정한 명령어를 볼 수 있습니다.
 HELP_CATEGORIES: 카테고리들
 HELP_CATEGORY_LIST: |
   > 👤 | 프로필 명령어
@@ -11,151 +11,155 @@ HELP_CATEGORY_LIST: |
   > ⏰ | 기타 명령어
 MISC_COMMANDS: 기타 명령어
 PING_INFORMATION: |
-  핑_정보
+  **퐁!** :ping_pong:
+  봇 지연 시간: **{bot_latency}ms.**
+  웹소켓 지연 시간: **{ws_latency}ms.**
 UPTIME_INFORMATION: |
-  가동시간_정보
+  **원신위자드 가동 시간**
+  **마지막 재시작 시간:** <t:{last_restart}:R>
+  **가동 시간:** {uptime}
 VERSION_KEY: 버전
 PING_KEY: 핑
 UNKNOWN_KEY: 정보없음
 USER_NOT_PUBLIC: 공공의 자료가 아닙니다.
 INVITE_INFORMATION: 아래 링크를 통해 봇을 서버에 초대하세요!
 REQUESTED_BY: '{user} 님의 요청'
-SUPPORT_GWIZ_TITLE: Support Genshin Wizard
-SUPPORT_GWIZ_DESC: Support the development of Genshin Wizard.
+SUPPORT_GWIZ_TITLE: 원신위자드지원
+SUPPORT_GWIZ_DESC: 원신위자드의 개발을 지원해주세요.
 DONATE_KEY: 후원
-VOTE_GWIZ_DESCRIPTION: Click the links below to vote for Genshin Wizard.
-VOTE_KEY: Vote
-VOTE_BOT: Vote for Bot
-VOTE_SERVER: Vote for Server
-VOTE_BOT_LINK: Bot Vote Link
-VOTE_SERVER_LINK: Server Vote Link
-VOTE_BOT_BUTTON: Vote [Bot]
-VOTE_SERVER_BUTTON: Vote [Server]
+VOTE_GWIZ_DESCRIPTION: 아래링크를클릭하여 원신위자드에 투표해주세요
+VOTE_KEY: 투표
+VOTE_BOT: 투표봇
+VOTE_SERVER: 투표서버
+VOTE_BOT_LINK: 투표봇링크
+VOTE_SERVER_LINK: 투표서버링크
+VOTE_BOT_BUTTON: 투표봇버튼
+VOTE_SERVER_BUTTON: 투표[서버]
 DEVELOPERS_KEY: 개발자들
 SERVER_KEY: 서버
-SERVERS_KEY: Servers
+SERVERS_KEY: 서버
 USERS_KEY: 사용자
 WEBSITE_KEY: 웹사이트
-INVITE_KEY: Invite
-DOCUMENTATION_KEY: Documentation
-GWIZ_INVITE: Genshin Wizard Invite
-AVATAR_KEY: Avatar
-ARTIFACT_CRIT_VALUE_TITLE: Artifact CRIT Value Calculator
-TOTAL_CRIT_VALUE: Total Crit Value
+INVITE_KEY: 초대
+DOCUMENTATION_KEY: 문서
+GWIZ_INVITE: 원신위자드초대
+AVATAR_KEY: 아바타
+ARTIFACT_CRIT_VALUE_TITLE: 성유물 크리티컬확률 계산
+TOTAL_CRIT_VALUE: 종합 크리티컬확률
 TRUTH_COMMAND_RESPONSES:
-  - As I see it, yes.
-  - Yes.
-  - Positive.
-  - From my point of view, yes.
-  - Convinced.
-  - It is certain.
-  - It is decidedly so.
-  - Without a doubt.
-  - Most Likely.
-  - Chances High.
-  - No.
-  - I think not.
-  - Negative.
-  - My sources say no.
-  - Not Convinced.
-  - Perhaps.
-  - Not Sure.
-  - Maybe.
-  - Who knows?
-  - I cannot predict now.
-  - I am tired. *proceeds with sleeping*
-  - Absolutely.
-TRUTH_COMMAND_TITLE: Paimon's Wisdom
-QUESTION_KEY: Question
-RESPONSE_KEY: Response
-PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
-PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
-PREFIX_TOO_SHORT: The prefix cannot be shorter than 1 character.
-PREFIX_CHANGED_TITLE: Genshin Wizard | Prefix Change
+  - 제가 보기에는 그렇습니다.
+  - 예.
+  - 긍정합니다.
+  - 제 입장에서는 그렇습니다.
+  - 확신합니다.
+  - 확실해요.
+  - 확실히 그렇습니다.
+  - 의심할 여지가 없습니다.
+  - 아마도 그럴 것입니다.
+  - 그럴 확률이 높습니다.
+  - 아니요.
+  - 그렇지 않다고 생각해요.
+  - 부정합니다.
+  - 정보가 정확하지않습니다.
+  - 정확하지않습니다.
+  - 아마
+  - 불확실합니다.
+  - 아마도
+  - 어쩌면
+  - 나는 지금 예측할수없다.
+  - 나는 피곤하다 "잠을 설치는중이다"
+  - 틀림없이.
+TRUTH_COMMAND_TITLE: 페이몬의 지식
+QUESTION_KEY: 질문
+RESPONSE_KEY: 대답
+PREFIX_COMMAND_CURRENT: 이 서버의 현재 접두사는 '{prefix}' 입니다.
+PREFIX_TOO_LONG: 접두사는 최대 5자 이내여야 합니다.
+PREFIX_TOO_SHORT: 1자 미만일 수 없습니다.
+PREFIX_CHANGED_TITLE: 원신위자드 | 접두사 변경하기
 PREFIX_CHANGED_DESCRIPTION: |
-  Successfully changed **Genshin Wizard's** prefix! Commands will now be invoked using this new prefix.
-
-  **Old Prefix:** `{old_prefix}`
-  **New Prefix:** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: Genshin Wizard Prefix Setting
+  **원신위자드** 접두사 변경 성공! 이제 이 새로운 접두사를 사용하여 명령이 호출됩니다.
+  **과거 접두사:** `{old_prefix}`
+  **새로운 접두사:** `{new_prefix}`
+PREFIX_CHANGED_FOOTER: 원신위자드 접두사설정
 MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Computational Error. Try rephrasing!"
 MATH_COMMAND_RESULT: |
-  **Expression:** `{expression}`
-  **Result:**
-  ```{result}```
-RECENT_GENSHIN_EVENTS: Recent Genshin Events
-SEND_CODES_COMMAND_TITLE: Genshin Wizard | Active Codes
+  **식:** `{식}`
+   **결과:**
+   ```{결과}```
+
+RECENT_GENSHIN_EVENTS: 최근 원신 이벤트
+SEND_CODES_COMMAND_TITLE: 원신 위자드 | 활성 코드
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
-  <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
+  <:blurplelink:1020155547187691600> [***아래 버튼을 클릭하여 교환 가능!***](https://genshin.mihoyo.com/en/gift)
+   <:blurpleannouncement:1020402170127982712> **참고:** 코드는 빨리 만료되므로 최대한 빨리 사용해야 합니다!
 
-  <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>\n
+   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>\n
 SEND_CODES_REDEEM_AUTOMATICALLY: Redeem Automatically
-SEND_CODES_DIRECT_LINK: Direct Link
-SEND_CODES_REDEEMABLE_CODES: Redeemable Codes
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Redemption Codes
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!*
-MESSAGE_LINK: Message Link
-CLICK_HERE: Click Here
-INFO_SELECT_CHARACTER: Select a character
-INFO_CHARACTER_SOURCE: "Source: Saved Builds"
-INFO_USER_CACHE: User Cache
-INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
-MENU_COOLDOWN_TITLE: That menu is on cooldown!
-BUTTON_COOLDOWN_TITLE: That button is on cooldown!
-COMMAND_COOLDOWN_TITLE: That command is on cooldown!
-MENU_COOLDOWN_VALUE: You're clicking attributes too quickly! Try again in **{cooldown}** seconds.
-CHARACTER_SHOWCASE_TITLE: Character Showcase
-ERROR_RATELIMIT: User is currently ratelimited.
-ERROR_COMMAND_COOLDOWN_VALUE: Try using this command again in {cooldown} secs.
-ERROR_COMMAND_LONG_COOLDOWN_VALUE: Try using this command again in <t:{cooldown}:R>
-ERROR_KEY: Error!
-SUCCESSFUL_KEY: Successful!
-ERROR_MISSING_PERMISSION: You don't have permission to use this command!
-EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Exclusive Command
+SEND_CODES_DIRECT_LINK: 다이렉트링크
+SEND_CODES_REDEEMABLE_CODES: 사용가능한코드
+SEND_CODES_REDEMPTION_CODES_TITLE: 원신위자드 | 사용가능한코드
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: 등록 코드를 {channel} 에 성공적으로 전송했습니다!*
+MESSAGE_LINK: 메세지링크
+CLICK_HERE: 여기를클릭해주세요
+INFO_SELECT_CHARACTER: 캐릭터선택
+INFO_CHARACTER_SOURCE: "기록저장"
+INFO_USER_CACHE: 사용자 캐시
+INTERMISSION_MESSAGE: 정보를 생성하는중입니다 잠시만기다려주세요
+MENU_COOLDOWN_TITLE: 현재 메뉴는 정지상태입니다!
+BUTTON_COOLDOWN_TITLE: 현재 버튼은 정지상태입니다!
+COMMAND_COOLDOWN_TITLE: 현재 명령어는 정지상태입니다!
+MENU_COOLDOWN_VALUE: 속성을 너무 빨리 클릭하고 있습니다! **{cooldown}**초 후에 다시 시도하세요.
+CHARACTER_SHOWCASE_TITLE: 캐릭터 진열장
+ERROR_RATELIMIT: 사용자는 속도가 제한되어있습니다.
+ERROR_COMMAND_COOLDOWN_VALUE: 몇초후 명령어를 다시 사용해주세요{cooldown}
+ERROR_COMMAND_LONG_COOLDOWN_VALUE: 명령어를 다시 사용해주세요 <t:{cooldown}:R>
+ERROR_KEY: 에러!
+SUCCESSFUL_KEY: 성공!
+ERROR_MISSING_PERMISSION: 현재 명령어는 사용할 수 있는 권한이없습니다!
+EXCLUSIVE_COMMAND_TITLE: 원신 마법사 | 단독 명령
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
+  이봐 여행자! 여기서는 이 명령을 사용할 수 없습니다**. 이 명령은 서버에서만 사용할 수 있습니다!
 
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
-ERROR_COMMAND_INVOKE: Make sure you're using the correct parameters for this command!
-ERROR_PRIVACY_SETTING_TITLE: Hidden | Nothing to see!
-ERROR_PRIVACY_SETTING_DESCRIPTION: Hey Traveler! Unfortunately, the person you are trying to search for has **privacy settings** enabled!
-ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Ongoing Update!
-ERROR_ONGOING_UPDATE_DESCRIPTION: Hey Traveler! Genshin Wizard is currently **undergoing maintenance** and this command has been *disabled* for the time being. Please try again *later*.
+   이 명령을 사용하려면 [Official Discord](https://discord.gg/genshinwizard) 가입을 고려하세요.
+ERROR_COMMAND_INVOKE: 현재 명령어에 올바른 매개변수를 사용하고 있는지 확인하십시오!
+ERROR_PRIVACY_SETTING_TITLE: 숨겨진 | 존재하지 않습니다!
+ERROR_PRIVACY_SETTING_DESCRIPTION: 여행자! 아쉽게도 검색하려는 사람은 **개인정보 보호**가 활성화되어 있습니다!
+ERROR_ONGOING_UPDATE_TITLE: 원신 마법사 | 지속적인 업데이트!
+ERROR_ONGOING_UPDATE_DESCRIPTION: 여행자! Genshin Wizard는 현재 **점검 중**이며 현재 명령어는 일시적으로 *비활성화*되었습니다. 나중에 다시 시도 해주십시오*.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this is a Genshin Wizard server {command_type}*exclusive* command!
+  여행자! 여기서 이 명령어를 사용하는 것은 **허용되지 않습니다**. 이것은 Genshin Wizard 서버 {command_type}*독점* 명령어 입니다!
 
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
-ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
-ERROR_PREMIUM_COMMAND_DESCRIPTION: Hey Traveler! You're **not allowed** to use this command, this command is only available to **Premium Subscribers**. If you'd like use this feature, consider learning more using the </premium:{command_id}> command.
-ERROR_BLACKLISTED_TITLE: Genshin Wizard | Blacklisted
+   이 명령을 사용하려면 [Official Discord](https://discord.gg/genshinwizard) 가입을 하시면 사용가능합니다.
+ERROR_PREMIUM_COMMAND_TITLE: 원신 위자드 프리미엄
+ERROR_PREMIUM_COMMAND_DESCRIPTION: 여행자! 이 명령을 사용할 수 없습니다**. 이 명령은 **프리미엄 구독자**만 사용할 수 있습니다. 이 기능을 사용하려면 </premium:{command_id}> 명령을 사용하여 자세히 알아보세요.
+ERROR_BLACKLISTED_TITLE: 원신 위자드 | 블랙리스트
 ERROR_BLACKLISTED_DESCRIPTION: |
-  Hey Traveler! You have been **banned** from using Genshin Wizard!
+  여행자! Genshin Wizard 사용이 **금지**되었습니다!
 
-  If you believe for this to be an error, consider joining our [Official Discord](https://discord.gg/genshinwizard)
-ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Member Not Found
+   이것이 오류라고 생각되면 [Official Discord](https://discord.gg/genshinwizard) 가입을 하시면 사용가능합니다.
+ERROR_MEMBER_NOT_FOUND_TITLE: 원신위자드 | 맴버를찾을수없습니다.
 ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Make sure the person you are trying to view is still in the server.
-ERROR_MISSING_REQUIRED_ARGUMENT: "You forgot to provide an argument, please use the correct format: ```{usage}```"
-ERROR_MISSING_REQUIRED_ATTACHMENT: "You forgot to provide an attachment, please use the correct format: ```{usage} with the correct attachment.```"
-ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, I do not have permission to `Manage Messages` within this channel/guild. Please enable this permission and try again.
-ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
-MESSAGE_KEY: Message
-ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
-ERROR_MESSAGE: There has been an error!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
+ERROR_MISSING_REQUIRED_ARGUMENT: "인수를 제공하는 것을 잊었습니다. 올바른 형식을 사용하세요: ```{usage}```"
+ERROR_MISSING_REQUIRED_ATTACHMENT: "첨부파일을 제공하는 것을 잊으셨습니다. 올바른 형식을 사용하세요: ```{usage} with the 올바른 첨부파일.```"
+ERROR_MISSING_MANAGE_MESSAGE: 여행자님, 이 채널/길드 내에서 '메시지 관리' 권한이 없습니다. 이 권한을 활성화하고 다시 시도하십시오.
+ERROR_MISSING_SEND_MESSAGE: 여행자님, 이 채널/길드 내에서 '메시지 보내기' 권한이 없습니다. 이 권한을 활성화하고 다시 시도하십시오.
+MESSAGE_KEY: 메세지
+ERROR_EMPTY_BACKPACK: 배낭이 **비었습니다**! 여정을 시작하려면 </wishsimulator:{command_id}> 명령을 사용하세요!
+ERROR_INTERACTION_MISMATCH: 여행자! 이것은 만지는 **당신의 상호작용**이 아닙니다! 이 명령을 직접 사용하려면 {command} 명령을 사용하십시오!
+ERROR_MESSAGE: 오류가 발생했습니다!
+FEEDBACK_CONFIRMATION_TITLE: 원신위자드 | 피드백
+FEEDBACK_CONFIRMATION_DESCRIPTION: yescheck:1021114525858136074> *귀하의 피드백이 개발자에게 성공적으로 전송되었습니다!*
 FEEDBACK_LOG_RESPONSE: |
-  > User: **{author_name}** | {author_mention}
-  > Discord ID: `{author_id}`
+  > 사용자: **{author_name}** | {author_mention}
+   > 디스코드 ID: `{author_id}`
 
-  **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </register:{command_id}> to link your account.
+   **피드백:**```{feedback}```
+NO_HOYOLAB_LINKED: 아직 HoYoLAB 계정을 연결하지 않았습니다. </register:{command_id}>를 사용하여 계정을 연결하세요.
 OLD_HOYOLAB_LINKED: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
+  안녕하세요 여행자님! 불편을 드려 죄송합니다. **이 기능은 **HoYoLAB** 계정을 Genshin Wizard에 등록한 후** 활성화가 가능합니다.
 
-  In order to use this button, you must unlink your HoYoLAB account through </hoyo:{command_id}> and **relink** through the usual registration command.
-CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Redemption
+   이 버튼을 사용하려면 </hoyo:{command_id}>를 통해 HoYoLAB 계정의 연결을 해제하고 일반적인 등록 명령을 통해 **재연결**해야 합니다.
+CODE_REDEEM_TITLE: 원신 위자드 | HoYoLAB 코드 사용
 CODE_REDEEM_DESCRIPTION: "*Please wait while we process your redemption code...*"
 CODE_REDEEM_PROGRESS: |
   *Please wait while we process your redemption code...*
@@ -245,7 +249,7 @@ APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
 APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
 APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
 APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
-APP_COMMAND_DONATE_DESCRIPTION: Support the development of Genshin Wizard.
+APP_COMMAND_DONATE_DESCRIPTION: 원신위자드의 개발을 지원해주세요.
 APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
 APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
 APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
@@ -275,7 +279,7 @@ ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
 WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
-INFO_COMMAND_SHOWCASE_TITLE: Character Showcase
+INFO_COMMAND_SHOWCASE_TITLE: 캐릭터 진열장
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
 REFRESHES_KEY: Refreshes
 INFO_COMMAND_CHARACTER_DETAILS: Character
@@ -987,7 +991,7 @@ PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
   Role: {role_mention}
   Role Name: {role_name}
   Role Color: `{role_color}`
-GENSHIN_WIZARD_PREMIUM: Genshin Wizard Premium
+GENSHIN_WIZARD_PREMIUM: 원신 위자드 프리미엄
 CLAIMED_KEY: Claimed
 UNCLAIMED_KEY: Unclaimed
 PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard Premium Server Settings
