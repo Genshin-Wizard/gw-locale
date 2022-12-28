@@ -47,27 +47,27 @@ AVATAR_KEY: 아바타
 ARTIFACT_CRIT_VALUE_TITLE: 성유물 CV 계산기
 TOTAL_CRIT_VALUE: 종합 CV
 TRUTH_COMMAND_RESPONSES:
-  - 당연하지
-  - ㅇㅇ
-  - 아무래도?
-  - 나의생각은 그래
-  - ㅇㅇ
-  - 틀림없지 ㅋㅋ
-  - 확실히 그렇지!
-  - 페이몬은 틀림없어!
-  - 내생각은 그럴지도?
+  - 당연하지~!
+  - 응~맞아!
+  - 아마도 그럴거야~?
+  - 내 생각은 그런거같아~
+  - 응! 정말 확신해~!
+  - 그건 틀림없이 맞아~!
+  - 페이몬을 믿어! 정말 확실해~!
+  - 페이몬은 절대 틀리지않아~!
+  - 내생각은 아마 그럴지도~?
   - 99% 맞을지도?
-  - ㄴㄴ
-  - 페이몬 생각은 아니야
-  - 페이몬은 절대아니야
-  - 페이몬생각은......"아니"
-  - 페이몬생각은 아닌거같아
-  - 글쎄....?
-  - 몰?루
-  - 아마도? 그럴지도?
-  - 페이몬이 그걸 어떻게 알아?
+  - 응 틀렸어~!
+  - 페이몬이 생각하기에는 이건 아닌거같아 ㅠ.ㅠ
+  - 절대 아니거든~!!
+  - 내생각은... 이건아니야~!!
+  - 음 그건 아닌거같은데~?
+  - 음~ 글쎄~?
+  - 페이몬은 아무것도 몰?루
+  - 아마도 그럴거같아~!
+  - 몰라! 내가 그딴걸 어케알아~!
   - 페이몬, 이거는 너무 예상 밖이야
-  - 페이몬, 피곤해
+  - 페이몬은 피곤해 꿈속에서 보자 ㅇ_ㅇ
   - 페이몬은 틀림없어!
 TRUTH_COMMAND_TITLE: 페이몬과 함께하는 이야기
 QUESTION_KEY: 질문
@@ -357,7 +357,7 @@ APP_CONTEXT_MENU_ABYSS: Abyss Progression
 APP_CONTEXT_MENU_CHARACTERS: 캐릭터
 APP_CONTEXT_MENU_WISH_HISTORY: 기원 기록
 WHITELIST_KEY_LOWERCASE: 화이트리스트
-HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Wishes"
+HISTORY_COMMAND_BANNER_TITLE: "{banner_name} 배너기원"
 SLASH_PAGINATION: Page {current_page}/{total_pages}
 OF_PAGINATION: Page {current_page} of {total_pages}
 HISTORY_COMMAND_TABLE_HEADER: "Rarity | Pity | Name | Date"
@@ -378,7 +378,7 @@ USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered
 FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."
 FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "참고: 이 명령을 사용하려면 기원 기록 또는 호요랩을 사용하는방법을 통해 등록해야 합니다."
 FOOTER_REQUIRE_UID_OR_HOYOLAB: "참고: 이 명령을 사용하려면 UID 또는 호요랩 방법을 통해 등록해야 합니다."
-FOOTER_GCG_EXPANDED: Your TCG Showcase statistics can be shown in more detail if you register using your HoYoLAB account!
+FOOTER_GCG_EXPANDED: 호요랩 계정을 사용하여 등록하면 일곱 성인의 소환 쇼케이스 통계를 더 자세히 볼 수 있습니다!
 LINK_HOYOLAB_TITLE: Genshin Wizard | 호요랩 계정등륵
 LINKING_UID_TITLE: Genshin Wizard | 링크 UID
 LINK_HOYOLAB_DESCRIPTION: |
@@ -392,36 +392,36 @@ LINK_HOYOLAB_DESCRIPTION: |
   > **5.** 사용 가능한 **모든** 캐릭터가 포함된 인포그래픽을 봅니다.
 
   시작하려면 아래 사용자 등록 옵션 중 하나를 클릭하십시오!
-HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Automatic Daily Sign-in
-AUTOCLAIM_ALREADY_DISABLED: Automatic HoYoLAB daily sign-in is already disabled.
-AUTOCLAIM_ALREADY_ENABLED: Automatic HoYoLAB daily sign-in is already enabled.
-AUTOCLAIM_DISABLED: Automatic HoYoLAB daily sign-in has been disabled.
-AUTOCLAIM_ENABLED: Automatic HoYoLAB daily sign-in has been enabled.
+HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | 자동 일일 로그인
+AUTOCLAIM_ALREADY_DISABLED: 자동 호요랩 일일 로그인은 이미 비활성화되어 있습니다.
+AUTOCLAIM_ALREADY_ENABLED: 자동 호요랩 일일 로그인이 이미 활성화되어 있습니다.
+AUTOCLAIM_DISABLED: 자동 호요랩 일일 로그인이 비활성화되었습니다.
+AUTOCLAIM_ENABLED: 자동 호요랩 일일 로그인이 활성화되었습니다.
 AUTOCLAIM_VOTE_REQUIREMENT: You must **__vote__** for our server and bot before being able to enable autoclaim!
 HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | 호요랩 일일로그인 보상
 HOYOLAB_SIGN_IN_REWARDS: |
-  Successfully **claimed** daily reward!
+  성공적으로 **수령된** 일일 보상!
 
-  Rewards Claimed: `{rewards}`
-  Amount: `x{amount}`
+  받은 보상: `{rewards}`
+  금액: `x{amount}`
 HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | 호요랩월간보상
 HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: 이번달의 HoYoLAB 일일 보상을 확인하세요
-HOYOLAB_DIARY_TITLE: Genshin Wizard | Traveler's Diary
+HOYOLAB_DIARY_TITLE: Genshin Wizard | 여행자다이어리
 HOYOLAB_INVALID_REDEEM: |
-  You must provide a redemption code to redeem.
-  **Proper Command Usage** ```/redeem CODE_ONE,CODE_TWO,...```
+  교환하려면 교환 코드를 제공해야 합니다.
+  **올바른 명령 사용법** ```/redeem CODE_ONE,CODE_TWO,...```
 CHINA_NOT_ALLOWED: Redeeming codes for CN users is **not supported** as of yet.
 HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | 호요랩 Overview
-HOYOLAB_LOADING_ACCOUNT: Loading account information...
-HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Real-time Notes** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
-HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Game Record** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
-HOYOLAB_ACCOUNT_ERROR: There was an error grabbing your account's information! Please try again *later*.
+HOYOLAB_LOADING_ACCOUNT: 계정 정보 불러오는 중....
+HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> 계정의 **실시간 메모** 정보를 검색하는 동안 오류가 발생했습니다! *나중에* 다시 시도하거나 [**공식 지원 서버**](https://discord.gg/BTT5Zr7Dmp)에 가입하여 도움을 받으세요.
+HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> 계정의 **게임 기록** 정보를 검색하는 동안 오류가 발생했습니다! *나중에* 다시 시도하거나 [**공식 지원 서버**](https://discord.gg/BTT5Zr7Dmp)에 가입하여 도움을 받으세요.
+HOYOLAB_ACCOUNT_ERROR: 계정 정보를 가져오는 중에 오류가 발생했습니다! 나중에 다시 시도 해주십시오*.
 HOYOLAB_ACCOUNT_MANAGE: Genshin Wizard를 통해 호요랩 계정 관리
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard |캐릭터 요약
 CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /register!
 GCG_NO_CARDS_FOUND: No Cards Found!
 GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Traveler! Unfortunately, {member} has **no cards** yet! Head-in game and play some TCG on Genshin Impact *before* using this command.
-HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
+HOYOLAB_REGISTER_SCRIPT_TITLE: 등록 | 스크립트 방식
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
   **호요랩 계정을 Genshin Wizard와 연결하는 방법**
   > **1.** 먼저 [**호요랩**](https://www.hoyolab.com/home) 계정에 로그인합니다.
@@ -429,8 +429,8 @@ HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
   > **3.** 스크립트를 성공적으로 실행했으면 `여기를 클릭하여 복사하세요!` 버튼을 클릭하여 쿠키를 복사합니다.
   > **4.** 마지막으로 아래의 `토큰 입력` 버튼을 클릭하고 복사한 토큰을 붙여넣어 등록할 수 있습니다.
 HOYOLAB_REGISTER_SCRIPT: |
-  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)```
-HOYOLAB_REGISTER_LOGIN_TITLE: Registration | Login Method
+  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('다시 시도하기 전에 로그아웃했다가 다시 로그인하세요. 쿠키가 현재 만료되었거나 유효하지 않습니다!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">복사하려면 여기를 클릭하세요!</button>`)```
+HOYOLAB_REGISTER_LOGIN_TITLE: 등록 | 로그인 방법
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
   **호요랩 계정을 Genshin Wizard와 연결하는 방법**
   > **1.** 시작하려면 아래에서 '등록' 버튼을 선택하세요.
@@ -439,7 +439,7 @@ HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
   > **4.** 마지막으로 모든 단계가 올바르게 완료되면 개인 메시지를 통해 계정이 성공적으로 연결되었다는 **확인 메시지**를 받게 됩니다.
 
   <:information:1021014187197083668> **참고:** 이 방법은 편의/QOL을 위해 제공됩니다. 계정 보안이 걱정되시면 대신 스크립트 방법이나 다른 등록 양식을 사용하십시오.
-HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
+HOYOLAB_REGISTER_LOGIN_FOOTER: Genshin Wizard는 귀하의 계정 세부 정보를 저장하지 않는다는 점을 알려드립니다! 이 등록 방법은 계정 통계를 보는 데 필요한 필수 쿠키를 검색합니다.
 ARE_YOU_SURE: Are you sure?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
   Genshin Wizard에서 호요랩 계정을 **연결 해제**하도록 요청하셨습니다.
@@ -494,7 +494,7 @@ LEADERBOARD_ARTIFACT_FOOTER: Artifact information is updated via info commands, 
 LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Character stats information is updated via info commands, check your builds frequently to actively get updated character stats!
 LEADERBOARD_ABYSS_FOOTER: Abyss statistics are updated via the abyss progression command, check your abyss progression frequently to get an updated statistics measurement!
 LEADERBOARD_DONATION_FOOTER: Donate via the support links found in the /donate command to obtain a spot on this exquisite leaderboard!
-LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Crunching data, please be **patient**...* <a:tyno:1001656937689120788>
+LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *데이터를 분석하는 중입니다. **기다려 주세요**...* <a:tyno:1001656937689120788>
 ERROR_GUILD_ONLY_BUTTON: ":no_entry: You must be in a guild to use this button!"
 QUERY_NO_RESULTS: "No results found for `{input}`. Please rephrase and try again!"
 LOCATION_COMMAND_ROUTES_TITLE: 파밍루트 요약
@@ -692,7 +692,7 @@ GENSHIN_WIZARD_REGISTRATION: Genshin Wizard 등륵하기
 UNLINK_GENSHIN_ACCOUNT: Unlink Genshin Account
 UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Unlink your Genshin Impact account completely from Genshin Wizard. This will erase all your data from Genshin Wizard, including your wish history, wish statistics, and more. This action is **irreversible**. Are you sure you want to continue?
 UNLINK_HOYOLAB_ACCOUNT: 호요랩 계정 연결 해제
-UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Unlink your HoYoLAB account from Genshin Wizard; Will not unlink your linked UID from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
+UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Genshin Wizard에서 효요랩 계정의 연결을 해제하십시오. Genshin Wizard에서 연결된 UID의 연결을 해제하지 않습니다. 이 작업은 **돌이킬 수 없습니다**. 정말로 계속하기를 원하십니까?
 PURGE_WISH_HISTORY: Purge Wish History
 PURGE_WISH_HISTORY_DESCRIPTION: Purge only your wish history from Genshin Wizard, your Genshin account will still be linked to Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
 UNLINK_EVERYTHING: Unlink Everything
@@ -725,22 +725,22 @@ REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Refresh Wish History
 FORCE_REFRESH_FOOTER: If you'd prefer to force-refresh to prolong the expiry of your current history link, you may do so by clicking one of the buttons below.
 UNLINKING_CENTRE_TITLE: Genshin Wizard | Unlinking Centre
 UNLINKING_CENTRE_DESCRIPTION: Hello Traveler! Welcome to Genshin Wizard's unlinking centre. Manage your linked data through the buttons below. Friendly reminder that any method of unlinking will **erase all your data** from Genshin Wizard. This action is **irreversible**
-INVALID_COOKIE_RESPONSE: ":no_entry: You did not enter a valid **HoYoLAB** cookie!"
+INVALID_COOKIE_RESPONSE: ":no_entry: 유효한 **호요랩** 쿠키를 입력하지 않았습니다!"
 RETRIEVING_ACCOUNT_INFORMATION: "*계정 정보를 검색하는 중...*"
-SYNCED_HOYOLAB_UID: Successfully synced **HoYoLAB** UID!
+SYNCED_HOYOLAB_UID: '**호요랩 ** UID 동기화 성공'
 SYNCED_IN_GAME_UID: Successfully synced **In-Game** UID!
 ERROR_NO_ACCOUNTS: ":no_entry: There are **no accounts** associated with this token!"
 SUCCESSFULLY_LINKED_KEY: Successfully Linked!
 SUCCESSFULLY_LINKED_HOYOLAB: |
-  Successfully synced in-game account progression.
+  게임 내 계정 진행을 성공적으로 동기화했습니다.
 
-  Successfully synced your HoYoLAB account! You can now access the **HoYoLAB account menu** by using the command </hoyo:{command_id}>!
+  호요랩 계정을 성공적으로 동기화했습니다! 이제 </hoyo:{command_id}> 명령을 사용하여 **호요랩 계정 메뉴**에 액세스할 수 있습니다!
 REGISTRATION_FAILED: Registration Failed!
 REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> Registering your account was **unsuccessful**! Please try again or contact the [**support team**](https://discord.gg/genshinwizard) if the issue persists. This issue is typically caused by an invalid email/password combination.
-INVALID_HOYOLAB_EMAIL_PROMPT: Please enter a valid email address! You must use the email address you use to login to your **HoYoLAB** account.
-HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | HoYoLAB Registration
+INVALID_HOYOLAB_EMAIL_PROMPT: 유효한 이메일 주소를 입력하세요! **호요랩** 계정에 로그인하는 데 사용하는 이메일 주소를 사용해야 합니다.
+HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | 호요랩 등록
 HOYOLAB_REGISTRATION_DESCRIPTION: |
-  Hello Traveler! Please wait while we process your registration request, bear in mind that this may take a moment.
+  안녕하세요 여행자님! 등록 요청을 처리하는 동안 잠시 기다려 주십시오. 시간이 조금 걸릴 수 있습니다.
 
   <a:FlowersBlue:955579121562423348> **Genshin Fun Fact of the Day:**
   `"{fun_fact}"`
@@ -817,7 +817,7 @@ RESIN_REMINDER_FOOTER: Click a button with 🔔 to get a reminder! Make sure you
 SET_RESIN_REMINDER_KEY: Set resin reminder!
 API_ISSUE: There has been an API Issue.
 HOW_TO_SOLVE_TITLE: How to solve this?
-ENABLE_CHRONICLES: Visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable battle chronicles to make your genshin profile public
+ENABLE_CHRONICLES: '[**호요랩 설정**](https://www.hoyolab.com/setting/privacy/)을 방문하여 배틀 연대기를 활성화하여 원신 프로필을 공개하세요.'
 PLEASE_WAIT_DESCRIPTION: Waiting! There is nothing you can do to get past this at the moment.
 PLAYER_TITLE: 플레이어 {player}
 USER_TITLE: 유저 {user}
@@ -833,7 +833,7 @@ GENERAL_OVERVIEW_SECTION: |
 CHEST_PROGRESSION_KEY: Chest Progression
 EXPLORATION_AND_OCULI: Exploration & Oculi
 NOT_YET_UNLOCKED: Not Yet Unlocked!
-STATISTICS_COMMAND_FOOTER: "Note: Statistics may be incorrectly shown or missing data, there is nothing we can do on our end to prevent this, it's an API error on HoYoLAB's end."
+STATISTICS_COMMAND_FOOTER: "참고: 통계가 잘못 표시되거나 데이터가 누락될 수 있습니다. 호요랩 측에서 API 오류가 발생하여 이를 방지할 수 있는 방법이 없습니다."
 CONGRATULATIONS_KEY: Congratulations!
 ABYSS_CONGRATULATE_MESSAGE: |
   Congratulations {user} on perfectly *clearing* the Spiral Abyss!
@@ -1161,7 +1161,7 @@ ACTIVE_PLAYTIME_KEY: Active Playtime
 WISHES_KEY: 기원
 DONATIONS_KEY: 후원하기
 LEVELS_KEY: 레벨
-CHESTS_DESCRIPTION: View Genshin Wizard's chests leaderboard.
+CHESTS_DESCRIPTION: Genshin Wizard의 상자 순위 보기
 ACHIVEMENTS_DESCRIPTION: View Genshin Wizard's achievements leaderboard.
 CHARACTER_STATISTICS_DESCRIPTION: Genshin Wizard의 캐릭터 통계 리더보드 보기
 ARTIFACT_SUBSTAT_DESCRIPTION: Genshin Wizard의 성유물 통계 리더보드 보기
@@ -1177,7 +1177,7 @@ EXQUISITE_LABEL: "Exquisite"
 PRECIOUS_LABEL: "Precious"
 LUXURIOUS_LABEL: "Luxurious"
 REMARKABLE_LABEL: "Remarkable"
-ALL_CHESTS_LABEL: "All Chests"
+ALL_CHESTS_LABEL: "모든보물상자"
 STRONGEST_STRIKE_LABEL: "Strongest Strike"
 MOST_BURSTS_USED_LABEL: "Most Bursts Used"
 MOST_SKILLS_USED_LABEL: "Most Skills Used"
@@ -1240,8 +1240,8 @@ LINK_UID_MODAL_LABEL: 원신 UID
 LINK_UID_MODAL_PLACEHOLDER: Insert your Genshin Impact UID
 REGISTER_MODAL_LABEL: Your wish history URL
 HOYOLAB_KEY: 호요랩
-HOYOLAB_REGISTRATION_MODAL_TITLE: HoYoLAB Registration
-HOYOLAB_REGISTRATION_MODAL_LABEL: Your HoYoLAB Cookie
+HOYOLAB_REGISTRATION_MODAL_TITLE: 호요랩 등록
+HOYOLAB_REGISTRATION_MODAL_LABEL: 호요랩 쿠키
 LOGIN_MODAL_TITLE: 호요랩 계정 로그인
 RESIN_KEY: 레진
 TEAPOT_KEY: 선계
@@ -1294,7 +1294,7 @@ TEAM_SYNERGIES_DESCRIPTION: View Character Team Synergies
 CONSTELLATIONS_DESCRIPTION: View Character Constellations Overview
 SKILL_TALENTS_DESCRIPTION: View Character Active/Skill Talents
 PASSIVE_TALENTS_DESCRIPTION: View Character Passive Talents
-VIEW_CARD_BUTTON: View Card on HoYoLAB Wiki
+VIEW_CARD_BUTTON: 호요랩 위키 에서 카드 보기
 CONFIG_DAILY_ANNOUNCEMENTS_PANEL: Daily Announcements Panel
 CONFIG_SERVER_TIME_PANEL: Server Time Panel
 CONFIG_DOMAIN_SCHEDULE_PANEL: Domain Schedule Panel
