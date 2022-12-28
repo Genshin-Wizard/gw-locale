@@ -355,18 +355,18 @@ APP_CONTEXT_MENU_PROFILE: 프로필
 APP_CONTEXT_MENU_STATISTICS: 통계 진행
 APP_CONTEXT_MENU_ABYSS: Abyss Progression
 APP_CONTEXT_MENU_CHARACTERS: 캐릭터
-APP_CONTEXT_MENU_WISH_HISTORY: Wish History
-WHITELIST_KEY_LOWERCASE: whitelist
+APP_CONTEXT_MENU_WISH_HISTORY: 기원 기록
+WHITELIST_KEY_LOWERCASE: 화이트리스트
 HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Wishes"
 SLASH_PAGINATION: Page {current_page}/{total_pages}
 OF_PAGINATION: Page {current_page} of {total_pages}
 HISTORY_COMMAND_TABLE_HEADER: "Rarity | Pity | Name | Date"
 HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Guaranteed Pity: {indicator}**"
 HISTORY_LINK_EXPIRED: History Link Expired
-HISTORY_COMMAND_LIFETIME_PULLS: Lifetime Pulls
-HISTORY_COMMAND_WISHES_WORTH: Wishes Worth
+HISTORY_COMMAND_LIFETIME_PULLS: 총 뽑기 횟수
+HISTORY_COMMAND_WISHES_WORTH: 기원 가치
 HISTORY_COMMAND_CURRENT_PITIES: Current Pities
-SEARCH_ERROR: Search Error!
+SEARCH_ERROR: 검색 오류
 HISTORY_COMMAND_NO_WISHES: |
   No wishes were found for this search!
   Try selecting a different banner to check below.
@@ -376,74 +376,74 @@ REGISTERED_KEY: 등록됨
 NOT_REGISTERED_KEY: 등록되지 않은
 USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** yet! Please register using </register:{command_id}> *before* using this command.
 FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."
-FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Note: This command requires you to register through the Wish History or HoYoLAB method."
-FOOTER_REQUIRE_UID_OR_HOYOLAB: "Note: This command requires you to register through the UID or HoYoLAB method."
+FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "참고: 이 명령을 사용하려면 기원 기록 또는 호요랩을 사용하는방법을 통해 등록해야 합니다."
+FOOTER_REQUIRE_UID_OR_HOYOLAB: "참고: 이 명령을 사용하려면 UID 또는 호요랩 방법을 통해 등록해야 합니다."
 FOOTER_GCG_EXPANDED: Your TCG Showcase statistics can be shown in more detail if you register using your HoYoLAB account!
-LINK_HOYOLAB_TITLE: Genshin Wizard | Link HoYoLAB Account
+LINK_HOYOLAB_TITLE: Genshin Wizard | 호요랩 계정등륵
 LINKING_UID_TITLE: Genshin Wizard | 링크 UID
 LINK_HOYOLAB_DESCRIPTION: |
-  Welcome to Genshin Wizard's HoYoLAB account linking system.
+  Genshin Wizard의 호요랩 계정 연결 시스템에 오신 것을 환영합니다.
 
-  **Linking Features:**
-  > **1.** Access to your in-game resin count in real-time (set up automatic notifications).
-  > **2.** Access to your in-game expedition status in real-time.
-  > **3.** Ability to claim your *Daily Check-in Reward* straight from Discord.
-  > **4.** Ability to view in-depth information about your Spiral Abyss progression.
-  > **5.** View an infographic containing **all** your available characters.
+  **연결 기능:**
+  > **1.** 실시간으로 게임 내 레진 수에 액세스합니다(자동 알림 설정).
+  > **2.** 실시간으로 게임 내 탐사 상태에 액세스합니다.
+  > **3.** Discord에서 바로 *일일 체크인 보상*을 청구할 수 있는 기능.
+  > **4.** 나선 비경 진행 상황에 대한 자세한 정보를 볼 수 있는 기능.
+  > **5.** 사용 가능한 **모든** 캐릭터가 포함된 인포그래픽을 봅니다.
 
-  To begin, click one of the user registration options below!
+  시작하려면 아래 사용자 등록 옵션 중 하나를 클릭하십시오!
 HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Automatic Daily Sign-in
 AUTOCLAIM_ALREADY_DISABLED: Automatic HoYoLAB daily sign-in is already disabled.
 AUTOCLAIM_ALREADY_ENABLED: Automatic HoYoLAB daily sign-in is already enabled.
 AUTOCLAIM_DISABLED: Automatic HoYoLAB daily sign-in has been disabled.
 AUTOCLAIM_ENABLED: Automatic HoYoLAB daily sign-in has been enabled.
 AUTOCLAIM_VOTE_REQUIREMENT: You must **__vote__** for our server and bot before being able to enable autoclaim!
-HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | HoYoLAB Daily Sign-in
+HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | 호요랩 일일로그인 보상
 HOYOLAB_SIGN_IN_REWARDS: |
   Successfully **claimed** daily reward!
 
   Rewards Claimed: `{rewards}`
   Amount: `x{amount}`
-HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | HoYoLAB Monthly Rewards
-HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: View HoYoLAB daily rewards for the month
+HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | 호요랩월간보상
+HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: 이번달의 HoYoLAB 일일 보상을 확인하세요
 HOYOLAB_DIARY_TITLE: Genshin Wizard | Traveler's Diary
 HOYOLAB_INVALID_REDEEM: |
   You must provide a redemption code to redeem.
   **Proper Command Usage** ```/redeem CODE_ONE,CODE_TWO,...```
 CHINA_NOT_ALLOWED: Redeeming codes for CN users is **not supported** as of yet.
-HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | HoYoLAB Overview
+HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | 호요랩 Overview
 HOYOLAB_LOADING_ACCOUNT: Loading account information...
 HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Real-time Notes** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
 HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Game Record** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
 HOYOLAB_ACCOUNT_ERROR: There was an error grabbing your account's information! Please try again *later*.
-HOYOLAB_ACCOUNT_MANAGE: Manage your HoYoLAB account through Genshin Wizard
+HOYOLAB_ACCOUNT_MANAGE: Genshin Wizard를 통해 호요랩 계정 관리
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard |캐릭터 요약
 CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /register!
 GCG_NO_CARDS_FOUND: No Cards Found!
 GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Traveler! Unfortunately, {member} has **no cards** yet! Head-in game and play some TCG on Genshin Impact *before* using this command.
 HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin with, login to your [**HoYoLAB**](https://www.hoyolab.com/home) account.
-  > **2.** Type `java` in the address bar followed by the script down below.
-  > **3.** Once you've successfully ran the script, click the `Click here to copy!` button to copy the cookie.
-  > **4.** Finally, you're able to register by clicking the `Enter Token` button below and pasting the token you copied.
+  **호요랩 계정을 Genshin Wizard와 연결하는 방법**
+  > **1.** 먼저 [**호요랩**](https://www.hoyolab.com/home) 계정에 로그인합니다.
+  > **2.** 주소 표시줄에 `java`를 입력한 다음 아래 스크립트를 입력합니다.
+  > **3.** 스크립트를 성공적으로 실행했으면 `여기를 클릭하여 복사하세요!` 버튼을 클릭하여 쿠키를 복사합니다.
+  > **4.** 마지막으로 아래의 `토큰 입력` 버튼을 클릭하고 복사한 토큰을 붙여넣어 등록할 수 있습니다.
 HOYOLAB_REGISTER_SCRIPT: |
   ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)```
 HOYOLAB_REGISTER_LOGIN_TITLE: Registration | Login Method
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin, select the `Register` button down below.
-  > **2.** In the input fields, enter your HoYoLAB account login details, remember to use your **email** and password.
-  > **3.** Once you've successfully entered your account details, wait for Genshin Wizard to process your registration request, bear in mind that this may take a minute or two.
-  > **4.** Finally, if all the steps are done correctly, you will receive a **confirmation message** via DMs indicating that your account has been successfully linked.
+  **호요랩 계정을 Genshin Wizard와 연결하는 방법**
+  > **1.** 시작하려면 아래에서 '등록' 버튼을 선택하세요.
+  > **2.** 입력 필드에 호요랩 계정 로그인 세부 정보를 입력하고 **이메일**과 비밀번호를 사용해야 합니다.
+  > **3.** 계정 세부 정보를 성공적으로 입력했으면 Genshin Wizard가 등록 요청을 처리할 때까지 기다리십시오. 이 작업에는 1~2분이 소요될 수 있습니다.
+  > **4.** 마지막으로 모든 단계가 올바르게 완료되면 개인 메시지를 통해 계정이 성공적으로 연결되었다는 **확인 메시지**를 받게 됩니다.
 
-  <:information:1021014187197083668> **Note:** This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead.
+  <:information:1021014187197083668> **참고:** 이 방법은 편의/QOL을 위해 제공됩니다. 계정 보안이 걱정되시면 대신 스크립트 방법이나 다른 등록 양식을 사용하십시오.
 HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
 ARE_YOU_SURE: Are you sure?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
-  You have requested to **unlink** your HoYoLAB account from Genshin Wizard.
-  This means that you will no longer be able to *claim your daily rewards*, view your *full abyss progression*, and other extended features such as *viewing all your characters*.
+  Genshin Wizard에서 호요랩 계정을 **연결 해제**하도록 요청하셨습니다.
+  즉, 더 이상 *일일 보상 청구*, *전체 심연 진행 상황* 및 *모든 캐릭터 보기*와 같은 기타 확장 기능을 볼 수 없습니다.
 UNLINKING_SUCCESSFUL: Unlinking successful!
 UNLINKING_SUCCESSFUL_DESCRIPTION: Your account has been successfully unlinked from Genshin Wizard!
 UNLINKING_UNSUCCESSFUL: Unlinking unsuccessful!
@@ -497,7 +497,7 @@ LEADERBOARD_DONATION_FOOTER: Donate via the support links found in the /donate c
 LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Crunching data, please be **patient**...* <a:tyno:1001656937689120788>
 ERROR_GUILD_ONLY_BUTTON: ":no_entry: You must be in a guild to use this button!"
 QUERY_NO_RESULTS: "No results found for `{input}`. Please rephrase and try again!"
-LOCATION_COMMAND_ROUTES_TITLE: Farming Routes Overview
+LOCATION_COMMAND_ROUTES_TITLE: 파밍루트 요약
 LOCATION_COMMAND_MAP_TITLE: "{resource} Map Locations"
 LOCATION_COMMAND_REGION_DESCRIPTION: "Local {region} Specialty:"
 LOCATION_COMMAND_FARMABLE_FOOTER: Farmable locations for specified material
@@ -518,14 +518,14 @@ PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and re
 GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
 GENSHIN_STATISTICS_INFOGRAPHIC: 원신 통계 인포그래픽
 GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: 안녕하세요 여행자님! 요청하신 **특별하게** 생성된 원신 통계/진행 인포그래픽입니다!
-HIDDEN_KEY: Hidden
-REQUESTED_UID_KEY: Requested UID
+HIDDEN_KEY: 숨김
+REQUESTED_UID_KEY: 요청 UID
 GENSHIN_EXPLORATION_INFOGRAPHIC: 원신 탐사도 진행
 GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: 안녕하세요 여행자님! 요청하신 **특별하게** 생성된 원신 탐사 인포그래픽입니다!
 PROFILE_NOT_OWNER: You can't use this button on someone else's profile!
 PRIVACY_SETTING_TITLE: Genshin Wizard Privacy Settings
 PRIVACY_SETTING_DESCRIPTION: Change your Genshin Wizard privacy settings here.
-PRIVACY_SETTING_KEY: Privacy Settings
+PRIVACY_SETTING_KEY: 개인정보 설정
 PRIVACY_SETTING_BRIEF: |
   **UID Privacy:** {uid_privacy}
   **Wish History Privacy:** {wish_privacy}
@@ -545,7 +545,7 @@ PRIVACY_SETTING_OVERVIEW: |
   > *Hide your showcase builds information from showing up anywhere (`/info`)*
 ALL_KEY: 전체
 RESET_KEY: 재설정
-WISH_HISTORY_KEY: Wish History
+WISH_HISTORY_KEY: 기원 기록
 ABYSS_KEY: 심연
 UID_KEY: UID
 STATS_KEY: 통계
@@ -594,8 +594,8 @@ ABYSSAL_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Abyssal Archives**
   **Start Time:** <t:{timestamp_start}:F>
   **End Time:** <t:{timestamp_end}:F>
-UID_LOOKUP: Genshin UID Lookup
-UID_LOOKUP_TITLE: "{user}'s Genshin Account UID"
+UID_LOOKUP: 원신 UID 보기
+UID_LOOKUP_TITLE: "{user} 원신 계정 UID"
 PUBLIC_KEY: 공개
 PRIVATE_KEY: 비공개
 CREATION_DATA_KEY: 최초 생성일
@@ -605,17 +605,17 @@ LOCATION_KEY: 지역
 TOP_ROLE_KEY: 상위 역할
 RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
 RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
-WISHES_WORTH_KEY: Wishes Worth
+WISHES_WORTH_KEY: 기원 가치
 OVERALL_SUMMARY_KEY: Overall Summary
 OVERALL_STATS_KEY: 합계
 PERCENTAGE_KEY: 퍼센트
 TOTAL_WISHES_KEY: Total Wishes
 TOTAL_KEY: 합계
-TOTAL_FIVE_STAR: Total 5-star
+TOTAL_FIVE_STAR: 5성
 NUMBER_FIVE_STAR: Number of 5-star
-TOTAL_FOUR_STAR: Total 4-star
+TOTAL_FOUR_STAR: 4성
 NUMBER_FOUR_STAR: Number of 4-star
-TOTAL_THREE_STAR: Total 3-star
+TOTAL_THREE_STAR: 3성
 REGISTER_PC_METHOD: "PC"
 REGISTER_ANDROID_METHOD: "안드로이드"
 IOS_KEY: "iOS"
@@ -691,7 +691,7 @@ SUCCESSFULLY_REGISTERED_RESPONSE: |
 GENSHIN_WIZARD_REGISTRATION: Genshin Wizard 등륵하기
 UNLINK_GENSHIN_ACCOUNT: Unlink Genshin Account
 UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Unlink your Genshin Impact account completely from Genshin Wizard. This will erase all your data from Genshin Wizard, including your wish history, wish statistics, and more. This action is **irreversible**. Are you sure you want to continue?
-UNLINK_HOYOLAB_ACCOUNT: Unlink HoYoLAB Account
+UNLINK_HOYOLAB_ACCOUNT: 호요랩 계정 연결 해제
 UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Unlink your HoYoLAB account from Genshin Wizard; Will not unlink your linked UID from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
 PURGE_WISH_HISTORY: Purge Wish History
 PURGE_WISH_HISTORY_DESCRIPTION: Purge only your wish history from Genshin Wizard, your Genshin account will still be linked to Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
@@ -703,7 +703,7 @@ UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** t
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard 등륵하기
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Genshin Wizard에 Genshin 계정을 등록하십시오.
-HOYOLAB_ACCOUNT: HoYoLAB Account
+HOYOLAB_ACCOUNT: 호요랩 계정
 LINKED_UID_KEY: Linked UID
 LINKED_KEY: Linked
 NOT_LINKED_KEY: Not Linked
@@ -761,7 +761,7 @@ REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
   **Parametric Transformer Reminders <:parametrictransformer:1029984451670847568>**
   > **Automatic Reminder:** {automatic_parametric}
   {para_rmd}
-REMINDER_COMMAND_OVERVIEW_TITLE: Genshin Impact Reminders
+REMINDER_COMMAND_OVERVIEW_TITLE: 원신 알림
 ENABLED_KEY: 활성화됨
 DISABLED_KEY: 비활성화됨
 NOT_ENABLED_KEY: Not Enabled
@@ -819,17 +819,17 @@ API_ISSUE: There has been an API Issue.
 HOW_TO_SOLVE_TITLE: How to solve this?
 ENABLE_CHRONICLES: Visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable battle chronicles to make your genshin profile public
 PLEASE_WAIT_DESCRIPTION: Waiting! There is nothing you can do to get past this at the moment.
-PLAYER_TITLE: Player {player}
-USER_TITLE: User {user}
-OVERVIEW_KEY: Overview
-GENERAL_OVERVIEW_KEY: General Overview
+PLAYER_TITLE: 플레이어 {player}
+USER_TITLE: 유저 {user}
+OVERVIEW_KEY: 요약
+GENERAL_OVERVIEW_KEY: 일반 요약
 GENERAL_OVERVIEW_SECTION: |
-  Adventure Rank: {adventure_rank}
-  Total achievements: {achievement_number}
-  Total active days: {playtime}
-  Characters: **{char_count}**/{total_char}
-  Spiral Abyss: {abyss}
-  Region: {region}
+  모험 등급: {adventure_rank}
+  총 업적: {achievement_number}
+  총 활동 일수: {playtime}
+  캐릭터: **{char_count}**/{total_char}
+  나선비경: {abyss}
+  지역: {region}
 CHEST_PROGRESSION_KEY: Chest Progression
 EXPLORATION_AND_OCULI: Exploration & Oculi
 NOT_YET_UNLOCKED: Not Yet Unlocked!
@@ -889,7 +889,7 @@ COMMISSION_PREMIUM_EXTRA_REWARD: "> <a:mona_mora:1046611739774562374> As a **Pre
 COMMISSION_COMPLETE_MESSAGE: |
   <a:7094whitecheck:1020160260637462618> You have **successfully** completed your Daily Commissions!
   You have been rewarded with **16,000 Primogems** <:Primogem:951924423340994610>
-PRIVATE_MESSAGE_KEY: Private Message
+PRIVATE_MESSAGE_KEY: 개인 메시지
 SIMULATOR_BALANCE_MESSAGE: |
   <:blurpleannouncement:1020402170127982712> **Note:** You can only claim Daily Commission rewards **once** per day.
 
@@ -910,8 +910,8 @@ SIMULATOR_BADGES_TITLE: Badges Shop
 SIMULATOR_MISCELLANEOUS_TITLE: Miscellaneous Shop
 SIMULATOR_EXCLUSIVE_TITLE: Exclusive Shop
 SIMULATOR_NO_CHARACTERS: You have no characters in your inventory!
-PRIMOGEM_KEY: Primogem
-PRIMOGEMS_KEY: Primogems
+PRIMOGEM_KEY: 원석
+PRIMOGEMS_KEY: 원석
 SIMULATOR_NOT_ENOUGH_STARDUST: <:Error:1021889679857037372> You do not have enough **<:MasterlessStardust:951924423332626522> Stardust** to purchase this item!
 SIMULATOR_NOT_ENOUGH_STARGLITTER: <:Error:1021889679857037372> You do not have enough **<:MasterlessStarglitter:951924423059980290> Starglitter** to purchase this item!
 SIMULATOR_PURCHASED_PRIMOGEMS: <:yescheck:1021114525858136074> You have successfully purchased **<:Primogem:951924423340994610>{primogems} Primogems** for **{emote} {price} {item}**!
@@ -921,7 +921,7 @@ SIMULATOR_DUMP_UNSUCCESSFUL: Oops! Dumping your backpack was unsuccessful, there
 SIMULATOR_DUMP_SUCCESSFUL: <:yescheck:1021114525858136074> You have successfully dumped your inventory!
 SIMULATOR_DUMP_CANCELLED: "**<:yescheck:1021114525858136074> Successfully Cancelled!**"
 FARM_COMMAND_DOMAIN_TITLE: Domain Schedule Overview [{region}]
-SERVER_RESET_KEY: Server Reset
+SERVER_RESET_KEY: 서버 리셋
 ARTIFACT_GUIDE_FOOTER: Use the command /artifact <name_of_artifact> to get more information on an artifact.
 ARTIFACT_GUIDE_TITLE: 성유물 확인
 NO_ASSET_INPUT: ":no_entry: Please provide an asset ID to look up."
@@ -933,25 +933,25 @@ DEFAULT_SYNERGY_DESCRIPTION: Information regarding this character's team composi
 GUIDES_SUGGESTION_TITLE: Want to suggest changes to this particular guide?
 GUIDES_SUGGESTION_DESCRIPTION: Join the [**Official Discord**](https://discord.gg/BTT5Zr7Dmp) and head to the <:blurplelink:1020155547187691600> [**__Guides Discussion__**](https://discord.com/channels/951370297582436392/1007382105417854997) forum to suggest changes to this guide!
 JOIN_OFFICIAL_DISCORD: Join the Official Discord
-CHARACTER_GUIDE_OVERVIEW: Character Guides Overview
-TALENT_BOOK_OVERVIEW: Talent Book Overview
-WEAPON_ASCENSION_OVERVIEW: Weapon Ascension Material Overview
+CHARACTER_GUIDE_OVERVIEW: 캐릭터 가이드 요약
+TALENT_BOOK_OVERVIEW: 특성책 요약
+WEAPON_ASCENSION_OVERVIEW: 무기 돌파재료 요약
 REFERENCE_SHEET_GUIDE_FOOTER: "Reference Sheet Overview"
 REFERENCE_SHEET_GUIDE_TITLE: Available Reference Sheets
 EVENT_BANNER_DAILY: |
-  ☑️ Check-In to **[Hoyolab](https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us)** 🔗 now (or use `/daily`)!
-  ☑️ Daily Commission, Resin Check
-  ☑️ Daily Ore Forging and Mining
-  ☑️ Serenitea Pot: Furniture, Coins, and Plants
+  ☑️ 체크인 **[Hoyolab](https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us)** 🔗에 체크인(또는 `/매일`)!
+  ☑️ 일일 퀘스트, 레진 체크
+  ☑️ 일일 광석 단조 및 채광
+  ☑️ 선계: 가구, 동전 및 식물
 EVENT_BANNER_WEEKLY: |
-  ☑️ Parametric Transformer
-  ☑️ Weekly Battle Pass Quests
-  ☑️ Weekly Boss, Vendors, etc.
+  ☑️ 매개변수변환기
+  ☑️ 주간 기행 임무
+  ☑️ 주간보스, 상인, 기타등등.
 CONFIGURATION_PANEL_TITLE: Genshin Wizard | Config Panel
 CONFIGURATION_CHANGE_MESSAGE: "Make changes to Genshin Wizard's configuration panel. See our [**Documentation**](https://docs.genshinwizard.com/overview/server-panels) for more information."
-CHANNEL_KEY: Channel
+CHANNEL_KEY: 채널
 CONFIGURATION_CHANNEL_CLEAN: Please make sure the channel you wish to use is completely empty and that the bot has permissions to view and create webhooks within that channel!
-GUILD_KEY: Guild
+GUILD_KEY: 길드
 DAILY_ANNOUNCEMENTS_KEY: Daily Announcements
 ROLE_KEY: 역할
 SERVER_TIME_PANEL_KEY: Server Time Panel
@@ -1043,7 +1043,7 @@ PREMIUM_TIER_FOUR_PERKS: |
   <:blurplejoinarrow:932413900073369621> </commissions:{commissions_id}> 사용 시 매일 **<:Primogem:951924423340994610>40,000** Primoges의 Genshin Wizard Wish Simulator에 대한 보너스.
   <:blurplejoinarrow:932413900073369621> 독점 **<:gw_tier4:1045526663447969813> Heexenzirkel** 장로 역할
 PREMIUM_UNKNOWN_TIER: Unknown Tier Selected
-PREMIUM_PLAN: Premium Plan
+PREMIUM_PLAN: 프리미엄 플랜
 PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Genshin Wizard Server [Custom Role]
 PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: Hey Traveler, this **custom role** feature is only available in the official [**Genshin Wizard Discord Server**](https://discord.gg/BTT5Zr7Dmp).
 PREMIUM_CUSTOM_ROLE_FOOTER: Genshin Wizard Custom Role Settings
@@ -1106,15 +1106,15 @@ GENSHIN_WIZARD_SERVER_JOIN_DESCRIPTION: |
 
   For more information on how to use me, refer to our [**Documentation**](https://docs.genshinwizard.com/) or use the </help:{command_id}> command!
 SHOWCASE_KEY: 쇼케이스
-CUSTOM_ART_KEY: Custom Art
-DELETE_SELECTED_KEY: Delete Selected
+CUSTOM_ART_KEY: 커스텀아트
+DELETE_SELECTED_KEY: 선택된 항목 삭제
 DELETE_ALL_KEY: 전체삭제
 CANCEL_KEY: 취소
 CACHE_VIEW_NO_SAVED_CHARACTERS: No Saved Characters!
 THREE_STARS_KEY: 별 3개
 FOUR_STARS_KEY: 별 4개
 FIVE_STARS_KEY: 별 5개
-ALL_WISHES_KEY: All Wishes
+ALL_WISHES_KEY: 모든 기원
 THREE_STARS_FILTER_DESCRIPTION: Filter your wish history by three-star pulls.
 FOUR_STARS_FILTER_DESCRIPTION: Filter your wish history by four-star pulls.
 FIVE_STARS_FILTER_DESCRIPTION: Filter your wish history by five-star pulls.
@@ -1124,15 +1124,15 @@ CHARACTER_BANNER_DESCRIPTION: View your wish history for the character banner.
 WEAPON_BANNER_DESCRIPTION: View your wish history for the weapon banner.
 PERMANENT_BANNER_DESCRIPTION: View your wish history for the permanent banner.
 CHOOSE_BANNER_PLACEHOLDER: Choose a banner...
-GO_BACK_BUTTON: Go Back
+GO_BACK_BUTTON: 뒤로 가기
 REGISTER_SCRIPT_BUTTON: Register via Script
 REGISTER_LOGIN_BUTTON: Register via Login
-ENTER_TOKEN_BUTTON: Enter Token
-REGISTER_ACCOUNT_BUTTON: Register Account
+ENTER_TOKEN_BUTTON: 토큰 입력
+REGISTER_ACCOUNT_BUTTON: 계정 등록
 CHARACTERS_BUTTON: 캐릭터
-CLAIM_DAILY_REWARD_BUTTON: Claim Daily Reward
-MONTHLY_REWARDS_BUTTON: Monthly Rewards
-VIEW_TRAVELER_DIARY_BUTTON: View Traveler's Diary
+CLAIM_DAILY_REWARD_BUTTON: 일일 출석 체크
+MONTHLY_REWARDS_BUTTON: 월간 보상
+VIEW_TRAVELER_DIARY_BUTTON: 여행자 다이어리
 RELINK_ACCOUNT_BUTTON: Relink Account
 UNLINK_ACCOUNT_BUTTON: Unlink Account
 YES_BUTTON: Yes
@@ -1142,24 +1142,24 @@ DIARY_MONTH_LABEL: "{month}'s Diary"
 DIARY_MONTH_PLACEHOLDER: Choose a month to view...
 INVOKATION_ARCHIVE_LABEL: View Genius Invokation TCG Archive
 INVOKATION_RETURN_SHOWCASE: Return to Showcase
-GLOBAL_BUTTON: Global
+GLOBAL_BUTTON: 글로벌
 SERVER_BUTTON: 서버
-PERSONAL_BUTTON: Personal
+PERSONAL_BUTTON: 개인
 ABYSS_LEADERBOARD_WANING_PHASE_LABEL: "{date} Waning Phase"
 ABYSS_LEADERBOARD_WAXING_PHASE_LABEL: "{date} Waxing Phase"
 PERIOD_KEY: Period
 ABYSS_LEADERBOARD_ALL_TIME: All-time Leaderboard
 ABYSS_LEADERBOARD_ALL_TIME_DESCRIPTION: View records from all Abyss phases.
 ABYSS_LEADERBOARD_PLACEHOLDER: Choose an Abyss phase...
-CHESTS_KEY: Chests
-ACHIVEMENTS_KEY: Achievements
+CHESTS_KEY: 상자
+ACHIVEMENTS_KEY: 업적
 CHARACTER_STATISTICS_KEY: 캐릭터 능력치
 ARTIFACT_SUBSTAT_KEY: 성유물 부스텟
 ABYSS_STATISTICS_KEY: 심연 통계
-GACHA_SIMULATOR_KEY: Gacha Simulator
+GACHA_SIMULATOR_KEY: 가차 시뮬레이터
 ACTIVE_PLAYTIME_KEY: Active Playtime
-WISHES_KEY: Wishes
-DONATIONS_KEY: Donations
+WISHES_KEY: 기원
+DONATIONS_KEY: 후원하기
 LEVELS_KEY: 레벨
 CHESTS_DESCRIPTION: View Genshin Wizard's chests leaderboard.
 ACHIVEMENTS_DESCRIPTION: View Genshin Wizard's achievements leaderboard.
@@ -1216,33 +1216,33 @@ HYDRO_KEY: 물
 PYRO_KEY: 불
 RESET_SETTINGS_BUTTON: 설정 초기화
 MASTER_PRIVACY_BUTTON: Master Privacy
-UPDATE_BANNER_MODAL_TITLE: Update Banner
+UPDATE_BANNER_MODAL_TITLE: 배너업데이트
 UPDATE_BANNER_MODAL_URL_INPUT: Link to desired image for banner
 UPDATE_BANNER_MODAL_URL_PLACEHOLDER: https://some.link/to/image.png
 UPDATE_BIO_MODAL_TITLE: Update Bio
 UPDATE_BIO_MODAL_LABEL: A short description about you. (200 chars)
 UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
-SELECT_CHOOSE_CATEGORY: Choose a category...
+SELECT_CHOOSE_CATEGORY: 카테고리 선택
 PROFILE_KEY: 프로필
-PROFILE_DESCRIPTION: View your Genshin Wizard profile
+PROFILE_DESCRIPTION: 개인 Genshin Wizard 프로필을 확인합니다
 GENSHIN_STATISTICS_KEY: 원신 스텟
 GENSHIN_STATISTICS_DESCRIPTION: 원신 자신 스텟보기
 SPIRAL_ABYSS_STATISTICS_KEY: 나선비경 통계
 SPIRAL_ABYSS_STATISTICS_DESCRIPTION: 나선비경 진행 통계 보기
-COPY_UID_KEY: Copy UID
-CURRENT_ABYSS_PHASE: Current Abyssal Phase
+COPY_UID_KEY: UID 복사
+CURRENT_ABYSS_PHASE: 현재심연 l 단계
 CURRENT_ABYSS_PHASE_DESCRIPTION: 현재 비경 통계 진행 상황 보기
-PREVIOUS_ABYSS_PHASE: Previous Abyssal Phase
+PREVIOUS_ABYSS_PHASE: 이전심연l 단계
 PREVIOUS_ABYSS_PHASE_DESCRIPTION: 이전 비경 통계 진행 상황 보기
 ENTER_LINK_BUTTON: Enter link
 LINK_UID_MODAL_TITLE: Link UID
-LINK_UID_MODAL_LABEL: Genshin Impact UID
+LINK_UID_MODAL_LABEL: 원신 UID
 LINK_UID_MODAL_PLACEHOLDER: Insert your Genshin Impact UID
 REGISTER_MODAL_LABEL: Your wish history URL
-HOYOLAB_KEY: HoYoLAB
+HOYOLAB_KEY: 호요랩
 HOYOLAB_REGISTRATION_MODAL_TITLE: HoYoLAB Registration
 HOYOLAB_REGISTRATION_MODAL_LABEL: Your HoYoLAB Cookie
-LOGIN_MODAL_TITLE: HoYoLAB Account Login
+LOGIN_MODAL_TITLE: 호요랩 계정 로그인
 RESIN_KEY: 레진
 TEAPOT_KEY: 선계
 EXPEDITIONS_KEY: 원정
@@ -1259,14 +1259,14 @@ WEAPON_WISH_SUMMARY: View your wish summary for the Weapon banner.
 PERMANENT_WISH_SUMMARY: View your wish summary for the Permanent banner.
 RESET_INVENTORY_BUTTON: 인벤토리 초기화
 EXCLUSIVE_KEY: Exclusive
-MISCELLANEOUS_KEY_SHORT: Misc.
-BADGES_KEY: Badges
-RETURN_TO_MENU: Return to Menu
+MISCELLANEOUS_KEY_SHORT: 기타.
+BADGES_KEY: 배지
+RETURN_TO_MENU: 메뉴돌아가기
 SHOW_UNOWNED_KEY: Show Unowned
 SHOW_OWNED_KEY: Show Owned
 SHOP_BUTTON_LABEL: "{primogem_price} Primogems"
 REROLL_WISHES_BUTTON: Reroll Wishes
-VIEW_INVENTORY_BUTTON: View Inventory
+VIEW_INVENTORY_BUTTON: 인벤토리 보기
 REGION_SELECT_PLACEHOLDER: Select a region...
 AMERICA_KEY: 아메리카
 EUROPE_KEY: 유럽
@@ -1298,7 +1298,7 @@ VIEW_CARD_BUTTON: View Card on HoYoLAB Wiki
 CONFIG_DAILY_ANNOUNCEMENTS_PANEL: Daily Announcements Panel
 CONFIG_SERVER_TIME_PANEL: Server Time Panel
 CONFIG_DOMAIN_SCHEDULE_PANEL: Domain Schedule Panel
-CONFIG_CUSTOM_BANNER: Custom Banner
+CONFIG_CUSTOM_BANNER: 커스텀배너
 SERVER_SELECT_PLACEHOLDER: Choose server-time for announcements...
 MASTER_SWITCH_BUTTON: 전부 활성화/비활성화
 SWITCH_BUTTON: 활성화/비활성화
@@ -1384,7 +1384,7 @@ HELP_DROPDOWN_GUIDE_COMMANDS_DESCRIPTION: 가이드 명령어를 보여줍니다
 HELP_DROPDOWN_MISCELLANEOUS_COMMANDS_DESCRIPTION: 기타 명령어를 보여줍니다.
 HELP_PROFILE_COG_NAME: 프로필/통계
 HELP_PROFILE_WISH_COG_NAME: 기원
-HELP_HOYOLAB_COG_NAME: HoYoLAB
+HELP_HOYOLAB_COG_NAME: 호요랩
 HELP_GUIDE_COG_NAME: 가이드
 HELP_MISC_COG_NAME: 기타
 CHOOSE_ELEMENT_DROPDOWN: 요소 선택...
