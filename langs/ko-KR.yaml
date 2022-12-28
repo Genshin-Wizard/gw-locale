@@ -15,7 +15,7 @@ PING_INFORMATION: |
   봇 지연 시간: **{bot_latency}ms.**
   웹소켓 지연 시간: **{ws_latency}ms.**
 UPTIME_INFORMATION: |
-  **원신위자드 가동 시간**
+  **Genshin Wizard Uptime**
   **마지막 재시작 시간:** <t:{last_restart}:R>
   **가동 시간:** {uptime}
 VERSION_KEY: 버전
@@ -218,7 +218,7 @@ APP_COMMAND_EDIT_PLAYSTYLE_DESCRIPTION: 특정한 캐릭터의 플레이스타�
 APP_COMMAND_DESCRIBE_PLAYSTYLE_CHARACTER: 플레이스타일을 변경할 캐릭터의 이름을 입력해주세요.
 APP_COMMAND_EDIT_SYNERGY_DESCRIPTION: 특정 캐릭터의 시너지가 있는 조합을 변경합니다.
 APP_COMMAND_DESCRIBE_SYNERGY_CHARACTER: 조합을 변경할 캐릭터의 이름을 입력해주세요.
-APP_COMMAND_FARM_DESCRIPTION: 현재 지역의 비경 스케줄표를 확인합니다.
+APP_COMMAND_FARM_DESCRIPTION: 현재 지역의 비경 스케줄을 확인합니다.
 APP_COMMAND_TCGCARD_DESCRIPTION: 일곱 성인의 소환 카드를 검색합니다.
 APP_COMMAND_ARTIFACT_DESCRIPTION: 특정 성유물의 세트 옵션을 확인합니다.
 APP_COMMAND_ARTIFACTS_DESCRIPTION: 성유물 목록을 확인합니다.
@@ -309,7 +309,7 @@ GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: 대시보드로 이동
 REMOVE_CHARACTERS_FROM_CACHE: 저장된 캐릭터 제거
 INFO_COMMAND_CACHE_DELETE_SELECTED: Genshin Wizard의 빌드에서 선택한 캐릭터를 성공적으로 삭제했습니다!
 INFO_COMMAND_CACHE_DELETE_ALL: Genshin Wizard의 빌드에서 선택한 캐릭터를 성공적으로 삭제했습니다!
-INFO_COMMAND_CACHE_CANCEL: "**Cancelled** cache management request! You may dismiss this message."
+INFO_COMMAND_CACHE_CANCEL: "**취소** 캐시 관리 요청! 이 메시지를 무시하셔도 됩니다."
 APP_COMMAND_DESCRIBE_USER: 검색하려는 리소스입니다.
 APP_COMMAND_DESCRIBE_USER_AVATAR: The member you wish to view an avatar for.
 APP_COMMAND_DESCRIBE_UID: 검색하려는 유저의 UID입니다.
@@ -360,12 +360,12 @@ WHITELIST_KEY_LOWERCASE: 화이트리스트
 HISTORY_COMMAND_BANNER_TITLE: "{banner_name} 배너기원"
 SLASH_PAGINATION: Page {current_page}/{total_pages}
 OF_PAGINATION: Page {current_page} of {total_pages}
-HISTORY_COMMAND_TABLE_HEADER: "Rarity | Pity | Name | Date"
+HISTORY_COMMAND_TABLE_HEADER: "별 | 스택 | 이름 | 날짜"
 HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Guaranteed Pity: {indicator}**"
-HISTORY_LINK_EXPIRED: History Link Expired
+HISTORY_LINK_EXPIRED: 기록 링크가 만료됨
 HISTORY_COMMAND_LIFETIME_PULLS: 총 뽑기 횟수
 HISTORY_COMMAND_WISHES_WORTH: 기원 가치
-HISTORY_COMMAND_CURRENT_PITIES: Current Pities
+HISTORY_COMMAND_CURRENT_PITIES: 스택
 SEARCH_ERROR: 검색 오류
 HISTORY_COMMAND_NO_WISHES: |
   No wishes were found for this search!
@@ -479,8 +479,8 @@ IMPORT_COMMAND_LOG: |
   > 4-Stars: `{four_star}`
   > 5-Stars: `{five_star}`
 IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </register:{command_id}>.
-IMPORT_COMMAND_LINK_EXPIRED_TITLE: History Link Expired!
-IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Your history link has **expired**! Please refresh using the command </refresh:{command_id}> before trying to import!
+IMPORT_COMMAND_LINK_EXPIRED_TITLE: 기록 링크가 만료됨!
+IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: 기록 링크가 **만료**되었습니다! 가져오기를 시도하기 전에 </refresh:{command_id}> 명령을 사용하여 새로 고쳐주세요!
 IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **excel** sheet from their [Wish Counter](https://paimon.moe/wish) page settings. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
 IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: This file type is **not supported**. Please make sure you're not *changing* the file type before trying to import. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
 LEADERBOARD_NO_DATA: No data found for this specific query!
@@ -512,7 +512,7 @@ CURRENT_LEVEL_KEY: 현재레벨
 TARGET_LEVEL_KEY: Target Level
 REQUIRED_RESOURCES_KEY: 필요한 자원
 GENSHIN_WIZARD_USER_PROFILE: "{user}'s Genshin Wizard 프로필"
-PROFILE_SUMMARY_KEY: Profile Summary
+PROFILE_SUMMARY_KEY: 프로필 요약
 GENSHIN_WISH_STATS_KEY: Genshin 기원 기록
 PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
 GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
@@ -561,7 +561,7 @@ DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
 SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
 BIOGRAPHY_KEY: 자기소개
 BANNER_KEY: 배너
-ELEMENTAL_RESONANCE_KEY: Elemental Resonance
+ELEMENTAL_RESONANCE_KEY: 원소
 BUILDS_ART_STYLE_KEY: Builds Art Style
 ART_STYLE_KEY: 아트 스타일
 FANART_KEY: 팬 아트
@@ -575,7 +575,7 @@ MISSING_REGISTRATION_INSTRUCTIONS: |
   Please register using one of:
   **1.)** </register:{command_id}>
   **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
-MISSING_IMAGE: Please provide an image or a link to an image to update your banner
+MISSING_IMAGE: 배너를 업데이트하려면 이미지 또는 이미지 링크를 첨부해주세요.
 PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Profile Banner Link Updated
 IMAGE_LINK_KEY: Image Link
 UPDATE_DATE_KEY: 업데이트 날짜
@@ -603,8 +603,8 @@ JOIN_DATE_KEY: 가입일자
 NOT_HERE_KEY: Not Here
 LOCATION_KEY: 지역
 TOP_ROLE_KEY: 상위 역할
-RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
-RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
+RECENT_FIVE_STAR_CHARACTER: "**최근5 :star: 캐릭터**"
+RECENT_FIVE_STAR_WEAPON: "**최근 5 :star: 무기**"
 WISHES_WORTH_KEY: 기원 가치
 OVERALL_SUMMARY_KEY: 전체 요약
 OVERALL_STATS_KEY: 합계
@@ -747,19 +747,19 @@ HOYOLAB_REGISTRATION_DESCRIPTION: |
 PROCESSING_REGISTRATION_REQUEST: Processing Registration Request
 ACCOUNT_RETREIVAL_FAILED: It looks like there was an error retrieving information with the requested UID. Please make sure you've entered the correct UID and try again.
 REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
-  Welcome to Genshin Wizard's :bell: **Reminder Panel**! To begin setting up reminders, you can select any of the options below and activate them from the relative panel.
+  Genshin Wizard의 :bell: **알림 패널**에 오신 것을 환영합니다! 미리 알림 설정을 시작하려면 아래 옵션 중 하나를 선택하고 관련 패널에서 활성화할 수 있습니다.
 
-  <a:4396ringingbell:1030221006918385664> **CURRENT REMINDERS**
-  **Resin Reminders <:fragileresin:1029984988583706654>**
-  > **Automatic Reminder:** {automatic_resin}
+  <a:4396ringingbell:1030221006918385664> **현재 알림**
+  **레진 알림 <:fragileresin:1029984988583706654>**
+  > **자동 알림:** {automatic_resin}
   {resin_rmd}
-  **Teapot Reminders <:realmcurrency:1029984449565310976>**
-  > **Automatic Reminder:** {automatic_teapot}
+  **선계 알림 <:realmcurrency:1029984449565310976>**
+  > **자동 알림:** {automatic_teapot}
   {teapot_rmd}
-  **Expedition Reminders <:adventurersguild:1030215759584051240>**
+  **탐험 알림 <:adventurersguild:1030215759584051240>**
   {exp_rmd}
-  **Parametric Transformer Reminders <:parametrictransformer:1029984451670847568>**
-  > **Automatic Reminder:** {automatic_parametric}
+  **매개변수변환기 알림 <:parametrictransformer:1029984451670847568>**
+  > **자동 알림:** {automatic_parametric}
   {para_rmd}
 REMINDER_COMMAND_OVERVIEW_TITLE: 원신 알림
 ENABLED_KEY: 활성화됨
@@ -768,8 +768,8 @@ NOT_ENABLED_KEY: Not Enabled
 NO_REMINDERS_SET_KEY: No Reminders Set!
 RESIN_REMINDERS_KEY: Resin Reminders
 EXPEDITION_REMINDERS_KEY: Expedition Reminders
-SERENITEA_POT_KEY: Serenitea Pot
-PARAMETRIC_REMINDERS_KEY: 매체 변수 변환기
+SERENITEA_POT_KEY: 선계통계
+PARAMETRIC_REMINDERS_KEY: 매개변수변환기
 RESIN_REMINDERS_DESCRIPTION: |
   You currently have **<:fragileresin:1029984988583706654>{current_resin}** resin!
   **Replenish Time:** Replenishes {time_left}
@@ -779,7 +779,7 @@ TEAPOT_REMINDERS_DESCRIPTION: |
   **Replenish Time:** {time_left}
   > **Automatic Reminder:** {reminder_setting}
 PARAMETRIC_REMINDERS_DESCRIPTION: |
-  귀하의 **<:parametrictransformer:1029984451670847568>매체변수 변환기**는 현재 {transformer_status}입니다!
+  귀하의 **<:parametrictransformer:1029984451670847568>매개변수변환기**는 현재 {transformer_status}입니다!
    **보충 시간:** {time_left}
    > **자동 알림:** {reminder_setting}
 READY_TO_USER: ready to use!
@@ -822,16 +822,16 @@ PLEASE_WAIT_DESCRIPTION: Waiting! There is nothing you can do to get past this a
 PLAYER_TITLE: 플레이어 {player}
 USER_TITLE: 유저 {user}
 OVERVIEW_KEY: 요약
-GENERAL_OVERVIEW_KEY: 일반 요약
+GENERAL_OVERVIEW_KEY: 일반통계
 GENERAL_OVERVIEW_SECTION: |
   모험 등급: {adventure_rank}
   총 업적: {achievement_number}
   총 활동 일수: {playtime}
   캐릭터: **{char_count}**/{total_char}
   나선비경: {abyss}
-  지역: {region}
-CHEST_PROGRESSION_KEY: Chest Progression
-EXPLORATION_AND_OCULI: Exploration & Oculi
+  서버: {region}
+CHEST_PROGRESSION_KEY: 보물상자 통계
+EXPLORATION_AND_OCULI: 탐험도 & 신의눈동자
 NOT_YET_UNLOCKED: Not Yet Unlocked!
 STATISTICS_COMMAND_FOOTER: "참고: 통계가 잘못 표시되거나 데이터가 누락될 수 있습니다. 호요랩 측에서 API 오류가 발생하여 이를 방지할 수 있는 방법이 없습니다."
 CONGRATULATIONS_KEY: 축하합니다!
@@ -863,37 +863,37 @@ GENSHIN_WIZARD_SHOP_DESCRIPTION: |
 
   <:GreyPin:949815085335986246> **__CURRENT SHOP__ [ Price | Item ]**
 SIMULATOR_NO_PRIMOGEMS: |
-  <:Error:1021889679857037372> Hey Traveler, you don't have anymore **primogems** for today! You need at least <:Primogem:951924423340994610>**1,600** primogems to do *another* ten pull. To view your current balance, use the **</balance:{balance_id}>** command.
+  <:Error:1021889679857037372> 안녕하세요, Traveler님, 오늘은 더 이상 **원석**가 없습니다! *다른* 10뽑기를 실행하려면 적어도 <:Primogem:951924423340994610>**1,600** 원석이 필요합니다. 현재 잔액을 보려면 **</balance:{balance_id}>** 명령을 사용하십시오.
 
-  **__Need a Refill?__**
-  <:blurplelink:1020155547187691600> [**Vote for Genshin Wizard Bot [8,000 Primogems]**](https://top.gg/bot/782099719718699009/vote)
-  <:blurplelink:1020155547187691600> [**Vote for Genshin Wizard Server [8,000 Primogems]**](https://top.gg/servers/951370297582436392/vote)
-  <:blurplelink:1020155547187691600> **Use the </commissions:{commission_id}> command. [16,000 Primogems]**
-  > <:GreyPin:949815085335986246> Extra rewards for **Adventurers** of the **[Genshin Wizard Guild](https://discord.gg/genshinwizard) [16,000 Primogems]**
+  **__리필이 필요하세요?__**
+  <:blurplelink:1020155547187691600> [**Genshin Wizard Bot [8,000 Primogems]에 투표하세요**](https://top.gg/bot/782099719718699009/vote)
+  <:blurplelink:1020155547187691600> [**Genshin Wizard Server [8,000 Primogems]에 투표하세요**](https://top.gg/servers/951370297582436392/vote)
+  <:blurplelink:1020155547187691600> **</commissions:{commission_id}> 명령을 사용합니다. [16,000 원석]**
+  > <:GreyPin:949815085335986246> **[Genshin Wizard Guild](https://discord.gg/genshinwizard) [16,000 원석]**의 **Adventurers**를 위한 추가 보상
 WISH_RESULTS_DESCRIPTION: |
-  **Wish Results** <a:results:1020753234555584562>```glsl
+  **기원 결과** <a:results:1020753234555584562>```glsl
   {rolls}```
-  <a:7094whitecheck:1020160260637462618> **__INVENTORY ADDITIONS__**
+  <a:7094whitecheck:1020160260637462618> **__인벤토리 추가__**
   {results}
   {rewards}
-  **Current Pities:
-  <:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620>: `{five_star_pity}` | <:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616>: `{four_star_pity}`
-  Guaranteed Pity: {guaranteed_pity}
-  New Balance:** <:Primogem:951924423340994610>{balance} Primogems
+  **현재스택:
+  <:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620>: `{five_star_pity} <:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616>: `{four_star_pity}`
+  픽뚫: {guaranteed_pity}
+  총원석:** <:Primogem:951924423340994610>{balance} 원석
 NONE_KEY: 없음
-SIMULATOR_TITLE: Genshin Wizard Gacha Simulator
+SIMULATOR_TITLE: Genshin Wizard 기원 시뮬레이션
 SIMULATOR_ALREADY_CLAIMED: ":no_entry: You have **__already claimed__** your Daily Commission rewards today! There will be new commissions <t:{time}:R>."
-COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> As an **Adventurer** of the [**Genshin Wizard Guild**](https://discord.gg/genshinwizard), you have been rewarded with an extra **16,000 Primogems** <:Primogem:951924423340994610> as a result of ongoing expeditions!"
+COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> [**Genshin Wizard Guild**](https://discord.gg/genshinwizard)의 **모험가**로서 추가로 **16,000 원석**를 보상으로 받았습니다. <:Primogem:951924423340994610> 지속적인 탐험의 결과!"
 COMMISSION_ADVENTURER_REWARD_UNRECEIVED: "> <:GreyPin:949815085335986246> Become an **Adventurer** of the [**Genshin Wizard Guild**](https://discord.gg/genshinwizard) to earn extra rewards when completing Daily Commissions!"
-COMMISSION_PREMIUM_EXTRA_REWARD: "> <a:mona_mora:1046611739774562374> As a **Premium Member** of [**Genshin Wizard**](https://patreon.com/genshinwizard), you have been rewarded with an extra **{primogems} Primogems** <:Primogem:951924423340994610> as a result of your support!"
+COMMISSION_PREMIUM_EXTRA_REWARD: "> <a:mona_mora:1046611739774562374> [**Genshin Wizard**](https://patreon.com/genshinwizard)의 **프리미엄 회원**으로서 추가 **{primogems} 원석을 보상으로 받았습니다. ** <:Primogem:951924423340994610> 여러분의 성원에 힘입어!"
 COMMISSION_COMPLETE_MESSAGE: |
-  <a:7094whitecheck:1020160260637462618> You have **successfully** completed your Daily Commissions!
-  You have been rewarded with **16,000 Primogems** <:Primogem:951924423340994610>
+  <a:7094whitecheck:1020160260637462618> 일일 출석체크를 **성공적으로** 완료했습니다!
+  **16,000개의 원석**를 보상으로 받았습니다. <:Primogem:951924423340994610>
 PRIVATE_MESSAGE_KEY: 개인 메시지
 SIMULATOR_BALANCE_MESSAGE: |
   <:blurpleannouncement:1020402170127982712> **참고:** 일일 출석 보상은 하루에 **한번**만 청구할 수 있습니다.
 
-  **__현재 잔액__**
+  **현재원석**
   <:MasterlessStardust:951924423332626522> **스타더스트:** {stardust}
   <:MasterlessStarglitter:951924423059980290> **스타라이트:** {starglitter}
   <:Primogem:951924423340994610> **원석:** {primogems}
@@ -924,7 +924,7 @@ FARM_COMMAND_DOMAIN_TITLE: Domain Schedule Overview [{region}]
 SERVER_RESET_KEY: 서버 리셋
 ARTIFACT_GUIDE_FOOTER: Use the command /artifact <name_of_artifact> to get more information on an artifact.
 ARTIFACT_GUIDE_TITLE: 성유물 확인
-NO_ASSET_INPUT: ":no_entry: Please provide an asset ID to look up."
+NO_ASSET_INPUT: ":no_entry: 조회할 자산 ID를 입력하세요."
 WEAPON_INFORMATION_TITLE: 무기 정보 | {weapon}
 WEAPON_INFORMATION_FOOTER: "무기 가이드 • 인포그래픽: {weapon}"
 WEAPON_GUIDE_TITLE: 무기 도움말 | {weapon}
@@ -947,16 +947,16 @@ EVENT_BANNER_WEEKLY: |
   ☑️ 매개변수변환기
   ☑️ 주간 기행 임무
   ☑️ 주간보스, 상인, 기타등등.
-CONFIGURATION_PANEL_TITLE: Genshin Wizard | Config Panel
-CONFIGURATION_CHANGE_MESSAGE: "Make changes to Genshin Wizard's configuration panel. See our [**Documentation**](https://docs.genshinwizard.com/overview/server-panels) for more information."
+CONFIGURATION_PANEL_TITLE: Genshin Wizard | 구성 패널
+CONFIGURATION_CHANGE_MESSAGE: "Genshin Wizard의 구성 패널을 변경합니다. 자세한 내용은 [**문서**](https://docs.genshinwizard.com/overview/server-panels)를 참조하십시오."
 CHANNEL_KEY: 채널
-CONFIGURATION_CHANNEL_CLEAN: Please make sure the channel you wish to use is completely empty and that the bot has permissions to view and create webhooks within that channel!
+CONFIGURATION_CHANNEL_CLEAN: 사용하려는 채널이 완전히 비어 있고 봇이 해당 채널 내에서 웹후크를 보고 만들 수 있는 권한이 있는지 확인하세요!
 GUILD_KEY: 길드
 DAILY_ANNOUNCEMENTS_KEY: Daily Announcements
 ROLE_KEY: 역할
-SERVER_TIME_PANEL_KEY: Server Time Panel
-DOMAIN_SCHEDULE_KEY: Domain Schedule
-GENSHIN_EVENT_BANNERS: Genshin Event Banners
+SERVER_TIME_PANEL_KEY: 서버 시간 패널
+DOMAIN_SCHEDULE_KEY: 비경 일정
+GENSHIN_EVENT_BANNERS: 원신 이벤트 배너
 START_KEY: 시작
 END_KEY: 종료
 SERVER_TIME_KEY: 서버 시간
@@ -1080,7 +1080,7 @@ SUCCESSFULLY_UPDATED_ROLES: "**Successfully** updated user's roles!"
 CHARACTER_REQUIREMENTS_NOT_MET: |
   The character `{name}` does not meet any of the **role requirements**!\n\nPlease try using this command later when your character fulfills the necessary **requirements**.
 CHARACTER_NOT_IN_SHOWCASE: The character `{name}` was not found in your in-game character showcase!
-GACHA_COMMAND_LINK_EXPIRED: Your wish history link has expired! Use `/refresh` to update your wishes.
+GACHA_COMMAND_LINK_EXPIRED: 기원 기록 링크가 만료되었습니다! 희망 사항을 업데이트하려면 `/refresh`를 사용하세요.
 GACHA_COMMAND_LINK_EXPIRED_FOOTER: "참고: 기원 내역 링크가 만료되었으므로 위의 정보가 정확하지 않을 수 있음을 명심하십시오. 기원을 업데이트하려면 /refresh를 사용하여 기원 내역 링크를 업데이트하는 것이 좋습니다!"
 SOMETHING_WENT_WRONG: Something went wrong!
 SOMETHING_WENT_WRONG_FOOTER: If this error persists, please contact a bot administrator!
@@ -1115,15 +1115,15 @@ THREE_STARS_KEY: 3성
 FOUR_STARS_KEY: 4성
 FIVE_STARS_KEY: 5성
 ALL_WISHES_KEY: 모든 기원
-THREE_STARS_FILTER_DESCRIPTION: Filter your wish history by three-star pulls.
-FOUR_STARS_FILTER_DESCRIPTION: Filter your wish history by four-star pulls.
+THREE_STARS_FILTER_DESCRIPTION: 기원 기록 3성만 필터링
+FOUR_STARS_FILTER_DESCRIPTION: 기원 기록 4성만 필터링
 FIVE_STARS_FILTER_DESCRIPTION: Filter your wish history by five-star pulls.
 ALL_WISHES_FILTER_DESCRIPTION: View all your wishes without any rarity filters.
 NOVICE_BANNER_DESCRIPTION: View your wish history for the novice banner.
 CHARACTER_BANNER_DESCRIPTION: View your wish history for the character banner.
 WEAPON_BANNER_DESCRIPTION: View your wish history for the weapon banner.
 PERMANENT_BANNER_DESCRIPTION: View your wish history for the permanent banner.
-CHOOSE_BANNER_PLACEHOLDER: Choose a banner...
+CHOOSE_BANNER_PLACEHOLDER: 배너 선택
 GO_BACK_BUTTON: 뒤로 가기
 REGISTER_SCRIPT_BUTTON: Register via Script
 REGISTER_LOGIN_BUTTON: Register via Login
@@ -1133,8 +1133,8 @@ CHARACTERS_BUTTON: 캐릭터
 CLAIM_DAILY_REWARD_BUTTON: 일일 출석 체크
 MONTHLY_REWARDS_BUTTON: 월간 보상
 VIEW_TRAVELER_DIARY_BUTTON: 여행자 다이어리
-RELINK_ACCOUNT_BUTTON: Relink Account
-UNLINK_ACCOUNT_BUTTON: Unlink Account
+RELINK_ACCOUNT_BUTTON: 계정 재등륵
+UNLINK_ACCOUNT_BUTTON: 계정 탈퇴
 YES_BUTTON: Yes
 NO_BUTTON: No
 DIARY_MONTH_DESCRIPTION: View Traveler's Diary for the month of {month}.
@@ -1157,7 +1157,7 @@ CHARACTER_STATISTICS_KEY: 캐릭터 능력치
 ARTIFACT_SUBSTAT_KEY: 성유물 부스텟
 ABYSS_STATISTICS_KEY: 심연 통계
 GACHA_SIMULATOR_KEY: 가차 시뮬레이터
-ACTIVE_PLAYTIME_KEY: Active Playtime
+ACTIVE_PLAYTIME_KEY: 게임플레이타임
 WISHES_KEY: 기원
 DONATIONS_KEY: 후원하기
 LEVELS_KEY: 레벨
@@ -1166,7 +1166,7 @@ ACHIVEMENTS_DESCRIPTION: View Genshin Wizard's achievements leaderboard.
 CHARACTER_STATISTICS_DESCRIPTION: Genshin Wizard의 캐릭터 통계 리더보드 보기
 ARTIFACT_SUBSTAT_DESCRIPTION: Genshin Wizard의 성유물 통계 리더보드 보기
 ABYSS_STATISTICS_DESCRIPTION: Genshin Wizard의 나선비경 리더보드를 확인합니다.
-GACHA_SIMULATOR_DESCRIPTION: View Genshin Wizard's gacha simulator leaderboard.
+GACHA_SIMULATOR_DESCRIPTION: Genshin Wizard의 기원 시뮬레이션 순위표를 확인합니다.
 ACTIVE_PLAYTIME_DESCRIPTION: View Genshin Wizard's active playtime leaderboard.
 WISHES_DESCRIPTION: View Genshin Wizard's wishes leaderboard.
 DONATIONS_DESCRIPTION: View Genshin Wizard's donations leaderboard.
@@ -1182,7 +1182,7 @@ STRONGEST_STRIKE_LABEL: "최대데미지"
 MOST_BURSTS_USED_LABEL: "가장 많이 사용된 궁"
 MOST_SKILLS_USED_LABEL: "가장 많이 사용한스킬"
 MOST_DAMAGE_TAKEN_LABEL: "받은 데미지 최대치"
-MOST_DEFEATS_LABEL: "Most Defeats"
+MOST_DEFEATS_LABEL: "최고 처치"
 MAX_HP_LABEL: "최대 HP"
 HP_LABEL: "체력"
 HP_PERCENT_LABEL: "체력 %"
@@ -1230,9 +1230,9 @@ GENSHIN_STATISTICS_DESCRIPTION: 원신 자신 스텟보기
 SPIRAL_ABYSS_STATISTICS_KEY: 나선비경 통계
 SPIRAL_ABYSS_STATISTICS_DESCRIPTION: 나선비경 진행 통계 보기
 COPY_UID_KEY: UID 복사
-CURRENT_ABYSS_PHASE: 현재심연 l 단계
+CURRENT_ABYSS_PHASE: 현재 나선비경
 CURRENT_ABYSS_PHASE_DESCRIPTION: 현재 비경 통계 진행 상황 보기
-PREVIOUS_ABYSS_PHASE: 이전심연l 단계
+PREVIOUS_ABYSS_PHASE: 이전 나선비경
 PREVIOUS_ABYSS_PHASE_DESCRIPTION: 이전 비경 통계 진행 상황 보기
 ENTER_LINK_BUTTON: Enter link
 LINK_UID_MODAL_TITLE: Link UID
@@ -1246,7 +1246,7 @@ LOGIN_MODAL_TITLE: 호요랩 계정 로그인
 RESIN_KEY: 레진
 TEAPOT_KEY: 선계
 EXPEDITIONS_KEY: 원정
-PARAMETRIC_TRANSFORMER_KEY: 매체 변수 변환기
+PARAMETRIC_TRANSFORMER_KEY: 매개변수변환기
 CLEAR_ALL_REMINDERS_BUTTON: Clear All Reminders
 CLEAR_REMINDER_BUTTON: Clear {reminder_type} Reminders
 SET_REMINDER_KEY: Set Reminder
@@ -1296,7 +1296,7 @@ SKILL_TALENTS_DESCRIPTION: 캐릭터 액티브/스킬 특성 보기
 PASSIVE_TALENTS_DESCRIPTION: 캐릭터 패시브 특성 보기
 VIEW_CARD_BUTTON: 호요랩 위키 에서 카드 보기
 CONFIG_DAILY_ANNOUNCEMENTS_PANEL: 일일 공지 패널
-CONFIG_SERVER_TIME_PANEL: Server Time Panel
+CONFIG_SERVER_TIME_PANEL: 서버 시간 패널
 CONFIG_DOMAIN_SCHEDULE_PANEL: 비경 일정 패널
 CONFIG_CUSTOM_BANNER: 커스텀배너
 SERVER_SELECT_PLACEHOLDER: 공지 사항에 대한 서버 시간 선택...
