@@ -1,94 +1,94 @@
 ---
 GENSHIN_WIZARD_KEY: Genshin Wizard
-HELP_DIRECTORY_TITLE: Genshin Wizard | Help Directory
-HELP_CATEGORY_DESCRIPTION: Select a category from the dropdown to view commands specific to that category.
-HELP_CATEGORIES: Categories
+HELP_DIRECTORY_TITLE: Genshin Wizard | Diretório de ajuda
+HELP_CATEGORY_DESCRIPTION: Escolha uma categoria da lista para ver a descrição dos comandos dessa categoria.
+HELP_CATEGORIES: Categorias
 HELP_CATEGORY_LIST: |
-  > 👤 | Profile Commands
-  > 💫 | Wish Commands
-  > <:hoyolab:1016159766705344705> | HoYoLAB Commands
-  > 📝 | Guide Commands
-  > ⏰ | Miscellaneous Commands
-MISC_COMMANDS: Miscellaneous commands
+  > 👤 | Comandos de perfil
+  > 💫 | Comandos de orações
+  > <:hoyolab:1016159766705344705> | Comandos HoYoLAB
+  > 📝 | Comandos de guias
+  > ⏰ | Comandos de diversos
+MISC_COMMANDS: Comandos de diversos
 PING_INFORMATION: |
   **Pong!** :ping_pong:
-  Bot Latency is **{bot_latency}ms.**
-  Websocket Latency is **{ws_latency}ms.**
+  A latência do Bot é **{bot_latency}ms.**
+  A latência do Websocket é **{ws_latency}ms.**
 UPTIME_INFORMATION: |
-  **Genshin Wizard Uptime**
-  **Last Restart:** <t:{last_restart}:R>
-  **Uptime:** {uptime}
-VERSION_KEY: Version
+  **Genshin Wizard Atividade**
+  **Último reinício:** <t:{last_restart}:R>
+  **Ativo por:** {uptime}
+VERSION_KEY: Versão
 PING_KEY: Ping
-UNKNOWN_KEY: Unknown
-USER_NOT_PUBLIC: User data is not public.
-INVITE_INFORMATION: Use the link below to invite this bot to your own server.
-REQUESTED_BY: Requested by {user}
-SUPPORT_GWIZ_TITLE: Support Genshin Wizard
-SUPPORT_GWIZ_DESC: Support the development of Genshin Wizard.
-DONATE_KEY: Donate
-VOTE_GWIZ_DESCRIPTION: Click the links below to vote for Genshin Wizard.
+UNKNOWN_KEY: Desconhecido
+USER_NOT_PUBLIC: A data do utilizador não é pública.
+INVITE_INFORMATION: Use o seguinte link para convidar este bot para o seu servidor.
+REQUESTED_BY: Pedido por {user}
+SUPPORT_GWIZ_TITLE: Suporte Genshin Wizard
+SUPPORT_GWIZ_DESC: Suporte o desenvolvimento do Genshin Wizard.
+DONATE_KEY: Doe
+VOTE_GWIZ_DESCRIPTION: Carregue nos seguintes links para votar no Genshin Wizard.
 VOTE_KEY: Vote
-VOTE_BOT: Vote for Bot
-VOTE_SERVER: Vote for Server
-VOTE_BOT_LINK: Bot Vote Link
-VOTE_SERVER_LINK: Server Vote Link
+VOTE_BOT: Vote pelo Bot
+VOTE_SERVER: Vote pelo Servidor
+VOTE_BOT_LINK: Link para votar no Bot
+VOTE_SERVER_LINK: Link para votar no Servidor
 VOTE_BOT_BUTTON: Vote [Bot]
 VOTE_SERVER_BUTTON: Vote [Server]
-DEVELOPERS_KEY: Developers
-SERVER_KEY: Server
-SERVERS_KEY: Servers
-USERS_KEY: Users
+DEVELOPERS_KEY: Desenvolvedores
+SERVER_KEY: Servidor
+SERVERS_KEY: Servidores
+USERS_KEY: Utilizadores
 WEBSITE_KEY: Website
-INVITE_KEY: Invite
-DOCUMENTATION_KEY: Documentation
-GWIZ_INVITE: Genshin Wizard Invite
+INVITE_KEY: Convidar
+DOCUMENTATION_KEY: Documentação
+GWIZ_INVITE: Genshin Wizard Convite
 AVATAR_KEY: Avatar
-ARTIFACT_CRIT_VALUE_TITLE: Artifact CRIT Value Calculator
-TOTAL_CRIT_VALUE: Total Crit Value
+ARTIFACT_CRIT_VALUE_TITLE: Calculadora de valores críticos dos artifatos
+TOTAL_CRIT_VALUE: Total de valor crítico
 TRUTH_COMMAND_RESPONSES:
-  - As I see it, yes.
-  - Yes.
-  - Positive.
-  - From my point of view, yes.
-  - Convinced.
-  - It is certain.
-  - It is decidedly so.
-  - Without a doubt.
-  - Most Likely.
-  - Chances High.
-  - No.
-  - I think not.
-  - Negative.
-  - My sources say no.
-  - Not Convinced.
-  - Perhaps.
-  - Not Sure.
-  - Maybe.
-  - Who knows?
-  - I cannot predict now.
-  - I am tired. *proceeds with sleeping*
-  - Absolutely.
-TRUTH_COMMAND_TITLE: Paimon's Wisdom
-QUESTION_KEY: Question
-RESPONSE_KEY: Response
-PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
-PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
-PREFIX_TOO_SHORT: The prefix cannot be shorter than 1 character.
-PREFIX_CHANGED_TITLE: Genshin Wizard | Prefix Change
+  - Da maneira que o vejo, sim.
+  - Sim.
+  - Positivo.
+  - Do meu ponto de vista, sim.
+  - Convencido.
+  - É certo.
+  - Está decidido como tal.
+  - Sem dúvida.
+  - Provavelmente.
+  - Muito provável.
+  - Não.
+  - Não acho.
+  - Negativo.
+  - As minhas fontes o negam.
+  - Não convencido.
+  - Possivelmente.
+  - Não tenho a certeza.
+  - Talvez.
+  - Quem sabe?
+  - Não o posso prever agora.
+  - Estou cansado. *adormece*
+  - Absolutamente.
+TRUTH_COMMAND_TITLE: Sabedoria da Paimon
+QUESTION_KEY: Questão
+RESPONSE_KEY: Resposta
+PREFIX_COMMAND_CURRENT: O prefixo para este servidor é `{prefix}`
+PREFIX_TOO_LONG: O prefixo não pode ser maior que 5 caracteres.
+PREFIX_TOO_SHORT: O prefixo não pode ser menor que 1 caracter.
+PREFIX_CHANGED_TITLE: Genshin Wizard | Alteração de Prefixo
 PREFIX_CHANGED_DESCRIPTION: |
-  Successfully changed **Genshin Wizard's** prefix! Commands will now be invoked using this new prefix.
+  O prefixo do **Genshin Wizard** foi alterado com sucesso! Os comandos serão agora invocados usando o novo prefixo.
 
-  **Old Prefix:** `{old_prefix}`
-  **New Prefix:** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: Genshin Wizard Prefix Setting
-MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Computational Error. Try rephrasing!"
+  **Antigo Prefixo:** `{old_prefix}`
+  **Novo Prefixo:** `{new_prefix}`
+PREFIX_CHANGED_FOOTER: Genshin Wizard Definições de Prefixo
+MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Erro computacional. Tente reformular!"
 MATH_COMMAND_RESULT: |
-  **Expression:** `{expression}`
-  **Result:**
+  **Expressão:** `{expression}`
+  **Resultado:**
   ```{result}```
-RECENT_GENSHIN_EVENTS: Recent Genshin Events
-SEND_CODES_COMMAND_TITLE: Genshin Wizard | Active Codes
+RECENT_GENSHIN_EVENTS: Eventos recentes de Genshin
+SEND_CODES_COMMAND_TITLE: Genshin Wizard | Códigos ativos
 SEND_CODES_COMMAND_DESCRIPTION: |
   <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
   <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
@@ -249,7 +249,7 @@ APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
 APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
 APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
 APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
-APP_COMMAND_DONATE_DESCRIPTION: Support the development of Genshin Wizard.
+APP_COMMAND_DONATE_DESCRIPTION: Suporte o desenvolvimento do Genshin Wizard.
 APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
 APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
 APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
@@ -937,8 +937,8 @@ JOIN_OFFICIAL_DISCORD: Join the Official Discord
 CHARACTER_GUIDE_OVERVIEW: Character Guides Overview
 TALENT_BOOK_OVERVIEW: Talent Book Overview
 WEAPON_ASCENSION_OVERVIEW: Weapon Ascension Material Overview
-REFERENCE_SHEET_GUIDE_FOOTER: "Referece Sheet Overview"
-REFERENCE_SHEET_GUIDE_FOOTER: Available Reference Sheets
+REFERENCE_SHEET_GUIDE_FOOTER: "Reference Sheet Overview"
+REFERENCE_SHEET_GUIDE_TITLE: Available Reference Sheets
 EVENT_BANNER_DAILY: |
   ☑️ Check-In to **[Hoyolab](https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us)** 🔗 now (or use `/daily`)!
   ☑️ Daily Commission, Resin Check
@@ -1144,7 +1144,7 @@ DIARY_MONTH_PLACEHOLDER: Choose a month to view...
 INVOKATION_ARCHIVE_LABEL: View Genius Invokation TCG Archive
 INVOKATION_RETURN_SHOWCASE: Return to Showcase
 GLOBAL_BUTTON: Global
-SERVER_BUTTON: Server
+SERVER_BUTTON: Servidor
 PERSONAL_BUTTON: Personal
 ABYSS_LEADERBOARD_WANING_PHASE_LABEL: "{date} Waning Phase"
 ABYSS_LEADERBOARD_WAXING_PHASE_LABEL: "{date} Waxing Phase"
