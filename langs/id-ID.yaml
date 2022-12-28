@@ -16,44 +16,44 @@ PING_INFORMATION: |
   Latensi Websocket adalah **{ws_latency}ms.**
 UPTIME_INFORMATION: |
   **Genshin Wizard Uptime**
-  **Last Restart:** <t:{last_restart}:R>
-  **Uptime:** {uptime}
-VERSION_KEY: Version
+  **Restart Terakhir.** <t:{last_restart}:R>
+  **Waktu Beroperasi.**{uptime}
+VERSION_KEY: Versi
 PING_KEY: Ping
-UNKNOWN_KEY: Unknown
-USER_NOT_PUBLIC: User data is not public.
-INVITE_INFORMATION: Use the link below to invite this bot to your own server.
-REQUESTED_BY: Requested by {user}
-SUPPORT_GWIZ_TITLE: Support Genshin Wizard
-SUPPORT_GWIZ_DESC: Support the development of Genshin Wizard.
-DONATE_KEY: Donate
-VOTE_GWIZ_DESCRIPTION: Click the links below to vote for Genshin Wizard.
-VOTE_KEY: Vote
-VOTE_BOT: Vote for Bot
-VOTE_SERVER: Vote for Server
-VOTE_BOT_LINK: Bot Vote Link
-VOTE_SERVER_LINK: Server Vote Link
-VOTE_BOT_BUTTON: Vote [Bot]
-VOTE_SERVER_BUTTON: Vote [Server]
-DEVELOPERS_KEY: Developers
+UNKNOWN_KEY: Tidak Dikenal
+USER_NOT_PUBLIC: Data pengguna tidak publik.
+INVITE_INFORMATION: Gunakan tautan di bawah untuk mengundang bot ini ke server anda sendiri.
+REQUESTED_BY: Diminta oleh {user}
+SUPPORT_GWIZ_TITLE: Menyokong Genshin Wizard
+SUPPORT_GWIZ_DESC: Menyokong pengembangan Genshin Wizard.
+DONATE_KEY: Donasi
+VOTE_GWIZ_DESCRIPTION: Klik tautan di bawah untuk menyokong Genshin Wizard.
+VOTE_KEY: Undi
+VOTE_BOT: Undi Bot
+VOTE_SERVER: Undi untuk Server
+VOTE_BOT_LINK: Tautan undi Bot
+VOTE_SERVER_LINK: Tautan undi Server
+VOTE_BOT_BUTTON: Undi [Bot]
+VOTE_SERVER_BUTTON: Undi [Server]
+DEVELOPERS_KEY: Pengembang
 SERVER_KEY: Server
 SERVERS_KEY: Servers
-USERS_KEY: Users
-WEBSITE_KEY: Website
-INVITE_KEY: Invite
-DOCUMENTATION_KEY: Documentation
-GWIZ_INVITE: Genshin Wizard Invite
+USERS_KEY: Pengguna
+WEBSITE_KEY: Situs Web
+INVITE_KEY: Undang
+DOCUMENTATION_KEY: Dokumentasi
+GWIZ_INVITE: Undang Genshin Wizard
 AVATAR_KEY: Avatar
-ARTIFACT_CRIT_VALUE_TITLE: Artifact CRIT Value Calculator
-TOTAL_CRIT_VALUE: Total Crit Value
+ARTIFACT_CRIT_VALUE_TITLE: Kalkulator Nilai CRIT Artefak
+TOTAL_CRIT_VALUE: Total Nilai Crit
 TRUTH_COMMAND_RESPONSES:
-  - As I see it, yes.
-  - Yes.
-  - Positive.
-  - From my point of view, yes.
-  - Convinced.
-  - It is certain.
-  - It is decidedly so.
+  - Seperti yang saya lihat, ya.
+  - Ya.
+  - Positif.
+  - Dari sudut pandangan saya, ya.
+  - Yakin.
+  - Sudah pasti.
+  - Sudah pasti demikian.
   - Tanpa keraguan.
   - Kemungkinan Besar.
   - Kemungkinan Tinggi.
@@ -61,16 +61,16 @@ TRUTH_COMMAND_RESPONSES:
   - Saya pikir tidak.
   - Negatif.
   - Sumber saya mengatakan tidak.
-  - Not Convinced.
-  - Perhaps.
-  - Not Sure.
-  - Maybe.
-  - Who knows?
-  - I cannot predict now.
-  - I am tired. *proceeds with sleeping*
-  - Absolutely.
-TRUTH_COMMAND_TITLE: Paimon's Wisdom
-QUESTION_KEY: Question
+  - Tidak Yakin.
+  - Mungkin.
+  - Tidak Pasti.
+  - Barangkali.
+  - Siapa tahu?
+  - Saya tidak dapat meramalkan sekarang.
+  - Saya lelah. *dilanjutkan dengan tidur*
+  - Benar.
+TRUTH_COMMAND_TITLE: Kebijaksaan Paimon
+QUESTION_KEY: Pertanyaan
 RESPONSE_KEY: Response
 PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
 PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
@@ -249,7 +249,7 @@ APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
 APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
 APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
 APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
-APP_COMMAND_DONATE_DESCRIPTION: Support the development of Genshin Wizard.
+APP_COMMAND_DONATE_DESCRIPTION: Menyokong pengembangan Genshin Wizard.
 APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
 APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
 APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
