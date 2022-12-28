@@ -15,9 +15,9 @@ PING_INFORMATION: |
   Opóźnienie bota **{bot_latency}ms.**
   Opóźnienie sieci **{ws_latency}ms.**
 UPTIME_INFORMATION: |
-  **Genshin Wizard Uptime**
-  **Last Restart:** <t:{last_restart}:R>
-  **Uptime:** {uptime}
+  **Czas działania Genshin Wizard **
+  **Ostatni Restart:** <t:{last_restart}:R>
+  **Czas pracy:** {uptime}
 VERSION_KEY: Wersja
 PING_KEY: Ping
 UNKNOWN_KEY: Nieznany
@@ -87,24 +87,24 @@ MATH_COMMAND_RESULT: |
   **Expression:** `{expression}`
   **Result:**
   ```{result}```
-RECENT_GENSHIN_EVENTS: Recent Genshin Events
-SEND_CODES_COMMAND_TITLE: Genshin Wizard | Active Codes
+RECENT_GENSHIN_EVENTS: Ostatnie Wydarzenia Genshin
+SEND_CODES_COMMAND_TITLE: Genshin Wizard | Aktywne kody
 SEND_CODES_COMMAND_DESCRIPTION: |
   <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
   <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>\n
-SEND_CODES_REDEEM_AUTOMATICALLY: Redeem Automatically
-SEND_CODES_DIRECT_LINK: Direct Link
-SEND_CODES_REDEEMABLE_CODES: Redeemable Codes
+SEND_CODES_REDEEM_AUTOMATICALLY: Zrealizuj Automatycznie
+SEND_CODES_DIRECT_LINK: Bezpośredni Link
+SEND_CODES_REDEEMABLE_CODES: Kody do wykorzystania
 SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Redemption Codes
 SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!*
-MESSAGE_LINK: Message Link
-CLICK_HERE: Click Here
-INFO_SELECT_CHARACTER: Select a character
+MESSAGE_LINK: Link do wiadomości
+CLICK_HERE: Kliknij Tutaj
+INFO_SELECT_CHARACTER: Wybierz postać
 INFO_CHARACTER_SOURCE: "Source: Saved Builds"
-INFO_USER_CACHE: User Cache
-INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
+INFO_USER_CACHE: Pamięć podręczna użytkownika
+INTERMISSION_MESSAGE: Generowanie infografiki, prosimy o **cierpliwość**...
 MENU_COOLDOWN_TITLE: That menu is on cooldown!
 BUTTON_COOLDOWN_TITLE: That button is on cooldown!
 COMMAND_COOLDOWN_TITLE: That command is on cooldown!
@@ -189,7 +189,7 @@ APP_COMMAND_LOCATIONS_DESCRIPTION: Display a list of available resource location
 APP_COMMAND_CALC_DESCRIPTION: Calculate required ascension materials for a given character.
 APP_COMMAND_BANNER_DESCRIPTION: Change your Genshin Wizard profile's banner.
 APP_COMMAND_PROFILE_DESCRIPTION: View your personal Genshin Wizard profile.
-APP_COMMAND_SETTINGS_DESCRIPTION: Change your Genshin Wizard profile settings.
+APP_COMMAND_SETTINGS_DESCRIPTION: Zmień ustawienia swojego profilu Genshin Wizard.
 APP_COMMAND_STATS_DESCRIPTION: View your Genshin account's statistics.
 APP_COMMAND_ABYSS_DESCRIPTION: View your Genshin account's abyss progression.
 APP_COMMAND_EXPLORATION_DESCRIPTION: View your Genshin account's exploration progression.
@@ -513,7 +513,7 @@ CURRENT_LEVEL_KEY: Current Level
 TARGET_LEVEL_KEY: Target Level
 REQUIRED_RESOURCES_KEY: Required Resources
 GENSHIN_WIZARD_USER_PROFILE: "{user}'s Genshin Wizard Profile"
-PROFILE_SUMMARY_KEY: Profile Summary
+PROFILE_SUMMARY_KEY: Podsumowanie Profilu
 GENSHIN_WISH_STATS_KEY: Genshin Wish Stats
 PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
 GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
@@ -554,7 +554,7 @@ INFO_KEY: Info
 SETTING_RESET_PRIVACY: Successfully reset privacy settings to default setting!
 SETTING_PRIVACY_UPDATED: "{privacy_type} privacy settings have been updated! Current Privacy: {current_privacy}"
 SETTING_ART_STYLE_UPDATED: "Character builds Art Styles have been updated! Current Art Style: {current_setting}"
-SETTING_MASTER_PROFILE_RESET: Your Genshin Wizard profile has been reset to default settings!
+SETTING_MASTER_PROFILE_RESET: Twój profil Genshin Wizard został zresetowany do ustawień domyślnych!
 INVALID_IMAGE_URL: "Please provide a **valid** image URL. Acceptable image types include: `PNGs`, `JPGs`, `JPEGs`, and `GIFs`."
 SETTING_BANNER_UPDATE: Your banner has been successfully updated!
 SETTING_BIOGRAPHY_ILLEGAL: Hey Traveler! Your input contains words that **aren't allowed** by Genshin Wizard! Please consider trying something *different* for your bio.
@@ -568,10 +568,10 @@ ART_STYLE_KEY: Art Style
 FANART_KEY: Fanart
 OFFICIAL_ART_KEY: Official Art
 GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
-  Change your Genshin Wizard profile settings here.
+  Zmień tutaj ustawienia swojego profilu Genshin Wizard.
 
-  **Profile Summary**
-GENSHIN_WIZARD_PROFILE_TITLE: Genshin Wizard Profile Settings
+  **Podsumowanie Profilu**
+GENSHIN_WIZARD_PROFILE_TITLE: Ustawienia Profilu Genshin Wizard
 MISSING_REGISTRATION_INSTRUCTIONS: |
   Please register using one of:
   **1.)** </register:{command_id}>
