@@ -245,23 +245,23 @@ APP_COMMAND_UPTIME_DESCRIPTION: Genshin Wizard의 가동 시간을 확인합니�
 APP_COMMAND_ABOUT_DESCRIPTION: Genshin Wizard에 대한 정보
 APP_COMMAND_INVITE_DESCRIPTION: 봇 초대 링크를 받으세요.
 APP_COMMAND_DONATE_DESCRIPTION: Genshin Wizard 개발 지원.
-APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
-APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
+APP_COMMAND_VOTE_DESCRIPTION: Genshin Wizard 온라인 투표 링크.
+APP_COMMAND_AVATAR_DESCRIPTION: 사용자의 디스코드 아바타를 봅니다.
 APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
 APP_COMMAND_TRUTH_DESCRIPTION: Seek wisdom from Genshin Wizard.
-APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Change Genshin Wizard's prefix for commands.
+APP_COMMAND_CHANGEPREFIX_DESCRIPTION: 명령에 대한 Genshin Wizard의 접두사를 변경합니다.
 APP_COMMAND_PITY_DESCRIPTION: Information on understanding the Genshin pity-system.
 APP_COMMAND_MATH_DESCRIPTION: Computer simple or complex functions.
-APP_COMMAND_EVENTS_DESCRIPTION: Check recent Genshin Impact events.
-APP_COMMAND_SENDCODES_DESCRIPTION: Send a message for Genshin redemption codes with buttons.
-APP_COMMAND_FEEDBACK_DESCRIPTION: Send your feedback to Genshin Wizard Developers.
-APP_COMMAND_DELETE_DESCRIPTION: Delete a user's Genshin Wizard profile.
-APP_COMMAND_BLACKLIST_DESCRIPTION: Blacklist a user from using Genshin Wizard.
-APP_COMMAND_DELIMPORT_DESCRIPTION: Delete a user's imported wish history data.
-EXPORT_NO_WISHES: There are no wishes to export.
+APP_COMMAND_EVENTS_DESCRIPTION: 최근 원신이벤트를 체크
+APP_COMMAND_SENDCODES_DESCRIPTION: 버튼으로 Genshin 상환 코드에 대한 메시지를 보냅니다.
+APP_COMMAND_FEEDBACK_DESCRIPTION: Genshin Wizard 개발자에게 피드백을 보내주십시오.
+APP_COMMAND_DELETE_DESCRIPTION: 사용자의 Genshin Wizard 프로필을 삭제합니다.
+APP_COMMAND_BLACKLIST_DESCRIPTION: Genshin Wizard를 사용하지 못하도록 사용자를 블랙리스트에 추가합니다.
+APP_COMMAND_DELIMPORT_DESCRIPTION: 사용자의 기원 기록을 삭제합니다.
+EXPORT_NO_WISHES: 항목이 없습니다.
 EXPORT_NO_BANNER_WISHES: No {banner} banner wishes found.
-EXPORT_NO_MESSAGE_PERMISSION: "The bot **does not** have permission to send you a private message. Please make sure you have the setting: `Allow direct messages from server members` **enabled** in your *Discord privacy settings*."
-EXPORT_MESSAGE_SUCCESS: Your wish history has successfully been exported and sent to you via DMs.
+EXPORT_NO_MESSAGE_PERMISSION: "봇은 개인 메시지를 보낼 수 있는 권한이 **없습니다**. *Discord 개인 정보 설정*에서 `서버 구성원의 다이렉트 메시지 허용` **활성화** 설정이 되어 있는지 확인하십시오."
+EXPORT_MESSAGE_SUCCESS: 기원 내역이 성공적으로 전송되었고 개인메시지를 통해 발송되었습니다.
 INFO_COMMAND_INVALID_ARGUMENT: |
   **Invalid argument passed.**
 
@@ -270,54 +270,54 @@ INVALID_ARGUMENT_PASSED: |
   Invalid argument passed.
   Valid argument is `<discord user>`/`<genshin uid>`
 INFO_COMMAND_ENKA_ISSUE: There seems to be an issue with [**Enka.Network**](https://enka.network/u/{uid}). Please try again later.
-ERROR_NO_USER_DATA: No data found for this user.
-WHAT_HAPPENED_TITLE: What happened?
-WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
-WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
+ERROR_NO_USER_DATA: 이 유저에 대한 데이터를 찾을 수 없습니다.
+WHAT_HAPPENED_TITLE: 무슨일이 일어난건가요?
+WHAT_HAPPENED_VALUE: 이 문제가 발생하는 가장 일반적인 이유는 검색하려는 genshin 계정이 아직 공개로 설정되지 않았기 때문입니다. 이 문제를 해결하려면 Genshin의 프로필에서 '캐릭터 세부 정보 표시'를 활성화하세요. 참고로 아래 이미지를 참고하세요.
+WHAT_HAPPENED_FOOTER: Genshin Wizard는 최근 게임 내 변경 사항을 확인하는 데 최대 5분이 소요될 수 있습니다. 잠시만 기다려 주십시오.
 INFO_COMMAND_SHOWCASE_TITLE: 캐릭터 진열장
-INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
-REFRESHES_KEY: Refreshes
-INFO_COMMAND_CHARACTER_DETAILS: Character
+INFO_COMMAND_SHOWCASE_VIEW_ENKA: Enka.Network에서 보기
+REFRESHES_KEY: 새로고침
+INFO_COMMAND_CHARACTER_DETAILS: 캐릭터
 INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!
 INFO_COMMAND_CACHE_DESCRIPTION: |
   **Genshin Wizard Cache **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
 
-  <:information:1034639378410115103> **What is Cache?**
-  Genshin Wizard caches builds *automatically* so you never have to worry about swapping your showcase out over and over again!
+  <:information:1034639378410115103> **캐시란 무엇입니까?**
+  Genshin Wizard는 빌드를 *자동*으로 저장하므로 캐릭터를 반복해서 교체가 가능합니다!
 
-  <:na:975828401900359711> **What if I want to delete old builds?**
-  Fear not! You'll be able to manage your cached builds straight from this message! Use the UI below to delete specific characters, or all, from your Genshin Wizard cache.
+  <:na:975828401900359711> **이전 빌드를 삭제하려면 어떻게 해야 합니까?**
+  걱정하지마세요! 이 메시지에서 바로 저장된 빌드를 관리할 수 있습니다! 아래 UI를 사용하여 Genshin Wizard 캐시에서 특정 문자 또는 전체를 삭제하십시오.
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard Custom Art Feature**
-  Hey Traveler, it looks like you're trying to use Genshin Wizard's **Custom Art** feature! This feature is only available to Genshin Wizard Premium users.
+  <:information:1034639378410115103> **Genshin Wizard 커스텀 아트 기능**
+  여행자님, Genshin Wizard의 **Custom Art** 기능을 사용하려는 것 같습니다! 이 기능은 Genshin Wizard Premium 사용자만 사용할 수 있습니다.
 
-  You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Patreon**](https://patreon.com/genshinwizard)!
-PURCHASE_PREMIUM: Purchase Premium
-INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Hey Traveler, you can only manage custom art for your **own characters**!
-GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard Custom Art
+  </premium:{command_id}> 명령을 사용하거나 [**Patreon**](https://patreon.com/genshinwizard)을 방문하여 Genshin Wizard Premium에 대해 자세히 알아볼 수 있습니다!
+PURCHASE_PREMIUM: 프리미엄 구매하기
+INFO_COMMAND_CUSTOM_ART_NOT_OWNER: 여행자 여러분, **자신의 캐릭터**에 대한 커스텀 아트만 관리할 수 있습니다!
+GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard의 커스텀 그림
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookie:787444650687987732>
-  ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://dashboard.genshinwizard.com/?key={key})
-GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Go to Dashboard
-REMOVE_CHARACTERS_FROM_CACHE: Remove characters from cache...
-INFO_COMMAND_CACHE_DELETE_SELECTED: Successfully deleted selected characters from Genshin Wizard's cache!
-INFO_COMMAND_CACHE_DELETE_ALL: Successfully deleted all your characters from Genshin Wizard's cache!
+  **인포그래픽 아트 사용자 지정**
+  여행자님, 아래 링크나 버튼을 클릭하여 이 캐릭터의 인포그래픽 아트를 **사용자 지정**하세요! <a:PaimonCookie:787444650687987732>
+  ```수정
+  {character}```에 대한 인포그래픽
+  > <:Settings:1046877233626742925> [**아트를 사용자 정의하려면 여기를 클릭하십시오**](https://dashboard.genshinwizard.com/?key={key})
+GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: 대시보드로 이동
+REMOVE_CHARACTERS_FROM_CACHE: 저장된 캐릭터 제거
+INFO_COMMAND_CACHE_DELETE_SELECTED: Genshin Wizard의 빌드에서 선택한 캐릭터를 성공적으로 삭제했습니다!
+INFO_COMMAND_CACHE_DELETE_ALL: Genshin Wizard의 빌드에서 선택한 캐릭터를 성공적으로 삭제했습니다!
 INFO_COMMAND_CACHE_CANCEL: "**Cancelled** cache management request! You may dismiss this message."
-APP_COMMAND_DESCRIBE_USER: The name of the member you are trying to search for.
+APP_COMMAND_DESCRIBE_USER: 검색하려는 리소스입니다.
 APP_COMMAND_DESCRIBE_USER_AVATAR: The member you wish to view an avatar for.
-APP_COMMAND_DESCRIBE_UID: The UID of the member you are trying to search for.
-APP_COMMAND_DESCRIBE_USER_WISH: Search up a specific user's Genshin Wish history.
-APP_COMMAND_DESCRIBE_AUTOCLAIM: Enable/Disable automatic HoYoLAB daily sign-in.
-ENABLE_KEY: Enable
-DISABLE_KEY: Disable
-ENABLE_AUTOCLAIM: Enable automatic daily sign-in.
-DISABLE_AUTOCLAIM: Disable automatic daily sign-in.
+APP_COMMAND_DESCRIBE_UID: 검색하려는 유저의 UID입니다.
+APP_COMMAND_DESCRIBE_USER_WISH: 특정 사용자의 Genshin Wish 기록을 검색합니다.
+APP_COMMAND_DESCRIBE_AUTOCLAIM: 자동 HoYoLAB 일일 로그인을 활성화/비활성화합니다.
+ENABLE_KEY: 활성화
+DISABLE_KEY: 비활성화
+ENABLE_AUTOCLAIM: 자동 일일 로그인을 활성화합니다.
+DISABLE_AUTOCLAIM: 자동 일일 로그인을 비활성화합니다.
 APP_COMAND_DESCRIBE_CODES: The redemption code you wish to redeem for your account.
-APP_COMMAND_DESCRIBE_DATA: The file you are trying to import your wish history from.
-APP_COMMAND_DESCRIBE_RESOURCE: The resource you are trying to search for.
+APP_COMMAND_DESCRIBE_DATA: 나의 기원 기록 가져오기
+APP_COMMAND_DESCRIBE_RESOURCE: 검색하려는 리소스입니다.
 APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: The character you want to calculate ascension materials for.
 APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: Starting level of the character you want to upgrade.
 APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: Desired level of the character you want to upgrade.
@@ -503,7 +503,7 @@ CALC_CHARACTER_INVALID_TARGET_LEVEL: You need to specify a valid target level!
 CALC_CHARACTER_REQUIREMENT_SURPASSED: Character has already **surpassed** the given desired level!
 CALC_CHARACTER_REQUIREMENT_MET: Character has already **reached** the given desired level!
 CALC_CHARACTER_TITLE: Genshin Wizard | Character Calculator
-CHARACTER_KEY: Character
+CHARACTER_KEY: 캐릭터
 CURRENT_LEVEL_KEY: Current Level
 TARGET_LEVEL_KEY: Target Level
 REQUIRED_RESOURCES_KEY: Required Resources
@@ -1340,55 +1340,55 @@ WEAPON_REQUIREMENT_PLACEHOLDER: Number of {refinement} 5-Star Weapons...
 DUAL_REQUIREMENT_LABEL: "{constellation_num} 5-Star Character & {refinement} Weapon Requirement"
 DUAL_REQUIREMENT_PLACEHOLDER: Number of {constellation_num} 5-Star Characters & {refinement} 5-Star Weapons...
 PREMIUM_SELECT_PLACEHOLDER: Select a tier to view perks for...
-WITCH_OF_PURPLE_ROSE: Witch of Purple Rose
-ASTRAL_REFLECTION: Astral Reflection
-CRIMSON_WITCH_OF_FLAMES: Crimson Witch of Flames
-ELDER_OF_THE_HEXENZIRKEL: Elder of the Hexenzirkel
-PREMIUM_PLAN_TIER_ONE: "Premium Plan: Tier One"
-PREMIUM_PLAN_TIER_TWO: "Premium Plan: Tier Two"
-PREMIUM_PLAN_TIER_THREE: "Premium Plan: Tier Three"
-PREMIUM_PLAN_TIER_FOUR: "Premium Plan: Tier Four"
-ART_SETTINGS_KEY: Art Settings
-CUSTOM_ROLE_KEY: Custom Role
-ADD_PREMIUM_SERVERS_BUTTON: Add Premium Servers
-ADD_PREMIUM_SERVER_BUTTON: Add Premium Server
-ROLE_NAME_KEY: Role Name
-HEX_COLOR_KEY: HEX Color Code
-CUSTOM_ROLE_MODAL_TITLE: "Custom Role: {modal_type}"
-CUSTOM_ROLE_CREATE_BUTTON: Create Custom Role
-CUSTOM_ROLE_DELETE_BUTTON: Delete Custom Role
-CUSTOM_ROLE_NAME_CHANGE_BUTTON: Change Role Name
-CUSTOM_ROLE_COLOR_CHANGE_BUTTON: Change Role Color
-PREMIUM_SERVER_REMOVE: Select a server to remove...
-PREMIUM_SERVER_TIMESTAMP: Premium since {date}
-GUILD_OR_SERVER_ID: Guild/Server ID
-GUILD_OR_SERVER_ID_PLACEHOLDER: Insert Guild/Server ID here...
-GUIDE_KEY: Guide
-ENABLE_ADAPTIVE_ART_SETTING: Enable Adaptive Infographic Art
-INVITE_BOT_KEY: Invite Bot
-HELP_DROPDOWN_DIRECTORY: Help Directory
-HELP_DROPDOWN_PROFILE_COMMANDS: Profile/Stats Commands
-HELP_DROPDOWN_WISH_COMMANDS: Wish Commands
-HELP_DROPDOWN_HOYOLAB_COMMANDS: HoYoLAB Commands
-HELP_DROPDOWN_GUIDE_COMMANDS: Guide Commands
-HELP_DROPDOWN_MISCELLANEOUS_COMMANDS: Miscellaneous Commands
-HELP_DROPDOWN_DIRECTORY_DESCRIPTION: View Genshin Wizard Help Directory
-HELP_DROPDOWN_PROFILE_COMMANDS_DESCRIPTION: View Profile-Related Commands
-HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: View Wish-Related Commands
-HELP_DROPDOWN_HOYOLAB_COMMANDS_DESCRIPTION: View HoYoLAB-Related Commands
-HELP_DROPDOWN_GUIDE_COMMANDS_DESCRIPTION: View Guide-Related Commands
-HELP_DROPDOWN_MISCELLANEOUS_COMMANDS_DESCRIPTION: View Miscellaneous-Related Commands
-HELP_PROFILE_COG_NAME: Profile/Stats
-HELP_PROFILE_WISH_COG_NAME: Wish
+WITCH_OF_PURPLE_ROSE: 보라색 장미의 마녀
+ASTRAL_REFLECTION: 별들의 전당
+CRIMSON_WITCH_OF_FLAMES: 불타오르는 화염의 마녀
+ELDER_OF_THE_HEXENZIRKEL: 헥센지르켈의 장로
+PREMIUM_PLAN_TIER_ONE: "프리미엄 계획: 티어 1"
+PREMIUM_PLAN_TIER_TWO: "프리미엄 계획: 티어 2"
+PREMIUM_PLAN_TIER_THREE: "프리미엄 계획: 티어 3"
+PREMIUM_PLAN_TIER_FOUR: "프리미엄 계획: 티어 4"
+ART_SETTINGS_KEY: 아트 설정
+CUSTOM_ROLE_KEY: 커스텀 역할
+ADD_PREMIUM_SERVERS_BUTTON: 프리미엄 서버들 추가
+ADD_PREMIUM_SERVER_BUTTON: 프리미엄 서버 추가
+ROLE_NAME_KEY: 역할 이름
+HEX_COLOR_KEY: 헥스 색상 코드
+CUSTOM_ROLE_MODAL_TITLE: "커스텀 역할: {modal_type}"
+CUSTOM_ROLE_CREATE_BUTTON: 커스텀 역할 만들기
+CUSTOM_ROLE_DELETE_BUTTON: 커스텀 역할 삭제
+CUSTOM_ROLE_NAME_CHANGE_BUTTON: 역할 이름 바꾸기
+CUSTOM_ROLE_COLOR_CHANGE_BUTTON: 역할 색 바꾸기
+PREMIUM_SERVER_REMOVE: 프리미엄에서 제거할 서버를 선택하세요...
+PREMIUM_SERVER_TIMESTAMP: '{date}부터 프리미엄입니다'
+GUILD_OR_SERVER_ID: 길드/서버 ID
+GUILD_OR_SERVER_ID_PLACEHOLDER: 길드/서버 ID를 입력하십시오...
+GUIDE_KEY: 가이드
+ENABLE_ADAPTIVE_ART_SETTING: 적응형 인포스래픽 활성화
+INVITE_BOT_KEY: 봇 초대
+HELP_DROPDOWN_DIRECTORY: 도움말
+HELP_DROPDOWN_PROFILE_COMMANDS: 프로필/통계 명령어
+HELP_DROPDOWN_WISH_COMMANDS: 기원 명령어
+HELP_DROPDOWN_HOYOLAB_COMMANDS: 호요랩(HoYoLAB) 명령어
+HELP_DROPDOWN_GUIDE_COMMANDS: 가이드 명령어
+HELP_DROPDOWN_MISCELLANEOUS_COMMANDS: 기타 명령어
+HELP_DROPDOWN_DIRECTORY_DESCRIPTION: Genshin Wizard 도움말 디렉토리를 보여줍니다.
+HELP_DROPDOWN_PROFILE_COMMANDS_DESCRIPTION: 프로필 명령어를 보여줍니다.
+HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: 기원 명령어를 보여줍니다.
+HELP_DROPDOWN_HOYOLAB_COMMANDS_DESCRIPTION: 호요랩(HoYoLAB) 명령어를 보여줍니다.
+HELP_DROPDOWN_GUIDE_COMMANDS_DESCRIPTION: 가이드 명령어를 보여줍니다.
+HELP_DROPDOWN_MISCELLANEOUS_COMMANDS_DESCRIPTION: 기타 명령어를 보여줍니다.
+HELP_PROFILE_COG_NAME: 프로필/통계
+HELP_PROFILE_WISH_COG_NAME: 기원
 HELP_HOYOLAB_COG_NAME: HoYoLAB
-HELP_GUIDE_COG_NAME: Guides
-HELP_MISC_COG_NAME: Miscellaneous
-CHOOSE_ELEMENT_DROPDOWN: Choose an element...
-CHOOSE_LANGUAGE_DROPDOWN: Choose a language...
-CURRENT_LANGUAGE_KEY: Current Language
+HELP_GUIDE_COG_NAME: 가이드
+HELP_MISC_COG_NAME: 기타
+CHOOSE_ELEMENT_DROPDOWN: 요소 선택...
+CHOOSE_LANGUAGE_DROPDOWN: 언어를 고르시오...
+CURRENT_LANGUAGE_KEY: 현재 언어
 CROWDIN_KEY: Crowdin
-CROWDIN_LINK_KEY: Crowdin Link
-OFFICIAL_REPOSITORY_KEY: Official Repository
-OFFICIAL_REPOSITORY_LINK_KEY: Official Repository Link
-GENSHIN_WIZARD_TRANSLATE_TITLE: Contribute to Genshin Wizard Translations
+CROWDIN_LINK_KEY: Crowdin 링크
+OFFICIAL_REPOSITORY_KEY: 공식 정보 저장소
+OFFICIAL_REPOSITORY_LINK_KEY: 공식 전보 저장소 링크
+GENSHIN_WIZARD_TRANSLATE_TITLE: Genshin Wizard 번역에 기여
 GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: Genshin Wizard 번역에 기여하려면 아래 링크 중 하나를 클릭하십시오!
