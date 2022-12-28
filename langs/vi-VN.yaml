@@ -82,30 +82,30 @@ PREFIX_CHANGED_DESCRIPTION: |
 
   **Tiền tố cũ:** `{old_prefix}`
   **Tiền tố mới:** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: Genshin Wizard Prefix Setting
-MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Computational Error. Try rephrasing!"
+PREFIX_CHANGED_FOOTER: Cài đặt tiền tố Genshin Wizard
+MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Lỗi tính toán. Hãy thử sắp xếp lại!"
 MATH_COMMAND_RESULT: |
-  **Expression:** `{expression}`
-  **Result:**
+  **Phép toán:** `{expression}`
+  **Kết quả:**
   ```{result}```
-RECENT_GENSHIN_EVENTS: Recent Genshin Events
-SEND_CODES_COMMAND_TITLE: Genshin Wizard | Active Codes
+RECENT_GENSHIN_EVENTS: Sự kiện Genshin gần đây
+SEND_CODES_COMMAND_TITLE: Genshin Wizard | Mã đổi thưởng
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
-  <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
+  <:blurplelink:1020155547187691600> [***Có thể đổi mã quà bằng cách bấm vào các nút bên dưới!***](https://genshin.mihoyo.com/en/gift)
+  <:blurpleannouncement:1020402170127982712> **Ghi chú:** Mã quà sẽ hết hạn, vui lòng đổi thưởng càng sớm càng tốt!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>\n
-SEND_CODES_REDEEM_AUTOMATICALLY: Redeem Automatically
-SEND_CODES_DIRECT_LINK: Direct Link
-SEND_CODES_REDEEMABLE_CODES: Redeemable Codes
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Redemption Codes
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!*
-MESSAGE_LINK: Message Link
-CLICK_HERE: Click Here
-INFO_SELECT_CHARACTER: Select a character
-INFO_CHARACTER_SOURCE: "Source: Saved Builds"
-INFO_USER_CACHE: User Cache
-INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
+SEND_CODES_REDEEM_AUTOMATICALLY: Tự động đổi mã quà
+SEND_CODES_DIRECT_LINK: Link trực tiếp
+SEND_CODES_REDEEMABLE_CODES: Mã đổi thưởng
+SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Mã đổi thưởng
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Đã gửi thành công mã đổi thưởng đến {channel}!*
+MESSAGE_LINK: Link tin nhắn
+CLICK_HERE: Bấm vào đây
+INFO_SELECT_CHARACTER: Chọn nhân vật
+INFO_CHARACTER_SOURCE: "Nguồn: Build đã lưu"
+INFO_USER_CACHE: Cache Người dùng
+INTERMISSION_MESSAGE: Đang khởi tạo infographic, vui lòng **kiên nhẫn**...
 MENU_COOLDOWN_TITLE: Menu này đang trong thời gian chờ!
 BUTTON_COOLDOWN_TITLE: Nút này đang đợi hồi chiêu!
 COMMAND_COOLDOWN_TITLE: Lệnh này đang trong thời gian hồi chiêu!
@@ -141,38 +141,38 @@ ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Không tìm thấy Người dùng
 ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Hãy đảm bảo rằng người dùng bạn đang tìm kiếm vẫn còn trong server.
 ERROR_MISSING_REQUIRED_ARGUMENT: "Bạn đã quên không cung cấp đối số, vui lòng dùng định dạng sau: ```{usage}```"
 ERROR_MISSING_REQUIRED_ATTACHMENT: "Bạn đã không cung cấp tập tin đính kèm, vui lòng sử dụng định dạng: ```{usage} cùng tập tin đính kèm.```"
-ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, I do not have permission to `Manage Messages` within this channel/guild. Please enable this permission and try again.
-ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
-MESSAGE_KEY: Message
-ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
-ERROR_MESSAGE: There has been an error!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
+ERROR_MISSING_MANAGE_MESSAGE: Nhà Lữ Hành ơi, bạn chưa cấp quyền `Quản lý tin nhắn` (Manage Messages) cho bot trong kênh/guild này. Vui lòng thử lại.
+ERROR_MISSING_SEND_MESSAGE: Nhà Lữ Hành ơi, bạn chưa cấp quyền `Gửi tin nhắn` (Send Messages) cho bot trong kênh/guild này. Vui lòng thử lại.
+MESSAGE_KEY: Tin nhắn
+ERROR_EMPTY_BACKPACK: Túi của bạn đang **rỗng**! Để bắt đầu hành trình của bạn, hãy sử dụng lệnh </wishsimulator:{command_id}>!
+ERROR_INTERACTION_MISMATCH: Nhà Lữ Hành ơi! Bạn **không thể tương tác** với tin nhắn này! Bạn hãy sử dụng lệnh {command} để có thể tương tác với bot nhé!
+ERROR_MESSAGE: Đã xảy ra lỗi!
+FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Phản hồi
+FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Phản hồi của bạn đã được gửi đến đội ngũ phát triển!*
 FEEDBACK_LOG_RESPONSE: |
-  > User: **{author_name}** | {author_mention}
+  > Người dùng: **{author_name}** | {author_mention}
   > Discord ID: `{author_id}`
 
-  **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </register:{command_id}> to link your account.
+  **Phản hồi:**```{feedback}```
+NO_HOYOLAB_LINKED: Bạn chưa liên kết với tài khoản HoYoLAB. Hãy dùng lệnh </register:{command_id}> để bắt đầu liên kết.
 OLD_HOYOLAB_LINKED: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
+  Xin chào Nhà Lữ Hành! Rất tiếc vì sự bất tiện, nhưng tính năng này đã được bổ sung **sau khi** bạn liên kết tài khoản `HoYoLAB` với Genshin Wizard. 
 
-  In order to use this button, you must unlink your HoYoLAB account through </hoyo:{command_id}> and **relink** through the usual registration command.
-CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Redemption
-CODE_REDEEM_DESCRIPTION: "*Please wait while we process your redemption code...*"
+  Để sử dụng chức năng này, bạn phải hủy liên kết tài khoản HoYoLAB qua lệnh </hoyo:{command_id}> và **liên kết lại**.
+CODE_REDEEM_TITLE: Genshin Wizard | Đổi mã quà HoYoLAB
+CODE_REDEEM_DESCRIPTION: "*Vui lòng đợi trong khi chúng tôi xử lý mã đổi thưởng...*"
 CODE_REDEEM_PROGRESS: |
-  *Please wait while we process your redemption code...*
-  <a:loading:1015667958237900801> Attempting to redeem code `{code}`
-HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Expired Cookies
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
+  *Vui lòng đợi trong khi chúng tôi xử lý mã đổi thưởng...*
+  <a:loading:1015667958237900801> Đang đổi mã quà `{code}`
+HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Cookie đã hết hạn
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Nhà Lữ Hành ơi! Có vẻ như cookie sử dụng để đổi mã quà HoYoLAB đã **hết hạn**! Hãy dùng lệnh </hoyo:{command_id}> và hoàn thành quá trình liên kết tài khoản để **làm mới** lại cookie tài khoản HoYoLAB của bạn.
 GENSHIN_WIZARD_INFORMATION: |
-  <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
-  <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
+  <a:blue_arrow:1005981235966910494> **[Mời bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
+  <a:blue_arrow:1005981235966910494> **[Website Chính thức](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
-APP_COMMAND_INFO_DESCRIPTION: Shows builds for characters in the user's in-game showcase.
+CODE_REDEEM_SUCCESS: "*Mã đổi thưởng đã được quy đổi thành công!*"
+APP_COMMAND_INFO_DESCRIPTION: Mở infographic với cách build nhân vật trên hồ sơ của bạn.
 APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history formatted into a text file via private messages.
 APP_COMMAND_HISTORY_DESCRIPTION: View your Genshin account's wish history.
 APP_COMMAND_DAILY_DESCRIPTION: Claim your daily HoYoLAB sign-in rewards.
