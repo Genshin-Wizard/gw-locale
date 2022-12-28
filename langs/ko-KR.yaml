@@ -769,7 +769,7 @@ NO_REMINDERS_SET_KEY: No Reminders Set!
 RESIN_REMINDERS_KEY: Resin Reminders
 EXPEDITION_REMINDERS_KEY: Expedition Reminders
 SERENITEA_POT_KEY: Serenitea Pot
-PARAMETRIC_REMINDERS_KEY: Parametric Transformer
+PARAMETRIC_REMINDERS_KEY: 매체 변수 변환기
 RESIN_REMINDERS_DESCRIPTION: |
   You currently have **<:fragileresin:1029984988583706654>{current_resin}** resin!
   **Replenish Time:** Replenishes {time_left}
@@ -784,7 +784,7 @@ PARAMETRIC_REMINDERS_DESCRIPTION: |
    > **자동 알림:** {reminder_setting}
 READY_TO_USER: ready to use!
 NOT_READY_TO_USE: not ready to use!
-MAXED_OUT_KEY: Maxed Out!
+MAXED_OUT_KEY: 최고 레벨 도달
 RESIN_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your resin reaches a certain amount!
 REMINDER_AUTOMATIC_RESIN_SET: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your resin reaches the threshold set above!
 TEAPOT_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your teapot currency maxes out!
@@ -834,7 +834,7 @@ CHEST_PROGRESSION_KEY: Chest Progression
 EXPLORATION_AND_OCULI: Exploration & Oculi
 NOT_YET_UNLOCKED: Not Yet Unlocked!
 STATISTICS_COMMAND_FOOTER: "참고: 통계가 잘못 표시되거나 데이터가 누락될 수 있습니다. 호요랩 측에서 API 오류가 발생하여 이를 방지할 수 있는 방법이 없습니다."
-CONGRATULATIONS_KEY: Congratulations!
+CONGRATULATIONS_KEY: 축하합니다!
 ABYSS_CONGRATULATE_MESSAGE: |
   나선비경을 완벽하게 *클리어*한 {user}님을 축하합니다!
    <:spiralabyss:1000079902596411482> <@&{role_id}> 지정된 역할 <a:check:956327345717907507>
@@ -852,8 +852,8 @@ PERMANENT_KEY: 상시
 NOVICE_KEY: 초심자
 STARDUST_EXCHANGES: Stardust Exchanges
 STARGLITTER_EXCHANGES: Starglitter Exchanges
-STARDUST_KEY: Stardust
-STARGLITTER_KEY: Starglitter
+STARDUST_KEY: 스타더스트
+STARGLITTER_KEY: 스타라이트
 GENSHIN_WIZARD_SHOP_TITLE: Genshin Wizard 샵
 GENSHIN_WIZARD_SHOP_DESCRIPTION: |
   Welcome to Paimon's Bargains! Here you can purchase items to help you on your journey. You currently have <:Primogem:951924423340994610>**{primogems} Primogems** in your Genshin Wizard inventory.
@@ -891,12 +891,12 @@ COMMISSION_COMPLETE_MESSAGE: |
   You have been rewarded with **16,000 Primogems** <:Primogem:951924423340994610>
 PRIVATE_MESSAGE_KEY: 개인 메시지
 SIMULATOR_BALANCE_MESSAGE: |
-  <:blurpleannouncement:1020402170127982712> **Note:** You can only claim Daily Commission rewards **once** per day.
+  <:blurpleannouncement:1020402170127982712> **참고:** 일일 출석 보상은 하루에 **한번**만 청구할 수 있습니다.
 
-  **__CURRENT BALANCES__**
-  <:MasterlessStardust:951924423332626522> **Stardust:** {stardust}
-  <:MasterlessStarglitter:951924423059980290> **Starglitter:** {starglitter}
-  <:Primogem:951924423340994610> **Primogems:** {primogems}
+  **__현재 잔액__**
+  <:MasterlessStardust:951924423332626522> **스타더스트:** {stardust}
+  <:MasterlessStarglitter:951924423059980290> **스타라이트:** {starglitter}
+  <:Primogem:951924423340994610> **원석:** {primogems}
 SIMULATOR_RESET_INVENTORY: Are you sure you wish to reset your inventory? This action will get rid of all your obtained characters through the wishsimulator commands and is **irreversible**!
 SIMULATOR_STARDUST_SHOP_OPTIONS: |
   **<:MasterlessStardust:951924423332626522> 75 | 160 Primogems <:Primogem:951924423340994610>**
@@ -1111,9 +1111,9 @@ DELETE_SELECTED_KEY: 선택된 항목 삭제
 DELETE_ALL_KEY: 전체삭제
 CANCEL_KEY: 취소
 CACHE_VIEW_NO_SAVED_CHARACTERS: No Saved Characters!
-THREE_STARS_KEY: 별 3개
-FOUR_STARS_KEY: 별 4개
-FIVE_STARS_KEY: 별 5개
+THREE_STARS_KEY: 3성
+FOUR_STARS_KEY: 4성
+FIVE_STARS_KEY: 5성
 ALL_WISHES_KEY: 모든 기원
 THREE_STARS_FILTER_DESCRIPTION: Filter your wish history by three-star pulls.
 FOUR_STARS_FILTER_DESCRIPTION: Filter your wish history by four-star pulls.
@@ -1148,10 +1148,10 @@ PERSONAL_BUTTON: 개인
 ABYSS_LEADERBOARD_WANING_PHASE_LABEL: "{date} Waning Phase"
 ABYSS_LEADERBOARD_WAXING_PHASE_LABEL: "{date} Waxing Phase"
 PERIOD_KEY: Period
-ABYSS_LEADERBOARD_ALL_TIME: 역대 리더보드
+ABYSS_LEADERBOARD_ALL_TIME: 역대 래더보드
 ABYSS_LEADERBOARD_ALL_TIME_DESCRIPTION: 모든 심연 단계의 기록을 확인.
 ABYSS_LEADERBOARD_PLACEHOLDER: 심연 페이즈를 선택하세요...
-CHESTS_KEY: 상자
+CHESTS_KEY: 보물상자
 ACHIVEMENTS_KEY: 업적
 CHARACTER_STATISTICS_KEY: 캐릭터 능력치
 ARTIFACT_SUBSTAT_KEY: 성유물 부스텟
@@ -1172,16 +1172,16 @@ WISHES_DESCRIPTION: View Genshin Wizard's wishes leaderboard.
 DONATIONS_DESCRIPTION: View Genshin Wizard's donations leaderboard.
 LEVELS_DESCRIPTION: View Genshin Wizard's levelling leaderboard.
 LEADERBOARD_PLACEHOLDER: Choose a leaderboard category...
-COMMON_LABEL: "평범한"
-EXQUISITE_LABEL: "희귀"
-PRECIOUS_LABEL: "진귀"
-LUXURIOUS_LABEL: "진귀한"
+COMMON_LABEL: "평범한보물상자"
+EXQUISITE_LABEL: "정교한보물상자"
+PRECIOUS_LABEL: "진귀한보물상자"
+LUXURIOUS_LABEL: "화려한보물상자"
 REMARKABLE_LABEL: "주목할 만한"
 ALL_CHESTS_LABEL: "모든보물상자"
-STRONGEST_STRIKE_LABEL: "최강의 일격"
-MOST_BURSTS_USED_LABEL: "가장많이사용한필살기"
+STRONGEST_STRIKE_LABEL: "최대데미지"
+MOST_BURSTS_USED_LABEL: "가장 많이 사용된 궁"
 MOST_SKILLS_USED_LABEL: "가장 많이 사용한스킬"
-MOST_DAMAGE_TAKEN_LABEL: "가장 많이받은피해"
+MOST_DAMAGE_TAKEN_LABEL: "받은 데미지 최대치"
 MOST_DEFEATS_LABEL: "Most Defeats"
 MAX_HP_LABEL: "최대 HP"
 HP_LABEL: "체력"
@@ -1199,9 +1199,9 @@ TOTAL_WISHES_LABEL: "모든기원"
 PRIMOGEM_COUNT_LABEL: "총 원석"
 STARDUST_COUNT_LABEL: "Stardust Count"
 STARGLITTER_COUNT_LABEL: "Starglitter Count"
-THREE_STAR_LABEL: "별 3개"
-FOUR_STAR_LABEL: "별 4개"
-FIVE_STAR_LABEL: "별 5개"
+THREE_STAR_LABEL: "3성"
+FOUR_STAR_LABEL: "4성"
+FIVE_STAR_LABEL: "5성"
 PREVIOUS_BUTTON: 이전 페이지
 NEXT_BUTTON: 다음
 GENERATE_IMAGE_BUTTON: 이미지 생성
@@ -1246,7 +1246,7 @@ LOGIN_MODAL_TITLE: 호요랩 계정 로그인
 RESIN_KEY: 레진
 TEAPOT_KEY: 선계
 EXPEDITIONS_KEY: 원정
-PARAMETRIC_TRANSFORMER_KEY: Parametric Transformer
+PARAMETRIC_TRANSFORMER_KEY: 매체 변수 변환기
 CLEAR_ALL_REMINDERS_BUTTON: Clear All Reminders
 CLEAR_REMINDER_BUTTON: Clear {reminder_type} Reminders
 SET_REMINDER_KEY: Set Reminder
@@ -1358,10 +1358,10 @@ ADD_PREMIUM_SERVERS_BUTTON: 프리미엄 서버들 추가
 ADD_PREMIUM_SERVER_BUTTON: 프리미엄 서버 추가
 ROLE_NAME_KEY: 역할 이름
 HEX_COLOR_KEY: 헥스 색상 코드
-CUSTOM_ROLE_MODAL_TITLE: "커스텀 역할: {modal_type}"
-CUSTOM_ROLE_CREATE_BUTTON: 커스텀 역할 만들기
-CUSTOM_ROLE_DELETE_BUTTON: 커스텀 역할 삭제
-CUSTOM_ROLE_NAME_CHANGE_BUTTON: 역할 이름 바꾸기
+CUSTOM_ROLE_MODAL_TITLE: "커스텀 역활: {modal_type}"
+CUSTOM_ROLE_CREATE_BUTTON: 커스텀 역활 만들기
+CUSTOM_ROLE_DELETE_BUTTON: 커스텀 역활 삭제
+CUSTOM_ROLE_NAME_CHANGE_BUTTON: 역활 이름 바꾸기
 CUSTOM_ROLE_COLOR_CHANGE_BUTTON: 역할 색 바꾸기
 PREMIUM_SERVER_REMOVE: 프리미엄에서 제거할 서버를 선택하세요...
 PREMIUM_SERVER_TIMESTAMP: '{date}부터 프리미엄입니다'
@@ -1393,6 +1393,6 @@ CURRENT_LANGUAGE_KEY: 현재 언어
 CROWDIN_KEY: Crowdin
 CROWDIN_LINK_KEY: Crowdin 링크
 OFFICIAL_REPOSITORY_KEY: 공식 정보 저장소
-OFFICIAL_REPOSITORY_LINK_KEY: 공식 전보 저장소 링크
+OFFICIAL_REPOSITORY_LINK_KEY: 공식 저장소 링크
 GENSHIN_WIZARD_TRANSLATE_TITLE: Genshin Wizard 번역에 기여
 GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: Genshin Wizard 번역에 기여하려면 아래 링크 중 하나를 클릭하십시오!
