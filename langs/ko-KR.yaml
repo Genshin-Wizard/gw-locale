@@ -117,14 +117,14 @@ EXCLUSIVE_COMMAND_DESCRIPTION: |
 
    이 명령을 사용하려면 [Official Discord](https://discord.gg/genshinwizard) 가입을 고려하세요.
 ERROR_COMMAND_INVOKE: 현재 명령어에 올바른 매개변수를 사용하고 있는지 확인하십시오!
-ERROR_PRIVACY_SETTING_TITLE: 숨겨진 | 존재하지 않습니다!
+ERROR_PRIVACY_SETTING_TITLE: 숨겨진 정보 | 볼 게 없습니다!
 ERROR_PRIVACY_SETTING_DESCRIPTION: 여행자! 아쉽게도 검색하려는 사람은 **개인정보 보호**가 활성화되어 있습니다!
 ERROR_ONGOING_UPDATE_TITLE: 원신 마법사 | 지속적인 업데이트!
 ERROR_ONGOING_UPDATE_DESCRIPTION: 여행자! Genshin Wizard는 현재 **점검 중**이며 현재 명령어는 일시적으로 *비활성화*되었습니다. 나중에 다시 시도 해주십시오*.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  여행자! 여기서 이 명령어를 사용하는 것은 **허용되지 않습니다**. 이것은 Genshin Wizard 서버 {command_type}*독점* 명령어 입니다!
+  여행자! 여기서 이 명령어를 사용하는 것은 **허용되지 않습니다**. 이것은 Genshin Wizard 서버 {command_type}전용 명령어 입니다!
 
-   이 명령을 사용하려면 [Official Discord](https://discord.gg/genshinwizard) 가입을 하시면 사용가능합니다.
+   이 명령을 사용하려면 [공식 디스코드](https://discord.gg/genshinwizard) 가입을 하시면 사용가능합니다.
 ERROR_PREMIUM_COMMAND_TITLE: 원신 위자드 프리미엄
 ERROR_PREMIUM_COMMAND_DESCRIPTION: 여행자! 이 명령을 사용할 수 없습니다**. 이 명령은 **프리미엄 구독자**만 사용할 수 있습니다. 이 기능을 사용하려면 </premium:{command_id}> 명령을 사용하여 자세히 알아보세요.
 ERROR_BLACKLISTED_TITLE: 원신 위자드 | 블랙리스트
@@ -133,9 +133,9 @@ ERROR_BLACKLISTED_DESCRIPTION: |
 
    이것이 오류라고 생각되면 [Official Discord](https://discord.gg/genshinwizard) 가입을 하시면 사용가능합니다.
 ERROR_MEMBER_NOT_FOUND_TITLE: 원신위자드 | 맴버를찾을수없습니다.
-ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Make sure the person you are trying to view is still in the server.
+ERROR_MEMBER_NOT_FOUND_DESCRIPTION: 찾아보려는 멤버가 이 서버에 있는지 다시 확인을 해주세요.
 ERROR_MISSING_REQUIRED_ARGUMENT: "인수를 제공하는 것을 잊었습니다. 올바른 형식을 사용하세요: ```{usage}```"
-ERROR_MISSING_REQUIRED_ATTACHMENT: "첨부파일을 제공하는 것을 잊으셨습니다. 올바른 형식을 사용하세요: ```{usage} with the 올바른 첨부파일.```"
+ERROR_MISSING_REQUIRED_ATTACHMENT: "첨부파일을 제공하는 것을 잊으셨습니다. 올바른 형식을 사용하세요: ```올바른 첨부파일과 함께 {usage}를 해주세요.```"
 ERROR_MISSING_MANAGE_MESSAGE: 여행자님, 이 채널/길드 내에서 '메시지 관리' 권한이 없습니다. 이 권한을 활성화하고 다시 시도하십시오.
 ERROR_MISSING_SEND_MESSAGE: 여행자님, 이 채널/길드 내에서 '메시지 보내기' 권한이 없습니다. 이 권한을 활성화하고 다시 시도하십시오.
 MESSAGE_KEY: 메세지
