@@ -251,11 +251,11 @@ APP_COMMAND_INVITE_DESCRIPTION: 봇 초대 링크를 받으세요.
 APP_COMMAND_DONATE_DESCRIPTION: Genshin Wizard 개발 지원.
 APP_COMMAND_VOTE_DESCRIPTION: Genshin Wizard 온라인 투표 링크.
 APP_COMMAND_AVATAR_DESCRIPTION: 사용자의 디스코드 아바타를 봅니다.
-APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
-APP_COMMAND_TRUTH_DESCRIPTION: Seek wisdom from Genshin Wizard.
+APP_COMMAND_CRITVALUE_DESCRIPTION: 특정 성유물의 CV를 계산합니다.
+APP_COMMAND_TRUTH_DESCRIPTION: Genshin Wizard에게서 지혜를 얻습니다.
 APP_COMMAND_CHANGEPREFIX_DESCRIPTION: 명령에 대한 Genshin Wizard의 접두사를 변경합니다.
-APP_COMMAND_PITY_DESCRIPTION: Information on understanding the Genshin pity-system.
-APP_COMMAND_MATH_DESCRIPTION: Computer simple or complex functions.
+APP_COMMAND_PITY_DESCRIPTION: 원신 가챠 시스템의 원리에 대한 정보
+APP_COMMAND_MATH_DESCRIPTION: 단순하거나 복잡한 식을 계산합니다.
 APP_COMMAND_EVENTS_DESCRIPTION: 최근 원신이벤트를 체크
 APP_COMMAND_SENDCODES_DESCRIPTION: 버튼으로 Genshin 상환 코드에 대한 메시지를 보냅니다.
 APP_COMMAND_FEEDBACK_DESCRIPTION: Genshin Wizard 개발자에게 피드백을 보내주십시오.
@@ -263,16 +263,16 @@ APP_COMMAND_DELETE_DESCRIPTION: 사용자의 Genshin Wizard 프로필을 삭제�
 APP_COMMAND_BLACKLIST_DESCRIPTION: Genshin Wizard를 사용하지 못하도록 사용자를 블랙리스트에 추가합니다.
 APP_COMMAND_DELIMPORT_DESCRIPTION: 사용자의 기원 기록을 삭제합니다.
 EXPORT_NO_WISHES: 항목이 없습니다.
-EXPORT_NO_BANNER_WISHES: No {banner} banner wishes found.
+EXPORT_NO_BANNER_WISHES: '{banner} 배너를 찾지 못했습니다.'
 EXPORT_NO_MESSAGE_PERMISSION: "봇은 개인 메시지를 보낼 수 있는 권한이 **없습니다**. *Discord 개인 정보 설정*에서 `서버 구성원의 다이렉트 메시지 허용` **활성화** 설정이 되어 있는지 확인하십시오."
 EXPORT_MESSAGE_SUCCESS: 기원 내역이 성공적으로 전송되었고 개인메시지를 통해 발송되었습니다.
 INFO_COMMAND_INVALID_ARGUMENT: |
-  **Invalid argument passed.**
+  **잘못된 인수가 전달되었습니다.**
 
-  To view another player's stats, please enter either Discord User **or** a Genshin UID. Entering both will result in an error.
+  다른 플레이어의 스탯을 보려면, 디스코드 사용자 ID 또는 원신 UID를 입력하십시오. 둘 다 입력할 시 오류가 발생합니다.
 INVALID_ARGUMENT_PASSED: |
-  Invalid argument passed.
-  Valid argument is `<discord user>`/`<genshin uid>`
+  잘못된 인수가 전달되었습니다.
+  유효한 인수는 '<discord user>'/'<genshin uid>' 입니다
 INFO_COMMAND_ENKA_ISSUE: '[**Enka.Network**](https://enka.network/u/{uid})에 문제가 있는 것 같습니다. 나중에 다시 시도 해주십시오.'
 ERROR_NO_USER_DATA: 이 유저에 대한 데이터를 찾을 수 없습니다.
 WHAT_HAPPENED_TITLE: 무슨일이 일어난건가요?
@@ -311,7 +311,7 @@ INFO_COMMAND_CACHE_DELETE_SELECTED: Genshin Wizard의 빌드에서 선택한 캐
 INFO_COMMAND_CACHE_DELETE_ALL: Genshin Wizard의 빌드에서 선택한 캐릭터를 성공적으로 삭제했습니다!
 INFO_COMMAND_CACHE_CANCEL: "**취소** 캐시 관리 요청! 이 메시지를 무시하셔도 됩니다."
 APP_COMMAND_DESCRIBE_USER: 검색하려는 리소스입니다.
-APP_COMMAND_DESCRIBE_USER_AVATAR: The member you wish to view an avatar for.
+APP_COMMAND_DESCRIBE_USER_AVATAR: 볼 아바타의 사용자입니다.
 APP_COMMAND_DESCRIBE_UID: 검색하려는 유저의 UID입니다.
 APP_COMMAND_DESCRIBE_USER_WISH: 특정 사용자의 Genshin Wish 기록을 검색합니다.
 APP_COMMAND_DESCRIBE_AUTOCLAIM: 자동 HoYoLAB 일일 로그인을 활성화/비활성화합니다.
@@ -319,12 +319,12 @@ ENABLE_KEY: 활성화
 DISABLE_KEY: 비활성화
 ENABLE_AUTOCLAIM: 자동 일일 로그인을 활성화합니다.
 DISABLE_AUTOCLAIM: 자동 일일 로그인을 비활성화합니다.
-APP_COMAND_DESCRIBE_CODES: The redemption code you wish to redeem for your account.
+APP_COMAND_DESCRIBE_CODES: 계정에 교환할 리딤코드입니다,.
 APP_COMMAND_DESCRIBE_DATA: 나의 기원 기록 가져오기
 APP_COMMAND_DESCRIBE_RESOURCE: 검색하려는 리소스입니다.
-APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: The character you want to calculate ascension materials for.
-APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: Starting level of the character you want to upgrade.
-APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: Desired level of the character you want to upgrade.
+APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: 레벨돌파에 필요한 재료를 계산할 캐릭터입니다.
+APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: 레벨업할 캐릭터의 현재 레벨입니다.
+APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: 레벨업이 끝난 후의 레벨입니다.
 APP_COMMAND_DESCRIBE_BANNER_IMAGE: The image you want to use as your banner.
 APP_COMMAND_DESCRIBE_BANNER_URL: The link to an image you want to use as your banner.
 APP_COMMAND_DESCRIBE_CURRENT_RESIN: The amount of resin you currently have.
@@ -822,14 +822,14 @@ PLEASE_WAIT_DESCRIPTION: Waiting! There is nothing you can do to get past this a
 PLAYER_TITLE: 플레이어 {player}
 USER_TITLE: 유저 {user}
 OVERVIEW_KEY: 요약
-GENERAL_OVERVIEW_KEY: 일반통계
+GENERAL_OVERVIEW_KEY: 일반 요약
 GENERAL_OVERVIEW_SECTION: |
   모험 등급: {adventure_rank}
   총 업적: {achievement_number}
   총 활동 일수: {playtime}
   캐릭터: **{char_count}**/{total_char}
   나선비경: {abyss}
-  서버: {region}
+  지역: {region}
 CHEST_PROGRESSION_KEY: 보물상자 통계
 EXPLORATION_AND_OCULI: 탐험도 & 신의눈동자
 NOT_YET_UNLOCKED: Not Yet Unlocked!
@@ -893,7 +893,7 @@ PRIVATE_MESSAGE_KEY: 개인 메시지
 SIMULATOR_BALANCE_MESSAGE: |
   <:blurpleannouncement:1020402170127982712> **참고:** 일일 출석 보상은 하루에 **한번**만 청구할 수 있습니다.
 
-  **현재원석**
+  **__현재 잔액__**
   <:MasterlessStardust:951924423332626522> **스타더스트:** {stardust}
   <:MasterlessStarglitter:951924423059980290> **스타라이트:** {starglitter}
   <:Primogem:951924423340994610> **원석:** {primogems}
@@ -1396,3 +1396,7 @@ OFFICIAL_REPOSITORY_KEY: 공식 정보 저장소
 OFFICIAL_REPOSITORY_LINK_KEY: 공식 저장소 링크
 GENSHIN_WIZARD_TRANSLATE_TITLE: Genshin Wizard 번역에 기여
 GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: Genshin Wizard 번역에 기여하려면 아래 링크 중 하나를 클릭하십시오!
+APP_COMMAND_LANGUAGE_DESCRIPTION: Change your language for Genshin Wizard.
+APP_COMMAND_DESCRIBE_LANGUAGE: The language you want Genshin Wizard to be set to.
+GENSHIN_WIZARD_LANGUAGE_SWITCHED: Default language for Genshin Wizard switched to **{language}**!
+GENSHIN_WIZARD_CURRENT_LANGUAGE: Your current language for Genshin Wizard is **{language}**!
