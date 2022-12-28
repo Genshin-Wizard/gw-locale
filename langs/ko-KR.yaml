@@ -11,63 +11,67 @@ HELP_CATEGORY_LIST: |
   > ⏰ | 기타 명령어
 MISC_COMMANDS: 기타 명령어
 PING_INFORMATION: |
-  핑_정보
+  **퐁!** :ping_pong:
+  봇 지연 시간: **{bot_latency}ms.**
+  웹소켓 지연 시간: **{ws_latency}ms.**
 UPTIME_INFORMATION: |
-  가동시간_정보
+  **원신위자드 가동 시간**
+  **마지막 재시작 시간:** <t:{last_restart}:R>
+  **가동 시간:** {uptime}
 VERSION_KEY: 버전
-PING_KEY: 핑
+PING_KEY: 핑(Ping)
 UNKNOWN_KEY: 정보없음
 USER_NOT_PUBLIC: 사용자 데이터는 공개되지 않습니다.
 INVITE_INFORMATION: 아래 링크를 사용하여 이 봇을 자신의 서버에 초대하십시오.
 REQUESTED_BY: '{user} 님의 요청'
-SUPPORT_GWIZ_TITLE: 원신위자드지원
+SUPPORT_GWIZ_TITLE: Genshin Wizard 지원
 SUPPORT_GWIZ_DESC: Genshin Wizard 개발 지원.
-DONATE_KEY: 후원
-VOTE_GWIZ_DESCRIPTION: 아래링크를클릭하여 원신위자드에 투표해주세요
+DONATE_KEY: 후원하기
+VOTE_GWIZ_DESCRIPTION: Genshin Wizard에 투표하려면 아래 링크를 클릭하십시오.
 VOTE_KEY: 투표
 VOTE_BOT: 봇 투표
 VOTE_SERVER: 서버 투표
-VOTE_BOT_LINK: 투표봇링크
+VOTE_BOT_LINK: 봇 초대 링크
 VOTE_SERVER_LINK: 투표서버링크
 VOTE_BOT_BUTTON: '[Bot] 투표'
 VOTE_SERVER_BUTTON: '[Server] 투표'
-DEVELOPERS_KEY: 개발자들
+DEVELOPERS_KEY: 개발자
 SERVER_KEY: 서버
 SERVERS_KEY: 서버들
 USERS_KEY: 사용자
 WEBSITE_KEY: 웹사이트
 INVITE_KEY: 초대
 DOCUMENTATION_KEY: 문서
-GWIZ_INVITE: 원신위자드초대
+GWIZ_INVITE: Genshin Wizard 초대
 AVATAR_KEY: 아바타
 ARTIFACT_CRIT_VALUE_TITLE: 성유물 CV 계산기
 TOTAL_CRIT_VALUE: 종합 CV
 TRUTH_COMMAND_RESPONSES:
-  - 제가 보기에는 그렇습니다.
-  - 예.
-  - 긍정합니다.
-  - 제 입장에서는 그래요.
-  - 확신합니다.
-  - 확실해요.
-  - 확실히 그렇습니다.
-  - 의심할 여지가 없습니다.
-  - 아마도 그럴 것입니다.
-  - 그럴 확률이 높습니다.
-  - 아니요.
-  - 그렇지 않다고 생각해요.
-  - 부정합니다.
-  - 정보가 정확하지않습니다.
-  - 확실하지 않아요.
-  - 아마
+  - 당연하지
+  - ㅇㅇ
+  - 아무래도?
+  - 나의생각은 그래
+  - ㅇㅇ
+  - 틀림없지 ㅋㅋ
+  - 확실히 그렇지!
+  - 페이몬은 틀림없어!
+  - 내생각은 그럴지도?
+  - 99% 맞을지도?
+  - ㄴㄴ
+  - 페이몬 생각은 아니야
+  - 페이몬은 절대아니야
+  - 페이몬생각은......"아니"
+  - 페이몬생각은 아닌거같아
+  - 글쎄....?
   - 몰?루
-  - 아마도
-  - 그걸 누가 압니까?
-  - 예측 불가능입니다.
-  - 피곤해요. 말걸지 마세요.
-  - 틀립없어요!
-TRUTH_COMMAND_TITLE: 페이몬의 지식
+  - 아마도? 그럴지도?
+  - 페이몬이 그걸 어떻게 알아?
+  - 페이몬, 이거는 너무 예상 밖이야
+  - 페이몬, 피곤해
+  - 페이몬은 틀림없어!
+TRUTH_COMMAND_TITLE: 페이몬과 함께하는 이야기
 QUESTION_KEY: 질문
-RESPONSE_KEY: 대답
+RESPONSE_KEY: 페이몬의 대답
 PREFIX_COMMAND_CURRENT: 이 서버의 현재 접두사는 '{prefix}' 입니다.
 PREFIX_TOO_LONG: 접두사는 최대 5자 이내여야 합니다.
 PREFIX_TOO_SHORT: 1자 미만일 수 없습니다.
@@ -834,14 +838,14 @@ CONGRATULATIONS_KEY: Congratulations!
 ABYSS_CONGRATULATE_MESSAGE: |
   Congratulations {user} on perfectly *clearing* the Spiral Abyss!
   <:spiralabyss:1000079902596411482> <@&{role_id}> Role Given <a:check:956327345717907507>
-ABYSS_COMMAND_STATISTICS_CREDIT: User {name}'s Spiral Abyss Stats
+ABYSS_COMMAND_STATISTICS_CREDIT: 유저{name} 나선비경 통계
 CURRENT_LUNAR_PHASE_DESCRIPTION: |
   **Current Lunar Phase**
   **Start Time:** {start}
   **End Time:** {end}
 MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard is missing permissions to `Manage Roles`. Please enable this permission and try again."
 ROLE_NOT_FOUND: ":no_entry: There was an error retrieving the role. Please make sure the role information under this integration is correct."
-GENSHIN_STATS_HEADER: "{name}'s Genshin Stats"
+GENSHIN_STATS_HEADER: "{name} 원신 통계"
 PROCESSING_BANNER_TRANSITION: Processing {banner} Banner...
 WEAPON_KEY: 무기
 PERMANENT_KEY: 상시
@@ -919,11 +923,11 @@ SIMULATOR_DUMP_CANCELLED: "**<:yescheck:1021114525858136074> Successfully Cancel
 FARM_COMMAND_DOMAIN_TITLE: Domain Schedule Overview [{region}]
 SERVER_RESET_KEY: Server Reset
 ARTIFACT_GUIDE_FOOTER: Use the command /artifact <name_of_artifact> to get more information on an artifact.
-ARTIFACT_GUIDE_TITLE: Artifacts Overview
+ARTIFACT_GUIDE_TITLE: 성유물 확인
 NO_ASSET_INPUT: ":no_entry: Please provide an asset ID to look up."
 WEAPON_INFORMATION_TITLE: 무기 정보 | {weapon}
 WEAPON_INFORMATION_FOOTER: "무기 가이드 • 인포그래픽: {weapon}"
-WEAPON_GUIDE_TITLE: Weapon Guide | {weapon}
+WEAPON_GUIDE_TITLE: 무기 도움말 | {weapon}
 ASSET_NOT_FOUND: ":no_entry: No results found for {asset}! Please make sure an in-game asset exists for the provided ID"
 DEFAULT_SYNERGY_DESCRIPTION: Information regarding this character's team composition and synergy.
 GUIDES_SUGGESTION_TITLE: Want to suggest changes to this particular guide?
