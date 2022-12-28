@@ -62,14 +62,14 @@ TRUTH_COMMAND_RESPONSES:
   - 절대 아니거든~!!
   - 내생각은... 이건아니야~!!
   - 음 그건 아닌거같은데~?
-  - 음~ 글쎄~?
+  - 아마
   - 페이몬은 아무것도 몰?루
-  - 아마도 그럴거같아~!
+  - 아마도
   - 몰라! 내가 그딴걸 어케알아~!
   - 페이몬, 이거는 너무 예상 밖이야
   - 페이몬은 피곤해 꿈속에서 보자 ㅇ_ㅇ
   - 페이몬은 틀림없어!
-TRUTH_COMMAND_TITLE: 페이몬과 함께하는 이야기
+TRUTH_COMMAND_TITLE: 페이몬의 지식
 QUESTION_KEY: 질문
 RESPONSE_KEY: 페이몬의 대답
 PREFIX_COMMAND_CURRENT: 이 서버의 현재 접두사는 '{prefix}' 입니다.
@@ -353,7 +353,7 @@ APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated
 APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
 APP_CONTEXT_MENU_PROFILE: 프로필
 APP_CONTEXT_MENU_STATISTICS: 통계 진행
-APP_CONTEXT_MENU_ABYSS: Abyss Progression
+APP_CONTEXT_MENU_ABYSS: 심연 진행도
 APP_CONTEXT_MENU_CHARACTERS: 캐릭터
 APP_CONTEXT_MENU_WISH_HISTORY: 기원 기록
 WHITELIST_KEY_LOWERCASE: 화이트리스트
@@ -492,7 +492,7 @@ LEADERBOARD_CHESTS_FOOTER: Chests are updated via stats commands, check your sta
 LEADERBOARD_GACHA_SIMULATOR_FOOTER: Simulator leaderboards are updated via gacha simulator commands, use the gacha simulator actively to climb the ranks!
 LEADERBOARD_ARTIFACT_FOOTER: Artifact information is updated via info commands, check your builds frequently to actively get updated artifact stats!
 LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Character stats information is updated via info commands, check your builds frequently to actively get updated character stats!
-LEADERBOARD_ABYSS_FOOTER: Abyss statistics are updated via the abyss progression command, check your abyss progression frequently to get an updated statistics measurement!
+LEADERBOARD_ABYSS_FOOTER: 심연 통계는 심연 진행 명령을 통해 업데이트되며, 심연 진행도를 자주 확인하여 업데이트된 통계 수치를 얻으세요!
 LEADERBOARD_DONATION_FOOTER: Donate via the support links found in the /donate command to obtain a spot on this exquisite leaderboard!
 LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *데이터를 분석하는 중입니다. **기다려 주세요**...* <a:tyno:1001656937689120788>
 ERROR_GUILD_ONLY_BUTTON: ":no_entry: You must be in a guild to use this button!"
@@ -527,22 +527,22 @@ PRIVACY_SETTING_TITLE: Genshin Wizard Privacy Settings
 PRIVACY_SETTING_DESCRIPTION: Change your Genshin Wizard privacy settings here.
 PRIVACY_SETTING_KEY: 개인정보 설정
 PRIVACY_SETTING_BRIEF: |
-  **UID Privacy:** {uid_privacy}
-  **Wish History Privacy:** {wish_privacy}
-  **Stats Privacy:** {stats_privacy}
-  **Abyss Privacy:** {abyss_privacy}
-  **Info Privacy:** {info_privacy}
+  **UID 보호:** {uid_privacy}
+   **기원 기록 개인정보 보호:** {wish_privacy}
+   **통계 개인정보 보호:** {stats_privacy}
+   **나선비경 프라이버시:** {abyss_privacy}
+   **정보 프라이버시:** {info_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **UID Privacy:** {uid_privacy}
-  > *Hide your UID from showing up anywhere*
-  **Wish History Privacy:** {wish_privacy}
-  > *Hide your Wish History from showing up anywhere (`/history`)*
-  **Stats Privacy:** {stats_privacy}
-  > *Hide your Genshin Stats Progression from showing up anywhere (`/stats`)*
-  **Abyss Privacy:** {abyss_privacy}
-  > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
-  **Info Privacy:** {info_privacy}
-  > *Hide your showcase builds information from showing up anywhere (`/info`)*
+  **UID 보호:** {uid_privacy}
+   > *어디서나 표시되지 않도록 UID 숨기기*
+   **기원 기록 개인정보 보호:** {wish_privacy}
+   > *어디서나 표시되지 않도록 소원 기록 숨기기(`/history`)*
+   **통계 개인정보 보호:** {stats_privacy}
+   > *원신 통계 진행이 어디에도 표시되지 않도록 숨기기(`/stats`)*
+   **어비스 프라이버시:** {abyss_privacy}
+   > *원신 심연 진행이 어디에도 표시되지 않도록 숨기기(`/abyss`)*
+   **정보 프라이버시:** {info_privacy}
+   > *쇼케이스 빌드 정보가 어디에도 표시되지 않도록 숨기기(`/info`)*
 ALL_KEY: 전체
 RESET_KEY: 재설정
 WISH_HISTORY_KEY: 기원 기록
@@ -559,7 +559,7 @@ SETTING_BANNER_UPDATE: Your banner has been successfully updated!
 SETTING_BIOGRAPHY_ILLEGAL: Hey Traveler! Your input contains words that **aren't allowed** by Genshin Wizard! Please consider trying something *different* for your bio.
 DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
 SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
-BIOGRAPHY_KEY: Bio
+BIOGRAPHY_KEY: 자기소개
 BANNER_KEY: 배너
 ELEMENTAL_RESONANCE_KEY: Elemental Resonance
 BUILDS_ART_STYLE_KEY: Builds Art Style
@@ -581,19 +581,19 @@ IMAGE_LINK_KEY: Image Link
 UPDATE_DATE_KEY: 업데이트 날짜
 SETTING_COMMAND_REQUIRE_SLASH: You must use a **slash command** (</settings:{command_id}>) or access this via your profile.
 CURRENT_ABYSS_DESCRIPTION: |
-  **Current Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  **현재 나선비경**
+   **시작 시간:** <t:{timestamp_start}:F>
+   **종료 시간:** <t:{timestamp_end}:F>
 PREVIOUS_ABYSS_DESCRIPTION: |
-  **Previous Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
-ABYSS_COMMAND_FOOTER: "Note: Abyss data may be incorrectly shown or missing data, if this is the case, do keep in mind that abyss data can generally take anywhere from 1-3 hours to update!"
+  **이전 나선비경**
+   **시작 시간:** <t:{timestamp_start}:F>
+   **종료 시간:** <t:{timestamp_end}:F>
+ABYSS_COMMAND_FOOTER: "참고: 심연 데이터가 잘못 표시되거나 데이터가 누락될 수 있습니다. 이 경우 심연 데이터가 업데이트되는 데 일반적으로 1~3시간이 걸릴 수 있음을 명심하세요!"
 ABYSS_MISSING_DATA_FOOTER: "Note: This data seems to be missing some information! This is likely due to this information not being stored in the database previously, or the data not being updated yet."
 ABYSSAL_ARCHIVE_DESCRIPTION: |
-  <:previous_abyss:1028377675989000215> **Abyssal Archives**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  <:previous_abyss:1028377675989000215> **나선비경**
+   **시작 시간:** <t:{timestamp_start}:F>
+   **종료 시간:** <t:{timestamp_end}:F>
 UID_LOOKUP: 원신 UID 보기
 UID_LOOKUP_TITLE: "{user} 원신 계정 UID"
 PUBLIC_KEY: 공개
@@ -779,9 +779,9 @@ TEAPOT_REMINDERS_DESCRIPTION: |
   **Replenish Time:** {time_left}
   > **Automatic Reminder:** {reminder_setting}
 PARAMETRIC_REMINDERS_DESCRIPTION: |
-  Your **<:parametrictransformer:1029984451670847568>Parametric Transformer** is currently {transformer_status}!
-  **Replenish Time:** {time_left}
-  > **Automatic Reminder:** {reminder_setting}
+  귀하의 **<:parametrictransformer:1029984451670847568>매체변수 변환기**는 현재 {transformer_status}입니다!
+   **보충 시간:** {time_left}
+   > **자동 알림:** {reminder_setting}
 READY_TO_USER: ready to use!
 NOT_READY_TO_USE: not ready to use!
 MAXED_OUT_KEY: Maxed Out!
@@ -836,8 +836,8 @@ NOT_YET_UNLOCKED: Not Yet Unlocked!
 STATISTICS_COMMAND_FOOTER: "참고: 통계가 잘못 표시되거나 데이터가 누락될 수 있습니다. 호요랩 측에서 API 오류가 발생하여 이를 방지할 수 있는 방법이 없습니다."
 CONGRATULATIONS_KEY: Congratulations!
 ABYSS_CONGRATULATE_MESSAGE: |
-  Congratulations {user} on perfectly *clearing* the Spiral Abyss!
-  <:spiralabyss:1000079902596411482> <@&{role_id}> Role Given <a:check:956327345717907507>
+  나선비경을 완벽하게 *클리어*한 {user}님을 축하합니다!
+   <:spiralabyss:1000079902596411482> <@&{role_id}> 지정된 역할 <a:check:956327345717907507>
 ABYSS_COMMAND_STATISTICS_CREDIT: 유저{name} 나선비경 통계
 CURRENT_LUNAR_PHASE_DESCRIPTION: |
   **Current Lunar Phase**
@@ -985,11 +985,11 @@ PREMIUM_ART_SETTINGS_DESCRIPTION: |
 NO_CUSTOM_ART_FOUND: "`❌ You have not setup custom-art for any characters.`"
 CUSTOM_ART_STATISTICS: You have enabled custom character art for **{characters}/{total_characters}** characters!
 PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard Custom Role Settings**
-  Role Status: {role_bool}
-  Role: {role_mention}
-  Role Name: {role_name}
-  Role Color: `{role_color}`
+  <:information:1034639378410115103> **Genshin Wizard 사용자 정의 역할 설정**
+   역할 상태: {role_bool}
+   역할: {role_mention}
+   역할 이름: {role_name}
+   역할 색상: `{role_color}`
 GENSHIN_WIZARD_PREMIUM: 원신 위자드 프리미엄
 CLAIMED_KEY: 수령 성공
 UNCLAIMED_KEY: 수령되지 않음
@@ -1148,9 +1148,9 @@ PERSONAL_BUTTON: 개인
 ABYSS_LEADERBOARD_WANING_PHASE_LABEL: "{date} Waning Phase"
 ABYSS_LEADERBOARD_WAXING_PHASE_LABEL: "{date} Waxing Phase"
 PERIOD_KEY: Period
-ABYSS_LEADERBOARD_ALL_TIME: All-time Leaderboard
-ABYSS_LEADERBOARD_ALL_TIME_DESCRIPTION: View records from all Abyss phases.
-ABYSS_LEADERBOARD_PLACEHOLDER: Choose an Abyss phase...
+ABYSS_LEADERBOARD_ALL_TIME: 역대 리더보드
+ABYSS_LEADERBOARD_ALL_TIME_DESCRIPTION: 모든 심연 단계의 기록을 확인.
+ABYSS_LEADERBOARD_PLACEHOLDER: 심연 페이즈를 선택하세요...
 CHESTS_KEY: 상자
 ACHIVEMENTS_KEY: 업적
 CHARACTER_STATISTICS_KEY: 캐릭터 능력치
@@ -1165,7 +1165,7 @@ CHESTS_DESCRIPTION: Genshin Wizard의 상자 순위 보기
 ACHIVEMENTS_DESCRIPTION: View Genshin Wizard's achievements leaderboard.
 CHARACTER_STATISTICS_DESCRIPTION: Genshin Wizard의 캐릭터 통계 리더보드 보기
 ARTIFACT_SUBSTAT_DESCRIPTION: Genshin Wizard의 성유물 통계 리더보드 보기
-ABYSS_STATISTICS_DESCRIPTION: View Genshin Wizard's Spiral Abyss leaderboard.
+ABYSS_STATISTICS_DESCRIPTION: Genshin Wizard의 나선비경 리더보드를 확인합니다.
 GACHA_SIMULATOR_DESCRIPTION: View Genshin Wizard's gacha simulator leaderboard.
 ACTIVE_PLAYTIME_DESCRIPTION: View Genshin Wizard's active playtime leaderboard.
 WISHES_DESCRIPTION: View Genshin Wizard's wishes leaderboard.
@@ -1219,7 +1219,7 @@ MASTER_PRIVACY_BUTTON: 마스터 프라이버시
 UPDATE_BANNER_MODAL_TITLE: 배너업데이트
 UPDATE_BANNER_MODAL_URL_INPUT: Link to desired image for banner
 UPDATE_BANNER_MODAL_URL_PLACEHOLDER: https://some.link/to/image.png
-UPDATE_BIO_MODAL_TITLE: Update Bio
+UPDATE_BIO_MODAL_TITLE: 자기소개 업데이트
 UPDATE_BIO_MODAL_LABEL: A short description about you. (200 chars)
 UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
 SELECT_CHOOSE_CATEGORY: 카테고리 선택
@@ -1264,42 +1264,42 @@ BADGES_KEY: 배지
 RETURN_TO_MENU: 메뉴돌아가기
 SHOW_UNOWNED_KEY: Show Unowned
 SHOW_OWNED_KEY: Show Owned
-SHOP_BUTTON_LABEL: "{primogem_price} Primogems"
-REROLL_WISHES_BUTTON: Reroll Wishes
+SHOP_BUTTON_LABEL: "{primogem_price} 원석"
+REROLL_WISHES_BUTTON: 기원 다시하기
 VIEW_INVENTORY_BUTTON: 인벤토리 보기
-REGION_SELECT_PLACEHOLDER: Select a region...
+REGION_SELECT_PLACEHOLDER: 지역 선택...
 AMERICA_KEY: 아메리카
 EUROPE_KEY: 유럽
 ASIA_KEY: 아시아
 SAR_KEY: SAR
-AMERICA_SERVER_DOMAIN_SCHEDULE: View current Domain Schedule for America servers.
-EUROPE_SERVER_DOMAIN_SCHEDULE: View current Domain Schedule for Europe servers.
-ASIA_SERVER_DOMAIN_SCHEDULE: View current Domain Schedule for Asia servers.
+AMERICA_SERVER_DOMAIN_SCHEDULE: 아메리카 서버의 현재 비경 일정 확인.
+EUROPE_SERVER_DOMAIN_SCHEDULE: 유럽 서버의 현재 비경 일정을 봅니다.
+ASIA_SERVER_DOMAIN_SCHEDULE: 아시아 서버의 현재 비경 일정 확인.
 SAR_SERVER_DOMAIN_SCHEDULE: View current Domain Schedule for SAR servers.
-SUGGEST_CHANGES_BUTTON: Suggest Changes
-KQM_GUIDE: KQM Guide
-INTRODUCTION_KEY: Introduction
+SUGGEST_CHANGES_BUTTON: 변경 제안
+KQM_GUIDE: KQM 가이드
+INTRODUCTION_KEY: 소개
 PLAYSTYLE_KEY: 플레이 방식
 BUILD_KEY: 빌드
 ASCENSION_MATERIALS_KEY: 돌파 재료
-TEAM_SYNERGIES_KEY: Team Synergies
-CONSTELLATIONS_KEY: Constellations
+TEAM_SYNERGIES_KEY: 팀 효과
+CONSTELLATIONS_KEY: 별자리
 SKILL_TALENTS_KEY: 스킬 및 전용 스킬
 PASSIVE_TALENTS_KEY: 고유 특성
 INTRODUCTION_DESCRIPTION: 기본 캐릭터 정보 보기
-PLAYSTYLE_DESCRIPTION: View Character Playstyle(s)
-BUILD_DESCRIPTION: View Character Build(s)
-ASCENSION_MATERIALS_DESCRIPTION: View Character Ascension Materials
-TEAM_SYNERGIES_DESCRIPTION: View Character Team Synergies
-CONSTELLATIONS_DESCRIPTION: View Character Constellations Overview
-SKILL_TALENTS_DESCRIPTION: View Character Active/Skill Talents
-PASSIVE_TALENTS_DESCRIPTION: View Character Passive Talents
+PLAYSTYLE_DESCRIPTION: 캐릭터 플레이 스타일 보기(s)
+BUILD_DESCRIPTION: 캐릭터 빌드 보기(s)
+ASCENSION_MATERIALS_DESCRIPTION: 캐릭터 돌파 재료 보기
+TEAM_SYNERGIES_DESCRIPTION: 캐릭터 팀 시너지 보기
+CONSTELLATIONS_DESCRIPTION: 캐릭터 별자리 요약 보기
+SKILL_TALENTS_DESCRIPTION: 캐릭터 액티브/스킬 특성 보기
+PASSIVE_TALENTS_DESCRIPTION: 캐릭터 패시브 특성 보기
 VIEW_CARD_BUTTON: 호요랩 위키 에서 카드 보기
-CONFIG_DAILY_ANNOUNCEMENTS_PANEL: Daily Announcements Panel
+CONFIG_DAILY_ANNOUNCEMENTS_PANEL: 일일 공지 패널
 CONFIG_SERVER_TIME_PANEL: Server Time Panel
-CONFIG_DOMAIN_SCHEDULE_PANEL: Domain Schedule Panel
+CONFIG_DOMAIN_SCHEDULE_PANEL: 비경 일정 패널
 CONFIG_CUSTOM_BANNER: 커스텀배너
-SERVER_SELECT_PLACEHOLDER: Choose server-time for announcements...
+SERVER_SELECT_PLACEHOLDER: 공지 사항에 대한 서버 시간 선택...
 MASTER_SWITCH_BUTTON: 전부 활성화/비활성화
 SWITCH_BUTTON: 활성화/비활성화
 PING_ROLE_BUTTON: 역할 핑
@@ -1322,7 +1322,7 @@ PARTNER_ABYSS_CONGRATULATORY_MESSAGE: 축하 메시지
 LOG_CHANNEL_KEY: 로그 채널
 FRIENDSHIP_ROLE_BUTTON: 호감도 역할
 CONSTELLATION_ROLE_BUTTON: 별자리 역할 (6돌)
-CONSTELLATION_ROLE_KEY: 별자리 역할
+CONSTELLATION_ROLE_KEY: 별자리 왕관
 CROWNED_ROLE_BUTTON: 지식의 왕관 역할
 ABYSS_SETTINGS_BUTTON: 나선 비경 세팅
 DOLPHIN_ROLE_BUTTON: 소과금유저 역할
