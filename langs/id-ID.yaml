@@ -9,7 +9,7 @@ HELP_CATEGORY_LIST: |
   > <:hoyolab:1016159766705344705> | Perintah HoYoLAB
   > 📝 | Panduan Perintah
   > ⏰ | Aneka Perintah
-MISC_COMMANDS: Aneka Ragam Perintah
+MISC_COMMANDS: Perintah Lain-lain
 PING_INFORMATION: |
   **Pong!** :ping_pong:
   Latensi Bot adalah **{bot_latency}ms.**
@@ -72,73 +72,74 @@ TRUTH_COMMAND_RESPONSES:
 TRUTH_COMMAND_TITLE: Kebijaksaan Paimon
 QUESTION_KEY: Pertanyaan
 RESPONSE_KEY: Responsif
-PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
-PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
-PREFIX_TOO_SHORT: The prefix cannot be shorter than 1 character.
-PREFIX_CHANGED_TITLE: Genshin Wizard | Prefix Change
+PREFIX_COMMAND_CURRENT: Awalan di server ini `{prefix}`
+PREFIX_TOO_LONG: Awalan tidak boleh lebih dari 5 karakter.
+PREFIX_TOO_SHORT: Awalan tidak boleh pendek dari 1 karakter.
+PREFIX_CHANGED_TITLE: Genshin Wizard | Awalan Berubah
 PREFIX_CHANGED_DESCRIPTION: |
-  Successfully changed **Genshin Wizard's** prefix! Commands will now be invoked using this new prefix.
+  Berhasil mengubah awalan **Genshin Wizard**! Perintah sekarang akan dipanggil menggunakan awalan baru ini.
 
-  **Old Prefix:** `{old_prefix}`
-  **New Prefix:** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: Genshin Wizard Prefix Setting
-MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Computational Error. Try rephrasing!"
+  **Awalan Lama:** `{old_prefix}`
+  **Awalan Baru.** `{new_prefix}`
+PREFIX_CHANGED_FOOTER: Pengaturan Awalan Genshin Wizard
+MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Kesalahan Komputasi. Coba ulangi!"
 MATH_COMMAND_RESULT: |
-  **Expression:** `{expression}`
-  **Result:**
+  **Ekspresi:** `{expression}`
+  **Hasil**
   ```{result}```
-RECENT_GENSHIN_EVENTS: Recent Genshin Events
-SEND_CODES_COMMAND_TITLE: Genshin Wizard | Active Codes
+RECENT_GENSHIN_EVENTS: Perkara Terkini Genshin
+SEND_CODES_COMMAND_TITLE: Genshin Wizard | Kode Aktif
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
-  <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
+  <:blurplelink:1020155547187691600> [***Dapat menebus dengan mengklik tombol di bawah!***]
+  (https://genshin.mihoyo.com/en/gift)
+  <:blurpleannouncement:1020402170127982712> **Catatan:** Kode berakhir dengan cepat, jadi pastikan untuk menebusnya sesegera mungkin!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>\n
-SEND_CODES_REDEEM_AUTOMATICALLY: Redeem Automatically
-SEND_CODES_DIRECT_LINK: Direct Link
-SEND_CODES_REDEEMABLE_CODES: Redeemable Codes
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Redemption Codes
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!*
-MESSAGE_LINK: Message Link
-CLICK_HERE: Click Here
-INFO_SELECT_CHARACTER: Select a character
-INFO_CHARACTER_SOURCE: "Source: Saved Builds"
-INFO_USER_CACHE: User Cache
-INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
-MENU_COOLDOWN_TITLE: That menu is on cooldown!
-BUTTON_COOLDOWN_TITLE: That button is on cooldown!
-COMMAND_COOLDOWN_TITLE: That command is on cooldown!
-MENU_COOLDOWN_VALUE: You're clicking attributes too quickly! Try again in **{cooldown}** seconds.
-CHARACTER_SHOWCASE_TITLE: Character Showcase
-ERROR_RATELIMIT: User is currently ratelimited.
-ERROR_COMMAND_COOLDOWN_VALUE: Try using this command again in {cooldown} secs.
-ERROR_COMMAND_LONG_COOLDOWN_VALUE: Try using this command again in <t:{cooldown}:R>
-ERROR_KEY: Error!
-SUCCESSFUL_KEY: Successful!
-ERROR_MISSING_PERMISSION: You don't have permission to use this command!
-EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Exclusive Command
+SEND_CODES_REDEEM_AUTOMATICALLY: Tebus Secara Otomatis
+SEND_CODES_DIRECT_LINK: Tautan Langsung
+SEND_CODES_REDEEMABLE_CODES: Kode yang Dapat Ditebus
+SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Kode penebusan
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Berhasil mengirim kode penebusan ke {channel}!*
+MESSAGE_LINK: Tautan Pesanan
+CLICK_HERE: Klik di sini
+INFO_SELECT_CHARACTER: Pilih Karakter
+INFO_CHARACTER_SOURCE: "Sumber: Build Tersimpan"
+INFO_USER_CACHE: Cache Pengguna
+INTERMISSION_MESSAGE: Membuat infografis, harap **bersabar**...
+MENU_COOLDOWN_TITLE: Menu itu sedang cooldown!
+BUTTON_COOLDOWN_TITLE: Butang itu sedang cooldown!
+COMMAND_COOLDOWN_TITLE: Perintah itu sedang cooldown!
+MENU_COOLDOWN_VALUE: Anda mengklik atribut terlalu cepat! Coba lagi dalam waktu **{cooldown}** detik.
+CHARACTER_SHOWCASE_TITLE: Memamerkan Karakter
+ERROR_RATELIMIT: Pengguna ini dibatasi tarifnya.
+ERROR_COMMAND_COOLDOWN_VALUE: Coba gunakan perintah ini lagi dalam {cooldown} detik.
+ERROR_COMMAND_LONG_COOLDOWN_VALUE: Coba gunakan perintah ini lagi dalam <t:{cooldown}:R>
+ERROR_KEY: Ralat!
+SUCCESSFUL_KEY: Berhasil Gan!
+ERROR_MISSING_PERMISSION: Kamu tidak memiliki izin untuk menggunakan perintah ini!
+EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Perintah Eksklusif
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
+  Hai Traveler! Kamu **tidak diizinkan** untuk menggunakan perintah ini di sini, perintah ini hanya dapat digunakan dalam satu server.
 
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
-ERROR_COMMAND_INVOKE: Make sure you're using the correct parameters for this command!
-ERROR_PRIVACY_SETTING_TITLE: Hidden | Nothing to see!
-ERROR_PRIVACY_SETTING_DESCRIPTION: Hey Traveler! Unfortunately, the person you are trying to search for has **privacy settings** enabled!
-ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Ongoing Update!
-ERROR_ONGOING_UPDATE_DESCRIPTION: Hey Traveler! Genshin Wizard is currently **undergoing maintenance** and this command has been *disabled* for the time being. Please try again *later*.
+  Jika Anda ingin menggunakan perintah ini, pertimbangkan untuk bergabung dengan kami [Discord Rasmi] (https://discord.gg/genshinwizard).
+ERROR_COMMAND_INVOKE: Pastikan kamu menggunakan parameter yang betul untuk perintah ini!
+ERROR_PRIVACY_SETTING_TITLE: Tersembunyi | Tidak ada yang bisa dilihat!
+ERROR_PRIVACY_SETTING_DESCRIPTION: Hai Traveler! Sayangnya, orang yang kamu coba cari mengaktifkan **pengaturan privasi**!
+ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Pembaruan yang sedang berlangsung!
+ERROR_ONGOING_UPDATE_DESCRIPTION: Hai Traveler! Genshin Wizard saat ini **menjalani pemeliharaan** dan perintah ini telah *dinonaktifkan* untuk saat ini. Silakan coba lagi *nanti*.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this is a Genshin Wizard server {command_type}*exclusive* command!
+  Hai Traveler! Anda **tidak diizinkan** untuk menggunakan perintah ini di sini, ini adalah perintah server Genshin Wizard {command_type}*eksklusif*!
 
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
+  Jika Anda ingin menggunakan perintah ini, pertimbangkan untuk bergabung dengan kami [Discord Rasmi] (https://discord.gg/genshinwizard).
 ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
-ERROR_PREMIUM_COMMAND_DESCRIPTION: Hey Traveler! You're **not allowed** to use this command, this command is only available to **Premium Subscribers**. If you'd like use this feature, consider learning more using the </premium:{command_id}> command.
-ERROR_BLACKLISTED_TITLE: Genshin Wizard | Blacklisted
+ERROR_PREMIUM_COMMAND_DESCRIPTION: Hai Traveler! Anda **tidak diizinkan** untuk menggunakan perintah ini, perintah ini hanya tersedia untuk **Pelanggan Premium**. Jika Anda ingin menggunakan fitur ini, pertimbangkan untuk mempelajari lebih lanjut menggunakan perintah </premium:{command_id}>.
+ERROR_BLACKLISTED_TITLE: Genshin Wizard | Data Hitam
 ERROR_BLACKLISTED_DESCRIPTION: |
-  Hey Traveler! You have been **banned** from using Genshin Wizard!
+  Hai Traveler! Anda telah **dilarang** menggunakan Genshin Wizard!
 
-  If you believe for this to be an error, consider joining our [Official Discord](https://discord.gg/genshinwizard)
-ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Member Not Found
-ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Make sure the person you are trying to view is still in the server.
+  Jika Anda yakin ini adalah kesalahan, pertimbangkan untuk bergabung dengan [Discord Rasmi](https://discord.gg/genshinwizard) kami
+ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Anggota Tidak Ditemukan
+ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Pastikan orang yang kamu coba lihat masih ada di server.
 ERROR_MISSING_REQUIRED_ARGUMENT: "You forgot to provide an argument, please use the correct format: ```{usage}```"
 ERROR_MISSING_REQUIRED_ATTACHMENT: "You forgot to provide an attachment, please use the correct format: ```{usage} with the correct attachment.```"
 ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, I do not have permission to `Manage Messages` within this channel/guild. Please enable this permission and try again.
@@ -279,7 +280,7 @@ ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
 WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
-INFO_COMMAND_SHOWCASE_TITLE: Character Showcase
+INFO_COMMAND_SHOWCASE_TITLE: Memamerkan Karakter
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
 REFRESHES_KEY: Refreshes
 INFO_COMMAND_CHARACTER_DETAILS: Character
@@ -1370,30 +1371,30 @@ GUILD_OR_SERVER_ID: Guild/Server ID
 GUILD_OR_SERVER_ID_PLACEHOLDER: Insert Guild/Server ID here...
 GUIDE_KEY: Guide
 ENABLE_ADAPTIVE_ART_SETTING: Enable Adaptive Infographic Art
-INVITE_BOT_KEY: Invite Bot
-HELP_DROPDOWN_DIRECTORY: Help Directory
-HELP_DROPDOWN_PROFILE_COMMANDS: Profile/Stats Commands
-HELP_DROPDOWN_WISH_COMMANDS: Wish Commands
-HELP_DROPDOWN_HOYOLAB_COMMANDS: HoYoLAB Commands
-HELP_DROPDOWN_GUIDE_COMMANDS: Guide Commands
-HELP_DROPDOWN_MISCELLANEOUS_COMMANDS: Miscellaneous Commands
-HELP_DROPDOWN_DIRECTORY_DESCRIPTION: View Genshin Wizard Help Directory
-HELP_DROPDOWN_PROFILE_COMMANDS_DESCRIPTION: View Profile-Related Commands
-HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: View Wish-Related Commands
-HELP_DROPDOWN_HOYOLAB_COMMANDS_DESCRIPTION: View HoYoLAB-Related Commands
-HELP_DROPDOWN_GUIDE_COMMANDS_DESCRIPTION: View Guide-Related Commands
-HELP_DROPDOWN_MISCELLANEOUS_COMMANDS_DESCRIPTION: View Miscellaneous-Related Commands
-HELP_PROFILE_COG_NAME: Profile/Stats
-HELP_PROFILE_WISH_COG_NAME: Wish
+INVITE_BOT_KEY: Undang Bot
+HELP_DROPDOWN_DIRECTORY: Direktori Bantuan
+HELP_DROPDOWN_PROFILE_COMMANDS: Perintah Profil/Statistik
+HELP_DROPDOWN_WISH_COMMANDS: Perintah Harapan
+HELP_DROPDOWN_HOYOLAB_COMMANDS: Perintah HoYoLAB
+HELP_DROPDOWN_GUIDE_COMMANDS: Panduan Perintah
+HELP_DROPDOWN_MISCELLANEOUS_COMMANDS: Perintah Lain-lain
+HELP_DROPDOWN_DIRECTORY_DESCRIPTION: Lihat Direktori Bantuan Genshin Wizard
+HELP_DROPDOWN_PROFILE_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Profil
+HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Keinginan
+HELP_DROPDOWN_HOYOLAB_COMMANDS_DESCRIPTION: Lihat Perintah Terkait HoYoLAB
+HELP_DROPDOWN_GUIDE_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Panduan
+HELP_DROPDOWN_MISCELLANEOUS_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Lain-Lain
+HELP_PROFILE_COG_NAME: Profil/Statistik
+HELP_PROFILE_WISH_COG_NAME: Harapan
 HELP_HOYOLAB_COG_NAME: HoYoLAB
-HELP_GUIDE_COG_NAME: Guides
-HELP_MISC_COG_NAME: Miscellaneous
-CHOOSE_ELEMENT_DROPDOWN: Choose an element...
-CHOOSE_LANGUAGE_DROPDOWN: Choose a language...
-CURRENT_LANGUAGE_KEY: Current Language
+HELP_GUIDE_COG_NAME: Panduan
+HELP_MISC_COG_NAME: Lain-lain
+CHOOSE_ELEMENT_DROPDOWN: Pilih elemen...
+CHOOSE_LANGUAGE_DROPDOWN: Pilih bahasa...
+CURRENT_LANGUAGE_KEY: Bahasa Sekarang
 CROWDIN_KEY: Crowdin
-CROWDIN_LINK_KEY: Crowdin Link
-OFFICIAL_REPOSITORY_KEY: Official Repository
-OFFICIAL_REPOSITORY_LINK_KEY: Official Repository Link
-GENSHIN_WIZARD_TRANSLATE_TITLE: Contribute to Genshin Wizard Translations
-GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: Click one of the links below to contribute to Genshin Wizard translations!
+CROWDIN_LINK_KEY: Tautan Crowdin
+OFFICIAL_REPOSITORY_KEY: Repositori Resmi
+OFFICIAL_REPOSITORY_LINK_KEY: Tautan Repositori Resmi
+GENSHIN_WIZARD_TRANSLATE_TITLE: Berkontribusi pada Terjemahan Genshin Wizard
+GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: Klik salah satu tautan di bawah untuk berkontribusi pada terjemahan Genshin Wizard!
