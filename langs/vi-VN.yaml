@@ -1,51 +1,51 @@
 ---
 GENSHIN_WIZARD_KEY: Genshin Wizard
-HELP_DIRECTORY_TITLE: Genshin Wizard | Help Directory
-HELP_CATEGORY_DESCRIPTION: Select a category from the dropdown to view commands specific to that category.
-HELP_CATEGORIES: Categories
+HELP_DIRECTORY_TITLE: Genshin Wizard | Danh mục Hỗ trợ
+HELP_CATEGORY_DESCRIPTION: Hãy chọn một chủ đề từ danh mục bên dưới để hiện các lệnh liên quan.
+HELP_CATEGORIES: Danh mục
 HELP_CATEGORY_LIST: |
-  > 👤 | Profile Commands
-  > 💫 | Wish Commands
-  > <:hoyolab:1016159766705344705> | HoYoLAB Commands
-  > 📝 | Guide Commands
-  > ⏰ | Miscellaneous Commands
-MISC_COMMANDS: Miscellaneous commands
+  > 👤 | Hồ sơ 
+  > 💫 | Cầu nguyện
+  > <:hoyolab:1016159766705344705> | HoYoLAB 
+  > 📝 | Hướng dẫn/Guide
+  > ⏰ | Các lệnh khác
+MISC_COMMANDS: Các lệnh khác
 PING_INFORMATION: |
   **Pong!** :ping_pong:
-  Bot Latency is **{bot_latency}ms.**
-  Websocket Latency is **{ws_latency}ms.**
+  Độ trễ của bot là **{bot_latency}ms.**
+  Độ trễ WebSocket là **{ws_latency}ms.**
 UPTIME_INFORMATION: |
   **Genshin Wizard Uptime**
-  **Last Restart:** <t:{last_restart}:R>
-  **Uptime:** {uptime}
-VERSION_KEY: Version
+  **Lần Restart cuối:** <t:{last_restart}:R>
+  **Thời gian Uptime:** {uptime}
+VERSION_KEY: Phiên bản
 PING_KEY: Ping
-UNKNOWN_KEY: Unknown
-USER_NOT_PUBLIC: User data is not public.
-INVITE_INFORMATION: Use the link below to invite this bot to your own server.
-REQUESTED_BY: Requested by {user}
-SUPPORT_GWIZ_TITLE: Support Genshin Wizard
-SUPPORT_GWIZ_DESC: Support the development of Genshin Wizard.
+UNKNOWN_KEY: Không rõ
+USER_NOT_PUBLIC: Thông tin người chơi không hiển thị công khai.
+INVITE_INFORMATION: Hãy sử dụng đường link bên dưới để mời Genshin Wizard vào server của bạn.
+REQUESTED_BY: Được yêu cầu bởi {user}
+SUPPORT_GWIZ_TITLE: Ủng hộ Genshin Wizard
+SUPPORT_GWIZ_DESC: Hỗ trợ sự phát triển của Genshin Wizard.
 DONATE_KEY: Donate
-VOTE_GWIZ_DESCRIPTION: Click the links below to vote for Genshin Wizard.
+VOTE_GWIZ_DESCRIPTION: Nhấp vào các đường link bên dưới để vote cho Genshin Wizard.
 VOTE_KEY: Vote
-VOTE_BOT: Vote for Bot
-VOTE_SERVER: Vote for Server
-VOTE_BOT_LINK: Bot Vote Link
-VOTE_SERVER_LINK: Server Vote Link
+VOTE_BOT: Vote cho Bot
+VOTE_SERVER: Vote cho Server
+VOTE_BOT_LINK: Link Vote cho Bot
+VOTE_SERVER_LINK: Link Vote cho Server
 VOTE_BOT_BUTTON: Vote [Bot]
 VOTE_SERVER_BUTTON: Vote [Server]
-DEVELOPERS_KEY: Developers
+DEVELOPERS_KEY: Nhà phát triển
 SERVER_KEY: Server
 SERVERS_KEY: Servers
 USERS_KEY: Users
 WEBSITE_KEY: Website
 INVITE_KEY: Invite
-DOCUMENTATION_KEY: Documentation
+DOCUMENTATION_KEY: Tài liệu
 GWIZ_INVITE: Genshin Wizard Invite
 AVATAR_KEY: Avatar
-ARTIFACT_CRIT_VALUE_TITLE: Artifact CRIT Value Calculator
-TOTAL_CRIT_VALUE: Total Crit Value
+ARTIFACT_CRIT_VALUE_TITLE: Tính toán Crit Value Thánh Di Vật
+TOTAL_CRIT_VALUE: Tổng Crit Value
 TRUTH_COMMAND_RESPONSES:
   - As I see it, yes.
   - Yes.
@@ -105,26 +105,25 @@ INFO_SELECT_CHARACTER: Select a character
 INFO_CHARACTER_SOURCE: "Source: Saved Builds"
 INFO_USER_CACHE: User Cache
 INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
-MENU_COOLDOWN_TITLE: That menu is on cooldown!
-BUTTON_COOLDOWN_TITLE: That button is on cooldown!
-COMMAND_COOLDOWN_TITLE: That command is on cooldown!
-MENU_COOLDOWN_VALUE: You're clicking attributes too quickly! Try again in **{cooldown}** seconds.
-CHARACTER_SHOWCASE_TITLE: Character Showcase
-ERROR_RATELIMIT: User is currently ratelimited.
-ERROR_COMMAND_COOLDOWN_VALUE: Try using this command again in {cooldown} secs.
-ERROR_COMMAND_LONG_COOLDOWN_VALUE: Try using this command again in <t:{cooldown}:R>
-ERROR_KEY: Error!
-SUCCESSFUL_KEY: Successful!
-ERROR_MISSING_PERMISSION: You don't have permission to use this command!
-EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Exclusive Command
+MENU_COOLDOWN_TITLE: Menu này đang trong thời gian chờ!
+BUTTON_COOLDOWN_TITLE: Nút này đang đợi hồi chiêu!
+COMMAND_COOLDOWN_TITLE: Lệnh này đang trong thời gian hồi chiêu!
+MENU_COOLDOWN_VALUE: Bạn đang chọn thuộc tính này quá nhanh! Hãy thử lại sau **{cooldown}** giây.
+CHARACTER_SHOWCASE_TITLE: Showcase Nhân vật
+ERROR_RATELIMIT: Người dùng đang bị ratelimit.
+ERROR_COMMAND_COOLDOWN_VALUE: Thử dùng lại lệnh này sau {cooldown} giây.
+ERROR_COMMAND_LONG_COOLDOWN_VALUE: Thử dùng lại lệnh này sau <t:{cooldown}:R>
+ERROR_KEY: Lỗi!
+SUCCESSFUL_KEY: Thành công!
+ERROR_MISSING_PERMISSION: Bạn không có quyền hạn sử dụng lệnh này!
+EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Lệnh Đặc biệt
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
-
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
-ERROR_COMMAND_INVOKE: Make sure you're using the correct parameters for this command!
-ERROR_PRIVACY_SETTING_TITLE: Hidden | Nothing to see!
-ERROR_PRIVACY_SETTING_DESCRIPTION: Hey Traveler! Unfortunately, the person you are trying to search for has **privacy settings** enabled!
-ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Ongoing Update!
+  Nhà Lữ Hành ơi, bạn **không thể** sử dụng lệnh này ở đây, lệnh này chỉ có thể dùng được trong một server!
+  Nếu bạn muốn sử dụng lệnh này, hãy cân nhắc ghé thăm [Discord Chính thức](https://discord.gg/genshinwizard) nhé.
+ERROR_COMMAND_INVOKE: Hãy đảm bảo rằng bạn đang sử dụng đúng thông số cho lệnh này!
+ERROR_PRIVACY_SETTING_TITLE: Đã được ẩn đi | Không có gì ở đây!
+ERROR_PRIVACY_SETTING_DESCRIPTION: Nhà Lữ Hành ơi! Rất tiếc rằng người dùng bạn đang tìm kiếm đã bật **Cài đặt Riêng tư**!
+ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Đang Cập nhật!
 ERROR_ONGOING_UPDATE_DESCRIPTION: Hey Traveler! Genshin Wizard is currently **undergoing maintenance** and this command has been *disabled* for the time being. Please try again *later*.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
   Hey Traveler! You're **not allowed** to use this command here, this is a Genshin Wizard server {command_type}*exclusive* command!
@@ -249,7 +248,7 @@ APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
 APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
 APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
 APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
-APP_COMMAND_DONATE_DESCRIPTION: Support the development of Genshin Wizard.
+APP_COMMAND_DONATE_DESCRIPTION: Hỗ trợ sự phát triển của Genshin Wizard.
 APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
 APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
 APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
@@ -279,7 +278,7 @@ ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
 WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
-INFO_COMMAND_SHOWCASE_TITLE: Character Showcase
+INFO_COMMAND_SHOWCASE_TITLE: Showcase Nhân vật
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
 REFRESHES_KEY: Refreshes
 INFO_COMMAND_CHARACTER_DETAILS: Character
