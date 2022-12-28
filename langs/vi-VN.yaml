@@ -70,17 +70,18 @@ TRUTH_COMMAND_RESPONSES:
   - I am tired. *proceeds with sleeping*
   - Absolutely.
 TRUTH_COMMAND_TITLE: Paimon's Wisdom
-QUESTION_KEY: Question
-RESPONSE_KEY: Response
-PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
-PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
-PREFIX_TOO_SHORT: The prefix cannot be shorter than 1 character.
-PREFIX_CHANGED_TITLE: Genshin Wizard | Prefix Change
+QUESTION_KEY: Câu hỏi
+RESPONSE_KEY: Trả lời
+PREFIX_COMMAND_CURRENT: Tiền tố cho server này là `{prefix}`
+PREFIX_TOO_LONG: Tiền tố không thể dài hơn 5 kí tự.
+PREFIX_TOO_SHORT: Tiền tố không thể ngắn hơn 1 kí tự.
+PREFIX_CHANGED_TITLE: Genshin Wizard | Thay đổi tiền tố
 PREFIX_CHANGED_DESCRIPTION: |
-  Successfully changed **Genshin Wizard's** prefix! Commands will now be invoked using this new prefix.
+  Đã thay đổi thành công tiền tố cho **Genshin Wizard**! 
+  Các lệnh giờ đây có thể được khởi chạy sử dụng tiền tố mới này.
 
-  **Old Prefix:** `{old_prefix}`
-  **New Prefix:** `{new_prefix}`
+  **Tiền tố cũ:** `{old_prefix}`
+  **Tiền tố mới:** `{new_prefix}`
 PREFIX_CHANGED_FOOTER: Genshin Wizard Prefix Setting
 MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Computational Error. Try rephrasing!"
 MATH_COMMAND_RESULT: |
