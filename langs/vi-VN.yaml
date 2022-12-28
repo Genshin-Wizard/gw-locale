@@ -1,51 +1,51 @@
 ---
 GENSHIN_WIZARD_KEY: Genshin Wizard
-HELP_DIRECTORY_TITLE: Genshin Wizard | Help Directory
-HELP_CATEGORY_DESCRIPTION: Select a category from the dropdown to view commands specific to that category.
-HELP_CATEGORIES: Categories
+HELP_DIRECTORY_TITLE: Genshin Wizard | Danh mục Hỗ trợ
+HELP_CATEGORY_DESCRIPTION: Hãy chọn một chủ đề từ danh mục bên dưới để hiện các lệnh liên quan.
+HELP_CATEGORIES: Danh mục
 HELP_CATEGORY_LIST: |
-  > 👤 | Profile Commands
-  > 💫 | Wish Commands
-  > <:hoyolab:1016159766705344705> | HoYoLAB Commands
-  > 📝 | Guide Commands
-  > ⏰ | Miscellaneous Commands
-MISC_COMMANDS: Miscellaneous commands
+  > 👤 | Hồ sơ 
+  > 💫 | Cầu nguyện
+  > <:hoyolab:1016159766705344705> | HoYoLAB 
+  > 📝 | Hướng dẫn/Guide
+  > ⏰ | Các lệnh khác
+MISC_COMMANDS: Các lệnh khác
 PING_INFORMATION: |
   **Pong!** :ping_pong:
-  Bot Latency is **{bot_latency}ms.**
-  Websocket Latency is **{ws_latency}ms.**
+  Độ trễ của bot là **{bot_latency}ms.**
+  Độ trễ WebSocket là **{ws_latency}ms.**
 UPTIME_INFORMATION: |
   **Genshin Wizard Uptime**
-  **Last Restart:** <t:{last_restart}:R>
-  **Uptime:** {uptime}
-VERSION_KEY: Version
+  **Lần Restart cuối:** <t:{last_restart}:R>
+  **Thời gian Uptime:** {uptime}
+VERSION_KEY: Phiên bản
 PING_KEY: Ping
-UNKNOWN_KEY: Unknown
-USER_NOT_PUBLIC: User data is not public.
-INVITE_INFORMATION: Use the link below to invite this bot to your own server.
-REQUESTED_BY: Requested by {user}
-SUPPORT_GWIZ_TITLE: Support Genshin Wizard
-SUPPORT_GWIZ_DESC: Support the development of Genshin Wizard.
+UNKNOWN_KEY: Không rõ
+USER_NOT_PUBLIC: Thông tin người chơi không hiển thị công khai.
+INVITE_INFORMATION: Hãy sử dụng đường link bên dưới để mời Genshin Wizard vào server của bạn.
+REQUESTED_BY: Được yêu cầu bởi {user}
+SUPPORT_GWIZ_TITLE: Ủng hộ Genshin Wizard
+SUPPORT_GWIZ_DESC: Hỗ trợ sự phát triển của Genshin Wizard.
 DONATE_KEY: Donate
-VOTE_GWIZ_DESCRIPTION: Click the links below to vote for Genshin Wizard.
+VOTE_GWIZ_DESCRIPTION: Nhấp vào các đường link bên dưới để vote cho Genshin Wizard.
 VOTE_KEY: Vote
-VOTE_BOT: Vote for Bot
-VOTE_SERVER: Vote for Server
-VOTE_BOT_LINK: Bot Vote Link
-VOTE_SERVER_LINK: Server Vote Link
+VOTE_BOT: Vote cho Bot
+VOTE_SERVER: Vote cho Server
+VOTE_BOT_LINK: Link Vote cho Bot
+VOTE_SERVER_LINK: Link Vote cho Server
 VOTE_BOT_BUTTON: Vote [Bot]
 VOTE_SERVER_BUTTON: Vote [Server]
-DEVELOPERS_KEY: Developers
+DEVELOPERS_KEY: Nhà phát triển
 SERVER_KEY: Server
-SERVERS_KEY: Servers
-USERS_KEY: Users
+SERVERS_KEY: Số lượng server
+USERS_KEY: Số người dùng
 WEBSITE_KEY: Website
-INVITE_KEY: Invite
-DOCUMENTATION_KEY: Documentation
+INVITE_KEY: Mời Bot
+DOCUMENTATION_KEY: Tài liệu
 GWIZ_INVITE: Genshin Wizard Invite
 AVATAR_KEY: Avatar
-ARTIFACT_CRIT_VALUE_TITLE: Artifact CRIT Value Calculator
-TOTAL_CRIT_VALUE: Total Crit Value
+ARTIFACT_CRIT_VALUE_TITLE: Tính toán Crit Value Thánh Di Vật
+TOTAL_CRIT_VALUE: Tổng Crit Value
 TRUTH_COMMAND_RESPONSES:
   - As I see it, yes.
   - Yes.
@@ -70,162 +70,162 @@ TRUTH_COMMAND_RESPONSES:
   - I am tired. *proceeds with sleeping*
   - Absolutely.
 TRUTH_COMMAND_TITLE: Paimon's Wisdom
-QUESTION_KEY: Question
-RESPONSE_KEY: Response
-PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
-PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
-PREFIX_TOO_SHORT: The prefix cannot be shorter than 1 character.
-PREFIX_CHANGED_TITLE: Genshin Wizard | Prefix Change
+QUESTION_KEY: Câu hỏi
+RESPONSE_KEY: Trả lời
+PREFIX_COMMAND_CURRENT: Tiền tố cho server này là `{prefix}`
+PREFIX_TOO_LONG: Tiền tố không thể dài hơn 5 kí tự.
+PREFIX_TOO_SHORT: Tiền tố không thể ngắn hơn 1 kí tự.
+PREFIX_CHANGED_TITLE: Genshin Wizard | Thay đổi tiền tố
 PREFIX_CHANGED_DESCRIPTION: |
-  Successfully changed **Genshin Wizard's** prefix! Commands will now be invoked using this new prefix.
+  Đã thay đổi thành công tiền tố cho **Genshin Wizard**! 
+  Các lệnh giờ đây có thể được khởi chạy sử dụng tiền tố mới này.
 
-  **Old Prefix:** `{old_prefix}`
-  **New Prefix:** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: Genshin Wizard Prefix Setting
-MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Computational Error. Try rephrasing!"
+  **Tiền tố cũ:** `{old_prefix}`
+  **Tiền tố mới:** `{new_prefix}`
+PREFIX_CHANGED_FOOTER: Cài đặt tiền tố Genshin Wizard
+MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Lỗi tính toán. Hãy thử sắp xếp lại!"
 MATH_COMMAND_RESULT: |
-  **Expression:** `{expression}`
-  **Result:**
+  **Phép toán:** `{expression}`
+  **Kết quả:**
   ```{result}```
-RECENT_GENSHIN_EVENTS: Recent Genshin Events
-SEND_CODES_COMMAND_TITLE: Genshin Wizard | Active Codes
+RECENT_GENSHIN_EVENTS: Sự kiện Genshin gần đây
+SEND_CODES_COMMAND_TITLE: Genshin Wizard | Mã đổi thưởng
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
-  <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
+  <:blurplelink:1020155547187691600> [***Có thể đổi mã quà bằng cách bấm vào các nút bên dưới!***](https://genshin.mihoyo.com/en/gift)
+  <:blurpleannouncement:1020402170127982712> **Ghi chú:** Mã quà sẽ hết hạn, vui lòng đổi thưởng càng sớm càng tốt!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>\n
-SEND_CODES_REDEEM_AUTOMATICALLY: Redeem Automatically
-SEND_CODES_DIRECT_LINK: Direct Link
-SEND_CODES_REDEEMABLE_CODES: Redeemable Codes
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Redemption Codes
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!*
-MESSAGE_LINK: Message Link
-CLICK_HERE: Click Here
-INFO_SELECT_CHARACTER: Select a character
-INFO_CHARACTER_SOURCE: "Source: Saved Builds"
-INFO_USER_CACHE: User Cache
-INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
-MENU_COOLDOWN_TITLE: That menu is on cooldown!
-BUTTON_COOLDOWN_TITLE: That button is on cooldown!
-COMMAND_COOLDOWN_TITLE: That command is on cooldown!
-MENU_COOLDOWN_VALUE: You're clicking attributes too quickly! Try again in **{cooldown}** seconds.
-CHARACTER_SHOWCASE_TITLE: Character Showcase
-ERROR_RATELIMIT: User is currently ratelimited.
-ERROR_COMMAND_COOLDOWN_VALUE: Try using this command again in {cooldown} secs.
-ERROR_COMMAND_LONG_COOLDOWN_VALUE: Try using this command again in <t:{cooldown}:R>
-ERROR_KEY: Error!
-SUCCESSFUL_KEY: Successful!
-ERROR_MISSING_PERMISSION: You don't have permission to use this command!
-EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Exclusive Command
+SEND_CODES_REDEEM_AUTOMATICALLY: Tự động đổi mã quà
+SEND_CODES_DIRECT_LINK: Link trực tiếp
+SEND_CODES_REDEEMABLE_CODES: Mã đổi thưởng
+SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Mã đổi thưởng
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Đã gửi thành công mã đổi thưởng đến {channel}!*
+MESSAGE_LINK: Link tin nhắn
+CLICK_HERE: Bấm vào đây
+INFO_SELECT_CHARACTER: Chọn nhân vật
+INFO_CHARACTER_SOURCE: "Nguồn: Build đã lưu"
+INFO_USER_CACHE: Cache Người dùng
+INTERMISSION_MESSAGE: Đang khởi tạo infographic, vui lòng **kiên nhẫn**...
+MENU_COOLDOWN_TITLE: Menu này đang trong thời gian chờ!
+BUTTON_COOLDOWN_TITLE: Nút này đang đợi hồi chiêu!
+COMMAND_COOLDOWN_TITLE: Lệnh này đang trong thời gian hồi chiêu!
+MENU_COOLDOWN_VALUE: Bạn đang chọn thuộc tính này quá nhanh! Hãy thử lại sau **{cooldown}** giây.
+CHARACTER_SHOWCASE_TITLE: Showcase Nhân vật
+ERROR_RATELIMIT: Người dùng đang bị ratelimit.
+ERROR_COMMAND_COOLDOWN_VALUE: Thử dùng lại lệnh này sau {cooldown} giây.
+ERROR_COMMAND_LONG_COOLDOWN_VALUE: Thử dùng lại lệnh này sau <t:{cooldown}:R>
+ERROR_KEY: Lỗi!
+SUCCESSFUL_KEY: Thành công!
+ERROR_MISSING_PERMISSION: Bạn không có quyền hạn sử dụng lệnh này!
+EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Lệnh Đặc biệt
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
-
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
-ERROR_COMMAND_INVOKE: Make sure you're using the correct parameters for this command!
-ERROR_PRIVACY_SETTING_TITLE: Hidden | Nothing to see!
-ERROR_PRIVACY_SETTING_DESCRIPTION: Hey Traveler! Unfortunately, the person you are trying to search for has **privacy settings** enabled!
-ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Ongoing Update!
-ERROR_ONGOING_UPDATE_DESCRIPTION: Hey Traveler! Genshin Wizard is currently **undergoing maintenance** and this command has been *disabled* for the time being. Please try again *later*.
+  Nhà Lữ Hành ơi, bạn **không thể** sử dụng lệnh này ở đây, lệnh này chỉ có thể dùng được trong một server!
+  Nếu bạn muốn sử dụng lệnh này, hãy cân nhắc ghé thăm [Discord Chính thức](https://discord.gg/genshinwizard) nhé.
+ERROR_COMMAND_INVOKE: Hãy đảm bảo rằng bạn đang sử dụng đúng thông số cho lệnh này!
+ERROR_PRIVACY_SETTING_TITLE: Đã được ẩn đi | Không có gì ở đây!
+ERROR_PRIVACY_SETTING_DESCRIPTION: Nhà Lữ Hành ơi! Rất tiếc rằng người dùng bạn đang tìm kiếm đã bật **Cài đặt Riêng tư**!
+ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Đang Cập nhật!
+ERROR_ONGOING_UPDATE_DESCRIPTION: Nhà Lữ Hành ơi! Genshin Wizard hiện tại **đang được bảo trì** và lệnh này đang được *vô hiệu* tạm thời. Làm ơn thử lại sau.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this is a Genshin Wizard server {command_type}*exclusive* command!
+  Nhà Lữ Hành ơi! Bạn **không thể dùng** lệnh này tại đây, đây là lệnh {command_type} *đặc quyền* của Server Genshin Wizard!
 
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
+  Nếu bạn muốn sử dụng lệnh này, hãy ghé thăm [Discord Chính thức](https://discord.gg/genshinwizard).
 ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
-ERROR_PREMIUM_COMMAND_DESCRIPTION: Hey Traveler! You're **not allowed** to use this command, this command is only available to **Premium Subscribers**. If you'd like use this feature, consider learning more using the </premium:{command_id}> command.
-ERROR_BLACKLISTED_TITLE: Genshin Wizard | Blacklisted
+ERROR_PREMIUM_COMMAND_DESCRIPTION: Nhà Lữ Hành ơi! Bạn **không thể** sử dụng lệnh này, nó chỉ có sẵn cho **Người dùng Premium**. Nếu bạn muốn sử dụng tính năng này, hãy dùng lệnh </premium:{command_id}> để biết thêm thông tin nhé.
+ERROR_BLACKLISTED_TITLE: Genshin Wizard | Danh sách đen
 ERROR_BLACKLISTED_DESCRIPTION: |
-  Hey Traveler! You have been **banned** from using Genshin Wizard!
+  Nhà Lữ Hành! Bạn đã bị **cấm sử dụng** Genshin Wizard!
 
-  If you believe for this to be an error, consider joining our [Official Discord](https://discord.gg/genshinwizard)
-ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Member Not Found
-ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Make sure the person you are trying to view is still in the server.
-ERROR_MISSING_REQUIRED_ARGUMENT: "You forgot to provide an argument, please use the correct format: ```{usage}```"
-ERROR_MISSING_REQUIRED_ATTACHMENT: "You forgot to provide an attachment, please use the correct format: ```{usage} with the correct attachment.```"
-ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, I do not have permission to `Manage Messages` within this channel/guild. Please enable this permission and try again.
-ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
-MESSAGE_KEY: Message
-ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
-ERROR_MESSAGE: There has been an error!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
+  Nếu bạn tin rằng đây là lỗi, vui lòng gia nhập [Discord Chính thức](https://discord.gg/genshinwizard)
+ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Không tìm thấy Người dùng
+ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Hãy đảm bảo rằng người dùng bạn đang tìm kiếm vẫn còn trong server.
+ERROR_MISSING_REQUIRED_ARGUMENT: "Bạn đã quên không cung cấp đối số, vui lòng dùng định dạng sau: ```{usage}```"
+ERROR_MISSING_REQUIRED_ATTACHMENT: "Bạn đã không cung cấp tập tin đính kèm, vui lòng sử dụng định dạng: ```{usage} cùng tập tin đính kèm.```"
+ERROR_MISSING_MANAGE_MESSAGE: Nhà Lữ Hành ơi, bạn chưa cấp quyền `Quản lý tin nhắn` (Manage Messages) cho bot trong kênh/guild này. Vui lòng thử lại.
+ERROR_MISSING_SEND_MESSAGE: Nhà Lữ Hành ơi, bạn chưa cấp quyền `Gửi tin nhắn` (Send Messages) cho bot trong kênh/guild này. Vui lòng thử lại.
+MESSAGE_KEY: Tin nhắn
+ERROR_EMPTY_BACKPACK: Túi của bạn đang **rỗng**! Để bắt đầu hành trình của bạn, hãy sử dụng lệnh </wishsimulator:{command_id}>!
+ERROR_INTERACTION_MISMATCH: Nhà Lữ Hành ơi! Bạn **không thể tương tác** với tin nhắn này! Bạn hãy sử dụng lệnh {command} để có thể tương tác với bot nhé!
+ERROR_MESSAGE: Đã xảy ra lỗi!
+FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Phản hồi
+FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Phản hồi của bạn đã được gửi đến đội ngũ phát triển!*
 FEEDBACK_LOG_RESPONSE: |
-  > User: **{author_name}** | {author_mention}
+  > Người dùng: **{author_name}** | {author_mention}
   > Discord ID: `{author_id}`
 
-  **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </register:{command_id}> to link your account.
+  **Phản hồi:**```{feedback}```
+NO_HOYOLAB_LINKED: Bạn chưa liên kết với tài khoản HoYoLAB. Hãy dùng lệnh </register:{command_id}> để bắt đầu liên kết.
 OLD_HOYOLAB_LINKED: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
+  Xin chào Nhà Lữ Hành! Rất tiếc vì sự bất tiện, nhưng tính năng này đã được bổ sung **sau khi** bạn liên kết tài khoản `HoYoLAB` với Genshin Wizard. 
 
-  In order to use this button, you must unlink your HoYoLAB account through </hoyo:{command_id}> and **relink** through the usual registration command.
-CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Redemption
-CODE_REDEEM_DESCRIPTION: "*Please wait while we process your redemption code...*"
+  Để sử dụng chức năng này, bạn phải hủy liên kết tài khoản HoYoLAB qua lệnh </hoyo:{command_id}> và **liên kết lại**.
+CODE_REDEEM_TITLE: Genshin Wizard | Đổi mã quà HoYoLAB
+CODE_REDEEM_DESCRIPTION: "*Vui lòng đợi trong khi chúng tôi xử lý mã đổi thưởng...*"
 CODE_REDEEM_PROGRESS: |
-  *Please wait while we process your redemption code...*
-  <a:loading:1015667958237900801> Attempting to redeem code `{code}`
-HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Expired Cookies
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
+  *Vui lòng đợi trong khi chúng tôi xử lý mã đổi thưởng...*
+  <a:loading:1015667958237900801> Đang đổi mã quà `{code}`
+HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Cookie đã hết hạn
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Nhà Lữ Hành ơi! Có vẻ như cookie sử dụng để đổi mã quà HoYoLAB đã **hết hạn**! Hãy dùng lệnh </hoyo:{command_id}> và hoàn thành quá trình liên kết tài khoản để **làm mới** lại cookie tài khoản HoYoLAB của bạn.
 GENSHIN_WIZARD_INFORMATION: |
-  <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
-  <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
+  <a:blue_arrow:1005981235966910494> **[Mời bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
+  <a:blue_arrow:1005981235966910494> **[Website Chính thức](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
-APP_COMMAND_INFO_DESCRIPTION: Shows builds for characters in the user's in-game showcase.
-APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history formatted into a text file via private messages.
-APP_COMMAND_HISTORY_DESCRIPTION: View your Genshin account's wish history.
-APP_COMMAND_DAILY_DESCRIPTION: Claim your daily HoYoLAB sign-in rewards.
-APP_COMMAND_MONTHLY_DESCRIPTION: View HoYoLAB daily rewards for the month.
-APP_COMMAND_DIARY_DESCRIPTION: View your HoYoLAB Traveler's Diary.
-APP_COMMAND_REDEEM_DESCRIPTION: Redeem redemption codes for Genshin Impact.
-APP_COMMAND_HOYO_DESCRIPTION: Check your HoYoLAB account from Genshin Wizard.
-APP_COMMAND_CHARACTERS_DESCRIPTION: View your Genshin account's Character Summary.
-APP_COMMAND_TCG_DESCRIPTION: View your Genius Invokation TCG Account Showcase.
-APP_COMMAND_IMPORT_DESCRIPTION: Import your gacha wish history from other popular sites.
-APP_COMMAND_LEADERBOARD_DESCRIPTION: View Genshin Wizard's leaderboards.
-APP_COMMAND_LOCATION_DESCRIPTION: Display the known location(s) for the resource given.
-APP_COMMAND_LOCATIONS_DESCRIPTION: Display a list of available resource locations.
-APP_COMMAND_CALC_DESCRIPTION: Calculate required ascension materials for a given character.
-APP_COMMAND_BANNER_DESCRIPTION: Change your Genshin Wizard profile's banner.
-APP_COMMAND_PROFILE_DESCRIPTION: View your personal Genshin Wizard profile.
-APP_COMMAND_SETTINGS_DESCRIPTION: Change your Genshin Wizard profile settings.
-APP_COMMAND_STATS_DESCRIPTION: View your Genshin account's statistics.
-APP_COMMAND_ABYSS_DESCRIPTION: View your Genshin account's abyss progression.
-APP_COMMAND_EXPLORATION_DESCRIPTION: View your Genshin account's exploration progression.
-APP_COMMAND_UID_DESCRIPTION: Lookup a user's Genshin UID/Region.
-APP_COMMAND_REGISTER_DESCRIPTION: Register your Genshin account to Genshin Wizard.
-APP_COMMAND_REFRESH_DESCRIPTION: Refresh your wish history link (links expire once every 24 hours).
-APP_COMMAND_UNLINK_DESCRIPTION: Unlink your Genshin account and erase all data.
-APP_COMMAND_REMINDERS_DESCRIPTION: Setup reminders to notify for resin, teapot and expeditions.
-APP_COMMAND_RESIN_DESCRIPTION: Setup a Resin reminder to notify you when your resin is recharged.
-APP_COMMAND_GACHA_DESCRIPTION: Display an updated infographic showcasing your entire wish history for the specified banner.
-APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Test your gacha luck with Genshin Wish Simulator!
-APP_COMMAND_INVENTORY_DESCRIPTION: View your virtual Genshin Wizard inventory.
-APP_COMMAND_SHOP_DESCRIPTION: View your Genshin Wizard's Shop.
-APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: View your Genshin Wizard's Character Archives.
-APP_COMMAND_COMMISSIONS_DESCRIPTION: Claim your Daily Commission rewards.
-APP_COMMAND_BALANCE_DESCRIPTION: View your Genshin Wizard account's balance.
-APP_COMMAND_EDIT_DESCRIPTION: Edit genshin wizard's character details database.
-APP_COMMAND_EDIT_ADD_DESCRIPTION: Add a new build for a specific character.
-APP_COMMAND_DESCRIBE_EDIT_ADD_CHARACTER: The name of the character you want to add a build for.
-APP_COMMAND_DESCRIBE_EDIT_ADD_BUILD: The name of the build you want to add.
-APP_COMMAND_EDIT_REMOVE_DESCRIPTION: Remove build for a specific character.
-APP_COMMAND_DESCRIBE_EDIT_REMOVE_CHARACTER: The name of the character you want to remove a build for.
-APP_COMMAND_DESCRIBE_EDIT_REMOVE_BUILD: Name of the build you want to remove.
-APP_COMMAND_EDIT_BUILD_DESCRIPTION: Edit builds for a specific character.
-APP_COMMAND_DESCRIBE_EDIT_BUILD_CHARACTER: The name of the character you to edit a build for.
-APP_COMMAND_EDIT_PLAYSTYLE_DESCRIPTION: Edit playstyles for a specific character.
-APP_COMMAND_DESCRIBE_PLAYSTYLE_CHARACTER: The name of the character you want to edit playstyles for.
-APP_COMMAND_EDIT_SYNERGY_DESCRIPTION: Edit synergies for a specific character.
-APP_COMMAND_DESCRIBE_SYNERGY_CHARACTER: The name of the character you want to edit synergies for.
-APP_COMMAND_FARM_DESCRIPTION: Check the current domain schedule for your region.
-APP_COMMAND_TCGCARD_DESCRIPTION: Look up a Genshin Impact TCG Card.
-APP_COMMAND_ARTIFACT_DESCRIPTION: Display a breakdown of the perks/buffs for the given artifact.
-APP_COMMAND_ARTIFACTS_DESCRIPTION: Display a list of available artifacts.
-APP_COMMAND_TRANSLATE_DESCRIPTION: Information on how to contribute to Genshin Wizard's translations.
-APP_COMMAND_ID_DESCRIPTION: Look up any in-game asset using its ID.
-APP_COMMAND_WEAPON_DESCRIPTION: Look up a weapon guide for a specific Genshin weapon.
+CODE_REDEEM_SUCCESS: "*Mã đổi thưởng đã được quy đổi thành công!*"
+APP_COMMAND_INFO_DESCRIPTION: Mở infographic với cách build nhân vật trên hồ sơ của bạn.
+APP_COMMAND_EXPORT_DESCRIPTION: Xuất dữ liệu lịch sử cầu nguyện của bạn sang file text qua tin nhắn riêng tư.
+APP_COMMAND_HISTORY_DESCRIPTION: Mở lịch sử cầu nguyện của bạn.
+APP_COMMAND_DAILY_DESCRIPTION: Nhận phần thưởng đăng nhập HoYoLAB hàng ngày.
+APP_COMMAND_MONTHLY_DESCRIPTION: Hiển thị phần thưởng đăng nhập HoYoLAB trong tháng này.
+APP_COMMAND_DIARY_DESCRIPTION: Hiển thị Nhật ký Nhà Lữ hành HoYoLAB của bạn.
+APP_COMMAND_REDEEM_DESCRIPTION: Nhận quà từ mã đổi thưởng cho Genshin Impact.
+APP_COMMAND_HOYO_DESCRIPTION: Kiểm tra tài khoản HoYoLAB của bạn trên Genshin Wizard.
+APP_COMMAND_CHARACTERS_DESCRIPTION: Hiển thị bảng Tổng quan Nhân vật mà bạn đã sở hữu.
+APP_COMMAND_TCG_DESCRIPTION: Hiển thị hồ sơ Thất Thánh Triệu Hồi của bạn.
+APP_COMMAND_IMPORT_DESCRIPTION: Nhập lịch sử cầu nguyện của bạn từ các trang web khác.
+APP_COMMAND_LEADERBOARD_DESCRIPTION: Hiển thị bảng xếp hạng của Genshin Wizard.
+APP_COMMAND_LOCATION_DESCRIPTION: Hiển thị những địa điểm bạn có thể thu thập được nguyên liệu chỉ định.
+APP_COMMAND_LOCATIONS_DESCRIPTION: Liệt kê danh sách những nguyên liệu đã có thông tin về địa điểm thu thập.
+APP_COMMAND_CALC_DESCRIPTION: Tính toán tất cả số nguyên liệu cần thiết để nâng cấp một nhân vật.
+APP_COMMAND_BANNER_DESCRIPTION: Thay đổi banner hồ sơ Genshin Wizard của bạn.
+APP_COMMAND_PROFILE_DESCRIPTION: Hiển thị hồ sơ Genshin Wizard của bạn.
+APP_COMMAND_SETTINGS_DESCRIPTION: Thay đổi cài đặt hồ sơ Genshin Wizard của bạn.
+APP_COMMAND_STATS_DESCRIPTION: Hiển thị tiến trình tài khoản Genshin của bạn.
+APP_COMMAND_ABYSS_DESCRIPTION: Hiển thị tiến trình La Hoàn trên tài khoản Genshin của bạn.
+APP_COMMAND_EXPLORATION_DESCRIPTION: Hiển thị tiến trình thám hiểm đại thế giới trên tài khoản Genshin của bạn.
+APP_COMMAND_UID_DESCRIPTION: Tìm kiếm UID Genshin/Khu vực của một người chơi.
+APP_COMMAND_REGISTER_DESCRIPTION: Liên kết tài khoản Genshin của bạn với Genshin Wizard.
+APP_COMMAND_REFRESH_DESCRIPTION: Làm mới link lịch sử cầu nguyện của bạn (hết hạn mỗi 24h).
+APP_COMMAND_UNLINK_DESCRIPTION: Hủy liên kết tài khoản Genshin của bạn và xóa dữ liệu khỏi bot.
+APP_COMMAND_REMINDERS_DESCRIPTION: Cài đặt lời nhắc Nhựa Nguyên Chất, Ấm Trần Ca và Phái Đi Thám Hiểm.
+APP_COMMAND_RESIN_DESCRIPTION: Cài đặt lời nhắc để thông báo bạn khi Nhựa Nguyên Chất đã hồi lại.
+APP_COMMAND_GACHA_DESCRIPTION: Hiển thị infographic lịch sử cầu nguyện của bạn trong một banner nhất định.
+APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Thử độ may mắn của bạn với Giả lập Gacha Genshin!
+APP_COMMAND_INVENTORY_DESCRIPTION: Hiển thị nội dung bạn đã sở hữu với Giả lập Gacha Genshin.
+APP_COMMAND_SHOP_DESCRIPTION: Hiển thị cửa hàng Genshin Wizard.
+APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: Hiển thị thư viện nhân vật Genshin Wizard của bạn.
+APP_COMMAND_COMMISSIONS_DESCRIPTION: Nhận thưởng Ủy thác hàng ngày.
+APP_COMMAND_BALANCE_DESCRIPTION: Hiển thị ngân sách còn lại trong tài khoản Genshin Wizard của bạn.
+APP_COMMAND_EDIT_DESCRIPTION: Chỉnh sửa database chi tiết nhân vật Genshin Wizard.
+APP_COMMAND_EDIT_ADD_DESCRIPTION: Thêm build mới cho một nhân vật.
+APP_COMMAND_DESCRIBE_EDIT_ADD_CHARACTER: Tên nhân vật mà bạn muốn thêm lối build mới.
+APP_COMMAND_DESCRIBE_EDIT_ADD_BUILD: Tên lối build bạn muốn thêm mới.
+APP_COMMAND_EDIT_REMOVE_DESCRIPTION: Xóa lối build cho nhân vật.
+APP_COMMAND_DESCRIBE_EDIT_REMOVE_CHARACTER: Tên nhân vật mà bạn muốn xóa lối build.
+APP_COMMAND_DESCRIBE_EDIT_REMOVE_BUILD: Tên lối build mà bạn muốn xóa.
+APP_COMMAND_EDIT_BUILD_DESCRIPTION: Chỉnh sửa lối build cho một nhân vật.
+APP_COMMAND_DESCRIBE_EDIT_BUILD_CHARACTER: Tên nhân vật bạn muốn chỉnh sửa lối build.
+APP_COMMAND_EDIT_PLAYSTYLE_DESCRIPTION: Chỉnh sửa lối chơi cho một nhân vật.
+APP_COMMAND_DESCRIBE_PLAYSTYLE_CHARACTER: Tên nhân vật bạn muốn chỉnh sửa lối chơi.
+APP_COMMAND_EDIT_SYNERGY_DESCRIPTION: Chỉnh sửa những yếu tố tương tác tốt với nhân vật.
+APP_COMMAND_DESCRIBE_SYNERGY_CHARACTER: Tên nhân vật bạn muốn chỉnh sửa tương tác tốt.
+APP_COMMAND_FARM_DESCRIPTION: Kiểm tra lịch trình Bí Cảnh hôm nay cho khu vực của bạn.
+APP_COMMAND_TCGCARD_DESCRIPTION: Tra cứu thông tin của một lá Thất Thánh Triệu Hồi.
+APP_COMMAND_ARTIFACT_DESCRIPTION: Hiển thị hiệu quả bộ 2 món/4 món của bộ Thánh Di Vật.
+APP_COMMAND_ARTIFACTS_DESCRIPTION: Hiển thị danh sách các bộ Thánh Di Vật.
+APP_COMMAND_TRANSLATE_DESCRIPTION: Thông tin về việc đóng góp bản dịch cho Genshin Wizard.
+APP_COMMAND_ID_DESCRIPTION: Tìm kiếm asset của game bằng ID.
+APP_COMMAND_WEAPON_DESCRIPTION: Hiển thị thông tin về một vũ khí trong Genshin.
 APP_COMMAND_GUIDE_DESCRIPTION: Look up a character guide for a specific Genshin character.
 APP_COMMAND_BUILD_DESCRIPTION: Look up build(s) for a specific Genshin character.
 APP_COMMAND_PLAYSTYLE_DESCRIPTION: Look up playstyles for a specific Genshin character.
@@ -249,7 +249,7 @@ APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
 APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
 APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
 APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
-APP_COMMAND_DONATE_DESCRIPTION: Support the development of Genshin Wizard.
+APP_COMMAND_DONATE_DESCRIPTION: Hỗ trợ sự phát triển của Genshin Wizard.
 APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
 APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
 APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
@@ -279,7 +279,7 @@ ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
 WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
-INFO_COMMAND_SHOWCASE_TITLE: Character Showcase
+INFO_COMMAND_SHOWCASE_TITLE: Showcase Nhân vật
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
 REFRESHES_KEY: Refreshes
 INFO_COMMAND_CHARACTER_DETAILS: Character
@@ -703,7 +703,7 @@ UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data fr
 UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If you believe for this to be an error, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Registration
-GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Register your Genshin account to Genshin Wizard.
+GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Liên kết tài khoản Genshin của bạn với Genshin Wizard.
 HOYOLAB_ACCOUNT: HoYoLAB Account
 LINKED_UID_KEY: Linked UID
 LINKED_KEY: Linked
