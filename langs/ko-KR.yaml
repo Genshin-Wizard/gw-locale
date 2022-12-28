@@ -342,8 +342,8 @@ APP_COMMAND_DESCRIBE_CHARACTER_CONSTELLATIONS: The name of the character you wan
 APP_COMMAND_DESCRIBE_CHARACTER_SKILLS: The name of the character you want to look-up skill talents for.
 APP_COMMAND_DESCRIBE_CHARACTER_PASSIVE: The name of the character you want to look-up passive talents for.
 APP_COMMAND_DESCRIBE_ITEM_REFERENCE_SHEET: The name of the item you want a reference sheet for.
-APP_COMMAND_DESCRIBE_CRIT_RATE: The CRIT Rate of the artifact.
-APP_COMMAND_DESCRIBE_CRIT_DAMAGE: The CRIT Damage of the artifact.
+APP_COMMAND_DESCRIBE_CRIT_RATE: 치명타확률 성유물
+APP_COMMAND_DESCRIBE_CRIT_DAMAGE: 치명타 피해 성유물
 APP_COMMAND_DESCRIBE_QUESTION: The question you wish to ask Paimon.
 APP_COMMAND_DESCRIBE_PREFIX: The new prefix you wish to set for the bot.
 APP_COMMAND_DESCRIBE_EXPRESSION: The equation/query you're attempting to compute.
@@ -361,7 +361,7 @@ HISTORY_COMMAND_BANNER_TITLE: "{banner_name} 배너기원"
 SLASH_PAGINATION: Page {current_page}/{total_pages}
 OF_PAGINATION: Page {current_page} of {total_pages}
 HISTORY_COMMAND_TABLE_HEADER: "별 | 스택 | 이름 | 날짜"
-HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Guaranteed Pity: {indicator}**"
+HISTORY_COMMAND_GUARANTEE_INDICATOR: "**확정스택: {indicator}**"
 HISTORY_LINK_EXPIRED: 기록 링크가 만료됨
 HISTORY_COMMAND_LIFETIME_PULLS: 총 뽑기 횟수
 HISTORY_COMMAND_WISHES_WORTH: 기원 가치
@@ -487,7 +487,7 @@ LEADERBOARD_NO_DATA: No data found for this specific query!
 LEADERBOARD_EXPERIENCE_FOOTER: Experience can be gained by being active in the server. Chat more to increase your Genshin Wizard ranking level!
 LEADERBOARD_WISHES_FOOTER: Wishes are updated via banner summary and refresh command(s). Check your banners to actively get an updated wish count!
 LEADERBOARD_PLAYTIME_FOOTER: Playtime is updated via stats/info commands, check your stats/builds frequently to actively get an updated playtime count!
-LEADERBOARD_ACHIEVEMENTS_FOOTER: Achievements are updated via stats/info commands, check your stats/builds frequently to actively get an updated achievement count!
+LEADERBOARD_ACHIEVEMENTS_FOOTER: 업적은 통계/정보 명령을 통해 업데이트됩니다. 통계/빌드를 자주 확인하여 업데이트된 업적 수를 적극적으로 얻으세요!
 LEADERBOARD_CHESTS_FOOTER: Chests are updated via stats commands, check your stats frequently to actively get an updated chest count!
 LEADERBOARD_GACHA_SIMULATOR_FOOTER: Simulator leaderboards are updated via gacha simulator commands, use the gacha simulator actively to climb the ranks!
 LEADERBOARD_ARTIFACT_FOOTER: Artifact information is updated via info commands, check your builds frequently to actively get updated artifact stats!
@@ -920,7 +920,7 @@ SIMULATOR_BEGIN_JOURNEY: "{user}, you have no characters in your inventory. Use 
 SIMULATOR_DUMP_UNSUCCESSFUL: Oops! Dumping your backpack was unsuccessful, there was an error. Please try again or contact a staff member!
 SIMULATOR_DUMP_SUCCESSFUL: <:yescheck:1021114525858136074> You have successfully dumped your inventory!
 SIMULATOR_DUMP_CANCELLED: "**<:yescheck:1021114525858136074> Successfully Cancelled!**"
-FARM_COMMAND_DOMAIN_TITLE: Domain Schedule Overview [{region}]
+FARM_COMMAND_DOMAIN_TITLE: 비경 일정확인 Overview [{region}]
 SERVER_RESET_KEY: 서버 리셋
 ARTIFACT_GUIDE_FOOTER: Use the command /artifact <name_of_artifact> to get more information on an artifact.
 ARTIFACT_GUIDE_TITLE: 성유물 확인
@@ -1117,12 +1117,12 @@ FIVE_STARS_KEY: 5성
 ALL_WISHES_KEY: 모든 기원
 THREE_STARS_FILTER_DESCRIPTION: 기원 기록 3성만 필터링
 FOUR_STARS_FILTER_DESCRIPTION: 기원 기록 4성만 필터링
-FIVE_STARS_FILTER_DESCRIPTION: Filter your wish history by five-star pulls.
-ALL_WISHES_FILTER_DESCRIPTION: View all your wishes without any rarity filters.
-NOVICE_BANNER_DESCRIPTION: View your wish history for the novice banner.
-CHARACTER_BANNER_DESCRIPTION: View your wish history for the character banner.
-WEAPON_BANNER_DESCRIPTION: View your wish history for the weapon banner.
-PERMANENT_BANNER_DESCRIPTION: View your wish history for the permanent banner.
+FIVE_STARS_FILTER_DESCRIPTION: 기원 기록 5성만 필터링
+ALL_WISHES_FILTER_DESCRIPTION: 모든 기원 기록표시
+NOVICE_BANNER_DESCRIPTION: 초심자 배너에 기원 기록 확인.
+CHARACTER_BANNER_DESCRIPTION: 캐릭터배너 기원 기록 확인.
+WEAPON_BANNER_DESCRIPTION: 무기배너기원 기록 확인.
+PERMANENT_BANNER_DESCRIPTION: 상시 배너에 기원 기록 확인.
 CHOOSE_BANNER_PLACEHOLDER: 배너 선택
 GO_BACK_BUTTON: 뒤로 가기
 REGISTER_SCRIPT_BUTTON: Register via Script
@@ -1162,7 +1162,7 @@ WISHES_KEY: 기원
 DONATIONS_KEY: 후원하기
 LEVELS_KEY: 레벨
 CHESTS_DESCRIPTION: Genshin Wizard의 상자 순위 보기
-ACHIVEMENTS_DESCRIPTION: View Genshin Wizard's achievements leaderboard.
+ACHIVEMENTS_DESCRIPTION: Genshin Wizard의 업적 순위 보기
 CHARACTER_STATISTICS_DESCRIPTION: Genshin Wizard의 캐릭터 통계 리더보드 보기
 ARTIFACT_SUBSTAT_DESCRIPTION: Genshin Wizard의 성유물 통계 리더보드 보기
 ABYSS_STATISTICS_DESCRIPTION: Genshin Wizard의 나선비경 리더보드를 확인합니다.
@@ -1253,10 +1253,10 @@ SET_REMINDER_KEY: Set Reminder
 RESIN_THRESHOLD_MODAL_TITLE: Enter resin amount
 RESIN_THRESHOLD_LABEL: Resin Threshold
 RESIN_THRESHOLD_DESCRIPTION: Enter the amount of resin you want to be reminded at...
-NOVICE_WISH_SUMMARY: View your wish summary for the Novice banner.
-CHARACTER_WISH_SUMMARY: View your wish summary for the Character banner.
-WEAPON_WISH_SUMMARY: View your wish summary for the Weapon banner.
-PERMANENT_WISH_SUMMARY: View your wish summary for the Permanent banner.
+NOVICE_WISH_SUMMARY: 초심자 배너에 기원 기록 확인.
+CHARACTER_WISH_SUMMARY: 캐릭터배너 기원 기록 확인.
+WEAPON_WISH_SUMMARY: 무기배너기원 기록 확인.
+PERMANENT_WISH_SUMMARY: 상시 배너에 기원 기록 확인.
 RESET_INVENTORY_BUTTON: 인벤토리 초기화
 EXCLUSIVE_KEY: Exclusive
 MISCELLANEOUS_KEY_SHORT: 기타.
@@ -1275,7 +1275,7 @@ SAR_KEY: SAR
 AMERICA_SERVER_DOMAIN_SCHEDULE: 아메리카 서버의 현재 비경 일정 확인.
 EUROPE_SERVER_DOMAIN_SCHEDULE: 유럽 서버의 현재 비경 일정을 봅니다.
 ASIA_SERVER_DOMAIN_SCHEDULE: 아시아 서버의 현재 비경 일정 확인.
-SAR_SERVER_DOMAIN_SCHEDULE: View current Domain Schedule for SAR servers.
+SAR_SERVER_DOMAIN_SCHEDULE: 맥시코서버 비경 일정확인
 SUGGEST_CHANGES_BUTTON: 변경 제안
 KQM_GUIDE: KQM 가이드
 INTRODUCTION_KEY: 소개
