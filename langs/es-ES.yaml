@@ -131,7 +131,7 @@ ERROR_PRIVATE_COMMAND_DESCRIPTION: |
   Si te gustaría usar este comando, considera unirte a nuestro [Discord Oficial](https://discord.gg/genshinwizard).
 ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
 ERROR_PREMIUM_COMMAND_DESCRIPTION: '¡Hola, viajero! **No estás permitido** usar este comando, ¡este comando solo está disponible para **suscriptores Premium**! Si te gustaría usar esta función, considera aprender más usando el comando </premium:{command_id}>.'
-ERROR_BLACKLISTED_TITLE: Genshin Wizard | Blacklisted
+ERROR_BLACKLISTED_TITLE: Genshin Wizard | Prohibido
 ERROR_BLACKLISTED_DESCRIPTION: |
   ¡Hola, viajero! ¡Has sido **baneado** de usar Genshin Wizard!
 
@@ -222,7 +222,7 @@ APP_COMMAND_FARM_DESCRIPTION: Comprobar el horario actual de dominios para tu re
 APP_COMMAND_TCGCARD_DESCRIPTION: Buscar una tarjeta TCG de Genshin Impact.
 APP_COMMAND_ARTIFACT_DESCRIPTION: Mostrar un desglose de las ventajas/buffos para el armafacto dado.
 APP_COMMAND_ARTIFACTS_DESCRIPTION: Mostrar una lista de armafactos disponibles.
-APP_COMMAND_TRANSLATE_DESCRIPTION: Information on how to contribute to Genshin Wizard's translations.
+APP_COMMAND_TRANSLATE_DESCRIPTION: Información sobre cómo contribuir a las traducciones de Genshin Wizard.
 APP_COMMAND_ID_DESCRIPTION: Buscar cualquier activo del juego utilizando su ID.
 APP_COMMAND_WEAPON_DESCRIPTION: Buscar una guía de armas para una arma especí
 APP_COMMAND_GUIDE_DESCRIPTION: Buscar una guía de personaje para un personaje específico de Genshin.
@@ -546,9 +546,9 @@ PRIVACY_SETTING_OVERVIEW: |
 ALL_KEY: Todo
 RESET_KEY: Restablecer
 WISH_HISTORY_KEY: Historial de deseos
-ABYSS_KEY: Abyss
+ABYSS_KEY: Abismo
 UID_KEY: UID
-STATS_KEY: Stats
+STATS_KEY: Estadísticas
 INFO_KEY: Info
 SETTING_RESET_PRIVACY: '¡Se han restablecido correctamente las configuraciones de privacidad al valor predeterminado!'
 SETTING_PRIVACY_UPDATED: "¡Se han actualizado las configuraciones de privacidad de {privacy_type}! Privacidad actual: {current_privacy}"
@@ -559,12 +559,12 @@ SETTING_BANNER_UPDATE: '¡Tu bandera se ha actualizado correctamente!'
 SETTING_BIOGRAPHY_ILLEGAL: '¡Hola, viajero! ¡Tu entrada contiene palabras que **no están permitidas** por Genshin Wizard! Considere intentar algo *diferente* para tu biografía.'
 DEFAULT_BIOGRAPHY: '¡Un viajero que ama la emoción de la aventura!'
 SETTING_BIOGRAPHY_UPDATED: '¡Tu biografía se ha actualizado correctamente!'
-BIOGRAPHY_KEY: Bio
+BIOGRAPHY_KEY: Biografía
 BANNER_KEY: Bandera
 ELEMENTAL_RESONANCE_KEY: Resonancia elemental
 BUILDS_ART_STYLE_KEY: Estilo de arte de construcciones
 ART_STYLE_KEY: Estilo de arte
-FANART_KEY: Fanart
+FANART_KEY: Arte de fan
 OFFICIAL_ART_KEY: Arte oficial
 GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
   Cambia tus configuraciones de perfil de Genshin Wizard aquí.
@@ -617,7 +617,7 @@ TOTAL_FOUR_STAR: Total de 4-estrellas
 NUMBER_FOUR_STAR: Número de 4-estrellas
 TOTAL_THREE_STAR: Total de 3-estrellas
 REGISTER_PC_METHOD: "PC"
-REGISTER_ANDROID_METHOD: "Android"
+REGISTER_ANDROID_METHOD: "Androide"
 IOS_KEY: "iOS"
 CONSOLE_KEY: "Consola"
 REGISTER_IOS_METHOD: "iOS (método de la aplicación Stream)"
@@ -936,7 +936,7 @@ CHARACTER_GUIDE_OVERVIEW: Visión general de guías de personajes
 TALENT_BOOK_OVERVIEW: Visión general de libros de talento
 WEAPON_ASCENSION_OVERVIEW: Visión general de material de ascenso de armas
 REFERENCE_SHEET_GUIDE_FOOTER: "hojas de referencia disponibles"
-REFERENCE_SHEET_GUIDE_TITLE: Available Reference Sheets
+REFERENCE_SHEET_GUIDE_TITLE: Hojas de referencia disponibles
 EVENT_BANNER_DAILY: |
   ☑️ ¡Registra tu entrada en **[Hoyolab](https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us)** 🔗 ahora (o usa `/daily`)!
   ☑️ Comisiones diarias, verificación de resina
@@ -950,15 +950,15 @@ CONFIGURATION_PANEL_TITLE: Genshin Wizard | Panel de configuración
 CONFIGURATION_CHANGE_MESSAGE: "Realiza cambios en el panel de configuración de Genshin Wizard. Consulta nuestra [**Documentación**](https://docs.genshinwizard.com/overview/server-panels) para obtener más información."
 CHANNEL_KEY: Canal
 CONFIGURATION_CHANNEL_CLEAN: '¡Asegúrate de que el canal que quieres usar esté completamente vacío y que el bot tenga permisos para ver y crear webhooks en ese canal!'
-GUILD_KEY: Guild
+GUILD_KEY: Gremio
 DAILY_ANNOUNCEMENTS_KEY: Anuncios diarios
 ROLE_KEY: Rol
 SERVER_TIME_PANEL_KEY: Panel de tiempo del servid
-DOMAIN_SCHEDULE_KEY: Domain Schedule
-GENSHIN_EVENT_BANNERS: Genshin Event Banners
-START_KEY: Start
-END_KEY: End
-SERVER_TIME_KEY: Server Time
+DOMAIN_SCHEDULE_KEY: Horario de dominio
+GENSHIN_EVENT_BANNERS: Pancartas de eventos de Genshin
+START_KEY: Comenzar
+END_KEY: Final
+SERVER_TIME_KEY: Tiempo de Servidor
 CONFIGURATION_SETTINGS_RESET: <:yescheck:1021114525858136074> ¡La configuración ha sido **reseteada**!
 CHANNEL_SETUP_MISSING: '¡Primero debes configurar un canal!'
 TIME_FOR_ADVENTURE: '¡Hora de una aventura!'
@@ -989,7 +989,7 @@ PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
   Rol: {role_mention}
   Nombre de rol: {role_name}
   Color de rol: `{role_color}`
-GENSHIN_WIZARD_PREMIUM: Genshin Wizard Premium
+GENSHIN_WIZARD_PREMIUM: Mago de Genshin Premium
 CLAIMED_KEY: Reclamado
 UNCLAIMED_KEY: No reclamado
 PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard Ajustes de servidor premium
@@ -1026,21 +1026,21 @@ PREMIUM_TIER_TWO_PERKS: |
   <:blurplejoinarrow:932413900073369621> Un bonus de **<:Primogem:951924423340994610>24,000** Primogemas al día para el simulador de deseos de Genshin Wizard al usar </commissions:{commissions_id}>.
   <:blurplejoinarrow:932413900073369621> Rol exclusivo **<:gw_tier2:1045526666354643034> Reflejo astral**.
 PREMIUM_TIER_THREE_PERKS: |
-  <:information:1034639378410115103> **Premium Perks: $25 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
-  <:blurplejoinarrow:932413900073369621> All previous tiers' benefits.
-  <:blurplejoinarrow:932413900073369621> The ability to select up to two servers of your choice to gain Genshin Wizard Partner perks.
-  <:blurplejoinarrow:932413900073369621> The ability to select a custom badge for your Genshin Wizard profile.
-  <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>32,000** Primogems a day for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
-  <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier3:1045526664513323039> Crimson Witch of Flames** role.
+  <:information:1034639378410115103> **Ventajas premium: plan mensual de 25 dólares**
+  **¡Caliente!** 🔥 La posibilidad de elegir imágenes personalizadas para las tarjetas de personajes generadas usando </info:{info_id}>.
+  <:blurplejoinarrow:932413900073369621> Todos los beneficios de los niveles anteriores.
+  <:blurplejoinarrow:932413900073369621> La posibilidad de seleccionar hasta dos servidores de tu elección para obtener las ventajas de Asistente Genshin Wizard Partner.
+  <:blurplejoinarrow:932413900073369621> La posibilidad de seleccionar un distintivo personalizado para tu perfil de Genshin Wizard.
+  <:blurplejoinarrow:932413900073369621> Un bono adicional de **<:Primogem:951924423340994610>32,000** Primogemas al día para el simulador de deseos de Genshin Wizard al usar </commissions:{commissions_id}>.
+  <:blurplejoinarrow:932413900073369621> Rol exclusivo **<:gw_tier3:1045526664513323039> Bruja carmesí de llamas**.
 PREMIUM_TIER_FOUR_PERKS: |
-  <:information:1034639378410115103> **Premium Perks: $50 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
-  <:blurplejoinarrow:932413900073369621> All previous tiers' benefits.
-  <:blurplejoinarrow:932413900073369621> You may opt to have either the Elder of the Hexenzirkel role or your custom role to be displayed at the very top of the Genshin Wizard Discord server.
-  <:blurplejoinarrow:932413900073369621> The ability to select up to three servers of your choice to gain Genshin Wizard Partner perks.
-  <:blurplejoinarrow:932413900073369621> A bonus of **<:Primogem:951924423340994610>40,000** Primogems a day for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
-  <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier4:1045526663447969813> Elder of the Hexenzirkel** role.
+  <:information:1034639378410115103> **Ventajas premium: plan mensual de 50 dólares**
+  **¡Caliente!** 🔥 La posibilidad de elegir imágenes personalizadas para las tarjetas de personajes generadas usando </info:{info_id}>.
+  <:blurplejoinarrow:932413900073369621> Todos los beneficios de los niveles anteriores.
+  <:blurplejoinarrow:932413900073369621> Puedes optar por que el rol de Anciano del Hexenzirkel o tu rol personalizado se muestre en la parte superior del servidor de Discord de Genshin Wizard.
+  <:blurplejoinarrow:932413900073369621> La posibilidad de seleccionar hasta tres servidores de tu elección para obtener las ventajas de Asistente Genshin Wizard Partner.
+  <:blurplejoinarrow:932413900073369621> Un bono adicional de **<:Primogem:951924423340994610>40,000** Primogemas al día para el simulador de deseos de Genshin Wizard al usar </commissions:{commissions_id}>.
+  <:blurplejoinarrow:932413900073369621> Rol exclusivo **<:gw_tier4:1045526663447969813> Anciano del Hexenzirkel**.
 PREMIUM_UNKNOWN_TIER: Nivel desconocido seleccionado
 PREMIUM_PLAN: Plan premium
 PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Servidor de Genshin Wizard [Rol personalizado]
@@ -1185,13 +1185,13 @@ MOST_DEFEATS_LABEL: "Más derrotas"
 MAX_HP_LABEL: "Vida máxima"
 HP_LABEL: "Vida"
 HP_PERCENT_LABEL: "Vida%"
-ATK_LABEL: "ATAQ"
-ATK_PERCENT_LABEL: "ATAQ%"
+ATK_LABEL: "ATQ"
+ATK_PERCENT_LABEL: "ATQ%"
 DEF_LABEL: "DEF"
 DEF_PERCENT_LABEL: "DEF%"
 CRIT_VALUE_LABEL: "Valor de CRIT"
-CRIT_RATE_LABEL: "Tasa de CRIT"
-CRIT_DMG_LABEL: "Daño de CRIT"
+CRIT_RATE_LABEL: "Prob. CRIT"
+CRIT_DMG_LABEL: "Daño CRIT"
 ENERGY_RECHARGE_LABEL: "Recarga de energía"
 ELEMENTAL_MASTERY_LABEL: "Maestría elemental"
 TOTAL_WISHES_LABEL: "Total de deseos"
