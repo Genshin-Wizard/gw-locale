@@ -352,38 +352,38 @@ APP_COMMAND_DESCRIBE_PREFIX: Tiền tố mới mà bạn muốn sử dụng cho 
 APP_COMMAND_DESCRIBE_EXPRESSION: Phép tính/Phương trình mà bạn cần tính toán.
 APP_COMMAND_DESCRIBE_CODE_CHANNEL: Kênh mà bạn muốn gửi tin nhắn đến.
 APP_COMMAND_DESCRIBE_CODE_PING: Role mà bạn muốn mention cùng với tin nhắn.
-APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated by a comma.
-APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
-APP_CONTEXT_MENU_PROFILE: Profile
-APP_CONTEXT_MENU_STATISTICS: Stats Progression
-APP_CONTEXT_MENU_ABYSS: Abyss Progression
-APP_CONTEXT_MENU_CHARACTERS: Characters
-APP_CONTEXT_MENU_WISH_HISTORY: Wish History
-WHITELIST_KEY_LOWERCASE: whitelist
-HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Wishes"
-SLASH_PAGINATION: Page {current_page}/{total_pages}
-OF_PAGINATION: Page {current_page} of {total_pages}
-HISTORY_COMMAND_TABLE_HEADER: "Rarity | Pity | Name | Date"
-HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Guaranteed Pity: {indicator}**"
-HISTORY_LINK_EXPIRED: History Link Expired
-HISTORY_COMMAND_LIFETIME_PULLS: Lifetime Pulls
-HISTORY_COMMAND_WISHES_WORTH: Wishes Worth
-HISTORY_COMMAND_CURRENT_PITIES: Current Pities
-SEARCH_ERROR: Search Error!
+APP_COMMAND_DESCRIBE_CODE_LIST: Mã đổi thưởng mà bạn muốn gửi, ngăn cách bởi dấu phẩy.
+APP_COMMAND_DESCRIBE_FEEDBACK: Phản hồi mà bạn muốn gửi.
+APP_CONTEXT_MENU_PROFILE: Hồ sơ
+APP_CONTEXT_MENU_STATISTICS: Tiến trình thám hiểm
+APP_CONTEXT_MENU_ABYSS: Tiến trình La Hoàn
+APP_CONTEXT_MENU_CHARACTERS: Nhân vật
+APP_CONTEXT_MENU_WISH_HISTORY: Lịch sử Cầu nguyện
+WHITELIST_KEY_LOWERCASE: danh sách trắng
+HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Cầu nguyện"
+SLASH_PAGINATION: Trang {current_page}/{total_pages}
+OF_PAGINATION: Trang {current_page} trên {total_pages}
+HISTORY_COMMAND_TABLE_HEADER: "Độ hiếm | Pity | Tên | Thời gian"
+HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Bảo hiếm chắc chắn: {indicator}**"
+HISTORY_LINK_EXPIRED: Link lịch sử đã hết hạn
+HISTORY_COMMAND_LIFETIME_PULLS: Tổng số Cầu nguyện
+HISTORY_COMMAND_WISHES_WORTH: Tổng số Nguyên Thạch
+HISTORY_COMMAND_CURRENT_PITIES: Pity hiện tại
+SEARCH_ERROR: Lỗi tìm kiếm!
 HISTORY_COMMAND_NO_WISHES: |
-  No wishes were found for this search!
-  Try selecting a different banner to check below.
-HISTORY_COMMAND_NO_USER_WISHES: No wishes were found for this user!
-USER_NOT_REGISTERED_TITLE: User has not registered!
-REGISTERED_KEY: Registered
-NOT_REGISTERED_KEY: Not Registered
-USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** yet! Please register using </register:{command_id}> *before* using this command.
-FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."
-FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Note: This command requires you to register through the Wish History or HoYoLAB method."
-FOOTER_REQUIRE_UID_OR_HOYOLAB: "Note: This command requires you to register through the UID or HoYoLAB method."
-FOOTER_GCG_EXPANDED: Your TCG Showcase statistics can be shown in more detail if you register using your HoYoLAB account!
-LINK_HOYOLAB_TITLE: Genshin Wizard | Link HoYoLAB Account
-LINKING_UID_TITLE: Genshin Wizard | Link UID
+  Không tìm thấy lần Cầu nguyện nào!
+  Hãy đổi banner tìm kiếm ở bên dưới.
+HISTORY_COMMAND_NO_USER_WISHES: Không tìm thấy lần cầu nguyện nào cho người dùng này!
+USER_NOT_REGISTERED_TITLE: Người dùng chưa đăng ký!
+REGISTERED_KEY: Đã đăng ký
+NOT_REGISTERED_KEY: Chưa đăng ký
+USER_NOT_REGISTERED_DESCRIPTION: Thật đáng tiếc, người dùng <@{mem_id} **chưa được đăng ký!** Hãy đăng ký bằng </register:{command_id}> trước khi sử dụng lệnh này.
+FOOTER_REQUIRES_WISH_HISTORY: "Ghi chú: Để sử dụng lệnh này bạn cần liên kết tài khoản thông qua Lịch sử Cầu nguyện."
+FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Ghi chú: Để sử dụng lệnh này bạn cần liên kết tài khoản thông qua Lịch sử Cầu nguyện hoặc HoYoLAB."
+FOOTER_REQUIRE_UID_OR_HOYOLAB: "Ghi chú: Để sử dụng lệnh này bạn cần liên kết tài khoản thông qua UID hoặc HoYoLAB."
+FOOTER_GCG_EXPANDED: Thông số hồ sơ TCG của bạn có thể hiển thị thêm thông tin nếu bạn đăng ký thông qua tài khoản HoYoLAB!
+LINK_HOYOLAB_TITLE: Genshin Wizard | Liên kết HoYoLAB
+LINKING_UID_TITLE: Genshin Wizard | Liên kết UID
 LINK_HOYOLAB_DESCRIPTION: |
   Welcome to Genshin Wizard's HoYoLAB account linking system.
 
@@ -395,13 +395,13 @@ LINK_HOYOLAB_DESCRIPTION: |
   > **5.** View an infographic containing **all** your available characters.
 
   To begin, click one of the user registration options below!
-HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Automatic Daily Sign-in
-AUTOCLAIM_ALREADY_DISABLED: Automatic HoYoLAB daily sign-in is already disabled.
-AUTOCLAIM_ALREADY_ENABLED: Automatic HoYoLAB daily sign-in is already enabled.
-AUTOCLAIM_DISABLED: Automatic HoYoLAB daily sign-in has been disabled.
-AUTOCLAIM_ENABLED: Automatic HoYoLAB daily sign-in has been enabled.
+HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Tự động Điểm danh hàng ngày
+AUTOCLAIM_ALREADY_DISABLED: Bạn đã tắt tính năng tự động điểm danh HoYoLAB rồi.
+AUTOCLAIM_ALREADY_ENABLED: Bạn đã bật tính năng tự động điểm danh HoYoLAB rồi.
+AUTOCLAIM_DISABLED: Đã tắt tính năng tự động điểm danh HoYoLAB.
+AUTOCLAIM_ENABLED: Đã bật tính năng tự động điểm danh HoYoLAB.
 AUTOCLAIM_VOTE_REQUIREMENT: You must **__vote__** for our server and bot before being able to enable autoclaim!
-HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | HoYoLAB Daily Sign-in
+HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | Điểm danh hàng ngày HoYoLAB
 HOYOLAB_SIGN_IN_REWARDS: |
   Successfully **claimed** daily reward!
 
@@ -548,7 +548,7 @@ PRIVACY_SETTING_OVERVIEW: |
   > *Hide your showcase builds information from showing up anywhere (`/info`)*
 ALL_KEY: All
 RESET_KEY: Reset
-WISH_HISTORY_KEY: Wish History
+WISH_HISTORY_KEY: Lịch sử Cầu nguyện
 ABYSS_KEY: Abyss
 UID_KEY: UID
 STATS_KEY: Stats
@@ -608,7 +608,7 @@ LOCATION_KEY: Location
 TOP_ROLE_KEY: Top Role
 RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
 RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
-WISHES_WORTH_KEY: Wishes Worth
+WISHES_WORTH_KEY: Tổng số Nguyên Thạch
 OVERALL_SUMMARY_KEY: Overall Summary
 OVERALL_STATS_KEY: Overall Stats
 PERCENTAGE_KEY: Percentage
@@ -1132,7 +1132,7 @@ REGISTER_SCRIPT_BUTTON: Register via Script
 REGISTER_LOGIN_BUTTON: Register via Login
 ENTER_TOKEN_BUTTON: Enter Token
 REGISTER_ACCOUNT_BUTTON: Register Account
-CHARACTERS_BUTTON: Characters
+CHARACTERS_BUTTON: Nhân vật
 CLAIM_DAILY_REWARD_BUTTON: Claim Daily Reward
 MONTHLY_REWARDS_BUTTON: Monthly Rewards
 VIEW_TRAVELER_DIARY_BUTTON: View Traveler's Diary
@@ -1226,7 +1226,7 @@ UPDATE_BIO_MODAL_TITLE: Update Bio
 UPDATE_BIO_MODAL_LABEL: A short description about you. (200 chars)
 UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
 SELECT_CHOOSE_CATEGORY: Choose a category...
-PROFILE_KEY: Profile
+PROFILE_KEY: Hồ sơ
 PROFILE_DESCRIPTION: View your Genshin Wizard profile
 GENSHIN_STATISTICS_KEY: Genshin Stats
 GENSHIN_STATISTICS_DESCRIPTION: View your Genshin stats
