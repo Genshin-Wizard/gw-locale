@@ -146,55 +146,55 @@ ERROR_MISSING_MANAGE_MESSAGE: Hai Traveler, saya tidak memiliki izin untuk `Meng
 ERROR_MISSING_SEND_MESSAGE: Hai Traveler, saya tidak memiliki izin untuk `Mengirim Pesanan` dalam channel/guild ini. Harap aktifkan izin ini dan coba lagi.
 MESSAGE_KEY: Pesanan
 ERROR_EMPTY_BACKPACK: Ranselmu **kosong**! Untuk memulai perjalanan kamu, gunakan perintah </wishsimulator:{command_id}>!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
-ERROR_MESSAGE: There has been an error!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
+ERROR_INTERACTION_MISMATCH: Hai Traveler! Ini ** bukan interaksi Anda ** untuk disentuh! Gunakan perintah {command} jika kamu ingin menggunakan perintah ini untuk diri kamu sendiri!
+ERROR_MESSAGE: Terdapat Ralat!
+FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Saranan
+FEEDBACK_CONFIRMATION_DESCRIPTION: ':yescheck:1021114525858136074> *Saranan kamu telah berhasil dikirim ke pengembang!*'
 FEEDBACK_LOG_RESPONSE: |
-  > User: **{author_name}** | {author_mention}
-  > Discord ID: `{author_id}`
+  > Pengguna: **{author_name}** | {author_mention}
+  > ID Discord: `{author_id}`
 
-  **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </register:{command_id}> to link your account.
+  **Saranan:**```{feedback}```
+NO_HOYOLAB_LINKED: Kamu belum menautkan akun HoYoLAB. Gunakan </register:{command_id}> untuk menautkan akun kamu.
 OLD_HOYOLAB_LINKED: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
+  Halo Traveler! Maaf atas ketidaknyamanannya, tetapi fitur ini diterapkan **setelah** kamu mendaftarkan akun `HoYoLAB` kamu ke Genshin Wizard.
 
-  In order to use this button, you must unlink your HoYoLAB account through </hoyo:{command_id}> and **relink** through the usual registration command.
-CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Redemption
-CODE_REDEEM_DESCRIPTION: "*Please wait while we process your redemption code...*"
+  Untuk menggunakan tombol ini, kamu harus putuskan tautan akun HoYoLAB Anda melalui </hoyo:{command_id}> dan **taut kembali** melalui perintah pendaftaran yang biasa.
+CODE_REDEEM_TITLE: Genshin Wizazrd | Penebusan Kode HoYoLAB
+CODE_REDEEM_DESCRIPTION: "*Harap tunggu sementara kami memproses kode penebusan kamu...*"
 CODE_REDEEM_PROGRESS: |
-  *Please wait while we process your redemption code...*
-  <a:loading:1015667958237900801> Attempting to redeem code `{code}`
-HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Expired Cookies
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
+  *Harap tunggu sementara kami memproses kode penebusan kamu...*
+  <a:loading:1015667958237900801> Mencoba menebus kode `{code}`
+HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Cookie Tamat
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hai Traveler! Tampaknya kuki penebusan kode HoYoLAB Anda telah **berakhir**! Gunakan perintah </hoyo:{command_id}> dan selesaikan proses penautan ulang akun untuk **refresh** cookie akun HoYoLAB anda.
 GENSHIN_WIZARD_INFORMATION: |
-  <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
-  <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
+  <a:blue_arrow:1005981235966910494> **[Undang Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
+  <a:blue_arrow:1005981235966910494> **[Situs Rasmi](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
-APP_COMMAND_INFO_DESCRIPTION: Shows builds for characters in the user's in-game showcase.
-APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history formatted into a text file via private messages.
-APP_COMMAND_HISTORY_DESCRIPTION: View your Genshin account's wish history.
-APP_COMMAND_DAILY_DESCRIPTION: Claim your daily HoYoLAB sign-in rewards.
-APP_COMMAND_MONTHLY_DESCRIPTION: View HoYoLAB daily rewards for the month.
-APP_COMMAND_DIARY_DESCRIPTION: View your HoYoLAB Traveler's Diary.
-APP_COMMAND_REDEEM_DESCRIPTION: Redeem redemption codes for Genshin Impact.
-APP_COMMAND_HOYO_DESCRIPTION: Check your HoYoLAB account from Genshin Wizard.
-APP_COMMAND_CHARACTERS_DESCRIPTION: View your Genshin account's Character Summary.
-APP_COMMAND_TCG_DESCRIPTION: View your Genius Invokation TCG Account Showcase.
-APP_COMMAND_IMPORT_DESCRIPTION: Import your gacha wish history from other popular sites.
-APP_COMMAND_LEADERBOARD_DESCRIPTION: View Genshin Wizard's leaderboards.
-APP_COMMAND_LOCATION_DESCRIPTION: Display the known location(s) for the resource given.
-APP_COMMAND_LOCATIONS_DESCRIPTION: Display a list of available resource locations.
-APP_COMMAND_CALC_DESCRIPTION: Calculate required ascension materials for a given character.
-APP_COMMAND_BANNER_DESCRIPTION: Change your Genshin Wizard profile's banner.
-APP_COMMAND_PROFILE_DESCRIPTION: View your personal Genshin Wizard profile.
-APP_COMMAND_SETTINGS_DESCRIPTION: Change your Genshin Wizard profile settings.
-APP_COMMAND_STATS_DESCRIPTION: View your Genshin account's statistics.
-APP_COMMAND_ABYSS_DESCRIPTION: View your Genshin account's abyss progression.
-APP_COMMAND_EXPLORATION_DESCRIPTION: View your Genshin account's exploration progression.
-APP_COMMAND_UID_DESCRIPTION: Lookup a user's Genshin UID/Region.
+CODE_REDEEM_SUCCESS: "*Kode penebusan berhasil diproses!*"
+APP_COMMAND_INFO_DESCRIPTION: Menampilkan build untuk karakter di pameran dalam game pengguna.
+APP_COMMAND_EXPORT_DESCRIPTION: Ekspor riwayat keinginan Genshin Anda yang diformat ke dalam file teks melalui pesan pribadi.
+APP_COMMAND_HISTORY_DESCRIPTION: Lihat riwayat keinginan akun Genshin Anda.
+APP_COMMAND_DAILY_DESCRIPTION: Klaim hadiah masuk HoYoLAB harian Anda.
+APP_COMMAND_MONTHLY_DESCRIPTION: Lihat hadiah harian HoYoLAB untuk bulan ini.
+APP_COMMAND_DIARY_DESCRIPTION: Lihat Buku Harian Traveler HoYoLAB Anda.
+APP_COMMAND_REDEEM_DESCRIPTION: Menebus kode penebusan untuk Genshin Impact.
+APP_COMMAND_HOYO_DESCRIPTION: Periksa akun HoYoLAB kamu dari Genshin Wizard.
+APP_COMMAND_CHARACTERS_DESCRIPTION: Lihat Ringkasan Karakter akun Genshin Anda.
+APP_COMMAND_TCG_DESCRIPTION: Lihat Pameran Akun TCG Invokasi Genius Anda.
+APP_COMMAND_IMPORT_DESCRIPTION: Impor riwayat keinginan gacha Anda dari situs populer lainnya.
+APP_COMMAND_LEADERBOARD_DESCRIPTION: Lihat papan peringkat Genshin Wizard.
+APP_COMMAND_LOCATION_DESCRIPTION: Tampilkan lokasi yang diketahui untuk sumber yang diberikan.
+APP_COMMAND_LOCATIONS_DESCRIPTION: Menampilkan daftar lokasi sumber yang tersedia.
+APP_COMMAND_CALC_DESCRIPTION: Hitung bahan kenaikan yang diperlukan untuk karakter tertentu.
+APP_COMMAND_BANNER_DESCRIPTION: Ubah banner profil Genshin Wizard kamu.
+APP_COMMAND_PROFILE_DESCRIPTION: Lihat profil Genshin Wizard pribadi kamu.
+APP_COMMAND_SETTINGS_DESCRIPTION: Ubah pengaturan profil Genshin Wizard kamu.
+APP_COMMAND_STATS_DESCRIPTION: Lihat statistik akun Genshin kamu.
+APP_COMMAND_ABYSS_DESCRIPTION: Lihat perkembangan Abyss akun Genshin kamu.
+APP_COMMAND_EXPLORATION_DESCRIPTION: Lihat perkembangan eksplorasi akun Genshin kamu.
+APP_COMMAND_UID_DESCRIPTION: Mencari UID/Wilayah Genshin pengguna.
 APP_COMMAND_REGISTER_DESCRIPTION: Register your Genshin account to Genshin Wizard.
 APP_COMMAND_REFRESH_DESCRIPTION: Refresh your wish history link (links expire once every 24 hours).
 APP_COMMAND_UNLINK_DESCRIPTION: Unlink your Genshin account and erase all data.
@@ -1345,32 +1345,32 @@ WEAPON_REQUIREMENT_LABEL: Persyaratan Senjata
 WEAPON_REQUIREMENT_PLACEHOLDER: Jumlah {refinement} dari Senjata 5 Bintang...
 DUAL_REQUIREMENT_LABEL: "{constellation_num} Karakter 5 Bintang & {refinement} Persyaratan Senjata"
 DUAL_REQUIREMENT_PLACEHOLDER: Jumlah {constellation_num} Karakter 5 Bintang & {refinement} Senjata 5 Bintang...
-PREMIUM_SELECT_PLACEHOLDER: Select a tier to view perks for...
-WITCH_OF_PURPLE_ROSE: Witch of Purple Rose
-ASTRAL_REFLECTION: Astral Reflection
-CRIMSON_WITCH_OF_FLAMES: Crimson Witch of Flames
-ELDER_OF_THE_HEXENZIRKEL: Elder of the Hexenzirkel
-PREMIUM_PLAN_TIER_ONE: "Premium Plan: Tier One"
-PREMIUM_PLAN_TIER_TWO: "Premium Plan: Tier Two"
-PREMIUM_PLAN_TIER_THREE: "Premium Plan: Tier Three"
-PREMIUM_PLAN_TIER_FOUR: "Premium Plan: Tier Four"
-ART_SETTINGS_KEY: Art Settings
-CUSTOM_ROLE_KEY: Custom Role
-ADD_PREMIUM_SERVERS_BUTTON: Add Premium Servers
-ADD_PREMIUM_SERVER_BUTTON: Add Premium Server
-ROLE_NAME_KEY: Role Name
-HEX_COLOR_KEY: HEX Color Code
-CUSTOM_ROLE_MODAL_TITLE: "Custom Role: {modal_type}"
-CUSTOM_ROLE_CREATE_BUTTON: Create Custom Role
-CUSTOM_ROLE_DELETE_BUTTON: Delete Custom Role
-CUSTOM_ROLE_NAME_CHANGE_BUTTON: Change Role Name
-CUSTOM_ROLE_COLOR_CHANGE_BUTTON: Change Role Color
-PREMIUM_SERVER_REMOVE: Select a server to remove...
-PREMIUM_SERVER_TIMESTAMP: Premium since {date}
-GUILD_OR_SERVER_ID: Guild/Server ID
-GUILD_OR_SERVER_ID_PLACEHOLDER: Insert Guild/Server ID here...
-GUIDE_KEY: Guide
-ENABLE_ADAPTIVE_ART_SETTING: Enable Adaptive Infographic Art
+PREMIUM_SELECT_PLACEHOLDER: Pilih tingkatan untuk melihat keuntungan...
+WITCH_OF_PURPLE_ROSE: Penyihir Mawar Ungu
+ASTRAL_REFLECTION: Refleksi Astral
+CRIMSON_WITCH_OF_FLAMES: Penyihir Merah Api
+ELDER_OF_THE_HEXENZIRKEL: Tetua Hexenzirkel
+PREMIUM_PLAN_TIER_ONE: "Paket Premium: Tingkat Satu"
+PREMIUM_PLAN_TIER_TWO: "Paket Premium: Tingkat Dua"
+PREMIUM_PLAN_TIER_THREE: "Paket Premium: Tingkat Tiga"
+PREMIUM_PLAN_TIER_FOUR: "Paket Premium: Tingkat Empat"
+ART_SETTINGS_KEY: Pengaturan Seni
+CUSTOM_ROLE_KEY: Role Kustom
+ADD_PREMIUM_SERVERS_BUTTON: Tambahkan Server Premium
+ADD_PREMIUM_SERVER_BUTTON: Tambahkan Server Premium
+ROLE_NAME_KEY: Nama Role
+HEX_COLOR_KEY: Kode warna Hex
+CUSTOM_ROLE_MODAL_TITLE: "Role Kustom: {modal_type}"
+CUSTOM_ROLE_CREATE_BUTTON: Menghasilkan Kustum Role
+CUSTOM_ROLE_DELETE_BUTTON: Menghapuskan Kustom Role
+CUSTOM_ROLE_NAME_CHANGE_BUTTON: Ganti Nama Role
+CUSTOM_ROLE_COLOR_CHANGE_BUTTON: Ganti Warna Role
+PREMIUM_SERVER_REMOVE: Pilih server untuk dihapus...
+PREMIUM_SERVER_TIMESTAMP: Premium sejak {date}
+GUILD_OR_SERVER_ID: ID Guild/Server
+GUILD_OR_SERVER_ID_PLACEHOLDER: Masukkan ID Guild/Server di sini...
+GUIDE_KEY: Panduan
+ENABLE_ADAPTIVE_ART_SETTING: Aktifkan Seni Infografis Adaptif
 INVITE_BOT_KEY: Undang Bot
 HELP_DROPDOWN_DIRECTORY: Direktori Bantuan
 HELP_DROPDOWN_PROFILE_COMMANDS: Perintah Profil/Statistik
