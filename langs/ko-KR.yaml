@@ -93,7 +93,7 @@ SEND_CODES_COMMAND_DESCRIPTION: |
    <:blurpleannouncement:1020402170127982712> **참고:** 코드는 빨리 만료되므로 최대한 빨리 사용해야 합니다!
 
    <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>\n
-SEND_CODES_REDEEM_AUTOMATICALLY: 자동 교환
+SEND_CODES_REDEEM_AUTOMATICALLY: 자동으로 교환
 SEND_CODES_DIRECT_LINK: 다이렉트링크
 SEND_CODES_REDEEMABLE_CODES: 사용가능한코드
 SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | 사용가능한코드
@@ -126,7 +126,7 @@ ERROR_PRIVACY_SETTING_DESCRIPTION: 여행자! 아쉽게도 검색하려는 사�
 ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | 지속적업데이트!
 ERROR_ONGOING_UPDATE_DESCRIPTION: 여행자! Genshin Wizard는 현재 **점검 중**이며 현재 명령어는 일시적으로 *비활성화*되었습니다. 나중에 다시 시도 해주십시오*.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  여기서 이 명령어를 사용하는 것은 **허용되지 않습니다**. 이것은 Genshin Wizard 서버 {command_type}전용 명령어 입니다!
+  여행자! 여기서 이 명령어를 사용하는 것은 **허용되지 않습니다**. 이것은 Genshin Wizard 서버 {command_type}전용 명령어 입니다!
 
    이 명령을 사용하려면 [공식 디스코드](https://discord.gg/genshinwizard) 가입을 하시면 사용가능합니다.
 ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard 프리미엄
@@ -374,7 +374,7 @@ HISTORY_COMMAND_NO_USER_WISHES: 이 유저의 가챠 기록이 존재하지 않�
 USER_NOT_REGISTERED_TITLE: 등록되지 않은 유저입니다!
 REGISTERED_KEY: 등록됨
 NOT_REGISTERED_KEY: 등록되지 않은
-USER_NOT_REGISTERED_DESCRIPTION: 이봐! <@{mem_id}>(은)는 아직 Genshin Wizard에 등록되지 않았어! </register:{command_id}>커맨드를 사용해 등록을 먼저 하자~
+USER_NOT_REGISTERED_DESCRIPTION: 이봐 <@{mem_id}>(은)는 아직 Genshin Wizard에 등록되지 않았어! </register:{command_id}>커맨드를 사용해 등록을 먼저 하자~
 FOOTER_REQUIRES_WISH_HISTORY: "참고: 이 명령은 뽑기 기록을 통해 등록을 해야만 쓸 수 있습니다."
 FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "참고: 이 명령을 사용하려면 기원 기록 또는 호요랩을 사용하는방법을 통해 등록해야 합니다."
 FOOTER_REQUIRE_UID_OR_HOYOLAB: "참고: 이 명령을 사용하려면 UID 또는 호요랩 방법을 통해 등록해야 합니다."
@@ -661,7 +661,7 @@ REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
   **연결 기능:**
   > **1.** 기원 기록을 추적하세요.
   > **2.** 배너 연민과 함께 심층 희망 내역 통계를 봅니다.
-  > **3.** 보장된 확전천장에 있는지 여부를 봅니다.
+  > **3.** 보장된 제한된 연민에 있는지 여부를 봅니다.
   > **4.** 전체 Genshin Wizard 프로필 기능.
   > **5.** [**연결 UID**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial- 등록).
 
@@ -671,7 +671,7 @@ ERROR_INVALID_REGISTRATION_URL: 안녕하세요 여행자님, 이것은 **잘못
 ERROR_UNEXPECTED_ERROR: 예상치 못한 오류가 발생했습니다. 개발자에게 피드백을해주세요!
 REGISTER_COMMAND_NO_WISHES_TITLE: 기원을 찾지못하였습니다!
 REGISTER_COMMAND_NO_WISHES_DESCRIPTION: |
-  현재 아직 어떤 기원이 없습니다! 하나 이상의 배너에 기원을 표시한 후 다시 등록하십시오.
+  현재 아직 어떤 기원이 없습니다! 하나 이상의 배너에 희망을 표시한 후 다시 등록하십시오.
   기원은 기원을 돌리고난뒤 약 1~2시간 후에 히스토리에 나타납니다.
 REFRESHING_USER: 사용자 새로고침 중...
 REGISTERING_USER: 사용자를 등록하는 중...
@@ -1176,7 +1176,7 @@ COMMON_LABEL: "평범한보물상자"
 EXQUISITE_LABEL: "정교한보물상자"
 PRECIOUS_LABEL: "진귀한보물상자"
 LUXURIOUS_LABEL: "화려한보물상자"
-REMARKABLE_LABEL: "신묘한상자"
+REMARKABLE_LABEL: "주목할 만한"
 ALL_CHESTS_LABEL: "모든보물상자"
 STRONGEST_STRIKE_LABEL: "최대데미지"
 MOST_BURSTS_USED_LABEL: "가장 많이 사용된 궁"
@@ -1198,7 +1198,7 @@ ELEMENTAL_MASTERY_LABEL: "원소 마스터리"
 TOTAL_WISHES_LABEL: "모든기원"
 PRIMOGEM_COUNT_LABEL: "총 원석"
 STARDUST_COUNT_LABEL: "스타더스트 카운터"
-STARGLITTER_COUNT_LABEL: "스타라이트 카운트"
+STARGLITTER_COUNT_LABEL: "스타글리터 카운트"
 THREE_STAR_LABEL: "3성"
 FOUR_STAR_LABEL: "4성"
 FIVE_STAR_LABEL: "5성"
