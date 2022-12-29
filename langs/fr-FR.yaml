@@ -162,17 +162,17 @@ OLD_HOYOLAB_LINKED: |
 CODE_REDEEM_TITLE: Genshin Wizard | Rédemption code HoYoLAB
 CODE_REDEEM_DESCRIPTION: "*Veuillez patienter pendant que nous traitons votre code de rédemption.*"
 CODE_REDEEM_PROGRESS: |
-  *Please wait while we process your redemption code...*
-  <a:loading:1015667958237900801> Attempting to redeem code `{code}`
-HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Expired Cookies
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
+  *Veuillez patienter pendant que nous traitons votre code de rédemption...*
+  <a:loading:1015667958237900801> Tentative d'utilisation du code `{code}`
+HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Cookies expirés
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hé Voyageur! Il semble que vos cookies pour leur code de rédemption HoYoLAB ont **expiré** ! Utilisez la commande </hoyo:{command_id}> et complétez le processus de reconnexion du compte pour **rafraîchir** les cookies de votre compte HoYoLAB.
 GENSHIN_WIZARD_INFORMATION: |
-  <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
-  <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
+  <a:blue_arrow:1005981235966910494> **[Inviter le Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
+  <a:blue_arrow:1005981235966910494> **[Site officiel](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
-APP_COMMAND_INFO_DESCRIPTION: Shows builds for characters in the user's in-game showcase.
+CODE_REDEEM_SUCCESS: "*Les codes de rédemption ont été traités avec succès!*"
+APP_COMMAND_INFO_DESCRIPTION: Affiche les builds pour les personnages dans la vitrine en jeu de l'utilisateur.
 APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history formatted into a text file via private messages.
 APP_COMMAND_HISTORY_DESCRIPTION: View your Genshin account's wish history.
 APP_COMMAND_DAILY_DESCRIPTION: Claim your daily HoYoLAB sign-in rewards.
@@ -223,24 +223,24 @@ APP_COMMAND_FARM_DESCRIPTION: Check the current domain schedule for your region.
 APP_COMMAND_TCGCARD_DESCRIPTION: Look up a Genshin Impact TCG Card.
 APP_COMMAND_ARTIFACT_DESCRIPTION: Display a breakdown of the perks/buffs for the given artifact.
 APP_COMMAND_ARTIFACTS_DESCRIPTION: Display a list of available artifacts.
-APP_COMMAND_TRANSLATE_DESCRIPTION: Information on how to contribute to Genshin Wizard's translations.
-APP_COMMAND_ID_DESCRIPTION: Look up any in-game asset using its ID.
-APP_COMMAND_WEAPON_DESCRIPTION: Look up a weapon guide for a specific Genshin weapon.
-APP_COMMAND_GUIDE_DESCRIPTION: Look up a character guide for a specific Genshin character.
-APP_COMMAND_BUILD_DESCRIPTION: Look up build(s) for a specific Genshin character.
-APP_COMMAND_PLAYSTYLE_DESCRIPTION: Look up playstyles for a specific Genshin character.
-APP_COMMAND_ASCENSION_DESCRIPTION: Look up a ascension materials for a specific Genshin character.
-APP_COMMAND_SYNERGY_DESCRIPTION: Look up a character and team synergies for a specific Genshin character.
-APP_COMMAND_CONSTELLATIONS_DESCRIPTION: Look up constellations for a specific Genshin character.
-APP_COMMAND_SKILLS_DESCRIPTION: Look up skill talents for a specific Genshin character.
-APP_COMMAND_PASSIVE_DESCRIPTION: Look up passive talents for a specific Genshin character.
-APP_COMMAND_GUIDES_DESCRIPTION: Display a list of available character guides.
-APP_COMMAND_REFERENCE_DESCRIPTION: Search for a specific reference sheet.
-APP_COMMAND_REFERENCESHEETS_DESCRIPTION: View all available reference sheets.
-APP_COMMAND_TODO_DESCRIPTION: Check daily/weekly events in Genshin Impact.
-APP_COMMAND_BANNERS_DESCRIPTION: View ongoing Genshin Impact event banners.
-APP_COMMAND_CONFIG_DESCRIPTION: Genshin Wizard config setup panel, configure automatic announcements and more!
-APP_COMMAND_PARTNER_DESCRIPTION: hidden
+APP_COMMAND_TRANSLATE_DESCRIPTION: Informations sur la façon de contribuer aux traductions de Genshin Wizard.
+APP_COMMAND_ID_DESCRIPTION: Recherchez n'importe quelle ressource du jeu en utilisant son ID.
+APP_COMMAND_WEAPON_DESCRIPTION: Recherchez un guide pour une arme spécifique de Genshin.
+APP_COMMAND_GUIDE_DESCRIPTION: Recherchez un guide pour un personnage spécifique de Genshin.
+APP_COMMAND_BUILD_DESCRIPTION: Recherchez les builds pour un personnage spécifique de Genshin.
+APP_COMMAND_PLAYSTYLE_DESCRIPTION: Recherchez les styles de jeu pour un personnage spécifique de Genshin.
+APP_COMMAND_ASCENSION_DESCRIPTION: Recherchez un matériau d'ascension pour un personnage spécifique de Genshin.
+APP_COMMAND_SYNERGY_DESCRIPTION: Recherchez les synergies et équipe pour un personnage spécifique Genshin.
+APP_COMMAND_CONSTELLATIONS_DESCRIPTION: Recherchez les constellations pour un personnage spécifique de Genshin.
+APP_COMMAND_SKILLS_DESCRIPTION: Recherchez les talents de compétences pour un personnage spécifique de Genshin.
+APP_COMMAND_PASSIVE_DESCRIPTION: Recherchez les talents passifs pour un personnage spécifique de Genshin.
+APP_COMMAND_GUIDES_DESCRIPTION: Affiche une liste des guides de personnages disponibles.
+APP_COMMAND_REFERENCE_DESCRIPTION: Rechercher une feuille de référence spécifique.
+APP_COMMAND_REFERENCESHEETS_DESCRIPTION: Voir toutes les fiches de référence disponibles.
+APP_COMMAND_TODO_DESCRIPTION: Vérifiez les événements quotidiens/hebdomadaires de Genshin Impact.
+APP_COMMAND_BANNERS_DESCRIPTION: Voir les bannières d'événements en cours de Genshin Impact.
+APP_COMMAND_CONFIG_DESCRIPTION: Panneau de configuration de Genshin Wizard, configurez les annonces automatiques et plus encore!
+APP_COMMAND_PARTNER_DESCRIPTION: masqué
 APP_COMMAND_SETUP_DESCRIPTION: Genshin Wizard Role Integration Setup Panel.
 APP_COMMAND_PREMIUM_DESCRIPTION: Purchase Genshin Wizard Premium to gain access to premium features.
 APP_COMMAND_ROLE_DESCRIPTION: Applies specific character roles to a user. Refer to relative text channel for more information.
