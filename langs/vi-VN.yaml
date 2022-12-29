@@ -244,29 +244,29 @@ APP_COMMAND_PARTNER_DESCRIPTION: bị ẩn
 APP_COMMAND_SETUP_DESCRIPTION: Cài đặt role tích hợp cho Genshin Wizard.
 APP_COMMAND_PREMIUM_DESCRIPTION: Đăng kí Genshin Wizard Premium để truy cập vào các tính năng độc quyền!
 APP_COMMAND_ROLE_DESCRIPTION: Cấp role tích hợp cho người dùng. Kiếm tra thông báo liên quan ở kênh thông báo để biết thêm thông tin.
-APP_COMMAND_HELP_DESCRIPTION: View Genshin Wizard help documentation.
-APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
-APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
-APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
-APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
+APP_COMMAND_HELP_DESCRIPTION: Hiển thị tài liệu hướng dẫn của Genshin Wizard.
+APP_COMMAND_PING_DESCRIPTION: Kiểm tra độ trễ của Genshin Wizard.
+APP_COMMAND_UPTIME_DESCRIPTION: Kiểm tra uptime của Genshin Wizard.
+APP_COMMAND_ABOUT_DESCRIPTION: Thông tin về Genshin Wizard.
+APP_COMMAND_INVITE_DESCRIPTION: Lấy đường link mời bot.
 APP_COMMAND_DONATE_DESCRIPTION: Hỗ trợ sự phát triển của Genshin Wizard.
-APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
-APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
-APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
-APP_COMMAND_TRUTH_DESCRIPTION: Seek wisdom from Genshin Wizard.
-APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Change Genshin Wizard's prefix for commands.
-APP_COMMAND_PITY_DESCRIPTION: Information on understanding the Genshin pity-system.
-APP_COMMAND_MATH_DESCRIPTION: Computer simple or complex functions.
-APP_COMMAND_EVENTS_DESCRIPTION: Check recent Genshin Impact events.
-APP_COMMAND_SENDCODES_DESCRIPTION: Send a message for Genshin redemption codes with buttons.
-APP_COMMAND_FEEDBACK_DESCRIPTION: Send your feedback to Genshin Wizard Developers.
-APP_COMMAND_DELETE_DESCRIPTION: Delete a user's Genshin Wizard profile.
-APP_COMMAND_BLACKLIST_DESCRIPTION: Blacklist a user from using Genshin Wizard.
-APP_COMMAND_DELIMPORT_DESCRIPTION: Delete a user's imported wish history data.
-EXPORT_NO_WISHES: There are no wishes to export.
-EXPORT_NO_BANNER_WISHES: No {banner} banner wishes found.
-EXPORT_NO_MESSAGE_PERMISSION: "The bot **does not** have permission to send you a private message. Please make sure you have the setting: `Allow direct messages from server members` **enabled** in your *Discord privacy settings*."
-EXPORT_MESSAGE_SUCCESS: Your wish history has successfully been exported and sent to you via DMs.
+APP_COMMAND_VOTE_DESCRIPTION: Link vote cho Genshin Wizard.
+APP_COMMAND_AVATAR_DESCRIPTION: Hiển thị avatar Discord của một người dùng.
+APP_COMMAND_CRITVALUE_DESCRIPTION: Tính toán Crit Value cho một Thánh Di vật.
+APP_COMMAND_TRUTH_DESCRIPTION: Tìm kiếm "đáp án" từ Genshin Wizard.
+APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Thay đổi tiền tố của Genshin Wizard.
+APP_COMMAND_PITY_DESCRIPTION: Thông tin về cách hoạt động của tính năng bảo hiểm cầu nguyện trong Genshin.
+APP_COMMAND_MATH_DESCRIPTION: Tính toán các phép tính từ đơn giản đến phức tạp.
+APP_COMMAND_EVENTS_DESCRIPTION: Kiểm tra các sự kiện Genshin gần đây.
+APP_COMMAND_SENDCODES_DESCRIPTION: Gửi tin nhắn riêng tư về mã đổi thưởng Genshin với nút bấm tương tác.
+APP_COMMAND_FEEDBACK_DESCRIPTION: Gửi phản hồi đến đội ngũ phát triển Genshin Wizard.
+APP_COMMAND_DELETE_DESCRIPTION: Xóa một người dùng khỏi hồ sơ của Genshin Wizard.
+APP_COMMAND_BLACKLIST_DESCRIPTION: Chặn một người dùng sử dụng Genshin Wizard.
+APP_COMMAND_DELIMPORT_DESCRIPTION: Xóa lịch sử cầu nguyện đã nhập vào của một người dùng.
+EXPORT_NO_WISHES: Không có lần cầu nguyện nào có thể xuất ra.
+EXPORT_NO_BANNER_WISHES: Không có {banner} lần cầu nguyện nào được tìm thấy.
+EXPORT_NO_MESSAGE_PERMISSION: "Genshin Wizard đang **không có quyền** gửi tin nhắn riêng tư cho bạn. Hãy **bật tùy chọn** `Cho phép thành viên trong máy chủ gửi tin nhắn trực tiếp` trong cài đặt Bảo mật&An toàn của Discord."
+EXPORT_MESSAGE_SUCCESS: Lịch sử cầu nguyện của bạn đã được xuất ra thành công và đã được gửi đến tin nhắn riêng tư.
 INFO_COMMAND_INVALID_ARGUMENT: |
   **Invalid argument passed.**
 
@@ -275,12 +275,12 @@ INVALID_ARGUMENT_PASSED: |
   Invalid argument passed.
   Valid argument is `<discord user>`/`<genshin uid>`
 INFO_COMMAND_ENKA_ISSUE: There seems to be an issue with [**Enka.Network**](https://enka.network/u/{uid}). Please try again later.
-ERROR_NO_USER_DATA: No data found for this user.
+ERROR_NO_USER_DATA: Không tìm thấy dữ liệu cho người dùng này.
 WHAT_HAPPENED_TITLE: What happened?
 WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
 INFO_COMMAND_SHOWCASE_TITLE: Showcase Nhân vật
-INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
+INFO_COMMAND_SHOWCASE_VIEW_ENKA: Hiển thị trên Enka.Network
 REFRESHES_KEY: Refreshes
 INFO_COMMAND_CHARACTER_DETAILS: Character
 INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!
