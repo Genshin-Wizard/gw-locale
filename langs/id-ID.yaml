@@ -5,10 +5,10 @@ HELP_CATEGORY_DESCRIPTION: Pilih kategori dari dropdown untuk melihat perintah k
 HELP_CATEGORIES: Kategori
 HELP_CATEGORY_LIST: |
   > 👤 | Perintah Profil
-  > 💫 | Perintah Keinginan
+  > 💫 | Perintah Permohonan
   > <:hoyolab:1016159766705344705> | Perintah HoYoLAB
   > 📝 | Panduan Perintah
-  > ⏰ | Aneka Perintah
+  > ⏰ | Perintah Lain-lain
 MISC_COMMANDS: Perintah Lain-lain
 PING_INFORMATION: |
   **Pong!** :ping_pong:
@@ -110,7 +110,7 @@ MENU_COOLDOWN_TITLE: Menu itu sedang cooldown!
 BUTTON_COOLDOWN_TITLE: Butang itu sedang cooldown!
 COMMAND_COOLDOWN_TITLE: Perintah itu sedang cooldown!
 MENU_COOLDOWN_VALUE: Anda mengklik atribut terlalu cepat! Coba lagi dalam waktu **{cooldown}** detik.
-CHARACTER_SHOWCASE_TITLE: Pameran Karakter
+CHARACTER_SHOWCASE_TITLE: Tampilan Karakter
 ERROR_RATELIMIT: Pengguna ini dibatasi tarifnya.
 ERROR_COMMAND_COOLDOWN_VALUE: Coba gunakan perintah ini lagi dalam {cooldown} detik.
 ERROR_COMMAND_LONG_COOLDOWN_VALUE: Coba gunakan perintah ini lagi dalam <t:{cooldown}:R>
@@ -173,8 +173,8 @@ GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
 CODE_REDEEM_SUCCESS: "*Kode penebusan berhasil diproses!*"
-APP_COMMAND_INFO_DESCRIPTION: Menampilkan build untuk karakter di pameran dalam game pengguna.
-APP_COMMAND_EXPORT_DESCRIPTION: Ekspor riwayat permohonan Genshin Anda yang diformat ke dalam file teks melalui pesan pribadi.
+APP_COMMAND_INFO_DESCRIPTION: Menampilkan build untuk karakter di tampilan dalam game pengguna.
+APP_COMMAND_EXPORT_DESCRIPTION: Ekspor riwayat keinginan Genshin Anda yang diformat ke dalam file teks melalui pesan pribadi.
 APP_COMMAND_HISTORY_DESCRIPTION: Lihat riwayat permohonan akun Genshin Anda.
 APP_COMMAND_DAILY_DESCRIPTION: Klaim hadiah Login HoYoLAB harian Anda.
 APP_COMMAND_MONTHLY_DESCRIPTION: Lihat hadiah harian HoYoLAB untuk bulan ini.
@@ -182,7 +182,7 @@ APP_COMMAND_DIARY_DESCRIPTION: Lihat Buku Harian Traveler HoYoLAB Anda.
 APP_COMMAND_REDEEM_DESCRIPTION: Menebus kode penebusan untuk Genshin Impact.
 APP_COMMAND_HOYO_DESCRIPTION: Periksa akun HoYoLAB kamu dari Genshin Wizard.
 APP_COMMAND_CHARACTERS_DESCRIPTION: Lihat Ringkasan Karakter akun Genshin Anda.
-APP_COMMAND_TCG_DESCRIPTION: Lihat Pameran Akun TCG Invokasi Genius Anda.
+APP_COMMAND_TCG_DESCRIPTION: Lihat Tampilan Akun TCG Invokasi Genius Anda.
 APP_COMMAND_IMPORT_DESCRIPTION: Impor riwayat permohonan gacha anda dari situs populer lainnya.
 APP_COMMAND_LEADERBOARD_DESCRIPTION: Lihat papan peringkat Genshin Wizard.
 APP_COMMAND_LOCATION_DESCRIPTION: Tampilkan lokasi yang diketahui untuk sumber yang diberikan.
@@ -200,7 +200,7 @@ APP_COMMAND_REFRESH_DESCRIPTION: Refresh tautan riwayat keinginan Anda (tautan b
 APP_COMMAND_UNLINK_DESCRIPTION: Putuskan tautan akun Genshin kamu dan hapus semua data.
 APP_COMMAND_REMINDERS_DESCRIPTION: Siapkan pengingat untuk memberi tahu resin, teko, dan ekspedisi.
 APP_COMMAND_RESIN_DESCRIPTION: Siapkan pengingat Resin untuk memberi tahu kamu saat resin kamu diisi ulang.
-APP_COMMAND_GACHA_DESCRIPTION: Tampilkan infografis terbaru yang menampilkan seluruh riwayat keinginan kamu untuk baner yang tertentu.
+APP_COMMAND_GACHA_DESCRIPTION: Tampilkan infografis terbaru yang menampilkan seluruh riwayat keinginan kamu untuk baner yang ditentukan.
 APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Uji keberuntungan gacha Anda dengan Genshin Wish Simulator!
 APP_COMMAND_INVENTORY_DESCRIPTION: Lihat inventaris Genshin Wizard virtual Anda.
 APP_COMMAND_SHOP_DESCRIPTION: Lihat Toko Genshin Wizard Anda.
@@ -263,9 +263,9 @@ APP_COMMAND_SENDCODES_DESCRIPTION: Kirim pesan untuk kode penebusan Genshin deng
 APP_COMMAND_FEEDBACK_DESCRIPTION: Kirim saranan kamu ke Developer Genshin Wizard.
 APP_COMMAND_DELETE_DESCRIPTION: Hapus profil pengguna Genshin Wizard.
 APP_COMMAND_BLACKLIST_DESCRIPTION: Daftar hitam pengguna untuk tidak dapat menggunakan Genshin Wizard.
-APP_COMMAND_DELIMPORT_DESCRIPTION: Hapus data riwayat permohonan yang diimpor pengguna.
-EXPORT_NO_WISHES: Tidak ada permohonan untuk ekspor.
-EXPORT_NO_BANNER_WISHES: Tidak ada permohonan baner {banner} yang ditemukan.
+APP_COMMAND_DELIMPORT_DESCRIPTION: Hapus data riwayat wish yang diimpor pengguna.
+EXPORT_NO_WISHES: Tidak ada keinginan untuk ekspor.
+EXPORT_NO_BANNER_WISHES: Tidak ada keinginan baner {banner} yang ditemukan.
 EXPORT_NO_MESSAGE_PERMISSION: "Bot **tidak** memiliki izin untuk mengirimi kamu pesan pribadi. Pastikan Anda memiliki pengaturan: `Izinkan pesan langsung dari anggota server` **diaktifkan** di *pengaturan privasi Discord* Anda."
 EXPORT_MESSAGE_SUCCESS: Riwayat keinginan Anda telah berhasil diekspor dan dikirimkan kepada Anda melalui DM.
 INFO_COMMAND_INVALID_ARGUMENT: |
@@ -280,7 +280,7 @@ ERROR_NO_USER_DATA: Tidak ada data yang ditemukan untuk pengguna ini.
 WHAT_HAPPENED_TITLE: Apa yang terjadi?
 WHAT_HAPPENED_VALUE: Sebab paling umum untuk masalah ini adalah akun genshin yang Anda coba cari belum diset ke publik. Untuk memperbaikinya, aktifkan `Tampilkan Detail Karakter` di Profil Anda di Genshin. Lihat gambar di bawah ini untuk referensi.
 WHAT_HAPPENED_FOOTER: Genshin Wizard mungkin membutuhkan waktu hingga lima menit untuk mengetahui perubahan terbaru yang dibuat dalam game, harap bersabar dengan kami.
-INFO_COMMAND_SHOWCASE_TITLE: Pameran Karakter
+INFO_COMMAND_SHOWCASE_TITLE: Tampilan Karakter
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: Lihat di Enka.Network
 REFRESHES_KEY: Refresh
 INFO_COMMAND_CHARACTER_DETAILS: Karakter
@@ -289,10 +289,10 @@ INFO_COMMAND_CACHE_DESCRIPTION: |
   **Genshin Wizard Cache **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
 
   <:information:1034639378410115103> **Apa itu Cache?**
-  Cache Genshin Wizard dibuat *secara otomatis* sehingga Anda tidak perlu khawatir untuk menukar pameran Anda berulang kali!
+  Cache Genshin Wizard dibuat *secara otomatis* sehingga anda tidak perlu khawatir untuk menukar tampilan anda berulang kali!
 
   <:na:975828401900359711> **Bagaimana jika saya ingin menghapus build yang lama?**
-  Jangan takut! Anda akan dapat mengelola build yang di-cache langsung dari pesan ini! Gunakan UI di bawah ini untuk menghapus karakter tertentu, atau semua, dari cache Genshin Wizard Anda.
+  Jangan takut! Anda akan dapat mengelola build yang di-cache langsung dari pesan ini! Gunakan UI di bawah ini untuk menghapus karakter tertentu, atau semua, dari cache Genshin Wizard anda.
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
   <:information:1034639378410115103> **Fitur Seni Kustom Genshin Wizard**
   Hai Traveler, sepertinya kamu mencoba menggunakan fitur **Custom Art** Genshin Wizard! Fitur ini hanya tersedia untuk pengguna Genshin Wizard Premium.
@@ -304,7 +304,7 @@ GENSHIN_WIZARD_CUSTOM_ART: Seni Kustom Genshin Wizard
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
   **Mengubah Seni Infografis**
   Hai Traveler, klik tautan atau tombol di bawah untuk **mengubah** seni infografis untuk karakter ini! <a:PaimonCookie:787444650687987732>
-  ```Ubah 
+  ```Ubah
   Infografis untuk {character}```
    <:Settings:1046877233626742925> [**Klik Di Sini untuk mengubah Seni**](https://dashboard.genshinwizard.com/?key={key})
 GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Pergi ke Dashboard
@@ -357,7 +357,7 @@ APP_CONTEXT_MENU_PROFILE: Profil
 APP_CONTEXT_MENU_STATISTICS: Progresi Statistik
 APP_CONTEXT_MENU_ABYSS: Progresi Abyss
 APP_CONTEXT_MENU_CHARACTERS: Karakter
-APP_CONTEXT_MENU_WISH_HISTORY: Riwayat Permohonan
+APP_CONTEXT_MENU_WISH_HISTORY: Riwayat Keinginan
 WHITELIST_KEY_LOWERCASE: daftar putih
 HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Keinginan Baner"
 SLASH_PAGINATION: Halaman {current_page}/{total_pages}
@@ -370,17 +370,17 @@ HISTORY_COMMAND_WISHES_WORTH: Nilai permohonan
 HISTORY_COMMAND_CURRENT_PITIES: Pity Saat Ini
 SEARCH_ERROR: Pencarian ralat!
 HISTORY_COMMAND_NO_WISHES: |
-  Tidak ada permohonan yang ditemukan untuk pencarian ini!
+  Tidak ada keinginan yang ditemukan untuk pencarian ini!
   Coba pilih baner lain untuk diperiksa di bawah.
-HISTORY_COMMAND_NO_USER_WISHES: Tidak ada permohonan yang ditemukan untuk pengguna ini!
+HISTORY_COMMAND_NO_USER_WISHES: Tidak ada keinginan yang ditemukan untuk pengguna ini!
 USER_NOT_REGISTERED_TITLE: Pengguna belum terdaftar!
 REGISTERED_KEY: Terdaftar
 NOT_REGISTERED_KEY: Tidak Terdaftar
 USER_NOT_REGISTERED_DESCRIPTION: Sayangnya, <@{mem_id}> **belum terdaftar**! Silakan mendaftar menggunakan </register:{command_id}> *sebelum* menggunakan perintah ini.
-FOOTER_REQUIRES_WISH_HISTORY: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode Riwayat Permohonan."
-FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode Riwayat Permohonan atau HoYoLAB."
+FOOTER_REQUIRES_WISH_HISTORY: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode Riwayat Keinginan."
+FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode Riwayat Keinginan atau HoYoLAB."
 FOOTER_REQUIRE_UID_OR_HOYOLAB: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode UID atau HoYoLAB."
-FOOTER_GCG_EXPANDED: Statistik Pameran TCG Anda dapat ditampilkan dengan lebih detail jika anda mendaftar menggunakan akun HoYoLAB anda!
+FOOTER_GCG_EXPANDED: Statistik Tampilan TCG anda dapat ditampilkan dengan lebih detail jika anda mendaftar menggunakan akun HoYoLAB anda!
 LINK_HOYOLAB_TITLE: Genshin Wizard | Tautkan Akun Hoyolab
 LINKING_UID_TITLE: Genshin Wizard | Tautkan UID
 LINK_HOYOLAB_DESCRIPTION: |
@@ -409,26 +409,26 @@ HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | Hadiah Bulanan HoYoLAB
 HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: Lihat hadiah bulanan HoYoLAB untuk bulan ini
 HOYOLAB_DIARY_TITLE: Genshin Wizard | Buku Harian Traveler
 HOYOLAB_INVALID_REDEEM: |
-  You must provide a redemption code to redeem.
-  **Proper Command Usage** ```/redeem CODE_ONE,CODE_TWO,...```
-CHINA_NOT_ALLOWED: Redeeming codes for CN users is **not supported** as of yet.
-HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | HoYoLAB Overview
-HOYOLAB_LOADING_ACCOUNT: Loading account information...
-HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Real-time Notes** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
-HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Game Record** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
-HOYOLAB_ACCOUNT_ERROR: There was an error grabbing your account's information! Please try again *later*.
-HOYOLAB_ACCOUNT_MANAGE: Manage your HoYoLAB account through Genshin Wizard
-HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Character Summary
-CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /register!
-GCG_NO_CARDS_FOUND: No Cards Found!
-GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Traveler! Unfortunately, {member} has **no cards** yet! Head-in game and play some TCG on Genshin Impact *before* using this command.
-HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
+  Anda harus memberikan kode penukaran untuk menebus.
+  **Penggunaan Perintah yang Benar** ```/redeem CODE_ONE,CODE_TWO,...```
+CHINA_NOT_ALLOWED: Menebus kode untuk pengguna CN **belum didukung**.
+HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | Ikhtisar HoYoLAB
+HOYOLAB_LOADING_ACCOUNT: Memuat informasi akun...
+HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> Terdapat ralat saat mengambil informasi **Catatan Terkini** akun Anda! Silakan coba lagi *nanti* atau bergabunglah dengan [**Server Dukungan Resmi**](https://discord.gg/BTT5Zr7Dmp) kami untuk mendapatkan bantuan.
+HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> Terdapat ralat saat mengambil informasi **Game Record** akun Anda! Silakan coba lagi *nanti* atau bergabunglah dengan [**Server Dukungan Resmi**](https://discord.gg/BTT5Zr7Dmp) kami untuk mendapatkan bantuan.
+HOYOLAB_ACCOUNT_ERROR: Terjadi keralatan saat mengambil informasi akun Anda! Silakan coba lagi *nanti*.
+HOYOLAB_ACCOUNT_MANAGE: Kendalikan akun HoYoLAB anda melalui Genshin Wizard
+HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Ringkasan Karakter
+CHARACTER_SUMMARY_NOT_FULL: Ringkasan Karakter anda berdasarkan pada riwayat permohonan gacha Anda. Untuk melihat Ringkasan Karakter anda yang lengkap dan paling akurat (level, pertemanan, konstelasi, dan level AR), silakan tautkan menggunakan /Mendaftar/Register!
+GCG_NO_CARDS_FOUND: Tidak Ada Kartu yang Ditemukan!
+GCG_NO_CARDS_FOUND_DESCRIPTION: Hai Traveler! Sayangnya, {member} belum memiliki **kartu**! Masuk ke game dan mainkan beberapa TCG di Genshin Impact *sebelum* menggunakan perintah ini.
+HOYOLAB_REGISTER_SCRIPT_TITLE: Registrasi | Metode Skrip
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin with, login to your [**HoYoLAB**](https://www.hoyolab.com/home) account.
-  > **2.** Type `java` in the address bar followed by the script down below.
-  > **3.** Once you've successfully ran the script, click the `Click here to copy!` button to copy the cookie.
-  > **4.** Finally, you're able to register by clicking the `Enter Token` button below and pasting the token you copied.
+  **Cara menautkan akun HoYoLAB Anda dengan Genshin Wizard**
+  > **1.** Untuk memulai, login ke akun [**HoYoLAB**](https://www.hoyolab.com/home) anda.
+  > **2.** Ketik `java` di bilah alamat diikuti dengan skrip di bawah.
+  > **3.** Setelah anda berhasil menjalankan skrip, klik tombol `Klik di sini untuk menyalin!` untuk menyalin cookie.
+  > **4.** Terakhir, Anda dapat mendaftar dengan mengklik tombol `Masukkan Token` di bawah dan menempelkan token yang anda salin.
 HOYOLAB_REGISTER_SCRIPT: |
   ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)```
 HOYOLAB_REGISTER_LOGIN_TITLE: Registration | Login Method
@@ -546,7 +546,7 @@ PRIVACY_SETTING_OVERVIEW: |
   > *Hide your showcase builds information from showing up anywhere (`/info`)*
 ALL_KEY: All
 RESET_KEY: Reset
-WISH_HISTORY_KEY: Riwayat Permohonan
+WISH_HISTORY_KEY: Riwayat Keinginan
 ABYSS_KEY: Abyss
 UID_KEY: UID
 STATS_KEY: Stats
@@ -1128,7 +1128,7 @@ CHOOSE_BANNER_PLACEHOLDER: Choose a banner...
 GO_BACK_BUTTON: Go Back
 REGISTER_SCRIPT_BUTTON: Register via Script
 REGISTER_LOGIN_BUTTON: Register via Login
-ENTER_TOKEN_BUTTON: Enter Token
+ENTER_TOKEN_BUTTON: Masukkan Token
 REGISTER_ACCOUNT_BUTTON: Register Account
 CHARACTERS_BUTTON: Karakter
 CLAIM_DAILY_REWARD_BUTTON: Claim Daily Reward
@@ -1373,18 +1373,18 @@ ENABLE_ADAPTIVE_ART_SETTING: Aktifkan Seni Infografis Adaptif
 INVITE_BOT_KEY: Undang Bot
 HELP_DROPDOWN_DIRECTORY: Direktori Bantuan
 HELP_DROPDOWN_PROFILE_COMMANDS: Perintah Profil/Statistik
-HELP_DROPDOWN_WISH_COMMANDS: Perintah Permohonan
+HELP_DROPDOWN_WISH_COMMANDS: Perintah Harapan
 HELP_DROPDOWN_HOYOLAB_COMMANDS: Perintah HoYoLAB
 HELP_DROPDOWN_GUIDE_COMMANDS: Panduan Perintah
 HELP_DROPDOWN_MISCELLANEOUS_COMMANDS: Perintah Lain-lain
 HELP_DROPDOWN_DIRECTORY_DESCRIPTION: Lihat Direktori Bantuan Genshin Wizard
 HELP_DROPDOWN_PROFILE_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Profil
-HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: Perintah Terkait Permohonan
+HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Wish
 HELP_DROPDOWN_HOYOLAB_COMMANDS_DESCRIPTION: Lihat Perintah Terkait HoYoLAB
 HELP_DROPDOWN_GUIDE_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Panduan
 HELP_DROPDOWN_MISCELLANEOUS_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Lain-Lain
 HELP_PROFILE_COG_NAME: Profil/Statistik
-HELP_PROFILE_WISH_COG_NAME: Permohonan
+HELP_PROFILE_WISH_COG_NAME: Keinginan
 HELP_HOYOLAB_COG_NAME: HoYoLAB
 HELP_GUIDE_COG_NAME: Panduan
 HELP_MISC_COG_NAME: Lain-lain
