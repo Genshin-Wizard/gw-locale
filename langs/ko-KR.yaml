@@ -346,7 +346,7 @@ APP_COMMAND_DESCRIBE_CRIT_RATE: 치명타확률 성유물
 APP_COMMAND_DESCRIBE_CRIT_DAMAGE: 치명타 피해 성유물
 APP_COMMAND_DESCRIBE_QUESTION: 페이몬에게 물어볼 질문입니다.
 APP_COMMAND_DESCRIBE_PREFIX: 새 봇 접두사를 설정합니다.
-APP_COMMAND_DESCRIBE_EXPRESSION: 계산하려는 식을 입력하세요.
+APP_COMMAND_DESCRIBE_EXPRESSION: 계산하려는 식
 APP_COMMAND_DESCRIBE_CODE_CHANNEL: 메시지를 보낼 채널입니다.
 APP_COMMAND_DESCRIBE_CODE_PING: 메시지와 함께 멘션할 역할입니다.
 APP_COMMAND_DESCRIBE_CODE_LIST: 메시지형태로 보낼 리딤 코드입니다.
@@ -368,8 +368,8 @@ HISTORY_COMMAND_WISHES_WORTH: 기원 가치
 HISTORY_COMMAND_CURRENT_PITIES: 스택
 SEARCH_ERROR: 검색 오류
 HISTORY_COMMAND_NO_WISHES: |
-  가챠 기록이 없습니다!
-  아래 다른 배너를 선택해 보세요.
+  이 배너의 가챠 기록을 찾을 수 없습니다!
+  아래 다른 배너를 선택해주세요.
 HISTORY_COMMAND_NO_USER_WISHES: 이 유저의 가챠 기록이 존재하지 않습니다!
 USER_NOT_REGISTERED_TITLE: 등록되지 않은 유저입니다!
 REGISTERED_KEY: 등록됨
@@ -444,12 +444,12 @@ ARE_YOU_SURE: 확실해?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
   Genshin Wizard에서 호요랩 계정을 **연결 해제**하도록 요청하셨습니다.
   즉, 더 이상 *일일 보상 청구*, *전체 심연 진행 상황* 및 *모든 캐릭터 보기*와 같은 기타 확장 기능을 볼 수 없습니다.
-UNLINKING_SUCCESSFUL: 연결 해제 성공!
-UNLINKING_SUCCESSFUL_DESCRIPTION: 성공적으로 계정이 연결 해제되었습니다.
+UNLINKING_SUCCESSFUL: 탈퇴 성공!
+UNLINKING_SUCCESSFUL_DESCRIPTION: 계정이 성공적으로 탈퇴되었습니다.
 UNLINKING_UNSUCCESSFUL: 연결 해제 실패!
-UNLINKING_UNSUCCESSFUL_DESCRIPTION: 오류가 발생해 연결 해제에 실패했습니다. 잠시 후에 다시 시도하거나 직원에게 문의하십시오.
-UNLINKING_CANCELLED: 연결 해제 취소!
-UNLINKING_CANCELLED_DESCRIPTION: 연결 해제를 취소했습니다.
+UNLINKING_UNSUCCESSFUL_DESCRIPTION: 오류가 발생해 탈퇴에 실패했습니다. 잠시 후에 다시 시도하거나 직원에게 문의하십시오.
+UNLINKING_CANCELLED: 탈퇴 취소!
+UNLINKING_CANCELLED_DESCRIPTION: 탈퇴를 취소했습니다.
 OBTAINED_KEY: 획득
 NOT_OWNED_KEY: 아직 보유하지 않았습니다
 PROFICIENCY_KEY: 숙련도
@@ -461,31 +461,30 @@ IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
   > `Paimon.moe`
   > `Genshin-Wishes`
   자세한 내용은 [**문서**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) 를 참조하세요.
-
 IMPORT_COMMAND_TITLE: Genshin Wizard | 기원 기록 가져오기
 IMPORT_COMMAND_FILE_DETECTED: |
   **감지된 소스: `{source}`**
   *기원 기록을 가져오는 동안 잠시 기다려 주십시오...*
 IMPORT_COMMAND_TAMPERED: 가져오려는 데이터가 **무단 변경** 되었습니다. 가져오기 전에 파일 내의 어떤 것도 변경하지 마세요. 파일을 새로 다운로드하고 다시 가져오기를 시도하세요.
-IMPORT_COMMAND_BANNER_IMPORTED: Successfully imported `{number_wishes}` wishes for {banner_name} banner!
-IMPORT_COMMAND_SUCCESS: Successfully imported `{total_wishes}` new wishes from all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
+IMPORT_COMMAND_BANNER_IMPORTED: 성공적으로 `{number_wishes}`개의 {banner_name} 배너 기원 기록을 가져왔습니다!
+IMPORT_COMMAND_SUCCESS: 모든 배너에서 새 `{total_wishes}`개의 기원 기록을 성공적으로 가져왔습니다! 이제 </history:{command_id}>명령을 통해 뽑기 기록에 대한 자세한 정보를 볼 수 있습니다.
 IMPORT_COMMAND_LOG: |
-  **User:** {user} | `{user_id}`
-  **Name:** `{name}`
-  **Guild:** `{guild_id}` | `{guild_name}`
+  **유저:** {user} | `{user_id}`
+  **이름:** `{name}`
+  **길드:** `{guild_id}` | `{guild_name}`
 
-  **Detected Import Source:** `{source}`
-  **Total:** `{total}` wishes imported!
-  > 3-Stars: `{three_star}`
-  > 4-Stars: `{four_star}`
-  > 5-Stars: `{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </register:{command_id}>.
+  **감지된 소스:** `{source}`
+  **총합:** `{total}`뽑 
+  > 3성: `{three_star}`
+  > 4성: `{four_star}`
+  > 5성: `{five_star}`
+IMPORT_COMMAND_NOT_REGISTERED: 기존 기원 기록을 가져오려면 이미 등록되어 있어야 합니다! </register:{command_id}>명령을 사용하여 등록한 후 다시 시도해 주세요.
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: 기록 링크가 만료됨!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: 기록 링크가 **만료**되었습니다! 가져오기를 시도하기 전에 </refresh:{command_id}> 명령을 사용하여 새로 고쳐주세요!
-IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **excel** sheet from their [Wish Counter](https://paimon.moe/wish) page settings. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: This file type is **not supported**. Please make sure you're not *changing* the file type before trying to import. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-LEADERBOARD_NO_DATA: No data found for this specific query!
-LEADERBOARD_EXPERIENCE_FOOTER: Experience can be gained by being active in the server. Chat more to increase your Genshin Wizard ranking level!
+IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: 지원되지 않는 파일 형식입니다. `Paimon.moe`에서 데이터를 가져오려는 경우 (https://paimon.moe/wish)의 페이지 설정에서 엑셀 시트를 다운로드했는지 확인하세요. 자세한 내용은 [**문서**](https://docs.genshinwizard.com/wishing-centre/importing-wishes)를 참조하세요.
+IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: 지원되지 않는 파일 형식입니다. 가져오기 전에 파일 형식을 바꾸지 않았는지 확인해주세요. 자세한 내용은 [**문서**](https://docs.genshinwizard.com/wishing-centre/importing-wishes)를 확인해주세요.
+LEADERBOARD_NO_DATA: 이 쿼리에 대한 데이터를 찾을 수 없습니다!
+LEADERBOARD_EXPERIENCE_FOOTER: Genshin Wizard 서버에서 활동하면 경험치를 얻을 수 있습니다. Genshin Wizard 랭킹 레벨을 높이려면 많이 채팅하세요!
 LEADERBOARD_WISHES_FOOTER: Wishes are updated via banner summary and refresh command(s). Check your banners to actively get an updated wish count!
 LEADERBOARD_PLAYTIME_FOOTER: Playtime is updated via stats/info commands, check your stats/builds frequently to actively get an updated playtime count!
 LEADERBOARD_ACHIEVEMENTS_FOOTER: 업적은 통계/정보 명령을 통해 업데이트됩니다. 통계/빌드를 자주 확인하여 업데이트된 업적 수를 적극적으로 얻으세요!
@@ -604,8 +603,8 @@ JOIN_DATE_KEY: 가입일자
 NOT_HERE_KEY: Not Here
 LOCATION_KEY: 지역
 TOP_ROLE_KEY: 상위 역할
-RECENT_FIVE_STAR_CHARACTER: "**최근5 :star: 캐릭터**"
-RECENT_FIVE_STAR_WEAPON: "**최근 5 :star: 무기**"
+RECENT_FIVE_STAR_CHARACTER: "**최근 5성 캐릭터**"
+RECENT_FIVE_STAR_WEAPON: "**최근 5성 무기**"
 WISHES_WORTH_KEY: 기원 가치
 OVERALL_SUMMARY_KEY: 전체 요약
 OVERALL_STATS_KEY: 합계
