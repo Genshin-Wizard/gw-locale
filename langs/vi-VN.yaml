@@ -291,7 +291,7 @@ INFO_COMMAND_CACHE_DESCRIPTION: |
   Genshin Wizard *tự động lưu* dữ liệu của bạn vào bộ đệm (cache) để bạn không phải đổi nhân vật trên hồ sơ của mình liên tục!
 
   <:na:975828401900359711> **Nếu tôi muốn xóa build nhân vật cũ?**
-  Bạn có thể quản lý build nhân vật của bạn ngay trong tin nhắn này! 
+  Bạn có thể quản lý build nhân vật của bạn ngay trong tin nhắn này!
   Dùng giao diện bên dưới để xóa build cho nhân vật nhất định, hoặc bạn có thể xóa tất cả khỏi bộ đệm của Genshin Wizard.
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
   <:information:1034639378410115103> **Genshin Wizard Custom Art Feature**
@@ -299,58 +299,59 @@ INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
 
   You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Patreon**](https://patreon.com/genshinwizard)!
 PURCHASE_PREMIUM: Mua Premium
-INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Hey Traveler, you can only manage custom art for your **own characters**!
-GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard Custom Art
+INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Nhà Lữ Hành ơi, bạn chỉ có thể quản lý art tùy chỉnh cho **nhân vật của bản thân**!
+GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard Art Tùy chỉnh
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookie:787444650687987732>
-  ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://dashboard.genshinwizard.com/?key={key})
-GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Go to Dashboard
-REMOVE_CHARACTERS_FROM_CACHE: Remove characters from cache...
-INFO_COMMAND_CACHE_DELETE_SELECTED: Successfully deleted selected characters from Genshin Wizard's cache!
-INFO_COMMAND_CACHE_DELETE_ALL: Successfully deleted all your characters from Genshin Wizard's cache!
-INFO_COMMAND_CACHE_CANCEL: "**Cancelled** cache management request! You may dismiss this message."
-APP_COMMAND_DESCRIBE_USER: The name of the member you are trying to search for.
-APP_COMMAND_DESCRIBE_USER_AVATAR: The member you wish to view an avatar for.
-APP_COMMAND_DESCRIBE_UID: The UID of the member you are trying to search for.
-APP_COMMAND_DESCRIBE_USER_WISH: Search up a specific user's Genshin Wish history.
-APP_COMMAND_DESCRIBE_AUTOCLAIM: Enable/Disable automatic HoYoLAB daily sign-in.
-ENABLE_KEY: Enable
-DISABLE_KEY: Disable
-ENABLE_AUTOCLAIM: Enable automatic daily sign-in.
-DISABLE_AUTOCLAIM: Disable automatic daily sign-in.
-APP_COMAND_DESCRIBE_CODES: The redemption code you wish to redeem for your account.
-APP_COMMAND_DESCRIBE_DATA: The file you are trying to import your wish history from.
-APP_COMMAND_DESCRIBE_RESOURCE: The resource you are trying to search for.
-APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: The character you want to calculate ascension materials for.
-APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: Starting level of the character you want to upgrade.
-APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: Desired level of the character you want to upgrade.
-APP_COMMAND_DESCRIBE_BANNER_IMAGE: The image you want to use as your banner.
-APP_COMMAND_DESCRIBE_BANNER_URL: The link to an image you want to use as your banner.
-APP_COMMAND_DESCRIBE_CURRENT_RESIN: The amount of resin you currently have.
-APP_COMMAND_DESCRIBE_CARD: The name of the card you want to look-up.
-APP_COMMAND_DESCRIBE_ARTIFACT: The name of the artifact you want to search for.
-APP_COMMAND_DESCRIBE_ASSET_ID: The ID for the asset you wish to look up.
-APP_COMMAND_DESCRIBE_WEAPON: The name of the weapon you want to look-up a guide for.
-APP_COMMAND_DESCRIBE_CHARACTER: The name of the character you want to look-up.
-APP_COMMAND_DESCRIBE_CHARACTER_GUIDE: The name of the character you want to look-up a guide for
-APP_COMMAND_DESCRIBE_CHARACTER_BUILD: The name of the character you want to look-up a build for.
-APP_COMMAND_DESCRIBE_CHARACTER_PLAYSTYLE: The name of the character you want to look-up a playstyle for.
-APP_COMMAND_DESCRIBE_CHARACTER_SYNERGY: The name of the character you want to look-up team synergies for.
-APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION_LOOKUP: The name of the character you want to look-up ascension materials for.
-APP_COMMAND_DESCRIBE_CHARACTER_CONSTELLATIONS: The name of the character you want to look-up constellations for.
-APP_COMMAND_DESCRIBE_CHARACTER_SKILLS: The name of the character you want to look-up skill talents for.
-APP_COMMAND_DESCRIBE_CHARACTER_PASSIVE: The name of the character you want to look-up passive talents for.
-APP_COMMAND_DESCRIBE_ITEM_REFERENCE_SHEET: The name of the item you want a reference sheet for.
-APP_COMMAND_DESCRIBE_CRIT_RATE: The CRIT Rate of the artifact.
-APP_COMMAND_DESCRIBE_CRIT_DAMAGE: The CRIT Damage of the artifact.
-APP_COMMAND_DESCRIBE_QUESTION: The question you wish to ask Paimon.
-APP_COMMAND_DESCRIBE_PREFIX: The new prefix you wish to set for the bot.
-APP_COMMAND_DESCRIBE_EXPRESSION: The equation/query you're attempting to compute.
-APP_COMMAND_DESCRIBE_CODE_CHANNEL: The channel you want to send the message in.
-APP_COMMAND_DESCRIBE_CODE_PING: The role you want to mention along with the message.
+  **Tùy chỉnh Art Infographic**
+  Nhà Lữ Hành ơi, hãy bấm nút bên dưới để **tùy chỉnh** art cho infographic của nhân vật này!
+  <a:PaimonCookie:787444650687987732>
+  ```Chỉnh sửa
+  Infographic cho {character}```
+  > <:Settings:1046877233626742925> [**Bấm vào đây để tùy chỉnh Art**](https://dashboard.genshinwizard.com/?key={key})
+GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Đi đến Bảng điều khiển
+REMOVE_CHARACTERS_FROM_CACHE: Loại bỏ nhân vật khỏi bộ đệm...
+INFO_COMMAND_CACHE_DELETE_SELECTED: Đã xóa thành công nhân vật khỏi bộ đệm Genshin Wizard!
+INFO_COMMAND_CACHE_DELETE_ALL: Đã xóa thành công tất cả nhân vật khỏi bộ đệm Genshin Wizard!
+INFO_COMMAND_CACHE_CANCEL: "Yêu cầu xóa bộ đệm **đã được hủy bỏ**. Bạn có thể bỏ qua tin nhắn này."
+APP_COMMAND_DESCRIBE_USER: Tên người dùng bạn muốn tìm kiếm.
+APP_COMMAND_DESCRIBE_USER_AVATAR: Người dùng mà bạn muốn hiển thị avatar của họ.
+APP_COMMAND_DESCRIBE_UID: UID của người dùng mà bạn muốn tìm kiếm.
+APP_COMMAND_DESCRIBE_USER_WISH: Tìm kiếm lịch sử cầu nguyện của một người dùng.
+APP_COMMAND_DESCRIBE_AUTOCLAIM: Bật/Tắt tính năng tự động điểm danh HoYoLAB hàng ngày.
+ENABLE_KEY: Bật
+DISABLE_KEY: Tắt
+ENABLE_AUTOCLAIM: Bật tính năng tự động điểm danh hàng ngày.
+DISABLE_AUTOCLAIM: Tắt tính năng tự động điểm danh hàng ngày.
+APP_COMAND_DESCRIBE_CODES: Mã quà bạn muốn đổi cho tài khoản của bạn.
+APP_COMMAND_DESCRIBE_DATA: File mà bạn muốn nhập lịch sử cầu nguyện vào.
+APP_COMMAND_DESCRIBE_RESOURCE: Tài nguyên mà bạn đang tìm kiếm.
+APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: Nhân vật mà bạn muốn tính toán nguyên liệu đột phá.
+APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: Chọn level khởi đầu của nhân vật mà bạn muốn nâng cấp.
+APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: Chọn level mà bạn muốn nâng cấp nhân vật của bạn đến.
+APP_COMMAND_DESCRIBE_BANNER_IMAGE: Hình ảnh mà bạn muốn sử dụng làm banner.
+APP_COMMAND_DESCRIBE_BANNER_URL: Đường link của hình ảnh mà bạn muốn sử dụng làm banner.
+APP_COMMAND_DESCRIBE_CURRENT_RESIN: Nhựa Nguyên Chất mà bạn đang có.
+APP_COMMAND_DESCRIBE_CARD: Tên lá bài bạn muốn tìm kiếm.
+APP_COMMAND_DESCRIBE_ARTIFACT: Tên Thánh Di Vật bạn muốn tìm kiếm.
+APP_COMMAND_DESCRIBE_ASSET_ID: ID của asset mà bạn đang muốn tìm kiếm.
+APP_COMMAND_DESCRIBE_WEAPON: Tên vũ khí mà bạn muốn tìm kiếm hướng dẫn.
+APP_COMMAND_DESCRIBE_CHARACTER: Tên nhân vật bạn muốn tìm kiếm.
+APP_COMMAND_DESCRIBE_CHARACTER_GUIDE: Tên nhân vật bạn muốn tìm hướng dẫn cho.
+APP_COMMAND_DESCRIBE_CHARACTER_BUILD: Tên nhân vật bạn muốn tìm kiếm hướng build.
+APP_COMMAND_DESCRIBE_CHARACTER_PLAYSTYLE: Tên nhân vật bạn muốn tìm kiếm lối chơi.
+APP_COMMAND_DESCRIBE_CHARACTER_SYNERGY: Tên nhân vật mà bạn muốn tìm kiểm tương thích/đồng đội tốt nhất.
+APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION_LOOKUP: Tên nhân vật mà bạn muốn tìm kiếm nguyên liệu đột phá.
+APP_COMMAND_DESCRIBE_CHARACTER_CONSTELLATIONS: Tên nhân vật bạn muốn tìm kiếm cung mệnh.
+APP_COMMAND_DESCRIBE_CHARACTER_SKILLS: Tên nhân vật bạn muốn tìm kiếm thiên phú chiến đấu.
+APP_COMMAND_DESCRIBE_CHARACTER_PASSIVE: Tên nhân vật mà bạn muốn tìm kiếm thiên phú nội tại.
+APP_COMMAND_DESCRIBE_ITEM_REFERENCE_SHEET: Tên vật phẩm mà bạn cần tìm danh sách nguyên liệu.
+APP_COMMAND_DESCRIBE_CRIT_RATE: Tỉ lệ Chí mạng của Thánh Di Vật.
+APP_COMMAND_DESCRIBE_CRIT_DAMAGE: Sát thương Chí mạng của Thánh Di vật.
+APP_COMMAND_DESCRIBE_QUESTION: Câu hỏi bạn muốn hỏi Paimon.
+APP_COMMAND_DESCRIBE_PREFIX: Tiền tố mới mà bạn muốn sử dụng cho bot.
+APP_COMMAND_DESCRIBE_EXPRESSION: Phép tính/Phương trình mà bạn cần tính toán.
+APP_COMMAND_DESCRIBE_CODE_CHANNEL: Kênh mà bạn muốn gửi tin nhắn đến.
+APP_COMMAND_DESCRIBE_CODE_PING: Role mà bạn muốn mention cùng với tin nhắn.
 APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated by a comma.
 APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
 APP_CONTEXT_MENU_PROFILE: Profile
