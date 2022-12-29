@@ -241,44 +241,44 @@ APP_COMMAND_TODO_DESCRIPTION: Vérifiez les événements quotidiens/hebdomadaire
 APP_COMMAND_BANNERS_DESCRIPTION: Voir les bannières d'événements en cours de Genshin Impact.
 APP_COMMAND_CONFIG_DESCRIPTION: Panneau de configuration de Genshin Wizard, configurez les annonces automatiques et plus encore!
 APP_COMMAND_PARTNER_DESCRIPTION: masqué
-APP_COMMAND_SETUP_DESCRIPTION: Genshin Wizard Role Integration Setup Panel.
-APP_COMMAND_PREMIUM_DESCRIPTION: Purchase Genshin Wizard Premium to gain access to premium features.
-APP_COMMAND_ROLE_DESCRIPTION: Applies specific character roles to a user. Refer to relative text channel for more information.
-APP_COMMAND_HELP_DESCRIPTION: View Genshin Wizard help documentation.
-APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
-APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
-APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
-APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
+APP_COMMAND_SETUP_DESCRIPTION: Panneau de configuration pour l'intégration de rôles de Genshin Wizard.
+APP_COMMAND_PREMIUM_DESCRIPTION: Achetez Genshin Wizard Premium pour accéder aux fonctionnalités premium.
+APP_COMMAND_ROLE_DESCRIPTION: Applique des rôles de personnages spécifiques à un utilisateur. Reportez-vous au salon textuel associé pour plus d'informations.
+APP_COMMAND_HELP_DESCRIPTION: Voir la documentation d'aide de Genshin Wizard.
+APP_COMMAND_PING_DESCRIPTION: Vérifiez la latence de Genshin Wizard.
+APP_COMMAND_UPTIME_DESCRIPTION: Vérifiez la disponibilité de Genshin Wizard.
+APP_COMMAND_ABOUT_DESCRIPTION: Informations sur Genshin Wizard.
+APP_COMMAND_INVITE_DESCRIPTION: Recevoir un lien d'invitation pour le bot.
 APP_COMMAND_DONATE_DESCRIPTION: Soutenez le développement de Genshin Wizard.
-APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
-APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
-APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
-APP_COMMAND_TRUTH_DESCRIPTION: Seek wisdom from Genshin Wizard.
-APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Change Genshin Wizard's prefix for commands.
-APP_COMMAND_PITY_DESCRIPTION: Information on understanding the Genshin pity-system.
-APP_COMMAND_MATH_DESCRIPTION: Computer simple or complex functions.
-APP_COMMAND_EVENTS_DESCRIPTION: Check recent Genshin Impact events.
-APP_COMMAND_SENDCODES_DESCRIPTION: Send a message for Genshin redemption codes with buttons.
-APP_COMMAND_FEEDBACK_DESCRIPTION: Send your feedback to Genshin Wizard Developers.
-APP_COMMAND_DELETE_DESCRIPTION: Delete a user's Genshin Wizard profile.
-APP_COMMAND_BLACKLIST_DESCRIPTION: Blacklist a user from using Genshin Wizard.
-APP_COMMAND_DELIMPORT_DESCRIPTION: Delete a user's imported wish history data.
-EXPORT_NO_WISHES: There are no wishes to export.
-EXPORT_NO_BANNER_WISHES: No {banner} banner wishes found.
-EXPORT_NO_MESSAGE_PERMISSION: "The bot **does not** have permission to send you a private message. Please make sure you have the setting: `Allow direct messages from server members` **enabled** in your *Discord privacy settings*."
-EXPORT_MESSAGE_SUCCESS: Your wish history has successfully been exported and sent to you via DMs.
+APP_COMMAND_VOTE_DESCRIPTION: Liens de vote pour Genshin Wizard.
+APP_COMMAND_AVATAR_DESCRIPTION: Voir l'avatar discord d'un utilisateur.
+APP_COMMAND_CRITVALUE_DESCRIPTION: Calculer la valeur CRIT pour un artefact.
+APP_COMMAND_TRUTH_DESCRIPTION: Chercher la sagesse de Genshin Wizard.
+APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Changer le préfixe des commandes de Genshin Wizard.
+APP_COMMAND_PITY_DESCRIPTION: Informations sur la compréhension du système de pity de genshin.
+APP_COMMAND_MATH_DESCRIPTION: Fonctions simples ou complexes.
+APP_COMMAND_EVENTS_DESCRIPTION: Consultez les événements récents de Genshin Impact.
+APP_COMMAND_SENDCODES_DESCRIPTION: Envoyer un message pour les codes de rédemption Genshin avec des boutons.
+APP_COMMAND_FEEDBACK_DESCRIPTION: Envoyez vos commentaires aux développeurs Genshin Wizard.
+APP_COMMAND_DELETE_DESCRIPTION: Supprimer le profil d'un utilisateur Genshin Wizard.
+APP_COMMAND_BLACKLIST_DESCRIPTION: Bloquer un utilisateur d'utiliser Genshin Wizard.
+APP_COMMAND_DELIMPORT_DESCRIPTION: Supprimer les données importées de l'historique de vœux d'un utilisateur.
+EXPORT_NO_WISHES: Il n'y a aucun vœux a importé.
+EXPORT_NO_BANNER_WISHES: Aucun vœux trouvé sur la bannière {banner}.
+EXPORT_NO_MESSAGE_PERMISSION: "Le bot **n'a pas** la permission de vous envoyer un message privé. Veuillez vous assurer que vous avez le paramètre: `Autoriser les messages privés venant des membres du serveur` **activé** dans vos *paramètres de confidentialité Discord*."
+EXPORT_MESSAGE_SUCCESS: Votre historique de vœux a été exporté avec succès et vous a été envoyé par MP.
 INFO_COMMAND_INVALID_ARGUMENT: |
-  **Invalid argument passed.**
+  **Argument invalide.**
 
-  To view another player's stats, please enter either Discord User **or** a Genshin UID. Entering both will result in an error.
+  Pour voir les statistiques d'un autre joueur, veuillez entrer soit un utilisateur Discord **ou** un UID Genshin. La saisie des deux entraînera une erreur.
 INVALID_ARGUMENT_PASSED: |
-  Invalid argument passed.
-  Valid argument is `<discord user>`/`<genshin uid>`
-INFO_COMMAND_ENKA_ISSUE: There seems to be an issue with [**Enka.Network**](https://enka.network/u/{uid}). Please try again later.
-ERROR_NO_USER_DATA: No data found for this user.
-WHAT_HAPPENED_TITLE: What happened?
-WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
-WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
+  Argument invalide.
+  L'argument valide est `<discord user>`/`<genshin uid>`
+INFO_COMMAND_ENKA_ISSUE: Il semble y avoir un problème avec [**Enka.Network**](https://enka.network/u/{uid}). Veuillez réessayer plus tard.
+ERROR_NO_USER_DATA: Aucune donnée trouvée pour cet utilisateur.
+WHAT_HAPPENED_TITLE: Que s'est-il passé ?
+WHAT_HAPPENED_VALUE: La raison la plus courante de ce problème est que le compte genshin que vous essayez de rechercher n'a pas encore été rendu public. Pour corriger cela, activez `Afficher les informations des personnages` sur votre profil Genshin. Reportez-vous à l'image ci-dessous pour la référence.
+WHAT_HAPPENED_FOOTER: Genshin Wizard peut prendre jusqu'à cinq minutes pour reconnaître les changements récents effectués en jeu, s'il vous plaît soyez patient avec nous.
 INFO_COMMAND_SHOWCASE_TITLE: Démonstration de personnage
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
 REFRESHES_KEY: Refreshes
