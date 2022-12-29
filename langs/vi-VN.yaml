@@ -268,36 +268,37 @@ EXPORT_NO_BANNER_WISHES: Không có {banner} lần cầu nguyện nào được 
 EXPORT_NO_MESSAGE_PERMISSION: "Genshin Wizard đang **không có quyền** gửi tin nhắn riêng tư cho bạn. Hãy **bật tùy chọn** `Cho phép thành viên trong máy chủ gửi tin nhắn trực tiếp` trong cài đặt Bảo mật&An toàn của Discord."
 EXPORT_MESSAGE_SUCCESS: Lịch sử cầu nguyện của bạn đã được xuất ra thành công và đã được gửi đến tin nhắn riêng tư.
 INFO_COMMAND_INVALID_ARGUMENT: |
-  **Invalid argument passed.**
+  **Tham số đã nhập không hợp lệ.**
 
-  To view another player's stats, please enter either Discord User **or** a Genshin UID. Entering both will result in an error.
+  Để hiển thị thông số của người chơi khác, vui lòng nhập tên người dùng Discord **hoặc** Genshin UID (chỉ một trong hai).
 INVALID_ARGUMENT_PASSED: |
-  Invalid argument passed.
-  Valid argument is `<discord user>`/`<genshin uid>`
-INFO_COMMAND_ENKA_ISSUE: There seems to be an issue with [**Enka.Network**](https://enka.network/u/{uid}). Please try again later.
+  Tham số nhập vào không hợp lệ.
+  Vui lòng sử dụng `<discord user>`/`<genshin uid>`
+INFO_COMMAND_ENKA_ISSUE: Có vẻ như đã có sự cố với [**Enka.Network**](https://enka.network/u/{uid}). Vui lòng thử lại sau.
 ERROR_NO_USER_DATA: Không tìm thấy dữ liệu cho người dùng này.
-WHAT_HAPPENED_TITLE: What happened?
-WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
-WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
+WHAT_HAPPENED_TITLE: Chuyện gì đã xảy ra?
+WHAT_HAPPENED_VALUE: Vấn đề thường gặp nhất với lỗi này đó là tài khoản bạn đang tìm kiếm chưa công khai Hồ sơ. Để sửa lỗi này, hãy bật tùy chọn `Hiển thị chi tiết nhân vật` trong giao diện Hồ sơ Genshin của bạn. Hãy tham khảo hình ảnh bên dưới.
+WHAT_HAPPENED_FOOTER: Genshin Wizard có thể mất tối đa 5 phút để nhận biết sự thay đổi trong tài khoản của bạn, hãy kiên nhẫn nhé.
 INFO_COMMAND_SHOWCASE_TITLE: Showcase Nhân vật
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: Hiển thị trên Enka.Network
-REFRESHES_KEY: Refreshes
-INFO_COMMAND_CHARACTER_DETAILS: Character
-INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!
+REFRESHES_KEY: Làm mới
+INFO_COMMAND_CHARACTER_DETAILS: Nhân vật
+INFO_COMMAND_NOT_OWNER: Bạn chỉ có thể quản lý build cho nhân vật của bạn! Dùng </info:{command_id}> để biết thêm thông tin!
 INFO_COMMAND_CACHE_DESCRIPTION: |
   **Genshin Wizard Cache **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
 
-  <:information:1034639378410115103> **What is Cache?**
-  Genshin Wizard caches builds *automatically* so you never have to worry about swapping your showcase out over and over again!
+  <:information:1034639378410115103> **Cache là gì?**
+  Genshin Wizard *tự động lưu* dữ liệu của bạn vào bộ đệm (cache) để bạn không phải đổi nhân vật trên hồ sơ của mình liên tục!
 
-  <:na:975828401900359711> **What if I want to delete old builds?**
-  Fear not! You'll be able to manage your cached builds straight from this message! Use the UI below to delete specific characters, or all, from your Genshin Wizard cache.
+  <:na:975828401900359711> **Nếu tôi muốn xóa build nhân vật cũ?**
+  Bạn có thể quản lý build nhân vật của bạn ngay trong tin nhắn này! 
+  Dùng giao diện bên dưới để xóa build cho nhân vật nhất định, hoặc bạn có thể xóa tất cả khỏi bộ đệm của Genshin Wizard.
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
   <:information:1034639378410115103> **Genshin Wizard Custom Art Feature**
   Hey Traveler, it looks like you're trying to use Genshin Wizard's **Custom Art** feature! This feature is only available to Genshin Wizard Premium users.
 
   You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Patreon**](https://patreon.com/genshinwizard)!
-PURCHASE_PREMIUM: Purchase Premium
+PURCHASE_PREMIUM: Mua Premium
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Hey Traveler, you can only manage custom art for your **own characters**!
 GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard Custom Art
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
@@ -508,7 +509,7 @@ CALC_CHARACTER_INVALID_TARGET_LEVEL: You need to specify a valid target level!
 CALC_CHARACTER_REQUIREMENT_SURPASSED: Character has already **surpassed** the given desired level!
 CALC_CHARACTER_REQUIREMENT_MET: Character has already **reached** the given desired level!
 CALC_CHARACTER_TITLE: Genshin Wizard | Character Calculator
-CHARACTER_KEY: Character
+CHARACTER_KEY: Nhân vật
 CURRENT_LEVEL_KEY: Current Level
 TARGET_LEVEL_KEY: Target Level
 REQUIRED_RESOURCES_KEY: Required Resources
