@@ -113,9 +113,9 @@ CHARACTER_SHOWCASE_TITLE: Character Showcase
 ERROR_RATELIMIT: User is currently ratelimited.
 ERROR_COMMAND_COOLDOWN_VALUE: Try using this command again in {cooldown} secs.
 ERROR_COMMAND_LONG_COOLDOWN_VALUE: Try using this command again in <t:{cooldown}:R>
-ERROR_KEY: Error!
-SUCCESSFUL_KEY: Successful!
-ERROR_MISSING_PERMISSION: You don't have permission to use this command!
+ERROR_KEY: त्रुटि!
+SUCCESSFUL_KEY: सफलता!
+ERROR_MISSING_PERMISSION: आपके पास इस कमांड का उपयोग करने के लिए पर्याप्त अनुमति उपलब्ध नहीं है
 EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Exclusive Command
 EXCLUSIVE_COMMAND_DESCRIPTION: |
   Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
@@ -143,7 +143,7 @@ ERROR_MISSING_REQUIRED_ARGUMENT: "You forgot to provide an argument, please use 
 ERROR_MISSING_REQUIRED_ATTACHMENT: "You forgot to provide an attachment, please use the correct format: ```{usage} with the correct attachment.```"
 ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, I do not have permission to `Manage Messages` within this channel/guild. Please enable this permission and try again.
 ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
-MESSAGE_KEY: Message
+MESSAGE_KEY: संदेश
 ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
 ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
 ERROR_MESSAGE: There has been an error!
@@ -175,9 +175,9 @@ CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
 APP_COMMAND_INFO_DESCRIPTION: Shows builds for characters in the user's in-game showcase.
 APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history formatted into a text file via private messages.
 APP_COMMAND_HISTORY_DESCRIPTION: View your Genshin account's wish history.
-APP_COMMAND_DAILY_DESCRIPTION: Claim your daily HoYoLAB sign-in rewards.
+APP_COMMAND_DAILY_DESCRIPTION: अपने दैनिक HoYoLAB साइन-इन पुरस्कारों को प्राप्त करें।
 APP_COMMAND_MONTHLY_DESCRIPTION: View HoYoLAB daily rewards for the month.
-APP_COMMAND_DIARY_DESCRIPTION: View your HoYoLAB Traveler's Diary.
+APP_COMMAND_DIARY_DESCRIPTION: अपनी HoYoLAB ट्रैवेलर्स डायरी देखें।
 APP_COMMAND_REDEEM_DESCRIPTION: Redeem redemption codes for Genshin Impact.
 APP_COMMAND_HOYO_DESCRIPTION: Check your HoYoLAB account from Genshin Wizard.
 APP_COMMAND_CHARACTERS_DESCRIPTION: View your Genshin account's Character Summary.
@@ -276,11 +276,11 @@ INVALID_ARGUMENT_PASSED: |
   Valid argument is `<discord user>`/`<genshin uid>`
 INFO_COMMAND_ENKA_ISSUE: There seems to be an issue with [**Enka.Network**](https://enka.network/u/{uid}). Please try again later.
 ERROR_NO_USER_DATA: No data found for this user.
-WHAT_HAPPENED_TITLE: What happened?
+WHAT_HAPPENED_TITLE: क्या हुआ?
 WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
 INFO_COMMAND_SHOWCASE_TITLE: Character Showcase
-INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
+INFO_COMMAND_SHOWCASE_VIEW_ENKA: Enka.Network पर देखें
 REFRESHES_KEY: Refreshes
 INFO_COMMAND_CHARACTER_DETAILS: Character
 INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!
@@ -373,7 +373,7 @@ HISTORY_COMMAND_NO_WISHES: |
   Try selecting a different banner to check below.
 HISTORY_COMMAND_NO_USER_WISHES: No wishes were found for this user!
 USER_NOT_REGISTERED_TITLE: User has not registered!
-REGISTERED_KEY: Registered
+REGISTERED_KEY: पंजीकृत।
 NOT_REGISTERED_KEY: Not Registered
 USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** yet! Please register using </register:{command_id}> *before* using this command.
 FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."

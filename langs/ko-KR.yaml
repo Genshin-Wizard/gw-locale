@@ -37,7 +37,7 @@ VOTE_BOT_BUTTON: '[Bot] 투표'
 VOTE_SERVER_BUTTON: '[Server] 투표'
 DEVELOPERS_KEY: 개발자
 SERVER_KEY: 서버
-SERVERS_KEY: 서버들
+SERVERS_KEY: 서버
 USERS_KEY: 사용자
 WEBSITE_KEY: 웹사이트
 INVITE_KEY: 초대
@@ -81,7 +81,7 @@ PREFIX_CHANGED_DESCRIPTION: |
   **과거 접두사:** `{old_prefix}`
   **새로운 접두사:** `{new_prefix}`
 PREFIX_CHANGED_FOOTER: 원신위자드 접두사설정
-MATH_COMMAND_COMPUTE_ERROR: ":no_entry: 계산 오류! 바꿔 말해보세요."
+MATH_COMMAND_COMPUTE_ERROR: ":no_entry: 검색결과가 없습니다."
 MATH_COMMAND_RESULT: |
   **식:** `{expression}`
    **결과:**
@@ -93,7 +93,7 @@ SEND_CODES_COMMAND_DESCRIPTION: |
    <:blurpleannouncement:1020402170127982712> **참고:** 코드는 빨리 만료되므로 최대한 빨리 사용해야 합니다!
 
    <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>\n
-SEND_CODES_REDEEM_AUTOMATICALLY: 자동으로 교환
+SEND_CODES_REDEEM_AUTOMATICALLY: 자동 교환
 SEND_CODES_DIRECT_LINK: 다이렉트링크
 SEND_CODES_REDEEMABLE_CODES: 사용가능한코드
 SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | 사용가능한코드
@@ -106,7 +106,7 @@ INFO_USER_CACHE: 사용자 캐시
 INTERMISSION_MESSAGE: 정보를 생성하는중입니다 잠시만기다려주세요
 MENU_COOLDOWN_TITLE: 현재 메뉴는 정지상태입니다!
 BUTTON_COOLDOWN_TITLE: 현재 버튼은 정지상태입니다!
-COMMAND_COOLDOWN_TITLE: 쿨링 타임~
+COMMAND_COOLDOWN_TITLE: 쿨타임... 잠시만기다려주세요!
 MENU_COOLDOWN_VALUE: 속성을 너무 빨리 클릭하고 있습니다! **{cooldown}**초 후에 다시 시도하세요.
 CHARACTER_SHOWCASE_TITLE: 캐릭터 진열장
 ERROR_RATELIMIT: 사용자는 속도가 제한되어있습니다.
@@ -123,20 +123,20 @@ EXCLUSIVE_COMMAND_DESCRIPTION: |
 ERROR_COMMAND_INVOKE: 현재 명령어에 올바른 매개변수를 사용하고 있는지 확인하십시오!
 ERROR_PRIVACY_SETTING_TITLE: 숨겨진 정보 | 볼 게 없습니다!
 ERROR_PRIVACY_SETTING_DESCRIPTION: 여행자! 아쉽게도 검색하려는 사람은 **개인정보 보호**가 활성화되어 있습니다!
-ERROR_ONGOING_UPDATE_TITLE: 원신 마법사 | 지속적인 업데이트!
+ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | 지속적업데이트!
 ERROR_ONGOING_UPDATE_DESCRIPTION: 여행자! Genshin Wizard는 현재 **점검 중**이며 현재 명령어는 일시적으로 *비활성화*되었습니다. 나중에 다시 시도 해주십시오*.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  여행자! 여기서 이 명령어를 사용하는 것은 **허용되지 않습니다**. 이것은 Genshin Wizard 서버 {command_type}전용 명령어 입니다!
+  여기서 이 명령어를 사용하는 것은 **허용되지 않습니다**. 이것은 Genshin Wizard 서버 {command_type}전용 명령어 입니다!
 
    이 명령을 사용하려면 [공식 디스코드](https://discord.gg/genshinwizard) 가입을 하시면 사용가능합니다.
-ERROR_PREMIUM_COMMAND_TITLE: 원신 위자드 프리미엄
+ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard 프리미엄
 ERROR_PREMIUM_COMMAND_DESCRIPTION: 여행자! 이 명령을 사용할 수 없습니다**. 이 명령은 **프리미엄 구독자**만 사용할 수 있습니다. 이 기능을 사용하려면 </premium:{command_id}> 명령을 사용하여 자세히 알아보세요.
 ERROR_BLACKLISTED_TITLE: 원신 위자드 | 블랙리스트
 ERROR_BLACKLISTED_DESCRIPTION: |
   여행자! Genshin Wizard 사용이 **금지**되었습니다!
 
    이것이 오류라고 생각되면 [Official Discord](https://discord.gg/genshinwizard) 가입을 하시면 사용가능합니다.
-ERROR_MEMBER_NOT_FOUND_TITLE: 원신위자드 | 맴버를찾을수없습니다.
+ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | 맴버를 찾을수없습니다.
 ERROR_MEMBER_NOT_FOUND_DESCRIPTION: 찾아보려는 멤버가 이 서버에 있는지 다시 확인을 해주세요.
 ERROR_MISSING_REQUIRED_ARGUMENT: "인수를 제공하는 것을 잊었습니다. 올바른 형식을 사용하세요: ```{usage}```"
 ERROR_MISSING_REQUIRED_ATTACHMENT: "첨부파일을 제공하는 것을 잊으셨습니다. 올바른 형식을 사용하세요: ```올바른 첨부파일과 함께 {usage}명령을 사용해주세요.```"
@@ -146,7 +146,7 @@ MESSAGE_KEY: 메세지
 ERROR_EMPTY_BACKPACK: 배낭이 **비었습니다**! 여정을 시작하려면 </wishsimulator:{command_id}> 명령을 사용하세요!
 ERROR_INTERACTION_MISMATCH: 여행자! 이것은 당신이 상호작용을 할 수 있는것이 **아닙니다!** 이 명령을 직접 사용하려면 {command} 명령을 사용하십시오!
 ERROR_MESSAGE: 오류가 발생했습니다!
-FEEDBACK_CONFIRMATION_TITLE: 원신위자드 | 피드백
+FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | 피드백
 FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *귀하의 피드백이 개발자에게 성공적으로 전송되었습니다!*
 FEEDBACK_LOG_RESPONSE: |
   > 사용자: **{author_name}** | {author_mention}
@@ -192,7 +192,7 @@ APP_COMMAND_SETTINGS_DESCRIPTION: Genshin Wizard 프로필 설정을 변경하�
 APP_COMMAND_STATS_DESCRIPTION: Genshin 계정의 통계를 확인합니다.
 APP_COMMAND_ABYSS_DESCRIPTION: Genshin 계정의 나선비경의 진행 상황을 확인하세요.
 APP_COMMAND_EXPLORATION_DESCRIPTION: Genshin 계정의 탐사도 진행 상황을 확인합니다.
-APP_COMMAND_UID_DESCRIPTION: 사용자의 Genshin UID/Region을 조회합니다.
+APP_COMMAND_UID_DESCRIPTION: 사용자의 원신 서버/UID를 조회합니다.
 APP_COMMAND_REGISTER_DESCRIPTION: Genshin Wizard에 Genshin 계정을 등록하십시오.
 APP_COMMAND_REFRESH_DESCRIPTION: 기원 내역의 링크를 새로 고칩니다(링크는 24시간마다 만료됩니다).
 APP_COMMAND_UNLINK_DESCRIPTION: Genshin 계정을 연결 해제하고 모든 데이터를 삭제됩니다
@@ -374,7 +374,7 @@ HISTORY_COMMAND_NO_USER_WISHES: 이 유저의 가챠 기록이 존재하지 않�
 USER_NOT_REGISTERED_TITLE: 등록되지 않은 유저입니다!
 REGISTERED_KEY: 등록됨
 NOT_REGISTERED_KEY: 등록되지 않은
-USER_NOT_REGISTERED_DESCRIPTION: 이봐 <@{mem_id}>! 너는 아직 Genshin Wizard에 등록되지 않았어! </register:{command_id}>커맨드를 사용해 등록을 먼저 하자~
+USER_NOT_REGISTERED_DESCRIPTION: 이봐! <@{mem_id}>(은)는 아직 Genshin Wizard에 등록되지 않았어! </register:{command_id}>커맨드를 사용해 등록을 먼저 하자~
 FOOTER_REQUIRES_WISH_HISTORY: "참고: 이 명령은 뽑기 기록을 통해 등록을 해야만 쓸 수 있습니다."
 FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "참고: 이 명령을 사용하려면 기원 기록 또는 호요랩을 사용하는방법을 통해 등록해야 합니다."
 FOOTER_REQUIRE_UID_OR_HOYOLAB: "참고: 이 명령을 사용하려면 UID 또는 호요랩 방법을 통해 등록해야 합니다."
@@ -499,13 +499,13 @@ ERROR_GUILD_ONLY_BUTTON: ":no_entry: 길드에 가입되어 있어야 합니다!
 QUERY_NO_RESULTS: "`{input}`에 대한 결과가 없습니다. 문구를 바꿔서 다시 시도하세요."
 LOCATION_COMMAND_ROUTES_TITLE: 파밍루트 요약
 LOCATION_COMMAND_MAP_TITLE: "{resource} 맵 위치"
-LOCATION_COMMAND_REGION_DESCRIPTION: "지역 {region} 특산품"
+LOCATION_COMMAND_REGION_DESCRIPTION: "{region} 특산품"
 LOCATION_COMMAND_FARMABLE_FOOTER: 아이템 파밍 장소
 CALC_CHARACTER_INVALID_CHARACTER: 존재하는 캐릭터를 지정하세요!
 CALC_CHARACTER_INVALID_STARTING_LEVEL: 적절한 레벨을 입력해주세요!
 CALC_CHARACTER_INVALID_TARGET_LEVEL: 적절한 레벨을 입력해주세요!
-CALC_CHARACTER_REQUIREMENT_SURPASSED: 목표 레벨이 시작 레벨보다 낮다는게 말이 됩니까?
-CALC_CHARACTER_REQUIREMENT_MET: 캐릭터는 이미 목표 레벨을 달성했습니다!
+CALC_CHARACTER_REQUIREMENT_SURPASSED: 캐릭터가 주어진 목표 레벨을 이미 **넘었습니다**!
+CALC_CHARACTER_REQUIREMENT_MET: 캐릭터가 이미 주어진 원하는 레벨에 **도달**했습니다!
 CALC_CHARACTER_TITLE: Genshin Wizard | 캐릭터 계산
 CHARACTER_KEY: 캐릭터
 CURRENT_LEVEL_KEY: 현재레벨
@@ -661,7 +661,7 @@ REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
   **연결 기능:**
   > **1.** 기원 기록을 추적하세요.
   > **2.** 배너 연민과 함께 심층 희망 내역 통계를 봅니다.
-  > **3.** 보장된 제한된 연민에 있는지 여부를 봅니다.
+  > **3.** 보장된 확전천장에 있는지 여부를 봅니다.
   > **4.** 전체 Genshin Wizard 프로필 기능.
   > **5.** [**연결 UID**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial- 등록).
 
@@ -671,13 +671,13 @@ ERROR_INVALID_REGISTRATION_URL: 안녕하세요 여행자님, 이것은 **잘못
 ERROR_UNEXPECTED_ERROR: 예상치 못한 오류가 발생했습니다. 개발자에게 피드백을해주세요!
 REGISTER_COMMAND_NO_WISHES_TITLE: 기원을 찾지못하였습니다!
 REGISTER_COMMAND_NO_WISHES_DESCRIPTION: |
-  현재 아직 어떤 기원이 없습니다! 하나 이상의 배너에 희망을 표시한 후 다시 등록하십시오.
+  현재 아직 어떤 기원이 없습니다! 하나 이상의 배너에 기원을 표시한 후 다시 등록하십시오.
   기원은 기원을 돌리고난뒤 약 1~2시간 후에 히스토리에 나타납니다.
 REFRESHING_USER: 사용자 새로고침 중...
 REGISTERING_USER: 사용자를 등록하는 중...
 RETRIEIVING_WISH_HISTORY: 기원 기록을 검색하는 중...
 REGISTER_BANNER_SYNCED: '{banner_name} 배너를 성공적으로 동기화했습니다!'
-REGISTER_BANNED_SYNC_COMPLETE: 모든 배너를 성공적으로 동기화했습니다! 이제 </history:{command_id}> 명령을 사용하여 희망 사항에 대한 자세한 정보를 볼 수 있습니다.
+REGISTER_BANNED_SYNC_COMPLETE: 모든 배너를 성공적으로 동기화했습니다! 이제 </history:{command_id}> 명령을 사용하여 기원 기록에 대한 자세한 정보를 볼 수 있습니다.
 SUCCESSFULLY_REGISTERED: 성공적으로 등록되었습니다!
 SUCCESSFULLY_REFRESHED: 성공적으로 새로고침했습니다!
 SUCCESSFULLY_UPDATED_UID: |
@@ -990,7 +990,7 @@ PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
    역할: {role_mention}
    역할 이름: {role_name}
    역할 색상: `{role_color}`
-GENSHIN_WIZARD_PREMIUM: 원신 위자드 프리미엄
+GENSHIN_WIZARD_PREMIUM: Genshin Wizard 프리미엄
 CLAIMED_KEY: 수령 성공
 UNCLAIMED_KEY: 수령되지 않음
 PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard 프리미엄 서버 설정
@@ -1080,7 +1080,7 @@ SUCCESSFULLY_UPDATED_ROLES: "**성공적으로** 사용자 역할을 업데이�
 CHARACTER_REQUIREMENTS_NOT_MET: |
   캐릭터 `{name}`은 **역할 요구 사항**을 충족하지 않습니다!\n\n나중에 캐릭터가 필요한 **요구 사항**을 충족하면 이 명령을 사용해 보세요.
 CHARACTER_NOT_IN_SHOWCASE: 인게임 캐릭터 쇼케이스에서 `{name}` 캐릭터를 찾을 수 없습니다!
-GACHA_COMMAND_LINK_EXPIRED: 기원 기록 링크가 만료되었습니다! 희망 사항을 업데이트하려면 `/refresh`를 사용하세요.
+GACHA_COMMAND_LINK_EXPIRED: 기원 기록 링크가 만료되었습니다! 기원 기록을 업데이트하려면 `/refresh`를 사용하세요.
 GACHA_COMMAND_LINK_EXPIRED_FOOTER: "참고: 기원 내역 링크가 만료되었으므로 위의 정보가 정확하지 않을 수 있음을 명심하십시오. 기원을 업데이트하려면 /refresh를 사용하여 기원 내역 링크를 업데이트하는 것이 좋습니다!"
 SOMETHING_WENT_WRONG: 알 수 없는 오류가 발생했습니다.
 SOMETHING_WENT_WRONG_FOOTER: 오류가 지속될 경우, 관리자에게 문의하시기 바랍니다.
@@ -1176,7 +1176,7 @@ COMMON_LABEL: "평범한보물상자"
 EXQUISITE_LABEL: "정교한보물상자"
 PRECIOUS_LABEL: "진귀한보물상자"
 LUXURIOUS_LABEL: "화려한보물상자"
-REMARKABLE_LABEL: "주목할 만한"
+REMARKABLE_LABEL: "신묘한상자"
 ALL_CHESTS_LABEL: "모든보물상자"
 STRONGEST_STRIKE_LABEL: "최대데미지"
 MOST_BURSTS_USED_LABEL: "가장 많이 사용된 궁"
@@ -1198,7 +1198,7 @@ ELEMENTAL_MASTERY_LABEL: "원소 마스터리"
 TOTAL_WISHES_LABEL: "모든기원"
 PRIMOGEM_COUNT_LABEL: "총 원석"
 STARDUST_COUNT_LABEL: "스타더스트 카운터"
-STARGLITTER_COUNT_LABEL: "스타글리터 카운트"
+STARGLITTER_COUNT_LABEL: "스타라이트 카운트"
 THREE_STAR_LABEL: "3성"
 FOUR_STAR_LABEL: "4성"
 FIVE_STAR_LABEL: "5성"
@@ -1282,7 +1282,7 @@ INTRODUCTION_KEY: 소개
 PLAYSTYLE_KEY: 플레이 방식
 BUILD_KEY: 빌드
 ASCENSION_MATERIALS_KEY: 돌파 재료
-TEAM_SYNERGIES_KEY: 팀 효과
+TEAM_SYNERGIES_KEY: 팀 조합
 CONSTELLATIONS_KEY: 별자리
 SKILL_TALENTS_KEY: 스킬 및 전용 스킬
 PASSIVE_TALENTS_KEY: 고유 특성
@@ -1354,7 +1354,7 @@ PREMIUM_PLAN_TIER_THREE: "프리미엄 계획: 티어 3"
 PREMIUM_PLAN_TIER_FOUR: "프리미엄 계획: 티어 4"
 ART_SETTINGS_KEY: 아트 설정
 CUSTOM_ROLE_KEY: 커스텀 역할
-ADD_PREMIUM_SERVERS_BUTTON: 프리미엄 서버들 추가
+ADD_PREMIUM_SERVERS_BUTTON: 프리미엄 서버를 추가
 ADD_PREMIUM_SERVER_BUTTON: 프리미엄 서버 추가
 ROLE_NAME_KEY: 역할 이름
 HEX_COLOR_KEY: 헥스 색상 코드
