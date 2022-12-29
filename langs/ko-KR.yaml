@@ -106,7 +106,7 @@ INFO_USER_CACHE: 사용자 캐시
 INTERMISSION_MESSAGE: 정보를 생성하는중입니다 잠시만기다려주세요
 MENU_COOLDOWN_TITLE: 현재 메뉴는 정지상태입니다!
 BUTTON_COOLDOWN_TITLE: 현재 버튼은 정지상태입니다!
-COMMAND_COOLDOWN_TITLE: 현재 명령어는 정지상태입니다!
+COMMAND_COOLDOWN_TITLE: 쿨링 타임~
 MENU_COOLDOWN_VALUE: 속성을 너무 빨리 클릭하고 있습니다! **{cooldown}**초 후에 다시 시도하세요.
 CHARACTER_SHOWCASE_TITLE: 캐릭터 진열장
 ERROR_RATELIMIT: 사용자는 속도가 제한되어있습니다.
@@ -474,7 +474,7 @@ IMPORT_COMMAND_LOG: |
   **길드:** `{guild_id}` | `{guild_name}`
 
   **감지된 소스:** `{source}`
-  **총합:** `{total}`뽑 
+  **총합:** `{total}`뽑
   > 3성: `{three_star}`
   > 4성: `{four_star}`
   > 5성: `{five_star}`
@@ -485,46 +485,46 @@ IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: 지원되지 않는 파일 형식입니�
 IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: 지원되지 않는 파일 형식입니다. 가져오기 전에 파일 형식을 바꾸지 않았는지 확인해주세요. 자세한 내용은 [**문서**](https://docs.genshinwizard.com/wishing-centre/importing-wishes)를 확인해주세요.
 LEADERBOARD_NO_DATA: 이 쿼리에 대한 데이터를 찾을 수 없습니다!
 LEADERBOARD_EXPERIENCE_FOOTER: Genshin Wizard 서버에서 활동하면 경험치를 얻을 수 있습니다. Genshin Wizard 랭킹 레벨을 높이려면 많이 채팅하세요!
-LEADERBOARD_WISHES_FOOTER: Wishes are updated via banner summary and refresh command(s). Check your banners to actively get an updated wish count!
-LEADERBOARD_PLAYTIME_FOOTER: Playtime is updated via stats/info commands, check your stats/builds frequently to actively get an updated playtime count!
+LEADERBOARD_WISHES_FOOTER: 유저의 뽑기 기록은 새로고침 명령(/refresh 또는 /import)을 통해 업데이트 됩니다. 업데이트된 기원 기록을 보려면 배너를 확인하세요!
+LEADERBOARD_PLAYTIME_FOOTER: 플레이 시간은 /stats 또는 /info 명령을 통해 업데이트됩니다. 계정의 통계/빌드를 자주 확인하여 플레이 시간을 갱신하세요!
 LEADERBOARD_ACHIEVEMENTS_FOOTER: 업적은 통계/정보 명령을 통해 업데이트됩니다. 통계/빌드를 자주 확인하여 업데이트된 업적 수를 적극적으로 얻으세요!
-LEADERBOARD_CHESTS_FOOTER: Chests are updated via stats commands, check your stats frequently to actively get an updated chest count!
-LEADERBOARD_GACHA_SIMULATOR_FOOTER: Simulator leaderboards are updated via gacha simulator commands, use the gacha simulator actively to climb the ranks!
-LEADERBOARD_ARTIFACT_FOOTER: Artifact information is updated via info commands, check your builds frequently to actively get updated artifact stats!
-LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Character stats information is updated via info commands, check your builds frequently to actively get updated character stats!
+LEADERBOARD_CHESTS_FOOTER: 연 보물상자 수는 /stats 명령을 통해 갱신이 가능합니다. 계정 스탯을 자주 확인해주세요!
+LEADERBOARD_GACHA_SIMULATOR_FOOTER: 가챠 시뮬레이터 순위표는 가챠 시뮬레이터를 사용하면 업데이트됩니다. 시뮬레이터를 많이 사용해주세요!
+LEADERBOARD_ARTIFACT_FOOTER: 현재 장비된 성유물 정보는 /info 명령을 통해 업데이트됩니다. 빌드를 자주 확인하여 스탯를 최신화하세요!
+LEADERBOARD_CHARACTER_STATISTICS_FOOTER: 캐릭터 스탯은 /info 명령을 통해 업데이트됩니다. 빌드를 자주 확인하여 스탯를 최신화하세요!
 LEADERBOARD_ABYSS_FOOTER: 심연 통계는 심연 진행 명령을 통해 업데이트되며, 심연 진행도를 자주 확인하여 업데이트된 통계 수치를 얻으세요!
-LEADERBOARD_DONATION_FOOTER: Donate via the support links found in the /donate command to obtain a spot on this exquisite leaderboard!
+LEADERBOARD_DONATION_FOOTER: /donate 명령으로 후원해 이 순위표에 한 자리를 차지하세요!
 LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *데이터를 분석하는 중입니다. **기다려 주세요**...* <a:tyno:1001656937689120788>
-ERROR_GUILD_ONLY_BUTTON: ":no_entry: You must be in a guild to use this button!"
-QUERY_NO_RESULTS: "No results found for `{input}`. Please rephrase and try again!"
+ERROR_GUILD_ONLY_BUTTON: ":no_entry: 길드에 가입되어 있어야 합니다!"
+QUERY_NO_RESULTS: "`{input}`에 대한 결과가 없습니다. 문구를 바꿔서 다시 시도하세요."
 LOCATION_COMMAND_ROUTES_TITLE: 파밍루트 요약
 LOCATION_COMMAND_MAP_TITLE: "{resource} 맵 위치"
 LOCATION_COMMAND_REGION_DESCRIPTION: "지역 {region} 특산품"
-LOCATION_COMMAND_FARMABLE_FOOTER: Farmable locations for specified material
-CALC_CHARACTER_INVALID_CHARACTER: You need to specify a valid character!
-CALC_CHARACTER_INVALID_STARTING_LEVEL: You need to specify a valid starting level!
-CALC_CHARACTER_INVALID_TARGET_LEVEL: You need to specify a valid target level!
-CALC_CHARACTER_REQUIREMENT_SURPASSED: Character has already **surpassed** the given desired level!
-CALC_CHARACTER_REQUIREMENT_MET: Character has already **reached** the given desired level!
+LOCATION_COMMAND_FARMABLE_FOOTER: 아이템 파밍 장소
+CALC_CHARACTER_INVALID_CHARACTER: 존재하는 캐릭터를 지정하세요!
+CALC_CHARACTER_INVALID_STARTING_LEVEL: 적절한 레벨을 입력해주세요!
+CALC_CHARACTER_INVALID_TARGET_LEVEL: 적절한 레벨을 입력해주세요!
+CALC_CHARACTER_REQUIREMENT_SURPASSED: 목표 레벨이 시작 레벨보다 낮다는게 말이 됩니까?
+CALC_CHARACTER_REQUIREMENT_MET: 캐릭터는 이미 목표 레벨을 달성했습니다!
 CALC_CHARACTER_TITLE: Genshin Wizard | 캐릭터 계산
 CHARACTER_KEY: 캐릭터
 CURRENT_LEVEL_KEY: 현재레벨
-TARGET_LEVEL_KEY: Target Level
+TARGET_LEVEL_KEY: 목표 레벨
 REQUIRED_RESOURCES_KEY: 필요한 자원
 GENSHIN_WIZARD_USER_PROFILE: "{user}'s Genshin Wizard 프로필"
 PROFILE_SUMMARY_KEY: 프로필 요약
 GENSHIN_WISH_STATS_KEY: Genshin 기원 기록
-PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
-GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
+PROFILE_COMMAND_FOOTER: 프로필 통계는 /profile 또는 /refresh 명령을 통해 업데이트됩니다. 프로필을 자주 확인하여 프로필을 최신화하세요!
+GENERATE_IMAGE_COOLDOWN: 이미지를 너무 빨리 생성하고 있습니다! **{seconds}**초 후에 이 버튼을 다시 사용해 보세요.
 GENSHIN_STATISTICS_INFOGRAPHIC: 원신 통계 인포그래픽
 GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: 안녕하세요 여행자님! 요청하신 **특별하게** 생성된 원신 통계/진행 인포그래픽입니다!
 HIDDEN_KEY: 숨김
 REQUESTED_UID_KEY: 요청 UID
 GENSHIN_EXPLORATION_INFOGRAPHIC: 원신 탐사도 진행
 GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: 안녕하세요 여행자님! 요청하신 **특별하게** 생성된 원신 탐사 인포그래픽입니다!
-PROFILE_NOT_OWNER: You can't use this button on someone else's profile!
-PRIVACY_SETTING_TITLE: Genshin Wizard Privacy Settings
-PRIVACY_SETTING_DESCRIPTION: Change your Genshin Wizard privacy settings here.
+PROFILE_NOT_OWNER: 이봐 여행자! 남의 프로필에서 뭐 하는거야~?
+PRIVACY_SETTING_TITLE: Genshin Wizard 개인정보 설정
+PRIVACY_SETTING_DESCRIPTION: 여기서 Genshin Wizard 개인 정보 설정을 변경하세요
 PRIVACY_SETTING_KEY: 개인정보 설정
 PRIVACY_SETTING_BRIEF: |
   **UID 보호:** {uid_privacy}
@@ -550,14 +550,14 @@ ABYSS_KEY: 심연
 UID_KEY: UID
 STATS_KEY: 통계
 INFO_KEY: 정보
-SETTING_RESET_PRIVACY: Successfully reset privacy settings to default setting!
-SETTING_PRIVACY_UPDATED: "{privacy_type} privacy settings have been updated! Current Privacy: {current_privacy}"
-SETTING_ART_STYLE_UPDATED: "Character builds Art Styles have been updated! Current Art Style: {current_setting}"
-SETTING_MASTER_PROFILE_RESET: Your Genshin Wizard profile has been reset to default settings!
-INVALID_IMAGE_URL: "Please provide a **valid** image URL. Acceptable image types include: `PNGs`, `JPGs`, `JPEGs`, and `GIFs`."
-SETTING_BANNER_UPDATE: Your banner has been successfully updated!
-SETTING_BIOGRAPHY_ILLEGAL: Hey Traveler! Your input contains words that **aren't allowed** by Genshin Wizard! Please consider trying something *different* for your bio.
-DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
+SETTING_RESET_PRIVACY: 개인 정보 설정을 기본 설정으로 되돌렸습니다!
+SETTING_PRIVACY_UPDATED: "{privacy_type} 개인정보 보호 설정이 업데이트되었습니다! 현재 개인정보상태: {current_privacy}"
+SETTING_ART_STYLE_UPDATED: "캐릭터 빌드 아트 스타일이 업데이트되었습니다! 현재 아트: {current_setting}"
+SETTING_MASTER_PROFILE_RESET: Genshin Wizard 프로필이 기본 설정으로 재설정되었습니다!
+INVALID_IMAGE_URL: "유효한 이미지 URL을 입력하세요. 이미지파일 형식은 `PNG`, `JPG`, `JPEG`, `GIF`만 허용됩니다."
+SETTING_BANNER_UPDATE: 배너가 성공적으로 업데이트 되었습니다!
+SETTING_BIOGRAPHY_ILLEGAL: 여행자! Genshin Wizard가 혀용하지 않는 단어는 쓰지 않는게 좋을 거야! 
+DEFAULT_BIOGRAPHY: 스릴을 즐기는, 모험을 사랑하는 여행자!
 SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
 BIOGRAPHY_KEY: 자기소개
 BANNER_KEY: 배너
@@ -704,9 +704,9 @@ USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a 
 GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard 등륵하기
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Genshin Wizard에 Genshin 계정을 등록하십시오.
 HOYOLAB_ACCOUNT: 호요랩 계정
-LINKED_UID_KEY: Linked UID
-LINKED_KEY: Linked
-NOT_LINKED_KEY: Not Linked
+LINKED_UID_KEY: 링크 UID
+LINKED_KEY: 링크
+NOT_LINKED_KEY: 링크없음
 LINKING_UID_DIRECTIONS: |
   Hello Traveler! To continue linking the requested UID to Genshin Wizard, we're going to need to **verify** that this account is actually yours!
 
@@ -721,7 +721,7 @@ LINKING_UID_DIRECTIONS: |
   > **3)** *That's it*! Please wait patiently until our bot can verify that you have updated your signature.
 LINKING_UID_FOOTER: Please be patient while we verify your account! These changes can take anywhere from 5-10 minutes to appear on our end.
 LINKING_UID_KEY_EXPIRED: It looks like this key is now **expired**! Unfortunately, we were unable to verify you at this time, please try again later.
-REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Refresh Wish History
+REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | 기원기록새로고침
 FORCE_REFRESH_FOOTER: If you'd prefer to force-refresh to prolong the expiry of your current history link, you may do so by clicking one of the buttons below.
 UNLINKING_CENTRE_TITLE: Genshin Wizard | Unlinking Centre
 UNLINKING_CENTRE_DESCRIPTION: Hello Traveler! Welcome to Genshin Wizard's unlinking centre. Manage your linked data through the buttons below. Friendly reminder that any method of unlinking will **erase all your data** from Genshin Wizard. This action is **irreversible**
@@ -764,7 +764,7 @@ REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
 REMINDER_COMMAND_OVERVIEW_TITLE: 원신 알림
 ENABLED_KEY: 활성화됨
 DISABLED_KEY: 비활성화됨
-NOT_ENABLED_KEY: Not Enabled
+NOT_ENABLED_KEY: 활성화 안 됨
 NO_REMINDERS_SET_KEY: No Reminders Set!
 RESIN_REMINDERS_KEY: Resin Reminders
 EXPEDITION_REMINDERS_KEY: Expedition Reminders
@@ -877,8 +877,8 @@ WISH_RESULTS_DESCRIPTION: |
   {results}
   {rewards}
   **현재스택:
-  <:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620>: `{five_star_pity} <:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616>: `{four_star_pity}`
-  픽뚫: {guaranteed_pity}
+  <:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620>: `{five_star_pity}` | <:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616>: `{four_star_pity}`
+  확천장: {guaranteed_pity}
   총원석:** <:Primogem:951924423340994610>{balance} 원석
 NONE_KEY: 없음
 SIMULATOR_TITLE: Genshin Wizard 기원 시뮬레이션
