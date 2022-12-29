@@ -77,54 +77,54 @@ PREFIX_TOO_LONG: Le préfixe ne peut pas excéder 5 caractères.
 PREFIX_TOO_SHORT: Le préfixe doit faire 1 caractère au minimum.
 PREFIX_CHANGED_TITLE: Genshin Wizard | Changement de préfixe
 PREFIX_CHANGED_DESCRIPTION: |
-  Successfully changed **Genshin Wizard's** prefix! Commands will now be invoked using this new prefix.
+  Préfixe **Genshin Wizard's** modifié avec succès! Les commandes seront maintenant faites en utilisant ce nouveau préfixe.
 
-  **Old Prefix:** `{old_prefix}`
-  **New Prefix:** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: Genshin Wizard Prefix Setting
-MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Computational Error. Try rephrasing!"
+  **Ancien préfixe :** `{old_prefix}`
+  **Nouveau préfixe :** `{new_prefix}`
+PREFIX_CHANGED_FOOTER: Genshin Wizard Paramètre de préfixe
+MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Erreur de calcul. Essayez de reformuler!"
 MATH_COMMAND_RESULT: |
-  **Expression:** `{expression}`
-  **Result:**
+  **Expression :** `{expression}`
+  **Résultat :**
   ```{result}```
-RECENT_GENSHIN_EVENTS: Recent Genshin Events
-SEND_CODES_COMMAND_TITLE: Genshin Wizard | Active Codes
+RECENT_GENSHIN_EVENTS: Événements récents Genshin
+SEND_CODES_COMMAND_TITLE: Genshin Wizard | Codes Actif
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
-  <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
+  <:blurplelink:1020155547187691600> [***Recevable en cliquant sur les boutons ci-dessous !***](https://genshin.mihoyo.com/fr/gift)
+  <:blurpleannouncement:1020402170127982712> **Note:** Les codes expire rapidement, alors assurez-vous de les échanger dès que possible!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>\n
-SEND_CODES_REDEEM_AUTOMATICALLY: Redeem Automatically
-SEND_CODES_DIRECT_LINK: Direct Link
-SEND_CODES_REDEEMABLE_CODES: Redeemable Codes
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Redemption Codes
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!*
-MESSAGE_LINK: Message Link
-CLICK_HERE: Click Here
-INFO_SELECT_CHARACTER: Select a character
-INFO_CHARACTER_SOURCE: "Source: Saved Builds"
-INFO_USER_CACHE: User Cache
-INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
-MENU_COOLDOWN_TITLE: That menu is on cooldown!
-BUTTON_COOLDOWN_TITLE: That button is on cooldown!
-COMMAND_COOLDOWN_TITLE: That command is on cooldown!
-MENU_COOLDOWN_VALUE: You're clicking attributes too quickly! Try again in **{cooldown}** seconds.
-CHARACTER_SHOWCASE_TITLE: Character Showcase
-ERROR_RATELIMIT: User is currently ratelimited.
-ERROR_COMMAND_COOLDOWN_VALUE: Try using this command again in {cooldown} secs.
-ERROR_COMMAND_LONG_COOLDOWN_VALUE: Try using this command again in <t:{cooldown}:R>
-ERROR_KEY: Error!
-SUCCESSFUL_KEY: Successful!
-ERROR_MISSING_PERMISSION: You don't have permission to use this command!
-EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Exclusive Command
+SEND_CODES_REDEEM_AUTOMATICALLY: Utiliser Automatiquement
+SEND_CODES_DIRECT_LINK: Lien direct
+SEND_CODES_REDEEMABLE_CODES: Codes échangeables
+SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Codes de Rédemption
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Les codes de rédemption ont été envoyés avec succès dans {channel}!*
+MESSAGE_LINK: Lien du Message
+CLICK_HERE: Cliquez ici
+INFO_SELECT_CHARACTER: Sélectionner un personnage
+INFO_CHARACTER_SOURCE: "Source : Builds sauvegardés"
+INFO_USER_CACHE: Cache Utilisateur
+INTERMISSION_MESSAGE: Génération de l'infographie, merci d'être **patient**...
+MENU_COOLDOWN_TITLE: Ce menu est en cooldown!
+BUTTON_COOLDOWN_TITLE: Ce bouton est en cooldown!
+COMMAND_COOLDOWN_TITLE: Cette commande est en cooldown!
+MENU_COOLDOWN_VALUE: Vous cliquez sur les attributs trop rapidement ! Réessayez dans **{cooldown}** secondes.
+CHARACTER_SHOWCASE_TITLE: Démonstration de personnage
+ERROR_RATELIMIT: L'utilisateur est actuellement limité dans ses actions.
+ERROR_COMMAND_COOLDOWN_VALUE: Réessayez d'utiliser cette commande dans {cooldown} secondes.
+ERROR_COMMAND_LONG_COOLDOWN_VALUE: Réessayez d'utiliser cette commande dans <t:{cooldown}:R>
+ERROR_KEY: Erreur!
+SUCCESSFUL_KEY: Succès!
+ERROR_MISSING_PERMISSION: Vous n'êtes pas autorisé à utiliser cette commande!
+EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Commande exclusive
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
+  Hé Voyageur ! Tu n'es **pas autorisé** à utiliser cette commande ici, cette commande ne peut être utilisée que sur un serveur!
 
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
-ERROR_COMMAND_INVOKE: Make sure you're using the correct parameters for this command!
-ERROR_PRIVACY_SETTING_TITLE: Hidden | Nothing to see!
-ERROR_PRIVACY_SETTING_DESCRIPTION: Hey Traveler! Unfortunately, the person you are trying to search for has **privacy settings** enabled!
-ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Ongoing Update!
+  Si vous souhaitez utiliser cette commande, pensez à rejoindre notre [Discord officiel](https://discord.gg/genshinwizard).
+ERROR_COMMAND_INVOKE: Assurez-vous que vous utilisez les bons paramètres pour cette commande!
+ERROR_PRIVACY_SETTING_TITLE: Caché | Rien à voir!
+ERROR_PRIVACY_SETTING_DESCRIPTION: Hé Voyageur ! Malheureusement, la personne pour laquelle vous essayez de rechercher a activé **les paramètres de confidentialité** !
+ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Mise à jour en cours!
 ERROR_ONGOING_UPDATE_DESCRIPTION: Hé Voyageur ! Genshin Wizard est actuellement **en maintenance** et cette commande a été *désactivée* pour le moment. Veuillez réessayer *plus tard*.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
   Hé Voyageur ! Tu n'es pas **autorisé** à utiliser cette commande ici, c'est une commande *exclusive*{command_type} du serveur Genshin Wizard !
@@ -145,22 +145,22 @@ ERROR_MISSING_MANAGE_MESSAGE: Hé Voyageur, je n'ai pas la permission de `Gérer
 ERROR_MISSING_SEND_MESSAGE: Hé Voyageur, je n'ai pas la permission d'`Envoyer des messages` dans ce salon/guilde. Veuillez activer cette permission et réessayer.
 MESSAGE_KEY: Message
 ERROR_EMPTY_BACKPACK: Votre sac est **vide** ! Pour commencer votre voyage, utilisez la commande </wishsimulator:{command_id}>!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
-ERROR_MESSAGE: There has been an error!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
+ERROR_INTERACTION_MISMATCH: Hé Voyageur ! Ce **n'est pas une interaction** que vous pouvez toucher! Utilisez la commande {command} si vous voulez utiliser cette commande pour vous-même!
+ERROR_MESSAGE: Une erreur est survenue!
+FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Commentaires
+FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Votre commentaire a été envoyé avec succès aux développeurs !*
 FEEDBACK_LOG_RESPONSE: |
-  > User: **{author_name}** | {author_mention}
-  > Discord ID: `{author_id}`
+  > Utilisateur : **{author_name}** | {author_mention}
+  > Identifiant Discord : `{author_id}`
 
-  **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </register:{command_id}> to link your account.
+  **Commentaire :**```{feedback}```
+NO_HOYOLAB_LINKED: Vous n'avez pas encore lié votre compte HoYoLAB. Utilisez </register:{command_id}> pour lier votre compte.
 OLD_HOYOLAB_LINKED: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
+  Bonjour Traveler ! Désolé pour le désagrément mais cette fonctionnalité a été implémentée **après** que vous ayez enregistré votre compte `HoYoLAB` sur Genshin Wizard.
 
-  In order to use this button, you must unlink your HoYoLAB account through </hoyo:{command_id}> and **relink** through the usual registration command.
-CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Redemption
-CODE_REDEEM_DESCRIPTION: "*Please wait while we process your redemption code...*"
+  Pour utiliser ce bouton, vous devez dissocier votre compte HoYoLAB à travers </hoyo:{command_id}> et **relink** via la commande d'enregistrement habituelle.
+CODE_REDEEM_TITLE: Genshin Wizard | Rédemption code HoYoLAB
+CODE_REDEEM_DESCRIPTION: "*Veuillez patienter pendant que nous traitons votre code de rédemption.*"
 CODE_REDEEM_PROGRESS: |
   *Please wait while we process your redemption code...*
   <a:loading:1015667958237900801> Attempting to redeem code `{code}`
@@ -279,7 +279,7 @@ ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
 WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
-INFO_COMMAND_SHOWCASE_TITLE: Character Showcase
+INFO_COMMAND_SHOWCASE_TITLE: Démonstration de personnage
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
 REFRESHES_KEY: Refreshes
 INFO_COMMAND_CHARACTER_DETAILS: Character
