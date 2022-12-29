@@ -174,8 +174,8 @@ GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
 CODE_REDEEM_SUCCESS: "*Kode penebusan berhasil diproses!*"
 APP_COMMAND_INFO_DESCRIPTION: Menampilkan build untuk karakter di pameran dalam game pengguna.
-APP_COMMAND_EXPORT_DESCRIPTION: Ekspor riwayat keinginan Genshin Anda yang diformat ke dalam file teks melalui pesan pribadi.
-APP_COMMAND_HISTORY_DESCRIPTION: Lihat riwayat keinginan akun Genshin Anda.
+APP_COMMAND_EXPORT_DESCRIPTION: Ekspor riwayat permohonan Genshin Anda yang diformat ke dalam file teks melalui pesan pribadi.
+APP_COMMAND_HISTORY_DESCRIPTION: Lihat riwayat permohonan akun Genshin Anda.
 APP_COMMAND_DAILY_DESCRIPTION: Klaim hadiah Login HoYoLAB harian Anda.
 APP_COMMAND_MONTHLY_DESCRIPTION: Lihat hadiah harian HoYoLAB untuk bulan ini.
 APP_COMMAND_DIARY_DESCRIPTION: Lihat Buku Harian Traveler HoYoLAB Anda.
@@ -183,7 +183,7 @@ APP_COMMAND_REDEEM_DESCRIPTION: Menebus kode penebusan untuk Genshin Impact.
 APP_COMMAND_HOYO_DESCRIPTION: Periksa akun HoYoLAB kamu dari Genshin Wizard.
 APP_COMMAND_CHARACTERS_DESCRIPTION: Lihat Ringkasan Karakter akun Genshin Anda.
 APP_COMMAND_TCG_DESCRIPTION: Lihat Pameran Akun TCG Invokasi Genius Anda.
-APP_COMMAND_IMPORT_DESCRIPTION: Impor riwayat keinginan gacha Anda dari situs populer lainnya.
+APP_COMMAND_IMPORT_DESCRIPTION: Impor riwayat permohonan gacha anda dari situs populer lainnya.
 APP_COMMAND_LEADERBOARD_DESCRIPTION: Lihat papan peringkat Genshin Wizard.
 APP_COMMAND_LOCATION_DESCRIPTION: Tampilkan lokasi yang diketahui untuk sumber yang diberikan.
 APP_COMMAND_LOCATIONS_DESCRIPTION: Menampilkan daftar lokasi sumber yang tersedia.
@@ -263,9 +263,9 @@ APP_COMMAND_SENDCODES_DESCRIPTION: Kirim pesan untuk kode penebusan Genshin deng
 APP_COMMAND_FEEDBACK_DESCRIPTION: Kirim saranan kamu ke Developer Genshin Wizard.
 APP_COMMAND_DELETE_DESCRIPTION: Hapus profil pengguna Genshin Wizard.
 APP_COMMAND_BLACKLIST_DESCRIPTION: Daftar hitam pengguna untuk tidak dapat menggunakan Genshin Wizard.
-APP_COMMAND_DELIMPORT_DESCRIPTION: Hapus data riwayat wish yang diimpor pengguna.
-EXPORT_NO_WISHES: Tidak ada keinginan untuk ekspor.
-EXPORT_NO_BANNER_WISHES: Tidak ada keinginan baner {banner} yang ditemukan.
+APP_COMMAND_DELIMPORT_DESCRIPTION: Hapus data riwayat permohonan yang diimpor pengguna.
+EXPORT_NO_WISHES: Tidak ada permohonan untuk ekspor.
+EXPORT_NO_BANNER_WISHES: Tidak ada permohonan baner {banner} yang ditemukan.
 EXPORT_NO_MESSAGE_PERMISSION: "Bot **tidak** memiliki izin untuk mengirimi kamu pesan pribadi. Pastikan Anda memiliki pengaturan: `Izinkan pesan langsung dari anggota server` **diaktifkan** di *pengaturan privasi Discord* Anda."
 EXPORT_MESSAGE_SUCCESS: Riwayat keinginan Anda telah berhasil diekspor dan dikirimkan kepada Anda melalui DM.
 INFO_COMMAND_INVALID_ARGUMENT: |
@@ -357,7 +357,7 @@ APP_CONTEXT_MENU_PROFILE: Profil
 APP_CONTEXT_MENU_STATISTICS: Progresi Statistik
 APP_CONTEXT_MENU_ABYSS: Progresi Abyss
 APP_CONTEXT_MENU_CHARACTERS: Karakter
-APP_CONTEXT_MENU_WISH_HISTORY: Riwayat Keinginan
+APP_CONTEXT_MENU_WISH_HISTORY: Riwayat Permohonan
 WHITELIST_KEY_LOWERCASE: daftar putih
 HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Keinginan Baner"
 SLASH_PAGINATION: Halaman {current_page}/{total_pages}
@@ -366,19 +366,19 @@ HISTORY_COMMAND_TABLE_HEADER: "Kelangkaan | Pity | Nama | Tanggal"
 HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Dijamin Pity: {indicator}**"
 HISTORY_LINK_EXPIRED: Tautan Riwayat Tamat
 HISTORY_COMMAND_LIFETIME_PULLS: Pull Seumur Hidup
-HISTORY_COMMAND_WISHES_WORTH: Nilai keinginan
+HISTORY_COMMAND_WISHES_WORTH: Nilai permohonan
 HISTORY_COMMAND_CURRENT_PITIES: Pity Saat Ini
 SEARCH_ERROR: Pencarian ralat!
 HISTORY_COMMAND_NO_WISHES: |
-  Tidak ada keinginan yang ditemukan untuk pencarian ini!
+  Tidak ada permohonan yang ditemukan untuk pencarian ini!
   Coba pilih baner lain untuk diperiksa di bawah.
-HISTORY_COMMAND_NO_USER_WISHES: Tidak ada keinginan yang ditemukan untuk pengguna ini!
+HISTORY_COMMAND_NO_USER_WISHES: Tidak ada permohonan yang ditemukan untuk pengguna ini!
 USER_NOT_REGISTERED_TITLE: Pengguna belum terdaftar!
 REGISTERED_KEY: Terdaftar
 NOT_REGISTERED_KEY: Tidak Terdaftar
 USER_NOT_REGISTERED_DESCRIPTION: Sayangnya, <@{mem_id}> **belum terdaftar**! Silakan mendaftar menggunakan </register:{command_id}> *sebelum* menggunakan perintah ini.
-FOOTER_REQUIRES_WISH_HISTORY: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode Riwayat Keinginan."
-FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode Riwayat Keinginan atau HoYoLAB."
+FOOTER_REQUIRES_WISH_HISTORY: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode Riwayat Permohonan."
+FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode Riwayat Permohonan atau HoYoLAB."
 FOOTER_REQUIRE_UID_OR_HOYOLAB: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode UID atau HoYoLAB."
 FOOTER_GCG_EXPANDED: Statistik Pameran TCG Anda dapat ditampilkan dengan lebih detail jika anda mendaftar menggunakan akun HoYoLAB anda!
 LINK_HOYOLAB_TITLE: Genshin Wizard | Tautkan Akun Hoyolab
@@ -546,7 +546,7 @@ PRIVACY_SETTING_OVERVIEW: |
   > *Hide your showcase builds information from showing up anywhere (`/info`)*
 ALL_KEY: All
 RESET_KEY: Reset
-WISH_HISTORY_KEY: Riwayat Keinginan
+WISH_HISTORY_KEY: Riwayat Permohonan
 ABYSS_KEY: Abyss
 UID_KEY: UID
 STATS_KEY: Stats
@@ -606,7 +606,7 @@ LOCATION_KEY: Location
 TOP_ROLE_KEY: Top Role
 RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
 RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
-WISHES_WORTH_KEY: Nilai keinginan
+WISHES_WORTH_KEY: Nilai permohonan
 OVERALL_SUMMARY_KEY: Overall Summary
 OVERALL_STATS_KEY: Overall Stats
 PERCENTAGE_KEY: Percentage
@@ -1373,18 +1373,18 @@ ENABLE_ADAPTIVE_ART_SETTING: Aktifkan Seni Infografis Adaptif
 INVITE_BOT_KEY: Undang Bot
 HELP_DROPDOWN_DIRECTORY: Direktori Bantuan
 HELP_DROPDOWN_PROFILE_COMMANDS: Perintah Profil/Statistik
-HELP_DROPDOWN_WISH_COMMANDS: Perintah Wish
+HELP_DROPDOWN_WISH_COMMANDS: Perintah Permohonan
 HELP_DROPDOWN_HOYOLAB_COMMANDS: Perintah HoYoLAB
 HELP_DROPDOWN_GUIDE_COMMANDS: Panduan Perintah
 HELP_DROPDOWN_MISCELLANEOUS_COMMANDS: Perintah Lain-lain
 HELP_DROPDOWN_DIRECTORY_DESCRIPTION: Lihat Direktori Bantuan Genshin Wizard
 HELP_DROPDOWN_PROFILE_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Profil
-HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Wish
+HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: Perintah Terkait Permohonan
 HELP_DROPDOWN_HOYOLAB_COMMANDS_DESCRIPTION: Lihat Perintah Terkait HoYoLAB
 HELP_DROPDOWN_GUIDE_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Panduan
 HELP_DROPDOWN_MISCELLANEOUS_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Lain-Lain
 HELP_PROFILE_COG_NAME: Profil/Statistik
-HELP_PROFILE_WISH_COG_NAME: Keinginan
+HELP_PROFILE_WISH_COG_NAME: Permohonan
 HELP_HOYOLAB_COG_NAME: HoYoLAB
 HELP_GUIDE_COG_NAME: Panduan
 HELP_MISC_COG_NAME: Lain-lain
