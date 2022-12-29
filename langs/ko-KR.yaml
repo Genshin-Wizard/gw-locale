@@ -210,9 +210,9 @@ APP_COMMAND_EDIT_ADD_DESCRIPTION: 특정 캐릭터에 대한 새 빌드를 추�
 APP_COMMAND_DESCRIBE_EDIT_ADD_CHARACTER: 빌드를 추가하려는 캐릭터의 이름을 입력하세요.
 APP_COMMAND_DESCRIBE_EDIT_ADD_BUILD: 빌드의 이름을 추가합니다
 APP_COMMAND_EDIT_REMOVE_DESCRIPTION: 특정 캐릭터의 빌드를 제거합니다.
-APP_COMMAND_DESCRIBE_EDIT_REMOVE_CHARACTER: 빌드를 제거하려는 캐릭터의 이름입니다.
+APP_COMMAND_DESCRIBE_EDIT_REMOVE_CHARACTER: 현재 캐릭터 빌드를 제거합니다.
 APP_COMMAND_DESCRIBE_EDIT_REMOVE_BUILD: 현재 빌드를 제거합니다.
-APP_COMMAND_EDIT_BUILD_DESCRIPTION: 특정한 캐릭터의 빌드를 변경합니다.
+APP_COMMAND_EDIT_BUILD_DESCRIPTION: 특정 캐릭터의 빌드를 제거합니다.
 APP_COMMAND_DESCRIBE_EDIT_BUILD_CHARACTER: 빌드를 변경할 캐릭터의 이름입니다.
 APP_COMMAND_EDIT_PLAYSTYLE_DESCRIPTION: 특정한 캐릭터의 플레이스타일을 변경합니다.
 APP_COMMAND_DESCRIBE_PLAYSTYLE_CHARACTER: 플레이스타일을 변경할 캐릭터의 이름을 입력해주세요.
@@ -346,11 +346,11 @@ APP_COMMAND_DESCRIBE_CRIT_RATE: 치명타확률 성유물
 APP_COMMAND_DESCRIBE_CRIT_DAMAGE: 치명타 피해 성유물
 APP_COMMAND_DESCRIBE_QUESTION: 페이몬에게 물어볼 질문입니다.
 APP_COMMAND_DESCRIBE_PREFIX: 새 봇 접두사를 설정합니다.
-APP_COMMAND_DESCRIBE_EXPRESSION: The equation/query you're attempting to compute.
-APP_COMMAND_DESCRIBE_CODE_CHANNEL: The channel you want to send the message in.
-APP_COMMAND_DESCRIBE_CODE_PING: The role you want to mention along with the message.
-APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated by a comma.
-APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
+APP_COMMAND_DESCRIBE_EXPRESSION: 계산하려는 식을 입력하세요.
+APP_COMMAND_DESCRIBE_CODE_CHANNEL: 메시지를 보낼 채널입니다.
+APP_COMMAND_DESCRIBE_CODE_PING: 메시지와 함께 멘션할 역할입니다.
+APP_COMMAND_DESCRIBE_CODE_LIST: 메시지형태로 보낼 리딤 코드입니다.
+APP_COMMAND_DESCRIBE_FEEDBACK: 전달하고자 하는 피드백입니다.
 APP_CONTEXT_MENU_PROFILE: 프로필
 APP_CONTEXT_MENU_STATISTICS: 통계 진행
 APP_CONTEXT_MENU_ABYSS: 심연 진행도
@@ -358,8 +358,8 @@ APP_CONTEXT_MENU_CHARACTERS: 캐릭터
 APP_CONTEXT_MENU_WISH_HISTORY: 기원 기록
 WHITELIST_KEY_LOWERCASE: 화이트리스트
 HISTORY_COMMAND_BANNER_TITLE: "{banner_name} 배너기원"
-SLASH_PAGINATION: Page {current_page}/{total_pages}
-OF_PAGINATION: Page {current_page} of {total_pages}
+SLASH_PAGINATION: '{current_page}/{total_pages} 페이지'
+OF_PAGINATION: '{current_page}/{total_pages} 페이지'
 HISTORY_COMMAND_TABLE_HEADER: "별 | 스택 | 이름 | 날짜"
 HISTORY_COMMAND_GUARANTEE_INDICATOR: "**확정스택: {indicator}**"
 HISTORY_LINK_EXPIRED: 기록 링크가 만료됨
@@ -368,14 +368,14 @@ HISTORY_COMMAND_WISHES_WORTH: 기원 가치
 HISTORY_COMMAND_CURRENT_PITIES: 스택
 SEARCH_ERROR: 검색 오류
 HISTORY_COMMAND_NO_WISHES: |
-  No wishes were found for this search!
-  Try selecting a different banner to check below.
-HISTORY_COMMAND_NO_USER_WISHES: No wishes were found for this user!
-USER_NOT_REGISTERED_TITLE: User has not registered!
+  가챠 기록이 없습니다!
+  아래 다른 배너를 선택해 보세요.
+HISTORY_COMMAND_NO_USER_WISHES: 이 유저의 가챠 기록이 존재하지 않습니다!
+USER_NOT_REGISTERED_TITLE: 등록되지 않은 유저입니다!
 REGISTERED_KEY: 등록됨
 NOT_REGISTERED_KEY: 등록되지 않은
-USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** yet! Please register using </register:{command_id}> *before* using this command.
-FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."
+USER_NOT_REGISTERED_DESCRIPTION: 이봐 <@{mem_id}>! 너는 아직 Genshin Wizard에 등록되지 않았어! </register:{command_id}>커맨드를 사용해 등록을 먼저 하자~
+FOOTER_REQUIRES_WISH_HISTORY: "참고: 이 명령은 뽑기 기록을 통해 등록을 해야만 쓸 수 있습니다."
 FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "참고: 이 명령을 사용하려면 기원 기록 또는 호요랩을 사용하는방법을 통해 등록해야 합니다."
 FOOTER_REQUIRE_UID_OR_HOYOLAB: "참고: 이 명령을 사용하려면 UID 또는 호요랩 방법을 통해 등록해야 합니다."
 FOOTER_GCG_EXPANDED: 호요랩 계정을 사용하여 등록하면 일곱 성인의 소환 쇼케이스 통계를 더 자세히 볼 수 있습니다!
@@ -397,7 +397,7 @@ AUTOCLAIM_ALREADY_DISABLED: 자동 호요랩 일일 로그인은 이미 비활�
 AUTOCLAIM_ALREADY_ENABLED: 자동 호요랩 일일 로그인이 이미 활성화되어 있습니다.
 AUTOCLAIM_DISABLED: 자동 호요랩 일일 로그인이 비활성화되었습니다.
 AUTOCLAIM_ENABLED: 자동 호요랩 일일 로그인이 활성화되었습니다.
-AUTOCLAIM_VOTE_REQUIREMENT: You must **__vote__** for our server and bot before being able to enable autoclaim!
+AUTOCLAIM_VOTE_REQUIREMENT: '**__vote__**(봇/서버투표)를 해야만 자동 출석체크가 가능합니다!'
 HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | 호요랩 일일로그인 보상
 HOYOLAB_SIGN_IN_REWARDS: |
   성공적으로 **수령된** 일일 보상!
@@ -410,7 +410,7 @@ HOYOLAB_DIARY_TITLE: Genshin Wizard | 여행자다이어리
 HOYOLAB_INVALID_REDEEM: |
   교환하려면 교환 코드를 제공해야 합니다.
   **올바른 명령 사용법** ```/redeem CODE_ONE,CODE_TWO,...```
-CHINA_NOT_ALLOWED: Redeeming codes for CN users is **not supported** as of yet.
+CHINA_NOT_ALLOWED: 중국서버 사용자를 위한 리딤 코드는 아직 지원되지 않습니다.
 HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | 호요랩 Overview
 HOYOLAB_LOADING_ACCOUNT: 계정 정보 불러오는 중....
 HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> 계정의 **실시간 메모** 정보를 검색하는 동안 오류가 발생했습니다! *나중에* 다시 시도하거나 [**공식 지원 서버**](https://discord.gg/BTT5Zr7Dmp)에 가입하여 도움을 받으세요.
@@ -418,9 +418,9 @@ HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> 계정의 **게임
 HOYOLAB_ACCOUNT_ERROR: 계정 정보를 가져오는 중에 오류가 발생했습니다! 나중에 다시 시도 해주십시오*.
 HOYOLAB_ACCOUNT_MANAGE: Genshin Wizard를 통해 호요랩 계정 관리
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard |캐릭터 요약
-CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /register!
-GCG_NO_CARDS_FOUND: No Cards Found!
-GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Traveler! Unfortunately, {member} has **no cards** yet! Head-in game and play some TCG on Genshin Impact *before* using this command.
+CHARACTER_SUMMARY_NOT_FULL: 이 기능은 가챠 기록을 기반으로 합니다. 가장 최근의 쇼케이스(레벨, 호감도, 별자리돌파, 모험가레벨 포함)를 보려면 /register 명령으로 등록을 하세요.
+GCG_NO_CARDS_FOUND: 카드를 찾을 수 없습니다!
+GCG_NO_CARDS_FOUND_DESCRIPTION: 여행자 안녕! {member}(은)는 카드가 아직 하나도 없는것 같아! 일곱 성인의 소환에서 카드를 좀 획득하고 돌아와줘!
 HOYOLAB_REGISTER_SCRIPT_TITLE: 등록 | 스크립트 방식
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
   **호요랩 계정을 Genshin Wizard와 연결하는 방법**
@@ -440,32 +440,33 @@ HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
 
   <:information:1021014187197083668> **참고:** 이 방법은 편의/QOL을 위해 제공됩니다. 계정 보안이 걱정되시면 대신 스크립트 방법이나 다른 등록 양식을 사용하십시오.
 HOYOLAB_REGISTER_LOGIN_FOOTER: Genshin Wizard는 귀하의 계정 세부 정보를 저장하지 않는다는 점을 알려드립니다! 이 등록 방법은 계정 통계를 보는 데 필요한 필수 쿠키를 검색합니다.
-ARE_YOU_SURE: Are you sure?
+ARE_YOU_SURE: 확실해?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
   Genshin Wizard에서 호요랩 계정을 **연결 해제**하도록 요청하셨습니다.
   즉, 더 이상 *일일 보상 청구*, *전체 심연 진행 상황* 및 *모든 캐릭터 보기*와 같은 기타 확장 기능을 볼 수 없습니다.
-UNLINKING_SUCCESSFUL: Unlinking successful!
-UNLINKING_SUCCESSFUL_DESCRIPTION: Your account has been successfully unlinked from Genshin Wizard!
-UNLINKING_UNSUCCESSFUL: Unlinking unsuccessful!
-UNLINKING_UNSUCCESSFUL_DESCRIPTION: Oops! Unlinking was unsuccessful, there was an error. Please try again or contact a staff member!
-UNLINKING_CANCELLED: Unlinking cancelled!
-UNLINKING_CANCELLED_DESCRIPTION: You have cancelled your unlink request!
+UNLINKING_SUCCESSFUL: 연결 해제 성공!
+UNLINKING_SUCCESSFUL_DESCRIPTION: 성공적으로 계정이 연결 해제되었습니다.
+UNLINKING_UNSUCCESSFUL: 연결 해제 실패!
+UNLINKING_UNSUCCESSFUL_DESCRIPTION: 오류가 발생해 연결 해제에 실패했습니다. 잠시 후에 다시 시도하거나 직원에게 문의하십시오.
+UNLINKING_CANCELLED: 연결 해제 취소!
+UNLINKING_CANCELLED_DESCRIPTION: 연결 해제를 취소했습니다.
 OBTAINED_KEY: 획득
 NOT_OWNED_KEY: 아직 보유하지 않았습니다
 PROFICIENCY_KEY: 숙련도
-USE_COUNT_KEY: Use Count
-IMPORT_ERROR: Import Error!
-FOOTER_ERROR_DESCRIPTION: If you believe this is an error, please contact a staff member.
+USE_COUNT_KEY: 사용 횟수
+IMPORT_ERROR: 가져오기 오류가 발생했습니다.
+FOOTER_ERROR_DESCRIPTION: 이것이 오류라고 생각되면 직원에게 문의하세요.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  지원되지 않는 데이타입니다. 현재 가져오기는 다음 사이트에서만 허용합니다:
   > `Paimon.moe`
   > `Genshin-Wishes`
-  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-IMPORT_COMMAND_TITLE: Genshin Wizard | Import Wish History
+  자세한 내용은 [**문서**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) 를 참조하세요.
+
+IMPORT_COMMAND_TITLE: Genshin Wizard | 기원 기록 가져오기
 IMPORT_COMMAND_FILE_DETECTED: |
-  **Detected Import Source: `{source}`**
-  *Please wait while we import your wish history...*
-IMPORT_COMMAND_TAMPERED: The data you are trying to import has been **tampered** with. Please **don't change** anything within the files before importing, try redownloading the data and importing *again*.
+  **감지된 소스: `{source}`**
+  *기원 기록을 가져오는 동안 잠시 기다려 주십시오...*
+IMPORT_COMMAND_TAMPERED: 가져오려는 데이터가 **무단 변경** 되었습니다. 가져오기 전에 파일 내의 어떤 것도 변경하지 마세요. 파일을 새로 다운로드하고 다시 가져오기를 시도하세요.
 IMPORT_COMMAND_BANNER_IMPORTED: Successfully imported `{number_wishes}` wishes for {banner_name} banner!
 IMPORT_COMMAND_SUCCESS: Successfully imported `{total_wishes}` new wishes from all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
 IMPORT_COMMAND_LOG: |
