@@ -35,7 +35,7 @@ VOTE_BOT_LINK: Tautan undi Bot
 VOTE_SERVER_LINK: Tautan undi Server
 VOTE_BOT_BUTTON: Undi [Bot]
 VOTE_SERVER_BUTTON: Undi [Server]
-DEVELOPERS_KEY: Pengembang
+DEVELOPERS_KEY: Developer
 SERVER_KEY: Server
 SERVERS_KEY: Servers
 USERS_KEY: Pengguna
@@ -110,7 +110,7 @@ MENU_COOLDOWN_TITLE: Menu itu sedang cooldown!
 BUTTON_COOLDOWN_TITLE: Butang itu sedang cooldown!
 COMMAND_COOLDOWN_TITLE: Perintah itu sedang cooldown!
 MENU_COOLDOWN_VALUE: Anda mengklik atribut terlalu cepat! Coba lagi dalam waktu **{cooldown}** detik.
-CHARACTER_SHOWCASE_TITLE: Memamerkan Karakter
+CHARACTER_SHOWCASE_TITLE: Pameran Karakter
 ERROR_RATELIMIT: Pengguna ini dibatasi tarifnya.
 ERROR_COMMAND_COOLDOWN_VALUE: Coba gunakan perintah ini lagi dalam {cooldown} detik.
 ERROR_COMMAND_LONG_COOLDOWN_VALUE: Coba gunakan perintah ini lagi dalam <t:{cooldown}:R>
@@ -149,7 +149,7 @@ ERROR_EMPTY_BACKPACK: Ranselmu **kosong**! Untuk memulai perjalanan kamu, gunaka
 ERROR_INTERACTION_MISMATCH: Hai Traveler! Ini ** bukan interaksi Anda ** untuk disentuh! Gunakan perintah {command} jika kamu ingin menggunakan perintah ini untuk diri kamu sendiri!
 ERROR_MESSAGE: Terdapat Ralat!
 FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Saranan
-FEEDBACK_CONFIRMATION_DESCRIPTION: ':yescheck:1021114525858136074> *Saranan kamu telah berhasil dikirim ke pengembang!*'
+FEEDBACK_CONFIRMATION_DESCRIPTION: ':yescheck:1021114525858136074> *Saranan kamu telah berhasil dikirim ke Developer!*'
 FEEDBACK_LOG_RESPONSE: |
   > Pengguna: **{author_name}** | {author_mention}
   > ID Discord: `{author_id}`
@@ -176,7 +176,7 @@ CODE_REDEEM_SUCCESS: "*Kode penebusan berhasil diproses!*"
 APP_COMMAND_INFO_DESCRIPTION: Menampilkan build untuk karakter di pameran dalam game pengguna.
 APP_COMMAND_EXPORT_DESCRIPTION: Ekspor riwayat keinginan Genshin Anda yang diformat ke dalam file teks melalui pesan pribadi.
 APP_COMMAND_HISTORY_DESCRIPTION: Lihat riwayat keinginan akun Genshin Anda.
-APP_COMMAND_DAILY_DESCRIPTION: Klaim hadiah masuk HoYoLAB harian Anda.
+APP_COMMAND_DAILY_DESCRIPTION: Klaim hadiah Login HoYoLAB harian Anda.
 APP_COMMAND_MONTHLY_DESCRIPTION: Lihat hadiah harian HoYoLAB untuk bulan ini.
 APP_COMMAND_DIARY_DESCRIPTION: Lihat Buku Harian Traveler HoYoLAB Anda.
 APP_COMMAND_REDEEM_DESCRIPTION: Menebus kode penebusan untuk Genshin Impact.
@@ -200,7 +200,7 @@ APP_COMMAND_REFRESH_DESCRIPTION: Refresh tautan riwayat keinginan Anda (tautan b
 APP_COMMAND_UNLINK_DESCRIPTION: Putuskan tautan akun Genshin kamu dan hapus semua data.
 APP_COMMAND_REMINDERS_DESCRIPTION: Siapkan pengingat untuk memberi tahu resin, teko, dan ekspedisi.
 APP_COMMAND_RESIN_DESCRIPTION: Siapkan pengingat Resin untuk memberi tahu kamu saat resin kamu diisi ulang.
-APP_COMMAND_GACHA_DESCRIPTION: Tampilkan infografis terbaru yang menampilkan seluruh riwayat keinginan kamu untuk baner yang ditentukan.
+APP_COMMAND_GACHA_DESCRIPTION: Tampilkan infografis terbaru yang menampilkan seluruh riwayat keinginan kamu untuk baner yang tertentu.
 APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Uji keberuntungan gacha Anda dengan Genshin Wish Simulator!
 APP_COMMAND_INVENTORY_DESCRIPTION: Lihat inventaris Genshin Wizard virtual Anda.
 APP_COMMAND_SHOP_DESCRIPTION: Lihat Toko Genshin Wizard Anda.
@@ -227,188 +227,187 @@ APP_COMMAND_ARTIFACTS_DESCRIPTION: Menampilkan daftar artefak yang tersedia.
 APP_COMMAND_TRANSLATE_DESCRIPTION: Informasi tentang cara berkontribusi pada terjemahan Genshin Wizard.
 APP_COMMAND_ID_DESCRIPTION: Cari aset dalam game menggunakan ID-nya.
 APP_COMMAND_WEAPON_DESCRIPTION: Cari panduan senjata untuk senjata Genshin tertentu.
-APP_COMMAND_GUIDE_DESCRIPTION: Look up a character guide for a specific Genshin character.
-APP_COMMAND_BUILD_DESCRIPTION: Look up build(s) for a specific Genshin character.
-APP_COMMAND_PLAYSTYLE_DESCRIPTION: Look up playstyles for a specific Genshin character.
-APP_COMMAND_ASCENSION_DESCRIPTION: Look up a ascension materials for a specific Genshin character.
-APP_COMMAND_SYNERGY_DESCRIPTION: Look up a character and team synergies for a specific Genshin character.
-APP_COMMAND_CONSTELLATIONS_DESCRIPTION: Look up constellations for a specific Genshin character.
-APP_COMMAND_SKILLS_DESCRIPTION: Look up skill talents for a specific Genshin character.
-APP_COMMAND_PASSIVE_DESCRIPTION: Look up passive talents for a specific Genshin character.
-APP_COMMAND_GUIDES_DESCRIPTION: Display a list of available character guides.
-APP_COMMAND_REFERENCE_DESCRIPTION: Search for a specific reference sheet.
-APP_COMMAND_REFERENCESHEETS_DESCRIPTION: View all available reference sheets.
-APP_COMMAND_TODO_DESCRIPTION: Check daily/weekly events in Genshin Impact.
-APP_COMMAND_BANNERS_DESCRIPTION: View ongoing Genshin Impact event banners.
-APP_COMMAND_CONFIG_DESCRIPTION: Genshin Wizard config setup panel, configure automatic announcements and more!
+APP_COMMAND_GUIDE_DESCRIPTION: Cari panduan karakter untuk karakter Genshin tertentu.
+APP_COMMAND_BUILD_DESCRIPTION: Cari build untuk karakter Genshin tertentu.
+APP_COMMAND_PLAYSTYLE_DESCRIPTION: Cari gaya bermain untuk karakter Genshin tertentu.
+APP_COMMAND_ASCENSION_DESCRIPTION: Cari bahan ascension untuk karakter Genshin tertentu.
+APP_COMMAND_SYNERGY_DESCRIPTION: Cari karakter dan sinergi tim untuk karakter Genshin tertentu.
+APP_COMMAND_CONSTELLATIONS_DESCRIPTION: Cari konstelasi untuk karakter Genshin tertentu.
+APP_COMMAND_SKILLS_DESCRIPTION: Cari skil talent untuk karakter Genshin tertentu.
+APP_COMMAND_PASSIVE_DESCRIPTION: Cari pasif talent untuk karakter Genshin tertentu.
+APP_COMMAND_GUIDES_DESCRIPTION: Menampilkan daftar panduan karakter yang tersedia.
+APP_COMMAND_REFERENCE_DESCRIPTION: Cari lembaran referensi tertentu.
+APP_COMMAND_REFERENCESHEETS_DESCRIPTION: Lihat semua lembar referensi yang tersedia.
+APP_COMMAND_TODO_DESCRIPTION: Cek event harian/mingguan di Genshin Impact.
+APP_COMMAND_BANNERS_DESCRIPTION: Lihat baner event Genshin Impact yang sedang berlangsung.
+APP_COMMAND_CONFIG_DESCRIPTION: Panel pengaturan konfigurasi Genshin Wizard, konfigurasikan pengumuman otomatis, dan banyak lagi!
 APP_COMMAND_PARTNER_DESCRIPTION: tersembunyi
-APP_COMMAND_SETUP_DESCRIPTION: Genshin Wizard Role Integration Setup Panel.
-APP_COMMAND_PREMIUM_DESCRIPTION: Purchase Genshin Wizard Premium to gain access to premium features.
-APP_COMMAND_ROLE_DESCRIPTION: Applies specific character roles to a user. Refer to relative text channel for more information.
-APP_COMMAND_HELP_DESCRIPTION: View Genshin Wizard help documentation.
-APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
-APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
-APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
-APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
+APP_COMMAND_SETUP_DESCRIPTION: Panel Penyiapan Integrasi Role Genshin Wizard.
+APP_COMMAND_PREMIUM_DESCRIPTION: Beli Genshin Wizard Premium untuk mendapatkan akses ke fitur premium.
+APP_COMMAND_ROLE_DESCRIPTION: Menerapkan role karakter tertentu untuk pengguna. Lihat chanel teks relatif untuk informasi lebih lanjut.
+APP_COMMAND_HELP_DESCRIPTION: Lihat dokumentasi bantuan Genshin Wizard.
+APP_COMMAND_PING_DESCRIPTION: Lihat latensi Genshin Wizard.
+APP_COMMAND_UPTIME_DESCRIPTION: Lihat waktu aktif Genshin Wizard.
+APP_COMMAND_ABOUT_DESCRIPTION: Informasi tentang Genshin Wizard.
+APP_COMMAND_INVITE_DESCRIPTION: Dapatkan tautan undangan untuk bot ini.
 APP_COMMAND_DONATE_DESCRIPTION: Menyokong pengembangan Genshin Wizard.
-APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
-APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
-APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
-APP_COMMAND_TRUTH_DESCRIPTION: Seek wisdom from Genshin Wizard.
-APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Change Genshin Wizard's prefix for commands.
-APP_COMMAND_PITY_DESCRIPTION: Information on understanding the Genshin pity-system.
-APP_COMMAND_MATH_DESCRIPTION: Computer simple or complex functions.
-APP_COMMAND_EVENTS_DESCRIPTION: Check recent Genshin Impact events.
-APP_COMMAND_SENDCODES_DESCRIPTION: Send a message for Genshin redemption codes with buttons.
-APP_COMMAND_FEEDBACK_DESCRIPTION: Send your feedback to Genshin Wizard Developers.
-APP_COMMAND_DELETE_DESCRIPTION: Delete a user's Genshin Wizard profile.
-APP_COMMAND_BLACKLIST_DESCRIPTION: Blacklist a user from using Genshin Wizard.
-APP_COMMAND_DELIMPORT_DESCRIPTION: Delete a user's imported wish history data.
-EXPORT_NO_WISHES: There are no wishes to export.
-EXPORT_NO_BANNER_WISHES: No {banner} banner wishes found.
-EXPORT_NO_MESSAGE_PERMISSION: "The bot **does not** have permission to send you a private message. Please make sure you have the setting: `Allow direct messages from server members` **enabled** in your *Discord privacy settings*."
-EXPORT_MESSAGE_SUCCESS: Your wish history has successfully been exported and sent to you via DMs.
+APP_COMMAND_VOTE_DESCRIPTION: Tautan Menyokong untuk Genshin Wizard.
+APP_COMMAND_AVATAR_DESCRIPTION: Lihat avatar pengguna Discord.
+APP_COMMAND_CRITVALUE_DESCRIPTION: Hitung Nilai CRIT untuk artefak.
+APP_COMMAND_TRUTH_DESCRIPTION: Meminta pandangan dari Genshin Wizard.
+APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Ubah awalan Genshin Wizard untuk perintah.
+APP_COMMAND_PITY_DESCRIPTION: Informasi tentang pemahaman sistem pity Genshin.
+APP_COMMAND_MATH_DESCRIPTION: Fungsi komputer sederhana atau kompleks.
+APP_COMMAND_EVENTS_DESCRIPTION: Lihat event terbaru Genshin Impact.
+APP_COMMAND_SENDCODES_DESCRIPTION: Kirim pesan untuk kode penebusan Genshin dengan tombol.
+APP_COMMAND_FEEDBACK_DESCRIPTION: Kirim saranan kamu ke Developer Genshin Wizard.
+APP_COMMAND_DELETE_DESCRIPTION: Hapus profil pengguna Genshin Wizard.
+APP_COMMAND_BLACKLIST_DESCRIPTION: Daftar hitam pengguna untuk tidak dapat menggunakan Genshin Wizard.
+APP_COMMAND_DELIMPORT_DESCRIPTION: Hapus data riwayat wish yang diimpor pengguna.
+EXPORT_NO_WISHES: Tidak ada keinginan untuk ekspor.
+EXPORT_NO_BANNER_WISHES: Tidak ada keinginan baner {banner} yang ditemukan.
+EXPORT_NO_MESSAGE_PERMISSION: "Bot **tidak** memiliki izin untuk mengirimi kamu pesan pribadi. Pastikan Anda memiliki pengaturan: `Izinkan pesan langsung dari anggota server` **diaktifkan** di *pengaturan privasi Discord* Anda."
+EXPORT_MESSAGE_SUCCESS: Riwayat keinginan Anda telah berhasil diekspor dan dikirimkan kepada Anda melalui DM.
 INFO_COMMAND_INVALID_ARGUMENT: |
-  **Invalid argument passed.**
+  **Argumen tidak valid**
 
-  To view another player's stats, please enter either Discord User **or** a Genshin UID. Entering both will result in an error.
+  Untuk melihat statistik pemain lain, harap masukkan Pengguna Discord **atau** UID Genshin. Memasukkan keduanya akan menghasilkan error.
 INVALID_ARGUMENT_PASSED: |
-  Invalid argument passed.
-  Valid argument is `<discord user>`/`<genshin uid>`
-INFO_COMMAND_ENKA_ISSUE: There seems to be an issue with [**Enka.Network**](https://enka.network/u/{uid}). Please try again later.
-ERROR_NO_USER_DATA: No data found for this user.
-WHAT_HAPPENED_TITLE: What happened?
-WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
-WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
-INFO_COMMAND_SHOWCASE_TITLE: Memamerkan Karakter
-INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
-REFRESHES_KEY: Refreshes
-INFO_COMMAND_CHARACTER_DETAILS: Character
-INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!
+  *Argumen tidak valid.
+  Argumen yang valid ialah `<discord user>`/`<genshin uid>`
+INFO_COMMAND_ENKA_ISSUE: Sepertinya ada masalah dengan [**Enka.Network**](https://enka.network/u/{uid}). Coba lagi nanti.
+ERROR_NO_USER_DATA: Tidak ada data yang ditemukan untuk pengguna ini.
+WHAT_HAPPENED_TITLE: Apa yang terjadi?
+WHAT_HAPPENED_VALUE: Sebab paling umum untuk masalah ini adalah akun genshin yang Anda coba cari belum diset ke publik. Untuk memperbaikinya, aktifkan `Tampilkan Detail Karakter` di Profil Anda di Genshin. Lihat gambar di bawah ini untuk referensi.
+WHAT_HAPPENED_FOOTER: Genshin Wizard mungkin membutuhkan waktu hingga lima menit untuk mengetahui perubahan terbaru yang dibuat dalam game, harap bersabar dengan kami.
+INFO_COMMAND_SHOWCASE_TITLE: Pameran Karakter
+INFO_COMMAND_SHOWCASE_VIEW_ENKA: Lihat di Enka.Network
+REFRESHES_KEY: Refresh
+INFO_COMMAND_CHARACTER_DETAILS: Karakter
+INFO_COMMAND_NOT_OWNER: Anda hanya dapat mengelola build yang di-cache untuk karakter Anda sendiri! Gunakan </info:{command_id}> untuk informasi lebih lanjut!
 INFO_COMMAND_CACHE_DESCRIPTION: |
   **Genshin Wizard Cache **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
 
-  <:information:1034639378410115103> **What is Cache?**
-  Genshin Wizard caches builds *automatically* so you never have to worry about swapping your showcase out over and over again!
+  <:information:1034639378410115103> **Apa itu Cache?**
+  Cache Genshin Wizard dibuat *secara otomatis* sehingga Anda tidak perlu khawatir untuk menukar pameran Anda berulang kali!
 
-  <:na:975828401900359711> **What if I want to delete old builds?**
-  Fear not! You'll be able to manage your cached builds straight from this message! Use the UI below to delete specific characters, or all, from your Genshin Wizard cache.
+  <:na:975828401900359711> **Bagaimana jika saya ingin menghapus build yang lama?**
+  Jangan takut! Anda akan dapat mengelola build yang di-cache langsung dari pesan ini! Gunakan UI di bawah ini untuk menghapus karakter tertentu, atau semua, dari cache Genshin Wizard Anda.
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard Custom Art Feature**
-  Hey Traveler, it looks like you're trying to use Genshin Wizard's **Custom Art** feature! This feature is only available to Genshin Wizard Premium users.
+  <:information:1034639378410115103> **Fitur Seni Kustom Genshin Wizard**
+  Hai Traveler, sepertinya kamu mencoba menggunakan fitur **Custom Art** Genshin Wizard! Fitur ini hanya tersedia untuk pengguna Genshin Wizard Premium.
 
-  You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Patreon**](https://patreon.com/genshinwizard)!
-PURCHASE_PREMIUM: Purchase Premium
-INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Hey Traveler, you can only manage custom art for your **own characters**!
-GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard Custom Art
+  Anda akan dapat mengetahui Genshin Wizard Premium lebih lanjut dengan menggunakan perintah </premium:{command_id}>, atau dengan mengunjungi [**Patreon**](https://patreon.com/genshinwizard) kami!
+PURCHASE_PREMIUM: Beli Premium
+INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Hai Traveler, kamu hanya bisa mengatur seni kustom untuk **karaktermu sendiri**!
+GENSHIN_WIZARD_CUSTOM_ART: Seni Kustom Genshin Wizard
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookie:787444650687987732>
-  ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://dashboard.genshinwizard.com/?key={key})
-GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Go to Dashboard
-REMOVE_CHARACTERS_FROM_CACHE: Remove characters from cache...
-INFO_COMMAND_CACHE_DELETE_SELECTED: Successfully deleted selected characters from Genshin Wizard's cache!
-INFO_COMMAND_CACHE_DELETE_ALL: Successfully deleted all your characters from Genshin Wizard's cache!
-INFO_COMMAND_CACHE_CANCEL: "**Cancelled** cache management request! You may dismiss this message."
-APP_COMMAND_DESCRIBE_USER: The name of the member you are trying to search for.
-APP_COMMAND_DESCRIBE_USER_AVATAR: The member you wish to view an avatar for.
-APP_COMMAND_DESCRIBE_UID: The UID of the member you are trying to search for.
-APP_COMMAND_DESCRIBE_USER_WISH: Search up a specific user's Genshin Wish history.
-APP_COMMAND_DESCRIBE_AUTOCLAIM: Enable/Disable automatic HoYoLAB daily sign-in.
-ENABLE_KEY: Enable
-DISABLE_KEY: Disable
-ENABLE_AUTOCLAIM: Enable automatic daily sign-in.
-DISABLE_AUTOCLAIM: Disable automatic daily sign-in.
-APP_COMAND_DESCRIBE_CODES: The redemption code you wish to redeem for your account.
-APP_COMMAND_DESCRIBE_DATA: The file you are trying to import your wish history from.
-APP_COMMAND_DESCRIBE_RESOURCE: The resource you are trying to search for.
-APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: The character you want to calculate ascension materials for.
-APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: Starting level of the character you want to upgrade.
-APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: Desired level of the character you want to upgrade.
-APP_COMMAND_DESCRIBE_BANNER_IMAGE: The image you want to use as your banner.
-APP_COMMAND_DESCRIBE_BANNER_URL: The link to an image you want to use as your banner.
-APP_COMMAND_DESCRIBE_CURRENT_RESIN: The amount of resin you currently have.
-APP_COMMAND_DESCRIBE_CARD: The name of the card you want to look-up.
-APP_COMMAND_DESCRIBE_ARTIFACT: The name of the artifact you want to search for.
-APP_COMMAND_DESCRIBE_ASSET_ID: The ID for the asset you wish to look up.
-APP_COMMAND_DESCRIBE_WEAPON: The name of the weapon you want to look-up a guide for.
-APP_COMMAND_DESCRIBE_CHARACTER: The name of the character you want to look-up.
-APP_COMMAND_DESCRIBE_CHARACTER_GUIDE: The name of the character you want to look-up a guide for
-APP_COMMAND_DESCRIBE_CHARACTER_BUILD: The name of the character you want to look-up a build for.
-APP_COMMAND_DESCRIBE_CHARACTER_PLAYSTYLE: The name of the character you want to look-up a playstyle for.
-APP_COMMAND_DESCRIBE_CHARACTER_SYNERGY: The name of the character you want to look-up team synergies for.
-APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION_LOOKUP: The name of the character you want to look-up ascension materials for.
-APP_COMMAND_DESCRIBE_CHARACTER_CONSTELLATIONS: The name of the character you want to look-up constellations for.
-APP_COMMAND_DESCRIBE_CHARACTER_SKILLS: The name of the character you want to look-up skill talents for.
-APP_COMMAND_DESCRIBE_CHARACTER_PASSIVE: The name of the character you want to look-up passive talents for.
-APP_COMMAND_DESCRIBE_ITEM_REFERENCE_SHEET: The name of the item you want a reference sheet for.
-APP_COMMAND_DESCRIBE_CRIT_RATE: The CRIT Rate of the artifact.
-APP_COMMAND_DESCRIBE_CRIT_DAMAGE: The CRIT Damage of the artifact.
-APP_COMMAND_DESCRIBE_QUESTION: The question you wish to ask Paimon.
-APP_COMMAND_DESCRIBE_PREFIX: The new prefix you wish to set for the bot.
-APP_COMMAND_DESCRIBE_EXPRESSION: The equation/query you're attempting to compute.
-APP_COMMAND_DESCRIBE_CODE_CHANNEL: The channel you want to send the message in.
-APP_COMMAND_DESCRIBE_CODE_PING: The role you want to mention along with the message.
-APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated by a comma.
-APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
-APP_CONTEXT_MENU_PROFILE: Profile
-APP_CONTEXT_MENU_STATISTICS: Stats Progression
-APP_CONTEXT_MENU_ABYSS: Abyss Progression
-APP_CONTEXT_MENU_CHARACTERS: Characters
-APP_CONTEXT_MENU_WISH_HISTORY: Wish History
-WHITELIST_KEY_LOWERCASE: whitelist
-HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Wishes"
-SLASH_PAGINATION: Page {current_page}/{total_pages}
-OF_PAGINATION: Page {current_page} of {total_pages}
-HISTORY_COMMAND_TABLE_HEADER: "Rarity | Pity | Name | Date"
-HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Guaranteed Pity: {indicator}**"
-HISTORY_LINK_EXPIRED: History Link Expired
-HISTORY_COMMAND_LIFETIME_PULLS: Lifetime Pulls
-HISTORY_COMMAND_WISHES_WORTH: Wishes Worth
-HISTORY_COMMAND_CURRENT_PITIES: Current Pities
-SEARCH_ERROR: Search Error!
+  **Mengubah Seni Infografis**
+  Hai Traveler, klik tautan atau tombol di bawah untuk **mengubah** seni infografis untuk karakter ini! <a:PaimonCookie:787444650687987732>
+  ```Ubah 
+  Infografis untuk {character}```
+   <:Settings:1046877233626742925> [**Klik Di Sini untuk mengubah Seni**](https://dashboard.genshinwizard.com/?key={key})
+GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Pergi ke Dashboard
+REMOVE_CHARACTERS_FROM_CACHE: Hapus karakter dari cache...
+INFO_COMMAND_CACHE_DELETE_SELECTED: Berhasil menghapus karakter terpilih dari cache Genshin Wizard!
+INFO_COMMAND_CACHE_DELETE_ALL: Berhasil menghapus semua karakter Anda dari cache Genshin Wizard!
+INFO_COMMAND_CACHE_CANCEL: "**Dibatalkan** permintaan manajemen cache! Anda dapat menutup pesan ini."
+APP_COMMAND_DESCRIBE_USER: Nama rakan yang Anda coba cari.
+APP_COMMAND_DESCRIBE_USER_AVATAR: Rakan yang ingin Anda lihat avatarnya.
+APP_COMMAND_DESCRIBE_UID: UID rakan yang Anda coba cari.
+APP_COMMAND_DESCRIBE_USER_WISH: Cari riwayat Genshin Wish pengguna tertentu.
+APP_COMMAND_DESCRIBE_AUTOCLAIM: Aktifkan/Nonaktifkan login harian HoYoLAB otomatis.
+ENABLE_KEY: Aktifkan
+DISABLE_KEY: Nonaktifkan
+ENABLE_AUTOCLAIM: Aktifkan login harian otomatis.
+DISABLE_AUTOCLAIM: Nonaktifkan login harian otomatis.
+APP_COMAND_DESCRIBE_CODES: Kode penebusan yang ingin Anda tebus untuk akun Anda.
+APP_COMMAND_DESCRIBE_DATA: File tempat Anda coba mengimpor riwayat keinginan.
+APP_COMMAND_DESCRIBE_RESOURCE: Sumber yang Anda coba cari.
+APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: Karakter yang ingin Anda hitung bahan ascensionnya.
+APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: Level awal karakter yang ingin Anda tingkatkan.
+APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: Level karakter yang diinginkan oleh Anda untuk ditingkatkan.
+APP_COMMAND_DESCRIBE_BANNER_IMAGE: Gambar yang ingin Anda gunakan sebagai baner Anda.
+APP_COMMAND_DESCRIBE_BANNER_URL: Tautan ke gambar yang ingin Anda gunakan sebagai baner.
+APP_COMMAND_DESCRIBE_CURRENT_RESIN: Jumlah resin yang Anda miliki saat ini.
+APP_COMMAND_DESCRIBE_CARD: Nama kartu yang ingin Anda cari.
+APP_COMMAND_DESCRIBE_ARTIFACT: Nama artefak yang ingin Anda cari.
+APP_COMMAND_DESCRIBE_ASSET_ID: ID untuk aset yang ingin Anda cari.
+APP_COMMAND_DESCRIBE_WEAPON: Nama senjata yang ingin Anda cari panduannya.
+APP_COMMAND_DESCRIBE_CHARACTER: Nama karakter yang ingin Anda cari.
+APP_COMMAND_DESCRIBE_CHARACTER_GUIDE: Nama karakter yang ingin Anda cari panduannya
+APP_COMMAND_DESCRIBE_CHARACTER_BUILD: Nama karakter yang ingin Anda cari build-nya.
+APP_COMMAND_DESCRIBE_CHARACTER_PLAYSTYLE: Nama karakter yang ingin Anda cari gaya bermainnya.
+APP_COMMAND_DESCRIBE_CHARACTER_SYNERGY: Nama karakter yang ingin Anda cari sinergi tim-nya.
+APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION_LOOKUP: Nama karakter yang ingin Anda cari material ascensionnya.
+APP_COMMAND_DESCRIBE_CHARACTER_CONSTELLATIONS: Nama karakter yang ingin Anda cari konstelasinya.
+APP_COMMAND_DESCRIBE_CHARACTER_SKILLS: Nama karakter yang ingin Anda cari talent skillnya.
+APP_COMMAND_DESCRIBE_CHARACTER_PASSIVE: Nama karakter yang ingin Anda cari talent pasifnya.
+APP_COMMAND_DESCRIBE_ITEM_REFERENCE_SHEET: Nama item yang Anda inginkan sebagai lembar referensi.
+APP_COMMAND_DESCRIBE_CRIT_RATE: Artefak Crit Rate.
+APP_COMMAND_DESCRIBE_CRIT_DAMAGE: Artefak Crit Damage.
+APP_COMMAND_DESCRIBE_QUESTION: Pertanyaan yang ingin Anda tanyakan pada Paimon.
+APP_COMMAND_DESCRIBE_PREFIX: Awalan baru yang ingin Anda set untuk bot.
+APP_COMMAND_DESCRIBE_EXPRESSION: Persamaan/kueri yang Anda coba hitung.
+APP_COMMAND_DESCRIBE_CODE_CHANNEL: Chanel untuk Anda ingin mengirim pesan.
+APP_COMMAND_DESCRIBE_CODE_PING: Role yang ingin Anda sebutkan beserta pesannya.
+APP_COMMAND_DESCRIBE_CODE_LIST: Kode penebusan yang ingin Anda kirim, dipisahkan dengan koma.
+APP_COMMAND_DESCRIBE_FEEDBACK: Saranan yang ingin Anda sampaikan.
+APP_CONTEXT_MENU_PROFILE: Profil
+APP_CONTEXT_MENU_STATISTICS: Progresi Statistik
+APP_CONTEXT_MENU_ABYSS: Progresi Abyss
+APP_CONTEXT_MENU_CHARACTERS: Karakter
+APP_CONTEXT_MENU_WISH_HISTORY: Riwayat Keinginan
+WHITELIST_KEY_LOWERCASE: daftar putih
+HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Keinginan Baner"
+SLASH_PAGINATION: Halaman {current_page}/{total_pages}
+OF_PAGINATION: Halaman {current_page}/{total_pages}
+HISTORY_COMMAND_TABLE_HEADER: "Kelangkaan | Pity | Nama | Tanggal"
+HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Dijamin Pity: {indicator}**"
+HISTORY_LINK_EXPIRED: Tautan Riwayat Tamat
+HISTORY_COMMAND_LIFETIME_PULLS: Pull Seumur Hidup
+HISTORY_COMMAND_WISHES_WORTH: Nilai keinginan
+HISTORY_COMMAND_CURRENT_PITIES: Pity Saat Ini
+SEARCH_ERROR: Pencarian ralat!
 HISTORY_COMMAND_NO_WISHES: |
-  No wishes were found for this search!
-  Try selecting a different banner to check below.
-HISTORY_COMMAND_NO_USER_WISHES: No wishes were found for this user!
-USER_NOT_REGISTERED_TITLE: User has not registered!
-REGISTERED_KEY: Registered
-NOT_REGISTERED_KEY: Not Registered
-USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** yet! Please register using </register:{command_id}> *before* using this command.
-FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."
-FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Note: This command requires you to register through the Wish History or HoYoLAB method."
-FOOTER_REQUIRE_UID_OR_HOYOLAB: "Note: This command requires you to register through the UID or HoYoLAB method."
-FOOTER_GCG_EXPANDED: Your TCG Showcase statistics can be shown in more detail if you register using your HoYoLAB account!
-LINK_HOYOLAB_TITLE: Genshin Wizard | Link HoYoLAB Account
-LINKING_UID_TITLE: Genshin Wizard | Link UID
+  Tidak ada keinginan yang ditemukan untuk pencarian ini!
+  Coba pilih baner lain untuk diperiksa di bawah.
+HISTORY_COMMAND_NO_USER_WISHES: Tidak ada keinginan yang ditemukan untuk pengguna ini!
+USER_NOT_REGISTERED_TITLE: Pengguna belum terdaftar!
+REGISTERED_KEY: Terdaftar
+NOT_REGISTERED_KEY: Tidak Terdaftar
+USER_NOT_REGISTERED_DESCRIPTION: Sayangnya, <@{mem_id}> **belum terdaftar**! Silakan mendaftar menggunakan </register:{command_id}> *sebelum* menggunakan perintah ini.
+FOOTER_REQUIRES_WISH_HISTORY: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode Riwayat Keinginan."
+FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode Riwayat Keinginan atau HoYoLAB."
+FOOTER_REQUIRE_UID_OR_HOYOLAB: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode UID atau HoYoLAB."
+FOOTER_GCG_EXPANDED: Statistik Pameran TCG Anda dapat ditampilkan dengan lebih detail jika anda mendaftar menggunakan akun HoYoLAB anda!
+LINK_HOYOLAB_TITLE: Genshin Wizard | Tautkan Akun Hoyolab
+LINKING_UID_TITLE: Genshin Wizard | Tautkan UID
 LINK_HOYOLAB_DESCRIPTION: |
-  Welcome to Genshin Wizard's HoYoLAB account linking system.
+  Selamat datang di sistem penautan akun HoYoLAB Genshin Wizard.
 
-  **Linking Features:**
-  > **1.** Access to your in-game resin count in real-time (set up automatic notifications).
-  > **2.** Access to your in-game expedition status in real-time.
-  > **3.** Ability to claim your *Daily Check-in Reward* straight from Discord.
-  > **4.** Ability to view in-depth information about your Spiral Abyss progression.
-  > **5.** View an infographic containing **all** your available characters.
+  **Fitur Penautan:**
+  > **1.** Akses ke hitungan resin dalam game anda mengikut waktu terkini (atur pemberitahuan otomatis).
+  > **2.** Akses ke status ekspedisi dalam game anda mengikut waktu terkini.
+  > **3.** Kemampuan untuk mengklaim *Hadiah Login Harian* anda langsung dari Discord.
+  > **4.** Kemampuan untuk melihat informasi mendalam tentang perkembangan Spiral Abyss anda.
+  > **5.** Lihat infografis yang berisi **semua** karakter anda yang tersedia.
 
-  To begin, click one of the user registration options below!
-HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Automatic Daily Sign-in
-AUTOCLAIM_ALREADY_DISABLED: Automatic HoYoLAB daily sign-in is already disabled.
-AUTOCLAIM_ALREADY_ENABLED: Automatic HoYoLAB daily sign-in is already enabled.
-AUTOCLAIM_DISABLED: Automatic HoYoLAB daily sign-in has been disabled.
-AUTOCLAIM_ENABLED: Automatic HoYoLAB daily sign-in has been enabled.
-AUTOCLAIM_VOTE_REQUIREMENT: You must **__vote__** for our server and bot before being able to enable autoclaim!
-HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | HoYoLAB Daily Sign-in
+  Untuk memulai, klik salah satu opsi pendaftaran pengguna di bawah ini!
+HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Login Harian Otomatis
+AUTOCLAIM_ALREADY_DISABLED: Login harian HoYoLAB otomatis sudah dinonaktifkan.
+AUTOCLAIM_ALREADY_ENABLED: Login harian HoYoLAB otomatis sudah diaktifkan.
+AUTOCLAIM_DISABLED: Login harian HoYoLAB otomatis telah dinonaktifkan.
+AUTOCLAIM_ENABLED: Login harian HoYoLAB otomatis telah diaktifkan.
+AUTOCLAIM_VOTE_REQUIREMENT: Anda harus **__vote__** untuk server dan bot kami sebelum dapat mengaktifkan klaim otomatis!
+HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | Login Harian HoYoLAB
 HOYOLAB_SIGN_IN_REWARDS: |
-  Successfully **claimed** daily reward!
-
-  Rewards Claimed: `{rewards}`
-  Amount: `x{amount}`
-HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | HoYoLAB Monthly Rewards
-HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: View HoYoLAB daily rewards for the month
-HOYOLAB_DIARY_TITLE: Genshin Wizard | Traveler's Diary
+  Berhasil **mengklaim** hadiah harian!
+  Hadiah Diklaim: `{rewards}`
+  Jumlah: `x{amount}`
+HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | Hadiah Bulanan HoYoLAB
+HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: Lihat hadiah bulanan HoYoLAB untuk bulan ini
+HOYOLAB_DIARY_TITLE: Genshin Wizard | Buku Harian Traveler
 HOYOLAB_INVALID_REDEEM: |
   You must provide a redemption code to redeem.
   **Proper Command Usage** ```/redeem CODE_ONE,CODE_TWO,...```
@@ -509,7 +508,7 @@ CALC_CHARACTER_INVALID_TARGET_LEVEL: You need to specify a valid target level!
 CALC_CHARACTER_REQUIREMENT_SURPASSED: Character has already **surpassed** the given desired level!
 CALC_CHARACTER_REQUIREMENT_MET: Character has already **reached** the given desired level!
 CALC_CHARACTER_TITLE: Genshin Wizard | Character Calculator
-CHARACTER_KEY: Character
+CHARACTER_KEY: Karakter
 CURRENT_LEVEL_KEY: Current Level
 TARGET_LEVEL_KEY: Target Level
 REQUIRED_RESOURCES_KEY: Required Resources
@@ -547,7 +546,7 @@ PRIVACY_SETTING_OVERVIEW: |
   > *Hide your showcase builds information from showing up anywhere (`/info`)*
 ALL_KEY: All
 RESET_KEY: Reset
-WISH_HISTORY_KEY: Wish History
+WISH_HISTORY_KEY: Riwayat Keinginan
 ABYSS_KEY: Abyss
 UID_KEY: UID
 STATS_KEY: Stats
@@ -607,7 +606,7 @@ LOCATION_KEY: Location
 TOP_ROLE_KEY: Top Role
 RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
 RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
-WISHES_WORTH_KEY: Wishes Worth
+WISHES_WORTH_KEY: Nilai keinginan
 OVERALL_SUMMARY_KEY: Overall Summary
 OVERALL_STATS_KEY: Overall Stats
 PERCENTAGE_KEY: Percentage
@@ -1131,7 +1130,7 @@ REGISTER_SCRIPT_BUTTON: Register via Script
 REGISTER_LOGIN_BUTTON: Register via Login
 ENTER_TOKEN_BUTTON: Enter Token
 REGISTER_ACCOUNT_BUTTON: Register Account
-CHARACTERS_BUTTON: Characters
+CHARACTERS_BUTTON: Karakter
 CLAIM_DAILY_REWARD_BUTTON: Claim Daily Reward
 MONTHLY_REWARDS_BUTTON: Monthly Rewards
 VIEW_TRAVELER_DIARY_BUTTON: View Traveler's Diary
@@ -1225,7 +1224,7 @@ UPDATE_BIO_MODAL_TITLE: Update Bio
 UPDATE_BIO_MODAL_LABEL: A short description about you. (200 chars)
 UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
 SELECT_CHOOSE_CATEGORY: Choose a category...
-PROFILE_KEY: Profile
+PROFILE_KEY: Profil
 PROFILE_DESCRIPTION: View your Genshin Wizard profile
 GENSHIN_STATISTICS_KEY: Genshin Stats
 GENSHIN_STATISTICS_DESCRIPTION: View your Genshin stats
@@ -1374,18 +1373,18 @@ ENABLE_ADAPTIVE_ART_SETTING: Aktifkan Seni Infografis Adaptif
 INVITE_BOT_KEY: Undang Bot
 HELP_DROPDOWN_DIRECTORY: Direktori Bantuan
 HELP_DROPDOWN_PROFILE_COMMANDS: Perintah Profil/Statistik
-HELP_DROPDOWN_WISH_COMMANDS: Perintah Harapan
+HELP_DROPDOWN_WISH_COMMANDS: Perintah Wish
 HELP_DROPDOWN_HOYOLAB_COMMANDS: Perintah HoYoLAB
 HELP_DROPDOWN_GUIDE_COMMANDS: Panduan Perintah
 HELP_DROPDOWN_MISCELLANEOUS_COMMANDS: Perintah Lain-lain
 HELP_DROPDOWN_DIRECTORY_DESCRIPTION: Lihat Direktori Bantuan Genshin Wizard
 HELP_DROPDOWN_PROFILE_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Profil
-HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Keinginan
+HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Wish
 HELP_DROPDOWN_HOYOLAB_COMMANDS_DESCRIPTION: Lihat Perintah Terkait HoYoLAB
 HELP_DROPDOWN_GUIDE_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Panduan
 HELP_DROPDOWN_MISCELLANEOUS_COMMANDS_DESCRIPTION: Lihat Perintah Terkait Lain-Lain
 HELP_PROFILE_COG_NAME: Profil/Statistik
-HELP_PROFILE_WISH_COG_NAME: Harapan
+HELP_PROFILE_WISH_COG_NAME: Keinginan
 HELP_HOYOLAB_COG_NAME: HoYoLAB
 HELP_GUIDE_COG_NAME: Panduan
 HELP_MISC_COG_NAME: Lain-lain
