@@ -37,7 +37,7 @@ VOTE_BOT_BUTTON: '[Bot] 투표'
 VOTE_SERVER_BUTTON: '[Server] 투표'
 DEVELOPERS_KEY: 개발자
 SERVER_KEY: 서버
-SERVERS_KEY: 서버들
+SERVERS_KEY: 서버
 USERS_KEY: 사용자
 WEBSITE_KEY: 웹사이트
 INVITE_KEY: 초대
@@ -81,7 +81,7 @@ PREFIX_CHANGED_DESCRIPTION: |
   **과거 접두사:** `{old_prefix}`
   **새로운 접두사:** `{new_prefix}`
 PREFIX_CHANGED_FOOTER: 원신위자드 접두사설정
-MATH_COMMAND_COMPUTE_ERROR: ":no_entry: 계산 오류! 바꿔 말해보세요."
+MATH_COMMAND_COMPUTE_ERROR: ":no_entry: 검색결과가 없습니다."
 MATH_COMMAND_RESULT: |
   **식:** `{expression}`
    **결과:**
@@ -106,7 +106,7 @@ INFO_USER_CACHE: 사용자 캐시
 INTERMISSION_MESSAGE: 정보를 생성하는중입니다 잠시만기다려주세요
 MENU_COOLDOWN_TITLE: 현재 메뉴는 정지상태입니다!
 BUTTON_COOLDOWN_TITLE: 현재 버튼은 정지상태입니다!
-COMMAND_COOLDOWN_TITLE: 쿨링 타임~
+COMMAND_COOLDOWN_TITLE: 쿨타임... 잠시만기다려주세요!
 MENU_COOLDOWN_VALUE: 속성을 너무 빨리 클릭하고 있습니다! **{cooldown}**초 후에 다시 시도하세요.
 CHARACTER_SHOWCASE_TITLE: 캐릭터 진열장
 ERROR_RATELIMIT: 사용자는 속도가 제한되어있습니다.
@@ -192,7 +192,7 @@ APP_COMMAND_SETTINGS_DESCRIPTION: Genshin Wizard 프로필 설정을 변경하�
 APP_COMMAND_STATS_DESCRIPTION: Genshin 계정의 통계를 확인합니다.
 APP_COMMAND_ABYSS_DESCRIPTION: Genshin 계정의 나선비경의 진행 상황을 확인하세요.
 APP_COMMAND_EXPLORATION_DESCRIPTION: Genshin 계정의 탐사도 진행 상황을 확인합니다.
-APP_COMMAND_UID_DESCRIPTION: 사용자의 Genshin UID/Region을 조회합니다.
+APP_COMMAND_UID_DESCRIPTION: 사용자의 원신 서버/UID를 조회합니다.
 APP_COMMAND_REGISTER_DESCRIPTION: Genshin Wizard에 Genshin 계정을 등록하십시오.
 APP_COMMAND_REFRESH_DESCRIPTION: 기원 내역의 링크를 새로 고칩니다(링크는 24시간마다 만료됩니다).
 APP_COMMAND_UNLINK_DESCRIPTION: Genshin 계정을 연결 해제하고 모든 데이터를 삭제됩니다
@@ -1354,7 +1354,7 @@ PREMIUM_PLAN_TIER_THREE: "프리미엄 계획: 티어 3"
 PREMIUM_PLAN_TIER_FOUR: "프리미엄 계획: 티어 4"
 ART_SETTINGS_KEY: 아트 설정
 CUSTOM_ROLE_KEY: 커스텀 역할
-ADD_PREMIUM_SERVERS_BUTTON: 프리미엄 서버들 추가
+ADD_PREMIUM_SERVERS_BUTTON: 프리미엄 서버를 추가
 ADD_PREMIUM_SERVER_BUTTON: 프리미엄 서버 추가
 ROLE_NAME_KEY: 역할 이름
 HEX_COLOR_KEY: 헥스 색상 코드
