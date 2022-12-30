@@ -144,21 +144,21 @@ ERROR_MISSING_REQUIRED_ATTACHMENT: "Você se esqueceu de providenciar um anexo, 
 ERROR_MISSING_MANAGE_MESSAGE: Saudações Viajante, não tenho permissão para `Gerir Mensagens` neste canal/guilda. Por favor habilite esta permissão e tente novamente.
 ERROR_MISSING_SEND_MESSAGE: Saudações Viajante, não tenho permissão para `Enviar Mensagens` neste canal/guilda. Por favor habilite esta permissão e tente novamente.
 MESSAGE_KEY: Mensagem
-ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
-ERROR_MESSAGE: There has been an error!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
+ERROR_EMPTY_BACKPACK: O seu inventário está **vazio**! Para começar a sua jornada, use o comando </wishsimulator:{command_id}>!
+ERROR_INTERACTION_MISMATCH: Saudações Viajante! Esta **não é a sua interação**! Use o comando {command} se quiser utilizar este comando você mesmo!
+ERROR_MESSAGE: Houve um erro!
+FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Opinião
+FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *A sua opinião foi enviada com sucesso para os desenvolvedores!*
 FEEDBACK_LOG_RESPONSE: |
-  > User: **{author_name}** | {author_mention}
+  > Utilizador: **{author_name}** | {author_mention}
   > Discord ID: `{author_id}`
 
-  **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </register:{command_id}> to link your account.
+  **Opinião:**```{feedback}```
+NO_HOYOLAB_LINKED: Você ainda não conectou a sua conta HoYoLAB. Use </register:{command_id}> para conectar a sua conta.
 OLD_HOYOLAB_LINKED: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
+  Saudações Viajante! Desculpe pelo inconveniente mas esta funcionalidade foi implementada **depois** de registar a sua conta `HoYoLAB` no Genshin Wizard.
 
-  In order to use this button, you must unlink your HoYoLAB account through </hoyo:{command_id}> and **relink** through the usual registration command.
+  Para usar este botão, deve remover a sua conta HoYoLAB através de </hoyo:{command_id}> e **reconectar** através do comando de registo habitual.
 CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Redemption
 CODE_REDEEM_DESCRIPTION: "*Please wait while we process your redemption code...*"
 CODE_REDEEM_PROGRESS: |
