@@ -430,57 +430,57 @@ HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
   > **3.** Setelah anda berhasil menjalankan skrip, klik tombol `Klik di sini untuk menyalin!` untuk menyalin cookie.
   > **4.** Terakhir, Anda dapat mendaftar dengan mengklik tombol `Masukkan Token` di bawah dan menempelkan token yang anda salin.
 HOYOLAB_REGISTER_SCRIPT: |
-  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)```
-HOYOLAB_REGISTER_LOGIN_TITLE: Registration | Login Method
+  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Silakan keluar dan login balik sebelum mencoba lagi, cookie saat ini kedaluwarsa/tidak valid!'); cookie=dokumen.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Klik di sini untuk menyalin!</button>`)``
+HOYOLAB_REGISTER_LOGIN_TITLE: Registrasi | Metode Login
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin, select the `Register` button down below.
-  > **2.** In the input fields, enter your HoYoLAB account login details, remember to use your **email** and password.
-  > **3.** Once you've successfully entered your account details, wait for Genshin Wizard to process your registration request, bear in mind that this may take a minute or two.
-  > **4.** Finally, if all the steps are done correctly, you will receive a **confirmation message** via DMs indicating that your account has been successfully linked.
+  **Cara menautkan akun HoYoLAB Anda dengan Genshin Wizard**
+  > **1.** Untuk memulai, pilih tombol `Daftar` di bawah.
+  > **2.** Di kolom input, masukkan detail login akun HoYoLAB anda, ingat untuk menggunakan **email** dan kata sandi anda.
+  > **3.** Setelah anda berhasil memasukkan detail akun anda, sila tunggu Genshin Wizard memproses permintaan pendaftaran anda, harap diingat bahwa ini mungkin memerlukan waktu satu atau dua menit.
+  > **4.** Terakhir, jika semua langkah dilakukan dengan benar, anda akan menerima **pesan konfirmasi** melalui DM yang menandakan bahwa akun anda telah berhasil ditautkan.
 
-  <:information:1021014187197083668> **Note:** This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead.
-HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
-ARE_YOU_SURE: Are you sure?
+  <:informasi:1021014187197083668> **Catatan:** Metode ini ada di sini untuk kenyamanan/QOL. Jika Anda mengkhawatirkan keamanan akun Anda, harap gunakan metode skrip atau bentuk pendaftaran lainnya.
+HOYOLAB_REGISTER_LOGIN_FOOTER: Pengingat ramah bahwa Genshin Wizard tidak menyimpan detail akun anda! Metode pendaftaran ini mengambil cookie yang diperlukan untuk melihat statistik akun anda.
+ARE_YOU_SURE: Apa kamu yakin?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
-  You have requested to **unlink** your HoYoLAB account from Genshin Wizard.
-  This means that you will no longer be able to *claim your daily rewards*, view your *full abyss progression*, and other extended features such as *viewing all your characters*.
-UNLINKING_SUCCESSFUL: Unlinking successful!
-UNLINKING_SUCCESSFUL_DESCRIPTION: Your account has been successfully unlinked from Genshin Wizard!
-UNLINKING_UNSUCCESSFUL: Unlinking unsuccessful!
-UNLINKING_UNSUCCESSFUL_DESCRIPTION: Oops! Unlinking was unsuccessful, there was an error. Please try again or contact a staff member!
-UNLINKING_CANCELLED: Unlinking cancelled!
-UNLINKING_CANCELLED_DESCRIPTION: You have cancelled your unlink request!
-OBTAINED_KEY: Obtained
-NOT_OWNED_KEY: Not Owned
-PROFICIENCY_KEY: Proficiency
-USE_COUNT_KEY: Use Count
-IMPORT_ERROR: Import Error!
-FOOTER_ERROR_DESCRIPTION: If you believe this is an error, please contact a staff member.
+  Anda telah meminta untuk **membatalkan tautan** akun HoYoLAB anda dari Genshin Wizard.
+  Ini berarti kamu tidak lagi dapat *mengklaim hadiah harian*, melihat *perkembangan penuh abyss*, dan fitur tambahan lainnya seperti *melihat semua karaktermu*.
+UNLINKING_SUCCESSFUL: Berhasil Menghapuskan Tautan!
+UNLINKING_SUCCESSFUL_DESCRIPTION: Akun anda telah berhasil dihapuskan tautannya dari Genshin Wizard!
+UNLINKING_UNSUCCESSFUL: Gagal menghapuskan tautan!
+UNLINKING_UNSUCCESSFUL_DESCRIPTION: Ups! Menghapuskan tautan tidak berhasil, terdapat keralatan. Silakan coba lagi atau hubungi anggota staf!
+UNLINKING_CANCELLED: Menghapuskan tautan dibatalkan!
+UNLINKING_CANCELLED_DESCRIPTION: Anda telah membatalkan permintaan penghapusan tautan!
+OBTAINED_KEY: Diperoleh
+NOT_OWNED_KEY: Belum dimiliki
+PROFICIENCY_KEY: Kecakapan
+USE_COUNT_KEY: Gunakan Hitungan
+IMPORT_ERROR: Keralatan Impor!
+FOOTER_ERROR_DESCRIPTION: Jika anda yakin ini adalah keralatan, harap hubungi anggota staf.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  Data yang anda coba impor tidak **didukung**. Saat ini kami *hanya* mengizinkan impor dari berikut ini:
   > `Paimon.moe`
   > `Genshin-Wishes`
-  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-IMPORT_COMMAND_TITLE: Genshin Wizard | Import Wish History
+  Lihat [**Dokumentasi**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) kami untuk informasi lebih lanjut.
+IMPORT_COMMAND_TITLE: Genshin Wizard | Impor Riwayat Permohonan
 IMPORT_COMMAND_FILE_DETECTED: |
-  **Detected Import Source: `{source}`**
-  *Please wait while we import your wish history...*
-IMPORT_COMMAND_TAMPERED: The data you are trying to import has been **tampered** with. Please **don't change** anything within the files before importing, try redownloading the data and importing *again*.
-IMPORT_COMMAND_BANNER_IMPORTED: Successfully imported `{number_wishes}` wishes for {banner_name} banner!
-IMPORT_COMMAND_SUCCESS: Successfully imported `{total_wishes}` new wishes from all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
+  *Sumber Impor Terdeteksi: `{source}`**
+  *Harap tunggu sebentar untuk kami mengimpor riwayat permohonan anda...*
+IMPORT_COMMAND_TAMPERED: Data yang anda coba impor telah **dirusak**. Harap **jangan ubah** apa pun di dalam file sebelum mengimpor, coba unduh ulang data dan impor *lagi*.
+IMPORT_COMMAND_BANNER_IMPORTED: Berhasil mengimpor `{number_wishes}` permohonan untuk baner {banner_name}!
+IMPORT_COMMAND_SUCCESS: Berhasil mengimpor `{total_wishes}` permohonan terkini dari semua baner! Sekarang anda dapat menggunakan perintah </history:{command_id}> untuk melihat lebih banyak informasi terkait permohonan anda.
 IMPORT_COMMAND_LOG: |
-  **User:** {user} | `{user_id}`
-  **Name:** `{name}`
+  **Pengguna:** {user} | `{user_id}`
+  **Nama:** `{name}`
   **Guild:** `{guild_id}` | `{guild_name}`
 
-  **Detected Import Source:** `{source}`
-  **Total:** `{total}` wishes imported!
-  > 3-Stars: `{three_star}`
-  > 4-Stars: `{four_star}`
-  > 5-Stars: `{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </register:{command_id}>.
-IMPORT_COMMAND_LINK_EXPIRED_TITLE: History Link Expired!
+  **Sumber Impor Terdeteksi:** `{source}`
+  **Total:** `{total}` keinginan diimpor!
+  > Bintang 3: `{three_star}`
+  > Bintang 4: `{four_star}`
+  > Bintang 5: `{five_star}`
+IMPORT_COMMAND_NOT_REGISTERED: Anda harus sudah **terdaftar** untuk mengimpor riwayat permohonan yang sudah ada sebelumnya! Coba impor lagi setelah mendaftar menggunakan perintah </register:{command_id}>.
+IMPORT_COMMAND_LINK_EXPIRED_TITLE: Tautan Riwayat Tamat!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Your history link has **expired**! Please refresh using the command </refresh:{command_id}> before trying to import!
 IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **excel** sheet from their [Wish Counter](https://paimon.moe/wish) page settings. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
 IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: This file type is **not supported**. Please make sure you're not *changing* the file type before trying to import. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
