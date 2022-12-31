@@ -54,23 +54,23 @@ TRUTH_COMMAND_RESPONSES:
   - Convinced.
   - It is certain.
   - It is decidedly so.
-  - Without a doubt.
+  - बिना किसी शंका के।
   - Most Likely.
   - Chances High.
-  - No.
-  - I think not.
+  - नही।
+  - मुझे ऐसा नही लगता।
   - Negative.
-  - My sources say no.
+  - मेरे गुप्तचरों के अनुसार ऐसा नहीं है |
   - Not Convinced.
   - Perhaps.
   - Not Sure.
   - शायद |
-  - Who knows?
+  - किसे पता?
   - I cannot predict now.
-  - I am tired. *proceeds with sleeping*
+  - मैं थक चुकि हूँ। *सोने चलि गयी*
   - बिल्कुल
 TRUTH_COMMAND_TITLE: Paimon's Wisdom
-QUESTION_KEY: Question
+QUESTION_KEY: प्रश्न
 RESPONSE_KEY: प्रतिक्रियाt
 PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
 PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
@@ -240,7 +240,7 @@ APP_COMMAND_REFERENCESHEETS_DESCRIPTION: View all available reference sheets.
 APP_COMMAND_TODO_DESCRIPTION: Check daily/weekly events in Genshin Impact.
 APP_COMMAND_BANNERS_DESCRIPTION: View ongoing Genshin Impact event banners.
 APP_COMMAND_CONFIG_DESCRIPTION: Genshin Wizard config setup panel, configure automatic announcements and more!
-APP_COMMAND_PARTNER_DESCRIPTION: hidden
+APP_COMMAND_PARTNER_DESCRIPTION: छिपा हुआ
 APP_COMMAND_SETUP_DESCRIPTION: Genshin Wizard Role Integration Setup Panel.
 APP_COMMAND_PREMIUM_DESCRIPTION: Purchase Genshin Wizard Premium to gain access to premium features.
 APP_COMMAND_ROLE_DESCRIPTION: Applies specific character roles to a user. Refer to relative text channel for more information.
@@ -282,7 +282,7 @@ WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge r
 INFO_COMMAND_SHOWCASE_TITLE: Character Showcase
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: Enka.Network पर देखें
 REFRESHES_KEY: Refreshes
-INFO_COMMAND_CHARACTER_DETAILS: Character
+INFO_COMMAND_CHARACTER_DETAILS: अक्षर
 INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!
 INFO_COMMAND_CACHE_DESCRIPTION: |
   **Genshin Wizard Cache **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
@@ -316,8 +316,8 @@ APP_COMMAND_DESCRIBE_USER_AVATAR: The member you wish to view an avatar for.
 APP_COMMAND_DESCRIBE_UID: The UID of the member you are trying to search for.
 APP_COMMAND_DESCRIBE_USER_WISH: Search up a specific user's Genshin Wish history.
 APP_COMMAND_DESCRIBE_AUTOCLAIM: Enable/Disable automatic HoYoLAB daily sign-in.
-ENABLE_KEY: Enable
-DISABLE_KEY: Disable
+ENABLE_KEY: सक्षम करें
+DISABLE_KEY: अक्षम करें
 ENABLE_AUTOCLAIM: Enable automatic daily sign-in.
 DISABLE_AUTOCLAIM: Disable automatic daily sign-in.
 APP_COMAND_DESCRIBE_CODES: The redemption code you wish to redeem for your account.
@@ -345,14 +345,14 @@ APP_COMMAND_DESCRIBE_CHARACTER_PASSIVE: The name of the character you want to lo
 APP_COMMAND_DESCRIBE_ITEM_REFERENCE_SHEET: The name of the item you want a reference sheet for.
 APP_COMMAND_DESCRIBE_CRIT_RATE: The CRIT Rate of the artifact.
 APP_COMMAND_DESCRIBE_CRIT_DAMAGE: The CRIT Damage of the artifact.
-APP_COMMAND_DESCRIBE_QUESTION: The question you wish to ask Paimon.
+APP_COMMAND_DESCRIBE_QUESTION: प्रश्न जो आप पाइमन से पूछने की इछा रख्ते है।
 APP_COMMAND_DESCRIBE_PREFIX: The new prefix you wish to set for the bot.
 APP_COMMAND_DESCRIBE_EXPRESSION: The equation/query you're attempting to compute.
 APP_COMMAND_DESCRIBE_CODE_CHANNEL: The channel you want to send the message in.
 APP_COMMAND_DESCRIBE_CODE_PING: The role you want to mention along with the message.
 APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated by a comma.
 APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
-APP_CONTEXT_MENU_PROFILE: Profile
+APP_CONTEXT_MENU_PROFILE: प्रोफ़ाइल
 APP_CONTEXT_MENU_STATISTICS: Stats Progression
 APP_CONTEXT_MENU_ABYSS: Abyss Progression
 APP_CONTEXT_MENU_CHARACTERS: Characters
@@ -372,9 +372,9 @@ HISTORY_COMMAND_NO_WISHES: |
   No wishes were found for this search!
   Try selecting a different banner to check below.
 HISTORY_COMMAND_NO_USER_WISHES: No wishes were found for this user!
-USER_NOT_REGISTERED_TITLE: User has not registered!
+USER_NOT_REGISTERED_TITLE: उपयोगकर्ता पंजीकृत नहीं है!
 REGISTERED_KEY: पंजीकृत।
-NOT_REGISTERED_KEY: Not Registered
+NOT_REGISTERED_KEY: पंजीकृत नहीं|
 USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** yet! Please register using </register:{command_id}> *before* using this command.
 FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."
 FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Note: This command requires you to register through the Wish History or HoYoLAB method."
@@ -441,7 +441,7 @@ HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
 
   <:information:1021014187197083668> **Note:** This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead.
 HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
-ARE_YOU_SURE: Are you sure?
+ARE_YOU_SURE: क्या आप सुनिश्चित हैं?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
   You have requested to **unlink** your HoYoLAB account from Genshin Wizard.
   This means that you will no longer be able to *claim your daily rewards*, view your *full abyss progression*, and other extended features such as *viewing all your characters*.
@@ -455,7 +455,7 @@ OBTAINED_KEY: Obtained
 NOT_OWNED_KEY: Not Owned
 PROFICIENCY_KEY: Proficiency
 USE_COUNT_KEY: Use Count
-IMPORT_ERROR: Import Error!
+IMPORT_ERROR: आयात त्रुटि|
 FOOTER_ERROR_DESCRIPTION: If you believe this is an error, please contact a staff member.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
   The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
@@ -508,7 +508,7 @@ CALC_CHARACTER_INVALID_TARGET_LEVEL: You need to specify a valid target level!
 CALC_CHARACTER_REQUIREMENT_SURPASSED: Character has already **surpassed** the given desired level!
 CALC_CHARACTER_REQUIREMENT_MET: Character has already **reached** the given desired level!
 CALC_CHARACTER_TITLE: Genshin Wizard | Character Calculator
-CHARACTER_KEY: Character
+CHARACTER_KEY: अक्षर
 CURRENT_LEVEL_KEY: Current Level
 TARGET_LEVEL_KEY: Target Level
 REQUIRED_RESOURCES_KEY: Required Resources
@@ -1224,7 +1224,7 @@ UPDATE_BIO_MODAL_TITLE: Update Bio
 UPDATE_BIO_MODAL_LABEL: A short description about you. (200 chars)
 UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
 SELECT_CHOOSE_CATEGORY: Choose a category...
-PROFILE_KEY: Profile
+PROFILE_KEY: प्रोफ़ाइल
 PROFILE_DESCRIPTION: View your Genshin Wizard profile
 GENSHIN_STATISTICS_KEY: Genshin Stats
 GENSHIN_STATISTICS_DESCRIPTION: View your Genshin stats
