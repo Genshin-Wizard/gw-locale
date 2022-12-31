@@ -425,45 +425,45 @@ GCG_NO_CARDS_FOUND: Không tìm thấy Thẻ Bài nào!
 GCG_NO_CARDS_FOUND_DESCRIPTION: Nhà Lữ Hành ơi! Thật đáng tiếc, {member} **chưa có thẻ bài nào**! Hãy vào game và chơi Thất Thánh Triệu Hồi trước khi dùng lệnh này nhé.
 HOYOLAB_REGISTER_SCRIPT_TITLE: Đăng ký | Sử dụng Script
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin with, login to your [**HoYoLAB**](https://www.hoyolab.com/home) account.
-  > **2.** Type `java` in the address bar followed by the script down below.
-  > **3.** Once you've successfully ran the script, click the `Click here to copy!` button to copy the cookie.
-  > **4.** Finally, you're able to register by clicking the `Enter Token` button below and pasting the token you copied.
+  **Cách liên kết tài khoản HoYoLAB của bạn với Genshin Wizard**
+  > **1.** Để bắt đầu, hãy đăng nhập vào tài khoản [**HoYoLAB**](https://www.hoyolab.com/home) của bạn.
+  > **2.** Nhập `java` vào thanh địa chỉ của trình duyệt, sau đó sao chép script bên dưới và dán vào thanh địa chỉ (ngay sau chữ 'java').
+  > **3.** Sau khi chạy script thành công, hãy bấm vào dòng `Bấm vào đây để copy!` để copy cookie.
+  > **4.** Cuối cùng, bạn đã có thể đăng ký bằng cách bấm nút `Nhập Token` bên dưới và dán token bạn vừa copy vào.
 HOYOLAB_REGISTER_SCRIPT: |
-  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)```
-HOYOLAB_REGISTER_LOGIN_TITLE: Registration | Login Method
+  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Vui lòng đăng xuất và đăng nhập lại tài khoản HoYoLAB của bạn, cookie hiện đã hết hạn/không hợp lệ!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Bấm vào đây để copy!</button>`)```
+HOYOLAB_REGISTER_LOGIN_TITLE: Đăng ký | Phương thức Login
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin, select the `Register` button down below.
-  > **2.** In the input fields, enter your HoYoLAB account login details, remember to use your **email** and password.
-  > **3.** Once you've successfully entered your account details, wait for Genshin Wizard to process your registration request, bear in mind that this may take a minute or two.
-  > **4.** Finally, if all the steps are done correctly, you will receive a **confirmation message** via DMs indicating that your account has been successfully linked.
+  **Cách liên kết tài khoản HoYoLAB của bạn với Genshin Wizard**
+  > **1.** Để bắt đầu, nhấn nút `Đăng ký` bên dưới.
+  > **2.** Ở trường bên dưới, nhập thông tin đăng nhập tài khoản HoYoLAB của bạn, sử dụng **email** và password.
+  > **3.** Sau khi bạn đã nhập thông tin, hãy đợi Genshin Wizard xử lý yêu cầu của bạn, xin lưu ý rằng quá trình này sẽ mất vài phút.
+  > **4.** Khi quá trình đăng ký hoàn tất, bạn sẽ nhận được **tin nhắn xác nhận** thông qua tin nhắn riêng tư rằng quá trình liên kết tài khoản đã hoàn tất.
 
-  <:information:1021014187197083668> **Note:** This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead.
-HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
-ARE_YOU_SURE: Are you sure?
+  <:information:1021014187197083668> **Lưu ý:** Phương pháp Login này chỉ là để tiện lợi cho bạn. Nếu bạn quan ngại về vấn đề bảo mật tài khoản của mình, hãy cân nhắc sử dụng các phương pháp đăng ký khác.
+HOYOLAB_REGISTER_LOGIN_FOOTER: Xin lưu ý rằng Genshin Wizard không lưu trữ thông tin đăng nhập của bạn! Phương thức đăng ký này chỉ tìm kiếm những cookie cần thiết để hiển thị các số liệu từ tài khoản của bạn.
+ARE_YOU_SURE: Bạn có chắc không?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
-  You have requested to **unlink** your HoYoLAB account from Genshin Wizard.
-  This means that you will no longer be able to *claim your daily rewards*, view your *full abyss progression*, and other extended features such as *viewing all your characters*.
-UNLINKING_SUCCESSFUL: Unlinking successful!
-UNLINKING_SUCCESSFUL_DESCRIPTION: Your account has been successfully unlinked from Genshin Wizard!
-UNLINKING_UNSUCCESSFUL: Unlinking unsuccessful!
-UNLINKING_UNSUCCESSFUL_DESCRIPTION: Oops! Unlinking was unsuccessful, there was an error. Please try again or contact a staff member!
-UNLINKING_CANCELLED: Unlinking cancelled!
-UNLINKING_CANCELLED_DESCRIPTION: You have cancelled your unlink request!
-OBTAINED_KEY: Obtained
-NOT_OWNED_KEY: Not Owned
+  Bạn đã yêu cầu **hủy liên kết** tài khoản HoYoLAB của bạn với Genshin Wizard. 
+  Bạn sẽ không thể *nhận quà điểm danh hàng ngày*, hiển thị *tiến trình La Hoàn Thâm Cảnh*, và các tính năng mở rộng khác như *hiển thị chi tiết nhân vật* thông qua Genshin Wizard.
+UNLINKING_SUCCESSFUL: Hủy liên kết thành công!
+UNLINKING_SUCCESSFUL_DESCRIPTION: Đã hủy liên kết với Genshin Wizard thành công!
+UNLINKING_UNSUCCESSFUL: Hủy liên kết không thành công!
+UNLINKING_UNSUCCESSFUL_DESCRIPTION: Ôi! Có vẻ như quá trình hủy liên kết đã gặp lỗi. Vui lòng thử lại hoặc liên hệ trợ giúp!
+UNLINKING_CANCELLED: Đã bỏ quá trình hủy liên kết!
+UNLINKING_CANCELLED_DESCRIPTION: Bạn đã bỏ quá trình hủy liên kết!
+OBTAINED_KEY: Đã nhận
+NOT_OWNED_KEY: Chưa sở hữu
 PROFICIENCY_KEY: Proficiency
 USE_COUNT_KEY: Use Count
-IMPORT_ERROR: Import Error!
-FOOTER_ERROR_DESCRIPTION: If you believe this is an error, please contact a staff member.
+IMPORT_ERROR: Lỗi nhập!
+FOOTER_ERROR_DESCRIPTION: Nếu bạn tin đây là lỗi, vui lòng liên hệ thành viên staff.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
   The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
   > `Paimon.moe`
   > `Genshin-Wishes`
   Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-IMPORT_COMMAND_TITLE: Genshin Wizard | Import Wish History
+IMPORT_COMMAND_TITLE: Genshin Wizard | Nhập Lịch sử Cầu nguyện
 IMPORT_COMMAND_FILE_DETECTED: |
   **Detected Import Source: `{source}`**
   *Please wait while we import your wish history...*
