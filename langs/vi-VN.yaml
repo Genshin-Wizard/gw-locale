@@ -41,7 +41,7 @@ SERVERS_KEY: Số server
 USERS_KEY: Số người dùng
 WEBSITE_KEY: Website
 INVITE_KEY: Mời Bot
-DOCUMENTATION_KEY: Tài liệu
+DOCUMENTATION_KEY: Tài liệu hướng dẫn
 GWIZ_INVITE: Genshin Wizard Invite
 AVATAR_KEY: Avatar
 ARTIFACT_CRIT_VALUE_TITLE: Tính toán Crit Value Thánh Di Vật
@@ -459,16 +459,16 @@ USE_COUNT_KEY: Use Count
 IMPORT_ERROR: Lỗi nhập!
 FOOTER_ERROR_DESCRIPTION: Nếu bạn tin đây là lỗi, vui lòng liên hệ thành viên staff.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  Dữ liệu bạn nhập vào **không được hỗ trợ**. Genshin Wizard chỉ hỗ trợ nhập từ các nguồn:
   > `Paimon.moe`
   > `Genshin-Wishes`
-  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
+  Hãy kiểm tra [**Tài liệu hướng dẫn**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) để biết thêm thông tin.
 IMPORT_COMMAND_TITLE: Genshin Wizard | Nhập Lịch sử Cầu nguyện
 IMPORT_COMMAND_FILE_DETECTED: |
-  **Detected Import Source: `{source}`**
-  *Please wait while we import your wish history...*
-IMPORT_COMMAND_TAMPERED: The data you are trying to import has been **tampered** with. Please **don't change** anything within the files before importing, try redownloading the data and importing *again*.
-IMPORT_COMMAND_BANNER_IMPORTED: Successfully imported `{number_wishes}` wishes for {banner_name} banner!
+  **Đã phát hiện nguồn nhập dữ liệu: `{source}`**
+  *Vui lòng đợi trong khi chúng tôi nhập lịch sử cầu nguyện của bạn...*
+IMPORT_COMMAND_TAMPERED: Dữ liệu bạn đã nhập vào **đã bị chỉnh sửa**. Vui lòng **không chỉnh sửa** bất cứ phần nào của dữ liệu trước khi nhập, hãy thử tải lại dữ liệu và *nhập lại*!
+IMPORT_COMMAND_BANNER_IMPORTED: Đã nhập `{number_wishes}` lần cầu nguyện cho banner {banner_name}!
 IMPORT_COMMAND_SUCCESS: Successfully imported `{total_wishes}` new wishes from all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
 IMPORT_COMMAND_LOG: |
   **User:** {user} | `{user_id}`
