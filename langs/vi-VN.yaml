@@ -41,7 +41,7 @@ SERVERS_KEY: Số server
 USERS_KEY: Số người dùng
 WEBSITE_KEY: Website
 INVITE_KEY: Mời Bot
-DOCUMENTATION_KEY: Tài liệu
+DOCUMENTATION_KEY: Tài liệu hướng dẫn
 GWIZ_INVITE: Genshin Wizard Invite
 AVATAR_KEY: Avatar
 ARTIFACT_CRIT_VALUE_TITLE: Tính toán Crit Value Thánh Di Vật
@@ -459,38 +459,38 @@ USE_COUNT_KEY: Use Count
 IMPORT_ERROR: Lỗi nhập!
 FOOTER_ERROR_DESCRIPTION: Nếu bạn tin đây là lỗi, vui lòng liên hệ thành viên staff.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  Dữ liệu bạn nhập vào **không được hỗ trợ**. Genshin Wizard chỉ hỗ trợ nhập từ các nguồn:
   > `Paimon.moe`
   > `Genshin-Wishes`
-  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
+  Hãy kiểm tra [**Tài liệu hướng dẫn**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) để biết thêm thông tin.
 IMPORT_COMMAND_TITLE: Genshin Wizard | Nhập Lịch sử Cầu nguyện
 IMPORT_COMMAND_FILE_DETECTED: |
-  **Detected Import Source: `{source}`**
-  *Please wait while we import your wish history...*
-IMPORT_COMMAND_TAMPERED: The data you are trying to import has been **tampered** with. Please **don't change** anything within the files before importing, try redownloading the data and importing *again*.
-IMPORT_COMMAND_BANNER_IMPORTED: Successfully imported `{number_wishes}` wishes for {banner_name} banner!
-IMPORT_COMMAND_SUCCESS: Successfully imported `{total_wishes}` new wishes from all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
+  **Đã phát hiện nguồn nhập dữ liệu: `{source}`**
+  *Vui lòng đợi trong khi chúng tôi nhập lịch sử cầu nguyện của bạn...*
+IMPORT_COMMAND_TAMPERED: Dữ liệu bạn đã nhập vào **đã bị chỉnh sửa**. Vui lòng **không chỉnh sửa** bất cứ phần nào của dữ liệu trước khi nhập, hãy thử tải lại dữ liệu và *nhập lại*!
+IMPORT_COMMAND_BANNER_IMPORTED: Đã nhập `{number_wishes}` lần cầu nguyện cho banner {banner_name}!
+IMPORT_COMMAND_SUCCESS: Đã nhập vào `{total_wishes}` lần cầu nguyện mới từ tất cả banner! Bạn giờ đây có thể sử dụng lệnh </history:{command_id}> để hiển thị thêm thông tin về lịch sử cầu nguyện của bạn.
 IMPORT_COMMAND_LOG: |
-  **User:** {user} | `{user_id}`
-  **Name:** `{name}`
+  **Người dùng:** {user} | `{user_id}`
+  **Biệt danh:** `{name}`
   **Guild:** `{guild_id}` | `{guild_name}`
 
-  **Detected Import Source:** `{source}`
-  **Total:** `{total}` wishes imported!
-  > 3-Stars: `{three_star}`
-  > 4-Stars: `{four_star}`
-  > 5-Stars: `{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </register:{command_id}>.
-IMPORT_COMMAND_LINK_EXPIRED_TITLE: History Link Expired!
-IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Your history link has **expired**! Please refresh using the command </refresh:{command_id}> before trying to import!
-IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **excel** sheet from their [Wish Counter](https://paimon.moe/wish) page settings. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: This file type is **not supported**. Please make sure you're not *changing* the file type before trying to import. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-LEADERBOARD_NO_DATA: No data found for this specific query!
-LEADERBOARD_EXPERIENCE_FOOTER: Experience can be gained by being active in the server. Chat more to increase your Genshin Wizard ranking level!
-LEADERBOARD_WISHES_FOOTER: Wishes are updated via banner summary and refresh command(s). Check your banners to actively get an updated wish count!
-LEADERBOARD_PLAYTIME_FOOTER: Playtime is updated via stats/info commands, check your stats/builds frequently to actively get an updated playtime count!
-LEADERBOARD_ACHIEVEMENTS_FOOTER: Achievements are updated via stats/info commands, check your stats/builds frequently to actively get an updated achievement count!
-LEADERBOARD_CHESTS_FOOTER: Chests are updated via stats commands, check your stats frequently to actively get an updated chest count!
+  **Nguồn nhập:** `{source}`
+  **Tổng cộng:** `{total}` lần cầu nguyện đã nhập!
+  > 3 sao: `{three_star}`
+  > 4 sao: `{four_star}`
+  > 5 sao: `{five_star}`
+IMPORT_COMMAND_NOT_REGISTERED: Bạn phải **đăng ký** để nhập lịch sử cầu nguyện đã có sẵn! Vui lòng thử lại sau khi đăng ký bằng lệnh </register:{command_id}>.
+IMPORT_COMMAND_LINK_EXPIRED_TITLE: Link lịch sử đã hết hạn!
+IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Link lịch sử của bạn **đã hết hạn**! Vui lòng làm mới lại sử dụng lệnh </refresh:{command_id}> trước khi thử nhập lại!
+IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: "Định dạng file này **không được hỗ trợ**. Nếu bạn đang thử nhập dữ liệu từ `Paimon.moe`, hãy đảm bảo rằng bạn đã tải file **Excel** từ trang [Lịch Sử Cầu Nguyện](https://paimon.moe/wish) của Paimon.moe.\nHãy kiểm tra **Tài liệu hướng dẫn**(https://docs.genshinwizard.com/wishing-centre/importing-wishes) để biết thêm thông tin."
+IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: "Định dạng file này **không được hỗ trợ**. Hãy đảm bảo rằng bạn không đổi định dạng file trước khi nhập. \nHãy kiểm tra **Tài liệu hướng dẫn**(https://docs.genshinwizard.com/wishing-centre/importing-wishes) để biết thêm thông tin."
+LEADERBOARD_NO_DATA: Không tìm thấy dữ liệu cho mục này!
+LEADERBOARD_EXPERIENCE_FOOTER: Bạn có thể nhận Kinh nghiệm qua tương tác với server. Hãy chat nhiều hơn để nâng level trên bảng xếp hạng của Genshin Wizard!
+LEADERBOARD_WISHES_FOOTER: Số lần cầu nguyện được cập nhật qua tổng quan banner và lệnh refresh. Hãy kiểm tra banner của bạn thường xuyên để cập nhật chính xác số lần cầu nguyện!
+LEADERBOARD_PLAYTIME_FOOTER: Thời gian chơi được cập nhật qua lệnh stats/info, hãy kiểm tra thông số/build của bạn thường xuyên để cập nhật thời gian chơi!
+LEADERBOARD_ACHIEVEMENTS_FOOTER: Thành tựu được cập nhật qua lệnh stats/info, hãy kiểm tra thông số/build của bạn thường xuyên để cập nhật số thành tựu chính xác!
+LEADERBOARD_CHESTS_FOOTER: Số rương đã mở được cập nhật qua lệnh stats, hãy kiểm tra thông số của bạn thường xuyên để cập nhật số rương đã mở chính xác!
 LEADERBOARD_GACHA_SIMULATOR_FOOTER: Simulator leaderboards are updated via gacha simulator commands, use the gacha simulator actively to climb the ranks!
 LEADERBOARD_ARTIFACT_FOOTER: Artifact information is updated via info commands, check your builds frequently to actively get updated artifact stats!
 LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Character stats information is updated via info commands, check your builds frequently to actively get updated character stats!
@@ -499,23 +499,23 @@ LEADERBOARD_DONATION_FOOTER: Donate via the support links found in the /donate c
 LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Crunching data, please be **patient**...* <a:tyno:1001656937689120788>
 ERROR_GUILD_ONLY_BUTTON: ":no_entry: You must be in a guild to use this button!"
 QUERY_NO_RESULTS: "No results found for `{input}`. Please rephrase and try again!"
-LOCATION_COMMAND_ROUTES_TITLE: Farming Routes Overview
-LOCATION_COMMAND_MAP_TITLE: "{resource} Map Locations"
-LOCATION_COMMAND_REGION_DESCRIPTION: "Local {region} Specialty:"
+LOCATION_COMMAND_ROUTES_TITLE: Tổng quan lộ trình farm
+LOCATION_COMMAND_MAP_TITLE: "Địa điểm {resource} trên Map"
+LOCATION_COMMAND_REGION_DESCRIPTION: "Đặc Sản Khu Vực {region}:"
 LOCATION_COMMAND_FARMABLE_FOOTER: Farmable locations for specified material
-CALC_CHARACTER_INVALID_CHARACTER: You need to specify a valid character!
+CALC_CHARACTER_INVALID_CHARACTER: Bạn cần chỉ định một nhân vật hợp lệ!
 CALC_CHARACTER_INVALID_STARTING_LEVEL: You need to specify a valid starting level!
 CALC_CHARACTER_INVALID_TARGET_LEVEL: You need to specify a valid target level!
 CALC_CHARACTER_REQUIREMENT_SURPASSED: Character has already **surpassed** the given desired level!
 CALC_CHARACTER_REQUIREMENT_MET: Character has already **reached** the given desired level!
-CALC_CHARACTER_TITLE: Genshin Wizard | Character Calculator
+CALC_CHARACTER_TITLE: Genshin Wizard | Dự tính bồi dưỡng
 CHARACTER_KEY: Nhân vật
-CURRENT_LEVEL_KEY: Current Level
-TARGET_LEVEL_KEY: Target Level
-REQUIRED_RESOURCES_KEY: Required Resources
-GENSHIN_WIZARD_USER_PROFILE: "{user}'s Genshin Wizard Profile"
-PROFILE_SUMMARY_KEY: Profile Summary
-GENSHIN_WISH_STATS_KEY: Genshin Wish Stats
+CURRENT_LEVEL_KEY: Level hiện tại
+TARGET_LEVEL_KEY: Level mục tiêu
+REQUIRED_RESOURCES_KEY: Nguyên liệu cần thiết
+GENSHIN_WIZARD_USER_PROFILE: "Profile Genshin Wizard của {user}"
+PROFILE_SUMMARY_KEY: Tổng quan Profile
+GENSHIN_WISH_STATS_KEY: Thông số Cầu nguyện
 PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
 GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
 GENSHIN_STATISTICS_INFOGRAPHIC: Genshin Statistics Infographic
@@ -596,46 +596,46 @@ ABYSSAL_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Abyssal Archives**
   **Start Time:** <t:{timestamp_start}:F>
   **End Time:** <t:{timestamp_end}:F>
-UID_LOOKUP: Genshin UID Lookup
-UID_LOOKUP_TITLE: "{user}'s Genshin Account UID"
-PUBLIC_KEY: Public
-PRIVATE_KEY: Private
-CREATION_DATA_KEY: Creation Date
-JOIN_DATE_KEY: Join Date
+UID_LOOKUP: Tìm kiếm Genshin UID
+UID_LOOKUP_TITLE: "Genshin UID của {user}"
+PUBLIC_KEY: Công khai
+PRIVATE_KEY: Riêng tư
+CREATION_DATA_KEY: Ngày tạo
+JOIN_DATE_KEY: Ngày tham gia
 NOT_HERE_KEY: Not Here
-LOCATION_KEY: Location
-TOP_ROLE_KEY: Top Role
-RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
-RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
+LOCATION_KEY: Địa điểm
+TOP_ROLE_KEY: Role đầu
+RECENT_FIVE_STAR_CHARACTER: "**Nhân vật 5 :star: gần đây**"
+RECENT_FIVE_STAR_WEAPON: "**Vũ khí 5 :star: gần đây**"
 WISHES_WORTH_KEY: Tổng số Nguyên Thạch
 OVERALL_SUMMARY_KEY: Overall Summary
 OVERALL_STATS_KEY: Overall Stats
-PERCENTAGE_KEY: Percentage
-TOTAL_WISHES_KEY: Total Wishes
-TOTAL_KEY: Total
-TOTAL_FIVE_STAR: Total 5-star
-NUMBER_FIVE_STAR: Number of 5-star
-TOTAL_FOUR_STAR: Total 4-star
-NUMBER_FOUR_STAR: Number of 4-star
-TOTAL_THREE_STAR: Total 3-star
+PERCENTAGE_KEY: Phần trăm
+TOTAL_WISHES_KEY: Tổng số Cầu nguyện
+TOTAL_KEY: Tổng
+TOTAL_FIVE_STAR: Tổng số 5 sao
+NUMBER_FIVE_STAR: Số 5 sao
+TOTAL_FOUR_STAR: Tổng số 4 sao
+NUMBER_FOUR_STAR: Số 4 sao
+TOTAL_THREE_STAR: Tổng số 3 sao
 REGISTER_PC_METHOD: "PC"
 REGISTER_ANDROID_METHOD: "Android"
 IOS_KEY: "iOS"
 CONSOLE_KEY: "Console"
 REGISTER_IOS_METHOD: "iOS (Stream App Method)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
+  Hãy truy cập [Tài liệu GitHub](https://github.com/Genshin-Wizard/historyLink) để xem hướng dẫn chi tiết với hình ảnh minh họa.
 
-  1. Open Genshin Impact Game on your PC
-  2. Go to the wish history page and wait for it to load
-  3. Go back to Windows
-  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  5. Then copy the following code and paste it in the Powershell window
+  1. Mở Genshin Impact trên PC
+  2. Mở trang Lịch sử Cầu nguyện và đợi trang load thành công
+  3. Trở về desktop
+  4. Mở Start Menu trên thanh taskbar, nhập từ bàn phím cụm từ "PowerShell" và mở "Windows PowerShell"
+  5. Sau đó copy đoạn code bên dưới dán vào cửa sổ PowerShell:
   ```ps
   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
   ```
-  6. Hit `ENTER` to have the link copied to your clipboard
-  7. Click the button below and paste the link in the input field
+  6. Nhấn Enter, đợi chương trình chạy xong. Một đường link sẽ được tự động copy.
+  7. Nhấn nút bên dưới rồi paste đường link đó vào.
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   After the 3.0 update, users can no longer simply copy and paste the history link on Android devices anymore.
 
@@ -655,8 +655,8 @@ REGISTER_COMMAND_IOS_DIRECTIONS: |
   10. Click the button below and paste the link in the input field.
 RESELECT_PLATFORM_KEY: Re-Select Platform
 REGISTER_COMMAND_CONSOLE_DIRECTIONS: Following the 2.3 update event links don't work anymore. This being said, it is still possible to obtain the key by linking your Playstation account with a Mihoyo account and using the pc/mobile method instead.
-REGISTER_COMMAND_PLATFORM_SELECTION: Which platform do you use to play Genshin Impact?
-REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | Wish History Registration
+REGISTER_COMMAND_PLATFORM_SELECTION: Bạn thường chơi Genshin Impact qua nền tảng nào?
+REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | Đăng ký Lịch sử Cầu nguyện
 REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
   Welcome to Genshin Wizard's Registration system.
 
@@ -669,9 +669,9 @@ REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
 
   Which platform do you use to play Genshin Impact?
 ERROR_INVALID_UID: Please provide a valid UID to link your Genshin account to your Discord account.
-ERROR_INVALID_REGISTRATION_URL: Hey Traveler, this is an **invalid link!** Make sure you followed the steps correctly and try again.
+ERROR_INVALID_REGISTRATION_URL: Nhà Lữ Hành ơi, đường link này **không hợp lệ**! Hãy đảm bảo rằng bạn đã làm đúng các bước và thử lại.
 ERROR_UNEXPECTED_ERROR: An unexpected error has occurred. Please report this to staff!
-REGISTER_COMMAND_NO_WISHES_TITLE: No wishes found!
+REGISTER_COMMAND_NO_WISHES_TITLE: Không tìm thấy Cầu nguyện nào!
 REGISTER_COMMAND_NO_WISHES_DESCRIPTION: |
   You do not have any wishes yet! Please register again once you have wished on at-least one banner.
   Wishes show up in history about 1-2 hours after wishing.
@@ -1196,7 +1196,7 @@ CRIT_RATE_LABEL: "CRIT Rate"
 CRIT_DMG_LABEL: "CRIT DMG"
 ENERGY_RECHARGE_LABEL: "Energy Recharge"
 ELEMENTAL_MASTERY_LABEL: "Elemental Mastery"
-TOTAL_WISHES_LABEL: "Total Wishes"
+TOTAL_WISHES_LABEL: "Tổng số Cầu nguyện"
 PRIMOGEM_COUNT_LABEL: "Total Primogems"
 STARDUST_COUNT_LABEL: "Stardust Count"
 STARGLITTER_COUNT_LABEL: "Starglitter Count"
