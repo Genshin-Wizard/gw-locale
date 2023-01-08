@@ -97,7 +97,7 @@ SEND_CODES_REDEEM_AUTOMATICALLY: 자동으로 교환
 SEND_CODES_DIRECT_LINK: 다이렉트링크
 SEND_CODES_REDEEMABLE_CODES: 사용 가능한 코드
 SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | 사용 가능한 코드
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: '{channel} 로 리딤코드를 성공적으로 보냈습니다!'
 MESSAGE_LINK: 메시지 링크
 CLICK_HERE: 여기를 클릭해주세요
 INFO_SELECT_CHARACTER: 캐릭터 선택
@@ -165,65 +165,65 @@ CODE_REDEEM_PROGRESS: |
   *보상 코드를 처리하는 중이야. 잠깐만 기다려줘!*
    <a:loading:1015667958237900801> `{code}` 코드 사용 시도 중
 HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | 만료된 쿠키
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: 여행자! 귀하의 HoYoLAB 코드 상환 쿠키가 **만료**된 것 같습니다! </hoyo:{command_id}> 명령을 사용하고 계정 재연결 프로세스를 완료하여 HoYoLAB 계정 쿠키를 **새로 고침**하세요.
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: 여행자! 여행자의 HoYoLAB 쿠키가 **만료**돼버렸어! 쿠키를 **새로 가져와야** 하니까, </hoyo:{command_id}> 명령어를 사용해서 계정 재연결을 진행해줘!
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[봇초대](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[공식웹사이트](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*보상 코드가 성공적으로 처리되었습니다!*"
-APP_COMMAND_INFO_DESCRIPTION: 사용자의 게임 내 쇼케이스에 있는 캐릭터의 빌드를 보여줍니다.
-APP_COMMAND_EXPORT_DESCRIPTION: 개인 메시지를 통해 텍스트 파일 형식의 Genshin 뽑기 기록을 내보냅니다.
-APP_COMMAND_HISTORY_DESCRIPTION: Genshin 계정 기원 기록을 확인합니다.
-APP_COMMAND_DAILY_DESCRIPTION: 일일 HoYoLAB 로그인 보상수령
-APP_COMMAND_MONTHLY_DESCRIPTION: 이번달의 HoYoLAB 일일 보상을 확인하세요.
-APP_COMMAND_DIARY_DESCRIPTION: HoYoLAB 여행자의 다이어리 기록보기.
-APP_COMMAND_REDEEM_DESCRIPTION: Genshin Impact에 대한 교환 코드를 사용해주세요.
-APP_COMMAND_HOYO_DESCRIPTION: Genshin Wizard에서 HoYoLAB 계정을 확인해주세요.
-APP_COMMAND_CHARACTERS_DESCRIPTION: 원신 계정에 보유하시는 캐릭터들을 요약해서 보여줍니다.
-APP_COMMAND_TCG_DESCRIPTION: 계정의 일곱 성인의 소환 쇼케이스를 확인해주세요.
-APP_COMMAND_IMPORT_DESCRIPTION: 다른 인기 사이트에서 가챠 기원 기록을 가져옵니다.
-APP_COMMAND_LEADERBOARD_DESCRIPTION: Genshin Wizard의 순위표를 확인합니다.
-APP_COMMAND_LOCATION_DESCRIPTION: 주어진 리소스에 대해 알려진 위치(들)을 표시합니다.
-APP_COMMAND_LOCATIONS_DESCRIPTION: 사용 가능한 리소스 위치 목록을 표시합니다.
-APP_COMMAND_CALC_DESCRIPTION: 주어진 캐릭터 레벨돌파에 필요한 재료를 계산합니다.
-APP_COMMAND_BANNER_DESCRIPTION: Genshin Wizard 프로필의 배너를 변경하십시오.
-APP_COMMAND_PROFILE_DESCRIPTION: 개인 Genshin Wizard 프로필을 확인합니다.
-APP_COMMAND_SETTINGS_DESCRIPTION: Genshin Wizard 프로필 설정을 변경하세요.
-APP_COMMAND_STATS_DESCRIPTION: Genshin 계정의 통계를 확인합니다.
-APP_COMMAND_ABYSS_DESCRIPTION: Genshin 계정의 나선비경의 진행 상황을 확인하세요.
-APP_COMMAND_EXPLORATION_DESCRIPTION: Genshin 계정의 탐사도 진행 상황을 확인합니다.
-APP_COMMAND_UID_DESCRIPTION: 사용자의 원신 서버/UID를 조회합니다.
-APP_COMMAND_REGISTER_DESCRIPTION: Genshin Wizard에 Genshin 계정을 등록하십시오.
-APP_COMMAND_REFRESH_DESCRIPTION: 기원 내역의 링크를 새로 고칩니다(링크는 24시간마다 만료됩니다).
-APP_COMMAND_UNLINK_DESCRIPTION: Genshin 계정을 연결 해제하고 모든 데이터를 삭제됩니다
-APP_COMMAND_REMINDERS_DESCRIPTION: 레진, 선계 및 원정에 대해 알리도록 미리 알림을 설정합니다.
-APP_COMMAND_RESIN_DESCRIPTION: 레진이 재충전되면 알려주는 레진 알림을 설정하세요.
-APP_COMMAND_GACHA_DESCRIPTION: 지정된 배너에 대한 전체 기원 내역을 보여주는 업데이트된 인포그래픽을 표시합니다.
-APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Genshin Wish Simulator로 가챠 운을 시험해보세요!
-APP_COMMAND_INVENTORY_DESCRIPTION: Genshin Wizard 인벤토리를 확인합니다.
-APP_COMMAND_SHOP_DESCRIPTION: Genshin Wizard's Shop을 확인합니다.
-APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: Genshin Wizard의 캐릭터 아카이브를 확인합니다.
-APP_COMMAND_COMMISSIONS_DESCRIPTION: 일일 보상수령하기
-APP_COMMAND_BALANCE_DESCRIPTION: Genshin Wizard 계정의 잔액확인.
+CODE_REDEEM_SUCCESS: "*축하해! 보상 코드가 성공적으로 처리됐어!*"
+APP_COMMAND_INFO_DESCRIPTION: 여행자가 설정한 쇼케이스 캐릭터들의 빌드를 확인할 수 있어.
+APP_COMMAND_EXPORT_DESCRIPTION: 개인 메시지로 여행자의 기원 기록을 텍스트 파일 형식으로 출력해.
+APP_COMMAND_HISTORY_DESCRIPTION: 여행자의 기원 기록을 볼 수 있어.
+APP_COMMAND_DAILY_DESCRIPTION: 일일 HoYoLAB 로그인 보상을 수령해.
+APP_COMMAND_MONTHLY_DESCRIPTION: 이번 달의 HoYoLAB 일일 보상 목록을 확인할 수 있어.
+APP_COMMAND_DIARY_DESCRIPTION: HoYoLAB 여행자 다이어리를 확인해.
+APP_COMMAND_REDEEM_DESCRIPTION: 리딤코드를 사용할 수 있어.
+APP_COMMAND_HOYO_DESCRIPTION: 여행자가 Genshin Wizard에 등록한 HoYoLAB 계정을 확인할 수 있어.
+APP_COMMAND_CHARACTERS_DESCRIPTION: 여행자의 보유중인 캐릭터들의 요약 정보를 볼 수 있어.
+APP_COMMAND_TCG_DESCRIPTION: 여행자의 `일곱성인의 소환` 쇼케이스를 확인할 수 있어.
+APP_COMMAND_IMPORT_DESCRIPTION: 다른 인기 사이트에서 여행자의 기원 기록을 가져올 수 있어.
+APP_COMMAND_LEADERBOARD_DESCRIPTION: Genshin Wizard의 순위표를 볼 수 있어.
+APP_COMMAND_LOCATION_DESCRIPTION: 특산물의 위치를 표시해줘.
+APP_COMMAND_LOCATIONS_DESCRIPTION: 확인할 수 있는 특산물 목록을 표시해줘.
+APP_COMMAND_CALC_DESCRIPTION: 선택한 캐릭터의 필요한 성장재료들을 계산해줘.
+APP_COMMAND_BANNER_DESCRIPTION: 여행자의 Genshin Wizard 프로필 배너를 수정할 수 있어.
+APP_COMMAND_PROFILE_DESCRIPTION: 여행자의 Genshin Wizard 프로필을 확인해.
+APP_COMMAND_SETTINGS_DESCRIPTION: 여행자의 Genshin Wizard 프로필을 변경할 수 있어.
+APP_COMMAND_STATS_DESCRIPTION: 여행자 계정의 전체 요약 정보를 확인할 수 있어.
+APP_COMMAND_ABYSS_DESCRIPTION: 여행자의 나선 진행 상황을 확인할 수 있어.
+APP_COMMAND_EXPLORATION_DESCRIPTION: 여행자의 탐사도를 확인할 수 있어.
+APP_COMMAND_UID_DESCRIPTION: 여행자의 UID/서버를 확인할 수 있어.
+APP_COMMAND_REGISTER_DESCRIPTION: 여행자의 정보를 Genshin Wizard에 등록해.
+APP_COMMAND_REFRESH_DESCRIPTION: 여행자의 기원 기록을 갱신해 (확인을 위한 링크는 24시간마다 만료돼).
+APP_COMMAND_UNLINK_DESCRIPTION: 여행자 계정의 연결을 해제하고, 모든 정보를 삭제해.
+APP_COMMAND_REMINDERS_DESCRIPTION: 여행자의 레진, 선계 및 원정에 대한 알림을 설정해.
+APP_COMMAND_RESIN_DESCRIPTION: 여행자의 레진이 다 찼을 때의 알림을 설정해.
+APP_COMMAND_GACHA_DESCRIPTION: 가장 최근 업데이트된 여행자의 캐릭터 배너 기록 요약정보를 표시해.
+APP_COMMAND_WISHSIMULATOR_DESCRIPTION: 기원 시뮬레이터로 여행자의 운을 시험해봐!
+APP_COMMAND_INVENTORY_DESCRIPTION: 여행자의 기원 시뮬레이터 배낭을 확인해.
+APP_COMMAND_SHOP_DESCRIPTION: 기원 시뮬레이터용 상점을 확인해.
+APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: 여행자가 진행한 기원 시뮬레이터의 획득 기록을 확인해.
+APP_COMMAND_COMMISSIONS_DESCRIPTION: 기원 시뮬레이터 일일 보상 수령하기
+APP_COMMAND_BALANCE_DESCRIPTION: 여행자의 기원 시뮬레이터 잔액 정보를 확인해.
 APP_COMMAND_EDIT_DESCRIPTION: Genshin wizard의 캐릭터 상세정보를 수정합니다.
-APP_COMMAND_EDIT_ADD_DESCRIPTION: 특정 캐릭터에 대한 새 빌드를 추가합니다.
-APP_COMMAND_DESCRIBE_EDIT_ADD_CHARACTER: 빌드를 추가하려는 캐릭터의 이름을 입력하세요.
-APP_COMMAND_DESCRIBE_EDIT_ADD_BUILD: 빌드의 이름을 추가합니다
-APP_COMMAND_EDIT_REMOVE_DESCRIPTION: 특정 캐릭터의 빌드를 제거합니다.
+APP_COMMAND_EDIT_ADD_DESCRIPTION: 특정 캐릭터의 빌드를 추가할 수 있어.
+APP_COMMAND_DESCRIBE_EDIT_ADD_CHARACTER: 빌드를 추가하려는 캐릭터의 이름을 알려줄래?
+APP_COMMAND_DESCRIBE_EDIT_ADD_BUILD: 새로 만들 빌드의 이름을 알려줄래?
+APP_COMMAND_EDIT_REMOVE_DESCRIPTION: 특정 캐릭터의 빌드를 제거할 수 있어.
 APP_COMMAND_DESCRIBE_EDIT_REMOVE_CHARACTER: 현재 캐릭터 빌드를 제거합니다.
-APP_COMMAND_DESCRIBE_EDIT_REMOVE_BUILD: 현재 빌드를 제거합니다.
-APP_COMMAND_EDIT_BUILD_DESCRIPTION: 특정 캐릭터의 빌드를 제거합니다.
-APP_COMMAND_DESCRIBE_EDIT_BUILD_CHARACTER: 빌드를 변경할 캐릭터의 이름입니다.
-APP_COMMAND_EDIT_PLAYSTYLE_DESCRIPTION: 특정한 캐릭터의 플레이스타일을 변경합니다.
-APP_COMMAND_DESCRIBE_PLAYSTYLE_CHARACTER: 플레이스타일을 변경할 캐릭터의 이름을 입력해주세요.
-APP_COMMAND_EDIT_SYNERGY_DESCRIPTION: 특정 캐릭터의 시너지가 있는 조합을 변경합니다.
-APP_COMMAND_DESCRIBE_SYNERGY_CHARACTER: 조합을 변경할 캐릭터의 이름을 입력해주세요.
-APP_COMMAND_FARM_DESCRIPTION: 현재 지역의 비경 스케줄을 확인합니다.
-APP_COMMAND_TCGCARD_DESCRIPTION: 일곱 성인의 소환 카드를 검색합니다.
-APP_COMMAND_ARTIFACT_DESCRIPTION: 특정 성유물의 세트 옵션을 확인합니다.
-APP_COMMAND_ARTIFACTS_DESCRIPTION: 성유물 목록을 확인합니다.
-APP_COMMAND_TRANSLATE_DESCRIPTION: Genshin Wizard 번역에 기여하는 방법입니다.
+APP_COMMAND_DESCRIBE_EDIT_REMOVE_BUILD: 제거할 빌드의 이름을 알려줄래?
+APP_COMMAND_EDIT_BUILD_DESCRIPTION: 특정 캐릭터의 빌드를 수정할 수 있어.
+APP_COMMAND_DESCRIBE_EDIT_BUILD_CHARACTER: 빌드를 수정할 캐릭터의 이름을 알려줄래?
+APP_COMMAND_EDIT_PLAYSTYLE_DESCRIPTION: 특정한 캐릭터의 플레이스타일을 수정할 수 있어.
+APP_COMMAND_DESCRIBE_PLAYSTYLE_CHARACTER: 플레이스타일을 수정할 캐릭터의 이름을 알려줘.
+APP_COMMAND_EDIT_SYNERGY_DESCRIPTION: 특정 캐릭터의 추천 조합을 수정할 수 있어.
+APP_COMMAND_DESCRIBE_SYNERGY_CHARACTER: 추천 조합을 수정할 캐릭터의 이름을 알려줘.
+APP_COMMAND_FARM_DESCRIPTION: 현재 여행자 서버의 비경 스케줄을 확인할 수 있어.
+APP_COMMAND_TCGCARD_DESCRIPTION: '`일곱성인의 소환` 카드의 정보를 확인할 수 있어.'
+APP_COMMAND_ARTIFACT_DESCRIPTION: 성유물의 세트 효과를 확인할 수 있어.
+APP_COMMAND_ARTIFACTS_DESCRIPTION: 확인 가능한 성유물 목록을 표시해줘.
+APP_COMMAND_TRANSLATE_DESCRIPTION: Genshin Wizard 번역에 기여하는 방법을 표시해줘.
 APP_COMMAND_ID_DESCRIPTION: 해당 ID를 사용하여 게임 내 에셋을 조회합니다.
 APP_COMMAND_WEAPON_DESCRIPTION: 특정 무기의 가이드를 찾습니다.
 APP_COMMAND_GUIDE_DESCRIPTION: 특정 캐릭터의 가이드를 찾습니다.
@@ -703,7 +703,7 @@ UNLINKING_CONFIRMATION: Genshin Wizard에서 요청한 데이터를 **성공적�
 UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: 이 UID는 다른 사용자에게 **이미 등록**되었습니다! 이것이 오류라고 생각되면 [**Genshin Wizard 지원**](https://discord.gg/BTT5Zr7Dmp)에 문의하십시오!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: 다른 UID에 **이미 등록**되었습니다! 다른 계정을 사용하여 등록하려면 다시 등록을 시도하기 전에 </unlink:{command_id}>를 사용하십시오."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard 등륵하기
-GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Genshin Wizard에 Genshin 계정을 등록하십시오.
+GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: 여행자의 정보를 Genshin Wizard에 등록해.
 HOYOLAB_ACCOUNT: 호요랩 계정
 LINKED_UID_KEY: 링크 UID
 LINKED_KEY: 링크
@@ -1414,4 +1414,4 @@ CUSTOM_ROLE_ICON_REQUEST_TIMEOUT: 어떠한 인풋도 받지 못하여 이 요�
 CUSTOM_ROLE_ICON_NOT_IMAGE: 이봐 여행자! 이 첨부파일은 **image**여야 한다구!
 CUSTOM_ROLE_ICON_SUCCESS: 사용자의 커스텀 역할 아이콘이 성공적으로 변경되었습니다. 확인 메시지는 10초 후에 삭제됩니다.
 DEFAULT_KEY: 기본
-EDITOR_NOT_WHITELISTED: Hello Traveler! You are **not whitelisted** to edit guides. Please [**Apply Here**](https://genshinwizard.com/sumeru/) for a chance to join the elite Sumeru Scholars team!
+EDITOR_NOT_WHITELISTED: 안녕 여행자! 여행자는 아직 가이드 편집이 허용되지 않은 상태야! (https://genshinwizard.com/sumeru/)에 지원해 수메르 학파에 들어갈 기회를 노려봐!
