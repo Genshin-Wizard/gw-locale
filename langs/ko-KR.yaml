@@ -104,64 +104,65 @@ INFO_SELECT_CHARACTER: 캐릭터 선택
 INFO_CHARACTER_SOURCE: "소스: 저장된 빌드"
 INFO_USER_CACHE: 사용자 캐시
 INTERMISSION_MESSAGE: 정보를 생성하는 중 입니다. **잠시만** 기다려주세요.
-MENU_COOLDOWN_TITLE: 현재 메뉴는 정지상태입니다!
-BUTTON_COOLDOWN_TITLE: 현재 버튼은 정지상태입니다!
-COMMAND_COOLDOWN_TITLE: 쿨타임... 잠시만기다려주세요!
-MENU_COOLDOWN_VALUE: 속성을 너무 빨리 클릭하고 있습니다! **{cooldown}**초 후에 다시 시도하세요.
+MENU_COOLDOWN_TITLE: 그 메뉴는 재사용 대기중이야. 기다려줘!
+BUTTON_COOLDOWN_TITLE: 그 버튼은 재사용 대기중이야. 기다려줘!
+COMMAND_COOLDOWN_TITLE: 그 명령어는 재사용 대기중이야. 기다려줘!
+MENU_COOLDOWN_VALUE: 이봐! 너무 빨리 클릭하면 안된다고! **{cooldown}**초 후에 다시 눌러줘!
 CHARACTER_SHOWCASE_TITLE: 캐릭터 진열장
 ERROR_RATELIMIT: 사용자는 속도가 제한되어있습니다.
 ERROR_COMMAND_COOLDOWN_VALUE: '{cooldown}초 후 명령어를 다시 사용해주세요'
 ERROR_COMMAND_LONG_COOLDOWN_VALUE: <t:{cooldown}:R>후 명령어를 다시 사용해주세요
-ERROR_KEY: 에러!
-SUCCESSFUL_KEY: 성공!
+ERROR_KEY: 오류야!
+SUCCESSFUL_KEY: 성공했어!
 ERROR_MISSING_PERMISSION: 현재 명령어는 사용할 수 있는 권한이없습니다!
 EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | 특별 명령어
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  이봐 여행자! 여기서는 이 명령을 사용할 수 없습니다**. 이 명령은 서버에서만 사용할 수 있습니다!
+  여행자! 여기서는 그 명령어를 **사용못해**. 이건 공식 서버에서만 사용할 수 있다구!
 
-   이 명령을 사용하려면 [Official Discord](https://discord.gg/genshinwizard) 가입을 고려하세요.
-ERROR_COMMAND_INVOKE: 현재 명령어에 올바른 매개변수를 사용하고 있는지 확인하십시오!
-ERROR_PRIVACY_SETTING_TITLE: 숨겨진 정보 | 볼 게 없습니다!
-ERROR_PRIVACY_SETTING_DESCRIPTION: 여행자! 아쉽게도 검색하려는 사람은 **개인정보 보호**가 활성화되어 있습니다!
+  이 명령어를 사용하고 싶으면, 여기에 가입해줘! [Genshin Wizard 공식 디스코드](https://discord.gg/genshinwizard)
+ERROR_COMMAND_INVOKE: 여행자! 명령어 뒤에 정보를 올바르게 입력했는데 확인해줘!
+ERROR_PRIVACY_SETTING_TITLE: 숨겨진 정보 | 볼 수 있는게 없어!
+ERROR_PRIVACY_SETTING_DESCRIPTION: 여행자! 아쉽게도 이 여행자는 **공개설정**이 되어있지 않아서 검색을 할 수 없어!
 ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | 지속적업데이트!
-ERROR_ONGOING_UPDATE_DESCRIPTION: 여행자! Genshin Wizard는 현재 **점검 중**이며 현재 명령어는 일시적으로 *비활성화*되었습니다. 나중에 다시 시도 해주십시오*.
+ERROR_ONGOING_UPDATE_DESCRIPTION: 여행자! 지금 Genshin Wizard 가 **점검중**이야! 그래서 모든 명령어가 잠시 *비활성화* 되었을꺼야. 점검이 끝날 때 까지 조금만 기다려줘!
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  여행자! 여기서 이 명령어를 사용하는 것은 **허용되지 않습니다**. 이것은 Genshin Wizard 서버 {command_type}전용 명령어 입니다!
+  여행자! 아쉽게도 이 명령어는 **사용못해**. 이건 Genshin Wizard 서버 {command_type} *전용* 명령어야!
 
-   이 명령을 사용하려면 [공식 디스코드](https://discord.gg/genshinwizard) 가입을 하시면 사용가능합니다.
+  이 명령어를 사용하고 싶으면, 여기에 가입해줘! [Genshin Wizard 공식 디스코드](https://discord.gg/genshinwizard)
 ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard 프리미엄
-ERROR_PREMIUM_COMMAND_DESCRIPTION: 여행자! 이 명령을 사용할 수 없습니다**. 이 명령은 **프리미엄 구독자**만 사용할 수 있습니다. 이 기능을 사용하려면 </premium:{command_id}> 명령을 사용하여 자세히 알아보세요.
+ERROR_PREMIUM_COMMAND_DESCRIPTION: "여행자! 아쉽게도 이 명령어는 **사용못해**. 이건 **프리미엄 구독자**들을 위한 기능이야.\n자세한 내용은 </premium:{command_id}> 을 입력해서 확인해줘!"
 ERROR_BLACKLISTED_TITLE: 원신 위자드 | 블랙리스트
 ERROR_BLACKLISTED_DESCRIPTION: |
-  여행자! Genshin Wizard 사용이 **금지**되었습니다!
+  여행자! 여행자의 Genshin Wizard 사용이 **금지**되었어!
 
-   이것이 오류라고 생각되면 [Official Discord](https://discord.gg/genshinwizard) 가입을 하시면 사용가능합니다.
+  여행자 생각에 오류인 것 같으면, 공식 서버에 가입해서 자세한 정보를 확인해봐!
+  [Genshin Wizard 공식 디스코드](https://discord.gg/genshinwizard)
 ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | 맴버를 찾을수없습니다.
-ERROR_MEMBER_NOT_FOUND_DESCRIPTION: 찾아보려는 멤버가 이 서버에 있는지 다시 확인을 해주세요.
-ERROR_MISSING_REQUIRED_ARGUMENT: "인수를 제공하는 것을 잊었습니다. 올바른 형식을 사용하세요: ```{usage}```"
-ERROR_MISSING_REQUIRED_ATTACHMENT: "첨부파일을 제공하는 것을 잊으셨습니다. 올바른 형식을 사용하세요: ```올바른 첨부파일과 함께 {usage}명령을 사용해주세요.```"
-ERROR_MISSING_MANAGE_MESSAGE: 여행자님, 이 채널/길드 내에서 '메시지 관리' 권한이 없습니다. 이 권한을 활성화하고 다시 시도하십시오.
-ERROR_MISSING_SEND_MESSAGE: 여행자님, 이 채널/길드 내에서 '메시지 보내기' 권한이 없습니다. 이 권한을 활성화하고 다시 시도하십시오.
-MESSAGE_KEY: 메세지
-ERROR_EMPTY_BACKPACK: 배낭이 **비었습니다**! 여정을 시작하려면 </wishsimulator:{command_id}> 명령을 사용하세요!
-ERROR_INTERACTION_MISMATCH: 여행자! 이것은 당신이 상호작용을 할 수 있는것이 **아닙니다!** 이 명령을 직접 사용하려면 {command} 명령을 사용하십시오!
-ERROR_MESSAGE: 오류가 발생했습니다!
+ERROR_MEMBER_NOT_FOUND_DESCRIPTION: 찾고싶은 여행자가 이 서버에 있는지 한 번 더 확인해줄래?
+ERROR_MISSING_REQUIRED_ARGUMENT: "여행자, 추가로 입력해야 하는 값을 잊어버린 것 같아. 올바르게 입력해줘!: ```{usage}```"
+ERROR_MISSING_REQUIRED_ATTACHMENT: "여행자, 첨부파일을 깜빡했어! 올바른 형식의 첨부파일을 사용해줘!: ```올바른 첨부파일과 함께 {usage} 명령을 사용해줘!```"
+ERROR_MISSING_MANAGE_MESSAGE: 여행자, 아쉽지만 이 채널/길드 에서의 `메시지 관리`권한이 없는 것 같아. 해당 권한을 활성화 해준 다음에 다시 시도해볼래?
+ERROR_MISSING_SEND_MESSAGE: 여행자, 아쉽지만 이 채널/길드 에서의 `메시지 보내기`권한이 없는 것 같아. 해당 권한을 활성화 해준 다음에 다시 시도해볼래?
+MESSAGE_KEY: 메시지
+ERROR_EMPTY_BACKPACK: 여행자, 배낭이 **비어있잖아**! 여정을 시작하려면 </wishsimulator:{command_id}> 명령어를 사용해줘!
+ERROR_INTERACTION_MISMATCH: 여행자! 이건 **여행자가 조작할 수 없는거야**! 이걸 사용하고 싶으면 {command} 명령어를 사용해줘!
+ERROR_MESSAGE: 오류가 발생했어!
 FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | 피드백
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *귀하의 피드백이 개발자에게 성공적으로 전송되었습니다!*
+FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *여행자의 조언이 개발자에게 성공적으로 전달됐어!*
 FEEDBACK_LOG_RESPONSE: |
   > 사용자: **{author_name}** | {author_mention}
    > 디스코드 ID: `{author_id}`
 
    **피드백:**```{feedback}```
-NO_HOYOLAB_LINKED: 아직 HoYoLAB 계정을 연결하지 않았습니다. </register:{command_id}>를 사용하여 계정을 연결하세요.
+NO_HOYOLAB_LINKED: 여행자, 아직 HoYoLAB 계정을 연결하지 않았구나. </register:{command_id}> 명령어를 사용해서 계정연결을 먼저 진행해줘!
 OLD_HOYOLAB_LINKED: |
-  안녕하세요 여행자님! 불편을 드려 죄송합니다. **이 기능은 **HoYoLAB** 계정을 Genshin Wizard에 등록한 후** 활성화가 가능합니다.
+  여행자! 사용에 불편을 줘서 미안해. 이 기능은 `HoYoLAB` 계정을 Genshin Wizard에 **등록한 다음에** 사용 가능해.
 
-   이 버튼을 사용하려면 </hoyo:{command_id}>를 통해 HoYoLAB 계정의 연결을 해제하고 일반적인 등록 명령을 통해 **재연결**해야 합니다.
-CODE_REDEEM_TITLE: 원신 위자드 | HoYoLAB 코드 사용
-CODE_REDEEM_DESCRIPTION: "*보상 코드를 처리하는 동안 잠시 기다려 주십시오...*"
+  우선은 </hoyo:{command_id}> 명령어를 이용해서 HoYoLAB 계정의 연결을 해제하고, 기본 등록 명령어를 통해 **재연결** 해줘. 불편을 줘서 정말 미안해!
+CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB 코드 사용
+CODE_REDEEM_DESCRIPTION: "*보상 코드를 처리하는 중이야. 잠깐만 기다려줘!*"
 CODE_REDEEM_PROGRESS: |
-  *보상 코드를 처리하는 동안 잠시 기다려 주십시오...*
+  *보상 코드를 처리하는 중이야. 잠깐만 기다려줘!*
    <a:loading:1015667958237900801> `{code}` 코드 사용 시도 중
 HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | 만료된 쿠키
 HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: 여행자! 귀하의 HoYoLAB 코드 상환 쿠키가 **만료**된 것 같습니다! </hoyo:{command_id}> 명령을 사용하고 계정 재연결 프로세스를 완료하여 HoYoLAB 계정 쿠키를 **새로 고침**하세요.
