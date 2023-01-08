@@ -742,12 +742,12 @@ REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> 계정 등록이 *
 INVALID_HOYOLAB_EMAIL_PROMPT: 유효한 이메일 주소를 입력하세요! **호요랩** 계정에 로그인하는 데 사용하는 이메일 주소를 사용해야 합니다.
 HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | 호요랩 등록
 HOYOLAB_REGISTRATION_DESCRIPTION: |
-  안녕하세요 여행자님! 등록 요청을 처리하는 동안 잠시 기다려 주십시오. 시간이 조금 걸릴 수 있습니다.
+  여행자! 등록을 처리하는 동안 *차분하게* 기다려줘. 시간이 좀 걸릴거야. 기다리는 동안 아래의 정보를 살펴봐!
 
-  <a:FlowersBlue:955579121562423348> **Genshin Fun Fact of the Day:**
+  <a:FlowersBlue:955579121562423348> **오늘의 원신 속 재밌는 진실:**
   `"{fun_fact}"`
 PROCESSING_REGISTRATION_REQUEST: 등록 요청 처리 중
-ACCOUNT_RETREIVAL_FAILED: 요청한 UID로 정보를 검색하는 중에 오류가 발생한 것 같습니다. 올바른 UID를 입력했는지 확인하고 다시 시도하십시오.
+ACCOUNT_RETREIVAL_FAILED: 입력해준 UID로 정보를 찾는데 오류가 발생한 것 같아. UID 값을 제대로 입력했는지 확인해주고, 다시 시도해주지 않을래?
 REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
   Genshin Wizard의 :bell: **알림 패널**에 오신 것을 환영합니다! 미리 알림 설정을 시작하려면 아래 옵션 중 하나를 선택하고 관련 패널에서 활성화할 수 있습니다.
 
@@ -781,7 +781,7 @@ TEAPOT_REMINDERS_DESCRIPTION: |
   **보충 시간:** {time_left}
   > **자동 알림:** {reminder_setting}
 PARAMETRIC_REMINDERS_DESCRIPTION: |
-  귀하의 **<:parametrictransformer:1029984451670847568>매개변수변환기**는 현재 {transformer_status}입니다!
+  여행자의 **<:parametrictransformer:1029984451670847568>매개변수변환기**는 지금 {transformer_status} 상태야!
    **보충 시간:** {time_left}
    > **자동 알림:** {reminder_setting}
 READY_TO_USE: 사용 가능
@@ -791,7 +791,7 @@ RESIN_AUTOMATIC_REMINDER_FOOTER: 레진이 일정량에 도달할 때마다 알�
 REMINDER_AUTOMATIC_RESIN_SET: 이 알림은 **자동** 알림으로 설정되었습니다! 즉, 레진의 값에서 설정한 임계값에 도달할 때마다 알림을 받게 됩니다!
 TEAPOT_AUTOMATIC_REMINDER_FOOTER: 선계화폐가 최대가 될 때마다 알림을 받도록 자동 알림을 설정하세요!
 PARAMETRIC_AUTOMATIC_REMINDER_FOOTER: 매개변수변환기를 사용할 준비가 되었을때 알림을 받을수있도록 준비하세요!
-ERROR_NO_TRANSFORMER: 여행자! 아직 **<:parametrictransformer:1029984451670847568>매개변수변환기**를 얻지 못했습니다!
+ERROR_NO_TRANSFORMER: 여행자! 아직 **<:parametrictransformer:1029984451670847568>매개변수변환기**를 얻지 못한 것 같아!
 REMINDERS_CLEARED_CONFIRMATION: 모든 알림을 성공적으로 **삭제**했습니다!
 SPECIFIC_REMINDER_CLEARED: 모든 {rmd_type} 알림을 성공적으로 **삭제**했습니다!
 TEAPOT_ALREADY_SET: '**이미** 선계 알림이 설정되어 있습니다!'
@@ -810,7 +810,7 @@ RESIN_AMOUNT_LOWER: 현재 레진보다 **높은** 레진 양을 입력하세요
 RESIN_REMINDER_SET: 알림이 **<:fragileresin:1029984988583706654>{resin}** 레진에 대해 <t:{rmd_time}:F>에 성공적으로 설정되었습니다!
 ENTER_CUSTOM_AMOUNT_KEY: 사용자 지정 입력
 ENABLE_AUTOMATIC_REMINDER_KEY: 자동 알림 활성화
-CURRENT_ONGOING_EXPEDITIONS_DESCRIPTION: "여행자! 현재 진행 중인 탐사는 다음과 같습니다."
+CURRENT_ONGOING_EXPEDITIONS_DESCRIPTION: "여행자! 지금 진행중인 탐사의 상태는:"
 NO_CURRENT_EXPEDITIONS: 진행 중인 탐사가 없습니다.
 MISSING_RESIN_AMOUNT: 현재 가지고 있는 레진양을 지정해야 합니다.
 TOO_MUCH_RESIN: 160개 이상의 레진을 가질 수 없습니다.
@@ -820,7 +820,7 @@ SET_RESIN_REMINDER_KEY: 레진알림 설정!
 API_ISSUE: API 문제가 발생했습니다.
 HOW_TO_SOLVE_TITLE: 이것을 해결하는 방법?
 ENABLE_CHRONICLES: '[**호요랩 설정**](https://www.hoyolab.com/setting/privacy/)을 방문하여 배틀 연대기를 활성화하여 원신 프로필을 공개하세요.'
-PLEASE_WAIT_DESCRIPTION: 대기 중! 현재로서는 이 상황을 해결하기 위해 할 수 있는 일이 없습니다.
+PLEASE_WAIT_DESCRIPTION: 기다려줘! 안타깝게도 지금은 여행자가 해줄 수 있는 일이 없어.
 PLAYER_TITLE: 플레이어 {player}
 USER_TITLE: 유저 {user}
 OVERVIEW_KEY: 요약
@@ -968,7 +968,7 @@ TIME_FOR_ADVENTURE: 모험, 모험!
 INVALID_ROLE_MESSAGE: 사용 가능한 역할 ID를 사용해주세요!
 INVALID_GUILD_MESSAGE: 이 통합에는 **유효한 길드 ID**를 사용해야 합니다! 다시 시도해 주세요.
 INVALID_CHANNEL_MESSAGE: 이 통합에는 **유효한 채널 ID**를 사용해야 합니다! 다시 시도해 주세요.
-CANNOT_FIND_GUILD: 여행자 님, 찾고 계신 서버를 **찾을 수 없었습니다**. 다시 시도해 주세요.
+CANNOT_FIND_GUILD: 여행자, 요청한 서버를 **찾을 수 없었어**. 다시 시도해줄래?
 MISSING_WEBHOOK_PERMISSION: 이 서버/채널에서 `웹후크 관리` 권한이 없습니다!
 CHANGE_ROLE_INTEGRATION: Genshin Wizard의 자동 역할 통합을 변경합니다.
 SETUP_COMMAND_TITLE: Genshin Wizard | 설정창
@@ -1049,7 +1049,7 @@ PREMIUM_PLAN: 프리미엄 플랜
 PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Genshin Wizard Server [커스텀역할]
 PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: 여행자님, 이 커스텀 역할 기능은 [**Genshin Wizard 디스코드 서버**](https://discord.gg/BTT5Zr7Dmp)에서만 사용 가능합니다.
 PREMIUM_CUSTOM_ROLE_FOOTER: Genshin Wizard 커스텀 역할 설정
-PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> 안녕하세요 Traveler, 이 기능을 사용하려면 **계층 1** 이상의 프리미엄 사용자여야 합니다. 이 놀라운 기능을 잠금 해제하려면 [**__upgrade__**](https://patreon.com/genshinwizard)를 구매하는 것이 좋습니다.
+PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> 여행자, 이 기능을 사용하려면 **1티어** 이상의 프리미엄 사용자여야해. 이 놀라운 기능을 사용하고 싶다면 [**__upgrade__**](https://patreon.com/genshinwizard)를 구매해줘!
 PREMIUM_ROLE_NAME_CHANGED: <:yescheck:1021114525858136074> 역할 이름이 **{name}**로 변경되었습니다.
 PREMIUM_ROLE_COLOR_CHANGED: '<:yescheck:1021114525858136074> 역할 색상이 **#{color}**로 변경되었습니다.'
 HEX_NOT_PARSED: 제공하신 HEX 색상 코드를 구문 분석할 수 없습니다. 다시 시도해 주세요.
@@ -1101,12 +1101,12 @@ SLASH_COMMAND_NEED_HELP: |
 SLASH_COMMAND_HELP_GUIDE: <:verifiedlight:939225784936202241> **도움말**을 보려면 </help:982685016012226590> 명령을 사용하십시오!
 GENSHIN_WIZARD_SERVER_JOIN_TITLE: Genshin Wizard 도착!
 GENSHIN_WIZARD_SERVER_JOIN_DESCRIPTION: |
-  안녕하세요 여행자님! **Genshin Wizard** 초대해 주셔서 감사합니다. 시작하기 전에 참고할 사항:
+  반가워, 여행자! **Genshin Wizard** 를 초대해줘서 정말 고마워! 시작하기 전에 다음 내용을 꼭 확인해줘:
 
   **명령어는:** `g!` 또는 `/`
-  > 축하합니다! 이 서버는 **{guilds}** Genshin Wizard를 초대하는 서버입니다! 🎉
+  > 축하해! 이 서버는 Genshin Wizard를 초대해준 **{guilds}** 서버야! 🎉
 
-  나를 사용하는 방법에 대한 자세한 내용은 [**문서**](https://docs.genshinwizard.com/)를 참조하거나 </help:{command_id}> 명령을 사용하세요!
+  자세한 사용방법이 궁금하다면 [**공식 문서 페이지**](https://docs.genshinwizard.com/)를 방문해주거나 </help:{command_id}> 명령을 실행해줘!
 SHOWCASE_KEY: 쇼케이스
 CUSTOM_ART_KEY: 커스텀아트
 DELETE_SELECTED_KEY: 선택된 항목 삭제
