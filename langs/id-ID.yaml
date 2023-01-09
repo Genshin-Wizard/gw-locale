@@ -90,8 +90,8 @@ MATH_COMMAND_RESULT: |
 RECENT_GENSHIN_EVENTS: Perkara Terkini Genshin
 SEND_CODES_COMMAND_TITLE: Genshin Wizard | Kode Aktif
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
-  <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
+  <:blurplelink:1020155547187691600> [***Dapat di redeem dengan klik tombol dibawah***](https://genshin.mihoyo.com/en/gift)
+  <:blurpleannouncement:1020402170127982712> **Note:** Kode redeem bisa kadaluwarsa dengan cepat, Jadi pastikan redeem sesegera mungkin!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
 SEND_CODES_REDEEM_AUTOMATICALLY: Tebus Secara Otomatis
@@ -485,15 +485,15 @@ IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: Jenis file ini **tidak didukung**. Jika a
 IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: Jenis file ini **tidak didukung**. Pastikan anda tidak *mengubah* jenis file sebelum mencoba mengimpor. Lihat [**Dokumentasi**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) kami untuk informasi lebih lanjut.
 LEADERBOARD_NO_DATA: Tidak ada data yang ditemukan untuk kueri khusus ini!
 LEADERBOARD_EXPERIENCE_FOOTER: Experience bisa didapat dengan aktif di server. Ngobrol lebih banyak untuk meningkatkan level peringkat Genshin Wizard anda!
-LEADERBOARD_WISHES_FOOTER: Wishes are updated via banner summary and refresh command(s). Check your banners to actively get an updated wish count!
-LEADERBOARD_PLAYTIME_FOOTER: Playtime is updated via stats/info commands, check your stats/builds frequently to actively get an updated playtime count!
+LEADERBOARD_WISHES_FOOTER: Permohonan diperbarui melalui ringkasan banner dan perintah refresh. Periksa bannermu sesering mungkin untuk memperharui jumlah permohonan!
+LEADERBOARD_PLAYTIME_FOOTER: Jumlah waktu bermain diperbarui melalui perintah stat/info, periksa stat/build kamu sesering mungkin agar jumlah waktu bermain yang selalu diperbarui!
 LEADERBOARD_ACHIEVEMENTS_FOOTER: Achievements are updated via stats/info commands, check your stats/builds frequently to actively get an updated achievement count!
 LEADERBOARD_CHESTS_FOOTER: Chests are updated via stats commands, check your stats frequently to actively get an updated chest count!
 LEADERBOARD_GACHA_SIMULATOR_FOOTER: Simulator leaderboards are updated via gacha simulator commands, use the gacha simulator actively to climb the ranks!
 LEADERBOARD_ARTIFACT_FOOTER: Artifact information is updated via info commands, check your builds frequently to actively get updated artifact stats!
 LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Character stats information is updated via info commands, check your builds frequently to actively get updated character stats!
 LEADERBOARD_ABYSS_FOOTER: Abyss statistics are updated via the abyss progression command, check your abyss progression frequently to get an updated statistics measurement!
-LEADERBOARD_DONATION_FOOTER: Donate via the support links found in the /donate command to obtain a spot on this exquisite leaderboard!
+LEADERBOARD_DONATION_FOOTER: Donasi melalui tautan dukungan yang ditemukan dalam perintah /donate untuk mendapatkan tempat di papan peringkat!
 LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Crunching data, please be **patient**...* <a:tyno:1001656937689120788>
 ERROR_GUILD_ONLY_BUTTON: ":no_entry: You must be in a guild to use this button!"
 QUERY_NO_RESULTS: "No results found for `{input}`. Please rephrase and try again!"
@@ -556,7 +556,7 @@ SETTING_ART_STYLE_UPDATED: "Character builds Art Styles have been updated! Curre
 SETTING_MASTER_PROFILE_RESET: Your Genshin Wizard profile has been reset to default settings!
 INVALID_IMAGE_URL: "Please provide a **valid** image URL. Acceptable image types include: `PNGs`, `JPGs`, `JPEGs`, and `GIFs`."
 SETTING_BANNER_UPDATE: Your banner has been successfully updated!
-SETTING_BIOGRAPHY_ILLEGAL: Hey Traveler! Your input contains words that **aren't allowed** by Genshin Wizard! Please consider trying something *different* for your bio.
+SETTING_BIOGRAPHY_ILLEGAL: Hai Pengembara! Input Anda berisi kata-kata yang **tidak diizinkan** oleh Genshin Wizard! Silakan ganti untuk mencoba sesuatu yang *beda* untuk bio Anda.
 DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
 SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
 BIOGRAPHY_KEY: Bio
@@ -744,36 +744,36 @@ HOYOLAB_REGISTRATION_DESCRIPTION: |
 
   <a:FlowersBlue:955579121562423348> **Genshin Fun Fact of the Day:**
   `"{fun_fact}"`
-PROCESSING_REGISTRATION_REQUEST: Processing Registration Request
-ACCOUNT_RETREIVAL_FAILED: It looks like there was an error retrieving information with the requested UID. Please make sure you've entered the correct UID and try again.
+PROCESSING_REGISTRATION_REQUEST: Memproses pendaftaran
+ACCOUNT_RETREIVAL_FAILED: Sepertinya ada kesalahan saat mengambil informasi dengan UID yang diminta. Pastikan Anda telah memasukkan UID yang benar dan silahkan coba lagi.
 REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
-  Welcome to Genshin Wizard's :bell: **Reminder Panel**! To begin setting up reminders, you can select any of the options below and activate them from the relative panel.
+  Selamat datang di Genshin Wizard :bell: **Panel Pengingat**! Untuk mulai mengatur pengingat, Kamu dapat memilih salah satu opsi di bawah ini. 
 
-  <a:4396ringingbell:1030221006918385664> **CURRENT REMINDERS**
-  **Resin Reminders <:fragileresin:1029984988583706654>**
-  > **Automatic Reminder:** {automatic_resin}
+  <a:4396ringingbell:1030221006918385664> **Pengingat Saat Ini**
+  **Pengingat Resin <:fragileresin:1029984988583706654>**
+  > **Pengingat Otomatis:** {automatic_resin}
   {resin_rmd}
-  **Teapot Reminders <:realmcurrency:1029984449565310976>**
-  > **Automatic Reminder:** {automatic_teapot}
+  **Pengingat Teapot<:realmcurrency:1029984449565310976>**
+  > **Pengingat Otomatis:** {automatic_teapot}
   {teapot_rmd}
-  **Expedition Reminders <:adventurersguild:1030215759584051240>**
+  **Pengingat Ekspedisi<:adventurersguild:1030215759584051240>**
   {exp_rmd}
-  **Parametric Transformer Reminders <:parametrictransformer:1029984451670847568>**
-  > **Automatic Reminder:** {automatic_parametric}
+  **Pengingat Parametric Transformer <:parametrictransformer:1029984451670847568>**
+  > **Pengingat Otomatis:** {automatic_parametric}
   {para_rmd}
-REMINDER_COMMAND_OVERVIEW_TITLE: Genshin Impact Reminders
-ENABLED_KEY: Enabled
-DISABLED_KEY: Disabled
-NOT_ENABLED_KEY: Not Enabled
-NO_REMINDERS_SET_KEY: No Reminders Set!
-RESIN_REMINDERS_KEY: Resin Reminders
-EXPEDITION_REMINDERS_KEY: Expedition Reminders
+REMINDER_COMMAND_OVERVIEW_TITLE: Pengingat Genshin Impact
+ENABLED_KEY: Aktif
+DISABLED_KEY: Dinonaktifkan
+NOT_ENABLED_KEY: Nonaktif
+NO_REMINDERS_SET_KEY: Tidak ada pengingat yang diatur!
+RESIN_REMINDERS_KEY: Pengingat Resin
+EXPEDITION_REMINDERS_KEY: Pengingat Ekspedisi
 SERENITEA_POT_KEY: Serenitea Pot
-PARAMETRIC_REMINDERS_KEY: Parametric Transformer
+PARAMETRIC_REMINDERS_KEY: Pengingat Parametric Transformer
 RESIN_REMINDERS_DESCRIPTION: |
-  You currently have **<:fragileresin:1029984988583706654>{current_resin}** resin!
-  **Replenish Time:** Replenishes {time_left}
-  **Automatic Reminder:** {reminder_setting}
+  Kamu memiliki **<:fragileresin:1029984988583706654>{current_resin}** resin!
+  **Perkiraan waktu penuh:**akan penuh {time_left}
+  **Pengingat Otomatis:** {reminder_setting}
 TEAPOT_REMINDERS_DESCRIPTION: |
   You currently have **<:realmcurrency:1029984449565310976>{current_currency}** realm currency!
   **Replenish Time:** {time_left}
@@ -1246,7 +1246,7 @@ LOGIN_MODAL_TITLE: HoYoLAB Account Login
 RESIN_KEY: Resin
 TEAPOT_KEY: Teapot
 EXPEDITIONS_KEY: Expeditions
-PARAMETRIC_TRANSFORMER_KEY: Parametric Transformer
+PARAMETRIC_TRANSFORMER_KEY: Pengingat Parametric Transformer
 CLEAR_ALL_REMINDERS_BUTTON: Clear All Reminders
 CLEAR_REMINDER_BUTTON: Clear {reminder_type} Reminders
 SET_REMINDER_KEY: Set Reminder
