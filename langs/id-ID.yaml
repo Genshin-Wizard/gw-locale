@@ -109,7 +109,7 @@ MENU_COOLDOWN_TITLE: Menu itu sedang cooldown!
 BUTTON_COOLDOWN_TITLE: Butang itu sedang cooldown!
 COMMAND_COOLDOWN_TITLE: Perintah itu sedang cooldown!
 MENU_COOLDOWN_VALUE: Anda mengklik atribut terlalu cepat! Coba lagi dalam waktu **{cooldown}** detik.
-CHARACTER_SHOWCASE_TITLE: Tampilan Karakter
+CHARACTER_SHOWCASE_TITLE: Karakter Showcase
 ERROR_RATELIMIT: Pengguna ini dibatasi tarifnya.
 ERROR_COMMAND_COOLDOWN_VALUE: Coba gunakan perintah ini lagi dalam {cooldown} detik.
 ERROR_COMMAND_LONG_COOLDOWN_VALUE: Coba gunakan perintah ini lagi dalam <t:{cooldown}:R>
@@ -143,7 +143,7 @@ ERROR_MISSING_REQUIRED_ARGUMENT: "Anda lupa memberikan argumen, harap gunakan fo
 ERROR_MISSING_REQUIRED_ATTACHMENT: "Anda lupa memberikan lampiran, harap gunakan format yang benar: ```{usage} dengan lampiran yang benar.```"
 ERROR_MISSING_MANAGE_MESSAGE: Hai Traveler, saya tidak memiliki izin untuk `Mengelola Pesan` dalam channel/guild ini. Harap aktifkan izin ini dan coba lagi.
 ERROR_MISSING_SEND_MESSAGE: Hai Traveler, saya tidak memiliki izin untuk `Mengirim Pesanan` dalam channel/guild ini. Harap aktifkan izin ini dan coba lagi.
-MESSAGE_KEY: Pesanan
+MESSAGE_KEY: Hapus Pesan
 ERROR_EMPTY_BACKPACK: Ranselmu **kosong**! Untuk memulai perjalanan kamu, gunakan perintah </wishsimulator:{command_id}>!
 ERROR_INTERACTION_MISMATCH: Hai Traveler! Ini ** bukan interaksi Anda ** untuk disentuh! Gunakan perintah {command} jika kamu ingin menggunakan perintah ini untuk diri kamu sendiri!
 ERROR_MESSAGE: Terdapat Ralat!
@@ -279,7 +279,7 @@ ERROR_NO_USER_DATA: Tidak ada data yang ditemukan untuk pengguna ini.
 WHAT_HAPPENED_TITLE: Apa yang terjadi?
 WHAT_HAPPENED_VALUE: Sebab paling umum untuk masalah ini adalah akun genshin yang Anda coba cari belum diset ke publik. Untuk memperbaikinya, aktifkan `Tampilkan Detail Karakter` di Profil Anda di Genshin. Lihat gambar di bawah ini untuk referensi.
 WHAT_HAPPENED_FOOTER: Genshin Wizard mungkin membutuhkan waktu hingga lima menit untuk mengetahui perubahan terbaru yang dibuat dalam game, harap bersabar dengan kami.
-INFO_COMMAND_SHOWCASE_TITLE: Tampilan Karakter
+INFO_COMMAND_SHOWCASE_TITLE: Karakter Showcase
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: Lihat di Enka.Network
 REFRESHES_KEY: Refresh
 INFO_COMMAND_CHARACTER_DETAILS: Karakter
@@ -497,30 +497,30 @@ LEADERBOARD_DONATION_FOOTER: Donasi melalui tautan dukungan yang ditemukan dalam
 LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Crunching data, please be **patient**...* <a:tyno:1001656937689120788>
 ERROR_GUILD_ONLY_BUTTON: ":no_entry: You must be in a guild to use this button!"
 QUERY_NO_RESULTS: "No results found for `{input}`. Please rephrase and try again!"
-LOCATION_COMMAND_ROUTES_TITLE: Farming Routes Overview
-LOCATION_COMMAND_MAP_TITLE: "{resource} Map Locations"
-LOCATION_COMMAND_REGION_DESCRIPTION: "Local {region} Specialty:"
-LOCATION_COMMAND_FARMABLE_FOOTER: Farmable locations for specified material
-CALC_CHARACTER_INVALID_CHARACTER: You need to specify a valid character!
-CALC_CHARACTER_INVALID_STARTING_LEVEL: You need to specify a valid starting level!
-CALC_CHARACTER_INVALID_TARGET_LEVEL: You need to specify a valid target level!
-CALC_CHARACTER_REQUIREMENT_SURPASSED: Character has already **surpassed** the given desired level!
-CALC_CHARACTER_REQUIREMENT_MET: Character has already **reached** the given desired level!
-CALC_CHARACTER_TITLE: Genshin Wizard | Character Calculator
+LOCATION_COMMAND_ROUTES_TITLE: Daftar Rute Farming Material
+LOCATION_COMMAND_MAP_TITLE: "Lokasi Peta {resource}"
+LOCATION_COMMAND_REGION_DESCRIPTION: "Ciri khas {region} lokal:"
+LOCATION_COMMAND_FARMABLE_FOOTER: Lokasi yang dapat di ambil untuk material ini
+CALC_CHARACTER_INVALID_CHARACTER: Kamu harus menentukan karakter yang valid!
+CALC_CHARACTER_INVALID_STARTING_LEVEL: Kamu perlu menentukan level target yang valid!
+CALC_CHARACTER_INVALID_TARGET_LEVEL: Kamu perlu menentukan level target yang valid!
+CALC_CHARACTER_REQUIREMENT_SURPASSED: Karakter telah **melampaui** level yang diinginkan!
+CALC_CHARACTER_REQUIREMENT_MET: Karakter telah **mencapai** level yang diinginkan!
+CALC_CHARACTER_TITLE: Penyihir Genshin | Kalkulator Karakter
 CHARACTER_KEY: Karakter
-CURRENT_LEVEL_KEY: Current Level
+CURRENT_LEVEL_KEY: Level saat ini
 TARGET_LEVEL_KEY: Target Level
-REQUIRED_RESOURCES_KEY: Required Resources
-GENSHIN_WIZARD_USER_PROFILE: "{user}'s Genshin Wizard Profile"
-PROFILE_SUMMARY_KEY: Profile Summary
-GENSHIN_WISH_STATS_KEY: Genshin Wish Stats
-PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
+REQUIRED_RESOURCES_KEY: Resources yang dibutuhkan
+GENSHIN_WIZARD_USER_PROFILE: "Profil Genshin Wizard {user}"
+PROFILE_SUMMARY_KEY: Ringkasan Profil
+GENSHIN_WISH_STATS_KEY: Statistik Permohonan Genshin
+PROFILE_COMMAND_FOOTER: Statistik profile diperbarui melalui ringkasan banner dan perintah refresh. Periksa banner Anda untuk secara aktif mendapatkan /profil yang terbaru!
 GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
-GENSHIN_STATISTICS_INFOGRAPHIC: Genshin Statistics Infographic
-GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin stats/progression infographic that you requested!
-HIDDEN_KEY: Hidden
-REQUESTED_UID_KEY: Requested UID
-GENSHIN_EXPLORATION_INFOGRAPHIC: Genshin Exploration Progression
+GENSHIN_STATISTICS_INFOGRAPHIC: Infografis Statistik Genshin
+GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: Halo Pengembara! Berikut adalah infografis statistik/perkembangan Genshin yang dihasilkan yang Anda minta!
+HIDDEN_KEY: Tersembunyi
+REQUESTED_UID_KEY: UID yang diminta
+GENSHIN_EXPLORATION_INFOGRAPHIC: Perkembangan Eksplorasi Genshin
 GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin exploration infographic that you requested!
 PROFILE_NOT_OWNER: You can't use this button on someone else's profile!
 PRIVACY_SETTING_TITLE: Genshin Wizard Privacy Settings
@@ -559,18 +559,18 @@ SETTING_BANNER_UPDATE: Your banner has been successfully updated!
 SETTING_BIOGRAPHY_ILLEGAL: Hai Pengembara! Input Anda berisi kata-kata yang **tidak diizinkan** oleh Genshin Wizard! Silakan ganti untuk mencoba sesuatu yang *beda* untuk bio Anda.
 DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
 SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
-BIOGRAPHY_KEY: Bio
+BIOGRAPHY_KEY: Tentang saya
 BANNER_KEY: Banner
-ELEMENTAL_RESONANCE_KEY: Elemental Resonance
+ELEMENTAL_RESONANCE_KEY: Resonansi Elemental
 BUILDS_ART_STYLE_KEY: Builds Art Style
 ART_STYLE_KEY: Art Style
 FANART_KEY: Fanart
 OFFICIAL_ART_KEY: Official Art
 GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
-  Change your Genshin Wizard profile settings here.
+  Ubah pengaturan profil Genshin Wizard Kamu di sini.
 
-  **Profile Summary**
-GENSHIN_WIZARD_PROFILE_TITLE: Genshin Wizard Profile Settings
+  **Ringkasan Profil**
+GENSHIN_WIZARD_PROFILE_TITLE: Pengaturan Profil Wizard Genshin
 MISSING_REGISTRATION_INSTRUCTIONS: |
   Please register using one of:
   **1.)** </register:{command_id}>
@@ -581,23 +581,23 @@ IMAGE_LINK_KEY: Image Link
 UPDATE_DATE_KEY: Update Date
 SETTING_COMMAND_REQUIRE_SLASH: You must use a **slash command** (</settings:{command_id}>) or access this via your profile.
 CURRENT_ABYSS_DESCRIPTION: |
-  **Current Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  **Fase Lunar Sekarang**
+  **Waktu Mulai:** <t:{timestamp_start}:F>
+  **Waktu Berakhir:** <t:{timestamp_end}:F>
 PREVIOUS_ABYSS_DESCRIPTION: |
-  **Previous Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
-ABYSS_COMMAND_FOOTER: "Note: Abyss data may be incorrectly shown or missing data, if this is the case, do keep in mind that abyss data can generally take anywhere from 1-3 hours to update!"
-ABYSS_MISSING_DATA_FOOTER: "Note: This data seems to be missing some information! This is likely due to this information not being stored in the database previously, or the data not being updated yet."
+  **Fase Lunar Sebelumnya**
+  **Waktu Mulai:** <t:{timestamp_start}:F>
+  **Waktu Berakhir:** <t:{timestamp_end}:F>
+ABYSS_COMMAND_FOOTER: "Catatan: Data abyss mungkin ditampilkan secara tidak benar atau tidak ada data, jika ini terjadi, perlu diingat bahwa data abyss biasanya membutuhkan waktu antara 1-3 jam untuk diperbarui!"
+ABYSS_MISSING_DATA_FOOTER: "Catatan: Data ini tampaknya kehilangan beberapa informasi! Ini mungkin karena informasi ini belum disimpan di database sebelumnya, atau data belum diperbarui."
 ABYSSAL_ARCHIVE_DESCRIPTION: |
-  <:previous_abyss:1028377675989000215> **Abyssal Archives**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  <:previous_abyss:1028377675989000215> **Arsip Abyssal**
+  **Waktu Mulai:** <t:{timestamp_start}:F>
+  **Waktu Berakhir:** <t:{timestamp_end}:F>
 UID_LOOKUP: Genshin UID Lookup
 UID_LOOKUP_TITLE: "{user}'s Genshin Account UID"
-PUBLIC_KEY: Public
-PRIVATE_KEY: Private
+PUBLIC_KEY: Publik
+PRIVATE_KEY: Pribadi
 CREATION_DATA_KEY: Creation Date
 JOIN_DATE_KEY: Join Date
 NOT_HERE_KEY: Not Here
@@ -611,33 +611,34 @@ OVERALL_STATS_KEY: Overall Stats
 PERCENTAGE_KEY: Percentage
 TOTAL_WISHES_KEY: Total Wishes
 TOTAL_KEY: Total
-TOTAL_FIVE_STAR: Total 5-star
-NUMBER_FIVE_STAR: Number of 5-star
-TOTAL_FOUR_STAR: Total 4-star
-NUMBER_FOUR_STAR: Number of 4-star
-TOTAL_THREE_STAR: Total 3-star
+TOTAL_FIVE_STAR: Total bintang 5
+NUMBER_FIVE_STAR: Jumlah bintang 5
+TOTAL_FOUR_STAR: Total bintang 4
+NUMBER_FOUR_STAR: Jumlah bintang 4
+TOTAL_THREE_STAR: Total bintang 3
 REGISTER_PC_METHOD: "PC"
 REGISTER_ANDROID_METHOD: "Android"
 IOS_KEY: "iOS"
-CONSOLE_KEY: "Console"
+CONSOLE_KEY: "Konsol"
 REGISTER_IOS_METHOD: "iOS (Stream App Method)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
+  Lihat [Dokumentasi Github](https://github.com/Genshin-Wizard/historyLink) kami untuk langkah-langkah mendetail dengan gambar.
 
-  1. Open Genshin Impact Game on your PC
-  2. Go to the wish history page and wait for it to load
-  3. Go back to Windows
-  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  5. Then copy the following code and paste it in the Powershell window
+  1. Buka Game Genshin Impact di PC kamu
+  2. Buka halaman riwayat permohonan dan tunggu sampai dimuat
+  3. Kembali ke Windows
+  4. Di menu start, cari "PowerShell" dan buka "Windows PowerShell"
+  5. Kemudian salin kode berikut dan tempelkan di Powershell
   ```ps
   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
   ```
-  6. Hit `ENTER` to have the link copied to your clipboard
-  7. Click the button below and paste the link in the input field
-REGISTER_COMMAND_ANDROID_DIRECTIONS: |
-  After the 3.0 update, users can no longer simply copy and paste the history link on Android devices anymore.
 
-  We are currently looking for a way to retrieve the history link on Android devices. Please check back later.
+  6. Tekan `ENTER` agar tautan disalin ke clipboard kamu
+  7. Klik tombol di bawah dan tempel tautan tersebut di kolom input
+REGISTER_COMMAND_ANDROID_DIRECTIONS: |
+  Setelah pembaruan 3.0, pengguna tidak daoat lagi menyalin dan menempelkan tautan riwayat di perangkat Android.
+
+  Kami sedang mencari cara untuk mengambil tautan riwayat di perangkat Android. Periksa kembali nanti.
 REGISTER_COMMAND_IOS_DIRECTIONS: |
   Check out Kaizer's [Stream App Guide](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) for detailed steps with pictures.
 
@@ -651,10 +652,10 @@ REGISTER_COMMAND_IOS_DIRECTIONS: |
   8. Tap the long text starting by `GET /event/gacha_info...`
   9. Finally, tap Copy Url
   10. Click the button below and paste the link in the input field.
-RESELECT_PLATFORM_KEY: Re-Select Platform
+RESELECT_PLATFORM_KEY: Pilih Ulang Platform
 REGISTER_COMMAND_CONSOLE_DIRECTIONS: Following the 2.3 update event links don't work anymore. This being said, it is still possible to obtain the key by linking your Playstation account with a Mihoyo account and using the pc/mobile method instead.
-REGISTER_COMMAND_PLATFORM_SELECTION: Which platform do you use to play Genshin Impact?
-REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | Wish History Registration
+REGISTER_COMMAND_PLATFORM_SELECTION: Platform apa yang kamu gunakan untuk memainkan Genshin Impact?
+REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | Registrasi Riwayat Permohonan
 REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
   Welcome to Genshin Wizard's Registration system.
 
@@ -667,12 +668,12 @@ REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
 
   Which platform do you use to play Genshin Impact?
 ERROR_INVALID_UID: Please provide a valid UID to link your Genshin account to your Discord account.
-ERROR_INVALID_REGISTRATION_URL: Hey Traveler, this is an **invalid link!** Make sure you followed the steps correctly and try again.
-ERROR_UNEXPECTED_ERROR: An unexpected error has occurred. Please report this to staff!
-REGISTER_COMMAND_NO_WISHES_TITLE: No wishes found!
+ERROR_INVALID_REGISTRATION_URL: Hai Traveler, ini **tautan tidak valid!** Pastikan Anda mengikuti langkah-langkahnya dengan benar dan coba lagi.
+ERROR_UNEXPECTED_ERROR: Terjadi sebuah kesalahan yang tidak diharapkan. Tolong laporkan ini ke staf!
+REGISTER_COMMAND_NO_WISHES_TITLE: Tidak ada permohonan yang ditemukan!
 REGISTER_COMMAND_NO_WISHES_DESCRIPTION: |
-  You do not have any wishes yet! Please register again once you have wished on at-least one banner.
-  Wishes show up in history about 1-2 hours after wishing.
+  Anda belum memiliki permohonan! Silakan mendaftar lagi setelah Anda menggacha setidaknya satu banner.
+  Permohonan muncul dalam riwayat sekitar 1-2 jam setelah gacha terkahir anda.
 REFRESHING_USER: Refreshing user...
 REGISTERING_USER: Registering user...
 RETRIEIVING_WISH_HISTORY: Retrieving your wish history...
@@ -685,13 +686,13 @@ SUCCESSFULLY_UPDATED_UID: |
 
   Refer to </help:{command_id}> for more information.
 SUCCESSFULLY_REGISTERED_RESPONSE: |
-  Hey Traveler! Congratulations, your account was **successfully** registered!
+  Hai Traveler! Selamat, akun Anda **berhasil** didaftarkan!
 
-  You can now access several new gacha-related command within Genshin Wizard and more! For more information, check out the </help:{command_id}> command or visit our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/commands)!
-GENSHIN_WIZARD_REGISTRATION: Genshin Wizard Registration
-UNLINK_GENSHIN_ACCOUNT: Unlink Genshin Account
-UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Unlink your Genshin Impact account completely from Genshin Wizard. This will erase all your data from Genshin Wizard, including your wish history, wish statistics, and more. This action is **irreversible**. Are you sure you want to continue?
-UNLINK_HOYOLAB_ACCOUNT: Unlink HoYoLAB Account
+  Anda sekarang dapat mengakses beberapa perintah terkait gacha baru dalam Genshin Wizard dan banyak lagi! Untuk informasi selengkapnya, lihat perintah </help:{command_id}> atau kunjungi [**Dokumentasi**](https://docs.genshinwizard.com/wishing-centre/commands) kami!
+GENSHIN_WIZARD_REGISTRATION: Pendaftaran Genshin Wizard
+UNLINK_GENSHIN_ACCOUNT: Putuskan tautan Akun Genshin
+UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Memutuskan tautan akun Genshin Impact Anda sepenuhnya dari Genshin Wizard. Ini akan menghapus semua data Anda dari Genshin Wizard, termasuk riwayat gacha, statistik gacha, dan lainnya. Tindakan ini **tidak dapat diubah**. Apakah anda yakin ingin melanjutkan?
+UNLINK_HOYOLAB_ACCOUNT: Putuskan tautan Akun HoYoLAB
 UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Unlink your HoYoLAB account from Genshin Wizard; Will not unlink your linked UID from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
 PURGE_WISH_HISTORY: Purge Wish History
 PURGE_WISH_HISTORY_DESCRIPTION: Purge only your wish history from Genshin Wizard, your Genshin account will still be linked to Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
@@ -699,26 +700,26 @@ UNLINK_EVERYTHING: Unlink Everything
 UNLINK_EVERYTHING_BRIEF: This method will unlink **everything** from Genshin Wizard.
 UNLINK_EVERYTHING_DESCRIPTION: This method will unlink everything from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
 UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data from Genshin Wizard!
-UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If you believe for this to be an error, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
-USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
-GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Registration
+UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: UID ini **sudah terdaftar** ke pengguna lain! Jika Anda yakin ini adalah kesalahan, harap hubungi [**Dukungan Genshin Wizard**](https://discord.gg/BTT5Zr7Dmp)!"
+USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: Anda **sudah terdaftar** ke UID yang berbeda! Jika Anda ingin mendaftar menggunakan akun lain, harap gunakan </unlink:{command_id}> sebelum mencoba mendaftar lagi."
+GENSHIN_WIZARD_REGISTRATION_TITLE: Pendaftaran Genshin Wizard
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Daftarkan akun Genshin kamu ke Genshin Wizard.
-HOYOLAB_ACCOUNT: HoYoLAB Account
-LINKED_UID_KEY: Linked UID
-LINKED_KEY: Linked
-NOT_LINKED_KEY: Not Linked
+HOYOLAB_ACCOUNT: Akun HoYoLAB
+LINKED_UID_KEY: UID tertaut
+LINKED_KEY: Tertaut
+NOT_LINKED_KEY: Tidak Tertaut
 LINKING_UID_DIRECTIONS: |
-  Hello Traveler! To continue linking the requested UID to Genshin Wizard, we're going to need to **verify** that this account is actually yours!
+  Halo Traveler! Untuk melanjutkan penautan UID yang diminta ke Genshin Wizard, kami perlu **memverifikasi** bahwa akun ini benar-benar milik Anda!
 
-  **Unique Verification Key**
+  **Kunci Verifikasi Unik**
   `{key}`
-  **Expires in:**
+  **Kadaluarsa dalam:**
   <t:{timeout}:R>
 
-  How to complete verification?
-  > **1)** Go in-game and add the key above **anywhere** in your profile signature.
-  > **2)** Make sure you copy the key above **exactly** how it is written or else the bot will not be able to verify your account.
-  > **3)** *That's it*! Please wait patiently until our bot can verify that you have updated your signature.
+  Bagaimana cara menyelesaikan verifikasi?
+  > **1)** Masuk ke dalam game dan tambahkan kunci verifikasi di atas **di mana saja** di signature profil Anda.
+  > **2)** Pastikan Anda menyalin kunci verifikasi di atas **sama persis** seperti yang tertulis atau bot tidak akan dapat memverifikasi akun Anda.
+  > **3)** *Selesai*! Harap tunggu dengan sabar hingga bot kami dapat memverifikasi bahwa kamu telah memperbarui signature Anda.
 LINKING_UID_FOOTER: Please be patient while we verify your account! These changes can take anywhere from 5-10 minutes to appear on our end.
 LINKING_UID_KEY_EXPIRED: It looks like this key is now **expired**! Unfortunately, we were unable to verify you at this time, please try again later.
 REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Refresh Wish History
