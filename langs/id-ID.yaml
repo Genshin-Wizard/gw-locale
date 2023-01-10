@@ -554,11 +554,11 @@ SETTING_RESET_PRIVACY: Berhasil menyetel ulang setelan privasi ke setelan defaul
 SETTING_PRIVACY_UPDATED: "Setelan privasi {privacy_type} telah diperbarui! Privasi Saat Ini: {current_privacy}"
 SETTING_ART_STYLE_UPDATED: "Character builds Art Styles have been updated! Current Art Style: {current_setting}"
 SETTING_MASTER_PROFILE_RESET: Profil Wizard Genshin Kamu telah diatur ulang ke pengaturan default!
-INVALID_IMAGE_URL: "Please provide a **valid** image URL. Acceptable image types include: `PNGs`, `JPGs`, `JPEGs`, and `GIFs`."
-SETTING_BANNER_UPDATE: Your banner has been successfully updated!
+INVALID_IMAGE_URL: "Tolong berikan URL gambar yang **valid**. Format gambar yang dapat diterima: `PNG`, `JPG`, `JPEG`, dan `GIF`."
+SETTING_BANNER_UPDATE: Banner Kamu telah berhasil diperbarui!
 SETTING_BIOGRAPHY_ILLEGAL: Hai Pengembara! Input Anda berisi kata-kata yang **tidak diizinkan** oleh Genshin Wizard! Silakan ganti untuk mencoba sesuatu yang *beda* untuk bio Anda.
-DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
-SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
+DEFAULT_BIOGRAPHY: Seorang traveller yang menyukai petualangan!
+SETTING_BIOGRAPHY_UPDATED: Biografi Kamu berhasil diperbarui!
 BIOGRAPHY_KEY: Tentang saya
 BANNER_KEY: Banner
 ELEMENTAL_RESONANCE_KEY: Resonansi Elemental
@@ -572,14 +572,14 @@ GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
   **Ringkasan Profil**
 GENSHIN_WIZARD_PROFILE_TITLE: Pengaturan Profil Wizard Genshin
 MISSING_REGISTRATION_INSTRUCTIONS: |
-  Please register using one of:
+  Silakan mendaftar menggunakan salah satu dari:
   **1.)** </register:{command_id}>
-  **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
-MISSING_IMAGE: Please provide an image or a link to an image to update your banner
-PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Profile Banner Link Updated
-IMAGE_LINK_KEY: Image Link
-UPDATE_DATE_KEY: Update Date
-SETTING_COMMAND_REQUIRE_SLASH: You must use a **slash command** (</settings:{command_id}>) or access this via your profile.
+  **2.)** Masukan di pengguna/UID. Misalnya: `/info [discord-user]/[genshin-uid]`
+MISSING_IMAGE: Berikan gambar atau tautan ke gambar untuk memperbarui banner Kamu
+PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Link Banner Profil Telah Diperbarui
+IMAGE_LINK_KEY: Link Gambar
+UPDATE_DATE_KEY: Tanggal Pembaruan
+SETTING_COMMAND_REQUIRE_SLASH: Kamu harus menggunakan **perintah garis miring** (</settings:{command_id}>) atau mengaksesnya melalui profilmu.
 CURRENT_ABYSS_DESCRIPTION: |
   **Fase Lunar Sekarang**
   **Waktu Mulai:** <t:{timestamp_start}:F>
@@ -595,21 +595,21 @@ ABYSSAL_ARCHIVE_DESCRIPTION: |
   **Waktu Mulai:** <t:{timestamp_start}:F>
   **Waktu Berakhir:** <t:{timestamp_end}:F>
 UID_LOOKUP: Genshin UID Lookup
-UID_LOOKUP_TITLE: "{user}'s Genshin Account UID"
+UID_LOOKUP_TITLE: "UID Akun Genshin milik {user}"
 PUBLIC_KEY: Publik
 PRIVATE_KEY: Pribadi
-CREATION_DATA_KEY: Creation Date
-JOIN_DATE_KEY: Join Date
-NOT_HERE_KEY: Not Here
-LOCATION_KEY: Location
-TOP_ROLE_KEY: Top Role
-RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
-RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
+CREATION_DATA_KEY: Tanggal pembuatan
+JOIN_DATE_KEY: Tanggal Bergabung
+NOT_HERE_KEY: Bukan disini
+LOCATION_KEY: Lokasi
+TOP_ROLE_KEY: Role teratas
+RECENT_FIVE_STAR_CHARACTER: "** 5 :star: Karakter Terbaru **"
+RECENT_FIVE_STAR_WEAPON: "** 5 :star: Senjata Terbaru **"
 WISHES_WORTH_KEY: Nilai permohonan
-OVERALL_SUMMARY_KEY: Overall Summary
-OVERALL_STATS_KEY: Overall Stats
-PERCENTAGE_KEY: Percentage
-TOTAL_WISHES_KEY: Total Wishes
+OVERALL_SUMMARY_KEY: Rangkuman keseluruhan
+OVERALL_STATS_KEY: Stat keseluruhan
+PERCENTAGE_KEY: Persentase
+TOTAL_WISHES_KEY: Total permohonan
 TOTAL_KEY: Total
 TOTAL_FIVE_STAR: Total bintang 5
 NUMBER_FIVE_STAR: Jumlah bintang 5
@@ -667,24 +667,24 @@ REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
   > **5.** Access to all commands that are accessible by [**Linking UID**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-registration).
 
   Which platform do you use to play Genshin Impact?
-ERROR_INVALID_UID: Please provide a valid UID to link your Genshin account to your Discord account.
+ERROR_INVALID_UID: Harap berikan UID yang valid untuk menautkan akun Genshin Anda ke akun Discord Anda.
 ERROR_INVALID_REGISTRATION_URL: Hai Traveler, ini **tautan tidak valid!** Pastikan Anda mengikuti langkah-langkahnya dengan benar dan coba lagi.
 ERROR_UNEXPECTED_ERROR: Terjadi sebuah kesalahan yang tidak diharapkan. Tolong laporkan ini ke staf!
 REGISTER_COMMAND_NO_WISHES_TITLE: Tidak ada permohonan yang ditemukan!
 REGISTER_COMMAND_NO_WISHES_DESCRIPTION: |
   Anda belum memiliki permohonan! Silakan mendaftar lagi setelah Anda menggacha setidaknya satu banner.
   Permohonan muncul dalam riwayat sekitar 1-2 jam setelah gacha terkahir anda.
-REFRESHING_USER: Refreshing user...
-REGISTERING_USER: Registering user...
-RETRIEIVING_WISH_HISTORY: Retrieving your wish history...
-REGISTER_BANNER_SYNCED: Successfully synced {banner_name} banner!
-REGISTER_BANNED_SYNC_COMPLETE: Successfully synced all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
-SUCCESSFULLY_REGISTERED: Successfully Registered!
-SUCCESSFULLY_REFRESHED: Successfully Refreshed!
+REFRESHING_USER: Memperbarui pengguna...
+REGISTERING_USER: Mendaftarkan pengguna...
+RETRIEIVING_WISH_HISTORY: Mengambil histori permohonan Kamu...
+REGISTER_BANNER_SYNCED: Berhasil menyinkronkan {banner_name} banner!
+REGISTER_BANNED_SYNC_COMPLETE: Berhasil menyinkronkan semua banner! Kamu sekarang dapat menggunakan perintah </history:{command_id}> untuk melihat informasi lebih lanjut tentang permohonanmu.
+SUCCESSFULLY_REGISTERED: Pendaftaran berhasil!
+SUCCESSFULLY_REFRESHED: Berhasil Diperbarui!
 SUCCESSFULLY_UPDATED_UID: |
-  Congratulations Traveler! You have **successfully** updated your `UID`!
+  Selamat Traveler! Kamu **berhasil** memperbarui `UID` kamu!
 
-  Refer to </help:{command_id}> for more information.
+  Lihat </help:{command_id}> untuk informasi lebih lanjut.
 SUCCESSFULLY_REGISTERED_RESPONSE: |
   Hai Traveler! Selamat, akun Anda **berhasil** didaftarkan!
 
@@ -726,24 +726,24 @@ REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Refresh Wish History
 FORCE_REFRESH_FOOTER: If you'd prefer to force-refresh to prolong the expiry of your current history link, you may do so by clicking one of the buttons below.
 UNLINKING_CENTRE_TITLE: Genshin Wizard | Unlinking Centre
 UNLINKING_CENTRE_DESCRIPTION: Hello Traveler! Welcome to Genshin Wizard's unlinking centre. Manage your linked data through the buttons below. Friendly reminder that any method of unlinking will **erase all your data** from Genshin Wizard. This action is **irreversible**
-INVALID_COOKIE_RESPONSE: ":no_entry: You did not enter a valid **HoYoLAB** cookie!"
-RETRIEVING_ACCOUNT_INFORMATION: "*Retrieving your account information...*"
-SYNCED_HOYOLAB_UID: Successfully synced **HoYoLAB** UID!
-SYNCED_IN_GAME_UID: Successfully synced **In-Game** UID!
+INVALID_COOKIE_RESPONSE: ":no_entry: Kamu belum memasukkan cookie **HoYoLAB** yang valid!"
+RETRIEVING_ACCOUNT_INFORMATION: "*Mengambil informasi akunmu...*"
+SYNCED_HOYOLAB_UID: UID **HoYoLAB** berhasil disinkronkan!
+SYNCED_IN_GAME_UID: UID **Dalam Game** berhasil disinkronkan!
 ERROR_NO_ACCOUNTS: ":no_entry: There are **no accounts** associated with this token!"
-SUCCESSFULLY_LINKED_KEY: Successfully Linked!
+SUCCESSFULLY_LINKED_KEY: Berhasil Ditautkan!
 SUCCESSFULLY_LINKED_HOYOLAB: |
-  Successfully synced in-game account progression.
+  Berhasil menyinkronkan progres akun dalam game.
 
-  Successfully synced your HoYoLAB account! You can now access the **HoYoLAB account menu** by using the command </hoyo:{command_id}>!
-REGISTRATION_FAILED: Registration Failed!
-REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> Registering your account was **unsuccessful**! Please try again or contact the [**support team**](https://discord.gg/genshinwizard) if the issue persists. This issue is typically caused by an invalid email/password combination.
-INVALID_HOYOLAB_EMAIL_PROMPT: Please enter a valid email address! You must use the email address you use to login to your **HoYoLAB** account.
-HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | HoYoLAB Registration
+  Berhasil menyinkronkan akun HoYoLABmu! Kamu sekarang dapat mengakses **menu akun HoYoLAB** dengan menggunakan perintah </hoyo:{command_id}>!
+REGISTRATION_FAILED: Registrasi gagal!
+REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> Pendaftaran akun Kamu **tidak berhasil**! Harap coba lagi atau hubungi [**tim dukungan**](https://discord.gg/genshinwizard) jika masalah berlanjut. Masalah ini biasanya disebabkan oleh kombinasi email/sandi yang tidak valid.
+INVALID_HOYOLAB_EMAIL_PROMPT: Silakan isi alamat email! Kamu harus menggunakan alamat email yang Kamu gunakan untuk login ke akun **HoYoLAB** mu.
+HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | Registrasi HoYoLAB
 HOYOLAB_REGISTRATION_DESCRIPTION: |
-  Hello Traveler! Please wait while we process your registration request, bear in mind that this may take a moment.
+  Halo Traveler! Harap tunggu sementara kami memproses permintaan pendaftaranmu, perlu diingat bahwa ini mungkin memerlukan beberapa saat.
 
-  <a:FlowersBlue:955579121562423348> **Genshin Fun Fact of the Day:**
+  <a:FlowersBlue:955579121562423348> **Fakta Menyenangkan Genshin Hari Ini:**
   `"{fun_fact}"`
 PROCESSING_REGISTRATION_REQUEST: Memproses pendaftaran
 ACCOUNT_RETREIVAL_FAILED: Sepertinya ada kesalahan saat mengambil informasi dengan UID yang diminta. Pastikan Anda telah memasukkan UID yang benar dan silahkan coba lagi.
@@ -776,25 +776,25 @@ RESIN_REMINDERS_DESCRIPTION: |
   **Perkiraan waktu penuh:**akan penuh {time_left}
   **Pengingat Otomatis:** {reminder_setting}
 TEAPOT_REMINDERS_DESCRIPTION: |
-  You currently have **<:realmcurrency:1029984449565310976>{current_currency}** realm currency!
-  **Replenish Time:** {time_left}
-  > **Automatic Reminder:** {reminder_setting}
+  Saat ini Anda memiliki **<:realmcurrency:1029984449565310976>{current_currency}** realm currency!
+  **Waktu Isi Ulang:** {time_left}
+  > **Pengingat Otomatis:** {reminder_setting}
 PARAMETRIC_REMINDERS_DESCRIPTION: |
-  Your **<:parametrictransformer:1029984451670847568>Parametric Transformer** is currently {transformer_status}!
-  **Replenish Time:** {time_left}
-  > **Automatic Reminder:** {reminder_setting}
-READY_TO_USE: ready to use
-NOT_READY_TO_USE: not ready to use
-MAXED_OUT_KEY: Maxed Out!
-RESIN_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your resin reaches a certain amount!
-REMINDER_AUTOMATIC_RESIN_SET: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your resin reaches the threshold set above!
-TEAPOT_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your teapot currency maxes out!
-PARAMETRIC_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your parametric transformer is ready to use!
-ERROR_NO_TRANSFORMER: Hey Traveler! You have not obtained the **<:parametrictransformer:1029984451670847568>Parametric Transformer** yet!
-REMINDERS_CLEARED_CONFIRMATION: Successfully **cleared** all your reminders!
-SPECIFIC_REMINDER_CLEARED: Successfully **cleared** all your {rmd_type} reminders!
-TEAPOT_ALREADY_SET: You **already** have a reminder set for teapot!
-RESIN_ALREADY_SET: You **already** have a reminder set for **<:fragileresin:1029984988583706654>{resin}!**
+  ****<:parametrictransformer:1029984451670847568>Parametric Transformer** Anda saat ini {transformer_status}!
+  **Waktu Isi Ulang:** {time_left}
+  > **Pengingat Otomatis:** {reminder_setting}
+READY_TO_USE: siap digunakan
+NOT_READY_TO_USE: belum siap digunakan
+MAXED_OUT_KEY: Sudah Maksimal!
+RESIN_AUTOMATIC_REMINDER_FOOTER: Atur pengingat otomatis agar kami memberi tahu kamu kapan resin mencapai jumlah tertentu!
+REMINDER_AUTOMATIC_RESIN_SET: Pengingat ini telah disetel sebagai pengingat **otomatis**! Artinya, Kamu akan diingatkan *setiap kali* resin Kamu mencapai ambang batas yang ditetapkan di atas!
+TEAPOT_AUTOMATIC_REMINDER_FOOTER: Atur pengingat otomatis untuk diberi tahu setiap kali real currency kamu mencapai batas maksimum!
+PARAMETRIC_AUTOMATIC_REMINDER_FOOTER: Atur pengingat otomatis untuk diberi tahu setiap kali transformator parametrik kamu siap digunakan!
+ERROR_NO_TRANSFORMER: Hai Traveler! Kamu belum mendapatkan ****<:parametrictransformer:1029984451670847568>Parametric Transformer**!
+REMINDERS_CLEARED_CONFIRMATION: Berhasil **menghapus** semua pengingat!
+SPECIFIC_REMINDER_CLEARED: Berhasil **menghapus** semua pengingat {rmd_type} Kamu!
+TEAPOT_ALREADY_SET: Anda ** sudah ** memiliki set pengingat untuk teapot!
+RESIN_ALREADY_SET: Kamu**sudah** memiliki set pengingat untuk **<:fragile resin:1029984988583706654>{resin}!**
 TEAPOT_AUTOMATIC_ALREADY_SET: You **already** have an automatic reminder set for teapot!
 TEAPOT_REMINDER_SET: Reminder successfully set for <:realmcurrency:1029984449565310976><t:{time}:F>!
 AUTOMATIC_TEAPOT_EXPLANATION: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your teapot maxes out!
@@ -820,57 +820,57 @@ API_ISSUE: There has been an API Issue.
 HOW_TO_SOLVE_TITLE: How to solve this?
 ENABLE_CHRONICLES: Visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable battle chronicles to make your genshin profile public
 PLEASE_WAIT_DESCRIPTION: Waiting! There is nothing you can do to get past this at the moment.
-PLAYER_TITLE: Player {player}
-USER_TITLE: User {user}
-OVERVIEW_KEY: Overview
-GENERAL_OVERVIEW_KEY: General Overview
+PLAYER_TITLE: Pemain {player}
+USER_TITLE: 'Pengguna: {user}'
+OVERVIEW_KEY: Ringkasan
+GENERAL_OVERVIEW_KEY: Ringkasan Umum
 GENERAL_OVERVIEW_SECTION: |
-  Adventure Rank: {adventure_rank}
-  Total achievements: {achievement_number}
-  Total active days: {playtime}
-  Characters: **{char_count}**/{total_char}
-  Spiral Abyss: {abyss}
-  Region: {region}
-CHEST_PROGRESSION_KEY: Chest Progression
-EXPLORATION_AND_OCULI: Exploration & Oculi
-NOT_YET_UNLOCKED: Not Yet Unlocked!
-STATISTICS_COMMAND_FOOTER: "Note: Statistics may be incorrectly shown or missing data, there is nothing we can do on our end to prevent this, it's an API error on HoYoLAB's end."
-CONGRATULATIONS_KEY: Congratulations!
+  Rank Adventure: {adventure_rank}
+  Total chievements: {achievement_number}
+  Total hari aktif: {playtime}
+  Karakter: **{char_count}**/{total_char}
+  Spiral abyss: {abyss}
+  Wilayah: {region}
+CHEST_PROGRESSION_KEY: Progresi Chest
+EXPLORATION_AND_OCULI: Eksplorasi & Oculi
+NOT_YET_UNLOCKED: Belum Dibuka!
+STATISTICS_COMMAND_FOOTER: "Catatan: Statistik mungkin salah ditampilkan atau ada data yang hilang, tidak ada yang dapat kami lakukan untuk mencegah hal ini, ini adalah kesalahan API di pihak HoYoLAB."
+CONGRATULATIONS_KEY: Selamat!
 ABYSS_CONGRATULATE_MESSAGE: |
-  Congratulations {user} on perfectly *clearing* the Spiral Abyss!
-  <:spiralabyss:1000079902596411482> <@&{role_id}> Role Given <a:check:956327345717907507>
-ABYSS_COMMAND_STATISTICS_CREDIT: User {name}'s Spiral Abyss Stats
+  Selamat {user} karena telah *menyelesaikan* Spiral Abyss dengan sempurna!
+  <:spiralabyss:1000079902596411482> <@&{role_id}> Role diberikan<a:check:956327345717907507>
+ABYSS_COMMAND_STATISTICS_CREDIT: Statistik Spiral Abyss pengguna {name}
 CURRENT_LUNAR_PHASE_DESCRIPTION: |
-  **Current Lunar Phase**
-  **Start Time:** {start}
-  **End Time:** {end}
-MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard is missing permissions to `Manage Roles`. Please enable this permission and try again."
-ROLE_NOT_FOUND: ":no_entry: There was an error retrieving the role. Please make sure the role information under this integration is correct."
-GENSHIN_STATS_HEADER: "{name}'s Genshin Stats"
-PROCESSING_BANNER_TRANSITION: Processing {banner} Banner...
-WEAPON_KEY: Weapon
-PERMANENT_KEY: Permanent
-NOVICE_KEY: Novice
-STARDUST_EXCHANGES: Stardust Exchanges
-STARGLITTER_EXCHANGES: Starglitter Exchanges
+  **Fase Lunar Saat Ini**
+  **Waktu Mulai:** {start}
+  **Waktu Berakhir:** {end}
+MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard tidak memiliki izin untuk `Mengelola Role`. Harap aktifkan izin ini dan coba lagi."
+ROLE_NOT_FOUND: ":no_entry: Terjadi error saat mengambil peran. Harap pastikan informasi peran di bawah integrasi ini sudah benar."
+GENSHIN_STATS_HEADER: "Statistik Genshin {name}"
+PROCESSING_BANNER_TRANSITION: Memproses {banner} banner...
+WEAPON_KEY: Senjata
+PERMANENT_KEY: Permanen
+NOVICE_KEY: Pemula
+STARDUST_EXCHANGES: Penukaran Stardust
+STARGLITTER_EXCHANGES: Penukaran Starglitter
 STARDUST_KEY: Stardust
 STARGLITTER_KEY: Starglitter
-GENSHIN_WIZARD_SHOP_TITLE: Genshin Wizard Shop
+GENSHIN_WIZARD_SHOP_TITLE: Toko Genshin Wizard
 GENSHIN_WIZARD_SHOP_DESCRIPTION: |
-  Welcome to Paimon's Bargains! Here you can purchase items to help you on your journey. You currently have <:Primogem:951924423340994610>**{primogems} Primogems** in your Genshin Wizard inventory.
+  Selamat datang di Paimon's Bargains! Di sini Anda dapat membeli item untuk membantu Anda dalam perjalanan Anda. Saat ini Anda memiliki <:Primogem:951924423340994610>**{primogems} Primogem** di inventory Genshin Wizard Anda.
 
   <:MasterlessStardust:951924423332626522> **Stardust:** {stardust}
   <:MasterlessStarglitter:951924423059980290> **Starglitter:** {starglitter}
 
-  <:GreyPin:949815085335986246> **__CURRENT SHOP__ [ Price | Item ]**
+  <:GreyPin:949815085335986246> **__TOKO SAAT INI__ [ Harga | Barang ]**
 SIMULATOR_NO_PRIMOGEMS: |
-  <:Error:1021889679857037372> Hey Traveler, you don't have anymore **primogems** for today! You need at least <:Primogem:951924423340994610>**1,600** primogems to do *another* ten pull. To view your current balance, use the **</balance:{balance_id}>** command.
+  <:Error:1021889679857037372> Hai Traveler, Anda tidak memiliki **primogems** lagi untuk hari ini! Anda membutuhkan setidaknya <:Primogem:951924423340994610>**1.600** primogem untuk melakukan *satu* sepuluh penarikan lagi. Untuk melihat saldo Anda saat ini, gunakan perintah **</balance:{balance_id}>**.
 
-  **__Need a Refill?__**
-  <:blurplelink:1020155547187691600> [**Vote for Genshin Wizard Bot [8,000 Primogems]**](https://top.gg/bot/782099719718699009/vote)
-  <:blurplelink:1020155547187691600> [**Vote for Genshin Wizard Server [8,000 Primogems]**](https://top.gg/servers/951370297582436392/vote)
-  <:blurplelink:1020155547187691600> **Use the </commissions:{commission_id}> command. [16,000 Primogems]**
-  > <:GreyPin:949815085335986246> Extra rewards for **Adventurers** of the **[Genshin Wizard Guild](https://discord.gg/genshinwizard) [16,000 Primogems]**
+  **__Perlu Isi Ulang?__**
+  <:blurplelink:1020155547187691600> [**Pilih Bot Wizard Genshin [8.000 Primogem]**](https://top.gg/bot/782099719718699009/vote)
+  <:blurplelink:1020155547187691600> [**Pilih Server Wizard Genshin [8.000 Primogems]**](https://top.gg/servers/951370297582436392/vote)
+  <:blurplelink:1020155547187691600> **Gunakan perintah </commissions:{commission_id}>. [16.000 Primogem]**
+  > <:GreyPin:949815085335986246> Hadiah ekstra untuk **Petualang** dari **[Genshin Wizard Guild](https://discord.gg/genshinwizard) [16.000 Primogems]**
 WISH_RESULTS_DESCRIPTION: |
   **Wish Results** <a:results:1020753234555584562>```glsl
   {rolls}```
@@ -881,9 +881,9 @@ WISH_RESULTS_DESCRIPTION: |
   <:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620>: `{five_star_pity}` | <:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616>: `{four_star_pity}`
   Guaranteed Pity: {guaranteed_pity}
   New Balance:** <:Primogem:951924423340994610>{balance} Primogems
-NONE_KEY: None
+NONE_KEY: Tidak ada
 SIMULATOR_TITLE: Genshin Wizard Gacha Simulator
-SIMULATOR_ALREADY_CLAIMED: ":no_entry: You have **__already claimed__** your Daily Commission rewards today! There will be new commissions <t:{time}:R>."
+SIMULATOR_ALREADY_CLAIMED: ":no_entry: Anda telah **__sudah mengklaim__** hadiah Komisi Harian Anda hari ini! Akan ada komisi baru <t:{time}:R>."
 COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> As an **Adventurer** of the [**Genshin Wizard Guild**](https://discord.gg/genshinwizard), you have been rewarded with an extra **16,000 Primogems** <:Primogem:951924423340994610> as a result of ongoing expeditions!"
 COMMISSION_ADVENTURER_REWARD_UNRECEIVED: "> <:GreyPin:949815085335986246> Become an **Adventurer** of the [**Genshin Wizard Guild**](https://discord.gg/genshinwizard) to earn extra rewards when completing Daily Commissions!"
 COMMISSION_PREMIUM_EXTRA_REWARD: "> <a:mona_mora:1046611739774562374> As a **Premium Member** of [**Genshin Wizard**](https://patreon.com/genshinwizard), you have been rewarded with an extra **{primogems} Primogems** <:Primogem:951924423340994610> as a result of your support!"
@@ -1196,7 +1196,7 @@ CRIT_RATE_LABEL: "CRIT Rate"
 CRIT_DMG_LABEL: "CRIT DMG"
 ENERGY_RECHARGE_LABEL: "Energy Recharge"
 ELEMENTAL_MASTERY_LABEL: "Elemental Mastery"
-TOTAL_WISHES_LABEL: "Total Wishes"
+TOTAL_WISHES_LABEL: "Total permohonan"
 PRIMOGEM_COUNT_LABEL: "Total Primogems"
 STARDUST_COUNT_LABEL: "Stardust Count"
 STARGLITTER_COUNT_LABEL: "Starglitter Count"
