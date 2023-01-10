@@ -487,16 +487,16 @@ LEADERBOARD_NO_DATA: Tidak ada data yang ditemukan untuk kueri khusus ini!
 LEADERBOARD_EXPERIENCE_FOOTER: Experience bisa didapat dengan aktif di server. Ngobrol lebih banyak untuk meningkatkan level peringkat Genshin Wizard anda!
 LEADERBOARD_WISHES_FOOTER: Permohonan diperbarui melalui ringkasan banner dan perintah refresh. Periksa bannermu sesering mungkin untuk memperharui jumlah permohonan!
 LEADERBOARD_PLAYTIME_FOOTER: Jumlah waktu bermain diperbarui melalui perintah stat/info, periksa stat/build kamu sesering mungkin agar jumlah waktu bermain yang selalu diperbarui!
-LEADERBOARD_ACHIEVEMENTS_FOOTER: Achievements are updated via stats/info commands, check your stats/builds frequently to actively get an updated achievement count!
-LEADERBOARD_CHESTS_FOOTER: Chests are updated via stats commands, check your stats frequently to actively get an updated chest count!
-LEADERBOARD_GACHA_SIMULATOR_FOOTER: Simulator leaderboards are updated via gacha simulator commands, use the gacha simulator actively to climb the ranks!
-LEADERBOARD_ARTIFACT_FOOTER: Artifact information is updated via info commands, check your builds frequently to actively get updated artifact stats!
-LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Character stats information is updated via info commands, check your builds frequently to actively get updated character stats!
-LEADERBOARD_ABYSS_FOOTER: Abyss statistics are updated via the abyss progression command, check your abyss progression frequently to get an updated statistics measurement!
+LEADERBOARD_ACHIEVEMENTS_FOOTER: Pencapaian diperbarui melalui perintah statistik/info, sering-seringlah memeriksa statistik/build kamu untuk mendapatkan jumlah pencapaian yang terbaru!
+LEADERBOARD_CHESTS_FOOTER: Peti diperbarui melalui perintah /stats, sering-seringlah memeriksa /stats kamu untuk mendapatkan jumlah peti yang terbaru!
+LEADERBOARD_GACHA_SIMULATOR_FOOTER: Papan peringkat simulator diperbarui melalui perintah simulator gacha, gunakan simulator gacha secara aktif untuk naik peringkat!
+LEADERBOARD_ARTIFACT_FOOTER: Informasi artefak diperbarui melalui perintah /info, sering-seringlah memeriksa build kamu untuk mendapatkan statistik artefak yang terbaru!
+LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Informasi statistik karakter diperbarui melalui perintah /info, sering-seringlah memeriksa build kamu untuk mendapatkan pembaruan statistik karakter!
+LEADERBOARD_ABYSS_FOOTER: Statistik Abyss diperbarui melalui perintah /abyss, periksa perkembangan spiral abyss kamu sesering mungkin untuk mendapatkan statistik yang terbaru!
 LEADERBOARD_DONATION_FOOTER: Donasi melalui tautan dukungan yang ditemukan dalam perintah /donate untuk mendapatkan tempat di papan peringkat!
-LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Crunching data, please be **patient**...* <a:tyno:1001656937689120788>
-ERROR_GUILD_ONLY_BUTTON: ":no_entry: You must be in a guild to use this button!"
-QUERY_NO_RESULTS: "No results found for `{input}`. Please rephrase and try again!"
+LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Mengolah data, mohon **bersabar**...*<a:tyno:1001656937689120788>
+ERROR_GUILD_ONLY_BUTTON: ":no_entry: Kamu harus berada di guild untuk menggunakan tombol ini!"
+QUERY_NO_RESULTS: "Tidak ada hasil yang ditemukan untuk `{input}`. Harap ulangi dan coba lagi!"
 LOCATION_COMMAND_ROUTES_TITLE: Daftar Rute Farming Material
 LOCATION_COMMAND_MAP_TITLE: "Lokasi Peta {resource}"
 LOCATION_COMMAND_REGION_DESCRIPTION: "Ciri khas {region} lokal:"
@@ -521,11 +521,11 @@ GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: Halo Pengembara! Berikut adalah info
 HIDDEN_KEY: Tersembunyi
 REQUESTED_UID_KEY: UID yang diminta
 GENSHIN_EXPLORATION_INFOGRAPHIC: Perkembangan Eksplorasi Genshin
-GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin exploration infographic that you requested!
-PROFILE_NOT_OWNER: You can't use this button on someone else's profile!
-PRIVACY_SETTING_TITLE: Genshin Wizard Privacy Settings
-PRIVACY_SETTING_DESCRIPTION: Change your Genshin Wizard privacy settings here.
-PRIVACY_SETTING_KEY: Privacy Settings
+GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: Halo Traveler! Inilah infografis eksplorasi Genshin yang **dihasilkan secara unik** yang Anda minta!
+PROFILE_NOT_OWNER: Kamu tidak dapat menggunakan tombol ini di profil orang lain!
+PRIVACY_SETTING_TITLE: Pengaturan Privasi Genshin Wizard
+PRIVACY_SETTING_DESCRIPTION: Ubah pengaturan privasi Genshin Wizard Kamu di sini.
+PRIVACY_SETTING_KEY: Pengaturan Privasi
 PRIVACY_SETTING_BRIEF: |
   **Privasi UID:** {uid_privacy}
   **Privasi Riwayat Permohonan:** {wish_privacy}
@@ -533,27 +533,27 @@ PRIVACY_SETTING_BRIEF: |
   **Privasi Abyss:** {abyss_privacy}
   **Info Privasi:** {info_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **UID Privacy:** {uid_privacy}
-  > *Hide your UID from showing up anywhere*
-  **Wish History Privacy:** {wish_privacy}
-  > *Hide your Wish History from showing up anywhere (`/history`)*
-  **Stats Privacy:** {stats_privacy}
-  > *Hide your Genshin Stats Progression from showing up anywhere (`/stats`)*
-  **Abyss Privacy:** {abyss_privacy}
-  > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
-  **Info Privacy:** {info_privacy}
-  > *Hide your showcase builds information from showing up anywhere (`/info`)*
+  **Privasi UID:** {uid_privacy}
+  > *Sembunyikan UID kamu agar tidak muncul di mana pun*
+  **Privasi Histori Permohonan:** {wish_privacy}
+  > *Sembunyikan Riwayat Permohonanmu agar tidak muncul di mana pun (`/history`)*
+  **Privasi Statistik:** {stats_privacy}
+  > *Sembunyikan Progresi Statistik Genshinmu agar tidak muncul di mana pun (`/stats`)*
+  **Privasi Abyss:** {abyss_privacy}
+  > *Sembunyikan Genshin Abyss Progressionmu agar tidak muncul di mana pun (`/abyss`)*
+  **Info Privasi:** {info_privacy}
+  > *Sembunyikan informasi build shocasemu agar tidak muncul di mana pun(`/ info`)*
 ALL_KEY: Semua
 RESET_KEY: Setel ulang
 WISH_HISTORY_KEY: Riwayat Keinginan
 ABYSS_KEY: Abyss
 UID_KEY: UID
-STATS_KEY: Stats
+STATS_KEY: Stat
 INFO_KEY: Info
-SETTING_RESET_PRIVACY: Successfully reset privacy settings to default setting!
-SETTING_PRIVACY_UPDATED: "{privacy_type} privacy settings have been updated! Current Privacy: {current_privacy}"
+SETTING_RESET_PRIVACY: Berhasil menyetel ulang setelan privasi ke setelan default!
+SETTING_PRIVACY_UPDATED: "Setelan privasi {privacy_type} telah diperbarui! Privasi Saat Ini: {current_privacy}"
 SETTING_ART_STYLE_UPDATED: "Character builds Art Styles have been updated! Current Art Style: {current_setting}"
-SETTING_MASTER_PROFILE_RESET: Your Genshin Wizard profile has been reset to default settings!
+SETTING_MASTER_PROFILE_RESET: Profil Wizard Genshin Kamu telah diatur ulang ke pengaturan default!
 INVALID_IMAGE_URL: "Please provide a **valid** image URL. Acceptable image types include: `PNGs`, `JPGs`, `JPEGs`, and `GIFs`."
 SETTING_BANNER_UPDATE: Your banner has been successfully updated!
 SETTING_BIOGRAPHY_ILLEGAL: Hai Pengembara! Input Anda berisi kata-kata yang **tidak diizinkan** oleh Genshin Wizard! Silakan ganti untuk mencoba sesuatu yang *beda* untuk bio Anda.
