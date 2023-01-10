@@ -1,7 +1,7 @@
 ---
 GENSHIN_WIZARD_KEY: Genshin Wizard
-HELP_DIRECTORY_TITLE: Genshin Wizard | Help Directory
-HELP_CATEGORY_DESCRIPTION: Select a category from the dropdown to view commands specific to that category.
+HELP_DIRECTORY_TITLE: Genshin Wizard | 支援總覽
+HELP_CATEGORY_DESCRIPTION: 在下方的下拉式選單中選擇一個分類來檢視特定的說明文件
 HELP_CATEGORIES: Categories
 HELP_CATEGORY_LIST: |
   > 👤 | Profile Commands
@@ -9,7 +9,7 @@ HELP_CATEGORY_LIST: |
   > <:hoyolab:1016159766705344705> | HoYoLAB Commands
   > 📝 | Guide Commands
   > ⏰ | Miscellaneous Commands
-MISC_COMMANDS: Miscellaneous commands
+MISC_COMMANDS: 其他指令
 PING_INFORMATION: |
   **Pong!** :ping_pong:
   Bot Latency is **{bot_latency}ms.**
@@ -21,12 +21,12 @@ UPTIME_INFORMATION: |
 VERSION_KEY: Version
 PING_KEY: Ping
 UNKNOWN_KEY: Unknown
-USER_NOT_PUBLIC: User data is not public.
+USER_NOT_PUBLIC: 使用者資料為非公開
 INVITE_INFORMATION: Use the link below to invite this bot to your own server.
-REQUESTED_BY: Requested by {user}
+REQUESTED_BY: 由 {user} 請求
 SUPPORT_GWIZ_TITLE: Support Genshin Wizard
 SUPPORT_GWIZ_DESC: Support the development of Genshin Wizard.
-DONATE_KEY: Donate
+DONATE_KEY: 贊助
 VOTE_GWIZ_DESCRIPTION: Click the links below to vote for Genshin Wizard.
 VOTE_KEY: Vote
 VOTE_BOT: Vote for Bot
@@ -77,10 +77,10 @@ PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
 PREFIX_TOO_SHORT: The prefix cannot be shorter than 1 character.
 PREFIX_CHANGED_TITLE: Genshin Wizard | Prefix Change
 PREFIX_CHANGED_DESCRIPTION: |
-  Successfully changed **Genshin Wizard's** prefix! Commands will now be invoked using this new prefix.
+  成功更改 **Genshin Wizard's** 前綴！現在可以使用新的前綴來呼叫指令。
 
-  **Old Prefix:** `{old_prefix}`
-  **New Prefix:** `{new_prefix}`
+  **舊前綴：** `{old_prefix}`
+  **新前綴：** `{new_prefix}`
 PREFIX_CHANGED_FOOTER: Genshin Wizard Prefix Setting
 MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Computational Error. Try rephrasing!"
 MATH_COMMAND_RESULT: |
@@ -96,20 +96,20 @@ SEND_CODES_COMMAND_DESCRIPTION: |
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
 SEND_CODES_REDEEM_AUTOMATICALLY: Redeem Automatically
 SEND_CODES_DIRECT_LINK: Direct Link
-SEND_CODES_REDEEMABLE_CODES: Redeemable Codes
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Redemption Codes
+SEND_CODES_REDEEMABLE_CODES: 可兌換的兌換碼
+SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | 兌換碼
 SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!
 MESSAGE_LINK: Message Link
 CLICK_HERE: Click Here
-INFO_SELECT_CHARACTER: Select a character
+INFO_SELECT_CHARACTER: 選擇一個角色
 INFO_CHARACTER_SOURCE: "Source: Saved Builds"
-INFO_USER_CACHE: User Cache
+INFO_USER_CACHE: 使用者快取
 INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
 MENU_COOLDOWN_TITLE: That menu is on cooldown!
 BUTTON_COOLDOWN_TITLE: That button is on cooldown!
 COMMAND_COOLDOWN_TITLE: That command is on cooldown!
 MENU_COOLDOWN_VALUE: You're clicking attributes too quickly! Try again in **{cooldown}** seconds.
-CHARACTER_SHOWCASE_TITLE: Character Showcase
+CHARACTER_SHOWCASE_TITLE: 角色展示櫃
 ERROR_RATELIMIT: User is currently ratelimited.
 ERROR_COMMAND_COOLDOWN_VALUE: Try using this command again in {cooldown} secs.
 ERROR_COMMAND_LONG_COOLDOWN_VALUE: Try using this command again in <t:{cooldown}:R>
@@ -172,7 +172,7 @@ GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
 CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
-APP_COMMAND_INFO_DESCRIPTION: Shows builds for characters in the user's in-game showcase.
+APP_COMMAND_INFO_DESCRIPTION: 展示遊戲內的角色展示櫃陣容
 APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history formatted into a text file via private messages.
 APP_COMMAND_HISTORY_DESCRIPTION: View your Genshin account's wish history.
 APP_COMMAND_DAILY_DESCRIPTION: Claim your daily HoYoLAB sign-in rewards.
@@ -187,16 +187,16 @@ APP_COMMAND_LEADERBOARD_DESCRIPTION: View Genshin Wizard's leaderboards.
 APP_COMMAND_LOCATION_DESCRIPTION: Display the known location(s) for the resource given.
 APP_COMMAND_LOCATIONS_DESCRIPTION: Display a list of available resource locations.
 APP_COMMAND_CALC_DESCRIPTION: Calculate required ascension materials for a given character.
-APP_COMMAND_BANNER_DESCRIPTION: Change your Genshin Wizard profile's banner.
+APP_COMMAND_BANNER_DESCRIPTION: 更改 Genshin Wizard 個人資料的橫幅背景
 APP_COMMAND_PROFILE_DESCRIPTION: View your personal Genshin Wizard profile.
-APP_COMMAND_SETTINGS_DESCRIPTION: Change your Genshin Wizard profile settings.
+APP_COMMAND_SETTINGS_DESCRIPTION: 更改 Genshin Wizard 設定檔
 APP_COMMAND_STATS_DESCRIPTION: View your Genshin account's statistics.
-APP_COMMAND_ABYSS_DESCRIPTION: View your Genshin account's abyss progression.
-APP_COMMAND_EXPLORATION_DESCRIPTION: View your Genshin account's exploration progression.
-APP_COMMAND_UID_DESCRIPTION: Lookup a user's Genshin UID/Region.
-APP_COMMAND_REGISTER_DESCRIPTION: Register your Genshin account to Genshin Wizard.
-APP_COMMAND_REFRESH_DESCRIPTION: Refresh your wish history link (links expire once every 24 hours).
-APP_COMMAND_UNLINK_DESCRIPTION: Unlink your Genshin account and erase all data.
+APP_COMMAND_ABYSS_DESCRIPTION: 顯示原神帳號的深境螺旋進度
+APP_COMMAND_EXPLORATION_DESCRIPTION: 檢視您的地圖探索度
+APP_COMMAND_UID_DESCRIPTION: 檢視使用者的原神 UID / 區域
+APP_COMMAND_REGISTER_DESCRIPTION: 註冊你的原神帳號到 Genshin Wizard
+APP_COMMAND_REFRESH_DESCRIPTION: 更新祈願紀錄連結（連結每 24 小時會過期）
+APP_COMMAND_UNLINK_DESCRIPTION: 解除連接原神帳號並刪除所有資料
 APP_COMMAND_REMINDERS_DESCRIPTION: Setup reminders to notify for resin, teapot and expeditions.
 APP_COMMAND_RESIN_DESCRIPTION: Setup a Resin reminder to notify you when your resin is recharged.
 APP_COMMAND_GACHA_DESCRIPTION: Display an updated infographic showcasing your entire wish history for the specified banner.
@@ -220,7 +220,7 @@ APP_COMMAND_DESCRIBE_PLAYSTYLE_CHARACTER: The name of the character you want to 
 APP_COMMAND_EDIT_SYNERGY_DESCRIPTION: Edit synergies for a specific character.
 APP_COMMAND_DESCRIBE_SYNERGY_CHARACTER: The name of the character you want to edit synergies for.
 APP_COMMAND_FARM_DESCRIPTION: Check the current domain schedule for your region.
-APP_COMMAND_TCGCARD_DESCRIPTION: Look up a Genshin Impact TCG Card.
+APP_COMMAND_TCGCARD_DESCRIPTION: 查詢七聖召喚卡牌
 APP_COMMAND_ARTIFACT_DESCRIPTION: Display a breakdown of the perks/buffs for the given artifact.
 APP_COMMAND_ARTIFACTS_DESCRIPTION: Display a list of available artifacts.
 APP_COMMAND_TRANSLATE_DESCRIPTION: Information on how to contribute to Genshin Wizard's translations.
@@ -279,9 +279,9 @@ ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
 WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
-INFO_COMMAND_SHOWCASE_TITLE: Character Showcase
-INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
-REFRESHES_KEY: Refreshes
+INFO_COMMAND_SHOWCASE_TITLE: 角色展示櫃
+INFO_COMMAND_SHOWCASE_VIEW_ENKA: 在 Enka.Network 上檢視
+REFRESHES_KEY: 更新時間
 INFO_COMMAND_CHARACTER_DETAILS: Character
 INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!
 INFO_COMMAND_CACHE_DESCRIPTION: |
@@ -310,7 +310,7 @@ GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Go to Dashboard
 REMOVE_CHARACTERS_FROM_CACHE: Remove characters from cache...
 INFO_COMMAND_CACHE_DELETE_SELECTED: Successfully deleted selected characters from Genshin Wizard's cache!
 INFO_COMMAND_CACHE_DELETE_ALL: Successfully deleted all your characters from Genshin Wizard's cache!
-INFO_COMMAND_CACHE_CANCEL: "**Cancelled** cache management request! You may dismiss this message."
+INFO_COMMAND_CACHE_CANCEL: "**取消** 快取管理器已要求！你可以忽略此訊息。"
 APP_COMMAND_DESCRIBE_USER: The name of the member you are trying to search for.
 APP_COMMAND_DESCRIBE_USER_AVATAR: The member you wish to view an avatar for.
 APP_COMMAND_DESCRIBE_UID: The UID of the member you are trying to search for.
@@ -356,7 +356,7 @@ APP_CONTEXT_MENU_PROFILE: Profile
 APP_CONTEXT_MENU_STATISTICS: Stats Progression
 APP_CONTEXT_MENU_ABYSS: Abyss Progression
 APP_CONTEXT_MENU_CHARACTERS: Characters
-APP_CONTEXT_MENU_WISH_HISTORY: Wish History
+APP_CONTEXT_MENU_WISH_HISTORY: 祈願紀錄
 WHITELIST_KEY_LOWERCASE: whitelist
 HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Wishes"
 SLASH_PAGINATION: Page {current_page}/{total_pages}
@@ -518,9 +518,9 @@ GENSHIN_WISH_STATS_KEY: Genshin Wish Stats
 PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
 GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
 GENSHIN_STATISTICS_INFOGRAPHIC: Genshin Statistics Infographic
-GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin stats/progression infographic that you requested!
+GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: 旅行者你好！以下是**專屬**於你的帳號的原神遊玩狀態／進度資訊卡片！
 HIDDEN_KEY: Hidden
-REQUESTED_UID_KEY: Requested UID
+REQUESTED_UID_KEY: 請求 UID
 GENSHIN_EXPLORATION_INFOGRAPHIC: Genshin Exploration Progression
 GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin exploration infographic that you requested!
 PROFILE_NOT_OWNER: You can't use this button on someone else's profile!
@@ -546,7 +546,7 @@ PRIVACY_SETTING_OVERVIEW: |
   > *Hide your showcase builds information from showing up anywhere (`/info`)*
 ALL_KEY: All
 RESET_KEY: Reset
-WISH_HISTORY_KEY: Wish History
+WISH_HISTORY_KEY: 祈願紀錄
 ABYSS_KEY: Abyss
 UID_KEY: UID
 STATS_KEY: Stats
@@ -679,16 +679,15 @@ REGISTERING_USER: Registering user...
 RETRIEIVING_WISH_HISTORY: Retrieving your wish history...
 REGISTER_BANNER_SYNCED: Successfully synced {banner_name} banner!
 REGISTER_BANNED_SYNC_COMPLETE: Successfully synced all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
-SUCCESSFULLY_REGISTERED: Successfully Registered!
+SUCCESSFULLY_REGISTERED: 成功註冊！
 SUCCESSFULLY_REFRESHED: Successfully Refreshed!
 SUCCESSFULLY_UPDATED_UID: |
   Congratulations Traveler! You have **successfully** updated your `UID`!
 
   Refer to </help:{command_id}> for more information.
 SUCCESSFULLY_REGISTERED_RESPONSE: |
-  Hey Traveler! Congratulations, your account was **successfully** registered!
-
-  You can now access several new gacha-related command within Genshin Wizard and more! For more information, check out the </help:{command_id}> command or visit our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/commands)!
+  旅行者你好！恭喜你，遊戲帳號已成功註冊！
+  你現在可以在 Genshin Wizard 中使用幾個新的祈願相關的指令，請使用 </help:{command_id}> 指令或查看說明文件 (https://docs.genshinwizard.com/wishing-centre/commands) 以獲得更多資訊！
 GENSHIN_WIZARD_REGISTRATION: Genshin Wizard Registration
 UNLINK_GENSHIN_ACCOUNT: Unlink Genshin Account
 UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Unlink your Genshin Impact account completely from Genshin Wizard. This will erase all your data from Genshin Wizard, including your wish history, wish statistics, and more. This action is **irreversible**. Are you sure you want to continue?
@@ -703,7 +702,7 @@ UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data fr
 UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If you believe for this to be an error, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Registration
-GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Register your Genshin account to Genshin Wizard.
+GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: 註冊你的原神帳號到 Genshin Wizard
 HOYOLAB_ACCOUNT: HoYoLAB Account
 LINKED_UID_KEY: Linked UID
 LINKED_KEY: Linked
@@ -831,10 +830,10 @@ GENERAL_OVERVIEW_SECTION: |
   Characters: **{char_count}**/{total_char}
   Spiral Abyss: {abyss}
   Region: {region}
-CHEST_PROGRESSION_KEY: Chest Progression
+CHEST_PROGRESSION_KEY: 寶箱進度
 EXPLORATION_AND_OCULI: Exploration & Oculi
 NOT_YET_UNLOCKED: Not Yet Unlocked!
-STATISTICS_COMMAND_FOOTER: "Note: Statistics may be incorrectly shown or missing data, there is nothing we can do on our end to prevent this, it's an API error on HoYoLAB's end."
+STATISTICS_COMMAND_FOOTER: "注意：統計數據可能會因為 HoYoLAB API 錯誤而顯示異常，我們無法避免這種情況的發生，請見諒。"
 CONGRATULATIONS_KEY: Congratulations!
 ABYSS_CONGRATULATE_MESSAGE: |
   Congratulations {user} on perfectly *clearing* the Spiral Abyss!
@@ -1100,12 +1099,12 @@ SLASH_COMMAND_NEED_HELP: |
 SLASH_COMMAND_HELP_GUIDE: <:verifiedlight:939225784936202241> For **help**, use the </help:982685016012226590> command!
 GENSHIN_WIZARD_SERVER_JOIN_TITLE: Genshin Wizard has arrived!
 GENSHIN_WIZARD_SERVER_JOIN_DESCRIPTION: |
-  Hello Traveler! Thank you for inviting **Genshin Wizard** to your humble abode. Some things to note before getting started:
+  旅行者你好！謝謝你邀請 **Genshin Wizard** 到你的伺服器。在開始之前有幾件事需要注意：
 
-  **Command Prefix:** `g!` or `/`
-  > Congratulations! This server is the **{guilds}** server to invite Genshin Wizard! 🎉
+  **指令前綴：** `g!` 或是 `/`
+  > 恭喜！這裡是 **{guilds}** 邀請 Genshin Wizard 的伺服器！🎉
 
-  For more information on how to use me, refer to our [**Documentation**](https://docs.genshinwizard.com/) or use the </help:{command_id}> command!
+  請參閱我們的[**說明文件**](https://docs.genshinwizard.com/)或是使用 </help:{command_id}> 指令以獲得更多資訊！
 SHOWCASE_KEY: Showcase
 CUSTOM_ART_KEY: Custom Art
 DELETE_SELECTED_KEY: Delete Selected
@@ -1223,20 +1222,20 @@ UPDATE_BANNER_MODAL_URL_PLACEHOLDER: https://some.link/to/image.png
 UPDATE_BIO_MODAL_TITLE: Update Bio
 UPDATE_BIO_MODAL_LABEL: A short description about you. (200 chars)
 UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
-SELECT_CHOOSE_CATEGORY: Choose a category...
+SELECT_CHOOSE_CATEGORY: 選擇分類...
 PROFILE_KEY: Profile
 PROFILE_DESCRIPTION: View your Genshin Wizard profile
 GENSHIN_STATISTICS_KEY: Genshin Stats
 GENSHIN_STATISTICS_DESCRIPTION: View your Genshin stats
 SPIRAL_ABYSS_STATISTICS_KEY: Spiral Abyss Stats
-SPIRAL_ABYSS_STATISTICS_DESCRIPTION: View your Spiral Abyss progression stats
+SPIRAL_ABYSS_STATISTICS_DESCRIPTION: 檢視你的深境螺旋狀態
 COPY_UID_KEY: Copy UID
 CURRENT_ABYSS_PHASE: Current Abyssal Phase
 CURRENT_ABYSS_PHASE_DESCRIPTION: View Current Abyssal Stats Progression
 PREVIOUS_ABYSS_PHASE: Previous Abyssal Phase
 PREVIOUS_ABYSS_PHASE_DESCRIPTION: View Previous Abyssal Stats Progression
 ENTER_LINK_BUTTON: Enter link
-LINK_UID_MODAL_TITLE: Link UID
+LINK_UID_MODAL_TITLE: 使用 UID 連結
 LINK_UID_MODAL_LABEL: Genshin Impact UID
 LINK_UID_MODAL_PLACEHOLDER: Insert your Genshin Impact UID
 REGISTER_MODAL_LABEL: Your wish history URL
@@ -1372,8 +1371,8 @@ GUIDE_KEY: Guide
 ENABLE_ADAPTIVE_ART_SETTING: Enable Adaptive Infographic Art
 INVITE_BOT_KEY: Invite Bot
 HELP_DROPDOWN_DIRECTORY: Help Directory
-HELP_DROPDOWN_PROFILE_COMMANDS: Profile/Stats Commands
-HELP_DROPDOWN_WISH_COMMANDS: Wish Commands
+HELP_DROPDOWN_PROFILE_COMMANDS: 個人資料相關指令
+HELP_DROPDOWN_WISH_COMMANDS: 祈願相關指令
 HELP_DROPDOWN_HOYOLAB_COMMANDS: HoYoLAB Commands
 HELP_DROPDOWN_GUIDE_COMMANDS: Guide Commands
 HELP_DROPDOWN_MISCELLANEOUS_COMMANDS: Miscellaneous Commands
@@ -1397,12 +1396,12 @@ OFFICIAL_REPOSITORY_KEY: Official Repository
 OFFICIAL_REPOSITORY_LINK_KEY: Official Repository Link
 GENSHIN_WIZARD_TRANSLATE_TITLE: Contribute to Genshin Wizard Translations
 GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: Click one of the links below to contribute to Genshin Wizard translations!
-APP_COMMAND_LANGUAGE_DESCRIPTION: Change your language for Genshin Wizard.
+APP_COMMAND_LANGUAGE_DESCRIPTION: 更改 Genshin Wizard 的顯示語言
 APP_COMMAND_DESCRIBE_LANGUAGE: The language you want Genshin Wizard to be set to.
-GENSHIN_WIZARD_LANGUAGE_SWITCHED: Default language for Genshin Wizard switched to **{language}**!
+GENSHIN_WIZARD_LANGUAGE_SWITCHED: Genshin Wizard 的預設顯示語言已切換到 **{language}**！
 GENSHIN_WIZARD_CURRENT_LANGUAGE: Your current language for Genshin Wizard is **{language}**!
 ABYSS_FLOOR_PROGRESSION: "Current Progression: **{stars}/9** {bounty_status}"
-ABYSS_FLOOR_AUTHOR: Floor {floor} • Spiral Abyss Progression
+ABYSS_FLOOR_AUTHOR: 第 {floor} 層 • 深境螺旋進度
 ABYSS_FLOOR_LABEL: Floor {floor}
 APP_COMMAND_ABYSS_ENEMY_DESCRIPTION: View abyss-enemy information for Spiral Abyss.
 ABYSS_ENEMY_NOT_ONGOING: There is currently no ongoing Spiral Abyss challenges.
