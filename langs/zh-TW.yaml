@@ -194,7 +194,7 @@ APP_COMMAND_STATS_DESCRIPTION: View your Genshin account's statistics.
 APP_COMMAND_ABYSS_DESCRIPTION: 顯示原神帳號的深境螺旋進度
 APP_COMMAND_EXPLORATION_DESCRIPTION: 檢視您的地圖探索度
 APP_COMMAND_UID_DESCRIPTION: 查詢使用者的原神 UID / 區域
-APP_COMMAND_REGISTER_DESCRIPTION: 註冊你的原神帳號到 Genshin Wizard
+APP_COMMAND_REGISTER_DESCRIPTION: 註冊您的原神帳號到 Genshin Wizard
 APP_COMMAND_REFRESH_DESCRIPTION: 更新祈願紀錄連結（連結每 24 小時會過期）
 APP_COMMAND_UNLINK_DESCRIPTION: 解除連接原神帳號並刪除所有資料
 APP_COMMAND_REMINDERS_DESCRIPTION: Setup reminders to notify for resin, teapot and expeditions.
@@ -225,7 +225,7 @@ APP_COMMAND_ARTIFACT_DESCRIPTION: Display a breakdown of the perks/buffs for the
 APP_COMMAND_ARTIFACTS_DESCRIPTION: Display a list of available artifacts.
 APP_COMMAND_TRANSLATE_DESCRIPTION: Information on how to contribute to Genshin Wizard's translations.
 APP_COMMAND_ID_DESCRIPTION: Look up any in-game asset using its ID.
-APP_COMMAND_WEAPON_DESCRIPTION: Look up a weapon guide for a specific Genshin weapon.
+APP_COMMAND_WEAPON_DESCRIPTION: 查詢特定武器的升級突破材料
 APP_COMMAND_GUIDE_DESCRIPTION: Look up a character guide for a specific Genshin character.
 APP_COMMAND_BUILD_DESCRIPTION: Look up build(s) for a specific Genshin character.
 APP_COMMAND_PLAYSTYLE_DESCRIPTION: Look up playstyles for a specific Genshin character.
@@ -374,7 +374,7 @@ HISTORY_COMMAND_NO_WISHES: |
 HISTORY_COMMAND_NO_USER_WISHES: No wishes were found for this user!
 USER_NOT_REGISTERED_TITLE: User has not registered!
 REGISTERED_KEY: Registered
-NOT_REGISTERED_KEY: Not Registered
+NOT_REGISTERED_KEY: 尚未註冊
 USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** yet! Please register using </register:{command_id}> *before* using this command.
 FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."
 FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Note: This command requires you to register through the Wish History or HoYoLAB method."
@@ -702,10 +702,10 @@ UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data fr
 UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If you believe for this to be an error, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Registration
-GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: 註冊你的原神帳號到 Genshin Wizard
-HOYOLAB_ACCOUNT: HoYoLAB Account
-LINKED_UID_KEY: Linked UID
-LINKED_KEY: Linked
+GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: 註冊您的原神帳號到 Genshin Wizard
+HOYOLAB_ACCOUNT: HoYoLAB 帳號
+LINKED_UID_KEY: 已連結 UID
+LINKED_KEY: 已連結
 NOT_LINKED_KEY: Not Linked
 LINKING_UID_DIRECTIONS: |
   Hello Traveler! To continue linking the requested UID to Genshin Wizard, we're going to need to **verify** that this account is actually yours!
@@ -750,7 +750,7 @@ REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
   歡迎來到 Genshin Wizard :bell: **提醒設定面板**！你可以從下方選項中選擇你想要提醒的項目來啟動提醒功能
 
   <a:4396ringingbell:1030221006918385664> **目前狀態**
-  **樹脂 <:fragileresin:1029984988583706654>**
+  **原粹樹脂 <:fragileresin:1029984988583706654>**
   > **自動提醒：** {automatic_resin}
   {resin_rmd}
   **洞天寶錢 <:realmcurrency:1029984449565310976>**
@@ -771,13 +771,13 @@ EXPEDITION_REMINDERS_KEY: Expedition Reminders
 SERENITEA_POT_KEY: Serenitea Pot
 PARAMETRIC_REMINDERS_KEY: Parametric Transformer
 RESIN_REMINDERS_DESCRIPTION: |
-  You currently have **<:fragileresin:1029984988583706654>{current_resin}** resin!
-  **Replenish Time:** Replenishes {time_left}
-  **Automatic Reminder:** {reminder_setting}
+  你現在有 **<:fragileresin:1029984988583706654>{current_resin}** 個原粹樹脂！
+  **完全回滿時間：** 補給 {time_left}
+  **自動提醒：** {reminder_setting}
 TEAPOT_REMINDERS_DESCRIPTION: |
-  You currently have **<:realmcurrency:1029984449565310976>{current_currency}** realm currency!
-  **Replenish Time:** {time_left}
-  > **Automatic Reminder:** {reminder_setting}
+  你現在擁有 **<:realmcurrency:1029984449565310976>{current_currency}** 個洞天寶錢！
+  **完全回滿時間：** {time_left}
+  > **自動提醒：** {reminder_setting}
 PARAMETRIC_REMINDERS_DESCRIPTION: |
   Your **<:parametrictransformer:1029984451670847568>Parametric Transformer** is currently {transformer_status}!
   **Replenish Time:** {time_left}
@@ -787,7 +787,7 @@ NOT_READY_TO_USE: not ready to use
 MAXED_OUT_KEY: Maxed Out!
 RESIN_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your resin reaches a certain amount!
 REMINDER_AUTOMATIC_RESIN_SET: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your resin reaches the threshold set above!
-TEAPOT_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your teapot currency maxes out!
+TEAPOT_AUTOMATIC_REMINDER_FOOTER: 設定自動提醒，以便在洞天寶錢完全回滿的時候能夠及時領取！
 PARAMETRIC_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your parametric transformer is ready to use!
 ERROR_NO_TRANSFORMER: Hey Traveler! You have not obtained the **<:parametrictransformer:1029984451670847568>Parametric Transformer** yet!
 REMINDERS_CLEARED_CONFIRMATION: Successfully **cleared** all your reminders!
@@ -1124,7 +1124,7 @@ CHARACTER_BANNER_DESCRIPTION: View your wish history for the character banner.
 WEAPON_BANNER_DESCRIPTION: View your wish history for the weapon banner.
 PERMANENT_BANNER_DESCRIPTION: View your wish history for the permanent banner.
 CHOOSE_BANNER_PLACEHOLDER: Choose a banner...
-GO_BACK_BUTTON: Go Back
+GO_BACK_BUTTON: 返回
 REGISTER_SCRIPT_BUTTON: Register via Script
 REGISTER_LOGIN_BUTTON: Register via Login
 ENTER_TOKEN_BUTTON: Enter Token
