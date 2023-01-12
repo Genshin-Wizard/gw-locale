@@ -2,18 +2,18 @@
 GENSHIN_WIZARD_KEY: Genshin Wizard
 HELP_DIRECTORY_TITLE: Genshin Wizard | 支援總覽
 HELP_CATEGORY_DESCRIPTION: 在下方的下拉式選單中選擇一個分類來檢視特定的說明文件
-HELP_CATEGORIES: Categories
+HELP_CATEGORIES: 分類
 HELP_CATEGORY_LIST: |
-  > 👤 | Profile Commands
-  > 💫 | Wish Commands
-  > <:hoyolab:1016159766705344705> | HoYoLAB Commands
-  > 📝 | Guide Commands
-  > ⏰ | Miscellaneous Commands
+  > 👤 | 設定檔指令
+  > 💫 | 祈願紀錄指令
+  > <:hoyolab:1016159766705344705> | HoYoLAB 指令
+  > 📝 | 指南指令
+  > ⏰ | 雜項指令
 MISC_COMMANDS: 其他指令
 PING_INFORMATION: |
   **Pong!** :ping_pong:
-  Bot Latency is **{bot_latency}ms.**
-  Websocket Latency is **{ws_latency}ms.**
+  機器人延遲為 **{bot_latency}ms.**
+  WebSocket 延遲為 **{ws_latency}ms.**
 UPTIME_INFORMATION: |
   **Genshin Wizard Uptime**
   **Last Restart:** <t:{last_restart}:R>
@@ -143,7 +143,7 @@ ERROR_MISSING_REQUIRED_ARGUMENT: "You forgot to provide an argument, please use 
 ERROR_MISSING_REQUIRED_ATTACHMENT: "You forgot to provide an attachment, please use the correct format: ```{usage} with the correct attachment.```"
 ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, I do not have permission to `Manage Messages` within this channel/guild. Please enable this permission and try again.
 ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
-MESSAGE_KEY: Message
+MESSAGE_KEY: 訊息
 ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
 ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
 ERROR_MESSAGE: There has been an error!
@@ -175,13 +175,13 @@ CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
 APP_COMMAND_INFO_DESCRIPTION: 展示遊戲內的角色展示櫃陣容
 APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history formatted into a text file via private messages.
 APP_COMMAND_HISTORY_DESCRIPTION: View your Genshin account's wish history.
-APP_COMMAND_DAILY_DESCRIPTION: Claim your daily HoYoLAB sign-in rewards.
+APP_COMMAND_DAILY_DESCRIPTION: 領取 HoYoLAB 每日簽到獎勵
 APP_COMMAND_MONTHLY_DESCRIPTION: View HoYoLAB daily rewards for the month.
-APP_COMMAND_DIARY_DESCRIPTION: View your HoYoLAB Traveler's Diary.
-APP_COMMAND_REDEEM_DESCRIPTION: Redeem redemption codes for Genshin Impact.
+APP_COMMAND_DIARY_DESCRIPTION: 檢視 HoYoLAB 的旅行者札記
+APP_COMMAND_REDEEM_DESCRIPTION: 兌換原神兌換碼
 APP_COMMAND_HOYO_DESCRIPTION: Check your HoYoLAB account from Genshin Wizard.
 APP_COMMAND_CHARACTERS_DESCRIPTION: View your Genshin account's Character Summary.
-APP_COMMAND_TCG_DESCRIPTION: View your Genius Invokation TCG Account Showcase.
+APP_COMMAND_TCG_DESCRIPTION: 檢視你的七聖召喚卡牌展示櫃
 APP_COMMAND_IMPORT_DESCRIPTION: Import your gacha wish history from other popular sites.
 APP_COMMAND_LEADERBOARD_DESCRIPTION: View Genshin Wizard's leaderboards.
 APP_COMMAND_LOCATION_DESCRIPTION: Display the known location(s) for the resource given.
@@ -193,7 +193,7 @@ APP_COMMAND_SETTINGS_DESCRIPTION: 更改 Genshin Wizard 設定檔
 APP_COMMAND_STATS_DESCRIPTION: View your Genshin account's statistics.
 APP_COMMAND_ABYSS_DESCRIPTION: 顯示原神帳號的深境螺旋進度
 APP_COMMAND_EXPLORATION_DESCRIPTION: 檢視您的地圖探索度
-APP_COMMAND_UID_DESCRIPTION: 檢視使用者的原神 UID / 區域
+APP_COMMAND_UID_DESCRIPTION: 查詢使用者的原神 UID / 區域
 APP_COMMAND_REGISTER_DESCRIPTION: 註冊你的原神帳號到 Genshin Wizard
 APP_COMMAND_REFRESH_DESCRIPTION: 更新祈願紀錄連結（連結每 24 小時會過期）
 APP_COMMAND_UNLINK_DESCRIPTION: 解除連接原神帳號並刪除所有資料
@@ -204,7 +204,7 @@ APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Test your gacha luck with Genshin Wish Si
 APP_COMMAND_INVENTORY_DESCRIPTION: View your virtual Genshin Wizard inventory.
 APP_COMMAND_SHOP_DESCRIPTION: View your Genshin Wizard's Shop.
 APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: View your Genshin Wizard's Character Archives.
-APP_COMMAND_COMMISSIONS_DESCRIPTION: Claim your Daily Commission rewards.
+APP_COMMAND_COMMISSIONS_DESCRIPTION: 領取每日委託獎勵
 APP_COMMAND_BALANCE_DESCRIPTION: View your Genshin Wizard account's balance.
 APP_COMMAND_EDIT_DESCRIPTION: Edit genshin wizard's character details database.
 APP_COMMAND_EDIT_ADD_DESCRIPTION: Add a new build for a specific character.
@@ -245,7 +245,7 @@ APP_COMMAND_SETUP_DESCRIPTION: Genshin Wizard Role Integration Setup Panel.
 APP_COMMAND_PREMIUM_DESCRIPTION: Purchase Genshin Wizard Premium to gain access to premium features.
 APP_COMMAND_ROLE_DESCRIPTION: Applies specific character roles to a user. Refer to relative text channel for more information.
 APP_COMMAND_HELP_DESCRIPTION: View Genshin Wizard help documentation.
-APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
+APP_COMMAND_PING_DESCRIPTION: 檢查 Genshin Wizard 的延遲。
 APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
 APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
 APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
@@ -352,7 +352,7 @@ APP_COMMAND_DESCRIBE_CODE_CHANNEL: The channel you want to send the message in.
 APP_COMMAND_DESCRIBE_CODE_PING: The role you want to mention along with the message.
 APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated by a comma.
 APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
-APP_CONTEXT_MENU_PROFILE: Profile
+APP_CONTEXT_MENU_PROFILE: 設定檔
 APP_CONTEXT_MENU_STATISTICS: Stats Progression
 APP_CONTEXT_MENU_ABYSS: Abyss Progression
 APP_CONTEXT_MENU_CHARACTERS: Characters
@@ -383,16 +383,16 @@ FOOTER_GCG_EXPANDED: Your TCG Showcase statistics can be shown in more detail if
 LINK_HOYOLAB_TITLE: Genshin Wizard | Link HoYoLAB Account
 LINKING_UID_TITLE: Genshin Wizard | Link UID
 LINK_HOYOLAB_DESCRIPTION: |
-  Welcome to Genshin Wizard's HoYoLAB account linking system.
+  歡迎來到 Genshin Wizard 的 HoYoLAB 帳號連結系統。
 
-  **Linking Features:**
-  > **1.** Access to your in-game resin count in real-time (set up automatic notifications).
-  > **2.** Access to your in-game expedition status in real-time.
-  > **3.** Ability to claim your *Daily Check-in Reward* straight from Discord.
-  > **4.** Ability to view in-depth information about your Spiral Abyss progression.
-  > **5.** View an infographic containing **all** your available characters.
+  **連接後可使用的功能：**
+  > **1.** 即時存取遊戲內的樹脂狀態（可設定自動通知）
+  > **2.** 即時存取遊戲內的探索派遣進度
+  > **3.** 可以直接從 Discord 內領取每日簽到獎勵
+  > **4.** 能夠檢視目前的深境螺旋進度
+  > **5.** 檢視已取得角色的資訊卡片
 
-  To begin, click one of the user registration options below!
+  如要開始，請點選下方的註冊選項！
 HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Automatic Daily Sign-in
 AUTOCLAIM_ALREADY_DISABLED: Automatic HoYoLAB daily sign-in is already disabled.
 AUTOCLAIM_ALREADY_ENABLED: Automatic HoYoLAB daily sign-in is already enabled.
@@ -412,13 +412,13 @@ HOYOLAB_INVALID_REDEEM: |
   You must provide a redemption code to redeem.
   **Proper Command Usage** ```/redeem CODE_ONE,CODE_TWO,...```
 CHINA_NOT_ALLOWED: Redeeming codes for CN users is **not supported** as of yet.
-HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | HoYoLAB Overview
+HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | HoYoLAB 概觀
 HOYOLAB_LOADING_ACCOUNT: Loading account information...
 HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Real-time Notes** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
 HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Game Record** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
 HOYOLAB_ACCOUNT_ERROR: There was an error grabbing your account's information! Please try again *later*.
-HOYOLAB_ACCOUNT_MANAGE: Manage your HoYoLAB account through Genshin Wizard
-HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Character Summary
+HOYOLAB_ACCOUNT_MANAGE: 透過 Genshin Wizard 管理你的 HoYoLAB 帳號
+HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | 角色一覽
 CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /register!
 GCG_NO_CARDS_FOUND: No Cards Found!
 GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Traveler! Unfortunately, {member} has **no cards** yet! Head-in game and play some TCG on Genshin Impact *before* using this command.
@@ -443,8 +443,8 @@ HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
 HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
 ARE_YOU_SURE: Are you sure?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
-  You have requested to **unlink** your HoYoLAB account from Genshin Wizard.
-  This means that you will no longer be able to *claim your daily rewards*, view your *full abyss progression*, and other extended features such as *viewing all your characters*.
+  你已經要求 Genshin Wizard 解除連結 HoYoLAB 帳號
+  這代表你將不能夠*領取每日簽到獎勵*、檢視*完整深淵進度*以及其他額外功能，例如*檢視所有已獲得角色*。
 UNLINKING_SUCCESSFUL: Unlinking successful!
 UNLINKING_SUCCESSFUL_DESCRIPTION: Your account has been successfully unlinked from Genshin Wizard!
 UNLINKING_UNSUCCESSFUL: Unlinking unsuccessful!
@@ -453,8 +453,8 @@ UNLINKING_CANCELLED: Unlinking cancelled!
 UNLINKING_CANCELLED_DESCRIPTION: You have cancelled your unlink request!
 OBTAINED_KEY: Obtained
 NOT_OWNED_KEY: Not Owned
-PROFICIENCY_KEY: Proficiency
-USE_COUNT_KEY: Use Count
+PROFICIENCY_KEY: 熟練度
+USE_COUNT_KEY: 使用次數
 IMPORT_ERROR: Import Error!
 FOOTER_ERROR_DESCRIPTION: If you believe this is an error, please contact a staff member.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
@@ -512,13 +512,13 @@ CHARACTER_KEY: Character
 CURRENT_LEVEL_KEY: Current Level
 TARGET_LEVEL_KEY: Target Level
 REQUIRED_RESOURCES_KEY: Required Resources
-GENSHIN_WIZARD_USER_PROFILE: "{user}'s Genshin Wizard Profile"
+GENSHIN_WIZARD_USER_PROFILE: "{user} 的 Genshin Wizard 設定檔"
 PROFILE_SUMMARY_KEY: Profile Summary
 GENSHIN_WISH_STATS_KEY: Genshin Wish Stats
 PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
 GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
-GENSHIN_STATISTICS_INFOGRAPHIC: Genshin Statistics Infographic
-GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: 旅行者你好！以下是**專屬**於你的帳號的原神遊玩狀態／進度資訊卡片！
+GENSHIN_STATISTICS_INFOGRAPHIC: 原神統計資訊表
+GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: 旅行者你好！根據你的需求，以下是你**專屬**的原神遊玩狀態／進度資訊卡片！
 HIDDEN_KEY: Hidden
 REQUESTED_UID_KEY: 請求 UID
 GENSHIN_EXPLORATION_INFOGRAPHIC: Genshin Exploration Progression
@@ -595,7 +595,7 @@ ABYSSAL_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Abyssal Archives**
   **Start Time:** <t:{timestamp_start}:F>
   **End Time:** <t:{timestamp_end}:F>
-UID_LOOKUP: Genshin UID Lookup
+UID_LOOKUP: 原神 UID 查詢
 UID_LOOKUP_TITLE: "{user}'s Genshin Account UID"
 PUBLIC_KEY: Public
 PRIVATE_KEY: Private
@@ -747,18 +747,18 @@ HOYOLAB_REGISTRATION_DESCRIPTION: |
 PROCESSING_REGISTRATION_REQUEST: Processing Registration Request
 ACCOUNT_RETREIVAL_FAILED: It looks like there was an error retrieving information with the requested UID. Please make sure you've entered the correct UID and try again.
 REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
-  Welcome to Genshin Wizard's :bell: **Reminder Panel**! To begin setting up reminders, you can select any of the options below and activate them from the relative panel.
+  歡迎來到 Genshin Wizard :bell: **提醒設定面板**！你可以從下方選項中選擇你想要提醒的項目來啟動提醒功能
 
-  <a:4396ringingbell:1030221006918385664> **CURRENT REMINDERS**
-  **Resin Reminders <:fragileresin:1029984988583706654>**
-  > **Automatic Reminder:** {automatic_resin}
+  <a:4396ringingbell:1030221006918385664> **目前狀態**
+  **樹脂 <:fragileresin:1029984988583706654>**
+  > **自動提醒：** {automatic_resin}
   {resin_rmd}
-  **Teapot Reminders <:realmcurrency:1029984449565310976>**
-  > **Automatic Reminder:** {automatic_teapot}
+  **洞天寶錢 <:realmcurrency:1029984449565310976>**
+  > **自動提醒：** {automatic_teapot}
   {teapot_rmd}
-  **Expedition Reminders <:adventurersguild:1030215759584051240>**
+  **探索派遣 <:adventurersguild:1030215759584051240>**
   {exp_rmd}
-  **Parametric Transformer Reminders <:parametrictransformer:1029984451670847568>**
+  **參量質變儀 <:parametrictransformer:1029984451670847568>**
   > **Automatic Reminder:** {automatic_parametric}
   {para_rmd}
 REMINDER_COMMAND_OVERVIEW_TITLE: Genshin Impact Reminders
@@ -1069,7 +1069,7 @@ PREMIUM_CUSTOM_ART_REMOVED: Hey Traveler, you've successfully **removed** the se
 PREMIUM_CUSTOM_ART_CLEARED: Hey Traveler, you've successfully **removed** all of your saved characters with custom-art.
 PREMIUM_ADAPTIVE_ART_SETTING_UPDATED: "Successfully changed adaptive art settings: {adaptive_art}"
 HELP_COMMAND_TITLE: Genshin Wizard | {category} Commands
-HELP_COMMAND_FOOTER: Genshin Wizard | {category} Command Directory
+HELP_COMMAND_FOOTER: Genshin Wizard | {category} 指令總覽
 NO_DESCRIPTION: No description provided.
 ROLE_REQUIREMENTS_NOT_MET: |
   None of your characters meet any of the **role requirements**!
@@ -1140,8 +1140,8 @@ NO_BUTTON: No
 DIARY_MONTH_DESCRIPTION: View Traveler's Diary for the month of {month}.
 DIARY_MONTH_LABEL: "{month}'s Diary"
 DIARY_MONTH_PLACEHOLDER: Choose a month to view...
-INVOKATION_ARCHIVE_LABEL: View Genius Invokation TCG Archive
-INVOKATION_RETURN_SHOWCASE: Return to Showcase
+INVOKATION_ARCHIVE_LABEL: 檢視七聖召喚卡牌檔案
+INVOKATION_RETURN_SHOWCASE: 返回展示櫃
 GLOBAL_BUTTON: Global
 SERVER_BUTTON: Server
 PERSONAL_BUTTON: Personal
@@ -1223,7 +1223,7 @@ UPDATE_BIO_MODAL_TITLE: Update Bio
 UPDATE_BIO_MODAL_LABEL: A short description about you. (200 chars)
 UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
 SELECT_CHOOSE_CATEGORY: 選擇分類...
-PROFILE_KEY: Profile
+PROFILE_KEY: 設定檔
 PROFILE_DESCRIPTION: View your Genshin Wizard profile
 GENSHIN_STATISTICS_KEY: Genshin Stats
 GENSHIN_STATISTICS_DESCRIPTION: View your Genshin stats
@@ -1370,18 +1370,18 @@ GUILD_OR_SERVER_ID_PLACEHOLDER: Insert Guild/Server ID here...
 GUIDE_KEY: Guide
 ENABLE_ADAPTIVE_ART_SETTING: Enable Adaptive Infographic Art
 INVITE_BOT_KEY: Invite Bot
-HELP_DROPDOWN_DIRECTORY: Help Directory
-HELP_DROPDOWN_PROFILE_COMMANDS: 個人資料相關指令
+HELP_DROPDOWN_DIRECTORY: 支援總覽
+HELP_DROPDOWN_PROFILE_COMMANDS: 設定檔指令
 HELP_DROPDOWN_WISH_COMMANDS: 祈願相關指令
-HELP_DROPDOWN_HOYOLAB_COMMANDS: HoYoLAB Commands
-HELP_DROPDOWN_GUIDE_COMMANDS: Guide Commands
-HELP_DROPDOWN_MISCELLANEOUS_COMMANDS: Miscellaneous Commands
-HELP_DROPDOWN_DIRECTORY_DESCRIPTION: View Genshin Wizard Help Directory
-HELP_DROPDOWN_PROFILE_COMMANDS_DESCRIPTION: View Profile-Related Commands
-HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: View Wish-Related Commands
-HELP_DROPDOWN_HOYOLAB_COMMANDS_DESCRIPTION: View HoYoLAB-Related Commands
-HELP_DROPDOWN_GUIDE_COMMANDS_DESCRIPTION: View Guide-Related Commands
-HELP_DROPDOWN_MISCELLANEOUS_COMMANDS_DESCRIPTION: View Miscellaneous-Related Commands
+HELP_DROPDOWN_HOYOLAB_COMMANDS: HoYoLAB 指令
+HELP_DROPDOWN_GUIDE_COMMANDS: 指南指令
+HELP_DROPDOWN_MISCELLANEOUS_COMMANDS: 雜項指令
+HELP_DROPDOWN_DIRECTORY_DESCRIPTION: 檢視 Genshin Wizard 支援總覽
+HELP_DROPDOWN_PROFILE_COMMANDS_DESCRIPTION: 檢視設定檔相關的指令
+HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: 檢視與祈願有關的指令
+HELP_DROPDOWN_HOYOLAB_COMMANDS_DESCRIPTION: 檢視與 HoYoLAB 有關的指令
+HELP_DROPDOWN_GUIDE_COMMANDS_DESCRIPTION: 檢視與教學指南有關的指令
+HELP_DROPDOWN_MISCELLANEOUS_COMMANDS_DESCRIPTION: 檢視其他的指令
 HELP_PROFILE_COG_NAME: Profile/Stats
 HELP_PROFILE_WISH_COG_NAME: Wish
 HELP_HOYOLAB_COG_NAME: HoYoLAB
