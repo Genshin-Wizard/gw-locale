@@ -5,10 +5,10 @@ HELP_CATEGORY_DESCRIPTION: 在下方的下拉式選單中選擇一個分類來�
 HELP_CATEGORIES: 分類
 HELP_CATEGORY_LIST: |
   > 👤 | 設定檔指令
-  > 💫 | 祈願紀錄指令
+  > 💫 | 祈願指令
   > <:hoyolab:1016159766705344705> | HoYoLAB 指令
   > 📝 | 指南指令
-  > ⏰ | 雜項指令
+  > ⏰ | 其他指令
 MISC_COMMANDS: 其他指令
 PING_INFORMATION: |
   **Pong!** :ping_pong:
@@ -173,22 +173,22 @@ GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
 CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
 APP_COMMAND_INFO_DESCRIPTION: 展示遊戲內的角色展示櫃陣容
-APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history formatted into a text file via private messages.
-APP_COMMAND_HISTORY_DESCRIPTION: View your Genshin account's wish history.
+APP_COMMAND_EXPORT_DESCRIPTION: 透過私人訊息將祈願歷史記錄輸出為文字檔案
+APP_COMMAND_HISTORY_DESCRIPTION: 檢視遊戲內的祈願歷史記錄
 APP_COMMAND_DAILY_DESCRIPTION: 領取 HoYoLAB 每日簽到獎勵
-APP_COMMAND_MONTHLY_DESCRIPTION: View HoYoLAB daily rewards for the month.
+APP_COMMAND_MONTHLY_DESCRIPTION: 檢視這個月的 HoYoLAB 每日簽到獎勵
 APP_COMMAND_DIARY_DESCRIPTION: 檢視 HoYoLAB 的旅行者札記
 APP_COMMAND_REDEEM_DESCRIPTION: 兌換原神兌換碼
-APP_COMMAND_HOYO_DESCRIPTION: Check your HoYoLAB account from Genshin Wizard.
-APP_COMMAND_CHARACTERS_DESCRIPTION: View your Genshin account's Character Summary.
+APP_COMMAND_HOYO_DESCRIPTION: 在 Genshin Wizard 中檢查你的 HoYoLAB 帳號
+APP_COMMAND_CHARACTERS_DESCRIPTION: 檢視原神角色一覽
 APP_COMMAND_TCG_DESCRIPTION: 檢視你的七聖召喚卡牌展示櫃
-APP_COMMAND_IMPORT_DESCRIPTION: Import your gacha wish history from other popular sites.
+APP_COMMAND_IMPORT_DESCRIPTION: 導入祈願歷史紀錄
 APP_COMMAND_LEADERBOARD_DESCRIPTION: View Genshin Wizard's leaderboards.
 APP_COMMAND_LOCATION_DESCRIPTION: Display the known location(s) for the resource given.
 APP_COMMAND_LOCATIONS_DESCRIPTION: Display a list of available resource locations.
 APP_COMMAND_CALC_DESCRIPTION: Calculate required ascension materials for a given character.
 APP_COMMAND_BANNER_DESCRIPTION: 更改 Genshin Wizard 個人資料的橫幅背景
-APP_COMMAND_PROFILE_DESCRIPTION: View your personal Genshin Wizard profile.
+APP_COMMAND_PROFILE_DESCRIPTION: 檢視 Genshin Wizard 個人設定檔
 APP_COMMAND_SETTINGS_DESCRIPTION: 更改 Genshin Wizard 設定檔
 APP_COMMAND_STATS_DESCRIPTION: View your Genshin account's statistics.
 APP_COMMAND_ABYSS_DESCRIPTION: 顯示原神帳號的深境螺旋進度
@@ -200,11 +200,11 @@ APP_COMMAND_UNLINK_DESCRIPTION: 解除連接原神帳號並刪除所有資料
 APP_COMMAND_REMINDERS_DESCRIPTION: Setup reminders to notify for resin, teapot and expeditions.
 APP_COMMAND_RESIN_DESCRIPTION: Setup a Resin reminder to notify you when your resin is recharged.
 APP_COMMAND_GACHA_DESCRIPTION: Display an updated infographic showcasing your entire wish history for the specified banner.
-APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Test your gacha luck with Genshin Wish Simulator!
-APP_COMMAND_INVENTORY_DESCRIPTION: View your virtual Genshin Wizard inventory.
-APP_COMMAND_SHOP_DESCRIPTION: View your Genshin Wizard's Shop.
-APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: View your Genshin Wizard's Character Archives.
-APP_COMMAND_COMMISSIONS_DESCRIPTION: 領取每日委託獎勵
+APP_COMMAND_WISHSIMULATOR_DESCRIPTION: 使用 Genshin Wizard 抽卡模擬器測試你的幸運值
+APP_COMMAND_INVENTORY_DESCRIPTION: 檢視 Genshin Wizard 虛擬背包裡的物品
+APP_COMMAND_SHOP_DESCRIPTION: 檢視 Genshin Wizard 的商店
+APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: 檢視 Genshin Wizard 內的角色列表
+APP_COMMAND_COMMISSIONS_DESCRIPTION: 領取 Genshin Wizard 內的每日獎勵
 APP_COMMAND_BALANCE_DESCRIPTION: View your Genshin Wizard account's balance.
 APP_COMMAND_EDIT_DESCRIPTION: Edit genshin wizard's character details database.
 APP_COMMAND_EDIT_ADD_DESCRIPTION: Add a new build for a specific character.
@@ -244,7 +244,7 @@ APP_COMMAND_PARTNER_DESCRIPTION: hidden
 APP_COMMAND_SETUP_DESCRIPTION: Genshin Wizard Role Integration Setup Panel.
 APP_COMMAND_PREMIUM_DESCRIPTION: Purchase Genshin Wizard Premium to gain access to premium features.
 APP_COMMAND_ROLE_DESCRIPTION: Applies specific character roles to a user. Refer to relative text channel for more information.
-APP_COMMAND_HELP_DESCRIPTION: View Genshin Wizard help documentation.
+APP_COMMAND_HELP_DESCRIPTION: 檢視 Genshin Wizard 說明文件
 APP_COMMAND_PING_DESCRIPTION: 檢查 Genshin Wizard 的延遲。
 APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
 APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
@@ -356,7 +356,7 @@ APP_CONTEXT_MENU_PROFILE: 設定檔
 APP_CONTEXT_MENU_STATISTICS: Stats Progression
 APP_CONTEXT_MENU_ABYSS: Abyss Progression
 APP_CONTEXT_MENU_CHARACTERS: Characters
-APP_CONTEXT_MENU_WISH_HISTORY: 祈願紀錄
+APP_CONTEXT_MENU_WISH_HISTORY: 祈願記錄
 WHITELIST_KEY_LOWERCASE: whitelist
 HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Wishes"
 SLASH_PAGINATION: Page {current_page}/{total_pages}
@@ -405,12 +405,12 @@ HOYOLAB_SIGN_IN_REWARDS: |
 
   Rewards Claimed: `{rewards}`
   Amount: `x{amount}`
-HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | HoYoLAB Monthly Rewards
-HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: View HoYoLAB daily rewards for the month
+HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | HoYoLAB 每月獎勵
+HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: 檢視這個月的 HoYoLAB 每日簽到獎勵
 HOYOLAB_DIARY_TITLE: Genshin Wizard | Traveler's Diary
 HOYOLAB_INVALID_REDEEM: |
-  You must provide a redemption code to redeem.
-  **Proper Command Usage** ```/redeem CODE_ONE,CODE_TWO,...```
+  你需要提供兌換碼才能兌換
+  **正確的指令用法** ```/redeem CODE_ONE,CODE_TWO,...```
 CHINA_NOT_ALLOWED: Redeeming codes for CN users is **not supported** as of yet.
 HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | HoYoLAB 概觀
 HOYOLAB_LOADING_ACCOUNT: Loading account information...
@@ -546,7 +546,7 @@ PRIVACY_SETTING_OVERVIEW: |
   > *Hide your showcase builds information from showing up anywhere (`/info`)*
 ALL_KEY: All
 RESET_KEY: Reset
-WISH_HISTORY_KEY: 祈願紀錄
+WISH_HISTORY_KEY: 祈願記錄
 ABYSS_KEY: Abyss
 UID_KEY: UID
 STATS_KEY: Stats
@@ -775,7 +775,7 @@ RESIN_REMINDERS_DESCRIPTION: |
   **完全回滿時間：** 補給 {time_left}
   **自動提醒：** {reminder_setting}
 TEAPOT_REMINDERS_DESCRIPTION: |
-  你現在擁有 **<:realmcurrency:1029984449565310976>{current_currency}** 個洞天寶錢！
+  你現在有 **<:realmcurrency:1029984449565310976>{current_currency}** 個洞天寶錢！
   **完全回滿時間：** {time_left}
   > **自動提醒：** {reminder_setting}
 PARAMETRIC_REMINDERS_DESCRIPTION: |
@@ -871,17 +871,17 @@ SIMULATOR_NO_PRIMOGEMS: |
   <:blurplelink:1020155547187691600> **Use the </commissions:{commission_id}> command. [16,000 Primogems]**
   > <:GreyPin:949815085335986246> Extra rewards for **Adventurers** of the **[Genshin Wizard Guild](https://discord.gg/genshinwizard) [16,000 Primogems]**
 WISH_RESULTS_DESCRIPTION: |
-  **Wish Results** <a:results:1020753234555584562>```glsl
+  **抽卡結果** <a:results:1020753234555584562>```glsl
   {rolls}```
-  <a:7094whitecheck:1020160260637462618> **__INVENTORY ADDITIONS__**
+  <a:7094whitecheck:1020160260637462618> **__已增加項目__**
   {results}
   {rewards}
-  **Current Pities:
+  **目前保底進度：
   <:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620>: `{five_star_pity}` | <:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616>: `{four_star_pity}`
-  Guaranteed Pity: {guaranteed_pity}
-  New Balance:** <:Primogem:951924423340994610>{balance} Primogems
+  已獲得保底： {guaranteed_pity}
+  剩餘原石：** <:Primogem:951924423340994610>{balance} 個原石
 NONE_KEY: None
-SIMULATOR_TITLE: Genshin Wizard Gacha Simulator
+SIMULATOR_TITLE: Genshin Wizard 抽卡模擬器
 SIMULATOR_ALREADY_CLAIMED: ":no_entry: You have **__already claimed__** your Daily Commission rewards today! There will be new commissions <t:{time}:R>."
 COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> As an **Adventurer** of the [**Genshin Wizard Guild**](https://discord.gg/genshinwizard), you have been rewarded with an extra **16,000 Primogems** <:Primogem:951924423340994610> as a result of ongoing expeditions!"
 COMMISSION_ADVENTURER_REWARD_UNRECEIVED: "> <:GreyPin:949815085335986246> Become an **Adventurer** of the [**Genshin Wizard Guild**](https://discord.gg/genshinwizard) to earn extra rewards when completing Daily Commissions!"
@@ -1262,10 +1262,10 @@ EXCLUSIVE_KEY: Exclusive
 MISCELLANEOUS_KEY_SHORT: Misc.
 BADGES_KEY: Badges
 RETURN_TO_MENU: Return to Menu
-SHOW_UNOWNED_KEY: Show Unowned
-SHOW_OWNED_KEY: Show Owned
+SHOW_UNOWNED_KEY: 顯示所有角色
+SHOW_OWNED_KEY: 只顯示已擁有角色
 SHOP_BUTTON_LABEL: "{primogem_price} Primogems"
-REROLL_WISHES_BUTTON: Reroll Wishes
+REROLL_WISHES_BUTTON: 再抽一次
 VIEW_INVENTORY_BUTTON: View Inventory
 REGION_SELECT_PLACEHOLDER: Select a region...
 AMERICA_KEY: America
@@ -1372,10 +1372,10 @@ ENABLE_ADAPTIVE_ART_SETTING: Enable Adaptive Infographic Art
 INVITE_BOT_KEY: Invite Bot
 HELP_DROPDOWN_DIRECTORY: 支援總覽
 HELP_DROPDOWN_PROFILE_COMMANDS: 設定檔指令
-HELP_DROPDOWN_WISH_COMMANDS: 祈願相關指令
+HELP_DROPDOWN_WISH_COMMANDS: 祈願指令
 HELP_DROPDOWN_HOYOLAB_COMMANDS: HoYoLAB 指令
 HELP_DROPDOWN_GUIDE_COMMANDS: 指南指令
-HELP_DROPDOWN_MISCELLANEOUS_COMMANDS: 雜項指令
+HELP_DROPDOWN_MISCELLANEOUS_COMMANDS: 其他指令
 HELP_DROPDOWN_DIRECTORY_DESCRIPTION: 檢視 Genshin Wizard 支援總覽
 HELP_DROPDOWN_PROFILE_COMMANDS_DESCRIPTION: 檢視設定檔相關的指令
 HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: 檢視與祈願有關的指令
@@ -1414,3 +1414,5 @@ CUSTOM_ROLE_ICON_NOT_IMAGE: Hey Traveler! The attachment must be an **image**!
 CUSTOM_ROLE_ICON_SUCCESS: Your custom role icon has been successfully changed. This confirmation message will be deleted in **10 seconds**.
 DEFAULT_KEY: Default
 EDITOR_NOT_WHITELISTED: Hello Traveler! You are **not whitelisted** to edit guides. Please [**Apply Here**](https://genshinwizard.com/sumeru/) for a chance to join the elite Sumeru Scholars team!
+GENSHIN_WIZARD_CUSTOM_ROLE: Genshin Wizard Custom Role
+GENSHIN_WIZARD_INVENTORY_TITLE: Genshin Wizard Inventory
