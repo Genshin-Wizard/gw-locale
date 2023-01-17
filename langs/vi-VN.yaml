@@ -515,16 +515,16 @@ REQUIRED_RESOURCES_KEY: Nguyên liệu cần thiết
 GENSHIN_WIZARD_USER_PROFILE: "Profile Genshin Wizard của {user}"
 PROFILE_SUMMARY_KEY: Tổng quan Profile
 GENSHIN_WISH_STATS_KEY: Thông số Cầu nguyện
-PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
+PROFILE_COMMAND_FOOTER: Profile được cập nhật qua tổng quan banner và lệnh refresh. Hãy kiểm tra banner của bạn thường xuyên để cập nhật /profile chính xác!
 GENERATE_IMAGE_COOLDOWN: Bạn đang khởi tạo hình ảnh quá nhanh! Vui lòng thử lại sau **{seconds}** giây.
-GENSHIN_STATISTICS_INFOGRAPHIC: Genshin Statistics Infographic
-GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin stats/progression infographic that you requested!
+GENSHIN_STATISTICS_INFOGRAPHIC: Infographic Thông số Genshin
+GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: Nhà Lữ Hành ơi! Đây là infographic **độc nhất** về thông số/tiến trình Genshin của bạn vừa được khởi tạo!
 HIDDEN_KEY: Bị ẩn
-REQUESTED_UID_KEY: Requested UID
-GENSHIN_EXPLORATION_INFOGRAPHIC: Genshin Exploration Progression
-GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin exploration infographic that you requested!
-PROFILE_NOT_OWNER: You can't use this button on someone else's profile!
-PRIVACY_SETTING_TITLE: Genshin Wizard Privacy Settings
+REQUESTED_UID_KEY: UID yêu cầu
+GENSHIN_EXPLORATION_INFOGRAPHIC: Tiến trình thám hiểm Genshin
+GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: Nhà Lữ Hành ơi! Đây là infographic tiến trình thám hiểm Genshin **độc nhất** của bạn vừa được khởi tạo!
+PROFILE_NOT_OWNER: Bạn không thể dùng chức năng này trong profile của người khác!
+PRIVACY_SETTING_TITLE: Cài đặt riêng tư Genshin Wizard
 PRIVACY_SETTING_DESCRIPTION: Thay đổi cài đặt riêng tư Genshin Wizard của bạn.
 PRIVACY_SETTING_KEY: Cài đặt riêng tư
 PRIVACY_SETTING_BRIEF: |
@@ -534,29 +534,29 @@ PRIVACY_SETTING_BRIEF: |
   **Quyền riêng tư la hoàn:** {abyss_privacy}
   **Quyền riêng tư thông tin:** {info_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **UID Privacy:** {uid_privacy}
-  > *Hide your UID from showing up anywhere*
-  **Wish History Privacy:** {wish_privacy}
-  > *Hide your Wish History from showing up anywhere (`/history`)*
-  **Stats Privacy:** {stats_privacy}
-  > *Hide your Genshin Stats Progression from showing up anywhere (`/stats`)*
-  **Abyss Privacy:** {abyss_privacy}
-  > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
-  **Info Privacy:** {info_privacy}
-  > *Hide your showcase builds information from showing up anywhere (`/info`)*
-ALL_KEY: All
+  **Quyền riêng tư UID:** {uid_privacy}
+  > *Ẩn UID của bạn*
+  **Quyền riêng tư lịch sử cầu nguyện:** {wish_privacy}
+  > *Ẩn lịch sử cầu nguyện của bạn (`/history`)*
+  **Quyền riêng tư thông số:** {stats_privacy}
+  > *Ẩn thông số Genshin của bạn (`/stats`)*
+  **Quyền riêng tư la hoàn:** {abyss_privacy}
+  > *Ẩn tiến trình la hoàn của bạn (`/abyss`)*
+  **Quyền riêng tư thông tin:** {info_privacy}
+  > *Ẩn showcase build của bạn (`/info`)*
+ALL_KEY: Tất Cả
 RESET_KEY: Reset
 WISH_HISTORY_KEY: Lịch sử Cầu nguyện
 ABYSS_KEY: La Hoàn
 UID_KEY: UID
 STATS_KEY: Thông số
 INFO_KEY: Thông tin
-SETTING_RESET_PRIVACY: Successfully reset privacy settings to default setting!
-SETTING_PRIVACY_UPDATED: "{privacy_type} privacy settings have been updated! Current Privacy: {current_privacy}"
-SETTING_ART_STYLE_UPDATED: "Character builds Art Styles have been updated! Current Art Style: {current_setting}"
-SETTING_MASTER_PROFILE_RESET: Your Genshin Wizard profile has been reset to default settings!
-INVALID_IMAGE_URL: "Please provide a **valid** image URL. Acceptable image types include: `PNGs`, `JPGs`, `JPEGs`, and `GIFs`."
-SETTING_BANNER_UPDATE: Your banner has been successfully updated!
+SETTING_RESET_PRIVACY: Đã reset thành công cài đặt riêng tư về thông số gốc!
+SETTING_PRIVACY_UPDATED: "Quyền riêng tư {privacy_type} đã được cập nhật! Thiết lập hiện tại: {current_privacy}"
+SETTING_ART_STYLE_UPDATED: "Cài đặt Art build nhân vật đã được cập nhật! Thông số hiện tại: {current_setting}"
+SETTING_MASTER_PROFILE_RESET: Profile Genshin Wizard của bạn đã được reset về cài đặt gốc!
+INVALID_IMAGE_URL: "Vui lòng cung cấp URL hình ảnh **hợp lệ**. Các định dạng ảnh được chấp nhận bao gồm: `PNG`, `JPG`, `JPEG`, và `GIF`."
+SETTING_BANNER_UPDATE: Banner của bạn đã được cập nhật thành công!
 SETTING_BIOGRAPHY_ILLEGAL: Hey Traveler! Your input contains words that **aren't allowed** by Genshin Wizard! Please consider trying something *different* for your bio.
 DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
 SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
