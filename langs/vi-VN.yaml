@@ -48,27 +48,27 @@ ARTIFACT_CRIT_VALUE_TITLE: Tính toán Crit Value Thánh Di Vật
 TOTAL_CRIT_VALUE: Tổng Crit Value
 TRUTH_COMMAND_RESPONSES:
   - As I see it, yes.
-  - Yes.
+  - Đúng.
   - Positive.
   - From my point of view, yes.
-  - Convinced.
-  - It is certain.
-  - It is decidedly so.
-  - Without a doubt.
-  - Most Likely.
+  - Thuyết Phục.
+  - Chắc chắn rồi.
+  - Nó đã được định sẵn là như vậy.
+  - Không có gì nghi ngờ.
+  - Có vẻ là sẽ như vậy.
   - Chances High.
-  - No.
+  - Số.
   - I think not.
-  - Negative.
-  - My sources say no.
+  - Phản đối.
+  - Nguồn của tôi nói không.
   - Not Convinced.
   - Perhaps.
   - Not Sure.
-  - Maybe.
-  - Who knows?
-  - I cannot predict now.
+  - Có thể
+  - Bạn có biết?
+  - Không thể dự đoán ngay bây giờ.
   - I am tired. *proceeds with sleeping*
-  - Absolutely.
+  - Tất nhiên rồi.
 TRUTH_COMMAND_TITLE: Paimon's Wisdom
 QUESTION_KEY: Câu hỏi
 RESPONSE_KEY: Trả lời
@@ -91,15 +91,15 @@ MATH_COMMAND_RESULT: |
 RECENT_GENSHIN_EVENTS: Sự kiện Genshin gần đây
 SEND_CODES_COMMAND_TITLE: Genshin Wizard | Mã đổi thưởng
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
-  <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
+  <:blurplelink:1020155547187691600> [***Có thể đổi mã quà bằng cách bấm vào các nút bên dưới!***](https://genshin.mihoyo.com/en/gift)
+  <:blurpleannouncement:1020402170127982712> **Ghi chú:** Mã quà sẽ hết hạn, vui lòng đổi thưởng càng sớm càng tốt!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
 SEND_CODES_REDEEM_AUTOMATICALLY: Tự động đổi mã quà
 SEND_CODES_DIRECT_LINK: Link trực tiếp
 SEND_CODES_REDEEMABLE_CODES: Mã đổi thưởng
 SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Mã đổi thưởng
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Đã gửi thành công mã đổi thưởng đến {channel}!
 MESSAGE_LINK: Link tin nhắn
 CLICK_HERE: Bấm vào đây
 INFO_SELECT_CHARACTER: Chọn nhân vật
@@ -302,11 +302,12 @@ PURCHASE_PREMIUM: Mua Premium
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Nhà Lữ Hành ơi, bạn chỉ có thể quản lý art tùy chỉnh cho **nhân vật của bản thân**!
 GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard Art Tùy chỉnh
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
-  ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://dashboard.genshinwizard.com/?key={key})
+  **Tùy chỉnh Art Infographic**
+  Nhà Lữ Hành ơi, hãy bấm nút bên dưới để **tùy chỉnh** art cho infographic của nhân vật này!
+  <a:PaimonCookies:992302701838864454>
+  ```Chỉnh sửa
+  Infographic cho {character}```
+  > <:Settings:1046877233626742925> [**Bấm vào đây để tùy chỉnh Art**](https://dashboard.genshinwizard.com/?key={key})
 GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Đi đến Bảng điều khiển
 REMOVE_CHARACTERS_FROM_CACHE: Loại bỏ nhân vật khỏi bộ đệm...
 INFO_COMMAND_CACHE_DELETE_SELECTED: Đã xóa thành công nhân vật khỏi bộ đệm Genshin Wizard!
@@ -706,8 +707,8 @@ GENSHIN_WIZARD_REGISTRATION_TITLE: Đăng kí Genshin Wizard
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Liên kết tài khoản Genshin của bạn với Genshin Wizard.
 HOYOLAB_ACCOUNT: HoYoLAB Account
 LINKED_UID_KEY: Linked UID
-LINKED_KEY: Linked
-NOT_LINKED_KEY: Not Linked
+LINKED_KEY: Đã liên kết
+NOT_LINKED_KEY: Không liên kết
 LINKING_UID_DIRECTIONS: |
   Hello Traveler! To continue linking the requested UID to Genshin Wizard, we're going to need to **verify** that this account is actually yours!
 
