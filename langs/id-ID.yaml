@@ -594,7 +594,7 @@ ABYSSAL_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Arsip Abyssal**
   **Waktu Mulai:** <t:{timestamp_start}:F>
   **Waktu Berakhir:** <t:{timestamp_end}:F>
-UID_LOOKUP: Genshin UID Lookup
+UID_LOOKUP: Pencarian UID Genshin
 UID_LOOKUP_TITLE: "UID Akun Genshin milik {user}"
 PUBLIC_KEY: Publik
 PRIVATE_KEY: Pribadi
@@ -620,7 +620,7 @@ REGISTER_PC_METHOD: "PC"
 REGISTER_ANDROID_METHOD: "Android"
 IOS_KEY: "iOS"
 CONSOLE_KEY: "Konsol"
-REGISTER_IOS_METHOD: "iOS (Stream App Method)"
+REGISTER_IOS_METHOD: "iOS (Metode Stream App)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
   Lihat [Dokumentasi Github](https://github.com/Genshin-Wizard/historyLink) kami untuk langkah-langkah mendetail dengan gambar.
 
@@ -694,9 +694,9 @@ UNLINK_GENSHIN_ACCOUNT: Putuskan tautan Akun Genshin
 UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Memutuskan tautan akun Genshin Impact Anda sepenuhnya dari Genshin Wizard. Ini akan menghapus semua data Anda dari Genshin Wizard, termasuk riwayat gacha, statistik gacha, dan lainnya. Tindakan ini **tidak dapat diubah**. Apakah anda yakin ingin melanjutkan?
 UNLINK_HOYOLAB_ACCOUNT: Putuskan tautan Akun HoYoLAB
 UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Unlink your HoYoLAB account from Genshin Wizard; Will not unlink your linked UID from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
-PURGE_WISH_HISTORY: Purge Wish History
+PURGE_WISH_HISTORY: Bersihkan Riwayat Wish
 PURGE_WISH_HISTORY_DESCRIPTION: Purge only your wish history from Genshin Wizard, your Genshin account will still be linked to Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
-UNLINK_EVERYTHING: Unlink Everything
+UNLINK_EVERYTHING: Putuskan Semua Tautan
 UNLINK_EVERYTHING_BRIEF: This method will unlink **everything** from Genshin Wizard.
 UNLINK_EVERYTHING_DESCRIPTION: This method will unlink everything from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
 UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data from Genshin Wizard!
@@ -722,15 +722,15 @@ LINKING_UID_DIRECTIONS: |
   > **3)** *Selesai*! Harap tunggu dengan sabar hingga bot kami dapat memverifikasi bahwa kamu telah memperbarui signature Anda.
 LINKING_UID_FOOTER: Please be patient while we verify your account! These changes can take anywhere from 5-10 minutes to appear on our end.
 LINKING_UID_KEY_EXPIRED: It looks like this key is now **expired**! Unfortunately, we were unable to verify you at this time, please try again later.
-REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Refresh Wish History
+REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Refresh Riwayat Wish
 FORCE_REFRESH_FOOTER: If you'd prefer to force-refresh to prolong the expiry of your current history link, you may do so by clicking one of the buttons below.
-UNLINKING_CENTRE_TITLE: Genshin Wizard | Unlinking Centre
-UNLINKING_CENTRE_DESCRIPTION: Hello Traveler! Welcome to Genshin Wizard's unlinking centre. Manage your linked data through the buttons below. Friendly reminder that any method of unlinking will **erase all your data** from Genshin Wizard. This action is **irreversible**
+UNLINKING_CENTRE_TITLE: Genshin Wizard | Pusat Pembatalan Tautan
+UNLINKING_CENTRE_DESCRIPTION: Halo Traveler! Selamat datang di Pusat Pembatalan Tautan Genshin Wizard. Atur data yang tersambung lewat tombol di bawah. Ingat bahwa metode pemutusan tautan apa pun akan **menghapus semua data Anda** dari Genshin Wizard. Tindakan ini **tidak dapat diubah**
 INVALID_COOKIE_RESPONSE: ":no_entry: Kamu belum memasukkan cookie **HoYoLAB** yang valid!"
 RETRIEVING_ACCOUNT_INFORMATION: "*Mengambil informasi akunmu...*"
 SYNCED_HOYOLAB_UID: UID **HoYoLAB** berhasil disinkronkan!
 SYNCED_IN_GAME_UID: UID **Dalam Game** berhasil disinkronkan!
-ERROR_NO_ACCOUNTS: ":no_entry: There are **no accounts** associated with this token!"
+ERROR_NO_ACCOUNTS: ":no_entry: **Tidak ada akun** yang terhubung dengan token ini!"
 SUCCESSFULLY_LINKED_KEY: Berhasil Ditautkan!
 SUCCESSFULLY_LINKED_HOYOLAB: |
   Berhasil menyinkronkan progres akun dalam game.
@@ -795,30 +795,30 @@ REMINDERS_CLEARED_CONFIRMATION: Berhasil **menghapus** semua pengingat!
 SPECIFIC_REMINDER_CLEARED: Berhasil **menghapus** semua pengingat {rmd_type} Kamu!
 TEAPOT_ALREADY_SET: Anda ** sudah ** memiliki set pengingat untuk teapot!
 RESIN_ALREADY_SET: Kamu**sudah** memiliki set pengingat untuk **<:fragile resin:1029984988583706654>{resin}!**
-TEAPOT_AUTOMATIC_ALREADY_SET: You **already** have an automatic reminder set for teapot!
-TEAPOT_REMINDER_SET: Reminder successfully set for <:realmcurrency:1029984449565310976><t:{time}:F>!
+TEAPOT_AUTOMATIC_ALREADY_SET: Kamu **sudah** memiliki pengingat otomatis untuk teapot!
+TEAPOT_REMINDER_SET: Pengingat sukses diatur untuk <:realmcurrency:1029984449565310976><t:{time}:F>!
 AUTOMATIC_TEAPOT_EXPLANATION: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your teapot maxes out!
-EXPEDITION_ALREADY_SET: You **already** have a reminder set for this expedition!
-EXPEDITION_REMINDER_SET: Reminder successfully set for **{char_emote} <t:{time}:F>!**
+EXPEDITION_ALREADY_SET: Kamu **sudah** memiliki pengingat otomatis untuk ekspedisi ini!
+EXPEDITION_REMINDER_SET: Pengingat sukses diatur pada **{char_emote} <t:{time}:F>!**
 PARAMETRIC_ALREADY_SET: You **already** have a reminder set for parametric transformer!
 PARAMETRIC_AUTOMATIC_ALREADY_SET: You **already** have an automatic reminder set for parametric transformer!
-PARAMETRIC_REMINDER_SET: Reminder successfully set for <:parametrictransformer:1029984451670847568><t:{time}:F>!
-AUTOMATIC_PARAMETRIC_EXPLANATION: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your parametric transformer is ready to use!
-INVALID_RESIN_AMOUNT: You need to specify a valid amount of resin.
-RESIN_AMOUNT_LOWER: Please enter a resin amount that is **higher** than your current resin!
-RESIN_REMINDER_SET: Reminder successfully set at <t:{rmd_time}:F> for **<:fragileresin:1029984988583706654>{resin}** resin!
+PARAMETRIC_REMINDER_SET: Pengingat sukses diatur untuk <:parametrictransformer:1029984451670847568><t:{time}:F>!
+AUTOMATIC_PARAMETRIC_EXPLANATION: Pengingat ini telah disetel sebagai pengingat **otomatis**! Artinya, kamu akan diingatkan *setiap kali* parametric transformer milikmu siap untuk digunakan!
+INVALID_RESIN_AMOUNT: Kamu perlu menentukan jumlah resin yang valid.
+RESIN_AMOUNT_LOWER: Mohon masukkan jumlah resin yang **lebih tinggi** daripada jumlah resin mu yang sekarang!
+RESIN_REMINDER_SET: Pengingat sukses diatur pada <t:{rmd_time}:F> untuk **<:fragileresin:1029984988583706654>{resin}** resin!
 ENTER_CUSTOM_AMOUNT_KEY: Enter Custom Amount
-ENABLE_AUTOMATIC_REMINDER_KEY: Enable Automatic Reminder
-CURRENT_ONGOING_EXPEDITIONS_DESCRIPTION: "Hey Traveler! Your current ongoing expeditions are:"
-NO_CURRENT_EXPEDITIONS: You have no ongoing expeditions.
-MISSING_RESIN_AMOUNT: You need to specify the amount of resin you currently have.
-TOO_MUCH_RESIN: You cannot have more than 160 resin.
-MAXED_RESIN_ALERT: You already have 160 resin.
-RESIN_REMINDER_FOOTER: Click a button with 🔔 to get a reminder! Make sure you have private messages enabled to ensure you receive a notification!
-SET_RESIN_REMINDER_KEY: Set resin reminder!
-API_ISSUE: There has been an API Issue.
-HOW_TO_SOLVE_TITLE: How to solve this?
-ENABLE_CHRONICLES: "Use the command </hoyolab-privacy:{command_id}> or visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable battle chronicles to make your genshin profile public."
+ENABLE_AUTOMATIC_REMINDER_KEY: Nyalakan Pengingat Otomatis
+CURRENT_ONGOING_EXPEDITIONS_DESCRIPTION: "Hai Traveler! Ekspedisi mu yang sedang berlangsung adalah:"
+NO_CURRENT_EXPEDITIONS: Kamu tidak memiliki ekspedisi yang sedang berlangsung.
+MISSING_RESIN_AMOUNT: Kamu perlu menentukan jumlah resin yang kamu miliki sekarang.
+TOO_MUCH_RESIN: Kamu tidak bisa memiliki lebih dari 160 resin.
+MAXED_RESIN_ALERT: Kamu sudah memiliki 160 resin.
+RESIN_REMINDER_FOOTER: Klik tombol 🔔 untuk mendapatkan pengingat! Pastikan untuk menyalakan private messages untuk memastikan kamu mendapatkan pemberitahuan!
+SET_RESIN_REMINDER_KEY: Atur pengingat resin!
+API_ISSUE: Telah terjadi masalah API.
+HOW_TO_SOLVE_TITLE: Bagaimana cara menyelesaikannya?
+ENABLE_CHRONICLES: "Gunakan perintah </hoyolab-privacy:{command_id}> atau kunjugi [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) dan nyalakan battle chronicles untuk membuat profil genshin mu menjadi publik."
 PLEASE_WAIT_DESCRIPTION: Waiting! There is nothing you can do to get past this at the moment.
 PLAYER_TITLE: Pemain {player}
 USER_TITLE: 'Pengguna: {user}'
@@ -1399,7 +1399,7 @@ GENSHIN_WIZARD_TRANSLATE_TITLE: Berkontribusi pada Terjemahan Genshin Wizard
 GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: Klik salah satu tautan di bawah untuk berkontribusi pada terjemahan Genshin Wizard!
 APP_COMMAND_LANGUAGE_DESCRIPTION: Ubah bahasa kamu untuk Genshin Wizard.
 APP_COMMAND_DESCRIBE_LANGUAGE: Bahasa yang kamu inginkan untuk diset ke Genshin Wizard.
-GENSHIN_WIZARD_LANGUAGE_SWITCHED: Bahasa standard untuk Genshin Wizard dialihkan ke **{language}**!
+GENSHIN_WIZARD_LANGUAGE_SWITCHED: Bahasa standar untuk Genshin Wizard dialihkan ke **{language}**!
 GENSHIN_WIZARD_CURRENT_LANGUAGE: Bahasa kamu sekarang untuk Genshin Wizard adalah **{language}**!
 ABYSS_FLOOR_PROGRESSION: "Current Progression: **{stars}/9** {bounty_status}"
 ABYSS_FLOOR_AUTHOR: Floor {floor} • Spiral Abyss Progression
