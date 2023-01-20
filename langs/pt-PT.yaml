@@ -1,7 +1,7 @@
 ---
 GENSHIN_WIZARD_KEY: Genshin Wizard
-HELP_DIRECTORY_TITLE: Genshin Wizard | Diretório de ajuda
-HELP_CATEGORY_DESCRIPTION: Escolha uma categoria da lista para ver a descrição dos comandos dessa categoria.
+HELP_DIRECTORY_TITLE: Genshin Wizard | Catálogo de Ajuda
+HELP_CATEGORY_DESCRIPTION: Escolha uma categoria na lista para visualizar comandos daquela categoria.
 HELP_CATEGORIES: Categorias
 HELP_CATEGORY_LIST: |
   > 👤 | Comandos de perfil
@@ -9,28 +9,28 @@ HELP_CATEGORY_LIST: |
   > <:hoyolab:1016159766705344705> | Comandos HoYoLAB
   > 📝 | Comandos de guias
   > ⏰ | Comandos de diversos
-MISC_COMMANDS: Comandos de diversos
+MISC_COMMANDS: Comandos diversos
 PING_INFORMATION: |
   **Pong!** :ping_pong:
   A latência do Bot é **{bot_latency}ms.**
   A latência do Websocket é **{ws_latency}ms.**
 UPTIME_INFORMATION: |
-  **Genshin Wizard Atividade**
-  **Último reinício:** <t:{last_restart}:R>
-  **Ativo por:** {uptime}
+  **Atividade do Genshin Wizard**
+  **Última Reinicialização:** <t:{last_restart}:R>
+  **Ativo durante:** {uptime}
 VERSION_KEY: Versão
 PING_KEY: Ping
 UNKNOWN_KEY: Desconhecido
-USER_NOT_PUBLIC: A data do utilizador não é pública.
-INVITE_INFORMATION: Use o seguinte link para convidar este bot para o seu servidor.
+USER_NOT_PUBLIC: Os dados do usuário não são públicos.
+INVITE_INFORMATION: Use o link abaixo para convidar o bot para o seu servidor.
 REQUESTED_BY: Pedido por {user}
-SUPPORT_GWIZ_TITLE: Suporte Genshin Wizard
-SUPPORT_GWIZ_DESC: Suporte o desenvolvimento do Genshin Wizard.
+SUPPORT_GWIZ_TITLE: Apoie o Genshin Wizard
+SUPPORT_GWIZ_DESC: Apoie o desenvolvimento do Genshin Wizard.
 DONATE_KEY: Doe
-VOTE_GWIZ_DESCRIPTION: Carregue nos seguintes links para votar no Genshin Wizard.
+VOTE_GWIZ_DESCRIPTION: Clique nos links abaixo para votar no Genshin Wizard.
 VOTE_KEY: Vote
-VOTE_BOT: Vote pelo Bot
-VOTE_SERVER: Vote pelo Servidor
+VOTE_BOT: Vote no Bot
+VOTE_SERVER: Vote no Servidor
 VOTE_BOT_LINK: Link para votar no Bot
 VOTE_SERVER_LINK: Link para votar no Servidor
 VOTE_BOT_BUTTON: Vote [Bot]
@@ -42,10 +42,10 @@ USERS_KEY: Utilizadores
 WEBSITE_KEY: Website
 INVITE_KEY: Convidar
 DOCUMENTATION_KEY: Documentação
-GWIZ_INVITE: Genshin Wizard Convite
+GWIZ_INVITE: Convite do Genshin Wizard
 AVATAR_KEY: Avatar
-ARTIFACT_CRIT_VALUE_TITLE: Calculadora de valores críticos dos artifatos
-TOTAL_CRIT_VALUE: Total de valor crítico
+ARTIFACT_CRIT_VALUE_TITLE: Calculadora de CV (CRIT Value) do Artefato
+TOTAL_CRIT_VALUE: CV Total
 TRUTH_COMMAND_RESPONSES:
   - Da maneira que o vejo, sim.
   - Sim.
@@ -70,46 +70,46 @@ TRUTH_COMMAND_RESPONSES:
   - Estou cansado. *adormece*
   - Absolutamente.
 TRUTH_COMMAND_TITLE: Sabedoria da Paimon
-QUESTION_KEY: Questão
+QUESTION_KEY: Pergunta
 RESPONSE_KEY: Resposta
 PREFIX_COMMAND_CURRENT: O prefixo para este servidor é `{prefix}`
 PREFIX_TOO_LONG: O prefixo não pode ser maior que 5 caracteres.
-PREFIX_TOO_SHORT: O prefixo não pode ser menor que 1 caracter.
+PREFIX_TOO_SHORT: O prefixo não pode ser menor que 1 caractere.
 PREFIX_CHANGED_TITLE: Genshin Wizard | Alteração de Prefixo
 PREFIX_CHANGED_DESCRIPTION: |
-  O prefixo do **Genshin Wizard** foi alterado com sucesso! Os comandos serão agora invocados usando o novo prefixo.
+  O prefixo do **Genshin Wizard** foi alterado com sucesso! Os comandos serão agora realizados usando o novo prefixo.
 
   **Antigo Prefixo:** `{old_prefix}`
   **Novo Prefixo:** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: Genshin Wizard Definições de Prefixo
+PREFIX_CHANGED_FOOTER: Configuração de Prefixo do Genshin Wizard
 MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Erro computacional. Tente reformular!"
 MATH_COMMAND_RESULT: |
   **Expressão:** `{expression}`
   **Resultado:**
   ```{result}```
-RECENT_GENSHIN_EVENTS: Eventos recentes de Genshin
+RECENT_GENSHIN_EVENTS: Eventos Recentes do Genshin
 SEND_CODES_COMMAND_TITLE: Genshin Wizard | Códigos ativos
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Resgatável ao carregar nos botões abaixo!***](https://genshin.mihoyo.com/en/gift)
+  <:blurplelink:1020155547187691600> [***Resgate clicando nos botões abaixo!***](https://genshin.mihoyo.com/en/gift)
   <:blurpleannouncement:1020402170127982712> **Nota:** Códigos expiram rapidamente, então certifique-se de resgatá-los o mais rápido possível!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
 SEND_CODES_REDEEM_AUTOMATICALLY: Resgatar automaticamente
 SEND_CODES_DIRECT_LINK: Link direto
 SEND_CODES_REDEEMABLE_CODES: Códigos resgatáveis
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Código resgatáveis
+SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Códigos resgatáveis
 SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Os códigos resgatáveis foram enviados com sucesso para {channel}!
 MESSAGE_LINK: Mensagem com link
 CLICK_HERE: Clique aqui
 INFO_SELECT_CHARACTER: Selecione um personagem
-INFO_CHARACTER_SOURCE: "Fonte: Builds guardadas"
+INFO_CHARACTER_SOURCE: "Fonte: Builds Salvas"
 INFO_USER_CACHE: Cache do utilizador
 INTERMISSION_MESSAGE: Gerando infográfico, por favor seja **paciente**...
 MENU_COOLDOWN_TITLE: Esse menu está em cooldown!
 BUTTON_COOLDOWN_TITLE: Esse botão está em cooldown!
 COMMAND_COOLDOWN_TITLE: Esse comando está em cooldown!
-MENU_COOLDOWN_VALUE: Você está carregando muito depressa! Tente novamente em **{cooldown}** segundos.
-CHARACTER_SHOWCASE_TITLE: Showcase do personagem
+MENU_COOLDOWN_VALUE: Você está clicando muito rapidamente! Tente novamente em **{cooldown}** segundos.
+CHARACTER_SHOWCASE_TITLE: Mostra de Personagem
 ERROR_RATELIMIT: O utilizador tem a taxa limitada.
 ERROR_COMMAND_COOLDOWN_VALUE: Tente usar este comando novamente em {cooldown} segundos.
 ERROR_COMMAND_LONG_COOLDOWN_VALUE: Tente usar este comando novamente em <t:{cooldown}:R>
@@ -125,13 +125,13 @@ ERROR_COMMAND_INVOKE: Tenha certeza de estar a usar os parâmetros corretos para
 ERROR_PRIVACY_SETTING_TITLE: Escondido | Nada para ver!
 ERROR_PRIVACY_SETTING_DESCRIPTION: Saudações Viajante! Infelizmente, a pessoa que está a tentar pesquisar tem as **definições de privacidade** ativas!
 ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Atualização a decorrer!
-ERROR_ONGOING_UPDATE_DESCRIPTION: Saudações Viajante! Genshin Wizard está atualmente **sobre manutenção** e este comando foi *desativado* entretanto. Por favor tente novamente *mais tarde*.
+ERROR_ONGOING_UPDATE_DESCRIPTION: Saudações Viajante! Genshin Wizard está atualmente **sob manutenção** e por isso este comando está temporariamente *desativado*. Por favor tente novamente *mais tarde*.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
   Saudações Viajante! Você **não está autorizado** para usar este comando aqui, este é um comando {command_type}*exclusivo* do servidor Genshin Wizard!
 
   Se gostaria de usar este comando, considere juntar-se ao nosso [Discord Oficial](https://discord.gg/genshinwizard).
 ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
-ERROR_PREMIUM_COMMAND_DESCRIPTION: Saudações Viajante! Você **não está autorizado** a usar este comando, este comando apenas está disponivel a **Subscritores Premium**. Se gostaria de usar esta funcionalidade, considere saber mais usando o comando </premium:{command_id}>.
+ERROR_PREMIUM_COMMAND_DESCRIPTION: Saudações Viajante! Você **não está autorizado** a usar este comando, este comando apenas está disponível para **Assinantes Premium**. Se gostaria de usar esta funcionalidade, considere saber mais usando o comando </premium:{command_id}>.
 ERROR_BLACKLISTED_TITLE: Genshin Wizard | Lista Negra
 ERROR_BLACKLISTED_DESCRIPTION: |
   Saudações Viajante! Você foi **banido** de usar o Genshin Wizard!
@@ -147,19 +147,19 @@ MESSAGE_KEY: Mensagem
 ERROR_EMPTY_BACKPACK: O seu inventário está **vazio**! Para começar a sua jornada, use o comando </wishsimulator:{command_id}>!
 ERROR_INTERACTION_MISMATCH: Saudações Viajante! Esta **não é a sua interação**! Use o comando {command} se quiser utilizar este comando você mesmo!
 ERROR_MESSAGE: Houve um erro!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Opinião
+FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback (Comentários)
 FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *A sua opinião foi enviada com sucesso para os desenvolvedores!*
 FEEDBACK_LOG_RESPONSE: |
   > Utilizador: **{author_name}** | {author_mention}
   > Discord ID: `{author_id}`
 
   **Opinião:**```{feedback}```
-NO_HOYOLAB_LINKED: Você ainda não conectou a sua conta HoYoLAB. Use </register:{command_id}> para conectar a sua conta.
+NO_HOYOLAB_LINKED: Você ainda não conectou a sua conta HoYoLAB. Use </register:{command_id}> para conectar.
 OLD_HOYOLAB_LINKED: |
   Saudações Viajante! Desculpe pelo inconveniente mas esta funcionalidade foi implementada **depois** de registar a sua conta `HoYoLAB` no Genshin Wizard.
 
   Para usar este botão, deve remover a sua conta HoYoLAB através de </hoyo:{command_id}> e **reconectar** através do comando de registo habitual.
-CODE_REDEEM_TITLE: Genshin Wizard | Código de resgate HoYoLAB
+CODE_REDEEM_TITLE: Genshin Wizard | Resgate de Código HoYoLAB
 CODE_REDEEM_DESCRIPTION: "*Por favor espere enquanto processamos o seu código de resgate...*"
 CODE_REDEEM_PROGRESS: |
   *Por favor espere enquanto processamos o seu código de resgate...*
@@ -172,8 +172,8 @@ GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Doe](https://ko-fi.com/genshinwizard)**
 CODE_REDEEM_SUCCESS: "*Os códigos de resgate foram processados com sucesso!*"
-APP_COMMAND_INFO_DESCRIPTION: Mostra as builds dos personagens listados no showcase do utilizador.
-APP_COMMAND_EXPORT_DESCRIPTION: Exporta o seu histórico de orações Genshin formatado num ficheiro de texto através de uma mensagem privada.
+APP_COMMAND_INFO_DESCRIPTION: Mostra as builds dos personagens listados na Mostra do usuário dentro do jogo.
+APP_COMMAND_EXPORT_DESCRIPTION: Exporta o seu histórico de orações do Genshin como um arquivo de texto através de uma mensagem privada.
 APP_COMMAND_HISTORY_DESCRIPTION: Mostra o histórico de orações da sua conta Genshin.
 APP_COMMAND_DAILY_DESCRIPTION: Reivindique as suas recompensas diárias HoYoLAB.
 APP_COMMAND_MONTHLY_DESCRIPTION: Mostra as recompensas diárias HoYoLAB pelo mês.
@@ -181,30 +181,30 @@ APP_COMMAND_DIARY_DESCRIPTION: Veja o seu diário de Viajante HoYoLAB.
 APP_COMMAND_REDEEM_DESCRIPTION: Resgata códigos de resgate para o Genshin Impact.
 APP_COMMAND_HOYO_DESCRIPTION: Verifica a sua conta HoYoLAB do Genshin Wizard.
 APP_COMMAND_CHARACTERS_DESCRIPTION: Veja o resumo do personagem da sua conta Genshin.
-APP_COMMAND_TCG_DESCRIPTION: Veja o showcase da sua conta de Invocação de Gênio TCG.
+APP_COMMAND_TCG_DESCRIPTION: Veja uma Mostra da sua conta de Chamado Sagrado dos Sete.
 APP_COMMAND_IMPORT_DESCRIPTION: Importe o seu histórico de orações de outros sites populares.
-APP_COMMAND_LEADERBOARD_DESCRIPTION: Ver o ranking do Genshin Wizard.
+APP_COMMAND_LEADERBOARD_DESCRIPTION: Ver os rankings do Genshin Wizard.
 APP_COMMAND_LOCATION_DESCRIPTION: Exibe a(s) localização(ões) do recurso fornecido.
 APP_COMMAND_LOCATIONS_DESCRIPTION: Exibe uma lista de locais de recursos disponíveis.
 APP_COMMAND_CALC_DESCRIPTION: Calcula os materiais de ascensão necessários para um determinado personagem.
 APP_COMMAND_BANNER_DESCRIPTION: Altera o fundo do seu perfil de Genshin Wizard.
 APP_COMMAND_PROFILE_DESCRIPTION: Vê o seu perfil pessoal do Genshin Wizard.
-APP_COMMAND_SETTINGS_DESCRIPTION: Altera as configurações de do seu perfil Genshin Wizard.
+APP_COMMAND_SETTINGS_DESCRIPTION: Altera as configurações do seu perfil Genshin Wizard.
 APP_COMMAND_STATS_DESCRIPTION: Veja as estatísticas da sua conta Genshin.
-APP_COMMAND_ABYSS_DESCRIPTION: Veja o progresso do abismo na sua conta Genshin.
-APP_COMMAND_EXPLORATION_DESCRIPTION: Veja o progresso da exploração na sua conta Genshin.
-APP_COMMAND_UID_DESCRIPTION: Verifica o UID/Servidor Genshin do utilizador.
+APP_COMMAND_ABYSS_DESCRIPTION: Veja o progresso no Abismo da sua conta do Genshin.
+APP_COMMAND_EXPLORATION_DESCRIPTION: Veja o progresso de exploração da sua conta Genshin.
+APP_COMMAND_UID_DESCRIPTION: Procura o UID/Servidor Genshin de um usuário.
 APP_COMMAND_REGISTER_DESCRIPTION: Registe a sua conta Genshin no Genshin Wizard.
 APP_COMMAND_REFRESH_DESCRIPTION: Atualiza o seu link de histórico de orações (os links expiram uma vez a cada 24 horas).
 APP_COMMAND_UNLINK_DESCRIPTION: Desconecta a sua conta Genshin e apaga todos os dados.
-APP_COMMAND_REMINDERS_DESCRIPTION: Configurar lembretes para notificar sobre a resina, bule de chá e expedições.
-APP_COMMAND_RESIN_DESCRIPTION: Configura um lembrete de resina para notificá-lo quando a sua resina for recarregada.
+APP_COMMAND_REMINDERS_DESCRIPTION: Configurar notificações sobre Resina, Bule e Expedições.
+APP_COMMAND_RESIN_DESCRIPTION: Configura um lembrete de Resina que notifica-o quando ela estiver recarregada.
 APP_COMMAND_GACHA_DESCRIPTION: Exibe um infográfico atualizado mostrando todo o seu histórico de orações para o banner especificado.
-APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Teste a sua sorte gacha com o Simulador de Orações Genshin!
+APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Teste a sua sorte nos tiros com o Simulador de Orações!
 APP_COMMAND_INVENTORY_DESCRIPTION: Veja o seu inventário virtual do Genshin Wizard.
 APP_COMMAND_SHOP_DESCRIPTION: Ver a sua loja do Genshin Wizard.
 APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: Veja os seus arquivos de Personagem do Genshin Wizard.
-APP_COMMAND_COMMISSIONS_DESCRIPTION: Recolha as suas recompensas de Comissão diárias.
+APP_COMMAND_COMMISSIONS_DESCRIPTION: Resgate as recompensas de Missão Diária.
 APP_COMMAND_BALANCE_DESCRIPTION: Veja o saldo da sua conta do Genshin Wizard.
 APP_COMMAND_EDIT_DESCRIPTION: Edita o banco de dados de detalhes do Genshin Wizard.
 APP_COMMAND_EDIT_ADD_DESCRIPTION: Adiciona uma nova build para uma personagem específico.
@@ -219,28 +219,28 @@ APP_COMMAND_EDIT_PLAYSTYLE_DESCRIPTION: Edita os estilos de jogo para um persona
 APP_COMMAND_DESCRIBE_PLAYSTYLE_CHARACTER: O nome do personagem para o qual você deseja editar estilos de jogo.
 APP_COMMAND_EDIT_SYNERGY_DESCRIPTION: Edita as sinergias para um personagem específico.
 APP_COMMAND_DESCRIBE_SYNERGY_CHARACTER: O nome do personagem para o qual você deseja editar as sinergias.
-APP_COMMAND_FARM_DESCRIPTION: Verifica o cronograma do domínio atual para a sua região.
-APP_COMMAND_TCGCARD_DESCRIPTION: Procura por uma carta de TCG de Genshin Impact.
-APP_COMMAND_ARTIFACT_DESCRIPTION: Display a breakdown of the perks/buffs for the given artifact.
-APP_COMMAND_ARTIFACTS_DESCRIPTION: Display a list of available artifacts.
-APP_COMMAND_TRANSLATE_DESCRIPTION: Information on how to contribute to Genshin Wizard's translations.
-APP_COMMAND_ID_DESCRIPTION: Look up any in-game asset using its ID.
-APP_COMMAND_WEAPON_DESCRIPTION: Look up a weapon guide for a specific Genshin weapon.
-APP_COMMAND_GUIDE_DESCRIPTION: Look up a character guide for a specific Genshin character.
-APP_COMMAND_BUILD_DESCRIPTION: Look up build(s) for a specific Genshin character.
-APP_COMMAND_PLAYSTYLE_DESCRIPTION: Look up playstyles for a specific Genshin character.
-APP_COMMAND_ASCENSION_DESCRIPTION: Look up a ascension materials for a specific Genshin character.
-APP_COMMAND_SYNERGY_DESCRIPTION: Look up a character and team synergies for a specific Genshin character.
-APP_COMMAND_CONSTELLATIONS_DESCRIPTION: Look up constellations for a specific Genshin character.
-APP_COMMAND_SKILLS_DESCRIPTION: Look up skill talents for a specific Genshin character.
-APP_COMMAND_PASSIVE_DESCRIPTION: Look up passive talents for a specific Genshin character.
-APP_COMMAND_GUIDES_DESCRIPTION: Display a list of available character guides.
-APP_COMMAND_REFERENCE_DESCRIPTION: Search for a specific reference sheet.
-APP_COMMAND_REFERENCESHEETS_DESCRIPTION: View all available reference sheets.
-APP_COMMAND_TODO_DESCRIPTION: Check daily/weekly events in Genshin Impact.
-APP_COMMAND_BANNERS_DESCRIPTION: View ongoing Genshin Impact event banners.
-APP_COMMAND_CONFIG_DESCRIPTION: Genshin Wizard config setup panel, configure automatic announcements and more!
-APP_COMMAND_PARTNER_DESCRIPTION: hidden
+APP_COMMAND_FARM_DESCRIPTION: Verifica a programação atual do domínio na sua região.
+APP_COMMAND_TCGCARD_DESCRIPTION: Procure uma Carta do Chamado Sagrado dos Sete.
+APP_COMMAND_ARTIFACT_DESCRIPTION: Mostra um resumo dos bônus e vantagens do conjunto de artefato.
+APP_COMMAND_ARTIFACTS_DESCRIPTION: Mostra uma lista dos artefatos disponíveis.
+APP_COMMAND_TRANSLATE_DESCRIPTION: Informação sobre como contribuir traduzindo o Genshin Wizard.
+APP_COMMAND_ID_DESCRIPTION: Procure por um objeto do jogo usando o seu ID.
+APP_COMMAND_WEAPON_DESCRIPTION: Procure por um guia/tutorial sobre uma arma do Genshin.
+APP_COMMAND_GUIDE_DESCRIPTION: Procure um guia/tutorial para um personagem do Genshin.
+APP_COMMAND_BUILD_DESCRIPTION: Descubra Build(s) recomendadas para um personagem do Genshin.
+APP_COMMAND_PLAYSTYLE_DESCRIPTION: Descubra estilos de jogo recomendados para um personagem do Genshin.
+APP_COMMAND_ASCENSION_DESCRIPTION: Descubra os materiais de ascensão de um personagem do Genshin.
+APP_COMMAND_SYNERGY_DESCRIPTION: Descubra times recomendados e sinergias de um personagem do Genshin.
+APP_COMMAND_CONSTELLATIONS_DESCRIPTION: Veja as constelações de um personagem do Genshin.
+APP_COMMAND_SKILLS_DESCRIPTION: Veja os Talentos e habilidades de um personagem do Genshin.
+APP_COMMAND_PASSIVE_DESCRIPTION: Veja os Talentos Passivos de um personagem do Genshin.
+APP_COMMAND_GUIDES_DESCRIPTION: Mostra uma lista de todos os guias de personagem disponíveis.
+APP_COMMAND_REFERENCE_DESCRIPTION: Procura por uma planilha de referência específica.
+APP_COMMAND_REFERENCESHEETS_DESCRIPTION: Veja todas as planilhas de referência disponíveis.
+APP_COMMAND_TODO_DESCRIPTION: Confira eventos diários e semanais do Genshin Impact.
+APP_COMMAND_BANNERS_DESCRIPTION: Confira os Banners limitados atuais do Genshin Impact.
+APP_COMMAND_CONFIG_DESCRIPTION: Painel de configurações do Genshin Wizard; configure anúncios automáticos e mais!
+APP_COMMAND_PARTNER_DESCRIPTION: oculto
 APP_COMMAND_SETUP_DESCRIPTION: Genshin Wizard Role Integration Setup Panel.
 APP_COMMAND_PREMIUM_DESCRIPTION: Purchase Genshin Wizard Premium to gain access to premium features.
 APP_COMMAND_ROLE_DESCRIPTION: Applies specific character roles to a user. Refer to relative text channel for more information.
@@ -249,7 +249,7 @@ APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
 APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
 APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
 APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
-APP_COMMAND_DONATE_DESCRIPTION: Suporte o desenvolvimento do Genshin Wizard.
+APP_COMMAND_DONATE_DESCRIPTION: Apoie o desenvolvimento do Genshin Wizard.
 APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
 APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
 APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
@@ -279,7 +279,7 @@ ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
 WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
-INFO_COMMAND_SHOWCASE_TITLE: Showcase do personagem
+INFO_COMMAND_SHOWCASE_TITLE: Mostra de Personagem
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
 REFRESHES_KEY: Refreshes
 INFO_COMMAND_CHARACTER_DETAILS: Character
@@ -818,7 +818,7 @@ RESIN_REMINDER_FOOTER: Click a button with 🔔 to get a reminder! Make sure you
 SET_RESIN_REMINDER_KEY: Set resin reminder!
 API_ISSUE: There has been an API Issue.
 HOW_TO_SOLVE_TITLE: How to solve this?
-ENABLE_CHRONICLES: Visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable battle chronicles to make your genshin profile public
+ENABLE_CHRONICLES: "Use the command </hoyolab-privacy:{command_id}> or visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable battle chronicles to make your genshin profile public."
 PLEASE_WAIT_DESCRIPTION: Waiting! There is nothing you can do to get past this at the moment.
 PLAYER_TITLE: Player {player}
 USER_TITLE: User {user}
@@ -1050,7 +1050,7 @@ PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: Hey Traveler, this **custom role** 
 PREMIUM_CUSTOM_ROLE_FOOTER: Genshin Wizard Custom Role Settings
 PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> Hey Traveler, you must be a **Tier 1** or higher premium user to use this feature. Consider purchasing an [**__upgrade__**](https://patreon.com/genshinwizard) to unlock this amazing feature.
 PREMIUM_ROLE_NAME_CHANGED: <:yescheck:1021114525858136074> Role name changed to **{name}**.
-PREMIUM_ROLE_COLOR_CHANGED: '<:yescheck:1021114525858136074> Role color changed to **#{color}**.'
+PREMIUM_ROLE_COLOR_CHANGED: <:yescheck:1021114525858136074> A cor do Cargo foi mudada para **{color}**.
 HEX_NOT_PARSED: I was unable to parse the HEX color code you provided. Please try again.
 PREMIUM_ROLE_CLAIMED_ALREADY: <:Error:1021889679857037372> Hey Traveler, you already have a custom role. If you would like to change it, please use the buttons below.
 PREMIUM_CUSTOM_ROLE_TITLE: "{user}'s Custom Role"
@@ -1423,3 +1423,8 @@ ABYSS_ENEMY_FLOOR_VIEW: Floor View
 ABYSS_ENEMY_CHAMBER_VIEW: Chamber View
 ABYSS_ENEMY_FLOOR_OVERVIEW: "Schedule: **Floor {floor_index} Overview**"
 ABYSS_ENEMY_INFORMATION_BUTTON: Hello Traveler, as inconveniencing as it may be, I am **__unable__** to display information regarding **specific enemy counts**. This is due to the fact that this information is generated when *starting* the challenege. I apologize for any inconvenience this may cause.
+ABYSS_ENEMY_INFORMATION_BUTTON_LABEL: Enemy Counts
+APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: Change your Battle Chronicles Privacy Settings.
+VIEW_ON_HOYOLAB: View on HoYoLAB
+CHRONICLES_PRIVACY_SETTING: Character Battle Chronicle Settings
+PRIVACY_SETTING_BUTTON_LABEL: Privacy Setting {setting_number}

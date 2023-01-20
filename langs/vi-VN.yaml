@@ -48,27 +48,27 @@ ARTIFACT_CRIT_VALUE_TITLE: Tính toán Crit Value Thánh Di Vật
 TOTAL_CRIT_VALUE: Tổng Crit Value
 TRUTH_COMMAND_RESPONSES:
   - As I see it, yes.
-  - Yes.
+  - Đúng.
   - Positive.
   - From my point of view, yes.
-  - Convinced.
-  - It is certain.
-  - It is decidedly so.
-  - Without a doubt.
-  - Most Likely.
+  - Thuyết Phục.
+  - Chắc chắn rồi.
+  - Nó đã được định sẵn là như vậy.
+  - Không có gì nghi ngờ.
+  - Có vẻ là sẽ như vậy.
   - Chances High.
-  - No.
+  - Số.
   - I think not.
-  - Negative.
-  - My sources say no.
+  - Phản đối.
+  - Nguồn của tôi nói không.
   - Not Convinced.
   - Perhaps.
   - Not Sure.
-  - Maybe.
-  - Who knows?
-  - I cannot predict now.
+  - Có thể
+  - Bạn có biết?
+  - Không thể dự đoán ngay bây giờ.
   - I am tired. *proceeds with sleeping*
-  - Absolutely.
+  - Tất nhiên rồi.
 TRUTH_COMMAND_TITLE: Paimon's Wisdom
 QUESTION_KEY: Câu hỏi
 RESPONSE_KEY: Trả lời
@@ -91,15 +91,15 @@ MATH_COMMAND_RESULT: |
 RECENT_GENSHIN_EVENTS: Sự kiện Genshin gần đây
 SEND_CODES_COMMAND_TITLE: Genshin Wizard | Mã đổi thưởng
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
-  <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
+  <:blurplelink:1020155547187691600> [***Có thể đổi mã quà bằng cách bấm vào các nút bên dưới!***](https://genshin.mihoyo.com/en/gift)
+  <:blurpleannouncement:1020402170127982712> **Ghi chú:** Mã quà sẽ hết hạn, vui lòng đổi thưởng càng sớm càng tốt!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
 SEND_CODES_REDEEM_AUTOMATICALLY: Tự động đổi mã quà
 SEND_CODES_DIRECT_LINK: Link trực tiếp
 SEND_CODES_REDEEMABLE_CODES: Mã đổi thưởng
 SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Mã đổi thưởng
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Đã gửi thành công mã đổi thưởng đến {channel}!
 MESSAGE_LINK: Link tin nhắn
 CLICK_HERE: Bấm vào đây
 INFO_SELECT_CHARACTER: Chọn nhân vật
@@ -302,11 +302,12 @@ PURCHASE_PREMIUM: Mua Premium
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Nhà Lữ Hành ơi, bạn chỉ có thể quản lý art tùy chỉnh cho **nhân vật của bản thân**!
 GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard Art Tùy chỉnh
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
-  ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://dashboard.genshinwizard.com/?key={key})
+  **Tùy chỉnh Art Infographic**
+  Nhà Lữ Hành ơi, hãy bấm nút bên dưới để **tùy chỉnh** art cho infographic của nhân vật này!
+  <a:PaimonCookies:992302701838864454>
+  ```Chỉnh sửa
+  Infographic cho {character}```
+  > <:Settings:1046877233626742925> [**Bấm vào đây để tùy chỉnh Art**](https://dashboard.genshinwizard.com/?key={key})
 GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Đi đến Bảng điều khiển
 REMOVE_CHARACTERS_FROM_CACHE: Loại bỏ nhân vật khỏi bộ đệm...
 INFO_COMMAND_CACHE_DELETE_SELECTED: Đã xóa thành công nhân vật khỏi bộ đệm Genshin Wizard!
@@ -557,58 +558,58 @@ SETTING_ART_STYLE_UPDATED: "Cài đặt Art build nhân vật đã được cậ
 SETTING_MASTER_PROFILE_RESET: Profile Genshin Wizard của bạn đã được reset về cài đặt gốc!
 INVALID_IMAGE_URL: "Vui lòng cung cấp URL hình ảnh **hợp lệ**. Các định dạng ảnh được chấp nhận bao gồm: `PNG`, `JPG`, `JPEG`, và `GIF`."
 SETTING_BANNER_UPDATE: Banner của bạn đã được cập nhật thành công!
-SETTING_BIOGRAPHY_ILLEGAL: Hey Traveler! Your input contains words that **aren't allowed** by Genshin Wizard! Please consider trying something *different* for your bio.
-DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
-SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
+SETTING_BIOGRAPHY_ILLEGAL: Nhà Lữ Hành ơi! Bạn vừa nhập vào những **từ cấm** của Genshin Wizard! Vui lòng chỉnh sửa và thử lại.
+DEFAULT_BIOGRAPHY: Nhà Lữ Hành ưa thích những chuyến mạo hiểm!
+SETTING_BIOGRAPHY_UPDATED: Bio của bạn đã được cập nhật thành công!
 BIOGRAPHY_KEY: Bio
 BANNER_KEY: Banner
-ELEMENTAL_RESONANCE_KEY: Elemental Resonance
-BUILDS_ART_STYLE_KEY: Builds Art Style
+ELEMENTAL_RESONANCE_KEY: Cộng hưởng nguyên tố
+BUILDS_ART_STYLE_KEY: Art Style Build
 ART_STYLE_KEY: Art Style
 FANART_KEY: Fanart
-OFFICIAL_ART_KEY: Official Art
+OFFICIAL_ART_KEY: Art Official
 GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
-  Change your Genshin Wizard profile settings here.
+  Thay đổi cài đặt profile Genshin Wizard ở đây.
 
-  **Profile Summary**
-GENSHIN_WIZARD_PROFILE_TITLE: Genshin Wizard Profile Settings
+  **Tổng quan Profile**
+GENSHIN_WIZARD_PROFILE_TITLE: Cài đặt Profile Genshin Wizard
 MISSING_REGISTRATION_INSTRUCTIONS: |
-  Please register using one of:
+  Vui lòng đăng ký bằng cách:
   **1.)** </register:{command_id}>
-  **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
-MISSING_IMAGE: Please provide an image or a link to an image to update your banner
-PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Profile Banner Link Updated
-IMAGE_LINK_KEY: Image Link
-UPDATE_DATE_KEY: Update Date
-SETTING_COMMAND_REQUIRE_SLASH: You must use a **slash command** (</settings:{command_id}>) or access this via your profile.
+  **2.)** Nhập vào user/UID. Ví dụ: `/info [discord-user]/[genshin-uid]`
+MISSING_IMAGE: Hãy cung cấp đường link hình ảnh để cập nhật banner của bạn
+PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Link Banner Profile đã cập nhật
+IMAGE_LINK_KEY: Link Hình ảnh
+UPDATE_DATE_KEY: Thời gian cập nhật
+SETTING_COMMAND_REQUIRE_SLASH: Bạn phải dùng **lệnh slash** (</settings:{command_id}>) hoặc truy cập qua profile của bạn.
 CURRENT_ABYSS_DESCRIPTION: |
-  **Current Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  **Uyên Nguyệt Chúc Phúc hiện tại**
+  **Bắt đầu:** <t:{timestamp_start}:F>
+  **Kết thúc:** <t:{timestamp_end}:F>
 PREVIOUS_ABYSS_DESCRIPTION: |
-  **Previous Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
-ABYSS_COMMAND_FOOTER: "Note: Abyss data may be incorrectly shown or missing data, if this is the case, do keep in mind that abyss data can generally take anywhere from 1-3 hours to update!"
-ABYSS_MISSING_DATA_FOOTER: "Note: This data seems to be missing some information! This is likely due to this information not being stored in the database previously, or the data not being updated yet."
+  **Uyên Nguyệt Chúc Phúc kì trước**
+  **Bắt đầu:** <t:{timestamp_start}:F>
+  **Kết thúc:** <t:{timestamp_end}:F>
+ABYSS_COMMAND_FOOTER: "Ghi chú: Dữ liệu La hoàn có thể không hiển thị chính xác hoặc bị thiếu sót, vui lòng chú ý rằng dữ liệu la hoàn có thể mất từ 1-3 tiếng để cập nhật đầy đủ!"
+ABYSS_MISSING_DATA_FOOTER: "Ghi chú: Dữ liệu này có vẻ như đã thiếu sót một số thông tin! Đây có thể là do thông tin này không được lưu trữ trên máy chủ trước đây, hoặc chưa được cập nhật."
 ABYSSAL_ARCHIVE_DESCRIPTION: |
-  <:previous_abyss:1028377675989000215> **Abyssal Archives**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  <:previous_abyss:1028377675989000215> **Lưu trữ La hoàn**
+  **Bắt đầu:** <t:{timestamp_start}:F>
+  **Kết thúc:** <t:{timestamp_end}:F>
 UID_LOOKUP: Tìm kiếm Genshin UID
 UID_LOOKUP_TITLE: "Genshin UID của {user}"
 PUBLIC_KEY: Công khai
 PRIVATE_KEY: Riêng tư
 CREATION_DATA_KEY: Ngày tạo
 JOIN_DATE_KEY: Ngày tham gia
-NOT_HERE_KEY: Not Here
+NOT_HERE_KEY: Không ở đây
 LOCATION_KEY: Địa điểm
 TOP_ROLE_KEY: Role đầu
 RECENT_FIVE_STAR_CHARACTER: "**Nhân vật 5 :star: gần đây**"
 RECENT_FIVE_STAR_WEAPON: "**Vũ khí 5 :star: gần đây**"
 WISHES_WORTH_KEY: Tổng số Nguyên Thạch
-OVERALL_SUMMARY_KEY: Overall Summary
-OVERALL_STATS_KEY: Overall Stats
+OVERALL_SUMMARY_KEY: Tổng quan
+OVERALL_STATS_KEY: Tổng quan thông số
 PERCENTAGE_KEY: Phần trăm
 TOTAL_WISHES_KEY: Tổng số Cầu nguyện
 TOTAL_KEY: Tổng
@@ -621,7 +622,7 @@ REGISTER_PC_METHOD: "PC"
 REGISTER_ANDROID_METHOD: "Android"
 IOS_KEY: "iOS"
 CONSOLE_KEY: "Console"
-REGISTER_IOS_METHOD: "iOS (Stream App Method)"
+REGISTER_IOS_METHOD: "iOS (Phương pháp Stream App)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
   Hãy truy cập [Tài liệu GitHub](https://github.com/Genshin-Wizard/historyLink) để xem hướng dẫn chi tiết với hình ảnh minh họa.
 
@@ -636,78 +637,78 @@ REGISTER_COMMAND_PC_DIRECTIONS: |
   6. Nhấn Enter, đợi chương trình chạy xong. Một đường link sẽ được tự động copy.
   7. Nhấn nút bên dưới rồi paste đường link đó vào.
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
-  After the 3.0 update, users can no longer simply copy and paste the history link on Android devices anymore.
+  Sau bản cập nhật 3.0, người dùng không thể copy và paste link lịch sử trên thiết bị Android như trước nữa. 
 
-  We are currently looking for a way to retrieve the history link on Android devices. Please check back later.
+  Chúng tôi đã tìm cách lấy lịch sử cầu nguyện trên thiết bị Android. Vui lòng thử lại sau.
 REGISTER_COMMAND_IOS_DIRECTIONS: |
-  Check out Kaizer's [Stream App Guide](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) for detailed steps with pictures.
+  Hãy xem [Stream App Guide](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) của Kaizer để biết cách làm với hình ảnh trực quan.
 
-  1. Open Genshin Impact and go to the Wish screen
-  2. While Genshin Impact is still open, go to Stream app and tap Sniff Now
-  3. Go back to Genshin Impact and open you wish history
-  4. When your wish list is loaded go back to Stream app and tap Stop sniffing
-  5. Then tap on Sniff History and choose the first item in the list
-  6. Tap the request starting by `GET https://hk4e-api-os/...`
-  7. Tap the request tab
-  8. Tap the long text starting by `GET /event/gacha_info...`
-  9. Finally, tap Copy Url
-  10. Click the button below and paste the link in the input field.
-RESELECT_PLATFORM_KEY: Re-Select Platform
-REGISTER_COMMAND_CONSOLE_DIRECTIONS: Following the 2.3 update event links don't work anymore. This being said, it is still possible to obtain the key by linking your Playstation account with a Mihoyo account and using the pc/mobile method instead.
+  1. Mở Genshin Impact và đến giao diện cầu nguyện
+  2. Khi Genshin Impact vẫn đang mở, chuyển qua app Stream và bấm Sniff Now
+  3. Quay lại Genshin Impact và mở lịch sử cầu nguyện
+  4. Khi lịch sử cầu nguyện đã tải xong, quay lại app Stream và bấm Stop sniffing
+  5. Sau đó bấm Sniff History và chọn vào mục đầu tiên trong danh sách
+  6. Bấm vào request `GET https://hk4e-api-os/...`
+  7. Bấm vào tab request
+  8. Bấm vào dòng text bắt đầu bởi `GET /event/gacha_info...`
+  9. Bấm vào Copy URL
+  10. Bấm vào nút bên dưới tin nhắn này để dán đường link vừa copy vào.
+RESELECT_PLATFORM_KEY: Chọn lại nền tảng
+REGISTER_COMMAND_CONSOLE_DIRECTIONS: Sau bản cập nhật 2.3 các đường link event không còn hoạt động nữa. Tuy nhiên bạn vẫn có thể lấy key bằng cách liên kết tài khoản Playstation với tài khoản Mihoyo và sử dụng phương pháp pc/mobile.
 REGISTER_COMMAND_PLATFORM_SELECTION: Bạn thường chơi Genshin Impact qua nền tảng nào?
 REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | Đăng ký Lịch sử Cầu nguyện
 REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
-  Welcome to Genshin Wizard's Registration system.
+  Chào mừng đến với hệ thống đăng kí Genshin Wizard. 
 
-  **Linking Features:**
-  > **1.** Keep track of your wish history.
-  > **2.** View in-depth wish history statistics along with your banner pities.
-  > **3.** View whether you're on your gauranteed limited pity or not.
-  > **4.** Full Genshin Wizard profile capabilities.
-  > **5.** Access to all commands that are accessible by [**Linking UID**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-registration).
+  **Lợi ích khi đăng kí**
+  > **1.** Xem lại lịch sử cầu nguyện của bạn.
+  > **2.** Hiển thị thông số cầu nguyện cùng với pity hiện tại.
+  > **3.** Kiểm tra bảo hiểm cầu nguyện.
+  > **4.** Đầy đủ chức năng profile Genshin Wizard.
+  > **5.** Cùng với các chức năng khác qua [**Liên kết UID**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-registration).
 
-  Which platform do you use to play Genshin Impact?
-ERROR_INVALID_UID: Please provide a valid UID to link your Genshin account to your Discord account.
+  Bạn đang sử dụng nền tảng nào để chơi Genshin Impact?
+ERROR_INVALID_UID: Vui lòng cung cấp UID hợp lệ để liên kết tài khoản Genshin của bạn với tài khoản Discord.
 ERROR_INVALID_REGISTRATION_URL: Nhà Lữ Hành ơi, đường link này **không hợp lệ**! Hãy đảm bảo rằng bạn đã làm đúng các bước và thử lại.
-ERROR_UNEXPECTED_ERROR: An unexpected error has occurred. Please report this to staff!
-REGISTER_COMMAND_NO_WISHES_TITLE: Không tìm thấy Cầu nguyện nào!
+ERROR_UNEXPECTED_ERROR: Một lỗi không xác định đã xảy ra. Vui lòng báo cáo cho staff!
+REGISTER_COMMAND_NO_WISHES_TITLE: Không tìm thấy lần Cầu nguyện nào!
 REGISTER_COMMAND_NO_WISHES_DESCRIPTION: |
-  You do not have any wishes yet! Please register again once you have wished on at-least one banner.
-  Wishes show up in history about 1-2 hours after wishing.
-REFRESHING_USER: Refreshing user...
-REGISTERING_USER: Registering user...
-RETRIEIVING_WISH_HISTORY: Retrieving your wish history...
-REGISTER_BANNER_SYNCED: Successfully synced {banner_name} banner!
-REGISTER_BANNED_SYNC_COMPLETE: Successfully synced all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
-SUCCESSFULLY_REGISTERED: Successfully Registered!
-SUCCESSFULLY_REFRESHED: Successfully Refreshed!
+  Bạn chưa có lần cầu nguyện nào! Hãy đăng kí lại một khi bạn đã cầu nguyện trong ít nhất một banner. 
+  Các lần cầu nguyện sẽ xuất hiện trong lịch sử 1-2 tiếng sau đó.
+REFRESHING_USER: Đang làm mới...
+REGISTERING_USER: Đang đăng kí...
+RETRIEIVING_WISH_HISTORY: Đang lấy lịch sử cầu nguyện...
+REGISTER_BANNER_SYNCED: Đã cập nhật thành công banner {banner_name}!
+REGISTER_BANNED_SYNC_COMPLETE: Đã sync thành công tất cả banner! Bạn giờ đây có thể dùng lệnh </history:{command_id}> để hiển thị thêm thông tin về những lần cầu nguyện của bạn.
+SUCCESSFULLY_REGISTERED: Đã đăng kí thành công!
+SUCCESSFULLY_REFRESHED: Đã làm mới thành công!
 SUCCESSFULLY_UPDATED_UID: |
-  Congratulations Traveler! You have **successfully** updated your `UID`!
+  Chúc mừng Nhà Lữ Hành! Bạn đã **cập nhật thành công** `UID`!
 
-  Refer to </help:{command_id}> for more information.
+  Hãy kiểm tra thêm thông tin bằng lệnh </help:{command_id}>.
 SUCCESSFULLY_REGISTERED_RESPONSE: |
-  Hey Traveler! Congratulations, your account was **successfully** registered!
+  Nhà Lữ Hành ơi! Chúc mừng bạn đã đăng kí tài khoản **thành công**!
 
-  You can now access several new gacha-related command within Genshin Wizard and more! For more information, check out the </help:{command_id}> command or visit our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/commands)!
-GENSHIN_WIZARD_REGISTRATION: Genshin Wizard Registration
-UNLINK_GENSHIN_ACCOUNT: Unlink Genshin Account
-UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Unlink your Genshin Impact account completely from Genshin Wizard. This will erase all your data from Genshin Wizard, including your wish history, wish statistics, and more. This action is **irreversible**. Are you sure you want to continue?
-UNLINK_HOYOLAB_ACCOUNT: Unlink HoYoLAB Account
-UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Unlink your HoYoLAB account from Genshin Wizard; Will not unlink your linked UID from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
-PURGE_WISH_HISTORY: Purge Wish History
-PURGE_WISH_HISTORY_DESCRIPTION: Purge only your wish history from Genshin Wizard, your Genshin account will still be linked to Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
-UNLINK_EVERYTHING: Unlink Everything
-UNLINK_EVERYTHING_BRIEF: This method will unlink **everything** from Genshin Wizard.
-UNLINK_EVERYTHING_DESCRIPTION: This method will unlink everything from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
-UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data from Genshin Wizard!
-UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If you believe for this to be an error, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
+  Bạn giờ đây có thể truy cập những command gacha trong Genshin Wizard và hơn nữa! Để biết thêm thông tin, vui lòng sử dụng lệnh </help:{command_id}> hoặc kiểm tra [**Documentation**](https://docs.genshinwizard.com/wishing-centre/commands)!
+GENSHIN_WIZARD_REGISTRATION: Đăng kí Genshin Wizard
+UNLINK_GENSHIN_ACCOUNT: Hủy liên kết tài khoản Genshin
+UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: "Hủy liên kết tài khoản Genshin của bạn khỏi Genshin Wizard. Dữ liệu Genshin Wizard về tài khoản này sẽ bị xóa bỏ, bao gồm: lịch sử cầu nguyện, thông số cầu nguyện, ... Hành động này là **không thể hoàn tác**. \nBạn có muốn tiếp tục không?"
+UNLINK_HOYOLAB_ACCOUNT: Hủy liên kết tài khoản HoYoLAB
+UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: "Hủy liên kết tài khoản HoYoLAB khỏi Genshin Wizard sẽ không hủy UID đã liên kết với Genshin. Hành động này là **không thể hoàn tác**. \nBạn có muốn tiếp tục không?"
+PURGE_WISH_HISTORY: Xóa lịch sử cầu nguyện
+PURGE_WISH_HISTORY_DESCRIPTION: "Xóa lịch sử cầu nguyện khỏi Genshin Wizard, tài khoản Genshin của bạn vẫn sẽ được liên kết với Genshin Wizard. Hành động này là **không thể hoàn tác**.\nBạn có muốn tiếp tục không?"
+UNLINK_EVERYTHING: Hủy liên kết tất cả
+UNLINK_EVERYTHING_BRIEF: Bạn sẽ hủy liên kết **tất cả** khỏi Genshin Wizard.
+UNLINK_EVERYTHING_DESCRIPTION: "Bạn sẽ hủy liên kết tất cả khỏi Genshin Wizard. Hành động này là **không thể hoàn tác**. \nBạn có muốn tiếp tục không?"
+UNLINKING_CONFIRMATION: Bạn đã **hủy liên kết thành công** dữ liệu đã yêu cầu khỏi Genshin Wizard!
+UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: UID này đã được liên kết với một người dùng khác! Nếu bạn tin đây là lỗi, vui lòng liên hệ [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
-GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Registration
+GENSHIN_WIZARD_REGISTRATION_TITLE: Đăng kí Genshin Wizard
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Liên kết tài khoản Genshin của bạn với Genshin Wizard.
 HOYOLAB_ACCOUNT: HoYoLAB Account
 LINKED_UID_KEY: Linked UID
-LINKED_KEY: Linked
-NOT_LINKED_KEY: Not Linked
+LINKED_KEY: Đã liên kết
+NOT_LINKED_KEY: Không liên kết
 LINKING_UID_DIRECTIONS: |
   Hello Traveler! To continue linking the requested UID to Genshin Wizard, we're going to need to **verify** that this account is actually yours!
 
@@ -818,7 +819,7 @@ RESIN_REMINDER_FOOTER: Click a button with 🔔 to get a reminder! Make sure you
 SET_RESIN_REMINDER_KEY: Set resin reminder!
 API_ISSUE: There has been an API Issue.
 HOW_TO_SOLVE_TITLE: How to solve this?
-ENABLE_CHRONICLES: Visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable battle chronicles to make your genshin profile public
+ENABLE_CHRONICLES: "Use the command </hoyolab-privacy:{command_id}> or visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable battle chronicles to make your genshin profile public."
 PLEASE_WAIT_DESCRIPTION: Waiting! There is nothing you can do to get past this at the moment.
 PLAYER_TITLE: Player {player}
 USER_TITLE: User {user}
@@ -1422,3 +1423,8 @@ ABYSS_ENEMY_FLOOR_VIEW: Floor View
 ABYSS_ENEMY_CHAMBER_VIEW: Chamber View
 ABYSS_ENEMY_FLOOR_OVERVIEW: "Schedule: **Floor {floor_index} Overview**"
 ABYSS_ENEMY_INFORMATION_BUTTON: Hello Traveler, as inconveniencing as it may be, I am **__unable__** to display information regarding **specific enemy counts**. This is due to the fact that this information is generated when *starting* the challenege. I apologize for any inconvenience this may cause.
+ABYSS_ENEMY_INFORMATION_BUTTON_LABEL: Enemy Counts
+APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: Change your Battle Chronicles Privacy Settings.
+VIEW_ON_HOYOLAB: View on HoYoLAB
+CHRONICLES_PRIVACY_SETTING: Character Battle Chronicle Settings
+PRIVACY_SETTING_BUTTON_LABEL: Privacy Setting {setting_number}
