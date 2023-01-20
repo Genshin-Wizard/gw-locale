@@ -710,17 +710,17 @@ LINKED_UID_KEY: 링크 UID
 LINKED_KEY: 링크
 NOT_LINKED_KEY: 링크없음
 LINKING_UID_DIRECTIONS: |
-  반가워, 여행자! 여행자가 알려준 UID를 Genshin Wizard에 연결하려면, 이게 정말 여행자의 계정인지 꼭 **확인**해야해!
+  Hello Traveler! To continue linking the requested UID to Genshin Wizard, we're going to need to **verify** that this account is actually yours!
 
-  **고유 인증 키**
-  {key}
-  **제한시간:**
+  **Unique Verification Key**
+  `{key}`
+  **Expires in:**
   <t:{timeout}:R>
 
-  `확인 절차를 어떻게 완료하냐고?`
-  > **1)** 게임에 접속한 다음, 여행자의 서명에 위의 인증 키를 입력해줘!
-  > **2)** 인증 키를 **정확하게** 입력해 줘야해! 그렇지 않으면 확인할 수 없으니까 주의해줘!
-  > **3)** 다 입력했다면, *차분하게 기다려줘*! 금방 확인해줄테니 걱정말라고!
+  How to complete verification?
+  > **1)** Go in-game and add the key above **anywhere** in your profile signature or nickname.
+  > **2)** Make sure you copy the key above **exactly** how it is written or else the bot will not be able to verify your account.
+  > **3)** *That's it*! Please wait patiently until our bot can verify you.
 LINKING_UID_FOOTER: 여행자의 계정을 확인할 때 까지 *차분하게* 기다려줘! 변경 사항이 적용되려면 5분에서 10분정도 걸릴 수 있어!
 LINKING_UID_KEY_EXPIRED: "여행자, 아무래도 지금 입력해준 키 값은 **만료**된 것 같아! 미안하지만 이거로는 확인해줄 수 없어.\n잠시만 기다렸다가 다시 시도해줘!"
 REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | 기원기록새로고침
