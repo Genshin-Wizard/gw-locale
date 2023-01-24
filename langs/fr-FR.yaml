@@ -494,16 +494,16 @@ LEADERBOARD_CHESTS_FOOTER: Les coffres sont mis à jour via les commandes de sta
 LEADERBOARD_GACHA_SIMULATOR_FOOTER: Les classements des simulateurs sont mis à jour via les commandes du simulateur de gacha, utilisez le simulateur de gacha pour garder les rangs à jour !
 LEADERBOARD_ARTIFACT_FOOTER: Les informations d'artefact sont mises à jour via des commandes info, vérifiez vos versions fréquemment pour garder les statistiques d'artefact à jour !
 LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Les informations des statistiques de personnage sont mises à jour via des commandes d'information, vérifiez vos versions fréquemment pour garder les statistiques de personnages à jour !
-LEADERBOARD_ABYSS_FOOTER: Abyss statistics are updated via the abyss progression command, check your abyss progression frequently to get an updated statistics measurement!
-LEADERBOARD_DONATION_FOOTER: Donate via the support links found in the /donate command to obtain a spot on this exquisite leaderboard!
-LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Crunching data, please be **patient**...* <a:tyno:1001656937689120788>
-ERROR_GUILD_ONLY_BUTTON: ":no_entry: You must be in a guild to use this button!"
-QUERY_NO_RESULTS: "No results found for `{input}`. Please rephrase and try again!"
-LOCATION_COMMAND_ROUTES_TITLE: Farming Routes Overview
-LOCATION_COMMAND_MAP_TITLE: "{resource} Map Locations"
-LOCATION_COMMAND_REGION_DESCRIPTION: "Local {region} Specialty:"
-LOCATION_COMMAND_FARMABLE_FOOTER: Farmable locations for specified material
-CALC_CHARACTER_INVALID_CHARACTER: You need to specify a valid character!
+LEADERBOARD_ABYSS_FOOTER: Les statistiques de l'Abysse sont mises à jour via la commande de progression abysses, vérifiez votre progression de l'Abysse fréquemment pour obtenir une mise à jour des statistiques !
+LEADERBOARD_DONATION_FOOTER: Faites un don via les liens de soutiens dans la commande /donate pour obtenir une place dans ce classement exquis !
+LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Calcul des données, soyez **patient**...*<a:tyno:1001656937689120788>
+ERROR_GUILD_ONLY_BUTTON: ":no_entry: Vous devez être dans une guilde pour utiliser ce bouton !"
+QUERY_NO_RESULTS: "Aucun résultat trouvé pour `{input}`. Veuillez reformuler et réessayer !"
+LOCATION_COMMAND_ROUTES_TITLE: Vue d'ensemble des routes de farm
+LOCATION_COMMAND_MAP_TITLE: "Emplacements des {resource} sur la Carte"
+LOCATION_COMMAND_REGION_DESCRIPTION: "Spécialité Local de {region} :"
+LOCATION_COMMAND_FARMABLE_FOOTER: Emplacement de farm pour le(s) matériel(aux) spécifié(s)
+CALC_CHARACTER_INVALID_CHARACTER: Vous devez spécifier un personnage valide !
 CALC_CHARACTER_INVALID_STARTING_LEVEL: You need to specify a valid starting level!
 CALC_CHARACTER_INVALID_TARGET_LEVEL: You need to specify a valid target level!
 CALC_CHARACTER_REQUIREMENT_SURPASSED: Character has already **surpassed** the given desired level!
@@ -577,69 +577,69 @@ MISSING_REGISTRATION_INSTRUCTIONS: |
   Please register using one of:
   **1.)** </register:{command_id}>
   **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
-MISSING_IMAGE: Please provide an image or a link to an image to update your banner
-PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Profile Banner Link Updated
-IMAGE_LINK_KEY: Image Link
-UPDATE_DATE_KEY: Update Date
-SETTING_COMMAND_REQUIRE_SLASH: You must use a **slash command** (</settings:{command_id}>) or access this via your profile.
+MISSING_IMAGE: Merci de fournir une image ou un lien vers une image pour mettre à jour votre bannière
+PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Lien de Bannière du Profil mis à jour
+IMAGE_LINK_KEY: Lien Image
+UPDATE_DATE_KEY: Date de mise à jour
+SETTING_COMMAND_REQUIRE_SLASH: Vous devez utiliser une **commande slash** (</settings:{command_id}>) ou y accéder via votre profil.
 CURRENT_ABYSS_DESCRIPTION: |
-  **Current Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  **Phase Lunaire Actuelle**
+  **Heure de Début :** <t:{timestamp_start}:F>
+  **Heure de Fin :** <t:{timestamp_end}:F>
 PREVIOUS_ABYSS_DESCRIPTION: |
-  **Previous Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
-ABYSS_COMMAND_FOOTER: "Note: Abyss data may be incorrectly shown or missing data, if this is the case, do keep in mind that abyss data can generally take anywhere from 1-3 hours to update!"
-ABYSS_MISSING_DATA_FOOTER: "Note: This data seems to be missing some information! This is likely due to this information not being stored in the database previously, or the data not being updated yet."
+  **Phase Lunaire Précédente**
+  **Heure de Début :** <t:{timestamp_start}:F>
+  **Heure de Fin :** <t:{timestamp_end}:F>
+ABYSS_COMMAND_FOOTER: "Note : Les données de l'Abysse peuvent être mal affichées ou manquantes, si c'est le cas, gardez à l'esprit que les données de l'Abysse peuvent généralement prendre entre 1 à 3 heures pour être mise à jour !"
+ABYSS_MISSING_DATA_FOOTER: "Note : Ces données semblent manquer d'informations ! Ceci est probablement dû au fait que ces informations n'étaient pas stockées dans la base de données précédemment, ou que les données n'ont pas encore été mise à jour."
 ABYSSAL_ARCHIVE_DESCRIPTION: |
-  <:previous_abyss:1028377675989000215> **Abyssal Archives**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
-UID_LOOKUP: Genshin UID Lookup
-UID_LOOKUP_TITLE: "{user}'s Genshin Account UID"
-PUBLIC_KEY: Public
-PRIVATE_KEY: Private
-CREATION_DATA_KEY: Creation Date
-JOIN_DATE_KEY: Join Date
-NOT_HERE_KEY: Not Here
-LOCATION_KEY: Location
-TOP_ROLE_KEY: Top Role
-RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
-RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
+  <:previous_abyss:1028377675989000215> **Archives Abyssale**
+  **Heure de Début :** <t:{timestamp_start}:F>
+  **Heure de Fin :** <t:{timestamp_end}:F>
+UID_LOOKUP: Recherche UID Genshin
+UID_LOOKUP_TITLE: "UID du compte Genshin de {user}"
+PUBLIC_KEY: Publique
+PRIVATE_KEY: Privé(e)
+CREATION_DATA_KEY: Date de Création
+JOIN_DATE_KEY: Date d'Adhésion
+NOT_HERE_KEY: Absent
+LOCATION_KEY: Localisation
+TOP_ROLE_KEY: Rôle le plus haut
+RECENT_FIVE_STAR_CHARACTER: "**Derniers Personnages 5 :star:**"
+RECENT_FIVE_STAR_WEAPON: "**Dernières Armes 5 :star:**"
 WISHES_WORTH_KEY: Valeurs des Vœux
-OVERALL_SUMMARY_KEY: Overall Summary
-OVERALL_STATS_KEY: Overall Stats
-PERCENTAGE_KEY: Percentage
-TOTAL_WISHES_KEY: Total Wishes
+OVERALL_SUMMARY_KEY: Résumé global
+OVERALL_STATS_KEY: Statistiques globales
+PERCENTAGE_KEY: Pourcentage
+TOTAL_WISHES_KEY: Vœux totaux
 TOTAL_KEY: Total
-TOTAL_FIVE_STAR: Total 5-star
-NUMBER_FIVE_STAR: Number of 5-star
-TOTAL_FOUR_STAR: Total 4-star
-NUMBER_FOUR_STAR: Number of 4-star
-TOTAL_THREE_STAR: Total 3-star
+TOTAL_FIVE_STAR: Total 5 étoiles
+NUMBER_FIVE_STAR: Nombre de 5 étoiles
+TOTAL_FOUR_STAR: Total 4 étoiles
+NUMBER_FOUR_STAR: Nombre de 4 étoiles
+TOTAL_THREE_STAR: Total 3 étoiles
 REGISTER_PC_METHOD: "PC"
 REGISTER_ANDROID_METHOD: "Android"
 IOS_KEY: "iOS"
 CONSOLE_KEY: "Console"
-REGISTER_IOS_METHOD: "iOS (Stream App Method)"
+REGISTER_IOS_METHOD: "iOS (Méthode Stream App)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
+  Consultez notre [Documentation Github](https://github.com/Genshin-Wizard/historyLink) pour des étapes détaillées avec des photos.
 
-  1. Open Genshin Impact Game on your PC
-  2. Go to the wish history page and wait for it to load
-  3. Go back to Windows
-  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  5. Then copy the following code and paste it in the Powershell window
+  1. Ouvrez Genshin Impact sur votre PC
+  2. Allez sur la page de l'historique des vœux et attendez que la page se charge
+  3. Retourner sur Windows
+  4. Dans le menu démarrer, recherché "PowerShell" et ouvrez "Windows PowerShell"
+  5. Copiez le code suivant et collez le dans la fenêtre Powershell
   ```ps
   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
   ```
-  6. Hit `ENTER` to have the link copied to your clipboard
-  7. Click the button below and paste the link in the input field
+  6. Appuyez sur `ENTRER` pour avoir le lien copier dans votre presse-papiers
+  7. Cliquez sur le bouton ci-dessous et collez le lien dans le champ de saisie
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
-  After the 3.0 update, users can no longer simply copy and paste the history link on Android devices anymore.
+  Après la mise à jour 3.0, les utilisateurs ne peuvent plus simplement copier et coller le lien d'historique sur les appareils Android.
 
-  We are currently looking for a way to retrieve the history link on Android devices. Please check back later.
+  Nous recherchons actuellement un moyen de récupérer le lien de l'historique sur les appareils Android. Veuillez revenir plus tard.
 REGISTER_COMMAND_IOS_DIRECTIONS: |
   Check out Kaizer's [Stream App Guide](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) for detailed steps with pictures.
 
@@ -1198,7 +1198,7 @@ CRIT_RATE_LABEL: "CRIT Rate"
 CRIT_DMG_LABEL: "CRIT DMG"
 ENERGY_RECHARGE_LABEL: "Energy Recharge"
 ELEMENTAL_MASTERY_LABEL: "Elemental Mastery"
-TOTAL_WISHES_LABEL: "Total Wishes"
+TOTAL_WISHES_LABEL: "Vœux totaux"
 PRIMOGEM_COUNT_LABEL: "Total Primogems"
 STARDUST_COUNT_LABEL: "Stardust Count"
 STARGLITTER_COUNT_LABEL: "Starglitter Count"
