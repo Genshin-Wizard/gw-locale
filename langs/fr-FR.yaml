@@ -384,29 +384,29 @@ FOOTER_GCG_EXPANDED: Vos statistiques de votre Vitrine TCG peuvent être affich�
 LINK_HOYOLAB_TITLE: Genshin Wizard | Lien du compte HoYoLAB
 LINKING_UID_TITLE: Genshin Wizard | Lien UID
 LINK_HOYOLAB_DESCRIPTION: |
-  Welcome to Genshin Wizard's HoYoLAB account linking system.
+  Bienvenue dans le système de liaison de compte HoYoLAB de Genshin Wizard.
 
-  **Linking Features:**
-  > **1.** Access to your in-game resin count in real-time (set up automatic notifications).
-  > **2.** Access to your in-game expedition status in real-time.
-  > **3.** Ability to claim your *Daily Check-in Reward* straight from Discord.
-  > **4.** Ability to view in-depth information about your Spiral Abyss progression.
-  > **5.** View an infographic containing **all** your available characters.
+  **Fonctionnalités de liaison :**
+  > **1. * Accès à votre nombre de résine en jeu en temps réel (paramétrage des notifications automatiques).
+  > **2.** Accès en temps réel à votre état d'expédition en jeu.
+  > **3. * Possibilité de réclamer votre *Récompense d'Enregistrement Quotidien* directement depuis Discord.
+  > **4.** Possibilité de consulter des informations détaillées sur votre progression dans les Profondeurs Spiralées.
+  > **5.** Voir une infographique contenant **tous** vos caractères disponibles.
 
-  To begin, click one of the user registration options below!
-HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Automatic Daily Sign-in
-AUTOCLAIM_ALREADY_DISABLED: Automatic HoYoLAB daily sign-in is already disabled.
-AUTOCLAIM_ALREADY_ENABLED: Automatic HoYoLAB daily sign-in is already enabled.
-AUTOCLAIM_DISABLED: Automatic HoYoLAB daily sign-in has been disabled.
-AUTOCLAIM_ENABLED: Automatic HoYoLAB daily sign-in has been enabled.
-AUTOCLAIM_VOTE_REQUIREMENT: You must **__vote__** for our server and bot before being able to enable autoclaim!
-HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | HoYoLAB Daily Sign-in
+  Pour commencer, cliquez sur l'une des options d'enregistrement de l'utilisateur ci-dessous!
+HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Connexion Quotidienne Automatique
+AUTOCLAIM_ALREADY_DISABLED: La connexion quotidienne automatique HoYoLAB est déjà désactivée.
+AUTOCLAIM_ALREADY_ENABLED: La connexion quotidienne automatique HoYoLAB est déjà activée.
+AUTOCLAIM_DISABLED: La connexion quotidienne automatique HoYoLAB a été désactivée.
+AUTOCLAIM_ENABLED: La connexion quotidienne automatique HoYoLAB a été activée.
+AUTOCLAIM_VOTE_REQUIREMENT: Vous devez **__vote__** pour notre serveur et notre bot avant de pouvoir activer la réclamation automatique !
+HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | Connexion Quotidienne HoYoLAB
 HOYOLAB_SIGN_IN_REWARDS: |
-  Successfully **claimed** daily reward!
+  Récompense quotidienne **réclamée** réussie!
 
-  Rewards Claimed: `{rewards}`
-  Amount: `x{amount}`
-HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | HoYoLAB Monthly Rewards
+  Récompenses réclamées : `{rewards}`
+  Quantité : `x{amount}`
+HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | Récompenses Mensuelles HoYoLAB
 HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: Voir les récompenses quotidiennes HoYoLAB pour le mois
 HOYOLAB_DIARY_TITLE: Genshin Wizard | Journal du Voyageur
 HOYOLAB_INVALID_REDEEM: |
@@ -423,16 +423,16 @@ HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Résumé du personnage
 CHARACTER_SUMMARY_NOT_FULL: Votre résumé du personnage est basé sur votre historique de tirage gacha. Pour voir votre résumé de personnage complet et le plus précis (niveaux, amitiés, constellations et niveau AR), veuillez lier en utilisant /register!
 GCG_NO_CARDS_FOUND: Aucune carte trouvée !
 GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Voyageur ! Malheureusement, {member} n'a encore **aucune carte** ! Aller sur le jeu et jouez à quelques TCG sur Genshin Impact *avant* d'utiliser la commande.
-HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
+HOYOLAB_REGISTER_SCRIPT_TITLE: Inscription | Méthode Script
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin with, login to your [**HoYoLAB**](https://www.hoyolab.com/home) account.
-  > **2.** Type `java` in the address bar followed by the script down below.
-  > **3.** Once you've successfully ran the script, click the `Click here to copy!` button to copy the cookie.
-  > **4.** Finally, you're able to register by clicking the `Enter Token` button below and pasting the token you copied.
+  **Comment lier votre compte HoYoLAB à Genshin Wizard**
+  > **1.** Pour commencer, connectez-vous à votre compte [**HoYoLAB**](https://www.hoyolab.com/home).
+  > **2.** Tapez `java` dans la barre d'adresse suivie du script ci-dessous.
+  > **3.** Une fois le script exécuté avec succès, cliquez sur le bouton `Cliquez ici pour copier !` pour copier le cookie.
+  > **4.** Enfin, vous pouvez vous inscrire en cliquant sur le bouton `Entrez le jeton` ci-dessous et en collant le jeton que vous avez copié.
 HOYOLAB_REGISTER_SCRIPT: |
-  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)```
-HOYOLAB_REGISTER_LOGIN_TITLE: Registration | Login Method
+  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Veuillez vous déconnecter et vous reconnecter avant de réessayer. Le cookie est actuellement expiré/invalide!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Cliquez ici pour copier !</button>`)```
+HOYOLAB_REGISTER_LOGIN_TITLE: Inscription | Méthode Connexion
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
   **How to link your HoYoLAB account with Genshin Wizard**
   > **1.** To begin, select the `Register` button down below.
