@@ -462,33 +462,33 @@ IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
   Les données que vous essayez d'importer ne sont pas **supportées**. Nous autorisons actuellement *seulement* les importations des éléments suivants :
   > `Paimon.moe`
   > `Genshin-Wishes`
-  Consultez nôtre [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) pour plus d'informations.
+  Consultez notre [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) pour plus d'informations.
 IMPORT_COMMAND_TITLE: Genshin Wizard | Importer l'Historique des Vœux
 IMPORT_COMMAND_FILE_DETECTED: |
   **Source d'importation détectée : `{source}`**
   *Veuillez patienter pendant que nous importons l'historique de vos vœux...*
 IMPORT_COMMAND_TAMPERED: Les données que vous essayez d'importer ont été **altérées**. Veuillez **ne rien changer** dans les fichiers avant d'importer, essayez de télécharger à nouveau les données et d'importer *à nouveau*.
 IMPORT_COMMAND_BANNER_IMPORTED: Importé avec succès `{number_wishes}` vœux pour la bannière {banner_name} !
-IMPORT_COMMAND_SUCCESS: Successfully imported `{total_wishes}` new wishes from all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
+IMPORT_COMMAND_SUCCESS: Importé avec succès `{total_wishes}` nouveaux vœux depuis toutes les bannières ! Vous pouvez maintenant utiliser la commande </history:{command_id}> pour voir les informations concernant vos vœux.
 IMPORT_COMMAND_LOG: |
-  **User:** {user} | `{user_id}`
-  **Name:** `{name}`
-  **Guild:** `{guild_id}` | `{guild_name}`
+  **Utilisateur :** {user} | `{user_id}`
+  **Nom :** `{name}`
+  **Guilde :** `{guild_id}` | `{guild_name}`
 
-  **Detected Import Source:** `{source}`
-  **Total:** `{total}` wishes imported!
-  > 3-Stars: `{three_star}`
-  > 4-Stars: `{four_star}`
-  > 5-Stars: `{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </register:{command_id}>.
-IMPORT_COMMAND_LINK_EXPIRED_TITLE: History Link Expired!
-IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Your history link has **expired**! Please refresh using the command </refresh:{command_id}> before trying to import!
-IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **excel** sheet from their [Wish Counter](https://paimon.moe/wish) page settings. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: This file type is **not supported**. Please make sure you're not *changing* the file type before trying to import. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-LEADERBOARD_NO_DATA: No data found for this specific query!
-LEADERBOARD_EXPERIENCE_FOOTER: Experience can be gained by being active in the server. Chat more to increase your Genshin Wizard ranking level!
-LEADERBOARD_WISHES_FOOTER: Wishes are updated via banner summary and refresh command(s). Check your banners to actively get an updated wish count!
-LEADERBOARD_PLAYTIME_FOOTER: Playtime is updated via stats/info commands, check your stats/builds frequently to actively get an updated playtime count!
+  **Source d'importation détectée :** `{source}`
+  **Total :** `{total}` vœux importés !
+  > 3-Étoiles : `{three_star}`
+  > 4-Étoiles : `{four_star}`
+  > 5-Étoiles : `{five_star}`
+IMPORT_COMMAND_NOT_REGISTERED: Vous devez déjà être **enregistré** pour importer un historique de vœux préexistant ! Essayez d'importer à nouveau après vous être inscrit en utilisant la commande </register:{command_id}>.
+IMPORT_COMMAND_LINK_EXPIRED_TITLE: Lien d'Historique Expiré !
+IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Votre lien d'historique a **expiré** ! Veuillez actualiser avec la commande </refresh:{command_id}> avant d'essayer d'importer !
+IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: Ce type de fichier n'est **pas pris en charge**. Si vous essayez d'importer des données de `Paimon.moe`, assurez-vous que vous téléchargez la feuille **excel** depuis leur pas de paramètre [Wish Counter](https://paimon.moe/wish). Reportez-vous à notre [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) pour plus d'informations.
+IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: Ce type de fichier **n'est pas pris en charge**. Veuillez vous assurer que vous ne *modifier* pas le type de fichier avant d'essayer d'importer. Consulter notre [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) pour plus d'informations.
+LEADERBOARD_NO_DATA: Aucune donnée trouvée pour cette requête spécifique !
+LEADERBOARD_EXPERIENCE_FOOTER: Vous pouvez gagner de l'expérience en étant actif sur le serveur. Discutez plus pour augmenter votre niveau de classement Genshin Wizard !
+LEADERBOARD_WISHES_FOOTER: Les vœux sont mise à jour via le résumé de la bannière et la(les) commande(s) d'actualisation. Vérifier vos bannières pour garder le nombre de vœux à jour!
+LEADERBOARD_PLAYTIME_FOOTER: Le temps de jeu est mis à jour via les commandes stats/info, vérifier vos stats/builds fréquemment pour garder votre temps de jeu à jour !
 LEADERBOARD_ACHIEVEMENTS_FOOTER: Achievements are updated via stats/info commands, check your stats/builds frequently to actively get an updated achievement count!
 LEADERBOARD_CHESTS_FOOTER: Chests are updated via stats commands, check your stats frequently to actively get an updated chest count!
 LEADERBOARD_GACHA_SIMULATOR_FOOTER: Simulator leaderboards are updated via gacha simulator commands, use the gacha simulator actively to climb the ranks!
