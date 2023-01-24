@@ -349,40 +349,40 @@ APP_COMMAND_DESCRIBE_CRIT_DAMAGE: Les dégâts CRIT de l'artefact.
 APP_COMMAND_DESCRIBE_QUESTION: La question que vous voulez poser à Paimon.
 APP_COMMAND_DESCRIBE_PREFIX: Le nouveau préfixe que vous souhaitez définir pour le bot.
 APP_COMMAND_DESCRIBE_EXPRESSION: L'équation/requête que vous essayez de calculer.
-APP_COMMAND_DESCRIBE_CODE_CHANNEL: The channel you want to send the message in.
-APP_COMMAND_DESCRIBE_CODE_PING: The role you want to mention along with the message.
-APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated by a comma.
-APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
-APP_CONTEXT_MENU_PROFILE: Profile
-APP_CONTEXT_MENU_STATISTICS: Stats Progression
-APP_CONTEXT_MENU_ABYSS: Abyss Progression
-APP_CONTEXT_MENU_CHARACTERS: Characters
-APP_CONTEXT_MENU_WISH_HISTORY: Wish History
-WHITELIST_KEY_LOWERCASE: whitelist
-HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Wishes"
+APP_COMMAND_DESCRIBE_CODE_CHANNEL: Le canal dans lequel vous voulez envoyer le message.
+APP_COMMAND_DESCRIBE_CODE_PING: Le rôle que vous voulez mentionner avec le message.
+APP_COMMAND_DESCRIBE_CODE_LIST: Les codes d'échange que vous souhaitez envoyer, séparés par une virgule.
+APP_COMMAND_DESCRIBE_FEEDBACK: Les retours que vous souhaitez fournir.
+APP_CONTEXT_MENU_PROFILE: Profil
+APP_CONTEXT_MENU_STATISTICS: Progression des Statistiques
+APP_CONTEXT_MENU_ABYSS: Progression des Abysses
+APP_CONTEXT_MENU_CHARACTERS: Personnages
+APP_CONTEXT_MENU_WISH_HISTORY: Historiques des Vœux
+WHITELIST_KEY_LOWERCASE: liste blanche
+HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Vœux de bannière"
 SLASH_PAGINATION: Page {current_page}/{total_pages}
-OF_PAGINATION: Page {current_page} of {total_pages}
-HISTORY_COMMAND_TABLE_HEADER: "Rarity | Pity | Name | Date"
-HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Guaranteed Pity: {indicator}**"
-HISTORY_LINK_EXPIRED: History Link Expired
-HISTORY_COMMAND_LIFETIME_PULLS: Lifetime Pulls
-HISTORY_COMMAND_WISHES_WORTH: Wishes Worth
-HISTORY_COMMAND_CURRENT_PITIES: Current Pities
-SEARCH_ERROR: Search Error!
+OF_PAGINATION: Page {current_page} sur {total_pages}
+HISTORY_COMMAND_TABLE_HEADER: "Rareté | Pitié | Nom | Date"
+HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Pitié Garantie : {indicator}**"
+HISTORY_LINK_EXPIRED: Lien d'Historique Expiré
+HISTORY_COMMAND_LIFETIME_PULLS: Tirages Totaux
+HISTORY_COMMAND_WISHES_WORTH: Valeurs des Vœux
+HISTORY_COMMAND_CURRENT_PITIES: Pitié Actuelle
+SEARCH_ERROR: Erreur de Recherche !
 HISTORY_COMMAND_NO_WISHES: |
-  No wishes were found for this search!
-  Try selecting a different banner to check below.
-HISTORY_COMMAND_NO_USER_WISHES: No wishes were found for this user!
-USER_NOT_REGISTERED_TITLE: User has not registered!
-REGISTERED_KEY: Registered
-NOT_REGISTERED_KEY: Not Registered
-USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** yet! Please register using </register:{command_id}> *before* using this command.
-FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."
-FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Note: This command requires you to register through the Wish History or HoYoLAB method."
-FOOTER_REQUIRE_UID_OR_HOYOLAB: "Note: This command requires you to register through the UID or HoYoLAB method."
-FOOTER_GCG_EXPANDED: Your TCG Showcase statistics can be shown in more detail if you register using your HoYoLAB account!
-LINK_HOYOLAB_TITLE: Genshin Wizard | Link HoYoLAB Account
-LINKING_UID_TITLE: Genshin Wizard | Link UID
+  Aucuns vœux n'ont été trouvé pour cette recherche !
+  Essayez de sélectionner une bannière différente à consulter ci-dessous.
+HISTORY_COMMAND_NO_USER_WISHES: Aucuns vœux n'ont été trouvé pour cet utilisateur !
+USER_NOT_REGISTERED_TITLE: L'utilisateur n'est pas enregistré !
+REGISTERED_KEY: Enregistré
+NOT_REGISTERED_KEY: Non Enregistré
+USER_NOT_REGISTERED_DESCRIPTION: Malheureusement, <@{mem_id}> **n'est pas inscrit** ! Veuillez vous inscrire en utilisant </register:{command_id}> *avant* d'utiliser cette commande.
+FOOTER_REQUIRES_WISH_HISTORY: "Note : Cette commande nécessite que vous vous inscriviez via la méthode Historique de Vœux."
+FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Note : Cette commande nécessite que vous vous inscriviez via l'Historique des Vœux ou HoYoLAB."
+FOOTER_REQUIRE_UID_OR_HOYOLAB: "Note : Cette commande nécessite que vous vous inscriviez via l'UID ou HoYoLAB."
+FOOTER_GCG_EXPANDED: Vos statistiques de votre Vitrine TCG peuvent être affichées plus en détail si vous vous enregistrez en utilisant votre compte HoYoLAB !
+LINK_HOYOLAB_TITLE: Genshin Wizard | Lien du compte HoYoLAB
+LINKING_UID_TITLE: Genshin Wizard | Lien UID
 LINK_HOYOLAB_DESCRIPTION: |
   Welcome to Genshin Wizard's HoYoLAB account linking system.
 
@@ -547,7 +547,7 @@ PRIVACY_SETTING_OVERVIEW: |
   > *Hide your showcase builds information from showing up anywhere (`/info`)*
 ALL_KEY: All
 RESET_KEY: Reset
-WISH_HISTORY_KEY: Wish History
+WISH_HISTORY_KEY: Historiques des Vœux
 ABYSS_KEY: Abyss
 UID_KEY: UID
 STATS_KEY: Stats
@@ -607,7 +607,7 @@ LOCATION_KEY: Location
 TOP_ROLE_KEY: Top Role
 RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
 RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
-WISHES_WORTH_KEY: Wishes Worth
+WISHES_WORTH_KEY: Valeurs des Vœux
 OVERALL_SUMMARY_KEY: Overall Summary
 OVERALL_STATS_KEY: Overall Stats
 PERCENTAGE_KEY: Percentage
@@ -1132,7 +1132,7 @@ REGISTER_SCRIPT_BUTTON: Register via Script
 REGISTER_LOGIN_BUTTON: Register via Login
 ENTER_TOKEN_BUTTON: Enter Token
 REGISTER_ACCOUNT_BUTTON: Register Account
-CHARACTERS_BUTTON: Characters
+CHARACTERS_BUTTON: Personnages
 CLAIM_DAILY_REWARD_BUTTON: Claim Daily Reward
 MONTHLY_REWARDS_BUTTON: Monthly Rewards
 VIEW_TRAVELER_DIARY_BUTTON: View Traveler's Diary
@@ -1226,7 +1226,7 @@ UPDATE_BIO_MODAL_TITLE: Update Bio
 UPDATE_BIO_MODAL_LABEL: A short description about you. (200 chars)
 UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
 SELECT_CHOOSE_CATEGORY: Choose a category...
-PROFILE_KEY: Profile
+PROFILE_KEY: Profil
 PROFILE_DESCRIPTION: View your Genshin Wizard profile
 GENSHIN_STATISTICS_KEY: Genshin Stats
 GENSHIN_STATISTICS_DESCRIPTION: View your Genshin stats
