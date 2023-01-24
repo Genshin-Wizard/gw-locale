@@ -434,41 +434,41 @@ HOYOLAB_REGISTER_SCRIPT: |
   ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Veuillez vous déconnecter et vous reconnecter avant de réessayer. Le cookie est actuellement expiré/invalide!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Cliquez ici pour copier !</button>`)```
 HOYOLAB_REGISTER_LOGIN_TITLE: Inscription | Méthode Connexion
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin, select the `Register` button down below.
-  > **2.** In the input fields, enter your HoYoLAB account login details, remember to use your **email** and password.
-  > **3.** Once you've successfully entered your account details, wait for Genshin Wizard to process your registration request, bear in mind that this may take a minute or two.
-  > **4.** Finally, if all the steps are done correctly, you will receive a **confirmation message** via DMs indicating that your account has been successfully linked.
+  **Comment lier votre compte HoYoLAB à Genshin Wizard**
+  > **1.** Pour commencer, sélectionnez le bouton `S'inscrire` ci-dessous.
+  > **2.** Dans les champs de saisie, entrez les identifiants de connexion de votre compte HoYoLAB, n'oubliez pas d'utiliser votre **email** et votre mot de passe.
+  > **3. * Une fois que vous avez entré vos identifiants de compte avec succès, attendez que Genshin Wizard traite votre demande d'inscription, gardez à l'esprit que cela peut prendre une ou deux minutes.
+  > **4. * Enfin, si toutes les étapes sont faites correctement, vous recevrez un **message de confirmation** par l'intermédiaire de MP indiquant que votre compte a été correctement lié.
 
-  <:information:1021014187197083668> **Note:** This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead.
-HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
-ARE_YOU_SURE: Are you sure?
+  <:information:1021014187197083668> **Note :** Cette méthode est simplement ici pour plus de commodité/QOL. Si vous êtes préoccupé par la sécurité de votre compte, veuillez utiliser la méthode de script ou une autre forme d'enregistrement à la place.
+HOYOLAB_REGISTER_LOGIN_FOOTER: Un rappel amical que Genshin Wizard ne stocke aucuns détails de votre compte ! Cette méthode d'enregistrement récupère les cookies nécessaires pour consulter les statistiques de votre compte.
+ARE_YOU_SURE: Êtes-vous sûr ?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
-  You have requested to **unlink** your HoYoLAB account from Genshin Wizard.
-  This means that you will no longer be able to *claim your daily rewards*, view your *full abyss progression*, and other extended features such as *viewing all your characters*.
-UNLINKING_SUCCESSFUL: Unlinking successful!
-UNLINKING_SUCCESSFUL_DESCRIPTION: Your account has been successfully unlinked from Genshin Wizard!
-UNLINKING_UNSUCCESSFUL: Unlinking unsuccessful!
-UNLINKING_UNSUCCESSFUL_DESCRIPTION: Oops! Unlinking was unsuccessful, there was an error. Please try again or contact a staff member!
-UNLINKING_CANCELLED: Unlinking cancelled!
-UNLINKING_CANCELLED_DESCRIPTION: You have cancelled your unlink request!
-OBTAINED_KEY: Obtained
-NOT_OWNED_KEY: Not Owned
-PROFICIENCY_KEY: Proficiency
-USE_COUNT_KEY: Use Count
-IMPORT_ERROR: Import Error!
-FOOTER_ERROR_DESCRIPTION: If you believe this is an error, please contact a staff member.
+  Vous avez demandé à **dissocier** votre compte HoYoLAB de Genshin Wizard.
+  Cela signifie que vous ne pourrez plus *réclamer vos récompenses quotidiennes*, consulter votre *progression abyssale*, ainsi que d'autres fonctionnalités étendues telles que la *visualisation de tous vos personnages*.
+UNLINKING_SUCCESSFUL: Dissociation réussie !
+UNLINKING_SUCCESSFUL_DESCRIPTION: Votre compte a été délié de Genshin Wizard avec succès !
+UNLINKING_UNSUCCESSFUL: Échec de la Dissociation !
+UNLINKING_UNSUCCESSFUL_DESCRIPTION: Oups ! La suppression du lien a échoué, il y a eu une erreur. Veuillez réessayer ou contacter un membre du personnel !
+UNLINKING_CANCELLED: Dissociation annulée !
+UNLINKING_CANCELLED_DESCRIPTION: Vous avez annulé votre demande de dissociation !
+OBTAINED_KEY: Obtenu
+NOT_OWNED_KEY: Non Possédé
+PROFICIENCY_KEY: Maîtrise
+USE_COUNT_KEY: Nombre d'Utilisation
+IMPORT_ERROR: Erreur d'Importation !
+FOOTER_ERROR_DESCRIPTION: Si vous pensez qu'il s'agit d'une erreur, veuillez contacter un membre du personnel.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  Les données que vous essayez d'importer ne sont pas **supportées**. Nous autorisons actuellement *seulement* les importations des éléments suivants :
   > `Paimon.moe`
   > `Genshin-Wishes`
-  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-IMPORT_COMMAND_TITLE: Genshin Wizard | Import Wish History
+  Consultez nôtre [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) pour plus d'informations.
+IMPORT_COMMAND_TITLE: Genshin Wizard | Importer l'Historique des Vœux
 IMPORT_COMMAND_FILE_DETECTED: |
-  **Detected Import Source: `{source}`**
-  *Please wait while we import your wish history...*
-IMPORT_COMMAND_TAMPERED: The data you are trying to import has been **tampered** with. Please **don't change** anything within the files before importing, try redownloading the data and importing *again*.
-IMPORT_COMMAND_BANNER_IMPORTED: Successfully imported `{number_wishes}` wishes for {banner_name} banner!
+  **Source d'importation détectée : `{source}`**
+  *Veuillez patienter pendant que nous importons l'historique de vos vœux...*
+IMPORT_COMMAND_TAMPERED: Les données que vous essayez d'importer ont été **altérées**. Veuillez **ne rien changer** dans les fichiers avant d'importer, essayez de télécharger à nouveau les données et d'importer *à nouveau*.
+IMPORT_COMMAND_BANNER_IMPORTED: Importé avec succès `{number_wishes}` vœux pour la bannière {banner_name} !
 IMPORT_COMMAND_SUCCESS: Successfully imported `{total_wishes}` new wishes from all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
 IMPORT_COMMAND_LOG: |
   **User:** {user} | `{user_id}`
