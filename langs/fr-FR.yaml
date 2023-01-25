@@ -506,58 +506,58 @@ LOCATION_COMMAND_FARMABLE_FOOTER: Emplacement de farm pour le(s) matériel(aux) 
 CALC_CHARACTER_INVALID_CHARACTER: Vous devez spécifier un personnage valide !
 CALC_CHARACTER_INVALID_STARTING_LEVEL: Vous devez spécifier un niveau de départ valide !
 CALC_CHARACTER_INVALID_TARGET_LEVEL: Vous devez spécifier un niveau cibler valide !
-CALC_CHARACTER_REQUIREMENT_SURPASSED: Character has already **surpassed** the given desired level!
-CALC_CHARACTER_REQUIREMENT_MET: Character has already **reached** the given desired level!
-CALC_CHARACTER_TITLE: Genshin Wizard | Character Calculator
+CALC_CHARACTER_REQUIREMENT_SURPASSED: Le personnage a déjà **dépassé** le niveau désiré !
+CALC_CHARACTER_REQUIREMENT_MET: Le personnage a déjà **atteint** le niveau désiré !
+CALC_CHARACTER_TITLE: Genshin Wizard | Calculateur de Personnage
 CHARACTER_KEY: Personnage
-CURRENT_LEVEL_KEY: Current Level
-TARGET_LEVEL_KEY: Target Level
-REQUIRED_RESOURCES_KEY: Required Resources
-GENSHIN_WIZARD_USER_PROFILE: "{user}'s Genshin Wizard Profile"
-PROFILE_SUMMARY_KEY: Profile Summary
-GENSHIN_WISH_STATS_KEY: Genshin Wish Stats
-PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
-GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
-GENSHIN_STATISTICS_INFOGRAPHIC: Genshin Statistics Infographic
-GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin stats/progression infographic that you requested!
-HIDDEN_KEY: Hidden
-REQUESTED_UID_KEY: Requested UID
-GENSHIN_EXPLORATION_INFOGRAPHIC: Genshin Exploration Progression
-GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin exploration infographic that you requested!
-PROFILE_NOT_OWNER: You can't use this button on someone else's profile!
-PRIVACY_SETTING_TITLE: Genshin Wizard Privacy Settings
-PRIVACY_SETTING_DESCRIPTION: Change your Genshin Wizard privacy settings here.
-PRIVACY_SETTING_KEY: Privacy Settings
+CURRENT_LEVEL_KEY: Niveau Actuel
+TARGET_LEVEL_KEY: Niveau Ciblé
+REQUIRED_RESOURCES_KEY: Ressources Requises
+GENSHIN_WIZARD_USER_PROFILE: "Profil Genshin Wizard de {user}"
+PROFILE_SUMMARY_KEY: Résumé du Profil
+GENSHIN_WISH_STATS_KEY: Statistiques des Vœux Genshin
+PROFILE_COMMAND_FOOTER: Les statistiques du profil sont mises à jour via le résumé des bannières et la(les) commande(s) de rafraîchissement. Vérifiez vos bannières pour garder votre /profile à jour !
+GENERATE_IMAGE_COOLDOWN: Vous générez des images trop rapidement ! Essayez d'utiliser ce bouton à nouveau dans **{seconds}** secondes.
+GENSHIN_STATISTICS_INFOGRAPHIC: Infographie des Statistiques Genshin
+GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: Bonjour Voyageur ! Voici l'infographie **unique** généré sur les statistiques/progressions Genshin que vous avez demandé !
+HIDDEN_KEY: Masqué
+REQUESTED_UID_KEY: UID demandé
+GENSHIN_EXPLORATION_INFOGRAPHIC: Progression de l'Exploration Genshin
+GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: Bonjour Voyageur ! Voici l'infographie **unique** généré sur l'exploration Genshin que vous avez demandé !
+PROFILE_NOT_OWNER: Vous ne pouvez pas utiliser ce bouton sur le profil de quelqu'un d'autre !
+PRIVACY_SETTING_TITLE: Paramètres de Confidentialité de Genshin Wizard
+PRIVACY_SETTING_DESCRIPTION: Modifiez ici vos paramètres de confidentialité Genshin Wizard.
+PRIVACY_SETTING_KEY: Paramètres de Confidentialité
 PRIVACY_SETTING_BRIEF: |
-  **UID Privacy:** {uid_privacy}
-  **Wish History Privacy:** {wish_privacy}
-  **Stats Privacy:** {stats_privacy}
-  **Abyss Privacy:** {abyss_privacy}
-  **Info Privacy:** {info_privacy}
+  **Privacité UID :** {uid_privacy}
+  **Privacité Historique de Vœux :** {wish_privacy}
+  **Privacité Statistiques :** {stats_privacy}
+  **Privacité Abysse :** {abyss_privacy}
+  **Privacité Information :** {info_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **UID Privacy:** {uid_privacy}
-  > *Hide your UID from showing up anywhere*
-  **Wish History Privacy:** {wish_privacy}
-  > *Hide your Wish History from showing up anywhere (`/history`)*
-  **Stats Privacy:** {stats_privacy}
-  > *Hide your Genshin Stats Progression from showing up anywhere (`/stats`)*
-  **Abyss Privacy:** {abyss_privacy}
-  > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
-  **Info Privacy:** {info_privacy}
-  > *Hide your showcase builds information from showing up anywhere (`/info`)*
-ALL_KEY: All
-RESET_KEY: Reset
+  **Privacité UID :** {uid_privacy}
+  > *Cahcer votre UID d'apparaître n'importe où*
+  **Privacité Historique de Vœux :** {wish_privacy}
+  > *Cacher votre historique de vœux d'apparaître n'importe où (`/history`)*
+  **Privacité Statistiques :** {stats_privacy}
+  > *Cacher la progression de vos statistiques Genshin d'apparaître n'importe où (`/stats`)*
+  **Privacité Abysse :** {abyss_privacy}
+  > *Cacher la progression de votre Abysse Genshin d'apparaître n'importe où (`/abyss`)*
+  **Privacité Information :** {info_privacy}
+  > *Cacher votre vitrine d'informations de builds d'apparaître n'importe où (`/info`)*
+ALL_KEY: Tout
+RESET_KEY: Réinitialiser
 WISH_HISTORY_KEY: Historiques des Vœux
-ABYSS_KEY: Abyss
+ABYSS_KEY: Abysse(s)
 UID_KEY: UID
-STATS_KEY: Stats
-INFO_KEY: Info
-SETTING_RESET_PRIVACY: Successfully reset privacy settings to default setting!
-SETTING_PRIVACY_UPDATED: "{privacy_type} privacy settings have been updated! Current Privacy: {current_privacy}"
-SETTING_ART_STYLE_UPDATED: "Character builds Art Styles have been updated! Current Art Style: {current_setting}"
-SETTING_MASTER_PROFILE_RESET: Your Genshin Wizard profile has been reset to default settings!
-INVALID_IMAGE_URL: "Please provide a **valid** image URL. Acceptable image types include: `PNGs`, `JPGs`, `JPEGs`, and `GIFs`."
-SETTING_BANNER_UPDATE: Your banner has been successfully updated!
+STATS_KEY: Statistiques
+INFO_KEY: Information(s)
+SETTING_RESET_PRIVACY: Les paramètres de confidentialité ont été réinitialisés avec succès !
+SETTING_PRIVACY_UPDATED: "Les paramètres de confidentialité de {privacy_type} ont été mis à jour ! Confidentialité actuelle : {current_privacy}"
+SETTING_ART_STYLE_UPDATED: "Les styles d'art des builds des personnages ont été mis à jour ! Style d'art actuel : {current_setting}"
+SETTING_MASTER_PROFILE_RESET: Votre profil Genshin Wizard a été réinitialisé aux paramètres par défaut !
+INVALID_IMAGE_URL: "Veuillez fournir une URL d'image **valide**. Les types d'image acceptables sont : `PNG`, `JPG`, `JPEG`, et `GIF`."
+SETTING_BANNER_UPDATE: Votre bannière a été mise à jour avec succès !
 SETTING_BIOGRAPHY_ILLEGAL: Hey Traveler! Your input contains words that **aren't allowed** by Genshin Wizard! Please consider trying something *different* for your bio.
 DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
 SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
