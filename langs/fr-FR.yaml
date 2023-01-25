@@ -558,25 +558,25 @@ SETTING_ART_STYLE_UPDATED: "Les styles d'art des builds des personnages ont ét�
 SETTING_MASTER_PROFILE_RESET: Votre profil Genshin Wizard a été réinitialisé aux paramètres par défaut !
 INVALID_IMAGE_URL: "Veuillez fournir une URL d'image **valide**. Les types d'image acceptables sont : `PNG`, `JPG`, `JPEG`, et `GIF`."
 SETTING_BANNER_UPDATE: Votre bannière a été mise à jour avec succès !
-SETTING_BIOGRAPHY_ILLEGAL: Hey Traveler! Your input contains words that **aren't allowed** by Genshin Wizard! Please consider trying something *different* for your bio.
-DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
-SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
+SETTING_BIOGRAPHY_ILLEGAL: Hey Voyageur ! Votre entrée contient des mots qui **ne sont pas autorisés** par Genshin Wizard ! S'il vous plaît essayez quelque chose de *différent* pour votre bio.
+DEFAULT_BIOGRAPHY: Un voyageur qui aime le frisson de l'aventure !
+SETTING_BIOGRAPHY_UPDATED: Votre biographie a été mise à jour avec succès !
 BIOGRAPHY_KEY: Bio
-BANNER_KEY: Banner
-ELEMENTAL_RESONANCE_KEY: Elemental Resonance
-BUILDS_ART_STYLE_KEY: Builds Art Style
-ART_STYLE_KEY: Art Style
+BANNER_KEY: Bannière
+ELEMENTAL_RESONANCE_KEY: Résonance Élémentaire
+BUILDS_ART_STYLE_KEY: Style d'Art des Builds
+ART_STYLE_KEY: Style d'Art
 FANART_KEY: Fanart
-OFFICIAL_ART_KEY: Official Art
+OFFICIAL_ART_KEY: Art Officiel
 GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
-  Change your Genshin Wizard profile settings here.
+  Modifiez les paramètres de votre profil Genshin Wizard ici.
 
-  **Profile Summary**
-GENSHIN_WIZARD_PROFILE_TITLE: Genshin Wizard Profile Settings
+  **Résumé du Profil**
+GENSHIN_WIZARD_PROFILE_TITLE: Paramètres du Profil de Genshin Wizard
 MISSING_REGISTRATION_INSTRUCTIONS: |
-  Please register using one of:
+  Veuillez-vous inscrire en utilisant l'un des suivants :
   **1.)** </register:{command_id}>
-  **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
+  **2.)** Renseigner votre utilisateur/UID. Par exemple : `/info [discord-user]/[genshin-uid]`
 MISSING_IMAGE: Merci de fournir une image ou un lien vers une image pour mettre à jour votre bannière
 PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Lien de Bannière du Profil mis à jour
 IMAGE_LINK_KEY: Lien Image
@@ -767,51 +767,51 @@ REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
 REMINDER_COMMAND_OVERVIEW_TITLE: Genshin Impact Reminders
 ENABLED_KEY: Enabled
 DISABLED_KEY: Disabled
-NOT_ENABLED_KEY: Not Enabled
-NO_REMINDERS_SET_KEY: No Reminders Set!
-RESIN_REMINDERS_KEY: Resin Reminders
-EXPEDITION_REMINDERS_KEY: Expedition Reminders
-SERENITEA_POT_KEY: Serenitea Pot
-PARAMETRIC_REMINDERS_KEY: Parametric Transformer
+NOT_ENABLED_KEY: Non Activé
+NO_REMINDERS_SET_KEY: Pas de Rappels Configurés !
+RESIN_REMINDERS_KEY: Rappels de Résine
+EXPEDITION_REMINDERS_KEY: Rappels d'Expédition
+SERENITEA_POT_KEY: Sérénithéière
+PARAMETRIC_REMINDERS_KEY: Transformateur Paramétrique
 RESIN_REMINDERS_DESCRIPTION: |
-  You currently have **<:fragileresin:1029984988583706654>{current_resin}** resin!
-  **Replenish Time:** Replenishes {time_left}
-  **Automatic Reminder:** {reminder_setting}
+  Vous avez actuellement **<:fragileresin:1029984988583706654>{current_resin}** résine !
+  **Temps de réapprovisionnement :** réapprovisionné {time_left}
+  **Rappel Automatique :** {reminder_setting}
 TEAPOT_REMINDERS_DESCRIPTION: |
-  You currently have **<:realmcurrency:1029984449565310976>{current_currency}** realm currency!
-  **Replenish Time:** {time_left}
-  > **Automatic Reminder:** {reminder_setting}
+  Vous avez actuellement **<:realmcurrency:1029984449565310976>{current_currency}** monnaie du royaume !
+  **Temps de réapprovisionnement :** {time_left}
+  > **Rappel Automatique :** {reminder_setting}
 PARAMETRIC_REMINDERS_DESCRIPTION: |
-  Your **<:parametrictransformer:1029984451670847568>Parametric Transformer** is currently {transformer_status}!
-  **Replenish Time:** {time_left}
-  > **Automatic Reminder:** {reminder_setting}
-READY_TO_USE: ready to use
-NOT_READY_TO_USE: not ready to use
-MAXED_OUT_KEY: Maxed Out!
-RESIN_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your resin reaches a certain amount!
-REMINDER_AUTOMATIC_RESIN_SET: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your resin reaches the threshold set above!
-TEAPOT_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your teapot currency maxes out!
-PARAMETRIC_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your parametric transformer is ready to use!
-ERROR_NO_TRANSFORMER: Hey Traveler! You have not obtained the **<:parametrictransformer:1029984451670847568>Parametric Transformer** yet!
-REMINDERS_CLEARED_CONFIRMATION: Successfully **cleared** all your reminders!
-SPECIFIC_REMINDER_CLEARED: Successfully **cleared** all your {rmd_type} reminders!
-TEAPOT_ALREADY_SET: You **already** have a reminder set for teapot!
-RESIN_ALREADY_SET: You **already** have a reminder set for **<:fragileresin:1029984988583706654>{resin}!**
-TEAPOT_AUTOMATIC_ALREADY_SET: You **already** have an automatic reminder set for teapot!
-TEAPOT_REMINDER_SET: Reminder successfully set for <:realmcurrency:1029984449565310976><t:{time}:F>!
-AUTOMATIC_TEAPOT_EXPLANATION: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your teapot maxes out!
-EXPEDITION_ALREADY_SET: You **already** have a reminder set for this expedition!
-EXPEDITION_REMINDER_SET: Reminder successfully set for **{char_emote} <t:{time}:F>!**
-PARAMETRIC_ALREADY_SET: You **already** have a reminder set for parametric transformer!
-PARAMETRIC_AUTOMATIC_ALREADY_SET: You **already** have an automatic reminder set for parametric transformer!
-PARAMETRIC_REMINDER_SET: Reminder successfully set for <:parametrictransformer:1029984451670847568><t:{time}:F>!
-AUTOMATIC_PARAMETRIC_EXPLANATION: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your parametric transformer is ready to use!
-INVALID_RESIN_AMOUNT: You need to specify a valid amount of resin.
-RESIN_AMOUNT_LOWER: Please enter a resin amount that is **higher** than your current resin!
-RESIN_REMINDER_SET: Reminder successfully set at <t:{rmd_time}:F> for **<:fragileresin:1029984988583706654>{resin}** resin!
-ENTER_CUSTOM_AMOUNT_KEY: Enter Custom Amount
-ENABLE_AUTOMATIC_REMINDER_KEY: Enable Automatic Reminder
-CURRENT_ONGOING_EXPEDITIONS_DESCRIPTION: "Hey Traveler! Your current ongoing expeditions are:"
+  Votre **<:parametrictransformer:1029984451670847568>Transformateur Paramétrique** est actuellement {transformer_status} !
+  **Temps de réapprovisionnement :** {time_left}
+  > **Rappel Automatique :** {reminder_setting}
+READY_TO_USE: prêt à l'emploi
+NOT_READY_TO_USE: pas prêt à l'emploi
+MAXED_OUT_KEY: Maximiser !
+RESIN_AUTOMATIC_REMINDER_FOOTER: Configurez un rappel automatique pour être notifié(e) chaque fois que votre résine atteint un certain montant !
+REMINDER_AUTOMATIC_RESIN_SET: Ce rappel a été défini comme un rappel **automatique** ! Cela signifie que vous serez rappelé *à chaque fois* que votre résine atteint le seuil fixé au-dessus !
+TEAPOT_AUTOMATIC_REMINDER_FOOTER: Configurez un rappel automatique pour être notifié(e) chaque fois que votre devise de théière atteint le maximum !
+PARAMETRIC_AUTOMATIC_REMINDER_FOOTER: Configurez un rappel automatique pour être notifié(e) chaque fois que votre transformateur paramétrique est prêt à être utilisé !
+ERROR_NO_TRANSFORMER: Hey Voyageur ! Vous n'avez pas encore obtenu le **<:parametrictransformer:1029984451670847568>Transformateur Paramétrique** !
+REMINDERS_CLEARED_CONFIRMATION: Tous vos rappels ont été **effacé** avec succès !
+SPECIFIC_REMINDER_CLEARED: Tous vos rappels {rmd_type} ont été **effacé** avec succès !
+TEAPOT_ALREADY_SET: Vous avez **déjà** un rappel en place pour la théière !
+RESIN_ALREADY_SET: Vous avez **déjà** défini un rappel pour **<:fragileresin:1029984988583706654>{resin}!**
+TEAPOT_AUTOMATIC_ALREADY_SET: Vous avez **déjà** un rappel automatique en place pour la théière !
+TEAPOT_REMINDER_SET: Rappel défini avec succès pour <:realmcurrency:1029984449565310976><t:{time}:F> !
+AUTOMATIC_TEAPOT_EXPLANATION: Ce rappel a été défini comme un rappel **automatique** ! Cela signifie que vous serez notifier *à chaque fois* que votre théière est au maximum !
+EXPEDITION_ALREADY_SET: Vous avez **déjà** un rappel en place pour cette expédition !
+EXPEDITION_REMINDER_SET: Rappel défini avec succès pour **{char_emote} <t:{time}:F> !**
+PARAMETRIC_ALREADY_SET: Vous avez **déjà** un rappel défini pour le transformateur paramétrique !
+PARAMETRIC_AUTOMATIC_ALREADY_SET: Vous avez **déjà** un rappel automatique défini pour le transformateur paramétrique !
+PARAMETRIC_REMINDER_SET: Rappel défini avec succès pour <:parametrictransformer:1029984451670847568><t:{time}:F> !
+AUTOMATIC_PARAMETRIC_EXPLANATION: Ce rappel a été défini comme un rappel **automatique** ! Cela signifie que vous serez notifier *à chaque fois* que votre transformateur paramétrique est prêt à être utilisé !
+INVALID_RESIN_AMOUNT: Vous devez spécifier un montant de résine valide.
+RESIN_AMOUNT_LOWER: Veuillez entrer un montant de résine **supérieur** à votre résine actuelle !
+RESIN_REMINDER_SET: Rappel défini avec succès à <t:{rmd_time}:F> pour **<:fragileresin:1029984988583706654>{resin}** résine !
+ENTER_CUSTOM_AMOUNT_KEY: Entrez un montant personnalisé
+ENABLE_AUTOMATIC_REMINDER_KEY: Activer le Rappel Automatique
+CURRENT_ONGOING_EXPEDITIONS_DESCRIPTION: "Hey Voyageur ! Vos expéditions en cours sont :"
 NO_CURRENT_EXPEDITIONS: You have no ongoing expeditions.
 MISSING_RESIN_AMOUNT: You need to specify the amount of resin you currently have.
 TOO_MUCH_RESIN: You cannot have more than 160 resin.
@@ -1249,7 +1249,7 @@ LOGIN_MODAL_TITLE: HoYoLAB Account Login
 RESIN_KEY: Resin
 TEAPOT_KEY: Teapot
 EXPEDITIONS_KEY: Expeditions
-PARAMETRIC_TRANSFORMER_KEY: Parametric Transformer
+PARAMETRIC_TRANSFORMER_KEY: Transformateur Paramétrique
 CLEAR_ALL_REMINDERS_BUTTON: Clear All Reminders
 CLEAR_REMINDER_BUTTON: Clear {reminder_type} Reminders
 SET_REMINDER_KEY: Set Reminder
