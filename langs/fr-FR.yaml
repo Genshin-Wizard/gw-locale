@@ -966,36 +966,36 @@ SERVER_TIME_KEY: Temps du Serveur
 CONFIGURATION_SETTINGS_RESET: <:yescheck:1021114525858136074> Les paramètres ont été **réinitialisés** !
 CHANNEL_SETUP_MISSING: Vous devez d'abord configurer un canal !
 TIME_FOR_ADVENTURE: C'est l'heure de l'Aventure !
-INVALID_ROLE_MESSAGE: You must use a **Valid Role ID** for this integration! Please try again.
-INVALID_GUILD_MESSAGE: You must use a **Valid Guild ID** for this integration! Please try again.
-INVALID_CHANNEL_MESSAGE: You must use a **Valid Channel ID** for this integration! Please try again.
-CANNOT_FIND_GUILD: Hey Traveler, I was **unable** to find the server you were looking for. Please try again.
-MISSING_WEBHOOK_PERMISSION: I don't have permission to `Manage Webhooks` in this server/channel!
-CHANGE_ROLE_INTEGRATION: Make changes to Genshin Wizard's automatic role integration.
-SETUP_COMMAND_TITLE: Genshin Wizard | Setup Panel
-UPDATED_INTEGRATION_RESPONSE: "Successfully updated integration for: **{integration}**!"
-PREMIUM_ART_SETTINGS_TITLE: Genshin Wizard Custom Art Settings
+INVALID_ROLE_MESSAGE: Vous devez utiliser un **ID de Rôle Valide** pour cette intégration ! Veuillez réessayer.
+INVALID_GUILD_MESSAGE: Vous devez utiliser un **ID de Guilde Valide** pour cette intégration ! Veuillez réessayer.
+INVALID_CHANNEL_MESSAGE: Vous devez utiliser un **ID de Canal Valide** pour cette intégration ! Veuillez réessayer.
+CANNOT_FIND_GUILD: Hey Voyageur, je **n'ai pas** trouvé le serveur que vous cherchiez. Veuillez réessayer.
+MISSING_WEBHOOK_PERMISSION: Je n'ai pas la permission de `Gérer les Webhooks` dans ce serveur/canal !
+CHANGE_ROLE_INTEGRATION: Apportez des modifications à l'intégration automatique des rôles de Genshin Wizard.
+SETUP_COMMAND_TITLE: Genshin Wizard | Panneau d'Installation
+UPDATED_INTEGRATION_RESPONSE: "Intégration mise à jour avec succès pour : **{integration}** !"
+PREMIUM_ART_SETTINGS_TITLE: Réglages de l'Art Personnalisé Genshin Wizard
 PREMIUM_ART_SETTINGS_DESCRIPTION: |
-  <:information:1034639378410115103> **Manage your Genshin Wizard </info:{command_id}> Art Settings**
-  Tired of the default art that Genshin Wizard delivers? Well, you can now choose your own custom art for your character cards!
+  <:information:1034639378410115103> **Gérer votre Paramètres d'art Genshin Wizard </info:{command_id}>**
+  Fatigué de l'art par défaut que Genshin Wizard délivre ? Eh bien, vous pouvez maintenant choisir votre propre art personnalisé pour vos cartes de personnage!
 
-  <:na:975828401900359711> **What if I want to delete previously saved custom art?**
-  You'll be able to manage your saved builds art straight from this message. Use the UI below to delete specific characters, or all, from your saved custom art list.
+  <:na:975828401900359711> **Que faire si je veux supprimer un art personnalisé enregistré précédemment ? *
+  Vous serez en mesure de gérer vos arts des builds sauvegardées directement à partir de ce message. Utilisez l'interface ci-dessous pour supprimer des personnages spécifiques ou tout vos personnages, de votre liste d'art personnalisé sauvegardé.
 
-  <:blurpleannouncement:1020402170127982712> **CUSTOM ART OVERVIEW**
+  <:blurpleannouncement:1020402170127982712> **APERÇU DES ARTS PERSONNALISÉS**
   {setting_details}
-  **Adaptive Art on Infographics:** {adaptive_art}
-NO_CUSTOM_ART_FOUND: "`❌ You have not setup custom-art for any characters.`"
-CUSTOM_ART_STATISTICS: You have enabled custom character art for **{characters}/{total_characters}** characters!
+  **Art Adaptatif sur les Infographies :** {adaptive_art}
+NO_CUSTOM_ART_FOUND: "`❌ Vous n'avez pas mis en place d'art personnalisé pour aucun personnage.`"
+CUSTOM_ART_STATISTICS: Vous avez activé l'art personnalisé de personnage pour **{characters}/{total_characters}** personnages !
 PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard Custom Role Settings**
-  Role Status: {role_bool}
-  Role: {role_mention}
-  Role Name: {role_name}
-  Role Color: `{role_color}`
+  <:information:1034639378410115103> **Paramètres de Rôle Personnalisé Genshin Wizard**
+  Statut du Rôle : {role_bool}
+  Rôle : {role_mention}
+  Nom du Rôle : {role_name}
+  Couleur du Rôle : `{role_color}`
 GENSHIN_WIZARD_PREMIUM: Genshin Wizard Premium
-CLAIMED_KEY: Claimed
-UNCLAIMED_KEY: Unclaimed
+CLAIMED_KEY: Réclamé(e)
+UNCLAIMED_KEY: Non Réclamé(e)
 PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard Premium Server Settings
 PREMIUM_SERVER_SETTINGS_DESCRIPTION: |
   **<:information:1034639378410115103> What are premium servers?**
@@ -1099,25 +1099,25 @@ SLASH_COMMAND_NEED_HELP: |
 
   <a:7094whitecheck:1020160260637462618> Happy Wishing Fellow Traveler,
   Paimon
-SLASH_COMMAND_HELP_GUIDE: <:verifiedlight:939225784936202241> For **help**, use the </help:982685016012226590> command!
-GENSHIN_WIZARD_SERVER_JOIN_TITLE: Genshin Wizard has arrived!
+SLASH_COMMAND_HELP_GUIDE: <:verifiedlight:939225784936202241> Pour de **l'aide**, utilisez la commande </help:982685016012226590> !
+GENSHIN_WIZARD_SERVER_JOIN_TITLE: Genshin Wizard est arrivé !
 GENSHIN_WIZARD_SERVER_JOIN_DESCRIPTION: |
-  Hello Traveler! Thank you for inviting **Genshin Wizard** to your humble abode. Some things to note before getting started:
+  Bonjour Voyageur! Merci d'avoir invité **Genshin Wizard** à votre humble demeure. Certaines choses à noter avant de commencer :
 
-  **Command Prefix:** `g!` or `/`
-  > Congratulations! This server is the **{guilds}** server to invite Genshin Wizard! 🎉
+  **Préfixe de commande :** `g!` ou `/`
+  > Félicitations ! Ce serveur est le serveur **{guilds}** pour inviter Genshin Wizard! 🎉
 
-  For more information on how to use me, refer to our [**Documentation**](https://docs.genshinwizard.com/) or use the </help:{command_id}> command!
-SHOWCASE_KEY: Showcase
-CUSTOM_ART_KEY: Custom Art
-DELETE_SELECTED_KEY: Delete Selected
-DELETE_ALL_KEY: Delete All
-CANCEL_KEY: Cancel
-CACHE_VIEW_NO_SAVED_CHARACTERS: No Saved Characters!
-THREE_STARS_KEY: 3 Stars
-FOUR_STARS_KEY: 4 Stars
-FIVE_STARS_KEY: 5 Stars
-ALL_WISHES_KEY: All Wishes
+  Pour plus d'informations sur la façon de m'utiliser, reportez-vous à notre [**Documentation**](https://docs.genshinwizard.com/) ou utilisez la commande </help:{command_id}> !
+SHOWCASE_KEY: Présentation
+CUSTOM_ART_KEY: Art Personnalisé
+DELETE_SELECTED_KEY: Supprimer la Sélection
+DELETE_ALL_KEY: Tout Supprimer
+CANCEL_KEY: Annuler
+CACHE_VIEW_NO_SAVED_CHARACTERS: Aucun Personnage Sauvegardé !
+THREE_STARS_KEY: 3 Étoiles
+FOUR_STARS_KEY: 4 Étoiles
+FIVE_STARS_KEY: 5 Étoiles
+ALL_WISHES_KEY: Tous les Vœux
 THREE_STARS_FILTER_DESCRIPTION: Filter your wish history by three-star pulls.
 FOUR_STARS_FILTER_DESCRIPTION: Filter your wish history by four-star pulls.
 FIVE_STARS_FILTER_DESCRIPTION: Filter your wish history by five-star pulls.
