@@ -750,23 +750,23 @@ HOYOLAB_REGISTRATION_DESCRIPTION: |
 PROCESSING_REGISTRATION_REQUEST: Traitement de la Demande d'Inscription
 ACCOUNT_RETREIVAL_FAILED: Il semble qu'il y ait eu une erreur lors de la récupération des informations avec l'UID demandé. Veuillez vous assurer que vous avez entré l'UID correct et réessayez.
 REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
-  Welcome to Genshin Wizard's :bell: **Reminder Panel**! To begin setting up reminders, you can select any of the options below and activate them from the relative panel.
+  Bienvenue dans **Le Panneau de Rappel** de Genshin Wizard :bell: ! Pour commencer à configurer des rappels, vous pouvez sélectionner n'importe quel options ci-dessous et les activer à partir du panneau relatif.
 
-  <a:4396ringingbell:1030221006918385664> **CURRENT REMINDERS**
-  **Resin Reminders <:fragileresin:1029984988583706654>**
-  > **Automatic Reminder:** {automatic_resin}
+  <a:4396ringingbell:1030221006918385664> **RAPPELS ACTUELS**
+  **Rappels Résine <:fragileresin:1029984988583706654>**
+  > **Rappel Automatique :** {automatic_resin}
   {resin_rmd}
-  **Teapot Reminders <:realmcurrency:1029984449565310976>**
-  > **Automatic Reminder:** {automatic_teapot}
+  **Rappels Théière <:realmcurrency:1029984449565310976>**
+  > **Rappel Automatique :** {automatic_teapot}
   {teapot_rmd}
-  **Expedition Reminders <:adventurersguild:1030215759584051240>**
+  **Rappels Expéditions <:adventurersguild:1030215759584051240>**
   {exp_rmd}
-  **Parametric Transformer Reminders <:parametrictransformer:1029984451670847568>**
-  > **Automatic Reminder:** {automatic_parametric}
+  **Rappel Transformateur Parametrique <:parametrictransformer:1029984451670847568>**
+  > **Rappel Automatique :** {automatic_parametric}
   {para_rmd}
-REMINDER_COMMAND_OVERVIEW_TITLE: Genshin Impact Reminders
-ENABLED_KEY: Enabled
-DISABLED_KEY: Disabled
+REMINDER_COMMAND_OVERVIEW_TITLE: Rappels Genshin Impact
+ENABLED_KEY: Activé
+DISABLED_KEY: Désactivé
 NOT_ENABLED_KEY: Non Activé
 NO_REMINDERS_SET_KEY: Pas de Rappels Configurés !
 RESIN_REMINDERS_KEY: Rappels de Résine
@@ -820,7 +820,7 @@ RESIN_REMINDER_FOOTER: Cliquez sur bouton avec 🔔 pour recevoir un rappel ! As
 SET_RESIN_REMINDER_KEY: Définir un rappel de résine !
 API_ISSUE: Il y a eu un problème d'API.
 HOW_TO_SOLVE_TITLE: Comment résoudre cela ?
-ENABLE_CHRONICLES: "Use the command </hoyolab-privacy:{command_id}> or visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable *Battle Chronicle privacy* to make your genshin profile public."
+ENABLE_CHRONICLES: "Utiliser la commande</hoyolab-privacy:{command_id}> ou visitez [**les Paramètres HoYoLAB**] (https://www.hoyolab.com/setting/privacy/) et activé *Battle Chronicle privacy* pour rendre votre profil Genshin publique."
 PLEASE_WAIT_DESCRIPTION: Attendez ! Il n'y a rien que vous puissiez faire pour poursuivre pour le moment.
 PLAYER_TITLE: Joueur {player}
 USER_TITLE: Utilisateur {user}
@@ -833,22 +833,22 @@ GENERAL_OVERVIEW_SECTION: |
   Personnages : **{char_count}**/{total_char}
   Spirale Abyssale : {abyss}
   Région : {region}
-CHEST_PROGRESSION_KEY: Chest Progression
+CHEST_PROGRESSION_KEY: Progression des Coffres
 EXPLORATION_AND_OCULI: Exploration & Oculi
-NOT_YET_UNLOCKED: Not Yet Unlocked!
-STATISTICS_COMMAND_FOOTER: "Note: Statistics may be incorrectly shown or missing data, there is nothing we can do on our end to prevent this, it's an API error on HoYoLAB's end."
-CONGRATULATIONS_KEY: Congratulations!
+NOT_YET_UNLOCKED: Pas Encore Débloqué !
+STATISTICS_COMMAND_FOOTER: "Note : Les statistiques peuvent être mal affichées ou avoir des données manquantes, il n'y a rien que nous pouvons faire de notre côté pour éviter cela, c'est une erreur API du côté de HoYoLAB."
+CONGRATULATIONS_KEY: Félicitations !
 ABYSS_CONGRATULATE_MESSAGE: |
-  Congratulations {user} on perfectly *clearing* the Spiral Abyss!
-  <:spiralabyss:1000079902596411482> <@&{role_id}> Role Given <a:check:956327345717907507>
-ABYSS_COMMAND_STATISTICS_CREDIT: User {name}'s Spiral Abyss Stats
+  Félicitations {user} pour avoir parfaitement *terminé* l'Abysse Spiralé !
+  <:spiralabyss:1000079902596411482> <@&{role_id}> Rôle donné <a:check:956327345717907507>
+ABYSS_COMMAND_STATISTICS_CREDIT: Statistiques de l'Abysse Spiralé de l'utilisateur {name}
 CURRENT_LUNAR_PHASE_DESCRIPTION: |
-  **Current Lunar Phase**
-  **Start Time:** {start}
-  **End Time:** {end}
-MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard is missing permissions to `Manage Roles`. Please enable this permission and try again."
-ROLE_NOT_FOUND: ":no_entry: There was an error retrieving the role. Please make sure the role information under this integration is correct."
-GENSHIN_STATS_HEADER: "{name}'s Genshin Stats"
+  **Phase Lunaire Actuelle**
+  **Heure de Début :** {start}
+  **Heure de Fin :** {end}
+MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard manque les permissions pour `Gérer les Rôles`. Veuillez activer cette permission et réessayer."
+ROLE_NOT_FOUND: ":no_entry: Une erreur s'est produite lors de la récupération du rôle. Veuillez vous assurer que les informations sur le rôle dans cette intégration sont correctes."
+GENSHIN_STATS_HEADER: "Statistiques Genshin de {name}"
 PROCESSING_BANNER_TRANSITION: Processing {banner} Banner...
 WEAPON_KEY: Weapon
 PERMANENT_KEY: Permanent
@@ -1047,39 +1047,39 @@ PREMIUM_TIER_FOUR_PERKS: |
   <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier4:1045526663447969813> Elder of the Hexenzirkel** role.
 PREMIUM_UNKNOWN_TIER: Unknown Tier Selected
 PREMIUM_PLAN: Premium Plan
-PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Genshin Wizard Server [Custom Role]
-PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: Hey Traveler, this **custom role** feature is only available in the official [**Genshin Wizard Discord Server**](https://discord.gg/BTT5Zr7Dmp).
-PREMIUM_CUSTOM_ROLE_FOOTER: Genshin Wizard Custom Role Settings
-PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> Hey Traveler, you must be a **Tier 1** or higher premium user to use this feature. Consider purchasing an [**__upgrade__**](https://patreon.com/genshinwizard) to unlock this amazing feature.
-PREMIUM_ROLE_NAME_CHANGED: <:yescheck:1021114525858136074> Role name changed to **{name}**.
+PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Serveur Genshin Wizard [Rôle Personnalisé]
+PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: Hey Voyageur, cette fonctionnalité de **rôle personnalisé** n'est disponible que sur le [**Serveur Discord Genshin Wizard Officiel**](https://discord.gg/BTT5Zr7Dmp).
+PREMIUM_CUSTOM_ROLE_FOOTER: Réglages Rôle Personnalisé Genshin Wizard
+PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> Hey Voyageur, vous devez être un utilisateur premium ou de **Tier 1** pour utiliser cette fonctionnalité. Envisagez d'acheter une [**__upgrade__**](https://patreon.com/genshinwizard) pour débloquer cette incroyable fonctionnalité.
+PREMIUM_ROLE_NAME_CHANGED: <:yescheck:1021114525858136074> Nom du rôle changer à **{name}**.
 PREMIUM_ROLE_COLOR_CHANGED: '<:yescheck:1021114525858136074> Role color changed to **#{color}**.'
-HEX_NOT_PARSED: I was unable to parse the HEX color code you provided. Please try again.
-PREMIUM_ROLE_CLAIMED_ALREADY: <:Error:1021889679857037372> Hey Traveler, you already have a custom role. If you would like to change it, please use the buttons below.
-PREMIUM_CUSTOM_ROLE_TITLE: "{user}'s Custom Role"
-PREMIUM_ROLE_CREATED: "<:yescheck:1021114525858136074> Successfully created custom role ({role}). Please use the buttons below to change your unique role's name and color."
-PREMIUM_CUSTOM_ROLE_UNCLAIMED: <:Error:1021889679857037372> Hey Traveler, you don't have a custom role set up yet. Please create one first.
-PREMIUM_CUSTOM_ROLE_DELETED: <:yescheck:1021114525858136074> Your custom role has been successfully deleted.
-PREMIUM_CUSTOM_ROLE_INFORMATION: <:information:1034639378410115103> Hey Traveler, as a **premium subscriber** of Genshin Wizard, you'll have *exclusive* access to a custom role! You can change the name and color of your role at any time. You can also delete your custom role at any time. If you have any questions, please contact the **__support team__**.
-PREMIUM_SERVER_MAXIMUM_REACHED: Hey Traveler, you've reached the maximum amount of premium servers you can add. You can only add up to **{servers}** premium servers with your current subscription.
-PREMIUM_NO_SERVERS_SELECTED: <:Error:1021889679857037372> Hey Traveler, you haven't **selected** any servers to delete.
-PREMIUM_SERVER_REMOVED: Hey Traveler, you've successfully **removed** the selected servers.
-PREMIUM_SERVER_CLEARED: Hey Traveler, you've successfully **removed** all of your premium servers.
-PREMIUM_SERVER_ALREADY: Hey Traveler, this server seems to already have **premium** enabled. Consider using this perk on another server!
-PREMIUM_SERVER_ADDED: Hey Traveler, you've successfully added **{guild}** as a premium server!
-PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hey Traveler, if you wish to add **Custom Art Infographics** for your characters, simply use the </info:{command_id}> command and press the **Add Custom Art** button. You'll be brought to a webpage where you can upload your own artchoice and save it directly to your Genshin Wizard account.
-PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> Hey Traveler, you haven't **selected** any characters with custom-art to delete.
-PREMIUM_CUSTOM_ART_REMOVED: Hey Traveler, you've successfully **removed** the selected characters.
-PREMIUM_CUSTOM_ART_CLEARED: Hey Traveler, you've successfully **removed** all of your saved characters with custom-art.
-PREMIUM_ADAPTIVE_ART_SETTING_UPDATED: "Successfully changed adaptive art settings: {adaptive_art}"
-HELP_COMMAND_TITLE: Genshin Wizard | {category} Commands
-HELP_COMMAND_FOOTER: Genshin Wizard | {category} Command Directory
-NO_DESCRIPTION: No description provided.
+HEX_NOT_PARSED: Impossible d'analyser le code couleur HEX que vous avez fourni. Veuillez réessayer.
+PREMIUM_ROLE_CLAIMED_ALREADY: <:Error:1021889679857037372> Hey Voyageur, vous avez déjà un rôle personnalisé. Si vous souhaitez le modifier, veuillez utiliser les boutons ci-dessous.
+PREMIUM_CUSTOM_ROLE_TITLE: "Rôle Personnalisé de {user}"
+PREMIUM_ROLE_CREATED: "<:yescheck:1021114525858136074> Rôle personnalisé ({role}) créé avec succès. Veuillez utiliser les boutons ci-dessous pour changer le nom et la couleur de votre rôle unique."
+PREMIUM_CUSTOM_ROLE_UNCLAIMED: <:Error:1021889679857037372> Hey Voyageur, vous n'avez pas encore de rôle personnalisé. Veuillez en créer un d'abord.
+PREMIUM_CUSTOM_ROLE_DELETED: <:yescheck:1021114525858136074> Votre rôle personnalisé a été supprimé avec succès.
+PREMIUM_CUSTOM_ROLE_INFORMATION: <:information:1034639378410115103> Hey Voyageur, en tant qu'**abonné premium** de Genshin Wizard, vous aurez un accès *exclusif* à un rôle personnalisé ! Vous pouvez changer le nom et la couleur de votre rôle à tout moment. Vous pouvez également supprimer votre rôle personnalisé à tout moment. Si vous avez des questions, veuillez contacter l'**__équipe d'assistance__**.
+PREMIUM_SERVER_MAXIMUM_REACHED: Hey Voyageur, vous avez atteint le nombre maximum de serveurs premium que vous pouvez ajouter. Vous ne pouvez ajouter que **{servers}** serveurs premium avec votre abonnement actuel.
+PREMIUM_NO_SERVERS_SELECTED: <:Error:1021889679857037372> Hey Voyageur, vous n'avez **sélectionné** aucun serveur à supprimer.
+PREMIUM_SERVER_REMOVED: Hey Voyageur, vous avez **supprimé** les serveurs sélectionnés.
+PREMIUM_SERVER_CLEARED: Hey Voyageur, vous avez **supprimé** avec succès tous vos serveurs premium.
+PREMIUM_SERVER_ALREADY: Hey Voyageur, ce serveur semble déjà avoir le **premium** activé. Pensez à utiliser cet avantage sur un autre serveur !
+PREMIUM_SERVER_ADDED: Hey Voyageur, vous avez ajouté **{guild}** comme serveur premium !
+PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hey Voyageur, si vous souhaitez ajouter des **Infographies d'Art Personnalisées** pour vos personnages, utilisez simplement la commande </info:{command_id}> et appuyez sur le bouton **Ajouter un Art Personnalisé**. Vous serez amené sur une page Web où vous pourrez télécharger l'art de votre choix et l'enregistrer directement sur votre compte Genshin Wizard.
+PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> Hey Voyageur, vous n'avez **sélectionné** aucun personnage avec un art personnalisé à supprimer.
+PREMIUM_CUSTOM_ART_REMOVED: Hey Voyageur, vous avez **supprimé** avec succès les personnages sélectionnés.
+PREMIUM_CUSTOM_ART_CLEARED: Hey Voyageur, vous avez **supprimé** avec succès tous vos personnages enregistrés avec de l'art personnalisé.
+PREMIUM_ADAPTIVE_ART_SETTING_UPDATED: "Réglages de l'art adaptatif modifié avec succès : {adaptive_art}"
+HELP_COMMAND_TITLE: Genshin Wizard | {category} Commandes
+HELP_COMMAND_FOOTER: Genshin Wizard | Répertoire des Commandes {category}
+NO_DESCRIPTION: Aucune description fournie.
 ROLE_REQUIREMENTS_NOT_MET: |
-  None of your characters meet any of the **role requirements**!
+  Aucun de vos personnages ne remplit les **conditions de rôle** !
 
-  Please try using this command later when your character fulfills the necessary **requirements** or update the characters in your *in-game showcase*.
-SUCCESSFULLY_ADDED_ROLE: Successfully added {role} role to user!
-SUCCESSFULLY_UPDATED_ROLES: "**Successfully** updated user's roles!"
+  Veuillez essayer d'utiliser cette commande plus tard lorsque votre personnage remplit les **exigences** nécessaires ou mettez à jour les personnages dans votre *vitrine en jeu*.
+SUCCESSFULLY_ADDED_ROLE: Rôle {role} ajouté avec succès à l'utilisateur !
+SUCCESSFULLY_UPDATED_ROLES: "Les rôles de l'utilisateur ont été mis à jour **avec succès** !"
 CHARACTER_REQUIREMENTS_NOT_MET: |
   The character `{name}` does not meet any of the **role requirements**!\n\nPlease try using this command later when your character fulfills the necessary **requirements**.
 CHARACTER_NOT_IN_SHOWCASE: The character `{name}` was not found in your in-game character showcase!
