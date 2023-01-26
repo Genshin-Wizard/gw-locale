@@ -429,7 +429,7 @@ HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
   > **3.** Setelah anda berhasil menjalankan skrip, klik tombol `Klik di sini untuk menyalin!` untuk menyalin cookie.
   > **4.** Terakhir, Anda dapat mendaftar dengan mengklik tombol `Masukkan Token` di bawah dan menempelkan token yang anda salin.
 HOYOLAB_REGISTER_SCRIPT: |
-  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Silakan keluar dan login balik sebelum mencoba lagi, cookie saat ini kedaluwarsa/tidak valid!'); cookie=dokumen.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Klik di sini untuk menyalin!</button>`)``
+  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Silakan keluar dan login balik sebelum mencoba lagi, cookie saat ini kedaluwarsa/tidak valid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Klik di sini untuk menyalin!</button>`)```
 HOYOLAB_REGISTER_LOGIN_TITLE: Registrasi | Metode Login
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
   **Cara menautkan akun HoYoLAB Anda dengan Genshin Wizard**
