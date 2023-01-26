@@ -694,79 +694,79 @@ GENSHIN_WIZARD_REGISTRATION: Genshin Wizard Inscription
 UNLINK_GENSHIN_ACCOUNT: Délier le Compte Genshin
 UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Délier complètement votre compte Genshin Impact de Genshin Wizard. Cela effacera toutes vos données de Genshin Wizard, y compris votre historique de vœux, vos statistiques de vœux, et plus encore. Cette action est **irréversible**. Êtes-vous sûr de vouloir continuer ?
 UNLINK_HOYOLAB_ACCOUNT: Délier le compte HoYoLAB
-UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Unlink your HoYoLAB account from Genshin Wizard; Will not unlink your linked UID from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
-PURGE_WISH_HISTORY: Purge Wish History
-PURGE_WISH_HISTORY_DESCRIPTION: Purge only your wish history from Genshin Wizard, your Genshin account will still be linked to Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
-UNLINK_EVERYTHING: Unlink Everything
-UNLINK_EVERYTHING_BRIEF: This method will unlink **everything** from Genshin Wizard.
-UNLINK_EVERYTHING_DESCRIPTION: This method will unlink everything from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
-UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data from Genshin Wizard!
-UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If you believe for this to be an error, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
-USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
+UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Délier votre compte HoYoLAB de Genshin Wizard; Ne dissociera pas votre UID lié de Genshin Wizard. Cette action est **irréversible**. Êtes-vous sûr de vouloir continuer ?
+PURGE_WISH_HISTORY: Purger l'Historique des Vœux
+PURGE_WISH_HISTORY_DESCRIPTION: Purger uniquement votre historique de vœux de Genshin Wizard, votre compte Genshin sera toujours lié à Genshin Wizard. Cette action est **irréversible**. Êtes-vous sûr de vouloir continuer ?
+UNLINK_EVERYTHING: Tout Délier
+UNLINK_EVERYTHING_BRIEF: Cette méthode va **tout** délier de Genshin Wizard.
+UNLINK_EVERYTHING_DESCRIPTION: Cette méthode va tout dissocier de Genshin Wizard. Cette action est **irréversible**. Êtes-vous sûr de vouloir continuer ?
+UNLINKING_CONFIRMATION: Vous avez **délié avec succès** les données demandées par Genshin Wizard !
+UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: Cet UID est **déjà enregistré** à un autre utilisateur ! Si vous pensez qu'il s'agit d'une erreur, veuillez contacter [**le Support Genshin Wizard**](https://discord.gg/BTT5Zr7Dmp) !"
+USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: Vous êtes **déjà enregistré** à un UID différent ! Si vous souhaitez vous inscrire en utilisant un autre compte, veuillez utiliser </unlink:{command_id}> avant de tenter de vous inscrire à nouveau."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Inscription
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Enregistrez votre compte Genshin sur Genshin Wizard.
-HOYOLAB_ACCOUNT: HoYoLAB Account
-LINKED_UID_KEY: Linked UID
-LINKED_KEY: Linked
-NOT_LINKED_KEY: Not Linked
+HOYOLAB_ACCOUNT: Compte HoYoLAB
+LINKED_UID_KEY: UID Lié
+LINKED_KEY: Lié
+NOT_LINKED_KEY: Non Lié
 LINKING_UID_DIRECTIONS: |
-  Hello Traveler! To continue linking the requested UID to Genshin Wizard, we're going to need to **verify** that this account is actually yours!
+  Bonjour Voyageur! Pour continuer à lier l'UID fournis à Genshin Wizard, nous devrons **vérifier** que ce compte est en bien le vôtre!
 
-  **Unique Verification Key**
+  **Clé de vérification unique**
   ```yaml
   {key}```
-  **Expires in:**
+  **Expires dans :**
   <t:{timeout}:R>
 
-  How to complete verification?
-  > **1)** Go in-game and add the key above **anywhere** in your profile signature or nickname.
-  > **2)** Make sure you copy the key above **exactly** how it is written or else the bot will not be able to verify your account.
-  > **3)** *That's it*! Please wait patiently until our bot can verify you.
-LINKING_UID_FOOTER: Please be patient while we verify your account! These changes can take anywhere from 5-10 minutes to appear on our end.
-LINKING_UID_KEY_EXPIRED: It looks like this key is now **expired**! Unfortunately, we were unable to verify you at this time, please try again later.
-REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Refresh Wish History
-FORCE_REFRESH_FOOTER: If you'd prefer to force-refresh to prolong the expiry of your current history link, you may do so by clicking one of the buttons below.
-UNLINKING_CENTRE_TITLE: Genshin Wizard | Unlinking Centre
-UNLINKING_CENTRE_DESCRIPTION: Hello Traveler! Welcome to Genshin Wizard's unlinking centre. Manage your linked data through the buttons below. Friendly reminder that any method of unlinking will **erase all your data** from Genshin Wizard. This action is **irreversible**
-INVALID_COOKIE_RESPONSE: ":no_entry: You did not enter a valid **HoYoLAB** cookie!"
-RETRIEVING_ACCOUNT_INFORMATION: "*Retrieving your account information...*"
-SYNCED_HOYOLAB_UID: Successfully synced **HoYoLAB** UID!
-SYNCED_IN_GAME_UID: Successfully synced **In-Game** UID!
-ERROR_NO_ACCOUNTS: ":no_entry: There are **no accounts** associated with this token!"
-SUCCESSFULLY_LINKED_KEY: Successfully Linked!
+  Comment terminer la vérification ?
+  > **1)** Allez en jeu et ajoutez la clé ci-dessus **n'importe où** dans votre pseudo ou la signature de votre profil.
+  > **2)** Assurez-vous de copier la clé ci-dessus **exactement** comment elle est écrite sinon le bot ne sera pas en mesure de vérifier votre compte.
+  > **3)** *Et voilà* ! Veuillez patienter jusqu'à ce que notre bot puisse vous vérifier.
+LINKING_UID_FOOTER: Veuillez patienter pendant que nous vérifions votre compte ! Ces modifications peuvent prendre entre 5 et 10 minutes pour apparaître de notre côté.
+LINKING_UID_KEY_EXPIRED: Il semble que cette clé soit maintenant **expirée** ! Malheureusement, nous n'avons pas pu vous vérifier à ce moment, veuillez réessayer plus tard.
+REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Rafraîchir l'Historique des Vœux
+FORCE_REFRESH_FOOTER: Si vous préférez forcer la mise à jour pour prolonger l'expiration de votre lien d'historique actuel, vous pouvez le faire en cliquant sur l'un des boutons ci-dessous.
+UNLINKING_CENTRE_TITLE: Genshin Wizard | Centre de Dissociation
+UNLINKING_CENTRE_DESCRIPTION: Bonjour Voyageur ! Bienvenue dans le centre de dissociation Genshin Wizard. Gérez vos données liées via les boutons ci-dessous. Petit rappel que toute méthode de dissociation **effacera toutes vos données** de Genshin Wizard. Cette action est **irréversible**
+INVALID_COOKIE_RESPONSE: ":no_entry: Vous n'avez pas entré un cookie **HoYoLAB** valide !"
+RETRIEVING_ACCOUNT_INFORMATION: "*Récupération des informations de votre compte...*"
+SYNCED_HOYOLAB_UID: UID **HoYoLAB** synchronisé avec succès !
+SYNCED_IN_GAME_UID: UID **En Jeu** synchronisé avec succès !
+ERROR_NO_ACCOUNTS: ":no_entry: Il n'y a **pas de compte** associé à ce jeton !"
+SUCCESSFULLY_LINKED_KEY: Lié avec Succès !
 SUCCESSFULLY_LINKED_HOYOLAB: |
-  Successfully synced in-game account progression.
+  Progression du compte en jeu synchronisée avec succès.
 
-  Successfully synced your HoYoLAB account! You can now access the **HoYoLAB account menu** by using the command </hoyo:{command_id}>!
-REGISTRATION_FAILED: Registration Failed!
-REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> Registering your account was **unsuccessful**! Please try again or contact the [**support team**](https://discord.gg/genshinwizard) if the issue persists. This issue is typically caused by an invalid email/password combination.
-INVALID_HOYOLAB_EMAIL_PROMPT: Please enter a valid email address! You must use the email address you use to login to your **HoYoLAB** account.
-HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | HoYoLAB Registration
+  Synchronisation réussie de votre compte HoYoLAB ! Vous pouvez maintenant accéder au **menu compte HoYoLAB** en utilisant la commande </hoyo:{command_id}> !
+REGISTRATION_FAILED: Échec de l'Inscription !
+REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> L'enregistrement de votre compte a **échoué** ! Veuillez réessayer ou contacter [**l'équipe d'assistance**](https://discord.gg/genshinwizard) si le problème persiste. Ce problème est généralement causé par une combinaison d'email/mot de passe invalide.
+INVALID_HOYOLAB_EMAIL_PROMPT: Veuillez entrer une adresse e-mail valide ! Vous devez utiliser l'adresse e-mail que vous utilisez pour vous connecter à votre compte **HoYoLAB**.
+HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | Inscription HoYoLAB
 HOYOLAB_REGISTRATION_DESCRIPTION: |
-  Hello Traveler! Please wait while we process your registration request, bear in mind that this may take a moment.
+  Bonjour Voyageur ! Veuillez patienter pendant que nous traitons votre demande d'inscription, gardez à l'esprit que cela peut prendre un moment.
 
-  <a:FlowersBlue:955579121562423348> **Genshin Fun Fact of the Day:**
+  <a:FlowersBlue:955579121562423348> **Fait Drôle du Jour Genshin :**
   `"{fun_fact}"`
-PROCESSING_REGISTRATION_REQUEST: Processing Registration Request
-ACCOUNT_RETREIVAL_FAILED: It looks like there was an error retrieving information with the requested UID. Please make sure you've entered the correct UID and try again.
+PROCESSING_REGISTRATION_REQUEST: Traitement de la Demande d'Inscription
+ACCOUNT_RETREIVAL_FAILED: Il semble qu'il y ait eu une erreur lors de la récupération des informations avec l'UID demandé. Veuillez vous assurer que vous avez entré l'UID correct et réessayez.
 REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
-  Welcome to Genshin Wizard's :bell: **Reminder Panel**! To begin setting up reminders, you can select any of the options below and activate them from the relative panel.
+  Bienvenue dans **Le Panneau de Rappel** de Genshin Wizard :bell: ! Pour commencer à configurer des rappels, vous pouvez sélectionner n'importe quel options ci-dessous et les activer à partir du panneau relatif.
 
-  <a:4396ringingbell:1030221006918385664> **CURRENT REMINDERS**
-  **Resin Reminders <:fragileresin:1029984988583706654>**
-  > **Automatic Reminder:** {automatic_resin}
+  <a:4396ringingbell:1030221006918385664> **RAPPELS ACTUELS**
+  **Rappels Résine <:fragileresin:1029984988583706654>**
+  > **Rappel Automatique :** {automatic_resin}
   {resin_rmd}
-  **Teapot Reminders <:realmcurrency:1029984449565310976>**
-  > **Automatic Reminder:** {automatic_teapot}
+  **Rappels Théière <:realmcurrency:1029984449565310976>**
+  > **Rappel Automatique :** {automatic_teapot}
   {teapot_rmd}
-  **Expedition Reminders <:adventurersguild:1030215759584051240>**
+  **Rappels Expéditions <:adventurersguild:1030215759584051240>**
   {exp_rmd}
-  **Parametric Transformer Reminders <:parametrictransformer:1029984451670847568>**
-  > **Automatic Reminder:** {automatic_parametric}
+  **Rappel Transformateur Parametrique <:parametrictransformer:1029984451670847568>**
+  > **Rappel Automatique :** {automatic_parametric}
   {para_rmd}
-REMINDER_COMMAND_OVERVIEW_TITLE: Genshin Impact Reminders
-ENABLED_KEY: Enabled
-DISABLED_KEY: Disabled
+REMINDER_COMMAND_OVERVIEW_TITLE: Rappels Genshin Impact
+ENABLED_KEY: Activé
+DISABLED_KEY: Désactivé
 NOT_ENABLED_KEY: Non Activé
 NO_REMINDERS_SET_KEY: Pas de Rappels Configurés !
 RESIN_REMINDERS_KEY: Rappels de Résine
@@ -820,7 +820,7 @@ RESIN_REMINDER_FOOTER: Cliquez sur bouton avec 🔔 pour recevoir un rappel ! As
 SET_RESIN_REMINDER_KEY: Définir un rappel de résine !
 API_ISSUE: Il y a eu un problème d'API.
 HOW_TO_SOLVE_TITLE: Comment résoudre cela ?
-ENABLE_CHRONICLES: "Use the command </hoyolab-privacy:{command_id}> or visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable *Battle Chronicle privacy* to make your genshin profile public."
+ENABLE_CHRONICLES: "Utiliser la commande</hoyolab-privacy:{command_id}> ou visitez [**les Paramètres HoYoLAB**] (https://www.hoyolab.com/setting/privacy/) et activé *Battle Chronicle privacy* pour rendre votre profil Genshin publique."
 PLEASE_WAIT_DESCRIPTION: Attendez ! Il n'y a rien que vous puissiez faire pour poursuivre pour le moment.
 PLAYER_TITLE: Joueur {player}
 USER_TITLE: Utilisateur {user}
@@ -833,74 +833,74 @@ GENERAL_OVERVIEW_SECTION: |
   Personnages : **{char_count}**/{total_char}
   Spirale Abyssale : {abyss}
   Région : {region}
-CHEST_PROGRESSION_KEY: Chest Progression
+CHEST_PROGRESSION_KEY: Progression des Coffres
 EXPLORATION_AND_OCULI: Exploration & Oculi
-NOT_YET_UNLOCKED: Not Yet Unlocked!
-STATISTICS_COMMAND_FOOTER: "Note: Statistics may be incorrectly shown or missing data, there is nothing we can do on our end to prevent this, it's an API error on HoYoLAB's end."
-CONGRATULATIONS_KEY: Congratulations!
+NOT_YET_UNLOCKED: Pas Encore Débloqué !
+STATISTICS_COMMAND_FOOTER: "Note : Les statistiques peuvent être mal affichées ou avoir des données manquantes, il n'y a rien que nous pouvons faire de notre côté pour éviter cela, c'est une erreur API du côté de HoYoLAB."
+CONGRATULATIONS_KEY: Félicitations !
 ABYSS_CONGRATULATE_MESSAGE: |
-  Congratulations {user} on perfectly *clearing* the Spiral Abyss!
-  <:spiralabyss:1000079902596411482> <@&{role_id}> Role Given <a:check:956327345717907507>
-ABYSS_COMMAND_STATISTICS_CREDIT: User {name}'s Spiral Abyss Stats
+  Félicitations {user} pour avoir parfaitement *terminé* l'Abysse Spiralé !
+  <:spiralabyss:1000079902596411482> <@&{role_id}> Rôle donné <a:check:956327345717907507>
+ABYSS_COMMAND_STATISTICS_CREDIT: Statistiques de l'Abysse Spiralé de l'utilisateur {name}
 CURRENT_LUNAR_PHASE_DESCRIPTION: |
-  **Current Lunar Phase**
-  **Start Time:** {start}
-  **End Time:** {end}
-MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard is missing permissions to `Manage Roles`. Please enable this permission and try again."
-ROLE_NOT_FOUND: ":no_entry: There was an error retrieving the role. Please make sure the role information under this integration is correct."
-GENSHIN_STATS_HEADER: "{name}'s Genshin Stats"
-PROCESSING_BANNER_TRANSITION: Processing {banner} Banner...
-WEAPON_KEY: Weapon
+  **Phase Lunaire Actuelle**
+  **Heure de Début :** {start}
+  **Heure de Fin :** {end}
+MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard manque les permissions pour `Gérer les Rôles`. Veuillez activer cette permission et réessayer."
+ROLE_NOT_FOUND: ":no_entry: Une erreur s'est produite lors de la récupération du rôle. Veuillez vous assurer que les informations sur le rôle dans cette intégration sont correctes."
+GENSHIN_STATS_HEADER: "Statistiques Genshin de {name}"
+PROCESSING_BANNER_TRANSITION: Traitement de la Bannière {banner}...
+WEAPON_KEY: Arme
 PERMANENT_KEY: Permanent
 NOVICE_KEY: Novice
-STARDUST_EXCHANGES: Stardust Exchanges
-STARGLITTER_EXCHANGES: Starglitter Exchanges
-STARDUST_KEY: Stardust
-STARGLITTER_KEY: Starglitter
-GENSHIN_WIZARD_SHOP_TITLE: Genshin Wizard Shop
+STARDUST_EXCHANGES: Échanges de Poussières Étoile
+STARGLITTER_EXCHANGES: Échanges de Paillettes
+STARDUST_KEY: Poussière d'étoile
+STARGLITTER_KEY: Paillettes
+GENSHIN_WIZARD_SHOP_TITLE: Boutique Genshin Wizard
 GENSHIN_WIZARD_SHOP_DESCRIPTION: |
-  Welcome to Paimon's Bargains! Here you can purchase items to help you on your journey. You currently have <:Primogem:951924423340994610>**{primogems} Primogems** in your Genshin Wizard inventory.
+  Bienvenue dans les Bonnes Affaires de Paimon ! Ici, vous pouvez acheter des articles pour vous aider dans votre voyage. Vous avez actuellement <:Primogem:951924423340994610>**{primogems} Primogems** dans votre inventaire Genshin Wizard.
 
-  <:MasterlessStardust:951924423332626522> **Stardust:** {stardust}
-  <:MasterlessStarglitter:951924423059980290> **Starglitter:** {starglitter}
+  <:MasterlessStardust:951924423332626522> **Poussière d'Étoile :** {stardust}
+  <:MasterlessStarglitter:951924423059980290> **Paillettes :** {starglitter}
 
-  <:GreyPin:949815085335986246> **__CURRENT SHOP__ [ Price | Item ]**
+  <:GreyPin:949815085335986246> **__BOUTIQUE ACTUELLE__ [ Prix | Article ]**
 SIMULATOR_NO_PRIMOGEMS: |
-  <:Error:1021889679857037372> Hey Traveler, you don't have anymore **primogems** for today! You need at least <:Primogem:951924423340994610>**1,600** primogems to do *another* ten pull. To view your current balance, use the **</balance:{balance_id}>** command.
+  <:Error:1021889679857037372> Hey Voyageur, vous n'avez plus de **primogems** pour aujourd'hui ! Vous avez besoin d'au moins <:Primogem:951924423340994610>**1,600** primogems pour faire *à nouveau* dix tirs. Pour voir votre solde actuel, utilisez la commande **</balance:{balance_id}>**.
 
-  **__Need a Refill?__**
-  <:blurplelink:1020155547187691600> [**Vote for Genshin Wizard Bot [8,000 Primogems]**](https://top.gg/bot/782099719718699009/vote)
-  <:blurplelink:1020155547187691600> [**Vote for Genshin Wizard Server [8,000 Primogems]**](https://top.gg/servers/951370297582436392/vote)
-  <:blurplelink:1020155547187691600> **Use the </commissions:{commission_id}> command. [16,000 Primogems]**
-  > <:GreyPin:949815085335986246> Extra rewards for **Adventurers** of the **[Genshin Wizard Guild](https://discord.gg/genshinwizard) [16,000 Primogems]**
+  **__Besoin d'une Recharge ?__**
+  <:blurplelink:1020155547187691600> [**Votez pour le Bot Genshin Wizard [8,000 Primogems]**](https://top.gg/bot/782099719718699009/vote)
+  <:blurplelink:1020155547187691600> [**Votez pour le Serveur Genshin Wizard [8,000 Primogems]**](https://top.gg/servers/951370297582436392/vote)
+  <:blurplelink:1020155547187691600> **Utilisez la commande </commissions:{commission_id}>. [16,000 Primogems]**
+  > <:GreyPin:949815085335986246> Récompenses supplémentaire pour les **Aventures** de **[Guilde Genshin Wizard](https://discord.gg/genshinwizard) [16,000 Primogems]**
 WISH_RESULTS_DESCRIPTION: |
-  **Wish Results** <a:results:1020753234555584562>```glsl
+  **Résultats des Vœux** <a:results:1020753234555584562>```glsl
   {rolls}```
-  <a:7094whitecheck:1020160260637462618> **__INVENTORY ADDITIONS__**
+  <a:7094whitecheck:1020160260637462618> **__AJOUTS DANS L'INVENTAIRE__**
   {results}
   {rewards}
-  **Current Pities:
+  **Pitié Actuelle :
   <:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620>: `{five_star_pity}` | <:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616>: `{four_star_pity}`
-  Guaranteed Pity: {guaranteed_pity}
-  New Balance:** <:Primogem:951924423340994610>{balance} Primogems
-NONE_KEY: None
-SIMULATOR_TITLE: Genshin Wizard Gacha Simulator
-SIMULATOR_ALREADY_CLAIMED: ":no_entry: You have **__already claimed__** your Daily Commission rewards today! There will be new commissions <t:{time}:R>."
-COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> As an **Adventurer** of the [**Genshin Wizard Guild**](https://discord.gg/genshinwizard), you have been rewarded with an extra **16,000 Primogems** <:Primogem:951924423340994610> as a result of ongoing expeditions!"
-COMMISSION_ADVENTURER_REWARD_UNRECEIVED: "> <:GreyPin:949815085335986246> Become an **Adventurer** of the [**Genshin Wizard Guild**](https://discord.gg/genshinwizard) to earn extra rewards when completing Daily Commissions!"
-COMMISSION_PREMIUM_EXTRA_REWARD: "> <a:mona_mora:1046611739774562374> As a **Premium Member** of [**Genshin Wizard**](https://patreon.com/genshinwizard), you have been rewarded with an extra **{primogems} Primogems** <:Primogem:951924423340994610> as a result of your support!"
+  Pitié Guarantie : {guaranteed_pity}
+  Nouvelle Balance :** <:Primogem:951924423340994610>{balance} Primogems
+NONE_KEY: Aucun
+SIMULATOR_TITLE: Simulateur Gacha Genshin Wizard
+SIMULATOR_ALREADY_CLAIMED: ":no_entry: Vous avez **__déjà réclamé__** vos récompenses de Commission Quotidienne aujourd'hui ! Il y aura de nouvelles commissions <t:{time}:R>."
+COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> En tant qu'**Aventurier** de la [**Guilde Genshin Wizard**] (https://discord.gg/genshinwizard), vous avez été récompensé par **16 000 Primogems** supplémentaire <:Primogem:951924423340994610> grâce aux expéditions en cours !"
+COMMISSION_ADVENTURER_REWARD_UNRECEIVED: "> <:GreyPin:949815085335986246> Devenez un **Aventurier** de la [**Guilde Genshin Wizard**](https://discord.gg/genshinwizard) pour gagner des récompenses supplémentaires en complétant des commissions quotidiennes !"
+COMMISSION_PREMIUM_EXTRA_REWARD: "> <a:mona_mora:1046611739774562374> En tant que **Membre Premium** de [**Genshin Wizard**](https://patreon.com/genshinwizard), vous avez été récompensé avec **{primogems} Primogems** supplémentaire <:Primogem:951924423340994610> grâce à votre soutien !"
 COMMISSION_COMPLETE_MESSAGE: |
-  <a:7094whitecheck:1020160260637462618> You have **successfully** completed your Daily Commissions!
-  You have been rewarded with **16,000 Primogems** <:Primogem:951924423340994610>
-PRIVATE_MESSAGE_KEY: Private Message
+  <a:7094whitecheck:1020160260637462618> Vous avez **réussi** à remplir vos commissions quotidiennes !
+  Vous avez été récompensé avec **16,000 Primogems** <:Primogem:951924423340994610>
+PRIVATE_MESSAGE_KEY: Message Privé
 SIMULATOR_BALANCE_MESSAGE: |
-  <:blurpleannouncement:1020402170127982712> **Note:** You can only claim Daily Commission rewards **once** per day.
+  <:blurpleannouncement:1020402170127982712> **Note :** Vous ne pouvez réclamer les récompenses de Commission Quotidienne **qu'une fois** par jour.
 
-  **__CURRENT BALANCES__**
-  <:MasterlessStardust:951924423332626522> **Stardust:** {stardust}
-  <:MasterlessStarglitter:951924423059980290> **Starglitter:** {starglitter}
+  **__SOLDES ACTUELS__**
+  <:MasterlessStardust:951924423332626522> **Poussière d'Étoile :** {stardust}
+  <:MasterlessStarglitter:951924423059980290> **Paillette :** {starglitter}
   <:Primogem:951924423340994610> **Primogems:** {primogems}
-SIMULATOR_RESET_INVENTORY: Are you sure you wish to reset your inventory? This action will get rid of all your obtained characters through the wishsimulator commands and is **irreversible**!
+SIMULATOR_RESET_INVENTORY: Êtes-vous sûr de vouloir réinitialiser votre inventaire ? Cette action va se débarrasser de tous vos personnages obtenus à travers les commandes du simulateur de vœux et est **irréversible** !
 SIMULATOR_STARDUST_SHOP_OPTIONS: |
   **<:MasterlessStardust:951924423332626522> 75 | 160 Primogems <:Primogem:951924423340994610>**
   **<:MasterlessStardust:951924423332626522> 750 | 1600 Primogems <:Primogem:951924423340994610>**
@@ -909,13 +909,13 @@ SIMULATOR_STARGLITTER_SHOP_OPTIONS: |
   **<:MasterlessStarglitter:951924423059980290> 5 | 160 Primogems <:Primogem:951924423340994610>**
   **<:MasterlessStarglitter:951924423059980290> 50 | 1600 Primogems <:Primogem:951924423340994610>**
   **<:MasterlessStarglitter:951924423059980290> 500 | 16000 Primogems <:Primogem:951924423340994610>**
-SIMULATOR_BADGES_TITLE: Badges Shop
-SIMULATOR_MISCELLANEOUS_TITLE: Miscellaneous Shop
-SIMULATOR_EXCLUSIVE_TITLE: Exclusive Shop
-SIMULATOR_NO_CHARACTERS: You have no characters in your inventory!
+SIMULATOR_BADGES_TITLE: Boutique de Badges
+SIMULATOR_MISCELLANEOUS_TITLE: Boutique Divers
+SIMULATOR_EXCLUSIVE_TITLE: Boutique Exclusif
+SIMULATOR_NO_CHARACTERS: Vous n'avez aucun personnage dans votre inventaire !
 PRIMOGEM_KEY: Primogem
 PRIMOGEMS_KEY: Primogems
-SIMULATOR_NOT_ENOUGH_STARDUST: <:Error:1021889679857037372> You do not have enough **<:MasterlessStardust:951924423332626522> Stardust** to purchase this item!
+SIMULATOR_NOT_ENOUGH_STARDUST: <:Error:1021889679857037372> Vous n'avez pas assez de **<:MasterlessStardust:951924423332626522> Poussière d'Étoile** pour acheter cet article !
 SIMULATOR_NOT_ENOUGH_STARGLITTER: <:Error:1021889679857037372> You do not have enough **<:MasterlessStarglitter:951924423059980290> Starglitter** to purchase this item!
 SIMULATOR_PURCHASED_PRIMOGEMS: <:yescheck:1021114525858136074> You have successfully purchased **<:Primogem:951924423340994610>{primogems} Primogems** for **{emote} {price} {item}**!
 SIMULATOR_TOO_FAST: You're feeding your gacha addiction too quickly! Try using this button again in **{time}** seconds.
@@ -1047,39 +1047,39 @@ PREMIUM_TIER_FOUR_PERKS: |
   <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier4:1045526663447969813> Elder of the Hexenzirkel** role.
 PREMIUM_UNKNOWN_TIER: Unknown Tier Selected
 PREMIUM_PLAN: Premium Plan
-PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Genshin Wizard Server [Custom Role]
-PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: Hey Traveler, this **custom role** feature is only available in the official [**Genshin Wizard Discord Server**](https://discord.gg/BTT5Zr7Dmp).
-PREMIUM_CUSTOM_ROLE_FOOTER: Genshin Wizard Custom Role Settings
-PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> Hey Traveler, you must be a **Tier 1** or higher premium user to use this feature. Consider purchasing an [**__upgrade__**](https://patreon.com/genshinwizard) to unlock this amazing feature.
-PREMIUM_ROLE_NAME_CHANGED: <:yescheck:1021114525858136074> Role name changed to **{name}**.
+PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Serveur Genshin Wizard [Rôle Personnalisé]
+PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: Hey Voyageur, cette fonctionnalité de **rôle personnalisé** n'est disponible que sur le [**Serveur Discord Genshin Wizard Officiel**](https://discord.gg/BTT5Zr7Dmp).
+PREMIUM_CUSTOM_ROLE_FOOTER: Réglages Rôle Personnalisé Genshin Wizard
+PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> Hey Voyageur, vous devez être un utilisateur premium ou de **Tier 1** pour utiliser cette fonctionnalité. Envisagez d'acheter une [**__upgrade__**](https://patreon.com/genshinwizard) pour débloquer cette incroyable fonctionnalité.
+PREMIUM_ROLE_NAME_CHANGED: <:yescheck:1021114525858136074> Nom du rôle changer à **{name}**.
 PREMIUM_ROLE_COLOR_CHANGED: '<:yescheck:1021114525858136074> Role color changed to **#{color}**.'
-HEX_NOT_PARSED: I was unable to parse the HEX color code you provided. Please try again.
-PREMIUM_ROLE_CLAIMED_ALREADY: <:Error:1021889679857037372> Hey Traveler, you already have a custom role. If you would like to change it, please use the buttons below.
-PREMIUM_CUSTOM_ROLE_TITLE: "{user}'s Custom Role"
-PREMIUM_ROLE_CREATED: "<:yescheck:1021114525858136074> Successfully created custom role ({role}). Please use the buttons below to change your unique role's name and color."
-PREMIUM_CUSTOM_ROLE_UNCLAIMED: <:Error:1021889679857037372> Hey Traveler, you don't have a custom role set up yet. Please create one first.
-PREMIUM_CUSTOM_ROLE_DELETED: <:yescheck:1021114525858136074> Your custom role has been successfully deleted.
-PREMIUM_CUSTOM_ROLE_INFORMATION: <:information:1034639378410115103> Hey Traveler, as a **premium subscriber** of Genshin Wizard, you'll have *exclusive* access to a custom role! You can change the name and color of your role at any time. You can also delete your custom role at any time. If you have any questions, please contact the **__support team__**.
-PREMIUM_SERVER_MAXIMUM_REACHED: Hey Traveler, you've reached the maximum amount of premium servers you can add. You can only add up to **{servers}** premium servers with your current subscription.
-PREMIUM_NO_SERVERS_SELECTED: <:Error:1021889679857037372> Hey Traveler, you haven't **selected** any servers to delete.
-PREMIUM_SERVER_REMOVED: Hey Traveler, you've successfully **removed** the selected servers.
-PREMIUM_SERVER_CLEARED: Hey Traveler, you've successfully **removed** all of your premium servers.
-PREMIUM_SERVER_ALREADY: Hey Traveler, this server seems to already have **premium** enabled. Consider using this perk on another server!
-PREMIUM_SERVER_ADDED: Hey Traveler, you've successfully added **{guild}** as a premium server!
-PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hey Traveler, if you wish to add **Custom Art Infographics** for your characters, simply use the </info:{command_id}> command and press the **Add Custom Art** button. You'll be brought to a webpage where you can upload your own artchoice and save it directly to your Genshin Wizard account.
-PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> Hey Traveler, you haven't **selected** any characters with custom-art to delete.
-PREMIUM_CUSTOM_ART_REMOVED: Hey Traveler, you've successfully **removed** the selected characters.
-PREMIUM_CUSTOM_ART_CLEARED: Hey Traveler, you've successfully **removed** all of your saved characters with custom-art.
-PREMIUM_ADAPTIVE_ART_SETTING_UPDATED: "Successfully changed adaptive art settings: {adaptive_art}"
-HELP_COMMAND_TITLE: Genshin Wizard | {category} Commands
-HELP_COMMAND_FOOTER: Genshin Wizard | {category} Command Directory
-NO_DESCRIPTION: No description provided.
+HEX_NOT_PARSED: Impossible d'analyser le code couleur HEX que vous avez fourni. Veuillez réessayer.
+PREMIUM_ROLE_CLAIMED_ALREADY: <:Error:1021889679857037372> Hey Voyageur, vous avez déjà un rôle personnalisé. Si vous souhaitez le modifier, veuillez utiliser les boutons ci-dessous.
+PREMIUM_CUSTOM_ROLE_TITLE: "Rôle Personnalisé de {user}"
+PREMIUM_ROLE_CREATED: "<:yescheck:1021114525858136074> Rôle personnalisé ({role}) créé avec succès. Veuillez utiliser les boutons ci-dessous pour changer le nom et la couleur de votre rôle unique."
+PREMIUM_CUSTOM_ROLE_UNCLAIMED: <:Error:1021889679857037372> Hey Voyageur, vous n'avez pas encore de rôle personnalisé. Veuillez en créer un d'abord.
+PREMIUM_CUSTOM_ROLE_DELETED: <:yescheck:1021114525858136074> Votre rôle personnalisé a été supprimé avec succès.
+PREMIUM_CUSTOM_ROLE_INFORMATION: <:information:1034639378410115103> Hey Voyageur, en tant qu'**abonné premium** de Genshin Wizard, vous aurez un accès *exclusif* à un rôle personnalisé ! Vous pouvez changer le nom et la couleur de votre rôle à tout moment. Vous pouvez également supprimer votre rôle personnalisé à tout moment. Si vous avez des questions, veuillez contacter l'**__équipe d'assistance__**.
+PREMIUM_SERVER_MAXIMUM_REACHED: Hey Voyageur, vous avez atteint le nombre maximum de serveurs premium que vous pouvez ajouter. Vous ne pouvez ajouter que **{servers}** serveurs premium avec votre abonnement actuel.
+PREMIUM_NO_SERVERS_SELECTED: <:Error:1021889679857037372> Hey Voyageur, vous n'avez **sélectionné** aucun serveur à supprimer.
+PREMIUM_SERVER_REMOVED: Hey Voyageur, vous avez **supprimé** les serveurs sélectionnés.
+PREMIUM_SERVER_CLEARED: Hey Voyageur, vous avez **supprimé** avec succès tous vos serveurs premium.
+PREMIUM_SERVER_ALREADY: Hey Voyageur, ce serveur semble déjà avoir le **premium** activé. Pensez à utiliser cet avantage sur un autre serveur !
+PREMIUM_SERVER_ADDED: Hey Voyageur, vous avez ajouté **{guild}** comme serveur premium !
+PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hey Voyageur, si vous souhaitez ajouter des **Infographies d'Art Personnalisées** pour vos personnages, utilisez simplement la commande </info:{command_id}> et appuyez sur le bouton **Ajouter un Art Personnalisé**. Vous serez amené sur une page Web où vous pourrez télécharger l'art de votre choix et l'enregistrer directement sur votre compte Genshin Wizard.
+PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> Hey Voyageur, vous n'avez **sélectionné** aucun personnage avec un art personnalisé à supprimer.
+PREMIUM_CUSTOM_ART_REMOVED: Hey Voyageur, vous avez **supprimé** avec succès les personnages sélectionnés.
+PREMIUM_CUSTOM_ART_CLEARED: Hey Voyageur, vous avez **supprimé** avec succès tous vos personnages enregistrés avec de l'art personnalisé.
+PREMIUM_ADAPTIVE_ART_SETTING_UPDATED: "Réglages de l'art adaptatif modifié avec succès : {adaptive_art}"
+HELP_COMMAND_TITLE: Genshin Wizard | {category} Commandes
+HELP_COMMAND_FOOTER: Genshin Wizard | Répertoire des Commandes {category}
+NO_DESCRIPTION: Aucune description fournie.
 ROLE_REQUIREMENTS_NOT_MET: |
-  None of your characters meet any of the **role requirements**!
+  Aucun de vos personnages ne remplit les **conditions de rôle** !
 
-  Please try using this command later when your character fulfills the necessary **requirements** or update the characters in your *in-game showcase*.
-SUCCESSFULLY_ADDED_ROLE: Successfully added {role} role to user!
-SUCCESSFULLY_UPDATED_ROLES: "**Successfully** updated user's roles!"
+  Veuillez essayer d'utiliser cette commande plus tard lorsque votre personnage remplit les **exigences** nécessaires ou mettez à jour les personnages dans votre *vitrine en jeu*.
+SUCCESSFULLY_ADDED_ROLE: Rôle {role} ajouté avec succès à l'utilisateur !
+SUCCESSFULLY_UPDATED_ROLES: "Les rôles de l'utilisateur ont été mis à jour **avec succès** !"
 CHARACTER_REQUIREMENTS_NOT_MET: |
   The character `{name}` does not meet any of the **role requirements**!\n\nPlease try using this command later when your character fulfills the necessary **requirements**.
 CHARACTER_NOT_IN_SHOWCASE: The character `{name}` was not found in your in-game character showcase!
