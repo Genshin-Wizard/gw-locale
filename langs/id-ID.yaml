@@ -113,7 +113,7 @@ CHARACTER_SHOWCASE_TITLE: Karakter Showcase
 ERROR_RATELIMIT: Pengguna ini dibatasi tarifnya.
 ERROR_COMMAND_COOLDOWN_VALUE: Coba gunakan perintah ini lagi dalam {cooldown} detik.
 ERROR_COMMAND_LONG_COOLDOWN_VALUE: Coba gunakan perintah ini lagi dalam <t:{cooldown}:R>
-ERROR_KEY: Ralat!
+ERROR_KEY: Kesalahan!
 SUCCESSFUL_KEY: Berhasil!
 ERROR_MISSING_PERMISSION: Kamu tidak memiliki izin untuk menggunakan perintah ini!
 EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Perintah Eksklusif
@@ -134,9 +134,9 @@ ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
 ERROR_PREMIUM_COMMAND_DESCRIPTION: Hai Traveler! Anda **tidak diizinkan** untuk menggunakan perintah ini, perintah ini hanya tersedia untuk **Pelanggan Premium**. Jika Anda ingin menggunakan fitur ini, pertimbangkan untuk mempelajari lebih lanjut menggunakan perintah </premium:{command_id}>.
 ERROR_BLACKLISTED_TITLE: Genshin Wizard | Senarai Hitam
 ERROR_BLACKLISTED_DESCRIPTION: |
-  Hai Traveler! Anda telah **dilarang** menggunakan Genshin Wizard!
+  Hai Traveler! Kamu telah **dilarang** menggunakan Genshin Wizard!
 
-  Jika Anda yakin ini adalah keralatan, pertimbangkan untuk bergabung dengan [Discord Rasmi](https://discord.gg/genshinwizard) kami
+  Jika kamu yakin ini adalah kesalahan, pertimbangkan untuk bergabung dengan [Discord Rasmi](https://discord.gg/genshinwizard) kami
 ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Anggota Tidak Ditemukan
 ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Pastikan orang yang kamu coba lihat masih ada di server.
 ERROR_MISSING_REQUIRED_ARGUMENT: "Anda lupa memberikan argumen, harap gunakan format yang benar: ```{usage}```"
@@ -146,7 +146,7 @@ ERROR_MISSING_SEND_MESSAGE: Hai Traveler, saya tidak memiliki izin untuk `Mengir
 MESSAGE_KEY: Hapus Pesan
 ERROR_EMPTY_BACKPACK: Ranselmu **kosong**! Untuk memulai perjalanan kamu, gunakan perintah </wishsimulator:{command_id}>!
 ERROR_INTERACTION_MISMATCH: Hai Traveler! Ini ** bukan interaksi Anda ** untuk disentuh! Gunakan perintah {command} jika kamu ingin menggunakan perintah ini untuk diri kamu sendiri!
-ERROR_MESSAGE: Terdapat Ralat!
+ERROR_MESSAGE: Ada kesalahan!
 FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Saranan
 FEEDBACK_CONFIRMATION_DESCRIPTION: ':yescheck:1021114525858136074> *Saranan kamu telah berhasil dikirim ke Developer!*'
 FEEDBACK_LOG_RESPONSE: |
@@ -367,7 +367,7 @@ HISTORY_LINK_EXPIRED: Tautan Riwayat Tamat
 HISTORY_COMMAND_LIFETIME_PULLS: Pull Seumur Hidup
 HISTORY_COMMAND_WISHES_WORTH: Nilai permohonan
 HISTORY_COMMAND_CURRENT_PITIES: Pity Saat Ini
-SEARCH_ERROR: Pencarian ralat!
+SEARCH_ERROR: Pencarian gagal!
 HISTORY_COMMAND_NO_WISHES: |
   Tidak ada keinginan yang ditemukan untuk pencarian ini!
   Coba pilih baner lain untuk diperiksa di bawah.
@@ -413,9 +413,9 @@ HOYOLAB_INVALID_REDEEM: |
 CHINA_NOT_ALLOWED: Menebus kode untuk pengguna CN **belum didukung**.
 HOYOLAB_OVERVIEW_TITLE: Genshin Wizard |Rangkuman HoYoLAB
 HOYOLAB_LOADING_ACCOUNT: Memuat informasi akun...
-HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> Terdapat ralat saat mengambil informasi **Catatan Terkini** akun Anda! Silakan coba lagi *nanti* atau bergabunglah dengan [**Server Dukungan Resmi**](https://discord.gg/BTT5Zr7Dmp) kami untuk mendapatkan bantuan.
-HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> Terdapat ralat saat mengambil informasi **Game Record** akun Anda! Silakan coba lagi *nanti* atau bergabunglah dengan [**Server Dukungan Resmi**](https://discord.gg/BTT5Zr7Dmp) kami untuk mendapatkan bantuan.
-HOYOLAB_ACCOUNT_ERROR: Terjadi keralatan saat mengambil informasi akun Anda! Silakan coba lagi *nanti*.
+HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> Terdapat kesalahan saat mengambil informasi **Catatan Terkini** akun Kamu! Silakan coba lagi *nanti* atau bergabunglah dengan [**Server Dukungan Resmi**](https://discord.gg/BTT5Zr7Dmp) kami untuk mendapatkan bantuan.
+HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> Terdapat kesalahan saat mengambil informasi **Game Record** akun Kamu! Silakan coba lagi *nanti* atau bergabunglah dengan [**Server Dukungan Resmi**](https://discord.gg/BTT5Zr7Dmp) kami untuk mendapatkan bantuan.
+HOYOLAB_ACCOUNT_ERROR: Terjadi kesalahan saat mengambil informasi akunmu! Silakan coba lagi *nanti*.
 HOYOLAB_ACCOUNT_MANAGE: Kelola akun HoYoLAB Anda melalui Genshin Wizard
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Ringkasan Karakter
 CHARACTER_SUMMARY_NOT_FULL: Ringkasan Karakter anda berdasarkan pada riwayat permohonan gacha Anda. Untuk melihat Ringkasan Karakter anda yang lengkap dan paling akurat (level, pertemanan, konstelasi, dan level AR), silakan tautkan menggunakan /Mendaftar/Register!
@@ -447,15 +447,15 @@ HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
 UNLINKING_SUCCESSFUL: Berhasil Menghapuskan Tautan!
 UNLINKING_SUCCESSFUL_DESCRIPTION: Akun anda telah berhasil dihapuskan tautannya dari Genshin Wizard!
 UNLINKING_UNSUCCESSFUL: Gagal menghapuskan tautan!
-UNLINKING_UNSUCCESSFUL_DESCRIPTION: Ups! Menghapuskan tautan tidak berhasil, terdapat keralatan. Silakan coba lagi atau hubungi anggota staf!
+UNLINKING_UNSUCCESSFUL_DESCRIPTION: Ups! Memutuskan tautan tidak berhasil, terdapat kesalahan. Silakan coba lagi atau hubungi anggota staf!
 UNLINKING_CANCELLED: Menghapuskan tautan dibatalkan!
 UNLINKING_CANCELLED_DESCRIPTION: Anda telah membatalkan permintaan penghapusan tautan!
 OBTAINED_KEY: Diperoleh
 NOT_OWNED_KEY: Belum dimiliki
 PROFICIENCY_KEY: Kecakapan
 USE_COUNT_KEY: Gunakan Hitungan
-IMPORT_ERROR: Keralatan Impor!
-FOOTER_ERROR_DESCRIPTION: Jika anda yakin ini adalah keralatan, harap hubungi anggota staf.
+IMPORT_ERROR: Kesalahan Impor!
+FOOTER_ERROR_DESCRIPTION: Jika anda yakin ini adalah kesalahan, harap hubungi anggota staf.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
   Data yang anda coba impor tidak **didukung**. Saat ini kami *hanya* mengizinkan impor dari berikut ini:
   > `Paimon.moe`
@@ -960,7 +960,7 @@ ROLE_KEY: Role
 SERVER_TIME_PANEL_KEY: Panel Waktu Server
 DOMAIN_SCHEDULE_KEY: Jadwal Domain
 GENSHIN_EVENT_BANNERS: Banner Event Genshin
-START_KEY: Diulai
+START_KEY: Mulai
 END_KEY: Berakhir
 SERVER_TIME_KEY: Waktu Server
 CONFIGURATION_SETTINGS_RESET: <:yescheck:1021114525858136074> Pengaturan telah **direset**!
