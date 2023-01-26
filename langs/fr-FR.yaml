@@ -700,55 +700,55 @@ PURGE_WISH_HISTORY_DESCRIPTION: Purger uniquement votre historique de vœux de G
 UNLINK_EVERYTHING: Tout Délier
 UNLINK_EVERYTHING_BRIEF: Cette méthode va **tout** délier de Genshin Wizard.
 UNLINK_EVERYTHING_DESCRIPTION: Cette méthode va tout dissocier de Genshin Wizard. Cette action est **irréversible**. Êtes-vous sûr de vouloir continuer ?
-UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data from Genshin Wizard!
-UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If you believe for this to be an error, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
-USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
+UNLINKING_CONFIRMATION: Vous avez **délié avec succès** les données demandées par Genshin Wizard !
+UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: Cet UID est **déjà enregistré** à un autre utilisateur ! Si vous pensez qu'il s'agit d'une erreur, veuillez contacter [**le Support Genshin Wizard**](https://discord.gg/BTT5Zr7Dmp) !"
+USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: Vous êtes **déjà enregistré** à un UID différent ! Si vous souhaitez vous inscrire en utilisant un autre compte, veuillez utiliser </unlink:{command_id}> avant de tenter de vous inscrire à nouveau."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Inscription
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Enregistrez votre compte Genshin sur Genshin Wizard.
-HOYOLAB_ACCOUNT: HoYoLAB Account
-LINKED_UID_KEY: Linked UID
-LINKED_KEY: Linked
-NOT_LINKED_KEY: Not Linked
+HOYOLAB_ACCOUNT: Compte HoYoLAB
+LINKED_UID_KEY: UID Lié
+LINKED_KEY: Lié
+NOT_LINKED_KEY: Non Lié
 LINKING_UID_DIRECTIONS: |
-  Hello Traveler! To continue linking the requested UID to Genshin Wizard, we're going to need to **verify** that this account is actually yours!
+  Bonjour Voyageur! Pour continuer à lier l'UID fournis à Genshin Wizard, nous devrons **vérifier** que ce compte est en bien le vôtre!
 
-  **Unique Verification Key**
+  **Clé de vérification unique**
   ```yaml
   {key}```
-  **Expires in:**
+  **Expires dans :**
   <t:{timeout}:R>
 
-  How to complete verification?
-  > **1)** Go in-game and add the key above **anywhere** in your profile signature or nickname.
-  > **2)** Make sure you copy the key above **exactly** how it is written or else the bot will not be able to verify your account.
-  > **3)** *That's it*! Please wait patiently until our bot can verify you.
-LINKING_UID_FOOTER: Please be patient while we verify your account! These changes can take anywhere from 5-10 minutes to appear on our end.
-LINKING_UID_KEY_EXPIRED: It looks like this key is now **expired**! Unfortunately, we were unable to verify you at this time, please try again later.
-REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Refresh Wish History
-FORCE_REFRESH_FOOTER: If you'd prefer to force-refresh to prolong the expiry of your current history link, you may do so by clicking one of the buttons below.
-UNLINKING_CENTRE_TITLE: Genshin Wizard | Unlinking Centre
-UNLINKING_CENTRE_DESCRIPTION: Hello Traveler! Welcome to Genshin Wizard's unlinking centre. Manage your linked data through the buttons below. Friendly reminder that any method of unlinking will **erase all your data** from Genshin Wizard. This action is **irreversible**
-INVALID_COOKIE_RESPONSE: ":no_entry: You did not enter a valid **HoYoLAB** cookie!"
-RETRIEVING_ACCOUNT_INFORMATION: "*Retrieving your account information...*"
-SYNCED_HOYOLAB_UID: Successfully synced **HoYoLAB** UID!
-SYNCED_IN_GAME_UID: Successfully synced **In-Game** UID!
-ERROR_NO_ACCOUNTS: ":no_entry: There are **no accounts** associated with this token!"
-SUCCESSFULLY_LINKED_KEY: Successfully Linked!
+  Comment terminer la vérification ?
+  > **1)** Allez en jeu et ajoutez la clé ci-dessus **n'importe où** dans votre pseudo ou la signature de votre profil.
+  > **2)** Assurez-vous de copier la clé ci-dessus **exactement** comment elle est écrite sinon le bot ne sera pas en mesure de vérifier votre compte.
+  > **3)** *Et voilà* ! Veuillez patienter jusqu'à ce que notre bot puisse vous vérifier.
+LINKING_UID_FOOTER: Veuillez patienter pendant que nous vérifions votre compte ! Ces modifications peuvent prendre entre 5 et 10 minutes pour apparaître de notre côté.
+LINKING_UID_KEY_EXPIRED: Il semble que cette clé soit maintenant **expirée** ! Malheureusement, nous n'avons pas pu vous vérifier à ce moment, veuillez réessayer plus tard.
+REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Rafraîchir l'Historique des Vœux
+FORCE_REFRESH_FOOTER: Si vous préférez forcer la mise à jour pour prolonger l'expiration de votre lien d'historique actuel, vous pouvez le faire en cliquant sur l'un des boutons ci-dessous.
+UNLINKING_CENTRE_TITLE: Genshin Wizard | Centre de Dissociation
+UNLINKING_CENTRE_DESCRIPTION: Bonjour Voyageur ! Bienvenue dans le centre de dissociation Genshin Wizard. Gérez vos données liées via les boutons ci-dessous. Petit rappel que toute méthode de dissociation **effacera toutes vos données** de Genshin Wizard. Cette action est **irréversible**
+INVALID_COOKIE_RESPONSE: ":no_entry: Vous n'avez pas entré un cookie **HoYoLAB** valide !"
+RETRIEVING_ACCOUNT_INFORMATION: "*Récupération des informations de votre compte...*"
+SYNCED_HOYOLAB_UID: UID **HoYoLAB** synchronisé avec succès !
+SYNCED_IN_GAME_UID: UID **En Jeu** synchronisé avec succès !
+ERROR_NO_ACCOUNTS: ":no_entry: Il n'y a **pas de compte** associé à ce jeton !"
+SUCCESSFULLY_LINKED_KEY: Lié avec Succès !
 SUCCESSFULLY_LINKED_HOYOLAB: |
-  Successfully synced in-game account progression.
+  Progression du compte en jeu synchronisée avec succès.
 
-  Successfully synced your HoYoLAB account! You can now access the **HoYoLAB account menu** by using the command </hoyo:{command_id}>!
-REGISTRATION_FAILED: Registration Failed!
-REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> Registering your account was **unsuccessful**! Please try again or contact the [**support team**](https://discord.gg/genshinwizard) if the issue persists. This issue is typically caused by an invalid email/password combination.
-INVALID_HOYOLAB_EMAIL_PROMPT: Please enter a valid email address! You must use the email address you use to login to your **HoYoLAB** account.
-HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | HoYoLAB Registration
+  Synchronisation réussie de votre compte HoYoLAB ! Vous pouvez maintenant accéder au **menu compte HoYoLAB** en utilisant la commande </hoyo:{command_id}> !
+REGISTRATION_FAILED: Échec de l'Inscription !
+REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> L'enregistrement de votre compte a **échoué** ! Veuillez réessayer ou contacter [**l'équipe d'assistance**](https://discord.gg/genshinwizard) si le problème persiste. Ce problème est généralement causé par une combinaison d'email/mot de passe invalide.
+INVALID_HOYOLAB_EMAIL_PROMPT: Veuillez entrer une adresse e-mail valide ! Vous devez utiliser l'adresse e-mail que vous utilisez pour vous connecter à votre compte **HoYoLAB**.
+HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | Inscription HoYoLAB
 HOYOLAB_REGISTRATION_DESCRIPTION: |
-  Hello Traveler! Please wait while we process your registration request, bear in mind that this may take a moment.
+  Bonjour Voyageur ! Veuillez patienter pendant que nous traitons votre demande d'inscription, gardez à l'esprit que cela peut prendre un moment.
 
-  <a:FlowersBlue:955579121562423348> **Genshin Fun Fact of the Day:**
+  <a:FlowersBlue:955579121562423348> **Fait Drôle du Jour Genshin :**
   `"{fun_fact}"`
-PROCESSING_REGISTRATION_REQUEST: Processing Registration Request
-ACCOUNT_RETREIVAL_FAILED: It looks like there was an error retrieving information with the requested UID. Please make sure you've entered the correct UID and try again.
+PROCESSING_REGISTRATION_REQUEST: Traitement de la Demande d'Inscription
+ACCOUNT_RETREIVAL_FAILED: Il semble qu'il y ait eu une erreur lors de la récupération des informations avec l'UID demandé. Veuillez vous assurer que vous avez entré l'UID correct et réessayez.
 REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
   Welcome to Genshin Wizard's :bell: **Reminder Panel**! To begin setting up reminders, you can select any of the options below and activate them from the relative panel.
 
