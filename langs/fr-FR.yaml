@@ -918,12 +918,12 @@ PRIMOGEMS_KEY: Primogems
 SIMULATOR_NOT_ENOUGH_STARDUST: <:Error:1021889679857037372> Vous n'avez pas assez de **<:MasterlessStardust:951924423332626522> Poussière d'Étoile** pour acheter cet article !
 SIMULATOR_NOT_ENOUGH_STARGLITTER: <:Error:1021889679857037372> Vous n'avez pas assez de **<:MasterlessStarglitter:951924423059980290> Paillètes** pour acheter cet article !
 SIMULATOR_PURCHASED_PRIMOGEMS: <:yescheck:1021114525858136074> Vous avez acheté avec succès **<:Primogem:951924423340994610>{primogems} Primogems** pour **{emote} {price} {item}** !
-SIMULATOR_TOO_FAST: You're feeding your gacha addiction too quickly! Try using this button again in **{time}** seconds.
-SIMULATOR_BEGIN_JOURNEY: "{user}, you have no characters in your inventory. Use the </wishsimulator:{command_id}> command to test your luck!"
-SIMULATOR_DUMP_UNSUCCESSFUL: Oops! Dumping your backpack was unsuccessful, there was an error. Please try again or contact a staff member!
-SIMULATOR_DUMP_SUCCESSFUL: <:yescheck:1021114525858136074> You have successfully dumped your inventory!
-SIMULATOR_DUMP_CANCELLED: "**<:yescheck:1021114525858136074> Successfully Cancelled!**"
-FARM_COMMAND_DOMAIN_TITLE: Domain Schedule Overview [{region}]
+SIMULATOR_TOO_FAST: Vous nourrissez votre dépendance au gacha trop rapidement ! Essayez d'utiliser ce bouton à nouveau dans **{time}** secondes.
+SIMULATOR_BEGIN_JOURNEY: "{user}, vous n'avez pas de personnages dans votre inventaire. Utilisez la commande </wishsimulator:{command_id}> pour tester votre chance !"
+SIMULATOR_DUMP_UNSUCCESSFUL: Oups ! Le vidage de votre sac à dos a échoué, il y a eu une erreur. Veuillez réessayer ou contacter un membre du staff !
+SIMULATOR_DUMP_SUCCESSFUL: <:yescheck:1021114525858136074> Vous avez déchargé votre inventaire avec succès !
+SIMULATOR_DUMP_CANCELLED: "**<:yescheck:1021114525858136074> Annulé avec Succès !**"
+FARM_COMMAND_DOMAIN_TITLE: Aperçu du Calendrier de Domaine [{region}]
 SERVER_RESET_KEY: Réinitialisation du Serveur
 ARTIFACT_GUIDE_FOOTER: Utiliser la commande /artifact <name_of_artifact> pour avoir plus d'informations sur un artefact.
 ARTIFACT_GUIDE_TITLE: Aperçu des Artefacts
@@ -996,32 +996,32 @@ PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
 GENSHIN_WIZARD_PREMIUM: Genshin Wizard Premium
 CLAIMED_KEY: Réclamé(e)
 UNCLAIMED_KEY: Non Réclamé(e)
-PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard Premium Server Settings
+PREMIUM_SERVER_SETTINGS_TITLE: Réglages du Serveur Premium Genshin Wizard
 PREMIUM_SERVER_SETTINGS_DESCRIPTION: |
-  **<:information:1034639378410115103> What are premium servers?**
-  As a premium user, depending on your tier, you can select up to 3 servers to gain premium perks.
+  **<:information:1034639378410115103> Que sont les serveurs premium ?**
+  En tant qu'utilisateur premium, selon votre niveau, vous pouvez sélectionner jusqu'à 3 serveurs pour obtenir des avantages premium.
 
-  Available Premium Server Slots: **{remaining}**
-  Use the buttons below to manage your premium servers.
+  Emplacements de Serveur Premium Disponibles : **{remaining}**
+  Utilisez les boutons ci-dessous pour gérer vos serveurs premium.
 
-  **Activated Servers**
+  **Serveurs Activés**
   {servers}
-NO_PREMIUM_SERVERS_ADDED: You have no premium servers added.
+NO_PREMIUM_SERVERS_ADDED: Vous n'avez pas de serveurs premium ajoutés.
 PREMIUM_USER_DETAILS: |
-  Hey <@{user_id}>, welcome to Genshin Wizard Premium. You are currently a **premium** user. Thank you for supporting the bot!
+  Hey <@{user_id}>, bienvenue dans Genshin Wizard Premium. Vous êtes actuellement un utilisateur **premium**. Merci de soutenir le bot !
 
-  **Membership Details:**
-  Plan: **{plan_name}** (Tier {plan_tier})
-  Renews on: {expiry}
-LINK_TO_PREMIUM: Click the links below to purchase Genshin Wizard premium.
+  **Détails de l'Adhésion :**
+  Plan : **{plan_name}** (Tier {plan_tier})
+  Renouvellement le : {expiry}
+LINK_TO_PREMIUM: Cliquez sur les liens ci-dessous pour acheter Genshin Wizard premium.
 PATREON_KEY: Patreon
 PREMIUM_TIER_ONE_PERKS: |
-  <:information:1034639378410115103> **Premium Perks: $5 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
-  <:blurplejoinarrow:932413900073369621> Access to the Supporters' Lounge, where you may receive premium support for Genshin Wizard.
-  <:blurplejoinarrow:932413900073369621> The ability to choose a custom role name and color in the Genshin Wizard Discord server.
-  <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>16,000** Primogems everyday for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
-  <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier1:1045526665335427183> Witch of Purple Rose** role.
+  <:information:1034639378410115103> **Avantages Premium: 5 $ Plan Mensuel**
+  **HOT!** 🔥 La possibilité de choisir des images personnalisées pour les cartes de personnage générées en utilisant </info:{info_id}>.
+  <:blurplejoinarrow:932413900073369621> Accès au salon des Supporters, où vous pouvez recevoir un support premium pour Genshin Wizard.
+  <:blurplejoinarrow:932413900073369621> La possibilité de choisir un nom de rôle personnalisé et une couleur dans le serveur Discord Genshin Wizard.
+  <:blurplejoinarrow:932413900073369621> Un bonus **<:Primogem:951924423340994610>16,000** Primogems tous les jours pour le Simulateur de Vœux Genshin Wizard lors de l'utilisation de </commissions:{commissions_id}>.
+  <:blurplejoinarrow:932413900073369621> Rôle exclusif **<:gw_tier1:1045526665335427183> Sorcière de la Rose Violette**.
 PREMIUM_TIER_TWO_PERKS: |
   <:information:1034639378410115103> **Premium Perks: $10 Monthly Plan**
   **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
@@ -1030,23 +1030,23 @@ PREMIUM_TIER_TWO_PERKS: |
   <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>24,000** Primogems a day for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
   <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier2:1045526666354643034> Astral Reflection** role.
 PREMIUM_TIER_THREE_PERKS: |
-  <:information:1034639378410115103> **Premium Perks: $25 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
-  <:blurplejoinarrow:932413900073369621> All previous tiers' benefits.
-  <:blurplejoinarrow:932413900073369621> The ability to select up to two servers of your choice to gain Genshin Wizard Partner perks.
-  <:blurplejoinarrow:932413900073369621> The ability to select a custom badge for your Genshin Wizard profile.
-  <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>32,000** Primogems a day for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
-  <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier3:1045526664513323039> Crimson Witch of Flames** role.
+  <:information:1034639378410115103> **Avantages Premium: 25$ Plan Mensuel**
+  **HOT!** 🔥 La possibilité de choisir des images personnalisées pour les cartes de caractères générées en utilisant </info:{info_id}>.
+  <:blurplejoinarrow:932413900073369621> Tous les avantages de tous les tiers précédents.
+  <:blurplejoinarrow:932413900073369621> La possibilité de sélectionner jusqu'à deux serveurs de votre choix pour obtenir les avantages du Partenaire Genshin Wizard.
+  <:blurplejoinarrow:932413900073369621> La possibilité de sélectionner un badge personnalisé pour votre profil Genshin Wizard.
+  <:blurplejoinarrow:932413900073369621> Un bonus **<:Primogem:951924423340994610>32,000** Primogems par jour pour le Simulateur de Vœux de Genshin Wizard lors de l'utilisation de </commissions:{commissions_id}>.
+  <:blurplejoinarrow:932413900073369621> Rôle exclusif **:gw_tier3:1045526664513323039> Sorcière Écarlate de Flammes**.
 PREMIUM_TIER_FOUR_PERKS: |
-  <:information:1034639378410115103> **Premium Perks: $50 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
-  <:blurplejoinarrow:932413900073369621> All previous tiers' benefits.
-  <:blurplejoinarrow:932413900073369621> You may opt to have either the Elder of the Hexenzirkel role or your custom role to be displayed at the very top of the Genshin Wizard Discord server.
-  <:blurplejoinarrow:932413900073369621> The ability to select up to three servers of your choice to gain Genshin Wizard Partner perks.
-  <:blurplejoinarrow:932413900073369621> A bonus of **<:Primogem:951924423340994610>40,000** Primogems a day for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
-  <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier4:1045526663447969813> Elder of the Hexenzirkel** role.
-PREMIUM_UNKNOWN_TIER: Unknown Tier Selected
-PREMIUM_PLAN: Premium Plan
+  <:information:1034639378410115103> **Avantages Premium : 50 $ Plan Mensuel**
+  **HOT!** 🔥 La possibilité de choisir des images personnalisées pour les cartes de caractères générées à l'aide de </info:{info_id}>.
+  <:blurplejoinarrow:932413900073369621> Tous les avantages des tiers précédents.
+  <:blurplejoinarrow:932413900073369621> Vous pouvez choisir d'avoir soit le Rôle Ancien de Hexenzirkel soit votre rôle personnalisé à afficher en haut du serveur Discord Genshin Wizard.
+  <:blurplejoinarrow:932413900073369621> La possibilité de sélectionner jusqu'à trois serveurs de votre choix pour obtenir les avantages de Genshin Wizard Partner .
+  <:blurplejoinarrow:932413900073369621> Un bonus de **<:Primogem:951924423340994610>40,000** Primogems par jour pour le Simulateur de Vœux de Genshin Wizard lors de l'utilisation de </commissions:{commissions_id}>.
+  <:blurplejoinarrow:932413900073369621>Rôle exclusif **<:gw_tier4:1045526663447969813> Ancien de Hexenzirkel**.
+PREMIUM_UNKNOWN_TIER: Tier Sélectionné Inconnu
+PREMIUM_PLAN: Plan Premium
 PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Serveur Genshin Wizard [Rôle Personnalisé]
 PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: Hey Voyageur, cette fonctionnalité de **rôle personnalisé** n'est disponible que sur le [**Serveur Discord Genshin Wizard Officiel**](https://discord.gg/BTT5Zr7Dmp).
 PREMIUM_CUSTOM_ROLE_FOOTER: Réglages Rôle Personnalisé Genshin Wizard
@@ -1081,23 +1081,23 @@ ROLE_REQUIREMENTS_NOT_MET: |
 SUCCESSFULLY_ADDED_ROLE: Rôle {role} ajouté avec succès à l'utilisateur !
 SUCCESSFULLY_UPDATED_ROLES: "Les rôles de l'utilisateur ont été mis à jour **avec succès** !"
 CHARACTER_REQUIREMENTS_NOT_MET: |
-  The character `{name}` does not meet any of the **role requirements**!\n\nPlease try using this command later when your character fulfills the necessary **requirements**.
-CHARACTER_NOT_IN_SHOWCASE: The character `{name}` was not found in your in-game character showcase!
-GACHA_COMMAND_LINK_EXPIRED: Your wish history link has expired! Use `/refresh` to update your wishes.
-GACHA_COMMAND_LINK_EXPIRED_FOOTER: "Note: Do keep in mind, since your wish history link has expired, the information above may be inaccurate. To update your wishes, it is recommended to update your wish history link using /refresh!"
-SOMETHING_WENT_WRONG: Something went wrong!
-SOMETHING_WENT_WRONG_FOOTER: If this error persists, please contact a bot administrator!
-GACHA_NO_BANNER_WISHES: You have no wishes for {banner} banner!
-GACHA_SUMMARY_FOOTER: "Genshin Wish Summary for: {user}"
-GENSHIN_WISH_SUMMARY: Genshin Wish Summary
+  Le personnage `{name}` ne répond à aucune des **conditions de rôle** !\n\nVeuillez essayer d'utiliser cette commande plus tard lorsque votre personnage remplit les **prérequis** nécessaires.
+CHARACTER_NOT_IN_SHOWCASE: Le personnage `{name}` n'a pas été trouvé dans votre vitrine de personnage en jeu !
+GACHA_COMMAND_LINK_EXPIRED: Votre lien d'historique de vœux a expiré ! Utilisez `/refresh` pour mettre à jour vos vœux.
+GACHA_COMMAND_LINK_EXPIRED_FOOTER: "Note : Gardez à l'esprit puisque le lien de votre historique de vœux a expiré, l'information ci-dessus peut être inexacte. Pour mettre à jour vos vœux, il est recommandé de mettre à jour votre lien d'historique de vœux en utilisant /refresh !"
+SOMETHING_WENT_WRONG: Quelque chose s'est mal passé !
+SOMETHING_WENT_WRONG_FOOTER: Si cette erreur persiste, veuillez contacter un administrateur du bot !
+GACHA_NO_BANNER_WISHES: Vous n'avez pas de vœux pour la bannière {banner} !
+GACHA_SUMMARY_FOOTER: "Résumé des Vœux Genshin pour : {user}"
+GENSHIN_WISH_SUMMARY: Résumé des Vœux Genshin
 SLASH_COMMAND_NEED_HELP: |
-  <:blurpleannouncement:1020402170127982712> **HAVING ISSUES? FEAR NOT!** <:KeqingHeart:952837574878199808>
+  <:blurpleannouncement:1020402170127982712> **VOUS AVEC DES PROBLÈMES ? N'AYANT CRAINTE !** <:KeqingHeart:952837574878199808>
 
-  Hello Traveler, it looks like you're having difficulty using **slash commands**!
+  Bonjour Voyageur, il semble que vous éprouvez des difficultés à utiliser des **commandes slash** !
 
-  Remember to **__click__** on the command you want to use and keep in mind that you **do not** have to pass your own name as a parameter!
+  Rappelez-vous de **__click__** sur la commande que vous voulez utiliser et gardez à l'esprit que vous **ne devez pas** passer votre propre nom en paramètre !
 
-  <a:7094whitecheck:1020160260637462618> Happy Wishing Fellow Traveler,
+  <a:7094whitecheck:1020160260637462618> Bonne Chance pour vos Vœux Collègue Voyageur,
   Paimon
 SLASH_COMMAND_HELP_GUIDE: <:verifiedlight:939225784936202241> Pour de **l'aide**, utilisez la commande </help:982685016012226590> !
 GENSHIN_WIZARD_SERVER_JOIN_TITLE: Genshin Wizard est arrivé !
@@ -1118,39 +1118,39 @@ THREE_STARS_KEY: 3 Étoiles
 FOUR_STARS_KEY: 4 Étoiles
 FIVE_STARS_KEY: 5 Étoiles
 ALL_WISHES_KEY: Tous les Vœux
-THREE_STARS_FILTER_DESCRIPTION: Filter your wish history by three-star pulls.
-FOUR_STARS_FILTER_DESCRIPTION: Filter your wish history by four-star pulls.
-FIVE_STARS_FILTER_DESCRIPTION: Filter your wish history by five-star pulls.
-ALL_WISHES_FILTER_DESCRIPTION: View all your wishes without any rarity filters.
-NOVICE_BANNER_DESCRIPTION: View your wish history for the novice banner.
-CHARACTER_BANNER_DESCRIPTION: View your wish history for the character banner.
-WEAPON_BANNER_DESCRIPTION: View your wish history for the weapon banner.
-PERMANENT_BANNER_DESCRIPTION: View your wish history for the permanent banner.
-CHOOSE_BANNER_PLACEHOLDER: Choose a banner...
-GO_BACK_BUTTON: Go Back
-REGISTER_SCRIPT_BUTTON: Register via Script
-REGISTER_LOGIN_BUTTON: Register via Login
-ENTER_TOKEN_BUTTON: Enter Token
-REGISTER_ACCOUNT_BUTTON: Register Account
+THREE_STARS_FILTER_DESCRIPTION: Filtrez votre historique de vœux par des tirages 3 étoiles.
+FOUR_STARS_FILTER_DESCRIPTION: Filtrez votre historique de vœux par des tirages 4 étoiles.
+FIVE_STARS_FILTER_DESCRIPTION: Filtrez votre historique de vœux par des tirages 5 étoiles.
+ALL_WISHES_FILTER_DESCRIPTION: Visualisez tous vos vœux sans aucun filtre de rareté.
+NOVICE_BANNER_DESCRIPTION: Consultez votre historique de vœux pour la bannière novice.
+CHARACTER_BANNER_DESCRIPTION: Consultez votre historique de vœux pour la bannière de personnage.
+WEAPON_BANNER_DESCRIPTION: Consultez votre historique de vœux pour la bannière d'arme.
+PERMANENT_BANNER_DESCRIPTION: Consultez votre historique de vœux pour la bannière permanente.
+CHOOSE_BANNER_PLACEHOLDER: Choisissez une bannière...
+GO_BACK_BUTTON: Retour
+REGISTER_SCRIPT_BUTTON: S'enregistrer via Script
+REGISTER_LOGIN_BUTTON: S'enregistrer via Login
+ENTER_TOKEN_BUTTON: Entrer Jeton
+REGISTER_ACCOUNT_BUTTON: Enregistrer le Compte
 CHARACTERS_BUTTON: Personnages
-CLAIM_DAILY_REWARD_BUTTON: Claim Daily Reward
-MONTHLY_REWARDS_BUTTON: Monthly Rewards
-VIEW_TRAVELER_DIARY_BUTTON: View Traveler's Diary
-RELINK_ACCOUNT_BUTTON: Relink Account
-UNLINK_ACCOUNT_BUTTON: Unlink Account
+CLAIM_DAILY_REWARD_BUTTON: Réclamer la Récompense Quotidienne
+MONTHLY_REWARDS_BUTTON: Récompenses Mensuelles
+VIEW_TRAVELER_DIARY_BUTTON: Consulter le Journal du Voyageur
+RELINK_ACCOUNT_BUTTON: Relier le Compte
+UNLINK_ACCOUNT_BUTTON: Dissocier le Compte
 YES_BUTTON: Yes
 NO_BUTTON: No
-DIARY_MONTH_DESCRIPTION: View Traveler's Diary for the month of {month}.
-DIARY_MONTH_LABEL: "{month}'s Diary"
-DIARY_MONTH_PLACEHOLDER: Choose a month to view...
-INVOKATION_ARCHIVE_LABEL: View Genius Invokation TCG Archive
-INVOKATION_RETURN_SHOWCASE: Return to Showcase
-GLOBAL_BUTTON: Global
+DIARY_MONTH_DESCRIPTION: Consultez le Journal du Voyageur pour le mois de {month}.
+DIARY_MONTH_LABEL: "Journal de {month}"
+DIARY_MONTH_PLACEHOLDER: Choisissez un mois à voir...
+INVOKATION_ARCHIVE_LABEL: Voir les archives de Genius Invokation TCG
+INVOKATION_RETURN_SHOWCASE: Retour à la Vitrine
+GLOBAL_BUTTON: Globale
 SERVER_BUTTON: Serveur
-PERSONAL_BUTTON: Personal
-ABYSS_LEADERBOARD_WANING_PHASE_LABEL: "{date} Waning Phase"
-ABYSS_LEADERBOARD_WAXING_PHASE_LABEL: "{date} Waxing Phase"
-PERIOD_KEY: Period
+PERSONAL_BUTTON: Personnel
+ABYSS_LEADERBOARD_WANING_PHASE_LABEL: "{date} Phase Désirée"
+ABYSS_LEADERBOARD_WAXING_PHASE_LABEL: "Phase de Cire {date}"
+PERIOD_KEY: Période
 ABYSS_LEADERBOARD_ALL_TIME: All-time Leaderboard
 ABYSS_LEADERBOARD_ALL_TIME_DESCRIPTION: View records from all Abyss phases.
 ABYSS_LEADERBOARD_PLACEHOLDER: Choose an Abyss phase...
