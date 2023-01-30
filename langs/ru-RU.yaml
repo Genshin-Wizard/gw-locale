@@ -4,63 +4,63 @@ HELP_DIRECTORY_TITLE: Genshin Wizard | Справка
 HELP_CATEGORY_DESCRIPTION: Выберите категорию из выпадающего списка для просмотра команд, относящихся к этой категории.
 HELP_CATEGORIES: Категории
 HELP_CATEGORY_LIST: |
-  > 👤 | Profile Commands
-  > 💫 | Wish Commands
-  > <:hoyolab:1016159766705344705> | HoYoLAB Commands
-  > 📝 | Guide Commands
-  > ⏰ | Miscellaneous Commands
-MISC_COMMANDS: Miscellaneous commands
+  > 👤 | Команды профиля
+  > 💫 | Команды молитв
+  <:hoyolab:1016159766705344705> | Команды HoYoLAB
+  > 📝 | Команды руководств 
+  > ⏰ | Прочие команды
+MISC_COMMANDS: Прочие команды
 PING_INFORMATION: |
-  **Pong!** :ping_pong:
-  Bot Latency is **{bot_latency}ms.**
-  Websocket Latency is **{ws_latency}ms.**
+  **Понг!** :ping_pong:
+  Задержка бота **{bot_latency}мс.**
+  Задержка веб-сокета **{ws_latency}мс.**
 UPTIME_INFORMATION: |
-  **Genshin Wizard Uptime**
-  **Last Restart:** <t:{last_restart}:R>
-  **Uptime:** {uptime}
-VERSION_KEY: Version
-PING_KEY: Ping
-UNKNOWN_KEY: Unknown
-USER_NOT_PUBLIC: User data is not public.
-INVITE_INFORMATION: Use the link below to invite this bot to your own server.
-REQUESTED_BY: Requested by {user}
-SUPPORT_GWIZ_TITLE: Support Genshin Wizard
-SUPPORT_GWIZ_DESC: Support the development of Genshin Wizard.
-DONATE_KEY: Donate
-VOTE_GWIZ_DESCRIPTION: Click the links below to vote for Genshin Wizard.
-VOTE_KEY: Vote
-VOTE_BOT: Vote for Bot
-VOTE_SERVER: Vote for Server
-VOTE_BOT_LINK: Bot Vote Link
-VOTE_SERVER_LINK: Server Vote Link
-VOTE_BOT_BUTTON: Vote [Bot]
-VOTE_SERVER_BUTTON: Vote [Server]
-DEVELOPERS_KEY: Developers
-SERVER_KEY: Server
-SERVERS_KEY: Servers
-USERS_KEY: Users
-WEBSITE_KEY: Website
-INVITE_KEY: Invite
-DOCUMENTATION_KEY: Documentation
-GWIZ_INVITE: Genshin Wizard Invite
-AVATAR_KEY: Avatar
-ARTIFACT_CRIT_VALUE_TITLE: Artifact CRIT Value Calculator
-TOTAL_CRIT_VALUE: Total Crit Value
+  **Genshin Wizard аптайм**
+  **Последний перезапуск:** <t:{last_restart}:R>
+  **Аптайм:** {uptime}
+VERSION_KEY: Версия
+PING_KEY: Пинг
+UNKNOWN_KEY: Неизвестно
+USER_NOT_PUBLIC: Данные пользователя не публичны.
+INVITE_INFORMATION: Используйте ссылку ниже, чтобы пригласить этого бота на ваш собственный сервер.
+REQUESTED_BY: Запрос от {user}
+SUPPORT_GWIZ_TITLE: Поддержка Genshin Wizard
+SUPPORT_GWIZ_DESC: Поддержите развитие Genshin Wizard.
+DONATE_KEY: Пожертвовать
+VOTE_GWIZ_DESCRIPTION: Нажмите на ссылки ниже, чтобы проголосовать за Genshin Wizard.
+VOTE_KEY: Голосовать
+VOTE_BOT: Голосовать за бота
+VOTE_SERVER: Голосовать за сервер
+VOTE_BOT_LINK: Ссылка на голосование за бота
+VOTE_SERVER_LINK: Ссылка на голосование за сервере
+VOTE_BOT_BUTTON: Проголосовать [Bot]
+VOTE_SERVER_BUTTON: Проголосовать [Server]
+DEVELOPERS_KEY: Разработчики
+SERVER_KEY: Сервер
+SERVERS_KEY: Серверы
+USERS_KEY: Пользователи
+WEBSITE_KEY: Веб-сайт
+INVITE_KEY: Пригласить
+DOCUMENTATION_KEY: Документация
+GWIZ_INVITE: Приглашение в Genshin Wizard
+AVATAR_KEY: Аватар
+ARTIFACT_CRIT_VALUE_TITLE: Калькулятор крит-ценности артефакта
+TOTAL_CRIT_VALUE: Общее ценность крита
 TRUTH_COMMAND_RESPONSES:
-  - As I see it, yes.
-  - Yes.
-  - Positive.
-  - From my point of view, yes.
-  - Convinced.
-  - It is certain.
-  - It is decidedly so.
-  - Without a doubt.
-  - Most Likely.
-  - Chances High.
-  - No.
-  - I think not.
-  - Negative.
-  - My sources say no.
+  - Как я вижу, да.
+  - Да.
+  - Положительно.
+  - С моей точки зрения, да.
+  - Подтверждено.
+  - Это точно.
+  - Бесспорно.
+  - Без сомнения.
+  - Наверняка.
+  - Шансы высоки.
+  - Нет.
+  - Думаю нет.
+  - Отрицательно.
+  - Мои источники говорят, что нет.
   - Not Convinced.
   - Perhaps.
   - Not Sure.
@@ -249,7 +249,7 @@ APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
 APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
 APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
 APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
-APP_COMMAND_DONATE_DESCRIPTION: Support the development of Genshin Wizard.
+APP_COMMAND_DONATE_DESCRIPTION: Поддержите развитие Genshin Wizard.
 APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
 APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
 APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
@@ -1145,7 +1145,7 @@ DIARY_MONTH_PLACEHOLDER: Choose a month to view...
 INVOKATION_ARCHIVE_LABEL: View Genius Invokation TCG Archive
 INVOKATION_RETURN_SHOWCASE: Return to Showcase
 GLOBAL_BUTTON: Global
-SERVER_BUTTON: Server
+SERVER_BUTTON: Сервер
 PERSONAL_BUTTON: Personal
 ABYSS_LEADERBOARD_WANING_PHASE_LABEL: "{date} Waning Phase"
 ABYSS_LEADERBOARD_WAXING_PHASE_LABEL: "{date} Waxing Phase"
@@ -1429,3 +1429,6 @@ APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: Change your Battle Chronicles Privacy S
 VIEW_ON_HOYOLAB: View on HoYoLAB
 CHRONICLES_PRIVACY_SETTING: Character Battle Chronicle Settings
 PRIVACY_SETTING_BUTTON_LABEL: Privacy Setting {setting_number}
+INVALID_PAGE_INPUT: You must provide a **valid** page number.
+PAGE_MODAL_LABEL: "Page number you want to view:"
+PAGE_MODAL_PLACEHOLDER: "Enter page number..."
