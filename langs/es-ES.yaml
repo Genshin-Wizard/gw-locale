@@ -622,7 +622,7 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "Consola"
 REGISTER_IOS_METHOD: "iOS (método de la aplicación Stream)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Consulte nuestra documentación de [GitHub](https://github.com/Genshin-Wizard/historyLink) para obtener pasos detallados con imágenes.
+  Consulte nuestra [documentación de GitHub](https://github.com/Genshin-Wizard/historyLink) para obtener pasos detallados con imágenes.
 
   1. Abre el juego Genshin Impact en tu PC
   2. Ve a la página del historial de deseos y espera a que se cargue
@@ -631,7 +631,8 @@ REGISTER_COMMAND_PC_DIRECTIONS: |
   5. Luego copia el siguiente código y pégalo en la ventana de PowerShell
   ```ps
   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
-  6. Haz clic en ENTER para que el enlace se copie en tu portapapeles
+  ```
+  6. Pulse `ENTER` para copiar el enlace en su portapapeles
   7. Haz clic en el botón de abajo y pega el enlace en el campo de entrada
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   Después de la actualización 3.0, ya no se puede copiar y pegar simplemente el enlace del historial en los dispositivos Android.
