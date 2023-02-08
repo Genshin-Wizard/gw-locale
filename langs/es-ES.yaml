@@ -1,19 +1,19 @@
 ---
 GENSHIN_WIZARD_KEY: Genshin Wizard
-HELP_DIRECTORY_TITLE: Genshin Wizard | Directorio de Ayuda
-HELP_CATEGORY_DESCRIPTION: Seleccione una categoría de la lista desplegable para ver comandos específicos de esa categoría.
+HELP_DIRECTORY_TITLE: Genshin Wizard | Directorio de ayuda
+HELP_CATEGORY_DESCRIPTION: Seleccione una categoría del menú desplegable para ver los comandos específicos de esa categoría.
 HELP_CATEGORIES: Categorías
 HELP_CATEGORY_LIST: |
-  > 👤 | Comandos de Perfil
-  > 💫 | Comandos de Deseos
+  > 👤 | Comandos de perfil
+  > 💫 | Comandos de deseos
   > <:hoyolab:1016159766705344705> | Comandos de HoYoLAB
-  > 📝 | Comandos de Guía
-  > ⏰ | Comandos Misceláneos
+  > 📝 | Comandos de guía
+  > ⏰ | Comandos misceláneos
 MISC_COMMANDS: Comandos misceláneos
 PING_INFORMATION: |
   **¡Pong!** :ping_pong:
-  Latencia del Bot es **{bot_latency}ms.**
-  Latencia del Websocket es **{ws_latency}ms.**
+  La latencia del bot es de **{bot_latency} ms.**
+  La latencia del websocket es de **{ws_latency} ms.**
 UPTIME_INFORMATION: |
   **Tiempo de actividad de Genshin Wizard**
   **Último reinicio:** <t:{last_restart}:R>
@@ -24,15 +24,15 @@ UNKNOWN_KEY: Desconocido
 USER_NOT_PUBLIC: Los datos del usuario no son públicos.
 INVITE_INFORMATION: Utilice el enlace a continuación para invitar a este bot a su propio servidor.
 REQUESTED_BY: Solicitado por {user}
-SUPPORT_GWIZ_TITLE: Apoyo a Genshin Wizard
+SUPPORT_GWIZ_TITLE: Apoyar a Genshin Wizard
 SUPPORT_GWIZ_DESC: Apoye el desarrollo de Genshin Wizard.
 DONATE_KEY: Donar
 VOTE_GWIZ_DESCRIPTION: Haga clic en los enlaces a continuación para votar por Genshin Wizard.
 VOTE_KEY: Votar
-VOTE_BOT: Votar por Bot
-VOTE_SERVER: Votar por Servidor
-VOTE_BOT_LINK: Enlace de votación para el Bot
-VOTE_SERVER_LINK: Enlace de votación para el Servidor
+VOTE_BOT: Votar por bot
+VOTE_SERVER: Votar por servidor
+VOTE_BOT_LINK: Enlace de votación del bot
+VOTE_SERVER_LINK: Enlace de votación del servidor
 VOTE_BOT_BUTTON: Votar [Bot]
 VOTE_SERVER_BUTTON: Votar [Servidor]
 DEVELOPERS_KEY: Desarrolladores
@@ -77,10 +77,11 @@ PREFIX_TOO_LONG: El prefijo no puede tener más de 5 caracteres.
 PREFIX_TOO_SHORT: El prefijo no puede tener menos de 1 caracter.
 PREFIX_CHANGED_TITLE: Genshin Wizard | Cambio de prefijo
 PREFIX_CHANGED_DESCRIPTION: |
-  ¡Se ha cambiado el prefijo de **Genshin Wizard** de manera exitosa! Los comandos se invocarán ahora utilizando este nuevo prefijo.
+  ¡Se ha cambiado el prefijo de **Genshin Wizard** de manera exitosa! Los comandos ahora se invocarán usando este nuevo prefijo.
+
   **Prefijo antiguo:** `{old_prefix}`
   **Prefijo nuevo:** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: Ajuste de prefijo de Genshin Wizard
+PREFIX_CHANGED_FOOTER: Configuración del prefijo de Genshin Wizard
 MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Error de cálculo. ¡Intenta reformularlo!"
 MATH_COMMAND_RESULT: |
   **Expresión:** `{expression}`
@@ -93,17 +94,17 @@ SEND_CODES_COMMAND_DESCRIPTION: |
   <:blurpleannouncement:1020402170127982712> **Nota:** Los códigos caducan rápidamente, ¡asegúrate de canjearlos lo antes posible!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
-SEND_CODES_REDEEM_AUTOMATICALLY: Redimir automáticamente
+SEND_CODES_REDEEM_AUTOMATICALLY: Canjear automáticamente
 SEND_CODES_DIRECT_LINK: Enlace directo
 SEND_CODES_REDEEMABLE_CODES: Códigos canjeables
 SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Códigos de canje
 SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!
 MESSAGE_LINK: Enlace del mensaje
 CLICK_HERE: Haz clic aquí
-INFO_SELECT_CHARACTER: Selecciona un personaje
-INFO_CHARACTER_SOURCE: "Fuente: Construcciones guardadas"
+INFO_SELECT_CHARACTER: Seleccione un personaje
+INFO_CHARACTER_SOURCE: "Fuente: Builds guardadas"
 INFO_USER_CACHE: Caché de usuario
-INTERMISSION_MESSAGE: Generando infografía, por favor, **ten paciencia**...
+INTERMISSION_MESSAGE: Generando infografía, por favor, tenga **paciencia**...
 MENU_COOLDOWN_TITLE: '¡Ese menú está en enfriamiento!'
 BUTTON_COOLDOWN_TITLE: '¡Ese botón está en enfriamiento!'
 COMMAND_COOLDOWN_TITLE: '¡Ese comando está en enfriamiento!'
@@ -783,8 +784,8 @@ PARAMETRIC_REMINDERS_DESCRIPTION: |
   Tu **<:parametrictransformer:1029984451670847568>Parametric Transformer** está actualmente {transformer_status}!
   **Tiempo de reposición:** {time_left}
   > **Recordatorio automático:** {reminder_setting}
-READY_TO_USE: ready to use
-NOT_READY_TO_USE: not ready to use
+READY_TO_USE: listo para usar
+NOT_READY_TO_USE: no listo para usar
 MAXED_OUT_KEY: '¡Agotado!'
 RESIN_AUTOMATIC_REMINDER_FOOTER: '¡Configura un recordatorio automático para que te notifiquen cada vez que tu resin alcance cierta cantidad!'
 REMINDER_AUTOMATIC_RESIN_SET: '¡Este recordatorio se ha configurado como un recordatorio **automático**! ¡Esto significa que te recordarán *cada vez* que tu resin alcance el umbral establecido anteriormente!'
@@ -916,7 +917,7 @@ PRIMOGEMS_KEY: Primogemas
 SIMULATOR_NOT_ENOUGH_STARDUST: <:Error:1021889679857037372> ¡No tienes suficiente **<:MasterlessStardust:951924423332626522> Polvo estelar** para comprar este artículo!
 SIMULATOR_NOT_ENOUGH_STARGLITTER: <:Error:1021889679857037372> ¡No tienes suficiente **<:MasterlessStarglitter:951924423059980290> Brillo estelar** para comprar este artículo!
 SIMULATOR_PURCHASED_PRIMOGEMS: <:yescheck:1021114525858136074> ¡Has comprado con éxito **<:Primogem:951924423340994610>{primogems} Primogemas** por **{emote} {price} {item}**!
-SIMULATOR_TOO_FAST: You're feeding your gacha addiction too quickly! Try using this button again in **{time}** seconds.
+SIMULATOR_TOO_FAST: '¡Estás alimentando tu adicción al gacha demasiado rápido! Intente usar este botón nuevamente en **{time}** segundos.'
 SIMULATOR_BEGIN_JOURNEY: "{user}, no tienes personajes en tu inventario. ¡Usa el comando </wishsimulator:{command_id}> para probar tu suerte!"
 SIMULATOR_DUMP_UNSUCCESSFUL: '¡Oops! Vaciar tu mochila no tuvo éxito, hubo un error. ¡Por favor, vuelve a intentarlo o contacta a un miembro del personal!'
 SIMULATOR_DUMP_SUCCESSFUL: <:yescheck:1021114525858136074> ¡Has vaciado con éxito tu inventario!
@@ -1401,24 +1402,24 @@ APP_COMMAND_LANGUAGE_DESCRIPTION: Cambia tu idioma para Genshin Wizard.
 APP_COMMAND_DESCRIBE_LANGUAGE: El idioma que quieres que Genshin Wizard esté configurado.
 GENSHIN_WIZARD_LANGUAGE_SWITCHED: Idioma por defecto para Genshin Wizard cambiado a **{language}**!
 GENSHIN_WIZARD_CURRENT_LANGUAGE: Tu idioma actual para Genshin Wizard es **{language}**!
-ABYSS_FLOOR_PROGRESSION: "Current Progression: **{stars}/9** {bounty_status}"
-ABYSS_FLOOR_AUTHOR: Floor {floor} • Spiral Abyss Progression
-ABYSS_FLOOR_LABEL: Floor {floor}
+ABYSS_FLOOR_PROGRESSION: "Progreso actual: **{stars}/9** {bounty_status}"
+ABYSS_FLOOR_AUTHOR: Piso {floor} • Progresión del Espiral del Abismo
+ABYSS_FLOOR_LABEL: Piso {floor}
 APP_COMMAND_ABYSS_ENEMY_DESCRIPTION: View abyss-enemy information for Spiral Abyss.
-ABYSS_ENEMY_NOT_ONGOING: There is currently no ongoing Spiral Abyss challenges.
-ABYSS_ENEMY_TITLE: Spiral Abyss Enemy Information
+ABYSS_ENEMY_NOT_ONGOING: Actualmente no hay desafíos del Espiral del Abismo en curso.
+ABYSS_ENEMY_TITLE: Información de enemigos del Espiral del Abismo
 ABYSS_ENEMY_DESCRIPTION: "Schedule: **Floor {floor_index} - Chamber {chamber_index}**"
-CUSTOM_ROLE_ICON_CHANGE_BUTTON: Change Role Icon
-CUSTOM_ROLE_ICON_REQUEST_MESSAGE: Please send the **link**, **attachment**, or **emoji** you want to use as your custom role icon. This request will time out in 60 seconds.
-CUSTOM_ROLE_ICON_REQUEST_TIMEOUT: Hey Traveler! I didn't receive any input from you, so I've cancelled this request.
-CUSTOM_ROLE_ICON_NOT_IMAGE: Hey Traveler! The attachment must be an **image**!
-CUSTOM_ROLE_ICON_SUCCESS: Your custom role icon has been successfully changed. This confirmation message will be deleted in **10 seconds**.
-DEFAULT_KEY: Default
-EDITOR_NOT_WHITELISTED: Hello Traveler! You are **not whitelisted** to edit guides. Please [**Apply Here**](https://genshinwizard.com/sumeru/) for a chance to join the elite Sumeru Scholars team!
-GENSHIN_WIZARD_CUSTOM_ROLE: Genshin Wizard Custom Role
-GENSHIN_WIZARD_INVENTORY_TITLE: Genshin Wizard Inventory
-HELP_LIST_COMMAND: View Commands
-HISTORY_COMMAND_OVERVIEW_TITLE: Genshin Wizard | Wish History Overview
+CUSTOM_ROLE_ICON_CHANGE_BUTTON: Cambiar icono del rol
+CUSTOM_ROLE_ICON_REQUEST_MESSAGE: Por favor, envíe el **enlace**, el **archivo adjunto** o el **emoji** que desea usar como su ícono de rol personalizado. Esta solicitud expirará en 60 segundos.
+CUSTOM_ROLE_ICON_REQUEST_TIMEOUT: '¡Hola Viajero! No recibí ninguna información tuya, así que cancelé esta solicitud.'
+CUSTOM_ROLE_ICON_NOT_IMAGE: '¡Hola Viajero! ¡El archivo adjunto debe ser una **imagen**!'
+CUSTOM_ROLE_ICON_SUCCESS: Su icono de rol personalizado se ha cambiado correctamente. Este mensaje de confirmación se eliminará en **10 segundos**.
+DEFAULT_KEY: Predeterminado
+EDITOR_NOT_WHITELISTED: '¡Hola viajero! **No está incluido en la lista blanca** para editar guías. ¡Por favor, [**solicite aquí**](https://genshinwizard.com/sumeru/) para tener la oportunidad de unirse al equipo de élite de Sumeru Scholars!'
+GENSHIN_WIZARD_CUSTOM_ROLE: Rol personalizado de Genshin Wizard
+GENSHIN_WIZARD_INVENTORY_TITLE: Inventario de Genshin Wizard
+HELP_LIST_COMMAND: Ver comandos
+HISTORY_COMMAND_OVERVIEW_TITLE: Genshin Wizard | Vista general del historial de deseos
 ABYSS_ENEMY_FLOOR_VIEW: Floor View
 ABYSS_ENEMY_CHAMBER_VIEW: Chamber View
 ABYSS_ENEMY_FLOOR_OVERVIEW: "Schedule: **Floor {floor_index} Overview**"
@@ -1430,7 +1431,7 @@ CHRONICLES_PRIVACY_SETTING: Character Battle Chronicle Settings
 PRIVACY_SETTING_BUTTON_LABEL: Privacy Setting {setting_number}
 INVALID_PAGE_INPUT: You must provide a **valid** page number.
 PAGE_MODAL_LABEL: "Page number you want to view:"
-PAGE_MODAL_PLACEHOLDER: "Enter page number..."
-RARITY_FILTER_PLACEHOLDER: "Choose a rarity filter..."
+PAGE_MODAL_PLACEHOLDER: "Introduzca el número de página..."
+RARITY_FILTER_PLACEHOLDER: "Elige un filtro de rareza..."
 CHRONICLE_PRIVACY_PLACEHOLDER: "Manage Battle Chronicle privacy settings..."
-LEADERBOARD_FILTER_PLACEHOLDER: "Choose a filter for this leaderboard..."
+LEADERBOARD_FILTER_PLACEHOLDER: "Elija un filtro para esta tabla de clasificación..."
