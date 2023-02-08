@@ -98,7 +98,7 @@ SEND_CODES_REDEEM_AUTOMATICALLY: Canjear automáticamente
 SEND_CODES_DIRECT_LINK: Enlace directo
 SEND_CODES_REDEEMABLE_CODES: Códigos canjeables
 SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Códigos de canje
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: '¡Se enviaron correctamente los códigos de canje a {channel}!'
 MESSAGE_LINK: Enlace del mensaje
 CLICK_HERE: Haz clic aquí
 INFO_SELECT_CHARACTER: Seleccione un personaje
@@ -127,7 +127,7 @@ ERROR_PRIVACY_SETTING_DESCRIPTION: '¡Hola Viajero! Lamentablemente, ¡la person
 ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | ¡Actualización en curso!
 ERROR_ONGOING_UPDATE_DESCRIPTION: '¡Hola, Viajero! Genshin Wizard está actualmente **en mantenimiento** y este comando ha sido *deshabilitado* por el momento. Por favor, inténtalo de nuevo más tarde*.'
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  ¡Hola Viajero! **No está permitido** usar este comando aquí, ¡este es un comando {command_type} *exclusivo* del servidor de Genshin Wizard!
+  ¡Hola Viajero! ¡**No está permitido** usar este comando aquí, este es un comando {command_type} *exclusivo* del servidor de Genshin Wizard!
 
   Si deseas utilizar este comando, considera unirte a nuestro [Discord oficial](https://discord.gg/genshinwizard).
 ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
@@ -301,11 +301,11 @@ PURCHASE_PREMIUM: Comprar premium
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Hola, viajero, ¡sólo puedes gestionar el arte personalizado para tus **propios personajes**!
 GENSHIN_WIZARD_CUSTOM_ART: Arte personalizado de Genshin Wizard
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
+  **Personalizar arte infográfico**
+  ¡Hola Viajero, haz clic en el enlace o el botón a continuación para **personalizar** el arte infográfico de este personaje! <a:PaimonCookies:992302701838864454>
   ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://dashboard.genshinwizard.com/?key={key})
+  Infografía para {character}```
+  > <:Settings:1046877233626742925> [**Haz clic aquí para personalizar el arte**](https://dashboard.genshinwizard.com/?key={key})
 GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Ir al panel de control
 REMOVE_CHARACTERS_FROM_CACHE: Eliminar personajes del cache...
 INFO_COMMAND_CACHE_DELETE_SELECTED: '¡Los personajes seleccionados se han eliminado correctamente del cache de Genshin Wizard!'
@@ -709,18 +709,18 @@ LINKED_UID_KEY: UID vinculado
 LINKED_KEY: Vinculado
 NOT_LINKED_KEY: No vinculado
 LINKING_UID_DIRECTIONS: |
-  Hello Traveler! To continue linking the requested UID to Genshin Wizard, we're going to need to **verify** that this account is actually yours!
+  ¡Hola Viajero! Para continuar vinculando el UID solicitado con Genshin Wizard, necesitaremos **verificar** que esta cuenta es realmente tuya.
 
-  **Unique Verification Key**
+  **Clave de verificación única**
   ```yaml
   {key}```
-  **Expires in:**
+  **Expira en:**
   <t:{timeout}:R>
 
-  How to complete verification?
-  > **1)** Go in-game and add the key above **anywhere** in your profile signature or nickname.
-  > **2)** Make sure you copy the key above **exactly** how it is written or else the bot will not be able to verify your account.
-  > **3)** *That's it*! Please wait patiently until our bot can verify you.
+  ¿Cómo completar la verificación?
+  > **1)** Ingresa al juego y agrega la clave de arriba **en cualquier lugar** en tu firma de perfil o apodo.
+  > **2)** Asegúrate de copiar la clave anterior **exactamente** como está escrita o, de lo contrario, el bot no podrá verificar tu cuenta.
+  > **3)** ¡*Eso es todo*! Espere pacientemente hasta que nuestro bot pueda verificarte.
 LINKING_UID_FOOTER: '¡Por favor ten paciencia mientras verificamos tu cuenta! Estos cambios pueden tardar de 5 a 10 minutos en aparecer en nuestro lado.'
 LINKING_UID_KEY_EXPIRED: '¡Parece que esta clave ahora está **expirada**! Lamentablemente, no pudimos verificarte en este momento, por favor inténtalo de nuevo más tarde.'
 REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Actualizar historial de deseos
@@ -819,7 +819,7 @@ RESIN_REMINDER_FOOTER: '¡Haz clic en un botón con 🔔 para obtener un recorda
 SET_RESIN_REMINDER_KEY: '¡Configurar recordatorio de resin!'
 API_ISSUE: Ha habido un problema con la API.
 HOW_TO_SOLVE_TITLE: '¿Cómo solucionar esto?'
-ENABLE_CHRONICLES: "Use the command </hoyolab-privacy:{command_id}> or visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable *Battle Chronicle privacy* to make your genshin profile public."
+ENABLE_CHRONICLES: "Usa el comando </hoyolab-privacy:{command_id}> o visita la [**configuración de HoYoLAB**](https://www.hoyolab.com/setting/privacy/) y habilita los *Ajustes de registros de batalla* para hacer público tu perfil de genshin."
 PLEASE_WAIT_DESCRIPTION: '¡Esperando! En este momento no hay nada que puedas hacer para superar esto.'
 PLAYER_TITLE: Jugador {player}
 USER_TITLE: Usuario {user}
@@ -1405,10 +1405,10 @@ GENSHIN_WIZARD_CURRENT_LANGUAGE: Tu idioma actual para Genshin Wizard es **{lang
 ABYSS_FLOOR_PROGRESSION: "Progreso actual: **{stars}/9** {bounty_status}"
 ABYSS_FLOOR_AUTHOR: Piso {floor} • Progresión del Espiral del Abismo
 ABYSS_FLOOR_LABEL: Piso {floor}
-APP_COMMAND_ABYSS_ENEMY_DESCRIPTION: View abyss-enemy information for Spiral Abyss.
+APP_COMMAND_ABYSS_ENEMY_DESCRIPTION: Ver información de los enemigos del abismo para el Espiral del Abismo.
 ABYSS_ENEMY_NOT_ONGOING: Actualmente no hay desafíos del Espiral del Abismo en curso.
 ABYSS_ENEMY_TITLE: Información de enemigos del Espiral del Abismo
-ABYSS_ENEMY_DESCRIPTION: "Schedule: **Floor {floor_index} - Chamber {chamber_index}**"
+ABYSS_ENEMY_DESCRIPTION: "Horario: **Piso {floor_index} - Sala {chamber_index}**"
 CUSTOM_ROLE_ICON_CHANGE_BUTTON: Cambiar icono del rol
 CUSTOM_ROLE_ICON_REQUEST_MESSAGE: Por favor, envíe el **enlace**, el **archivo adjunto** o el **emoji** que desea usar como su ícono de rol personalizado. Esta solicitud expirará en 60 segundos.
 CUSTOM_ROLE_ICON_REQUEST_TIMEOUT: '¡Hola Viajero! No recibí ninguna información tuya, así que cancelé esta solicitud.'
@@ -1420,18 +1420,18 @@ GENSHIN_WIZARD_CUSTOM_ROLE: Rol personalizado de Genshin Wizard
 GENSHIN_WIZARD_INVENTORY_TITLE: Inventario de Genshin Wizard
 HELP_LIST_COMMAND: Ver comandos
 HISTORY_COMMAND_OVERVIEW_TITLE: Genshin Wizard | Vista general del historial de deseos
-ABYSS_ENEMY_FLOOR_VIEW: Floor View
-ABYSS_ENEMY_CHAMBER_VIEW: Chamber View
-ABYSS_ENEMY_FLOOR_OVERVIEW: "Schedule: **Floor {floor_index} Overview**"
-ABYSS_ENEMY_INFORMATION_BUTTON: Hello Traveler, as inconveniencing as it may be, I am **__unable__** to display information regarding **specific enemy counts**. This is due to the fact that this information is generated when *starting* the challenege. I apologize for any inconvenience this may cause.
-ABYSS_ENEMY_INFORMATION_BUTTON_LABEL: Enemy Counts
-APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: Change your Battle Chronicles Privacy Settings.
+ABYSS_ENEMY_FLOOR_VIEW: Vista del piso
+ABYSS_ENEMY_CHAMBER_VIEW: Vista de la sala
+ABYSS_ENEMY_FLOOR_OVERVIEW: "Horario: **Resumen del Piso {floor_index}**"
+ABYSS_ENEMY_INFORMATION_BUTTON: Hola, viajero, por inconveniente que sea, **__no puedo__** mostrar información sobre **recuentos de enemigos específicos**. Esto se debe a que esta información se genera al *iniciar* el desafío. Me disculpo por cualquier inconveniente que esto pueda causar.
+ABYSS_ENEMY_INFORMATION_BUTTON_LABEL: Número de enemigos
+APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: Cambia la configuración de privacidad del Registro de Batallas.
 VIEW_ON_HOYOLAB: Ver en HoYoLAB
-CHRONICLES_PRIVACY_SETTING: Character Battle Chronicle Settings
+CHRONICLES_PRIVACY_SETTING: Configuración del Registro de Batallas de personajes
 PRIVACY_SETTING_BUTTON_LABEL: Configuración de privacidad {setting_number}
 INVALID_PAGE_INPUT: Debe proporcionar un número de página **válido**.
 PAGE_MODAL_LABEL: "Número de página que deseas ver:"
 PAGE_MODAL_PLACEHOLDER: "Introduzca el número de página..."
 RARITY_FILTER_PLACEHOLDER: "Elige un filtro de rareza..."
-CHRONICLE_PRIVACY_PLACEHOLDER: "Manage Battle Chronicle privacy settings..."
+CHRONICLE_PRIVACY_PLACEHOLDER: "Administrar la configuración de privacidad del Registro de Batallas..."
 LEADERBOARD_FILTER_PLACEHOLDER: "Elija un filtro para esta tabla de clasificación..."
