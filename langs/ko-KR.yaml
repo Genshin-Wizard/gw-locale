@@ -31,7 +31,7 @@ VOTE_GWIZ_DESCRIPTION: Genshin Wizard에 투표하려면 아래 링크를 클릭
 VOTE_KEY: 투표
 VOTE_BOT: 봇 투표
 VOTE_SERVER: 서버 투표
-VOTE_BOT_LINK: 봇 초대 링크
+VOTE_BOT_LINK: 봇 투표 링크
 VOTE_SERVER_LINK: 서버 투표 링크
 VOTE_BOT_BUTTON: '[Bot] 투표'
 VOTE_SERVER_BUTTON: '[Server] 투표'
@@ -66,9 +66,9 @@ TRUTH_COMMAND_RESPONSES:
   - 페이몬은 아무것도 몰?루
   - 아마도 그럴거같아~!
   - 몰라! 내가 그딴걸 어케알아~!
-  - 페이몬, 이거는 너무 예상 밖이야
+  - 윽, 이건 너무 예상 밖인데...?
   - 페이몬은 피곤해 꿈속에서 보자 ㅇ_ㅇ
-  - 페이몬은 틀림없어!
+  - 당연하지~ 틀림없어!
 TRUTH_COMMAND_TITLE: 페이몬의 지식
 QUESTION_KEY: 질문
 RESPONSE_KEY: 대답
@@ -87,15 +87,15 @@ MATH_COMMAND_RESULT: |
    **결과:**
    ```{result}```
 RECENT_GENSHIN_EVENTS: 최근 원신 이벤트
-SEND_CODES_COMMAND_TITLE: Genshin Wizard | 활성 코드
+SEND_CODES_COMMAND_TITLE: Genshin Wizard | 리딤코드 입력
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***아래 버튼을 클릭하여 교환 가능!***](https://genshin.mihoyo.com/en/gift)
-  <:blurpleannouncement:1020402170127982712> **참고:** 코드는 빨리 만료되므로 최대한 빨리 사용해야 합니다!
+  <:blurplelink:1020155547187691600> [***아래 버튼을 클릭해서 리딤코드 보상을 받을 수 있어!***](https://genshin.mihoyo.com/ko/gift)
+  <:blurpleannouncement:1020402170127982712> **주의:** 코드는 빨리 만료가 되니까, 얼른 사용하도록 해!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
-SEND_CODES_REDEEM_AUTOMATICALLY: 자동으로 교환
+SEND_CODES_REDEEM_AUTOMATICALLY: 리딤코드 자동 교환
 SEND_CODES_DIRECT_LINK: 다이렉트링크
-SEND_CODES_REDEEMABLE_CODES: 사용 가능한 코드
+SEND_CODES_REDEEMABLE_CODES: 사용 가능한 리딤코드
 SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | 사용 가능한 코드
 SEND_CODES_REDEMPTION_CODES_CONFIRMATION: '{channel} 로 리딤코드를 성공적으로 보냈습니다!'
 MESSAGE_LINK: 메시지 링크
@@ -103,7 +103,7 @@ CLICK_HERE: 여기를 클릭해주세요
 INFO_SELECT_CHARACTER: 캐릭터 선택
 INFO_CHARACTER_SOURCE: "소스: 저장된 빌드"
 INFO_USER_CACHE: 사용자 캐시
-INTERMISSION_MESSAGE: 정보를 생성하는 중 입니다. **잠시만** 기다려주세요.
+INTERMISSION_MESSAGE: 정보들을 보기 좋게 만드는 중이야. **잠깐만** 기다려줘.
 MENU_COOLDOWN_TITLE: 그 메뉴는 재사용 대기중이야. 기다려줘!
 BUTTON_COOLDOWN_TITLE: 그 버튼은 재사용 대기중이야. 기다려줘!
 COMMAND_COOLDOWN_TITLE: 그 명령어는 재사용 대기중이야. 기다려줘!
@@ -123,7 +123,7 @@ EXCLUSIVE_COMMAND_DESCRIPTION: |
 ERROR_COMMAND_INVOKE: 여행자! 명령어 뒤에 정보를 올바르게 입력했는지 확인해줘!
 ERROR_PRIVACY_SETTING_TITLE: 숨겨진 정보 | 볼 수 있는게 없어!
 ERROR_PRIVACY_SETTING_DESCRIPTION: 여행자! 아쉽게도 이 여행자는 **공개설정**이 되어있지 않아서 검색을 할 수 없어!
-ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | 지속적업데이트!
+ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | 업데이트중이야!
 ERROR_ONGOING_UPDATE_DESCRIPTION: 여행자! 지금 Genshin Wizard 가 **점검중**이야! 그래서 모든 명령어가 잠시 *비활성화* 되었을꺼야. 점검이 끝날 때 까지 조금만 기다려줘!
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
   여행자! 아쉽게도 이 명령어는 **사용못해**. 이건 Genshin Wizard 서버 {command_type} *전용* 명령어야!
