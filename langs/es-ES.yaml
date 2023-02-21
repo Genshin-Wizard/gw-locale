@@ -1,7 +1,7 @@
 ---
 GENSHIN_WIZARD_KEY: Genshin Wizard
 HELP_DIRECTORY_TITLE: Genshin Wizard | Directorio de ayuda
-HELP_CATEGORY_DESCRIPTION: Selecciona una categoría del menú desplegable para ver los comandos específicos de esa categoría.
+HELP_CATEGORY_DESCRIPTION: Seleccione una categoría del menú desplegable para ver los comandos específicos de esa categoría.
 HELP_CATEGORIES: Categorías
 HELP_CATEGORY_LIST: |
   > 👤 | Comandos de perfil
@@ -111,7 +111,7 @@ COMMAND_COOLDOWN_TITLE: '¡Ese comando está en enfriamiento!'
 MENU_COOLDOWN_VALUE: '¡Estás haciendo clic en atributos demasiado rápido! Inténtalo de nuevo en **{cooldown}** segundos.'
 CHARACTER_SHOWCASE_TITLE: Exhibición de personajes
 ERROR_RATELIMIT: El usuario está actualmente limitado por tasa.
-ERROR_COMMAND_COOLDOWN_VALUE: Intenta usar este comando de nuevo en {cooldown} s.
+ERROR_COMMAND_COOLDOWN_VALUE: Intenta usar este comando de nuevo en {cooldown} seg.
 ERROR_COMMAND_LONG_COOLDOWN_VALUE: Intenta usar este comando de nuevo en <t:{cooldown}:R>
 ERROR_KEY: '¡Error!'
 SUCCESSFUL_KEY: '¡Exitoso!'
@@ -123,9 +123,9 @@ EXCLUSIVE_COMMAND_DESCRIPTION: |
   Si deseas utilizar este comando, considera unirte a nuestro [Discord oficial](https://discord.gg/genshinwizard).
 ERROR_COMMAND_INVOKE: '¡Asegúrate de usar los parámetros correctos para este comando!'
 ERROR_PRIVACY_SETTING_TITLE: Oculto | ¡No hay nada que ver!
-ERROR_PRIVACY_SETTING_DESCRIPTION: '¡Hola Viajero! Desafortunadamente, ¡la persona que intenta buscar tiene **configuraciones de privacidad** habilitadas!'
+ERROR_PRIVACY_SETTING_DESCRIPTION: '¡Hola Viajero! Lamentablemente, ¡la persona que intenta buscar tiene **configuraciones de privacidad** habilitadas!'
 ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | ¡Actualización en curso!
-ERROR_ONGOING_UPDATE_DESCRIPTION: '¡Hola Viajero! Genshin Wizard está actualmente **en mantenimiento** y este comando ha sido *deshabilitado* por el momento. Por favor, inténtalo de nuevo más tarde*.'
+ERROR_ONGOING_UPDATE_DESCRIPTION: '¡Hola, Viajero! Genshin Wizard está actualmente **en mantenimiento** y este comando ha sido *deshabilitado* por el momento. Por favor, inténtalo de nuevo más tarde*.'
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
   ¡Hola Viajero! **No está permitido** usar este comando aquí, ¡este es un comando {command_type} *exclusivo* del servidor de Genshin Wizard!
 
@@ -633,7 +633,7 @@ REGISTER_COMMAND_PC_DIRECTIONS: |
   ```ps
   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
   ```
-  6. Pulsa `ENTER` para copiar el enlace en su portapapeles
+  6. Pulse `ENTER` para copiar el enlace en su portapapeles
   7. Haz clic en el botón de abajo y pega el enlace en el campo de entrada
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   Después de la actualización 3.0, ya no se puede copiar y pegar simplemente el enlace del historial en los dispositivos Android.
@@ -917,7 +917,7 @@ PRIMOGEMS_KEY: Primogemas
 SIMULATOR_NOT_ENOUGH_STARDUST: <:Error:1021889679857037372> ¡No tienes suficiente **<:MasterlessStardust:951924423332626522> Polvo estelar** para comprar este artículo!
 SIMULATOR_NOT_ENOUGH_STARGLITTER: <:Error:1021889679857037372> ¡No tienes suficiente **<:MasterlessStarglitter:951924423059980290> Brillo estelar** para comprar este artículo!
 SIMULATOR_PURCHASED_PRIMOGEMS: <:yescheck:1021114525858136074> ¡Has comprado con éxito **<:Primogem:951924423340994610>{primogems} Primogemas** por **{emote} {price} {item}**!
-SIMULATOR_TOO_FAST: '¡Estás alimentando tu adicción al gacha demasiado rápido! Intenta usar este botón nuevamente en **{time}** segundos.'
+SIMULATOR_TOO_FAST: '¡Estás alimentando tu adicción al gacha demasiado rápido! Intente usar este botón nuevamente en **{time}** segundos.'
 SIMULATOR_BEGIN_JOURNEY: "{user}, no tienes personajes en tu inventario. ¡Usa el comando </wishsimulator:{command_id}> para probar tu suerte!"
 SIMULATOR_DUMP_UNSUCCESSFUL: '¡Oops! Vaciar tu mochila no tuvo éxito, hubo un error. ¡Por favor, vuelve a intentarlo o contacta a un miembro del personal!'
 SIMULATOR_DUMP_SUCCESSFUL: <:yescheck:1021114525858136074> ¡Has vaciado con éxito tu inventario!
@@ -1411,7 +1411,7 @@ ABYSS_ENEMY_NOT_ONGOING: Actualmente no hay desafíos del Espiral del Abismo en 
 ABYSS_ENEMY_TITLE: Información de enemigos del Espiral del Abismo
 ABYSS_ENEMY_DESCRIPTION: "Horario: **Piso {floor_index} - Sala {chamber_index}**"
 CUSTOM_ROLE_ICON_CHANGE_BUTTON: Cambiar icono del rol
-CUSTOM_ROLE_ICON_REQUEST_MESSAGE: Por favor, envía el **enlace**, el **archivo adjunto** o el **emoji** que deseas usar como tu ícono de rol personalizado. Esta solicitud expirará en 60 segundos.
+CUSTOM_ROLE_ICON_REQUEST_MESSAGE: Por favor, envíe el **enlace**, el **archivo adjunto** o el **emoji** que desea usar como su ícono de rol personalizado. Esta solicitud expirará en 60 segundos.
 CUSTOM_ROLE_ICON_REQUEST_TIMEOUT: '¡Hola Viajero! No recibí ninguna información tuya, así que cancelé esta solicitud.'
 CUSTOM_ROLE_ICON_NOT_IMAGE: '¡Hola Viajero! ¡El archivo adjunto debe ser una **imagen**!'
 CUSTOM_ROLE_ICON_SUCCESS: Su icono de rol personalizado se ha cambiado correctamente. Este mensaje de confirmación se eliminará en **10 segundos**.
