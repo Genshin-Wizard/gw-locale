@@ -27,7 +27,7 @@ REQUESTED_BY: '{user} 님의 요청'
 SUPPORT_GWIZ_TITLE: Genshin Wizard 지원
 SUPPORT_GWIZ_DESC: Genshin Wizard 개발 지원.
 DONATE_KEY: 후원하기
-VOTE_GWIZ_DESCRIPTION: Genshin Wizard에 투표하려면 아래 링크를 클릭하십시오.
+VOTE_GWIZ_DESCRIPTION: 아래 링크를 눌러 Genshin Wizard에 투표해주세요.
 VOTE_KEY: 투표
 VOTE_BOT: 봇 투표
 VOTE_SERVER: 서버 투표
@@ -71,11 +71,11 @@ TRUTH_COMMAND_RESPONSES:
   - 당연하지~ 틀림없어!
 TRUTH_COMMAND_TITLE: 페이몬의 지식
 QUESTION_KEY: 질문
-RESPONSE_KEY: 대답
+RESPONSE_KEY: 페이몬의 대답
 PREFIX_COMMAND_CURRENT: 이 서버의 현재 접두사는 '{prefix}' 입니다.
 PREFIX_TOO_LONG: 접두사는 최대 5자 이내여야 합니다.
 PREFIX_TOO_SHORT: 1자 미만일 수 없습니다.
-PREFIX_CHANGED_TITLE: 원신위자드 | 접두사 변경
+PREFIX_CHANGED_TITLE: Genshin Wizard | 접두사 변경
 PREFIX_CHANGED_DESCRIPTION: |
   **원신위자드** 접두사 변경 성공! 이제 이 새로운 접두사를 사용하여 명령이 호출됩니다.
   **과거 접두사:** `{old_prefix}`
@@ -1448,3 +1448,5 @@ ART_CHARACTER_STYLE: "캐릭터 프로필"
 RESET_PROFILE_SETTINGS: 프로필 설정 초기화
 CHOOSE_ART_LAYOUT: "프로필 레이아웃을 선택..."
 MANAGE_CACHED_DATA: 캐시 데이터 관리
+INFO_COMMAND_SETTING_NOT_OWNER: You can only manage art settings for your own characters! Use the </info:{command_id}> for more information!
+VERTICAL_ART_SETTING: Vertical Card Layout
