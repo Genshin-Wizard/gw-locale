@@ -1,7 +1,7 @@
 ---
 GENSHIN_WIZARD_KEY: 원신 위자드
 HELP_DIRECTORY_TITLE: 원신 위자드 | 도움말
-HELP_CATEGORY_DESCRIPTION: 현재 카테고리에서 실행 가능한 명령들을 보려면 아래 목록에서 선택해주세요.
+HELP_CATEGORY_DESCRIPTION: 현재 카테고리에서 실행 가능한 명령들을 보려면 아래 목록에서 선택해줘.
 HELP_CATEGORIES: 카테고리
 HELP_CATEGORY_LIST: |
   > 👤 | 프로필 명령어
@@ -21,13 +21,13 @@ UPTIME_INFORMATION: |
 VERSION_KEY: 버전
 PING_KEY: 핑
 UNKNOWN_KEY: 정보없음
-USER_NOT_PUBLIC: 사용자 공개설정이 되어있지 않습니다.
-INVITE_INFORMATION: 아래 링크를 통해 봇을 서버에 초대하세요!
+USER_NOT_PUBLIC: 여행자 정보의 공개설정이 되어있지 않아.
+INVITE_INFORMATION: 아래 링크를 사용해서 이 봇을 서버에 초대해줘!
 REQUESTED_BY: '{user} 님의 요청'
 SUPPORT_GWIZ_TITLE: 원신 위자드 지원
-SUPPORT_GWIZ_DESC: Genshin Wizard 개발 지원.
+SUPPORT_GWIZ_DESC: 원신 위자드의 개발을 지원해줘!
 DONATE_KEY: 후원하기
-VOTE_GWIZ_DESCRIPTION: 아래 링크를 눌러 Genshin Wizard에 투표해주세요.
+VOTE_GWIZ_DESCRIPTION: 아래 링크를 눌러서 원신 위자드에 투표해줘.
 VOTE_KEY: 투표
 VOTE_BOT: 봇 투표
 VOTE_SERVER: 서버 투표
@@ -42,9 +42,9 @@ USERS_KEY: 사용자
 WEBSITE_KEY: 웹사이트
 INVITE_KEY: 초대
 DOCUMENTATION_KEY: 문서
-GWIZ_INVITE: Genshin Wizard 초대
+GWIZ_INVITE: 원신 위자드 초대
 AVATAR_KEY: 아바타
-ARTIFACT_CRIT_VALUE_TITLE: 성유물 CV 계산기
+ARTIFACT_CRIT_VALUE_TITLE: 성유물 CV(CRIT Value) 계산기
 TOTAL_CRIT_VALUE: 종합 CV
 TRUTH_COMMAND_RESPONSES:
   - 당연하지~!
@@ -72,34 +72,34 @@ TRUTH_COMMAND_RESPONSES:
 TRUTH_COMMAND_TITLE: 페이몬의 지식
 QUESTION_KEY: 질문
 RESPONSE_KEY: 페이몬의 대답
-PREFIX_COMMAND_CURRENT: 이 서버의 현재 접두사는 '{prefix}' 입니다.
-PREFIX_TOO_LONG: 접두사는 최대 5자 이내여야 합니다.
-PREFIX_TOO_SHORT: 1자 미만일 수 없습니다.
-PREFIX_CHANGED_TITLE: Genshin Wizard | 접두사 변경
+PREFIX_COMMAND_CURRENT: 이 서버의 현재 접두사는 '{prefix}' 이거야.
+PREFIX_TOO_LONG: 접두사는 최대 5자 까지만 쓸 수 있어.
+PREFIX_TOO_SHORT: 접두사는 최소 1자 이상이어야해.
+PREFIX_CHANGED_TITLE: 원신 위자드 | 접두사 변경
 PREFIX_CHANGED_DESCRIPTION: |
-  **원신위자드** 접두사 변경 성공! 이제 이 새로운 접두사를 사용하여 명령이 호출됩니다.
+  **원신 위자드** 접두사 변경을 성공했어! 이제 이 새로운 접두사를 사용해서 명령을 호출할 수 있어.
   **과거 접두사:** `{old_prefix}`
   **새로운 접두사:** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: 원신위자드 접두사설정
-MATH_COMMAND_COMPUTE_ERROR: ":no_entry: 검색결과가 없습니다."
+PREFIX_CHANGED_FOOTER: 원신 위자드 접두사 설정
+MATH_COMMAND_COMPUTE_ERROR: ":no_entry: 계산 오류야. 다시 작성해줘!"
 MATH_COMMAND_RESULT: |
   **식:** `{expression}`
    **결과:**
    ```{result}```
 RECENT_GENSHIN_EVENTS: 최근 원신 이벤트
-SEND_CODES_COMMAND_TITLE: Genshin Wizard | 리딤코드 입력
+SEND_CODES_COMMAND_TITLE: 원신 위자드 | 리딤코드 입력
 SEND_CODES_COMMAND_DESCRIPTION: |
   <:blurplelink:1020155547187691600> [***아래 버튼을 클릭해서 리딤코드 보상을 받을 수 있어!***](https://genshin.mihoyo.com/ko/gift)
   <:blurpleannouncement:1020402170127982712> **주의:** 코드는 빨리 만료가 되니까, 얼른 사용하도록 해!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
 SEND_CODES_REDEEM_AUTOMATICALLY: 리딤코드 자동 교환
-SEND_CODES_DIRECT_LINK: 다이렉트링크
+SEND_CODES_DIRECT_LINK: 다이렉트 링크
 SEND_CODES_REDEEMABLE_CODES: 사용 가능한 리딤코드
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | 사용 가능한 코드
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: '{channel} 로 리딤코드를 성공적으로 보냈습니다!'
+SEND_CODES_REDEMPTION_CODES_TITLE: 원신 위자드 | 사용 가능한 리딤코드
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: '{channel} 로 리딤코드를 성공적으로 보냈어!'
 MESSAGE_LINK: 메시지 링크
-CLICK_HERE: 여기를 클릭해주세요
+CLICK_HERE: 여기를 클릭해줘
 INFO_SELECT_CHARACTER: 캐릭터 선택
 INFO_CHARACTER_SOURCE: "소스: 저장된 빌드"
 INFO_USER_CACHE: 사용자 캐시
@@ -109,13 +109,13 @@ BUTTON_COOLDOWN_TITLE: 그 버튼은 재사용 대기중이야. 기다려줘!
 COMMAND_COOLDOWN_TITLE: 그 명령어는 재사용 대기중이야. 기다려줘!
 MENU_COOLDOWN_VALUE: 이봐! 너무 빨리 클릭하면 안된다고! **{cooldown}**초 후에 다시 눌러줘!
 CHARACTER_SHOWCASE_TITLE: 캐릭터 진열장
-ERROR_RATELIMIT: 사용자는 속도가 제한되어있습니다.
-ERROR_COMMAND_COOLDOWN_VALUE: '{cooldown}초 후 명령어를 다시 사용해주세요'
-ERROR_COMMAND_LONG_COOLDOWN_VALUE: <t:{cooldown}:R>후 명령어를 다시 사용해주세요
+ERROR_RATELIMIT: 여행자는 지금 요금이 제한되었어.
+ERROR_COMMAND_COOLDOWN_VALUE: '{cooldown} 초 후에 명령어를 다시 사용해줘.'
+ERROR_COMMAND_LONG_COOLDOWN_VALUE: <t:{cooldown}:R> 후에 명령어를 다시 사용해줘.
 ERROR_KEY: 오류야!
 SUCCESSFUL_KEY: 성공했어!
-ERROR_MISSING_PERMISSION: 현재 명령어는 사용할 수 있는 권한이없습니다!
-EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | 특별 명령어
+ERROR_MISSING_PERMISSION: 여행자, 지금 이 명령어를 실행할 권한이 없어!
+EXCLUSIVE_COMMAND_TITLE: 원신 위자드 | 특별 명령어
 EXCLUSIVE_COMMAND_DESCRIPTION: |
   여행자! 여기서는 그 명령어를 **사용못해**. 이건 공식 서버에서만 사용할 수 있다구!
 
@@ -123,78 +123,78 @@ EXCLUSIVE_COMMAND_DESCRIPTION: |
 ERROR_COMMAND_INVOKE: 여행자! 명령어 뒤에 정보를 올바르게 입력했는지 확인해줘!
 ERROR_PRIVACY_SETTING_TITLE: 숨겨진 정보 | 볼 수 있는게 없어!
 ERROR_PRIVACY_SETTING_DESCRIPTION: 여행자! 아쉽게도 이 여행자는 **공개설정**이 되어있지 않아서 검색을 할 수 없어!
-ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | 업데이트중이야!
-ERROR_ONGOING_UPDATE_DESCRIPTION: 여행자! 지금 Genshin Wizard 가 **점검중**이야! 그래서 모든 명령어가 잠시 *비활성화* 되었을꺼야. 점검이 끝날 때 까지 조금만 기다려줘!
+ERROR_ONGOING_UPDATE_TITLE: 원신 위자드 | 업데이트중이야!
+ERROR_ONGOING_UPDATE_DESCRIPTION: 여행자! 지금 원신 위자드가 **점검중**이야! 그래서 모든 명령어가 잠시 *비활성화* 되었을꺼야. 점검이 끝날 때 까지 조금만 기다려줘!
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  여행자! 아쉽게도 이 명령어는 **사용못해**. 이건 Genshin Wizard 서버 {command_type} *전용* 명령어야!
+  여행자! 아쉽게도 이 명령어는 **사용못해**. 이건 원신 위자드 서버 {command_type} *전용* 명령어야!
 
-  이 명령어를 사용하고 싶으면, 여기에 가입해줘! [Genshin Wizard 공식 디스코드](https://discord.gg/genshinwizard)
-ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard 프리미엄
+  이 명령어를 사용하고 싶으면, 여기에 가입해줘! [원신 위자드 공식 디스코드](https://discord.gg/genshinwizard)
+ERROR_PREMIUM_COMMAND_TITLE: 원신 위자드 프리미엄
 ERROR_PREMIUM_COMMAND_DESCRIPTION: "여행자! 아쉽게도 이 명령어는 **사용못해**. 이건 **프리미엄 구독자**들을 위한 기능이야.\n자세한 내용은 </premium:{command_id}> 을 입력해서 확인해줘!"
 ERROR_BLACKLISTED_TITLE: 원신 위자드 | 블랙리스트
 ERROR_BLACKLISTED_DESCRIPTION: |
-  여행자! 여행자의 Genshin Wizard 사용이 **금지**되었어!
+  여행자! 여행자의 원신 위자드 사용이 **금지**되었어!
 
   여행자 생각에 오류인 것 같으면, 공식 서버에 가입해서 자세한 정보를 확인해봐!
-  [Genshin Wizard 공식 디스코드](https://discord.gg/genshinwizard)
-ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | 맴버를 찾을 수 없습니다.
-ERROR_MEMBER_NOT_FOUND_DESCRIPTION: 찾고싶은 여행자가 이 서버에 있는지 한 번 더 확인해줄래?
+  [원신 위자드 공식 디스코드](https://discord.gg/genshinwizard)
+ERROR_MEMBER_NOT_FOUND_TITLE: 원신 위자드 | 맴버를 찾을 수 없어
+ERROR_MEMBER_NOT_FOUND_DESCRIPTION: 찾고 싶은 여행자가 이 서버에 있는지 한 번 더 확인해줄래?
 ERROR_MISSING_REQUIRED_ARGUMENT: "여행자, 추가로 입력해야 하는 값을 잊어버린 것 같아. 올바르게 입력해줘!: ```{usage}```"
 ERROR_MISSING_REQUIRED_ATTACHMENT: "여행자, 첨부파일을 깜빡했어! 올바른 형식의 첨부파일을 사용해줘!: ```올바른 첨부파일과 함께 {usage} 명령을 사용해줘!```"
 ERROR_MISSING_MANAGE_MESSAGE: 여행자, 아쉽지만 이 채널/길드 에서의 `메시지 관리`권한이 없는 것 같아. 해당 권한을 활성화 해준 다음에 다시 시도해볼래?
 ERROR_MISSING_SEND_MESSAGE: 여행자, 아쉽지만 이 채널/길드 에서의 `메시지 보내기`권한이 없는 것 같아. 해당 권한을 활성화 해준 다음에 다시 시도해볼래?
 MESSAGE_KEY: 메시지
 ERROR_EMPTY_BACKPACK: 여행자, 배낭이 **비어있잖아**! 여정을 시작하려면 </wishsimulator:{command_id}> 명령어를 사용해줘!
-ERROR_INTERACTION_MISMATCH: 여행자! 이건 **여행자가 조작할 수 없는거야**! 이걸 사용하고 싶으면 {command} 명령어를 사용해줘!
+ERROR_INTERACTION_MISMATCH: 여행자! 이건 **여행자가 조작할 수 없는거야**! 이걸 사용하고 싶으면 {command} 명령어를 직접 사용해줘!
 ERROR_MESSAGE: 오류가 발생했어!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | 피드백
+FEEDBACK_CONFIRMATION_TITLE: 원신 위자드 | 피드백
 FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *여행자의 조언이 개발자에게 성공적으로 전달됐어!*
 FEEDBACK_LOG_RESPONSE: |
-  > 사용자: **{author_name}** | {author_mention}
+  > 여행자: **{author_name}** | {author_mention}
    > 디스코드 ID: `{author_id}`
 
    **피드백:**```{feedback}```
 NO_HOYOLAB_LINKED: 여행자, 아직 HoYoLAB 계정을 연결하지 않았구나. </register:{command_id}> 명령어를 사용해서 계정연결을 먼저 진행해줘!
 OLD_HOYOLAB_LINKED: |
-  여행자! 사용에 불편을 줘서 미안해. 이 기능은 `HoYoLAB` 계정을 Genshin Wizard에 **등록한 다음에** 사용 가능해.
+  여행자! 사용에 불편을 줘서 미안해. 이 기능은 `HoYoLAB` 계정을 원신 위자드에 **등록한 다음에** 사용 가능해.
 
   우선은 </hoyo:{command_id}> 명령어를 이용해서 HoYoLAB 계정의 연결을 해제하고, 기본 등록 명령어를 통해 **재연결** 해줘. 불편을 줘서 정말 미안해!
-CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB 코드 사용
+CODE_REDEEM_TITLE: 원신 위자드 | HoYoLAB 코드 사용
 CODE_REDEEM_DESCRIPTION: "*보상 코드를 처리하는 중이야. 잠깐만 기다려줘!*"
 CODE_REDEEM_PROGRESS: |
   *보상 코드를 처리하는 중이야. 잠깐만 기다려줘!*
    <a:loading:1015667958237900801> `{code}` 코드 사용 시도 중
-HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | 만료된 쿠키
+HOYOLAB_EXPIRED_COOKIE_TITLE: 원신 위자드 | 만료된 쿠키
 HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: 여행자! 여행자의 HoYoLAB 쿠키가 **만료**돼버렸어! 쿠키를 **새로 가져와야** 하니까, </hoyo:{command_id}> 명령어를 사용해서 계정 재연결을 진행해줘!
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[봇초대](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
-  <a:blue_arrow:1005981235966910494> **[공식웹사이트](https://www.genshinwizard.com)**
-  <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
-  <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*축하해! 보상 코드가 성공적으로 처리됐어!*"
-APP_COMMAND_INFO_DESCRIPTION: 여행자가 설정한 쇼케이스 캐릭터들의 빌드를 확인할 수 있어.
+  <a:blue_arrow:1005981235966910494> **[공식 웹사이트](https://www.genshinwizard.com)**
+  <a:blue_arrow:1005981235966910494> **[투표](https://top.gg/bot/782099719718699009)**
+  <a:blue_arrow:1005981235966910494> **[개발자 지원](https://ko-fi.com/genshinwizard)**
+CODE_REDEEM_SUCCESS: "*축하해! 리딤코드가 성공적으로 처리됐어!*"
+APP_COMMAND_INFO_DESCRIPTION: 여행자가 설정한 진열장 캐릭터들의 빌드를 확인할 수 있어.
 APP_COMMAND_EXPORT_DESCRIPTION: 개인 메시지로 여행자의 기원 기록을 텍스트 파일 형식으로 출력해.
 APP_COMMAND_HISTORY_DESCRIPTION: 여행자의 기원 기록을 볼 수 있어.
 APP_COMMAND_DAILY_DESCRIPTION: 일일 HoYoLAB 로그인 보상을 수령해.
 APP_COMMAND_MONTHLY_DESCRIPTION: 이번 달의 HoYoLAB 일일 보상 목록을 확인할 수 있어.
 APP_COMMAND_DIARY_DESCRIPTION: HoYoLAB 여행자 다이어리를 확인해.
 APP_COMMAND_REDEEM_DESCRIPTION: 리딤코드를 사용할 수 있어.
-APP_COMMAND_HOYO_DESCRIPTION: 여행자가 Genshin Wizard에 등록한 HoYoLAB 계정을 확인할 수 있어.
+APP_COMMAND_HOYO_DESCRIPTION: 여행자가 원신 위자드에 등록한 HoYoLAB 계정을 확인할 수 있어.
 APP_COMMAND_CHARACTERS_DESCRIPTION: 여행자의 보유중인 캐릭터들의 요약 정보를 볼 수 있어.
-APP_COMMAND_TCG_DESCRIPTION: 여행자의 `일곱성인의 소환` 쇼케이스를 확인할 수 있어.
+APP_COMMAND_TCG_DESCRIPTION: 여행자의 `일곱성인의 소환` 진열장을 확인할 수 있어.
 APP_COMMAND_IMPORT_DESCRIPTION: 다른 인기 사이트에서 여행자의 기원 기록을 가져올 수 있어.
-APP_COMMAND_LEADERBOARD_DESCRIPTION: Genshin Wizard의 순위표를 볼 수 있어.
+APP_COMMAND_LEADERBOARD_DESCRIPTION: 원신 위자드의 순위표를 볼 수 있어.
 APP_COMMAND_LOCATION_DESCRIPTION: 특산물의 위치를 표시해줘.
 APP_COMMAND_LOCATIONS_DESCRIPTION: 확인할 수 있는 특산물 목록을 표시해줘.
 APP_COMMAND_CALC_DESCRIPTION: 선택한 캐릭터의 필요한 성장재료들을 계산해줘.
-APP_COMMAND_BANNER_DESCRIPTION: 여행자의 Genshin Wizard 프로필 배너를 수정할 수 있어.
-APP_COMMAND_PROFILE_DESCRIPTION: 여행자의 Genshin Wizard 프로필을 확인해.
-APP_COMMAND_SETTINGS_DESCRIPTION: 여행자의 Genshin Wizard 프로필을 변경할 수 있어.
+APP_COMMAND_BANNER_DESCRIPTION: 여행자의 원신 위자드 프로필 배너를 수정할 수 있어.
+APP_COMMAND_PROFILE_DESCRIPTION: 여행자의 원신 위자드 프로필을 확인해.
+APP_COMMAND_SETTINGS_DESCRIPTION: 여행자의 원신 위자드 프로필을 변경할 수 있어.
 APP_COMMAND_STATS_DESCRIPTION: 여행자 계정의 전체 요약 정보를 확인할 수 있어.
 APP_COMMAND_ABYSS_DESCRIPTION: 여행자의 나선 진행 상황을 확인할 수 있어.
 APP_COMMAND_EXPLORATION_DESCRIPTION: 여행자의 탐사도를 확인할 수 있어.
 APP_COMMAND_UID_DESCRIPTION: 여행자의 UID/서버를 확인할 수 있어.
-APP_COMMAND_REGISTER_DESCRIPTION: 여행자의 정보를 Genshin Wizard에 등록해.
+APP_COMMAND_REGISTER_DESCRIPTION: 여행자의 정보를 원신 위자드에 등록해.
 APP_COMMAND_REFRESH_DESCRIPTION: 여행자의 기원 기록을 갱신해 (확인을 위한 링크는 24시간마다 만료돼).
 APP_COMMAND_UNLINK_DESCRIPTION: 여행자 계정의 연결을 해제하고, 모든 정보를 삭제해.
 APP_COMMAND_REMINDERS_DESCRIPTION: 여행자의 레진, 선계 및 원정에 대한 알림을 설정해.
@@ -206,7 +206,7 @@ APP_COMMAND_SHOP_DESCRIPTION: 기원 시뮬레이터용 상점을 확인해.
 APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: 여행자가 진행한 기원 시뮬레이터의 획득 기록을 확인해.
 APP_COMMAND_COMMISSIONS_DESCRIPTION: 기원 시뮬레이터 일일 보상 수령하기
 APP_COMMAND_BALANCE_DESCRIPTION: 여행자의 기원 시뮬레이터 잔액 정보를 확인해.
-APP_COMMAND_EDIT_DESCRIPTION: Genshin wizard의 캐릭터 상세정보를 수정합니다.
+APP_COMMAND_EDIT_DESCRIPTION: 원신 위자드의 캐릭터 상세정보를 수정할 수 있어.
 APP_COMMAND_EDIT_ADD_DESCRIPTION: 특정 캐릭터의 빌드를 추가할 수 있어.
 APP_COMMAND_DESCRIBE_EDIT_ADD_CHARACTER: 빌드를 추가하려는 캐릭터의 이름을 알려줄래?
 APP_COMMAND_DESCRIBE_EDIT_ADD_BUILD: 새로 만들 빌드의 이름을 알려줄래?
@@ -223,7 +223,7 @@ APP_COMMAND_FARM_DESCRIPTION: 현재 여행자 서버의 비경 스케줄을 확
 APP_COMMAND_TCGCARD_DESCRIPTION: '`일곱성인의 소환` 카드의 정보를 확인할 수 있어.'
 APP_COMMAND_ARTIFACT_DESCRIPTION: 성유물의 세트 효과를 확인할 수 있어.
 APP_COMMAND_ARTIFACTS_DESCRIPTION: 확인 가능한 성유물 목록을 표시해줘.
-APP_COMMAND_TRANSLATE_DESCRIPTION: Genshin Wizard 번역에 기여하는 방법을 표시해줘.
+APP_COMMAND_TRANSLATE_DESCRIPTION: 원신 위자드 번역에 기여하는 방법을 표시해줘.
 APP_COMMAND_ID_DESCRIPTION: 해당 ID를 사용하여 게임 내 에셋을 조회합니다.
 APP_COMMAND_WEAPON_DESCRIPTION: 선택한 무기의 상세 정보를 확인할 수 있어.
 APP_COMMAND_GUIDE_DESCRIPTION: 선택한 캐릭터의 상세 정보를 확인할 수 있어.
@@ -239,67 +239,67 @@ APP_COMMAND_REFERENCE_DESCRIPTION: 선택한 재료가 어디에 쓰이는지 �
 APP_COMMAND_REFERENCESHEETS_DESCRIPTION: 사용처를 확인해볼 수 있는 재료들의 목록을 표시해줘.
 APP_COMMAND_TODO_DESCRIPTION: 지금 진행중인 일간/주간 이벤트들의 정보를 확인할 수 있어.
 APP_COMMAND_BANNERS_DESCRIPTION: 지금 진행중인 이벤트 기원들을 확인할 수 있어.
-APP_COMMAND_CONFIG_DESCRIPTION: Genshin Wizard 설정 패널이야. 자동 알림 외에 많은 것을 설정할 수 있어!
+APP_COMMAND_CONFIG_DESCRIPTION: 원신 위자드의 설정 패널이야. 자동 알림 외에 많은 것을 설정할 수 있어!
 APP_COMMAND_PARTNER_DESCRIPTION: 숨겨진 내용
-APP_COMMAND_SETUP_DESCRIPTION: Genshin Wizard 역할 통합 설정 패널
-APP_COMMAND_PREMIUM_DESCRIPTION: '**프리미엄 기능**을 이용하려면 먼저 Genshin Wizard 프리미엄을 구매해줘!'
-APP_COMMAND_ROLE_DESCRIPTION: 사용자에게 특정 캐릭터 역할을 적용합니다. 자세한 내용은 상대 텍스트 채널을 참조하십시오
-APP_COMMAND_HELP_DESCRIPTION: Genshin Wizard 의 도움말 문서 모음을 확인할 수 있어.
-APP_COMMAND_PING_DESCRIPTION: Genshin Wizard 봇의 지연시간을 확인해볼 수 있어.
-APP_COMMAND_UPTIME_DESCRIPTION: Genshin Wizard 의 활동시간을 확인할 수 있어.
-APP_COMMAND_ABOUT_DESCRIPTION: Genshin Wizard 에 대한 정보를 확인해봐.
+APP_COMMAND_SETUP_DESCRIPTION: 원신 위자드 역할 통합 설정 패널
+APP_COMMAND_PREMIUM_DESCRIPTION: '**프리미엄 기능**을 이용하려면 먼저 원신 위자드 프리미엄을 구매해줘!'
+APP_COMMAND_ROLE_DESCRIPTION: 다른 여행자에게 특정 캐릭터 역할을 부여할 수 있어. 자세한 내용은 해당 여행자의 텍스트 채널을 확인해줘!
+APP_COMMAND_HELP_DESCRIPTION: 원신 위자드의 도움말 문서 모음을 확인할 수 있어.
+APP_COMMAND_PING_DESCRIPTION: 원신 위자드 봇의 지연시간을 확인해볼 수 있어.
+APP_COMMAND_UPTIME_DESCRIPTION: 원신 위자드의 활동시간을 확인할 수 있어.
+APP_COMMAND_ABOUT_DESCRIPTION: 원신 위자드에 대한 정보를 확인해봐.
 APP_COMMAND_INVITE_DESCRIPTION: 봇 초대링크를 생성해줘.
-APP_COMMAND_DONATE_DESCRIPTION: Genshin Wizard 개발 지원.
-APP_COMMAND_VOTE_DESCRIPTION: Genshin Wizard 온라인 투표 링크.
-APP_COMMAND_AVATAR_DESCRIPTION: 사용자의 디스코드 아바타를 봅니다.
-APP_COMMAND_CRITVALUE_DESCRIPTION: 특정 성유물의 CV를 계산합니다.
-APP_COMMAND_TRUTH_DESCRIPTION: Genshin Wizard에게서 지혜를 얻습니다.
-APP_COMMAND_CHANGEPREFIX_DESCRIPTION: 명령에 대한 Genshin Wizard의 접두사를 변경합니다.
-APP_COMMAND_PITY_DESCRIPTION: 원신 가챠 시스템의 원리에 대한 정보
-APP_COMMAND_MATH_DESCRIPTION: 단순하거나 복잡한 식을 계산합니다.
-APP_COMMAND_EVENTS_DESCRIPTION: 최근 원신이벤트를 체크
-APP_COMMAND_SENDCODES_DESCRIPTION: 버튼으로 Genshin 상환 코드에 대한 메시지를 보냅니다.
-APP_COMMAND_FEEDBACK_DESCRIPTION: Genshin Wizard 개발자에게 피드백을 보내주십시오.
-APP_COMMAND_DELETE_DESCRIPTION: 사용자의 Genshin Wizard 프로필을 삭제합니다.
-APP_COMMAND_BLACKLIST_DESCRIPTION: Genshin Wizard를 사용하지 못하도록 사용자를 블랙리스트에 추가합니다.
-APP_COMMAND_DELIMPORT_DESCRIPTION: 사용자의 기원 기록을 삭제합니다.
-EXPORT_NO_WISHES: 항목이 없습니다.
-EXPORT_NO_BANNER_WISHES: '{banner} 배너를 찾지 못했습니다.'
-EXPORT_NO_MESSAGE_PERMISSION: "봇은 개인 메시지를 보낼 수 있는 권한이 **없습니다**. *Discord 개인 정보 설정*에서 `서버 구성원의 다이렉트 메시지 허용` **활성화** 설정이 되어 있는지 확인하십시오."
-EXPORT_MESSAGE_SUCCESS: 기원 내역이 성공적으로 전송되었고 개인메시지를 통해 발송되었습니다.
+APP_COMMAND_DONATE_DESCRIPTION: 원신 위자드의 개발을 지원해줘!
+APP_COMMAND_VOTE_DESCRIPTION: 원신 위자드 온라인 투표 링크.
+APP_COMMAND_AVATAR_DESCRIPTION: 여행자의 디스코드 아바타를 볼 수 있어.
+APP_COMMAND_CRITVALUE_DESCRIPTION: 특정 성유물의 CV(CRIT Value) 값을 계산해볼 수 있어.
+APP_COMMAND_TRUTH_DESCRIPTION: 페이몬의 지혜를 기대하라구.
+APP_COMMAND_CHANGEPREFIX_DESCRIPTION: 원신 위자드의 접두사를 변경할 수 있어.
+APP_COMMAND_PITY_DESCRIPTION: 원신의 기원 시스템의 이해를 위한 정보야.
+APP_COMMAND_MATH_DESCRIPTION: 단순하거나 복잡한 식을 계산할 수 있어.
+APP_COMMAND_EVENTS_DESCRIPTION: 현재 진행중인 원신 이벤트를 확인하자.
+APP_COMMAND_SENDCODES_DESCRIPTION: 리딤코드 사용을 위한 메시지를 전송해줘.
+APP_COMMAND_FEEDBACK_DESCRIPTION: 원신 위자드 개발자들에게 여행자의 피드백을 보내줘.
+APP_COMMAND_DELETE_DESCRIPTION: 여행자의 원신 위자드 프로필을 삭제해.
+APP_COMMAND_BLACKLIST_DESCRIPTION: 해당 여행자를 원신 위자드 블랙리스트에 추가할 수 있어.
+APP_COMMAND_DELIMPORT_DESCRIPTION: 여행자가 입력한 기원 기록을 삭제해.
+EXPORT_NO_WISHES: 밖으로 꺼낼 기원 기록이 없어.
+EXPORT_NO_BANNER_WISHES: '{banner} 배너를 찾지 못했어.'
+EXPORT_NO_MESSAGE_PERMISSION: "봇이 여행자에게 개인 메시지를 보낼 권한이 **없어**. *디스코드 개인 정보 설정*에서 `서버 구성원의 다이렉트 메시지 허용` 항목이 **활성화** 되어있는지 확인해줘."
+EXPORT_MESSAGE_SUCCESS: 여행자의 기원 기록을 성공적으로 꺼내서, 여행자의 개인 메시지로 보냈어.
 INFO_COMMAND_INVALID_ARGUMENT: |
-  **잘못된 인수가 전달되었습니다.**
+  **잘못된 값이 입력되었어.**
 
-  다른 플레이어의 스탯을 보려면, 디스코드 사용자 ID 또는 원신 UID를 입력하십시오. 둘 다 입력할 시 오류가 발생합니다.
+  다른 여행자의 정보를 보려면, 해당 여행자의 디스코드 ID 또는 UID를 입력해줘. 둘 다 입력하면 오류가 나니까 주의해줘.
 INVALID_ARGUMENT_PASSED: |
-  잘못된 인수가 전달되었습니다.
-  유효한 인수는 '<discord user>'/'<genshin uid>' 입니다
-INFO_COMMAND_ENKA_ISSUE: '[**Enka.Network**](https://enka.network/u/{uid})에 문제가 있는 것 같습니다. 나중에 다시 시도 해주십시오.'
-ERROR_NO_USER_DATA: 이 유저에 대한 데이터를 찾을 수 없습니다.
+  잘못된 값이 입력되었어.
+  올바른 값은 '<discord user>'/'<genshin uid>' 이야.
+INFO_COMMAND_ENKA_ISSUE: '[**Enka.Network**](https://enka.network/u/{uid})에 문제가 생긴 것 같아. 나중에 다시 시도 해줘.'
+ERROR_NO_USER_DATA: 이 여행자에 대한 정보를 찾을 수 없어.
 WHAT_HAPPENED_TITLE: 무슨 일이 일어났냐고?
-WHAT_HAPPENED_VALUE: 이 문제가 발생하는 가장 일반적인 이유는 검색하려는 genshin 계정이 아직 공개로 설정되지 않았기 때문입니다. 이 문제를 해결하려면 Genshin의 프로필에서 '캐릭터 세부 정보 표시'를 활성화하세요. 참고로 아래 이미지를 참고하세요.
-WHAT_HAPPENED_FOOTER: Genshin Wizard는 최근 게임 내 변경 사항을 확인하는 데 최대 5분이 소요될 수 있습니다. 잠시만 기다려 주십시오.
+WHAT_HAPPENED_VALUE: 이 문제가 생기는 가장 흔한 이유는 원신 계정의 공개설정 때문이야. 해결을 위해서는 원신 게임내의 프로필에서 '캐릭터 세부 정보 표시'를 활성해줘. 아래 이미지를 참고하면 될꺼야!
+WHAT_HAPPENED_FOOTER: 원신 위자드는 최근 변경사항을 확인하는데 최대 5분 정도 걸릴 수 있어. 침착하게 잠시만 기다려줘.
 INFO_COMMAND_SHOWCASE_TITLE: 캐릭터 진열장
-INFO_COMMAND_SHOWCASE_VIEW_ENKA: Enka.Network에서 보기
+INFO_COMMAND_SHOWCASE_VIEW_ENKA: Enka.Network 에서 보기
 REFRESHES_KEY: 새로고침
 INFO_COMMAND_CHARACTER_DETAILS: 캐릭터
-INFO_COMMAND_NOT_OWNER: 자신의 캐릭터에 대해서만 저장된 빌드를 관리할 수 있습니다! 자세한 내용은 </info:{command_id}>를 사용하세요!
+INFO_COMMAND_NOT_OWNER: '여행자는 여행자 본인의 캐릭터에 대해서만 저장된 빌드를 관리할 수 있어! 자세한 내용을 보고 싶다면 이 명령어를 사용해봐!: </info:{command_id}>'
 INFO_COMMAND_CACHE_DESCRIPTION: |
-  **Genshin Wizard Cache **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
+  **원신 위자드 캐시 **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
 
-  <:information:1034639378410115103> **캐시란 무엇입니까?**
-  Genshin Wizard는 빌드를 *자동*으로 저장하므로 캐릭터를 반복해서 교체가 가능합니다!
+  <:information:1034639378410115103> **캐시란게 뭐야?**
+  원신 위자드에서는 여행자의 진열장 정보를 *자동*으로 저장해! 그러니까 여행자의 진열장 정보가 계속 바뀌어도 안심이야!
 
-  <:na:975828401900359711> **이전 빌드를 삭제하려면 어떻게 해야 합니까?**
-  걱정하지마세요! 이 메시지에서 바로 저장된 빌드를 관리할 수 있습니다! 아래 UI를 사용하여 Genshin Wizard 캐시에서 특정 문자 또는 전체를 삭제하십시오.
+  <:na:975828401900359711> **이전 정보를 지우고 싶으면 어떻게 해야해?**
+  걱정마, 여행자! 이 메시지를 이용해서 여행자의 캐시 정보를 수정할 수 있어! 지금 보이는 메시지 아래에있는 UI를 이용해서 특정 캐릭터나 모든 캐릭터의 캐시를 삭제할 수 있어.
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard 커스텀 아트 기능**
-  여행자님, Genshin Wizard의 **Custom Art** 기능을 사용하려는 것 같습니다! 이 기능은 Genshin Wizard Premium 사용자만 사용할 수 있습니다.
+  <:information:1034639378410115103> **원신 위자드 커스텀 아트 기능**
+  여행자, 원신 위자드의 **커스텀 아트** 기능을 사용하려구? 미안하지만 이 기능은 프리미엄 사용자만 가능해.
 
-  </premium:{command_id}> 명령을 사용하거나 [**Patreon**](https://patreon.com/genshinwizard)을 방문하여 Genshin Wizard Premium에 대해 자세히 알아볼 수 있습니다!
+  </premium:{command_id}> 명령을 사용하거나 [**Patreon**](https://patreon.com/genshinwizard)을 방문해서 원신 위자드 프리미엄에 대해 자세히 알아봐!
 PURCHASE_PREMIUM: 프리미엄 구매하기
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: 여행자! 미안하지만 여행자가 **갖고있는 캐릭터**만 이미지를 수정할 수 있어!
-GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard의 커스텀 그림
+GENSHIN_WIZARD_CUSTOM_ART: 원신 위자드 커스텀 아트
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
   **인포그래픽 지정**
   여행자, 아래 링크나 버튼을 클릭해서 이 캐릭터의 인포그래픽을 **개인 맞춤화** 해봐! <a:PaimonCookies:992302701838864454>
@@ -704,7 +704,7 @@ UNLINKING_CONFIRMATION: Genshin Wizard에서 요청한 데이터를 **성공적�
 UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: 이 UID는 다른 사용자에게 **이미 등록**되었습니다! 이것이 오류라고 생각되면 [**Genshin Wizard 지원**](https://discord.gg/BTT5Zr7Dmp)에 문의하십시오!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: 다른 UID에 **이미 등록**되었습니다! 다른 계정을 사용하여 등록하려면 다시 등록을 시도하기 전에 </unlink:{command_id}>를 사용하십시오."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard 등륵하기
-GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: 여행자의 정보를 Genshin Wizard에 등록해.
+GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: 여행자의 정보를 원신 위자드에 등록해.
 HOYOLAB_ACCOUNT: 호요랩 계정
 LINKED_UID_KEY: 링크 UID
 LINKED_KEY: 링크
@@ -993,7 +993,7 @@ PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
    역할: {role_mention}
    역할 이름: {role_name}
    역할 색상: `{role_color}`
-GENSHIN_WIZARD_PREMIUM: Genshin Wizard 프리미엄
+GENSHIN_WIZARD_PREMIUM: 원신 위자드 프리미엄
 CLAIMED_KEY: 수령 성공
 UNCLAIMED_KEY: 수령되지 않음
 PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard 프리미엄 서버 설정
