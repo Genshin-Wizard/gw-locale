@@ -710,18 +710,18 @@ LINKED_UID_KEY: UID tertaut
 LINKED_KEY: Tertaut
 NOT_LINKED_KEY: Tidak Tertaut
 LINKING_UID_DIRECTIONS: |
-  Hello Traveler! To continue linking the requested UID to Genshin Wizard, we're going to need to **verify** that this account is actually yours!
+  Halo Traveler! Untuk melanjutkan menautkan UID yang diminta ke Genshin Wizard, kami perlu **memverifikasi** bahwa akun ini benar-benar milikmu!
 
-  **Unique Verification Key**
+  **Kunci Verifikasi Unik**
   ```yaml
   {key}```
-  **Expires in:**
+  **Kadaluwarsa Dalam:**
   <t:{timeout}:R>
 
-  How to complete verification?
-  > **1)** Go in-game and add the key above **anywhere** in your profile signature or nickname.
-  > **2)** Make sure you copy the key above **exactly** how it is written or else the bot will not be able to verify your account.
-  > **3)** *That's it*! Please wait patiently until our bot can verify you.
+  Bagaimana cara menyelesaikan verifikasi?
+  > **1)** Masuk ke dalam game dan tambahkan kunci verifikasi di atas **di mana saja** di signature atau nama panggilan profilmu.
+  > **2)** Pastikan Kamu menyalin kunci verifikasi di atas **sama persis** seperti yang tertulis atau bot tidak akan dapat memverifikasi akunmu.
+  > **3)** Harap tunggu dengan sabar hingga bot dapat memverifikasi akunmu.
 LINKING_UID_FOOTER: Harap bersabar kami akan memverifikasi akun Anda! Perubahan ini dapat memakan waktu antara 5-10 menit.
 LINKING_UID_KEY_EXPIRED: Sepertinya kunci ini sekarang **kedaluwarsa**! Sayangnya, saat ini kami tidak dapat memverifikasi Anda, coba lagi nanti.
 REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Refresh Riwayat Wish
@@ -820,7 +820,7 @@ RESIN_REMINDER_FOOTER: Klik tombol 🔔 untuk mendapatkan pengingat! Pastikan un
 SET_RESIN_REMINDER_KEY: Atur pengingat resin!
 API_ISSUE: Telah terjadi masalah API.
 HOW_TO_SOLVE_TITLE: Bagaimana cara menyelesaikannya?
-ENABLE_CHRONICLES: "Use the command </hoyolab-privacy:{command_id}> or visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable *Battle Chronicle privacy* to make your genshin profile public."
+ENABLE_CHRONICLES: "Gunakan perintah </hoyolab-privacy:{command_id}> atau kunjungi [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) dan aktifkan *Battle Chronicle privacy* untuk membuat genshin Anda profil publik."
 PLEASE_WAIT_DESCRIPTION: Menunggu! Tidak ada yang dapat Anda lakukan untuk melewati ini saat ini.
 PLAYER_TITLE: Pemain {player}
 USER_TITLE: 'Pengguna: {user}'
@@ -1449,69 +1449,69 @@ RESET_PROFILE_SETTINGS: Atur Ulang Pengaturan Profil
 CHOOSE_ART_LAYOUT: "Pilih gaya tata letak Art..."
 MANAGE_CACHED_DATA: Kelola Data Cached
 INFO_COMMAND_SETTING_NOT_OWNER: You can only manage art settings for your own characters! Use the </info:{command_id}> for more information!
-VERTICAL_ART_SETTING: Vertical Card Layout
-DIARY_DATE_LABEL: "{month}/{year} Diary"
-NO_ACTIVE_BONUS: No Activated Bonuses
-JANUARY_KEY: January
-FEBRUARY_KEY: February
-MARCH_KEY: March
+VERTICAL_ART_SETTING: Tata Letak Vertikal
+DIARY_DATE_LABEL: "{month}/{year} Buku Harian"
+NO_ACTIVE_BONUS: Tidak Ada Bonus Diaktifkan
+JANUARY_KEY: Januari
+FEBRUARY_KEY: Februari
+MARCH_KEY: Maret
 APRIL_KEY: April
-MAY_KEY: May
-JUNE_KEY: June
-JULY_KEY: July
-AUGUST_KEY: August
+MAY_KEY: Mei
+JUNE_KEY: Juni
+JULY_KEY: Juli
+AUGUST_KEY: Agustus
 SEPTEMBER_KEY: September
-OCTOBER_KEY: October
+OCTOBER_KEY: Oktober
 NOVEMBER_KEY: November
-DECEMBER_KEY: December
-SIGN_IN_DAY: "Day {day}"
-CHARACTER_ARCHIVE_TITLE: Character Archive
-USER_KEY_VALUE: "User: {user}"
-PLAYER_KEY_VALUE: "Player: {player}"
-TOTAL_WISHES_VALUE: "Total Wishes: {total_wishes}"
+DECEMBER_KEY: Desember
+SIGN_IN_DAY: "Hari {day}"
+CHARACTER_ARCHIVE_TITLE: Arsip Karakter
+USER_KEY_VALUE: "Pengguna: {user}"
+PLAYER_KEY_VALUE: "Pemain {player}"
+TOTAL_WISHES_VALUE: "Total Permohonan: {total_wishes}"
 FIVE_STAR_COUNT: "Five Stars: {five_star_count}"
 FOUR_STAR_COUNT: "Four Stars: {four_star_count}"
 GACHA_DATA_NOT_REAL: "*This data is not real."
 INVENTORY_KEY: Inventory
-CHARACTER_SUMMARY_KEY: Character Summary
+CHARACTER_SUMMARY_KEY: Ringkasan Karakter
 UNKNOWN_ADVENTURE_RANK: "Adventure Rank: N/A"
 ADVENTURE_RANK_VALUE: "Adventure Rank: {adventure_rank}"
 SERVER_KEY_VALUE: "Server: {server}"
 UID_KEY_VALUE: "UID: {uid}"
 HOYO_API_LIMITATION: "*Data may be inaccurate due to HoYoLAB API limitations."
 CHECK_IN_GAME: "See in-game for the most accurate information."
-HOYO_COMMISSION_KEY: "Commissions:"
+HOYO_COMMISSION_KEY: "Komisi:"
 HOYO_ADVENTURE_RANK_KEY: "Adventure Rank:"
-HOYO_DAILY_BONUS_STATUS: "Daily Sign-In:"
+HOYO_DAILY_BONUS_STATUS: "Login harian:"
 HOYO_RESIN_KEY: "Resin:"
 HOYO_TEAPOT_KEY: "Teapot:"
 HOYO_TRANSFORMER_KEY: "P. Transformer:"
-TRANSFORMER_READY_KEY: Ready
-TRANSFORMER_LOCKED_KEY: Locked
+TRANSFORMER_READY_KEY: Siap
+TRANSFORMER_LOCKED_KEY: Terkunci
 GENSHIN_STATS_KEY: Statistik Genshin
 STATS_TOTAL_ACHIEVEMENTS_KEY: "Total Achievements"
-STATS_TOTAL_ACTIVE_DAYS_KEY: "Total Active Days"
+STATS_TOTAL_ACTIVE_DAYS_KEY: "Total Hari Aktif"
 STATS_TOTAL_CHARACTERS_KEY: "Karakter"
 STATS_SPIRAL_ABYSS_KEY: "Spiral Abyss"
 STATS_REGION_KEY: "Region"
-STATS_WAYPOINTS_KEY: "Waypoints"
-STATS_DOMAINS_KEY: "Domains"
+STATS_WAYPOINTS_KEY: "Waypoint"
+STATS_DOMAINS_KEY: "Domain"
 ANEMOCULUS_KEY: Anemoculus
 GEOCULUS_KEY: Geoculus
 ELECTROCULUS_KEY: Electroculus
 DENDROCULUS_KEY: Dendroculus
-TRUST_RANK_KEY: Trust Rank
-ADEPTAL_ENERGY_KEY: Adeptal Energy
-ITEMS_KEY: Items
-TOTAL_ISLANDS_KEY: Total Islands
-TOTAL_PULLS_KEY: Total Pulls
-WISH_STATISTICS_KEY: Wish Statistics
-PERCENT_KEY: Percent
-FIVE_STAR_KEY: 5-Star
-FOUR_STAR_KEY: 4-Star
-THREE_STAR_KEY: 3-Star
-BOTTOM_KEY: Bottom
-TOP_KEY: Top
+TRUST_RANK_KEY: Peringkat Kepercayaan
+ADEPTAL_ENERGY_KEY: Energi Adeptal
+ITEMS_KEY: Item
+TOTAL_ISLANDS_KEY: Pulau Total
+TOTAL_PULLS_KEY: Total Pull
+WISH_STATISTICS_KEY: Statistik Permohonan
+PERCENT_KEY: Persen
+FIVE_STAR_KEY: 5-bintang
+FOUR_STAR_KEY: 4-bintang
+THREE_STAR_KEY: 3-bintang
+BOTTOM_KEY: Bawah
+TOP_KEY: Atas
 WISH_STAT_LESS_THAN: "Less pulls than {global_percentile}% of Genshin Wizard Users."
 WISH_STAT_MORE_THAN: "More pulls than {global_percentile}% of Genshin Wizard Users."
 FIVE_STAR_LUCK: "5-Star Luck"
@@ -1519,26 +1519,26 @@ FOUR_STAR_LUCK: "4-Star Luck"
 THREE_STAR_LUCK: "3-Star Luck"
 WISH_LUCK_LESS: "Less lucky than {rarity_percentile}% of Genshin Wizard Users."
 WISH_LUCK_MORE: "Luckier than {rarity_percentile}% of Genshin Wizard Users."
-CURRENT_LUNAR_PHASE: Current Lunar Phase
-PREVIOUS_LUNAR_PHASE: Previous Lunar Phase
-ABYSSAL_ARCHIVES: Abyssal Archives
-ELEMENTAL_SKILLS_CAST_LABEL: Elemental Skills Cast
-ELEMENTAL_BURSTS_UNLEASHED_LABEL: Elemental Bursts Unleashed
-STRONGEST_SINGLE_STRIKE_LABEL: Strongest Single Strike
-ACCOUNT_INFO_KEY: Account Info
+CURRENT_LUNAR_PHASE: Fase Bulan Saat Ini
+PREVIOUS_LUNAR_PHASE: Fase Bulan Sebelumnya
+ABYSSAL_ARCHIVES: Arsip Abyssal
+ELEMENTAL_SKILLS_CAST_LABEL: Elemental Skill Dikerahkan
+ELEMENTAL_BURSTS_UNLEASHED_LABEL: Elemental Burst Dilancarkan
+STRONGEST_SINGLE_STRIKE_LABEL: Serangan Terkuat
+ACCOUNT_INFO_KEY: Info akun
 CLASSIFIED_KEY: Classified
-INFORMATION_KEY: Information
-FROM_DIARY_NOTE: "-from {nickname}"
-TRAVELER_DIARY_KEY: Traveler's Diary
-NICKNAME_KEY_VALUE: "Nickname: {nickname}"
-DIARY_MONTH_OF_KEY: "Month of"
-ACQUIRED_MONTH_KEY: Acquired this month
+INFORMATION_KEY: Informasi
+FROM_DIARY_NOTE: "-dari {nickname}"
+TRAVELER_DIARY_KEY: Buku Harian Traveler
+NICKNAME_KEY_VALUE: "Niama panggilan: {nickname}"
+DIARY_MONTH_OF_KEY: "Bulan"
+ACQUIRED_MONTH_KEY: Diperoleh Bulan Ini
 TOTAL_MORA_KEY: Total Mora
-DIARY_MONTHLY_DESCRIPTION: "This month, your primary source for obtaining Primogems is through {source}, for a total of {primogem_count} Primogems, or {top_percentage}% of your total!"
-DIARY_DAILY_DESCRIPTION: Hey Traveler! You have earned {primogems} Primogems and {mora} Mora today, what a bountiful day!
-TOTAL_PRIMOGEMS_OBTAINED: Primogems Obtained
-DIARY_DATA_DELAYED: "*This data is delayed by about one hour, please check the updated records later"
-DIARY_DATA_SOURCE_DESCRIPTION: "*This diary only includes the resources obtained outside of top-ups"
+DIARY_MONTHLY_DESCRIPTION: "Bulan ini, sumber utamamu untuk mendapatkan Primogem adalah melalui {source}, dengan total {primogem_count} Primogem, atau {top_percentage}% dari total kamu!"
+DIARY_DAILY_DESCRIPTION: Hai Traveler! Kamu telah mendapatkan {primogems} Primogem dan {mora} Mora hari ini, sungguh hari yang luar biasa!
+TOTAL_PRIMOGEMS_OBTAINED: Primogem Diperoleh
+DIARY_DATA_DELAYED: "*Data ini tertunda sekitar satu jam, silakan periksa catatan yang diperbarui nanti"
+DIARY_DATA_SOURCE_DESCRIPTION: "*Buku harian ini hanya mencakup Resources yang diperoleh di luar top-up"
 REGION_EXPLORATION_STATUS: "Exploration Progress: {percentage}%"
 CHARACTER_CARDS_STATUS: "Character Cards: {owned_cards}/{total_cards}"
 ACTION_CARDS_STATUS: "Action Cards: {owned_cards}/{total_cards}"
