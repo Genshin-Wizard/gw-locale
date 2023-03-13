@@ -1013,7 +1013,7 @@ PREMIUM_USER_DETAILS: |
   **회원정보:**
   요금제: **{plan_name}**(계층 {plan_tier})
   갱신 날짜: {expiry}
-LINK_TO_PREMIUM: Genshin Wizard 프리미엄을 구입하려면 아래 링크를 클릭하십시오.
+LINK_TO_PREMIUM: 원신 위자드 프리미엄을 구입하려면 아래 링크를 클릭해줘!
 PATREON_KEY: Patreon(후원)
 PREMIUM_TIER_ONE_PERKS: |
   <:information:1034639378410115103> **프리미엄 혜택: $5 월 플랜**
@@ -1355,7 +1355,7 @@ PREMIUM_PLAN_TIER_ONE: "프리미엄 계획: 티어 1"
 PREMIUM_PLAN_TIER_TWO: "프리미엄 계획: 티어 2"
 PREMIUM_PLAN_TIER_THREE: "프리미엄 계획: 티어 3"
 PREMIUM_PLAN_TIER_FOUR: "프리미엄 계획: 티어 4"
-ART_SETTINGS_KEY: 아트 설정
+ART_SETTINGS_KEY: 캐릭터 정보 설정
 CUSTOM_ROLE_KEY: 커스텀 역할
 ADD_PREMIUM_SERVERS_BUTTON: 프리미엄 서버를 추가
 ADD_PREMIUM_SERVER_BUTTON: 프리미엄 서버 추가
@@ -1439,17 +1439,17 @@ CHRONICLE_PRIVACY_PLACEHOLDER: "나선 정보 설정"
 LEADERBOARD_FILTER_PLACEHOLDER: "리더보드 조건을 선택"
 VIEW_ABYSS_TEAM: 나선비경 편성 보기
 MANAGE_ART_SETTING_KEY: 캐릭터 프로필 관리
-DEFAULT_ART_SETTING: 기본 프로필 설정
-ENKA_ART_SETTING: Enka.Network 표시 수정
-ART_SETTING_TITLE: Genshin Wizard 프로필 설정
-ART_SETTING_DESCRIPTION: 여기서 여행자의 </info:{command_id}> 프로필을 관리할 수 있어.
+DEFAULT_ART_SETTING: 기본 레이아웃
+ENKA_ART_SETTING: Enka.Network 레이아웃
+ART_SETTING_TITLE: 원신 위자드 캐릭터 정보 설정
+ART_SETTING_DESCRIPTION: 여기서 여행자의 </info:{command_id}> 설정을 변경할 수 있어.
 ART_LAYOUT_STYLE: "레이아웃 설정"
 ART_CHARACTER_STYLE: "캐릭터 프로필"
 RESET_PROFILE_SETTINGS: 프로필 설정 초기화
 CHOOSE_ART_LAYOUT: "프로필 레이아웃을 선택..."
 MANAGE_CACHED_DATA: 캐시 데이터 관리
 INFO_COMMAND_SETTING_NOT_OWNER: '여행자, 캐릭터 이미지를 수정하는건 여행자 소유의 캐릭터들만 가능해! 좀 더 자세한 내용은 다음 명령어를 이용해서 확인해줘!: </info:{command_id}>'
-VERTICAL_ART_SETTING: 수직 카드 레이아웃
+VERTICAL_ART_SETTING: 세로형 레이아웃
 DIARY_DATE_LABEL: "{year}/{month} 여행자 핸드북"
 NO_ACTIVE_BONUS: No Activated Bonuses
 JANUARY_KEY: January
@@ -1472,28 +1472,28 @@ TOTAL_WISHES_VALUE: "총 기원: {total_wishes}"
 FIVE_STAR_COUNT: "총 5성: {five_star_count}"
 FOUR_STAR_COUNT: "총 4성: {four_star_count}"
 GACHA_DATA_NOT_REAL: "*This data is not real."
-INVENTORY_KEY: Inventory
-CHARACTER_SUMMARY_KEY: Character Summary
-UNKNOWN_ADVENTURE_RANK: "Adventure Rank: N/A"
-ADVENTURE_RANK_VALUE: "Adventure Rank: {adventure_rank}"
-SERVER_KEY_VALUE: "Server: {server}"
-UID_KEY_VALUE: "UID: {uid}"
+INVENTORY_KEY: 인벤토리
+CHARACTER_SUMMARY_KEY: 캐릭터 요약
+UNKNOWN_ADVENTURE_RANK: "모험 랭킹:"
+ADVENTURE_RANK_VALUE: "모험랭킹:"
+SERVER_KEY_VALUE: "서버:"
+UID_KEY_VALUE: "UID:"
 HOYO_API_LIMITATION: "*Data may be inaccurate due to HoYoLAB API limitations"
 CHECK_IN_GAME: "See in-game for the most accurate information"
-HOYO_COMMISSION_KEY: "Commissions:"
-HOYO_ADVENTURE_RANK_KEY: "Adventure Rank:"
-HOYO_DAILY_BONUS_STATUS: "Daily Sign-In:"
-HOYO_RESIN_KEY: "Resin:"
-HOYO_TEAPOT_KEY: "Teapot:"
-HOYO_TRANSFORMER_KEY: "P. Transformer:"
-TRANSFORMER_READY_KEY: Ready
-TRANSFORMER_LOCKED_KEY: Locked
+HOYO_COMMISSION_KEY: "의뢰 임무"
+HOYO_ADVENTURE_RANK_KEY: "모험 등급"
+HOYO_DAILY_BONUS_STATUS: "일일 출석"
+HOYO_RESIN_KEY: "레진:"
+HOYO_TEAPOT_KEY: "선계:"
+HOYO_TRANSFORMER_KEY: "매개변수변환기"
+TRANSFORMER_READY_KEY: 준비
+TRANSFORMER_LOCKED_KEY: 잠금
 GENSHIN_STATS_KEY: 원신 스텟
-STATS_TOTAL_ACHIEVEMENTS_KEY: "Total Achievements"
+STATS_TOTAL_ACHIEVEMENTS_KEY: "총 업적"
 STATS_TOTAL_ACTIVE_DAYS_KEY: "Total Active Days"
 STATS_TOTAL_CHARACTERS_KEY: "캐릭터"
-STATS_SPIRAL_ABYSS_KEY: "Spiral Abyss"
-STATS_REGION_KEY: "Region"
+STATS_SPIRAL_ABYSS_KEY: "나선비경"
+STATS_REGION_KEY: "지역"
 STATS_WAYPOINTS_KEY: "워프포인트"
 STATS_DOMAINS_KEY: "비경"
 ANEMOCULUS_KEY: 바람신의눈
@@ -1504,12 +1504,12 @@ TRUST_RANK_KEY: Trust Rank
 ADEPTAL_ENERGY_KEY: Adeptal Energy
 ITEMS_KEY: 아이템
 TOTAL_ISLANDS_KEY: Total Islands
-TOTAL_PULLS_KEY: Total Pulls
+TOTAL_PULLS_KEY: 총 기원
 WISH_STATISTICS_KEY: Wish Statistics
-PERCENT_KEY: Percent
-FIVE_STAR_KEY: 5-Star
-FOUR_STAR_KEY: 4-Star
-THREE_STAR_KEY: 3-Star
+PERCENT_KEY: 퍼센트
+FIVE_STAR_KEY: 5성
+FOUR_STAR_KEY: 4성
+THREE_STAR_KEY: 3성
 BOTTOM_KEY: Bottom
 TOP_KEY: Top
 WISH_STAT_LESS_THAN: "Less pulls than {global_percentile}% of Genshin Wizard Users."
