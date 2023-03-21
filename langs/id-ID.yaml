@@ -32,9 +32,9 @@ VOTE_KEY: Vote
 VOTE_BOT: Vote Bot
 VOTE_SERVER: Vote Server
 VOTE_BOT_LINK: Tautan vote Bot
-VOTE_SERVER_LINK: Tautan undi Server
-VOTE_BOT_BUTTON: Undi [Bot]
-VOTE_SERVER_BUTTON: Undi [Server]
+VOTE_SERVER_LINK: Tautan Vote Server
+VOTE_BOT_BUTTON: Vote [Bot]
+VOTE_SERVER_BUTTON: Vote [Server]
 DEVELOPERS_KEY: Developer
 SERVER_KEY: Server
 SERVERS_KEY: Servers
@@ -87,7 +87,7 @@ MATH_COMMAND_RESULT: |
   **Ekspresi:** `{expression}`
   **Hasil**
   ```{result}```
-RECENT_GENSHIN_EVENTS: Perkara Terkini Genshin
+RECENT_GENSHIN_EVENTS: Event Genshin saat ini
 SEND_CODES_COMMAND_TITLE: Genshin Wizard | Kode Aktif
 SEND_CODES_COMMAND_DESCRIPTION: |
   <:blurplelink:1020155547187691600> [***Dapat di redeem dengan klik tombol dibawah***](https://genshin.mihoyo.com/en/gift)
@@ -96,7 +96,7 @@ SEND_CODES_COMMAND_DESCRIPTION: |
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
 SEND_CODES_REDEEM_AUTOMATICALLY: Tebus Secara Otomatis
 SEND_CODES_DIRECT_LINK: Tautan Langsung
-SEND_CODES_REDEEMABLE_CODES: Kode yang Dapat Ditebus
+SEND_CODES_REDEEMABLE_CODES: Kode yang Dapat Ditukar
 SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Kode penebusan
 SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Berhasil mengirim kode redeem ke {channel}!
 MESSAGE_LINK: Tautan Pesanan
@@ -144,7 +144,7 @@ ERROR_MISSING_REQUIRED_ATTACHMENT: "Anda lupa memberikan lampiran, harap gunakan
 ERROR_MISSING_MANAGE_MESSAGE: Hai Traveler, saya tidak memiliki izin untuk `Mengelola Pesan` dalam channel/guild ini. Harap aktifkan izin ini dan coba lagi.
 ERROR_MISSING_SEND_MESSAGE: Hai Traveler, saya tidak memiliki izin untuk `Mengirim Pesanan` dalam channel/guild ini. Harap aktifkan izin ini dan coba lagi.
 MESSAGE_KEY: Hapus Pesan
-ERROR_EMPTY_BACKPACK: Ranselmu **kosong**! Untuk memulai perjalanan kamu, gunakan perintah </wishsimulator:{command_id}>!
+ERROR_EMPTY_BACKPACK: Backpack Anda **kosong**! Untuk memulai perjalanan Anda, gunakan perintah </wishsimulator:{command_id}>!
 ERROR_INTERACTION_MISMATCH: Hai Traveler! Ini ** bukan interaksi Anda ** untuk disentuh! Gunakan perintah {command} jika kamu ingin menggunakan perintah ini untuk diri kamu sendiri!
 ERROR_MESSAGE: Ada kesalahan!
 FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Saranan
@@ -200,7 +200,7 @@ APP_COMMAND_UNLINK_DESCRIPTION: Putuskan tautan akun Genshin kamu dan hapus semu
 APP_COMMAND_REMINDERS_DESCRIPTION: Siapkan pengingat untuk memberi tahu resin, teko, dan ekspedisi.
 APP_COMMAND_RESIN_DESCRIPTION: Siapkan pengingat Resin untuk memberi tahu kamu saat resin kamu diisi ulang.
 APP_COMMAND_GACHA_DESCRIPTION: Tampilkan infografis terbaru yang menampilkan seluruh riwayat keinginan kamu untuk baner yang ditentukan.
-APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Uji keberuntungan gacha Anda dengan Genshin Wish Simulator!
+APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Coba keberuntungan gacha Anda dengan Genshin Wish Simulator!
 APP_COMMAND_INVENTORY_DESCRIPTION: Lihat inventaris Genshin Wizard virtual Anda.
 APP_COMMAND_SHOP_DESCRIPTION: Lihat Toko Genshin Wizard Anda.
 APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: Lihat Arsip Karakter Genshin Wizard Anda.
@@ -386,11 +386,11 @@ LINK_HOYOLAB_DESCRIPTION: |
   Selamat datang di sistem penautan akun HoYoLAB Genshin Wizard.
 
   **Fitur Penautan:**
-  > **1.** Akses ke hitungan resin dalam game anda mengikut waktu terkini (atur pemberitahuan otomatis).
-  > **2.** Akses ke status ekspedisi dalam game anda mengikut waktu terkini.
-  > **3.** Kemampuan untuk mengklaim *Hadiah Login Harian* anda langsung dari Discord.
-  > **4.** Kemampuan untuk melihat informasi mendalam tentang perkembangan Spiral Abyss anda.
-  > **5.** Lihat infografis yang berisi **semua** karakter anda yang tersedia.
+  > **1.** Akses ke hitungan resin dalam game mengikut waktu terkini (pemberitahuan otomatis).
+  > **2.** Akses ke ekspedisi dari dalam game mengikut waktu terkini.
+  > **3.** Kemampuan untuk mengklaim *Hadiah Misi Harian* langsung dari Discord.
+  > **4.** Kemampuan untuk melihat informasi mendalam tentang perkembangan Spiral Abyss.
+  > **5.** Melihat informasi yang berisi **semua** karakter yang tersedia.
 
   Untuk memulai, klik salah satu opsi pendaftaran pengguna di bawah ini!
 HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Login Harian Otomatis
@@ -418,7 +418,7 @@ HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> Terdapat kesalahan
 HOYOLAB_ACCOUNT_ERROR: Terjadi kesalahan saat mengambil informasi akunmu! Silakan coba lagi *nanti*.
 HOYOLAB_ACCOUNT_MANAGE: Kelola akun HoYoLAB Anda melalui Genshin Wizard
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Ringkasan Karakter
-CHARACTER_SUMMARY_NOT_FULL: Ringkasan Karakter anda berdasarkan pada riwayat permohonan gacha Anda. Untuk melihat Ringkasan Karakter anda yang lengkap dan paling akurat (level, pertemanan, konstelasi, dan level AR), silakan tautkan menggunakan /Mendaftar/Register!
+CHARACTER_SUMMARY_NOT_FULL: Ringkasan Karakter Anda diatur berdasarkan riwayat permohonan gacha Anda. Untuk melihat Ringkasan Karakter Anda lebih lengkap dan paling akurat (level, persahabatan, konstelasi, dan level AR), silakan tautkan menggunakan /register!
 GCG_NO_CARDS_FOUND: Tidak Ada Kartu yang Ditemukan!
 GCG_NO_CARDS_FOUND_DESCRIPTION: Hai Traveler! Sayangnya, {member} belum memiliki **kartu**! Masuk ke game dan mainkan beberapa TCG di Genshin Impact *sebelum* menggunakan perintah ini.
 HOYOLAB_REGISTER_SCRIPT_TITLE: Registrasi | Metode Skrip
@@ -478,7 +478,7 @@ IMPORT_COMMAND_LOG: |
   > Bintang 3: `{three_star}`
   > Bintang 4: `{four_star}`
   > Bintang 5: `{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: Anda harus sudah **terdaftar** untuk mengimpor riwayat permohonan yang sudah ada sebelumnya! Coba impor lagi setelah mendaftar menggunakan perintah </register:{command_id}>.
+IMPORT_COMMAND_NOT_REGISTERED: Anda harus **terdaftar** untuk mengimpor riwayat permohonan yang sudah ada sebelumnya! Coba impor lagi setelah mendaftar menggunakan perintah </register:{command_id}>.
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: Tautan Riwayat Tamat!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Tautan riwayat anda telah **tamat**! Segarkan menggunakan perintah </refresh:{command_id}> sebelum coba untuk mengimpor!
 IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: Jenis file ini **tidak didukung**. Jika anda mencoba mengimpor data dari `Paimon.moe`, pastikan anda mengunduh lembar **excel** dari pengaturan halaman [Wish Counter](https://paimon.moe/wish). Lihat [**Dokumentasi**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) kami untuk informasi lebih lanjut.
@@ -588,8 +588,8 @@ PREVIOUS_ABYSS_DESCRIPTION: |
   **Fase Lunar Sebelumnya**
   **Waktu Mulai:** <t:{timestamp_start}:F>
   **Waktu Berakhir:** <t:{timestamp_end}:F>
-ABYSS_COMMAND_FOOTER: "Catatan: Data abyss mungkin ditampilkan secara tidak benar atau tidak ada data, jika ini terjadi, perlu diingat bahwa data abyss biasanya membutuhkan waktu antara 1-3 jam untuk diperbarui!"
-ABYSS_MISSING_DATA_FOOTER: "Catatan: Data ini tampaknya kehilangan beberapa informasi! Ini mungkin karena informasi ini belum disimpan di database sebelumnya, atau data belum diperbarui."
+ABYSS_COMMAND_FOOTER: "Catatan: Data abyss mungkin tidak akurat atau tidak ada data, jika ini terjadi, perlu diingat bahwa data abyss biasanya membutuhkan waktu antara 1-3 jam untuk diperbarui!"
+ABYSS_MISSING_DATA_FOOTER: "Catatan: Sepertinya data ini kehilangan beberapa informasi! Mungkin karena informasi ini belum disimpan di database sebelumnya, atau data belum diperbarui."
 ABYSSAL_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Arsip Abyssal**
   **Waktu Mulai:** <t:{timestamp_start}:F>
@@ -701,8 +701,8 @@ UNLINK_EVERYTHING: Putuskan Semua Tautan
 UNLINK_EVERYTHING_BRIEF: Metode ini akan menghapus **semuanya** dari Genshin Wizard.
 UNLINK_EVERYTHING_DESCRIPTION: Metode ini akan menghapus semua tautan dari Genshin Wizard. Tindakan ini **tidak dapat diubah**. Apakah anda yakin ingin melanjutkan?
 UNLINKING_CONFIRMATION: Anda telah **berhasil menghapus tautan** data yang diminta dari Genshin Wizard!
-UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: UID ini **sudah terdaftar** ke pengguna lain! Jika Anda yakin ini adalah kesalahan, harap hubungi [**Dukungan Genshin Wizard**](https://discord.gg/BTT5Zr7Dmp)!"
-USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: Anda **sudah terdaftar** ke UID yang berbeda! Jika Anda ingin mendaftar menggunakan akun lain, harap gunakan </unlink:{command_id}> sebelum mencoba mendaftar lagi."
+UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: UID ini **sudah terdaftar** oleh pengguna lain! Jika Anda yakin ini adalah kesalahan, harap hubungi [**Dukungan Genshin Wizard**](https://discord.gg/BTT5Zr7Dmp)!"
+USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: Anda **sudah mendaftar** ke UID yang berbeda! Jika Anda ingin mendaftar menggunakan akun lain, harap gunakan </unlink:{command_id}> sebelum mencoba daftar lagi."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Pendaftaran Genshin Wizard
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Daftarkan akun Genshin kamu ke Genshin Wizard.
 HOYOLAB_ACCOUNT: Akun HoYoLAB
@@ -866,7 +866,7 @@ GENSHIN_WIZARD_SHOP_DESCRIPTION: |
 
   <:GreyPin:949815085335986246> **__TOKO SAAT INI__ [ Harga | Barang ]**
 SIMULATOR_NO_PRIMOGEMS: |
-  <:Error:1021889679857037372> Hai Traveler, Anda tidak memiliki **primogems** lagi untuk hari ini! Anda membutuhkan setidaknya <:Primogem:951924423340994610>**1.600** primogem untuk melakukan *satu* sepuluh penarikan lagi. Untuk melihat saldo Anda saat ini, gunakan perintah **</balance:{balance_id}>**.
+  <:Error:1021889679857037372> Hai Traveler, Anda tidak memiliki **primogem** lagi untuk hari ini! Dibutuhkan setidaknya <:Primogem:951924423340994610>**1.600** primogem untuk melakukan *sekali* sepuluh penarikan lagi. Untuk melihat saldo Anda saat ini, gunakan perintah **</balance:{balance_id}>**.
 
   **__Perlu Isi Ulang?__**
   <:blurplelink:1020155547187691600> [**Pilih Bot Wizard Genshin [8.000 Primogem]**](https://top.gg/bot/782099719718699009/vote)
@@ -885,7 +885,7 @@ WISH_RESULTS_DESCRIPTION: |
   Saldo Baru:** <:Primogem:951924423340994610>{balance} Primogem
 NONE_KEY: Tidak ada
 SIMULATOR_TITLE: Genshin Wizard Gacha Simulator
-SIMULATOR_ALREADY_CLAIMED: ":no_entry: Anda telah **__sudah mengklaim__** hadiah Komisi Harian Anda hari ini! Akan ada komisi baru <t:{time}:R>."
+SIMULATOR_ALREADY_CLAIMED: ":no_entry: Anda **__sudah mengklaim__** hadiah Misi Harian hari ini! Akan ada misi baru dalam <t:{time}:R>."
 COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> Sebagai **Petualang** dari [**Genshin Wizard Guild**](https://discord.gg/genshinwizard), Anda telah mendapatkan tambahan **16.000 Primogem** <:Primogem:951924423340994610> sebagai hasil dari ekspedisi yang sedang berlangsung!"
 COMMISSION_ADVENTURER_REWARD_UNRECEIVED: "> <:GreyPin:949815085335986246> Jadilah **Petualang** dari [**Genshin Wizard Guild**](https://discord.gg/genshinwizard) untuk mendapatkan hadiah ekstra saat menyelesaikan Komisi Harian!"
 COMMISSION_PREMIUM_EXTRA_REWARD: "> <a:mona_mora:1046611739774562374> Sebagai **Anggota Premium** [**Genshin Wizard**](https://patreon.com/genshinwizard), Anda telah mendapatkan hadiah **{primogems} Primogem ekstra ** <:Primogem:951924423340994610> sebagai hasil dari dukungan Anda!"
@@ -919,10 +919,10 @@ SIMULATOR_NOT_ENOUGH_STARDUST: <:Error:1021889679857037372> Anda tidak memiliki 
 SIMULATOR_NOT_ENOUGH_STARGLITTER: <:Error:1021889679857037372> Anda tidak memiliki cukup **<:MasterlessStarglitter:951924423059980290> Starglitter** untuk membeli item ini!
 SIMULATOR_PURCHASED_PRIMOGEMS: <:yescheck:1021114525858136074> Anda telah berhasil membeli **<:Primogem:951924423340994610>{primogems} Primogem** untuk **{emote} {price} {item}**!
 SIMULATOR_TOO_FAST: Anda terlalu terburu-buru! Coba lagi dalam **{time}** detik.
-SIMULATOR_BEGIN_JOURNEY: "{user}, you have no characters in your inventory. Use the </wishsimulator:{command_id}> command to test your luck!"
-SIMULATOR_DUMP_UNSUCCESSFUL: Oops! Dumping your backpack was unsuccessful, there was an error. Please try again or contact a staff member!
-SIMULATOR_DUMP_SUCCESSFUL: <:yescheck:1021114525858136074> You have successfully dumped your inventory!
-SIMULATOR_DUMP_CANCELLED: "**<:yescheck:1021114525858136074> Successfully Cancelled!**"
+SIMULATOR_BEGIN_JOURNEY: "{user}, Anda tidak memiliki karakter di inventory Anda. Gunakan perintah </wishsimulator:{command_id}> untuk mencoba keberuntungan Anda!"
+SIMULATOR_DUMP_UNSUCCESSFUL: Waduh! Tidak berhasil membuang backpack Anda, karena terdapat kesalahan. Harap coba lagi atau hubungi staff member!
+SIMULATOR_DUMP_SUCCESSFUL: <:yescheck:1021114525858136074> Berhasil membuang inventory Anda!
+SIMULATOR_DUMP_CANCELLED: "**<:yescheck:1021114525858136074> Berhasil membatalkan!**"
 FARM_COMMAND_DOMAIN_TITLE: Ringkasan Jadwal Domain [{region}]
 SERVER_RESET_KEY: Reset Server
 ARTIFACT_GUIDE_FOOTER: Gunakan perintah /artifact <name_of_artifact> untuk mendapatkan informasi lebih lanjut tentang artefak.
@@ -1078,50 +1078,50 @@ ROLE_REQUIREMENTS_NOT_MET: |
   None of your characters meet any of the **role requirements**!
 
   Please try using this command later when your character fulfills the necessary **requirements** or update the characters in your *in-game showcase*.
-SUCCESSFULLY_ADDED_ROLE: Successfully added {role} role to user!
-SUCCESSFULLY_UPDATED_ROLES: "**Successfully** updated user's roles!"
+SUCCESSFULLY_ADDED_ROLE: Berhasil menambahkan {role} role!
+SUCCESSFULLY_UPDATED_ROLES: "**Berhasil** memperbarui user role!"
 CHARACTER_REQUIREMENTS_NOT_MET: |
-  The character `{name}` does not meet any of the **role requirements**!\n\nPlease try using this command later when your character fulfills the necessary **requirements**.
+  Karakter `{name}` tidak memenuhi salah satu **persyaratan role**!\n\nHarap coba gunakan perintah ini lagi nanti saat karakter Anda memenuhi **persyaratan** yang diperlukan.
 CHARACTER_NOT_IN_SHOWCASE: Karakter `{name}` tidak ditemukan di etalase karakter dalam game Anda!
 GACHA_COMMAND_LINK_EXPIRED: Tautan riwayat Permohonanmu telah kedaluwarsa! Gunakan `/refresh` untuk memperbarui riwayat permohonan kamu.
 GACHA_COMMAND_LINK_EXPIRED_FOOTER: "Catatan: Perlu diingat, karena tautan riwayat permohonanmu telah kedaluwarsa, informasi di atas mungkin tidak akurat. Untuk memperbarui riwayat permohonanmu, disarankan untuk memperbarui tautan riwayat permohonan menggunakan perintah /refresh!"
 SOMETHING_WENT_WRONG: Terjadi kesalahan!
 SOMETHING_WENT_WRONG_FOOTER: Jika kesalahan ini berlanjut, harap hubungi administrator bot!
-GACHA_NO_BANNER_WISHES: You have no wishes for {banner} banner!
+GACHA_NO_BANNER_WISHES: Tidah ada wish untuk banner {banner}!
 GACHA_SUMMARY_FOOTER: "Rangkuman Permohonan Genshin untuk: {user}"
 GENSHIN_WISH_SUMMARY: Statistik Permohonan Genshin
 SLASH_COMMAND_NEED_HELP: |
-  <:blurpleannouncement:1020402170127982712> **HAVING ISSUES? FEAR NOT!** <:KeqingHeart:952837574878199808>
+  <:blurpleannouncement:1020402170127982712> **ADA MASALAH? KATAKAN TIDAK!** <:KeqingHeart:952837574878199808>
 
-  Hello Traveler, it looks like you're having difficulty using **slash commands**!
+  Halo Traveler, sepertinya terdapat masalah ketika menggunakan **perintah garis miring**!
 
-  Remember to **__click__** on the command you want to use and keep in mind that you **do not** have to pass your own name as a parameter!
+  Harap diingat untuk **__click__** pada perintah yang Anda inginkan untuk digunakan dan harap ingat bahwa Anda **tidak harus** memberikan nama Anda sendiri sebagai parameter!
 
-  <a:7094whitecheck:1020160260637462618> Happy Wishing Fellow Traveler,
+  <a:7094whitecheck:1020160260637462618> Salam Sejahtera Rekan Traveler,
   Paimon
-SLASH_COMMAND_HELP_GUIDE: <:verifiedlight:939225784936202241> For **help**, use the </help:982685016012226590> command!
-GENSHIN_WIZARD_SERVER_JOIN_TITLE: Genshin Wizard has arrived!
+SLASH_COMMAND_HELP_GUIDE: <:verifiedlight:939225784936202241> Untuk **bantuan**, gunakan perintah </help:982685016012226590>!
+GENSHIN_WIZARD_SERVER_JOIN_TITLE: Genshin Wizard telah tiba!
 GENSHIN_WIZARD_SERVER_JOIN_DESCRIPTION: |
-  Hello Traveler! Thank you for inviting **Genshin Wizard** to your humble abode. Some things to note before getting started:
+  Halo Traveler! Terima kasih telah mengundang **Genshin Wizard** ke tempat Anda ini. Beberapa hal yang perlu diperhatikan sebelum memulai:
 
-  **Command Prefix:** `g!` or `/`
-  > Congratulations! This server is the **{guilds}** server to invite Genshin Wizard! 🎉
+  **Perintah (Command Prefix):** `g!` atau `/`
+  > Selamat! Server ini adalah server **{guilds}** untuk mengundang Genshin Wizard! 🎉
 
-  For more information on how to use me, refer to our [**Documentation**](https://docs.genshinwizard.com/) or use the </help:{command_id}> command!
+  Info lebih lanjut cara menggunakan saya, harap membaca [**Dokumentasi**] kami(https://docs.genshinwizard.com/) atau gunakan perintah </help:{command_id}>!
 SHOWCASE_KEY: Showcase
-CUSTOM_ART_KEY: Custom Art
-DELETE_SELECTED_KEY: Delete Selected
-DELETE_ALL_KEY: Delete All
-CANCEL_KEY: Cancel
-CACHE_VIEW_NO_SAVED_CHARACTERS: No Saved Characters!
+CUSTOM_ART_KEY: Gambar Custom
+DELETE_SELECTED_KEY: Hapus yang dipilih
+DELETE_ALL_KEY: Hapus semua
+CANCEL_KEY: Batal
+CACHE_VIEW_NO_SAVED_CHARACTERS: Tidak ada karakter yang tersimpan!
 THREE_STARS_KEY: Bintang 3
 FOUR_STARS_KEY: Bintang 4
 FIVE_STARS_KEY: Bintang 5
 ALL_WISHES_KEY: Semua Permohonan
-THREE_STARS_FILTER_DESCRIPTION: Filter your wish history by three-star pulls.
-FOUR_STARS_FILTER_DESCRIPTION: Filter your wish history by four-star pulls.
-FIVE_STARS_FILTER_DESCRIPTION: Filter your wish history by five-star pulls.
-ALL_WISHES_FILTER_DESCRIPTION: View all your wishes without any rarity filters.
+THREE_STARS_FILTER_DESCRIPTION: Filter riwayat wish dengan three-star.
+FOUR_STARS_FILTER_DESCRIPTION: Filter riwayat wish dengan four-star.
+FIVE_STARS_FILTER_DESCRIPTION: Filter riwayat wish dengan five-star.
+ALL_WISHES_FILTER_DESCRIPTION: Tampilkan semua wish Anda tanpa rarity filter.
 NOVICE_BANNER_DESCRIPTION: Lihat ringkasan permohanan untuk banner pemula.
 CHARACTER_BANNER_DESCRIPTION: Lihat ringkasan permohanan untuk banner karakter.
 WEAPON_BANNER_DESCRIPTION: Lihat ringkasan permohanan untuk banner senjata.
@@ -1220,7 +1220,7 @@ PYRO_KEY: Pyro
 RESET_SETTINGS_BUTTON: Atur Ulang Pengaturan
 MASTER_PRIVACY_BUTTON: Master Privacy
 UPDATE_BANNER_MODAL_TITLE: Update Banner
-UPDATE_BANNER_MODAL_URL_INPUT: Link to desired image for banner
+UPDATE_BANNER_MODAL_URL_INPUT: Tautkan ke gambar yang diinginkan untuk banner
 UPDATE_BANNER_MODAL_URL_PLACEHOLDER: https://some.link/to/image.png
 UPDATE_BIO_MODAL_TITLE: Perbarui Bio
 UPDATE_BIO_MODAL_LABEL: Deskripsi singkat tentangmu. (200 karakter)
@@ -1268,8 +1268,8 @@ RETURN_TO_MENU: Kembali ke Menu Utama
 SHOW_UNOWNED_KEY: Tampilkan yang Tidak Dimiliki
 SHOW_OWNED_KEY: Tampilkan yang Dimiliki
 SHOP_BUTTON_LABEL: "{primogem_price} Primogems"
-REROLL_WISHES_BUTTON: Reroll Wishes
-VIEW_INVENTORY_BUTTON: View Inventory
+REROLL_WISHES_BUTTON: Reroll Wish
+VIEW_INVENTORY_BUTTON: Tampilkan Inventory
 REGION_SELECT_PLACEHOLDER: Pilih region...
 AMERICA_KEY: Amerika
 EUROPE_KEY: Eropa
@@ -1307,18 +1307,18 @@ MASTER_SWITCH_BUTTON: Aktifkan/Nonaktifkan Semua
 SWITCH_BUTTON: Aktifkan/Nonaktifkan
 PING_ROLE_BUTTON: Ping Role
 TEST_KEY: Tes
-DAILY_ANNOUNCEMENT_MODAL_TITLE: Daily Announcements Integration
+DAILY_ANNOUNCEMENT_MODAL_TITLE: Pemberitahuan Integrasi Harian
 DAILY_ANNOUNCEMENT_AMERICA_PING_ROLE: America Ping Role ID
 DAILY_ANNOUNCEMENT_EUROPE_PING_ROLE: Europe Ping Role ID
 DAILY_ANNOUNCEMENT_ASIA_PING_ROLE: Asia Ping Role ID
 DAILY_ANNOUNCEMENT_SAR_PING_ROLE: SAR Ping Role ID
-DAILY_ANNOUNCEMENT_CHANNEL: Announcement Channel ID
-MODAL_ROLE_ID_PLACEHOLDER: Insert Desired Role ID here...
-MODAL_CHANNEL_ID_PLACEHOLDER: Insert Desired Channel ID here...
-MODAL_ROLE_OR_CHANNEL_ID_PLACEHOLDER: Insert Desired Channel/Role ID here...
-MODAL_ROLE_NAME_PLACEHOLDER: Insert desired role name here...
-RESEND_BUTTON: Resend
-PANEL_UPDATE_INTEGRATION_TITLE: Update Genshin Wizard Integration
+DAILY_ANNOUNCEMENT_CHANNEL: Pemberitahuant Channel ID
+MODAL_ROLE_ID_PLACEHOLDER: Masukan ID Role yang diinginkan...
+MODAL_CHANNEL_ID_PLACEHOLDER: Masukan ID Channel yang diinginkan...
+MODAL_ROLE_OR_CHANNEL_ID_PLACEHOLDER: Masukan ID Channel/Role yang diinginkan...
+MODAL_ROLE_NAME_PLACEHOLDER: Masukan nama role yang diinginkan...
+RESEND_BUTTON: Kirim ulang
+PANEL_UPDATE_INTEGRATION_TITLE: Perbarui Integrasi Genshin Wizard
 PARTNER_ABYSS_ROLE_BUTTON: Abyss Role
 PARTNER_ABYSS_REWARD_BUTTON: Hadiah Abyss
 PARTNER_ABYSS_CONGRATULATORY_MESSAGE: Pesan ucapan selamat
@@ -1438,7 +1438,7 @@ RARITY_FILTER_PLACEHOLDER: "Pilih filter kelangkaan..."
 CHRONICLE_PRIVACY_PLACEHOLDER: "Kelola setelan privasi Battle Chronicle..."
 LEADERBOARD_FILTER_PLACEHOLDER: "Pilih filter untuk leaderboard ini..."
 VIEW_ABYSS_TEAM: Melihat Tim Abyss
-MANAGE_ART_SETTING_KEY: Manage Art Settings
+MANAGE_ART_SETTING_KEY: Atur Gambar
 DEFAULT_ART_SETTING: Layout Default
 ENKA_ART_SETTING: Layout Enka.Network
 ART_SETTING_TITLE: Pengaturan Seni Genshin Wizard
@@ -1448,7 +1448,7 @@ ART_CHARACTER_STYLE: "Seni Karakter"
 RESET_PROFILE_SETTINGS: Atur Ulang Pengaturan Profil
 CHOOSE_ART_LAYOUT: "Pilih gaya tata letak Art..."
 MANAGE_CACHED_DATA: Kelola Data Cached
-INFO_COMMAND_SETTING_NOT_OWNER: You can only manage art settings for your own characters! Use the </info:{command_id}> for more information!
+INFO_COMMAND_SETTING_NOT_OWNER: Anda dapat mengatur gambar untuk karakter Anda sendiri! Gunakan </info:{command_id}> untuk info lebih lanjut!
 VERTICAL_ART_SETTING: Tata Letak Vertikal
 DIARY_DATE_LABEL: "{month}/{year} Buku Harian"
 NO_ACTIVE_BONUS: Tidak Ada Bonus Diaktifkan
@@ -1469,8 +1469,8 @@ CHARACTER_ARCHIVE_TITLE: Arsip Karakter
 USER_KEY_VALUE: "Pengguna: {user}"
 PLAYER_KEY_VALUE: "Pemain {player}"
 TOTAL_WISHES_VALUE: "Total Permohonan: {total_wishes}"
-FIVE_STAR_COUNT: "Five Stars: {five_star_count}"
-FOUR_STAR_COUNT: "Four Stars: {four_star_count}"
+FIVE_STAR_COUNT: "Bintang 5: {five_star_count}"
+FOUR_STAR_COUNT: "Bintang 4: {four_star_count}"
 GACHA_DATA_NOT_REAL: "*Data ini tidak nyata."
 INVENTORY_KEY: Inventory
 CHARACTER_SUMMARY_KEY: Ringkasan Karakter
@@ -1519,8 +1519,8 @@ FOUR_STAR_LUCK: "Keberuntungan 4 Bintang"
 THREE_STAR_LUCK: "Keberuntungan 3 Bintang"
 WISH_LUCK_LESS: "Kurang beruntung dari {rarity_percentile}% Pengguna Genshin Wizard."
 WISH_LUCK_MORE: "Lebih beruntung dari {rarity_percentile}% Pengguna Genshin Wizard."
-CURRENT_LUNAR_PHASE: Fase Bulan Saat Ini
-PREVIOUS_LUNAR_PHASE: Fase Bulan Sebelumnya
+CURRENT_LUNAR_PHASE: Fase Lunar Saat Ini
+PREVIOUS_LUNAR_PHASE: Fase Lunar Sebelumnya
 ABYSSAL_ARCHIVES: Arsip Abyssal
 ELEMENTAL_SKILLS_CAST_LABEL: Elemental Skill Dikerahkan
 ELEMENTAL_BURSTS_UNLEASHED_LABEL: Elemental Burst Dilancarkan
