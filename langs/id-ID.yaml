@@ -964,64 +964,64 @@ START_KEY: Mulai
 END_KEY: Berakhir
 SERVER_TIME_KEY: Waktu Server
 CONFIGURATION_SETTINGS_RESET: <:yescheck:1021114525858136074> Pengaturan telah **direset**!
-CHANNEL_SETUP_MISSING: You need to set-up a channel first!
+CHANNEL_SETUP_MISSING: And harus mempersiapkan channel terlebih dahulu!
 TIME_FOR_ADVENTURE: Waktunya untuk Petualangan!
-INVALID_ROLE_MESSAGE: You must use a **Valid Role ID** for this integration! Please try again.
-INVALID_GUILD_MESSAGE: You must use a **Valid Guild ID** for this integration! Please try again.
-INVALID_CHANNEL_MESSAGE: You must use a **Valid Channel ID** for this integration! Please try again.
-CANNOT_FIND_GUILD: Hey Traveler, I was **unable** to find the server you were looking for. Please try again.
+INVALID_ROLE_MESSAGE: Anda harus menggunakan **Role ID yang valid** untuk mengintegrasi! Harap coba lagi.
+INVALID_GUILD_MESSAGE: Anda harus menggunakan **Guild ID yang valid** untuk mengintegrasi! Harap coba lagi.
+INVALID_CHANNEL_MESSAGE: Anda harus menggunakan **Channel ID yang valid** untuk mengintegrasi! Harap coba lagi.
+CANNOT_FIND_GUILD: Hai Traveler, Saya **tidak dapat** mencari server yang Anda cari. Harap coba lagi.
 MISSING_WEBHOOK_PERMISSION: Saya tidak memiliki izin untuk `Mengelola Webhook` di server/saluran ini!
 CHANGE_ROLE_INTEGRATION: Make changes to Genshin Wizard's automatic role integration.
 SETUP_COMMAND_TITLE: Genshin Wizard | Panel Konfigurasi
 UPDATED_INTEGRATION_RESPONSE: "Integrasi berhasil diperbarui untuk: **{integration}**!"
-PREMIUM_ART_SETTINGS_TITLE: Genshin Wizard Custom Art Settings
+PREMIUM_ART_SETTINGS_TITLE: Pengaturan Genshin Wizard Custom Art
 PREMIUM_ART_SETTINGS_DESCRIPTION: |
-  <:information:1034639378410115103> **Manage your Genshin Wizard </info:{command_id}> Art Settings**
-  Tired of the default art that Genshin Wizard delivers? Well, you can now choose your own custom art for your character cards!
+  <:information:1034639378410115103> **Coba atur Pengaturan Genshin Wizard </info:{command_id}> Art Anda**
+  Bosan dengan gambar default dari Genshin Wizard? Nah, sekarang Anda dapat memilih gambar sendiri untuk kartu karakter Anda!
 
-  <:na:975828401900359711> **What if I want to delete previously saved custom art?**
-  You'll be able to manage your saved builds art straight from this message. Use the UI below to delete specific characters, or all, from your saved custom art list.
+  <:na:975828401900359711> **Bagaimana jika saya mau menghapus gambar custom yang disimpan sebelumnya?**
+  Anda dapat mengatur gambar yang tersimpan langsung dari pesan ini. Gunakan UI di bawah untuk menghapus karakter tertentu, atau semua dari daftar gambar custom yang tersimpan.
 
-  <:blurpleannouncement:1020402170127982712> **CUSTOM ART OVERVIEW**
+  <:blurpleannouncement:1020402170127982712> **RINGKASAN CUSTOM ART**
   {setting_details}
-  **Adaptive Art on Infographics:** {adaptive_art}
-NO_CUSTOM_ART_FOUND: "`❌ You have not setup custom-art for any characters.`"
-CUSTOM_ART_STATISTICS: You have enabled custom character art for **{characters}/{total_characters}** characters!
+  **Adaptive Art pada Infographic:** {adaptive_art}
+NO_CUSTOM_ART_FOUND: "`❌ Anda belum menyiapkan gambar suctom untuk karakter apa pun.`"
+CUSTOM_ART_STATISTICS: Anda dapat mengubah gambar karakter custom untuk **{characters}/{total_characters}** karakter!
 PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard Custom Role Settings**
+  <:information:1034639378410115103> **Pengaturan Genshin Wizard Custom Role**
   Role Status: {role_bool}
   Role: {role_mention}
-  Role Name: {role_name}
-  Role Color: `{role_color}`
+  Nama Role: {role_name}
+  Warna Role: `{role_color}`
 GENSHIN_WIZARD_PREMIUM: Genshin Wizard Premium
 CLAIMED_KEY: Diklaim
 UNCLAIMED_KEY: Belum di klaim
-PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard Premium Server Settings
+PREMIUM_SERVER_SETTINGS_TITLE: Pengaturan Genshin Wizard Premium Server
 PREMIUM_SERVER_SETTINGS_DESCRIPTION: |
-  **<:information:1034639378410115103> What are premium servers?**
-  As a premium user, depending on your tier, you can select up to 3 servers to gain premium perks.
+  **<:information:1034639378410115103> Apa itu premium server?**
+  Sebagai pengguna premium, bergantung pada tier, Anda dapat memilih hingga 3 server untuk mendapatkan fasilitas premium.
 
-  Available Premium Server Slots: **{remaining}**
-  Use the buttons below to manage your premium servers.
+  Slot Premium Server yang tersedia: **{remaining}**
+  Gunakan tombol di bawah untuk mengelola server premium Anda.
 
-  **Activated Servers**
+  **Server yang Diaktifkan**
   {servers}
-NO_PREMIUM_SERVERS_ADDED: You have no premium servers added.
+NO_PREMIUM_SERVERS_ADDED: Anda tidak memiliki server premium yang ditambahkan.
 PREMIUM_USER_DETAILS: |
-  Hey <@{user_id}>, welcome to Genshin Wizard Premium. You are currently a **premium** user. Thank you for supporting the bot!
+  Hai <@{user_id}>, selamat datang di Genshin Wizard Premium. Anda saat ini adalah pengguna **premium**. Terima kasih telah mendukung bot ini!
 
-  **Membership Details:**
+  **Detail Keanggotaan:**
   Plan: **{plan_name}** (Tier {plan_tier})
-  Renews on: {expiry}
-LINK_TO_PREMIUM: Click the links below to purchase Genshin Wizard premium.
+  Diperbarui pada: {expiry}
+LINK_TO_PREMIUM: Klik tautan di bawah untuk membeli Genshin Wizard premium.
 PATREON_KEY: Patreon
 PREMIUM_TIER_ONE_PERKS: |
-  <:information:1034639378410115103> **Premium Perks: $5 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
-  <:blurplejoinarrow:932413900073369621> Access to the Supporters' Lounge, where you may receive premium support for Genshin Wizard.
-  <:blurplejoinarrow:932413900073369621> The ability to choose a custom role name and color in the Genshin Wizard Discord server.
-  <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>16,000** Primogems everyday for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
-  <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier1:1045526665335427183> Witch of Purple Rose** role.
+  <:information:1034639378410115103> **Premium Perks: Paket Bulanan $5**
+  **HOT!** 🔥 Kemampuan untuk memilih gambar khusus untuk kartu karakter yang dihasilkan menggunakan </info:{info_id}>.
+  <:blurplejoinarrow:932413900073369621> Akses ke Supporters' Lounge, tempat Anda dapat menerima dukungan premium untuk Genshin Wizard.
+  <:blurplejoinarrow:932413900073369621> Kemampuan untuk memilih nama dan warna role khusus di server Discord Genshin Wizard.
+  <:blurplejoinarrow:932413900073369621> Bonus **<:Primogem:951924423340994610>16,000** Primogem setiap hari untuk Genshin Wizard Wish Simulator saat menggunakan </commissions:{commissions_id}>.
+  <:blurplejoinarrow:932413900073369621> Role eksklusif **<:gw_tier1:1045526665335427183> Witch of Purple Rose**.
 PREMIUM_TIER_TWO_PERKS: |
   <:information:1034639378410115103> **Premium Perks: $10 Monthly Plan**
   **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
@@ -1030,54 +1030,54 @@ PREMIUM_TIER_TWO_PERKS: |
   <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>24,000** Primogems a day for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
   <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier2:1045526666354643034> Astral Reflection** role.
 PREMIUM_TIER_THREE_PERKS: |
-  <:information:1034639378410115103> **Premium Perks: $25 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
-  <:blurplejoinarrow:932413900073369621> All previous tiers' benefits.
-  <:blurplejoinarrow:932413900073369621> The ability to select up to two servers of your choice to gain Genshin Wizard Partner perks.
-  <:blurplejoinarrow:932413900073369621> The ability to select a custom badge for your Genshin Wizard profile.
-  <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>32,000** Primogems a day for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
-  <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier3:1045526664513323039> Crimson Witch of Flames** role.
+  <:information:1034639378410115103> **Premium Perks: Paket Bulanan $25**
+  **HOT!** 🔥 Kemampuan untuk memilih gambar khusus untuk kartu karakter yang dihasilkan menggunakan </info:{info_id}>.
+  <:blurplejoinarrow:932413900073369621> Semua benefit dari tier sebelumnya.
+  <:blurplejoinarrow:932413900073369621> Kemampuan untuk memilih hingga dua server pilihan Anda untuk mendapatkan Genshin Wizard Partner perks.
+  <:blurplejoinarrow:932413900073369621> Kemampuan untuk memilih lencana khusus profil Genshin Wizard Anda.
+  <:blurplejoinarrow:932413900073369621> Bonus **<:Primogem:951924423340994610>32,000** Primogem sehari untuk Genshin Wizard Wish Simulator saat menggunakan </commissions:{commissions_id}>.
+  <:blurplejoinarrow:932413900073369621> Role Eksklusif **<:gw_tier3:1045526664513323039> Crimson Witch of Flames**.
 PREMIUM_TIER_FOUR_PERKS: |
-  <:information:1034639378410115103> **Premium Perks: $50 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
-  <:blurplejoinarrow:932413900073369621> All previous tiers' benefits.
-  <:blurplejoinarrow:932413900073369621> You may opt to have either the Elder of the Hexenzirkel role or your custom role to be displayed at the very top of the Genshin Wizard Discord server.
-  <:blurplejoinarrow:932413900073369621> The ability to select up to three servers of your choice to gain Genshin Wizard Partner perks.
-  <:blurplejoinarrow:932413900073369621> A bonus of **<:Primogem:951924423340994610>40,000** Primogems a day for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
-  <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier4:1045526663447969813> Elder of the Hexenzirkel** role.
-PREMIUM_UNKNOWN_TIER: Unknown Tier Selected
+  <:information:1034639378410115103> **Premium Perks: Paket Bulanan $50**
+  **HOT!** 🔥 Kemampuan untuk memilih gambar khusus untuk kartu karakter yang dihasilkan menggunakan </info:{info_id}>.
+  <:blurplejoinarrow:932413900073369621> Semua benefit dari tier sebelumnya.
+  <:blurplejoinarrow:932413900073369621> Anda dapat memilih untuk menampilkan role Elder of the Hexenzirkel atau role khusus Anda untuk ditampilkan di bagian paling atas server Discord Genshin Wizard.
+  <:blurplejoinarrow:932413900073369621> Kemampuan untuk memilih hingga tiga server pilihan Anda untuk mendapatkan Genshin Wizard Partner perks.
+  <:blurplejoinarrow:932413900073369621> Bonus **<:Primogem:951924423340994610>40,000** Primogem per hari untuk Genshin Wizard Wish Simulator saat menggunakan </commissions:{commissions_id}>.
+  <:blurplejoinarrow:932413900073369621> Role eksklusif **<:gw_tier4:1045526663447969813> Elder of the Hexenzirkel**.
+PREMIUM_UNKNOWN_TIER: Tier Tidak Dikenal Dipilih
 PREMIUM_PLAN: Premium Plan
 PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Genshin Wizard Server [Custom Role]
-PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: Hey Traveler, this **custom role** feature is only available in the official [**Genshin Wizard Discord Server**](https://discord.gg/BTT5Zr7Dmp).
-PREMIUM_CUSTOM_ROLE_FOOTER: Genshin Wizard Custom Role Settings
-PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> Hey Traveler, you must be a **Tier 1** or higher premium user to use this feature. Consider purchasing an [**__upgrade__**](https://patreon.com/genshinwizard) to unlock this amazing feature.
-PREMIUM_ROLE_NAME_CHANGED: <:yescheck:1021114525858136074> Role name changed to **{name}**.
+PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: Hai Traveler, fitur **custom role** hanya berlaku di [**Server Discord Genshin Wizard**] resmi(https://discord.gg/BTT5Zr7Dmp).
+PREMIUM_CUSTOM_ROLE_FOOTER: Pengaturan Genshin Wizard Custom Role
+PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> Hai Traveler, Anda harus menjadi **Tier 1** pengguna premium atau lebih untuk menggunakan fitur ini. Anda dapat mempertimbangkan membeli [**__upgrade__**](https://patreon.com/genshinwizard) untuk membuka fitur yang menarik ini.
+PREMIUM_ROLE_NAME_CHANGED: <:yescheck:1021114525858136074> Nama role name diubah ke **{name}**.
 PREMIUM_ROLE_COLOR_CHANGED: '<:yescheck:1021114525858136074> Role color changed to **#{color}**.'
-HEX_NOT_PARSED: I was unable to parse the HEX color code you provided. Please try again.
-PREMIUM_ROLE_CLAIMED_ALREADY: <:Error:1021889679857037372> Hey Traveler, you already have a custom role. If you would like to change it, please use the buttons below.
-PREMIUM_CUSTOM_ROLE_TITLE: "{user}'s Custom Role"
-PREMIUM_ROLE_CREATED: "<:yescheck:1021114525858136074> Successfully created custom role ({role}). Please use the buttons below to change your unique role's name and color."
-PREMIUM_CUSTOM_ROLE_UNCLAIMED: <:Error:1021889679857037372> Hey Traveler, you don't have a custom role set up yet. Please create one first.
-PREMIUM_CUSTOM_ROLE_DELETED: <:yescheck:1021114525858136074> Your custom role has been successfully deleted.
-PREMIUM_CUSTOM_ROLE_INFORMATION: <:information:1034639378410115103> Hey Traveler, as a **premium subscriber** of Genshin Wizard, you'll have *exclusive* access to a custom role! You can change the name and color of your role at any time. You can also delete your custom role at any time. If you have any questions, please contact the **__support team__**.
-PREMIUM_SERVER_MAXIMUM_REACHED: Hey Traveler, you've reached the maximum amount of premium servers you can add. You can only add up to **{servers}** premium servers with your current subscription.
-PREMIUM_NO_SERVERS_SELECTED: <:Error:1021889679857037372> Hey Traveler, you haven't **selected** any servers to delete.
-PREMIUM_SERVER_REMOVED: Hey Traveler, you've successfully **removed** the selected servers.
-PREMIUM_SERVER_CLEARED: Hey Traveler, you've successfully **removed** all of your premium servers.
-PREMIUM_SERVER_ALREADY: Hey Traveler, this server seems to already have **premium** enabled. Consider using this perk on another server!
-PREMIUM_SERVER_ADDED: Hey Traveler, you've successfully added **{guild}** as a premium server!
-PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hey Traveler, if you wish to add **Custom Art Infographics** for your characters, simply use the </info:{command_id}> command and press the **Add Custom Art** button. You'll be brought to a webpage where you can upload your own artchoice and save it directly to your Genshin Wizard account.
-PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> Hey Traveler, you haven't **selected** any characters with custom-art to delete.
+HEX_NOT_PARSED: Saya tidak dapat menguraikan kode warna HEX yang Anda berikan. Silakan coba lagi.
+PREMIUM_ROLE_CLAIMED_ALREADY: <:Error:1021889679857037372> Hai Traveler, Anda sudah memiliki custom role. Jika anda ingin mengubahnya lagi, cukup tekan tombol dibawah ini.
+PREMIUM_CUSTOM_ROLE_TITLE: "Custom Role {user}"
+PREMIUM_ROLE_CREATED: "<:yescheck:1021114525858136074> Berhasil membuat custom role ({role}). Harap gunakan tombol di bawah ini untuk mengubah nama dan warna role unik Anda."
+PREMIUM_CUSTOM_ROLE_UNCLAIMED: <:Error:1021889679857037372> Hai Traveler, Anda belum menyiapkan custom role. Silakan buat terlebih dahulu.
+PREMIUM_CUSTOM_ROLE_DELETED: <:yescheck:1021114525858136074> Custom role Anda telah berhasil dihapus.
+PREMIUM_CUSTOM_ROLE_INFORMATION: <:information:1034639378410115103> Hai Traveler, sebagai **premium subscriber** dari Genshin Wizard, Anda dapat akses *eksklusif* untuk custom role! Anda dapat mengubah nama dan warna role kapan saja. Anda juga dapat menghapus custom role kapan saja. Jika Anda memiliki pertanyaan, silahkan hubungi **__support team__**.
+PREMIUM_SERVER_MAXIMUM_REACHED: Hai Traveler, Anda telah mencapai jumlah maksimum server premium yang dapat Anda tambahkan. Anda hanya dapat menambah {servers} server premium dengan subscription saat ini.
+PREMIUM_NO_SERVERS_SELECTED: <:Error:1021889679857037372> Hai Traveler, Anda belum **memilih** server mana pun untuk dihapus.
+PREMIUM_SERVER_REMOVED: Hai Traveler, Anda berhasil **menghapus** server yang dipilih.
+PREMIUM_SERVER_CLEARED: Hai Traveler, Anda berhasil **menghapus** semua server premium Anda.
+PREMIUM_SERVER_ALREADY: Hai Traveler, sepertinya server ini sudah mengaktifkan **premium**. Pertimbangkan untuk menggunakan fasilitas ini di server lain!
+PREMIUM_SERVER_ADDED: Hai Traveler, Anda berhasil menambahkan **{guild}** sebagai server premium!
+PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hai Traveler, jika ingin menambahkan **Custom Art Infographics** untuk karakter Anda, cukup gunakan perintah </info:{command_id}> dan tekan **Add Custom Art**. Anda akan dibawa ke halaman web tempat Anda dapat mengunggah pilihan gambar Anda sendiri dan menyimpannya langsung ke akun Genshin Wizard Anda.
+PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> Hai Traveler, Anda belum **memilih** karakter apapun dengan custom-art untuk dihapus.
 PREMIUM_CUSTOM_ART_REMOVED: Hai Traveler, Kamu telah berhasil **menghapus** karakter yang dipilih.
 PREMIUM_CUSTOM_ART_CLEARED: Hai Traveler, Kamu telah berhasil **menghapus** semua karakter tersimpan Anda dengan seni kustom.
-PREMIUM_ADAPTIVE_ART_SETTING_UPDATED: "Successfully changed adaptive art settings: {adaptive_art}"
+PREMIUM_ADAPTIVE_ART_SETTING_UPDATED: "Berhasil mengubah pengaturan adaptive art: {adaptive_art}"
 HELP_COMMAND_TITLE: Genshin Wizard | {category} Direktori Perintah
 HELP_COMMAND_FOOTER: Genshin Wizard | {category} Direktori Perintah
 NO_DESCRIPTION: Tidak ada deskripsi yang diberikan.
 ROLE_REQUIREMENTS_NOT_MET: |
-  None of your characters meet any of the **role requirements**!
+  Tidak ada karakter yang memenuhi **persyaratan role**!
 
-  Please try using this command later when your character fulfills the necessary **requirements** or update the characters in your *in-game showcase*.
+  Harap coba perintah ini lagi nanti ketika karakter Anda memenuhi **persyaratan** atau perbarui karakter di *tampilan in-game*.
 SUCCESSFULLY_ADDED_ROLE: Berhasil menambahkan {role} role!
 SUCCESSFULLY_UPDATED_ROLES: "**Berhasil** memperbarui user role!"
 CHARACTER_REQUIREMENTS_NOT_MET: |
