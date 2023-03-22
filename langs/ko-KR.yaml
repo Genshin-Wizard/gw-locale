@@ -1454,19 +1454,19 @@ MANAGE_CACHED_DATA: 캐시 데이터 관리
 INFO_COMMAND_SETTING_NOT_OWNER: '여행자, 캐릭터 이미지를 수정하는건 여행자 소유의 캐릭터들만 가능해! 좀 더 자세한 내용은 다음 명령어를 이용해서 확인해줘!: </info:{command_id}>'
 VERTICAL_ART_SETTING: 수직 카드 레이아웃
 DIARY_DATE_LABEL: "{year}/{month} 여행자 핸드북"
-NO_ACTIVE_BONUS: No Activated Bonuses
-JANUARY_KEY: January
-FEBRUARY_KEY: February
-MARCH_KEY: March
-APRIL_KEY: April
-MAY_KEY: May
-JUNE_KEY: June
-JULY_KEY: July
-AUGUST_KEY: August
-SEPTEMBER_KEY: September
-OCTOBER_KEY: October
-NOVEMBER_KEY: November
-DECEMBER_KEY: December
+NO_ACTIVE_BONUS: 활성화된 보너스가 없음
+JANUARY_KEY: 1월
+FEBRUARY_KEY: 2월
+MARCH_KEY: 3월
+APRIL_KEY: 4월
+MAY_KEY: 5월
+JUNE_KEY: 6월
+JULY_KEY: 7월
+AUGUST_KEY: 8월
+SEPTEMBER_KEY: 9월
+OCTOBER_KEY: 10월
+NOVEMBER_KEY: 11월
+DECEMBER_KEY: 12월
 SIGN_IN_DAY: "{day} 일"
 CHARACTER_ARCHIVE_TITLE: 캐릭터 아카이브
 USER_KEY_VALUE: "사용자: {user}"
@@ -1481,8 +1481,8 @@ UNKNOWN_ADVENTURE_RANK: "모험랭킹: ?"
 ADVENTURE_RANK_VALUE: "모험랭킹: {adventure_rank}"
 SERVER_KEY_VALUE: "서버: {server}"
 UID_KEY_VALUE: "UID: {uid}"
-HOYO_API_LIMITATION: "*Data may be inaccurate due to HoYoLAB API limitations"
-CHECK_IN_GAME: "See in-game for the most accurate information"
+HOYO_API_LIMITATION: "*이 정보들은 호요랩 API 제한 때문에 부정확할 수 있어."
+CHECK_IN_GAME: "정확한 정보는 게임 안에서 확인해줘"
 HOYO_COMMISSION_KEY: "의뢰 임무:"
 HOYO_ADVENTURE_RANK_KEY: "모험 등급:"
 HOYO_DAILY_BONUS_STATUS: "일일 출석:"
@@ -1493,7 +1493,7 @@ TRANSFORMER_READY_KEY: 준비
 TRANSFORMER_LOCKED_KEY: 잠금
 GENSHIN_STATS_KEY: 원신 스텟
 STATS_TOTAL_ACHIEVEMENTS_KEY: "총 업적"
-STATS_TOTAL_ACTIVE_DAYS_KEY: "Total Active Days"
+STATS_TOTAL_ACTIVE_DAYS_KEY: "활동 일수"
 STATS_TOTAL_CHARACTERS_KEY: "캐릭터"
 STATS_SPIRAL_ABYSS_KEY: "나선비경"
 STATS_REGION_KEY: "지역"
@@ -1503,72 +1503,72 @@ ANEMOCULUS_KEY: 바람신의눈
 GEOCULUS_KEY: 바위신의눈
 ELECTROCULUS_KEY: 번개신의눈
 DENDROCULUS_KEY: 풀의신의눈
-TRUST_RANK_KEY: Trust Rank
-ADEPTAL_ENERGY_KEY: Adeptal Energy
+TRUST_RANK_KEY: 신뢰 등급
+ADEPTAL_ENERGY_KEY: 선계 선력
 ITEMS_KEY: 아이템
-TOTAL_ISLANDS_KEY: Total Islands
+TOTAL_ISLANDS_KEY: 총 선계 형태 수
 TOTAL_PULLS_KEY: 총 기원
-WISH_STATISTICS_KEY: Wish Statistics
+WISH_STATISTICS_KEY: 기원 통계
 PERCENT_KEY: 퍼센트
 FIVE_STAR_KEY: 5성
 FOUR_STAR_KEY: 4성
 THREE_STAR_KEY: 3성
-BOTTOM_KEY: Bottom
-TOP_KEY: Top
-WISH_STAT_LESS_THAN: "Less pulls than {global_percentile}% of Genshin Wizard Users."
-WISH_STAT_MORE_THAN: "More pulls than {global_percentile}% of Genshin Wizard Users."
-FIVE_STAR_LUCK: "5-Star Luck"
-FOUR_STAR_LUCK: "4-Star Luck"
-THREE_STAR_LUCK: "3-Star Luck"
-WISH_LUCK_LESS: "Less lucky than {rarity_percentile}% of Genshin Wizard Users."
-WISH_LUCK_MORE: "Luckier than {rarity_percentile}% of Genshin Wizard Users."
-CURRENT_LUNAR_PHASE: Current Lunar Phase
-PREVIOUS_LUNAR_PHASE: Previous Lunar Phase
-ABYSSAL_ARCHIVES: Abyssal Archives
-ELEMENTAL_SKILLS_CAST_LABEL: Elemental Skills Cast
-ELEMENTAL_BURSTS_UNLEASHED_LABEL: Elemental Bursts Unleashed
-STRONGEST_SINGLE_STRIKE_LABEL: Strongest Single Strike
-ACCOUNT_INFO_KEY: Account Info
-CLASSIFIED_KEY: Classified
+BOTTOM_KEY: 하
+TOP_KEY: 상
+WISH_STAT_LESS_THAN: "원신 위자드의 {global_percentile}% 의 여행자들 보다 적게 뽑았어."
+WISH_STAT_MORE_THAN: "원신 위자드의 {global_percentile}% 의 여행자들 보다 많이 뽑았어."
+FIVE_STAR_LUCK: "5성 행운"
+FOUR_STAR_LUCK: "4성 행운"
+THREE_STAR_LUCK: "3성 행운"
+WISH_LUCK_LESS: "원신 위자드의 {rarity_percentile}% 의 여행자들 보다 운이 적어."
+WISH_LUCK_MORE: "원신 위자드의 {rarity_percentile}% 의 여행자들보다 운이 좋아."
+CURRENT_LUNAR_PHASE: 현재의 반기
+PREVIOUS_LUNAR_PHASE: 이전의 반기
+ABYSSAL_ARCHIVES: '나선 정보'
+ELEMENTAL_SKILLS_CAST_LABEL: 원소전투 스킬 발동 회수
+ELEMENTAL_BURSTS_UNLEASHED_LABEL: 원소폭발 발동 회수
+STRONGEST_SINGLE_STRIKE_LABEL: 최고의 일격
+ACCOUNT_INFO_KEY: 계정정보
+CLASSIFIED_KEY: 기밀
 INFORMATION_KEY: 정보
-FROM_DIARY_NOTE: "-from {nickname}"
-TRAVELER_DIARY_KEY: 여행자의 수첩
+FROM_DIARY_NOTE: "-{nickname} 에게서"
+TRAVELER_DIARY_KEY: 여행자 핸드북
 NICKNAME_KEY_VALUE: "닉네임: {nickname}"
-DIARY_MONTH_OF_KEY: "Month of"
-ACQUIRED_MONTH_KEY: Acquired this month
+DIARY_MONTH_OF_KEY: "의 달"
+ACQUIRED_MONTH_KEY: 이번달에 획득함
 TOTAL_MORA_KEY: 총 모라
-DIARY_MONTHLY_DESCRIPTION: "This month, your primary source for obtaining Primogems is through {source}, for a total of {primogem_count} Primogems, or {top_percentage}% of your total!"
-DIARY_DAILY_DESCRIPTION: Hey Traveler! You have earned {primogems} Primogems and {mora} Mora today, what a bountiful day!
-TOTAL_PRIMOGEMS_OBTAINED: Primogems Obtained
-DIARY_DATA_DELAYED: "*This data is delayed by about one hour, please check the updated records later"
-DIARY_DATA_SOURCE_DESCRIPTION: "*This diary only includes the resources obtained outside of top-ups"
-REGION_EXPLORATION_STATUS: "Exploration Progress: {percentage}%"
-CHARACTER_CARDS_STATUS: "Character Cards: {owned_cards}/{total_cards}"
-ACTION_CARDS_STATUS: "Action Cards: {owned_cards}/{total_cards}"
-UID_HIDDEN_KEY: "UID Hidden"
-NO_CRIT_VALUE_KEY: "No Crit Value"
-NO_CRIT_VALUE_FOUND: "No CRIT Value Found"
-FRIENDSHIP_LEVEL_KEY: "Friendship Lv. {friendship_level}"
-ARTIST_CREDIT_STRING: Character Artist Credits
-CUSTOM_ARTWORK_STRING: Custom Artwork
-CHARACTER_LEVEL_KEY: "Lv. {level}"
-CHAMBER_KEY_VALUE: "Chamber {chamber}"
-MORA_PREVIOUS: "Previous Month's Mora: {mora}"
-PRIMOGEM_PREVIOUS: "Previous Month's Primogems: {primogems}"
-SUMMARY_KEY: Summary
-DEEPEST_DESCENT: Deepest Descent
-BATTLES_FOUGHT: Battles Fought
-ABYSS_STARS_COLLECTED: Abyss Stars Collected
+DIARY_MONTHLY_DESCRIPTION: "이번 달 가장 많은 원석을 얻은 방법은 {source} 이고, 이를 통해 총 {primogem_count} 원석을 얻어서 전체 원석 수입의 {top_percentage}% 를 차지했어!"
+DIARY_DAILY_DESCRIPTION: 여행자! 오늘 여행자는 {primogems} 원석과 {mora} 모라를 얻었어! 축하해!
+TOTAL_PRIMOGEMS_OBTAINED: 원석 획득
+DIARY_DATA_DELAYED: "*이 정보들은 1시간 정도 딜레이가 발생할 수 있으니까, 최신 기록은 잠시 후에 확인해줘."
+DIARY_DATA_SOURCE_DESCRIPTION: "*이 핸드북은 여행자의 결제 이외의 경로로 얻은 자원만 집계해."
+REGION_EXPLORATION_STATUS: "탐험도: {percentage}%"
+CHARACTER_CARDS_STATUS: "캐릭터 카드: {owned_cards}/{total_cards}"
+ACTION_CARDS_STATUS: "행동 카드: {owned_cards}/{total_cards}"
+UID_HIDDEN_KEY: "비공개 UID"
+NO_CRIT_VALUE_KEY: "Crit Value 없음"
+NO_CRIT_VALUE_FOUND: "Crit Value를 찾을 수 없어!"
+FRIENDSHIP_LEVEL_KEY: "호감도 Lv. {friendship_level}"
+ARTIST_CREDIT_STRING: 일러스트레이터 출처
+CUSTOM_ARTWORK_STRING: 커스텀아트
+CHARACTER_LEVEL_KEY: "{level} 레벨"
+CHAMBER_KEY_VALUE: "방: {chamber}"
+MORA_PREVIOUS: "지난 달 획득 모라: {mora}"
+PRIMOGEM_PREVIOUS: "지난 달 획득 원석: {primogems}"
+SUMMARY_KEY: 개요
+DEEPEST_DESCENT: 최고 기록
+BATTLES_FOUGHT: 전투 횟수
+ABYSS_STARS_COLLECTED: 심연의 별 갯수
 ADVENTURE_RANK: 모험랭킹
-DAMAGE_BREAKDOWN: Damage Breakdown
-MOST_USED_CHARACTERS: Most Used Characters
-ABYSS_IMAGE_TITLE: Spiral Abyss Statistics
-ABYSS_FLOOR_COMPLETION: Abyss Floor Completion
-WORLD_LEVEL_KEY: World Level
-PROFILE_SHOWCASE_TITLE: Genshin Wizard Profile Showcase
+DAMAGE_BREAKDOWN: 입힌 피해 분석
+MOST_USED_CHARACTERS: 최대 출전
+ABYSS_IMAGE_TITLE: 나선비경 통계
+ABYSS_FLOOR_COMPLETION: 나선 층 기록
+WORLD_LEVEL_KEY: 월드 레벨
+PROFILE_SHOWCASE_TITLE: Genshin Wizard 프로필
 ADVENTURE_RANK_KEY: 모험랭킹
-HIDE_WEAPON_KEY: Hide Weapon Details
-SHOW_WEAPON_KEY: Show Weapon Details
-ONGOING_KEY: Ongoing
-FINISHED_KEY: Finished
-VENTURA_ART_SETTING: Ventura Layout
+HIDE_WEAPON_KEY: 무기 정보 숨기기
+SHOW_WEAPON_KEY: 무기 정보 공개하기
+ONGOING_KEY: 진행중...
+FINISHED_KEY: 완성!
+VENTURA_ART_SETTING: 수평 카드 레이아웃
