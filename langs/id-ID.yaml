@@ -75,13 +75,13 @@ RESPONSE_KEY: Responsif
 PREFIX_COMMAND_CURRENT: Awalan di server ini `{prefix}`
 PREFIX_TOO_LONG: Awalan tidak boleh lebih dari 5 karakter.
 PREFIX_TOO_SHORT: Awalan tidak boleh pendek dari 1 karakter.
-PREFIX_CHANGED_TITLE: Genshin Wizard | Awalan Berubah
+PREFIX_CHANGED_TITLE: Genshin Wizard | Ganti Tanda Awalan
 PREFIX_CHANGED_DESCRIPTION: |
-  Berhasil mengubah awalan **Genshin Wizard**! Perintah sekarang akan dipanggil menggunakan awalan baru ini.
+  Berhasil mengubah tanda awalan **Genshin Wizard**! Perintah sekarang akan dipanggil menggunakan tanda awalan baru ini.
 
-  **Awalan Lama:** `{old_prefix}`
-  **Awalan Baru.** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: Pengaturan Awalan Genshin Wizard
+  **Tanda Awalan Lama:** `{old_prefix}`
+  **Tanda Awalan Baru.** `{new_prefix}`
+PREFIX_CHANGED_FOOTER: Pengaturan Tanda Awalan Genshin Wizard
 MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Kesalahan Komputasi. Coba ulangi!"
 MATH_COMMAND_RESULT: |
   **Ekspresi:** `{expression}`
@@ -94,19 +94,19 @@ SEND_CODES_COMMAND_DESCRIPTION: |
   <:blurpleannouncement:1020402170127982712> **Note:** Kode redeem bisa kadaluwarsa dengan cepat, Jadi pastikan redeem sesegera mungkin!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
-SEND_CODES_REDEEM_AUTOMATICALLY: Tebus Secara Otomatis
+SEND_CODES_REDEEM_AUTOMATICALLY: Redeem Kode Secara Otomatis
 SEND_CODES_DIRECT_LINK: Tautan Langsung
 SEND_CODES_REDEEMABLE_CODES: Kode yang Dapat Ditukar
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Kode penebusan
+SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Kode Redeem
 SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Berhasil mengirim kode redeem ke {channel}!
-MESSAGE_LINK: Tautan Pesanan
+MESSAGE_LINK: Tautan Pesan
 CLICK_HERE: Klik di sini
 INFO_SELECT_CHARACTER: Pilih Karakter
-INFO_CHARACTER_SOURCE: "Sumber: Build Tersimpan"
+INFO_CHARACTER_SOURCE: "Sumber: Build yang disimpan"
 INFO_USER_CACHE: Cache Pengguna
 INTERMISSION_MESSAGE: Sedang membuat Infografis, harap **bersabar**...
-MENU_COOLDOWN_TITLE: Menu itu sedang cooldown!
-BUTTON_COOLDOWN_TITLE: Butang itu sedang cooldown!
+MENU_COOLDOWN_TITLE: Menu sedang cooldown!
+BUTTON_COOLDOWN_TITLE: Tombol itu sedang cooldown!
 COMMAND_COOLDOWN_TITLE: Perintah itu sedang cooldown!
 MENU_COOLDOWN_VALUE: Anda mengklik atribut terlalu cepat! Coba lagi dalam waktu **{cooldown}** detik.
 CHARACTER_SHOWCASE_TITLE: Karakter Showcase
@@ -120,19 +120,19 @@ EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Perintah Eksklusif
 EXCLUSIVE_COMMAND_DESCRIPTION: |
   Hai Traveler! Kamu **tidak diizinkan** untuk menggunakan perintah ini di sini, perintah ini hanya dapat digunakan dalam satu server.
 
-  Jika Anda ingin menggunakan perintah ini, pertimbangkan untuk bergabung dengan kami [Discord Rasmi] (https://discord.gg/genshinwizard).
-ERROR_COMMAND_INVOKE: Pastikan kamu menggunakan parameter yang betul untuk perintah ini!
-ERROR_PRIVACY_SETTING_TITLE: Tersembunyi | Tidak ada perkara untuk dilihat!
+  Jika kamu ingin menggunakan perintah ini, pertimbangkan untuk bergabung dengan kami [Discord Rasmi] (https://discord.gg/genshinwizard).
+ERROR_COMMAND_INVOKE: Pastikan kamu menggunakan parameter yang benar untuk perintah ini!
+ERROR_PRIVACY_SETTING_TITLE: Disembunyikan | Tidak ada yang bisa dilihat!
 ERROR_PRIVACY_SETTING_DESCRIPTION: Hai Traveler! Sayangnya, orang yang kamu coba cari mengaktifkan **pengaturan privasi**!
 ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Pembaruan yang sedang berlangsung!
-ERROR_ONGOING_UPDATE_DESCRIPTION: Hai Traveler! Genshin Wizard saat ini sedang **menjalani penyelenggaraan** dan perintah ini telah *dinonaktifkan* untuk saat ini. Silakan coba lagi *nanti*.
+ERROR_ONGOING_UPDATE_DESCRIPTION: Hai Traveler! Genshin Wizard saat ini sedang **dalam Pemeliharaan** dan perintah ini telah *dinonaktifkan* untuk saat ini. Silakan coba lagi *nanti*.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
   Hai Traveler! Anda **tidak diizinkan** untuk menggunakan perintah ini di sini, ini adalah perintah server Genshin Wizard {command_type}*eksklusif*!
 
   Jika Anda ingin menggunakan perintah ini, pertimbangkan untuk bergabung dengan kami [Discord Rasmi] (https://discord.gg/genshinwizard).
 ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
 ERROR_PREMIUM_COMMAND_DESCRIPTION: Hai Traveler! Anda **tidak diizinkan** untuk menggunakan perintah ini, perintah ini hanya tersedia untuk **Pelanggan Premium**. Jika Anda ingin menggunakan fitur ini, pertimbangkan untuk mempelajari lebih lanjut menggunakan perintah </premium:{command_id}>.
-ERROR_BLACKLISTED_TITLE: Genshin Wizard | Senarai Hitam
+ERROR_BLACKLISTED_TITLE: Genshin Wizard | Blacklist
 ERROR_BLACKLISTED_DESCRIPTION: |
   Hai Traveler! Kamu telah **dilarang** menggunakan Genshin Wizard!
 
@@ -143,50 +143,50 @@ ERROR_MISSING_REQUIRED_ARGUMENT: "Anda lupa memberikan argumen, harap gunakan fo
 ERROR_MISSING_REQUIRED_ATTACHMENT: "Anda lupa memberikan lampiran, harap gunakan format yang benar: ```{usage} dengan lampiran yang benar.```"
 ERROR_MISSING_MANAGE_MESSAGE: Hai Traveler, saya tidak memiliki izin untuk `Mengelola Pesan` dalam channel/guild ini. Harap aktifkan izin ini dan coba lagi.
 ERROR_MISSING_SEND_MESSAGE: Hai Traveler, saya tidak memiliki izin untuk `Mengirim Pesanan` dalam channel/guild ini. Harap aktifkan izin ini dan coba lagi.
-MESSAGE_KEY: Hapus Pesan
+MESSAGE_KEY: Pesan
 ERROR_EMPTY_BACKPACK: Backpack Anda **kosong**! Untuk memulai perjalanan Anda, gunakan perintah </wishsimulator:{command_id}>!
-ERROR_INTERACTION_MISMATCH: Hai Traveler! Ini ** bukan interaksi Anda ** untuk disentuh! Gunakan perintah {command} jika kamu ingin menggunakan perintah ini untuk diri kamu sendiri!
+ERROR_INTERACTION_MISMATCH: Hai Traveler! Ini ** bukan interaksimu ** untuk disentuh! Gunakan perintah {command} jika kamu ingin menggunakan perintah ini untuk diri kamu sendiri!
 ERROR_MESSAGE: Ada kesalahan!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Saranan
-FEEDBACK_CONFIRMATION_DESCRIPTION: ':yescheck:1021114525858136074> *Saranan kamu telah berhasil dikirim ke Developer!*'
+FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Umpan balik
+FEEDBACK_CONFIRMATION_DESCRIPTION: ':yescheck:1021114525858136074> *Saran kamu telah berhasil dikirim ke Developer!*'
 FEEDBACK_LOG_RESPONSE: |
   > Pengguna: **{author_name}** | {author_mention}
   > ID Discord: `{author_id}`
 
-  **Saranan:**```{feedback}```
+  **Saran:**```{feedback}```
 NO_HOYOLAB_LINKED: Kamu belum menautkan akun HoYoLAB. Gunakan </register:{command_id}> untuk menautkan akun kamu.
 OLD_HOYOLAB_LINKED: |
   Halo Traveler! Maaf atas ketidaknyamanannya, tetapi fitur ini diterapkan **setelah** kamu mendaftarkan akun `HoYoLAB` kamu ke Genshin Wizard.
 
   Untuk menggunakan tombol ini, kamu harus putuskan tautan akun HoYoLAB Anda melalui </hoyo:{command_id}> dan **taut kembali** melalui perintah pendaftaran yang biasa.
-CODE_REDEEM_TITLE: Genshin Wizazrd | Penebusan Kode HoYoLAB
-CODE_REDEEM_DESCRIPTION: "*Harap tunggu sementara kami memproses kode penebusan kamu...*"
+CODE_REDEEM_TITLE: Genshin Wizard | Redeem Kode HoYoLAB
+CODE_REDEEM_DESCRIPTION: "*Harap tunggu sebentar kami sedang memproses kode redeem kamu...*"
 CODE_REDEEM_PROGRESS: |
-  *Harap tunggu sementara kami memproses kode penebusan kamu...*
+  *Harap tunggu sebentar kami sedang memproses kode redeem kamu...*
   <a:loading:1015667958237900801> Mencoba menebus kode `{code}`
-HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Cookie Tamat
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hai Traveler! Tampaknya kuki penebusan kode HoYoLAB Anda telah **berakhir**! Gunakan perintah </hoyo:{command_id}> dan selesaikan proses penautan ulang akun untuk **refresh** cookie akun HoYoLAB anda.
+HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Cookie Kadaluarsa
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hai Traveler! Tampaknya kuki kode redeem HoYoLAB kamu telah **Kadaluarsa**! Gunakan perintah </hoyo:{command_id}> dan selesaikan proses penautan ulang akun untuk **menyegarkan** cookie akun HoYoLAB kamu.
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Undang Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[Situs Rasmi](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*Kode penebusan berhasil diproses!*"
-APP_COMMAND_INFO_DESCRIPTION: Menampilkan build untuk karakter di tampilan dalam game pengguna.
+CODE_REDEEM_SUCCESS: "*Kode redeem berhasil diproses!*"
+APP_COMMAND_INFO_DESCRIPTION: Menampilkan build untuk karakter di tampilan dalam game.
 APP_COMMAND_EXPORT_DESCRIPTION: Ekspor riwayat permohonan Genshin Anda yang diformat ke dalam file teks melalui pesan pribadi.
-APP_COMMAND_HISTORY_DESCRIPTION: Lihat riwayat permohonan akun Genshin Anda.
-APP_COMMAND_DAILY_DESCRIPTION: Klaim hadiah Login HoYoLAB harian Anda.
+APP_COMMAND_HISTORY_DESCRIPTION: Lihat riwayat permohonan akun Genshin kamu.
+APP_COMMAND_DAILY_DESCRIPTION: Klaim hadiah Login HoYoLAB harian kamu.
 APP_COMMAND_MONTHLY_DESCRIPTION: Lihat hadiah harian HoYoLAB untuk bulan ini.
 APP_COMMAND_DIARY_DESCRIPTION: Lihat Buku Harian Traveler HoYoLAB Anda.
-APP_COMMAND_REDEEM_DESCRIPTION: Menebus kode penebusan untuk Genshin Impact.
+APP_COMMAND_REDEEM_DESCRIPTION: Tebus kode redeem untuk Genshin Impact.
 APP_COMMAND_HOYO_DESCRIPTION: Periksa akun HoYoLAB kamu dari Genshin Wizard.
 APP_COMMAND_CHARACTERS_DESCRIPTION: Lihat Ringkasan Karakter akun Genshin Anda.
-APP_COMMAND_TCG_DESCRIPTION: Lihat Tampilan Akun TCG Invokasi Genius Anda.
+APP_COMMAND_TCG_DESCRIPTION: Lihat Tampilan Akun Genius Invokation TCG Kamu.
 APP_COMMAND_IMPORT_DESCRIPTION: Impor riwayat permohonan gacha anda dari situs populer lainnya.
 APP_COMMAND_LEADERBOARD_DESCRIPTION: Lihat papan peringkat Genshin Wizard.
-APP_COMMAND_LOCATION_DESCRIPTION: Tampilkan lokasi yang diketahui untuk sumber yang diberikan.
-APP_COMMAND_LOCATIONS_DESCRIPTION: Menampilkan daftar lokasi sumber yang tersedia.
-APP_COMMAND_CALC_DESCRIPTION: Hitung bahan kenaikan yang diperlukan untuk karakter tertentu.
+APP_COMMAND_LOCATION_DESCRIPTION: Tampilkan lokasi yang diketahui untuk resource material yang diberikan.
+APP_COMMAND_LOCATIONS_DESCRIPTION: Menampilkan daftar lokasi resources material yang tersedia.
+APP_COMMAND_CALC_DESCRIPTION: Hitung jumlah material yang diperlukan untuk menaikkan karakter tertentu.
 APP_COMMAND_BANNER_DESCRIPTION: Ubah banner profil Genshin Wizard kamu.
 APP_COMMAND_PROFILE_DESCRIPTION: Lihat profil Genshin Wizard pribadi kamu.
 APP_COMMAND_SETTINGS_DESCRIPTION: Ubah pengaturan profil Genshin Wizard kamu.
@@ -195,11 +195,11 @@ APP_COMMAND_ABYSS_DESCRIPTION: Lihat perkembangan Abyss akun Genshin kamu.
 APP_COMMAND_EXPLORATION_DESCRIPTION: Lihat perkembangan eksplorasi akun Genshin kamu.
 APP_COMMAND_UID_DESCRIPTION: Mencari UID/Region Genshin pengguna.
 APP_COMMAND_REGISTER_DESCRIPTION: Daftarkan akun Genshin kamu ke Genshin Wizard.
-APP_COMMAND_REFRESH_DESCRIPTION: Refresh tautan riwayat keinginan Anda (tautan berakhir setiap 24 jam sekali).
+APP_COMMAND_REFRESH_DESCRIPTION: Refresh tautan riwayat permohonan Kamu (tautan berakhir setiap 24 jam sekali).
 APP_COMMAND_UNLINK_DESCRIPTION: Putuskan tautan akun Genshin kamu dan hapus semua data.
 APP_COMMAND_REMINDERS_DESCRIPTION: Siapkan pengingat untuk memberi tahu resin, teko, dan ekspedisi.
 APP_COMMAND_RESIN_DESCRIPTION: Siapkan pengingat Resin untuk memberi tahu kamu saat resin kamu diisi ulang.
-APP_COMMAND_GACHA_DESCRIPTION: Tampilkan infografis terbaru yang menampilkan seluruh riwayat keinginan kamu untuk baner yang ditentukan.
+APP_COMMAND_GACHA_DESCRIPTION: Tampilkan infografis terbaru yang menampilkan seluruh riwayat permohonan kamu untuk baner tertentu.
 APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Coba keberuntungan gacha Anda dengan Genshin Wish Simulator!
 APP_COMMAND_INVENTORY_DESCRIPTION: Lihat inventaris Genshin Wizard virtual Anda.
 APP_COMMAND_SHOP_DESCRIPTION: Lihat Toko Genshin Wizard Anda.
@@ -1052,7 +1052,7 @@ PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: Hai Traveler, fitur **custom role**
 PREMIUM_CUSTOM_ROLE_FOOTER: Pengaturan Genshin Wizard Custom Role
 PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> Hai Traveler, Anda harus menjadi **Tier 1** pengguna premium atau lebih untuk menggunakan fitur ini. Anda dapat mempertimbangkan membeli [**__upgrade__**](https://patreon.com/genshinwizard) untuk membuka fitur yang menarik ini.
 PREMIUM_ROLE_NAME_CHANGED: <:yescheck:1021114525858136074> Nama role name diubah ke **{name}**.
-PREMIUM_ROLE_COLOR_CHANGED: '<:yescheck:1021114525858136074> Role color changed to **#{color}**.'
+PREMIUM_ROLE_COLOR_CHANGED: <:yescheck:1021114525858136074> Role color changed to **{color}**.
 HEX_NOT_PARSED: Saya tidak dapat menguraikan kode warna HEX yang Anda berikan. Silakan coba lagi.
 PREMIUM_ROLE_CLAIMED_ALREADY: <:Error:1021889679857037372> Hai Traveler, Anda sudah memiliki custom role. Jika anda ingin mengubahnya lagi, cukup tekan tombol dibawah ini.
 PREMIUM_CUSTOM_ROLE_TITLE: "Custom Role {user}"
@@ -1182,9 +1182,9 @@ LUXURIOUS_LABEL: "Luxurious"
 REMARKABLE_LABEL: "Remarkable"
 ALL_CHESTS_LABEL: "Semua Chest"
 STRONGEST_STRIKE_LABEL: "Serangan Terkuat"
-MOST_BURSTS_USED_LABEL: " Elemental Burst Dilancarkan"
-MOST_SKILLS_USED_LABEL: " Elemental Skill Dikerahkan"
-MOST_DAMAGE_TAKEN_LABEL: "Menerima DMG Terbanyak"
+MOST_BURSTS_USED_LABEL: "Elemental Burst Dilancarkan"
+MOST_SKILLS_USED_LABEL: "Elemental Skill Dikerahkan"
+MOST_DAMAGE_TAKEN_LABEL: "Menerima Damage Terbanyak"
 MOST_DEFEATS_LABEL: "Mengalahkan Terbanyak"
 MAX_HP_LABEL: "HP Maks"
 HP_LABEL: "HP"
