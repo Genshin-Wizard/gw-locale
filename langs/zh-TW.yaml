@@ -15,9 +15,9 @@ PING_INFORMATION: |
   機器人延遲為 **{bot_latency}ms.**
   WebSocket 延遲為 **{ws_latency}ms.**
 UPTIME_INFORMATION: |
-  **Genshin Wizard Uptime**
-  **Last Restart:** <t:{last_restart}:R>
-  **Uptime:** {uptime}
+  **Genshin Wizard 上線時間**
+  **最後重啟:** <t:{last_restart}:R>
+  **上線時間:** {uptime}
 VERSION_KEY: Version
 PING_KEY: Ping
 UNKNOWN_KEY: Unknown
@@ -35,11 +35,11 @@ VOTE_BOT_LINK: Bot Vote Link
 VOTE_SERVER_LINK: Server Vote Link
 VOTE_BOT_BUTTON: Vote [Bot]
 VOTE_SERVER_BUTTON: Vote [Server]
-DEVELOPERS_KEY: Developers
-SERVER_KEY: Server
+DEVELOPERS_KEY: 開發團隊
+SERVER_KEY: 伺服器
 SERVERS_KEY: Servers
-USERS_KEY: Users
-WEBSITE_KEY: Website
+USERS_KEY: 使用者
+WEBSITE_KEY: 網址
 INVITE_KEY: Invite
 DOCUMENTATION_KEY: Documentation
 GWIZ_INVITE: Genshin Wizard Invite
@@ -64,7 +64,7 @@ TRUTH_COMMAND_RESPONSES:
   - Not Convinced.
   - Perhaps.
   - Not Sure.
-  - Maybe.
+  - 可能
   - Who knows?
   - I cannot predict now.
   - I am tired. *proceeds with sleeping*
@@ -99,7 +99,7 @@ SEND_CODES_DIRECT_LINK: Direct Link
 SEND_CODES_REDEEMABLE_CODES: 可兌換的兌換碼
 SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | 兌換碼
 SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!
-MESSAGE_LINK: Message Link
+MESSAGE_LINK: 訊息連結
 CLICK_HERE: Click Here
 INFO_SELECT_CHARACTER: 選擇一個角色
 INFO_CHARACTER_SOURCE: "Source: Saved Builds"
@@ -146,7 +146,7 @@ ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Mess
 MESSAGE_KEY: 訊息
 ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
 ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
-ERROR_MESSAGE: There has been an error!
+ERROR_MESSAGE: 發生錯誤!
 FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
 FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
 FEEDBACK_LOG_RESPONSE: |
@@ -455,7 +455,7 @@ OBTAINED_KEY: Obtained
 NOT_OWNED_KEY: Not Owned
 PROFICIENCY_KEY: 熟練度
 USE_COUNT_KEY: 使用次數
-IMPORT_ERROR: Import Error!
+IMPORT_ERROR: 匯入錯誤!
 FOOTER_ERROR_DESCRIPTION: If you believe this is an error, please contact a staff member.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
   The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
@@ -498,8 +498,8 @@ LEADERBOARD_DONATION_FOOTER: Donate via the support links found in the /donate c
 LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Crunching data, please be **patient**...* <a:tyno:1001656937689120788>
 ERROR_GUILD_ONLY_BUTTON: ":no_entry: You must be in a guild to use this button!"
 QUERY_NO_RESULTS: "No results found for `{input}`. Please rephrase and try again!"
-LOCATION_COMMAND_ROUTES_TITLE: Farming Routes Overview
-LOCATION_COMMAND_MAP_TITLE: "{resource} Map Locations"
+LOCATION_COMMAND_ROUTES_TITLE: 鋤地路線概覽
+LOCATION_COMMAND_MAP_TITLE: "{resource} 地圖位置"
 LOCATION_COMMAND_REGION_DESCRIPTION: "Local {region} Specialty:"
 LOCATION_COMMAND_FARMABLE_FOOTER: Farmable locations for specified material
 CALC_CHARACTER_INVALID_CHARACTER: You need to specify a valid character!
@@ -509,8 +509,8 @@ CALC_CHARACTER_REQUIREMENT_SURPASSED: Character has already **surpassed** the gi
 CALC_CHARACTER_REQUIREMENT_MET: Character has already **reached** the given desired level!
 CALC_CHARACTER_TITLE: Genshin Wizard | Character Calculator
 CHARACTER_KEY: Character
-CURRENT_LEVEL_KEY: Current Level
-TARGET_LEVEL_KEY: Target Level
+CURRENT_LEVEL_KEY: 當前等級
+TARGET_LEVEL_KEY: 目標等級
 REQUIRED_RESOURCES_KEY: Required Resources
 GENSHIN_WIZARD_USER_PROFILE: "{user} 的 Genshin Wizard 設定檔"
 PROFILE_SUMMARY_KEY: Profile Summary
@@ -519,7 +519,7 @@ PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and re
 GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
 GENSHIN_STATISTICS_INFOGRAPHIC: 原神統計資訊表
 GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: 旅行者你好！根據你的需求，以下是你**專屬**的原神遊玩狀態／進度資訊卡片！
-HIDDEN_KEY: Hidden
+HIDDEN_KEY: 隱藏
 REQUESTED_UID_KEY: 請求 UID
 GENSHIN_EXPLORATION_INFOGRAPHIC: Genshin Exploration Progression
 GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin exploration infographic that you requested!
@@ -544,13 +544,13 @@ PRIVACY_SETTING_OVERVIEW: |
   > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
   **Info Privacy:** {info_privacy}
   > *Hide your showcase builds information from showing up anywhere (`/info`)*
-ALL_KEY: All
-RESET_KEY: Reset
+ALL_KEY: 全部
+RESET_KEY: 重置
 WISH_HISTORY_KEY: 祈願記錄
-ABYSS_KEY: Abyss
+ABYSS_KEY: 深淵
 UID_KEY: UID
 STATS_KEY: Stats
-INFO_KEY: Info
+INFO_KEY: 資訊
 SETTING_RESET_PRIVACY: Successfully reset privacy settings to default setting!
 SETTING_PRIVACY_UPDATED: "{privacy_type} privacy settings have been updated! Current Privacy: {current_privacy}"
 SETTING_ART_STYLE_UPDATED: "Character builds Art Styles have been updated! Current Art Style: {current_setting}"
@@ -578,8 +578,8 @@ MISSING_REGISTRATION_INSTRUCTIONS: |
   **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
 MISSING_IMAGE: Please provide an image or a link to an image to update your banner
 PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Profile Banner Link Updated
-IMAGE_LINK_KEY: Image Link
-UPDATE_DATE_KEY: Update Date
+IMAGE_LINK_KEY: 圖片連結
+UPDATE_DATE_KEY: 更新時間：
 SETTING_COMMAND_REQUIRE_SLASH: You must use a **slash command** (</settings:{command_id}>) or access this via your profile.
 CURRENT_ABYSS_DESCRIPTION: |
   **Current Lunar Phase**
@@ -597,12 +597,12 @@ ABYSSAL_ARCHIVE_DESCRIPTION: |
   **End Time:** <t:{timestamp_end}:F>
 UID_LOOKUP: 原神 UID 查詢
 UID_LOOKUP_TITLE: "{user}'s Genshin Account UID"
-PUBLIC_KEY: Public
-PRIVATE_KEY: Private
-CREATION_DATA_KEY: Creation Date
+PUBLIC_KEY: 公開
+PRIVATE_KEY: 不公開
+CREATION_DATA_KEY: 建立日期
 JOIN_DATE_KEY: Join Date
-NOT_HERE_KEY: Not Here
-LOCATION_KEY: Location
+NOT_HERE_KEY: 這邊沒有
+LOCATION_KEY: 位置
 TOP_ROLE_KEY: Top Role
 RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
 RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
@@ -610,8 +610,8 @@ WISHES_WORTH_KEY: Wishes Worth
 OVERALL_SUMMARY_KEY: Overall Summary
 OVERALL_STATS_KEY: Overall Stats
 PERCENTAGE_KEY: Percentage
-TOTAL_WISHES_KEY: Total Wishes
-TOTAL_KEY: Total
+TOTAL_WISHES_KEY: 總抽數
+TOTAL_KEY: 合計
 TOTAL_FIVE_STAR: Total 5-star
 NUMBER_FIVE_STAR: Number of 5-star
 TOTAL_FOUR_STAR: Total 4-star
@@ -620,7 +620,7 @@ TOTAL_THREE_STAR: Total 3-star
 REGISTER_PC_METHOD: "PC"
 REGISTER_ANDROID_METHOD: "Android"
 IOS_KEY: "iOS"
-CONSOLE_KEY: "Console"
+CONSOLE_KEY: "控制台"
 REGISTER_IOS_METHOD: "iOS (Stream App Method)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
   Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
@@ -706,7 +706,7 @@ GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: 註冊您的原神帳號到 Genshin Wiz
 HOYOLAB_ACCOUNT: HoYoLAB 帳號
 LINKED_UID_KEY: 已連結 UID
 LINKED_KEY: 已連結
-NOT_LINKED_KEY: Not Linked
+NOT_LINKED_KEY: 未連結
 LINKING_UID_DIRECTIONS: |
   Hello Traveler! To continue linking the requested UID to Genshin Wizard, we're going to need to **verify** that this account is actually yours!
 
@@ -763,9 +763,9 @@ REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
   > **Automatic Reminder:** {automatic_parametric}
   {para_rmd}
 REMINDER_COMMAND_OVERVIEW_TITLE: Genshin Impact Reminders
-ENABLED_KEY: Enabled
-DISABLED_KEY: Disabled
-NOT_ENABLED_KEY: Not Enabled
+ENABLED_KEY: 啟用
+DISABLED_KEY: 停用
+NOT_ENABLED_KEY: 未啟用
 NO_REMINDERS_SET_KEY: No Reminders Set!
 RESIN_REMINDERS_KEY: Resin Reminders
 EXPEDITION_REMINDERS_KEY: Expedition Reminders
@@ -785,7 +785,7 @@ PARAMETRIC_REMINDERS_DESCRIPTION: |
   > **Automatic Reminder:** {reminder_setting}
 READY_TO_USE: ready to use
 NOT_READY_TO_USE: not ready to use
-MAXED_OUT_KEY: Maxed Out!
+MAXED_OUT_KEY: 已達到最大等級
 RESIN_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your resin reaches a certain amount!
 REMINDER_AUTOMATIC_RESIN_SET: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your resin reaches the threshold set above!
 TEAPOT_AUTOMATIC_REMINDER_FOOTER: 設定自動提醒，以便在洞天寶錢完全回滿的時候能夠及時領取！
@@ -922,7 +922,7 @@ SIMULATOR_DUMP_UNSUCCESSFUL: Oops! Dumping your backpack was unsuccessful, there
 SIMULATOR_DUMP_SUCCESSFUL: <:yescheck:1021114525858136074> You have successfully dumped your inventory!
 SIMULATOR_DUMP_CANCELLED: "**<:yescheck:1021114525858136074> Successfully Cancelled!**"
 FARM_COMMAND_DOMAIN_TITLE: Domain Schedule Overview [{region}]
-SERVER_RESET_KEY: Server Reset
+SERVER_RESET_KEY: 伺服器重置
 ARTIFACT_GUIDE_FOOTER: Use the command /artifact <name_of_artifact> to get more information on an artifact.
 ARTIFACT_GUIDE_TITLE: Artifacts Overview
 NO_ASSET_INPUT: ":no_entry: Please provide an asset ID to look up."
@@ -958,9 +958,9 @@ ROLE_KEY: Role
 SERVER_TIME_PANEL_KEY: Server Time Panel
 DOMAIN_SCHEDULE_KEY: Domain Schedule
 GENSHIN_EVENT_BANNERS: Genshin Event Banners
-START_KEY: Start
-END_KEY: End
-SERVER_TIME_KEY: Server Time
+START_KEY: 開始
+END_KEY: 結束
+SERVER_TIME_KEY: 伺服器時間
 CONFIGURATION_SETTINGS_RESET: <:yescheck:1021114525858136074> Settings have been **reset**!
 CHANNEL_SETUP_MISSING: You need to set-up a channel first!
 TIME_FOR_ADVENTURE: Time for an Adventure!
@@ -992,8 +992,8 @@ PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
   Role Name: {role_name}
   Role Color: `{role_color}`
 GENSHIN_WIZARD_PREMIUM: Genshin Wizard Premium
-CLAIMED_KEY: Claimed
-UNCLAIMED_KEY: Unclaimed
+CLAIMED_KEY: 領取成功
+UNCLAIMED_KEY: 未領取
 PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard Premium Server Settings
 PREMIUM_SERVER_SETTINGS_DESCRIPTION: |
   **<:information:1034639378410115103> What are premium servers?**
@@ -1108,13 +1108,13 @@ GENSHIN_WIZARD_SERVER_JOIN_DESCRIPTION: |
   請參閱我們的[**說明文件**](https://docs.genshinwizard.com/)或是使用 </help:{command_id}> 指令以獲得更多資訊！
 SHOWCASE_KEY: Showcase
 CUSTOM_ART_KEY: Custom Art
-DELETE_SELECTED_KEY: Delete Selected
-DELETE_ALL_KEY: Delete All
+DELETE_SELECTED_KEY: 刪除選擇項目
+DELETE_ALL_KEY: 全部移除
 CANCEL_KEY: Cancel
 CACHE_VIEW_NO_SAVED_CHARACTERS: No Saved Characters!
-THREE_STARS_KEY: 3 Stars
-FOUR_STARS_KEY: 4 Stars
-FIVE_STARS_KEY: 5 Stars
+THREE_STARS_KEY: 3 星
+FOUR_STARS_KEY: 4 星
+FIVE_STARS_KEY: 5 星
 ALL_WISHES_KEY: All Wishes
 THREE_STARS_FILTER_DESCRIPTION: Filter your wish history by three-star pulls.
 FOUR_STARS_FILTER_DESCRIPTION: Filter your wish history by four-star pulls.
@@ -1124,18 +1124,18 @@ NOVICE_BANNER_DESCRIPTION: View your wish history for the novice banner.
 CHARACTER_BANNER_DESCRIPTION: View your wish history for the character banner.
 WEAPON_BANNER_DESCRIPTION: View your wish history for the weapon banner.
 PERMANENT_BANNER_DESCRIPTION: View your wish history for the permanent banner.
-CHOOSE_BANNER_PLACEHOLDER: Choose a banner...
+CHOOSE_BANNER_PLACEHOLDER: 選擇分類...
 GO_BACK_BUTTON: 返回
 REGISTER_SCRIPT_BUTTON: Register via Script
 REGISTER_LOGIN_BUTTON: Register via Login
-ENTER_TOKEN_BUTTON: Enter Token
-REGISTER_ACCOUNT_BUTTON: Register Account
+ENTER_TOKEN_BUTTON: 輸入 token
+REGISTER_ACCOUNT_BUTTON: 註冊帳號
 CHARACTERS_BUTTON: Characters
 CLAIM_DAILY_REWARD_BUTTON: Claim Daily Reward
 MONTHLY_REWARDS_BUTTON: Monthly Rewards
 VIEW_TRAVELER_DIARY_BUTTON: View Traveler's Diary
-RELINK_ACCOUNT_BUTTON: Relink Account
-UNLINK_ACCOUNT_BUTTON: Unlink Account
+RELINK_ACCOUNT_BUTTON: 重新連結帳號
+UNLINK_ACCOUNT_BUTTON: 取消帳號連結
 YES_BUTTON: Yes
 NO_BUTTON: No
 DIARY_MONTH_DESCRIPTION: View Traveler's Diary for the month of {month}.
@@ -1143,9 +1143,9 @@ DIARY_MONTH_LABEL: "{month}'s Diary"
 DIARY_MONTH_PLACEHOLDER: Choose a month to view...
 INVOKATION_ARCHIVE_LABEL: 檢視七聖召喚卡牌檔案
 INVOKATION_RETURN_SHOWCASE: 返回展示櫃
-GLOBAL_BUTTON: Global
-SERVER_BUTTON: Server
-PERSONAL_BUTTON: Personal
+GLOBAL_BUTTON: 全球
+SERVER_BUTTON: 伺服器
+PERSONAL_BUTTON: 個人
 ABYSS_LEADERBOARD_WANING_PHASE_LABEL: "{date} Waning Phase"
 ABYSS_LEADERBOARD_WAXING_PHASE_LABEL: "{date} Waxing Phase"
 PERIOD_KEY: Period
@@ -1161,7 +1161,7 @@ GACHA_SIMULATOR_KEY: Gacha Simulator
 ACTIVE_PLAYTIME_KEY: Active Playtime
 WISHES_KEY: Wishes
 DONATIONS_KEY: Donations
-LEVELS_KEY: Levels
+LEVELS_KEY: 等級
 CHESTS_DESCRIPTION: View Genshin Wizard's chests leaderboard.
 ACHIVEMENTS_DESCRIPTION: View Genshin Wizard's achievements leaderboard.
 CHARACTER_STATISTICS_DESCRIPTION: View Genshin Wizard's character stats leaderboard.
@@ -1196,18 +1196,18 @@ CRIT_RATE_LABEL: "CRIT Rate"
 CRIT_DMG_LABEL: "CRIT DMG"
 ENERGY_RECHARGE_LABEL: "Energy Recharge"
 ELEMENTAL_MASTERY_LABEL: "Elemental Mastery"
-TOTAL_WISHES_LABEL: "Total Wishes"
+TOTAL_WISHES_LABEL: "總抽數"
 PRIMOGEM_COUNT_LABEL: "Total Primogems"
 STARDUST_COUNT_LABEL: "Stardust Count"
 STARGLITTER_COUNT_LABEL: "Starglitter Count"
-THREE_STAR_LABEL: "Three Stars"
-FOUR_STAR_LABEL: "Four Stars"
-FIVE_STAR_LABEL: "Five Stars"
-PREVIOUS_BUTTON: Previous
-NEXT_BUTTON: Next
+THREE_STAR_LABEL: "3星"
+FOUR_STAR_LABEL: "4星"
+FIVE_STAR_LABEL: "5星"
+PREVIOUS_BUTTON: 上一個
+NEXT_BUTTON: 下一個
 GENERATE_IMAGE_BUTTON: Generate Image
 GENERATE_EXPLORATION_BUTTON: Export Exploration Progression
-SETTINGS_BUTTON: Settings
+SETTINGS_BUTTON: 設定
 ANEMO_KEY: Anemo
 CRYO_KEY: Cryo
 DENDRO_KEY: Dendro
@@ -1269,9 +1269,9 @@ SHOP_BUTTON_LABEL: "{primogem_price} Primogems"
 REROLL_WISHES_BUTTON: 再抽一次
 VIEW_INVENTORY_BUTTON: View Inventory
 REGION_SELECT_PLACEHOLDER: Select a region...
-AMERICA_KEY: America
-EUROPE_KEY: Europe
-ASIA_KEY: Asia
+AMERICA_KEY: 美洲
+EUROPE_KEY: 歐洲
+ASIA_KEY: 亞洲
 SAR_KEY: SAR
 AMERICA_SERVER_DOMAIN_SCHEDULE: View current Domain Schedule for America servers.
 EUROPE_SERVER_DOMAIN_SCHEDULE: View current Domain Schedule for Europe servers.
@@ -1304,7 +1304,7 @@ SERVER_SELECT_PLACEHOLDER: Choose server-time for announcements...
 MASTER_SWITCH_BUTTON: Enable/Disable All
 SWITCH_BUTTON: Enable/Disable
 PING_ROLE_BUTTON: Ping Role
-TEST_KEY: Test
+TEST_KEY: 測試
 DAILY_ANNOUNCEMENT_MODAL_TITLE: Daily Announcements Integration
 DAILY_ANNOUNCEMENT_AMERICA_PING_ROLE: America Ping Role ID
 DAILY_ANNOUNCEMENT_EUROPE_PING_ROLE: Europe Ping Role ID
@@ -1315,7 +1315,7 @@ MODAL_ROLE_ID_PLACEHOLDER: Insert Desired Role ID here...
 MODAL_CHANNEL_ID_PLACEHOLDER: Insert Desired Channel ID here...
 MODAL_ROLE_OR_CHANNEL_ID_PLACEHOLDER: Insert Desired Channel/Role ID here...
 MODAL_ROLE_NAME_PLACEHOLDER: Insert desired role name here...
-RESEND_BUTTON: Resend
+RESEND_BUTTON: 重新送出
 PANEL_UPDATE_INTEGRATION_TITLE: Update Genshin Wizard Integration
 PARTNER_ABYSS_ROLE_BUTTON: Abyss Role
 PARTNER_ABYSS_REWARD_BUTTON: Abyss Reward
@@ -1450,18 +1450,18 @@ INFO_COMMAND_SETTING_NOT_OWNER: You can only manage art settings for your own ch
 VERTICAL_ART_SETTING: Vertical Card Layout
 DIARY_DATE_LABEL: "{month}/{year} Diary"
 NO_ACTIVE_BONUS: No Activated Bonuses
-JANUARY_KEY: January
-FEBRUARY_KEY: February
-MARCH_KEY: March
-APRIL_KEY: April
-MAY_KEY: May
-JUNE_KEY: June
-JULY_KEY: July
-AUGUST_KEY: August
-SEPTEMBER_KEY: September
-OCTOBER_KEY: October
-NOVEMBER_KEY: November
-DECEMBER_KEY: December
+JANUARY_KEY: 1月
+FEBRUARY_KEY: 2月 
+MARCH_KEY: 3月
+APRIL_KEY: 4月 
+MAY_KEY: 5月
+JUNE_KEY: 6月
+JULY_KEY: 7月
+AUGUST_KEY: 8 月
+SEPTEMBER_KEY: 9月 
+OCTOBER_KEY: 10月
+NOVEMBER_KEY: 11月
+DECEMBER_KEY: 12月 
 SIGN_IN_DAY: "Day {day}"
 CHARACTER_ARCHIVE_TITLE: Character Archive
 USER_KEY_VALUE: "User: {user}"
@@ -1562,8 +1562,8 @@ ABYSS_FLOOR_COMPLETION: Abyss Floor Completion
 WORLD_LEVEL_KEY: World Level
 PROFILE_SHOWCASE_TITLE: Genshin Wizard Profile Showcase
 ADVENTURE_RANK_KEY: Adventure Rank
-HIDE_WEAPON_KEY: Hide Weapon Details
-SHOW_WEAPON_KEY: Show Weapon Details
+HIDE_WEAPON_KEY: 隱藏武器詳情
+SHOW_WEAPON_KEY: 武器詳情
 ONGOING_KEY: Ongoing
-FINISHED_KEY: Finished
+FINISHED_KEY: 完成
 VENTURA_ART_SETTING: Ventura Layout

@@ -1372,7 +1372,7 @@ GUILD_OR_SERVER_ID: ID de Guilde/Serveur
 GUILD_OR_SERVER_ID_PLACEHOLDER: Insérer l'ID de Guilde/Serveur ici...
 GUIDE_KEY: Guide
 ENABLE_ADAPTIVE_ART_SETTING: Activer l'Infographie Adaptative
-ADAPTIVE_INFOGRAPHIC_KEY: Adaptive Infographic Art
+ADAPTIVE_INFOGRAPHIC_KEY: Activer l'Infographie Adaptative
 INVITE_BOT_KEY: Inviter le bot
 HELP_DROPDOWN_DIRECTORY: Répertoire d'Aide
 HELP_DROPDOWN_PROFILE_COMMANDS: Commandes Profil/Stats
@@ -1437,14 +1437,14 @@ PAGE_MODAL_PLACEHOLDER: "Entrez le numéro de page..."
 RARITY_FILTER_PLACEHOLDER: "Choisissez un filtre de rareté..."
 CHRONICLE_PRIVACY_PLACEHOLDER: "Gérer les paramètres de confidentialité de Battle Chronicle..."
 LEADERBOARD_FILTER_PLACEHOLDER: "Choisissez un filtre pour ce classement..."
-VIEW_ABYSS_TEAM: Viewing Abyss Teams
-MANAGE_ART_SETTING_KEY: Manage Art Settings
-DEFAULT_ART_SETTING: Default Layout
-ENKA_ART_SETTING: Enka.Network Layout
-ART_SETTING_TITLE: Genshin Wizard Art Settings
-ART_SETTING_DESCRIPTION: Manage your Genshin Wizard </info:{command_id}> art settings here.
-ART_LAYOUT_STYLE: "Layout Style"
-ART_CHARACTER_STYLE: "Character Art"
+VIEW_ABYSS_TEAM: Voir les équipes abyssales
+MANAGE_ART_SETTING_KEY: Modifier les paramètres
+DEFAULT_ART_SETTING: Mise en page par défaut
+ENKA_ART_SETTING: Disposition Enka.Network
+ART_SETTING_TITLE: Paramètres de Confidentialité de Genshin Wizard
+ART_SETTING_DESCRIPTION: Gérez ici les paramètres de votre </info:{command_id}> art Genshin Wizard.
+ART_LAYOUT_STYLE: "Type de mise en page"
+ART_CHARACTER_STYLE: "Statistiques de Personnage"
 RESET_PROFILE_SETTINGS: Reset Profile Settings
 CHOOSE_ART_LAYOUT: "Choose an art layout style..."
 MANAGE_CACHED_DATA: Manage Cached Data
@@ -1452,40 +1452,40 @@ INFO_COMMAND_SETTING_NOT_OWNER: You can only manage art settings for your own ch
 VERTICAL_ART_SETTING: Vertical Card Layout
 DIARY_DATE_LABEL: "{month}/{year} Diary"
 NO_ACTIVE_BONUS: No Activated Bonuses
-JANUARY_KEY: January
-FEBRUARY_KEY: February
-MARCH_KEY: March
-APRIL_KEY: April
-MAY_KEY: May
-JUNE_KEY: June
-JULY_KEY: July
-AUGUST_KEY: August
-SEPTEMBER_KEY: September
-OCTOBER_KEY: October
-NOVEMBER_KEY: November
-DECEMBER_KEY: December
-SIGN_IN_DAY: "Day {day}"
-CHARACTER_ARCHIVE_TITLE: Character Archive
-USER_KEY_VALUE: "User: {user}"
-PLAYER_KEY_VALUE: "Player: {player}"
-TOTAL_WISHES_VALUE: "Total Wishes: {total_wishes}"
-FIVE_STAR_COUNT: "Five Stars: {five_star_count}"
-FOUR_STAR_COUNT: "Four Stars: {four_star_count}"
-GACHA_DATA_NOT_REAL: "*This data is not real."
-INVENTORY_KEY: Inventory
-CHARACTER_SUMMARY_KEY: Character Summary
-UNKNOWN_ADVENTURE_RANK: "Adventure Rank: N/A"
-ADVENTURE_RANK_VALUE: "Adventure Rank: {adventure_rank}"
-SERVER_KEY_VALUE: "Server: {server}"
-UID_KEY_VALUE: "UID: {uid}"
-HOYO_API_LIMITATION: "*Data may be inaccurate due to HoYoLAB API limitations"
-CHECK_IN_GAME: "See in-game for the most accurate information"
-HOYO_COMMISSION_KEY: "Commissions:"
+JANUARY_KEY: Janvier
+FEBRUARY_KEY: Février
+MARCH_KEY: Mars
+APRIL_KEY: Avril
+MAY_KEY: Mai
+JUNE_KEY: Juin
+JULY_KEY: Juillet
+AUGUST_KEY: Août
+SEPTEMBER_KEY: Septembre
+OCTOBER_KEY: Octobre
+NOVEMBER_KEY: Novembre
+DECEMBER_KEY: Décembre
+SIGN_IN_DAY: "Jour {day}"
+CHARACTER_ARCHIVE_TITLE: Archive des Personnages
+USER_KEY_VALUE: "Utilisateur : {user}"
+PLAYER_KEY_VALUE: "Joueur {player}"
+TOTAL_WISHES_VALUE: "Total de vœux : {total_wishes}"
+FIVE_STAR_COUNT: "Cinq Étoiles : {five_star_count}"
+FOUR_STAR_COUNT: "Quatre Étoiles : {four_star_count}"
+GACHA_DATA_NOT_REAL: "*Ces données ne sont pas réelles."
+INVENTORY_KEY: Inventaire
+CHARACTER_SUMMARY_KEY: Résumé du personnage
+UNKNOWN_ADVENTURE_RANK: "Niveau d'Aventure : N/A"
+ADVENTURE_RANK_VALUE: "Niveau d'Aventure : {adventure_rank}"
+SERVER_KEY_VALUE: "Serveur: {server}"
+UID_KEY_VALUE: "UID : {uid}"
+HOYO_API_LIMITATION: "*Les données peuvent être inexactes en raison des limitations de l'API HoYoLAB"
+CHECK_IN_GAME: "Voir en jeu pour des informations plus précises"
+HOYO_COMMISSION_KEY: "Commandes :"
 HOYO_ADVENTURE_RANK_KEY: "Adventure Rank:"
-HOYO_DAILY_BONUS_STATUS: "Daily Sign-In:"
-HOYO_RESIN_KEY: "Resin:"
-HOYO_TEAPOT_KEY: "Teapot:"
-HOYO_TRANSFORMER_KEY: "P. Transformer:"
+HOYO_DAILY_BONUS_STATUS: "Connexion journalière:"
+HOYO_RESIN_KEY: "Résine :"
+HOYO_TEAPOT_KEY: "Sérénithéière:"
+HOYO_TRANSFORMER_KEY: "Transformateur:"
 TRANSFORMER_READY_KEY: Ready
 TRANSFORMER_LOCKED_KEY: Locked
 GENSHIN_STATS_KEY: Statistiques Genshin
@@ -1530,13 +1530,13 @@ CLASSIFIED_KEY: Classified
 INFORMATION_KEY: Information
 FROM_DIARY_NOTE: "-from {nickname}"
 TRAVELER_DIARY_KEY: Traveler's Diary
-NICKNAME_KEY_VALUE: "Nickname: {nickname}"
-DIARY_MONTH_OF_KEY: "Month of"
-ACQUIRED_MONTH_KEY: Acquired this month
+NICKNAME_KEY_VALUE: "Pseudo : {nickname}"
+DIARY_MONTH_OF_KEY: "Mois de"
+ACQUIRED_MONTH_KEY: Obtenu ce mois-ci
 TOTAL_MORA_KEY: Total Mora
-DIARY_MONTHLY_DESCRIPTION: "This month, your primary source for obtaining Primogems is through {source}, for a total of {primogem_count} Primogems, or {top_percentage}% of your total!"
-DIARY_DAILY_DESCRIPTION: Hey Traveler! You have earned {primogems} Primogems and {mora} Mora today, what a bountiful day!
-TOTAL_PRIMOGEMS_OBTAINED: Primogems Obtained
+DIARY_MONTHLY_DESCRIPTION: "Ce mois-ci, votre principale source pour obtenir des Primogems est à travers {source}, pour un total de {primogem_count} Primogems, ou {top_percentage}% de votre total !"
+DIARY_DAILY_DESCRIPTION: Salut Voyageur ! Vous avez gagné {primogems} Primogems et {mora} Mora aujourd'hui, quelle journée généreuse !
+TOTAL_PRIMOGEMS_OBTAINED: Primogems obtenus
 DIARY_DATA_DELAYED: "*This data is delayed by about one hour, please check the updated records later"
 DIARY_DATA_SOURCE_DESCRIPTION: "*This diary only includes the resources obtained outside of top-ups"
 REGION_EXPLORATION_STATUS: "Exploration Progress: {percentage}%"
