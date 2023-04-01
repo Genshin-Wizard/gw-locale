@@ -49,18 +49,18 @@ TOTAL_CRIT_VALUE: Gesamter Crit Wert
 TRUTH_COMMAND_RESPONSES:
   - So wie ich das sehe, ja.
   - Ja.
-  - Positive.
-  - From my point of view, yes.
-  - Convinced.
-  - It is certain.
-  - It is decidedly so.
-  - Without a doubt.
-  - Most Likely.
-  - Chances High.
-  - No.
-  - I think not.
-  - Negative.
-  - My sources say no.
+  - Positiv.
+  - Aus meiner Sicht, ja.
+  - Bestätigt.
+  - Sicherlich.
+  - Zweifellos.
+  - Ohne Zweifel.
+  - Höchstwahrscheinlich.
+  - Wahrscheinlichkeit hoch.
+  - Nein.
+  - Ich denke nicht.
+  - Negativ.
+  - Meine Quellen sagen nein.
   - Not Convinced.
   - Perhaps.
   - Not Sure.
@@ -125,36 +125,36 @@ ERROR_COMMAND_INVOKE: Make sure you're using the correct parameters for this com
 ERROR_PRIVACY_SETTING_TITLE: Hidden | Nothing to see!
 ERROR_PRIVACY_SETTING_DESCRIPTION: Hey Traveler! Unfortunately, the person you are trying to search for has **privacy settings** enabled!
 ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Ongoing Update!
-ERROR_ONGOING_UPDATE_DESCRIPTION: Hey Traveler! Genshin Wizard is currently **undergoing maintenance** and this command has been *disabled* for the time being. Please try again *later*.
+ERROR_ONGOING_UPDATE_DESCRIPTION: Hey Traveler! Genshin Wizard wird derzeit **Wartungen** unterzogen und dieser Befehl wurde vorerst *deaktiviert*. Bitte versuche es *später* erneut.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this is a Genshin Wizard server {command_type}*exclusive* command!
+  Hey Traveler! Dir ist **nicht erlaubt** diesen Befehl hier zu benutzen. Dieser Befehl ist ein Genshin Wizard Server {command_type}*exklusiver* Befehl!
 
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
+  Wenn du diesen Befehl gerne benutzen würdest, dann solltest du dem offiziellen Discord Server beitreten (https://discord.gg/genshinwizard).
 ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
-ERROR_PREMIUM_COMMAND_DESCRIPTION: Hey Traveler! You're **not allowed** to use this command, this command is only available to **Premium Subscribers**. If you'd like use this feature, consider learning more using the </premium:{command_id}> command.
-ERROR_BLACKLISTED_TITLE: Genshin Wizard | Blacklisted
+ERROR_PREMIUM_COMMAND_DESCRIPTION: Hey Traveler! Du bist **nicht erlaubt** diesen Befehl zu verwenden, dieser Befehl ist nur für **Premium-Abonnenten** verfügbar. Wenn Sie diese Funktion verwenden möchten, erwäge, mehr mit dem </premium:{command_id}> Befehl zu lernen.
+ERROR_BLACKLISTED_TITLE: Genshin Wizard| Blacklist
 ERROR_BLACKLISTED_DESCRIPTION: |
-  Hey Traveler! You have been **banned** from using Genshin Wizard!
+  Hey Traveler! Du wurdest **gesperrt** den Genshin Wizard zu verwenden!
 
-  If you believe for this to be an error, consider joining our [Official Discord](https://discord.gg/genshinwizard)
-ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Member Not Found
-ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Make sure the person you are trying to view is still in the server.
-ERROR_MISSING_REQUIRED_ARGUMENT: "You forgot to provide an argument, please use the correct format: ```{usage}```"
-ERROR_MISSING_REQUIRED_ATTACHMENT: "You forgot to provide an attachment, please use the correct format: ```{usage} with the correct attachment.```"
-ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, I do not have permission to `Manage Messages` within this channel/guild. Please enable this permission and try again.
-ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
-MESSAGE_KEY: Message
-ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
-ERROR_MESSAGE: There has been an error!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
+  Wenn du glaubst, dass dies ein Fehler sei, überlege dir, dich an unseren [Official Discord](https://discord.gg/genshinwizard) zu wenden
+ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Mitglied nicht gefunden
+ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Vergewissern Sie sich, dass die Person, die Sie anschauen möchten, noch auf dem Server ist.
+ERROR_MISSING_REQUIRED_ARGUMENT: "Du hast vergessen, ein Argument anzugeben, bitte benutze das korrekte Format: ```{usage}```"
+ERROR_MISSING_REQUIRED_ATTACHMENT: "Du hast vergessen, einen Anhang anzugeben, bitte benutze das korrekte Format: ```{usage} mit dem korrekten Attachment.```"
+ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, ich habe keine Berechtigung um Nachrichten in diesem Kanal zu verwalten. Bitte aktiviere diese Berechtigung und versuche es erneut.
+ERROR_MISSING_SEND_MESSAGE: Hey Traveler, ich habe keine Berechtigung um Nachrichten in diesem Kanal zu versenden. Bitte aktiviere diese Berechtigung und versuche es erneut.
+MESSAGE_KEY: Nachricht
+ERROR_EMPTY_BACKPACK: Dein Rucksack ist **leer**! Um deine Reise zu beginnen, benutze den </wishsimulator:{command_id}> Befehl!
+ERROR_INTERACTION_MISMATCH: Hey Traveler! Dies **ist nicht deine Interaktion**, die du berühren möchtest! Verwende den Befehl {command}, wenn du diesen Befehl selbst verwenden möchtest!
+ERROR_MESSAGE: Es ist ein Fehler aufgetreten!
+FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard| Feedback
+FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Ihr Feedback wurde erfolgreich an die Entwickler gesendet!*
 FEEDBACK_LOG_RESPONSE: |
-  > User: **{author_name}** | {author_mention}
+  > Benutzer: **{author_name}** | {author_mention}
   > Discord ID: `{author_id}`
 
   **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </register:{command_id}> to link your account.
+NO_HOYOLAB_LINKED: Sie haben Ihr HoYoLAB-Konto noch nicht verknüpft. Verwende </register:{command_id}>, um Ihr Konto zu verknüpfen.
 OLD_HOYOLAB_LINKED: |
   Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
 
