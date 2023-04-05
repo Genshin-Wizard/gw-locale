@@ -156,14 +156,14 @@ FEEDBACK_LOG_RESPONSE: |
   **Feedback:**```{feedback}```
 NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </register:{command_id}> to link your account.
 OLD_HOYOLAB_LINKED: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
+  你好旅行者！對於給您帶來的不便，我們深表歉意，但此功能是在您將 `HoYoLAB` 帳戶註冊到 Genshin Wizard **後**實施的。 
 
-  In order to use this button, you must unlink your HoYoLAB account through </hoyo:{command_id}> and **relink** through the usual registration command.
+  為了使用此按鈕，您必須通過 </hoyo:{command_id}> 取消鏈接您的 HoYoLAB 帳戶，並通過通常的註冊命令**重新鏈接**。
 CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB 代碼兌換
 CODE_REDEEM_DESCRIPTION: "*請稍候，我們正嘗試兌換您的兌換碼...*"
 CODE_REDEEM_PROGRESS: |
   *請稍候，咱們正在處理您的兌換碼...* <a:loading:1015667958237900801> 正在嘗試兌換代碼 `{code}`
-HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Expired Cookies
+HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | 過期的Cookies
 HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
@@ -185,7 +185,7 @@ APP_COMMAND_IMPORT_DESCRIPTION: 導入祈願歷史紀錄
 APP_COMMAND_LEADERBOARD_DESCRIPTION: View Genshin Wizard's leaderboards.
 APP_COMMAND_LOCATION_DESCRIPTION: Display the known location(s) for the resource given.
 APP_COMMAND_LOCATIONS_DESCRIPTION: Display a list of available resource locations.
-APP_COMMAND_CALC_DESCRIPTION: Calculate required ascension materials for a given character.
+APP_COMMAND_CALC_DESCRIPTION: 計算給定角色所需的提升材料。
 APP_COMMAND_BANNER_DESCRIPTION: 更改 Genshin Wizard 個人資料的橫幅背景
 APP_COMMAND_PROFILE_DESCRIPTION: 檢視 Genshin Wizard 個人設定檔
 APP_COMMAND_SETTINGS_DESCRIPTION: 更改 Genshin Wizard 設定檔
@@ -205,11 +205,11 @@ APP_COMMAND_SHOP_DESCRIPTION: 檢視 Genshin Wizard 的商店
 APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: 檢視 Genshin Wizard 內的角色列表
 APP_COMMAND_COMMISSIONS_DESCRIPTION: 領取 Genshin Wizard 內的每日獎勵
 APP_COMMAND_BALANCE_DESCRIPTION: View your Genshin Wizard account's balance.
-APP_COMMAND_EDIT_DESCRIPTION: Edit genshin wizard's character details database.
+APP_COMMAND_EDIT_DESCRIPTION: 編輯 genshin wizard's 的角色詳細信息數據庫。
 APP_COMMAND_EDIT_ADD_DESCRIPTION: Add a new build for a specific character.
 APP_COMMAND_DESCRIBE_EDIT_ADD_CHARACTER: The name of the character you want to add a build for.
-APP_COMMAND_DESCRIBE_EDIT_ADD_BUILD: The name of the build you want to add.
-APP_COMMAND_EDIT_REMOVE_DESCRIPTION: Remove build for a specific character.
+APP_COMMAND_DESCRIBE_EDIT_ADD_BUILD: 您要添加的構建的名稱。
+APP_COMMAND_EDIT_REMOVE_DESCRIPTION: 刪除構建特定角色。
 APP_COMMAND_DESCRIBE_EDIT_REMOVE_CHARACTER: The name of the character you want to remove a build for.
 APP_COMMAND_DESCRIBE_EDIT_REMOVE_BUILD: Name of the build you want to remove.
 APP_COMMAND_EDIT_BUILD_DESCRIPTION: Edit builds for a specific character.
@@ -218,12 +218,12 @@ APP_COMMAND_EDIT_PLAYSTYLE_DESCRIPTION: Edit playstyles for a specific character
 APP_COMMAND_DESCRIBE_PLAYSTYLE_CHARACTER: The name of the character you want to edit playstyles for.
 APP_COMMAND_EDIT_SYNERGY_DESCRIPTION: Edit synergies for a specific character.
 APP_COMMAND_DESCRIBE_SYNERGY_CHARACTER: The name of the character you want to edit synergies for.
-APP_COMMAND_FARM_DESCRIPTION: Check the current domain schedule for your region.
+APP_COMMAND_FARM_DESCRIPTION: 檢查您所在地區的當前域時間表。
 APP_COMMAND_TCGCARD_DESCRIPTION: 查詢七聖召喚卡牌
 APP_COMMAND_ARTIFACT_DESCRIPTION: Display a breakdown of the perks/buffs for the given artifact.
-APP_COMMAND_ARTIFACTS_DESCRIPTION: Display a list of available artifacts.
+APP_COMMAND_ARTIFACTS_DESCRIPTION: 顯示可用工件列表。
 APP_COMMAND_TRANSLATE_DESCRIPTION: 關於如何為Genshin Wizard's原神法師的翻譯做出貢獻的信息。
-APP_COMMAND_ID_DESCRIPTION: Look up any in-game asset using its ID.
+APP_COMMAND_ID_DESCRIPTION: 使用其 ID 查找任何遊戲內物品。
 APP_COMMAND_WEAPON_DESCRIPTION: 查詢特定武器的升級突破材料
 APP_COMMAND_GUIDE_DESCRIPTION: Look up a character guide for a specific Genshin character.
 APP_COMMAND_BUILD_DESCRIPTION: Look up build(s) for a specific Genshin character.
@@ -253,7 +253,7 @@ APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
 APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
 APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
 APP_COMMAND_TRUTH_DESCRIPTION: Seek wisdom from Genshin Wizard.
-APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Change Genshin Wizard's prefix for commands.
+APP_COMMAND_CHANGEPREFIX_DESCRIPTION: 更改 Genshin Wizard 命令的前綴。
 APP_COMMAND_PITY_DESCRIPTION: Information on understanding the Genshin pity-system.
 APP_COMMAND_MATH_DESCRIPTION: Computer simple or complex functions.
 APP_COMMAND_EVENTS_DESCRIPTION: Check recent Genshin Impact events.
@@ -276,7 +276,7 @@ INVALID_ARGUMENT_PASSED: |
 INFO_COMMAND_ENKA_ISSUE: There seems to be an issue with [**Enka.Network**](https://enka.network/u/{uid}). Please try again later.
 ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
-WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
+WHAT_HAPPENED_VALUE: 此問題最常見的原因是您嘗試搜索的 genshin 帳戶尚未設置為公開。要解決此問題，請在 Genshin 的個人資料中啟用“顯示角色詳細信息”。請參考下圖。
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
 INFO_COMMAND_SHOWCASE_TITLE: 角色展示櫃
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: 在 Enka.Network 上檢視
@@ -323,12 +323,12 @@ APP_COMMAND_DESCRIBE_RESOURCE: The resource you are trying to search for.
 APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: The character you want to calculate ascension materials for.
 APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: Starting level of the character you want to upgrade.
 APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: Desired level of the character you want to upgrade.
-APP_COMMAND_DESCRIBE_BANNER_IMAGE: The image you want to use as your banner.
-APP_COMMAND_DESCRIBE_BANNER_URL: The link to an image you want to use as your banner.
+APP_COMMAND_DESCRIBE_BANNER_IMAGE: 你想作為你的橫幅使用的圖片。
+APP_COMMAND_DESCRIBE_BANNER_URL: 指向您要用作橫幅的圖像的鏈接。
 APP_COMMAND_DESCRIBE_CURRENT_RESIN: The amount of resin you currently have.
 APP_COMMAND_DESCRIBE_CARD: The name of the card you want to look-up.
 APP_COMMAND_DESCRIBE_ARTIFACT: The name of the artifact you want to search for.
-APP_COMMAND_DESCRIBE_ASSET_ID: The ID for the asset you wish to look up.
+APP_COMMAND_DESCRIBE_ASSET_ID: 您要查找的資產的 ID。
 APP_COMMAND_DESCRIBE_WEAPON: The name of the weapon you want to look-up a guide for.
 APP_COMMAND_DESCRIBE_CHARACTER: The name of the character you want to look-up.
 APP_COMMAND_DESCRIBE_CHARACTER_GUIDE: The name of the character you want to look-up a guide for
@@ -493,16 +493,16 @@ LEADERBOARD_DONATION_FOOTER: Donate via the support links found in the /donate c
 LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Crunching data, please be **patient**...* <a:tyno:1001656937689120788>
 ERROR_GUILD_ONLY_BUTTON: ":no_entry: You must be in a guild to use this button!"
 QUERY_NO_RESULTS: "No results found for `{input}`. Please rephrase and try again!"
-LOCATION_COMMAND_ROUTES_TITLE: 鋤地路線概覽
+LOCATION_COMMAND_ROUTES_TITLE: 素材路線概覽
 LOCATION_COMMAND_MAP_TITLE: "{resource} 地圖位置"
 LOCATION_COMMAND_REGION_DESCRIPTION: "Local {region} Specialty:"
-LOCATION_COMMAND_FARMABLE_FOOTER: Farmable locations for specified material
+LOCATION_COMMAND_FARMABLE_FOOTER: 特定材料的可收割地點
 CALC_CHARACTER_INVALID_CHARACTER: You need to specify a valid character!
 CALC_CHARACTER_INVALID_STARTING_LEVEL: You need to specify a valid starting level!
-CALC_CHARACTER_INVALID_TARGET_LEVEL: You need to specify a valid target level!
+CALC_CHARACTER_INVALID_TARGET_LEVEL: 您需要指定一個有效的目標等級！
 CALC_CHARACTER_REQUIREMENT_SURPASSED: Character has already **surpassed** the given desired level!
 CALC_CHARACTER_REQUIREMENT_MET: Character has already **reached** the given desired level!
-CALC_CHARACTER_TITLE: Genshin Wizard | Character Calculator
+CALC_CHARACTER_TITLE: Genshin Wizard | 字符計算器
 CHARACTER_KEY: Character
 CURRENT_LEVEL_KEY: 當前等級
 TARGET_LEVEL_KEY: 目標等級
@@ -511,7 +511,7 @@ GENSHIN_WIZARD_USER_PROFILE: "{user} 的 Genshin Wizard 設定檔"
 PROFILE_SUMMARY_KEY: Profile Summary
 GENSHIN_WISH_STATS_KEY: Genshin Wish Stats
 PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
-GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
+GENERATE_IMAGE_COOLDOWN: 您生成圖像的速度太快了！請在 **{seconds}** 秒後再次嘗試使用此按鈕。
 GENSHIN_STATISTICS_INFOGRAPHIC: 原神統計資訊表
 GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: 旅行者你好！根據你的需求，以下是你**專屬**的原神遊玩狀態／進度資訊卡片！
 HIDDEN_KEY: 隱藏
@@ -550,7 +550,7 @@ SETTING_RESET_PRIVACY: Successfully reset privacy settings to default setting!
 SETTING_PRIVACY_UPDATED: "{privacy_type} privacy settings have been updated! Current Privacy: {current_privacy}"
 SETTING_ART_STYLE_UPDATED: "Character builds Art Styles have been updated! Current Art Style: {current_setting}"
 SETTING_MASTER_PROFILE_RESET: Your Genshin Wizard profile has been reset to default settings!
-INVALID_IMAGE_URL: "Please provide a **valid** image URL. Acceptable image types include: `PNGs`, `JPGs`, `JPEGs`, and `GIFs`."
+INVALID_IMAGE_URL: "請提供一個**有效**的圖片網址。可接受的圖像類型包括：`PNG`、`JPG`、`JPEG` 和 `GIF`。"
 SETTING_BANNER_UPDATE: Your banner has been successfully updated!
 SETTING_BIOGRAPHY_ILLEGAL: Hey Traveler! Your input contains words that **aren't allowed** by Genshin Wizard! Please consider trying something *different* for your bio.
 DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
@@ -571,7 +571,7 @@ MISSING_REGISTRATION_INSTRUCTIONS: |
   Please register using one of:
   **1.)** </register:{command_id}>
   **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
-MISSING_IMAGE: Please provide an image or a link to an image to update your banner
+MISSING_IMAGE: 請提供圖片或圖片鏈接以更新您的條幅
 PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Profile Banner Link Updated
 IMAGE_LINK_KEY: 圖片連結
 UPDATE_DATE_KEY: 更新時間：
@@ -681,18 +681,18 @@ SUCCESSFULLY_REGISTERED_RESPONSE: |
   旅行者你好！恭喜你，遊戲帳號已成功註冊！
   你現在可以在 Genshin Wizard 中使用幾個新的祈願相關的指令，請使用 </help:{command_id}> 指令或查看說明文件 (https://docs.genshinwizard.com/wishing-centre/commands) 以獲得更多資訊！
 GENSHIN_WIZARD_REGISTRATION: Genshin Wizard Registration
-UNLINK_GENSHIN_ACCOUNT: Unlink Genshin Account
-UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Unlink your Genshin Impact account completely from Genshin Wizard. This will erase all your data from Genshin Wizard, including your wish history, wish statistics, and more. This action is **irreversible**. Are you sure you want to continue?
-UNLINK_HOYOLAB_ACCOUNT: Unlink HoYoLAB Account
-UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Unlink your HoYoLAB account from Genshin Wizard; Will not unlink your linked UID from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
+UNLINK_GENSHIN_ACCOUNT: 取消鏈接 Genshin 帳戶
+UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: 完全取消您的 Genshin Impact 帳戶與 Genshin Wizard 的鏈接。這將從 Genshin Wizard 中刪除您的所有數據，包括您的願望歷史、願望統計等。此操作是**不可逆的**。你確定你要繼續嗎？
+UNLINK_HOYOLAB_ACCOUNT: 取消關聯 HoYoLAB 帳戶
+UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: 取消您的 HoYoLAB 帳戶與 Genshin Wizard 的鏈接；不會取消鏈接您鏈接的 UID 與 Genshin Wizard。此操作是**不可逆的**。你確定你要繼續嗎？
 PURGE_WISH_HISTORY: Purge Wish History
 PURGE_WISH_HISTORY_DESCRIPTION: Purge only your wish history from Genshin Wizard, your Genshin account will still be linked to Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
-UNLINK_EVERYTHING: Unlink Everything
-UNLINK_EVERYTHING_BRIEF: This method will unlink **everything** from Genshin Wizard.
-UNLINK_EVERYTHING_DESCRIPTION: This method will unlink everything from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
-UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data from Genshin Wizard!
+UNLINK_EVERYTHING: 取消鏈接一切
+UNLINK_EVERYTHING_BRIEF: 此方法將從 Genshin Wizard 中取消鏈接**一切**。
+UNLINK_EVERYTHING_DESCRIPTION: 此方法將取消與 Genshin Wizard 的所有鏈接。此操作是**不可逆的**。你確定你要繼續嗎？
+UNLINKING_CONFIRMATION: 您已**成功取消鏈接**來自 Genshin Wizard 的請求數據！
 UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If you believe for this to be an error, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
-USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
+USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: 你**已經註冊**到一個不同的 UID！如果您想使用其他帳戶註冊，請在嘗試再次註冊之前使用</unlink:{command_id}>。"
 GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Registration
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: 註冊您的原神帳號到 Genshin Wizard
 HOYOLAB_ACCOUNT: HoYoLAB 帳號
@@ -716,8 +716,8 @@ LINKING_UID_FOOTER: Please be patient while we verify your account! These change
 LINKING_UID_KEY_EXPIRED: It looks like this key is now **expired**! Unfortunately, we were unable to verify you at this time, please try again later.
 REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Refresh Wish History
 FORCE_REFRESH_FOOTER: If you'd prefer to force-refresh to prolong the expiry of your current history link, you may do so by clicking one of the buttons below.
-UNLINKING_CENTRE_TITLE: Genshin Wizard | Unlinking Centre
-UNLINKING_CENTRE_DESCRIPTION: Hello Traveler! Welcome to Genshin Wizard's unlinking centre. Manage your linked data through the buttons below. Friendly reminder that any method of unlinking will **erase all your data** from Genshin Wizard. This action is **irreversible**
+UNLINKING_CENTRE_TITLE: Genshin Wizard | 取消連結中心
+UNLINKING_CENTRE_DESCRIPTION: 你好旅行者！歡迎來到 Genshin Wizard 的取消鏈接中心。通過下面的按鈕管理您的鏈接數據。友情提醒，任何取消鏈接的方法都會從 Genshin Wizard **刪除您的所有數據**。這個動作是**不可逆的**
 INVALID_COOKIE_RESPONSE: ":no_entry: You did not enter a valid **HoYoLAB** cookie!"
 RETRIEVING_ACCOUNT_INFORMATION: "*Retrieving your account information...*"
 SYNCED_HOYOLAB_UID: Successfully synced **HoYoLAB** UID!
@@ -910,15 +910,15 @@ SIMULATOR_BEGIN_JOURNEY: "{user}, you have no characters in your inventory. Use 
 SIMULATOR_DUMP_UNSUCCESSFUL: Oops! Dumping your backpack was unsuccessful, there was an error. Please try again or contact a staff member!
 SIMULATOR_DUMP_SUCCESSFUL: <:yescheck:1021114525858136074> You have successfully dumped your inventory!
 SIMULATOR_DUMP_CANCELLED: "**<:yescheck:1021114525858136074> Successfully Cancelled!**"
-FARM_COMMAND_DOMAIN_TITLE: Domain Schedule Overview [{region}]
+FARM_COMMAND_DOMAIN_TITLE: 地域時間表概述 [{region}]
 SERVER_RESET_KEY: 伺服器重置
 ARTIFACT_GUIDE_FOOTER: Use the command /artifact <name_of_artifact> to get more information on an artifact.
 ARTIFACT_GUIDE_TITLE: Artifacts Overview
-NO_ASSET_INPUT: ":no_entry: Please provide an asset ID to look up."
+NO_ASSET_INPUT: ":no_entry: 請提供物品 ID 以供查找。"
 WEAPON_INFORMATION_TITLE: Weapon Information | {weapon}
 WEAPON_INFORMATION_FOOTER: "Weapon Guide • Infographic: {weapon}"
 WEAPON_GUIDE_TITLE: Weapon Guide | {weapon}
-ASSET_NOT_FOUND: ":no_entry: No results found for {asset}! Please make sure an in-game asset exists for the provided ID"
+ASSET_NOT_FOUND: ":no_entry: 沒有找到 {asset} 的結果！請確保提供的 ID 存在遊戲內物品,前提是你知道物品ID,例如安帕專案(https://ambr.top/)上的數字"
 DEFAULT_SYNERGY_DESCRIPTION: Information regarding this character's team composition and synergy.
 GUIDES_SUGGESTION_TITLE: Want to suggest changes to this particular guide?
 GUIDES_SUGGESTION_DESCRIPTION: Join the [**Official Discord**](https://discord.gg/BTT5Zr7Dmp) and head to the <:blurplelink:1020155547187691600> [**__Guides Discussion__**](https://discord.com/channels/951370297582436392/1007382105417854997) forum to suggest changes to this guide!
@@ -1194,7 +1194,7 @@ FOUR_STAR_LABEL: "4星"
 FIVE_STAR_LABEL: "5星"
 PREVIOUS_BUTTON: 上一個
 NEXT_BUTTON: 下一個
-GENERATE_IMAGE_BUTTON: Generate Image
+GENERATE_IMAGE_BUTTON: 生成影像
 GENERATE_EXPLORATION_BUTTON: Export Exploration Progression
 SETTINGS_BUTTON: 設定
 ANEMO_KEY: Anemo
@@ -1207,7 +1207,7 @@ PYRO_KEY: Pyro
 RESET_SETTINGS_BUTTON: Reset Settings
 MASTER_PRIVACY_BUTTON: Master Privacy
 UPDATE_BANNER_MODAL_TITLE: Update Banner
-UPDATE_BANNER_MODAL_URL_INPUT: Link to desired image for banner
+UPDATE_BANNER_MODAL_URL_INPUT: 鏈接到所需的橫幅圖像
 UPDATE_BANNER_MODAL_URL_PLACEHOLDER: https://some.link/to/image.png
 UPDATE_BIO_MODAL_TITLE: Update Bio
 UPDATE_BIO_MODAL_LABEL: 關於你的簡短描述。 (200 字符)
@@ -1401,7 +1401,7 @@ ABYSS_ENEMY_DESCRIPTION: "Schedule: **Floor {floor_index} - Chamber {chamber_ind
 CUSTOM_ROLE_ICON_CHANGE_BUTTON: Change Role Icon
 CUSTOM_ROLE_ICON_REQUEST_MESSAGE: Please send the **link**, **attachment**, or **emoji** you want to use as your custom role icon. This request will time out in 60 seconds.
 CUSTOM_ROLE_ICON_REQUEST_TIMEOUT: Hey Traveler! I didn't receive any input from you, so I've cancelled this request.
-CUSTOM_ROLE_ICON_NOT_IMAGE: Hey Traveler! The attachment must be an **image**!
+CUSTOM_ROLE_ICON_NOT_IMAGE: 嘿旅行者！附件必須是**圖片**！
 CUSTOM_ROLE_ICON_SUCCESS: Your custom role icon has been successfully changed. This confirmation message will be deleted in **10 seconds**.
 DEFAULT_KEY: Default
 EDITOR_NOT_WHITELISTED: Hello Traveler! You are **not whitelisted** to edit guides. Please [**Apply Here**](https://genshinwizard.com/sumeru/) for a chance to join the elite Sumeru Scholars team!
@@ -1546,7 +1546,7 @@ ABYSS_STARS_COLLECTED: Abyss Stars Collected
 ADVENTURE_RANK: Adventure Rank
 DAMAGE_BREAKDOWN: Damage Breakdown
 MOST_USED_CHARACTERS: Most Used Characters
-ABYSS_IMAGE_TITLE: Spiral Abyss Statistics
+ABYSS_IMAGE_TITLE: 螺旋深淵統計
 ABYSS_FLOOR_COMPLETION: 深淵樓層完成
 WORLD_LEVEL_KEY: World Level
 PROFILE_SHOWCASE_TITLE: Genshin Wizard Profile Showcase
