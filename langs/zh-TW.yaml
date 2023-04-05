@@ -90,8 +90,8 @@ MATH_COMMAND_RESULT: |
 RECENT_GENSHIN_EVENTS: 最近的原神活動
 SEND_CODES_COMMAND_TITLE: Genshin Wizard | 兌換碼
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
-  <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
+  <:blurplelink:1020155547187691600> [***點擊下方按鈕即可兌換！***](https://genshin.hoyoverse.com/zh-tw/gift) 
+  <:澄清公告:1020402170127982712> **注意：**代碼很快就會過期，所以一定要盡快兌換！ 
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
 SEND_CODES_REDEEM_AUTOMATICALLY: 自動兌換
@@ -159,11 +159,10 @@ OLD_HOYOLAB_LINKED: |
   Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
 
   In order to use this button, you must unlink your HoYoLAB account through </hoyo:{command_id}> and **relink** through the usual registration command.
-CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Redemption
-CODE_REDEEM_DESCRIPTION: "*Please wait while we process your redemption code...*"
+CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB 代碼兌換
+CODE_REDEEM_DESCRIPTION: "*請稍候，我們正嘗試兌換您的兌換碼...*"
 CODE_REDEEM_PROGRESS: |
-  *Please wait while we process your redemption code...*
-  <a:loading:1015667958237900801> Attempting to redeem code `{code}`
+  *請稍候，咱們正在處理您的兌換碼...* <a:loading:1015667958237900801> 正在嘗試兌換代碼 `{code}`
 HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Expired Cookies
 HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
 GENSHIN_WIZARD_INFORMATION: |
@@ -171,7 +170,7 @@ GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
+CODE_REDEEM_SUCCESS: "*兌換代碼已成功兌換！*"
 APP_COMMAND_INFO_DESCRIPTION: 展示遊戲內的角色展示櫃陣容
 APP_COMMAND_EXPORT_DESCRIPTION: 透過私人訊息將祈願歷史記錄輸出為文字檔案
 APP_COMMAND_HISTORY_DESCRIPTION: 檢視遊戲內的祈願歷史記錄
@@ -247,7 +246,7 @@ APP_COMMAND_ROLE_DESCRIPTION: Applies specific character roles to a user. Refer 
 APP_COMMAND_HELP_DESCRIPTION: 檢視 Genshin Wizard 說明文件
 APP_COMMAND_PING_DESCRIPTION: 檢查 Genshin Wizard 的延遲。
 APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
-APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
+APP_COMMAND_ABOUT_DESCRIPTION: 有關 Genshin Wizard 的信息。
 APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
 APP_COMMAND_DONATE_DESCRIPTION: 支持Genshin Wizard的開發。
 APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
@@ -285,18 +284,16 @@ REFRESHES_KEY: 更新時間
 INFO_COMMAND_CHARACTER_DETAILS: Character
 INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!
 INFO_COMMAND_CACHE_DESCRIPTION: |
-  **Genshin Wizard Cache **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
+  **Genshin Wizard 緩存 **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475> 
 
-  <:information:1034639378410115103> **What is Cache?**
-  Genshin Wizard caches builds *automatically* so you never have to worry about swapping your showcase out over and over again!
+  <:information:1034639378410115103> **什麼是緩存？** 
+  Genshin Wizard *自動* 構建緩存，因此您永遠不必擔心一遍又一遍地交換您的展示櫃！
 
-  <:na:975828401900359711> **What if I want to delete old builds?**
-  Fear not! You'll be able to manage your cached builds straight from this message! Use the UI below to delete specific characters, or all, from your Genshin Wizard cache.
+   <:na:975828401900359711> **如果我想刪除舊版本怎麼辦？**
+  不要害怕！您將能夠直接從此消息管理您的構建緩存！使用下面的 UI 從您的 Genshin Wizard 緩存中刪除特定字符或全部。
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard Custom Art Feature**
-  Hey Traveler, it looks like you're trying to use Genshin Wizard's **Custom Art** feature! This feature is only available to Genshin Wizard Premium users.
-
-  You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Patreon**](https://patreon.com/genshinwizard)!
+  <:信息:1034639378410115103> **Genshin Wizard 自定義藝術功能**
+  嗨~旅行者，您似乎正在嘗試使用 Genshin Wizard 的 **定製藝術** 功能！此功能僅適用於 Genshin Wizard 進階 用戶。 您可以使用 </premium:{command_id}> 命令或訪問我們的 [**贊助人**](https://patreon.com/genshinwizard) 了解有關 Genshin Wizard 進階 的更多信息！
 PURCHASE_PREMIUM: Purchase Premium
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Hey Traveler, you can only manage custom art for your **own characters**!
 GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard Custom Art
@@ -320,7 +317,7 @@ ENABLE_KEY: Enable
 DISABLE_KEY: Disable
 ENABLE_AUTOCLAIM: Enable automatic daily sign-in.
 DISABLE_AUTOCLAIM: Disable automatic daily sign-in.
-APP_COMAND_DESCRIBE_CODES: The redemption code you wish to redeem for your account.
+APP_COMAND_DESCRIBE_CODES: 您希望為您的帳戶兌換的兌換代碼。
 APP_COMMAND_DESCRIBE_DATA: The file you are trying to import your wish history from.
 APP_COMMAND_DESCRIBE_RESOURCE: The resource you are trying to search for.
 APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: The character you want to calculate ascension materials for.
@@ -411,11 +408,11 @@ HOYOLAB_DIARY_TITLE: Genshin Wizard | Traveler's Diary
 HOYOLAB_INVALID_REDEEM: |
   你需要提供兌換碼才能兌換
   **正確的指令用法** ```/redeem CODE_ONE,CODE_TWO,...```
-CHINA_NOT_ALLOWED: Redeeming codes for CN users is **not supported** as of yet.
+CHINA_NOT_ALLOWED: 目前**不支援**為中國服用戶兌換代碼。
 HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | HoYoLAB 概觀
 HOYOLAB_LOADING_ACCOUNT: Loading account information...
-HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Real-time Notes** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
-HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Game Record** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
+HOYOLAB_NOTES_UNAVAILABLE: <:錯誤:1021889679857037372> 檢索您帳戶的**即時記錄**信息時出錯！請*稍後*重試或加入我們的[**官方支持服務器**](https://discord.gg/BTT5Zr7Dmp)尋求幫助。
+HOYOLAB_GAME_RECORD_UNAVAILABLE: <:錯誤:1021889679857037372> 檢索您帳戶的**遊戲記錄**信息時出錯！請*稍後*重試或加入我們的[**官方支持服務器**](https://discord.gg/BTT5Zr7Dmp)尋求幫助。
 HOYOLAB_ACCOUNT_ERROR: There was an error grabbing your account's information! Please try again *later*.
 HOYOLAB_ACCOUNT_MANAGE: 透過 Genshin Wizard 管理你的 HoYoLAB 帳號
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | 角色一覽
@@ -433,24 +430,22 @@ HOYOLAB_REGISTER_SCRIPT: |
   ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)```
 HOYOLAB_REGISTER_LOGIN_TITLE: Registration | Login Method
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin, select the `Register` button down below.
-  > **2.** In the input fields, enter your HoYoLAB account login details, remember to use your **email** and password.
-  > **3.** Once you've successfully entered your account details, wait for Genshin Wizard to process your registration request, bear in mind that this may take a minute or two.
-  > **4.** Finally, if all the steps are done correctly, you will receive a **confirmation message** via DMs indicating that your account has been successfully linked.
-
-  <:information:1021014187197083668> **Note:** This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead.
+  **如何將您的 HoYoLAB 帳戶與 Genshin Wizard 關聯** 
+  > **1.** 首先，選擇下方的“註冊”按鈕。 
+  > **2.** 在輸入字段中，輸入您的 HoYoLAB 帳戶登錄詳細信息，請記住使用您的 **電子郵件** 和密碼。 
+  > **3.** 成功輸入帳戶詳細信息後，請等待 Genshin Wizard 處理您的註冊請求，請記住，這可能需要一兩分鐘。 
+  > **4.** 最後，如果所有步驟都正確完成，您將通過 DM 收到一條**確認消息**，表明您的帳戶已成功關聯。 <:訊息:1021014187197083668> **注意：**此方法只是為了方便/QOL。如果您擔心您的賬戶安全，請改用腳本方式或其他註冊方式。
 HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
 ARE_YOU_SURE: Are you sure?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
   你已經要求 Genshin Wizard 解除連結 HoYoLAB 帳號
   這代表你將不能夠*領取每日簽到獎勵*、檢視*完整深淵進度*以及其他額外功能，例如*檢視所有已獲得角色*。
-UNLINKING_SUCCESSFUL: Unlinking successful!
-UNLINKING_SUCCESSFUL_DESCRIPTION: Your account has been successfully unlinked from Genshin Wizard!
-UNLINKING_UNSUCCESSFUL: Unlinking unsuccessful!
-UNLINKING_UNSUCCESSFUL_DESCRIPTION: Oops! Unlinking was unsuccessful, there was an error. Please try again or contact a staff member!
-UNLINKING_CANCELLED: Unlinking cancelled!
-UNLINKING_CANCELLED_DESCRIPTION: You have cancelled your unlink request!
+UNLINKING_SUCCESSFUL: 取消關聯成功
+UNLINKING_SUCCESSFUL_DESCRIPTION: 您的帳戶已成功解除與 Genshin Wizard 的關聯！
+UNLINKING_UNSUCCESSFUL: 已成功取消關聯
+UNLINKING_UNSUCCESSFUL_DESCRIPTION: 哎呀！取消關聯不成功，出現錯誤。請重試或聯繫工作人員！
+UNLINKING_CANCELLED: 解除關聯已取消！
+UNLINKING_CANCELLED_DESCRIPTION: 您已停止取消關聯請求！
 OBTAINED_KEY: Obtained
 NOT_OWNED_KEY: Not Owned
 PROFICIENCY_KEY: 熟練度
@@ -672,8 +667,7 @@ ERROR_INVALID_REGISTRATION_URL: Hey Traveler, this is an **invalid link!** Make 
 ERROR_UNEXPECTED_ERROR: An unexpected error has occurred. Please report this to staff!
 REGISTER_COMMAND_NO_WISHES_TITLE: No wishes found!
 REGISTER_COMMAND_NO_WISHES_DESCRIPTION: |
-  You do not have any wishes yet! Please register again once you have wished on at-least one banner.
-  Wishes show up in history about 1-2 hours after wishing.
+  您還沒有任何願望！一旦您希望至少有一個卡池，請再次註冊。 祈願在抽卡後約 1-2 小時出現在祈願歷史記錄中。
 REFRESHING_USER: Refreshing user...
 REGISTERING_USER: Registering user...
 RETRIEIVING_WISH_HISTORY: Retrieving your wish history...
@@ -682,9 +676,7 @@ REGISTER_BANNED_SYNC_COMPLETE: Successfully synced all banners! You can now use 
 SUCCESSFULLY_REGISTERED: 成功註冊！
 SUCCESSFULLY_REFRESHED: Successfully Refreshed!
 SUCCESSFULLY_UPDATED_UID: |
-  Congratulations Traveler! You have **successfully** updated your `UID`!
-
-  Refer to </help:{command_id}> for more information.
+  恭喜旅行者！您已經**成功**更新了您的“UID”！ 有關詳細信息，請參閱 </help:{command_id}>。
 SUCCESSFULLY_REGISTERED_RESPONSE: |
   旅行者你好！恭喜你，遊戲帳號已成功註冊！
   你現在可以在 Genshin Wizard 中使用幾個新的祈願相關的指令，請使用 </help:{command_id}> 指令或查看說明文件 (https://docs.genshinwizard.com/wishing-centre/commands) 以獲得更多資訊！
@@ -856,12 +848,10 @@ STARDUST_KEY: Stardust
 STARGLITTER_KEY: Starglitter
 GENSHIN_WIZARD_SHOP_TITLE: Genshin Wizard Shop
 GENSHIN_WIZARD_SHOP_DESCRIPTION: |
-  Welcome to Paimon's Bargains! Here you can purchase items to help you on your journey. You currently have <:Primogem:951924423340994610>**{primogems} Primogems** in your Genshin Wizard inventory.
-
-  <:MasterlessStardust:951924423332626522> **Stardust:** {stardust}
-  <:MasterlessStarglitter:951924423059980290> **Starglitter:** {starglitter}
-
-  <:GreyPin:949815085335986246> **__CURRENT SHOP__ [ Price | Item ]**
+  歡迎來到 Paimon 的特價商品！您可以在這裡購買有助於您旅途的物品。當前，您的 Genshin Wizard 庫存中有 <:首先:951924423340994610>**{primogems} 原石**。 
+  <:無主的星塵:951924423332626522> **星塵:** {stardust}
+  <:無主的星輝:951924423059980290> **星輝:** {starglitter} 
+  <:圖釘:949815085335986246> **__當前店鋪__ [ 價格 |物品 ]**
 SIMULATOR_NO_PRIMOGEMS: |
   <:Error:1021889679857037372> Hey Traveler, you don't have anymore **primogems** for today! You need at least <:Primogem:951924423340994610>**1,600** primogems to do *another* ten pull. To view your current balance, use the **</balance:{balance_id}>** command.
 
@@ -939,10 +929,10 @@ WEAPON_ASCENSION_OVERVIEW: Weapon Ascension Material Overview
 REFERENCE_SHEET_GUIDE_FOOTER: "Reference Sheet Overview"
 REFERENCE_SHEET_GUIDE_TITLE: Available Reference Sheets
 EVENT_BANNER_DAILY: |
-  ☑️ Check-In to **[Hoyolab](https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us)** 🔗 now (or use `/daily`)!
-  ☑️ Daily Commission, Resin Check
-  ☑️ Daily Ore Forging and Mining
-  ☑️ Serenitea Pot: Furniture, Coins, and Plants
+  ☑️ 簽到**[Hoyolab](https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481&lang=zh-tw)** 🔗 現在(或使用`/daily`) 
+  ☑️每日委託，樹脂檢查 
+  ☑️日常礦石鍛造和開採 
+  ☑️ 塵歌壺：家具、硬幣和植物
 EVENT_BANNER_WEEKLY: |
   ☑️ Parametric Transformer
   ☑️ Weekly Battle Pass Quests
@@ -1068,7 +1058,7 @@ PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> Hey Traveler, you 
 PREMIUM_CUSTOM_ART_REMOVED: Hey Traveler, you've successfully **removed** the selected characters.
 PREMIUM_CUSTOM_ART_CLEARED: Hey Traveler, you've successfully **removed** all of your saved characters with custom-art.
 PREMIUM_ADAPTIVE_ART_SETTING_UPDATED: "Successfully changed adaptive art settings: {adaptive_art}"
-HELP_COMMAND_TITLE: Genshin Wizard | {category} Commands
+HELP_COMMAND_TITLE: Genshin Wizard | {category} 命令
 HELP_COMMAND_FOOTER: Genshin Wizard | {category} 指令總覽
 NO_DESCRIPTION: No description provided.
 ROLE_REQUIREMENTS_NOT_MET: |
@@ -1088,15 +1078,15 @@ GACHA_NO_BANNER_WISHES: You have no wishes for {banner} banner!
 GACHA_SUMMARY_FOOTER: "Genshin Wish Summary for: {user}"
 GENSHIN_WISH_SUMMARY: Genshin Wish Summary
 SLASH_COMMAND_NEED_HELP: |
-  <:blurpleannouncement:1020402170127982712> **HAVING ISSUES? FEAR NOT!** <:KeqingHeart:952837574878199808>
+  <:澄清公告:1020402170127982712> **有問題嗎？不要害怕！**
+   <:給你心心:952837574878199808> 
 
-  Hello Traveler, it looks like you're having difficulty using **slash commands**!
+  您好旅行者，您似乎在使用 **斜杠命令** 時遇到困難！ 
 
-  Remember to **__click__** on the command you want to use and keep in mind that you **do not** have to pass your own name as a parameter!
+  請記住 **__click__** 您要使用的命令，並記住您 **不必** 將自己的名字作為參數傳遞！ 
 
-  <a:7094whitecheck:1020160260637462618> Happy Wishing Fellow Traveler,
-  Paimon
-SLASH_COMMAND_HELP_GUIDE: <:verifiedlight:939225784936202241> For **help**, use the </help:982685016012226590> command!
+  <a:7094whitecheck:1020160260637462618> 祝旅途愉快， 你的派蒙
+SLASH_COMMAND_HELP_GUIDE: <:誠實的目光:939225784936202241> 對於**幫助**，使用</help:982685016012226590> 命令！
 GENSHIN_WIZARD_SERVER_JOIN_TITLE: Genshin Wizard has arrived!
 GENSHIN_WIZARD_SERVER_JOIN_DESCRIPTION: |
   旅行者你好！謝謝你邀請 **Genshin Wizard** 到你的伺服器。在開始之前有幾件事需要注意：
@@ -1220,8 +1210,8 @@ UPDATE_BANNER_MODAL_TITLE: Update Banner
 UPDATE_BANNER_MODAL_URL_INPUT: Link to desired image for banner
 UPDATE_BANNER_MODAL_URL_PLACEHOLDER: https://some.link/to/image.png
 UPDATE_BIO_MODAL_TITLE: Update Bio
-UPDATE_BIO_MODAL_LABEL: A short description about you. (200 chars)
-UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
+UPDATE_BIO_MODAL_LABEL: 關於你的簡短描述。 (200 字符)
+UPDATE_BIO_MODAL_PLACEHOLDER: 嘿！咱叫 Lumine，這裡有一些關於咱的有趣事情……
 SELECT_CHOOSE_CATEGORY: 選擇分類...
 PROFILE_KEY: 設定檔
 PROFILE_DESCRIPTION: View your Genshin Wizard profile
@@ -1383,14 +1373,14 @@ HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: 檢視與祈願有關的指令
 HELP_DROPDOWN_HOYOLAB_COMMANDS_DESCRIPTION: 檢視與 HoYoLAB 有關的指令
 HELP_DROPDOWN_GUIDE_COMMANDS_DESCRIPTION: 檢視與教學指南有關的指令
 HELP_DROPDOWN_MISCELLANEOUS_COMMANDS_DESCRIPTION: 檢視其他的指令
-HELP_PROFILE_COG_NAME: Profile/Stats
-HELP_PROFILE_WISH_COG_NAME: Wish
+HELP_PROFILE_COG_NAME: 個人資料/統計
+HELP_PROFILE_WISH_COG_NAME: 祈願
 HELP_HOYOLAB_COG_NAME: HoYoLAB
-HELP_GUIDE_COG_NAME: Guides
-HELP_MISC_COG_NAME: Miscellaneous
+HELP_GUIDE_COG_NAME: 指南
+HELP_MISC_COG_NAME: 其他
 CHOOSE_ELEMENT_DROPDOWN: Choose an element...
-CHOOSE_LANGUAGE_DROPDOWN: Choose a language...
-CURRENT_LANGUAGE_KEY: Current Language
+CHOOSE_LANGUAGE_DROPDOWN: 選擇語言...
+CURRENT_LANGUAGE_KEY: 當前語言
 CROWDIN_KEY: Crowdin
 CROWDIN_LINK_KEY: Crowdin Link
 OFFICIAL_REPOSITORY_KEY: Official Repository
@@ -1398,9 +1388,9 @@ OFFICIAL_REPOSITORY_LINK_KEY: Official Repository Link
 GENSHIN_WIZARD_TRANSLATE_TITLE: 為 Genshin Wizard 翻譯做出貢獻
 GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: 單擊以下鏈接之一為 Genshin Wizard 翻譯做出貢獻!
 APP_COMMAND_LANGUAGE_DESCRIPTION: 更改 Genshin Wizard 的顯示語言
-APP_COMMAND_DESCRIBE_LANGUAGE: The language you want Genshin Wizard to be set to.
+APP_COMMAND_DESCRIBE_LANGUAGE: 您希望將 Genshin Wizard 設置為的語言。
 GENSHIN_WIZARD_LANGUAGE_SWITCHED: Genshin Wizard 的預設顯示語言已切換到 **{language}**！
-GENSHIN_WIZARD_CURRENT_LANGUAGE: Your current language for Genshin Wizard is **{language}**!
+GENSHIN_WIZARD_CURRENT_LANGUAGE: 您當前使用 Genshin Wizard 的語言是 **{language}**！
 ABYSS_FLOOR_PROGRESSION: "當前進度：**{stars}/9** {bounty_status}"
 ABYSS_FLOOR_AUTHOR: 第 {floor} 層 • 深境螺旋進度
 ABYSS_FLOOR_LABEL: 第 {floor} 層
@@ -1417,7 +1407,7 @@ DEFAULT_KEY: Default
 EDITOR_NOT_WHITELISTED: Hello Traveler! You are **not whitelisted** to edit guides. Please [**Apply Here**](https://genshinwizard.com/sumeru/) for a chance to join the elite Sumeru Scholars team!
 GENSHIN_WIZARD_CUSTOM_ROLE: Genshin Wizard Custom Role
 GENSHIN_WIZARD_INVENTORY_TITLE: Genshin Wizard Inventory
-HELP_LIST_COMMAND: View Commands
+HELP_LIST_COMMAND: 查看命令
 HISTORY_COMMAND_OVERVIEW_TITLE: Genshin Wizard | Wish History Overview
 ABYSS_ENEMY_FLOOR_VIEW: Floor View
 ABYSS_ENEMY_CHAMBER_VIEW: Chamber View
@@ -1534,7 +1524,7 @@ TOTAL_MORA_KEY: Total Mora
 DIARY_MONTHLY_DESCRIPTION: "This month, your primary source for obtaining Primogems is through {source}, for a total of {primogem_count} Primogems, or {top_percentage}% of your total!"
 DIARY_DAILY_DESCRIPTION: Hey Traveler! You have earned {primogems} Primogems and {mora} Mora today, what a bountiful day!
 TOTAL_PRIMOGEMS_OBTAINED: Primogems Obtained
-DIARY_DATA_DELAYED: "*This data is delayed by about one hour, please check the updated records later"
+DIARY_DATA_DELAYED: "*此數據延遲約一小時，請稍後查看更新記錄"
 DIARY_DATA_SOURCE_DESCRIPTION: "*This diary only includes the resources obtained outside of top-ups"
 REGION_EXPLORATION_STATUS: "Exploration Progress: {percentage}%"
 CHARACTER_CARDS_STATUS: "Character Cards: {owned_cards}/{total_cards}"
