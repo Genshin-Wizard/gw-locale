@@ -18,17 +18,17 @@ UPTIME_INFORMATION: |
   **Genshin Wizard 上線時間**
   **最後重啟:** <t:{last_restart}:R>
   **上線時間:** {uptime}
-VERSION_KEY: Version
-PING_KEY: Ping
-UNKNOWN_KEY: Unknown
+VERSION_KEY: 版本
+PING_KEY: 延遲
+UNKNOWN_KEY: 不明白
 USER_NOT_PUBLIC: 使用者資料為非公開
-INVITE_INFORMATION: Use the link below to invite this bot to your own server.
+INVITE_INFORMATION: 使用下面的連結將此機器人邀請到您自己的服務器。
 REQUESTED_BY: 由 {user} 請求
-SUPPORT_GWIZ_TITLE: Support Genshin Wizard
-SUPPORT_GWIZ_DESC: Support the development of Genshin Wizard.
+SUPPORT_GWIZ_TITLE: 支持 Genshin Wizard
+SUPPORT_GWIZ_DESC: 支持Genshin Wizard的開發。
 DONATE_KEY: 贊助
 VOTE_GWIZ_DESCRIPTION: Click the links below to vote for Genshin Wizard.
-VOTE_KEY: Vote
+VOTE_KEY: 投票
 VOTE_BOT: Vote for Bot
 VOTE_SERVER: Vote for Server
 VOTE_BOT_LINK: Bot Vote Link
@@ -48,7 +48,7 @@ ARTIFACT_CRIT_VALUE_TITLE: Artifact CRIT Value Calculator
 TOTAL_CRIT_VALUE: Total Crit Value
 TRUTH_COMMAND_RESPONSES:
   - As I see it, yes.
-  - Yes.
+  - 好的
   - Positive.
   - From my point of view, yes.
   - Convinced.
@@ -57,50 +57,50 @@ TRUTH_COMMAND_RESPONSES:
   - Without a doubt.
   - Most Likely.
   - Chances High.
-  - No.
-  - I think not.
+  - 不要
+  - 我也覺得。
   - Negative.
-  - My sources say no.
+  - 我的消息来源不能说。
   - Not Convinced.
   - Perhaps.
-  - Not Sure.
+  - 不確定
   - 可能
-  - Who knows?
+  - 誰曉得？
   - I cannot predict now.
   - I am tired. *proceeds with sleeping*
   - Absolutely.
 TRUTH_COMMAND_TITLE: Paimon's Wisdom
-QUESTION_KEY: Question
+QUESTION_KEY: 問題
 RESPONSE_KEY: Response
 PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
 PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
 PREFIX_TOO_SHORT: The prefix cannot be shorter than 1 character.
-PREFIX_CHANGED_TITLE: Genshin Wizard | Prefix Change
+PREFIX_CHANGED_TITLE: Genshin Wizard |前綴更改
 PREFIX_CHANGED_DESCRIPTION: |
   成功更改 **Genshin Wizard's** 前綴！現在可以使用新的前綴來呼叫指令。
 
   **舊前綴：** `{old_prefix}`
   **新前綴：** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: Genshin Wizard Prefix Setting
-MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Computational Error. Try rephrasing!"
+PREFIX_CHANGED_FOOTER: Genshin Wizard前綴設置
+MATH_COMMAND_COMPUTE_ERROR: ":no_entry: 計算錯誤。嘗試改寫！"
 MATH_COMMAND_RESULT: |
   **Expression:** `{expression}`
   **Result:**
   ```{result}```
-RECENT_GENSHIN_EVENTS: Recent Genshin Events
-SEND_CODES_COMMAND_TITLE: Genshin Wizard | Active Codes
+RECENT_GENSHIN_EVENTS: 最近的原神活動
+SEND_CODES_COMMAND_TITLE: Genshin Wizard | 兌換碼
 SEND_CODES_COMMAND_DESCRIPTION: |
   <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
   <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
-SEND_CODES_REDEEM_AUTOMATICALLY: Redeem Automatically
-SEND_CODES_DIRECT_LINK: Direct Link
+SEND_CODES_REDEEM_AUTOMATICALLY: 自動兌換
+SEND_CODES_DIRECT_LINK: 直接連結
 SEND_CODES_REDEEMABLE_CODES: 可兌換的兌換碼
 SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | 兌換碼
 SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!
 MESSAGE_LINK: 訊息連結
-CLICK_HERE: Click Here
+CLICK_HERE: 點擊此處
 INFO_SELECT_CHARACTER: 選擇一個角色
 INFO_CHARACTER_SOURCE: "Source: Saved Builds"
 INFO_USER_CACHE: 使用者快取
@@ -249,7 +249,7 @@ APP_COMMAND_PING_DESCRIPTION: 檢查 Genshin Wizard 的延遲。
 APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
 APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
 APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
-APP_COMMAND_DONATE_DESCRIPTION: Support the development of Genshin Wizard.
+APP_COMMAND_DONATE_DESCRIPTION: 支持Genshin Wizard的開發。
 APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
 APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
 APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
@@ -354,7 +354,7 @@ APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated
 APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
 APP_CONTEXT_MENU_PROFILE: 設定檔
 APP_CONTEXT_MENU_STATISTICS: Stats Progression
-APP_CONTEXT_MENU_ABYSS: Abyss Progression
+APP_CONTEXT_MENU_ABYSS: 深淵進度
 APP_CONTEXT_MENU_CHARACTERS: Characters
 APP_CONTEXT_MENU_WISH_HISTORY: 祈願記錄
 WHITELIST_KEY_LOWERCASE: whitelist
@@ -493,7 +493,7 @@ LEADERBOARD_CHESTS_FOOTER: Chests are updated via stats commands, check your sta
 LEADERBOARD_GACHA_SIMULATOR_FOOTER: Simulator leaderboards are updated via gacha simulator commands, use the gacha simulator actively to climb the ranks!
 LEADERBOARD_ARTIFACT_FOOTER: Artifact information is updated via info commands, check your builds frequently to actively get updated artifact stats!
 LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Character stats information is updated via info commands, check your builds frequently to actively get updated character stats!
-LEADERBOARD_ABYSS_FOOTER: Abyss statistics are updated via the abyss progression command, check your abyss progression frequently to get an updated statistics measurement!
+LEADERBOARD_ABYSS_FOOTER: 深淵統計數據通過深淵進度命令進行更新，經常檢查你的深淵進度，以獲得最新的統計測量結果!
 LEADERBOARD_DONATION_FOOTER: Donate via the support links found in the /donate command to obtain a spot on this exquisite leaderboard!
 LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Crunching data, please be **patient**...* <a:tyno:1001656937689120788>
 ERROR_GUILD_ONLY_BUTTON: ":no_entry: You must be in a guild to use this button!"
@@ -528,22 +528,22 @@ PRIVACY_SETTING_TITLE: Genshin Wizard Privacy Settings
 PRIVACY_SETTING_DESCRIPTION: Change your Genshin Wizard privacy settings here.
 PRIVACY_SETTING_KEY: Privacy Settings
 PRIVACY_SETTING_BRIEF: |
-  **UID Privacy:** {uid_privacy}
-  **Wish History Privacy:** {wish_privacy}
-  **Stats Privacy:** {stats_privacy}
-  **Abyss Privacy:** {abyss_privacy}
-  **Info Privacy:** {info_privacy}
+  **UID 隱私：** {uid_privacy} 
+  **願望歷史隱私：** {wish_privacy} 
+  **統計數據隱私：** {stats_privacy} 
+  **深淵隱私：** {abyss_privacy} 
+  **信息隱私：** {info_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **UID Privacy:** {uid_privacy}
-  > *Hide your UID from showing up anywhere*
-  **Wish History Privacy:** {wish_privacy}
-  > *Hide your Wish History from showing up anywhere (`/history`)*
-  **Stats Privacy:** {stats_privacy}
-  > *Hide your Genshin Stats Progression from showing up anywhere (`/stats`)*
-  **Abyss Privacy:** {abyss_privacy}
-  > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
-  **Info Privacy:** {info_privacy}
-  > *Hide your showcase builds information from showing up anywhere (`/info`)*
+  **UID 隱私：** {uid_privacy} 
+  > *隱藏你的 UID，不讓它出現在任何地方* 
+  **願望歷史隱私：** {wish_privacy} 
+  > *隱藏您的願望歷史，不在任何地方顯示 (`/history`)* 
+  **統計數據隱私：** {stats_privacy} 
+  > *隱藏你的 Genshin Stats Progression 不顯示在任何地方 (`/stats`)* 
+  **深淵隱私：** {abyss_privacy} 
+  > *隱藏你的 Genshin Abyss Progression，不在任何地方顯示 (`/abyss`)* 
+  **信息隱私：** {info_privacy} 
+  > *隱藏您的展示構建信息以防止在任何地方出現 (`/info`)*
 ALL_KEY: 全部
 RESET_KEY: 重置
 WISH_HISTORY_KEY: 祈願記錄
@@ -582,19 +582,19 @@ IMAGE_LINK_KEY: 圖片連結
 UPDATE_DATE_KEY: 更新時間：
 SETTING_COMMAND_REQUIRE_SLASH: You must use a **slash command** (</settings:{command_id}>) or access this via your profile.
 CURRENT_ABYSS_DESCRIPTION: |
-  **Current Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  **當前淵月**
+  **開始時間：** <t:{timestamp_start}:F> 
+  **結束時間：** <t:{timestamp_end}:F>
 PREVIOUS_ABYSS_DESCRIPTION: |
-  **Previous Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
-ABYSS_COMMAND_FOOTER: "Note: Abyss data may be incorrectly shown or missing data, if this is the case, do keep in mind that abyss data can generally take anywhere from 1-3 hours to update!"
-ABYSS_MISSING_DATA_FOOTER: "Note: This data seems to be missing some information! This is likely due to this information not being stored in the database previously, or the data not being updated yet."
+  **以前淵月**
+  **開始時間：** <t:{timestamp_start}:F> 
+  **結束時間：** <t:{timestamp_end}:F>
+ABYSS_COMMAND_FOOTER: "注意：深淵數據可能顯示錯誤或缺少數據，如果是這種情況，請記住，深淵數據一般需要1-3個小時的時間來更新!"
+ABYSS_MISSING_DATA_FOOTER: "注意：此數據似乎缺少一些信息！這可能是因為此信息之前未存儲在數據庫中，或者數據尚未更新。"
 ABYSSAL_ARCHIVE_DESCRIPTION: |
-  <:previous_abyss:1028377675989000215> **Abyssal Archives**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  <:以前的深淵:1028377675989000215> **深淵檔案館**
+  **開始時間:** <t:{timestamp_start}:F>
+  **時間結束:** <t:{timestamp_end}:F>
 UID_LOOKUP: 原神 UID 查詢
 UID_LOOKUP_TITLE: "{user}'s Genshin Account UID"
 PUBLIC_KEY: 公開
@@ -825,21 +825,20 @@ USER_TITLE: User {user}
 OVERVIEW_KEY: Overview
 GENERAL_OVERVIEW_KEY: General Overview
 GENERAL_OVERVIEW_SECTION: |
-  Adventure Rank: {adventure_rank}
-  Total achievements: {achievement_number}
-  Total active days: {playtime}
-  Characters: **{char_count}**/{total_char}
-  Spiral Abyss: {abyss}
-  Region: {region}
+  冒險等級：{adventure_rank} 
+  總成就：{achievement_number} 
+  總活躍天數：{playtime} 
+  角色：**{char_count}**/{total_char} 
+  螺旋深淵：{abyss} 
+  地區：{region}
 CHEST_PROGRESSION_KEY: 寶箱進度
 EXPLORATION_AND_OCULI: Exploration & Oculi
 NOT_YET_UNLOCKED: Not Yet Unlocked!
 STATISTICS_COMMAND_FOOTER: "注意：統計數據可能會因為 HoYoLAB API 錯誤而顯示異常，我們無法避免這種情況的發生，請見諒。"
 CONGRATULATIONS_KEY: Congratulations!
 ABYSS_CONGRATULATE_MESSAGE: |
-  Congratulations {user} on perfectly *clearing* the Spiral Abyss!
-  <:spiralabyss:1000079902596411482> <@&{role_id}> Role Given <a:check:956327345717907507>
-ABYSS_COMMAND_STATISTICS_CREDIT: User {name}'s Spiral Abyss Stats
+  恭喜{user}完美*掃蕩*螺旋深淵！ <:螺旋深淵:1000079902596411482> <@&{role_id}> 指定角色 <a:check:956327345717907507>
+ABYSS_COMMAND_STATISTICS_CREDIT: 用户{name} 的螺旋深淵統計資料
 CURRENT_LUNAR_PHASE_DESCRIPTION: |
   **Current Lunar Phase**
   **Start Time:** {start}
@@ -1149,9 +1148,9 @@ PERSONAL_BUTTON: 個人
 ABYSS_LEADERBOARD_WANING_PHASE_LABEL: "{date} Waning Phase"
 ABYSS_LEADERBOARD_WAXING_PHASE_LABEL: "{date} Waxing Phase"
 PERIOD_KEY: Period
-ABYSS_LEADERBOARD_ALL_TIME: All-time Leaderboard
+ABYSS_LEADERBOARD_ALL_TIME: 歷史排行榜
 ABYSS_LEADERBOARD_ALL_TIME_DESCRIPTION: View records from all Abyss phases.
-ABYSS_LEADERBOARD_PLACEHOLDER: Choose an Abyss phase...
+ABYSS_LEADERBOARD_PLACEHOLDER: 選擇深淵階段...
 CHESTS_KEY: Chests
 ACHIVEMENTS_KEY: Achievements
 CHARACTER_STATISTICS_KEY: Character Stats
@@ -1317,20 +1316,20 @@ MODAL_ROLE_OR_CHANNEL_ID_PLACEHOLDER: Insert Desired Channel/Role ID here...
 MODAL_ROLE_NAME_PLACEHOLDER: Insert desired role name here...
 RESEND_BUTTON: 重新送出
 PANEL_UPDATE_INTEGRATION_TITLE: Update Genshin Wizard Integration
-PARTNER_ABYSS_ROLE_BUTTON: Abyss Role
-PARTNER_ABYSS_REWARD_BUTTON: Abyss Reward
-PARTNER_ABYSS_CONGRATULATORY_MESSAGE: Congratulatory Message
+PARTNER_ABYSS_ROLE_BUTTON: 深淵角色
+PARTNER_ABYSS_REWARD_BUTTON: 深淵獎勵
+PARTNER_ABYSS_CONGRATULATORY_MESSAGE: 祝賀詞
 LOG_CHANNEL_KEY: Log Channel
 FRIENDSHIP_ROLE_BUTTON: Friendship Role
 CONSTELLATION_ROLE_BUTTON: Constellation Role (C6)
 CONSTELLATION_ROLE_KEY: Constellation Role
 CROWNED_ROLE_BUTTON: Crowned Role
-ABYSS_SETTINGS_BUTTON: Abyss Settings
+ABYSS_SETTINGS_BUTTON: 深淵設定
 DOLPHIN_ROLE_BUTTON: Dolphin Role
 WHALE_ROLE_BUTTON: Whale Role
 LEVIATHAN_ROLE_BUTTON: Leviathan Role
 UPDATE_ROLE_INTEGRAION_BUTTON: Update Role Integration
-ABYSS_ROLE_ID: Abyss Role ID
+ABYSS_ROLE_ID: 深淵角色ID
 ABYSS_CONGRATULATORY_MESSAGE_CHANNEL: Abyss Congratulate Channel ID
 DOLPHIN_KEY: Dolphin
 WHALE_KEY: Whale
@@ -1397,14 +1396,14 @@ CROWDIN_LINK_KEY: Crowdin Link
 OFFICIAL_REPOSITORY_KEY: Official Repository
 OFFICIAL_REPOSITORY_LINK_KEY: Official Repository Link
 GENSHIN_WIZARD_TRANSLATE_TITLE: 為 Genshin Wizard 翻譯做出貢獻
-GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: Click one of the links below to contribute to Genshin Wizard translations!
+GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: 單擊以下鏈接之一為 Genshin Wizard 翻譯做出貢獻!
 APP_COMMAND_LANGUAGE_DESCRIPTION: 更改 Genshin Wizard 的顯示語言
 APP_COMMAND_DESCRIBE_LANGUAGE: The language you want Genshin Wizard to be set to.
 GENSHIN_WIZARD_LANGUAGE_SWITCHED: Genshin Wizard 的預設顯示語言已切換到 **{language}**！
 GENSHIN_WIZARD_CURRENT_LANGUAGE: Your current language for Genshin Wizard is **{language}**!
-ABYSS_FLOOR_PROGRESSION: "Current Progression: **{stars}/9** {bounty_status}"
+ABYSS_FLOOR_PROGRESSION: "當前進度：**{stars}/9** {bounty_status}"
 ABYSS_FLOOR_AUTHOR: 第 {floor} 層 • 深境螺旋進度
-ABYSS_FLOOR_LABEL: Floor {floor}
+ABYSS_FLOOR_LABEL: 第 {floor} 層
 APP_COMMAND_ABYSS_ENEMY_DESCRIPTION: View abyss-enemy information for Spiral Abyss.
 ABYSS_ENEMY_NOT_ONGOING: There is currently no ongoing Spiral Abyss challenges.
 ABYSS_ENEMY_TITLE: Spiral Abyss Enemy Information
@@ -1558,7 +1557,7 @@ ADVENTURE_RANK: Adventure Rank
 DAMAGE_BREAKDOWN: Damage Breakdown
 MOST_USED_CHARACTERS: Most Used Characters
 ABYSS_IMAGE_TITLE: Spiral Abyss Statistics
-ABYSS_FLOOR_COMPLETION: Abyss Floor Completion
+ABYSS_FLOOR_COMPLETION: 深淵樓層完成
 WORLD_LEVEL_KEY: World Level
 PROFILE_SHOWCASE_TITLE: Genshin Wizard Profile Showcase
 ADVENTURE_RANK_KEY: Adventure Rank
