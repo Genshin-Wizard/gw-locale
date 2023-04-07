@@ -125,7 +125,7 @@ ERROR_COMMAND_INVOKE: Make sure you're using the correct parameters for this com
 ERROR_PRIVACY_SETTING_TITLE: Hidden | Nothing to see!
 ERROR_PRIVACY_SETTING_DESCRIPTION: Hey Traveler! Unfortunately, the person you are trying to search for has **privacy settings** enabled!
 ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | 持續更新！
-ERROR_ONGOING_UPDATE_DESCRIPTION: Hey Traveler! Genshin Wizard is currently **undergoing maintenance** and this command has been *disabled* for the time being. Please try again *later*.
+ERROR_ONGOING_UPDATE_DESCRIPTION: 嘿~旅行者！ Genshin Wizard 目前正在**進行維護**，此命令暫時已被*禁用*。請稍後再試*。
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
   Hey Traveler! You're **not allowed** to use this command here, this is a Genshin Wizard server {command_type}*exclusive* command!
 
@@ -198,7 +198,7 @@ APP_COMMAND_REFRESH_DESCRIPTION: 更新祈願紀錄連結（連結每 24 小時�
 APP_COMMAND_UNLINK_DESCRIPTION: 解除連接原神帳號並刪除所有資料
 APP_COMMAND_REMINDERS_DESCRIPTION: Setup reminders to notify for resin, teapot and expeditions.
 APP_COMMAND_RESIN_DESCRIPTION: Setup a Resin reminder to notify you when your resin is recharged.
-APP_COMMAND_GACHA_DESCRIPTION: Display an updated infographic showcasing your entire wish history for the specified banner.
+APP_COMMAND_GACHA_DESCRIPTION: 顯示更新的信息圖，展示您對指定卡池的全部願望歷史記錄。
 APP_COMMAND_WISHSIMULATOR_DESCRIPTION: 使用 Genshin Wizard 抽卡模擬器測試你的幸運值
 APP_COMMAND_INVENTORY_DESCRIPTION: 檢視 Genshin Wizard 虛擬背包裡的物品
 APP_COMMAND_SHOP_DESCRIPTION: 檢視 Genshin Wizard 的商店
@@ -481,13 +481,13 @@ IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If y
 IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: This file type is **not supported**. Please make sure you're not *changing* the file type before trying to import. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
 LEADERBOARD_NO_DATA: No data found for this specific query!
 LEADERBOARD_EXPERIENCE_FOOTER: Experience can be gained by being active in the server. Chat more to increase your Genshin Wizard ranking level!
-LEADERBOARD_WISHES_FOOTER: Wishes are updated via banner summary and refresh command(s). Check your banners to actively get an updated wish count!
-LEADERBOARD_PLAYTIME_FOOTER: Playtime is updated via stats/info commands, check your stats/builds frequently to actively get an updated playtime count!
-LEADERBOARD_ACHIEVEMENTS_FOOTER: Achievements are updated via stats/info commands, check your stats/builds frequently to actively get an updated achievement count!
-LEADERBOARD_CHESTS_FOOTER: Chests are updated via stats commands, check your stats frequently to actively get an updated chest count!
+LEADERBOARD_WISHES_FOOTER: 通過橫幅摘要和刷新命令更新願望。檢查您的橫幅以主動獲取更新的願望數！
+LEADERBOARD_PLAYTIME_FOOTER: 遊戲時間通過統計/info 命令更新，經常檢查您的統計/builds 以主動獲取更新的遊戲時間計數！
+LEADERBOARD_ACHIEVEMENTS_FOOTER: 成就通過統計/info 命令更新，經常檢查您的統計/builds以主動獲取更新的成就計數！
+LEADERBOARD_CHESTS_FOOTER: 寶箱通過統計命令更新，經常檢查您的統計數據以主動獲取更新的寶箱數量！
 LEADERBOARD_GACHA_SIMULATOR_FOOTER: Simulator leaderboards are updated via gacha simulator commands, use the gacha simulator actively to climb the ranks!
 LEADERBOARD_ARTIFACT_FOOTER: Artifact information is updated via info commands, check your builds frequently to actively get updated artifact stats!
-LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Character stats information is updated via info commands, check your builds frequently to actively get updated character stats!
+LEADERBOARD_CHARACTER_STATISTICS_FOOTER: 角色統計信息通過信息命令更新，經常檢查您的構建以主動獲取更新的角色統計信息！
 LEADERBOARD_ABYSS_FOOTER: 深淵統計數據通過深淵進度命令進行更新，經常檢查你的深淵進度，以獲得最新的統計測量結果!
 LEADERBOARD_DONATION_FOOTER: Donate via the support links found in the /donate command to obtain a spot on this exquisite leaderboard!
 LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Crunching data, please be **patient**...* <a:tyno:1001656937689120788>
@@ -510,7 +510,7 @@ REQUIRED_RESOURCES_KEY: Required Resources
 GENSHIN_WIZARD_USER_PROFILE: "{user} 的 Genshin Wizard 設定檔"
 PROFILE_SUMMARY_KEY: Profile Summary
 GENSHIN_WISH_STATS_KEY: Genshin Wish Stats
-PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
+PROFILE_COMMAND_FOOTER: 配置文件統計信息通過橫幅摘要和刷新命令進行更新。檢查您的橫幅以積極獲取更新的/profile
 GENERATE_IMAGE_COOLDOWN: 您生成圖像的速度太快了！請在 **{seconds}** 秒後再次嘗試使用此按鈕。
 GENSHIN_STATISTICS_INFOGRAPHIC: 原神統計資訊表
 GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: 旅行者你好！根據你的需求，以下是你**專屬**的原神遊玩狀態／進度資訊卡片！
@@ -547,11 +547,11 @@ UID_KEY: UID
 STATS_KEY: Stats
 INFO_KEY: 資訊
 SETTING_RESET_PRIVACY: Successfully reset privacy settings to default setting!
-SETTING_PRIVACY_UPDATED: "{privacy_type} privacy settings have been updated! Current Privacy: {current_privacy}"
+SETTING_PRIVACY_UPDATED: "{privacy_type} 隱私設置已更新！當前隱私: {current_privacy}"
 SETTING_ART_STYLE_UPDATED: "Character builds Art Styles have been updated! Current Art Style: {current_setting}"
 SETTING_MASTER_PROFILE_RESET: Your Genshin Wizard profile has been reset to default settings!
 INVALID_IMAGE_URL: "請提供一個**有效**的圖片網址。可接受的圖像類型包括：`PNG`、`JPG`、`JPEG` 和 `GIF`。"
-SETTING_BANNER_UPDATE: Your banner has been successfully updated!
+SETTING_BANNER_UPDATE: 您的橫幅已成功更新！
 SETTING_BIOGRAPHY_ILLEGAL: Hey Traveler! Your input contains words that **aren't allowed** by Genshin Wizard! Please consider trying something *different* for your bio.
 DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
 SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
@@ -572,7 +572,7 @@ MISSING_REGISTRATION_INSTRUCTIONS: |
   **1.)** </register:{command_id}>
   **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
 MISSING_IMAGE: 請提供圖片或圖片鏈接以更新您的條幅
-PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Profile Banner Link Updated
+PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | 個人資料橫幅鏈接已更新
 IMAGE_LINK_KEY: 圖片連結
 UPDATE_DATE_KEY: 更新時間：
 SETTING_COMMAND_REQUIRE_SLASH: You must use a **slash command** (</settings:{command_id}>) or access this via your profile.
@@ -1057,21 +1057,21 @@ PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hey Traveler, if yo
 PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> Hey Traveler, you haven't **selected** any characters with custom-art to delete.
 PREMIUM_CUSTOM_ART_REMOVED: Hey Traveler, you've successfully **removed** the selected characters.
 PREMIUM_CUSTOM_ART_CLEARED: Hey Traveler, you've successfully **removed** all of your saved characters with custom-art.
-PREMIUM_ADAPTIVE_ART_SETTING_UPDATED: "Successfully changed adaptive art settings: {adaptive_art}"
+PREMIUM_ADAPTIVE_ART_SETTING_UPDATED: "已成功更改自適應藝術設置：{adaptive_art}"
 HELP_COMMAND_TITLE: Genshin Wizard | {category} 命令
 HELP_COMMAND_FOOTER: Genshin Wizard | {category} 指令總覽
 NO_DESCRIPTION: No description provided.
 ROLE_REQUIREMENTS_NOT_MET: |
-  None of your characters meet any of the **role requirements**!
+  你的角色都不符合任何**角色要求**！ 
 
-  Please try using this command later when your character fulfills the necessary **requirements** or update the characters in your *in-game showcase*.
+  請稍後在您的角色滿足必要的**要求**或更新您的*遊戲內展示*中的角色時嘗試使用此命令。
 SUCCESSFULLY_ADDED_ROLE: Successfully added {role} role to user!
-SUCCESSFULLY_UPDATED_ROLES: "**Successfully** updated user's roles!"
+SUCCESSFULLY_UPDATED_ROLES: "**成功**更新了用戶的角色！"
 CHARACTER_REQUIREMENTS_NOT_MET: |
   The character `{name}` does not meet any of the **role requirements**!\n\nPlease try using this command later when your character fulfills the necessary **requirements**.
 CHARACTER_NOT_IN_SHOWCASE: The character `{name}` was not found in your in-game character showcase!
-GACHA_COMMAND_LINK_EXPIRED: Your wish history link has expired! Use `/refresh` to update your wishes.
-GACHA_COMMAND_LINK_EXPIRED_FOOTER: "Note: Do keep in mind, since your wish history link has expired, the information above may be inaccurate. To update your wishes, it is recommended to update your wish history link using /refresh!"
+GACHA_COMMAND_LINK_EXPIRED: 您的願望歷史記錄鏈接已過期！使用 `/refresh` 更新您的願望。
+GACHA_COMMAND_LINK_EXPIRED_FOOTER: "注意：請記住，由於您的願望歷史記錄鏈接已過期，以上信息可能不准確。要更新您的願望，建議使用 /refresh 更新您的願望歷史記錄鏈接！"
 SOMETHING_WENT_WRONG: Something went wrong!
 SOMETHING_WENT_WRONG_FOOTER: If this error persists, please contact a bot administrator!
 GACHA_NO_BANNER_WISHES: You have no wishes for {banner} banner!
@@ -1206,10 +1206,10 @@ HYDRO_KEY: Hydro
 PYRO_KEY: Pyro
 RESET_SETTINGS_BUTTON: Reset Settings
 MASTER_PRIVACY_BUTTON: Master Privacy
-UPDATE_BANNER_MODAL_TITLE: Update Banner
+UPDATE_BANNER_MODAL_TITLE: 製作橫幅
 UPDATE_BANNER_MODAL_URL_INPUT: 鏈接到所需的橫幅圖像
 UPDATE_BANNER_MODAL_URL_PLACEHOLDER: https://some.link/to/image.png
-UPDATE_BIO_MODAL_TITLE: Update Bio
+UPDATE_BIO_MODAL_TITLE: 更新便歷
 UPDATE_BIO_MODAL_LABEL: 關於你的簡短描述。 (200 字符)
 UPDATE_BIO_MODAL_PLACEHOLDER: 嘿！咱叫 Lumine，這裡有一些關於咱的有趣事情……
 SELECT_CHOOSE_CATEGORY: 選擇分類...
