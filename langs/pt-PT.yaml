@@ -510,7 +510,7 @@ CHARACTER_KEY: Personagem
 CURRENT_LEVEL_KEY: Nível Atual
 TARGET_LEVEL_KEY: Nível Desejado
 REQUIRED_RESOURCES_KEY: Recursos Necessários
-GENSHIN_WIZARD_USER_PROFILE: "{user}'s Genshin Wizard Profile"
+GENSHIN_WIZARD_USER_PROFILE: "Perfil do Genshin Wizard de {user}"
 PROFILE_SUMMARY_KEY: Resumo do Perfil
 GENSHIN_WISH_STATS_KEY: Estatísticas de Oração
 PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
@@ -519,10 +519,10 @@ GENSHIN_STATISTICS_INFOGRAPHIC: Infográfico de Estatísticas de Genshin
 GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin stats/progression infographic that you requested!
 HIDDEN_KEY: Oculto
 REQUESTED_UID_KEY: UID Solicitado
-GENSHIN_EXPLORATION_INFOGRAPHIC: Genshin Exploration Progression
+GENSHIN_EXPLORATION_INFOGRAPHIC: Progresso de Exploração do Genshin
 GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin exploration infographic that you requested!
 PROFILE_NOT_OWNER: You can't use this button on someone else's profile!
-PRIVACY_SETTING_TITLE: Genshin Wizard Privacy Settings
+PRIVACY_SETTING_TITLE: Configurações de Privacidade do Genshin Wizard
 PRIVACY_SETTING_DESCRIPTION: Change your Genshin Wizard privacy settings here.
 PRIVACY_SETTING_KEY: Configurações de Privacidade
 PRIVACY_SETTING_BRIEF: |
@@ -569,7 +569,7 @@ GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
   Change your Genshin Wizard profile settings here.
 
   **Profile Summary**
-GENSHIN_WIZARD_PROFILE_TITLE: Genshin Wizard Profile Settings
+GENSHIN_WIZARD_PROFILE_TITLE: Configurações do Perfil Genshin Wizard
 MISSING_REGISTRATION_INSTRUCTIONS: |
   Please register using one of:
   **1.)** </register:{command_id}>
@@ -673,7 +673,7 @@ REGISTER_COMMAND_NO_WISHES_DESCRIPTION: |
   Wishes show up in history about 1-2 hours after wishing.
 REFRESHING_USER: Recarregando o usuário...
 REGISTERING_USER: Registrando usuário...
-RETRIEIVING_WISH_HISTORY: Retrieving your wish history...
+RETRIEIVING_WISH_HISTORY: Resgatando seu Histórico de Orações...
 REGISTER_BANNER_SYNCED: Successfully synced {banner_name} banner!
 REGISTER_BANNED_SYNC_COMPLETE: Successfully synced all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
 SUCCESSFULLY_REGISTERED: Registrado com sucesso!
@@ -722,7 +722,7 @@ LINKING_UID_FOOTER: Please be patient while we verify your account! These change
 LINKING_UID_KEY_EXPIRED: It looks like this key is now **expired**! Unfortunately, we were unable to verify you at this time, please try again later.
 REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Refresh Wish History
 FORCE_REFRESH_FOOTER: If you'd prefer to force-refresh to prolong the expiry of your current history link, you may do so by clicking one of the buttons below.
-UNLINKING_CENTRE_TITLE: Genshin Wizard | Unlinking Centre
+UNLINKING_CENTRE_TITLE: Genshin Wizard | Centro de Desvínculo
 UNLINKING_CENTRE_DESCRIPTION: Hello Traveler! Welcome to Genshin Wizard's unlinking centre. Manage your linked data through the buttons below. Friendly reminder that any method of unlinking will **erase all your data** from Genshin Wizard. This action is **irreversible**
 INVALID_COOKIE_RESPONSE: ":no_entry: You did not enter a valid **HoYoLAB** cookie!"
 RETRIEVING_ACCOUNT_INFORMATION: "*Retrieving your account information...*"
@@ -743,7 +743,7 @@ HOYOLAB_REGISTRATION_DESCRIPTION: |
 
   <a:FlowersBlue:955579121562423348> **Genshin Fun Fact of the Day:**
   `"{fun_fact}"`
-PROCESSING_REGISTRATION_REQUEST: Processing Registration Request
+PROCESSING_REGISTRATION_REQUEST: Processando Pedido de Registro
 ACCOUNT_RETREIVAL_FAILED: It looks like there was an error retrieving information with the requested UID. Please make sure you've entered the correct UID and try again.
 REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
   Welcome to Genshin Wizard's :bell: **Reminder Panel**! To begin setting up reminders, you can select any of the options below and activate them from the relative panel.
@@ -808,7 +808,7 @@ RESIN_REMINDER_SET: Reminder successfully set at <t:{rmd_time}:F> for **<:fragil
 ENTER_CUSTOM_AMOUNT_KEY: Insira Quantidade Personalizada
 ENABLE_AUTOMATIC_REMINDER_KEY: Ativar Lembrete Automático
 CURRENT_ONGOING_EXPEDITIONS_DESCRIPTION: "Hey Traveler! Your current ongoing expeditions are:"
-NO_CURRENT_EXPEDITIONS: You have no ongoing expeditions.
+NO_CURRENT_EXPEDITIONS: Você não tem Expedições em andamento.
 MISSING_RESIN_AMOUNT: You need to specify the amount of resin you currently have.
 TOO_MUCH_RESIN: You cannot have more than 160 resin.
 MAXED_RESIN_ALERT: Você já tem 160 resinas.
@@ -837,7 +837,7 @@ CONGRATULATIONS_KEY: Parabéns!
 ABYSS_CONGRATULATE_MESSAGE: |
   Congratulations {user} on perfectly *clearing* the Spiral Abyss!
   <:spiralabyss:1000079902596411482> <@&{role_id}> Role Given <a:check:956327345717907507>
-ABYSS_COMMAND_STATISTICS_CREDIT: User {name}'s Spiral Abyss Stats
+ABYSS_COMMAND_STATISTICS_CREDIT: Estatísticas do Abismo do Espiral de {name}
 CURRENT_LUNAR_PHASE_DESCRIPTION: |
   **Current Lunar Phase**
   **Start Time:** {start}
@@ -880,7 +880,7 @@ WISH_RESULTS_DESCRIPTION: |
   Guaranteed Pity: {guaranteed_pity}
   New Balance:** <:Primogem:951924423340994610>{balance} Primogems
 NONE_KEY: Nenhum
-SIMULATOR_TITLE: Genshin Wizard Gacha Simulator
+SIMULATOR_TITLE: Simulador de Gacha do Genshin Wizard
 SIMULATOR_ALREADY_CLAIMED: ":no_entry: You have **__already claimed__** your Daily Commission rewards today! There will be new commissions <t:{time}:R>."
 COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> As an **Adventurer** of the [**Genshin Wizard Guild**](https://discord.gg/genshinwizard), you have been rewarded with an extra **16,000 Primogems** <:Primogem:951924423340994610> as a result of ongoing expeditions!"
 COMMISSION_ADVENTURER_REWARD_UNRECEIVED: "> <:GreyPin:949815085335986246> Become an **Adventurer** of the [**Genshin Wizard Guild**](https://discord.gg/genshinwizard) to earn extra rewards when completing Daily Commissions!"
@@ -919,7 +919,7 @@ SIMULATOR_BEGIN_JOURNEY: "{user}, you have no characters in your inventory. Use 
 SIMULATOR_DUMP_UNSUCCESSFUL: Oops! Dumping your backpack was unsuccessful, there was an error. Please try again or contact a staff member!
 SIMULATOR_DUMP_SUCCESSFUL: <:yescheck:1021114525858136074> You have successfully dumped your inventory!
 SIMULATOR_DUMP_CANCELLED: "**<:yescheck:1021114525858136074> Successfully Cancelled!**"
-FARM_COMMAND_DOMAIN_TITLE: Domain Schedule Overview [{region}]
+FARM_COMMAND_DOMAIN_TITLE: Resumo da Programação do Domínio [{region}]
 SERVER_RESET_KEY: Reinicialização do Servidor
 ARTIFACT_GUIDE_FOOTER: Use the command /artifact <name_of_artifact> to get more information on an artifact.
 ARTIFACT_GUIDE_TITLE: Visão Geral de Artefatos
@@ -932,9 +932,9 @@ DEFAULT_SYNERGY_DESCRIPTION: Information regarding this character's team composi
 GUIDES_SUGGESTION_TITLE: Want to suggest changes to this particular guide?
 GUIDES_SUGGESTION_DESCRIPTION: Join the [**Official Discord**](https://discord.gg/BTT5Zr7Dmp) and head to the <:blurplelink:1020155547187691600> [**__Guides Discussion__**](https://discord.com/channels/951370297582436392/1007382105417854997) forum to suggest changes to this guide!
 JOIN_OFFICIAL_DISCORD: Junte-se ao Discord Oficial
-CHARACTER_GUIDE_OVERVIEW: Character Guides Overview
+CHARACTER_GUIDE_OVERVIEW: Resumo dos Tutoriais de Personagem
 TALENT_BOOK_OVERVIEW: Visão Geral de Livros de Talentos
-WEAPON_ASCENSION_OVERVIEW: Weapon Ascension Material Overview
+WEAPON_ASCENSION_OVERVIEW: Resumo de Materiais de Ascensão da Arma
 REFERENCE_SHEET_GUIDE_FOOTER: "Visão Geral de Planilhas de Referência"
 REFERENCE_SHEET_GUIDE_TITLE: Available Reference Sheets
 EVENT_BANNER_DAILY: |
@@ -960,7 +960,7 @@ START_KEY: Iniciar
 END_KEY: Fim
 SERVER_TIME_KEY: Horário do Servidor
 CONFIGURATION_SETTINGS_RESET: <:yescheck:1021114525858136074> Settings have been **reset**!
-CHANNEL_SETUP_MISSING: You need to set-up a channel first!
+CHANNEL_SETUP_MISSING: Você precisa configurar um canal antes!
 TIME_FOR_ADVENTURE: Hora de se Aventurar!
 INVALID_ROLE_MESSAGE: You must use a **Valid Role ID** for this integration! Please try again.
 INVALID_GUILD_MESSAGE: You must use a **Valid Guild ID** for this integration! Please try again.
@@ -970,7 +970,7 @@ MISSING_WEBHOOK_PERMISSION: I don't have permission to `Manage Webhooks` in this
 CHANGE_ROLE_INTEGRATION: Make changes to Genshin Wizard's automatic role integration.
 SETUP_COMMAND_TITLE: Genshin Wizard | Painel de Configuração
 UPDATED_INTEGRATION_RESPONSE: "Successfully updated integration for: **{integration}**!"
-PREMIUM_ART_SETTINGS_TITLE: Genshin Wizard Custom Art Settings
+PREMIUM_ART_SETTINGS_TITLE: Configurações de Arte Personalizada no Genshin Wizard
 PREMIUM_ART_SETTINGS_DESCRIPTION: |
   <:information:1034639378410115103> **Manage your Genshin Wizard </info:{command_id}> Art Settings**
   Tired of the default art that Genshin Wizard delivers? Well, you can now choose your own custom art for your character cards!
@@ -1002,7 +1002,7 @@ PREMIUM_SERVER_SETTINGS_DESCRIPTION: |
 
   **Activated Servers**
   {servers}
-NO_PREMIUM_SERVERS_ADDED: You have no premium servers added.
+NO_PREMIUM_SERVERS_ADDED: Você não adicionou servidores premium.
 PREMIUM_USER_DETAILS: |
   Hey <@{user_id}>, welcome to Genshin Wizard Premium. You are currently a **premium** user. Thank you for supporting the bot!
 
@@ -1043,7 +1043,7 @@ PREMIUM_TIER_FOUR_PERKS: |
   <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier4:1045526663447969813> Elder of the Hexenzirkel** role.
 PREMIUM_UNKNOWN_TIER: Um Tier Desconhecido foi Selecionado
 PREMIUM_PLAN: Plano Premium
-PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Genshin Wizard Server [Custom Role]
+PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Servidor Genshin Wizard [Cargo Personalizado]
 PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: Hey Traveler, this **custom role** feature is only available in the official [**Genshin Wizard Discord Server**](https://discord.gg/BTT5Zr7Dmp).
 PREMIUM_CUSTOM_ROLE_FOOTER: Genshin Wizard Custom Role Settings
 PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> Hey Traveler, you must be a **Tier 1** or higher premium user to use this feature. Consider purchasing an [**__upgrade__**](https://patreon.com/genshinwizard) to unlock this amazing feature.
@@ -1084,7 +1084,7 @@ GACHA_COMMAND_LINK_EXPIRED_FOOTER: "Note: Do keep in mind, since your wish histo
 SOMETHING_WENT_WRONG: Algo deu errado!
 SOMETHING_WENT_WRONG_FOOTER: If this error persists, please contact a bot administrator!
 GACHA_NO_BANNER_WISHES: You have no wishes for {banner} banner!
-GACHA_SUMMARY_FOOTER: "Genshin Wish Summary for: {user}"
+GACHA_SUMMARY_FOOTER: "Resumo de Orações de {user}"
 GENSHIN_WISH_SUMMARY: Resumo de Orações do Genshin
 SLASH_COMMAND_NEED_HELP: |
   <:blurpleannouncement:1020402170127982712> **HAVING ISSUES? FEAR NOT!** <:KeqingHeart:952837574878199808>
@@ -1139,7 +1139,7 @@ NO_BUTTON: No
 DIARY_MONTH_DESCRIPTION: View Traveler's Diary for the month of {month}.
 DIARY_MONTH_LABEL: "Diário de {month}"
 DIARY_MONTH_PLACEHOLDER: Escolha um mês para visualizar...
-INVOKATION_ARCHIVE_LABEL: View Genius Invokation TCG Archive
+INVOKATION_ARCHIVE_LABEL: Ver Arquivo do Chamado dos Sete
 INVOKATION_RETURN_SHOWCASE: Voltar à Exibição
 GLOBAL_BUTTON: Global
 SERVER_BUTTON: Servidor
@@ -1170,7 +1170,7 @@ ACTIVE_PLAYTIME_DESCRIPTION: View Genshin Wizard's active playtime leaderboard.
 WISHES_DESCRIPTION: View Genshin Wizard's wishes leaderboard.
 DONATIONS_DESCRIPTION: View Genshin Wizard's donations leaderboard.
 LEVELS_DESCRIPTION: View Genshin Wizard's levelling leaderboard.
-LEADERBOARD_PLACEHOLDER: Choose a leaderboard category...
+LEADERBOARD_PLACEHOLDER: Escolha uma categoria de ranking...
 COMMON_LABEL: "Comum"
 EXQUISITE_LABEL: "Sofisticado"
 PRECIOUS_LABEL: "Precioso"
@@ -1204,7 +1204,7 @@ FIVE_STAR_LABEL: "Cinco Estrelas"
 PREVIOUS_BUTTON: Anterior
 NEXT_BUTTON: Próximo
 GENERATE_IMAGE_BUTTON: Gerar Imagem
-GENERATE_EXPLORATION_BUTTON: Export Exploration Progression
+GENERATE_EXPLORATION_BUTTON: Exportar Progresso de Exploração
 SETTINGS_BUTTON: Configurações
 ANEMO_KEY: Anemo
 CRYO_KEY: Cryo
@@ -1216,14 +1216,14 @@ PYRO_KEY: Pyro
 RESET_SETTINGS_BUTTON: Redefinir Configurações
 MASTER_PRIVACY_BUTTON: Master Privacy
 UPDATE_BANNER_MODAL_TITLE: Atualizar Banner
-UPDATE_BANNER_MODAL_URL_INPUT: Link to desired image for banner
-UPDATE_BANNER_MODAL_URL_PLACEHOLDER: https://some.link/to/image.png
+UPDATE_BANNER_MODAL_URL_INPUT: Link à imagem desejada como banner
+UPDATE_BANNER_MODAL_URL_PLACEHOLDER: https://algum.link/para/imagem.png
 UPDATE_BIO_MODAL_TITLE: Atualizar Descrição
 UPDATE_BIO_MODAL_LABEL: A short description about you. (200 chars)
 UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
 SELECT_CHOOSE_CATEGORY: Escolha uma categoria...
 PROFILE_KEY: Perfil
-PROFILE_DESCRIPTION: View your Genshin Wizard profile
+PROFILE_DESCRIPTION: Ver seu perfil do Genshin Wizard
 GENSHIN_STATISTICS_KEY: Estatísticas do Genshin
 GENSHIN_STATISTICS_DESCRIPTION: Veja suas estatísticas do Genshin
 SPIRAL_ABYSS_STATISTICS_KEY: Estatísticas do Abismo
@@ -1236,7 +1236,7 @@ PREVIOUS_ABYSS_PHASE_DESCRIPTION: View Previous Abyssal Stats Progression
 ENTER_LINK_BUTTON: Insira o link
 LINK_UID_MODAL_TITLE: Vincular UID
 LINK_UID_MODAL_LABEL: UID do Genshin Impact
-LINK_UID_MODAL_PLACEHOLDER: Insert your Genshin Impact UID
+LINK_UID_MODAL_PLACEHOLDER: Insira seu UID do Genshin Impact
 REGISTER_MODAL_LABEL: O URL do seu histórico de orações
 HOYOLAB_KEY: HoYoLAB
 HOYOLAB_REGISTRATION_MODAL_TITLE: Registro HoYoLAB
@@ -1247,7 +1247,7 @@ TEAPOT_KEY: Bule
 EXPEDITIONS_KEY: Expedições
 PARAMETRIC_TRANSFORMER_KEY: Transformador Paramétrico
 CLEAR_ALL_REMINDERS_BUTTON: Limpar Todos os Lembretes
-CLEAR_REMINDER_BUTTON: Clear {reminder_type} Reminders
+CLEAR_REMINDER_BUTTON: Limpar Lembretes {reminder_type}
 SET_REMINDER_KEY: Definir Lembrete
 RESIN_THRESHOLD_MODAL_TITLE: Insira a quantidade de resina
 RESIN_THRESHOLD_LABEL: Limite de Resina
@@ -1285,14 +1285,14 @@ TEAM_SYNERGIES_KEY: Sinergias de Equipe
 CONSTELLATIONS_KEY: Constelações
 SKILL_TALENTS_KEY: Talentos de Habilidade
 PASSIVE_TALENTS_KEY: Talentos Passivos
-INTRODUCTION_DESCRIPTION: View Basic Character Information
+INTRODUCTION_DESCRIPTION: Ver Informações Básicas do Personagem
 PLAYSTYLE_DESCRIPTION: Ver Estilo(s) de Jogo do Personagem
 BUILD_DESCRIPTION: Veja Build(s) do Personagem
-ASCENSION_MATERIALS_DESCRIPTION: View Character Ascension Materials
+ASCENSION_MATERIALS_DESCRIPTION: Ver Materiais de Ascensão do Personagem
 TEAM_SYNERGIES_DESCRIPTION: Ver Sinergias com o Personagem
 CONSTELLATIONS_DESCRIPTION: View Character Constellations Overview
 SKILL_TALENTS_DESCRIPTION: View Character Active/Skill Talents
-PASSIVE_TALENTS_DESCRIPTION: View Character Passive Talents
+PASSIVE_TALENTS_DESCRIPTION: Ver Talentos Passivos do Personagem
 VIEW_CARD_BUTTON: View Card on HoYoLAB Wiki
 CONFIG_DAILY_ANNOUNCEMENTS_PANEL: Daily Announcements Panel
 CONFIG_SERVER_TIME_PANEL: Painel de Horários do Servidor
@@ -1309,12 +1309,12 @@ DAILY_ANNOUNCEMENT_EUROPE_PING_ROLE: ID do Cargo Europa para Menção
 DAILY_ANNOUNCEMENT_ASIA_PING_ROLE: ID do Cargo Ásia para Menção
 DAILY_ANNOUNCEMENT_SAR_PING_ROLE: ID do Cargo para Menção SAR
 DAILY_ANNOUNCEMENT_CHANNEL: ID do Canal de Comunicados
-MODAL_ROLE_ID_PLACEHOLDER: Insert Desired Role ID here...
-MODAL_CHANNEL_ID_PLACEHOLDER: Insert Desired Channel ID here...
+MODAL_ROLE_ID_PLACEHOLDER: Insira ID do Cargo desejado aqui...
+MODAL_CHANNEL_ID_PLACEHOLDER: Insira o ID do Canal desejado aqui...
 MODAL_ROLE_OR_CHANNEL_ID_PLACEHOLDER: Insert Desired Channel/Role ID here...
-MODAL_ROLE_NAME_PLACEHOLDER: Insert desired role name here...
+MODAL_ROLE_NAME_PLACEHOLDER: Insira o nome desejado para o Cargo aqui...
 RESEND_BUTTON: Reenviar
-PANEL_UPDATE_INTEGRATION_TITLE: Update Genshin Wizard Integration
+PANEL_UPDATE_INTEGRATION_TITLE: Atualizar Integração Genshin Wizard
 PARTNER_ABYSS_ROLE_BUTTON: Cargo de Abismo
 PARTNER_ABYSS_REWARD_BUTTON: Recompensa do Abismo
 PARTNER_ABYSS_CONGRATULATORY_MESSAGE: Mensagem de Parabéns
@@ -1342,7 +1342,7 @@ WEAPON_REQUIREMENT_LABEL: Weapon Requirement
 WEAPON_REQUIREMENT_PLACEHOLDER: Number of {refinement} 5-Star Weapons...
 DUAL_REQUIREMENT_LABEL: "{constellation_num} 5-Star Character & {refinement} Weapon Requirement"
 DUAL_REQUIREMENT_PLACEHOLDER: Number of {constellation_num} 5-Star Characters & {refinement} 5-Star Weapons...
-PREMIUM_SELECT_PLACEHOLDER: Select a tier to view perks for...
+PREMIUM_SELECT_PLACEHOLDER: Selecione um tier para ver os benefícios...
 WITCH_OF_PURPLE_ROSE: Bruxa da Rosa Roxa
 ASTRAL_REFLECTION: Reflexão Astral
 CRIMSON_WITCH_OF_FLAMES: Bruza das Chamas Carmesim
@@ -1365,9 +1365,9 @@ CUSTOM_ROLE_COLOR_CHANGE_BUTTON: Alterar Cor do Cargo
 PREMIUM_SERVER_REMOVE: Selecione um servidor para remover...
 PREMIUM_SERVER_TIMESTAMP: Premium desde {date}
 GUILD_OR_SERVER_ID: ID do Servidor/Guilda
-GUILD_OR_SERVER_ID_PLACEHOLDER: Insert Guild/Server ID here...
+GUILD_OR_SERVER_ID_PLACEHOLDER: Insira o ID da Guilda/Servidor aqui...
 GUIDE_KEY: Guia
-ENABLE_ADAPTIVE_ART_SETTING: Enable Adaptive Infographic Art
+ENABLE_ADAPTIVE_ART_SETTING: Ativar Arte Adaptativa do Infográfico
 ADAPTIVE_INFOGRAPHIC_KEY: Arte Adaptativa do Infográfico
 INVITE_BOT_KEY: Convidar o Bot
 HELP_DROPDOWN_DIRECTORY: Catálogo de Ajuda
@@ -1376,7 +1376,7 @@ HELP_DROPDOWN_WISH_COMMANDS: Comandos de Oração
 HELP_DROPDOWN_HOYOLAB_COMMANDS: Comandos do HoYoLAB
 HELP_DROPDOWN_GUIDE_COMMANDS: Comandos de Guia
 HELP_DROPDOWN_MISCELLANEOUS_COMMANDS: Outros Comandos
-HELP_DROPDOWN_DIRECTORY_DESCRIPTION: View Genshin Wizard Help Directory
+HELP_DROPDOWN_DIRECTORY_DESCRIPTION: Ver Catálogo de Ajuda do Genshin Wizard
 HELP_DROPDOWN_PROFILE_COMMANDS_DESCRIPTION: Ver Comandos de Perfil
 HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: Ver Comandos de Oração
 HELP_DROPDOWN_HOYOLAB_COMMANDS_DESCRIPTION: Ver Comandos de HoYoLAB
@@ -1405,7 +1405,7 @@ ABYSS_FLOOR_AUTHOR: Floor {floor} • Spiral Abyss Progression
 ABYSS_FLOOR_LABEL: Piso {floor}
 APP_COMMAND_ABYSS_ENEMY_DESCRIPTION: View abyss-enemy information for Spiral Abyss.
 ABYSS_ENEMY_NOT_ONGOING: There is currently no ongoing Spiral Abyss challenges.
-ABYSS_ENEMY_TITLE: Spiral Abyss Enemy Information
+ABYSS_ENEMY_TITLE: Informação sobre os Inimigos do Abismo do Espiral
 ABYSS_ENEMY_DESCRIPTION: "Schedule: **Floor {floor_index} - Chamber {chamber_index}**"
 CUSTOM_ROLE_ICON_CHANGE_BUTTON: Alterar Ícone do Cargo
 CUSTOM_ROLE_ICON_REQUEST_MESSAGE: Please send the **link**, **attachment**, or **emoji** you want to use as your custom role icon. This request will time out in 60 seconds.
@@ -1426,7 +1426,7 @@ ABYSS_ENEMY_INFORMATION_BUTTON_LABEL: Quantidade de Inimigos
 APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: Change your Battle Chronicles Privacy Settings.
 VIEW_ON_HOYOLAB: Ver no HoYoLAB
 CHRONICLES_PRIVACY_SETTING: Character Battle Chronicle Settings
-PRIVACY_SETTING_BUTTON_LABEL: Privacy Setting {setting_number}
+PRIVACY_SETTING_BUTTON_LABEL: Configuração de Privacidade {setting_number}
 INVALID_PAGE_INPUT: You must provide a **valid** page number.
 PAGE_MODAL_LABEL: "Número da página que deseja visualizar:"
 PAGE_MODAL_PLACEHOLDER: "Insira o número da página..."
@@ -1471,7 +1471,7 @@ GACHA_DATA_NOT_REAL: "*Esses dados são de mentira."
 INVENTORY_KEY: Inventário
 CHARACTER_SUMMARY_KEY: Resumo do Personagem
 UNKNOWN_ADVENTURE_RANK: "Rank de Aventura: N/A"
-ADVENTURE_RANK_VALUE: "Adventure Rank: {adventure_rank}"
+ADVENTURE_RANK_VALUE: "Rank de Aventura: {adventure_rank}"
 SERVER_KEY_VALUE: "Servidor: {server}"
 UID_KEY_VALUE: "UID: {uid}"
 HOYO_API_LIMITATION: "*Data may be inaccurate due to HoYoLAB API limitations"
@@ -1541,7 +1541,7 @@ ACTION_CARDS_STATUS: "Action Cards: {owned_cards}/{total_cards}"
 UID_HIDDEN_KEY: "UID Oculto"
 NO_CRIT_VALUE_KEY: "Sem Valor Crítico"
 NO_CRIT_VALUE_FOUND: "Não foi encontrado Valor Crítico"
-FRIENDSHIP_LEVEL_KEY: "Friendship Lv. {friendship_level}"
+FRIENDSHIP_LEVEL_KEY: "Nv. de Amizade {friendship_level}"
 ARTIST_CREDIT_STRING: Créditos ao Artista
 CUSTOM_ARTWORK_STRING: Arte Personalizada
 CHARACTER_LEVEL_KEY: "Nv. {level}"
