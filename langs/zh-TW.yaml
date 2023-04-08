@@ -44,7 +44,7 @@ INVITE_KEY: Invite
 DOCUMENTATION_KEY: Documentation
 GWIZ_INVITE: Genshin Wizard Invite
 AVATAR_KEY: Avatar
-ARTIFACT_CRIT_VALUE_TITLE: Artifact CRIT Value Calculator
+ARTIFACT_CRIT_VALUE_TITLE: 聖遺物暴擊值計算器
 TOTAL_CRIT_VALUE: Total Crit Value
 TRUTH_COMMAND_RESPONSES:
   - As I see it, yes.
@@ -251,7 +251,7 @@ APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
 APP_COMMAND_DONATE_DESCRIPTION: 支持Genshin Wizard的開發。
 APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
 APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
-APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
+APP_COMMAND_CRITVALUE_DESCRIPTION: 計算聖遺物暴擊值。
 APP_COMMAND_TRUTH_DESCRIPTION: Seek wisdom from Genshin Wizard.
 APP_COMMAND_CHANGEPREFIX_DESCRIPTION: 更改 Genshin Wizard 命令的前綴。
 APP_COMMAND_PITY_DESCRIPTION: Information on understanding the Genshin pity-system.
@@ -292,11 +292,11 @@ INFO_COMMAND_CACHE_DESCRIPTION: |
    <:na:975828401900359711> **如果我想刪除舊版本怎麼辦？**
   不要害怕！您將能夠直接從此消息管理您的構建緩存！使用下面的 UI 從您的 Genshin Wizard 緩存中刪除特定字符或全部。
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
-  <:信息:1034639378410115103> **Genshin Wizard 自定義藝術功能**
-  嗨~旅行者，您似乎正在嘗試使用 Genshin Wizard 的 **定製藝術** 功能！此功能僅適用於 Genshin Wizard 進階 用戶。 您可以使用 </premium:{command_id}> 命令或訪問我們的 [**贊助人**](https://patreon.com/genshinwizard) 了解有關 Genshin Wizard 進階 的更多信息！
+  <:信息:1034639378410115103> **Genshin Wizard 自定義聖遺物功能**
+  嗨~旅行者，您似乎正在嘗試使用 Genshin Wizard 的 **定製聖遺物** 功能！此功能僅適用於 Genshin Wizard 進階 用戶。 您可以使用 </premium:{command_id}> 命令或訪問我們的 [**贊助人**](https://patreon.com/genshinwizard) 了解有關 Genshin Wizard 進階 的更多信息！
 PURCHASE_PREMIUM: Purchase Premium
-INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Hey Traveler, you can only manage custom art for your **own characters**!
-GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard Custom Art
+INFO_COMMAND_CUSTOM_ART_NOT_OWNER: 嘿旅行者，您只能管理您**自己的角色**的自定義聖遺物！
+GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard 聖遺物定義
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
   **Customize Infographic Art**
   Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
@@ -320,7 +320,7 @@ DISABLE_AUTOCLAIM: Disable automatic daily sign-in.
 APP_COMAND_DESCRIBE_CODES: 您希望為您的帳戶兌換的兌換代碼。
 APP_COMMAND_DESCRIBE_DATA: The file you are trying to import your wish history from.
 APP_COMMAND_DESCRIBE_RESOURCE: The resource you are trying to search for.
-APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: The character you want to calculate ascension materials for.
+APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: 您要為其計算升級材料的角色。
 APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: Starting level of the character you want to upgrade.
 APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: Desired level of the character you want to upgrade.
 APP_COMMAND_DESCRIBE_BANNER_IMAGE: 你想作為你的橫幅使用的圖片。
@@ -498,11 +498,11 @@ LOCATION_COMMAND_MAP_TITLE: "{resource} 地圖位置"
 LOCATION_COMMAND_REGION_DESCRIPTION: "Local {region} Specialty:"
 LOCATION_COMMAND_FARMABLE_FOOTER: 特定材料的可收割地點
 CALC_CHARACTER_INVALID_CHARACTER: You need to specify a valid character!
-CALC_CHARACTER_INVALID_STARTING_LEVEL: You need to specify a valid starting level!
+CALC_CHARACTER_INVALID_STARTING_LEVEL: 您需要指定一個有效的初始等級！
 CALC_CHARACTER_INVALID_TARGET_LEVEL: 您需要指定一個有效的目標等級！
-CALC_CHARACTER_REQUIREMENT_SURPASSED: Character has already **surpassed** the given desired level!
-CALC_CHARACTER_REQUIREMENT_MET: Character has already **reached** the given desired level!
-CALC_CHARACTER_TITLE: Genshin Wizard | 字符計算器
+CALC_CHARACTER_REQUIREMENT_SURPASSED: 角色已經**超出**預定的期望水平！
+CALC_CHARACTER_REQUIREMENT_MET: 角色已經**達到**預定的期望水平！
+CALC_CHARACTER_TITLE: Genshin Wizard | 角色計算器
 CHARACTER_KEY: Character
 CURRENT_LEVEL_KEY: 當前等級
 TARGET_LEVEL_KEY: 目標等級
@@ -560,7 +560,7 @@ BANNER_KEY: Banner
 ELEMENTAL_RESONANCE_KEY: Elemental Resonance
 BUILDS_ART_STYLE_KEY: Builds Art Style
 ART_STYLE_KEY: Art Style
-FANART_KEY: Fanart
+FANART_KEY: 同人畫
 OFFICIAL_ART_KEY: Official Art
 GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
   Change your Genshin Wizard profile settings here.
@@ -913,7 +913,7 @@ SIMULATOR_DUMP_CANCELLED: "**<:yescheck:1021114525858136074> Successfully Cancel
 FARM_COMMAND_DOMAIN_TITLE: 地域時間表概述 [{region}]
 SERVER_RESET_KEY: 伺服器重置
 ARTIFACT_GUIDE_FOOTER: Use the command /artifact <name_of_artifact> to get more information on an artifact.
-ARTIFACT_GUIDE_TITLE: Artifacts Overview
+ARTIFACT_GUIDE_TITLE: 聖遺物概述
 NO_ASSET_INPUT: ":no_entry: 請提供物品 ID 以供查找。"
 WEAPON_INFORMATION_TITLE: Weapon Information | {weapon}
 WEAPON_INFORMATION_FOOTER: "Weapon Guide • Infographic: {weapon}"
@@ -1057,7 +1057,7 @@ PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hey Traveler, if yo
 PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> Hey Traveler, you haven't **selected** any characters with custom-art to delete.
 PREMIUM_CUSTOM_ART_REMOVED: Hey Traveler, you've successfully **removed** the selected characters.
 PREMIUM_CUSTOM_ART_CLEARED: Hey Traveler, you've successfully **removed** all of your saved characters with custom-art.
-PREMIUM_ADAPTIVE_ART_SETTING_UPDATED: "已成功更改自適應藝術設置：{adaptive_art}"
+PREMIUM_ADAPTIVE_ART_SETTING_UPDATED: "已成功更改自適應聖遺物設置：{adaptive_art}"
 HELP_COMMAND_TITLE: Genshin Wizard | {category} 命令
 HELP_COMMAND_FOOTER: Genshin Wizard | {category} 指令總覽
 NO_DESCRIPTION: No description provided.
@@ -1144,7 +1144,7 @@ ABYSS_LEADERBOARD_PLACEHOLDER: 選擇深淵階段...
 CHESTS_KEY: Chests
 ACHIVEMENTS_KEY: Achievements
 CHARACTER_STATISTICS_KEY: Character Stats
-ARTIFACT_SUBSTAT_KEY: Artifact Substats
+ARTIFACT_SUBSTAT_KEY: 聖遺物統計
 ABYSS_STATISTICS_KEY: Abyss Statistics
 GACHA_SIMULATOR_KEY: Gacha Simulator
 ACTIVE_PLAYTIME_KEY: Active Playtime
