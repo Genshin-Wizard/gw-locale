@@ -131,12 +131,12 @@ ERROR_PRIVATE_COMMAND_DESCRIPTION: |
 
   如果您想使用此命令，請考慮加入我們的[官方 Discord](https://discord.gg/genshinwizard)。
 ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
-ERROR_PREMIUM_COMMAND_DESCRIPTION: Hey Traveler! You're **not allowed** to use this command, this command is only available to **Premium Subscribers**. If you'd like use this feature, consider learning more using the </premium:{command_id}> command.
+ERROR_PREMIUM_COMMAND_DESCRIPTION: 嘿旅行者！您**不允許**使用此命令，此命令僅適用於**高級訂閱者**。如果您想使用此功能，請考慮使用 </premium:{command_id}> 命令了解更多信息。
 ERROR_BLACKLISTED_TITLE: Genshin Wizard | Blacklisted
 ERROR_BLACKLISTED_DESCRIPTION: |
-  Hey Traveler! You have been **banned** from using Genshin Wizard!
+  嘿旅行者！您已被**禁止**使用 Genshin Wizard！ 
 
-  If you believe for this to be an error, consider joining our [Official Discord](https://discord.gg/genshinwizard)
+  如果您認為這是一個錯誤，請考慮加入我們的 [Official Discord](https://discord.gg/genshinwizard)
 ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Member Not Found
 ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Make sure the person you are trying to view is still in the server.
 ERROR_MISSING_REQUIRED_ARGUMENT: "You forgot to provide an argument, please use the correct format: ```{usage}```"
@@ -145,7 +145,7 @@ ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, I do not have permission to `Manage 
 ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
 MESSAGE_KEY: 訊息
 ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
+ERROR_INTERACTION_MISMATCH: 嘿旅行者！這**不是你的互動**可以觸摸！如果您想自己使用此命令，請使用命令 {command} ！
 ERROR_MESSAGE: 發生錯誤!
 FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
 FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
@@ -164,7 +164,7 @@ CODE_REDEEM_DESCRIPTION: "*請稍候，我們正嘗試兌換您的兌換碼...*"
 CODE_REDEEM_PROGRESS: |
   *請稍候，咱們正在處理您的兌換碼...* <a:loading:1015667958237900801> 正在嘗試兌換代碼 `{code}`
 HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | 過期的Cookies
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: 嘿旅行者！您的 HoYoLAB 代碼兌換 cookie 似乎已**過期**！使用命令 </hoyo:{command_id}> 並完成帳戶重新鏈接過程以**刷新**您的 HoYoLAB 帳戶 cookie。
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
@@ -418,7 +418,7 @@ HOYOLAB_ACCOUNT_MANAGE: 透過 Genshin Wizard 管理你的 HoYoLAB 帳號
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | 角色一覽
 CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /register!
 GCG_NO_CARDS_FOUND: No Cards Found!
-GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Traveler! Unfortunately, {member} has **no cards** yet! Head-in game and play some TCG on Genshin Impact *before* using this command.
+GCG_NO_CARDS_FOUND_DESCRIPTION: 嘿旅行者！不幸的是，{member} **還沒有卡片**！在*使用此命令之前*在 Genshin Impact 上進入遊戲並玩一些 七星召喚。
 HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
   **How to link your HoYoLAB account with Genshin Wizard**
@@ -546,13 +546,13 @@ ABYSS_KEY: 深淵
 UID_KEY: UID
 STATS_KEY: Stats
 INFO_KEY: 資訊
-SETTING_RESET_PRIVACY: Successfully reset privacy settings to default setting!
+SETTING_RESET_PRIVACY: 已成功將隱私設置重置為默認設置！
 SETTING_PRIVACY_UPDATED: "{privacy_type} 隱私設置已更新！當前隱私: {current_privacy}"
 SETTING_ART_STYLE_UPDATED: "Character builds Art Styles have been updated! Current Art Style: {current_setting}"
 SETTING_MASTER_PROFILE_RESET: Your Genshin Wizard profile has been reset to default settings!
 INVALID_IMAGE_URL: "請提供一個**有效**的圖片網址。可接受的圖像類型包括：`PNG`、`JPG`、`JPEG` 和 `GIF`。"
 SETTING_BANNER_UPDATE: 您的橫幅已成功更新！
-SETTING_BIOGRAPHY_ILLEGAL: Hey Traveler! Your input contains words that **aren't allowed** by Genshin Wizard! Please consider trying something *different* for your bio.
+SETTING_BIOGRAPHY_ILLEGAL: 嘿旅行者！您的輸入包含 Genshin Wizard **不允許**的字詞！請考慮為你的簡歷嘗試一些*不同的*東西。
 DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
 SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
 BIOGRAPHY_KEY: Bio
@@ -782,7 +782,7 @@ RESIN_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whe
 REMINDER_AUTOMATIC_RESIN_SET: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your resin reaches the threshold set above!
 TEAPOT_AUTOMATIC_REMINDER_FOOTER: 設定自動提醒，以便在洞天寶錢完全回滿的時候能夠及時領取！
 PARAMETRIC_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your parametric transformer is ready to use!
-ERROR_NO_TRANSFORMER: Hey Traveler! You have not obtained the **<:parametrictransformer:1029984451670847568>Parametric Transformer** yet!
+ERROR_NO_TRANSFORMER: 嘿旅行者！您還沒有獲得 **<:參數質變儀:1029984451670847568>參數質變儀** 呢！
 REMINDERS_CLEARED_CONFIRMATION: Successfully **cleared** all your reminders!
 SPECIFIC_REMINDER_CLEARED: Successfully **cleared** all your {rmd_type} reminders!
 TEAPOT_ALREADY_SET: You **already** have a reminder set for teapot!
@@ -801,7 +801,7 @@ RESIN_AMOUNT_LOWER: Please enter a resin amount that is **higher** than your cur
 RESIN_REMINDER_SET: Reminder successfully set at <t:{rmd_time}:F> for **<:fragileresin:1029984988583706654>{resin}** resin!
 ENTER_CUSTOM_AMOUNT_KEY: Enter Custom Amount
 ENABLE_AUTOMATIC_REMINDER_KEY: Enable Automatic Reminder
-CURRENT_ONGOING_EXPEDITIONS_DESCRIPTION: "Hey Traveler! Your current ongoing expeditions are:"
+CURRENT_ONGOING_EXPEDITIONS_DESCRIPTION: "嘿旅行者！您當前正在進行的探險是："
 NO_CURRENT_EXPEDITIONS: You have no ongoing expeditions.
 MISSING_RESIN_AMOUNT: You need to specify the amount of resin you currently have.
 TOO_MUCH_RESIN: You cannot have more than 160 resin.
@@ -811,7 +811,7 @@ SET_RESIN_REMINDER_KEY: Set resin reminder!
 API_ISSUE: There has been an API Issue.
 HOW_TO_SOLVE_TITLE: How to solve this?
 ENABLE_CHRONICLES: "Use the command </hoyolab-privacy:{command_id}> or visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable *Battle Chronicle privacy* to make your genshin profile public."
-PLEASE_WAIT_DESCRIPTION: Waiting! There is nothing you can do to get past this at the moment.
+PLEASE_WAIT_DESCRIPTION: 等待！目前您無能為力。
 PLAYER_TITLE: Player {player}
 USER_TITLE: User {user}
 OVERVIEW_KEY: Overview
@@ -881,12 +881,11 @@ COMMISSION_COMPLETE_MESSAGE: |
   You have been rewarded with **16,000 Primogems** <:Primogem:951924423340994610>
 PRIVATE_MESSAGE_KEY: Private Message
 SIMULATOR_BALANCE_MESSAGE: |
-  <:blurpleannouncement:1020402170127982712> **Note:** You can only claim Daily Commission rewards **once** per day.
+  <:blurpleannouncement:1020402170127982712> **注意：**您每天只能**一次**領取每日獎勵。 
 
-  **__CURRENT BALANCES__**
-  <:MasterlessStardust:951924423332626522> **Stardust:** {stardust}
-  <:MasterlessStarglitter:951924423059980290> **Starglitter:** {starglitter}
-  <:Primogem:951924423340994610> **Primogems:** {primogems}
+  **__當前餘額__**
+   <:MasterlessStardust:951924423332626522> **星塵:** {stardust}<:MasterlessStarglitter:951924423059980290> **星輝** {starglitter} 
+  <:Primogem:951924423340994610> **原石:** {primogems}
 SIMULATOR_RESET_INVENTORY: Are you sure you wish to reset your inventory? This action will get rid of all your obtained characters through the wishsimulator commands and is **irreversible**!
 SIMULATOR_STARDUST_SHOP_OPTIONS: |
   **<:MasterlessStardust:951924423332626522> 75 | 160 Primogems <:Primogem:951924423340994610>**
@@ -1072,7 +1071,7 @@ CHARACTER_REQUIREMENTS_NOT_MET: |
 CHARACTER_NOT_IN_SHOWCASE: The character `{name}` was not found in your in-game character showcase!
 GACHA_COMMAND_LINK_EXPIRED: 您的願望歷史記錄鏈接已過期！使用 `/refresh` 更新您的願望。
 GACHA_COMMAND_LINK_EXPIRED_FOOTER: "注意：請記住，由於您的願望歷史記錄鏈接已過期，以上信息可能不准確。要更新您的願望，建議使用 /refresh 更新您的願望歷史記錄鏈接！"
-SOMETHING_WENT_WRONG: Something went wrong!
+SOMETHING_WENT_WRONG: 出了問題！
 SOMETHING_WENT_WRONG_FOOTER: If this error persists, please contact a bot administrator!
 GACHA_NO_BANNER_WISHES: You have no wishes for {banner} banner!
 GACHA_SUMMARY_FOOTER: "Genshin Wish Summary for: {user}"
@@ -1400,7 +1399,7 @@ ABYSS_ENEMY_TITLE: Spiral Abyss Enemy Information
 ABYSS_ENEMY_DESCRIPTION: "Schedule: **Floor {floor_index} - Chamber {chamber_index}**"
 CUSTOM_ROLE_ICON_CHANGE_BUTTON: Change Role Icon
 CUSTOM_ROLE_ICON_REQUEST_MESSAGE: Please send the **link**, **attachment**, or **emoji** you want to use as your custom role icon. This request will time out in 60 seconds.
-CUSTOM_ROLE_ICON_REQUEST_TIMEOUT: Hey Traveler! I didn't receive any input from you, so I've cancelled this request.
+CUSTOM_ROLE_ICON_REQUEST_TIMEOUT: 嘿旅行者！我沒有收到你的任何意見，所以我取消了這個請求。
 CUSTOM_ROLE_ICON_NOT_IMAGE: 嘿旅行者！附件必須是**圖片**！
 CUSTOM_ROLE_ICON_SUCCESS: Your custom role icon has been successfully changed. This confirmation message will be deleted in **10 seconds**.
 DEFAULT_KEY: Default
@@ -1522,7 +1521,7 @@ DIARY_MONTH_OF_KEY: "Month of"
 ACQUIRED_MONTH_KEY: Acquired this month
 TOTAL_MORA_KEY: Total Mora
 DIARY_MONTHLY_DESCRIPTION: "This month, your primary source for obtaining Primogems is through {source}, for a total of {primogem_count} Primogems, or {top_percentage}% of your total!"
-DIARY_DAILY_DESCRIPTION: Hey Traveler! You have earned {primogems} Primogems and {mora} Mora today, what a bountiful day!
+DIARY_DAILY_DESCRIPTION: 嘿旅行者！您今天贏得了 {primogems} 個原石 和 {mora} 個摩拉，多麼充實的一天！
 TOTAL_PRIMOGEMS_OBTAINED: Primogems Obtained
 DIARY_DATA_DELAYED: "*此數據延遲約一小時，請稍後查看更新記錄"
 DIARY_DATA_SOURCE_DESCRIPTION: "*This diary only includes the resources obtained outside of top-ups"
