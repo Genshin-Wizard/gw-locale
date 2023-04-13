@@ -148,7 +148,7 @@ ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the
 ERROR_INTERACTION_MISMATCH: 嘿旅行者！這**不是你的互動**可以觸摸！如果您想自己使用此命令，請使用命令 {command} ！
 ERROR_MESSAGE: 發生錯誤!
 FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
+FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *您的反饋已成功發送給開發者！*
 FEEDBACK_LOG_RESPONSE: |
   > User: **{author_name}** | {author_mention}
   > Discord ID: `{author_id}`
@@ -298,11 +298,11 @@ PURCHASE_PREMIUM: Purchase Premium
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: 嘿旅行者，您只能管理您**自己的角色**的自定義聖遺物！
 GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard 聖遺物定義
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
-  ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://dashboard.genshinwizard.com/?key={key})
+  **自定義信息圖表藝術**
+   嘿旅行者，單擊下面的鏈接或按鈕以**自定義**此角色的信息圖表藝術！ 
+  <a:PaimonCookies:992302701838864454>
+  ```修復 {character}的信息圖```
+   > <:Settings:1046877233626742925> [**點擊此處自定義藝術**](https://dashboard.genshinwizard.com/?key={key})
 GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Go to Dashboard
 REMOVE_CHARACTERS_FROM_CACHE: Remove characters from cache...
 INFO_COMMAND_CACHE_DELETE_SELECTED: Successfully deleted selected characters from Genshin Wizard's cache!
@@ -341,7 +341,7 @@ APP_COMMAND_DESCRIBE_CHARACTER_SKILLS: The name of the character you want to loo
 APP_COMMAND_DESCRIBE_CHARACTER_PASSIVE: The name of the character you want to look-up passive talents for.
 APP_COMMAND_DESCRIBE_ITEM_REFERENCE_SHEET: The name of the item you want a reference sheet for.
 APP_COMMAND_DESCRIBE_CRIT_RATE: The CRIT Rate of the artifact.
-APP_COMMAND_DESCRIBE_CRIT_DAMAGE: The CRIT Damage of the artifact.
+APP_COMMAND_DESCRIBE_CRIT_DAMAGE: 聖遺物的 CRIT 傷害。
 APP_COMMAND_DESCRIBE_QUESTION: The question you wish to ask Paimon.
 APP_COMMAND_DESCRIBE_PREFIX: The new prefix you wish to set for the bot.
 APP_COMMAND_DESCRIBE_EXPRESSION: The equation/query you're attempting to compute.
@@ -416,7 +416,7 @@ HOYOLAB_GAME_RECORD_UNAVAILABLE: <:錯誤:1021889679857037372> 檢索您帳戶�
 HOYOLAB_ACCOUNT_ERROR: There was an error grabbing your account's information! Please try again *later*.
 HOYOLAB_ACCOUNT_MANAGE: 透過 Genshin Wizard 管理你的 HoYoLAB 帳號
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | 角色一覽
-CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /register!
+CHARACTER_SUMMARY_NOT_FULL: 您的角色摘要基於您的 gacha 拉取歷史記錄。要查看您完整且最準確的角色摘要(等級、友誼、星座和 AR 等級)，請使用命令 /register！
 GCG_NO_CARDS_FOUND: No Cards Found!
 GCG_NO_CARDS_FOUND_DESCRIPTION: 嘿旅行者！不幸的是，{member} **還沒有卡片**！在*使用此命令之前*在 Genshin Impact 上進入遊戲並玩一些 七星召喚。
 HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
@@ -480,7 +480,7 @@ IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Your history link has **expired**! Plea
 IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **excel** sheet from their [Wish Counter](https://paimon.moe/wish) page settings. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
 IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: This file type is **not supported**. Please make sure you're not *changing* the file type before trying to import. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
 LEADERBOARD_NO_DATA: No data found for this specific query!
-LEADERBOARD_EXPERIENCE_FOOTER: Experience can be gained by being active in the server. Chat more to increase your Genshin Wizard ranking level!
+LEADERBOARD_EXPERIENCE_FOOTER: 在服務器中活躍可以獲得經驗。多聊天以提高您的 Genshin Wizard 排名水平！
 LEADERBOARD_WISHES_FOOTER: 通過橫幅摘要和刷新命令更新願望。檢查您的橫幅以主動獲取更新的願望數！
 LEADERBOARD_PLAYTIME_FOOTER: 遊戲時間通過統計/info 命令更新，經常檢查您的統計/builds 以主動獲取更新的遊戲時間計數！
 LEADERBOARD_ACHIEVEMENTS_FOOTER: 成就通過統計/info 命令更新，經常檢查您的統計/builds以主動獲取更新的成就計數！
@@ -508,7 +508,7 @@ CURRENT_LEVEL_KEY: 當前等級
 TARGET_LEVEL_KEY: 目標等級
 REQUIRED_RESOURCES_KEY: Required Resources
 GENSHIN_WIZARD_USER_PROFILE: "{user} 的 Genshin Wizard 設定檔"
-PROFILE_SUMMARY_KEY: Profile Summary
+PROFILE_SUMMARY_KEY: 資料概要
 GENSHIN_WISH_STATS_KEY: Genshin Wish Stats
 PROFILE_COMMAND_FOOTER: 配置文件統計信息通過橫幅摘要和刷新命令進行更新。檢查您的橫幅以積極獲取更新的/profile
 GENERATE_IMAGE_COOLDOWN: 您生成圖像的速度太快了！請在 **{seconds}** 秒後再次嘗試使用此按鈕。
@@ -557,7 +557,7 @@ DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
 SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
 BIOGRAPHY_KEY: Bio
 BANNER_KEY: Banner
-ELEMENTAL_RESONANCE_KEY: Elemental Resonance
+ELEMENTAL_RESONANCE_KEY: 元素共振
 BUILDS_ART_STYLE_KEY: Builds Art Style
 ART_STYLE_KEY: Art Style
 FANART_KEY: 同人畫
@@ -602,7 +602,7 @@ TOP_ROLE_KEY: Top Role
 RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
 RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
 WISHES_WORTH_KEY: Wishes Worth
-OVERALL_SUMMARY_KEY: Overall Summary
+OVERALL_SUMMARY_KEY: 總結
 OVERALL_STATS_KEY: Overall Stats
 PERCENTAGE_KEY: Percentage
 TOTAL_WISHES_KEY: 總抽數
@@ -729,7 +729,7 @@ SUCCESSFULLY_LINKED_HOYOLAB: |
 
   Successfully synced your HoYoLAB account! You can now access the **HoYoLAB account menu** by using the command </hoyo:{command_id}>!
 REGISTRATION_FAILED: Registration Failed!
-REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> Registering your account was **unsuccessful**! Please try again or contact the [**support team**](https://discord.gg/genshinwizard) if the issue persists. This issue is typically caused by an invalid email/password combination.
+REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> 註冊您的帳戶**不成功**！如果問題仍然存在，請重試或聯繫 [**支援團隊**](https://discord.gg/genshinwizard)。此問題通常是由無效的電子郵件/密碼組合引起的。
 INVALID_HOYOLAB_EMAIL_PROMPT: Please enter a valid email address! You must use the email address you use to login to your **HoYoLAB** account.
 HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | HoYoLAB Registration
 HOYOLAB_REGISTRATION_DESCRIPTION: |
@@ -829,7 +829,7 @@ NOT_YET_UNLOCKED: Not Yet Unlocked!
 STATISTICS_COMMAND_FOOTER: "注意：統計數據可能會因為 HoYoLAB API 錯誤而顯示異常，我們無法避免這種情況的發生，請見諒。"
 CONGRATULATIONS_KEY: Congratulations!
 ABYSS_CONGRATULATE_MESSAGE: |
-  恭喜{user}完美*掃蕩*螺旋深淵！ <:螺旋深淵:1000079902596411482> <@&{role_id}> 指定角色 <a:check:956327345717907507>
+  恭喜{user}完美*掃蕩*螺旋深淵！ <:spiralabyss:1000079902596411482> <@&{role_id}> 指定角色 <a:check:956327345717907507>
 ABYSS_COMMAND_STATISTICS_CREDIT: 用户{name} 的螺旋深淵統計資料
 CURRENT_LUNAR_PHASE_DESCRIPTION: |
   **當前淵月**
@@ -1009,12 +1009,11 @@ PREMIUM_TIER_ONE_PERKS: |
   <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>16,000** Primogems everyday for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
   <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier1:1045526665335427183> Witch of Purple Rose** role.
 PREMIUM_TIER_TWO_PERKS: |
-  <:information:1034639378410115103> **Premium Perks: $10 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
-  <:blurplejoinarrow:932413900073369621> All previous tiers' benefits.
-  <:blurplejoinarrow:932413900073369621> The ability to select a server of your choice to gain Genshin Wizard Partner perks, no questions asked. This includes access to /abyss, /stats and automatic role integration for 36 star abyss clears and C6 characters (role integration dashboard).
-  <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>24,000** Primogems a day for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
-  <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier2:1045526666354643034> Astral Reflection** role.
+  <:information:1034639378410115103> **高級津貼：每月 10 美元的計劃**
+   **熱門！** 🔥 能夠為使用 </info:{info_id}> 生成的角色卡選擇自定義圖像。 <:blurplejoinarrow:932413900073369621> 所有先前等級的好處。 <:blurplejoinarrow:932413900073369621> 選擇您選擇的服務器以獲得 Genshin Wizard Partner 特權的能力，沒有任何問題。這包括訪問 36 個星深淵通關和 C6 角色的自動角色集成(角色集成儀表板)。
+   <:blurplejoinarrow:932413900073369621> 獎勵 **<:Primogem:951924423340994610>24,000** 使用 </commissions:{commissions_id}> 時，Genshin Wizard Wish Simulator 每天可獲得 Primogems。
+   <:blurplejoinarrow:932413900073369621> 獨家 **
+  <:gw_tier2:1045526666354643034> 星體反射** 角色。
 PREMIUM_TIER_THREE_PERKS: |
   <:information:1034639378410115103> **Premium Perks: $25 Monthly Plan**
   **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
@@ -1074,8 +1073,8 @@ GACHA_COMMAND_LINK_EXPIRED_FOOTER: "注意：請記住，由於您的願望歷�
 SOMETHING_WENT_WRONG: 出了問題！
 SOMETHING_WENT_WRONG_FOOTER: If this error persists, please contact a bot administrator!
 GACHA_NO_BANNER_WISHES: You have no wishes for {banner} banner!
-GACHA_SUMMARY_FOOTER: "Genshin Wish Summary for: {user}"
-GENSHIN_WISH_SUMMARY: Genshin Wish Summary
+GACHA_SUMMARY_FOOTER: "Genshin Wish 摘要：{user}"
+GENSHIN_WISH_SUMMARY: Genshin Wish 摘要
 SLASH_COMMAND_NEED_HELP: |
   <:澄清公告:1020402170127982712> **有問題嗎？不要害怕！**
    <:給你心心:952837574878199808>
@@ -1144,7 +1143,7 @@ CHESTS_KEY: Chests
 ACHIVEMENTS_KEY: Achievements
 CHARACTER_STATISTICS_KEY: Character Stats
 ARTIFACT_SUBSTAT_KEY: 聖遺物統計
-ABYSS_STATISTICS_KEY: Abyss Statistics
+ABYSS_STATISTICS_KEY: 深淵統計
 GACHA_SIMULATOR_KEY: Gacha Simulator
 ACTIVE_PLAYTIME_KEY: Active Playtime
 WISHES_KEY: Wishes
@@ -1170,7 +1169,7 @@ ALL_CHESTS_LABEL: "All Chests"
 STRONGEST_STRIKE_LABEL: "Strongest Strike"
 MOST_BURSTS_USED_LABEL: "Most Bursts Used"
 MOST_SKILLS_USED_LABEL: "Most Skills Used"
-MOST_DAMAGE_TAKEN_LABEL: "Most Damage Taken"
+MOST_DAMAGE_TAKEN_LABEL: "承受最多傷客"
 MOST_DEFEATS_LABEL: "Most Defeats"
 MAX_HP_LABEL: "Max HP"
 HP_LABEL: "HP"
@@ -1183,7 +1182,7 @@ CRIT_VALUE_LABEL: "CRIT Value"
 CRIT_RATE_LABEL: "CRIT Rate"
 CRIT_DMG_LABEL: "CRIT DMG"
 ENERGY_RECHARGE_LABEL: "Energy Recharge"
-ELEMENTAL_MASTERY_LABEL: "Elemental Mastery"
+ELEMENTAL_MASTERY_LABEL: "元素精通"
 TOTAL_WISHES_LABEL: "總抽數"
 PRIMOGEM_COUNT_LABEL: "Total Primogems"
 STARDUST_COUNT_LABEL: "Stardust Count"
@@ -1377,7 +1376,7 @@ HELP_PROFILE_WISH_COG_NAME: 祈願
 HELP_HOYOLAB_COG_NAME: HoYoLAB
 HELP_GUIDE_COG_NAME: 指南
 HELP_MISC_COG_NAME: 其他
-CHOOSE_ELEMENT_DROPDOWN: Choose an element...
+CHOOSE_ELEMENT_DROPDOWN: 選擇一個元素...
 CHOOSE_LANGUAGE_DROPDOWN: 選擇語言...
 CURRENT_LANGUAGE_KEY: 當前語言
 CROWDIN_KEY: Crowdin
@@ -1459,15 +1458,15 @@ FIVE_STAR_COUNT: "Five Stars: {five_star_count}"
 FOUR_STAR_COUNT: "Four Stars: {four_star_count}"
 GACHA_DATA_NOT_REAL: "*This data is not real."
 INVENTORY_KEY: Inventory
-CHARACTER_SUMMARY_KEY: Character Summary
-UNKNOWN_ADVENTURE_RANK: "Adventure Rank: N/A"
-ADVENTURE_RANK_VALUE: "Adventure Rank: {adventure_rank}"
+CHARACTER_SUMMARY_KEY: 人物概要
+UNKNOWN_ADVENTURE_RANK: "冒險等級：N/A"
+ADVENTURE_RANK_VALUE: "冒險等級:{adventure_rank}"
 SERVER_KEY_VALUE: "Server: {server}"
 UID_KEY_VALUE: "UID: {uid}"
 HOYO_API_LIMITATION: "*Data may be inaccurate due to HoYoLAB API limitations"
 CHECK_IN_GAME: "See in-game for the most accurate information"
 HOYO_COMMISSION_KEY: "Commissions:"
-HOYO_ADVENTURE_RANK_KEY: "Adventure Rank:"
+HOYO_ADVENTURE_RANK_KEY: "冒險等級:"
 HOYO_DAILY_BONUS_STATUS: "Daily Sign-In:"
 HOYO_RESIN_KEY: "Resin:"
 HOYO_TEAPOT_KEY: "Teapot:"
@@ -1486,7 +1485,7 @@ ANEMOCULUS_KEY: Anemoculus
 GEOCULUS_KEY: Geoculus
 ELECTROCULUS_KEY: Electroculus
 DENDROCULUS_KEY: Dendroculus
-TRUST_RANK_KEY: Trust Rank
+TRUST_RANK_KEY: 信任等級
 ADEPTAL_ENERGY_KEY: Adeptal Energy
 ITEMS_KEY: Items
 TOTAL_ISLANDS_KEY: Total Islands
@@ -1508,7 +1507,7 @@ WISH_LUCK_MORE: "Luckier than {rarity_percentile}% of Genshin Wizard Users."
 CURRENT_LUNAR_PHASE: 當前淵月
 PREVIOUS_LUNAR_PHASE: Previous Lunar Phase
 ABYSSAL_ARCHIVES: Abyssal Archives
-ELEMENTAL_SKILLS_CAST_LABEL: Elemental Skills Cast
+ELEMENTAL_SKILLS_CAST_LABEL: 元素爆發次數
 ELEMENTAL_BURSTS_UNLEASHED_LABEL: Elemental Bursts Unleashed
 STRONGEST_SINGLE_STRIKE_LABEL: Strongest Single Strike
 ACCOUNT_INFO_KEY: Account Info
@@ -1538,18 +1537,18 @@ CHARACTER_LEVEL_KEY: "Lv. {level}"
 CHAMBER_KEY_VALUE: "Chamber {chamber}"
 MORA_PREVIOUS: "Previous Month's Mora: {mora}"
 PRIMOGEM_PREVIOUS: "Previous Month's Primogems: {primogems}"
-SUMMARY_KEY: Summary
-DEEPEST_DESCENT: Deepest Descent
+SUMMARY_KEY: 摘要
+DEEPEST_DESCENT: 抵達最深
 BATTLES_FOUGHT: Battles Fought
-ABYSS_STARS_COLLECTED: Abyss Stars Collected
-ADVENTURE_RANK: Adventure Rank
-DAMAGE_BREAKDOWN: Damage Breakdown
+ABYSS_STARS_COLLECTED: 深淵星取得量
+ADVENTURE_RANK: 冒險等級
+DAMAGE_BREAKDOWN: 傷害分析
 MOST_USED_CHARACTERS: Most Used Characters
 ABYSS_IMAGE_TITLE: 螺旋深淵統計
 ABYSS_FLOOR_COMPLETION: 深淵樓層完成
 WORLD_LEVEL_KEY: World Level
 PROFILE_SHOWCASE_TITLE: Genshin Wizard Profile Showcase
-ADVENTURE_RANK_KEY: Adventure Rank
+ADVENTURE_RANK_KEY: 冒險等級
 HIDE_WEAPON_KEY: 隱藏武器詳情
 SHOW_WEAPON_KEY: 武器詳情
 ONGOING_KEY: Ongoing
