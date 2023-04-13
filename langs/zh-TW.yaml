@@ -90,8 +90,8 @@ MATH_COMMAND_RESULT: |
 RECENT_GENSHIN_EVENTS: 最近的原神活動
 SEND_CODES_COMMAND_TITLE: Genshin Wizard | 兌換碼
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***點擊下方按鈕即可兌換！***](https://genshin.hoyoverse.com/zh-tw/gift) 
-  <:澄清公告:1020402170127982712> **注意：**代碼很快就會過期，所以一定要盡快兌換！ 
+  <:blurplelink:1020155547187691600> [***點擊下方按鈕即可兌換！***](https://genshin.hoyoverse.com/zh-tw/gift)
+  <:澄清公告:1020402170127982712> **注意：**代碼很快就會過期，所以一定要盡快兌換！
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
 SEND_CODES_REDEEM_AUTOMATICALLY: 自動兌換
@@ -118,7 +118,7 @@ SUCCESSFUL_KEY: 成功了!
 ERROR_MISSING_PERMISSION: 你沒有權限來使用這個指令。
 EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | 專屬命令
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  嘿旅行者！你**不允許**在這裡使用這個命令，這個命令只能在服務器中使用！ 
+  嘿旅行者！你**不允許**在這裡使用這個命令，這個命令只能在服務器中使用！
 
   如果您想使用此命令，請考慮加入我們的[官方 Discord](https://discord.gg/genshinwizard)。
 ERROR_COMMAND_INVOKE: Make sure you're using the correct parameters for this command!
@@ -127,14 +127,14 @@ ERROR_PRIVACY_SETTING_DESCRIPTION: 嘿旅行者！不幸的是，您要搜索的
 ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | 持續更新！
 ERROR_ONGOING_UPDATE_DESCRIPTION: 嘿~旅行者！ Genshin Wizard 目前正在**進行維護**，此命令暫時已被*禁用*。請稍後再試*。
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  嘿旅行者！你**不允許**在這裡使用這個命令，這是一個 Genshin Wizard 服務器 {command_type}*獨占* 命令！ 
+  嘿旅行者！你**不允許**在這裡使用這個命令，這是一個 Genshin Wizard 服務器 {command_type}*獨占* 命令！
 
   如果您想使用此命令，請考慮加入我們的[官方 Discord](https://discord.gg/genshinwizard)。
 ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
 ERROR_PREMIUM_COMMAND_DESCRIPTION: 嘿旅行者！您**不允許**使用此命令，此命令僅適用於**高級訂閱者**。如果您想使用此功能，請考慮使用 </premium:{command_id}> 命令了解更多信息。
 ERROR_BLACKLISTED_TITLE: Genshin Wizard | Blacklisted
 ERROR_BLACKLISTED_DESCRIPTION: |
-  嘿旅行者！您已被**禁止**使用 Genshin Wizard！ 
+  嘿旅行者！您已被**禁止**使用 Genshin Wizard！
 
   如果您認為這是一個錯誤，請考慮加入我們的 [Official Discord](https://discord.gg/genshinwizard)
 ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Member Not Found
@@ -156,7 +156,7 @@ FEEDBACK_LOG_RESPONSE: |
   **Feedback:**```{feedback}```
 NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </register:{command_id}> to link your account.
 OLD_HOYOLAB_LINKED: |
-  你好旅行者！對於給您帶來的不便，我們深表歉意，但此功能是在您將 `HoYoLAB` 帳戶註冊到 Genshin Wizard **後**實施的。 
+  你好旅行者！對於給您帶來的不便，我們深表歉意，但此功能是在您將 `HoYoLAB` 帳戶註冊到 Genshin Wizard **後**實施的。
 
   為了使用此按鈕，您必須通過 </hoyo:{command_id}> 取消鏈接您的 HoYoLAB 帳戶，並通過通常的註冊命令**重新鏈接**。
 CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB 代碼兌換
@@ -284,9 +284,9 @@ REFRESHES_KEY: 更新時間
 INFO_COMMAND_CHARACTER_DETAILS: Character
 INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!
 INFO_COMMAND_CACHE_DESCRIPTION: |
-  **Genshin Wizard 緩存 **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475> 
+  **Genshin Wizard 緩存 **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
 
-  <:information:1034639378410115103> **什麼是緩存？** 
+  <:information:1034639378410115103> **什麼是緩存？**
   Genshin Wizard *自動* 構建緩存，因此您永遠不必擔心一遍又一遍地交換您的展示櫃！
 
    <:na:975828401900359711> **如果我想刪除舊版本怎麼辦？**
@@ -430,10 +430,10 @@ HOYOLAB_REGISTER_SCRIPT: |
   ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)```
 HOYOLAB_REGISTER_LOGIN_TITLE: Registration | Login Method
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
-  **如何將您的 HoYoLAB 帳戶與 Genshin Wizard 關聯** 
-  > **1.** 首先，選擇下方的“註冊”按鈕。 
-  > **2.** 在輸入字段中，輸入您的 HoYoLAB 帳戶登錄詳細信息，請記住使用您的 **電子郵件** 和密碼。 
-  > **3.** 成功輸入帳戶詳細信息後，請等待 Genshin Wizard 處理您的註冊請求，請記住，這可能需要一兩分鐘。 
+  **如何將您的 HoYoLAB 帳戶與 Genshin Wizard 關聯**
+  > **1.** 首先，選擇下方的“註冊”按鈕。
+  > **2.** 在輸入字段中，輸入您的 HoYoLAB 帳戶登錄詳細信息，請記住使用您的 **電子郵件** 和密碼。
+  > **3.** 成功輸入帳戶詳細信息後，請等待 Genshin Wizard 處理您的註冊請求，請記住，這可能需要一兩分鐘。
   > **4.** 最後，如果所有步驟都正確完成，您將通過 DM 收到一條**確認消息**，表明您的帳戶已成功關聯。 <:訊息:1021014187197083668> **注意：**此方法只是為了方便/QOL。如果您擔心您的賬戶安全，請改用腳本方式或其他註冊方式。
 HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
 ARE_YOU_SURE: Are you sure?
@@ -502,7 +502,7 @@ CALC_CHARACTER_INVALID_STARTING_LEVEL: 您需要指定一個有效的初始等�
 CALC_CHARACTER_INVALID_TARGET_LEVEL: 您需要指定一個有效的目標等級！
 CALC_CHARACTER_REQUIREMENT_SURPASSED: 角色已經**超出**預定的期望水平！
 CALC_CHARACTER_REQUIREMENT_MET: 角色已經**達到**預定的期望水平！
-CALC_CHARACTER_TITLE: Genshin Wizard | 角色計算器
+CALC_CHARACTER_TITLE: Genshin Wizard | 字符計算器
 CHARACTER_KEY: Character
 CURRENT_LEVEL_KEY: 當前等級
 TARGET_LEVEL_KEY: 目標等級
@@ -523,21 +523,21 @@ PRIVACY_SETTING_TITLE: Genshin Wizard Privacy Settings
 PRIVACY_SETTING_DESCRIPTION: Change your Genshin Wizard privacy settings here.
 PRIVACY_SETTING_KEY: Privacy Settings
 PRIVACY_SETTING_BRIEF: |
-  **UID 隱私：** {uid_privacy} 
-  **願望歷史隱私：** {wish_privacy} 
-  **統計數據隱私：** {stats_privacy} 
-  **深淵隱私：** {abyss_privacy} 
+  **UID 隱私：** {uid_privacy}
+  **願望歷史隱私：** {wish_privacy}
+  **統計數據隱私：** {stats_privacy}
+  **深淵隱私：** {abyss_privacy}
   **信息隱私：** {info_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **UID 隱私：** {uid_privacy} 
-  > *隱藏你的 UID，不讓它出現在任何地方* 
-  **願望歷史隱私：** {wish_privacy} 
-  > *隱藏您的願望歷史，不在任何地方顯示 (`/history`)* 
-  **統計數據隱私：** {stats_privacy} 
-  > *隱藏你的 Genshin Stats Progression 不顯示在任何地方 (`/stats`)* 
-  **深淵隱私：** {abyss_privacy} 
-  > *隱藏你的 Genshin Abyss Progression，不在任何地方顯示 (`/abyss`)* 
-  **信息隱私：** {info_privacy} 
+  **UID 隱私：** {uid_privacy}
+  > *隱藏你的 UID，不讓它出現在任何地方*
+  **願望歷史隱私：** {wish_privacy}
+  > *隱藏您的願望歷史，不在任何地方顯示 (`/history`)*
+  **統計數據隱私：** {stats_privacy}
+  > *隱藏你的 Genshin Stats Progression 不顯示在任何地方 (`/stats`)*
+  **深淵隱私：** {abyss_privacy}
+  > *隱藏你的 Genshin Abyss Progression，不在任何地方顯示 (`/abyss`)*
+  **信息隱私：** {info_privacy}
   > *隱藏您的展示構建信息以防止在任何地方出現 (`/info`)*
 ALL_KEY: 全部
 RESET_KEY: 重置
@@ -578,11 +578,11 @@ UPDATE_DATE_KEY: 更新時間：
 SETTING_COMMAND_REQUIRE_SLASH: You must use a **slash command** (</settings:{command_id}>) or access this via your profile.
 CURRENT_ABYSS_DESCRIPTION: |
   **當前淵月**
-  **開始時間：** <t:{timestamp_start}:F> 
+  **開始時間：** <t:{timestamp_start}:F>
   **結束時間：** <t:{timestamp_end}:F>
 PREVIOUS_ABYSS_DESCRIPTION: |
   **以前淵月**
-  **開始時間：** <t:{timestamp_start}:F> 
+  **開始時間：** <t:{timestamp_start}:F>
   **結束時間：** <t:{timestamp_end}:F>
 ABYSS_COMMAND_FOOTER: "注意：深淵數據可能顯示錯誤或缺少數據，如果是這種情況，請記住，深淵數據一般需要1-3個小時的時間來更新!"
 ABYSS_MISSING_DATA_FOOTER: "注意：此數據似乎缺少一些信息！這可能是因為此信息之前未存儲在數據庫中，或者數據尚未更新。"
@@ -782,7 +782,7 @@ RESIN_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whe
 REMINDER_AUTOMATIC_RESIN_SET: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your resin reaches the threshold set above!
 TEAPOT_AUTOMATIC_REMINDER_FOOTER: 設定自動提醒，以便在洞天寶錢完全回滿的時候能夠及時領取！
 PARAMETRIC_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your parametric transformer is ready to use!
-ERROR_NO_TRANSFORMER: 嘿旅行者！您還沒有獲得 **<:參數質變儀:1029984451670847568>參數質變儀** 呢！
+ERROR_NO_TRANSFORMER: 嘿旅行者！您還沒有獲得 **<:parametrictransformer:1029984451670847568>參數質變儀** 呢！
 REMINDERS_CLEARED_CONFIRMATION: Successfully **cleared** all your reminders!
 SPECIFIC_REMINDER_CLEARED: Successfully **cleared** all your {rmd_type} reminders!
 TEAPOT_ALREADY_SET: You **already** have a reminder set for teapot!
@@ -817,11 +817,11 @@ USER_TITLE: User {user}
 OVERVIEW_KEY: Overview
 GENERAL_OVERVIEW_KEY: General Overview
 GENERAL_OVERVIEW_SECTION: |
-  冒險等級：{adventure_rank} 
-  總成就：{achievement_number} 
-  總活躍天數：{playtime} 
-  角色：**{char_count}**/{total_char} 
-  螺旋深淵：{abyss} 
+  冒險等級：{adventure_rank}
+  總成就：{achievement_number}
+  總活躍天數：{playtime}
+  角色：**{char_count}**/{total_char}
+  螺旋深淵：{abyss}
   地區：{region}
 CHEST_PROGRESSION_KEY: 寶箱進度
 EXPLORATION_AND_OCULI: Exploration & Oculi
@@ -848,9 +848,9 @@ STARDUST_KEY: Stardust
 STARGLITTER_KEY: Starglitter
 GENSHIN_WIZARD_SHOP_TITLE: Genshin Wizard Shop
 GENSHIN_WIZARD_SHOP_DESCRIPTION: |
-  歡迎來到 Paimon 的特價商品！您可以在這裡購買有助於您旅途的物品。當前，您的 Genshin Wizard 庫存中有 <:首先:951924423340994610>**{primogems} 原石**。 
+  歡迎來到 Paimon 的特價商品！您可以在這裡購買有助於您旅途的物品。當前，您的 Genshin Wizard 庫存中有 <:首先:951924423340994610>**{primogems} 原石**。
   <:無主的星塵:951924423332626522> **星塵:** {stardust}
-  <:無主的星輝:951924423059980290> **星輝:** {starglitter} 
+  <:無主的星輝:951924423059980290> **星輝:** {starglitter}
   <:圖釘:949815085335986246> **__當前店鋪__ [ 價格 |物品 ]**
 SIMULATOR_NO_PRIMOGEMS: |
   <:Error:1021889679857037372> Hey Traveler, you don't have anymore **primogems** for today! You need at least <:Primogem:951924423340994610>**1,600** primogems to do *another* ten pull. To view your current balance, use the **</balance:{balance_id}>** command.
@@ -881,10 +881,10 @@ COMMISSION_COMPLETE_MESSAGE: |
   You have been rewarded with **16,000 Primogems** <:Primogem:951924423340994610>
 PRIVATE_MESSAGE_KEY: Private Message
 SIMULATOR_BALANCE_MESSAGE: |
-  <:blurpleannouncement:1020402170127982712> **注意：**您每天只能**一次**領取每日獎勵。 
+  <:blurpleannouncement:1020402170127982712> **注意：**您每天只能**一次**領取每日獎勵。
 
   **__當前餘額__**
-   <:MasterlessStardust:951924423332626522> **星塵:** {stardust}<:MasterlessStarglitter:951924423059980290> **星輝** {starglitter} 
+   <:MasterlessStardust:951924423332626522> **星塵:** {stardust}<:MasterlessStarglitter:951924423059980290> **星輝** {starglitter}
   <:Primogem:951924423340994610> **原石:** {primogems}
 SIMULATOR_RESET_INVENTORY: Are you sure you wish to reset your inventory? This action will get rid of all your obtained characters through the wishsimulator commands and is **irreversible**!
 SIMULATOR_STARDUST_SHOP_OPTIONS: |
@@ -928,9 +928,9 @@ WEAPON_ASCENSION_OVERVIEW: Weapon Ascension Material Overview
 REFERENCE_SHEET_GUIDE_FOOTER: "Reference Sheet Overview"
 REFERENCE_SHEET_GUIDE_TITLE: Available Reference Sheets
 EVENT_BANNER_DAILY: |
-  ☑️ 簽到**[Hoyolab](https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481&lang=zh-tw)** 🔗 現在(或使用`/daily`) 
-  ☑️每日委託，樹脂檢查 
-  ☑️日常礦石鍛造和開採 
+  ☑️ 簽到**[Hoyolab](https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481&lang=zh-tw)** 🔗 現在(或使用`/daily`)
+  ☑️每日委託，樹脂檢查
+  ☑️日常礦石鍛造和開採
   ☑️ 塵歌壺：家具、硬幣和植物
 EVENT_BANNER_WEEKLY: |
   ☑️ Parametric Transformer
@@ -1061,7 +1061,7 @@ HELP_COMMAND_TITLE: Genshin Wizard | {category} 命令
 HELP_COMMAND_FOOTER: Genshin Wizard | {category} 指令總覽
 NO_DESCRIPTION: No description provided.
 ROLE_REQUIREMENTS_NOT_MET: |
-  你的角色都不符合任何**角色要求**！ 
+  你的角色都不符合任何**角色要求**！
 
   請稍後在您的角色滿足必要的**要求**或更新您的*遊戲內展示*中的角色時嘗試使用此命令。
 SUCCESSFULLY_ADDED_ROLE: Successfully added {role} role to user!
@@ -1078,11 +1078,11 @@ GACHA_SUMMARY_FOOTER: "Genshin Wish Summary for: {user}"
 GENSHIN_WISH_SUMMARY: Genshin Wish Summary
 SLASH_COMMAND_NEED_HELP: |
   <:澄清公告:1020402170127982712> **有問題嗎？不要害怕！**
-   <:給你心心:952837574878199808> 
+   <:給你心心:952837574878199808>
 
-  您好旅行者，您似乎在使用 **斜杠命令** 時遇到困難！ 
+  您好旅行者，您似乎在使用 **斜杠命令** 時遇到困難！
 
-  請記住 **__click__** 您要使用的命令，並記住您 **不必** 將自己的名字作為參數傳遞！ 
+  請記住 **__click__** 您要使用的命令，並記住您 **不必** 將自己的名字作為參數傳遞！
 
   <a:7094whitecheck:1020160260637462618> 祝旅途愉快， 你的派蒙
 SLASH_COMMAND_HELP_GUIDE: <:誠實的目光:939225784936202241> 對於**幫助**，使用</help:982685016012226590> 命令！
