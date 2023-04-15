@@ -189,7 +189,7 @@ APP_COMMAND_CALC_DESCRIPTION: 計算給定角色所需的提升材料。
 APP_COMMAND_BANNER_DESCRIPTION: 更改 Genshin Wizard 個人資料的橫幅背景
 APP_COMMAND_PROFILE_DESCRIPTION: 檢視 Genshin Wizard 個人設定檔
 APP_COMMAND_SETTINGS_DESCRIPTION: 更改 Genshin Wizard 設定檔
-APP_COMMAND_STATS_DESCRIPTION: View your Genshin account's statistics.
+APP_COMMAND_STATS_DESCRIPTION: 查看您的原神帳戶的統計信息。
 APP_COMMAND_ABYSS_DESCRIPTION: 顯示原神帳號的深境螺旋進度
 APP_COMMAND_EXPLORATION_DESCRIPTION: 檢視您的地圖探索度
 APP_COMMAND_UID_DESCRIPTION: 查詢使用者的原神 UID / 區域
@@ -204,7 +204,7 @@ APP_COMMAND_INVENTORY_DESCRIPTION: 檢視 Genshin Wizard 虛擬背包裡的物�
 APP_COMMAND_SHOP_DESCRIPTION: 檢視 Genshin Wizard 的商店
 APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: 檢視 Genshin Wizard 內的角色列表
 APP_COMMAND_COMMISSIONS_DESCRIPTION: 領取 Genshin Wizard 內的每日獎勵
-APP_COMMAND_BALANCE_DESCRIPTION: View your Genshin Wizard account's balance.
+APP_COMMAND_BALANCE_DESCRIPTION: 查看您的 Genshin Wizard 帳戶餘額。
 APP_COMMAND_EDIT_DESCRIPTION: 編輯 genshin wizard's 的角色詳細信息數據庫。
 APP_COMMAND_EDIT_ADD_DESCRIPTION: Add a new build for a specific character.
 APP_COMMAND_DESCRIBE_EDIT_ADD_CHARACTER: The name of the character you want to add a build for.
@@ -369,10 +369,10 @@ HISTORY_COMMAND_NO_WISHES: |
   No wishes were found for this search!
   Try selecting a different banner to check below.
 HISTORY_COMMAND_NO_USER_WISHES: No wishes were found for this user!
-USER_NOT_REGISTERED_TITLE: User has not registered!
+USER_NOT_REGISTERED_TITLE: 使用者未註冊!
 REGISTERED_KEY: Registered
 NOT_REGISTERED_KEY: 尚未註冊
-USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** yet! Please register using </register:{command_id}> *before* using this command.
+USER_NOT_REGISTERED_DESCRIPTION: 不幸的是，<@{mem_id}> 還**沒有註冊**！請在使用此命令之前使用 </register:{command_id}> *註冊。
 FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."
 FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Note: This command requires you to register through the Wish History or HoYoLAB method."
 FOOTER_REQUIRE_UID_OR_HOYOLAB: "Note: This command requires you to register through the UID or HoYoLAB method."
@@ -435,7 +435,7 @@ HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
   > **2.** 在輸入字段中，輸入您的 HoYoLAB 帳戶登錄詳細信息，請記住使用您的 **電子郵件** 和密碼。
   > **3.** 成功輸入帳戶詳細信息後，請等待 Genshin Wizard 處理您的註冊請求，請記住，這可能需要一兩分鐘。
   > **4.** 最後，如果所有步驟都正確完成，您將通過 DM 收到一條**確認消息**，表明您的帳戶已成功關聯。 <:訊息:1021014187197083668> **注意：**此方法只是為了方便/QOL。如果您擔心您的賬戶安全，請改用腳本方式或其他註冊方式。
-HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
+HOYOLAB_REGISTER_LOGIN_FOOTER: 友情提醒，Genshin Wizard 不會存儲您的任何帳戶詳細信息！此註冊方法檢索查看您的帳戶統計信息所需的必要 cookie。
 ARE_YOU_SURE: Are you sure?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
   你已經要求 Genshin Wizard 解除連結 HoYoLAB 帳號
@@ -463,7 +463,7 @@ IMPORT_COMMAND_FILE_DETECTED: |
   *Please wait while we import your wish history...*
 IMPORT_COMMAND_TAMPERED: The data you are trying to import has been **tampered** with. Please **don't change** anything within the files before importing, try redownloading the data and importing *again*.
 IMPORT_COMMAND_BANNER_IMPORTED: Successfully imported `{number_wishes}` wishes for {banner_name} banner!
-IMPORT_COMMAND_SUCCESS: Successfully imported `{total_wishes}` new wishes from all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
+IMPORT_COMMAND_SUCCESS: 已成功導入所有卡池的`{total_wishes}`新的祈願記錄！您現在可以使用 </history:{command_id}> 命令來查看更多有關您的祈願歷史的信息。
 IMPORT_COMMAND_LOG: |
   **User:** {user} | `{user_id}`
   **Name:** `{name}`
@@ -635,33 +635,30 @@ REGISTER_COMMAND_ANDROID_DIRECTIONS: |
 
   We are currently looking for a way to retrieve the history link on Android devices. Please check back later.
 REGISTER_COMMAND_IOS_DIRECTIONS: |
-  Check out Kaizer's [Stream App Guide](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) for detailed steps with pictures.
-
-  1. Open Genshin Impact and go to the Wish screen
-  2. While Genshin Impact is still open, go to Stream app and tap Sniff Now
-  3. Go back to Genshin Impact and open you wish history
-  4. When your wish list is loaded go back to Stream app and tap Stop sniffing
-  5. Then tap on Sniff History and choose the first item in the list
-  6. Tap the request starting by `GET https://hk4e-api-os/...`
-  7. Tap the request tab
-  8. Tap the long text starting by `GET /event/gacha_info...`
-  9. Finally, tap Copy Url
-  10. Click the button below and paste the link in the input field.
+  查看 Kaizer 的 [Stream App Guide](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) 以了解帶有圖片的詳細步驟。 
+  1.打開原神並轉到Wish屏幕 
+  2. 當 原神 仍然打開時，轉到 Stream 應用程序並點擊立即嗅探 
+  3.返回原神並打開你想要的歷史 
+  4. 加載願望清單後，返回 Stream 應用並點擊停止嗅探 
+  5. 然後點擊 祈願歷史 並選擇列表中的第一項 
+  6. 點擊以“GET https://hk4e-api-os/...”開頭的請求 
+  7. 點擊請求選項卡 
+  8. 點擊以 `GET /event/gacha_info...` 開頭的長文本 
+  9. 最後，點擊複製網址 
+  10. 單擊下面的按鈕並將鏈接粘貼到輸入字段中。
 RESELECT_PLATFORM_KEY: Re-Select Platform
 REGISTER_COMMAND_CONSOLE_DIRECTIONS: Following the 2.3 update event links don't work anymore. This being said, it is still possible to obtain the key by linking your Playstation account with a Mihoyo account and using the pc/mobile method instead.
 REGISTER_COMMAND_PLATFORM_SELECTION: Which platform do you use to play Genshin Impact?
 REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | Wish History Registration
 REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
-  Welcome to Genshin Wizard's Registration system.
+  **鏈接功能：** 
+  > **1.** 跟踪您的願望歷史記錄。 
+  > **2.** 查看深入的願望歷史統計數據以及您的橫幅遺憾。 
+  > **3.** 查看您是否在保證的有限憐憫範圍內。 
+  > **4.** 完整的 Genshin Wizard 配置文件功能。 
+  > **5.** 訪問所有可通過 [**Linking UID**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-登記)。
 
-  **Linking Features:**
-  > **1.** Keep track of your wish history.
-  > **2.** View in-depth wish history statistics along with your banner pities.
-  > **3.** View whether you're on your gauranteed limited pity or not.
-  > **4.** Full Genshin Wizard profile capabilities.
-  > **5.** Access to all commands that are accessible by [**Linking UID**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-registration).
-
-  Which platform do you use to play Genshin Impact?
+  您使用哪個平台玩 原神？
 ERROR_INVALID_UID: Please provide a valid UID to link your Genshin account to your Discord account.
 ERROR_INVALID_REGISTRATION_URL: Hey Traveler, this is an **invalid link!** Make sure you followed the steps correctly and try again.
 ERROR_UNEXPECTED_ERROR: An unexpected error has occurred. Please report this to staff!
@@ -672,7 +669,7 @@ REFRESHING_USER: Refreshing user...
 REGISTERING_USER: Registering user...
 RETRIEIVING_WISH_HISTORY: Retrieving your wish history...
 REGISTER_BANNER_SYNCED: Successfully synced {banner_name} banner!
-REGISTER_BANNED_SYNC_COMPLETE: Successfully synced all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
+REGISTER_BANNED_SYNC_COMPLETE: 成功同步所有卡池的祈願記錄！您現在可以使用 </history:{command_id}> 命令來查看更多有關您的祈願歷史的信息。
 SUCCESSFULLY_REGISTERED: 成功註冊！
 SUCCESSFULLY_REFRESHED: Successfully Refreshed!
 SUCCESSFULLY_UPDATED_UID: |
@@ -1212,7 +1209,7 @@ UPDATE_BIO_MODAL_LABEL: 關於你的簡短描述。 (200 字符)
 UPDATE_BIO_MODAL_PLACEHOLDER: 嘿！咱叫 Lumine，這裡有一些關於咱的有趣事情……
 SELECT_CHOOSE_CATEGORY: 選擇分類...
 PROFILE_KEY: 設定檔
-PROFILE_DESCRIPTION: View your Genshin Wizard profile
+PROFILE_DESCRIPTION: 查看您的 Genshin Wizard 個人設定
 GENSHIN_STATISTICS_KEY: Genshin Stats
 GENSHIN_STATISTICS_DESCRIPTION: View your Genshin stats
 SPIRAL_ABYSS_STATISTICS_KEY: Spiral Abyss Stats
@@ -1565,3 +1562,4 @@ DEFAULT_ASCENSION_DESCRIPTION: Information regarding this character's ascension 
 READY_TO_CLAIM: Ready to Claim
 STATUS_KEY: Status
 TIME_LEFT_KEY: Time Left
+TEAM_SYNERGY_TITLE: Team Synergies & Compositions
