@@ -904,9 +904,9 @@ SIMULATOR_BALANCE_MESSAGE: |
   <:Primogem:951924423340994610> **원석:** {primogems}
 SIMULATOR_RESET_INVENTORY: 인벤토리를 재설정하시겠습니까? 이 작업은 기원시뮬레이터의 명령을 통해 획득한 모든 캐릭터를 제거하며 **다시복구할수 없습니다**!
 SIMULATOR_STARDUST_SHOP_OPTIONS: |
-  **<:마스터리스스타더스트:951924423332626522> 75 | 160개의 원석 <:Primogem:951924423340994610>**
-  **<:마스터리스스타더스트:951924423332626522> 750 | 1600개의 원석 <:Primogem:951924423340994610>**
-  **<:마스터리스스타더스트:951924423332626522> 7500 | 16000개의 원석 <:Primogem:951924423340994610>**
+  **<:MasterlessStardust:951924423332626522> 75 | 160개의 원석 <:Primogem:951924423340994610>**
+  **<:MasterlessStardust:951924423332626522> 750 | 1600개의 원석 <:Primogem:951924423340994610>**
+  **<:MasterlessStardust:951924423332626522> 7500 | 16000개의 원석 <:Primogem:951924423340994610>**
 SIMULATOR_STARGLITTER_SHOP_OPTIONS: |
   **<:MasterlessStarglitter:951924423059980290> 5 | 160개의 원석 <:Primogem:951924423340994610>**
   **<:MasterlessStarglitter:951924423059980290> 50 | 1600개의 원석 <:Primogem:951924423340994610>**
@@ -1428,7 +1428,7 @@ HISTORY_COMMAND_OVERVIEW_TITLE: Genshin Wizard | 기원 기록 개요
 ABYSS_ENEMY_FLOOR_VIEW: 층 보기
 ABYSS_ENEMY_CHAMBER_VIEW: 방 보기
 ABYSS_ENEMY_FLOOR_OVERVIEW: "일정: {floor_index} 층 보기"
-ABYSS_ENEMY_INFORMATION_BUTTON: 여행자, 미안! 이 정보는 나선 비경이 시작할 때 생성돼. 불편하겠지만 참아줘!
+ABYSS_ENEMY_INFORMATION_BUTTON: Hello Traveler, as inconveniencing as it may be, I am **__unable__** to display information regarding **specific enemy counts**. This is due to the fact that this information is generated when *starting* the challenge. I apologize for any inconvenience this may cause.
 ABYSS_ENEMY_INFORMATION_BUTTON_LABEL: 적 수
 APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: 캐릭터 전적 전시 설정을 바꾸세요.
 VIEW_ON_HOYOLAB: 호요랩에서 확인하세요
@@ -1552,7 +1552,7 @@ FRIENDSHIP_LEVEL_KEY: "호감도 Lv. {friendship_level}"
 ARTIST_CREDIT_STRING: 이미지 출처
 CUSTOM_ARTWORK_STRING: 사용자 지정 이미지
 CHARACTER_LEVEL_KEY: "Lv. {level}"
-CHAMBER_KEY_VALUE: "방: {chamber}"
+CHAMBER_KEY_VALUE: "{chamber} 번방"
 MORA_PREVIOUS: "지난 달 획득 모라: {mora}"
 PRIMOGEM_PREVIOUS: "지난 달 획득 원석: {primogems}"
 SUMMARY_KEY: 개요
@@ -1572,3 +1572,11 @@ SHOW_WEAPON_KEY: 무기 정보 표시
 ONGOING_KEY: 진행중...
 FINISHED_KEY: 완성!
 VENTURA_ART_SETTING: 수평 카드 레이아웃
+TITLE_KEY: Title
+AFFILIATION_KEY: Affiliation
+ELEMENT_KEY: Element Type
+CONSTELLATION_KEY: Constellation
+WEAPON_TYPE_KEY: Weapon Type
+RARITY_KEY: Rarity
+CHARACTER_GUIDE_FOOTER: "Character Guide • {guide_type}: {character_name}"
+DEFAULT_ASCENSION_DESCRIPTION: Information regarding this character's ascension information.
