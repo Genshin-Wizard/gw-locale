@@ -515,82 +515,82 @@ REQUIRED_RESOURCES_KEY: Required Resources
 GENSHIN_WIZARD_USER_PROFILE: "{user}'s Genshin Wizard Profile"
 PROFILE_SUMMARY_KEY: Profile Summary
 GENSHIN_WISH_STATS_KEY: 原神祈愿数据
-PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
-GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
-GENSHIN_STATISTICS_INFOGRAPHIC: Genshin Statistics Infographic
-GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin stats/progression infographic that you requested!
-HIDDEN_KEY: Hidden
-REQUESTED_UID_KEY: Requested UID
-GENSHIN_EXPLORATION_INFOGRAPHIC: Genshin Exploration Progression
+PROFILE_COMMAND_FOOTER: 个人资料信息是通过横幅概述和刷新指令来更新。请检查横幅以积极过去更新后的/profile。
+GENERATE_IMAGE_COOLDOWN: 生成图像太快了！请在**{seconds}**秒后再次使用该摁钮。
+GENSHIN_STATISTICS_INFOGRAPHIC: 原神统计信息
+GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: 你好，旅行者！这是你所要求的**独特**生成的原神状态/进展状态图。
+HIDDEN_KEY: 隐藏
+REQUESTED_UID_KEY: 请求的UID
+GENSHIN_EXPLORATION_INFOGRAPHIC: 原神探索度
 GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin exploration infographic that you requested!
-PROFILE_NOT_OWNER: You can't use this button on someone else's profile!
-PRIVACY_SETTING_TITLE: Genshin Wizard Privacy Settings
-PRIVACY_SETTING_DESCRIPTION: Change your Genshin Wizard privacy settings here.
-PRIVACY_SETTING_KEY: Privacy Settings
+PROFILE_NOT_OWNER: 你不能在别人的个人资料上使用该按钮。
+PRIVACY_SETTING_TITLE: Genshin Wizard隐私设置
+PRIVACY_SETTING_DESCRIPTION: 在这里更改你的Genshin Wizard 隐私设置
+PRIVACY_SETTING_KEY: 隐私设置
 PRIVACY_SETTING_BRIEF: |
-  **UID Privacy:** {uid_privacy}
-  **Wish History Privacy:** {wish_privacy}
-  **Stats Privacy:** {stats_privacy}
-  **Abyss Privacy:** {abyss_privacy}
-  **Info Privacy:** {info_privacy}
+  **UID隐私**：** {uid_privacy}
+  **祈愿记录隐私**：** {wish_privacy}
+  **统计数据隐私：** {stats_privacy}
+  **深渊螺旋隐私：** {abyss_privacy}
+  **个人信息隐私：** {info_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **UID Privacy:** {uid_privacy}
-  > *Hide your UID from showing up anywhere*
-  **Wish History Privacy:** {wish_privacy}
-  > *Hide your Wish History from showing up anywhere (`/history`)*
-  **Stats Privacy:** {stats_privacy}
-  > *Hide your Genshin Stats Progression from showing up anywhere (`/stats`)*
-  **Abyss Privacy:** {abyss_privacy}
-  > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
-  **Info Privacy:** {info_privacy}
-  > *Hide your showcase builds information from showing up anywhere (`/info`)*
-ALL_KEY: All
-RESET_KEY: Reset
+  **UID隐私：** {uid_privacy}
+  > *不让UID在任何地方显示*
+  **祈愿记录隐私：** {wish_privacy}
+  > *不让你的祈愿记录在任何地方显示(`/history`)*
+  **原神进展隐私** {stats_privacy}
+  > *不让你的原神进展在任何地方显示 (`/stats`)*
+  **深渊隐私：** {abyss_privacy}
+  > *不让你的原神深境螺旋进展在任何地方显示 (`/abyss`)*
+  **个人信息隐私:** {info_privacy}
+  > *不让你的角色展示柜信息对外公开 (`/info`)*
+ALL_KEY: 全部
+RESET_KEY: 重置
 WISH_HISTORY_KEY: Wish History
-ABYSS_KEY: Abyss
+ABYSS_KEY: 深渊
 UID_KEY: UID
-STATS_KEY: Stats
-INFO_KEY: Info
-SETTING_RESET_PRIVACY: Successfully reset privacy settings to default setting!
-SETTING_PRIVACY_UPDATED: "{privacy_type} privacy settings have been updated! Current Privacy: {current_privacy}"
-SETTING_ART_STYLE_UPDATED: "Character builds Art Styles have been updated! Current Art Style: {current_setting}"
-SETTING_MASTER_PROFILE_RESET: Your Genshin Wizard profile has been reset to default settings!
-INVALID_IMAGE_URL: "Please provide a **valid** image URL. Acceptable image types include: `PNGs`, `JPGs`, `JPEGs`, and `GIFs`."
-SETTING_BANNER_UPDATE: Your banner has been successfully updated!
-SETTING_BIOGRAPHY_ILLEGAL: Hey Traveler! Your input contains words that **aren't allowed** by Genshin Wizard! Please consider trying something *different* for your bio.
-DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
-SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
-BIOGRAPHY_KEY: Bio
-BANNER_KEY: Banner
-ELEMENTAL_RESONANCE_KEY: Elemental Resonance
-BUILDS_ART_STYLE_KEY: Builds Art Style
-ART_STYLE_KEY: Art Style
-FANART_KEY: Fanart
-OFFICIAL_ART_KEY: Official Art
+STATS_KEY: 原神进展
+INFO_KEY: 个人信息
+SETTING_RESET_PRIVACY: 成功重置隐私设置为默认设置！
+SETTING_PRIVACY_UPDATED: "{privacy_type} 隐私设置已更新! 当前隐私状态: {current_privacy}"
+SETTING_ART_STYLE_UPDATED: "角色展像艺术风格已更新！当前艺术风格：{current_setting}"
+SETTING_MASTER_PROFILE_RESET: 你的Genshin Wizard 个人资料已重置为默认设置！
+INVALID_IMAGE_URL: "请提供**有效** 的图像URL。可接受的图像类型包括：`PNG`、`JPG`、`JPEG`和`GIF`。"
+SETTING_BANNER_UPDATE: 你的横幅已成功更新！
+SETTING_BIOGRAPHY_ILLEGAL: 嘿，旅行者！你的输入字符包含了Genshin Wizard**不允许**的字符！请考虑为你的个性签名输入**不包含Genshin Wizard不允许**的字符。
+DEFAULT_BIOGRAPHY: 一位喜爱探险的旅行者！
+SETTING_BIOGRAPHY_UPDATED: 你的个性签名已成功更新！
+BIOGRAPHY_KEY: 个性签名
+BANNER_KEY: 角色画像
+ELEMENTAL_RESONANCE_KEY: 元素共鸣
+BUILDS_ART_STYLE_KEY: 构建艺术样式
+ART_STYLE_KEY: 艺术样式
+FANART_KEY: 同人画
+OFFICIAL_ART_KEY: 官方画
 GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
-  Change your Genshin Wizard profile settings here.
+  在这里更改你的Genshin Wizard个人资料设定
 
-  **Profile Summary**
-GENSHIN_WIZARD_PROFILE_TITLE: Genshin Wizard Profile Settings
+  **个人资料概览**
+GENSHIN_WIZARD_PROFILE_TITLE: Genshin Wizard 个人资料设置
 MISSING_REGISTRATION_INSTRUCTIONS: |
-  Please register using one of:
+  请选择一种方式注册:
   **1.)** </register:{command_id}>
-  **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
-MISSING_IMAGE: Please provide an image or a link to an image to update your banner
-PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Profile Banner Link Updated
-IMAGE_LINK_KEY: Image Link
-UPDATE_DATE_KEY: Update Date
-SETTING_COMMAND_REQUIRE_SLASH: You must use a **slash command** (</settings:{command_id}>) or access this via your profile.
+  **2.)** 通过用户的/UID。示例：`/info [discord-user]/[genshin-uid]`
+MISSING_IMAGE: 请提供图片或图片链接以更新你的角色画像
+PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | 配置角色画像链接已更新。
+IMAGE_LINK_KEY: 图像链接
+UPDATE_DATE_KEY: 更新日期
+SETTING_COMMAND_REQUIRE_SLASH: 你必须使用 **斜杠指令** (</settings:{command_id}>) 或者这个来访问你的个人资料。
 CURRENT_ABYSS_DESCRIPTION: |
-  **Current Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  **当前渊月**
+  **开始时间：** <t:{timestamp_start}:F>
+  **结束时间：** <t:{timestamp_end}:F>
 PREVIOUS_ABYSS_DESCRIPTION: |
-  **Previous Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
-ABYSS_COMMAND_FOOTER: "Note: Abyss data may be incorrectly shown or missing data, if this is the case, do keep in mind that abyss data can generally take anywhere from 1-3 hours to update!"
-ABYSS_MISSING_DATA_FOOTER: "Note: This data seems to be missing some information! This is likely due to this information not being stored in the database previously, or the data not being updated yet."
+  **当前渊月**
+  **开始时间：** <t:{timestamp_start}:F>
+  **结束时间：** <t:{timestamp_end}:F>
+ABYSS_COMMAND_FOOTER: "注： 深渊数据可能显示不正确或者已丢失，如果是那样的话，记住深渊数据更新一般需要1-3个小时。"
+ABYSS_MISSING_DATA_FOOTER: "注意：此数据似乎缺少一些信息！ 这可能是由于以前没有将此信息存储在数据库中，或者数据尚未更新。"
 ABYSSAL_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Abyssal Archives**
   **Start Time:** <t:{timestamp_start}:F>
@@ -686,13 +686,13 @@ SUCCESSFULLY_UPDATED_UID: |
 
   Refer to </help:{command_id}> for more information.
 SUCCESSFULLY_REGISTERED_RESPONSE: |
-  Hey Traveler! Congratulations, your account was **successfully** registered!
+  嘿，旅行者！恭喜您的账户已注册**成功**！
 
-  You can now access several new gacha-related command within Genshin Wizard and more! For more information, check out the </help:{command_id}> command or visit our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/commands)!
-GENSHIN_WIZARD_REGISTRATION: Genshin Wizard Registration
-UNLINK_GENSHIN_ACCOUNT: Unlink Genshin Account
-UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Unlink your Genshin Impact account completely from Genshin Wizard. This will erase all your data from Genshin Wizard, including your wish history, wish statistics, and more. This action is **irreversible**. Are you sure you want to continue?
-UNLINK_HOYOLAB_ACCOUNT: Unlink HoYoLAB Account
+  您现在可以在Genshin Wizard中访问几个新的与gacha有关的命令！ 想要了解更多信息，请查阅 </help:{command_id}> 指令或访问我们的 [**文档**](https://docs.genshinwizard.com/wishing-centre/commands)!
+GENSHIN_WIZARD_REGISTRATION: Genshin Wizard注册
+UNLINK_GENSHIN_ACCOUNT: 解绑原神账号
+UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: 完全从Genshin Wizard解绑你的原神账号。这将会从Genshin Wizard中清除你的所有数据，包括祈愿记录，祈愿统计等等。此操作**不可逆**。你确定要继续吗？
+UNLINK_HOYOLAB_ACCOUNT: 解绑 HoYoLAB 账号
 UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Unlink your HoYoLAB account from Genshin Wizard; Will not unlink your linked UID from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
 PURGE_WISH_HISTORY: Purge Wish History
 PURGE_WISH_HISTORY_DESCRIPTION: Purge only your wish history from Genshin Wizard, your Genshin account will still be linked to Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
@@ -702,7 +702,7 @@ UNLINK_EVERYTHING_DESCRIPTION: This method will unlink everything from Genshin W
 UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data from Genshin Wizard!
 UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If you believe for this to be an error, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
-GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Registration
+GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard注册
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Register your Genshin account to Genshin Wizard.
 HOYOLAB_ACCOUNT: HoYoLAB Account
 LINKED_UID_KEY: Linked UID
