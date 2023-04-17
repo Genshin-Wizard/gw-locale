@@ -291,7 +291,7 @@ INFO_COMMAND_CACHE_DESCRIPTION: |
    <:na:975828401900359711> **如果我想刪除舊版本怎麼辦？**
   不要害怕！您將能夠直接從此消息管理您的構建緩存！使用下面的 UI 從您的 Genshin Wizard 緩存中刪除特定字符或全部。
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard 自定義聖遺物功能**
+  <:信息:1034639378410115103> **Genshin Wizard 自定義聖遺物功能**
   嗨~旅行者，您似乎正在嘗試使用 Genshin Wizard 的 **定製聖遺物** 功能！此功能僅適用於 Genshin Wizard 進階 用戶。 您可以使用 </premium:{command_id}> 命令或訪問我們的 [**贊助人**](https://patreon.com/genshinwizard) 了解有關 Genshin Wizard 進階 的更多信息！
 PURCHASE_PREMIUM: Purchase Premium
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: 嘿旅行者，您只能管理您**自己的角色**的自定義聖遺物！
@@ -632,27 +632,27 @@ REGISTER_COMMAND_ANDROID_DIRECTIONS: |
 
   We are currently looking for a way to retrieve the history link on Android devices. Please check back later.
 REGISTER_COMMAND_IOS_DIRECTIONS: |
-  查看 Kaizer 的 [Stream App Guide](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) 以了解帶有圖片的詳細步驟。 
-  1.打開原神並轉到Wish屏幕 
-  2. 當 原神 仍然打開時，轉到 Stream 應用程序並點擊立即嗅探 
-  3.返回原神並打開你想要的歷史 
-  4. 加載願望清單後，返回 Stream 應用並點擊停止嗅探 
-  5. 然後點擊 祈願歷史 並選擇列表中的第一項 
-  6. 點擊以“GET https://hk4e-api-os/...”開頭的請求 
-  7. 點擊請求選項卡 
-  8. 點擊以 `GET /event/gacha_info...` 開頭的長文本 
-  9. 最後，點擊複製網址 
+  查看 Kaizer 的 [Stream App Guide](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) 以了解帶有圖片的詳細步驟。
+  1.打開原神並轉到Wish屏幕
+  2. 當 原神 仍然打開時，轉到 Stream 應用程序並點擊立即嗅探
+  3.返回原神並打開你想要的歷史
+  4. 加載願望清單後，返回 Stream 應用並點擊停止嗅探
+  5. 然後點擊 祈願歷史 並選擇列表中的第一項
+  6. 點擊以“GET https://hk4e-api-os/...”開頭的請求
+  7. 點擊請求選項卡
+  8. 點擊以 `GET /event/gacha_info...` 開頭的長文本
+  9. 最後，點擊複製網址
   10. 單擊下面的按鈕並將鏈接粘貼到輸入字段中。
 RESELECT_PLATFORM_KEY: Re-Select Platform
 REGISTER_COMMAND_CONSOLE_DIRECTIONS: Following the 2.3 update event links don't work anymore. This being said, it is still possible to obtain the key by linking your Playstation account with a Mihoyo account and using the pc/mobile method instead.
 REGISTER_COMMAND_PLATFORM_SELECTION: Which platform do you use to play Genshin Impact?
 REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | Wish History Registration
 REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
-  **鏈接功能：** 
-  > **1.** 跟踪您的願望歷史記錄。 
-  > **2.** 查看深入的願望歷史統計數據以及您的橫幅遺憾。 
-  > **3.** 查看您是否在保證的有限憐憫範圍內。 
-  > **4.** 完整的 Genshin Wizard 配置文件功能。 
+  **鏈接功能：**
+  > **1.** 跟踪您的願望歷史記錄。
+  > **2.** 查看深入的願望歷史統計數據以及您的橫幅遺憾。
+  > **3.** 查看您是否在保證的有限憐憫範圍內。
+  > **4.** 完整的 Genshin Wizard 配置文件功能。
   > **5.** 訪問所有可通過 [**Linking UID**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-登記)。
 
   您使用哪個平台玩 原神？
@@ -1160,11 +1160,11 @@ PRECIOUS_LABEL: "Precious"
 LUXURIOUS_LABEL: "Luxurious"
 REMARKABLE_LABEL: "Remarkable"
 ALL_CHESTS_LABEL: "All Chests"
-STRONGEST_STRIKE_LABEL: "Strongest Strike"
+STRONGEST_STRIKE_LABEL: "最強一擊"
 MOST_BURSTS_USED_LABEL: "Most Bursts Used"
-MOST_SKILLS_USED_LABEL: "Most Skills Used"
+MOST_SKILLS_USED_LABEL: "使用最多的技能"
 MOST_DAMAGE_TAKEN_LABEL: "承受最多傷客"
-MOST_DEFEATS_LABEL: "Most Defeats"
+MOST_DEFEATS_LABEL: "最多擊殺"
 MAX_HP_LABEL: "Max HP"
 HP_LABEL: "HP"
 HP_PERCENT_LABEL: "HP%"
@@ -1404,8 +1404,8 @@ HISTORY_COMMAND_OVERVIEW_TITLE: Genshin Wizard | Wish History Overview
 ABYSS_ENEMY_FLOOR_VIEW: Floor View
 ABYSS_ENEMY_CHAMBER_VIEW: Chamber View
 ABYSS_ENEMY_FLOOR_OVERVIEW: "Schedule: **Floor {floor_index} Overview**"
-ABYSS_ENEMY_INFORMATION_BUTTON: Hello Traveler, as inconveniencing as it may be, I am **__unable__** to display information regarding **specific enemy counts**. This is due to the fact that this information is generated when *starting* the challenge. I apologize for any inconvenience this may cause.
-ABYSS_ENEMY_INFORMATION_BUTTON_LABEL: Enemy Counts
+ABYSS_ENEMY_INFORMATION_BUTTON: 您好旅行者，儘管可能會帶來不便，但我 **__unable__** 無法顯示有關 **特定敵人數量** 的信息。這是因為此信息是在*開始*挑戰時生成的。對於由此可能造成的任何不便，我深表歉意。
+ABYSS_ENEMY_INFORMATION_BUTTON_LABEL: 敵人數量
 APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: Change your Battle Chronicles Privacy Settings.
 VIEW_ON_HOYOLAB: View on HoYoLAB
 CHRONICLES_PRIVACY_SETTING: Character Battle Chronicle Settings
@@ -1458,7 +1458,7 @@ ADVENTURE_RANK_VALUE: "冒險等級:{adventure_rank}"
 SERVER_KEY_VALUE: "Server: {server}"
 UID_KEY_VALUE: "UID: {uid}"
 HOYO_API_LIMITATION: "*Data may be inaccurate due to HoYoLAB API limitations"
-CHECK_IN_GAME: "See in-game for the most accurate information"
+CHECK_IN_GAME: "遊戲中查看最準確的信息"
 HOYO_COMMISSION_KEY: "Commissions:"
 HOYO_ADVENTURE_RANK_KEY: "冒險等級:"
 HOYO_DAILY_BONUS_STATUS: "Daily Sign-In:"
@@ -1502,8 +1502,8 @@ CURRENT_LUNAR_PHASE: 當前淵月
 PREVIOUS_LUNAR_PHASE: Previous Lunar Phase
 ABYSSAL_ARCHIVES: Abyssal Archives
 ELEMENTAL_SKILLS_CAST_LABEL: 元素爆發次數
-ELEMENTAL_BURSTS_UNLEASHED_LABEL: Elemental Bursts Unleashed
-STRONGEST_SINGLE_STRIKE_LABEL: Strongest Single Strike
+ELEMENTAL_BURSTS_UNLEASHED_LABEL: 元素爆發
+STRONGEST_SINGLE_STRIKE_LABEL: 最強一擊
 ACCOUNT_INFO_KEY: Account Info
 CLASSIFIED_KEY: Classified
 INFORMATION_KEY: Information
@@ -1537,7 +1537,7 @@ BATTLES_FOUGHT: Battles Fought
 ABYSS_STARS_COLLECTED: 深淵星取得量
 ADVENTURE_RANK: 冒險等級
 DAMAGE_BREAKDOWN: 傷害分析
-MOST_USED_CHARACTERS: Most Used Characters
+MOST_USED_CHARACTERS: 使用最多角色
 ABYSS_IMAGE_TITLE: 螺旋深淵統計
 ABYSS_FLOOR_COMPLETION: 深淵樓層完成
 WORLD_LEVEL_KEY: 世界等級
@@ -1550,7 +1550,7 @@ FINISHED_KEY: 完成
 VENTURA_ART_SETTING: Ventura Layout
 TITLE_KEY: Title
 AFFILIATION_KEY: Affiliation
-ELEMENT_KEY: Element Type
+ELEMENT_KEY: 元素類型
 CONSTELLATION_KEY: Constellation
 WEAPON_TYPE_KEY: Weapon Type
 RARITY_KEY: Rarity

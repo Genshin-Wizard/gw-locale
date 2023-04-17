@@ -9,7 +9,7 @@ HELP_CATEGORY_LIST: |
   > <:hoyolab:1016159766705344705> | HoYoLAB 指令
   > 📝 | 指南指令
   > ⏰ | 其他指令
-MISC_COMMANDS: Miscellaneous commands
+MISC_COMMANDS: 其他指令
 PING_INFORMATION: |
   **Pong!** :ping_pong:
   机器人延迟为 **{bot_latency}ms.**
@@ -514,83 +514,83 @@ TARGET_LEVEL_KEY: Target Level
 REQUIRED_RESOURCES_KEY: Required Resources
 GENSHIN_WIZARD_USER_PROFILE: "{user}'s Genshin Wizard Profile"
 PROFILE_SUMMARY_KEY: Profile Summary
-GENSHIN_WISH_STATS_KEY: Genshin Wish Stats
-PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
-GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
-GENSHIN_STATISTICS_INFOGRAPHIC: Genshin Statistics Infographic
-GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin stats/progression infographic that you requested!
-HIDDEN_KEY: Hidden
-REQUESTED_UID_KEY: Requested UID
-GENSHIN_EXPLORATION_INFOGRAPHIC: Genshin Exploration Progression
+GENSHIN_WISH_STATS_KEY: 原神祈愿数据
+PROFILE_COMMAND_FOOTER: 个人资料信息是通过横幅概述和刷新指令来更新。请检查横幅以积极过去更新后的/profile。
+GENERATE_IMAGE_COOLDOWN: 生成图像太快了！请在**{seconds}**秒后再次使用该摁钮。
+GENSHIN_STATISTICS_INFOGRAPHIC: 原神统计信息
+GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: 你好，旅行者！这是你所要求的**独特**生成的原神状态/进展状态图。
+HIDDEN_KEY: 隐藏
+REQUESTED_UID_KEY: 请求的UID
+GENSHIN_EXPLORATION_INFOGRAPHIC: 原神探索度
 GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin exploration infographic that you requested!
-PROFILE_NOT_OWNER: You can't use this button on someone else's profile!
-PRIVACY_SETTING_TITLE: Genshin Wizard Privacy Settings
-PRIVACY_SETTING_DESCRIPTION: Change your Genshin Wizard privacy settings here.
-PRIVACY_SETTING_KEY: Privacy Settings
+PROFILE_NOT_OWNER: 你不能在别人的个人资料上使用该按钮。
+PRIVACY_SETTING_TITLE: Genshin Wizard隐私设置
+PRIVACY_SETTING_DESCRIPTION: 在这里更改你的Genshin Wizard 隐私设置
+PRIVACY_SETTING_KEY: 隐私设置
 PRIVACY_SETTING_BRIEF: |
-  **UID Privacy:** {uid_privacy}
-  **Wish History Privacy:** {wish_privacy}
-  **Stats Privacy:** {stats_privacy}
-  **Abyss Privacy:** {abyss_privacy}
-  **Info Privacy:** {info_privacy}
+  **UID隐私**：** {uid_privacy}
+  **祈愿记录隐私**：** {wish_privacy}
+  **统计数据隐私：** {stats_privacy}
+  **深渊螺旋隐私：** {abyss_privacy}
+  **个人信息隐私：** {info_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **UID Privacy:** {uid_privacy}
-  > *Hide your UID from showing up anywhere*
-  **Wish History Privacy:** {wish_privacy}
-  > *Hide your Wish History from showing up anywhere (`/history`)*
-  **Stats Privacy:** {stats_privacy}
-  > *Hide your Genshin Stats Progression from showing up anywhere (`/stats`)*
-  **Abyss Privacy:** {abyss_privacy}
-  > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
-  **Info Privacy:** {info_privacy}
-  > *Hide your showcase builds information from showing up anywhere (`/info`)*
-ALL_KEY: All
-RESET_KEY: Reset
+  **UID隐私：** {uid_privacy}
+  > *不让UID在任何地方显示*
+  **祈愿记录隐私：** {wish_privacy}
+  > *不让你的祈愿记录在任何地方显示(`/history`)*
+  **原神进展隐私** {stats_privacy}
+  > *不让你的原神进展在任何地方显示 (`/stats`)*
+  **深渊隐私：** {abyss_privacy}
+  > *不让你的原神深境螺旋进展在任何地方显示 (`/abyss`)*
+  **个人信息隐私:** {info_privacy}
+  > *不让你的角色展示柜信息对外公开 (`/info`)*
+ALL_KEY: 全部
+RESET_KEY: 重置
 WISH_HISTORY_KEY: Wish History
-ABYSS_KEY: Abyss
+ABYSS_KEY: 深渊
 UID_KEY: UID
-STATS_KEY: Stats
-INFO_KEY: Info
-SETTING_RESET_PRIVACY: Successfully reset privacy settings to default setting!
-SETTING_PRIVACY_UPDATED: "{privacy_type} privacy settings have been updated! Current Privacy: {current_privacy}"
-SETTING_ART_STYLE_UPDATED: "Character builds Art Styles have been updated! Current Art Style: {current_setting}"
-SETTING_MASTER_PROFILE_RESET: Your Genshin Wizard profile has been reset to default settings!
-INVALID_IMAGE_URL: "Please provide a **valid** image URL. Acceptable image types include: `PNGs`, `JPGs`, `JPEGs`, and `GIFs`."
-SETTING_BANNER_UPDATE: Your banner has been successfully updated!
-SETTING_BIOGRAPHY_ILLEGAL: Hey Traveler! Your input contains words that **aren't allowed** by Genshin Wizard! Please consider trying something *different* for your bio.
-DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
-SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
-BIOGRAPHY_KEY: Bio
-BANNER_KEY: Banner
-ELEMENTAL_RESONANCE_KEY: Elemental Resonance
-BUILDS_ART_STYLE_KEY: Builds Art Style
-ART_STYLE_KEY: Art Style
-FANART_KEY: Fanart
-OFFICIAL_ART_KEY: Official Art
+STATS_KEY: 原神进展
+INFO_KEY: 个人信息
+SETTING_RESET_PRIVACY: 成功重置隐私设置为默认设置！
+SETTING_PRIVACY_UPDATED: "{privacy_type} 隐私设置已更新! 当前隐私状态: {current_privacy}"
+SETTING_ART_STYLE_UPDATED: "角色展像艺术风格已更新！当前艺术风格：{current_setting}"
+SETTING_MASTER_PROFILE_RESET: 你的Genshin Wizard 个人资料已重置为默认设置！
+INVALID_IMAGE_URL: "请提供**有效** 的图像URL。可接受的图像类型包括：`PNG`、`JPG`、`JPEG`和`GIF`。"
+SETTING_BANNER_UPDATE: 你的横幅已成功更新！
+SETTING_BIOGRAPHY_ILLEGAL: 嘿，旅行者！你的输入字符包含了Genshin Wizard**不允许**的字符！请考虑为你的个性签名输入**不包含Genshin Wizard不允许**的字符。
+DEFAULT_BIOGRAPHY: 一位喜爱探险的旅行者！
+SETTING_BIOGRAPHY_UPDATED: 你的个性签名已成功更新！
+BIOGRAPHY_KEY: 个性签名
+BANNER_KEY: 角色画像
+ELEMENTAL_RESONANCE_KEY: 元素共鸣
+BUILDS_ART_STYLE_KEY: 构建艺术样式
+ART_STYLE_KEY: 艺术样式
+FANART_KEY: 同人画
+OFFICIAL_ART_KEY: 官方画
 GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
-  Change your Genshin Wizard profile settings here.
+  在这里更改你的Genshin Wizard个人资料设定
 
-  **Profile Summary**
-GENSHIN_WIZARD_PROFILE_TITLE: Genshin Wizard Profile Settings
+  **个人资料概览**
+GENSHIN_WIZARD_PROFILE_TITLE: Genshin Wizard 个人资料设置
 MISSING_REGISTRATION_INSTRUCTIONS: |
-  Please register using one of:
+  请选择一种方式注册:
   **1.)** </register:{command_id}>
-  **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
-MISSING_IMAGE: Please provide an image or a link to an image to update your banner
-PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Profile Banner Link Updated
-IMAGE_LINK_KEY: Image Link
-UPDATE_DATE_KEY: Update Date
-SETTING_COMMAND_REQUIRE_SLASH: You must use a **slash command** (</settings:{command_id}>) or access this via your profile.
+  **2.)** 通过用户的/UID。示例：`/info [discord-user]/[genshin-uid]`
+MISSING_IMAGE: 请提供图片或图片链接以更新你的角色画像
+PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | 配置角色画像链接已更新。
+IMAGE_LINK_KEY: 图像链接
+UPDATE_DATE_KEY: 更新日期
+SETTING_COMMAND_REQUIRE_SLASH: 你必须使用 **斜杠指令** (</settings:{command_id}>) 或者这个来访问你的个人资料。
 CURRENT_ABYSS_DESCRIPTION: |
-  **Current Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  **当前渊月**
+  **开始时间：** <t:{timestamp_start}:F>
+  **结束时间：** <t:{timestamp_end}:F>
 PREVIOUS_ABYSS_DESCRIPTION: |
-  **Previous Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
-ABYSS_COMMAND_FOOTER: "Note: Abyss data may be incorrectly shown or missing data, if this is the case, do keep in mind that abyss data can generally take anywhere from 1-3 hours to update!"
-ABYSS_MISSING_DATA_FOOTER: "Note: This data seems to be missing some information! This is likely due to this information not being stored in the database previously, or the data not being updated yet."
+  **当前渊月**
+  **开始时间：** <t:{timestamp_start}:F>
+  **结束时间：** <t:{timestamp_end}:F>
+ABYSS_COMMAND_FOOTER: "注： 深渊数据可能显示不正确或者已丢失，如果是那样的话，记住深渊数据更新一般需要1-3个小时。"
+ABYSS_MISSING_DATA_FOOTER: "注意：此数据似乎缺少一些信息！ 这可能是由于以前没有将此信息存储在数据库中，或者数据尚未更新。"
 ABYSSAL_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Abyssal Archives**
   **Start Time:** <t:{timestamp_start}:F>
@@ -686,96 +686,97 @@ SUCCESSFULLY_UPDATED_UID: |
 
   Refer to </help:{command_id}> for more information.
 SUCCESSFULLY_REGISTERED_RESPONSE: |
-  Hey Traveler! Congratulations, your account was **successfully** registered!
+  嘿，旅行者！恭喜您的账户已注册**成功**！
 
-  You can now access several new gacha-related command within Genshin Wizard and more! For more information, check out the </help:{command_id}> command or visit our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/commands)!
-GENSHIN_WIZARD_REGISTRATION: Genshin Wizard Registration
-UNLINK_GENSHIN_ACCOUNT: Unlink Genshin Account
-UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Unlink your Genshin Impact account completely from Genshin Wizard. This will erase all your data from Genshin Wizard, including your wish history, wish statistics, and more. This action is **irreversible**. Are you sure you want to continue?
-UNLINK_HOYOLAB_ACCOUNT: Unlink HoYoLAB Account
-UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Unlink your HoYoLAB account from Genshin Wizard; Will not unlink your linked UID from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
-PURGE_WISH_HISTORY: Purge Wish History
-PURGE_WISH_HISTORY_DESCRIPTION: Purge only your wish history from Genshin Wizard, your Genshin account will still be linked to Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
-UNLINK_EVERYTHING: Unlink Everything
-UNLINK_EVERYTHING_BRIEF: This method will unlink **everything** from Genshin Wizard.
-UNLINK_EVERYTHING_DESCRIPTION: This method will unlink everything from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
-UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data from Genshin Wizard!
-UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If you believe for this to be an error, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
-USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
-GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Registration
+  您现在可以在Genshin Wizard中访问几个新的与gacha有关的命令！ 想要了解更多信息，请查阅 </help:{command_id}> 指令或访问我们的 [**文档**](https://docs.genshinwizard.com/wishing-centre/commands)!
+GENSHIN_WIZARD_REGISTRATION: Genshin Wizard注册
+UNLINK_GENSHIN_ACCOUNT: 解绑原神账号
+UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: 完全从Genshin Wizard解绑你的原神账号。这将会从Genshin Wizard中清除你的所有数据，包括祈愿记录，祈愿统计等等。此操作**不可逆**。你确定要继续吗？
+UNLINK_HOYOLAB_ACCOUNT: 解绑 HoYoLAB 账号
+UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: 从Genshin Wizard解绑你的HoYoLAB账号，将不会解绑你在Genshin Wizard绑定的UID。此操作**不可逆**。你确认要继续吗？
+PURGE_WISH_HISTORY: 清除祈愿记录
+PURGE_WISH_HISTORY_DESCRIPTION: 只从Genshin Wizard清除你的祈愿记录，你的原神账号仍将链接到Genshin Wizard。 此操作**不可逆**。您确定要继续吗？
+UNLINK_EVERYTHING: 解绑所有
+UNLINK_EVERYTHING_BRIEF: 此方法将从 Genshin Wizard 解绑**所有东西** 。
+UNLINK_EVERYTHING_DESCRIPTION: 这个方法将会从Genshin Wizard解除所有绑定。该操作**不可逆**。你确定要继续吗？
+UNLINKING_CONFIRMATION: 你有 来自Genshin Wizard**成功解绑**的请求数据！
+UID_REGISTERED_TO_ANOTHER_USER: ":no_entry:该UID已被另一个用户注册！如果你认为着是个错误，请联系[**Genshin Wizard后援服务器**](https://discord.gg/BTT5Zr7Dmp)！"
+USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: 您已经注册了一个不同的 UID！ 如果您想要使用另一个账户注册，请在尝试再次注册之前使用 </unlink:{command_id}>。"
+GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard注册
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Register your Genshin account to Genshin Wizard.
-HOYOLAB_ACCOUNT: HoYoLAB Account
-LINKED_UID_KEY: Linked UID
-LINKED_KEY: Linked
-NOT_LINKED_KEY: Not Linked
+HOYOLAB_ACCOUNT: HoYoLAB账户
+LINKED_UID_KEY: 已绑定的UID
+LINKED_KEY: 已绑定
+NOT_LINKED_KEY: 未绑定
 LINKING_UID_DIRECTIONS: |
-  Hello Traveler! To continue linking the requested UID to Genshin Wizard, we're going to need to **verify** that this account is actually yours!
+  你好旅行者！若要继续将请求的 UID 连接到Genshin Wizard，我们需要**验证** 这个账户实际上是你的！
 
-  **Unique Verification Key**
+  **唯一验证密钥**
   ```yaml
   {key}```
-  **Expires in:**
+  **过期时间：**
   <t:{timeout}:R>
 
-  How to complete verification?
-  > **1)** Go in-game and add the key above **anywhere** in your profile signature or nickname.
-  > **2)** Make sure you copy the key above **exactly** how it is written or else the bot will not be able to verify your account.
-  > **3)** *That's it*! Please wait patiently until our bot can verify you.
-LINKING_UID_FOOTER: Please be patient while we verify your account! These changes can take anywhere from 5-10 minutes to appear on our end.
-LINKING_UID_KEY_EXPIRED: It looks like this key is now **expired**! Unfortunately, we were unable to verify you at this time, please try again later.
-REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Refresh Wish History
-FORCE_REFRESH_FOOTER: If you'd prefer to force-refresh to prolong the expiry of your current history link, you may do so by clicking one of the buttons below.
-UNLINKING_CENTRE_TITLE: Genshin Wizard | Unlinking Centre
-UNLINKING_CENTRE_DESCRIPTION: Hello Traveler! Welcome to Genshin Wizard's unlinking centre. Manage your linked data through the buttons below. Friendly reminder that any method of unlinking will **erase all your data** from Genshin Wizard. This action is **irreversible**
-INVALID_COOKIE_RESPONSE: ":no_entry: You did not enter a valid **HoYoLAB** cookie!"
-RETRIEVING_ACCOUNT_INFORMATION: "*Retrieving your account information...*"
-SYNCED_HOYOLAB_UID: Successfully synced **HoYoLAB** UID!
-SYNCED_IN_GAME_UID: Successfully synced **In-Game** UID!
-ERROR_NO_ACCOUNTS: ":no_entry: There are **no accounts** associated with this token!"
-SUCCESSFULLY_LINKED_KEY: Successfully Linked!
+  如何完成验证？
+  > **1** 继续游戏并在你的个人资料签名或昵称中添加上面的密钥。
+  > **2** 请确保你复制以上的如何**确切**写入的密钥，否则机器人将无法验证您的账户。
+  > **3** *就是它！请耐心等待，直到我们的机器人能够验证你。
+LINKING_UID_FOOTER: 在我们验证你的账户的时候，请耐心等待！该更改可能需要5-10分钟才能显示到我们这边。
+LINKING_UID_KEY_EXPIRED: 看起来该密钥**过期了**！很不幸，我们现在不能验证你，请稍候重试。
+REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | 刷新祈愿记录
+FORCE_REFRESH_FOOTER: 如果你想要强制刷新以延长当前祈愿历史链接的保存时间，你可以点击下面的一个按钮来这样做。
+UNLINKING_CENTRE_TITLE: Genshin Wizard | 解绑中心
+UNLINKING_CENTRE_DESCRIPTION: 你好，旅行者，欢迎来到Genshin Wizard的解绑中心。通过以下按钮来管理你的已绑定数据。友情提醒，任何解绑的方式将会从Genshin Wizard**清除你的所有数据**。该操作**不可逆**
+INVALID_COOKIE_RESPONSE: ":no_entry: 你还没有输入一个有效的 **HoYOLAB** cookie呢！"
+RETRIEVING_ACCOUNT_INFORMATION: "*获取你的账户信息...*"
+SYNCED_HOYOLAB_UID: 成功同步**HoYoLAB**UID！
+SYNCED_IN_GAME_UID: 成功同步**游戏内**UID
+ERROR_NO_ACCOUNTS: ":no_entry: 没有与此令牌相关联的 **账户** ！"
+SUCCESSFULLY_LINKED_KEY: 绑定成功！
 SUCCESSFULLY_LINKED_HOYOLAB: |
-  Successfully synced in-game account progression.
+  成功同步了游戏内账号进程。
 
-  Successfully synced your HoYoLAB account! You can now access the **HoYoLAB account menu** by using the command </hoyo:{command_id}>!
-REGISTRATION_FAILED: Registration Failed!
-REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> Registering your account was **unsuccessful**! Please try again or contact the [**support team**](https://discord.gg/genshinwizard) if the issue persists. This issue is typically caused by an invalid email/password combination.
-INVALID_HOYOLAB_EMAIL_PROMPT: Please enter a valid email address! You must use the email address you use to login to your **HoYoLAB** account.
-HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | HoYoLAB Registration
+  成功同步了HoYoLAB账户！
+  你现在可以通过使用指令</hoyo:{command_id}>来访问你的**HoYoLAB账户菜单**！
+REGISTRATION_FAILED: 注册失败！
+REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679870372> 注册你的账户户**失败**！如果问题持续存在，请再次尝试或者联系 [**Genshin Wizard 支援团队**](https://discord.gg/genshinwizard) 。这个问题通常是由无效的电子邮件/密码组合引起的。
+INVALID_HOYOLAB_EMAIL_PROMPT: 请输入一个有效的电子邮件地址！你必须使用你使用的电子邮件地址来登录你的 **HoYOLAB** 账户。
+HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | HoYoLAB 注册
 HOYOLAB_REGISTRATION_DESCRIPTION: |
-  Hello Traveler! Please wait while we process your registration request, bear in mind that this may take a moment.
+  你好旅行者！请等待我们处理你的注册申请，请记住这可能需要一些时间。
 
-  <a:FlowersBlue:955579121562423348> **Genshin Fun Fact of the Day:**
-  `"{fun_fact}"`
-PROCESSING_REGISTRATION_REQUEST: Processing Registration Request
-ACCOUNT_RETREIVAL_FAILED: It looks like there was an error retrieving information with the requested UID. Please make sure you've entered the correct UID and try again.
+  <a:FlowersBlue:955579121562423348> **Genshin当天的有趣事实：**
+  `"{fun_fact}""
+PROCESSING_REGISTRATION_REQUEST: 正在注册中, 请稍候...
+ACCOUNT_RETREIVAL_FAILED: 似乎在获取请求的 UID 信息时出现错误。请确保你输入了正确的 UID 然后重试。
 REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
-  Welcome to Genshin Wizard's :bell: **Reminder Panel**! To begin setting up reminders, you can select any of the options below and activate them from the relative panel.
+  欢迎使用 Genshin Wizard的 :bell: **提醒面板** ！ 要开始设置提醒，你可以选择下面的任何选项，并从相对面板中激活它们。
 
-  <a:4396ringingbell:1030221006918385664> **CURRENT REMINDERS**
-  **Resin Reminders <:fragileresin:1029984988583706654>**
-  > **Automatic Reminder:** {automatic_resin}
+  <a:4396ringingbell:1030221006918385664> **当前提醒**
+  **树脂提醒 <:fragileresin:1029984988583706654>**
+  > **自动提醒：** {automatic_resin}
   {resin_rmd}
-  **Teapot Reminders <:realmcurrency:1029984449565310976>**
-  > **Automatic Reminder:** {automatic_teapot}
+  **洞天财翁提醒<:realmurcy:102998444956510976>**
+  > **自动提醒：** {automatic_teapot}
   {teapot_rmd}
-  **Expedition Reminders <:adventurersguild:1030215759584051240>**
+  **探索派遣提醒 <:adventurersguild:1030215759584051240>**
   {exp_rmd}
-  **Parametric Transformer Reminders <:parametrictransformer:1029984451670847568>**
-  > **Automatic Reminder:** {automatic_parametric}
+  **参量质变仪提醒： <:partic transformer:102998445167084568>**
+  > **自动提醒：** {automatic_parametric}
   {para_rmd}
-REMINDER_COMMAND_OVERVIEW_TITLE: Genshin Impact Reminders
-ENABLED_KEY: Enabled
-DISABLED_KEY: Disabled
-NOT_ENABLED_KEY: Not Enabled
-NO_REMINDERS_SET_KEY: No Reminders Set!
-RESIN_REMINDERS_KEY: Resin Reminders
-EXPEDITION_REMINDERS_KEY: Expedition Reminders
-SERENITEA_POT_KEY: Serenitea Pot
-PARAMETRIC_REMINDERS_KEY: Parametric Transformer
+REMINDER_COMMAND_OVERVIEW_TITLE: 原神提醒
+ENABLED_KEY: 已启用
+DISABLED_KEY: 已禁用
+NOT_ENABLED_KEY: 未启用
+NO_REMINDERS_SET_KEY: 未设置提醒
+RESIN_REMINDERS_KEY: 树脂提醒
+EXPEDITION_REMINDERS_KEY: 探索派遣提醒
+SERENITEA_POT_KEY: 尘歌壶
+PARAMETRIC_REMINDERS_KEY: 参量质变仪使用提醒
 RESIN_REMINDERS_DESCRIPTION: |
-  You currently have **<:fragileresin:1029984988583706654>{current_resin}** resin!
-  **Replenish Time:** Replenishes {time_left}
-  **Automatic Reminder:** {reminder_setting}
+  目前你有**<:fragileresin:1029984988583706654>{current_resin}** 个树脂!
+  **剩余恢复时间** 在 {time_left}后装满
+  **自动提醒：** {reminder_setting}
 TEAPOT_REMINDERS_DESCRIPTION: |
   You currently have **<:realmcurrency:1029984449565310976>{current_currency}** realm currency!
   **Replenish Time:** {time_left}
@@ -840,30 +841,30 @@ CONGRATULATIONS_KEY: Congratulations!
 ABYSS_CONGRATULATE_MESSAGE: |
   Congratulations {user} on perfectly *clearing* the Spiral Abyss!
   <:spiralabyss:1000079902596411482> <@&{role_id}> Role Given <a:check:956327345717907507>
-ABYSS_COMMAND_STATISTICS_CREDIT: User {name}'s Spiral Abyss Stats
+ABYSS_COMMAND_STATISTICS_CREDIT: 用户{name} 的深境螺旋统计
 CURRENT_LUNAR_PHASE_DESCRIPTION: |
-  **Current Lunar Phase**
-  **Start Time:** {start}
-  **End Time:** {end}
-MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard is missing permissions to `Manage Roles`. Please enable this permission and try again."
-ROLE_NOT_FOUND: ":no_entry: There was an error retrieving the role. Please make sure the role information under this integration is correct."
-GENSHIN_STATS_HEADER: "{name}'s Genshin Stats"
-PROCESSING_BANNER_TRANSITION: Processing {banner} Banner...
-WEAPON_KEY: Weapon
-PERMANENT_KEY: Permanent
-NOVICE_KEY: Novice
-STARDUST_EXCHANGES: Stardust Exchanges
-STARGLITTER_EXCHANGES: Starglitter Exchanges
-STARDUST_KEY: Stardust
-STARGLITTER_KEY: Starglitter
-GENSHIN_WIZARD_SHOP_TITLE: Genshin Wizard Shop
+  **当前渊月**
+  **开始时间：** {start}
+  **结束时间：** {end}
+MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard 缺少\"管理身份组\"的权限。请启用此权限并重试。"
+ROLE_NOT_FOUND: ":no_entry: 检索角色时出错。请确保此集成下的角色信息正确。"
+GENSHIN_STATS_HEADER: "{name} 的原神状态"
+PROCESSING_BANNER_TRANSITION: 正在处理 {banner} 卡池中...
+WEAPON_KEY: 武器
+PERMANENT_KEY: 常驻
+NOVICE_KEY: 新手池
+STARDUST_EXCHANGES: 星辉兑换
+STARGLITTER_EXCHANGES: 星辰兑换
+STARDUST_KEY: 星尘
+STARGLITTER_KEY: 星辉
+GENSHIN_WIZARD_SHOP_TITLE: Genshin Wizard商店
 GENSHIN_WIZARD_SHOP_DESCRIPTION: |
-  Welcome to Paimon's Bargains! Here you can purchase items to help you on your journey. You currently have <:Primogem:951924423340994610>**{primogems} Primogems** in your Genshin Wizard inventory.
+  欢迎来到派蒙的杂货店！这里您可以购买物品来帮助您的旅程。 您目前在 Genshin Wizard 背包中有 <:Primogem:951924423340994610>**{primogems}原石** 。
 
-  <:MasterlessStardust:951924423332626522> **Stardust:** {stardust}
-  <:MasterlessStarglitter:951924423059980290> **Starglitter:** {starglitter}
+  <:MasterlessStardust:951924423332626522> **星尘:** {stardust}
+  <:Masterlessstarglitter:95192442305990290> **星辉:** {starglitter}
 
-  <:GreyPin:949815085335986246> **__CURRENT SHOP__ [ Price | Item ]**
+  <:GreyPin:9498150853598626> **__当前商店_[ 价钱 | 物品]**
 SIMULATOR_NO_PRIMOGEMS: |
   <:Error:1021889679857037372> Hey Traveler, you don't have anymore **primogems** for today! You need at least <:Primogem:951924423340994610>**1,600** primogems to do *another* ten pull. To view your current balance, use the **</balance:{balance_id}>** command.
 
@@ -1248,7 +1249,7 @@ LOGIN_MODAL_TITLE: HoYoLAB Account Login
 RESIN_KEY: Resin
 TEAPOT_KEY: Teapot
 EXPEDITIONS_KEY: Expeditions
-PARAMETRIC_TRANSFORMER_KEY: Parametric Transformer
+PARAMETRIC_TRANSFORMER_KEY: 参量质变仪使用提醒
 CLEAR_ALL_REMINDERS_BUTTON: Clear All Reminders
 CLEAR_REMINDER_BUTTON: Clear {reminder_type} Reminders
 SET_REMINDER_KEY: Set Reminder
