@@ -464,15 +464,15 @@ IMPORT_COMMAND_TAMPERED: The data you are trying to import has been **tampered**
 IMPORT_COMMAND_BANNER_IMPORTED: Successfully imported `{number_wishes}` wishes for {banner_name} banner!
 IMPORT_COMMAND_SUCCESS: 已成功導入所有卡池的`{total_wishes}`新的祈願記錄！您現在可以使用 </history:{command_id}> 命令來查看更多有關您的祈願歷史的信息。
 IMPORT_COMMAND_LOG: |
-  **User:** {user} | `{user_id}`
-  **Name:** `{name}`
-  **Guild:** `{guild_id}` | `{guild_name}`
+  **用戶：** {user} | `{user_id}`
+   **姓名：**`{name}`
+   **公會：** `{guild_id}` | `{guild_name}`
 
-  **Detected Import Source:** `{source}`
-  **Total:** `{total}` wishes imported!
-  > 3-Stars: `{three_star}`
-  > 4-Stars: `{four_star}`
-  > 5-Stars: `{five_star}`
+   **檢測到導入源：**`{source}`
+   **總計：** `{total}` 祈願已導入！
+   > 3 星：`{three_star}`
+   > 4 星：`{four_star}`
+   > 5 星：`{five_star}`
 IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </register:{command_id}>.
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: History Link Expired!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Your history link has **expired**! Please refresh using the command </refresh:{command_id}> before trying to import!
@@ -1097,7 +1097,7 @@ THREE_STARS_KEY: 3 星
 FOUR_STARS_KEY: 4 星
 FIVE_STARS_KEY: 5 星
 ALL_WISHES_KEY: All Wishes
-THREE_STARS_FILTER_DESCRIPTION: Filter your wish history by three-star pulls.
+THREE_STARS_FILTER_DESCRIPTION: 通過過濾三星抽取展示您的願望歷史。
 FOUR_STARS_FILTER_DESCRIPTION: Filter your wish history by four-star pulls.
 FIVE_STARS_FILTER_DESCRIPTION: Filter your wish history by five-star pulls.
 ALL_WISHES_FILTER_DESCRIPTION: 在沒有任何稀有過濾的情況下查看您的所有願望。
@@ -1332,7 +1332,7 @@ CRIMSON_WITCH_OF_FLAMES: Crimson Witch of Flames
 ELDER_OF_THE_HEXENZIRKEL: Elder of the Hexenzirkel
 PREMIUM_PLAN_TIER_ONE: "Premium Plan: Tier One"
 PREMIUM_PLAN_TIER_TWO: "Premium Plan: Tier Two"
-PREMIUM_PLAN_TIER_THREE: "Premium Plan: Tier Three"
+PREMIUM_PLAN_TIER_THREE: "保費計劃：第三層"
 PREMIUM_PLAN_TIER_FOUR: "Premium Plan: Tier Four"
 ART_SETTINGS_KEY: Art Settings
 CUSTOM_ROLE_KEY: Custom Role
@@ -1488,14 +1488,14 @@ WISH_STATISTICS_KEY: Wish Statistics
 PERCENT_KEY: Percent
 FIVE_STAR_KEY: 5-Star
 FOUR_STAR_KEY: 4-Star
-THREE_STAR_KEY: 3-Star
+THREE_STAR_KEY: 3 星
 BOTTOM_KEY: Bottom
 TOP_KEY: Top
 WISH_STAT_LESS_THAN: "Less pulls than {global_percentile}% of Genshin Wizard Users."
 WISH_STAT_MORE_THAN: "More pulls than {global_percentile}% of Genshin Wizard Users."
 FIVE_STAR_LUCK: "5-Star Luck"
 FOUR_STAR_LUCK: "4-Star Luck"
-THREE_STAR_LUCK: "3-Star Luck"
+THREE_STAR_LUCK: "3星運"
 WISH_LUCK_LESS: "Less lucky than {rarity_percentile}% of Genshin Wizard Users."
 WISH_LUCK_MORE: "Luckier than {rarity_percentile}% of Genshin Wizard Users."
 CURRENT_LUNAR_PHASE: 當前淵月
