@@ -47,10 +47,10 @@ AVATAR_KEY: Avatar
 ARTIFACT_CRIT_VALUE_TITLE: Tính toán Crit Value Thánh Di Vật
 TOTAL_CRIT_VALUE: Tổng Crit Value
 TRUTH_COMMAND_RESPONSES:
-  - As I see it, yes.
+  - Đúng như tôi thấy.
   - Đúng.
   - Positive.
-  - From my point of view, yes.
+  - Theo quan điểm của tôi, đúng rồi.
   - Thuyết Phục.
   - Chắc chắn rồi.
   - Nó đã được định sẵn là như vậy.
@@ -256,7 +256,7 @@ APP_COMMAND_CRITVALUE_DESCRIPTION: Tính toán Crit Value cho một Thánh Di v�
 APP_COMMAND_TRUTH_DESCRIPTION: Tìm kiếm "đáp án" từ Genshin Wizard.
 APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Thay đổi tiền tố của Genshin Wizard.
 APP_COMMAND_PITY_DESCRIPTION: Thông tin về cách hoạt động của tính năng bảo hiểm cầu nguyện trong Genshin.
-APP_COMMAND_MATH_DESCRIPTION: Compute simple or complex functions.
+APP_COMMAND_MATH_DESCRIPTION: Tính toán các chức năng đơn giản hoặc phức tạp.
 APP_COMMAND_EVENTS_DESCRIPTION: Kiểm tra các sự kiện Genshin gần đây.
 APP_COMMAND_SENDCODES_DESCRIPTION: Gửi tin nhắn riêng tư về mã đổi thưởng Genshin với nút bấm tương tác.
 APP_COMMAND_FEEDBACK_DESCRIPTION: Gửi phản hồi đến đội ngũ phát triển Genshin Wizard.
@@ -710,18 +710,18 @@ LINKED_UID_KEY: Linked UID
 LINKED_KEY: Đã liên kết
 NOT_LINKED_KEY: Chưa liên kết
 LINKING_UID_DIRECTIONS: |
-  Hello Traveler! To continue linking the requested UID to Genshin Wizard, we're going to need to **verify** that this account is actually yours!
+  Xin chào nhà Lữ Hành! Để tiếp tục kết nối UID đến Genshin Wizard, chúng tôi cần phải **xác thực** rằng tài khoản này là của bạn!
 
-  **Unique Verification Key**
+  **Mã xác thực**
   ```yaml
   {key}```
-  **Expires in:**
+  **Hết hạn trong vòng:**
   <t:{timeout}:R>
 
-  How to complete verification?
-  > **1)** Go in-game and add the key above **anywhere** in your profile signature or nickname.
-  > **2)** Make sure you copy the key above **exactly** how it is written or else the bot will not be able to verify your account.
-  > **3)** *That's it*! Please wait patiently until our bot can verify you.
+  Các bước hoàn thành xác thực:
+  > **1)** Vào trong game và để mã này ở **bất cứ nơi nào** trên nickname hay bio.
+  > **2)** Hãy chắc chắn rằng copy **chính xác** mã xác thực hoặc bot không thể xác thực được tài khoản của bạn.
+  > **3)** *Xong!* Xin vui lòng đợi cho đến khi bot có thể xác thực bạn.
 LINKING_UID_FOOTER: Please be patient while we verify your account! These changes can take anywhere from 5-10 minutes to appear on our end.
 LINKING_UID_KEY_EXPIRED: It looks like this key is now **expired**! Unfortunately, we were unable to verify you at this time, please try again later.
 REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Refresh Wish History
