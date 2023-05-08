@@ -458,10 +458,9 @@ USE_COUNT_KEY: Número de usos
 IMPORT_ERROR: '¡Error de importación!'
 FOOTER_ERROR_DESCRIPTION: Si crees que se trata de un error, por favor contacta a un miembro del equipo.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  Los datos que estás tratando de importar no son **compatibles**. Actualmente *solo* permitimos las importaciones desde los siguientes:
-  > `Paimon.moe`
-  > `Genshin-Wishes`
-  Consulta nuestra [**Documentación**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) para más información.
+  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  {supported_file_types}
+  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
 IMPORT_COMMAND_TITLE: Genshin Wizard | Importar historial de deseos
 IMPORT_COMMAND_FILE_DETECTED: |
   **Fuente de importación detectada: `{source}`**
