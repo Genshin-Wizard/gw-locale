@@ -459,10 +459,9 @@ USE_COUNT_KEY: Use Count
 IMPORT_ERROR: Lỗi nhập!
 FOOTER_ERROR_DESCRIPTION: Nếu bạn tin đây là lỗi, vui lòng liên hệ thành viên staff.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  Dữ liệu bạn nhập vào **không được hỗ trợ**. Genshin Wizard chỉ hỗ trợ nhập từ các nguồn:
-  > `Paimon.moe`
-  > `Genshin-Wishes`
-  Hãy kiểm tra [**Tài liệu hướng dẫn**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) để biết thêm thông tin.
+  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  {supported_file_types}
+  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
 IMPORT_COMMAND_TITLE: Genshin Wizard | Nhập Lịch sử Cầu nguyện
 IMPORT_COMMAND_FILE_DETECTED: |
   **Đã phát hiện nguồn nhập dữ liệu: `{source}`**
