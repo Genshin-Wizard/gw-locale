@@ -458,10 +458,9 @@ USE_COUNT_KEY: 사용 횟수
 IMPORT_ERROR: 가져오기 오류가 발생했습니다.
 FOOTER_ERROR_DESCRIPTION: 오류라고 생각한다면, 관리자에게 꼭 문의해줘!
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  지원되지 않는 데이타입니다. 현재 가져오기는 다음 사이트에서만 허용합니다:
-  > `Paimon.moe`
-  > `Genshin-Wishes`
-  자세한 내용은 [**문서**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) 를 참조하세요.
+  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  {supported_file_types}
+  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
 IMPORT_COMMAND_TITLE: 원신 위자드 | 기원 기록 입력하기
 IMPORT_COMMAND_FILE_DETECTED: |
   **감지된 소스: `{source}`**
