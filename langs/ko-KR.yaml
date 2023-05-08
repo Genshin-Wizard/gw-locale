@@ -256,7 +256,7 @@ APP_COMMAND_CRITVALUE_DESCRIPTION: 특정 성유물의 CV(CRIT Value) 값을 계
 APP_COMMAND_TRUTH_DESCRIPTION: 페이몬의 지혜를 기대하라구.
 APP_COMMAND_CHANGEPREFIX_DESCRIPTION: 원신 위자드의 접두사를 변경할 수 있어.
 APP_COMMAND_PITY_DESCRIPTION: 원신의 기원 시스템의 이해를 위한 정보야.
-APP_COMMAND_MATH_DESCRIPTION: Compute simple or complex functions.
+APP_COMMAND_MATH_DESCRIPTION: 간단하거나 복잡한 수학 식들을 계산할 수 있어.
 APP_COMMAND_EVENTS_DESCRIPTION: 현재 진행중인 원신 이벤트를 확인하자.
 APP_COMMAND_SENDCODES_DESCRIPTION: 리딤코드 사용을 위한 메시지를 전송해줘.
 APP_COMMAND_FEEDBACK_DESCRIPTION: 원신 위자드 개발자들에게 여행자의 피드백을 보내줘.
@@ -657,16 +657,16 @@ REGISTER_COMMAND_CONSOLE_DIRECTIONS: 2.3 업데이트 이벤트 링크는 더 �
 REGISTER_COMMAND_PLATFORM_SELECTION: Genshin Impact를 플레이하기 위해 어떤 플랫폼을 사용하시나요?
 REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | 기원기록등록
 REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
-  Welcome to Genshin Wizard's Registration system.
+  여행자! Genshin Wizard 의 등록 시스템에 온 걸 환영해!
 
-  **Linking Features:**
-  > **1.** Keep track of your wish history.
-  > **2.** View in-depth wish history statistics along with your banner pities.
-  > **3.** View whether you're on your guaranteed limited pity or not.
-  > **4.** Full Genshin Wizard profile capabilities.
-  > **5.** Access to all commands that are accessible by [**Linking UID**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-registration).
+  **연결 후 확인해볼 수 있는 기능들:**
+  > **1.** 여행자의 모든 기원 기록을 추적할 수 있어.
+  > **2.** 지금까지 여행자가 진행한 총 기원 통계와 각 배너별 스택을 확인할 수 있어.
+  > **3.** 현재 스택이 확정 스택인지 여부를 확인할 수 있어.
+  > **4.** Genshin Wizard 에서 제공하는 프로필 기능을 사용할 수 있어.
+  > **5.** UID를 연결하면 [**모든 Genshin Wizard 의 명령어**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-registration) 들을 사용할 수 있어!
 
-  Which platform do you use to play Genshin Impact?
+  자, 그럼. 여행자가 어떤 시스템에서 원신을 즐기고있는지 알려줄래?
 ERROR_INVALID_UID: Genshin 계정을 Discord 계정에 연결하려면 유효한 UID를 입력하세요.
 ERROR_INVALID_REGISTRATION_URL: 여행자! 이건 **잘못된 링크**야!! 진행 순서를 잘 지켰는지 확인해주고, 다시 시도해줘!
 ERROR_UNEXPECTED_ERROR: 예상치 못한 오류가 발생했습니다. 개발자에게 피드백을해주세요!
@@ -1565,7 +1565,7 @@ MOST_USED_CHARACTERS: 최대 출전
 ABYSS_IMAGE_TITLE: 나선비경 통계
 ABYSS_FLOOR_COMPLETION: 나선비경 층별 기록
 WORLD_LEVEL_KEY: 월드 레벨
-PROFILE_SHOWCASE_TITLE: 원신 위자드 쇼케이스
+PROFILE_SHOWCASE_TITLE: Genshin Wizard 프로필
 ADVENTURE_RANK_KEY: 모험랭킹
 HIDE_WEAPON_KEY: 무기 정보 숨기기
 SHOW_WEAPON_KEY: 무기 정보 표시
@@ -1595,26 +1595,26 @@ WEAPON_BOW: 활
 WEAPON_CLAYMORE: 양손검
 WEAPON_POLE: 창
 WEAPON_SWORD_ONE_HAND: 한손검
-GUIDE_LIST_FOOTER: Use the /guide <character> command to view a character's guide!
-NO_BANNERS_ERROR: There are **no event banners** currently running.
-APP_COMMAND_FURNITURE_DESCRIPTION: Look up information on a specific piece of furniture in Genshin Impact.
-APP_COMMAND_DESCRIBE_FURNITURE: The name of the furnishing you want to look-up.
-COMFORT_KEY: Comfort
+GUIDE_LIST_FOOTER: /guide <character> 를 이용해서 선택한 캐릭터의 가이드를 확인할 수 있어!
+NO_BANNERS_ERROR: 현재 진행중인 **이벤트 기원** 이 없어.
+APP_COMMAND_FURNITURE_DESCRIPTION: 특정 가구에 대한 정보를 확인할 수 있어.
+APP_COMMAND_DESCRIBE_FURNITURE: 확인하고자 하는 가구의 이름이야.
+COMFORT_KEY: 편안함
 LOAD_KEY: 불러오기
 CREATION_TIME_KEY: 생성된 시간
 TRUST_KEY: 믿음
-FURNISHING_DETAILS_KEY: Furnishing Details
+FURNISHING_DETAILS_KEY: 가구의 세부 정보
 INGREDIENTS_KEY: 재료
 SOURCE_KEY: 소스
-APP_COMMAND_MATERIAL_DESCRIPTION: Look up information on a specific material in Genshin Impact.
-APP_COMMAND_DESCRIBE_MATERIAL: The name of the material you want to look-up.
-APP_COMMAND_NAMECARD_DESCRIPTION: Look up information on a specific namecard in Genshin Impact.
-APP_COMMAND_DESCRIBE_NAMECARD: The name of the namecard you want to look-up.
-APP_COMMAND_RECIPE_DESCRIPTION: Look up information on a specific recipe in Genshin Impact.
-APP_COMMAND_DESCRIBE_RECIPE: The name of the recipe you want to look-up.
-APP_COMMAND_MONSTER_DESCRIPTION: Look up information on a specific monster in Genshin Impact.
-APP_COMMAND_DESCRIBE_MONSTER: The name of the monster you want to look-up.
-SYNERGY_IMAGE_DESCRIPTION: Character synergy information are subject to change from update to update.*
+APP_COMMAND_MATERIAL_DESCRIPTION: 원신의 자원에 대한 정보를 확인할 수 있어.
+APP_COMMAND_DESCRIBE_MATERIAL: 확인하고자 하는 자원의 이름이야.
+APP_COMMAND_NAMECARD_DESCRIPTION: 원신의 명함에 대한 정보를 확인할 수 있어.
+APP_COMMAND_DESCRIBE_NAMECARD: 확인하고자 하는 명함의 이름이야.
+APP_COMMAND_RECIPE_DESCRIPTION: 원신의 요리법에 대한 정보를 확인할 수 있어.
+APP_COMMAND_DESCRIBE_RECIPE: 확인하고자 하는 요리법의 이름이야.
+APP_COMMAND_MONSTER_DESCRIPTION: 원신의 몬스터에 대한 정보를 확인할 수 있어.
+APP_COMMAND_DESCRIBE_MONSTER: 확인하고자 하는 몬스터의 이름이야.
+SYNERGY_IMAGE_DESCRIPTION: 캐릭터 조합에 대한 정보는 원신의 버전 업데이트마다 변경될 수 있어!*
 GENSHIN_WIZARD_LEADERBOARD: 원신 위자드 통계표
 RECENT_PITIES_KEY: 최근 뽑기 기록
 NOVICE_BANNER_KEY: 초심자 기원
@@ -1625,10 +1625,10 @@ FIVE_STAR_PITY: 5성 스택
 FOUR_STAR_PITY: 4성 스택
 FIVE_STAR_PERCENTAGE: 5성 확률
 FOUR_STAR_PERCENTAGE: 4성 확률
-SIGN_IN_TITLE: Checked in {total_days} day(s) this month.
+SIGN_IN_TITLE: 이번 달에 총 {total_days} 일 수령했어.
 SIGN_IN_DESCRIPTION: "*/daily 명령어를 이용해서 일일 보상 받는걸 깜빡하지마!"
 INVOKATION_LEVEL: "레벨:"
 INVOKATION_NICKNAME: "닉네임:"
-INVOKATION_TITLE: "Genius Invokation TCG"
-INVOKATION_SHOWCASE: "Card Showcase"
-INVOKATION_SUMMARY: "Trading Card Summary"
+INVOKATION_TITLE: "일곱 성인의 소환"
+INVOKATION_SHOWCASE: "일곱 성인의 소환 카드 쇼케이스"
+INVOKATION_SUMMARY: "일곱성인의 소환 카드 개요"
