@@ -109,7 +109,7 @@ MENU_COOLDOWN_TITLE: That menu is on cooldown!
 BUTTON_COOLDOWN_TITLE: That button is on cooldown!
 COMMAND_COOLDOWN_TITLE: That command is on cooldown!
 MENU_COOLDOWN_VALUE: You're clicking attributes too quickly! Try again in **{cooldown}** seconds.
-CHARACTER_SHOWCASE_TITLE: 角色展示櫃
+CHARACTER_SHOWCASE_TITLE: 角色面板
 ERROR_RATELIMIT: User is currently ratelimited.
 ERROR_COMMAND_COOLDOWN_VALUE: Try using this command again in {cooldown} secs.
 ERROR_COMMAND_LONG_COOLDOWN_VALUE: Try using this command again in <t:{cooldown}:R>
@@ -154,7 +154,7 @@ FEEDBACK_LOG_RESPONSE: |
   > Discord ID: `{author_id}`
 
   **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </register:{command_id}> to link your account.
+NO_HOYOLAB_LINKED: 您尚未關聯您的 HoYoLAB 帳戶。使用 </register:{command_id}> 鏈接您的帳戶。
 OLD_HOYOLAB_LINKED: |
   你好旅行者！對於給您帶來的不便，我們深表歉意，但此功能是在您將 `HoYoLAB` 帳戶註冊到 Genshin Wizard **後**實施的。
 
@@ -170,8 +170,8 @@ GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*兌換代碼已成功兌換！*"
-APP_COMMAND_INFO_DESCRIPTION: 展示遊戲內的角色展示櫃陣容
+CODE_REDEEM_SUCCESS: "*兌換代碼已嘗試兌換！*"
+APP_COMMAND_INFO_DESCRIPTION: 展示遊戲內的角色面板陣容
 APP_COMMAND_EXPORT_DESCRIPTION: 透過私人訊息將祈願歷史記錄輸出為文字檔案
 APP_COMMAND_HISTORY_DESCRIPTION: 檢視遊戲內的祈願歷史記錄
 APP_COMMAND_DAILY_DESCRIPTION: 領取 HoYoLAB 每日簽到獎勵
@@ -228,7 +228,7 @@ APP_COMMAND_WEAPON_DESCRIPTION: 查詢特定武器的升級突破材料
 APP_COMMAND_GUIDE_DESCRIPTION: Look up a character guide for a specific Genshin character.
 APP_COMMAND_BUILD_DESCRIPTION: Look up build(s) for a specific Genshin character.
 APP_COMMAND_PLAYSTYLE_DESCRIPTION: Look up playstyles for a specific Genshin character.
-APP_COMMAND_ASCENSION_DESCRIPTION: Look up a ascension materials for a specific Genshin character.
+APP_COMMAND_ASCENSION_DESCRIPTION: 查閱指定原神角色的培育素材。
 APP_COMMAND_SYNERGY_DESCRIPTION: Look up a character and team synergies for a specific Genshin character.
 APP_COMMAND_CONSTELLATIONS_DESCRIPTION: Look up constellations for a specific Genshin character.
 APP_COMMAND_SKILLS_DESCRIPTION: Look up skill talents for a specific Genshin character.
@@ -277,7 +277,7 @@ ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
 WHAT_HAPPENED_VALUE: 此問題最常見的原因是您嘗試搜索的 genshin 帳戶尚未設置為公開。要解決此問題，請在 Genshin 的個人資料中啟用“顯示角色詳細信息”。請參考下圖。
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
-INFO_COMMAND_SHOWCASE_TITLE: 角色展示櫃
+INFO_COMMAND_SHOWCASE_TITLE: 角色面板
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: 在 Enka.Network 上檢視
 REFRESHES_KEY: 更新時間
 INFO_COMMAND_CHARACTER_DETAILS: 角色
