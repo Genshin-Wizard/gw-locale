@@ -225,20 +225,20 @@ APP_COMMAND_ARTIFACTS_DESCRIPTION: 顯示可用工件列表。
 APP_COMMAND_TRANSLATE_DESCRIPTION: 關於如何為Genshin Wizard's原神法師的翻譯做出貢獻的信息。
 APP_COMMAND_ID_DESCRIPTION: 使用其 ID 查找任何遊戲內物品。
 APP_COMMAND_WEAPON_DESCRIPTION: 查詢特定武器的升級突破材料
-APP_COMMAND_GUIDE_DESCRIPTION: Look up a character guide for a specific Genshin character.
+APP_COMMAND_GUIDE_DESCRIPTION: 查閱指定原神角色的身份背景資訊。
 APP_COMMAND_BUILD_DESCRIPTION: Look up build(s) for a specific Genshin character.
 APP_COMMAND_PLAYSTYLE_DESCRIPTION: Look up playstyles for a specific Genshin character.
 APP_COMMAND_ASCENSION_DESCRIPTION: 查閱指定原神角色的培育素材。
 APP_COMMAND_SYNERGY_DESCRIPTION: Look up a character and team synergies for a specific Genshin character.
 APP_COMMAND_CONSTELLATIONS_DESCRIPTION: Look up constellations for a specific Genshin character.
-APP_COMMAND_SKILLS_DESCRIPTION: Look up skill talents for a specific Genshin character.
+APP_COMMAND_SKILLS_DESCRIPTION: 查找特定原神角色的技能天賦。
 APP_COMMAND_PASSIVE_DESCRIPTION: Look up passive talents for a specific Genshin character.
 APP_COMMAND_GUIDES_DESCRIPTION: Display a list of available character guides.
 APP_COMMAND_REFERENCE_DESCRIPTION: Search for a specific reference sheet.
 APP_COMMAND_REFERENCESHEETS_DESCRIPTION: View all available reference sheets.
 APP_COMMAND_TODO_DESCRIPTION: Check daily/weekly events in Genshin Impact.
 APP_COMMAND_BANNERS_DESCRIPTION: View ongoing Genshin Impact event banners.
-APP_COMMAND_CONFIG_DESCRIPTION: Genshin Wizard config setup panel, configure automatic announcements and more!
+APP_COMMAND_CONFIG_DESCRIPTION: Genshin Wizard 配置設置面板，配置自動公告等等！
 APP_COMMAND_PARTNER_DESCRIPTION: hidden
 APP_COMMAND_SETUP_DESCRIPTION: Genshin Wizard Role Integration Setup Panel.
 APP_COMMAND_PREMIUM_DESCRIPTION: Purchase Genshin Wizard Premium to gain access to premium features.
@@ -311,11 +311,11 @@ APP_COMMAND_DESCRIBE_USER: The name of the member you are trying to search for.
 APP_COMMAND_DESCRIBE_USER_AVATAR: The member you wish to view an avatar for.
 APP_COMMAND_DESCRIBE_UID: The UID of the member you are trying to search for.
 APP_COMMAND_DESCRIBE_USER_WISH: Search up a specific user's Genshin Wish history.
-APP_COMMAND_DESCRIBE_AUTOCLAIM: Enable/Disable automatic HoYoLAB daily sign-in.
+APP_COMMAND_DESCRIBE_AUTOCLAIM: 啟用/禁用 HoYoLAB 每日自動簽到。
 ENABLE_KEY: Enable
 DISABLE_KEY: Disable
-ENABLE_AUTOCLAIM: Enable automatic daily sign-in.
-DISABLE_AUTOCLAIM: Disable automatic daily sign-in.
+ENABLE_AUTOCLAIM: 啟用每日自動簽到。
+DISABLE_AUTOCLAIM: 停用每日自動簽到。
 APP_COMAND_DESCRIBE_CODES: 您希望為您的帳戶兌換的兌換代碼。
 APP_COMMAND_DESCRIBE_DATA: The file you are trying to import your wish history from.
 APP_COMMAND_DESCRIBE_RESOURCE: The resource you are trying to search for.
@@ -334,7 +334,7 @@ APP_COMMAND_DESCRIBE_CHARACTER_GUIDE: The name of the character you want to look
 APP_COMMAND_DESCRIBE_CHARACTER_BUILD: The name of the character you want to look-up a build for.
 APP_COMMAND_DESCRIBE_CHARACTER_PLAYSTYLE: The name of the character you want to look-up a playstyle for.
 APP_COMMAND_DESCRIBE_CHARACTER_SYNERGY: The name of the character you want to look-up team synergies for.
-APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION_LOOKUP: The name of the character you want to look-up ascension materials for.
+APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION_LOOKUP: 您要其查找升级素材的角色的名稱。
 APP_COMMAND_DESCRIBE_CHARACTER_CONSTELLATIONS: The name of the character you want to look-up constellations for.
 APP_COMMAND_DESCRIBE_CHARACTER_SKILLS: The name of the character you want to look-up skill talents for.
 APP_COMMAND_DESCRIBE_CHARACTER_PASSIVE: The name of the character you want to look-up passive talents for.
@@ -389,13 +389,13 @@ LINK_HOYOLAB_DESCRIPTION: |
   > **5.** 檢視已取得角色的資訊卡片
 
   如要開始，請點選下方的註冊選項！
-HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Automatic Daily Sign-in
+HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | 每日自動簽到
 AUTOCLAIM_ALREADY_DISABLED: Automatic HoYoLAB daily sign-in is already disabled.
 AUTOCLAIM_ALREADY_ENABLED: Automatic HoYoLAB daily sign-in is already enabled.
 AUTOCLAIM_DISABLED: Automatic HoYoLAB daily sign-in has been disabled.
 AUTOCLAIM_ENABLED: Automatic HoYoLAB daily sign-in has been enabled.
 AUTOCLAIM_VOTE_REQUIREMENT: You must **__vote__** for our server and bot before being able to enable autoclaim!
-HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | HoYoLAB Daily Sign-in
+HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | HoYoLAB 每日簽到
 HOYOLAB_SIGN_IN_REWARDS: |
   Successfully **claimed** daily reward!
 
@@ -931,12 +931,12 @@ EVENT_BANNER_WEEKLY: |
   ☑️ Parametric Transformer
   ☑️ Weekly Battle Pass Quests
   ☑️ Weekly Boss, Vendors, etc.
-CONFIGURATION_PANEL_TITLE: Genshin Wizard | Config Panel
-CONFIGURATION_CHANGE_MESSAGE: "Make changes to Genshin Wizard's configuration panel. See our [**Documentation**](https://docs.genshinwizard.com/overview/server-panels) for more information."
+CONFIGURATION_PANEL_TITLE: Genshin Wizard | 配置面板
+CONFIGURATION_CHANGE_MESSAGE: "更改 Genshin Wizard 的配置面板。有關詳細信息，請參閱我們的 [**文檔**](https://docs.genshinwizard.com/overview/server-panels)。"
 CHANNEL_KEY: Channel
 CONFIGURATION_CHANNEL_CLEAN: Please make sure the channel you wish to use is completely empty and that the bot has permissions to view and create webhooks within that channel!
 GUILD_KEY: Guild
-DAILY_ANNOUNCEMENTS_KEY: Daily Announcements
+DAILY_ANNOUNCEMENTS_KEY: 每日公告
 ROLE_KEY: Role
 SERVER_TIME_PANEL_KEY: Server Time Panel
 DOMAIN_SCHEDULE_KEY: Domain Schedule
@@ -1113,7 +1113,7 @@ REGISTER_LOGIN_BUTTON: Register via Login
 ENTER_TOKEN_BUTTON: 輸入 token
 REGISTER_ACCOUNT_BUTTON: 註冊帳號
 CHARACTERS_BUTTON: Characters
-CLAIM_DAILY_REWARD_BUTTON: Claim Daily Reward
+CLAIM_DAILY_REWARD_BUTTON: 領取每日獎勵
 MONTHLY_REWARDS_BUTTON: Monthly Rewards
 VIEW_TRAVELER_DIARY_BUTTON: View Traveler's Diary
 RELINK_ACCOUNT_BUTTON: 重新連結帳號
@@ -1254,7 +1254,7 @@ REGION_SELECT_PLACEHOLDER: Select a region...
 AMERICA_KEY: 美洲
 EUROPE_KEY: 歐洲
 ASIA_KEY: 亞洲
-SAR_KEY: SAR
+SAR_KEY: 港澳臺服(SAR)
 AMERICA_SERVER_DOMAIN_SCHEDULE: 查看美國服務器的當前時間表。
 EUROPE_SERVER_DOMAIN_SCHEDULE: 查看歐洲服務器的當前時間表。
 ASIA_SERVER_DOMAIN_SCHEDULE: 查看亞洲服務器的當前時間表。
@@ -1278,21 +1278,21 @@ CONSTELLATIONS_DESCRIPTION: View Character Constellations Overview
 SKILL_TALENTS_DESCRIPTION: 查看角色主動/技能天賦
 PASSIVE_TALENTS_DESCRIPTION: 查看角色被動天賦
 VIEW_CARD_BUTTON: View Card on HoYoLAB Wiki
-CONFIG_DAILY_ANNOUNCEMENTS_PANEL: Daily Announcements Panel
+CONFIG_DAILY_ANNOUNCEMENTS_PANEL: 每日公告面板
 CONFIG_SERVER_TIME_PANEL: Server Time Panel
-CONFIG_DOMAIN_SCHEDULE_PANEL: Domain Schedule Panel
+CONFIG_DOMAIN_SCHEDULE_PANEL: 地域時間表面板
 CONFIG_CUSTOM_BANNER: Custom Banner
 SERVER_SELECT_PLACEHOLDER: Choose server-time for announcements...
 MASTER_SWITCH_BUTTON: Enable/Disable All
 SWITCH_BUTTON: Enable/Disable
 PING_ROLE_BUTTON: Ping Role
 TEST_KEY: 測試
-DAILY_ANNOUNCEMENT_MODAL_TITLE: Daily Announcements Integration
+DAILY_ANNOUNCEMENT_MODAL_TITLE: 每日公告整合
 DAILY_ANNOUNCEMENT_AMERICA_PING_ROLE: America Ping Role ID
 DAILY_ANNOUNCEMENT_EUROPE_PING_ROLE: Europe Ping Role ID
 DAILY_ANNOUNCEMENT_ASIA_PING_ROLE: Asia Ping Role ID
 DAILY_ANNOUNCEMENT_SAR_PING_ROLE: SAR Ping Role ID
-DAILY_ANNOUNCEMENT_CHANNEL: Announcement Channel ID
+DAILY_ANNOUNCEMENT_CHANNEL: 公告頻道ID
 MODAL_ROLE_ID_PLACEHOLDER: Insert Desired Role ID here...
 MODAL_CHANNEL_ID_PLACEHOLDER: Insert Desired Channel ID here...
 MODAL_ROLE_OR_CHANNEL_ID_PLACEHOLDER: Insert Desired Channel/Role ID here...
@@ -1462,7 +1462,7 @@ HOYO_API_LIMITATION: "*Data may be inaccurate due to HoYoLAB API limitations"
 CHECK_IN_GAME: "遊戲中查看最準確的信息"
 HOYO_COMMISSION_KEY: "Commissions:"
 HOYO_ADVENTURE_RANK_KEY: "冒險等級:"
-HOYO_DAILY_BONUS_STATUS: "Daily Sign-In:"
+HOYO_DAILY_BONUS_STATUS: "每日簽到:"
 HOYO_RESIN_KEY: "Resin:"
 HOYO_TEAPOT_KEY: "Teapot:"
 HOYO_TRANSFORMER_KEY: "P. Transformer:"
