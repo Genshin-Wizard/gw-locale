@@ -204,7 +204,7 @@ APP_COMMAND_WISHSIMULATOR_DESCRIPTION: 기원 시뮬레이터로 여행자의 �
 APP_COMMAND_INVENTORY_DESCRIPTION: 여행자의 기원 시뮬레이터 배낭을 확인해.
 APP_COMMAND_SHOP_DESCRIPTION: 기원 시뮬레이터용 상점을 확인해.
 APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: 여행자가 진행한 기원 시뮬레이터의 획득 기록을 확인해.
-APP_COMMAND_COMMISSIONS_DESCRIPTION: 기원 시뮬레이터 일일 보상 수령하기
+APP_COMMAND_COMMISSIONS_DESCRIPTION: 기원 시뮬레이터 일일 보상 수령
 APP_COMMAND_BALANCE_DESCRIPTION: 여행자의 기원 시뮬레이터 잔액 정보를 확인해.
 APP_COMMAND_EDIT_DESCRIPTION: 원신 위자드의 캐릭터 상세정보를 수정할 수 있어.
 APP_COMMAND_EDIT_ADD_DESCRIPTION: 특정 캐릭터의 빌드를 추가할 수 있어.
@@ -398,20 +398,20 @@ AUTOCLAIM_ALREADY_DISABLED: 자동 호요랩 일일 로그인은 이미 비활�
 AUTOCLAIM_ALREADY_ENABLED: 자동 호요랩 일일 로그인이 이미 활성화되어 있습니다.
 AUTOCLAIM_DISABLED: 자동 호요랩 일일 로그인이 비활성화되었습니다.
 AUTOCLAIM_ENABLED: 자동 호요랩 일일 로그인이 활성화되었습니다.
-AUTOCLAIM_VOTE_REQUIREMENT: '**__vote__**(봇/서버투표)를 해야만 자동 출석체크가 가능합니다!'
-HOYOLAB_SIGN_IN_TITLE: 원신 위자드 | 호요랩 출석체크
+AUTOCLAIM_VOTE_REQUIREMENT: '**__vote__** 저희 서버 및 봇 투표를 해주셔야만 자동 출석체크가 가능합니다!'
+HOYOLAB_SIGN_IN_TITLE: 원신 위자드 | 호요랩 일일 출석체크
 HOYOLAB_SIGN_IN_REWARDS: |
-  성공적으로 **수령된** 일일 보상!
+  일일 보상이 **성공적으로 수령**되었습니다!
 
   받은 보상: `{rewards}`
   금액: `x{amount}`
 HOYOLAB_MONTHLY_REWARDS_TITLE: 원신 위자드 | 호요랩 월간 보상
-HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: 이번달의 HoYoLAB 일일 보상을 확인하세요
+HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: 이번 달의 HoYoLAB 일일 보상 확인
 HOYOLAB_DIARY_TITLE: 원신 위자드 | 여행자 핸드북
 HOYOLAB_INVALID_REDEEM: |
-  교환하려면 교환 코드를 제공해야 합니다.
+  수령하시려면 리딤 코드를 입력해야 합니다.
   **올바른 명령 사용법** ```/redeem CODE_ONE,CODE_TWO,...```
-CHINA_NOT_ALLOWED: 중국서버 사용자를 위한 리딤 코드는 아직 지원되지 않습니다.
+CHINA_NOT_ALLOWED: 중국서버 사용자를 위한 리딤 코드 입력 기능은 아직 지원되지 않습니다.
 HOYOLAB_OVERVIEW_TITLE: 원신 위자드 | 호요랩 전적
 HOYOLAB_LOADING_ACCOUNT: 계정 정보 불러오는 중....
 HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> 계정의 **실시간 메모** 정보를 검색하는 동안 오류가 발생했습니다! *나중에* 다시 시도하거나 [**공식 지원 서버**](https://discord.gg/BTT5Zr7Dmp)에 가입하여 도움을 받으세요.
@@ -419,9 +419,9 @@ HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> 계정의 **게임
 HOYOLAB_ACCOUNT_ERROR: 계정 정보를 가져오는 중에 오류가 발생했습니다! 나중에 다시 시도 해주십시오*.
 HOYOLAB_ACCOUNT_MANAGE: 원신 위자드로 여행자의 호요랩 계정을 관리해봐
 HOYOLAB_CHARACTER_SUMMARY_TITLE: 원신 위자드 |캐릭터 요약
-CHARACTER_SUMMARY_NOT_FULL: 이 기능은 가챠 기록을 기반으로 합니다. 가장 최근의 쇼케이스(레벨, 호감도, 별자리돌파, 모험가레벨 포함)를 보려면 /register 명령으로 등록을 하세요.
+CHARACTER_SUMMARY_NOT_FULL: 이 기능은 가챠 기록을 기반으로 합니다. 가장 최근의 쇼케이스 (레벨, 호감도, 별자리돌파, 모험가레벨 포함) 를 보려면 /register 명령으로 등록을 하세요.
 GCG_NO_CARDS_FOUND: 카드를 찾을 수 없습니다!
-GCG_NO_CARDS_FOUND_DESCRIPTION: 여행자! 아쉽게도 {member}(은) 는 카드가 **하나도** 없는 것 같아! `일곱 성인의 소환`을 즐기며 카드를 획득하고 돌아와줘!
+GCG_NO_CARDS_FOUND_DESCRIPTION: 여행자! 아쉽게도 {member} 은/는 카드가 **하나도** 없는 것 같아! `일곱 성인의 소환`을 즐기며 카드를 획득하고 돌아와줘!
 HOYOLAB_REGISTER_SCRIPT_TITLE: 등록 | 스크립트 방식
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
   **호요랩 계정을 원신 위자드와 연결하는 방법**
@@ -448,25 +448,24 @@ HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
 UNLINKING_SUCCESSFUL: 탈퇴 성공!
 UNLINKING_SUCCESSFUL_DESCRIPTION: 계정이 성공적으로 탈퇴되었습니다.
 UNLINKING_UNSUCCESSFUL: 연결 해제 실패!
-UNLINKING_UNSUCCESSFUL_DESCRIPTION: 오류가 발생해 탈퇴에 실패했습니다. 잠시 후에 다시 시도하거나 직원에게 문의하십시오.
+UNLINKING_UNSUCCESSFUL_DESCRIPTION: 오류가 발생해 탈퇴에 실패했습니다. 잠시 후에 다시 시도하거나 관리자에게 문의하십시오.
 UNLINKING_CANCELLED: 탈퇴 취소!
 UNLINKING_CANCELLED_DESCRIPTION: 탈퇴를 취소했습니다.
-OBTAINED_KEY: 획득
-NOT_OWNED_KEY: 아직 보유하지 않았습니다
+OBTAINED_KEY: 획득됨
+NOT_OWNED_KEY: 미보유
 PROFICIENCY_KEY: 숙련도
 USE_COUNT_KEY: 사용 횟수
 IMPORT_ERROR: 가져오기 오류가 발생했습니다.
 FOOTER_ERROR_DESCRIPTION: 오류라고 생각한다면, 관리자에게 꼭 문의해줘!
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
   지원되지 않는 데이타입니다. 현재 가져오기는 다음 사이트에서만 허용합니다:
-  > `Paimon.moe`
-  > `Genshin-Wishes`
+  {supported_file_types}
   자세한 내용은 [**문서**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) 를 참조하세요.
-IMPORT_COMMAND_TITLE: 원신 위자드 | 기원 기록 입력하기
+IMPORT_COMMAND_TITLE: 원신 위자드 | 기원 기록 가져오기
 IMPORT_COMMAND_FILE_DETECTED: |
   **감지된 소스: `{source}`**
   *기원 기록을 가져오는 동안 잠시 기다려 주십시오...*
-IMPORT_COMMAND_TAMPERED: 가져오려는 데이터가 **무단 변경** 되었습니다. 가져오기 전에 파일 내의 어떤 것도 변경하지 마세요. 파일을 새로 다운로드하고 다시 가져오기를 시도하세요.
+IMPORT_COMMAND_TAMPERED: 가져오려는 데이터가 **무단 변경** 되었습니다. 가져오기 전에 파일 내의 어떤 것도 **변경하지 마세요.** 파일을 새로 다운로드하고 *다시* 가져오기를 시도하세요.
 IMPORT_COMMAND_BANNER_IMPORTED: 성공적으로 `{number_wishes}`개의 {banner_name} 배너 기원 기록을 가져왔습니다!
 IMPORT_COMMAND_SUCCESS: 모든 배너에서 새 `{total_wishes}`개의 기원 기록을 성공적으로 가져왔습니다! 이제 </history:{command_id}>명령을 통해 뽑기 기록에 대한 자세한 정보를 볼 수 있습니다.
 IMPORT_COMMAND_LOG: |
@@ -475,24 +474,24 @@ IMPORT_COMMAND_LOG: |
   **길드:** `{guild_id}` | `{guild_name}`
 
   **감지된 소스:** `{source}`
-  **총합:** `{total}`뽑
+  **총합:** `{total}`개를 가져왔습니다!
   > 3성: `{three_star}`
   > 4성: `{four_star}`
   > 5성: `{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: 기존 기원 기록을 가져오려면 이미 등록되어 있어야 합니다! </register:{command_id}>명령을 사용하여 등록한 후 다시 시도해 주세요.
+IMPORT_COMMAND_NOT_REGISTERED: 기존 기원 기록을 가져오려면 이미 **등록**되어 있어야 합니다! </register:{command_id}> 명령을 사용하여 등록한 후 다시 시도해 주세요.
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: 기록 링크가 만료됨!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: 기록 링크가 **만료**되었습니다! 가져오기를 시도하기 전에 </refresh:{command_id}> 명령을 사용하여 새로 고쳐주세요!
 IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: 지원되지 않는 파일 형식입니다. `Paimon.moe`에서 데이터를 가져오려는 경우 (https://paimon.moe/wish)의 페이지 설정에서 엑셀 시트를 다운로드했는지 확인하세요. 자세한 내용은 [**문서**](https://docs.genshinwizard.com/wishing-centre/importing-wishes)를 참조하세요.
 IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: 지원되지 않는 파일 형식입니다. 가져오기 전에 파일 형식을 바꾸지 않았는지 확인해주세요. 자세한 내용은 [**문서**](https://docs.genshinwizard.com/wishing-centre/importing-wishes)를 확인해주세요.
 LEADERBOARD_NO_DATA: 이 쿼리에 대한 데이터를 찾을 수 없습니다!
 LEADERBOARD_EXPERIENCE_FOOTER: Genshin Wizard 서버에서 활동하면 경험치를 얻을 수 있습니다. Genshin Wizard 랭킹 레벨을 높이려면 많이 채팅하세요!
-LEADERBOARD_WISHES_FOOTER: 유저의 뽑기 기록은 새로고침 명령(/refresh 또는 /import)을 통해 업데이트 됩니다. 업데이트된 기원 기록을 보려면 배너를 확인하세요!
+LEADERBOARD_WISHES_FOOTER: 유저의 뽑기 기록은 새로고침 명령 (/refresh 또는 /import) 을 통해 업데이트 됩니다. 업데이트된 기원 기록을 보려면 배너를 확인하세요!
 LEADERBOARD_PLAYTIME_FOOTER: 플레이 시간은 /stats 또는 /info 명령을 통해 업데이트됩니다. 계정의 통계/빌드를 자주 확인하여 플레이 시간을 갱신하세요!
 LEADERBOARD_ACHIEVEMENTS_FOOTER: 업적은 통계/정보 명령을 통해 업데이트됩니다. 통계/빌드를 자주 확인하여 업데이트된 업적 수를 적극적으로 얻으세요!
 LEADERBOARD_CHESTS_FOOTER: 연 보물상자 수는 /stats 명령을 통해 갱신이 가능합니다. 계정 스탯을 자주 확인해주세요!
 LEADERBOARD_GACHA_SIMULATOR_FOOTER: 가챠 시뮬레이터 순위표는 가챠 시뮬레이터를 사용하면 업데이트됩니다. 시뮬레이터를 많이 사용해주세요!
 LEADERBOARD_ARTIFACT_FOOTER: 현재 장비된 성유물 정보는 /info 명령을 통해 업데이트됩니다. 빌드를 자주 확인하여 업데이트된 통계를 얻으세요!
-LEADERBOARD_CHARACTER_STATISTICS_FOOTER: 캐릭터 스탯은 /info 명령을 통해 업데이트됩니다. 빌드를 자주 확인하여 스탯를 최신화하세요!
+LEADERBOARD_CHARACTER_STATISTICS_FOOTER: 캐릭터 스탯은 /info 명령을 통해 업데이트됩니다. 빌드를 자주 확인하여 캐릭터 스탯을 업데이트하세요!
 LEADERBOARD_ABYSS_FOOTER: 나선비경 통계는 진행 명령을 통해 업데이트되며, 나선비경 진행도를 자주 확인하여 항상 업데이트된 통계수치를 확인하세요!
 LEADERBOARD_DONATION_FOOTER: /donate 명령으로 후원해 이 순위표에 한 자리를 차지하세요!
 LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *데이터를 분석하는 중입니다. **기다려 주세요**...* <a:tyno:1001656937689120788>
@@ -501,21 +500,21 @@ QUERY_NO_RESULTS: "`{input}`에 대한 결과가 없습니다. 문구를 바꿔�
 LOCATION_COMMAND_ROUTES_TITLE: 파밍루트 요약
 LOCATION_COMMAND_MAP_TITLE: "{resource} 맵 위치"
 LOCATION_COMMAND_REGION_DESCRIPTION: "{region} 특산품"
-LOCATION_COMMAND_FARMABLE_FOOTER: 아이템 파밍 장소
+LOCATION_COMMAND_FARMABLE_FOOTER: 종류별 아이템 파밍 장소
 CALC_CHARACTER_INVALID_CHARACTER: 존재하는 캐릭터를 지정하세요!
-CALC_CHARACTER_INVALID_STARTING_LEVEL: 적절한 레벨을 입력해주세요!
-CALC_CHARACTER_INVALID_TARGET_LEVEL: 적절한 레벨을 입력해주세요!
+CALC_CHARACTER_INVALID_STARTING_LEVEL: 적절한 시작 레벨을 입력해주세요!
+CALC_CHARACTER_INVALID_TARGET_LEVEL: 적절한 목표 레벨을 입력해주세요!
 CALC_CHARACTER_REQUIREMENT_SURPASSED: 캐릭터가 주어진 목표 레벨을 이미 **넘었습니다**!
 CALC_CHARACTER_REQUIREMENT_MET: 캐릭터가 이미 주어진 원하는 레벨에 **도달**했습니다!
 CALC_CHARACTER_TITLE: Genshin Wizard | 캐릭터 계산
 CHARACTER_KEY: 캐릭터
-CURRENT_LEVEL_KEY: 현재레벨
+CURRENT_LEVEL_KEY: 현재 레벨
 TARGET_LEVEL_KEY: 목표 레벨
 REQUIRED_RESOURCES_KEY: 필요한 자원
 GENSHIN_WIZARD_USER_PROFILE: "{user} 의 원신 위자드 프로필"
 PROFILE_SUMMARY_KEY: 프로필 요약
-GENSHIN_WISH_STATS_KEY: Genshin 기원 기록
-PROFILE_COMMAND_FOOTER: 프로필 통계는 /profile 또는 /refresh 명령을 통해 업데이트됩니다. 프로필을 자주 확인하여 프로필을 최신화하세요!
+GENSHIN_WISH_STATS_KEY: 원신 기원 기록
+PROFILE_COMMAND_FOOTER: 프로필 통계는 /profile 또는 /refresh 명령(들) 을 통해 업데이트됩니다. 프로필을 자주 확인하여 최신화하세요!
 GENERATE_IMAGE_COOLDOWN: 이미지를 너무 빨리 생성하고 있습니다! **{seconds}**초 후에 이 버튼을 다시 사용해 보세요.
 GENSHIN_STATISTICS_INFOGRAPHIC: 원신 통계 인포그래픽
 GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: 여행자! 이건 여행자만을 위해 만들어진 여행자의 **특별한** 상태/진행상황 요약정보야!
@@ -540,9 +539,9 @@ PRIVACY_SETTING_OVERVIEW: |
    > *어디서나 표시되지 않도록 소원 기록 숨기기(`/history`)*
    **통계 개인정보 보호:** {stats_privacy}
    > *원신 통계 진행이 어디에도 표시되지 않도록 숨기기(`/stats`)*
-   **어비스 프라이버시:** {abyss_privacy}
+   **나선비경 데이터 보호:** {abyss_privacy}
    > *원신 나선비경 데이터 어디에도 표시되지 않도록 숨기기(`/abyss`)*
-   **정보 프라이버시:** {info_privacy}
+   **정보 보호:** {info_privacy}
    > *쇼케이스 빌드 정보가 어디에도 표시되지 않도록 숨기기(`/info`)*
 ALL_KEY: 전체
 RESET_KEY: 재설정
@@ -580,7 +579,7 @@ MISSING_IMAGE: 배너를 업데이트하려면 이미지 또는 이미지 링크
 PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | 프로필 배너 링크 업데이트
 IMAGE_LINK_KEY: 이미지 링크
 UPDATE_DATE_KEY: 업데이트 날짜
-SETTING_COMMAND_REQUIRE_SLASH: 슬래시 명령 (</settings:{command_id}>)을 사용하거나 프로필을 통해 접근하세요.
+SETTING_COMMAND_REQUIRE_SLASH: 슬래시 명령 (</settings:{command_id}>) 을 사용하거나 프로필을 통해 접근하세요.
 CURRENT_ABYSS_DESCRIPTION: |
   **현재 나선비경**
    **시작 시간:** <t:{timestamp_start}:F>
@@ -601,29 +600,29 @@ PUBLIC_KEY: 공개
 PRIVATE_KEY: 비공개
 CREATION_DATA_KEY: 최초 생성일
 JOIN_DATE_KEY: 가입일자
-NOT_HERE_KEY: 여기 없음
+NOT_HERE_KEY: 미존재
 LOCATION_KEY: 지역
 TOP_ROLE_KEY: 상위 역할
-RECENT_FIVE_STAR_CHARACTER: "**최근 5성 캐릭터**"
-RECENT_FIVE_STAR_WEAPON: "**최근 5성 무기**"
+RECENT_FIVE_STAR_CHARACTER: "**최근 5 :star: 캐릭터**"
+RECENT_FIVE_STAR_WEAPON: "**최근 5:star: 무기**"
 WISHES_WORTH_KEY: 기원 가치
 OVERALL_SUMMARY_KEY: 전체 요약
-OVERALL_STATS_KEY: 합계
-PERCENTAGE_KEY: 퍼센트
-TOTAL_WISHES_KEY: 모든기원
-TOTAL_KEY: 합계
-TOTAL_FIVE_STAR: 5성
+OVERALL_STATS_KEY: 전체 통계
+PERCENTAGE_KEY: 비율
+TOTAL_WISHES_KEY: 모든 기원
+TOTAL_KEY: 총합
+TOTAL_FIVE_STAR: 5성 총합
 NUMBER_FIVE_STAR: 5성 개수
-TOTAL_FOUR_STAR: 4성
+TOTAL_FOUR_STAR: 4성 총합
 NUMBER_FOUR_STAR: 4성 개수
-TOTAL_THREE_STAR: 3성
+TOTAL_THREE_STAR: 3성 총합
 REGISTER_PC_METHOD: "PC"
 REGISTER_ANDROID_METHOD: "안드로이드"
 IOS_KEY: "iOS"
 CONSOLE_KEY: "콘솔"
 REGISTER_IOS_METHOD: "iOS(앱 스트림 방법)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  사진포함 더 자세한 단계는 [Github 문서](https://github.com/Genshin-Wizard/historyLink)를 확인하세요.
+  예시 사진을 포함한 더 자세한 단계는 [Github 문서](https://github.com/Genshin-Wizard/historyLink)를 확인하세요.
 
   1. PC버전 원신을 엽니다.
   2. 게임 내에서 기원 -> 뽑기 기록 페이지로 이동합니다. 로드될 때까지 기다립니다.
@@ -655,7 +654,7 @@ REGISTER_COMMAND_IOS_DIRECTIONS: |
 RESELECT_PLATFORM_KEY: 플랫폼 재선택
 REGISTER_COMMAND_CONSOLE_DIRECTIONS: 2.3 업데이트 이벤트 링크는 더 이상 작동하지 않습니다. 즉, Playstation 계정을 Mihoyo 계정과 연결하고 대신 pc/모바일 방법을 사용하여 키를 얻을 수 있습니다.
 REGISTER_COMMAND_PLATFORM_SELECTION: Genshin Impact를 플레이하기 위해 어떤 플랫폼을 사용하시나요?
-REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | 기원기록등록
+REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | 기원 기록 등록
 REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
   여행자! Genshin Wizard 의 등록 시스템에 온 걸 환영해!
 
@@ -669,11 +668,11 @@ REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
   자, 그럼. 여행자가 어떤 시스템에서 원신을 즐기고있는지 알려줄래?
 ERROR_INVALID_UID: Genshin 계정을 Discord 계정에 연결하려면 유효한 UID를 입력하세요.
 ERROR_INVALID_REGISTRATION_URL: 여행자! 이건 **잘못된 링크**야!! 진행 순서를 잘 지켰는지 확인해주고, 다시 시도해줘!
-ERROR_UNEXPECTED_ERROR: 예상치 못한 오류가 발생했습니다. 개발자에게 피드백을해주세요!
-REGISTER_COMMAND_NO_WISHES_TITLE: 기원을 찾지못하였습니다!
+ERROR_UNEXPECTED_ERROR: 예상치 못한 오류가 발생했습니다. 개발자에게 피드백을 해주세요!
+REGISTER_COMMAND_NO_WISHES_TITLE: 기원 기록을 찾지 못하였습니다!
 REGISTER_COMMAND_NO_WISHES_DESCRIPTION: |
-  현재 아직 어떤 기원이 없습니다! 하나 이상의 배너에 희망을 표시한 후 다시 등록하십시오.
-  기원은 기원을 돌리고난뒤 약 1~2시간 후에 히스토리에 나타납니다.
+  현재 아직 어떠한 기원 뽑기 기록도 없습니다! 최소 한 번 이상의 기원 배너 뽑기를 진행하신 뒤 다시 등록하십시오.
+  기원은 뽑기 실행을 하신 뒤 약 1~2시간 후에 기록에 나타납니다.
 REFRESHING_USER: 사용자 새로고침 중...
 REGISTERING_USER: 사용자를 등록하는 중...
 RETRIEIVING_WISH_HISTORY: 기원 기록을 검색하는 중...
@@ -691,12 +690,12 @@ SUCCESSFULLY_REGISTERED_RESPONSE: |
   이제 마음껏 Genshin Wizard에서 제공해주는 다양한 명령어를 실행해볼 수 있어!
   자세한 내용이 궁금하면 </help:{command_id}> 명령어를 실행해보거나 [**공식 문서 페이지**](https://docs.genshinwizard.com/wishing-centre/commands)를 방문해줘!
 GENSHIN_WIZARD_REGISTRATION: 원신 위자드 등륵하기
-UNLINK_GENSHIN_ACCOUNT: Genshin 계정 연결 해제
+UNLINK_GENSHIN_ACCOUNT: 원신 계정 연결 해제
 UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: "원신 위자드에서 여행자의 계정 연결을 해제할게. 기원 기록, 통계 등을 포함한 여행자의 모든 정보가 원신 위자드에서 지워질거야. 참고로 이 작업은 **돌이킬 수 없어**.\n정말로 계속 할거야?"
 UNLINK_HOYOLAB_ACCOUNT: 호요랩 계정 연결 해제
 UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Genshin Wizard에서 효요랩 계정의 연결을 해제하십시오. Genshin Wizard에서 연결된 UID의 연결을 해제하지 않습니다. 이 작업은 **돌이킬 수 없습니다**. 정말로 계속하기를 원하십니까?
 PURGE_WISH_HISTORY: 기원 기록 삭제
-PURGE_WISH_HISTORY_DESCRIPTION: Genshin Wizard에서 기원 내역만 제거하면 Genshin 계정은 여전히 Genshin Wizard에 연결됩니다. 이 작업은 **돌이킬 수 없습니다**. 정말로 계속하기를 원하십니까?
+PURGE_WISH_HISTORY_DESCRIPTION: 기원 내역만 제거하더라도 원신 계정은 여전히 Genshin Wizard에 연결되어 있을 것입니다. 이 작업은 **되돌릴 수 없습니다**. 정말로 계속하기를 원하십니까?
 UNLINK_EVERYTHING: 모두 연결 해제
 UNLINK_EVERYTHING_BRIEF: 이 방법은 Genshin Wizard에서 **모든 것**의 연결을 해제합니다.
 UNLINK_EVERYTHING_DESCRIPTION: 이 방법은 Genshin Wizard에서 모든 연결을 해제합니다. 이 작업은 **돌이킬 수 없습니다**. 정말로 계속하기를 원하십니까?
@@ -706,11 +705,11 @@ USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: 다른 UID에 **이미 등록**되�
 GENSHIN_WIZARD_REGISTRATION_TITLE: 원신 위자드 등륵하기
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: 여행자의 정보를 원신 위자드에 등록해.
 HOYOLAB_ACCOUNT: 호요랩 계정
-LINKED_UID_KEY: 링크 UID
+LINKED_UID_KEY: 연결된 UID
 LINKED_KEY: 링크
-NOT_LINKED_KEY: 링크없음
+NOT_LINKED_KEY: 연결되지 않음
 LINKING_UID_DIRECTIONS: |
-  안녕, 여행자! Genshin Wizard에 너의 UID를 연결하려면, 너의 진짜 계정이 맞는지 **인증절차**를 꼭 거쳐야해!
+  안녕, 여행자! Genshin Wizard에 네 UID를 연결하려면, 네 진짜 계정이 맞는지 **인증절차**를 꼭 거쳐야해!
 
   **인증을 위한 고유 키**
   ```yaml
@@ -719,18 +718,18 @@ LINKING_UID_DIRECTIONS: |
   <t:{timeout}:R>
 
   어떻게 인증하면 되는거냐고?
-  > **1)** 게임에 접속해서 위의 인증을 위한 고유 키 값을 여행자의 프로필 창 **아무곳에나** 입력해줘! 별명도 좋고 설명란도 좋아!
-  > **2)** 키를 **정확하게** 입력했는지 꼭 재확인해줘! 잘못 입력됐다면 봇이 인증해주지 못할거야.
+  > **1)** 게임에 접속해서 위의 '인증을 위한 고유 키' 값을 여행자의 프로필 별명 또는 자기소개란 중 **아무곳에나** 입력해줘! 
+  > **2)** 키를 **정확하게** 입력했는지 꼭 재확인해줘! 잘못 입력됐다면 봇이 인증해 줄 수 없어.
   > **3)** 다 했어? **그럼 이제 끝이야!** 봇이 여행자를 인증 할 때까지 잠시만 기다려줘~
 LINKING_UID_FOOTER: 여행자의 계정을 확인할 때 까지 *차분하게* 기다려줘! 변경 사항이 적용되려면 5분에서 10분정도 걸릴 수 있어!
 LINKING_UID_KEY_EXPIRED: "여행자, 아무래도 지금 입력해준 키 값은 **만료**된 것 같아! 미안하지만 이거로는 확인해줄 수 없어.\n잠시만 기다렸다가 다시 시도해줘!"
-REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | 기원기록새로고침
+REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | 기원 기록 새로고침
 FORCE_REFRESH_FOOTER: 현재 기록 링크의 만료를 연장하기 위해 강제로 새로 고침하려면 아래 버튼 중 하나를 클릭하면 됩니다.
-UNLINKING_CENTRE_TITLE: Genshin Wizard | 연결해제센터
+UNLINKING_CENTRE_TITLE: Genshin Wizard | 연결 해제 센터
 UNLINKING_CENTRE_DESCRIPTION: "안녕, 여행자. Genshin Wizard의 연결 해제 센터에 어서와. 아래 보이는 버튼들로 연결된 정보를 관리할 수 있어.\n이곳의 모든 동작들은 Genshin Wizard에 등록된 여행자의 정보를 **완전하게 지울거야**. 진행한 동작은 **되돌릴 수 없으니까** 반드시 주의해줘!"
 INVALID_COOKIE_RESPONSE: ":no_entry: 유효한 **호요랩** 쿠키를 입력하지 않았습니다!"
 RETRIEVING_ACCOUNT_INFORMATION: "*계정 정보를 검색하는 중...*"
-SYNCED_HOYOLAB_UID: '**호요랩 ** UID 동기화 성공'
+SYNCED_HOYOLAB_UID: '**호요랩 ** UID 동기화 성공!'
 SYNCED_IN_GAME_UID: '**게임 내** UID를 성공적으로 동기화했습니다!'
 ERROR_NO_ACCOUNTS: ":no_entry: 이 토큰과 연결된 **계정이 없습니다**!"
 SUCCESSFULLY_LINKED_KEY: 성공적으로 연결되었어!
@@ -747,7 +746,7 @@ HOYOLAB_REGISTRATION_DESCRIPTION: |
 
   <a:FlowersBlue:955579121562423348> **오늘의 원신 속 재밌는 진실:**
   `"{fun_fact}"`
-PROCESSING_REGISTRATION_REQUEST: 등록 요청 처리 중
+PROCESSING_REGISTRATION_REQUEST: 등록 요청 처리 중...
 ACCOUNT_RETREIVAL_FAILED: 입력해준 UID로 정보를 찾는데 오류가 발생한 것 같아. UID 값을 제대로 입력했는지 확인해주고, 다시 시도해주지 않을래?
 REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
   Genshin Wizard의 :bell: **알림 패널**에 오신 것을 환영합니다! 미리 알림 설정을 시작하려면 아래 옵션 중 하나를 선택하고 관련 패널에서 활성화할 수 있습니다.
@@ -770,20 +769,20 @@ DISABLED_KEY: 비활성화됨
 NOT_ENABLED_KEY: 활성화 안 됨
 NO_REMINDERS_SET_KEY: 설정된 알림 없음!
 RESIN_REMINDERS_KEY: 레진알림
-EXPEDITION_REMINDERS_KEY: 원정알림
+EXPEDITION_REMINDERS_KEY: 탐사파견 알림
 SERENITEA_POT_KEY: 선계통계
 PARAMETRIC_REMINDERS_KEY: 매개변수변환기
 RESIN_REMINDERS_DESCRIPTION: |
-  현재 **<:fragileresin:1029984988583706654>{current_resin}** 레진가 있습니다!
-  **보충 시간:** {time_left} 보충
+  현재 **<:fragileresin:1029984988583706654>{current_resin}** 레진이 있습니다!
+  **보충 시간:** {time_left} 남음
   **자동 알림:** {reminder_setting}
 TEAPOT_REMINDERS_DESCRIPTION: |
-  현재 **<:realmcurrency:1029984449565310976>{current_currency}** 선계화폐를 가지고 있습니다!
-  **보충 시간:** {time_left}
+  현재 **<:realmcurrency:1029984449565310976>{current_currency}** 선계화폐가 있습니다!
+  **한계치 도달:** {time_left} 남음
   > **자동 알림:** {reminder_setting}
 PARAMETRIC_REMINDERS_DESCRIPTION: |
   여행자의 **<:parametrictransformer:1029984451670847568>매개변수변환기**는 지금 {transformer_status} 상태야!
-   **보충 시간:** {time_left}
+   **대기 시간:** {time_left} 남음
    > **자동 알림:** {reminder_setting}
 READY_TO_USE: 사용 가능
 NOT_READY_TO_USE: 사용 불가능
@@ -803,23 +802,23 @@ AUTOMATIC_TEAPOT_EXPLANATION: 이 알림은 **자동** 알림으로 설정되었
 EXPEDITION_ALREADY_SET: 이 탐사에 **이미** 알림이 설정되어 있습니다.
 EXPEDITION_REMINDER_SET: 알림이 **{char_emote} <t:{time}:F>에 성공적으로 설정되었습니다!**
 PARAMETRIC_ALREADY_SET: '**이미** 매개변수 변환기에 대한 알림이 설정되어 있습니다!'
-PARAMETRIC_AUTOMATIC_ALREADY_SET: 당신은 **이미** 매개변수 변환기 대한 자동 알림을 설정했습니다!
+PARAMETRIC_AUTOMATIC_ALREADY_SET: '**이미** 매개변수 변환기 대한 자동 알림을 설정했습니다!'
 PARAMETRIC_REMINDER_SET: <:parametrictransformer:1029984451670847568><t:{time}:F>에 대한 알림이 성공적으로 설정되었습니다!
 AUTOMATIC_PARAMETRIC_EXPLANATION: 이 알림은 **자동** 알림으로 설정되었습니다! 즉, 매개변수 변환기 사용할 준비가 *될 때마다* 알림을 받게 됩니다!
 INVALID_RESIN_AMOUNT: 유효한 레진 양을 지정해야 합니다.
 RESIN_AMOUNT_LOWER: 현재 레진보다 **높은** 레진 양을 입력하세요!
 RESIN_REMINDER_SET: 알림이 **<:fragileresin:1029984988583706654>{resin}** 레진에 대해 <t:{rmd_time}:F>에 성공적으로 설정되었습니다!
-ENTER_CUSTOM_AMOUNT_KEY: 사용자 지정 입력
+ENTER_CUSTOM_AMOUNT_KEY: 사용자 지정 합계 입력
 ENABLE_AUTOMATIC_REMINDER_KEY: 자동 알림 활성화
-CURRENT_ONGOING_EXPEDITIONS_DESCRIPTION: "여행자! 지금 진행중인 탐사의 상태는:"
-NO_CURRENT_EXPEDITIONS: 진행 중인 탐사가 없습니다.
+CURRENT_ONGOING_EXPEDITIONS_DESCRIPTION: "여행자! 지금 진행중인 탐사파견의 상태는 다음과 같아:"
+NO_CURRENT_EXPEDITIONS: 진행 중인 탐사파견이 없습니다.
 MISSING_RESIN_AMOUNT: 현재 가지고 있는 레진양을 지정해야 합니다.
 TOO_MUCH_RESIN: 160개 이상의 레진을 가질 수 없습니다.
 MAXED_RESIN_ALERT: 이미 160개의 레진이 있습니다.
 RESIN_REMINDER_FOOTER: 알림을 받으려면 🔔 버튼을 클릭하세요! 알림을 받을 수 있도록 비공개 메시지를 활성화했는지 확인하세요!
 SET_RESIN_REMINDER_KEY: 레진알림 설정!
 API_ISSUE: API 문제가 발생했습니다.
-HOW_TO_SOLVE_TITLE: 이것을 해결하는 방법?
+HOW_TO_SOLVE_TITLE: 어떻게 해결할까요?
 ENABLE_CHRONICLES: "여행자, 다음 커맨드를 사용해봐! </hoyolab-privacy:{command_id}>\n아니면, [**호요랩 설정 페이지**](https://www.hoyolab.com/setting/privacy) 에 접속해서 *개인센터에 캐릭터 전적 전시* 항목을 설정해줘."
 PLEASE_WAIT_DESCRIPTION: 기다려줘! 안타깝게도 지금은 여행자가 해줄 수 있는 일이 없어.
 PLAYER_TITLE: 플레이어 {player}
@@ -834,14 +833,14 @@ GENERAL_OVERVIEW_SECTION: |
   나선비경: {abyss}
   지역: {region}
 CHEST_PROGRESSION_KEY: 보물상자 통계
-EXPLORATION_AND_OCULI: 탐험도 & 신의눈동자
+EXPLORATION_AND_OCULI: 탐사도 & 신의 눈동자
 NOT_YET_UNLOCKED: 아직 잠금 해제되지 않았습니다!
 STATISTICS_COMMAND_FOOTER: "참고: 통계가 잘못 표시되거나 데이터가 누락될 수 있습니다. 호요랩 측에서 API 오류가 발생하여 이를 방지할 수 있는 방법이 없습니다."
 CONGRATULATIONS_KEY: 축하합니다!
 ABYSS_CONGRATULATE_MESSAGE: |
   나선비경을 완벽하게 *클리어*한 {user}님을 축하합니다!
    <:spiralabyss:1000079902596411482> <@&{role_id}> 지정된 역할 <a:check:956327345717907507>
-ABYSS_COMMAND_STATISTICS_CREDIT: 유저{name} 나선비경 통계
+ABYSS_COMMAND_STATISTICS_CREDIT: 유저 {name} 의 나선비경 통계
 CURRENT_LUNAR_PHASE_DESCRIPTION: |
   **현재**
   **시작 시간:** {start}
@@ -920,16 +919,16 @@ PRIMOGEMS_KEY: 원석
 SIMULATOR_NOT_ENOUGH_STARDUST: <:Error:1021889679857037372> 이 항목을 구매할 만큼 **<:MasterlessStardust:951924423332626522> 스타더스트**가 충분하지 않습니다!
 SIMULATOR_NOT_ENOUGH_STARGLITTER: <:Error:1021889679857037372> 이 항목을 구매할 만큼 **<:MasterlessStarglitter:951924423059980290> 스타라이트**가 충분하지 않습니다!
 SIMULATOR_PURCHASED_PRIMOGEMS: <:yescheck:1021114525858136074> **<:Primogem:951924423340994610>{primogems} 원석**를 **{emote} {price} {item}**에 구입하셨습니다!
-SIMULATOR_TOO_FAST: 현재 가챠를 너무 빠르게 하는중입니다! **{time}**초 후에 이 버튼을 다시 사용해 보세요.
+SIMULATOR_TOO_FAST: 현재 뽑기를 너무 빠르게 하는 중입니다! **{time}**초 후에 이 버튼을 다시 사용해 보세요.
 SIMULATOR_BEGIN_JOURNEY: "{user} 님, 인벤토리에 캐릭터가 없습니다. </wishsimulator:{command_id}> 명령을 사용하여 운을 테스트해 보세요!"
 SIMULATOR_DUMP_UNSUCCESSFUL: 이런! 배낭을 버리지 못했습니다. 오류가 발생했습니다. 다시 시도하거나 피드백을 주세요!
 SIMULATOR_DUMP_SUCCESSFUL: <:yescheck:1021114525858136074> 성공적으로 인벤토리를 삭제했습니다!
 SIMULATOR_DUMP_CANCELLED: "**<:yescheck:1021114525858136074> 성공적으로 취소되었습니다!**"
-FARM_COMMAND_DOMAIN_TITLE: 비경 일정확인 Overview [{region}]
-SERVER_RESET_KEY: 서버 리셋
+FARM_COMMAND_DOMAIN_TITLE: 비경 일정 개요 [{region}]
+SERVER_RESET_KEY: 서버 초기화
 ARTIFACT_GUIDE_FOOTER: /artifact <name_of_artifact> 명령을 사용해 특정 성유물에 대한 자세한 정보를 얻으세요.
-ARTIFACT_GUIDE_TITLE: 성유물 확인
-NO_ASSET_INPUT: ":no_entry: 조회할 자산 ID를 입력하세요."
+ARTIFACT_GUIDE_TITLE: 성유물 개요
+NO_ASSET_INPUT: ":no_entry: 조회할 에셋 ID를 입력하세요."
 WEAPON_INFORMATION_TITLE: 무기 정보 | {weapon}
 WEAPON_INFORMATION_FOOTER: "무기 가이드 • 인포그래픽: {weapon}"
 WEAPON_GUIDE_TITLE: 무기 도움말 | {weapon}
@@ -944,14 +943,14 @@ WEAPON_ASCENSION_OVERVIEW: 무기 돌파재료 요약
 REFERENCE_SHEET_GUIDE_FOOTER: "참조 시트 개요"
 REFERENCE_SHEET_GUIDE_TITLE: 사용 가능한 참조 시트
 EVENT_BANNER_DAILY: |
-  ☑️ 체크인 **[Hoyolab](https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us)** 🔗에 체크인(또는 `/매일`)!
-  ☑️ 일일 퀘스트, 레진 체크
+  ☑️ 체크인 **[Hoyolab](https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us)** 🔗에 체크인 (또는 `/daily` 사용)!
+  ☑️ 일일 퀘스트, 레진 확인
   ☑️ 일일 광석 단조 및 채광
   ☑️ 선계: 가구, 동전 및 식물
 EVENT_BANNER_WEEKLY: |
-  ☑️ 매개변수변환기
+  ☑️ 매개변수 변환기
   ☑️ 주간 기행 임무
-  ☑️ 주간보스, 상인, 기타등등.
+  ☑️ 주간보스, 상인, 기타 등등
 CONFIGURATION_PANEL_TITLE: Genshin Wizard | 구성 패널
 CONFIGURATION_CHANGE_MESSAGE: "Genshin Wizard의 구성 패널을 변경합니다. 자세한 내용은 [**문서**](https://docs.genshinwizard.com/overview/server-panels)를 참조하십시오."
 CHANNEL_KEY: 채널
@@ -1201,7 +1200,7 @@ CRIT_RATE_LABEL: "치명타 확률"
 CRIT_DMG_LABEL: "치명타 피해"
 ENERGY_RECHARGE_LABEL: "원소 충전 효율"
 ELEMENTAL_MASTERY_LABEL: "원소 마스터리"
-TOTAL_WISHES_LABEL: "모든기원"
+TOTAL_WISHES_LABEL: "모든 기원"
 PRIMOGEM_COUNT_LABEL: "총 원석"
 STARDUST_COUNT_LABEL: "스타더스트 카운터"
 STARGLITTER_COUNT_LABEL: "스타글리터 카운트"
