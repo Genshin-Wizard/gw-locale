@@ -604,7 +604,7 @@ NOT_HERE_KEY: 미존재
 LOCATION_KEY: 지역
 TOP_ROLE_KEY: 상위 역할
 RECENT_FIVE_STAR_CHARACTER: "**최근 5 :star: 캐릭터**"
-RECENT_FIVE_STAR_WEAPON: "**최근 5:star: 무기**"
+RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
 WISHES_WORTH_KEY: 기원 가치
 OVERALL_SUMMARY_KEY: 전체 요약
 OVERALL_STATS_KEY: 전체 통계
@@ -967,9 +967,9 @@ SERVER_TIME_KEY: 서버 시간
 CONFIGURATION_SETTINGS_RESET: <:yescheck:1021114525858136074> 설정이 초기화되었습니다.
 CHANNEL_SETUP_MISSING: 먼저 채널을 만들어야 합니다!
 TIME_FOR_ADVENTURE: 모험, 모험!
-INVALID_ROLE_MESSAGE: 사용 가능한 역할 ID를 사용해주세요!
-INVALID_GUILD_MESSAGE: 이 통합에는 **유효한 길드 ID**를 사용해야 합니다! 다시 시도해 주세요.
-INVALID_CHANNEL_MESSAGE: 이 통합에는 **유효한 채널 ID**를 사용해야 합니다! 다시 시도해 주세요.
+INVALID_ROLE_MESSAGE: 사용 가능한 역할 ID를 사용해야 합니다! 다시 시도해주세요.
+INVALID_GUILD_MESSAGE: 이 항목에는 **유효한 길드 ID**를 사용해야 합니다! 다시 시도해 주세요.
+INVALID_CHANNEL_MESSAGE: 이 항목에는 **유효한 채널 ID**를 사용해야 합니다! 다시 시도해 주세요.
 CANNOT_FIND_GUILD: 여행자, 요청한 서버를 **찾을 수 없었어**. 다시 시도해줄래?
 MISSING_WEBHOOK_PERMISSION: 이 서버/채널에서 `웹후크 관리` 권한이 없습니다!
 CHANGE_ROLE_INTEGRATION: Genshin Wizard의 자동 역할 통합을 변경합니다.
@@ -1065,15 +1065,15 @@ PREMIUM_SERVER_MAXIMUM_REACHED: Traveler님, 추가할 수 있는 최대 프리�
 PREMIUM_NO_SERVERS_SELECTED: <:Error:1021889679857037372> 안녕하세요 Traveler님, 삭제할 서버를 **선택**하지 않으셨습니다.
 PREMIUM_SERVER_REMOVED: Traveler님, 선택한 서버를 성공적으로 **제거**했습니다.
 PREMIUM_SERVER_CLEARED: Traveler님, 모든 프리미엄 서버를 성공적으로 **제거**했습니다.
-PREMIUM_SERVER_ALREADY: Traveler님, 이 서버는 이미 **프리미엄**이 활성화된 것 같습니다. 다른 서버에서 이 특전을 사용하는 것을 고려하십시오!
-PREMIUM_SERVER_ADDED: 여행자님, **{guild}**를 프리미엄 서버로 성공적으로 추가했습니다!
-PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> 안녕하세요, Traveler님, 캐릭터에 **맞춤 아트 인포그래픽**을 추가하려면 </info:{command_id}> 명령을 사용하고 **Add Custom Art** 버튼을 누르기만 하면 됩니다. 자신만의 예술 작품을 업로드하고 Genshin Wizard 계정에 직접 저장할 수 있는 웹 페이지로 이동합니다.
-PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> 안녕하세요, Traveler님, 삭제할 커스텀 아트가 있는 캐릭터를 **선택**하지 않으셨습니다.
-PREMIUM_CUSTOM_ART_REMOVED: 여행자님, 선택한 문자를 성공적으로 **제거**했습니다.
-PREMIUM_CUSTOM_ART_CLEARED: 여행자님, 커스텀 아트로 저장된 모든 캐릭터를 성공적으로 **제거**하셨습니다.
+PREMIUM_SERVER_ALREADY: 이 서버는 이미 **프리미엄**이 활성화된 것 같습니다. 다른 서버에서 이 특전을 사용하는 것을 고려하십시오!
+PREMIUM_SERVER_ADDED: '**{guild}**를 프리미엄 서버로 성공적으로 추가했습니다!'
+PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> 캐릭터에 **맞춤 아트 인포그래픽**을 추가하려면 </info:{command_id}> 명령을 사용하고 **Add Custom Art** 버튼을 누르기만 하면 됩니다. 자신만의 예술 작품을 업로드하고 Genshin Wizard 계정에 직접 저장할 수 있는 웹 페이지로 이동합니다.
+PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> 삭제할 커스텀 아트가 있는 캐릭터를 **선택**하지 않으셨습니다.
+PREMIUM_CUSTOM_ART_REMOVED: 선택한 캐릭터를 성공적으로 **제거**했습니다.
+PREMIUM_CUSTOM_ART_CLEARED: 커스텀 아트로 저장된 모든 캐릭터를 성공적으로 **제거**하셨습니다.
 PREMIUM_ADAPTIVE_ART_SETTING_UPDATED: "적응형 아트 설정 변경 성공: {adaptive_art}"
 HELP_COMMAND_TITLE: Genshin Wizard | {category} 명령어
-HELP_COMMAND_FOOTER: Genshin Wizard | {category} 명령폴더
+HELP_COMMAND_FOOTER: Genshin Wizard | {category} 명령 폴더
 NO_DESCRIPTION: 제공된 설명이 없습니다.
 ROLE_REQUIREMENTS_NOT_MET: |
   **역할 요구 사항**을 충족하는 캐릭터가 없습니다!
@@ -1089,17 +1089,17 @@ GACHA_COMMAND_LINK_EXPIRED_FOOTER: "참고: 기원 내역 링크가 만료되었
 SOMETHING_WENT_WRONG: 알 수 없는 오류가 발생했습니다.
 SOMETHING_WENT_WRONG_FOOTER: 오류가 지속될 경우, 관리자에게 문의하시기 바랍니다.
 GACHA_NO_BANNER_WISHES: '{banner} 배너에 대한 기원 없습니다!'
-GACHA_SUMMARY_FOOTER: "Genshin 기원요약: {user}"
-GENSHIN_WISH_SUMMARY: Genshin 기원 요약
+GACHA_SUMMARY_FOOTER: "원신 기원 요약: {user}"
+GENSHIN_WISH_SUMMARY: 원신 기원 요약
 SLASH_COMMAND_NEED_HELP: |
-  <:blurpleannouncement:1020402170127982712> **문제가 있습니까? 두려워하지 마십시오!** <:KeqingHeart:952837574878199808>
+  <:blurpleannouncement:1020402170127982712> **문제가 발생했나요? 무서워하지 마세요!** <:KeqingHeart:952837574878199808>
 
-  안녕하세요 Traveler님, **슬래시 명령**을 사용하는 데 문제가 있는 것 같습니다!
+  안녕하세요, 여행자님! **/ 명령어**를 사용하시는 데에 문제가 있으신 것 같습니다!
 
-  사용하려는 명령을 **__click__**하고 자신의 이름을 매개변수로 전달할 **필요가 **없다는 점을 기억하세요!
+  사용하려는 명령을 **__click__**하고 여행자님의 이름을 매개변수로서 추가 입력할 **필요가 없다**는 점을 기억하세요!
 
-  <a:7094whitecheck:1020160260637462618> 행복한 소원 동료 여행자,
-  파이몬
+  <a:7094whitecheck:1020160260637462618> 여행자의 가장 소중한 친구
+  페이몬
 SLASH_COMMAND_HELP_GUIDE: <:verifiedlight:939225784936202241> **도움말**을 보려면 </help:982685016012226590> 명령을 사용하십시오!
 GENSHIN_WIZARD_SERVER_JOIN_TITLE: 원신 위자드가 왔어!
 GENSHIN_WIZARD_SERVER_JOIN_DESCRIPTION: |
@@ -1111,7 +1111,7 @@ GENSHIN_WIZARD_SERVER_JOIN_DESCRIPTION: |
 
   자세한 사용방법이 궁금하다면 [**공식 문서 페이지**](https://docs.genshinwizard.com/)를 방문해주거나 </help:{command_id}> 명령을 실행해줘!
 SHOWCASE_KEY: 쇼케이스
-CUSTOM_ART_KEY: 커스텀아트
+CUSTOM_ART_KEY: 커스텀 아트
 DELETE_SELECTED_KEY: 선택된 항목 삭제
 DELETE_ALL_KEY: 전체삭제
 CANCEL_KEY: 취소
@@ -1181,11 +1181,11 @@ COMMON_LABEL: "평범한보물상자"
 EXQUISITE_LABEL: "정교한보물상자"
 PRECIOUS_LABEL: "진귀한보물상자"
 LUXURIOUS_LABEL: "화려한보물상자"
-REMARKABLE_LABEL: "주목할 만한"
-ALL_CHESTS_LABEL: "모든보물상자"
-STRONGEST_STRIKE_LABEL: "최대데미지"
-MOST_BURSTS_USED_LABEL: "가장 많이 사용된 궁"
-MOST_SKILLS_USED_LABEL: "가장 많이 사용한스킬"
+REMARKABLE_LABEL: "흥미로움"
+ALL_CHESTS_LABEL: "모든 보물상자"
+STRONGEST_STRIKE_LABEL: "최대 데미지"
+MOST_BURSTS_USED_LABEL: "가장 많이 사용된 원소폭발 스킬"
+MOST_SKILLS_USED_LABEL: "가장 많이 사용한 원소전투 스킬"
 MOST_DAMAGE_TAKEN_LABEL: "받은 데미지 최대치"
 MOST_DEFEATS_LABEL: "최고 처치"
 MAX_HP_LABEL: "최대 HP"
@@ -1195,22 +1195,22 @@ ATK_LABEL: "공격력"
 ATK_PERCENT_LABEL: "공격력 %"
 DEF_LABEL: "방어력"
 DEF_PERCENT_LABEL: "방어력 %"
-CRIT_VALUE_LABEL: "종합계산"
+CRIT_VALUE_LABEL: "치명타 값"
 CRIT_RATE_LABEL: "치명타 확률"
 CRIT_DMG_LABEL: "치명타 피해"
 ENERGY_RECHARGE_LABEL: "원소 충전 효율"
 ELEMENTAL_MASTERY_LABEL: "원소 마스터리"
 TOTAL_WISHES_LABEL: "모든 기원"
 PRIMOGEM_COUNT_LABEL: "총 원석"
-STARDUST_COUNT_LABEL: "스타더스트 카운터"
-STARGLITTER_COUNT_LABEL: "스타글리터 카운트"
+STARDUST_COUNT_LABEL: "스타더스트 총합"
+STARGLITTER_COUNT_LABEL: "스타라이트 총합"
 THREE_STAR_LABEL: "3성"
 FOUR_STAR_LABEL: "4성"
 FIVE_STAR_LABEL: "5성"
-PREVIOUS_BUTTON: 이전 페이지
+PREVIOUS_BUTTON: 이전
 NEXT_BUTTON: 다음
 GENERATE_IMAGE_BUTTON: 이미지 생성
-GENERATE_EXPLORATION_BUTTON: 탐험진행도 추출
+GENERATE_EXPLORATION_BUTTON: 탐험 진행도 추출
 SETTINGS_BUTTON: 설정
 ANEMO_KEY: 바람
 CRYO_KEY: 얼음
@@ -1221,17 +1221,17 @@ HYDRO_KEY: 물
 PYRO_KEY: 불
 RESET_SETTINGS_BUTTON: 설정 초기화
 MASTER_PRIVACY_BUTTON: 마스터 프라이버시
-UPDATE_BANNER_MODAL_TITLE: 배너업데이트
+UPDATE_BANNER_MODAL_TITLE: 배너 업데이트
 UPDATE_BANNER_MODAL_URL_INPUT: 배너용으로 원하는 이미지 링크
 UPDATE_BANNER_MODAL_URL_PLACEHOLDER: 이미지 링크를 첨부해주세요.
 UPDATE_BIO_MODAL_TITLE: 자기소개 업데이트
-UPDATE_BIO_MODAL_LABEL: 자기 소개. (200자)
-UPDATE_BIO_MODAL_PLACEHOLDER: 저는 Lumine이고 여기 저에 대한 몇 가지 재미있는 사실이 있습니다...
+UPDATE_BIO_MODAL_LABEL: 자기 소개를 적어주세요. (200자)
+UPDATE_BIO_MODAL_PLACEHOLDER: 안녕! 나 루미네인데, 나에 대한 몇 가지 재미있는 사실 들어볼래...?
 SELECT_CHOOSE_CATEGORY: 카테고리 선택
 PROFILE_KEY: 프로필
-PROFILE_DESCRIPTION: 개인 Genshin Wizard 프로필을 확인합니다
-GENSHIN_STATISTICS_KEY: 원신 스텟
-GENSHIN_STATISTICS_DESCRIPTION: 원신 자신 스텟보기
+PROFILE_DESCRIPTION: 개인 Genshin Wizard 프로필 확인
+GENSHIN_STATISTICS_KEY: 원신 통계
+GENSHIN_STATISTICS_DESCRIPTION: 나의 원신 통계 보기
 SPIRAL_ABYSS_STATISTICS_KEY: 나선비경 통계
 SPIRAL_ABYSS_STATISTICS_DESCRIPTION: 나선비경 진행 통계 보기
 COPY_UID_KEY: UID 복사
@@ -1270,17 +1270,17 @@ RETURN_TO_MENU: 메뉴돌아가기
 SHOW_UNOWNED_KEY: 소유되지 않은 항목 표시
 SHOW_OWNED_KEY: 소유한 것 보기
 SHOP_BUTTON_LABEL: "{primogem_price} 원석"
-REROLL_WISHES_BUTTON: 기원 다시하기
+REROLL_WISHES_BUTTON: 기원 뽑기 다시하기
 VIEW_INVENTORY_BUTTON: 인벤토리 보기
-REGION_SELECT_PLACEHOLDER: 지역 선택...
+REGION_SELECT_PLACEHOLDER: 지역 선택
 AMERICA_KEY: 아메리카
 EUROPE_KEY: 유럽
 ASIA_KEY: 아시아
-SAR_KEY: SAR
-AMERICA_SERVER_DOMAIN_SCHEDULE: 아메리카 서버의 현재 비경 일정 확인.
-EUROPE_SERVER_DOMAIN_SCHEDULE: 유럽 서버의 현재 비경 일정을 봅니다.
-ASIA_SERVER_DOMAIN_SCHEDULE: 아시아 서버의 현재 비경 일정 확인.
-SAR_SERVER_DOMAIN_SCHEDULE: 맥시코서버 비경 일정확인
+SAR_KEY: 중화권
+AMERICA_SERVER_DOMAIN_SCHEDULE: 아메리카 서버의 현재 비경 일정 확인
+EUROPE_SERVER_DOMAIN_SCHEDULE: 유럽 서버의 현재 비경 일정 확인
+ASIA_SERVER_DOMAIN_SCHEDULE: 아시아 서버의 현재 비경 일정 확인
+SAR_SERVER_DOMAIN_SCHEDULE: 중화권 서버의 현재 비경 일정 확인
 SUGGEST_CHANGES_BUTTON: 변경 제안
 KQM_GUIDE: KQM 가이드
 INTRODUCTION_KEY: 소개
@@ -1288,32 +1288,32 @@ PLAYSTYLE_KEY: 플레이 방식
 BUILD_KEY: 빌드
 ASCENSION_MATERIALS_KEY: 돌파 재료
 TEAM_SYNERGIES_KEY: 팀 조합
-CONSTELLATIONS_KEY: 별자리
-SKILL_TALENTS_KEY: 스킬 및 전용 스킬
+CONSTELLATIONS_KEY: 별자리 돌파
+SKILL_TALENTS_KEY: 스킬 특성
 PASSIVE_TALENTS_KEY: 고유 특성
 INTRODUCTION_DESCRIPTION: 기본 캐릭터 정보 보기
-PLAYSTYLE_DESCRIPTION: 캐릭터 플레이 스타일 보기(s)
-BUILD_DESCRIPTION: 캐릭터 빌드 보기(s)
+PLAYSTYLE_DESCRIPTION: 캐릭터 플레이 스타일(들) 보기
+BUILD_DESCRIPTION: 캐릭터 빌드(들) 보기
 ASCENSION_MATERIALS_DESCRIPTION: 캐릭터 돌파 재료 보기
 TEAM_SYNERGIES_DESCRIPTION: 캐릭터 팀 시너지 보기
 CONSTELLATIONS_DESCRIPTION: 캐릭터 별자리 요약 보기
-SKILL_TALENTS_DESCRIPTION: 캐릭터 액티브/스킬 특성 보기
+SKILL_TALENTS_DESCRIPTION: 캐릭터 고유/스킬 특성 보기
 PASSIVE_TALENTS_DESCRIPTION: 캐릭터 패시브 특성 보기
 VIEW_CARD_BUTTON: 호요랩 위키 에서 카드 보기
 CONFIG_DAILY_ANNOUNCEMENTS_PANEL: 일일 공지 패널
 CONFIG_SERVER_TIME_PANEL: 서버 시간 패널
 CONFIG_DOMAIN_SCHEDULE_PANEL: 비경 일정 패널
-CONFIG_CUSTOM_BANNER: 커스텀배너
-SERVER_SELECT_PLACEHOLDER: 공지 사항에 대한 서버 시간 선택...
+CONFIG_CUSTOM_BANNER: 커스텀 배너
+SERVER_SELECT_PLACEHOLDER: 공지를 위한 서버시간 선택
 MASTER_SWITCH_BUTTON: 전부 활성화/비활성화
 SWITCH_BUTTON: 활성화/비활성화
-PING_ROLE_BUTTON: 역할 핑
+PING_ROLE_BUTTON: 역할 지정
 TEST_KEY: 테스트
 DAILY_ANNOUNCEMENT_MODAL_TITLE: 일간 공지 통합
-DAILY_ANNOUNCEMENT_AMERICA_PING_ROLE: 아메리카 역할 핑 ID
-DAILY_ANNOUNCEMENT_EUROPE_PING_ROLE: 유럽 역할 핑 ID
-DAILY_ANNOUNCEMENT_ASIA_PING_ROLE: 아시아 역할 핑 ID
-DAILY_ANNOUNCEMENT_SAR_PING_ROLE: 대만/홍콩/마카오 역할 핑 ID
+DAILY_ANNOUNCEMENT_AMERICA_PING_ROLE: 아메리카 서버 역할 ID 지정
+DAILY_ANNOUNCEMENT_EUROPE_PING_ROLE: 유럽 서버 역할 ID 지정
+DAILY_ANNOUNCEMENT_ASIA_PING_ROLE: 아시아 서버 역할 ID 지정
+DAILY_ANNOUNCEMENT_SAR_PING_ROLE: 중화권 서버 역할 ID 지정
 DAILY_ANNOUNCEMENT_CHANNEL: 공지 채널 ID
 MODAL_ROLE_ID_PLACEHOLDER: 원하는 역할 ID를 입력하세요...
 MODAL_CHANNEL_ID_PLACEHOLDER: 원하는 채널 ID를 입력하세요...
@@ -1352,23 +1352,23 @@ PREMIUM_SELECT_PLACEHOLDER: 혜택을 확인하고 싶은 티어를 선택해봐
 WITCH_OF_PURPLE_ROSE: 보라색 장미의 마녀
 ASTRAL_REFLECTION: 별들의 전당
 CRIMSON_WITCH_OF_FLAMES: 불타오르는 화염의 마녀
-ELDER_OF_THE_HEXENZIRKEL: 헥센지르켈의 장로
-PREMIUM_PLAN_TIER_ONE: "프리미엄 계획: 티어 1"
-PREMIUM_PLAN_TIER_TWO: "프리미엄 계획: 티어 2"
-PREMIUM_PLAN_TIER_THREE: "프리미엄 계획: 티어 3"
-PREMIUM_PLAN_TIER_FOUR: "프리미엄 계획: 티어 4"
+ELDER_OF_THE_HEXENZIRKEL: 마녀회의 원로
+PREMIUM_PLAN_TIER_ONE: "프리미엄 플랜: 티어 1"
+PREMIUM_PLAN_TIER_TWO: "프리미엄 플랜: 티어 2"
+PREMIUM_PLAN_TIER_THREE: "프리미엄 플랜: 티어 3"
+PREMIUM_PLAN_TIER_FOUR: "프리미엄 플랜: 티어 4"
 ART_SETTINGS_KEY: 캐릭터 정보 설정
 CUSTOM_ROLE_KEY: 커스텀 역할
-ADD_PREMIUM_SERVERS_BUTTON: 프리미엄 서버를 추가
+ADD_PREMIUM_SERVERS_BUTTON: 다수의 프리미엄 서버 추가
 ADD_PREMIUM_SERVER_BUTTON: 프리미엄 서버 추가
 ROLE_NAME_KEY: 역할 이름
-HEX_COLOR_KEY: 헥스 색상 코드
+HEX_COLOR_KEY: HEX 색상 코드
 CUSTOM_ROLE_MODAL_TITLE: "커스텀 역할: {modal_type}"
 CUSTOM_ROLE_CREATE_BUTTON: 커스텀 역할 만들기
 CUSTOM_ROLE_DELETE_BUTTON: 커스텀 역할 삭제
 CUSTOM_ROLE_NAME_CHANGE_BUTTON: 역할 이름 바꾸기
 CUSTOM_ROLE_COLOR_CHANGE_BUTTON: 역할 색 바꾸기
-PREMIUM_SERVER_REMOVE: 프리미엄에서 제거할 서버를 선택해줘
+PREMIUM_SERVER_REMOVE: 프리미엄 제거 희망 서버를 선택
 PREMIUM_SERVER_TIMESTAMP: '{date} 부터 프리미엄이야'
 GUILD_OR_SERVER_ID: 길드/서버 ID
 GUILD_OR_SERVER_ID_PLACEHOLDER: 여기에 길드/서버 ID 를 입력해줘
@@ -1383,18 +1383,18 @@ HELP_DROPDOWN_HOYOLAB_COMMANDS: 호요랩(HoYoLAB) 명령어
 HELP_DROPDOWN_GUIDE_COMMANDS: 가이드 명령어
 HELP_DROPDOWN_MISCELLANEOUS_COMMANDS: 기타 명령어
 HELP_DROPDOWN_DIRECTORY_DESCRIPTION: 원신 위자드의 도움말을 표시해줘
-HELP_DROPDOWN_PROFILE_COMMANDS_DESCRIPTION: 프로필 명령어 확인
-HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: 기원 명령어를 보여줍니다.
-HELP_DROPDOWN_HOYOLAB_COMMANDS_DESCRIPTION: 호요랩(HoYoLAB) 명령어를 보여줍니다.
-HELP_DROPDOWN_GUIDE_COMMANDS_DESCRIPTION: 가이드 명령어를 보여줍니다.
-HELP_DROPDOWN_MISCELLANEOUS_COMMANDS_DESCRIPTION: 기타 명령어를 보여줍니다.
+HELP_DROPDOWN_PROFILE_COMMANDS_DESCRIPTION: 프로필 관련 명령어 보기
+HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: 기원 관련 명령어 보기
+HELP_DROPDOWN_HOYOLAB_COMMANDS_DESCRIPTION: 호요랩 관련 명령어 보기
+HELP_DROPDOWN_GUIDE_COMMANDS_DESCRIPTION: 가이드 관련 명령어 보기
+HELP_DROPDOWN_MISCELLANEOUS_COMMANDS_DESCRIPTION: 기타 기능 관련 명령어 보기
 HELP_PROFILE_COG_NAME: 프로필/통계
 HELP_PROFILE_WISH_COG_NAME: 기원
 HELP_HOYOLAB_COG_NAME: 호요랩
 HELP_GUIDE_COG_NAME: 가이드
-HELP_MISC_COG_NAME: 기타
-CHOOSE_ELEMENT_DROPDOWN: 요소 선택...
-CHOOSE_LANGUAGE_DROPDOWN: 언어를 고르시오...
+HELP_MISC_COG_NAME: 기타 기능
+CHOOSE_ELEMENT_DROPDOWN: 요소 선택
+CHOOSE_LANGUAGE_DROPDOWN: 언어 선택
 CURRENT_LANGUAGE_KEY: 현재 언어
 CROWDIN_KEY: Crowdin
 CROWDIN_LINK_KEY: Crowdin 링크
@@ -1409,14 +1409,14 @@ GENSHIN_WIZARD_CURRENT_LANGUAGE: 원신 위자드에 설정된 현재 언어는 
 ABYSS_FLOOR_PROGRESSION: "현재 진행도: **{stars}/9** {bounty_status}"
 ABYSS_FLOOR_AUTHOR: '{floor} 층 • 나선비경 진행도'
 ABYSS_FLOOR_LABEL: '{floor} 층'
-APP_COMMAND_ABYSS_ENEMY_DESCRIPTION: 나선비경 적 라인업
+APP_COMMAND_ABYSS_ENEMY_DESCRIPTION: 나선비경 적 라인업 보기
 ABYSS_ENEMY_NOT_ONGOING: 현재 진행 중인 나선비경 챌린지가 없습니다.
-ABYSS_ENEMY_TITLE: 나선비경 구성몹
-ABYSS_ENEMY_DESCRIPTION: "스케줄: **{floor_index} 층 - {chamber_index} 번방**"
+ABYSS_ENEMY_TITLE: 나선비경 적 정보
+ABYSS_ENEMY_DESCRIPTION: "현재 도달: **{floor_index} 층 - {chamber_index} 번방**"
 CUSTOM_ROLE_ICON_CHANGE_BUTTON: 역할 아이콘 변경
-CUSTOM_ROLE_ICON_REQUEST_MESSAGE: 커스텀 역할 아이콘으로 사용하고싶은 **link**, **attachment**, 또는 **emoji** (을)를 보내주세요. 이 요청은 60초 후에 만료됩니다.
-CUSTOM_ROLE_ICON_REQUEST_TIMEOUT: 어떠한 인풋도 받지 못하여 이 요청을 취소합니다.
-CUSTOM_ROLE_ICON_NOT_IMAGE: 이봐 여행자! 이 첨부파일은 **image**여야 한다구!
+CUSTOM_ROLE_ICON_REQUEST_MESSAGE: 커스텀 역할 아이콘으로 사용하고싶은 **link**, **attachment** 또는 **emoji** 을/를 보내주세요. 이 요청은 60초 후에 만료됩니다.
+CUSTOM_ROLE_ICON_REQUEST_TIMEOUT: 어떠한 입력값도 받지 못하여 이 요청을 취소합니다.
+CUSTOM_ROLE_ICON_NOT_IMAGE: 이봐 여행자! 첨부파일은 **image**여야 한다구!
 CUSTOM_ROLE_ICON_SUCCESS: 사용자의 커스텀 역할 아이콘이 성공적으로 변경되었습니다. 확인 메시지는 10초 후에 삭제됩니다.
 DEFAULT_KEY: 기본
 EDITOR_NOT_WHITELISTED: 안녕 여행자! 여행자는 아직 가이드 편집이 허용되지 않은 상태야! (https://genshinwizard.com/sumeru/)에 지원해 수메르 학파에 들어갈 기회를 노려봐!
@@ -1490,7 +1490,7 @@ HOYO_TEAPOT_KEY: "선계:"
 HOYO_TRANSFORMER_KEY: "매개변수변환기:"
 TRANSFORMER_READY_KEY: 준비됨
 TRANSFORMER_LOCKED_KEY: 잠김
-GENSHIN_STATS_KEY: 원신 스텟
+GENSHIN_STATS_KEY: 원신 통계
 STATS_TOTAL_ACHIEVEMENTS_KEY: "총 업적"
 STATS_TOTAL_ACTIVE_DAYS_KEY: "활동 일수"
 STATS_TOTAL_CHARACTERS_KEY: "캐릭터"
@@ -1512,8 +1512,8 @@ PERCENT_KEY: 퍼센트
 FIVE_STAR_KEY: 5성
 FOUR_STAR_KEY: 4성
 THREE_STAR_KEY: 3성
-BOTTOM_KEY: 하
-TOP_KEY: 상
+BOTTOM_KEY: 아래
+TOP_KEY: 위
 WISH_STAT_LESS_THAN: "원신 위자드의 {global_percentile}% 의 여행자들 보다 적게 뽑았어."
 WISH_STAT_MORE_THAN: "원신 위자드의 {global_percentile}% 의 여행자들 보다 많이 뽑았어."
 FIVE_STAR_LUCK: "5성 행운"
@@ -1521,8 +1521,8 @@ FOUR_STAR_LUCK: "4성 행운"
 THREE_STAR_LUCK: "3성 행운"
 WISH_LUCK_LESS: "원신 위자드의 {rarity_percentile}% 의 여행자들 보다 운이 적어."
 WISH_LUCK_MORE: "원신 위자드의 {rarity_percentile}% 의 여행자들보다 운이 좋아."
-CURRENT_LUNAR_PHASE: 이번 시즌
-PREVIOUS_LUNAR_PHASE: 지난 시즌
+CURRENT_LUNAR_PHASE: 이번 연월비경
+PREVIOUS_LUNAR_PHASE: 지난 연월비경
 ABYSSAL_ARCHIVES: 나선 도전 회고
 ELEMENTAL_SKILLS_CAST_LABEL: 원소전투 스킬 발동 횟수
 ELEMENTAL_BURSTS_UNLEASHED_LABEL: 원소폭발 발동 횟수
@@ -1533,7 +1533,7 @@ INFORMATION_KEY: 정보
 FROM_DIARY_NOTE: "-{nickname} 에게서"
 TRAVELER_DIARY_KEY: 여행자 핸드북
 NICKNAME_KEY_VALUE: "닉네임: {nickname}"
-DIARY_MONTH_OF_KEY: "의 달"
+DIARY_MONTH_OF_KEY: "월"
 ACQUIRED_MONTH_KEY: 이번 달에 획득함
 TOTAL_MORA_KEY: 총 모라
 DIARY_MONTHLY_DESCRIPTION: "이번 달 가장 많은 원석을 얻은 방법은 {source} 이고, 이를 통해 총 {primogem_count} 원석을 얻어서 전체 원석 수입의 {top_percentage}% 를 차지했어!"
@@ -1568,24 +1568,24 @@ PROFILE_SHOWCASE_TITLE: Genshin Wizard 프로필
 ADVENTURE_RANK_KEY: 모험랭킹
 HIDE_WEAPON_KEY: 무기 정보 숨기기
 SHOW_WEAPON_KEY: 무기 정보 표시
-ONGOING_KEY: 진행중...
+ONGOING_KEY: 진행중인
 FINISHED_KEY: 완성!
-VENTURA_ART_SETTING: 수평 카드 레이아웃
+VENTURA_ART_SETTING: 맥 Ventura 레이아웃
 TITLE_KEY: 제목
-AFFILIATION_KEY: 제휴
+AFFILIATION_KEY: 소속
 ELEMENT_KEY: 원소 유형
 CONSTELLATION_KEY: 별자리
 WEAPON_TYPE_KEY: 무기 유형
 RARITY_KEY: 등급
-CHARACTER_GUIDE_FOOTER: "캐릭터가이드"
-DEFAULT_ASCENSION_DESCRIPTION: 이 캐릭터의 재료 정보에 관한 정보입니다.
-READY_TO_CLAIM: 출석준비완료
+CHARACTER_GUIDE_FOOTER: "캐릭터 가이드 • {guide_type}: {character_name}"
+DEFAULT_ASCENSION_DESCRIPTION: 이 캐릭터의 레벨 돌파 재료 관련 정보
+READY_TO_CLAIM: 출석체크 준비 완료
 STATUS_KEY: 상태
 TIME_LEFT_KEY: 남은 시간
-TEAM_SYNERGY_TITLE: 팀시너지&조합
+TEAM_SYNERGY_TITLE: 팀 시너지&조합
 FOUR_STAR_CHARACTER: 4성 캐릭터
 FIVE_STAR_CHARACTER: 5성 캐릭터
-CHARACTER_ART_INFO: 출처{artist}
+CHARACTER_ART_INFO: '출처: {artist}'
 ARTIFACT_SET_KEY: 성유물 세트
 TWO_PIECE_BONUS: 2세트 효과
 FOUR_PIECE_BONUS: 4세트 효과
@@ -1601,15 +1601,15 @@ APP_COMMAND_DESCRIBE_FURNITURE: 확인하고자 하는 가구의 이름이야.
 COMFORT_KEY: 편안함
 LOAD_KEY: 불러오기
 CREATION_TIME_KEY: 생성된 시간
-TRUST_KEY: 믿음
+TRUST_KEY: 신뢰
 FURNISHING_DETAILS_KEY: 가구의 세부 정보
 INGREDIENTS_KEY: 재료
 SOURCE_KEY: 소스
-APP_COMMAND_MATERIAL_DESCRIPTION: 원신의 자원에 대한 정보를 확인할 수 있어.
-APP_COMMAND_DESCRIBE_MATERIAL: 확인하고자 하는 자원의 이름이야.
-APP_COMMAND_NAMECARD_DESCRIPTION: 원신의 명함에 대한 정보를 확인할 수 있어.
+APP_COMMAND_MATERIAL_DESCRIPTION: 원신의 특정 재료에 대한 정보를 확인할 수 있어.
+APP_COMMAND_DESCRIBE_MATERIAL: 확인하고자 하는 재료의 이름이야.
+APP_COMMAND_NAMECARD_DESCRIPTION: 원신의 특정 명함에 대한 정보를 확인할 수 있어.
 APP_COMMAND_DESCRIBE_NAMECARD: 확인하고자 하는 명함의 이름이야.
-APP_COMMAND_RECIPE_DESCRIPTION: 원신의 요리법에 대한 정보를 확인할 수 있어.
+APP_COMMAND_RECIPE_DESCRIPTION: 원신의 특정 요리법에 대한 정보를 확인할 수 있어.
 APP_COMMAND_DESCRIBE_RECIPE: 확인하고자 하는 요리법의 이름이야.
 APP_COMMAND_MONSTER_DESCRIPTION: 원신의 몬스터에 대한 정보를 확인할 수 있어.
 APP_COMMAND_DESCRIBE_MONSTER: 확인하고자 하는 몬스터의 이름이야.
@@ -1631,9 +1631,9 @@ INVOKATION_NICKNAME: "닉네임:"
 INVOKATION_TITLE: "일곱 성인의 소환"
 INVOKATION_SHOWCASE: "일곱 성인의 소환 카드 쇼케이스"
 INVOKATION_SUMMARY: "일곱성인의 소환 카드 개요"
-DAILY_ALREADY_CLAIMED: 이미 오늘의 일일보상을 수령했어!
-UNABLE_TO_CLAIM: 일일 보상을 수령할 수 없어.
-COOKIE_RESET_MESSAGE: 계정 비밀번호를 재설정하면, 호요랩 사이트의 쿠키가 리셋되어서 이 명령을 사용하려면 등록 절차- </hoyo:{command_id}> 를 다시 한번 거쳐야 해.
+DAILY_ALREADY_CLAIMED: 이미 오늘의 일일 출석체크 보상을 수령했어!
+UNABLE_TO_CLAIM: 일일 출석체크 보상을 수령할 수 없어.
+COOKIE_RESET_MESSAGE: 계정 비밀번호를 재설정하면, 호요랩 사이트의 쿠키가 리셋돼. 따라서 이 명령을 사용하려면 *호요랩 등록 절차* - </hoyo:{command_id}> 를 다시 한번 거쳐야 해.
 INVALID_COOKIE_KEY: 유효하지 않은 쿠키
 TEST_NOTIFICATION_KEY: 테스트 알림
 TEST_NOTIFICATION_TITLE: 원신 위자드 | 테스트 알림
