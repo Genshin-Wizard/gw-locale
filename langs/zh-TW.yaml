@@ -104,7 +104,7 @@ CLICK_HERE: 點擊此處
 INFO_SELECT_CHARACTER: 選擇一個角色
 INFO_CHARACTER_SOURCE: "Source: Saved Builds"
 INFO_USER_CACHE: 使用者快取
-INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
+INTERMISSION_MESSAGE: 資訊圖表產生中，請**稍候**...
 MENU_COOLDOWN_TITLE: That menu is on cooldown!
 BUTTON_COOLDOWN_TITLE: That button is on cooldown!
 COMMAND_COOLDOWN_TITLE: That command is on cooldown!
@@ -189,7 +189,7 @@ APP_COMMAND_CALC_DESCRIPTION: 計算給定角色所需的提升材料。
 APP_COMMAND_BANNER_DESCRIPTION: 更改 Genshin Wizard 個人資料的橫幅背景
 APP_COMMAND_PROFILE_DESCRIPTION: 檢視 Genshin Wizard 個人設定檔
 APP_COMMAND_SETTINGS_DESCRIPTION: 更改 Genshin Wizard 設定檔
-APP_COMMAND_STATS_DESCRIPTION: 查看您的原神帳戶的統計信息。
+APP_COMMAND_STATS_DESCRIPTION: 查看您的原神帳戶統計數據。
 APP_COMMAND_ABYSS_DESCRIPTION: 顯示原神帳號的深境螺旋進度
 APP_COMMAND_EXPLORATION_DESCRIPTION: 檢視您的地圖探索度
 APP_COMMAND_UID_DESCRIPTION: 查詢使用者的原神 UID / 區域
@@ -580,7 +580,7 @@ PREVIOUS_ABYSS_DESCRIPTION: |
   **以前淵月**
   **開始時間：** <t:{timestamp_start}:F>
   **結束時間：** <t:{timestamp_end}:F>
-ABYSS_COMMAND_FOOTER: "注意：深淵數據可能顯示錯誤或缺少數據，如果是這種情況，請記住，深淵數據一般需要1-3個小時的時間來更新!"
+ABYSS_COMMAND_FOOTER: "注意：深淵數據可能顯示錯誤或缺少數據，如果是這種情況，請記住，深淵數據一般需要 1~3 個小時的時間來更新！"
 ABYSS_MISSING_DATA_FOOTER: "注意：此數據似乎缺少一些信息！這可能是因為此信息之前未存儲在數據庫中，或者數據尚未更新。"
 ABYSSAL_ARCHIVE_DESCRIPTION: |
   <:以前的深淵:1028377675989000215> **深淵檔案館**
@@ -825,7 +825,7 @@ STATISTICS_COMMAND_FOOTER: "注意：統計數據可能會因為 HoYoLAB API 錯
 CONGRATULATIONS_KEY: Congratulations!
 ABYSS_CONGRATULATE_MESSAGE: |
   恭喜{user}完美*掃蕩*螺旋深淵！ <:spiralabyss:1000079902596411482> <@&{role_id}> 指定角色 <a:check:956327345717907507>
-ABYSS_COMMAND_STATISTICS_CREDIT: 用户{name} 的螺旋深淵統計資料
+ABYSS_COMMAND_STATISTICS_CREDIT: 玩家 {name} 的螺旋深淵統計資料
 CURRENT_LUNAR_PHASE_DESCRIPTION: |
   **當前淵月**
   **開始時間：** {start}
@@ -955,7 +955,7 @@ MISSING_WEBHOOK_PERMISSION: I don't have permission to `Manage Webhooks` in this
 CHANGE_ROLE_INTEGRATION: Make changes to Genshin Wizard's automatic role integration.
 SETUP_COMMAND_TITLE: Genshin Wizard | Setup Panel
 UPDATED_INTEGRATION_RESPONSE: "Successfully updated integration for: **{integration}**!"
-PREMIUM_ART_SETTINGS_TITLE: Genshin Wizard Custom Art Settings
+PREMIUM_ART_SETTINGS_TITLE: Genshin Wizard 自訂美術圖設定
 PREMIUM_ART_SETTINGS_DESCRIPTION: |
   <:information:1034639378410115103> **Manage your Genshin Wizard </info:{command_id}> Art Settings**
   Tired of the default art that Genshin Wizard delivers? Well, you can now choose your own custom art for your character cards!
@@ -994,7 +994,7 @@ PREMIUM_USER_DETAILS: |
   **Membership Details:**
   Plan: **{plan_name}** (Tier {plan_tier})
   Renews on: {expiry}
-LINK_TO_PREMIUM: Click the links below to purchase Genshin Wizard premium.
+LINK_TO_PREMIUM: 點選下方連結購買 Genshin Wizard Premium
 PATREON_KEY: Patreon
 PREMIUM_TIER_ONE_PERKS: |
   <:information:1034639378410115103> **Premium Perks: $5 Monthly Plan**
@@ -1088,7 +1088,7 @@ GENSHIN_WIZARD_SERVER_JOIN_DESCRIPTION: |
   > 恭喜！這裡是 **{guilds}** 邀請 Genshin Wizard 的伺服器！🎉
 
   請參閱我們的[**說明文件**](https://docs.genshinwizard.com/)或是使用 </help:{command_id}> 指令以獲得更多資訊！
-SHOWCASE_KEY: Showcase
+SHOWCASE_KEY: 展示櫃
 CUSTOM_ART_KEY: Custom Art
 DELETE_SELECTED_KEY: 刪除選擇項目
 DELETE_ALL_KEY: 全部移除
@@ -1164,8 +1164,8 @@ ALL_CHESTS_LABEL: "All Chests"
 STRONGEST_STRIKE_LABEL: "最強一擊"
 MOST_BURSTS_USED_LABEL: "Most Bursts Used"
 MOST_SKILLS_USED_LABEL: "使用最多的技能"
-MOST_DAMAGE_TAKEN_LABEL: "承受最多傷客"
-MOST_DEFEATS_LABEL: "最多擊殺"
+MOST_DAMAGE_TAKEN_LABEL: "承受最多傷害"
+MOST_DEFEATS_LABEL: "最多擊破數"
 MAX_HP_LABEL: "Max HP"
 HP_LABEL: "HP"
 HP_PERCENT_LABEL: "HP%"
@@ -1351,8 +1351,8 @@ PREMIUM_SERVER_TIMESTAMP: Premium since {date}
 GUILD_OR_SERVER_ID: Guild/Server ID
 GUILD_OR_SERVER_ID_PLACEHOLDER: Insert Guild/Server ID here...
 GUIDE_KEY: Guide
-ENABLE_ADAPTIVE_ART_SETTING: Enable Adaptive Infographic Art
-ADAPTIVE_INFOGRAPHIC_KEY: Adaptive Infographic Art
+ENABLE_ADAPTIVE_ART_SETTING: 啟用自適應資訊圖表風格
+ADAPTIVE_INFOGRAPHIC_KEY: 自適應資訊圖表風格
 INVITE_BOT_KEY: Invite Bot
 HELP_DROPDOWN_DIRECTORY: 支援總覽
 HELP_DROPDOWN_PROFILE_COMMANDS: 設定檔指令
@@ -1419,17 +1419,17 @@ CHRONICLE_PRIVACY_PLACEHOLDER: "Manage Battle Chronicle privacy settings..."
 LEADERBOARD_FILTER_PLACEHOLDER: "Choose a filter for this leaderboard..."
 VIEW_ABYSS_TEAM: Viewing Abyss Teams
 MANAGE_ART_SETTING_KEY: Manage Art Settings
-DEFAULT_ART_SETTING: Default Layout
-ENKA_ART_SETTING: Enka.Network Layout
-ART_SETTING_TITLE: Genshin Wizard Art Settings
+DEFAULT_ART_SETTING: 預設排版
+ENKA_ART_SETTING: Enka.Network 風格
+ART_SETTING_TITLE: Genshin Wizard 美術圖設定
 ART_SETTING_DESCRIPTION: Manage your Genshin Wizard </info:{command_id}> art settings here.
-ART_LAYOUT_STYLE: "Layout Style"
-ART_CHARACTER_STYLE: "Character Art"
+ART_LAYOUT_STYLE: "排版風格"
+ART_CHARACTER_STYLE: "角色美術圖"
 RESET_PROFILE_SETTINGS: Reset Profile Settings
 CHOOSE_ART_LAYOUT: "Choose an art layout style..."
 MANAGE_CACHED_DATA: Manage Cached Data
 INFO_COMMAND_SETTING_NOT_OWNER: You can only manage art settings for your own characters! Use the </info:{command_id}> for more information!
-VERTICAL_ART_SETTING: Vertical Card Layout
+VERTICAL_ART_SETTING: 垂直卡片排版
 DIARY_DATE_LABEL: "{month}/{year} Diary"
 NO_ACTIVE_BONUS: No Activated Bonuses
 JANUARY_KEY: 1月
@@ -1458,8 +1458,8 @@ UNKNOWN_ADVENTURE_RANK: "冒險等級：N/A"
 ADVENTURE_RANK_VALUE: "冒險等級:{adventure_rank}"
 SERVER_KEY_VALUE: "Server: {server}"
 UID_KEY_VALUE: "UID: {uid}"
-HOYO_API_LIMITATION: "*Data may be inaccurate due to HoYoLAB API limitations"
-CHECK_IN_GAME: "遊戲中查看最準確的信息"
+HOYO_API_LIMITATION: "*可能會因為 HoYoLAB API 的限制導致資料異常"
+CHECK_IN_GAME: "可在遊戲中查看最準確的資訊"
 HOYO_COMMISSION_KEY: "Commissions:"
 HOYO_ADVENTURE_RANK_KEY: "冒險等級:"
 HOYO_DAILY_BONUS_STATUS: "每日簽到:"
@@ -1502,8 +1502,8 @@ WISH_LUCK_MORE: "Luckier than {rarity_percentile}% of Genshin Wizard Users."
 CURRENT_LUNAR_PHASE: 當前淵月
 PREVIOUS_LUNAR_PHASE: Previous Lunar Phase
 ABYSSAL_ARCHIVES: Abyssal Archives
-ELEMENTAL_SKILLS_CAST_LABEL: 元素爆發次數
-ELEMENTAL_BURSTS_UNLEASHED_LABEL: 元素爆發
+ELEMENTAL_SKILLS_CAST_LABEL: 元素戰技施放次數
+ELEMENTAL_BURSTS_UNLEASHED_LABEL: 元素爆發施放次數
 STRONGEST_SINGLE_STRIKE_LABEL: 最強一擊
 ACCOUNT_INFO_KEY: Account Info
 CLASSIFIED_KEY: Classified
@@ -1526,10 +1526,10 @@ UID_HIDDEN_KEY: "UID Hidden"
 NO_CRIT_VALUE_KEY: "No Crit Value"
 NO_CRIT_VALUE_FOUND: "No CRIT Value Found"
 FRIENDSHIP_LEVEL_KEY: "好感 Lv. {friendship_level}"
-ARTIST_CREDIT_STRING: Character Artist Credits
+ARTIST_CREDIT_STRING: 角色圖片作者
 CUSTOM_ARTWORK_STRING: Custom Artwork
 CHARACTER_LEVEL_KEY: "Lv. {level}"
-CHAMBER_KEY_VALUE: "Chamber {chamber}"
+CHAMBER_KEY_VALUE: "第 {chamber} 層"
 MORA_PREVIOUS: "Previous Month's Mora: {mora}"
 PRIMOGEM_PREVIOUS: "Previous Month's Primogems: {primogems}"
 SUMMARY_KEY: 摘要
@@ -1542,13 +1542,13 @@ MOST_USED_CHARACTERS: 使用最多角色
 ABYSS_IMAGE_TITLE: 螺旋深淵統計
 ABYSS_FLOOR_COMPLETION: 深淵樓層完成
 WORLD_LEVEL_KEY: 世界等級
-PROFILE_SHOWCASE_TITLE: Genshin Wizard Profile Showcase
+PROFILE_SHOWCASE_TITLE: Genshin Wizard 角色展示櫃
 ADVENTURE_RANK_KEY: 冒險等級
 HIDE_WEAPON_KEY: 隱藏武器詳情
 SHOW_WEAPON_KEY: 武器詳情
 ONGOING_KEY: Ongoing
 FINISHED_KEY: 完成
-VENTURA_ART_SETTING: Ventura Layout
+VENTURA_ART_SETTING: Ventura 排版
 TITLE_KEY: Title
 AFFILIATION_KEY: Affiliation
 ELEMENT_KEY: 元素類型
@@ -1607,7 +1607,7 @@ SIGN_IN_DESCRIPTION: "*Use the command /daily to never miss a sign-in again!"
 INVOKATION_LEVEL: "Level:"
 INVOKATION_NICKNAME: "Nickname:"
 INVOKATION_TITLE: "Genius Invokation TCG"
-INVOKATION_SHOWCASE: "Card Showcase"
+INVOKATION_SHOWCASE: "卡牌展示櫃"
 INVOKATION_SUMMARY: "Trading Card Summary"
 DAILY_ALREADY_CLAIMED: You have already claimed your daily reward.
 UNABLE_TO_CLAIM: Unable to claim your daily reward.
@@ -1626,3 +1626,4 @@ SELECTED_GAME_KEY: Selected Game
 NOTIFICATIONS_KEY: Notifications
 DAILY_AUTOCLAIM_KEY: Daily Auto-Claim
 DAILY_CHECKIN_KEY: Daily Check-In
+INVOKATION_VICTORIES: "{win_count} Victories"
