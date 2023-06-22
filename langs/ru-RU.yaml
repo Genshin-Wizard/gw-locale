@@ -15,9 +15,9 @@ PING_INFORMATION: |
   Задержка бота **{bot_latency}мс.**
   Задержка веб-сокета **{ws_latency}мс.**
 UPTIME_INFORMATION: |
-  **Genshin Wizard аптайм**
+  **Рабочее время Genshin Wizard**
   **Последний перезапуск:** <t:{last_restart}:R>
-  **Аптайм:** {uptime}
+  **Рабочее время:** {uptime}
 VERSION_KEY: Версия
 PING_KEY: Пинг
 UNKNOWN_KEY: Неизвестно
@@ -32,7 +32,7 @@ VOTE_KEY: Голосовать
 VOTE_BOT: Голосовать за бота
 VOTE_SERVER: Голосовать за сервер
 VOTE_BOT_LINK: Ссылка на голосование за бота
-VOTE_SERVER_LINK: Ссылка на голосование за сервере
+VOTE_SERVER_LINK: Ссылка на голосование за сервер
 VOTE_BOT_BUTTON: Проголосовать [Bot]
 VOTE_SERVER_BUTTON: Проголосовать [Server]
 DEVELOPERS_KEY: Разработчики
@@ -44,8 +44,8 @@ INVITE_KEY: Пригласить
 DOCUMENTATION_KEY: Документация
 GWIZ_INVITE: Приглашение в Genshin Wizard
 AVATAR_KEY: Аватар
-ARTIFACT_CRIT_VALUE_TITLE: Калькулятор крит-ценности артефакта
-TOTAL_CRIT_VALUE: Общее ценность крита
+ARTIFACT_CRIT_VALUE_TITLE: Калькулятор крит-массы артефакта
+TOTAL_CRIT_VALUE: Общая крит-масса
 TRUTH_COMMAND_RESPONSES:
   - Как я вижу, да.
   - Да.
@@ -63,85 +63,85 @@ TRUTH_COMMAND_RESPONSES:
   - Мои источники говорят, что нет.
   - Не подтверждено.
   - Возможно.
-  - Не уверена
+  - Не уверен.
   - Может быть.
   - Кто знает?
-  - Я сейчас не могу предсказать.
-  - Я устал. *продолжаю со сном*
+  - Сейчас я не могу предсказать.
+  - Я устал. *переходит ко сну*
   - Абсолютно.
 TRUTH_COMMAND_TITLE: Мудрость Паймон
 QUESTION_KEY: Вопрос
 RESPONSE_KEY: Ответ
 PREFIX_COMMAND_CURRENT: Префикс для этого сервера `{prefix}`
-PREFIX_TOO_LONG: Префикс не может быть длиннее 5 символов.
+PREFIX_TOO_LONG: Длина префикса не может превышать 5 символов.
 PREFIX_TOO_SHORT: Префикс не может быть короче 1 символа.
-PREFIX_CHANGED_TITLE: Мастер Genshin | Изменение префикса
+PREFIX_CHANGED_TITLE: Genshin Wizard | Изменение префикса
 PREFIX_CHANGED_DESCRIPTION: |
   Префикс **Genshin Wizard's** успешно изменен! Теперь команды будут запускаться с помощью нового префикса.
 
   **Старый префикс:** `{old_prefix}`
   **Новый префикс:** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: Мастер Genshin | Изменение префикса
+PREFIX_CHANGED_FOOTER: Genshin Wizard | Настройка префикса
 MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Ошибка вычисления. Попробуйте перефразировать!"
 MATH_COMMAND_RESULT: |
   **Выражение:** `{expression}`
   **Результат:**
   ```{result}```
-RECENT_GENSHIN_EVENTS: Недавние события Генешина
-SEND_CODES_COMMAND_TITLE: Мастер Genshin | Активные коды
+RECENT_GENSHIN_EVENTS: Последние события в Genshin
+SEND_CODES_COMMAND_TITLE: Genshin Wizard | Активные коды
 SEND_CODES_COMMAND_DESCRIPTION: |
   <:blurplelink:1020155547187691600> [***Можно использовать, нажав на кнопки ниже!***](https://genshin.mihoyo. om/ru/gift)
-  <:blurpleannounce:1020402170127982712> **Примечание:** Коды истекают быстро, так что не забудьте их использовать как можно скорее!
+  <:blurpleannounce:1020402170127982712> **Примечание:** Срок действия кодов быстро истекает, поэтому обязательно активируйте их как можно скорее!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
-SEND_CODES_REDEEM_AUTOMATICALLY: Использовать автоматически
+SEND_CODES_REDEEM_AUTOMATICALLY: Активировать автоматически
 SEND_CODES_DIRECT_LINK: Прямая ссылка
-SEND_CODES_REDEEMABLE_CODES: Обменяемые коды
-SEND_CODES_REDEMPTION_CODES_TITLE: Мастер Genshin | Активные коды
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Код выкупа успешно отправлен {channel}!
-MESSAGE_LINK: Ссылка
-CLICK_HERE: Щелкнуть здесь
+SEND_CODES_REDEEMABLE_CODES: Коды, которые можно использовать повторно
+SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Активные коды
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Промокод успешно отправлен {channel}!
+MESSAGE_LINK: Ссылка на сообщение
+CLICK_HERE: Кликнуть здесь
 INFO_SELECT_CHARACTER: Выберите персонажа
 INFO_CHARACTER_SOURCE: "Источник: Сохраненные сборки"
 INFO_USER_CACHE: Пользовательский кэш
-INTERMISSION_MESSAGE: Генерация информации **терпение**...
-MENU_COOLDOWN_TITLE: Это меню перезаряжается!
-BUTTON_COOLDOWN_TITLE: Эта кнопка перезаряжается!
-COMMAND_COOLDOWN_TITLE: Эта команда перезаряжается!
+INTERMISSION_MESSAGE: Генерация инфографики, пожалуйста подождите...
+MENU_COOLDOWN_TITLE: Это меню на перезарядке!
+BUTTON_COOLDOWN_TITLE: Эта кнопка на перезарядке!
+COMMAND_COOLDOWN_TITLE: Эта команда на перезарядке!
 MENU_COOLDOWN_VALUE: Вы слишком быстро нажимаете на атрибуты! Повторите попытку через **{cooldown}** секунд.
-CHARACTER_SHOWCASE_TITLE: Персонаж
-ERROR_RATELIMIT: В настоящее время пользователь ratelimied.
-ERROR_COMMAND_COOLDOWN_VALUE: Попробуйте снова использовать эту команду через {cooldown} секунд.
+CHARACTER_SHOWCASE_TITLE: Демонстрация персонажа
+ERROR_RATELIMIT: В настоящее время пользователь ограничен по рейтингу.
+ERROR_COMMAND_COOLDOWN_VALUE: Попробуйте использовать эту команду еще раз через {cooldown} секунд.
 ERROR_COMMAND_LONG_COOLDOWN_VALUE: Попробуйте использовать эту команду снова в <t:{cooldown}:R>
 ERROR_KEY: Ошибка!
 SUCCESSFUL_KEY: Успешно!
 ERROR_MISSING_PERMISSION: У вас нет прав на использование этой команды!
-EXCLUSIVE_COMMAND_TITLE: Мастер Гэншина | Эксклюзивная команда
+EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Эксклюзивная команда
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Эй, путешественник! Вы **не допускаете** использовать эту команду здесь, эту команду можно использовать только на сервере!
+  Эй, путешественник! Ты **не можешь** использовать эту команду здесь, эту команду можно использовать только на сервере!
 
-  Если вы хотите использовать эту команду, попробуйте присоединиться к [официальной Discord](https://discord. g/genshinwizard).
+  Если ты хочешь использовать эту команду, попробуй присоединиться к [официальному Discord](https://discord.g/genshinwizard).
 ERROR_COMMAND_INVOKE: Убедитесь, что вы используете правильные параметры для этой команды!
-ERROR_PRIVACY_SETTING_TITLE: Скрыто | Нечего видеть!
-ERROR_PRIVACY_SETTING_DESCRIPTION: Эй, путешественник! К сожалению, пользователь, которого вы пытаетесь найти, имеет **настройки конфиденциальности** включен!
+ERROR_PRIVACY_SETTING_TITLE: Скрыто | Не на что смотреть!
+ERROR_PRIVACY_SETTING_DESCRIPTION: Эй, путешественник! К сожалению, у человека, которого вы пытаетесь найти, включены **настройки конфиденциальности**!
 ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Текущее обновление!
-ERROR_ONGOING_UPDATE_DESCRIPTION: Привет, путешественник! Мастер Genshin в настоящее время **проходит техобслуживание**, эта команда была *отключена* на данный момент. Пожалуйста, повторите попытку *позже*.
+ERROR_ONGOING_UPDATE_DESCRIPTION: Эй, путешественник! Genshin Wizard в настоящее время **проходит техническое обслуживание**, и эта команда на данный момент *отключена*. Пожалуйста, повторите попытку *позже*.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  Эй, путешественник! Вы **не допускаете** использовать эту команду здесь, это сервер Genshin Wizard {command_type}*exclusive* команда!
+  Эй, путешественник! Тебе **запрещено** использовать эту команду здесь, это *эксклюзивная* команда сервера Genshin Wizard {command_type}!
 
-  Если вы хотите использовать эту команду, попробуйте присоединиться к [официальной Discord](https://discord. g/genshinwizard).
-ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
-ERROR_PREMIUM_COMMAND_DESCRIPTION: Hey Traveler! You're **not allowed** to use this command, this command is only available to **Premium Subscribers**. If you'd like use this feature, consider learning more using the </premium:{command_id}> command.
-ERROR_BLACKLISTED_TITLE: Genshin Wizard | Blacklisted
+  Если ты хочешь использовать эту команду, попробуй присоединиться к [официальному Discord](https://discord.g/genshinwizard).
+ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Премиум
+ERROR_PREMIUM_COMMAND_DESCRIPTION: Эй, путешественник! Тебе **запрещено** использовать эту команду, эта команда доступна только **Премиум подписчикам**. Если ты хочешь воспользоваться этой функцией, рассмотри возможность получения дополнительной информации с помощью команды </premium:{command_id}>.
+ERROR_BLACKLISTED_TITLE: Genshin Wizard | Чёрный список
 ERROR_BLACKLISTED_DESCRIPTION: |
-  Hey Traveler! You have been **banned** from using Genshin Wizard!
+  Эй, путешественник! Ты был **заблокирован** за использование Genshin Wizard!
 
-  If you believe for this to be an error, consider joining our [Official Discord](https://discord.gg/genshinwizard)
-ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Member Not Found
-ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Make sure the person you are trying to view is still in the server.
-ERROR_MISSING_REQUIRED_ARGUMENT: "You forgot to provide an argument, please use the correct format: ```{usage}```"
-ERROR_MISSING_REQUIRED_ATTACHMENT: "You forgot to provide an attachment, please use the correct format: ```{usage} with the correct attachment.```"
-ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, I do not have permission to `Manage Messages` within this channel/guild. Please enable this permission and try again.
+  Если ты считаешь это ошибкой, попробуй присоединиться к нашему [Официальному Discord](https://discord.gg/genshinwizard)
+ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Участник не найден
+ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Убедитесь, что человек, которого вы пытаетесь просмотреть, всё ещё находится на сервере.
+ERROR_MISSING_REQUIRED_ARGUMENT: "Вы забыли указать аргумент, пожалуйста, используйте правильный формат: ```{usage}```"
+ERROR_MISSING_REQUIRED_ATTACHMENT: "Вы забыли указать вложение, пожалуйста, используйте правильный формат: ```{usage} с правильным вложением.```"
+ERROR_MISSING_MANAGE_MESSAGE: Эй, путешественник, у меня нет разрешения `Управление сообщениями` в рамках этого канала / гильдии. Пожалуйста, включи это разрешение и повтори попытку.
 ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
 MESSAGE_KEY: Message
 ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
@@ -279,7 +279,7 @@ ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
 WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
-INFO_COMMAND_SHOWCASE_TITLE: Персонаж
+INFO_COMMAND_SHOWCASE_TITLE: Демонстрация персонажа
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
 REFRESHES_KEY: Refreshes
 INFO_COMMAND_CHARACTER_DETAILS: Character
@@ -991,7 +991,7 @@ PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
   Role: {role_mention}
   Role Name: {role_name}
   Role Color: `{role_color}`
-GENSHIN_WIZARD_PREMIUM: Genshin Wizard Premium
+GENSHIN_WIZARD_PREMIUM: Genshin Wizard Премиум
 CLAIMED_KEY: Claimed
 UNCLAIMED_KEY: Unclaimed
 PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard Premium Server Settings
@@ -1644,3 +1644,4 @@ SELECTED_GAME_KEY: Selected Game
 NOTIFICATIONS_KEY: Notifications
 DAILY_AUTOCLAIM_KEY: Daily Auto-Claim
 DAILY_CHECKIN_KEY: Daily Check-In
+INVOKATION_VICTORIES: "{win_count} Victories"
