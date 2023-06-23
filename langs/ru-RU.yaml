@@ -15,9 +15,9 @@ PING_INFORMATION: |
   Задержка бота **{bot_latency}мс.**
   Задержка веб-сокета **{ws_latency}мс.**
 UPTIME_INFORMATION: |
-  **Рабочее время Genshin Wizard**
+  **Genshin Wizard аптайм**
   **Последний перезапуск:** <t:{last_restart}:R>
-  **Рабочее время:** {uptime}
+  **Аптайм:** {uptime}
 VERSION_KEY: Версия
 PING_KEY: Пинг
 UNKNOWN_KEY: Неизвестно
@@ -32,7 +32,7 @@ VOTE_KEY: Голосовать
 VOTE_BOT: Голосовать за бота
 VOTE_SERVER: Голосовать за сервер
 VOTE_BOT_LINK: Ссылка на голосование за бота
-VOTE_SERVER_LINK: Ссылка на голосование за сервер
+VOTE_SERVER_LINK: Ссылка на голосование за сервере
 VOTE_BOT_BUTTON: Проголосовать [Bot]
 VOTE_SERVER_BUTTON: Проголосовать [Server]
 DEVELOPERS_KEY: Разработчики
@@ -44,8 +44,8 @@ INVITE_KEY: Пригласить
 DOCUMENTATION_KEY: Документация
 GWIZ_INVITE: Приглашение в Genshin Wizard
 AVATAR_KEY: Аватар
-ARTIFACT_CRIT_VALUE_TITLE: Калькулятор крит-массы артефакта
-TOTAL_CRIT_VALUE: Общая крит-масса
+ARTIFACT_CRIT_VALUE_TITLE: Калькулятор крит-ценности артефакта
+TOTAL_CRIT_VALUE: Общее ценность крита
 TRUTH_COMMAND_RESPONSES:
   - Как я вижу, да.
   - Да.
@@ -118,12 +118,12 @@ SUCCESSFUL_KEY: Успешно!
 ERROR_MISSING_PERMISSION: У вас нет прав на использование этой команды!
 EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Эксклюзивная команда
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Эй, путешественник! Ты **не можешь** использовать эту команду здесь, эту команду можно использовать только на сервере!
+  Эй, путешественник! Вы **не можете** использовать эту команду здесь, эту команду можно использовать только на сервере!
 
-  Если ты хочешь использовать эту команду, попробуй присоединиться к [официальному Discord](https://discord.g/genshinwizard).
+  Если вы хотите использовать эту команду, попробуйте присоединиться к [официальному Discord](https://discord. g/genshinwizard).
 ERROR_COMMAND_INVOKE: Убедитесь, что вы используете правильные параметры для этой команды!
 ERROR_PRIVACY_SETTING_TITLE: Скрыто | Не на что смотреть!
-ERROR_PRIVACY_SETTING_DESCRIPTION: Эй, путешественник! К сожалению, у человека, которого вы пытаетесь найти, включены **настройки конфиденциальности**!
+ERROR_PRIVACY_SETTING_DESCRIPTION: Эй, путешественник! К сожалению, у человека, которого вы пытаетесь найти, включены ** настройки конфиденциальности**!
 ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Текущее обновление!
 ERROR_ONGOING_UPDATE_DESCRIPTION: Эй, путешественник! Genshin Wizard в настоящее время **проходит техническое обслуживание**, и эта команда на данный момент *отключена*. Пожалуйста, повторите попытку *позже*.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
@@ -1126,7 +1126,7 @@ WEAPON_BANNER_DESCRIPTION: View your wish history for the weapon banner.
 PERMANENT_BANNER_DESCRIPTION: View your wish history for the permanent banner.
 CHOOSE_BANNER_PLACEHOLDER: Choose a banner...
 GO_BACK_BUTTON: Go Back
-REGISTER_SCRIPT_BUTTON: Register via Script
+REGISTER_SCRIPT_BUTTON: Click here to copy!
 REGISTER_LOGIN_BUTTON: Register via Login
 ENTER_TOKEN_BUTTON: Enter Token
 REGISTER_ACCOUNT_BUTTON: Register Account
@@ -1645,3 +1645,6 @@ NOTIFICATIONS_KEY: Notifications
 DAILY_AUTOCLAIM_KEY: Daily Auto-Claim
 DAILY_CHECKIN_KEY: Daily Check-In
 INVOKATION_VICTORIES: "{win_count} Victories"
+WORLD_EXPLORATIONS: World Explorations
+REPUTATION_LEVELS: Reputation Levels
+REGISTER_SCRIPT_ALERT: Please logout and log back in before trying again, cookie is currently expired/invalid!
