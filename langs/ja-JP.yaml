@@ -21,31 +21,31 @@ UPTIME_INFORMATION: |
 VERSION_KEY: バージョン
 PING_KEY: Ping
 UNKNOWN_KEY: Unknown
-USER_NOT_PUBLIC: User data is not public.
-INVITE_INFORMATION: Use the link below to invite this bot to your own server.
-REQUESTED_BY: Requested by {user}
+USER_NOT_PUBLIC: ユーザーデータは公開されていません。
+INVITE_INFORMATION: 以下のリンクを使用して、このボットを自分のサーバーに招待できます。
+REQUESTED_BY: '{user} からのリクエスト'
 SUPPORT_GWIZ_TITLE: Support Genshin Wizard
 SUPPORT_GWIZ_DESC: Support the development of Genshin Wizard.
-DONATE_KEY: Donate
+DONATE_KEY: 寄付
 VOTE_GWIZ_DESCRIPTION: Click the links below to vote for Genshin Wizard.
-VOTE_KEY: Vote
-VOTE_BOT: Vote for Bot
-VOTE_SERVER: Vote for Server
-VOTE_BOT_LINK: Bot Vote Link
-VOTE_SERVER_LINK: Server Vote Link
-VOTE_BOT_BUTTON: Vote [Bot]
-VOTE_SERVER_BUTTON: Vote [Server]
-DEVELOPERS_KEY: Developers
-SERVER_KEY: Server
-SERVERS_KEY: Servers
-USERS_KEY: Users
-WEBSITE_KEY: Website
-INVITE_KEY: Invite
-DOCUMENTATION_KEY: Documentation
+VOTE_KEY: 投票
+VOTE_BOT: ボットに投票
+VOTE_SERVER: サーバーに投票
+VOTE_BOT_LINK: ボット投票リンク
+VOTE_SERVER_LINK: サーバー投票リンク
+VOTE_BOT_BUTTON: '[Bot] に投票'
+VOTE_SERVER_BUTTON: '[Server] に投票'
+DEVELOPERS_KEY: 開発者
+SERVER_KEY: サーバー
+SERVERS_KEY: サーバー
+USERS_KEY: ユーザー
+WEBSITE_KEY: ウェブサイト
+INVITE_KEY: 招待
+DOCUMENTATION_KEY: ドキュメント
 GWIZ_INVITE: Genshin Wizard Invite
 AVATAR_KEY: Avatar
-ARTIFACT_CRIT_VALUE_TITLE: Artifact CRIT Value Calculator
-TOTAL_CRIT_VALUE: Total Crit Value
+ARTIFACT_CRIT_VALUE_TITLE: 聖遺物会心スコア計算機
+TOTAL_CRIT_VALUE: 合計会心スコア
 TRUTH_COMMAND_RESPONSES:
   - As I see it, yes.
   - Yes.
@@ -96,32 +96,32 @@ SEND_CODES_COMMAND_DESCRIPTION: |
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
 SEND_CODES_REDEEM_AUTOMATICALLY: Redeem Automatically
 SEND_CODES_DIRECT_LINK: Direct Link
-SEND_CODES_REDEEMABLE_CODES: Redeemable Codes
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Redemption Codes
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!
-MESSAGE_LINK: Message Link
+SEND_CODES_REDEEMABLE_CODES: 引き換えコード
+SEND_CODES_REDEMPTION_CODES_TITLE: 原神ウィザード | 引き換えコード
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: '{channel} に引き換えコードを送信しました！'
+MESSAGE_LINK: メッセージリンク
 CLICK_HERE: Click Here
-INFO_SELECT_CHARACTER: Select a character
+INFO_SELECT_CHARACTER: キャラクターを選択
 INFO_CHARACTER_SOURCE: "Source: Saved Builds"
-INFO_USER_CACHE: User Cache
+INFO_USER_CACHE: ユーザーキャッシュ
 INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
-MENU_COOLDOWN_TITLE: That menu is on cooldown!
-BUTTON_COOLDOWN_TITLE: That button is on cooldown!
-COMMAND_COOLDOWN_TITLE: That command is on cooldown!
+MENU_COOLDOWN_TITLE: メニューはクールダウン中です！
+BUTTON_COOLDOWN_TITLE: このボタンはクールダウン中です！
+COMMAND_COOLDOWN_TITLE: このコマンドはクールダウン中です。
 MENU_COOLDOWN_VALUE: You're clicking attributes too quickly! Try again in **{cooldown}** seconds.
 CHARACTER_SHOWCASE_TITLE: Character Showcase
-ERROR_RATELIMIT: User is currently ratelimited.
-ERROR_COMMAND_COOLDOWN_VALUE: Try using this command again in {cooldown} secs.
+ERROR_RATELIMIT: ユーザーは現在レート制限がかかっています。
+ERROR_COMMAND_COOLDOWN_VALUE: '{cooldown}秒後にもう一度このコマンドを使用してみてください。'
 ERROR_COMMAND_LONG_COOLDOWN_VALUE: Try using this command again in <t:{cooldown}:R>
 ERROR_KEY: Error!
 SUCCESSFUL_KEY: Successful!
-ERROR_MISSING_PERMISSION: You don't have permission to use this command!
+ERROR_MISSING_PERMISSION: このコマンドを使用する権限がありません！
 EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Exclusive Command
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
+  こんにちは、旅人さん！このコマンドはGenshin Wizardサーバーの専用コマンドです。ここでは**使用できません**。
 
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
-ERROR_COMMAND_INVOKE: Make sure you're using the correct parameters for this command!
+  もしこのコマンドを使用したい場合は、[公式Discord](https://discord.gg/genshinwizard)に参加してください！
+ERROR_COMMAND_INVOKE: このコマンドに正しい引数を使用していることを確認してください！
 ERROR_PRIVACY_SETTING_TITLE: Hidden | Nothing to see!
 ERROR_PRIVACY_SETTING_DESCRIPTION: Hey Traveler! Unfortunately, the person you are trying to search for has **privacy settings** enabled!
 ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Ongoing Update!
@@ -130,7 +130,7 @@ ERROR_PRIVATE_COMMAND_DESCRIPTION: |
   Hey Traveler! You're **not allowed** to use this command here, this is a Genshin Wizard server {command_type}*exclusive* command!
 
   If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
-ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
+ERROR_PREMIUM_COMMAND_TITLE: 原神ウィザードプレミアム
 ERROR_PREMIUM_COMMAND_DESCRIPTION: Hey Traveler! You're **not allowed** to use this command, this command is only available to **Premium Subscribers**. If you'd like use this feature, consider learning more using the </premium:{command_id}> command.
 ERROR_BLACKLISTED_TITLE: Genshin Wizard | Blacklisted
 ERROR_BLACKLISTED_DESCRIPTION: |
@@ -991,7 +991,7 @@ PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
   Role: {role_mention}
   Role Name: {role_name}
   Role Color: `{role_color}`
-GENSHIN_WIZARD_PREMIUM: Genshin Wizard Premium
+GENSHIN_WIZARD_PREMIUM: 原神ウィザードプレミアム
 CLAIMED_KEY: Claimed
 UNCLAIMED_KEY: Unclaimed
 PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard Premium Server Settings
@@ -1144,7 +1144,7 @@ DIARY_MONTH_PLACEHOLDER: Choose a month to view...
 INVOKATION_ARCHIVE_LABEL: View Genius Invokation TCG Archive
 INVOKATION_RETURN_SHOWCASE: Return to Showcase
 GLOBAL_BUTTON: Global
-SERVER_BUTTON: Server
+SERVER_BUTTON: サーバー
 PERSONAL_BUTTON: Personal
 ABYSS_LEADERBOARD_WANING_PHASE_LABEL: "{date} Waning Phase"
 ABYSS_LEADERBOARD_WAXING_PHASE_LABEL: "{date} Waxing Phase"
