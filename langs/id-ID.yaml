@@ -621,19 +621,18 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "Konsol"
 REGISTER_IOS_METHOD: "iOS (Metode Stream App)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Lihat [Dokumentasi Github](https://github.com/Genshin-Wizard/historyLink) kami untuk langkah-langkah mendetail dengan gambar.
+  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
 
-  1. Buka Game Genshin Impact di PC kamu
-  2. Buka halaman riwayat permohonan dan tunggu sampai dimuat
-  3. Kembali ke Windows
-  4. Di menu start, cari "PowerShell" dan buka "Windows PowerShell"
-  5. Kemudian salin kode berikut dan tempelkan di Powershell
+  1. Open Genshin Impact Game on your PC
+  2. Go to the wish history page and wait for it to load
+  3. Go back to Windows
+  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
+  5. Then copy the following code and paste it in the Powershell window
   ```ps
-  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
+  iex('Write-Host "Copy the wish history table!";while(1) { $c = Get-Clipboard -TextFormatType Html; if ($c -match "^SourceURL:https:/.+log") { break; }; for($i=5; $i -gt 0; $i--) { Write-Host "`rChecking in $i" -NoNewline; Sleep 1; }; }; Write-Host " OK"; $m=(((Get-Clipboard -TextFormatType Html) | Select-String "(https:/.+log)").Matches[0].Value);$m; Set-Clipboard -Value $m;')
   ```
-
-  6. Tekan `ENTER` agar tautan disalin ke clipboard kamu
-  7. Klik tombol di bawah dan tempel tautan tersebut di kolom input
+  6. Hit `ENTER` to have the link copied to your clipboard
+  7. Click the button below and paste the link in the input field
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   Setelah pembaruan 3.0, pengguna tidak daoat lagi menyalin dan menempelkan tautan riwayat di perangkat Android.
 

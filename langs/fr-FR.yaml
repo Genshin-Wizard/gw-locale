@@ -623,18 +623,18 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "Console"
 REGISTER_IOS_METHOD: "iOS (Méthode Stream App)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Consultez notre [Documentation Github](https://github.com/Genshin-Wizard/historyLink) pour des étapes détaillées avec des photos.
+  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
 
-  1. Ouvrez Genshin Impact sur votre PC
-  2. Allez sur la page de l'historique des vœux et attendez que la page se charge
-  3. Retourner sur Windows
-  4. Dans le menu démarrer, recherché "PowerShell" et ouvrez "Windows PowerShell"
-  5. Copiez le code suivant et collez le dans la fenêtre Powershell
+  1. Open Genshin Impact Game on your PC
+  2. Go to the wish history page and wait for it to load
+  3. Go back to Windows
+  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
+  5. Then copy the following code and paste it in the Powershell window
   ```ps
-  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
+  iex('Write-Host "Copy the wish history table!";while(1) { $c = Get-Clipboard -TextFormatType Html; if ($c -match "^SourceURL:https:/.+log") { break; }; for($i=5; $i -gt 0; $i--) { Write-Host "`rChecking in $i" -NoNewline; Sleep 1; }; }; Write-Host " OK"; $m=(((Get-Clipboard -TextFormatType Html) | Select-String "(https:/.+log)").Matches[0].Value);$m; Set-Clipboard -Value $m;')
   ```
-  6. Appuyez sur `ENTRER` pour avoir le lien copier dans votre presse-papiers
-  7. Cliquez sur le bouton ci-dessous et collez le lien dans le champ de saisie
+  6. Hit `ENTER` to have the link copied to your clipboard
+  7. Click the button below and paste the link in the input field
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   Après la mise à jour 3.0, les utilisateurs ne peuvent plus simplement copier et coller le lien d'historique sur les appareils Android.
 
