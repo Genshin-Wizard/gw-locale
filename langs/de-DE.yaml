@@ -61,70 +61,70 @@ TRUTH_COMMAND_RESPONSES:
   - Ich denke nicht.
   - Negativ.
   - Meine Quellen sagen nein.
-  - Not Convinced.
+  - Nicht bestätigt.
+  - Wohlmöglich.
+  - Nicht sicher.
   - Vielleicht.
-  - Not Sure.
-  - Maybe.
-  - Who knows?
-  - I cannot predict now.
-  - I am tired. *proceeds with sleeping*
-  - Absolutely.
-TRUTH_COMMAND_TITLE: Paimon's Wisdom
-QUESTION_KEY: Question
-RESPONSE_KEY: Response
-PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
-PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
-PREFIX_TOO_SHORT: The prefix cannot be shorter than 1 character.
-PREFIX_CHANGED_TITLE: Genshin Wizard | Prefix Change
+  - Wer weiß?
+  - Ich kann dies jetzt nicht beantworten.
+  - Ich bin müde. *schläft weiter*
+  - Natürlich.
+TRUTH_COMMAND_TITLE: Paimon's Weisheit
+QUESTION_KEY: Frage
+RESPONSE_KEY: Antwort
+PREFIX_COMMAND_CURRENT: Der Präfix für diesen Server ist `{prefix}`
+PREFIX_TOO_LONG: Der Präfix kann nicht länger als zwei Zeichen sein.
+PREFIX_TOO_SHORT: Der Präfix kann nicht kürzer als ein Zeichen sein.
+PREFIX_CHANGED_TITLE: Genshin Wizard | Präfix-Einstellungen
 PREFIX_CHANGED_DESCRIPTION: |
-  Successfully changed **Genshin Wizard's** prefix! Commands will now be invoked using this new prefix.
+  **Genshin Wizard's** Präfix wurde erfolgreich geändert. Die Befehle werden nun mit dem neuen Präfix ausgeführt.
 
-  **Old Prefix:** `{old_prefix}`
-  **New Prefix:** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: Genshin Wizard Prefix Setting
-MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Computational Error. Try rephrasing!"
+  **Alter Präfix:** `{old_prefix}`
+  **Neuer Präfix:** `{new_prefix}`
+PREFIX_CHANGED_FOOTER: Genshin Wizard Präfix-Einstellungen
+MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Rechenfehler! Bitte versuche es erneut!"
 MATH_COMMAND_RESULT: |
-  **Expression:** `{expression}`
-  **Result:**
+  **Eingabe:** `{expression}`
+  **Ergebnis:** 
   ```{result}```
-RECENT_GENSHIN_EVENTS: Recent Genshin Events
-SEND_CODES_COMMAND_TITLE: Genshin Wizard | Active Codes
+RECENT_GENSHIN_EVENTS: Aktuelle Genshin Events
+SEND_CODES_COMMAND_TITLE: Genshin Wizard | Aktive Codes
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
-  <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
+  <:blurplelink:1020155547187691600> [***Einlösbar durch drücken der Knöpfe unten!***](https://genshin.mihoyo.com/en/gift)
+  <:blurpleannouncement:1020402170127982712> **Hinweis:** Codes laufen schnell ab, also stell sicher das du die so schnell wie möglich einlöst!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
-SEND_CODES_REDEEM_AUTOMATICALLY: Redeem Automatically
-SEND_CODES_DIRECT_LINK: Direct Link
-SEND_CODES_REDEEMABLE_CODES: Redeemable Codes
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Redemption Codes
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!
-MESSAGE_LINK: Message Link
-CLICK_HERE: Click Here
-INFO_SELECT_CHARACTER: Select a character
-INFO_CHARACTER_SOURCE: "Source: Saved Builds"
-INFO_USER_CACHE: User Cache
-INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
-MENU_COOLDOWN_TITLE: That menu is on cooldown!
-BUTTON_COOLDOWN_TITLE: That button is on cooldown!
-COMMAND_COOLDOWN_TITLE: That command is on cooldown!
-MENU_COOLDOWN_VALUE: You're clicking attributes too quickly! Try again in **{cooldown}** seconds.
-CHARACTER_SHOWCASE_TITLE: Character Showcase
-ERROR_RATELIMIT: User is currently ratelimited.
-ERROR_COMMAND_COOLDOWN_VALUE: Try using this command again in {cooldown} secs.
-ERROR_COMMAND_LONG_COOLDOWN_VALUE: Try using this command again in <t:{cooldown}:R>
-ERROR_KEY: Error!
-SUCCESSFUL_KEY: Successful!
-ERROR_MISSING_PERMISSION: You don't have permission to use this command!
+SEND_CODES_REDEEM_AUTOMATICALLY: Automatisch einlösen
+SEND_CODES_DIRECT_LINK: Direkter Link
+SEND_CODES_REDEEMABLE_CODES: Einlösbare Codes
+SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Einlösbare Codes
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Gutscheincodes erfolgreich in {channel} gesendet!
+MESSAGE_LINK: Link zur Nachricht
+CLICK_HERE: Drücke hier
+INFO_SELECT_CHARACTER: Wähle einen Charakter
+INFO_CHARACTER_SOURCE: "Quelle: Gespeicherte Builds"
+INFO_USER_CACHE: Benutzercache
+INTERMISSION_MESSAGE: Generiere Infografik, bitte habe ** Geduld**, es ist gleich fertig...
+MENU_COOLDOWN_TITLE: Dieses Menü hat eine Abklingzeit!
+BUTTON_COOLDOWN_TITLE: Dieser Knopf hat eine Abklingzeit!
+COMMAND_COOLDOWN_TITLE: Dieser Befehl hat eine Abklingzeit aktiv!
+MENU_COOLDOWN_VALUE: Du klickst zu schnell auf die Attribute! Versuche es in **{cooldown}** Sekunden noch einmal.
+CHARACTER_SHOWCASE_TITLE: Charakter-Vorschau
+ERROR_RATELIMIT: Der Nutzer ist derzeit eingeschränkt.
+ERROR_COMMAND_COOLDOWN_VALUE: Versuche den Befehl in {cooldown} Sekunden erneut zu benutzen.
+ERROR_COMMAND_LONG_COOLDOWN_VALUE: Versuche den Befehl in <t:{cooldown}:R> erneut zu benutzen
+ERROR_KEY: Fehler!
+SUCCESSFUL_KEY: Erfolgreich!
+ERROR_MISSING_PERMISSION: Du hast keine Rechte, diesen Befehl auszuführen!
 EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Exklusiver Befehl
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
+  Hey Reisende/r! Dir ist **nicht erlaubt** den Befehl hier zu verwenden. Dieser Befehl funktioniert ausschließlich in einem Server.
 
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
-ERROR_COMMAND_INVOKE: Make sure you're using the correct parameters for this command!
-ERROR_PRIVACY_SETTING_TITLE: Hidden | Nothing to see!
-ERROR_PRIVACY_SETTING_DESCRIPTION: Hey Traveler! Unfortunately, the person you are trying to search for has **privacy settings** enabled!
-ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Ongoing Update!
+  Wenn du den Befehl trotzdem verwenden willst, komme doch auf unseren [offiziellen Discord](https://discord.gg/genshinwizard).
+ERROR_COMMAND_INVOKE: Stelle sicher, dass du die richtigen angaben für den Befehl angegeben hast!
+ERROR_PRIVACY_SETTING_TITLE: Versteckt | Nichts hier zu sehen!
+ERROR_PRIVACY_SETTING_DESCRIPTION: Hey, Reisende/r! Leider hat die Person, die du suchst einige **Privatsphäre-Einstellungen** aktiv!
+ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Laufendes Update!
 ERROR_ONGOING_UPDATE_DESCRIPTION: Hey Traveler! Genshin Wizard wird derzeit **Wartungen** unterzogen und dieser Befehl wurde vorerst *deaktiviert*. Bitte versuche es *später* erneut.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
   Hey Traveler! Dir ist **nicht erlaubt** diesen Befehl hier zu benutzen. Dieser Befehl ist ein Genshin Wizard Server {command_type}*exklusiver* Befehl!
@@ -279,7 +279,7 @@ ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
 WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
-INFO_COMMAND_SHOWCASE_TITLE: Character Showcase
+INFO_COMMAND_SHOWCASE_TITLE: Charakter-Vorschau
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
 REFRESHES_KEY: Refreshes
 INFO_COMMAND_CHARACTER_DETAILS: Character
