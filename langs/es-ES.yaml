@@ -622,18 +622,18 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "Consola"
 REGISTER_IOS_METHOD: "iOS (método de la aplicación Stream)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Consulte nuestra [documentación de GitHub](https://github.com/Genshin-Wizard/historyLink) para obtener pasos detallados con imágenes.
+  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
 
-  1. Abre el juego Genshin Impact en tu PC
-  2. Ve a la página del historial de deseos y espera a que se cargue
-  3. Vuelve a Windows
-  4. En el menú Inicio, busca "PowerShell" y abre "Windows PowerShell"
-  5. Luego copia el siguiente código y pégalo en la ventana de PowerShell
+  1. Open Genshin Impact Game on your PC
+  2. Go to the wish history page and wait for it to load
+  3. Go back to Windows
+  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
+  5. Then copy the following code and paste it in the Powershell window
   ```ps
-  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
+  iex('Write-Host "Copy the wish history table!";while(1) { $c = Get-Clipboard -TextFormatType Html; if ($c -match "^SourceURL:https:/.+log") { break; }; for($i=5; $i -gt 0; $i--) { Write-Host "`rChecking in $i" -NoNewline; Sleep 1; }; }; Write-Host " OK"; $m=(((Get-Clipboard -TextFormatType Html) | Select-String "(https:/.+log)").Matches[0].Value);$m; Set-Clipboard -Value $m;')
   ```
-  6. Pulse `ENTER` para copiar el enlace en su portapapeles
-  7. Haz clic en el botón de abajo y pega el enlace en el campo de entrada
+  6. Hit `ENTER` to have the link copied to your clipboard
+  7. Click the button below and paste the link in the input field
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   Después de la actualización 3.0, ya no se puede copiar y pegar simplemente el enlace del historial en los dispositivos Android.
 
