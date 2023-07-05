@@ -138,63 +138,63 @@ ERROR_BLACKLISTED_DESCRIPTION: |
 
   Wenn du glaubst, dass dies ein Fehler sei, überlege dir, dich an unseren [Official Discord](https://discord.gg/genshinwizard) zu wenden
 ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Mitglied nicht gefunden
-ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Vergewissern Sie sich, dass die Person, die Sie anschauen möchten, noch auf dem Server ist.
+ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Vergewisser dich, dass die Person, die dir anschauen möchten, noch auf dem Server ist.
 ERROR_MISSING_REQUIRED_ARGUMENT: "Du hast vergessen, ein Argument anzugeben, bitte benutze das korrekte Format: ```{usage}```"
-ERROR_MISSING_REQUIRED_ATTACHMENT: "Du hast vergessen, einen Anhang anzugeben, bitte benutze das korrekte Format: ```{usage} mit dem korrekten Attachment.```"
-ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, ich habe keine Berechtigung um Nachrichten in diesem Kanal zu verwalten. Bitte aktiviere diese Berechtigung und versuche es erneut.
-ERROR_MISSING_SEND_MESSAGE: Hey Traveler, ich habe keine Berechtigung um Nachrichten in diesem Kanal zu versenden. Bitte aktiviere diese Berechtigung und versuche es erneut.
+ERROR_MISSING_REQUIRED_ATTACHMENT: "Du hast vergessen, einen Anhang anzugeben, bitte benutze das korrekte Format: ```{usage} mit dem korrekten Anhang.```"
+ERROR_MISSING_MANAGE_MESSAGE: Hey Reisende/r, ich habe keine Berechtigung um Nachrichten in diesem Kanal zu verwalten. Bitte aktiviere diese Berechtigung und versuche es erneut.
+ERROR_MISSING_SEND_MESSAGE: Hey Reisende/r, ich habe keine Berechtigung um Nachrichten in diesem Kanal zu versenden. Bitte aktiviere diese Berechtigung und versuche es erneut.
 MESSAGE_KEY: Nachricht
 ERROR_EMPTY_BACKPACK: Dein Rucksack ist **leer**! Um deine Reise zu beginnen, benutze den </wishsimulator:{command_id}> Befehl!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! Dies **ist nicht deine Interaktion**, die du berühren möchtest! Verwende den Befehl {command}, wenn du diesen Befehl selbst verwenden möchtest!
+ERROR_INTERACTION_MISMATCH: Hey Traveler! Dies **ist nicht deine Interaktion**, die du verwenden möchtest! Verwende den Befehl {command}, wenn du diesen Befehl selbst verwenden möchtest!
 ERROR_MESSAGE: Es ist ein Fehler aufgetreten!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard| Feedback
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Ihr Feedback wurde erfolgreich an die Entwickler gesendet!*
+FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
+FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Ihr Feedback wurde erfolgreich an die Entwickler weitergegeben!*
 FEEDBACK_LOG_RESPONSE: |
   > Benutzer: **{author_name}** | {author_mention}
   > Discord ID: `{author_id}`
 
-  **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: Sie haben Ihr HoYoLAB-Konto noch nicht verknüpft. Verwende </register:{command_id}>, um Ihr Konto zu verknüpfen.
+  **Rückmeldung:**```{feedback}```
+NO_HOYOLAB_LINKED: Du hast dein HoYoLAB-Konto noch nicht verknüpft. Verwende </register:{command_id}>, um dein Konto zu verknüpfen.
 OLD_HOYOLAB_LINKED: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
+  Hallo Reisende/r! Entschuldigung für die Unannehmlichkeiten, aber diese Funktion, **nachdem** du dich mit deinem `HoYoLAB` Account bei Genshin Wizard registiert hast eingeführt.
 
-  In order to use this button, you must unlink your HoYoLAB account through </hoyo:{command_id}> and **relink** through the usual registration command.
-CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Redemption
-CODE_REDEEM_DESCRIPTION: "*Please wait while we process your redemption code...*"
+  In diesem Falle benutze diesen Knopf mit </hoyo:{command_id}> und **erneut hinzufügen** um deinen Account zu entfernen und registiere den Account mit den normalen Registrierungsbefehl.
+CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Einlösung
+CODE_REDEEM_DESCRIPTION: "*Bitte warte während wir deinen Einlösungscode verarbeiten...*"
 CODE_REDEEM_PROGRESS: |
-  *Please wait while we process your redemption code...*
-  <a:loading:1015667958237900801> Attempting to redeem code `{code}`
-HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Expired Cookies
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
+  *Bitte warte während wir deinen Einlösecode verarbeiten...*
+  <a:loading:1015667958237900801> Versuche Code `{code}` einlösen
+HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Abgelaufene Cookies
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Reisende/r! Es scheint, dass deine HoYoLAB-Gutscheincode Cookies **abgelaufen** sind! Benutze den Befehl </hoyo:{command_id}> und führe den Prozess des erneut verknüpfen deines Kontos zu **aktualisieren** deiner HoYoLAB-Konto-Cookies.
 GENSHIN_WIZARD_INFORMATION: |
-  <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
-  <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
+  <a:blue_arrow:1005981235966910494> **[Bot einladen](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
+  <a:blue_arrow:1005981235966910494> **[offizielle Website](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
-  <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
-APP_COMMAND_INFO_DESCRIPTION: Shows builds for characters in the user's in-game showcase.
-APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history formatted into a text file via private messages.
-APP_COMMAND_HISTORY_DESCRIPTION: View your Genshin account's wish history.
-APP_COMMAND_DAILY_DESCRIPTION: Claim your daily HoYoLAB sign-in rewards.
-APP_COMMAND_MONTHLY_DESCRIPTION: View HoYoLAB daily rewards for the month.
-APP_COMMAND_DIARY_DESCRIPTION: View your HoYoLAB Traveler's Diary.
-APP_COMMAND_REDEEM_DESCRIPTION: Redeem redemption codes for Genshin Impact.
-APP_COMMAND_HOYO_DESCRIPTION: Check your HoYoLAB account from Genshin Wizard.
-APP_COMMAND_CHARACTERS_DESCRIPTION: View your Genshin account's Character Summary.
-APP_COMMAND_TCG_DESCRIPTION: View your Genius Invokation TCG Account Showcase.
-APP_COMMAND_IMPORT_DESCRIPTION: Import your gacha wish history from other popular sites.
-APP_COMMAND_LEADERBOARD_DESCRIPTION: View Genshin Wizard's leaderboards.
-APP_COMMAND_LOCATION_DESCRIPTION: Display the known location(s) for the resource given.
-APP_COMMAND_LOCATIONS_DESCRIPTION: Display a list of available resource locations.
-APP_COMMAND_CALC_DESCRIPTION: Calculate required ascension materials for a given character.
-APP_COMMAND_BANNER_DESCRIPTION: Change your Genshin Wizard profile's banner.
-APP_COMMAND_PROFILE_DESCRIPTION: View your personal Genshin Wizard profile.
-APP_COMMAND_SETTINGS_DESCRIPTION: Change your Genshin Wizard profile settings.
-APP_COMMAND_STATS_DESCRIPTION: View your Genshin account's statistics.
-APP_COMMAND_ABYSS_DESCRIPTION: View your Genshin account's abyss progression.
-APP_COMMAND_EXPLORATION_DESCRIPTION: View your Genshin account's exploration progression.
-APP_COMMAND_UID_DESCRIPTION: Lookup a user's Genshin UID/Region.
-APP_COMMAND_REGISTER_DESCRIPTION: Register your Genshin account to Genshin Wizard.
+  <a:blue_arrow:1005981235966910494> **[Spenden](https://ko-fi.com/genshinwizard)**
+CODE_REDEEM_SUCCESS: "*Codes wurden erfolgreich eingelöst!*"
+APP_COMMAND_INFO_DESCRIPTION: Zeigt Builds für Charaktere im In-Game Showcase des Benutzers.
+APP_COMMAND_EXPORT_DESCRIPTION: Exportiere deine Genshin Wunschverlauf formatiert in eine Text-Datei per Privatnachricht.
+APP_COMMAND_HISTORY_DESCRIPTION: Siehe deine Genshin Account Wunschverlauf ein.
+APP_COMMAND_DAILY_DESCRIPTION: Beanspruche deine täglichen HoYoLAB-Anmeldebelohnungen.
+APP_COMMAND_MONTHLY_DESCRIPTION: HoYoLAB tägliche Belohnungen für den Monat.
+APP_COMMAND_DIARY_DESCRIPTION: Siehe dein HoYoLAB Reisende/r's Tagebuch an.
+APP_COMMAND_REDEEM_DESCRIPTION: Einlösen von Einlösungscodes für Genshin Impact.
+APP_COMMAND_HOYO_DESCRIPTION: Überprüfe deinen HoYoLAB-Account über Genshin Wizard.
+APP_COMMAND_CHARACTERS_DESCRIPTION: Sehe deine Charakterübersicht deines Genshin-Kontos an.
+APP_COMMAND_TCG_DESCRIPTION: Sehe deinen "Geniale Beschwörung" Account Showcase an.
+APP_COMMAND_IMPORT_DESCRIPTION: Importiere deinen gacha Wunschverlauf von anderen beliebten Seiten.
+APP_COMMAND_LEADERBOARD_DESCRIPTION: Siehe Genshin Wizard's Rangliste an.
+APP_COMMAND_LOCATION_DESCRIPTION: Zeigt die bekannte Position(en) für die angegebene Ressource an.
+APP_COMMAND_LOCATIONS_DESCRIPTION: Zeigt eine Liste der verfügbaren Ressourcenstandorte an.
+APP_COMMAND_CALC_DESCRIPTION: Berechne benötigte Aufstiegsmaterialien für einen bestimmten Charakter.
+APP_COMMAND_BANNER_DESCRIPTION: Ändere den Banner deines Genshin Wizard-Profils.
+APP_COMMAND_PROFILE_DESCRIPTION: Sehe dein Genshin Wizard Profil ein.
+APP_COMMAND_SETTINGS_DESCRIPTION: Ändere deine Genshin Wizard Profileinstellungen.
+APP_COMMAND_STATS_DESCRIPTION: Sehe die Statistiken deines Genshin-Kontos ein.
+APP_COMMAND_ABYSS_DESCRIPTION: Schau dir den Abgrundsfortschritt deines Genshin-Kontos an.
+APP_COMMAND_EXPLORATION_DESCRIPTION: Schau dir den Erkundungsfortschritt deines Genshin-Kontos an.
+APP_COMMAND_UID_DESCRIPTION: Suche nach der Genshin UID/Region eines Benutzers.
+APP_COMMAND_REGISTER_DESCRIPTION: Registriere dein Genshin Konto bei Genshin Wizard.
 APP_COMMAND_REFRESH_DESCRIPTION: Refresh your wish history link (links expire once every 24 hours).
 APP_COMMAND_UNLINK_DESCRIPTION: Unlink your Genshin account and erase all data.
 APP_COMMAND_REMINDERS_DESCRIPTION: Setup reminders to notify for resin, teapot and expeditions.
@@ -361,7 +361,7 @@ WHITELIST_KEY_LOWERCASE: whitelist
 HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Wishes"
 SLASH_PAGINATION: Page {current_page}/{total_pages}
 OF_PAGINATION: Page {current_page} of {total_pages}
-HISTORY_COMMAND_TABLE_HEADER: "Rarity | Pity | Name | Date"
+HISTORY_COMMAND_TABLE_HEADER: "Rarität| Pity | Name | Datum"
 HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Guaranteed Pity: {indicator}**"
 HISTORY_LINK_EXPIRED: History Link Expired
 HISTORY_COMMAND_LIFETIME_PULLS: Lifetime Pulls
@@ -702,7 +702,7 @@ UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data fr
 UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If you believe for this to be an error, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Registration
-GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Register your Genshin account to Genshin Wizard.
+GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Registriere dein Genshin Konto bei Genshin Wizard.
 HOYOLAB_ACCOUNT: HoYoLAB Account
 LINKED_UID_KEY: Linked UID
 LINKED_KEY: Linked
