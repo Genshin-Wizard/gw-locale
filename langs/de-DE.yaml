@@ -61,70 +61,70 @@ TRUTH_COMMAND_RESPONSES:
   - Ich denke nicht.
   - Negativ.
   - Meine Quellen sagen nein.
-  - Not Convinced.
-  - Perhaps.
-  - Not Sure.
-  - Maybe.
-  - Who knows?
-  - I cannot predict now.
-  - I am tired. *proceeds with sleeping*
-  - Absolutely.
-TRUTH_COMMAND_TITLE: Paimon's Wisdom
-QUESTION_KEY: Question
-RESPONSE_KEY: Response
-PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
-PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
-PREFIX_TOO_SHORT: The prefix cannot be shorter than 1 character.
-PREFIX_CHANGED_TITLE: Genshin Wizard | Prefix Change
+  - Nicht bestätigt.
+  - Wohlmöglich.
+  - Nicht sicher.
+  - Vielleicht.
+  - Wer weiß?
+  - Ich kann dies jetzt nicht beantworten.
+  - Ich bin müde. *schläft weiter*
+  - Natürlich.
+TRUTH_COMMAND_TITLE: Paimon's Weisheit
+QUESTION_KEY: Frage
+RESPONSE_KEY: Antwort
+PREFIX_COMMAND_CURRENT: Der Präfix für diesen Server ist `{prefix}`
+PREFIX_TOO_LONG: Der Präfix kann nicht länger als zwei Zeichen sein.
+PREFIX_TOO_SHORT: Der Präfix kann nicht kürzer als ein Zeichen sein.
+PREFIX_CHANGED_TITLE: Genshin Wizard | Präfix-Einstellungen
 PREFIX_CHANGED_DESCRIPTION: |
-  Successfully changed **Genshin Wizard's** prefix! Commands will now be invoked using this new prefix.
+  **Genshin Wizard's** Präfix wurde erfolgreich geändert. Die Befehle werden nun mit dem neuen Präfix ausgeführt.
 
-  **Old Prefix:** `{old_prefix}`
-  **New Prefix:** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: Genshin Wizard Prefix Setting
-MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Computational Error. Try rephrasing!"
+  **Alter Präfix:** `{old_prefix}`
+  **Neuer Präfix:** `{new_prefix}`
+PREFIX_CHANGED_FOOTER: Genshin Wizard Präfix-Einstellungen
+MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Rechenfehler! Bitte versuche es erneut!"
 MATH_COMMAND_RESULT: |
-  **Expression:** `{expression}`
-  **Result:**
+  **Eingabe:** `{expression}`
+  **Ergebnis:** 
   ```{result}```
-RECENT_GENSHIN_EVENTS: Recent Genshin Events
-SEND_CODES_COMMAND_TITLE: Genshin Wizard | Active Codes
+RECENT_GENSHIN_EVENTS: Aktuelle Genshin Events
+SEND_CODES_COMMAND_TITLE: Genshin Wizard | Aktive Codes
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
-  <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
+  <:blurplelink:1020155547187691600> [***Einlösbar durch drücken der Knöpfe unten!***](https://genshin.mihoyo.com/en/gift)
+  <:blurpleannouncement:1020402170127982712> **Hinweis:** Codes laufen schnell ab, also stell sicher das du die so schnell wie möglich einlöst!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
-SEND_CODES_REDEEM_AUTOMATICALLY: Redeem Automatically
-SEND_CODES_DIRECT_LINK: Direct Link
-SEND_CODES_REDEEMABLE_CODES: Redeemable Codes
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Redemption Codes
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!
-MESSAGE_LINK: Message Link
-CLICK_HERE: Click Here
-INFO_SELECT_CHARACTER: Select a character
-INFO_CHARACTER_SOURCE: "Source: Saved Builds"
-INFO_USER_CACHE: User Cache
-INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
-MENU_COOLDOWN_TITLE: That menu is on cooldown!
-BUTTON_COOLDOWN_TITLE: That button is on cooldown!
-COMMAND_COOLDOWN_TITLE: That command is on cooldown!
-MENU_COOLDOWN_VALUE: You're clicking attributes too quickly! Try again in **{cooldown}** seconds.
-CHARACTER_SHOWCASE_TITLE: Character Showcase
-ERROR_RATELIMIT: User is currently ratelimited.
-ERROR_COMMAND_COOLDOWN_VALUE: Try using this command again in {cooldown} secs.
-ERROR_COMMAND_LONG_COOLDOWN_VALUE: Try using this command again in <t:{cooldown}:R>
-ERROR_KEY: Error!
-SUCCESSFUL_KEY: Successful!
-ERROR_MISSING_PERMISSION: You don't have permission to use this command!
-EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Exclusive Command
+SEND_CODES_REDEEM_AUTOMATICALLY: Automatisch einlösen
+SEND_CODES_DIRECT_LINK: Direkter Link
+SEND_CODES_REDEEMABLE_CODES: Einlösbare Codes
+SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Einlösbare Codes
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Gutscheincodes erfolgreich in {channel} gesendet!
+MESSAGE_LINK: Link zur Nachricht
+CLICK_HERE: Drücke hier
+INFO_SELECT_CHARACTER: Wähle einen Charakter
+INFO_CHARACTER_SOURCE: "Quelle: Gespeicherte Builds"
+INFO_USER_CACHE: Benutzercache
+INTERMISSION_MESSAGE: Generiere Infografik, bitte habe ** Geduld**, es ist gleich fertig...
+MENU_COOLDOWN_TITLE: Dieses Menü hat eine Abklingzeit!
+BUTTON_COOLDOWN_TITLE: Dieser Knopf hat eine Abklingzeit!
+COMMAND_COOLDOWN_TITLE: Dieser Befehl hat eine Abklingzeit aktiv!
+MENU_COOLDOWN_VALUE: Du klickst zu schnell auf die Attribute! Versuche es in **{cooldown}** Sekunden noch einmal.
+CHARACTER_SHOWCASE_TITLE: Charakter-Vorschau
+ERROR_RATELIMIT: Der Nutzer ist derzeit eingeschränkt.
+ERROR_COMMAND_COOLDOWN_VALUE: Versuche den Befehl in {cooldown} Sekunden erneut zu benutzen.
+ERROR_COMMAND_LONG_COOLDOWN_VALUE: Versuche den Befehl in <t:{cooldown}:R> erneut zu benutzen
+ERROR_KEY: Fehler!
+SUCCESSFUL_KEY: Erfolgreich!
+ERROR_MISSING_PERMISSION: Du hast keine Rechte, diesen Befehl auszuführen!
+EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Exklusiver Befehl
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
+  Hey Reisende/r! Dir ist **nicht erlaubt** den Befehl hier zu verwenden. Dieser Befehl funktioniert ausschließlich in einem Server.
 
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
-ERROR_COMMAND_INVOKE: Make sure you're using the correct parameters for this command!
-ERROR_PRIVACY_SETTING_TITLE: Hidden | Nothing to see!
-ERROR_PRIVACY_SETTING_DESCRIPTION: Hey Traveler! Unfortunately, the person you are trying to search for has **privacy settings** enabled!
-ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Ongoing Update!
+  Wenn du den Befehl trotzdem verwenden willst, komme doch auf unseren [offiziellen Discord](https://discord.gg/genshinwizard).
+ERROR_COMMAND_INVOKE: Stelle sicher, dass du die richtigen angaben für den Befehl angegeben hast!
+ERROR_PRIVACY_SETTING_TITLE: Versteckt | Nichts hier zu sehen!
+ERROR_PRIVACY_SETTING_DESCRIPTION: Hey, Reisende/r! Leider hat die Person, die du suchst einige **Privatsphäre-Einstellungen** aktiv!
+ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Laufendes Update!
 ERROR_ONGOING_UPDATE_DESCRIPTION: Hey Traveler! Genshin Wizard wird derzeit **Wartungen** unterzogen und dieser Befehl wurde vorerst *deaktiviert*. Bitte versuche es *später* erneut.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
   Hey Traveler! Dir ist **nicht erlaubt** diesen Befehl hier zu benutzen. Dieser Befehl ist ein Genshin Wizard Server {command_type}*exklusiver* Befehl!
@@ -138,113 +138,113 @@ ERROR_BLACKLISTED_DESCRIPTION: |
 
   Wenn du glaubst, dass dies ein Fehler sei, überlege dir, dich an unseren [Official Discord](https://discord.gg/genshinwizard) zu wenden
 ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Mitglied nicht gefunden
-ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Vergewissern Sie sich, dass die Person, die Sie anschauen möchten, noch auf dem Server ist.
+ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Vergewisser dich, dass die Person, die dir anschauen möchten, noch auf dem Server ist.
 ERROR_MISSING_REQUIRED_ARGUMENT: "Du hast vergessen, ein Argument anzugeben, bitte benutze das korrekte Format: ```{usage}```"
-ERROR_MISSING_REQUIRED_ATTACHMENT: "Du hast vergessen, einen Anhang anzugeben, bitte benutze das korrekte Format: ```{usage} mit dem korrekten Attachment.```"
-ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, ich habe keine Berechtigung um Nachrichten in diesem Kanal zu verwalten. Bitte aktiviere diese Berechtigung und versuche es erneut.
-ERROR_MISSING_SEND_MESSAGE: Hey Traveler, ich habe keine Berechtigung um Nachrichten in diesem Kanal zu versenden. Bitte aktiviere diese Berechtigung und versuche es erneut.
+ERROR_MISSING_REQUIRED_ATTACHMENT: "Du hast vergessen, einen Anhang anzugeben, bitte benutze das korrekte Format: ```{usage} mit dem korrekten Anhang.```"
+ERROR_MISSING_MANAGE_MESSAGE: Hey Reisende/r, ich habe keine Berechtigung um Nachrichten in diesem Kanal zu verwalten. Bitte aktiviere diese Berechtigung und versuche es erneut.
+ERROR_MISSING_SEND_MESSAGE: Hey Reisende/r, ich habe keine Berechtigung um Nachrichten in diesem Kanal zu versenden. Bitte aktiviere diese Berechtigung und versuche es erneut.
 MESSAGE_KEY: Nachricht
 ERROR_EMPTY_BACKPACK: Dein Rucksack ist **leer**! Um deine Reise zu beginnen, benutze den </wishsimulator:{command_id}> Befehl!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! Dies **ist nicht deine Interaktion**, die du berühren möchtest! Verwende den Befehl {command}, wenn du diesen Befehl selbst verwenden möchtest!
+ERROR_INTERACTION_MISMATCH: Hey Traveler! Dies **ist nicht deine Interaktion**, die du verwenden möchtest! Verwende den Befehl {command}, wenn du diesen Befehl selbst verwenden möchtest!
 ERROR_MESSAGE: Es ist ein Fehler aufgetreten!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard| Feedback
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Ihr Feedback wurde erfolgreich an die Entwickler gesendet!*
+FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
+FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Ihr Feedback wurde erfolgreich an die Entwickler weitergegeben!*
 FEEDBACK_LOG_RESPONSE: |
   > Benutzer: **{author_name}** | {author_mention}
   > Discord ID: `{author_id}`
 
-  **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: Sie haben Ihr HoYoLAB-Konto noch nicht verknüpft. Verwende </register:{command_id}>, um Ihr Konto zu verknüpfen.
+  **Rückmeldung:**```{feedback}```
+NO_HOYOLAB_LINKED: Du hast dein HoYoLAB-Konto noch nicht verknüpft. Verwende </register:{command_id}>, um dein Konto zu verknüpfen.
 OLD_HOYOLAB_LINKED: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
+  Hallo Reisende/r! Entschuldigung für die Unannehmlichkeiten, aber diese Funktion, **nachdem** du dich mit deinem `HoYoLAB` Account bei Genshin Wizard registiert hast eingeführt.
 
-  In order to use this button, you must unlink your HoYoLAB account through </hoyo:{command_id}> and **relink** through the usual registration command.
-CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Redemption
-CODE_REDEEM_DESCRIPTION: "*Please wait while we process your redemption code...*"
+  In diesem Falle benutze diesen Knopf mit </hoyo:{command_id}> und **erneut hinzufügen** um deinen Account zu entfernen und registiere den Account mit den normalen Registrierungsbefehl.
+CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Einlösung
+CODE_REDEEM_DESCRIPTION: "*Bitte warte während wir deinen Einlösungscode verarbeiten...*"
 CODE_REDEEM_PROGRESS: |
-  *Please wait while we process your redemption code...*
-  <a:loading:1015667958237900801> Attempting to redeem code `{code}`
-HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Expired Cookies
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
+  *Bitte warte während wir deinen Einlösecode verarbeiten...*
+  <a:loading:1015667958237900801> Versuche Code `{code}` einlösen
+HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Abgelaufene Cookies
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Reisende/r! Es scheint, dass deine HoYoLAB-Gutscheincode Cookies **abgelaufen** sind! Benutze den Befehl </hoyo:{command_id}> und führe den Prozess des erneut verknüpfen deines Kontos zu **aktualisieren** deiner HoYoLAB-Konto-Cookies.
 GENSHIN_WIZARD_INFORMATION: |
-  <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
-  <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
+  <a:blue_arrow:1005981235966910494> **[Bot einladen](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
+  <a:blue_arrow:1005981235966910494> **[offizielle Website](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
-  <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
-APP_COMMAND_INFO_DESCRIPTION: Shows builds for characters in the user's in-game showcase.
-APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history formatted into a text file via private messages.
-APP_COMMAND_HISTORY_DESCRIPTION: View your Genshin account's wish history.
-APP_COMMAND_DAILY_DESCRIPTION: Claim your daily HoYoLAB sign-in rewards.
-APP_COMMAND_MONTHLY_DESCRIPTION: View HoYoLAB daily rewards for the month.
-APP_COMMAND_DIARY_DESCRIPTION: View your HoYoLAB Traveler's Diary.
-APP_COMMAND_REDEEM_DESCRIPTION: Redeem redemption codes for Genshin Impact.
-APP_COMMAND_HOYO_DESCRIPTION: Check your HoYoLAB account from Genshin Wizard.
-APP_COMMAND_CHARACTERS_DESCRIPTION: View your Genshin account's Character Summary.
-APP_COMMAND_TCG_DESCRIPTION: View your Genius Invokation TCG Account Showcase.
-APP_COMMAND_IMPORT_DESCRIPTION: Import your gacha wish history from other popular sites.
-APP_COMMAND_LEADERBOARD_DESCRIPTION: View Genshin Wizard's leaderboards.
-APP_COMMAND_LOCATION_DESCRIPTION: Display the known location(s) for the resource given.
-APP_COMMAND_LOCATIONS_DESCRIPTION: Display a list of available resource locations.
-APP_COMMAND_CALC_DESCRIPTION: Calculate required ascension materials for a given character.
-APP_COMMAND_BANNER_DESCRIPTION: Change your Genshin Wizard profile's banner.
-APP_COMMAND_PROFILE_DESCRIPTION: View your personal Genshin Wizard profile.
-APP_COMMAND_SETTINGS_DESCRIPTION: Change your Genshin Wizard profile settings.
-APP_COMMAND_STATS_DESCRIPTION: View your Genshin account's statistics.
-APP_COMMAND_ABYSS_DESCRIPTION: View your Genshin account's abyss progression.
-APP_COMMAND_EXPLORATION_DESCRIPTION: View your Genshin account's exploration progression.
-APP_COMMAND_UID_DESCRIPTION: Lookup a user's Genshin UID/Region.
-APP_COMMAND_REGISTER_DESCRIPTION: Register your Genshin account to Genshin Wizard.
-APP_COMMAND_REFRESH_DESCRIPTION: Refresh your wish history link (links expire once every 24 hours).
-APP_COMMAND_UNLINK_DESCRIPTION: Unlink your Genshin account and erase all data.
-APP_COMMAND_REMINDERS_DESCRIPTION: Setup reminders to notify for resin, teapot and expeditions.
-APP_COMMAND_RESIN_DESCRIPTION: Setup a Resin reminder to notify you when your resin is recharged.
-APP_COMMAND_GACHA_DESCRIPTION: Display an updated infographic showcasing your entire wish history for the specified banner.
-APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Test your gacha luck with Genshin Wish Simulator!
-APP_COMMAND_INVENTORY_DESCRIPTION: View your virtual Genshin Wizard inventory.
-APP_COMMAND_SHOP_DESCRIPTION: View your Genshin Wizard's Shop.
-APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: View your Genshin Wizard's Character Archives.
+  <a:blue_arrow:1005981235966910494> **[Spenden](https://ko-fi.com/genshinwizard)**
+CODE_REDEEM_SUCCESS: "*Codes wurden erfolgreich eingelöst!*"
+APP_COMMAND_INFO_DESCRIPTION: Zeigt Builds für Charaktere im In-Game Showcase des Benutzers.
+APP_COMMAND_EXPORT_DESCRIPTION: Exportiere deine Genshin Wunschverlauf formatiert in eine Text-Datei per Privatnachricht.
+APP_COMMAND_HISTORY_DESCRIPTION: Siehe deine Genshin Account Wunschverlauf ein.
+APP_COMMAND_DAILY_DESCRIPTION: Beanspruche deine täglichen HoYoLAB-Anmeldebelohnungen.
+APP_COMMAND_MONTHLY_DESCRIPTION: HoYoLAB tägliche Belohnungen für den Monat.
+APP_COMMAND_DIARY_DESCRIPTION: Siehe dein HoYoLAB Reisende/r's Tagebuch an.
+APP_COMMAND_REDEEM_DESCRIPTION: Einlösen von Einlösungscodes für Genshin Impact.
+APP_COMMAND_HOYO_DESCRIPTION: Überprüfe deinen HoYoLAB-Account über Genshin Wizard.
+APP_COMMAND_CHARACTERS_DESCRIPTION: Sehe deine Charakterübersicht deines Genshin-Kontos an.
+APP_COMMAND_TCG_DESCRIPTION: Sehe deinen "Geniale Beschwörung" Account Showcase an.
+APP_COMMAND_IMPORT_DESCRIPTION: Importiere deinen gacha Wunschverlauf von anderen beliebten Seiten.
+APP_COMMAND_LEADERBOARD_DESCRIPTION: Siehe Genshin Wizard's Rangliste an.
+APP_COMMAND_LOCATION_DESCRIPTION: Zeigt die bekannte Position(en) für die angegebene Ressource an.
+APP_COMMAND_LOCATIONS_DESCRIPTION: Zeigt eine Liste der verfügbaren Ressourcenstandorte an.
+APP_COMMAND_CALC_DESCRIPTION: Berechne benötigte Aufstiegsmaterialien für einen bestimmten Charakter.
+APP_COMMAND_BANNER_DESCRIPTION: Ändere den Banner deines Genshin Wizard-Profils.
+APP_COMMAND_PROFILE_DESCRIPTION: Sehe dein Genshin Wizard Profil ein.
+APP_COMMAND_SETTINGS_DESCRIPTION: Ändere deine Genshin Wizard Profileinstellungen.
+APP_COMMAND_STATS_DESCRIPTION: Sehe die Statistiken deines Genshin-Kontos ein.
+APP_COMMAND_ABYSS_DESCRIPTION: Schau dir den Abgrundsfortschritt deines Genshin-Kontos an.
+APP_COMMAND_EXPLORATION_DESCRIPTION: Schau dir den Erkundungsfortschritt deines Genshin-Kontos an.
+APP_COMMAND_UID_DESCRIPTION: Suche nach der Genshin UID/Region eines Benutzers.
+APP_COMMAND_REGISTER_DESCRIPTION: Registriere dein Genshin Konto bei Genshin Wizard.
+APP_COMMAND_REFRESH_DESCRIPTION: Aktualisiere deinen Wunschverlaufslink (Links laufen alle 24h ab).
+APP_COMMAND_UNLINK_DESCRIPTION: Entferne dein Genshin Konto und lösche alle Daten.
+APP_COMMAND_REMINDERS_DESCRIPTION: Erinnerungen für Harz, Teekessel und Expeditionen einrichten.
+APP_COMMAND_RESIN_DESCRIPTION: Richte eine Harz-Erinnerung ein, die dich benachrichtigt, wenn dein Harz aufgeladen ist.
+APP_COMMAND_GACHA_DESCRIPTION: Zeigt eine aktualisierte Infografik an, die deinen gesamten Wunschverlauf für den angegebenen Banner zeigt.
+APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Teste dein Gacha Glück mit dem Genshin Wunschsimulator!
+APP_COMMAND_INVENTORY_DESCRIPTION: Sehe dein virtuelles Genshin Wizard Inventar ein.
+APP_COMMAND_SHOP_DESCRIPTION: Siehe deinen Genshin Wizard's Laden ein.
+APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: Siehe dein Genshin Wizard Charakterarchiv ein.
 APP_COMMAND_COMMISSIONS_DESCRIPTION: Claim your Daily Commission rewards.
-APP_COMMAND_BALANCE_DESCRIPTION: View your Genshin Wizard account's balance.
-APP_COMMAND_EDIT_DESCRIPTION: Edit genshin wizard's character details database.
-APP_COMMAND_EDIT_ADD_DESCRIPTION: Add a new build for a specific character.
-APP_COMMAND_DESCRIBE_EDIT_ADD_CHARACTER: The name of the character you want to add a build for.
-APP_COMMAND_DESCRIBE_EDIT_ADD_BUILD: The name of the build you want to add.
-APP_COMMAND_EDIT_REMOVE_DESCRIPTION: Remove build for a specific character.
-APP_COMMAND_DESCRIBE_EDIT_REMOVE_CHARACTER: The name of the character you want to remove a build for.
-APP_COMMAND_DESCRIBE_EDIT_REMOVE_BUILD: Name of the build you want to remove.
-APP_COMMAND_EDIT_BUILD_DESCRIPTION: Edit builds for a specific character.
-APP_COMMAND_DESCRIBE_EDIT_BUILD_CHARACTER: The name of the character you to edit a build for.
-APP_COMMAND_EDIT_PLAYSTYLE_DESCRIPTION: Edit playstyles for a specific character.
-APP_COMMAND_DESCRIBE_PLAYSTYLE_CHARACTER: The name of the character you want to edit playstyles for.
+APP_COMMAND_BALANCE_DESCRIPTION: Siehe den Kontostand deines Genshin Wizard-Kontos ein.
+APP_COMMAND_EDIT_DESCRIPTION: Bearbeite die Charakterdatenbank von Genshin Wizards.
+APP_COMMAND_EDIT_ADD_DESCRIPTION: Füge ein neues Build für einen bestimmten Charakter hinzu.
+APP_COMMAND_DESCRIBE_EDIT_ADD_CHARACTER: Der Name des Charakters, für den ein Build hinzugefügt werden soll.
+APP_COMMAND_DESCRIBE_EDIT_ADD_BUILD: Der Name des Builds, den du hinzufügen möchtest.
+APP_COMMAND_EDIT_REMOVE_DESCRIPTION: Entferne Build für einen bestimmten Charakter.
+APP_COMMAND_DESCRIBE_EDIT_REMOVE_CHARACTER: Der Name des Charakters, für den ein Build entfernt werden soll.
+APP_COMMAND_DESCRIBE_EDIT_REMOVE_BUILD: Name des Builds, das entfernt werden soll.
+APP_COMMAND_EDIT_BUILD_DESCRIPTION: Bearbeite Builds für einen bestimmten Charakter.
+APP_COMMAND_DESCRIBE_EDIT_BUILD_CHARACTER: Der Name des Charakters, für den ein Build bearbeitet werden soll.
+APP_COMMAND_EDIT_PLAYSTYLE_DESCRIPTION: Spielstile für einen bestimmten Charakter bearbeiten.
+APP_COMMAND_DESCRIBE_PLAYSTYLE_CHARACTER: Der Name des Charakters, für den du Spielstil bearbeiten möchtest.
 APP_COMMAND_EDIT_SYNERGY_DESCRIPTION: Edit synergies for a specific character.
 APP_COMMAND_DESCRIBE_SYNERGY_CHARACTER: The name of the character you want to edit synergies for.
-APP_COMMAND_FARM_DESCRIPTION: Check the current domain schedule for your region.
-APP_COMMAND_TCGCARD_DESCRIPTION: Look up a Genshin Impact TCG Card.
-APP_COMMAND_ARTIFACT_DESCRIPTION: Display a breakdown of the perks/buffs for the given artifact.
-APP_COMMAND_ARTIFACTS_DESCRIPTION: Display a list of available artifacts.
-APP_COMMAND_TRANSLATE_DESCRIPTION: Information on how to contribute to Genshin Wizard's translations.
-APP_COMMAND_ID_DESCRIPTION: Look up any in-game asset using its ID.
-APP_COMMAND_WEAPON_DESCRIPTION: Look up a weapon guide for a specific Genshin weapon.
-APP_COMMAND_GUIDE_DESCRIPTION: Look up a character guide for a specific Genshin character.
-APP_COMMAND_BUILD_DESCRIPTION: Look up build(s) for a specific Genshin character.
-APP_COMMAND_PLAYSTYLE_DESCRIPTION: Look up playstyles for a specific Genshin character.
-APP_COMMAND_ASCENSION_DESCRIPTION: Look up a ascension materials for a specific Genshin character.
-APP_COMMAND_SYNERGY_DESCRIPTION: Look up a character and team synergies for a specific Genshin character.
-APP_COMMAND_CONSTELLATIONS_DESCRIPTION: Look up constellations for a specific Genshin character.
-APP_COMMAND_SKILLS_DESCRIPTION: Look up skill talents for a specific Genshin character.
-APP_COMMAND_PASSIVE_DESCRIPTION: Look up passive talents for a specific Genshin character.
-APP_COMMAND_GUIDES_DESCRIPTION: Display a list of available character guides.
-APP_COMMAND_REFERENCE_DESCRIPTION: Search for a specific reference sheet.
-APP_COMMAND_REFERENCESHEETS_DESCRIPTION: View all available reference sheets.
-APP_COMMAND_TODO_DESCRIPTION: Check daily/weekly events in Genshin Impact.
-APP_COMMAND_BANNERS_DESCRIPTION: View ongoing Genshin Impact event banners.
-APP_COMMAND_CONFIG_DESCRIPTION: Genshin Wizard config setup panel, configure automatic announcements and more!
-APP_COMMAND_PARTNER_DESCRIPTION: hidden
-APP_COMMAND_SETUP_DESCRIPTION: Genshin Wizard Role Integration Setup Panel.
-APP_COMMAND_PREMIUM_DESCRIPTION: Purchase Genshin Wizard Premium to gain access to premium features.
-APP_COMMAND_ROLE_DESCRIPTION: Applies specific character roles to a user. Refer to relative text channel for more information.
-APP_COMMAND_HELP_DESCRIPTION: View Genshin Wizard help documentation.
+APP_COMMAND_FARM_DESCRIPTION: Überprüfe den aktuellen Domain-Zeitplan für deine Region.
+APP_COMMAND_TCGCARD_DESCRIPTION: Suche nach einer Genshin Impact TCG Karte.
+APP_COMMAND_ARTIFACT_DESCRIPTION: Zeigt eine Aufteilung der Vorteile/Verstärkungen für das angegebene Artefakt an.
+APP_COMMAND_ARTIFACTS_DESCRIPTION: Zeigt eine Liste der verfügbaren Artefakte an.
+APP_COMMAND_TRANSLATE_DESCRIPTION: Informationen darüber, wie man zu den Übersetzungen des Genshin Wizards beitragen kann.
+APP_COMMAND_ID_DESCRIPTION: Suche ein beliebiges Ingame-Inhalt mit seiner ID.
+APP_COMMAND_WEAPON_DESCRIPTION: Suche einen Waffenführer nach einer bestimmten Genshin-Waffe.
+APP_COMMAND_GUIDE_DESCRIPTION: Suche einen Charakterführer nach einem bestimmten Genshin Charakter.
+APP_COMMAND_BUILD_DESCRIPTION: Suche einen/mehrere Build(s) von einem bestimmten Genshin Charakter.
+APP_COMMAND_PLAYSTYLE_DESCRIPTION: Suche nach Spielstilen für einen bestimmten Genshin Charakter.
+APP_COMMAND_ASCENSION_DESCRIPTION: Suche nach Aufstiegsmaterial für einen speziellen Genschin-Charakter.
+APP_COMMAND_SYNERGY_DESCRIPTION: Suchen einen Charakter und Teamaufstellungen nach einem bestimmten Genshin-Charakter.
+APP_COMMAND_CONSTELLATIONS_DESCRIPTION: Suche nach Konstellationen für einen bestimmten Genshin Charakter.
+APP_COMMAND_SKILLS_DESCRIPTION: Suche nach Fähigkeitstalenten von einem bestimmten Genshin Charakter.
+APP_COMMAND_PASSIVE_DESCRIPTION: Suche nach passiven Talenten von einem bestimmten Genshin Charakter.
+APP_COMMAND_GUIDES_DESCRIPTION: Zeigt eine Liste der verfügbaren Charakteranleitungen an.
+APP_COMMAND_REFERENCE_DESCRIPTION: Suche nach einem bestimmten Referenzblatt.
+APP_COMMAND_REFERENCESHEETS_DESCRIPTION: Zeigt alle verfügbaren Referenzblätter an.
+APP_COMMAND_TODO_DESCRIPTION: Überprüfen Sie tägliche/wöchentliche Events in Genshin Impact.
+APP_COMMAND_BANNERS_DESCRIPTION: Zeigt laufende Genshin Impact Event-Banner an.
+APP_COMMAND_CONFIG_DESCRIPTION: Genshin Wizard Konfigurations-Panel, konfigurieren Sie automatische Ankündigungen und mehr!
+APP_COMMAND_PARTNER_DESCRIPTION: versteckt
+APP_COMMAND_SETUP_DESCRIPTION: Genshin Wizard Rollen Integrationseinstellung-Panel.
+APP_COMMAND_PREMIUM_DESCRIPTION: Kaufe Genshin Wizard Premium, um Zugang zu Premium-Funktionen zu erhalten.
+APP_COMMAND_ROLE_DESCRIPTION: Wendet bestimmte Charakterrollen für einen Benutzer an. Weitere Informationen findest du im relativen Text-Kanal.
+APP_COMMAND_HELP_DESCRIPTION: Siehe Genshin Wizard Hilfedokumentation.
 APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
 APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
 APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
@@ -279,7 +279,7 @@ ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
 WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
-INFO_COMMAND_SHOWCASE_TITLE: Character Showcase
+INFO_COMMAND_SHOWCASE_TITLE: Charakter-Vorschau
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
 REFRESHES_KEY: Refreshes
 INFO_COMMAND_CHARACTER_DETAILS: Character
@@ -315,41 +315,41 @@ APP_COMMAND_DESCRIBE_USER: The name of the member you are trying to search for.
 APP_COMMAND_DESCRIBE_USER_AVATAR: The member you wish to view an avatar for.
 APP_COMMAND_DESCRIBE_UID: The UID of the member you are trying to search for.
 APP_COMMAND_DESCRIBE_USER_WISH: Search up a specific user's Genshin Wish history.
-APP_COMMAND_DESCRIBE_AUTOCLAIM: Enable/Disable automatic HoYoLAB daily sign-in.
-ENABLE_KEY: Enable
-DISABLE_KEY: Disable
-ENABLE_AUTOCLAIM: Enable automatic daily sign-in.
-DISABLE_AUTOCLAIM: Disable automatic daily sign-in.
-APP_COMAND_DESCRIBE_CODES: The redemption code you wish to redeem for your account.
-APP_COMMAND_DESCRIBE_DATA: The file you are trying to import your wish history from.
-APP_COMMAND_DESCRIBE_RESOURCE: The resource you are trying to search for.
-APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: The character you want to calculate ascension materials for.
-APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: Starting level of the character you want to upgrade.
-APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: Desired level of the character you want to upgrade.
-APP_COMMAND_DESCRIBE_BANNER_IMAGE: The image you want to use as your banner.
-APP_COMMAND_DESCRIBE_BANNER_URL: The link to an image you want to use as your banner.
-APP_COMMAND_DESCRIBE_CURRENT_RESIN: The amount of resin you currently have.
-APP_COMMAND_DESCRIBE_CARD: The name of the card you want to look-up.
-APP_COMMAND_DESCRIBE_ARTIFACT: The name of the artifact you want to search for.
-APP_COMMAND_DESCRIBE_ASSET_ID: The ID for the asset you wish to look up.
-APP_COMMAND_DESCRIBE_WEAPON: The name of the weapon you want to look-up a guide for.
-APP_COMMAND_DESCRIBE_CHARACTER: The name of the character you want to look-up.
-APP_COMMAND_DESCRIBE_CHARACTER_GUIDE: The name of the character you want to look-up a guide for
-APP_COMMAND_DESCRIBE_CHARACTER_BUILD: The name of the character you want to look-up a build for.
-APP_COMMAND_DESCRIBE_CHARACTER_PLAYSTYLE: The name of the character you want to look-up a playstyle for.
-APP_COMMAND_DESCRIBE_CHARACTER_SYNERGY: The name of the character you want to look-up team synergies for.
-APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION_LOOKUP: The name of the character you want to look-up ascension materials for.
-APP_COMMAND_DESCRIBE_CHARACTER_CONSTELLATIONS: The name of the character you want to look-up constellations for.
-APP_COMMAND_DESCRIBE_CHARACTER_SKILLS: The name of the character you want to look-up skill talents for.
-APP_COMMAND_DESCRIBE_CHARACTER_PASSIVE: The name of the character you want to look-up passive talents for.
-APP_COMMAND_DESCRIBE_ITEM_REFERENCE_SHEET: The name of the item you want a reference sheet for.
-APP_COMMAND_DESCRIBE_CRIT_RATE: The CRIT Rate of the artifact.
-APP_COMMAND_DESCRIBE_CRIT_DAMAGE: The CRIT Damage of the artifact.
-APP_COMMAND_DESCRIBE_QUESTION: The question you wish to ask Paimon.
-APP_COMMAND_DESCRIBE_PREFIX: The new prefix you wish to set for the bot.
-APP_COMMAND_DESCRIBE_EXPRESSION: The equation/query you're attempting to compute.
-APP_COMMAND_DESCRIBE_CODE_CHANNEL: The channel you want to send the message in.
-APP_COMMAND_DESCRIBE_CODE_PING: The role you want to mention along with the message.
+APP_COMMAND_DESCRIBE_AUTOCLAIM: Aktiviere/Deaktiviere automatische HoYoLAB-tägliche Anmeldung.
+ENABLE_KEY: Aktivieren
+DISABLE_KEY: Deaktivieren
+ENABLE_AUTOCLAIM: Automatische tägliche Anmeldung aktivieren.
+DISABLE_AUTOCLAIM: Automatische tägliche Anmeldung deaktivieren.
+APP_COMAND_DESCRIBE_CODES: Der Einlösungscode, den du für dein Konto einlösen möchten.
+APP_COMMAND_DESCRIBE_DATA: Die Datei, aus deinem Wunschverlauf den du importieren möchtest.
+APP_COMMAND_DESCRIBE_RESOURCE: Die Ressource, nach der du suchen möchtest.
+APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: Der Charakter für den du Aufstiegsmaterialien berechnen möchtest.
+APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: Start-Level des Charakters, den du upgraden möchtest.
+APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: Gewünschte Stufe des Charakters, den du upgraden möchtest.
+APP_COMMAND_DESCRIBE_BANNER_IMAGE: Das Bild, den du als Banner verwenden willst.
+APP_COMMAND_DESCRIBE_BANNER_URL: Der link zum Bild, den du als Banner verwenden willst.
+APP_COMMAND_DESCRIBE_CURRENT_RESIN: Die Menge an Harz, die du derzeit haben.
+APP_COMMAND_DESCRIBE_CARD: Der Name der Karte, die du suchen möchtest.
+APP_COMMAND_DESCRIBE_ARTIFACT: Der Name des Artefakts, nach dem du suchen möchtest.
+APP_COMMAND_DESCRIBE_ASSET_ID: Die ID für den Inhalt das den du nachschlagen möchtest.
+APP_COMMAND_DESCRIBE_WEAPON: Der Name der Waffe, nach der du eine Anleitung suchen möchtest.
+APP_COMMAND_DESCRIBE_CHARACTER: Der Name des Charakters, den du suchen möchtest.
+APP_COMMAND_DESCRIBE_CHARACTER_GUIDE: Der Name des Charakters, für den eine Anleitung gesucht werden soll
+APP_COMMAND_DESCRIBE_CHARACTER_BUILD: Der Name des Charakters, nach dem ein Build gesucht werden soll.
+APP_COMMAND_DESCRIBE_CHARACTER_PLAYSTYLE: Der Name des Charakters, nach dem ein Spielstil gesucht werden soll.
+APP_COMMAND_DESCRIBE_CHARACTER_SYNERGY: Der Name des Charakters, nach dem du Teamaufstellungen suchen möchtest.
+APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION_LOOKUP: Der Name des Charakters, nach dem du Ausstiegsmaterialien suchen möchtest.
+APP_COMMAND_DESCRIBE_CHARACTER_CONSTELLATIONS: Der Name des Charakters, nach dem du Konstellationen suchen möchtest.
+APP_COMMAND_DESCRIBE_CHARACTER_SKILLS: Der Name des Charakters, nach dem du nach Fähigkeiten suchen möchtest.
+APP_COMMAND_DESCRIBE_CHARACTER_PASSIVE: Der Name des Charakters, nach dem passive Talente gesucht werden sollen.
+APP_COMMAND_DESCRIBE_ITEM_REFERENCE_SHEET: Der Name des Elements, für das du ein Referenzblatt willst.
+APP_COMMAND_DESCRIBE_CRIT_RATE: Die KRIT-Rate des Artefakts.
+APP_COMMAND_DESCRIBE_CRIT_DAMAGE: Der KRIT-Schaden des Artefakts.
+APP_COMMAND_DESCRIBE_QUESTION: Die Frage, die du Paimon stellen möchtest.
+APP_COMMAND_DESCRIBE_PREFIX: Der neue Präfix den du für den Bot setzen möchtest.
+APP_COMMAND_DESCRIBE_EXPRESSION: Die Gleichung/Abfrage, die du versuchst zu berechnen.
+APP_COMMAND_DESCRIBE_CODE_CHANNEL: Der Kanal, in dem die Nachricht gesendet werden soll.
+APP_COMMAND_DESCRIBE_CODE_PING: Die Rolle, die du neben der Nachricht erwähnen möchtest.
 APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated by a comma.
 APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
 APP_CONTEXT_MENU_PROFILE: Profile
@@ -361,7 +361,7 @@ WHITELIST_KEY_LOWERCASE: whitelist
 HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Wishes"
 SLASH_PAGINATION: Page {current_page}/{total_pages}
 OF_PAGINATION: Page {current_page} of {total_pages}
-HISTORY_COMMAND_TABLE_HEADER: "Rarity | Pity | Name | Date"
+HISTORY_COMMAND_TABLE_HEADER: "Rarität| Pity | Name | Datum"
 HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Guaranteed Pity: {indicator}**"
 HISTORY_LINK_EXPIRED: History Link Expired
 HISTORY_COMMAND_LIFETIME_PULLS: Lifetime Pulls
@@ -702,7 +702,7 @@ UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data fr
 UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If you believe for this to be an error, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Registration
-GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Register your Genshin account to Genshin Wizard.
+GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Registriere dein Genshin Konto bei Genshin Wizard.
 HOYOLAB_ACCOUNT: HoYoLAB Account
 LINKED_UID_KEY: Linked UID
 LINKED_KEY: Linked

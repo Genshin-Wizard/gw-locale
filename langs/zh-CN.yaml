@@ -105,26 +105,26 @@ INFO_SELECT_CHARACTER: Select a character
 INFO_CHARACTER_SOURCE: "Source: Saved Builds"
 INFO_USER_CACHE: User Cache
 INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
-MENU_COOLDOWN_TITLE: That menu is on cooldown!
-BUTTON_COOLDOWN_TITLE: That button is on cooldown!
-COMMAND_COOLDOWN_TITLE: That command is on cooldown!
+MENU_COOLDOWN_TITLE: 菜单在冷却中！
+BUTTON_COOLDOWN_TITLE: 选项在冷却中！
+COMMAND_COOLDOWN_TITLE: 此命令在冷却中！
 MENU_COOLDOWN_VALUE: You're clicking attributes too quickly! Try again in **{cooldown}** seconds.
-CHARACTER_SHOWCASE_TITLE: Character Showcase
-ERROR_RATELIMIT: User is currently ratelimited.
-ERROR_COMMAND_COOLDOWN_VALUE: Try using this command again in {cooldown} secs.
-ERROR_COMMAND_LONG_COOLDOWN_VALUE: Try using this command again in <t:{cooldown}:R>
-ERROR_KEY: Error!
-SUCCESSFUL_KEY: Successful!
-ERROR_MISSING_PERMISSION: You don't have permission to use this command!
-EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Exclusive Command
+CHARACTER_SHOWCASE_TITLE: 角色展示
+ERROR_RATELIMIT: 用户目前已被限速。
+ERROR_COMMAND_COOLDOWN_VALUE: 请在 {cooldown} 秒后再试一次。
+ERROR_COMMAND_LONG_COOLDOWN_VALUE: 请在 <t:{cooldown}:R> 秒后再试一次。
+ERROR_KEY: 出错啦！
+SUCCESSFUL_KEY: 成功！
+ERROR_MISSING_PERMISSION: 您没有使用此命令的权限！
+EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | 专属命令
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
-
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
-ERROR_COMMAND_INVOKE: Make sure you're using the correct parameters for this command!
-ERROR_PRIVACY_SETTING_TITLE: Hidden | Nothing to see!
-ERROR_PRIVACY_SETTING_DESCRIPTION: Hey Traveler! Unfortunately, the person you are trying to search for has **privacy settings** enabled!
-ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Ongoing Update!
+  嘿旅行者！您不能在这里使用此命令，这个命令只能在服务器里面使用！
+  如果您希望使用这个命令，可以考虑加入我们的官方服务器哦。
+  (https://discord.gg/genshinwizard)
+ERROR_COMMAND_INVOKE: 请确保您使用此命令的正确参数！
+ERROR_PRIVACY_SETTING_TITLE: 隐藏 | 什么也看不见~
+ERROR_PRIVACY_SETTING_DESCRIPTION: 嘿旅行者！很遗憾，您正在搜索的用户启用了隐私设置！
+ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | 正在进行更新
 ERROR_ONGOING_UPDATE_DESCRIPTION: Hey Traveler! Genshin Wizard is currently **undergoing maintenance** and this command has been *disabled* for the time being. Please try again *later*.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
   Hey Traveler! You're **not allowed** to use this command here, this is a Genshin Wizard server {command_type}*exclusive* command!
@@ -279,7 +279,7 @@ ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
 WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
-INFO_COMMAND_SHOWCASE_TITLE: Character Showcase
+INFO_COMMAND_SHOWCASE_TITLE: 角色展示
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
 REFRESHES_KEY: Refreshes
 INFO_COMMAND_CHARACTER_DETAILS: Character
@@ -1611,16 +1611,16 @@ APP_COMMAND_DESCRIBE_RECIPE: The name of the recipe you want to look-up.
 APP_COMMAND_MONSTER_DESCRIPTION: Look up information on a specific monster in Genshin Impact.
 APP_COMMAND_DESCRIBE_MONSTER: The name of the monster you want to look-up.
 SYNERGY_IMAGE_DESCRIPTION: Character synergy information are subject to change from update to update.*
-GENSHIN_WIZARD_LEADERBOARD: Genshin Wizard Leaderboard
-RECENT_PITIES_KEY: Recent Pities
-NOVICE_BANNER_KEY: Novice Banner
-CHARACTER_BANNER_KEY: Character Banner
-WEAPON_BANNER_KEY: Weapon Banner
-PERMANENT_BANNER_KEY: Permanent Banner
-FIVE_STAR_PITY: 5-Star Pity
-FOUR_STAR_PITY: 4-Star Pity
-FIVE_STAR_PERCENTAGE: 5-Star Percentage
-FOUR_STAR_PERCENTAGE: 4-Star Percentage
+GENSHIN_WIZARD_LEADERBOARD: Genshin Wizard 排行榜
+RECENT_PITIES_KEY: 最近的保底
+NOVICE_BANNER_KEY: 新手池
+CHARACTER_BANNER_KEY: 角色池
+WEAPON_BANNER_KEY: 武器池
+PERMANENT_BANNER_KEY: 常驻池
+FIVE_STAR_PITY: 5星保底
+FOUR_STAR_PITY: 4星保底
+FIVE_STAR_PERCENTAGE: 5星百分比
+FOUR_STAR_PERCENTAGE: 4星百分比
 SIGN_IN_TITLE: Checked in {total_days} day(s) this month.
 SIGN_IN_DESCRIPTION: "*Use the command /daily to never miss a sign-in again!"
 INVOKATION_LEVEL: "Level:"
