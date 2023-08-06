@@ -40,14 +40,14 @@ SERVER_KEY: 伺服器
 SERVERS_KEY: 伺服器
 USERS_KEY: 使用者
 WEBSITE_KEY: 網址
-INVITE_KEY: Invite
+INVITE_KEY: 邀請
 DOCUMENTATION_KEY: Documentation
-GWIZ_INVITE: Genshin Wizard Invite
+GWIZ_INVITE: Genshin Wizard 邀請
 AVATAR_KEY: Avatar
 ARTIFACT_CRIT_VALUE_TITLE: 聖遺物暴擊值計算器
 TOTAL_CRIT_VALUE: 總暴擊值
 TRUTH_COMMAND_RESPONSES:
-  - As I see it, yes.
+  - 是的，就在我看~哼~
   - 好的
   - Positive.
   - From my point of view, yes.
@@ -130,9 +130,9 @@ ERROR_PRIVATE_COMMAND_DESCRIPTION: |
   嘿旅行者！你**不允許**在這裡使用這個命令，這是一個 Genshin Wizard 服務器 {command_type}*獨占* 命令！
 
   如果您想使用此命令，請考慮加入我們的[官方 Discord](https://discord.gg/genshinwizard)。
-ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
+ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard 進階
 ERROR_PREMIUM_COMMAND_DESCRIPTION: 嘿旅行者！您**不允許**使用此命令，此命令僅適用於**高級訂閱者**。如果您想使用此功能，請考慮使用 </premium:{command_id}> 命令了解更多信息。
-ERROR_BLACKLISTED_TITLE: Genshin Wizard | Blacklisted
+ERROR_BLACKLISTED_TITLE: Genshin Wizard | 黑名單
 ERROR_BLACKLISTED_DESCRIPTION: |
   嘿旅行者！您已被**禁止**使用 Genshin Wizard！
 
@@ -141,13 +141,13 @@ ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Member Not Found
 ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Make sure the person you are trying to view is still in the server.
 ERROR_MISSING_REQUIRED_ARGUMENT: "You forgot to provide an argument, please use the correct format: ```{usage}```"
 ERROR_MISSING_REQUIRED_ATTACHMENT: "You forgot to provide an attachment, please use the correct format: ```{usage} with the correct attachment.```"
-ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, I do not have permission to `Manage Messages` within this channel/guild. Please enable this permission and try again.
-ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
+ERROR_MISSING_MANAGE_MESSAGE: 喂~旅行者，我沒有在此頻道/公會內“管理消息”的權限。請啟用此權限並重試。
+ERROR_MISSING_SEND_MESSAGE: 喂~旅行者，我沒有在此頻道/公會內“發送消息”的權限。請啟用此權限並重試。
 MESSAGE_KEY: 訊息
 ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
 ERROR_INTERACTION_MISMATCH: 嘿旅行者！這**不是你的互動**可以觸摸！如果您想自己使用此命令，請使用命令 {command} ！
 ERROR_MESSAGE: 發生錯誤!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
+FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | 反饋
 FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *您的反饋已成功發送給開發者！*
 FEEDBACK_LOG_RESPONSE: |
   > User: **{author_name}** | {author_mention}
@@ -196,8 +196,8 @@ APP_COMMAND_UID_DESCRIPTION: 查詢使用者的原神 UID / 區域
 APP_COMMAND_REGISTER_DESCRIPTION: 註冊您的原神帳號到 Genshin Wizard
 APP_COMMAND_REFRESH_DESCRIPTION: 更新祈願紀錄連結（連結每 24 小時會過期）
 APP_COMMAND_UNLINK_DESCRIPTION: 解除連接原神帳號並刪除所有資料
-APP_COMMAND_REMINDERS_DESCRIPTION: Setup reminders to notify for resin, teapot and expeditions.
-APP_COMMAND_RESIN_DESCRIPTION: Setup a Resin reminder to notify you when your resin is recharged.
+APP_COMMAND_REMINDERS_DESCRIPTION: 設置提醒以通知樹脂、塵歌壺和探索派遣。
+APP_COMMAND_RESIN_DESCRIPTION: 設置 樹脂提醒，以便在樹脂恢復時通知您。
 APP_COMMAND_GACHA_DESCRIPTION: 顯示更新的信息圖，展示您對指定卡池的全部願望歷史記錄。
 APP_COMMAND_WISHSIMULATOR_DESCRIPTION: 使用 Genshin Wizard 抽卡模擬器測試你的幸運值
 APP_COMMAND_INVENTORY_DESCRIPTION: 檢視 Genshin Wizard 虛擬背包裡的物品
@@ -324,7 +324,7 @@ APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: Starting level of the character you 
 APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: Desired level of the character you want to upgrade.
 APP_COMMAND_DESCRIBE_BANNER_IMAGE: 你想作為你的橫幅使用的圖片。
 APP_COMMAND_DESCRIBE_BANNER_URL: 指向您要用作橫幅的圖像的鏈接。
-APP_COMMAND_DESCRIBE_CURRENT_RESIN: The amount of resin you currently have.
+APP_COMMAND_DESCRIBE_CURRENT_RESIN: 您當前擁有的樹脂量。
 APP_COMMAND_DESCRIBE_CARD: The name of the card you want to look-up.
 APP_COMMAND_DESCRIBE_ARTIFACT: The name of the artifact you want to search for.
 APP_COMMAND_DESCRIBE_ASSET_ID: 您要查找的資產的 ID。
@@ -754,10 +754,10 @@ ENABLED_KEY: 啟用
 DISABLED_KEY: 停用
 NOT_ENABLED_KEY: 未啟用
 NO_REMINDERS_SET_KEY: No Reminders Set!
-RESIN_REMINDERS_KEY: Resin Reminders
-EXPEDITION_REMINDERS_KEY: Expedition Reminders
+RESIN_REMINDERS_KEY: 樹脂提醒
+EXPEDITION_REMINDERS_KEY: 探索派遣提醒
 SERENITEA_POT_KEY: 塵歌壺
-PARAMETRIC_REMINDERS_KEY: Parametric Transformer
+PARAMETRIC_REMINDERS_KEY: 參數變質儀
 RESIN_REMINDERS_DESCRIPTION: |
   你現在有 **<:fragileresin:1029984988583706654>{current_resin}** 個原粹樹脂！
   **完全回滿時間：** 補給 {time_left}
@@ -767,42 +767,42 @@ TEAPOT_REMINDERS_DESCRIPTION: |
   **完全回滿時間：** {time_left}
   > **自動提醒：** {reminder_setting}
 PARAMETRIC_REMINDERS_DESCRIPTION: |
-  Your **<:parametrictransformer:1029984451670847568>Parametric Transformer** is currently {transformer_status}!
-  **Replenish Time:** {time_left}
-  > **Automatic Reminder:** {reminder_setting}
+  <:parametrictransformer:1029984451670847568>Parametric Transformer** 目前為 {transformer_status}！
+   **補充時間：** {time_left} 
+  > **自動提醒：** {reminder_setting}
 READY_TO_USE: ready to use
 NOT_READY_TO_USE: not ready to use
 MAXED_OUT_KEY: 已達到最大等級
-RESIN_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your resin reaches a certain amount!
-REMINDER_AUTOMATIC_RESIN_SET: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your resin reaches the threshold set above!
+RESIN_AUTOMATIC_REMINDER_FOOTER: 設置自動提醒，以便在樹脂達到一定數量時收到通知！
+REMINDER_AUTOMATIC_RESIN_SET: 此提醒已設置為**自動**提醒！這意味著*每次*您的樹脂達到上面設置的閾值時，您都會收到提醒！
 TEAPOT_AUTOMATIC_REMINDER_FOOTER: 設定自動提醒，以便在洞天寶錢完全回滿的時候能夠及時領取！
-PARAMETRIC_AUTOMATIC_REMINDER_FOOTER: Set-up an automatic reminder to be notified whenever your parametric transformer is ready to use!
+PARAMETRIC_AUTOMATIC_REMINDER_FOOTER: 設置自動提醒，以便在參數變質儀可供使用時收到通知！
 ERROR_NO_TRANSFORMER: 嘿旅行者！您還沒有獲得 **<:parametrictransformer:1029984451670847568>參數質變儀** 呢！
 REMINDERS_CLEARED_CONFIRMATION: Successfully **cleared** all your reminders!
 SPECIFIC_REMINDER_CLEARED: Successfully **cleared** all your {rmd_type} reminders!
-TEAPOT_ALREADY_SET: You **already** have a reminder set for teapot!
-RESIN_ALREADY_SET: You **already** have a reminder set for **<:fragileresin:1029984988583706654>{resin}!**
-TEAPOT_AUTOMATIC_ALREADY_SET: You **already** have an automatic reminder set for teapot!
-TEAPOT_REMINDER_SET: Reminder successfully set for <:realmcurrency:1029984449565310976><t:{time}:F>!
-AUTOMATIC_TEAPOT_EXPLANATION: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your teapot maxes out!
-EXPEDITION_ALREADY_SET: You **already** have a reminder set for this expedition!
-EXPEDITION_REMINDER_SET: Reminder successfully set for **{char_emote} <t:{time}:F>!**
-PARAMETRIC_ALREADY_SET: You **already** have a reminder set for parametric transformer!
-PARAMETRIC_AUTOMATIC_ALREADY_SET: You **already** have an automatic reminder set for parametric transformer!
-PARAMETRIC_REMINDER_SET: Reminder successfully set for <:parametrictransformer:1029984451670847568><t:{time}:F>!
-AUTOMATIC_PARAMETRIC_EXPLANATION: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your parametric transformer is ready to use!
-INVALID_RESIN_AMOUNT: You need to specify a valid amount of resin.
-RESIN_AMOUNT_LOWER: Please enter a resin amount that is **higher** than your current resin!
-RESIN_REMINDER_SET: Reminder successfully set at <t:{rmd_time}:F> for **<:fragileresin:1029984988583706654>{resin}** resin!
+TEAPOT_ALREADY_SET: 您**已經**設置了洞天寶錢提醒！
+RESIN_ALREADY_SET: 您**已經**為 **<:fragileresin:1029984988583706654>{resin} 設置了提醒！**
+TEAPOT_AUTOMATIC_ALREADY_SET: 您**已經**設置了洞天寶錢自動提醒！
+TEAPOT_REMINDER_SET: <:realmcurrency:1029984449565310976><t:{time}:F> 提醒設置成功！
+AUTOMATIC_TEAPOT_EXPLANATION: 此提醒已設置為**自動**提醒！這意味著*每次*您的洞天寶錢填滿都會提醒您！
+EXPEDITION_ALREADY_SET: 您**已經**為這次探索派遣設置了提醒！
+EXPEDITION_REMINDER_SET: 已成功設置 **{char_emote} <t:{time}:F> 提醒！**
+PARAMETRIC_ALREADY_SET: 您**已經**為參數變質儀設置了提醒！
+PARAMETRIC_AUTOMATIC_ALREADY_SET: 您**已經**為參數變質儀設置了自動提醒！
+PARAMETRIC_REMINDER_SET: <:parametrictransformer:1029984451670847568><t:{time}:F> 提醒設置成功！
+AUTOMATIC_PARAMETRIC_EXPLANATION: 此提醒已設置為**自動**提醒！這意味著*每次*您的參數變質儀準備好使用時都會提醒您！
+INVALID_RESIN_AMOUNT: 您需要指定有效的樹脂量。
+RESIN_AMOUNT_LOWER: 請輸入比您當前樹脂**高**的樹脂量！
+RESIN_REMINDER_SET: 已成功為 **<:fragileresin:1029984988583706654>{resin}** 樹脂設置 <t:{rmd_time}:F> 提醒！
 ENTER_CUSTOM_AMOUNT_KEY: Enter Custom Amount
 ENABLE_AUTOMATIC_REMINDER_KEY: Enable Automatic Reminder
 CURRENT_ONGOING_EXPEDITIONS_DESCRIPTION: "嘿旅行者！您當前正在進行的探險是："
-NO_CURRENT_EXPEDITIONS: You have no ongoing expeditions.
-MISSING_RESIN_AMOUNT: You need to specify the amount of resin you currently have.
-TOO_MUCH_RESIN: You cannot have more than 160 resin.
-MAXED_RESIN_ALERT: You already have 160 resin.
-RESIN_REMINDER_FOOTER: Click a button with 🔔 to get a reminder! Make sure you have private messages enabled to ensure you receive a notification!
-SET_RESIN_REMINDER_KEY: Set resin reminder!
+NO_CURRENT_EXPEDITIONS: 您沒有正在進行的探索派遣。
+MISSING_RESIN_AMOUNT: 您需要指定當前擁有的樹脂量。
+TOO_MUCH_RESIN: 樹脂總量不能超過 160。
+MAXED_RESIN_ALERT: 您已經有 160 樹脂。
+RESIN_REMINDER_FOOTER: 單擊帶有 🔔 的按鈕即可獲得提醒！確保您已啟用私人消息，以確保您收到通知！
+SET_RESIN_REMINDER_KEY: 設置樹脂提醒！
 API_ISSUE: There has been an API Issue.
 HOW_TO_SOLVE_TITLE: How to solve this?
 ENABLE_CHRONICLES: "使用命令</hoyolab-privacy:{command_id}>或訪問[**HoYoLAB隱私設定**]\n(https://www.hoyolab.com/setting/privacy/)並啟用*角色戰績設定*來製作你的原神個人資料公開。"
@@ -833,7 +833,7 @@ CURRENT_LUNAR_PHASE_DESCRIPTION: |
 MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard is missing permissions to `Manage Roles`. Please enable this permission and try again."
 ROLE_NOT_FOUND: ":no_entry: There was an error retrieving the role. Please make sure the role information under this integration is correct."
 GENSHIN_STATS_HEADER: "{name}'s Genshin Stats"
-PROCESSING_BANNER_TRANSITION: Processing {banner} Banner...
+PROCESSING_BANNER_TRANSITION: 正在處理 {banner} 橫幅...
 WEAPON_KEY: Weapon
 PERMANENT_KEY: Permanent
 NOVICE_KEY: Novice
@@ -868,7 +868,7 @@ WISH_RESULTS_DESCRIPTION: |
 NONE_KEY: None
 SIMULATOR_TITLE: Genshin Wizard 抽卡模擬器
 SIMULATOR_ALREADY_CLAIMED: ":no_entry: You have **__already claimed__** your Daily Commission rewards today! There will be new commissions <t:{time}:R>."
-COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> As an **Adventurer** of the [**Genshin Wizard Guild**](https://discord.gg/genshinwizard), you have been rewarded with an extra **16,000 Primogems** <:Primogem:951924423340994610> as a result of ongoing expeditions!"
+COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> 作為[**Genshin Wizard公會**](https://discord.gg/genshinwizard)的**冒險家**，您已獲得額外的**16,000 原始寶石**獎勵<:Primogem:951924423340994610> 作為持續探險的結果！"
 COMMISSION_ADVENTURER_REWARD_UNRECEIVED: "> <:GreyPin:949815085335986246> Become an **Adventurer** of the [**Genshin Wizard Guild**](https://discord.gg/genshinwizard) to earn extra rewards when completing Daily Commissions!"
 COMMISSION_PREMIUM_EXTRA_REWARD: "> <a:mona_mora:1046611739774562374> As a **Premium Member** of [**Genshin Wizard**](https://patreon.com/genshinwizard), you have been rewarded with an extra **{primogems} Primogems** <:Primogem:951924423340994610> as a result of your support!"
 COMMISSION_COMPLETE_MESSAGE: |
@@ -928,9 +928,9 @@ EVENT_BANNER_DAILY: |
   ☑️日常礦石鍛造和開採
   ☑️ 塵歌壺：家具、硬幣和植物
 EVENT_BANNER_WEEKLY: |
-  ☑️ Parametric Transformer
-  ☑️ Weekly Battle Pass Quests
-  ☑️ Weekly Boss, Vendors, etc.
+  ☑️參數變質儀
+  ☑️每週戰鬥通行證任務 
+  ☑️每周首領、供應商等。
 CONFIGURATION_PANEL_TITLE: Genshin Wizard | 配置面板
 CONFIGURATION_CHANGE_MESSAGE: "更改 Genshin Wizard 的配置面板。有關詳細信息，請參閱我們的 [**文檔**](https://docs.genshinwizard.com/overview/server-panels)。"
 CHANNEL_KEY: Channel
@@ -974,18 +974,16 @@ PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
   Role: {role_mention}
   Role Name: {role_name}
   Role Color: `{role_color}`
-GENSHIN_WIZARD_PREMIUM: Genshin Wizard Premium
+GENSHIN_WIZARD_PREMIUM: Genshin Wizard 進階
 CLAIMED_KEY: 領取成功
 UNCLAIMED_KEY: 未領取
 PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard Premium Server Settings
 PREMIUM_SERVER_SETTINGS_DESCRIPTION: |
-  **<:information:1034639378410115103> What are premium servers?**
-  As a premium user, depending on your tier, you can select up to 3 servers to gain premium perks.
-
-  Available Premium Server Slots: **{remaining}**
-  Use the buttons below to manage your premium servers.
-
-  **Activated Servers**
+  **<:information:1034639378410115103> 什麼是高級服務器？**
+  作為高級用戶，根據您的級別，您最多可以選擇 3 台服務器來獲得高級福利。 
+  可用的高級服務器插槽： **{remaining}**
+  使用下面的按鈕來管理您的高級服務器。
+  **激活的服務器**
   {servers}
 NO_PREMIUM_SERVERS_ADDED: You have no premium servers added.
 PREMIUM_USER_DETAILS: |
@@ -1129,7 +1127,7 @@ GLOBAL_BUTTON: 全球
 SERVER_BUTTON: 伺服器
 PERSONAL_BUTTON: 個人
 ABYSS_LEADERBOARD_WANING_PHASE_LABEL: "{date} Waning Phase"
-ABYSS_LEADERBOARD_WAXING_PHASE_LABEL: "{date} Waxing Phase"
+ABYSS_LEADERBOARD_WAXING_PHASE_LABEL: "{date} 淵月期"
 PERIOD_KEY: Period
 ABYSS_LEADERBOARD_ALL_TIME: 歷史排行榜
 ABYSS_LEADERBOARD_ALL_TIME_DESCRIPTION: 查看所有深淵階段的記錄。
@@ -1224,18 +1222,18 @@ LINK_UID_MODAL_PLACEHOLDER: Insert your Genshin Impact UID
 REGISTER_MODAL_LABEL: Your wish history URL
 HOYOLAB_KEY: HoYoLAB
 HOYOLAB_REGISTRATION_MODAL_TITLE: HoYoLAB Registration
-HOYOLAB_REGISTRATION_MODAL_LABEL: Your HoYoLAB Cookie
+HOYOLAB_REGISTRATION_MODAL_LABEL: 您的 HoYoLAB Cookie
 LOGIN_MODAL_TITLE: HoYoLAB Account Login
-RESIN_KEY: Resin
-TEAPOT_KEY: Teapot
-EXPEDITIONS_KEY: Expeditions
-PARAMETRIC_TRANSFORMER_KEY: Parametric Transformer
+RESIN_KEY: 樹脂(體力)
+TEAPOT_KEY: 洞天寶錢
+EXPEDITIONS_KEY: 派遣
+PARAMETRIC_TRANSFORMER_KEY: 參數變質儀
 CLEAR_ALL_REMINDERS_BUTTON: Clear All Reminders
 CLEAR_REMINDER_BUTTON: Clear {reminder_type} Reminders
 SET_REMINDER_KEY: Set Reminder
-RESIN_THRESHOLD_MODAL_TITLE: Enter resin amount
-RESIN_THRESHOLD_LABEL: Resin Threshold
-RESIN_THRESHOLD_DESCRIPTION: Enter the amount of resin you want to be reminded at...
+RESIN_THRESHOLD_MODAL_TITLE: 輸入樹脂量
+RESIN_THRESHOLD_LABEL: 樹脂閾值
+RESIN_THRESHOLD_DESCRIPTION: 輸入您想要提醒的樹脂用量...
 NOVICE_WISH_SUMMARY: 查看新手卡池的祈願摘要。
 CHARACTER_WISH_SUMMARY: 查看角色卡池祈願摘要。
 WEAPON_WISH_SUMMARY: 查看武器卡池的祈願摘要。
@@ -1407,15 +1405,15 @@ ABYSS_ENEMY_CHAMBER_VIEW: Chamber View
 ABYSS_ENEMY_FLOOR_OVERVIEW: "Schedule: **Floor {floor_index} Overview**"
 ABYSS_ENEMY_INFORMATION_BUTTON: 您好旅行者，儘管可能會帶來不便，但我 **__unable__** 無法顯示有關 **特定敵人數量** 的信息。這是因為此信息是在*開始*挑戰時生成的。對於由此可能造成的任何不便，我深表歉意。
 ABYSS_ENEMY_INFORMATION_BUTTON_LABEL: 敵人數量
-APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: Change your Battle Chronicles Privacy Settings.
+APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: 更改您的戰績隱私設置。
 VIEW_ON_HOYOLAB: View on HoYoLAB
-CHRONICLES_PRIVACY_SETTING: Character Battle Chronicle Settings
+CHRONICLES_PRIVACY_SETTING: 角色戰績設定
 PRIVACY_SETTING_BUTTON_LABEL: Privacy Setting {setting_number}
 INVALID_PAGE_INPUT: You must provide a **valid** page number.
 PAGE_MODAL_LABEL: "Page number you want to view:"
 PAGE_MODAL_PLACEHOLDER: "Enter page number..."
 RARITY_FILTER_PLACEHOLDER: "Choose a rarity filter..."
-CHRONICLE_PRIVACY_PLACEHOLDER: "Manage Battle Chronicle privacy settings..."
+CHRONICLE_PRIVACY_PLACEHOLDER: "管理戰績隱私設置..."
 LEADERBOARD_FILTER_PLACEHOLDER: "Choose a filter for this leaderboard..."
 VIEW_ABYSS_TEAM: Viewing Abyss Teams
 MANAGE_ART_SETTING_KEY: Manage Art Settings
@@ -1460,14 +1458,14 @@ SERVER_KEY_VALUE: "Server: {server}"
 UID_KEY_VALUE: "UID: {uid}"
 HOYO_API_LIMITATION: "*可能會因為 HoYoLAB API 的限制導致資料異常"
 CHECK_IN_GAME: "可在遊戲中查看最準確的資訊"
-HOYO_COMMISSION_KEY: "Commissions:"
+HOYO_COMMISSION_KEY: "每日委託:"
 HOYO_ADVENTURE_RANK_KEY: "冒險等級:"
 HOYO_DAILY_BONUS_STATUS: "每日簽到:"
-HOYO_RESIN_KEY: "Resin:"
-HOYO_TEAPOT_KEY: "Teapot:"
-HOYO_TRANSFORMER_KEY: "P. Transformer:"
-TRANSFORMER_READY_KEY: Ready
-TRANSFORMER_LOCKED_KEY: Locked
+HOYO_RESIN_KEY: "樹脂(體力):"
+HOYO_TEAPOT_KEY: "洞天寶錢:"
+HOYO_TRANSFORMER_KEY: "參數變質儀:"
+TRANSFORMER_READY_KEY: 準備就緒
+TRANSFORMER_LOCKED_KEY: 已鎖定
 GENSHIN_STATS_KEY: Genshin Stats
 STATS_TOTAL_ACHIEVEMENTS_KEY: "總成就"
 STATS_TOTAL_ACTIVE_DAYS_KEY: "總活躍天數"
@@ -1629,7 +1627,7 @@ DAILY_CHECKIN_KEY: Daily Check-In
 INVOKATION_VICTORIES: "{win_count} Victories"
 WORLD_EXPLORATIONS: 世界探索度
 REPUTATION_LEVELS: 聲望等級
-REGISTER_SCRIPT_ALERT: Please logout and log back in before trying again, cookie is currently expired/invalid!
+REGISTER_SCRIPT_ALERT: 請註銷並重新登錄然後重試，cookie 目前已過期/無效!
 REGISTER_SCRIPT_COPY_BUTTON: Click here to copy!
 ACCOUNT_EMAIL_KEY: Account Email
 PASSWORD_KEY: Account Password
