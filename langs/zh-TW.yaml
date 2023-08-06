@@ -98,7 +98,7 @@ SEND_CODES_REDEEM_AUTOMATICALLY: 自動兌換
 SEND_CODES_DIRECT_LINK: 直接連結
 SEND_CODES_REDEEMABLE_CODES: 可兌換的兌換碼
 SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | 兌換碼
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: 已成功將兌換代碼發送至{channel}！
 MESSAGE_LINK: 訊息連結
 CLICK_HERE: 點擊此處
 INFO_SELECT_CHARACTER: 選擇一個角色
@@ -257,7 +257,7 @@ APP_COMMAND_CHANGEPREFIX_DESCRIPTION: 更改 Genshin Wizard 命令的前綴。
 APP_COMMAND_PITY_DESCRIPTION: Information on understanding the Genshin pity-system.
 APP_COMMAND_MATH_DESCRIPTION: Compute simple or complex functions.
 APP_COMMAND_EVENTS_DESCRIPTION: Check recent Genshin Impact events.
-APP_COMMAND_SENDCODES_DESCRIPTION: Send a message for Genshin redemption codes with buttons.
+APP_COMMAND_SENDCODES_DESCRIPTION: 使用發送消息按鈕以獲取原神兌換碼。
 APP_COMMAND_FEEDBACK_DESCRIPTION: Send your feedback to Genshin Wizard Developers.
 APP_COMMAND_DELETE_DESCRIPTION: Delete a user's Genshin Wizard profile.
 APP_COMMAND_BLACKLIST_DESCRIPTION: Blacklist a user from using Genshin Wizard.
@@ -344,9 +344,9 @@ APP_COMMAND_DESCRIBE_CRIT_DAMAGE: 聖遺物的 CRIT 傷害。
 APP_COMMAND_DESCRIBE_QUESTION: The question you wish to ask Paimon.
 APP_COMMAND_DESCRIBE_PREFIX: The new prefix you wish to set for the bot.
 APP_COMMAND_DESCRIBE_EXPRESSION: The equation/query you're attempting to compute.
-APP_COMMAND_DESCRIBE_CODE_CHANNEL: The channel you want to send the message in.
-APP_COMMAND_DESCRIBE_CODE_PING: The role you want to mention along with the message.
-APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated by a comma.
+APP_COMMAND_DESCRIBE_CODE_CHANNEL: 您想要發送消息的頻道。
+APP_COMMAND_DESCRIBE_CODE_PING: 您想在消息中提及的角色。
+APP_COMMAND_DESCRIBE_CODE_LIST: 發送您要的兌換碼，以逗號分隔(同時處理多組兌換碼)。
 APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
 APP_CONTEXT_MENU_PROFILE: 設定檔
 APP_CONTEXT_MENU_STATISTICS: Stats Progression
@@ -420,13 +420,13 @@ GCG_NO_CARDS_FOUND: No Cards Found!
 GCG_NO_CARDS_FOUND_DESCRIPTION: 嘿旅行者！不幸的是，{member} **還沒有卡片**！在*使用此命令之前*在 Genshin Impact 上進入遊戲並玩一些 七星召喚。
 HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin with, login to your [**HoYoLAB**](https://www.hoyolab.com/home) account.
-  > **2.** Type `java` in the address bar followed by the script down below.
-  > **3.** Once you've successfully ran the script, click the `Click here to copy!` button to copy the cookie.
-  > **4.** Finally, you're able to register by clicking the `Enter Token` button below and pasting the token you copied.
+  **如何將您的 HoYoLAB 帳戶與 Genshin Wizard 關聯** 
+  > **1.** 首先，登錄您的 [**HoYoLAB**](https://www.hoyolab.com/home) 帳戶。 
+  > **2.** 在地址欄中輸入“java”，然後輸入下面的腳本。 
+  > **3.** 成功運行腳本後，單擊“Click here to copy!/單擊此處複製！”按鈕複製 cookie。 
+  > **4.** 最後，您可以通過單擊下面的“Enter Token/輸入令牌”按鈕並粘貼您複製的令牌來註冊。
 HOYOLAB_REGISTER_SCRIPT: |
-  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)```
+  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('請先註銷並重新登錄，然後重試，cookie 目前已過期/無效！'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!/點擊此處複製！</button>`)```
 HOYOLAB_REGISTER_LOGIN_TITLE: Registration | Login Method
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
   **如何將您的 HoYoLAB 帳戶與 Genshin Wizard 關聯**
@@ -713,11 +713,11 @@ REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Refresh Wish History
 FORCE_REFRESH_FOOTER: If you'd prefer to force-refresh to prolong the expiry of your current history link, you may do so by clicking one of the buttons below.
 UNLINKING_CENTRE_TITLE: Genshin Wizard | 取消連結中心
 UNLINKING_CENTRE_DESCRIPTION: 你好旅行者！歡迎來到 Genshin Wizard 的取消鏈接中心。通過下面的按鈕管理您的鏈接數據。友情提醒，任何取消鏈接的方法都會從 Genshin Wizard **刪除您的所有數據**。這個動作是**不可逆的**
-INVALID_COOKIE_RESPONSE: ":no_entry: You did not enter a valid **HoYoLAB** cookie!"
+INVALID_COOKIE_RESPONSE: ":no_entry:您輸入無效的 **HoYoLAB** cookie！"
 RETRIEVING_ACCOUNT_INFORMATION: "*Retrieving your account information...*"
 SYNCED_HOYOLAB_UID: Successfully synced **HoYoLAB** UID!
 SYNCED_IN_GAME_UID: Successfully synced **In-Game** UID!
-ERROR_NO_ACCOUNTS: ":no_entry: There are **no accounts** associated with this token!"
+ERROR_NO_ACCOUNTS: ":no_entry: **沒有帳戶**與此令牌關聯！"
 SUCCESSFULLY_LINKED_KEY: Successfully Linked!
 SUCCESSFULLY_LINKED_HOYOLAB: |
   Successfully synced in-game account progression.
@@ -805,7 +805,7 @@ RESIN_REMINDER_FOOTER: Click a button with 🔔 to get a reminder! Make sure you
 SET_RESIN_REMINDER_KEY: Set resin reminder!
 API_ISSUE: There has been an API Issue.
 HOW_TO_SOLVE_TITLE: How to solve this?
-ENABLE_CHRONICLES: "Use the command </hoyolab-privacy:{command_id}> or visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable *Battle Chronicle privacy* to make your genshin profile public."
+ENABLE_CHRONICLES: "使用命令</hoyolab-privacy:{command_id}>或訪問[**HoYoLAB隱私設定**]\n(https://www.hoyolab.com/setting/privacy/)並啟用*角色戰績設定*來製作你的原神個人資料公開。"
 PLEASE_WAIT_DESCRIPTION: 等待！目前您無能為力。
 PLAYER_TITLE: 玩家{player}
 USER_TITLE: User {user}
@@ -1033,7 +1033,7 @@ PREMIUM_CUSTOM_ROLE_FOOTER: Genshin Wizard Custom Role Settings
 PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> Hey Traveler, you must be a **Tier 1** or higher premium user to use this feature. Consider purchasing an [**__upgrade__**](https://patreon.com/genshinwizard) to unlock this amazing feature.
 PREMIUM_ROLE_NAME_CHANGED: <:yescheck:1021114525858136074> Role name changed to **{name}**.
 PREMIUM_ROLE_COLOR_CHANGED: '<:yescheck:1021114525858136074> Role color changed to **#{color}**.'
-HEX_NOT_PARSED: I was unable to parse the HEX color code you provided. Please try again.
+HEX_NOT_PARSED: 派蒙無法解析您提供的十六進制顏色代碼。請再試一次。
 PREMIUM_ROLE_CLAIMED_ALREADY: <:Error:1021889679857037372> Hey Traveler, you already have a custom role. If you would like to change it, please use the buttons below.
 PREMIUM_CUSTOM_ROLE_TITLE: "{user}'s Custom Role"
 PREMIUM_ROLE_CREATED: "<:yescheck:1021114525858136074> Successfully created custom role ({role}). Please use the buttons below to change your unique role's name and color."
@@ -1340,7 +1340,7 @@ CUSTOM_ROLE_KEY: Custom Role
 ADD_PREMIUM_SERVERS_BUTTON: Add Premium Servers
 ADD_PREMIUM_SERVER_BUTTON: Add Premium Server
 ROLE_NAME_KEY: Role Name
-HEX_COLOR_KEY: HEX Color Code
+HEX_COLOR_KEY: 16進制顏色代碼
 CUSTOM_ROLE_MODAL_TITLE: "Custom Role: {modal_type}"
 CUSTOM_ROLE_CREATE_BUTTON: Create Custom Role
 CUSTOM_ROLE_DELETE_BUTTON: Delete Custom Role
@@ -1611,8 +1611,8 @@ INVOKATION_SHOWCASE: "卡牌展示櫃"
 INVOKATION_SUMMARY: "Trading Card Summary"
 DAILY_ALREADY_CLAIMED: You have already claimed your daily reward.
 UNABLE_TO_CLAIM: Unable to claim your daily reward.
-COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </hoyo:{command_id}> to register.
-INVALID_COOKIE_KEY: Invalid Cookie
+COOKIE_RESET_MESSAGE: 重置您的 原神 帳戶密碼後，cookie 會被 **重置**，為了使用此命令，您將必須再次執行 *註冊過程 *。使用命令</hoyo:{command_id}>進行登錄。
+INVALID_COOKIE_KEY: 無效的 Cookie
 TEST_NOTIFICATION_KEY: Test Notification
 TEST_NOTIFICATION_TITLE: Genshin Wizard | Notification Test
 TEST_NOTIFICATION_SUCCESS: This is a test notification to see if you're able to receive notifications from me! If you're able to see this, then you're good to go!
