@@ -432,13 +432,11 @@ HOYOLAB_REGISTER_SCRIPT: |
   ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Por favor saia e entre novamente na conta antes de tentar novamente, o cookie está expirado/inválido!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Clique para copiar!</button>`)```
 HOYOLAB_REGISTER_LOGIN_TITLE: Registro | Método de Log-in
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin, select the `Register` button down below.
-  > **2.** In the input fields, enter your HoYoLAB account login details, remember to use your **email** and password.
-  > **3.** Once you've successfully entered your account details, wait for Genshin Wizard to process your registration request, bear in mind that this may take a minute or two.
-  > **4.** Finally, if all the steps are done correctly, you will receive a **confirmation message** via DMs indicating that your account has been successfully linked.
-
-  <:information:1021014187197083668> **Note:** This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead.
+  **Como vincular sua conta HOYOLAB ao Genshin Wizard** >
+  >**1.** Para começar, selecione o botão `Registrar abaixo.
+  > **2.** Nos campos de entrada, insira os detalhes de login da sua conta HoYoLAB, lembre-se de usar seu **e-mail** e senha.
+  > **3.** Depois de inserir os detalhes da sua conta com sucesso, aguarde o Genshin Wizard processar sua solicitação de registro, lembre-se de que isso pode levar um ou dois minutos. >
+  >**4.** Por fim, se todos os passos forem executados corretamente, você receberá uma **confirmação mensagem ** via DMs indicando que sua conta foi vinculada com sucesso.
 HOYOLAB_REGISTER_LOGIN_FOOTER: Lembramos que o Genshin Wizard não guarda nenhuma das informações de sua conta! Este método de registro busca automaticamente pelos cookies necessários para visualizar as estatísticas da sua conta.
 ARE_YOU_SURE: Tem certeza?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
@@ -460,28 +458,28 @@ IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
   > `Paimon.moe`
   > `Genshin-Wishes`
   Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-IMPORT_COMMAND_TITLE: Genshin Wizard | Import Wish History
+IMPORT_COMMAND_TITLE: Mago de Genshin | Atualizar Histórico de Desejos
 IMPORT_COMMAND_FILE_DETECTED: |
-  **Detected Import Source: `{source}`**
-  *Please wait while we import your wish history...*
-IMPORT_COMMAND_TAMPERED: The data you are trying to import has been **tampered** with. Please **don't change** anything within the files before importing, try redownloading the data and importing *again*.
-IMPORT_COMMAND_BANNER_IMPORTED: Successfully imported `{number_wishes}` wishes for {banner_name} banner!
-IMPORT_COMMAND_SUCCESS: Successfully imported `{total_wishes}` new wishes from all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
+  **Detectado Fonte de Importação: `{source}`**
+  *Por favor, aguarde enquanto importamos o seu histórico de desejos...*
+IMPORT_COMMAND_TAMPERED: Os dados que você está tentando importar foram **adulterados**. Por favor **não mude** nada nos arquivos antes de importar, tente baixar novamente os dados e importar *novamente*.
+IMPORT_COMMAND_BANNER_IMPORTED: Importado com sucesso `{number_wishes}` deseja para {banner_name} baner!
+IMPORT_COMMAND_SUCCESS: Todos os banners sincronizados com sucesso! Agora você pode usar o comando </history:{command_id}> para visualizar mais informações sobre seus desejos.
 IMPORT_COMMAND_LOG: |
-  **User:** {user} | `{user_id}`
-  **Name:** `{name}`
-  **Guild:** `{guild_id}` | `{guild_name}`
+  **Usuário:** {user} ├`{user_id}`
+  **Nome:** `{name}`
+  **Guild:** `{guild_id}` Oh, `{guild_name}`
 
-  **Detected Import Source:** `{source}`
-  **Total:** `{total}` wishes imported!
-  > 3-Stars: `{three_star}`
-  > 4-Stars: `{four_star}`
-  > 5-Stars: `{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </register:{command_id}>.
+  **Detectado Fonte de Importação:** `{source}`
+  **Total:** `{total}` desejos importados!
+  > 3 estrelas: `{three_star}`
+  > 4 estrelas: `{four_star}`
+  > 5 5 estrelas: `{five_star}`
+IMPORT_COMMAND_NOT_REGISTERED: Você já deve estar **registrado** para importar um histórico de desejos pré-existente! Tente importar novamente após o registro usando o comando </register:{command_id}>.
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: Link do Histórico Expirado!
-IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Your history link has **expired**! Please refresh using the command </refresh:{command_id}> before trying to import!
-IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **excel** sheet from their [Wish Counter](https://paimon.moe/wish) page settings. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: This file type is **not supported**. Please make sure you're not *changing* the file type before trying to import. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
+IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Seu link para histórico **expirou**! Por favor, atualize usando o comando </refresh:{command_id}> antes de tentar importar!
+IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: Este tipo de arquivo **não é suportado**. Se você está tentando importar dados de `Paimon. oe`, por favor, certifique-se de baixar a folha **excel** do [Wish Counter](https://paimon. Oe/deseje as configurações da página. Consulte nossa [**Documentação**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) para obter mais informações.
+IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: Este tipo de arquivo **não é suportado**. Se você está tentando importar dados de `Paimon. oe`, por favor, certifique-se de baixar a folha **excel** do [Wish Counter](https://paimon. Oe/deseje as configurações da página. Consulte nossa [**Documentação**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) para obter mais informações.
 LEADERBOARD_NO_DATA: No data found for this specific query!
 LEADERBOARD_EXPERIENCE_FOOTER: Experience can be gained by being active in the server. Chat more to increase your Genshin Wizard ranking level!
 LEADERBOARD_WISHES_FOOTER: Wishes are updated via banner summary and refresh command(s). Check your banners to actively get an updated wish count!
