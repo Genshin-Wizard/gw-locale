@@ -956,61 +956,61 @@ CONFIGURATION_SETTINGS_RESET: <:yescheck:1021114525858136074> Configurações **
 CHANNEL_SETUP_MISSING: Você precisa configurar um canal antes!
 TIME_FOR_ADVENTURE: Hora de se Aventurar!
 INVALID_ROLE_MESSAGE: Você deve usar um **ID de Função válido** para esta integração! Por favor, tente novamente.
-INVALID_GUILD_MESSAGE: You must use a **Valid Guild ID** for this integration! Please try again.
-INVALID_CHANNEL_MESSAGE: You must use a **Valid Channel ID** for this integration! Please try again.
-CANNOT_FIND_GUILD: Hey Traveler, I was **unable** to find the server you were looking for. Please try again.
-MISSING_WEBHOOK_PERMISSION: I don't have permission to `Manage Webhooks` in this server/channel!
-CHANGE_ROLE_INTEGRATION: Make changes to Genshin Wizard's automatic role integration.
+INVALID_GUILD_MESSAGE: Você deve usar um **ID de Guild válido** para esta integração! Por favor, tente novamente.
+INVALID_CHANNEL_MESSAGE: Você deve usar um **ID de canal válido** para esta integração! Por favor, tente novamente.
+CANNOT_FIND_GUILD: Olá, Viajante. Eu era **impossível** para encontrar o servidor que você estava procurando. Por favor, tente novamente.
+MISSING_WEBHOOK_PERMISSION: Não tenho permissão para `Gerenciar Webhooks` neste servidor/canal!
+CHANGE_ROLE_INTEGRATION: Faça mudanças na integração automática do Genshin Wizard.
 SETUP_COMMAND_TITLE: Genshin Wizard | Painel de Configuração
-UPDATED_INTEGRATION_RESPONSE: "Successfully updated integration for: **{integration}**!"
+UPDATED_INTEGRATION_RESPONSE: "Integração atualizada com sucesso para: **{integration}**!"
 PREMIUM_ART_SETTINGS_TITLE: Configurações de Arte Personalizada no Genshin Wizard
 PREMIUM_ART_SETTINGS_DESCRIPTION: |
-  <:information:1034639378410115103> **Manage your Genshin Wizard </info:{command_id}> Art Settings**
-  Tired of the default art that Genshin Wizard delivers? Well, you can now choose your own custom art for your character cards!
+  <ℹ️1034639378410115103> **Gerenciar o seu Assistente de Genshin </info:{command_id}> Configurações de Arte**
+  Cansado da arte padrão que o Assistente Genshin entrega ? Bem, agora você pode escolher sua própria arte personalizada para seus carátes!
 
-  <:na:975828401900359711> **What if I want to delete previously saved custom art?**
-  You'll be able to manage your saved builds art straight from this message. Use the UI below to delete specific characters, or all, from your saved custom art list.
+  <:na:975828401900359711> **Quanto eu quero excluir arte customizada salva anteriormente? *
+  Você será capaz de gerenciar a arte das suas compilações salvas diretamente desta mensagem. Use a interface de usuário abaixo para excluir caracteres específicos, ou todos, da sua lista de arte personalizada salva.
 
-  <:blurpleannouncement:1020402170127982712> **CUSTOM ART OVERVIEW**
+  <:blurpleannouncement:1020402170127982712> **PERSONALIZADOR DO ART OVERVIEW**
   {setting_details}
-  **Adaptive Art on Infographics:** {adaptive_art}
-NO_CUSTOM_ART_FOUND: "`❌ You have not setup custom-art for any characters.`"
-CUSTOM_ART_STATISTICS: You have enabled custom character art for **{characters}/{total_characters}** characters!
+  **Arte Adaptativa em Infográficos:** {adaptive_art}
+NO_CUSTOM_ART_FOUND: "`❌ Você não tem configuração de arte personalizada para nenhum personagem.`"
+CUSTOM_ART_STATISTICS: Você ativou a arte do personagem personalizado para **{characters}/{total_characters}** caracteres!
 PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard Custom Role Settings**
-  Role Status: {role_bool}
-  Role: {role_mention}
-  Role Name: {role_name}
-  Role Color: `{role_color}`
+  <:informação:1034639378410115103> **Configurações personalizadas do Genshin Wizard para cargos **
+  Estado do cargo: {role_bool}
+  Cargo: {role_mention}
+  Nome do cargo: {role_name}
+  Cor do cargo: `{role_color}`
 GENSHIN_WIZARD_PREMIUM: Genshin Wizard Premium
 CLAIMED_KEY: Reivindicado
 UNCLAIMED_KEY: Não Resgatado
-PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard Premium Server Settings
+PREMIUM_SERVER_SETTINGS_TITLE: Configurações do Servidor do Genshin Wizard Premium
 PREMIUM_SERVER_SETTINGS_DESCRIPTION: |
-  **<:information:1034639378410115103> What are premium servers?**
-  As a premium user, depending on your tier, you can select up to 3 servers to gain premium perks.
+  **<ℹ️1034639378410115103> Os servidores premium?**
+  Como um usuário premium, dependendo do seu nível, você pode selecionar até 3 servidores para ganhar privilégios premium.
 
-  Available Premium Server Slots: **{remaining}**
-  Use the buttons below to manage your premium servers.
+  Slots de Servidor Premium disponíveis: **{remaining}**
+  Use os botões abaixo para gerenciar seus servidores premium.
 
-  **Activated Servers**
+  **Servidores ativados**
   {servers}
 NO_PREMIUM_SERVERS_ADDED: Você não adicionou servidores premium.
 PREMIUM_USER_DETAILS: |
-  Hey <@{user_id}>, welcome to Genshin Wizard Premium. You are currently a **premium** user. Thank you for supporting the bot!
+  Ei <@{user_id}>, bem-vindo ao Genshin Wizard Premium. Você é atualmente um usuário **premium**. Obrigado por apoiar o bot!
 
-  **Membership Details:**
-  Plan: **{plan_name}** (Tier {plan_tier})
-  Renews on: {expiry}
-LINK_TO_PREMIUM: Click the links below to purchase Genshin Wizard premium.
+  **Detalhes da adesão:**
+  Plano: **{plan_name}** (Nível {plan_tier})
+  Renovações em: {expiry}
+LINK_TO_PREMIUM: Clique nos links abaixo para comprar o Genshin Wizard premium.
 PATREON_KEY: Patrono
 PREMIUM_TIER_ONE_PERKS: |
-  <:information:1034639378410115103> **Premium Perks: $5 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
-  <:blurplejoinarrow:932413900073369621> Access to the Supporters' Lounge, where you may receive premium support for Genshin Wizard.
-  <:blurplejoinarrow:932413900073369621> The ability to choose a custom role name and color in the Genshin Wizard Discord server.
-  <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>16,000** Primogems everyday for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
-  <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier1:1045526665335427183> Witch of Purple Rose** role.
+  <ℹ️1034639378410115103> **Vantagens Premium: $5 Plano Mensal**
+  **HORA!** 🔥 A capacidade de escolher imagens personalizadas para cartões de caracteres gerados usando </info:{info_id}>.
+  <:blurplejoinarrow:932413900073369621> Acesso à Sala de Apoiadores, onde você pode receber suporte premium para o Assistente Genshin.
+  <:blurplejoinarrow:932413900073369621> A capacidade de escolher um nome e uma cor personalizados no servidor do Assistente do Genshin.
+  <:blurplejoinarrow:932413900073369621> Um bônus de **<:Primogem:951924423340994610>16.000** Primogemas todos os dias para o Genshin Wizard Wulator ao usar </commissions:{commissions_id}>.
+  <:blurplejoinarrow:932413900073369621> Função exclusiva **<:gw_tier1:1045526665335427183> Bruxa da Ra Roxa**.
 PREMIUM_TIER_TWO_PERKS: |
   <:information:1034639378410115103> **Premium Perks: $10 Monthly Plan**
   **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
