@@ -420,10 +420,10 @@ GCG_NO_CARDS_FOUND: No Cards Found!
 GCG_NO_CARDS_FOUND_DESCRIPTION: 嘿旅行者！不幸的是，{member} **還沒有卡片**！在*使用此命令之前*在 Genshin Impact 上進入遊戲並玩一些 七星召喚。
 HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
-  **如何將您的 HoYoLAB 帳戶與 Genshin Wizard 關聯** 
-  > **1.** 首先，登錄您的 [**HoYoLAB**](https://www.hoyolab.com/home) 帳戶。 
-  > **2.** 在地址欄中輸入“java”，然後輸入下面的腳本。 
-  > **3.** 成功運行腳本後，單擊“Click here to copy!/單擊此處複製！”按鈕複製 cookie。 
+  **如何將您的 HoYoLAB 帳戶與 Genshin Wizard 關聯**
+  > **1.** 首先，登錄您的 [**HoYoLAB**](https://www.hoyolab.com/home) 帳戶。
+  > **2.** 在地址欄中輸入“java”，然後輸入下面的腳本。
+  > **3.** 成功運行腳本後，單擊“Click here to copy!/單擊此處複製！”按鈕複製 cookie。
   > **4.** 最後，您可以通過單擊下面的“Enter Token/輸入令牌”按鈕並粘貼您複製的令牌來註冊。
 HOYOLAB_REGISTER_SCRIPT: |
   ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('請先註銷並重新登錄，然後重試，cookie 目前已過期/無效！'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!/點擊此處複製！</button>`)```
@@ -768,7 +768,7 @@ TEAPOT_REMINDERS_DESCRIPTION: |
   > **自動提醒：** {reminder_setting}
 PARAMETRIC_REMINDERS_DESCRIPTION: |
   <:parametrictransformer:1029984451670847568>Parametric Transformer** 目前為 {transformer_status}！
-   **補充時間：** {time_left} 
+   **補充時間：** {time_left}
   > **自動提醒：** {reminder_setting}
 READY_TO_USE: ready to use
 NOT_READY_TO_USE: not ready to use
@@ -929,7 +929,7 @@ EVENT_BANNER_DAILY: |
   ☑️ 塵歌壺：家具、硬幣和植物
 EVENT_BANNER_WEEKLY: |
   ☑️參數變質儀
-  ☑️每週戰鬥通行證任務 
+  ☑️每週戰鬥通行證任務
   ☑️每周首領、供應商等。
 CONFIGURATION_PANEL_TITLE: Genshin Wizard | 配置面板
 CONFIGURATION_CHANGE_MESSAGE: "更改 Genshin Wizard 的配置面板。有關詳細信息，請參閱我們的 [**文檔**](https://docs.genshinwizard.com/overview/server-panels)。"
@@ -980,7 +980,7 @@ UNCLAIMED_KEY: 未領取
 PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard Premium Server Settings
 PREMIUM_SERVER_SETTINGS_DESCRIPTION: |
   **<:information:1034639378410115103> 什麼是高級服務器？**
-  作為高級用戶，根據您的級別，您最多可以選擇 3 台服務器來獲得高級福利。 
+  作為高級用戶，根據您的級別，您最多可以選擇 3 台服務器來獲得高級福利。
   可用的高級服務器插槽： **{remaining}**
   使用下面的按鈕來管理您的高級服務器。
   **激活的服務器**
@@ -1631,3 +1631,4 @@ REGISTER_SCRIPT_ALERT: 請註銷並重新登錄然後重試，cookie 目前已�
 REGISTER_SCRIPT_COPY_BUTTON: Click here to copy!
 ACCOUNT_EMAIL_KEY: Account Email
 PASSWORD_KEY: Account Password
+HYDROCULUS_KEY: Hydroculus
