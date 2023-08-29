@@ -622,18 +622,18 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "콘솔"
 REGISTER_IOS_METHOD: "iOS(앱 스트림 방법)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
+  [Github 문서](https://github.com/Genshin-Wizard/historyLink) 에 그림과 함께 자세한 설명이 있으니까 참고해줘.
 
-  1. Open Genshin Impact Game on your PC
-  2. Go to the wish history page and wait for it to load
-  3. Go back to Windows/Desktop
-  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  5. Then copy the following code and paste it in the Powershell window
+  1. 여행자의 PC에서 원신을 켜줘
+  2. 기원 화면에서 기원 기록 창을 연 다음, 목록이 표시될 때 까지 잠시 기다려줘
+  3. 이제 바탕화면으로 돌아와줘!
+  4. 시작메뉴에서 "PowerShell" 을 검색해서 "Windows PowerShell" 을 실행해줘!
+  5. 아래 코드를 복사한 다음, 여행자가 실행한 Powershell 창 안에 붙여 넣어줘
   ```ps
   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
   ```
-  6. Hit `ENTER` to have the link copied to your clipboard
-  7. Click the button below and paste the link in the input field
+  6. 이제 엔터키를 눌러줘! 그러면 여행자의 컴퓨터 클립보드에 생성된 링크가 자동으로 복사될꺼야
+  7. 아래 버튼을 눌러서 자동으로 복사된 링크를 입력해줘!
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   3.0 업데이트 이후 사용자는 더 이상 Android 기기에서 단순히 기록 링크를 복사하여 붙여넣을 수 없습니다.
 
@@ -1130,7 +1130,7 @@ WEAPON_BANNER_DESCRIPTION: 무기배너기원 기록 확인.
 PERMANENT_BANNER_DESCRIPTION: 상시 배너에 기원 기록 확인.
 CHOOSE_BANNER_PLACEHOLDER: 배너 선택
 GO_BACK_BUTTON: 뒤로 가기
-REGISTER_SCRIPT_BUTTON: Register via Script
+REGISTER_SCRIPT_BUTTON: 스크립트를 이용한 등록
 REGISTER_LOGIN_BUTTON: 로그인을 통해 등록
 ENTER_TOKEN_BUTTON: 토큰 입력
 REGISTER_ACCOUNT_BUTTON: 계정 등록
@@ -1649,10 +1649,10 @@ NOTIFICATIONS_KEY: 알림
 DAILY_AUTOCLAIM_KEY: 일일 출석체크 자동 수령
 DAILY_CHECKIN_KEY: 일일 출석체크
 INVOKATION_VICTORIES: "{win_count} 승"
-WORLD_EXPLORATIONS: World Explorations
-REPUTATION_LEVELS: Reputation Levels
-REGISTER_SCRIPT_ALERT: Please logout and log back in before trying again, cookie is currently expired/invalid!
-REGISTER_SCRIPT_COPY_BUTTON: Click here to copy!
-ACCOUNT_EMAIL_KEY: Account Email
-PASSWORD_KEY: Account Password
+WORLD_EXPLORATIONS: 지역 탐사도
+REPUTATION_LEVELS: 평판 레벨
+REGISTER_SCRIPT_ALERT: "사용한 쿠키가 만료됐거나 유효하지 않은 것 같아!\n다시 시도하기 전에 먼저 로그아웃을 한 다음에 다시 로그인을 다시해줘!"
+REGISTER_SCRIPT_COPY_BUTTON: 여기를 눌러 복사해줘!
+ACCOUNT_EMAIL_KEY: 계정 이메일
+PASSWORD_KEY: 계정 비밀번호
 HYDROCULUS_KEY: 물의 신의 눈동자
