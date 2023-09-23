@@ -66,44 +66,44 @@ TRUTH_COMMAND_RESPONSES:
   - Emin Değilim.
   - Belki.
   - Kim bilir?
-  - I cannot predict now.
-  - I am tired. *proceeds with sleeping*
+  - Şu anda öngöremiyorum.
+  - Çok yoruldum. *uyuya kalır*
   - Kesinlikle.
-TRUTH_COMMAND_TITLE: Paimon's Wisdom
+TRUTH_COMMAND_TITLE: Paimon'un İlmi
 QUESTION_KEY: Soru
 RESPONSE_KEY: Yanıt
-PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
-PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
-PREFIX_TOO_SHORT: The prefix cannot be shorter than 1 character.
-PREFIX_CHANGED_TITLE: Genshin Wizard | Prefix Change
+PREFIX_COMMAND_CURRENT: Bu sunucu için komut başlangıcı `{prefix}`
+PREFIX_TOO_LONG: Komut başlangıcı 5 karakterden fazla olamaz.
+PREFIX_TOO_SHORT: Komut başlangıcı 1 karakterden az olamaz.
+PREFIX_CHANGED_TITLE: Genshin Wizard | Komut başlangıcı değiştirme
 PREFIX_CHANGED_DESCRIPTION: |
-  Successfully changed **Genshin Wizard's** prefix! Commands will now be invoked using this new prefix.
+  Komut başlangıcı başarıyla değiştirildi! Komutlar artık yeni başlangıç ile kullanılabilecek.
 
-  **Old Prefix:** `{old_prefix}`
-  **New Prefix:** `{new_prefix}`
-PREFIX_CHANGED_FOOTER: Genshin Wizard Prefix Setting
-MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Computational Error. Try rephrasing!"
+  **Eski Komut başlagıcı** `{old_prefix}`
+  **Yeni Komut başlangıcı:** `{new_prefix}`
+PREFIX_CHANGED_FOOTER: Genshin Wizard Komut Başlangıcı Ayarı
+MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Bilgisayımsal Hata. Başka bir şekilde ifade etmeyi deneyin!"
 MATH_COMMAND_RESULT: |
-  **Expression:** `{expression}`
-  **Result:**
+  **İşlem:** `{expression}`
+  **Sonuç:**
   ```{result}```
-RECENT_GENSHIN_EVENTS: Recent Genshin Events
-SEND_CODES_COMMAND_TITLE: Genshin Wizard | Active Codes
+RECENT_GENSHIN_EVENTS: Yakın Zamandaki Genshin Eventleri
+SEND_CODES_COMMAND_TITLE: Genshin Wizard | Geçerli Kodlar
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
-  <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
+  <:blurplelink:1020155547187691600> [***Aşşağıdaki butonlara basarak kullanılabilir!***](https://genshin.mihoyo.com/en/gift)
+  <:blurpleannouncement:1020402170127982712> **Not:** Kodların süresi hızlıca biter, bu yüzden onları en kısa sürede kullandığınıza emin olun!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
-SEND_CODES_REDEEM_AUTOMATICALLY: Redeem Automatically
-SEND_CODES_DIRECT_LINK: Direct Link
-SEND_CODES_REDEEMABLE_CODES: Redeemable Codes
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Redemption Codes
+SEND_CODES_REDEEM_AUTOMATICALLY: Kodları Otomatik Kullan
+SEND_CODES_DIRECT_LINK: Direkt link
+SEND_CODES_REDEEMABLE_CODES: Kullanılabilir Kodlar
+SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Kullanılabilir Kodlar
 SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!*
-MESSAGE_LINK: Message Link
-CLICK_HERE: Click Here
-INFO_SELECT_CHARACTER: Select a character
+MESSAGE_LINK: Mesaj Bağlantısı
+CLICK_HERE: Buraya Tıkla
+INFO_SELECT_CHARACTER: Karakter Seçin
 INFO_CHARACTER_SOURCE: "Source: Saved Builds"
-INFO_USER_CACHE: User Cache
+INFO_USER_CACHE: Kullanıcı Önbelleği
 INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
 MENU_COOLDOWN_TITLE: That menu is on cooldown!
 BUTTON_COOLDOWN_TITLE: That button is on cooldown!
@@ -143,7 +143,7 @@ ERROR_MISSING_REQUIRED_ARGUMENT: "You forgot to provide an argument, please use 
 ERROR_MISSING_REQUIRED_ATTACHMENT: "You forgot to provide an attachment, please use the correct format: ```{usage} with the correct attachment.```"
 ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, I do not have permission to `Manage Messages` within this channel/guild. Please enable this permission and try again.
 ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
-MESSAGE_KEY: Message
+MESSAGE_KEY: Mesaj
 ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
 ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
 ERROR_MESSAGE: There has been an error!

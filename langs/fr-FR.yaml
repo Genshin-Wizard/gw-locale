@@ -459,9 +459,7 @@ USE_COUNT_KEY: Nombre d'Utilisation
 IMPORT_ERROR: Erreur d'Importation !
 FOOTER_ERROR_DESCRIPTION: Si vous pensez qu'il s'agit d'une erreur, veuillez contacter un membre du personnel.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
-  {supported_file_types}
-  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
+
 IMPORT_COMMAND_TITLE: Genshin Wizard | Importer l'Historique des Vœux
 IMPORT_COMMAND_FILE_DETECTED: |
   **Source d'importation détectée : `{source}`**
@@ -623,18 +621,7 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "Console"
 REGISTER_IOS_METHOD: "iOS (Méthode Stream App)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
 
-  1. Open Genshin Impact Game on your PC
-  2. Go to the wish history page and wait for it to load
-  3. Go back to Windows/Desktop
-  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  5. Then copy the following code and paste it in the Powershell window
-  ```ps
-  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
-  ```
-  6. Hit `ENTER` to have the link copied to your clipboard
-  7. Click the button below and paste the link in the input field
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   Après la mise à jour 3.0, les utilisateurs ne peuvent plus simplement copier et coller le lien d'historique sur les appareils Android.
 
