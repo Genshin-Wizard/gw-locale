@@ -699,7 +699,7 @@ UNLINK_EVERYTHING: Desvincular todo
 UNLINK_EVERYTHING_BRIEF: Este método desvinculará **todo** de Genshin Wizard.
 UNLINK_EVERYTHING_DESCRIPTION: Este método desvinculará todo de Genshin Wizard. Esta acción es **irreversible**. ¿Estás seguro de que quieres continuar?
 UNLINKING_CONFIRMATION: '¡Has desvinculado **correctamente** los datos solicitados de Genshin Wizard!'
-UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: ¡Este UID está **ya registrado** en otro usuario! Si crees que es un error, ¡por favor contacta a [**Soporte de Genshin Wizard**](https://discord.gg/BTT5Zr7Dmp)!"
+UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If this is a mistake and you are looking to *recover* your Genshin Wizard account, use the </recover:{command_id}> command. If you need further assistance, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: ¡Ya estás **registrado** en un UID diferente! Si quieres registrarte con otra cuenta, utiliza </unlink:{command_id}> antes de intentar registrarte de nuevo."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Registro de Genshin Wizard
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Regístra tu cuenta de Genshin en Genshin Wizard.
@@ -1652,3 +1652,10 @@ REGISTER_SCRIPT_COPY_BUTTON: '¡Clic aquí para copiar!'
 ACCOUNT_EMAIL_KEY: Correo de la cuenta
 PASSWORD_KEY: Contraseña de la cuenta
 HYDROCULUS_KEY: Hydroculus
+APP_COMMAND_RECOVER_DESCRIPTION: Recover your inaccessible Genshin Wizard account.
+RECOVER_COMMAND_TITLE: Genshin Wizard Account Recovery
+RECOVER_COMMAND_ALREADY_REGISTERED: You have already **registered** to an account! Unlink using </unlink:{command_id}> before trying to recover your previous account.
+RECOVER_COMMAND_INSTRUCTIONS: |
+  Lost access to your Genshin Wizard account and want to re-link your account? You've come to the right place!
+
+  Click the button below to begin the **account recovery** process.
