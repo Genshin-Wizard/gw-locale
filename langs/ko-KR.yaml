@@ -700,7 +700,7 @@ UNLINK_EVERYTHING: 모두 연결 해제
 UNLINK_EVERYTHING_BRIEF: 이 방법은 Genshin Wizard에서 **모든 것**의 연결을 해제합니다.
 UNLINK_EVERYTHING_DESCRIPTION: 이 방법은 Genshin Wizard에서 모든 연결을 해제합니다. 이 작업은 **돌이킬 수 없습니다**. 정말로 계속하기를 원하십니까?
 UNLINKING_CONFIRMATION: Genshin Wizard에서 요청한 데이터를 **성공적으로 연결 해제**했습니다!
-UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: 이 UID는 다른 사용자에게 **이미 등록**되었습니다! 이것이 오류라고 생각되면 [**Genshin Wizard 지원**](https://discord.gg/BTT5Zr7Dmp)에 문의하십시오!"
+UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If this is a mistake and you are looking to *recover* your Genshin Wizard account, use the </recover:{command_id}> command. If you need further assistance, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: 다른 UID에 **이미 등록**되었습니다! 다른 계정을 사용하여 등록하려면 다시 등록을 시도하기 전에 </unlink:{command_id}>를 사용하십시오."
 GENSHIN_WIZARD_REGISTRATION_TITLE: 원신 위자드 등륵하기
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: 여행자의 정보를 원신 위자드에 등록해.
@@ -1656,3 +1656,10 @@ REGISTER_SCRIPT_COPY_BUTTON: 여기를 눌러 복사해줘!
 ACCOUNT_EMAIL_KEY: 계정 이메일
 PASSWORD_KEY: 계정 비밀번호
 HYDROCULUS_KEY: 물의 신의 눈동자
+APP_COMMAND_RECOVER_DESCRIPTION: Recover your inaccessible Genshin Wizard account.
+RECOVER_COMMAND_TITLE: Genshin Wizard Account Recovery
+RECOVER_COMMAND_ALREADY_REGISTERED: You have already **registered** to an account! Unlink using </unlink:{command_id}> before trying to recover your previous account.
+RECOVER_COMMAND_INSTRUCTIONS: |
+  Lost access to your Genshin Wizard account and want to re-link your account? You've come to the right place!
+
+  Click the button below to begin the **account recovery** process.
