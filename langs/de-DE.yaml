@@ -217,8 +217,8 @@ APP_COMMAND_EDIT_BUILD_DESCRIPTION: Bearbeite Builds für einen bestimmten Chara
 APP_COMMAND_DESCRIBE_EDIT_BUILD_CHARACTER: Der Name des Charakters, für den ein Build bearbeitet werden soll.
 APP_COMMAND_EDIT_PLAYSTYLE_DESCRIPTION: Spielstile für einen bestimmten Charakter bearbeiten.
 APP_COMMAND_DESCRIBE_PLAYSTYLE_CHARACTER: Der Name des Charakters, für den du Spielstil bearbeiten möchtest.
-APP_COMMAND_EDIT_SYNERGY_DESCRIPTION: Edit synergies for a specific character.
-APP_COMMAND_DESCRIBE_SYNERGY_CHARACTER: The name of the character you want to edit synergies for.
+APP_COMMAND_EDIT_SYNERGY_DESCRIPTION: Optimiere die Wechselwirkungen für einen bestimmten Charakter.
+APP_COMMAND_DESCRIBE_SYNERGY_CHARACTER: Der Name der Figur dessen Wechselwirkung du verändern willst.
 APP_COMMAND_FARM_DESCRIPTION: Überprüfe den aktuellen Domain-Zeitplan für deine Region.
 APP_COMMAND_TCGCARD_DESCRIPTION: Suche nach einer Genshin Impact TCG Karte.
 APP_COMMAND_ARTIFACT_DESCRIPTION: Zeigt eine Aufteilung der Vorteile/Verstärkungen für das angegebene Artefakt an.
@@ -245,35 +245,35 @@ APP_COMMAND_SETUP_DESCRIPTION: Genshin Wizard Rollen Integrationseinstellung-Pan
 APP_COMMAND_PREMIUM_DESCRIPTION: Kaufe Genshin Wizard Premium, um Zugang zu Premium-Funktionen zu erhalten.
 APP_COMMAND_ROLE_DESCRIPTION: Wendet bestimmte Charakterrollen für einen Benutzer an. Weitere Informationen findest du im relativen Text-Kanal.
 APP_COMMAND_HELP_DESCRIPTION: Siehe Genshin Wizard Hilfedokumentation.
-APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
-APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
-APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
-APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
+APP_COMMAND_PING_DESCRIPTION: Überprüfe die Latenz von Genshin Wizard.
+APP_COMMAND_UPTIME_DESCRIPTION: Überprüfe die Uptime von Genshin Wizard.
+APP_COMMAND_ABOUT_DESCRIPTION: Informationen über Genshin Wizard.
+APP_COMMAND_INVITE_DESCRIPTION: Erhalte einen Einladungslink für diesen Bot.
 APP_COMMAND_DONATE_DESCRIPTION: Unterstütze die Entwicklung von Genshin Wizard.
-APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
-APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
-APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
-APP_COMMAND_TRUTH_DESCRIPTION: Seek wisdom from Genshin Wizard.
-APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Change Genshin Wizard's prefix for commands.
-APP_COMMAND_PITY_DESCRIPTION: Information on understanding the Genshin pity-system.
-APP_COMMAND_MATH_DESCRIPTION: Compute simple or complex functions.
-APP_COMMAND_EVENTS_DESCRIPTION: Check recent Genshin Impact events.
-APP_COMMAND_SENDCODES_DESCRIPTION: Send a message for Genshin redemption codes with buttons.
-APP_COMMAND_FEEDBACK_DESCRIPTION: Send your feedback to Genshin Wizard Developers.
-APP_COMMAND_DELETE_DESCRIPTION: Delete a user's Genshin Wizard profile.
-APP_COMMAND_BLACKLIST_DESCRIPTION: Blacklist a user from using Genshin Wizard.
-APP_COMMAND_DELIMPORT_DESCRIPTION: Delete a user's imported wish history data.
-EXPORT_NO_WISHES: There are no wishes to export.
-EXPORT_NO_BANNER_WISHES: No {banner} banner wishes found.
-EXPORT_NO_MESSAGE_PERMISSION: "The bot **does not** have permission to send you a private message. Please make sure you have the setting: `Allow direct messages from server members` **enabled** in your *Discord privacy settings*."
-EXPORT_MESSAGE_SUCCESS: Your wish history has successfully been exported and sent to you via DMs.
+APP_COMMAND_VOTE_DESCRIPTION: Vote Links für Genshin Wizard.
+APP_COMMAND_AVATAR_DESCRIPTION: Discord Avatar eines Benutzers anzeigen.
+APP_COMMAND_CRITVALUE_DESCRIPTION: KT Wert für ein Artefakt berechnen.
+APP_COMMAND_TRUTH_DESCRIPTION: Suche nach Weisheit von Genshin Wizard.
+APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Ändere den Präfix von Genshin Wizards für Befehle.
+APP_COMMAND_PITY_DESCRIPTION: Informationen zum Verständnis des Genshin Pity-Systems.
+APP_COMMAND_MATH_DESCRIPTION: Berechne einfache oder komplexe Funktionen.
+APP_COMMAND_EVENTS_DESCRIPTION: Überprüfe die letzten Genshin Impact Ereignisse.
+APP_COMMAND_SENDCODES_DESCRIPTION: Sende eine Nachricht für Genshin Einlösecodes, mit Knöpfen.
+APP_COMMAND_FEEDBACK_DESCRIPTION: Sende dein Feedback an die Genshin Wizard Entwickler.
+APP_COMMAND_DELETE_DESCRIPTION: Lösche ein Genshin Wizard Benutzerprofil.
+APP_COMMAND_BLACKLIST_DESCRIPTION: Setze einen Benutzer auf die Schwarzeliste.
+APP_COMMAND_DELIMPORT_DESCRIPTION: Lösche die importierten Wunschverlaufs-Daten eines Benutzers.
+EXPORT_NO_WISHES: Es gibt keine Wünsche zum exportieren.
+EXPORT_NO_BANNER_WISHES: Keine {banner} Banner-Wünsche gefunden.
+EXPORT_NO_MESSAGE_PERMISSION: "Der Bot **hat nicht** die Berechtigung, dir eine private Nachricht zu senden. Bitte stelle sicher, dass du die Einstellung hast: `Erlaube Direktnachrichten von Servermitglieder` **aktiviert** in deinen *Discord Privatsphäre-Einstellungen*."
+EXPORT_MESSAGE_SUCCESS: Ihr Wunschverlauf wurde erfolgreich exportiert und per DM an dich gesendet.
 INFO_COMMAND_INVALID_ARGUMENT: |
-  **Invalid argument passed.**
+  **Ungültiges Argument gegeben**
 
-  To view another player's stats, please enter either Discord User **or** a Genshin UID. Entering both will result in an error.
+  Um die Spieler daten eines anderen Nutzers zu sehen, gebe entweder dessen Discord Benutzer ID **oder** dessen Genshin UID. Beide gemeinsam wird ein Fehler ausrufen.
 INVALID_ARGUMENT_PASSED: |
-  Invalid argument passed.
-  Valid argument is `<discord user>`/`<genshin uid>`
+  Ungültiges Argument gegeben.
+  Ein gültiges Argument wäre `<discord user>` oder `<genshin uid>`
 INFO_COMMAND_ENKA_ISSUE: There seems to be an issue with [**Enka.Network**](https://enka.network/u/{uid}). Please try again later.
 ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
