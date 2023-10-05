@@ -15,11 +15,11 @@ PING_INFORMATION: |
   Bot-Latenz ist **{bot_latency}ms.**
   Websocket-Latenz ist **{ws_latency}ms.**
 UPTIME_INFORMATION: |
-  **Genshin Wizard Uptime**
+  **Genshin Wizard Laufzeit**
   **Letzter Neustart:** <t:{last_restart}:R>
-  **Uptime:** {uptime}
+  **Laufzeit:** {uptime}
 VERSION_KEY: Version
-PING_KEY: Zeitüberschreitung
+PING_KEY: Ping
 UNKNOWN_KEY: Unbekannt
 USER_NOT_PUBLIC: Die Benutzerdaten sind nicht öffentlich.
 INVITE_INFORMATION: Benutze den unten stehenden Link, um diesen Bot auf deinen eigenen Server einzuladen.
@@ -27,10 +27,10 @@ REQUESTED_BY: Angefordert von {user}
 SUPPORT_GWIZ_TITLE: Unterstütze Genshin Wizard
 SUPPORT_GWIZ_DESC: Unterstütze die Entwicklung von Genshin Wizard.
 DONATE_KEY: Spenden
-VOTE_GWIZ_DESCRIPTION: Klicken Sie auf die Links unten, um für Genshin Wizard zu voten.
+VOTE_GWIZ_DESCRIPTION: Klicken Sie auf die untenstehenden Links, um für Genshin Wizard abzustimmen.
 VOTE_KEY: Voten
-VOTE_BOT: Vote für den Bot
-VOTE_SERVER: Vote für den Server
+VOTE_BOT: Für den Bot abstimmen
+VOTE_SERVER: Für den Server abstimmen
 VOTE_BOT_LINK: Bot Vote Link
 VOTE_SERVER_LINK: Server Vote Link
 VOTE_BOT_BUTTON: Vote [Bot]
@@ -167,10 +167,10 @@ CODE_REDEEM_PROGRESS: |
 HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Abgelaufene Cookies
 HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Reisende/r! Es scheint, dass deine HoYoLAB-Gutscheincode Cookies **abgelaufen** sind! Benutze den Befehl </hoyo:{command_id}> und führe den Prozess des erneut verknüpfen deines Kontos zu **aktualisieren** deiner HoYoLAB-Konto-Cookies.
 GENSHIN_WIZARD_INFORMATION: |
-  <a:blue_arrow:1005981235966910494> **[Bot einladen](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
-  <a:blue_arrow:1005981235966910494> **[offizielle Website](https://www.genshinwizard.com)**
-  <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
-  <a:blue_arrow:1005981235966910494> **[Spenden](https://ko-fi.com/genshinwizard)**
+  <a:blue_arrow:1005981235966910494> **[Bot einladen](https://genshinwizard.com/invite)**
+  <a:blue_arrow:1005981235966910494> **[Offizielle Website](https://www.genshinwizard.com)**
+  <a:blue_arrow:1005981235966910494> **[Documentation](https://top.gg/bot/782099719718699009)**
+  <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
 CODE_REDEEM_SUCCESS: "*Codes wurden erfolgreich eingelöst!*"
 APP_COMMAND_INFO_DESCRIPTION: Zeigt Builds für Charaktere im In-Game Showcase des Benutzers.
 APP_COMMAND_EXPORT_DESCRIPTION: Exportiere deine Genshin Wunschverlauf formatiert in eine Text-Datei per Privatnachricht.
@@ -250,7 +250,7 @@ APP_COMMAND_UPTIME_DESCRIPTION: Überprüfe die Uptime von Genshin Wizard.
 APP_COMMAND_ABOUT_DESCRIPTION: Informationen über Genshin Wizard.
 APP_COMMAND_INVITE_DESCRIPTION: Erhalte einen Einladungslink für diesen Bot.
 APP_COMMAND_DONATE_DESCRIPTION: Unterstütze die Entwicklung von Genshin Wizard.
-APP_COMMAND_VOTE_DESCRIPTION: Vote Links für Genshin Wizard.
+APP_COMMAND_VOTE_DESCRIPTION: Abstimmungslinks für Genshin Wizard.
 APP_COMMAND_AVATAR_DESCRIPTION: Discord Avatar eines Benutzers anzeigen.
 APP_COMMAND_CRITVALUE_DESCRIPTION: KT Wert für ein Artefakt berechnen.
 APP_COMMAND_TRUTH_DESCRIPTION: Suche nach Weisheit von Genshin Wizard.
@@ -350,104 +350,104 @@ APP_COMMAND_DESCRIBE_PREFIX: Der neue Präfix den du für den Bot setzen möchte
 APP_COMMAND_DESCRIBE_EXPRESSION: Die Gleichung/Abfrage, die du versuchst zu berechnen.
 APP_COMMAND_DESCRIBE_CODE_CHANNEL: Der Kanal, in dem die Nachricht gesendet werden soll.
 APP_COMMAND_DESCRIBE_CODE_PING: Die Rolle, die du neben der Nachricht erwähnen möchtest.
-APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated by a comma.
-APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
-APP_CONTEXT_MENU_PROFILE: Profile
-APP_CONTEXT_MENU_STATISTICS: Stats Progression
-APP_CONTEXT_MENU_ABYSS: Abyss Progression
-APP_CONTEXT_MENU_CHARACTERS: Characters
-APP_CONTEXT_MENU_WISH_HISTORY: Wish History
+APP_COMMAND_DESCRIBE_CODE_LIST: Die Einlösungscodes die du senden möchtest, separiert durch ein Komma.
+APP_COMMAND_DESCRIBE_FEEDBACK: Das Feedback, das du überliefern möchtest.
+APP_CONTEXT_MENU_PROFILE: Profil
+APP_CONTEXT_MENU_STATISTICS: Statistik Fortschritt
+APP_CONTEXT_MENU_ABYSS: Abgrund Fortschritt
+APP_CONTEXT_MENU_CHARACTERS: Charaktere
+APP_CONTEXT_MENU_WISH_HISTORY: Wunschprotokolle
 WHITELIST_KEY_LOWERCASE: whitelist
-HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Wishes"
-SLASH_PAGINATION: Page {current_page}/{total_pages}
-OF_PAGINATION: Page {current_page} of {total_pages}
+HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Wünsche"
+SLASH_PAGINATION: Seite {current_page}/{total_pages}
+OF_PAGINATION: Seite {current_page} von {total_pages}
 HISTORY_COMMAND_TABLE_HEADER: "Rarität| Pity | Name | Datum"
-HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Guaranteed Pity: {indicator}**"
-HISTORY_LINK_EXPIRED: History Link Expired
-HISTORY_COMMAND_LIFETIME_PULLS: Lifetime Pulls
-HISTORY_COMMAND_WISHES_WORTH: Wishes Worth
-HISTORY_COMMAND_CURRENT_PITIES: Current Pities
-SEARCH_ERROR: Search Error!
+HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Garantierte Pity: {indicator}**"
+HISTORY_LINK_EXPIRED: Verlaufslink abgelaufen
+HISTORY_COMMAND_LIFETIME_PULLS: Gebete insgesamt
+HISTORY_COMMAND_WISHES_WORTH: Gesamtwert Gebete
+HISTORY_COMMAND_CURRENT_PITIES: Akutelle Pities
+SEARCH_ERROR: Suchfehler!
 HISTORY_COMMAND_NO_WISHES: |
-  No wishes were found for this search!
-  Try selecting a different banner to check below.
-HISTORY_COMMAND_NO_USER_WISHES: No wishes were found for this user!
-USER_NOT_REGISTERED_TITLE: User has not registered!
-REGISTERED_KEY: Registered
-NOT_REGISTERED_KEY: Not Registered
-USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** yet! Please register using </register:{command_id}> *before* using this command.
-FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."
-FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Note: This command requires you to register through the Wish History or HoYoLAB method."
-FOOTER_REQUIRE_UID_OR_HOYOLAB: "Note: This command requires you to register through the UID or HoYoLAB method."
-FOOTER_GCG_EXPANDED: Your TCG Showcase statistics can be shown in more detail if you register using your HoYoLAB account!
-LINK_HOYOLAB_TITLE: Genshin Wizard | Link HoYoLAB Account
-LINKING_UID_TITLE: Genshin Wizard | Link UID
+  Es wurden keine Wünsche für diese Suche gefunden!
+  Versuche, ein anderes Banner zu wählen, unten zur überprüfen.
+HISTORY_COMMAND_NO_USER_WISHES: Für diesen Benutzer wurden keine Wünsche gefunden!
+USER_NOT_REGISTERED_TITLE: Benutzer hat sich nicht registriert!
+REGISTERED_KEY: Registriert
+NOT_REGISTERED_KEY: Nicht Registriert
+USER_NOT_REGISTERED_DESCRIPTION: Leider hat sich <@{mem_id}> noch nicht registriert! Bitte registriere dich mit </register:{command_id}> *vorher* mit diesem Befehl.
+FOOTER_REQUIRES_WISH_HISTORY: "Hinweis: Dieser Befehl erfordert eine Registrierung über die Wunschverlauf Methode."
+FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Hinweis: Dieser Befehl erfordert eine Registrierung über die Wish History oder HoYoLAB-Methode."
+FOOTER_REQUIRE_UID_OR_HOYOLAB: "Hinweis: Dieser Befehl erfordert eine Registrierung über die UID- oder HoYoLAB-Methode."
+FOOTER_GCG_EXPANDED: Deine TCG Showcase Statistiken können detaillierter angezeigt werden, wenn du dich mit deinem HoYoLAB Account registrierst!
+LINK_HOYOLAB_TITLE: Genshin Wizard | HoYoLAB Konto verknüpfen
+LINKING_UID_TITLE: Genshin Wizard | UID Verlinken
 LINK_HOYOLAB_DESCRIPTION: |
-  Welcome to Genshin Wizard's HoYoLAB account linking system.
+  Willkommen beim HoYoLAB-Account-Verknüpfung System von Genshin Wizard.
 
-  **Linking Features:**
-  > **1.** Access to your in-game resin count in real-time (set up automatic notifications).
-  > **2.** Access to your in-game expedition status in real-time.
-  > **3.** Ability to claim your *Daily Check-in Reward* straight from Discord.
-  > **4.** Ability to view in-depth information about your Spiral Abyss progression.
-  > **5.** View an infographic containing **all** your available characters.
+  **Verknüpfungsfunktionen:**
+  > **1. * Zugriff auf deine Harzanzahl im Spiel in Echtzeit (automatische Benachrichtigungen einrichten).
+  > **2.** Zugriff auf deinen in-game Expedition Status in Echtzeit.
+  > **3. * Fähigkeit, deine *tägliche Check-in Belohnung* direkt von Discord zu beanspruchen.
+  > **4.** Fähigkeit, detaillierte Informationen über deinen Spiralabgrund zu sehen.
+  > **5.** Schau dir eine Infografik an, die **alle** deine verfügbaren Figuren enthält.
 
-  To begin, click one of the user registration options below!
-HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Automatic Daily Sign-in
-AUTOCLAIM_ALREADY_DISABLED: Automatic HoYoLAB daily sign-in is already disabled.
-AUTOCLAIM_ALREADY_ENABLED: Automatic HoYoLAB daily sign-in is already enabled.
-AUTOCLAIM_DISABLED: Automatic HoYoLAB daily sign-in has been disabled.
-AUTOCLAIM_ENABLED: Automatic HoYoLAB daily sign-in has been enabled.
-AUTOCLAIM_VOTE_REQUIREMENT: You must **__vote__** for our server and bot before being able to enable autoclaim!
-HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | HoYoLAB Daily Sign-in
+  Um zu beginnen, klicke auf eine der unten aufgeführten Registrierungsoptionen!
+HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Tägliche automatische Anmeldung
+AUTOCLAIM_ALREADY_DISABLED: Automatische HoYoLAB tägliche Anmeldung ist bereits deaktiviert.
+AUTOCLAIM_ALREADY_ENABLED: Automatische HoYoLAB tägliche Anmeldung ist bereits aktiviert.
+AUTOCLAIM_DISABLED: Automatische HoYoLAB tägliche Anmeldung wurde deaktiviert.
+AUTOCLAIM_ENABLED: Automatische HoYoLAB tägliche Anmeldung wurde aktiviert.
+AUTOCLAIM_VOTE_REQUIREMENT: Du musst für unseren Server und Bot erst **__vote__**, bevor du den Autoclaimer aktivieren kannst!
+HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | HoYoLAB Tägliche Anmeldung
 HOYOLAB_SIGN_IN_REWARDS: |
-  Successfully **claimed** daily reward!
+  Tägliche Belohnung erfolgreich **abgeholt**!
 
-  Rewards Claimed: `{rewards}`
-  Amount: `x{amount}`
-HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | HoYoLAB Monthly Rewards
-HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: View HoYoLAB daily rewards for the month
-HOYOLAB_DIARY_TITLE: Genshin Wizard | Traveler's Diary
+  Belohnungen angenommen: `{rewards}`
+  Betrag: `x{amount}`
+HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | HoYoLAB monatliche Belohnungen
+HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: HoYoLAB tägliche Belohnungen für den Monat
+HOYOLAB_DIARY_TITLE: Genshin Wizard | Reisetagebuch
 HOYOLAB_INVALID_REDEEM: |
-  You must provide a redemption code to redeem.
-  **Proper Command Usage** ```/redeem CODE_ONE,CODE_TWO,...```
-CHINA_NOT_ALLOWED: Redeeming codes for CN users is **not supported** as of yet.
-HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | HoYoLAB Overview
-HOYOLAB_LOADING_ACCOUNT: Loading account information...
-HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Real-time Notes** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
-HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Game Record** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
-HOYOLAB_ACCOUNT_ERROR: There was an error grabbing your account's information! Please try again *later*.
-HOYOLAB_ACCOUNT_MANAGE: Manage your HoYoLAB account through Genshin Wizard
-HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Character Summary
-CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /register!
-GCG_NO_CARDS_FOUND: No Cards Found!
-GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Traveler! Unfortunately, {member} has **no cards** yet! Head-in game and play some TCG on Genshin Impact *before* using this command.
-HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
+  Du musst einen Code zur Einlösung angeben.
+  **Eigentliche Befehlsnutzung** ```/redeem CODE_ONE,CODE_TWO,...```
+CHINA_NOT_ALLOWED: Einlösen von Codes für CN Benutzer wird **noch nicht** unterstützt.
+HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | HoYoLAB Übersicht
+HOYOLAB_LOADING_ACCOUNT: Laden von Kontoinformationen...
+HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> Es gab einen Fehler beim Abrufen der **Echtzeit-Notizen** deines Kontos! Bitte versuche es *später* erneut oder trete unserem [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) für Hilfe bei.
+HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> Es gab einen Fehler beim Abrufen der **Echtzeit-Notizen** deines Kontos! Bitte versuche es *später* erneut oder trete unserem [**offiziellen Support Server**](https://discord.gg/BTT5Zr7Dmp) für Hilfe bei.
+HOYOLAB_ACCOUNT_ERROR: Es gab einen Fehler beim Erfassen der Kontoinformationen! Bitte versuchen Sie es später erneut.
+HOYOLAB_ACCOUNT_MANAGE: Verwalte deinen HoYoLAB-Account über Genshin Wizard
+HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Charakterübersicht
+CHARACTER_SUMMARY_NOT_FULL: Deine Charakterübersicht basiert auf deiner Gatcha-Ziehverlauf. Um deine vollständige und genaueste Charakterübersicht (Levels, Freundschaften, Konstellationen und AR-Level) zu sehen, verlinke bitte mit /register!
+GCG_NO_CARDS_FOUND: Keine Karten gefunden!
+GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Reisende/r! Leider hat {member} noch **keine Karten**! Ab in Genshin Impact und spiele TCG und versuch es erneut.
+HOYOLAB_REGISTER_SCRIPT_TITLE: Registrierung | Skript Methode
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin with, login to your [**HoYoLAB**](https://www.hoyolab.com/home) account.
-  > **2.** Type `java` in the address bar followed by the script down below.
-  > **3.** Once you've successfully ran the script, click the `Click here to copy!` button to copy the cookie.
-  > **4.** Finally, you're able to register by clicking the `Enter Token` button below and pasting the token you copied.
+  **Wie du deinen HoYoLAB-Account mit Genshin Wizard verknüpfst**
+  > **1.** Zu beginn, logge dich bei deinem [**HoYoLAB**](https://www.hoyolab.com/home) Account.
+  > **2.** Gib `java` in die Adressleiste ein, gefolgt von dem unten stehenden Skript.
+  > **3.** Sobald das Skript erfolgreich ausgeführt wurde, klicke auf die Schaltfläche `Hier klicken, um zu kopieren!` um den Cookie zu kopieren.
+  > **4.** Schließlich kannst du dich registrieren, indem du auf die Schaltfläche 'Cookie' klickst und den Cookie einfügst, das du kopiert hast.
 HOYOLAB_REGISTER_SCRIPT: |
-  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)```
-HOYOLAB_REGISTER_LOGIN_TITLE: Registration | Login Method
+  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Bitte melde dich ab und melde dich erneut an, und führe es erneut aus; Der Cookie ist derzeit abgelaufen/ungültig!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); prüfen Sie && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Klicke hier, um zu kopieren!</button>`)```
+HOYOLAB_REGISTER_LOGIN_TITLE: Registrierung | Anmeldemethode
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin, select the `Register` button down below.
-  > **2.** In the input fields, enter your HoYoLAB account login details, remember to use your **email** and password.
-  > **3.** Once you've successfully entered your account details, wait for Genshin Wizard to process your registration request, bear in mind that this may take a minute or two.
-  > **4.** Finally, if all the steps are done correctly, you will receive a **confirmation message** via DMs indicating that your account has been successfully linked.
+  **Wie Sie Ihr HoYoLAB-Konto mit Genshin Wizard verknüpfen**
+  > **1.** Um zu beginnen, wählen Sie unten den "Registrieren"-Button aus.
+  > **2.** In den Eingabefeldern geben Sie Ihre HoYoLAB-Zugangsdaten ein, vergessen Sie nicht, Ihre **E-Mail** und Ihr Passwort zu verwenden.
+  > **3. * Sobald du deine Kontodaten erfolgreich eingegeben hast, warten einen moment bis Genshin Wizard Registrierungsanfrage bearbeitet. Bitte beachte, dass dies ein oder zwei Minuten dauern kann.
+  > **4. * Schließlich, wenn alle Schritte korrekt ausgeführt wurden, erhällst du eine **Bestätigungsnachricht** über DMs mit der Angabe der erfolgreichen Verlinkung Ihres Kontos.
 
-  <:information:1021014187197083668> **Note:** This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead.
-HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
-ARE_YOU_SURE: Are you sure?
+  <:information:1021014187197083668> **Notiz:** Diese Methode ist einfach hier für Bequemlichkeit/QOL. Wenn Sie sich Sorgen über die Sicherheit Ihres Kontos machen, verwenden Sie bitte stattdessen die Skriptmethode oder eine andere Form der Registrierung.
+HOYOLAB_REGISTER_LOGIN_FOOTER: Eine freundliche Erinnerung, dass Genshin Wizard keiner ihrer Kontodaten speichert! Diese Registrierungsmethode ruft die notwendigen Cookies ab, um Ihre Kontostatistiken einzusehen.
+ARE_YOU_SURE: Bist du dir sicher?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
-  You have requested to **unlink** your HoYoLAB account from Genshin Wizard.
-  This means that you will no longer be able to *claim your daily rewards*, view your *full abyss progression*, and other extended features such as *viewing all your characters*.
-UNLINKING_SUCCESSFUL: Unlinking successful!
-UNLINKING_SUCCESSFUL_DESCRIPTION: Your account has been successfully unlinked from Genshin Wizard!
-UNLINKING_UNSUCCESSFUL: Unlinking unsuccessful!
+  Du hast darum gebeten, deinen HoYoLAB-Account von Genshin Wizard **zu entfernen**.
+  Das bedeutet, dass du nicht mehr in der Lage bist deine täglichen Belohnungen zu beanspruchen*, den *vollständigen Abgrund Fortschritt* anzusehen, und andere erweiterte Funktionen an, wie *alle deine Figuren ansehen*.
+UNLINKING_SUCCESSFUL: Aufhebung der Verknüpfung erfolgreich!
+UNLINKING_SUCCESSFUL_DESCRIPTION: Dein Konto wurde erfolgreich vom Genshin Wirzard entfernt!
+UNLINKING_UNSUCCESSFUL: Die Aufhebung der Verknüpfung ist fehlgeschlagen!
 UNLINKING_UNSUCCESSFUL_DESCRIPTION: Oops! Unlinking was unsuccessful, there was an error. Please try again or contact a staff member!
 UNLINKING_CANCELLED: Unlinking cancelled!
 UNLINKING_CANCELLED_DESCRIPTION: You have cancelled your unlink request!
@@ -545,7 +545,7 @@ PRIVACY_SETTING_OVERVIEW: |
   > *Hide your showcase builds information from showing up anywhere (`/info`)*
 ALL_KEY: All
 RESET_KEY: Reset
-WISH_HISTORY_KEY: Wish History
+WISH_HISTORY_KEY: Wunschprotokolle
 ABYSS_KEY: Abyss
 UID_KEY: UID
 STATS_KEY: Stats
@@ -605,7 +605,7 @@ LOCATION_KEY: Location
 TOP_ROLE_KEY: Top Role
 RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
 RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
-WISHES_WORTH_KEY: Wishes Worth
+WISHES_WORTH_KEY: Gesamtwert Gebete
 OVERALL_SUMMARY_KEY: Overall Summary
 OVERALL_STATS_KEY: Overall Stats
 PERCENTAGE_KEY: Percentage
@@ -1130,7 +1130,7 @@ REGISTER_SCRIPT_BUTTON: Register via Script
 REGISTER_LOGIN_BUTTON: Register via Login
 ENTER_TOKEN_BUTTON: Enter Token
 REGISTER_ACCOUNT_BUTTON: Register Account
-CHARACTERS_BUTTON: Characters
+CHARACTERS_BUTTON: Charaktere
 CLAIM_DAILY_REWARD_BUTTON: Claim Daily Reward
 MONTHLY_REWARDS_BUTTON: Monthly Rewards
 VIEW_TRAVELER_DIARY_BUTTON: View Traveler's Diary
@@ -1224,7 +1224,7 @@ UPDATE_BIO_MODAL_TITLE: Update Bio
 UPDATE_BIO_MODAL_LABEL: A short description about you. (200 chars)
 UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
 SELECT_CHOOSE_CATEGORY: Choose a category...
-PROFILE_KEY: Profile
+PROFILE_KEY: Profil
 PROFILE_DESCRIPTION: View your Genshin Wizard profile
 GENSHIN_STATISTICS_KEY: Genshin Stats
 GENSHIN_STATISTICS_DESCRIPTION: View your Genshin stats
@@ -1489,7 +1489,7 @@ TRANSFORMER_LOCKED_KEY: Locked
 GENSHIN_STATS_KEY: Genshin Stats
 STATS_TOTAL_ACHIEVEMENTS_KEY: "Total Achievements"
 STATS_TOTAL_ACTIVE_DAYS_KEY: "Total Active Days"
-STATS_TOTAL_CHARACTERS_KEY: "Characters"
+STATS_TOTAL_CHARACTERS_KEY: "Charaktere"
 STATS_SPIRAL_ABYSS_KEY: "Spiral Abyss"
 STATS_REGION_KEY: "Region"
 STATS_WAYPOINTS_KEY: "Waypoints"
