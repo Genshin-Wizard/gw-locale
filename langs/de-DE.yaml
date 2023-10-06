@@ -448,23 +448,23 @@ HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
 UNLINKING_SUCCESSFUL: Aufhebung der Verknüpfung erfolgreich!
 UNLINKING_SUCCESSFUL_DESCRIPTION: Dein Konto wurde erfolgreich vom Genshin Wizard entfernt!
 UNLINKING_UNSUCCESSFUL: Die Aufhebung der Verknüpfung ist fehlgeschlagen!
-UNLINKING_UNSUCCESSFUL_DESCRIPTION: Oops! Unlinking was unsuccessful, there was an error. Please try again or contact a staff member!
-UNLINKING_CANCELLED: Unlinking cancelled!
-UNLINKING_CANCELLED_DESCRIPTION: You have cancelled your unlink request!
-OBTAINED_KEY: Obtained
-NOT_OWNED_KEY: Not Owned
-PROFICIENCY_KEY: Proficiency
-USE_COUNT_KEY: Use Count
-IMPORT_ERROR: Import Error!
-FOOTER_ERROR_DESCRIPTION: If you believe this is an error, please contact a staff member.
+UNLINKING_UNSUCCESSFUL_DESCRIPTION: Hoppla! Das Entfernen der Verlinkung ist fehlgeschlagen, es ist ein Fehler aufgetreten. Bitte versuche es erneut oder kontaktiere ein Teammitglied!
+UNLINKING_CANCELLED: Entfernen der Verknüpfung abgebrochen!
+UNLINKING_CANCELLED_DESCRIPTION: Du hast deine Anfrage zum Entfernen abgebrochen!
+OBTAINED_KEY: Erhalten
+NOT_OWNED_KEY: Nicht im Besitz
+PROFICIENCY_KEY: Befähigung
+USE_COUNT_KEY: Verwendungsanzahl
+IMPORT_ERROR: Fehler beim Importieren!
+FOOTER_ERROR_DESCRIPTION: Wenn du denkst, dies sei ein Fehler, bitte melden dies einem Teammitglied.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  Die Daten, die du importieren möchtest, werden nicht **unterstützt**. Wir erlauben derzeit *nur* Importe von folgenden:
   {supported_file_types}
-  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-IMPORT_COMMAND_TITLE: Genshin Wizard | Import Wish History
+  Bitte siehe dir unsere [**Dokumentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) an für weitere Informationen.
+IMPORT_COMMAND_TITLE: Genshin Wizard | Wunschliste importieren
 IMPORT_COMMAND_FILE_DETECTED: |
-  **Detected Import Source: `{source}`**
-  *Please wait while we import your wish history...*
+  **Erkannte Importquelle: `{source}`**
+  *Bitte warte während wir deinen Wunschverlauf importieren...*
 IMPORT_COMMAND_TAMPERED: The data you are trying to import has been **tampered** with. Please **don't change** anything within the files before importing, try redownloading the data and importing *again*.
 IMPORT_COMMAND_BANNER_IMPORTED: Successfully imported `{number_wishes}` wishes for {banner_name} banner!
 IMPORT_COMMAND_SUCCESS: Successfully imported `{total_wishes}` new wishes from all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
