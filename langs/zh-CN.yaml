@@ -1660,3 +1660,37 @@ RECOVER_COMMAND_INSTRUCTIONS: |
   Lost access to your Genshin Wizard account and want to re-link your account? You've come to the right place!
 
   Click the button below to begin the **account recovery** process.
+METHOD_ONE_BUTTON: Method 1
+METHOD_TWO_BUTTON: Method 2
+METHOD_THREE_BUTTON: Method 3
+METHOD_MANUAL_BUTTON: Manual
+METHOD_ONE_TITLE: Wish History Registration | Method 1
+METHOD_TWO_TITLE: Wish History Registration | Method 2
+METHOD_THREE_TITLE: Wish History Registration | Method 3
+METHOD_MANUAL_TITLE: Wish History Registration | Manual Method
+METHOD_TWO_DESCRIPTION: |
+  1. In the start menu search for "PowerShell" and open "Windows PowerShell"
+  2. Then copy the following code and paste it in the Powershell window
+  ```ps
+  iex('Write-Host "Copy the wish history table!";while(1) { $c = Get-Clipboard -TextFormatType Html; if ($c -match "^SourceURL:https:/.+log") { break; }; for($i=5; $i -gt 0; $i--) { Write-Host "`rChecking in $i" -NoNewline; Sleep 1; }; }; Write-Host " OK"; $m=(((Get-Clipboard -TextFormatType Html) | Select-String "(https:/.+log)").Matches[0].Value);$m; Set-Clipboard -Value $m;')
+  ```
+  3. Go to the Genshin Impact game and open the wish history page
+  4. Hit `ENTER` to have the link copied to your clipboard
+  5. Click the button below and paste the link in the input field
+METHOD_THREE_DESCRIPTION: |
+  1. In the start menu search for "PowerShell" and open "Windows PowerShell"
+  2. Then copy the following code and paste it in the Powershell window
+  ```ps
+  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://gist.githubusercontent.com/MadeBaruna/bf36bad751dc9221067ca1e31ab08255/raw/cb73a9f46f08fad6f27581ebb1a6249ba086af13/read.ps1'))
+  ```
+  3. Go to the Genshin Impact game and open the wish history page
+  4. Hit `ENTER` to have the link copied to your clipboard
+  5. Click the button below and paste the link in the input field
+METHOD_MANUAL_DESCRIPTION: |
+  1. Open Genshin Impact Game on your PC (Make sure you restart the game if you use multiple accounts/share computers)
+  2. Go to the wish history page and wait for it to load
+  3. Open the installation folder for Genshin Impact (i.e. C:\Games\Genshin Impact\Genshin Impact game)
+  4. Open folders "GenshinImpact_Data" > "webCaches" > "2.13.0.1" > "Cache" > "Cache_Data"
+  5. Right click "data_2" file then click "Open with" then select Notepad (If you get error like "The process cannot access the file because it is being used by another process" please exit the game first)
+  6. Press CTRL+F, check `Wrap around`, and select direction `Up` then in the input box search for "**e20190909gacha-v2**" (without the quote). Finally, click `Find Next`
+  7. Copy the link from *`https://webstatic`* to *`game_biz=hk4e_global`* the url looks like this: *`https://webstatic-sea.hoyoverse.com/genshin/event/e20190909gacha-v2/index.html?.......&game_biz=hk4e_global`*
