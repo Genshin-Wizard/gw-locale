@@ -428,7 +428,9 @@ HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
   > **1.** To begin with, login to your [**HoYoLAB**](https://www.hoyolab.com/home) account.
   > **2.** Type `java` in the address bar followed by the script down below.
   > **3.** Once you've successfully ran the script, click the `Click here to copy!` button to copy the cookie.
-  > **4.** Finally, you're able to register by clicking the `Enter Token` button below and pasting the token you copied.
+  > **4.** Click the `Enter Token` button below and and paste the copied token in the first input field.
+  > **5.** For the remaining two inputs, visit our [**HoYoLAB Registration Guide**](https://docs.genshinwizard.com/overview/hoyolab-registration) for more information.
+  > **6.** Finally, click the `Submit` button to complete the registration process.
 HOYOLAB_REGISTER_SCRIPT: |
   ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)```
 HOYOLAB_REGISTER_LOGIN_TITLE: Registration | Login Method
