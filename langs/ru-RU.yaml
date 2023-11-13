@@ -44,8 +44,8 @@ INVITE_KEY: Пригласить
 DOCUMENTATION_KEY: Документация
 GWIZ_INVITE: Приглашение в Genshin Wizard
 AVATAR_KEY: Аватар
-ARTIFACT_CRIT_VALUE_TITLE: Калькулятор крит-ценности артефакта
-TOTAL_CRIT_VALUE: Общее ценность крита
+ARTIFACT_CRIT_VALUE_TITLE: Калькулятор крит-массы артефакта
+TOTAL_CRIT_VALUE: Общая крит-масса
 TRUTH_COMMAND_RESPONSES:
   - Как я вижу, да.
   - Да.
@@ -282,7 +282,7 @@ WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge r
 INFO_COMMAND_SHOWCASE_TITLE: Демонстрация персонажа
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
 REFRESHES_KEY: Refreshes
-INFO_COMMAND_CHARACTER_DETAILS: Character
+INFO_COMMAND_CHARACTER_DETAILS: Персонаж
 INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!
 INFO_COMMAND_CACHE_DESCRIPTION: |
   **Genshin Wizard Cache **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
@@ -352,7 +352,7 @@ APP_COMMAND_DESCRIBE_CODE_CHANNEL: The channel you want to send the message in.
 APP_COMMAND_DESCRIBE_CODE_PING: The role you want to mention along with the message.
 APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated by a comma.
 APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
-APP_CONTEXT_MENU_PROFILE: Profile
+APP_CONTEXT_MENU_PROFILE: Профиль
 APP_CONTEXT_MENU_STATISTICS: Stats Progression
 APP_CONTEXT_MENU_ABYSS: Abyss Progression
 APP_CONTEXT_MENU_CHARACTERS: Characters
@@ -365,7 +365,7 @@ HISTORY_COMMAND_TABLE_HEADER: "Rarity | Pity | Name | Date"
 HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Guaranteed Pity: {indicator}**"
 HISTORY_LINK_EXPIRED: History Link Expired
 HISTORY_COMMAND_LIFETIME_PULLS: Lifetime Pulls
-HISTORY_COMMAND_WISHES_WORTH: Wishes Worth
+HISTORY_COMMAND_WISHES_WORTH: Стоимость Молитв
 HISTORY_COMMAND_CURRENT_PITIES: Current Pities
 SEARCH_ERROR: Search Error!
 HISTORY_COMMAND_NO_WISHES: |
@@ -507,11 +507,11 @@ CALC_CHARACTER_INVALID_TARGET_LEVEL: You need to specify a valid target level!
 CALC_CHARACTER_REQUIREMENT_SURPASSED: Character has already **surpassed** the given desired level!
 CALC_CHARACTER_REQUIREMENT_MET: Character has already **reached** the given desired level!
 CALC_CHARACTER_TITLE: Genshin Wizard | Character Calculator
-CHARACTER_KEY: Character
+CHARACTER_KEY: Персонаж
 CURRENT_LEVEL_KEY: Current Level
 TARGET_LEVEL_KEY: Target Level
 REQUIRED_RESOURCES_KEY: Required Resources
-GENSHIN_WIZARD_USER_PROFILE: "{user}'s Genshin Wizard Profile"
+GENSHIN_WIZARD_USER_PROFILE: "{user} Genshin Wizard Профиль"
 PROFILE_SUMMARY_KEY: Информация о профиле
 GENSHIN_WISH_STATS_KEY: Genshin Wish Stats
 PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
@@ -603,11 +603,11 @@ JOIN_DATE_KEY: Дата Присоединения
 NOT_HERE_KEY: Not Here
 LOCATION_KEY: Местоположение
 TOP_ROLE_KEY: Наивысшая Роль
-RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
-RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
-WISHES_WORTH_KEY: Wishes Worth
-OVERALL_SUMMARY_KEY: Overall Summary
-OVERALL_STATS_KEY: Overall Stats
+RECENT_FIVE_STAR_CHARACTER: "**Последние 5 :star: Персонажи**"
+RECENT_FIVE_STAR_WEAPON: "**Последние 5 :star: Оружия**"
+WISHES_WORTH_KEY: Стоимость Молитв
+OVERALL_SUMMARY_KEY: Общая Информация
+OVERALL_STATS_KEY: Общая Статистика
 PERCENTAGE_KEY: Percentage
 TOTAL_WISHES_KEY: Total Wishes
 TOTAL_KEY: Total
@@ -769,7 +769,7 @@ NOT_ENABLED_KEY: Not Enabled
 NO_REMINDERS_SET_KEY: No Reminders Set!
 RESIN_REMINDERS_KEY: Resin Reminders
 EXPEDITION_REMINDERS_KEY: Expedition Reminders
-SERENITEA_POT_KEY: Serenitea Pot
+SERENITEA_POT_KEY: Чайник Безмятежности
 PARAMETRIC_REMINDERS_KEY: Parametric Transformer
 RESIN_REMINDERS_DESCRIPTION: |
   You currently have **<:fragileresin:1029984988583706654>{current_resin}** resin!
@@ -823,7 +823,7 @@ PLEASE_WAIT_DESCRIPTION: Waiting! There is nothing you can do to get past this a
 PLAYER_TITLE: Player {player}
 USER_TITLE: User {user}
 OVERVIEW_KEY: Overview
-GENERAL_OVERVIEW_KEY: General Overview
+GENERAL_OVERVIEW_KEY: Общее Описание
 GENERAL_OVERVIEW_SECTION: |
   Adventure Rank: {adventure_rank}
   Total achievements: {achievement_number}
@@ -831,10 +831,10 @@ GENERAL_OVERVIEW_SECTION: |
   Characters: **{char_count}**/{total_char}
   Spiral Abyss: {abyss}
   Region: {region}
-CHEST_PROGRESSION_KEY: Chest Progression
-EXPLORATION_AND_OCULI: Exploration & Oculi
+CHEST_PROGRESSION_KEY: Прогресс Сундуков
+EXPLORATION_AND_OCULI: Исследование & Окулусы
 NOT_YET_UNLOCKED: Not Yet Unlocked!
-STATISTICS_COMMAND_FOOTER: "Note: Statistics may be incorrectly shown or missing data, there is nothing we can do on our end to prevent this, it's an API error on HoYoLAB's end."
+STATISTICS_COMMAND_FOOTER: "Примечание: Статистика может отображаться некорректно или в ней могут отсутствовать данные, мы не можем ничего сделать для предотвращения этого, это ошибка API со стороны HoYoLAB."
 CONGRATULATIONS_KEY: Congratulations!
 ABYSS_CONGRATULATE_MESSAGE: |
   Congratulations {user} on perfectly *clearing* the Spiral Abyss!
@@ -848,8 +848,8 @@ MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard is missing permissio
 ROLE_NOT_FOUND: ":no_entry: There was an error retrieving the role. Please make sure the role information under this integration is correct."
 GENSHIN_STATS_HEADER: "{name}'s Genshin Stats"
 PROCESSING_BANNER_TRANSITION: Processing {banner} Banner...
-WEAPON_KEY: Weapon
-PERMANENT_KEY: Permanent
+WEAPON_KEY: Оружие
+PERMANENT_KEY: Постоянный
 NOVICE_KEY: Novice
 STARDUST_EXCHANGES: Stardust Exchanges
 STARGLITTER_EXCHANGES: Starglitter Exchanges
@@ -1224,10 +1224,10 @@ UPDATE_BIO_MODAL_TITLE: Обновить информацию о себе
 UPDATE_BIO_MODAL_LABEL: Краткое описание о себе. (200 символов)
 UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
 SELECT_CHOOSE_CATEGORY: Choose a category...
-PROFILE_KEY: Profile
-PROFILE_DESCRIPTION: View your Genshin Wizard profile
+PROFILE_KEY: Профиль
+PROFILE_DESCRIPTION: Посмотреть свой профиль Genshin Wizard
 GENSHIN_STATISTICS_KEY: Genshin Stats
-GENSHIN_STATISTICS_DESCRIPTION: View your Genshin stats
+GENSHIN_STATISTICS_DESCRIPTION: Посмотреть свою статистику по Genshin
 SPIRAL_ABYSS_STATISTICS_KEY: Spiral Abyss Stats
 SPIRAL_ABYSS_STATISTICS_DESCRIPTION: View your Spiral Abyss progression stats
 COPY_UID_KEY: Copy UID
@@ -1615,7 +1615,7 @@ RECENT_PITIES_KEY: Recent Pities
 NOVICE_BANNER_KEY: Novice Banner
 CHARACTER_BANNER_KEY: Character Banner
 WEAPON_BANNER_KEY: Weapon Banner
-PERMANENT_BANNER_KEY: Permanent Banner
+PERMANENT_BANNER_KEY: Постоянный баннер
 FIVE_STAR_PITY: 5-Star Pity
 FOUR_STAR_PITY: 4-Star Pity
 FIVE_STAR_PERCENTAGE: 5-Star Percentage
@@ -1645,8 +1645,8 @@ NOTIFICATIONS_KEY: Notifications
 DAILY_AUTOCLAIM_KEY: Daily Auto-Claim
 DAILY_CHECKIN_KEY: Daily Check-In
 INVOKATION_VICTORIES: "{win_count} Victories"
-WORLD_EXPLORATIONS: World Explorations
-REPUTATION_LEVELS: Reputation Levels
+WORLD_EXPLORATIONS: Исследования Мира
+REPUTATION_LEVELS: Уровни Репутации
 REGISTER_SCRIPT_ALERT: Please logout and log back in before trying again, cookie is currently expired/invalid!
 REGISTER_SCRIPT_COPY_BUTTON: Click here to copy!
 ACCOUNT_EMAIL_KEY: Account Email
