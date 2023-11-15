@@ -97,7 +97,7 @@ SEND_CODES_COMMAND_DESCRIPTION: |
 SEND_CODES_REDEEM_AUTOMATICALLY: Активировать автоматически
 SEND_CODES_DIRECT_LINK: Прямая ссылка
 SEND_CODES_REDEEMABLE_CODES: Коды, которые можно использовать повторно
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Активные коды
+SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Активные промокоды
 SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Промокод успешно отправлен {channel}!
 MESSAGE_LINK: Ссылка на сообщение
 CLICK_HERE: Кликнуть здесь
@@ -160,25 +160,25 @@ OLD_HOYOLAB_LINKED: |
 
   Чтобы использовать эту кнопку, вы должны отсоединить свой аккаунт HoYoLAB через </hoyo:{command_id}> и **перепривязать** с помощью обычной команды регистрации.
 CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Redemption
-CODE_REDEEM_DESCRIPTION: "*Please wait while we process your redemption code...*"
+CODE_REDEEM_DESCRIPTION: "*Пожалуйста, подождите, пока мы обработаем ваш промокод...*"
 CODE_REDEEM_PROGRESS: |
-  *Please wait while we process your redemption code...*
-  <a:loading:1015667958237900801> Attempting to redeem code `{code}`
+  *Пожалуйста, подождите, пока мы обработаем ваш промокод...*
+  <a:loading:1015667958237900801> Попытка активировать код `{code}`
 HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Истекшие Cookies
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Эй, Путешественник! Похоже, что срок действия ваших файлов cookie для промокодов HoYoLAB **истек**! Используйте команду </hoyo:{command_id}> и завершите процесс повторной привязки аккаунта, чтобы **обновить** файлы cookie вашего аккаунта HoYoLAB.
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
+CODE_REDEEM_SUCCESS: "*Промокоды успешно обработаны!*"
 APP_COMMAND_INFO_DESCRIPTION: Показывает сборки для персонажей в витрине пользователя.
 APP_COMMAND_EXPORT_DESCRIPTION: Экспорт вашей истории молитв в текстовый файл через личные сообщения.
 APP_COMMAND_HISTORY_DESCRIPTION: Посмотреть свою историю молитв аккаунта Genshin.
 APP_COMMAND_DAILY_DESCRIPTION: Получите ежедневную награду за вход в HoYoLAB.
 APP_COMMAND_MONTHLY_DESCRIPTION: Посмотреть ежедневные награды HoYoLAB за месяц.
 APP_COMMAND_DIARY_DESCRIPTION: Посмотреть свои заметки путешественника HoYoLAB.
-APP_COMMAND_REDEEM_DESCRIPTION: Redeem redemption codes for Genshin Impact.
+APP_COMMAND_REDEEM_DESCRIPTION: Активировать промокоды для Genshin Impact.
 APP_COMMAND_HOYO_DESCRIPTION: Проверьте свой аккаунт HoYoLAB с помощью Genshin Wizard.
 APP_COMMAND_CHARACTERS_DESCRIPTION: Посмотреть свою сводку персонажей аккаунта Genshin.
 APP_COMMAND_TCG_DESCRIPTION: View your Genius Invokation TCG Account Showcase.
@@ -258,13 +258,13 @@ APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Изменить префикс Genshin Wi
 APP_COMMAND_PITY_DESCRIPTION: Информация о понимании системы жалости Genshin.
 APP_COMMAND_MATH_DESCRIPTION: Вычисление простых или сложных функций.
 APP_COMMAND_EVENTS_DESCRIPTION: Проверить последние события Genshin Impact.
-APP_COMMAND_SENDCODES_DESCRIPTION: Отправить сообщение для активации кодов Genshin, с помощью кнопок.
+APP_COMMAND_SENDCODES_DESCRIPTION: Отправить сообщение для активации промокодов Genshin, с помощью кнопок.
 APP_COMMAND_FEEDBACK_DESCRIPTION: Отправить свой отзыв разработчикам Genshin Wizard.
 APP_COMMAND_DELETE_DESCRIPTION: Удалить профиль пользователя Genshin Wizard.
 APP_COMMAND_BLACKLIST_DESCRIPTION: Внесите пользователя в черный список, запрещающий использовать Genshin Wizard.
 APP_COMMAND_DELIMPORT_DESCRIPTION: Удалить импортированные данные истории молитв пользователя.
-EXPORT_NO_WISHES: There are no wishes to export.
-EXPORT_NO_BANNER_WISHES: No {banner} banner wishes found.
+EXPORT_NO_WISHES: Нет никаких молитв к экспорту.
+EXPORT_NO_BANNER_WISHES: Не найдено молитв к баннеру {banner}.
 EXPORT_NO_MESSAGE_PERMISSION: "У бота **нет** разрешения на отправку личного сообщения. Убедитесь, что у вас **включена** настройка: `Разрешить личные сообщения от участников сервера` в *настройках конфиденциальности Discord*."
 EXPORT_MESSAGE_SUCCESS: История ваших молитв была успешно экспортирована и отправлена вам через ЛС.
 INFO_COMMAND_INVALID_ARGUMENT: |
@@ -277,50 +277,51 @@ INVALID_ARGUMENT_PASSED: |
 INFO_COMMAND_ENKA_ISSUE: Возникла проблема с [**Enka.Network**](https://enka.network/u/{uid}). Пожалуйста, повторите попытку позже.
 ERROR_NO_USER_DATA: Нет данных для этого пользователя.
 WHAT_HAPPENED_TITLE: Что произошло?
-WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
-WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
+WHAT_HAPPENED_VALUE: Наиболее распространенной причиной этой проблемы является то, что аккаунт genshin, который вы пытаетесь найти, еще не стала общедоступной. Чтобы исправить это, включите "Показывать детали персонажей" в своем профиле Genshin. Смотрите изображение ниже для справки.
+WHAT_HAPPENED_FOOTER: Genshin Wizard может потребоваться до пяти минут, чтобы подтвердить последние изменения, внесенные в игру, пожалуйста, наберитесь терпения.
 INFO_COMMAND_SHOWCASE_TITLE: Демонстрация персонажа
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: Посмотреть на Enka.Network
-REFRESHES_KEY: Refreshes
+REFRESHES_KEY: Обновить
 INFO_COMMAND_CHARACTER_DETAILS: Персонаж
-INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!
+INFO_COMMAND_NOT_OWNER: Вы можете управлять кэшированными сборками только для своих собственных персонажей! Используйте </info:{command_id}> для получения дополнительной информации!
 INFO_COMMAND_CACHE_DESCRIPTION: |
   **Genshin Wizard Cache **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
 
-  <:information:1034639378410115103> **What is Cache?**
-  Genshin Wizard caches builds *automatically* so you never have to worry about swapping your showcase out over and over again!
+  <:information:1034639378410115103> **Что такое кэш?**
+  Genshin Wizard кэширует сборки *автоматически*, так что вам никогда не придется беспокоиться о замене вашей витрины снова и снова!
 
-  <:na:975828401900359711> **What if I want to delete old builds?**
-  Fear not! You'll be able to manage your cached builds straight from this message! Use the UI below to delete specific characters, or all, from your Genshin Wizard cache.
+  <:na:975828401900359711> **Что делать, если я хочу удалить старые сборки?**
+  Не бойтесь! Вы сможете управлять своими кэшированными сборками прямо из этого сообщения! Используйте приведенный ниже пользовательский интерфейс, чтобы удалить определенные символы или все из кэша Genshin Wizard.
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard Custom Art Feature**
-  Hey Traveler, it looks like you're trying to use Genshin Wizard's **Custom Art** feature! This feature is only available to Genshin Wizard Premium users.
+  <:information:1034639378410115103> **Функция индивидуалього оформления Genshin Wizard**
+  Эй, Путешественник, похоже, ты пытаешься использовать функцию Genshin Wizard **Индивидуальное оформление**! Эта функция доступна только премиум пользователям Genshin Wizard.
 
-  You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Patreon**](https://patreon.com/genshinwizard)!
+  Вы можете узнать больше о Genshin Wizard Премиум, используя команду </premium:{command_id}> или посетив наш [**Patreon**](https://patreon.com/genshinwizard)!
 PURCHASE_PREMIUM: Купить Премиум
-INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Hey Traveler, you can only manage custom art for your **own characters**!
-GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard Custom Art
+INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Эй, Путешественник, ты можешь управлять индивидуальный оформлением только для своих **собственных персонажей**!
+GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard Индивидуальное Оформление
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
+  **Настройте оформление инфографики**
+  Эй, Путешественник, нажмите на ссылку или кнопку ниже, чтобы **настроить** оформление инфографики для этого персонажа!
+  <a:PaimonCookies:992302701838864454>
   ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://dashboard.genshinwizard.com/?key={key})
-GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Go to Dashboard
-REMOVE_CHARACTERS_FROM_CACHE: Remove characters from cache...
-INFO_COMMAND_CACHE_DELETE_SELECTED: Successfully deleted selected characters from Genshin Wizard's cache!
-INFO_COMMAND_CACHE_DELETE_ALL: Successfully deleted all your characters from Genshin Wizard's cache!
-INFO_COMMAND_CACHE_CANCEL: "**Cancelled** cache management request! You may dismiss this message."
-APP_COMMAND_DESCRIBE_USER: The name of the member you are trying to search for.
-APP_COMMAND_DESCRIBE_USER_AVATAR: The member you wish to view an avatar for.
-APP_COMMAND_DESCRIBE_UID: The UID of the member you are trying to search for.
-APP_COMMAND_DESCRIBE_USER_WISH: Search up a specific user's Genshin Wish history.
-APP_COMMAND_DESCRIBE_AUTOCLAIM: Enable/Disable automatic HoYoLAB daily sign-in.
-ENABLE_KEY: Enable
-DISABLE_KEY: Disable
-ENABLE_AUTOCLAIM: Enable automatic daily sign-in.
-DISABLE_AUTOCLAIM: Disable automatic daily sign-in.
-APP_COMAND_DESCRIBE_CODES: The redemption code you wish to redeem for your account.
+  Инфографику для {character}```
+  > <:Settings:1046877233626742925> [**Нажмите здесь, чтобы настроить изображение**](https://dashboard.genshinwizard.com/?key={key})
+GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Перейти к панели управления
+REMOVE_CHARACTERS_FROM_CACHE: Удаление персонажей из кэша...
+INFO_COMMAND_CACHE_DELETE_SELECTED: Успешно удалены выбранные персонажи из кэша Genshin Wizard!
+INFO_COMMAND_CACHE_DELETE_ALL: Успешно удалены все ваши персонажи из кэша Genshin Wizard!
+INFO_COMMAND_CACHE_CANCEL: "**Отменен** запрос на управление кэшем! Вы можете убрать это сообщение."
+APP_COMMAND_DESCRIBE_USER: Имя участника, которого вы пытаетесь найти.
+APP_COMMAND_DESCRIBE_USER_AVATAR: Участник, для которого вы хотите посмотреть аватар.
+APP_COMMAND_DESCRIBE_UID: UID участника, которого вы пытаетесь найти.
+APP_COMMAND_DESCRIBE_USER_WISH: Найдите историю молитв Genshin конкретного пользователя.
+APP_COMMAND_DESCRIBE_AUTOCLAIM: Включить/отключить автоматические ежедневные отметки в HoYoLAB.
+ENABLE_KEY: Включить
+DISABLE_KEY: Выключить
+ENABLE_AUTOCLAIM: Включить автоматические ежедневные отметки.
+DISABLE_AUTOCLAIM: Отключить автоматические ежедневные отметки.
+APP_COMAND_DESCRIBE_CODES: Промокод, который вы хотите использовать для своего аккаунта.
 APP_COMMAND_DESCRIBE_DATA: The file you are trying to import your wish history from.
 APP_COMMAND_DESCRIBE_RESOURCE: The resource you are trying to search for.
 APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: The character you want to calculate ascension materials for.
@@ -350,7 +351,7 @@ APP_COMMAND_DESCRIBE_PREFIX: The new prefix you wish to set for the bot.
 APP_COMMAND_DESCRIBE_EXPRESSION: The equation/query you're attempting to compute.
 APP_COMMAND_DESCRIBE_CODE_CHANNEL: The channel you want to send the message in.
 APP_COMMAND_DESCRIBE_CODE_PING: The role you want to mention along with the message.
-APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated by a comma.
+APP_COMMAND_DESCRIBE_CODE_LIST: Промокоды, которые вы хотите отправить, разделенные запятой.
 APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
 APP_CONTEXT_MENU_PROFILE: Профиль
 APP_CONTEXT_MENU_STATISTICS: Stats Progression
@@ -409,8 +410,8 @@ HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | HoYoLAB Monthly Rewards
 HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: View HoYoLAB daily rewards for the month
 HOYOLAB_DIARY_TITLE: Genshin Wizard | Traveler's Diary
 HOYOLAB_INVALID_REDEEM: |
-  You must provide a redemption code to redeem.
-  **Proper Command Usage** ```/redeem CODE_ONE,CODE_TWO,...```
+  Вы должны указать промокоды для активации.
+  **Правильное использование команды** ```/redeem CODE_ONE,CODE_TWO,...```
 CHINA_NOT_ALLOWED: Redeeming codes for CN users is **not supported** as of yet.
 HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | HoYoLAB Overview
 HOYOLAB_LOADING_ACCOUNT: Loading account information...
