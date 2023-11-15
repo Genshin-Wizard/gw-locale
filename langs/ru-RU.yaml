@@ -90,7 +90,7 @@ MATH_COMMAND_RESULT: |
 RECENT_GENSHIN_EVENTS: Последние события в Genshin
 SEND_CODES_COMMAND_TITLE: Genshin Wizard | Активные коды
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Можно использовать, нажав на кнопки ниже!***](https://genshin.mihoyo. om/ru/gift)
+  <:blurplelink:1020155547187691600> [***Можно использовать, нажав на кнопки ниже!***](https://genshin.mihoyo.com/ru/gift)
   <:blurpleannounce:1020402170127982712> **Примечание:** Срок действия кодов быстро истекает, поэтому обязательно активируйте их как можно скорее!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
@@ -145,7 +145,7 @@ ERROR_MISSING_MANAGE_MESSAGE: Эй, путешественник, у меня н
 ERROR_MISSING_SEND_MESSAGE: Эй, путешественник, у меня нет разрешения `Управление сообщениями` в этом канале/гильдии. Пожалуйста, включите это разрешение и повторите попытку.
 MESSAGE_KEY: Сообщение
 ERROR_EMPTY_BACKPACK: Ваш рюкзак **пуст**! Чтобы начать свое путешествие, используйте команду </wishsimulator:{command_id}>!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
+ERROR_INTERACTION_MISMATCH: Эй, Путешественник! Это **не ваше взаимодействие**! Используйте команду {command}, если вы хотите использовать эту команду для себя!
 ERROR_MESSAGE: Произошла ошибка!
 FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Отзыв
 FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Ваш отзыв успешно отправлен разработчикам!*
@@ -198,7 +198,7 @@ APP_COMMAND_REGISTER_DESCRIPTION: Зарегистрируйте свой акк
 APP_COMMAND_REFRESH_DESCRIPTION: Обновить ссылку истории молитв (срок действия ссылки истекает каждые 24 часа).
 APP_COMMAND_UNLINK_DESCRIPTION: Отвязать ваш аккаунт Genshin и удалить все данные.
 APP_COMMAND_REMINDERS_DESCRIPTION: Настройте напоминания для уведомления о смоле, чайнике и экспедициях.
-APP_COMMAND_RESIN_DESCRIPTION: Настройте напоминание Resin для уведомления вас о повторной зарядке смолы.
+APP_COMMAND_RESIN_DESCRIPTION: Настройте напоминание смолы для уведомления вас о повторной зарядке смолы.
 APP_COMMAND_GACHA_DESCRIPTION: Отображение обновленной информации о вашей истории для указанного баннера.
 APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Проверьте свою удачу гачи с Симулятором Genshin Wish!
 APP_COMMAND_INVENTORY_DESCRIPTION: Просмотрите ваш виртуальный инвентарь Genshin Wizard.
@@ -238,31 +238,31 @@ APP_COMMAND_GUIDES_DESCRIPTION: Показать список доступных
 APP_COMMAND_REFERENCE_DESCRIPTION: Найдите конкретный справочный лист.
 APP_COMMAND_REFERENCESHEETS_DESCRIPTION: Посмотреть все доступные справочные листы.
 APP_COMMAND_TODO_DESCRIPTION: Проверить ежедневные/еженедельные события в Genshin Impact.
-APP_COMMAND_BANNERS_DESCRIPTION: View ongoing Genshin Impact event banners.
-APP_COMMAND_CONFIG_DESCRIPTION: Genshin Wizard config setup panel, configure automatic announcements and more!
-APP_COMMAND_PARTNER_DESCRIPTION: hidden
-APP_COMMAND_SETUP_DESCRIPTION: Genshin Wizard Role Integration Setup Panel.
-APP_COMMAND_PREMIUM_DESCRIPTION: Purchase Genshin Wizard Premium to gain access to premium features.
-APP_COMMAND_ROLE_DESCRIPTION: Applies specific character roles to a user. Refer to relative text channel for more information.
-APP_COMMAND_HELP_DESCRIPTION: View Genshin Wizard help documentation.
-APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
-APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
+APP_COMMAND_BANNERS_DESCRIPTION: Посмотреть текущие баннеры событий Genshin Impact.
+APP_COMMAND_CONFIG_DESCRIPTION: Панель настройки Genshin Wizard, настройте автоматические объявления и многое другое!
+APP_COMMAND_PARTNER_DESCRIPTION: скрыто
+APP_COMMAND_SETUP_DESCRIPTION: Панель настройки интеграции ролей Genshin Wizard.
+APP_COMMAND_PREMIUM_DESCRIPTION: Купите Genshin Wizard Премиум, чтобы получить доступ к премиум-функциям.
+APP_COMMAND_ROLE_DESCRIPTION: Применяет к пользователю конкретные роли персонажей. Более подробную информацию см. в соответствующем текстовом канале.
+APP_COMMAND_HELP_DESCRIPTION: Посмотреть справку Genshin Wizard.
+APP_COMMAND_PING_DESCRIPTION: Проверьте задержку Genshin Wizard.
+APP_COMMAND_UPTIME_DESCRIPTION: Проверьте время работы Genshin Wizard.
 APP_COMMAND_ABOUT_DESCRIPTION: Информация о Genshin Wizard.
 APP_COMMAND_INVITE_DESCRIPTION: Получить пригласительную ссылку для этого бота.
 APP_COMMAND_DONATE_DESCRIPTION: Поддержите развитие Genshin Wizard.
-APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
+APP_COMMAND_VOTE_DESCRIPTION: Ссылки для голосования за Genshin Wizard.
 APP_COMMAND_AVATAR_DESCRIPTION: Посмотреть discord аватар пользователя.
-APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
-APP_COMMAND_TRUTH_DESCRIPTION: Seek wisdom from Genshin Wizard.
+APP_COMMAND_CRITVALUE_DESCRIPTION: Рассчитать крит-массу для артефакта.
+APP_COMMAND_TRUTH_DESCRIPTION: Обратитесь за мудростью к Genshin Wizard.
 APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Изменить префикс Genshin Wizard для команд.
-APP_COMMAND_PITY_DESCRIPTION: Information on understanding the Genshin pity-system.
+APP_COMMAND_PITY_DESCRIPTION: Информация о понимании системы жалости Genshin.
 APP_COMMAND_MATH_DESCRIPTION: Вычисление простых или сложных функций.
 APP_COMMAND_EVENTS_DESCRIPTION: Проверить последние события Genshin Impact.
-APP_COMMAND_SENDCODES_DESCRIPTION: Send a message for Genshin redemption codes with buttons.
+APP_COMMAND_SENDCODES_DESCRIPTION: Отправить сообщение для активации кодов Genshin, с помощью кнопок.
 APP_COMMAND_FEEDBACK_DESCRIPTION: Отправить свой отзыв разработчикам Genshin Wizard.
-APP_COMMAND_DELETE_DESCRIPTION: Delete a user's Genshin Wizard profile.
-APP_COMMAND_BLACKLIST_DESCRIPTION: Blacklist a user from using Genshin Wizard.
-APP_COMMAND_DELIMPORT_DESCRIPTION: Delete a user's imported wish history data.
+APP_COMMAND_DELETE_DESCRIPTION: Удалить профиль пользователя Genshin Wizard.
+APP_COMMAND_BLACKLIST_DESCRIPTION: Внесите пользователя в черный список, запрещающий использовать Genshin Wizard.
+APP_COMMAND_DELIMPORT_DESCRIPTION: Удалить импортированные данные истории молитв пользователя.
 EXPORT_NO_WISHES: There are no wishes to export.
 EXPORT_NO_BANNER_WISHES: No {banner} banner wishes found.
 EXPORT_NO_MESSAGE_PERMISSION: "У бота **нет** разрешения на отправку личного сообщения. Убедитесь, что у вас **включена** настройка: `Разрешить личные сообщения от участников сервера` в *настройках конфиденциальности Discord*."
