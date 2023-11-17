@@ -156,7 +156,7 @@ FEEDBACK_LOG_RESPONSE: |
   **Отзыв:**```{feedback}```
 NO_HOYOLAB_LINKED: Вы еще не привязали ваш аккаунт HoYoLAB. Используйте </register:{command_id}> для привязки вашего аккаунта.
 OLD_HOYOLAB_LINKED: |
-  Здравствуйте, Путешественник! Извините за неудобства, но эта функция была реализована, **после** того, как вы зарегистрировали свою учетную запись `HoYoLAB` в Genshin Wizard.
+  Здравствуйте, Путешественник! Извините за неудобства, но эта функция была реализована, **после** того, как вы зарегистрировали свой аккаунт `HoYoLAB` в Genshin Wizard.
 
   Чтобы использовать эту кнопку, вы должны отсоединить свой аккаунт HoYoLAB через </hoyo:{command_id}> и **перепривязать** с помощью обычной команды регистрации.
 CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Промокоды
@@ -330,7 +330,7 @@ APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: Желаемый уровень пер
 APP_COMMAND_DESCRIBE_BANNER_IMAGE: Изображение, которое вы хотите использовать в качестве своего баннера.
 APP_COMMAND_DESCRIBE_BANNER_URL: Ссылка на изображение, которое вы хотите использовать в качестве своего баннера.
 APP_COMMAND_DESCRIBE_CURRENT_RESIN: Количество смолы, которое у вас есть в данный момент.
-APP_COMMAND_DESCRIBE_CARD: Название карточки, которую вы хотите просмотреть.
+APP_COMMAND_DESCRIBE_CARD: Название карты, которую вы хотите просмотреть.
 APP_COMMAND_DESCRIBE_ARTIFACT: Название артефакта, который вы хотите найти.
 APP_COMMAND_DESCRIBE_ASSET_ID: Идентификатор ресурса, который вы хотите найти.
 APP_COMMAND_DESCRIBE_WEAPON: Название оружия, по которому вы хотите найти руководство.
@@ -376,52 +376,52 @@ HISTORY_COMMAND_NO_USER_WISHES: Для этого пользователя не 
 USER_NOT_REGISTERED_TITLE: Пользователь не зарегистрирован!
 REGISTERED_KEY: Зарегистрирован
 NOT_REGISTERED_KEY: Не зарегистрирован
-USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** yet! Please register using </register:{command_id}> *before* using this command.
-FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."
-FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Note: This command requires you to register through the Wish History or HoYoLAB method."
-FOOTER_REQUIRE_UID_OR_HOYOLAB: "Note: This command requires you to register through the UID or HoYoLAB method."
-FOOTER_GCG_EXPANDED: Your TCG Showcase statistics can be shown in more detail if you register using your HoYoLAB account!
-LINK_HOYOLAB_TITLE: Genshin Wizard | Link HoYoLAB Account
-LINKING_UID_TITLE: Genshin Wizard | Link UID
+USER_NOT_REGISTERED_DESCRIPTION: К сожалению, <@{mem_id}> еще **не зарегистрирован**! Пожалуйста, зарегистрируйтесь с помощью </register:{command_id}> *перед* использованием этой команды.
+FOOTER_REQUIRES_WISH_HISTORY: "Примечание: Эта команда требует, чтобы вы зарегистрировались с помощью метода Истории Молитв."
+FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Примечание: Эта команда требует, чтобы вы зарегистрировались с помощью Истории Молитв или метода HoYoLAB."
+FOOTER_REQUIRE_UID_OR_HOYOLAB: "Примечание: Эта команда требует, чтобы вы зарегистрировались с помощью UID или метода HoYoLAB."
+FOOTER_GCG_EXPANDED: Ваша статистика TCG Showcase может быть показана более подробно, если вы зарегистрируетесь, используя свой аккаунт HoYoLAB!
+LINK_HOYOLAB_TITLE: Genshin Wizard | Ссылка на аккаунт HoYoLAB
+LINKING_UID_TITLE: Genshin Wizard | Ссылка на UID
 LINK_HOYOLAB_DESCRIPTION: |
-  Welcome to Genshin Wizard's HoYoLAB account linking system.
+  Добро пожаловать в систему привязки аккаунта HoYoLAB от Genshin Wizard.
 
-  **Linking Features:**
-  > **1.** Access to your in-game resin count in real-time (set up automatic notifications).
-  > **2.** Access to your in-game expedition status in real-time.
-  > **3.** Ability to claim your *Daily Check-in Reward* straight from Discord.
-  > **4.** Ability to view in-depth information about your Spiral Abyss progression.
-  > **5.** View an infographic containing **all** your available characters.
+  ** Функции привязки:**
+  > **1.** Доступ к вашему количеству смолы в игре в режиме реального времени (настройка автоматических уведомлений).
+  > **2.** Доступ к вашему внутриигровому статусу экспедиции в режиме реального времени.
+  > **3.** Возможность получить свое *Ежедневную награду за вход* прямо из Discord.
+  > **4.** Возможность просматривать подробную информацию о вашей прогрессии по Витой Бездны.
+  > **5.** Просмотрите инфографику, содержащую **всех** доступных вам персонажей.
 
-  To begin, click one of the user registration options below!
-HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Automatic Daily Sign-in
-AUTOCLAIM_ALREADY_DISABLED: Automatic HoYoLAB daily sign-in is already disabled.
-AUTOCLAIM_ALREADY_ENABLED: Automatic HoYoLAB daily sign-in is already enabled.
+  Чтобы начать, нажмите на один из вариантов регистрации пользователя ниже!
+HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Автоматические ежедневные отметки
+AUTOCLAIM_ALREADY_DISABLED: Автоматические ежедневные отметки HoYoLAB уже отключены.
+AUTOCLAIM_ALREADY_ENABLED: Автоматические ежедневные отметки HoYoLAB уже включены.
 AUTOCLAIM_DISABLED: Автоматическая ежедневная регистрация в HoYoLAB отключена.
-AUTOCLAIM_ENABLED: Automatic HoYoLAB daily sign-in has been enabled.
+AUTOCLAIM_ENABLED: Автоматические ежедневные отметки HoYoLAB включены.
 AUTOCLAIM_VOTE_REQUIREMENT: You must **__vote__** for our server and bot before being able to enable autoclaim!
-HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | HoYoLAB Daily Sign-in
+HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | Ежедневные отметки HoYoLAB
 HOYOLAB_SIGN_IN_REWARDS: |
-  Successfully **claimed** daily reward!
+  Успешно **забрали** ежедневную награду!
 
-  Rewards Claimed: `{rewards}`
-  Amount: `x{amount}`
-HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | HoYoLAB Monthly Rewards
-HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: View HoYoLAB daily rewards for the month
-HOYOLAB_DIARY_TITLE: Genshin Wizard | Traveler's Diary
+  Награды: `{rewards}`
+  Количество: `x{amount}`
+HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | Ежемесячные награды HoYoLAB
+HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: Просмотр ежедневных наград HoYoLAB за месяц
+HOYOLAB_DIARY_TITLE: Genshin Wizard | Заметки путешественника
 HOYOLAB_INVALID_REDEEM: |
   Вы должны указать промокоды для активации.
   **Правильное использование команды** ```/redeem CODE_ONE,CODE_TWO,...```
-CHINA_NOT_ALLOWED: Redeeming codes for CN users is **not supported** as of yet.
-HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | HoYoLAB Overview
-HOYOLAB_LOADING_ACCOUNT: Loading account information...
-HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Real-time Notes** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
-HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Game Record** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
-HOYOLAB_ACCOUNT_ERROR: There was an error grabbing your account's information! Please try again *later*.
-HOYOLAB_ACCOUNT_MANAGE: Manage your HoYoLAB account through Genshin Wizard
-HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Character Summary
+CHINA_NOT_ALLOWED: Промокоды для пользователей CN **пока не поддерживается**.
+HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | Обзор HoYoLAB
+HOYOLAB_LOADING_ACCOUNT: Загрузка информации об аккаунте...
+HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> Произошла ошибка при получении информации о **Заметках в режиме реального времени** вашего аккаунта! Пожалуйста, попробуйте еще раз *позже* или присоединяйтесь к нашему [**Официальному серверу поддержки**](https://discord.gg/BTT5Zr7Dmp) за помощью.
+HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> Произошла ошибка при получении информации о ** Игровых Записях** вашего аккаунта! Пожалуйста, попробуйте еще раз *позже* или присоединяйтесь к нашему [**Официальному серверу поддержки**](https://discord.gg/BTT5Zr7Dmp) за помощью.
+HOYOLAB_ACCOUNT_ERROR: Произошла ошибка при получении информации о вашем аккаунте! Пожалуйста, повторите попытку *позже*.
+HOYOLAB_ACCOUNT_MANAGE: Управляйте своим аккаунтом HoYoLAB с помощью Genshin Wizard
+HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Описание Персонажа
 CHARACTER_SUMMARY_NOT_FULL: Сводная информация о персонаже основана на истории получения gacha. Чтобы увидеть полную и наиболее точную информацию о персонаже (уровни, дружеские связи, созвездия и уровень AR), пожалуйста, воспользуйтесь ссылкой /register!
-GCG_NO_CARDS_FOUND: No Cards Found!
+GCG_NO_CARDS_FOUND: Карты не найдены!
 GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Traveler! Unfortunately, {member} has **no cards** yet! Head-in game and play some TCG on Genshin Impact *before* using this command.
 HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
@@ -824,7 +824,7 @@ PLEASE_WAIT_DESCRIPTION: Waiting! There is nothing you can do to get past this a
 PLAYER_TITLE: Player {player}
 USER_TITLE: User {user}
 OVERVIEW_KEY: Overview
-GENERAL_OVERVIEW_KEY: Общее Описание
+GENERAL_OVERVIEW_KEY: Общий Обзор
 GENERAL_OVERVIEW_SECTION: |
   Adventure Rank: {adventure_rank}
   Total achievements: {achievement_number}
