@@ -389,7 +389,7 @@ LINK_HOYOLAB_DESCRIPTION: |
   ** Функции привязки:**
   > **1.** Доступ к вашему количеству смолы в игре в режиме реального времени (настройка автоматических уведомлений).
   > **2.** Доступ к вашему внутриигровому статусу экспедиции в режиме реального времени.
-  > **3.** Возможность получить свое *Ежедневную награду за вход* прямо из Discord.
+  > **3.** Возможность получить свою *Ежедневную награду за вход* прямо из Discord.
   > **4.** Возможность просматривать подробную информацию о вашей прогрессии по Витой Бездны.
   > **5.** Просмотрите инфографику, содержащую **всех** доступных вам персонажей.
 
@@ -416,14 +416,14 @@ CHINA_NOT_ALLOWED: Промокоды для пользователей CN **п�
 HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | Обзор HoYoLAB
 HOYOLAB_LOADING_ACCOUNT: Загрузка информации об аккаунте...
 HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> Произошла ошибка при получении информации о **Заметках в режиме реального времени** вашего аккаунта! Пожалуйста, попробуйте еще раз *позже* или присоединяйтесь к нашему [**Официальному серверу поддержки**](https://discord.gg/BTT5Zr7Dmp) за помощью.
-HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> Произошла ошибка при получении информации о ** Игровых Записях** вашего аккаунта! Пожалуйста, попробуйте еще раз *позже* или присоединяйтесь к нашему [**Официальному серверу поддержки**](https://discord.gg/BTT5Zr7Dmp) за помощью.
+HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> Произошла ошибка при получении информации о **Игровых Записях** вашего аккаунта! Пожалуйста, попробуйте еще раз *позже* или присоединяйтесь к нашему [**Официальному серверу поддержки**](https://discord.gg/BTT5Zr7Dmp) за помощью.
 HOYOLAB_ACCOUNT_ERROR: Произошла ошибка при получении информации о вашем аккаунте! Пожалуйста, повторите попытку *позже*.
 HOYOLAB_ACCOUNT_MANAGE: Управляйте своим аккаунтом HoYoLAB с помощью Genshin Wizard
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Описание Персонажа
 CHARACTER_SUMMARY_NOT_FULL: Сводная информация о персонаже основана на истории получения gacha. Чтобы увидеть полную и наиболее точную информацию о персонаже (уровни, дружеские связи, созвездия и уровень AR), пожалуйста, воспользуйтесь ссылкой /register!
 GCG_NO_CARDS_FOUND: Карты не найдены!
-GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Traveler! Unfortunately, {member} has **no cards** yet! Head-in game and play some TCG on Genshin Impact *before* using this command.
-HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
+GCG_NO_CARDS_FOUND_DESCRIPTION: Эй, путешественник! К сожалению, у {member} пока **нет карт**! Войдите в игру и поиграйте немного в Genshin Impact TCG, *прежде чем* использовать эту команду.
+HOYOLAB_REGISTER_SCRIPT_TITLE: Регистрация | Скриптовый метод
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
   **How to link your HoYoLAB account with Genshin Wizard**
   > **1.** To begin with, login to your [**HoYoLAB**](https://www.hoyolab.com/home) account.
@@ -431,18 +431,18 @@ HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
   > **3.** Once you've successfully ran the script, click the `Click here to copy!` button to copy the cookie.
   > **4.** Finally, you're able to register by clicking the `Enter Token` button below and pasting the token you copied.
 HOYOLAB_REGISTER_SCRIPT: |
-  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)```
-HOYOLAB_REGISTER_LOGIN_TITLE: Registration | Login Method
+  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Пожалуйста, выйдите и снова войдите, прежде чем пытаться снова, срок действия cookie в настоящее время истек/недействителен!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Нажмите здесь, чтобы скопировать!</button>`)```
+HOYOLAB_REGISTER_LOGIN_TITLE: Регистрация | Логин метод
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin, select the `Register` button down below.
-  > **2.** In the input fields, enter your HoYoLAB account login details, remember to use your **email** and password.
-  > **3.** Once you've successfully entered your account details, wait for Genshin Wizard to process your registration request, bear in mind that this may take a minute or two.
-  > **4.** Finally, if all the steps are done correctly, you will receive a **confirmation message** via DMs indicating that your account has been successfully linked.
+  ****Как привязать свой аккаунт HoYoLAB к Genshin Wizard****
+  > **1.** Чтобы начать, нажмите кнопку `Зарегистрироваться` внизу.
+  > **2.** В полях ввода введите данные для входа в свой аккаунт HoYoLAB, не забудьте использовать свою **почту** и пароль.
+  > **3.** После того, как вы успешно ввели данные своего аккаунта, дождитесь, пока Genshin Wizard обработает ваш запрос на регистрацию, имейте в виду, что это может занять минуту или две.
+  > **4.** Наконец, если все шаги выполнены правильно, вы получите **подтверждающее сообщение** через ЛС, указывающее на то, что ваш аккаунт был успешно привязан.
 
-  <:information:1021014187197083668> **Note:** This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead.
-HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
-ARE_YOU_SURE: Are you sure?
+  <:information:1021014187197083668> **Примечание:** Этот метод приведен здесь просто для удобства/качества. Если вы беспокоитесь о безопасности своего аккаунта, пожалуйста, используйте вместо этого метод скрипта или другую форму регистрации.
+HOYOLAB_REGISTER_LOGIN_FOOTER: Дружеское напоминание о том, что Genshin Wizard не хранит никаких данных вашего аккаунта! Этот метод регистрации извлекает необходимые файлы cookie, необходимые для просмотра статистики вашего аккаунта.
+ARE_YOU_SURE: Вы уверены?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
   You have requested to **unlink** your HoYoLAB account from Genshin Wizard.
   This means that you will no longer be able to *claim your daily rewards*, view your *full abyss progression*, and other extended features such as *viewing all your characters*.
