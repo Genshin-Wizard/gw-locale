@@ -399,7 +399,7 @@ AUTOCLAIM_ALREADY_DISABLED: Автоматические ежедневные о
 AUTOCLAIM_ALREADY_ENABLED: Автоматические ежедневные отметки HoYoLAB уже включены.
 AUTOCLAIM_DISABLED: Автоматическая ежедневная регистрация в HoYoLAB отключена.
 AUTOCLAIM_ENABLED: Автоматические ежедневные отметки HoYoLAB включены.
-AUTOCLAIM_VOTE_REQUIREMENT: You must **__vote__** for our server and bot before being able to enable autoclaim!
+AUTOCLAIM_VOTE_REQUIREMENT: Вы должны **__vote__** за наш сервер и бота, прежде чем сможете включить автоматические отметки!
 HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | Ежедневные отметки HoYoLAB
 HOYOLAB_SIGN_IN_REWARDS: |
   Успешно **забрали** ежедневную награду!
@@ -455,35 +455,35 @@ UNLINKING_CANCELLED_DESCRIPTION: Вы отменили свой запрос н�
 OBTAINED_KEY: Получено
 NOT_OWNED_KEY: Не получено
 PROFICIENCY_KEY: Мастерство
-USE_COUNT_KEY: Use Count
-IMPORT_ERROR: Import Error!
-FOOTER_ERROR_DESCRIPTION: If you believe this is an error, please contact a staff member.
+USE_COUNT_KEY: Количество использований
+IMPORT_ERROR: Ошибка импорта!
+FOOTER_ERROR_DESCRIPTION: Если вы считаете, что это ошибка, пожалуйста, свяжитесь с персоналом.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  Данные, которые вы пытаетесь импортировать, **не поддерживаются**. В настоящее время мы разрешаем импорт *только* из следующих источников:
   {supported_file_types}
-  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-IMPORT_COMMAND_TITLE: Genshin Wizard | Import Wish History
+  Обратитесь к нашей [**Документации**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) для получения дополнительной информации.
+IMPORT_COMMAND_TITLE: Genshin Wizard | Импорт истории молитв
 IMPORT_COMMAND_FILE_DETECTED: |
-  **Detected Import Source: `{source}`**
-  *Please wait while we import your wish history...*
-IMPORT_COMMAND_TAMPERED: The data you are trying to import has been **tampered** with. Please **don't change** anything within the files before importing, try redownloading the data and importing *again*.
-IMPORT_COMMAND_BANNER_IMPORTED: Successfully imported `{number_wishes}` wishes for {banner_name} banner!
-IMPORT_COMMAND_SUCCESS: Successfully imported `{total_wishes}` new wishes from all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
+  **Обнаружен источник импорта: `{source}`**
+  *Пожалуйста, подождите, пока мы импортируем историю ваших молитв...*
+IMPORT_COMMAND_TAMPERED: Данные, которые вы пытаетесь импортировать, были **подделаны**. Пожалуйста, **не меняйте** ничего в файлах перед импортом, попробуйте повторно загрузить данные и импортировать *еще раз*.
+IMPORT_COMMAND_BANNER_IMPORTED: Успешно импортировано `{number_wishes}` молитв для баннера {banner_name}!
+IMPORT_COMMAND_SUCCESS: Успешно импортировано `{total_wishes}` новых молитв со всех баннеров! Теперь вы можете использовать команду </history:{command_id}> для просмотра дополнительной информации о ваших молитвах.
 IMPORT_COMMAND_LOG: |
-  **User:** {user} | `{user_id}`
-  **Name:** `{name}`
-  **Guild:** `{guild_id}` | `{guild_name}`
+  **Пользователь:** {user} | `{user_id}`
+  **Имя:** `{name}`
+  **Гильдия:** `{guild_id}` | `{guild_name}`
 
-  **Detected Import Source:** `{source}`
-  **Total:** `{total}` wishes imported!
-  > 3-Stars: `{three_star}`
-  > 4-Stars: `{four_star}`
-  > 5-Stars: `{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </register:{command_id}>.
-IMPORT_COMMAND_LINK_EXPIRED_TITLE: History Link Expired!
-IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Your history link has **expired**! Please refresh using the command </refresh:{command_id}> before trying to import!
-IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **excel** sheet from their [Wish Counter](https://paimon.moe/wish) page settings. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: This file type is **not supported**. Please make sure you're not *changing* the file type before trying to import. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
+  **Обнаружен источник импорта:** `{source}`
+  **Всего:** `{total}` молитв импортировано!
+  > 3-Звёзд: `{three_star}`
+  > 4-Звёзд: `{four_star}`
+  > 5-Звёзд: `{five_star}`
+IMPORT_COMMAND_NOT_REGISTERED: Вы уже должны быть **зарегистрированы**, чтобы импортировать ранее существовавшую историю молитв! Попробуйте импортировать еще раз после регистрации с помощью команды </register:{command_id}>.
+IMPORT_COMMAND_LINK_EXPIRED_TITLE: Срок действия ссылки на историю истек!
+IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Срок действия вашей ссылки на историю **истек**! Пожалуйста, обновите с помощью команды </refresh:{command_id}> перед попыткой импорта!
+IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: Этот тип файлов **не поддерживается**. Если вы пытаетесь импортировать данные из `Paimon.moe`, пожалуйста, убедитесь, что вы загружаете таблицу **excel** из их [Счетчика молитв](https://paimon.moe/wish) настройки страницы. Обратитесь к нашей [**Документации**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) для получения дополнительной информации.
+IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: Этот тип файла **не поддерживается**. Пожалуйста, убедитесь, что вы не *меняете* тип файла, прежде чем пытаться импортировать. Обратитесь к нашей [**Документации**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) для получения дополнительной информации.
 LEADERBOARD_NO_DATA: No data found for this specific query!
 LEADERBOARD_EXPERIENCE_FOOTER: Experience can be gained by being active in the server. Chat more to increase your Genshin Wizard ranking level!
 LEADERBOARD_WISHES_FOOTER: Wishes are updated via banner summary and refresh command(s). Check your banners to actively get an updated wish count!
