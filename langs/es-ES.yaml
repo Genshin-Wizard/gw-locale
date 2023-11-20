@@ -458,9 +458,7 @@ USE_COUNT_KEY: Número de usos
 IMPORT_ERROR: '¡Error de importación!'
 FOOTER_ERROR_DESCRIPTION: Si crees que se trata de un error, por favor contacta a un miembro del equipo.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
-  {supported_file_types}
-  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
+
 IMPORT_COMMAND_TITLE: Genshin Wizard | Importar historial de deseos
 IMPORT_COMMAND_FILE_DETECTED: |
   **Fuente de importación detectada: `{source}`**
@@ -622,18 +620,7 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "Consola"
 REGISTER_IOS_METHOD: "iOS (método de la aplicación Stream)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
 
-  1. Open Genshin Impact Game on your PC
-  2. Go to the wish history page and wait for it to load
-  3. Go back to Windows/Desktop
-  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  5. Then copy the following code and paste it in the Powershell window
-  ```ps
-  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
-  ```
-  6. Hit `ENTER` to have the link copied to your clipboard
-  7. Click the button below and paste the link in the input field
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   Después de la actualización 3.0, ya no se puede copiar y pegar simplemente el enlace del historial en los dispositivos Android.
 
@@ -656,16 +643,7 @@ REGISTER_COMMAND_CONSOLE_DIRECTIONS: Después del evento de actualización 2.3, 
 REGISTER_COMMAND_PLATFORM_SELECTION: '¿En qué plataforma juegas a Genshin Impact?'
 REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | Registro del historial de deseos
 REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
-  Welcome to Genshin Wizard's Registration system.
 
-  **Linking Features:**
-  > **1.** Keep track of your wish history.
-  > **2.** View in-depth wish history statistics along with your banner pities.
-  > **3.** View whether you're on your guaranteed limited pity or not.
-  > **4.** Full Genshin Wizard profile capabilities.
-  > **5.** Access to all commands that are accessible by [**Linking UID**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-registration).
-
-  Which platform do you use to play Genshin Impact?
 ERROR_INVALID_UID: Por favor proporciona un UID válido para vincular tu cuenta de Genshin a tu cuenta de Discord.
 ERROR_INVALID_REGISTRATION_URL: '¡Oye viajero, este es un **enlace inválido!** Asegúrate de haber seguido los pasos correctamente y vuelve a intentarlo.'
 ERROR_UNEXPECTED_ERROR: Ha ocurrido un error inesperado. ¡Por favor informa a los miembros del equipo!
@@ -677,7 +655,7 @@ REFRESHING_USER: Actualizando usuario...
 REGISTERING_USER: Registrando usuario...
 RETRIEIVING_WISH_HISTORY: Recuperando tu historial de deseos...
 REGISTER_BANNER_SYNCED: '¡Bandera {banner_name} sincronizada correctamente!'
-REGISTER_BANNER_SYNC_COMPLETE: Successfully synced all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
+REGISTER_BANNER_SYNC_COMPLETE: .
 SUCCESSFULLY_REGISTERED: '¡Registrado correctamente!'
 SUCCESSFULLY_REFRESHED: '¡Actualizado correctamente!'
 SUCCESSFULLY_UPDATED_UID: |
@@ -699,7 +677,7 @@ UNLINK_EVERYTHING: Desvincular todo
 UNLINK_EVERYTHING_BRIEF: Este método desvinculará **todo** de Genshin Wizard.
 UNLINK_EVERYTHING_DESCRIPTION: Este método desvinculará todo de Genshin Wizard. Esta acción es **irreversible**. ¿Estás seguro de que quieres continuar?
 UNLINKING_CONFIRMATION: '¡Has desvinculado **correctamente** los datos solicitados de Genshin Wizard!'
-UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If this is a mistake and you are looking to *recover* your Genshin Wizard account, use the </recover:{command_id}> command. If you need further assistance, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
+UID_REGISTERED_TO_ANOTHER_USER: "!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: ¡Ya estás **registrado** en un UID diferente! Si quieres registrarte con otra cuenta, utiliza </unlink:{command_id}> antes de intentar registrarte de nuevo."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Registro de Genshin Wizard
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Regístra tu cuenta de Genshin en Genshin Wizard.
@@ -1126,7 +1104,7 @@ WEAPON_BANNER_DESCRIPTION: Ver tu historial de deseos para el banner de armas.
 PERMANENT_BANNER_DESCRIPTION: Ver tu historial de deseos para el banner permanente.
 CHOOSE_BANNER_PLACEHOLDER: Elige un banner...
 GO_BACK_BUTTON: Volver atrás
-REGISTER_SCRIPT_BUTTON: Register via Script
+REGISTER_SCRIPT_BUTTON:
 REGISTER_LOGIN_BUTTON: Registrarse a través
 ENTER_TOKEN_BUTTON: Introducir Token
 REGISTER_ACCOUNT_BUTTON: Registrarse
@@ -1423,7 +1401,7 @@ HISTORY_COMMAND_OVERVIEW_TITLE: Genshin Wizard | Vista general del historial de 
 ABYSS_ENEMY_FLOOR_VIEW: Vista del piso
 ABYSS_ENEMY_CHAMBER_VIEW: Vista de la sala
 ABYSS_ENEMY_FLOOR_OVERVIEW: "Horario: **Resumen del Piso {floor_index}**"
-ABYSS_ENEMY_INFORMATION_BUTTON: Hello Traveler, as inconveniencing as it may be, I am **__unable__** to display information regarding **specific enemy counts**. This is due to the fact that this information is generated when *starting* the challenge. I apologize for any inconvenience this may cause.
+ABYSS_ENEMY_INFORMATION_BUTTON:
 ABYSS_ENEMY_INFORMATION_BUTTON_LABEL: Número de enemigos
 APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: Cambia la configuración de privacidad del Registro de Batallas.
 VIEW_ON_HOYOLAB: Ver en HoYoLAB
@@ -1498,10 +1476,10 @@ ANEMOCULUS_KEY: Anemóculus
 GEOCULUS_KEY: Geóculus
 ELECTROCULUS_KEY: Electróculus
 DENDROCULUS_KEY: Dendróculus
-TRUST_RANK_KEY: Trust Rank
-ADEPTAL_ENERGY_KEY: Adeptal Energy
-ITEMS_KEY: Items
-TOTAL_ISLANDS_KEY: Total Islands
+TRUST_RANK_KEY:
+ADEPTAL_ENERGY_KEY:
+ITEMS_KEY:
+TOTAL_ISLANDS_KEY:
 TOTAL_PULLS_KEY: Total Pulls
 WISH_STATISTICS_KEY: Wish Statistics
 PERCENT_KEY: Percent

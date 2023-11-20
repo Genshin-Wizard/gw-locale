@@ -44,8 +44,8 @@ INVITE_KEY: Пригласить
 DOCUMENTATION_KEY: Документация
 GWIZ_INVITE: Приглашение в Genshin Wizard
 AVATAR_KEY: Аватар
-ARTIFACT_CRIT_VALUE_TITLE: Калькулятор крит-ценности артефакта
-TOTAL_CRIT_VALUE: Общее ценность крита
+ARTIFACT_CRIT_VALUE_TITLE: Калькулятор крит-массы артефакта
+TOTAL_CRIT_VALUE: Общая крит-масса
 TRUTH_COMMAND_RESPONSES:
   - Как я вижу, да.
   - Да.
@@ -90,14 +90,14 @@ MATH_COMMAND_RESULT: |
 RECENT_GENSHIN_EVENTS: Последние события в Genshin
 SEND_CODES_COMMAND_TITLE: Genshin Wizard | Активные коды
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Можно использовать, нажав на кнопки ниже!***](https://genshin.mihoyo. om/ru/gift)
+  <:blurplelink:1020155547187691600> [***Можно использовать, нажав на кнопки ниже!***](https://genshin.mihoyo.com/ru/gift)
   <:blurpleannounce:1020402170127982712> **Примечание:** Срок действия кодов быстро истекает, поэтому обязательно активируйте их как можно скорее!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
 SEND_CODES_REDEEM_AUTOMATICALLY: Активировать автоматически
 SEND_CODES_DIRECT_LINK: Прямая ссылка
 SEND_CODES_REDEEMABLE_CODES: Коды, которые можно использовать повторно
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Активные коды
+SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Активные промокоды
 SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Промокод успешно отправлен {channel}!
 MESSAGE_LINK: Ссылка на сообщение
 CLICK_HERE: Кликнуть здесь
@@ -142,65 +142,65 @@ ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Убедитесь, что человек, �
 ERROR_MISSING_REQUIRED_ARGUMENT: "Вы забыли указать аргумент, пожалуйста, используйте правильный формат: ```{usage}```"
 ERROR_MISSING_REQUIRED_ATTACHMENT: "Вы забыли указать вложение, пожалуйста, используйте правильный формат: ```{usage} с правильным вложением.```"
 ERROR_MISSING_MANAGE_MESSAGE: Эй, путешественник, у меня нет разрешения `Управление сообщениями` в рамках этого канала / гильдии. Пожалуйста, включи это разрешение и повтори попытку.
-ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
-MESSAGE_KEY: Message
-ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
-ERROR_MESSAGE: There has been an error!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
+ERROR_MISSING_SEND_MESSAGE: Эй, путешественник, у меня нет разрешения `Управление сообщениями` в этом канале/гильдии. Пожалуйста, включите это разрешение и повторите попытку.
+MESSAGE_KEY: Сообщение
+ERROR_EMPTY_BACKPACK: Ваш рюкзак **пуст**! Чтобы начать свое путешествие, используйте команду </wishsimulator:{command_id}>!
+ERROR_INTERACTION_MISMATCH: Эй, Путешественник! Это **не ваше взаимодействие**! Используйте команду {command}, если вы хотите использовать эту команду для себя!
+ERROR_MESSAGE: Произошла ошибка!
+FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Отзыв
+FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Ваш отзыв успешно отправлен разработчикам!*
 FEEDBACK_LOG_RESPONSE: |
-  > User: **{author_name}** | {author_mention}
+  > Пользователь: **{author_name}** | {author_mention}
   > Discord ID: `{author_id}`
 
-  **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </register:{command_id}> to link your account.
+  **Отзыв:**```{feedback}```
+NO_HOYOLAB_LINKED: Вы еще не привязали ваш аккаунт HoYoLAB. Используйте </register:{command_id}> для привязки вашего аккаунта.
 OLD_HOYOLAB_LINKED: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
+  Здравствуйте, Путешественник! Извините за неудобства, но эта функция была реализована, **после** того, как вы зарегистрировали свой аккаунт `HoYoLAB` в Genshin Wizard.
 
-  In order to use this button, you must unlink your HoYoLAB account through </hoyo:{command_id}> and **relink** through the usual registration command.
-CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Redemption
-CODE_REDEEM_DESCRIPTION: "*Please wait while we process your redemption code...*"
+  Чтобы использовать эту кнопку, вы должны отсоединить свой аккаунт HoYoLAB через </hoyo:{command_id}> и **перепривязать** с помощью обычной команды регистрации.
+CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Промокоды
+CODE_REDEEM_DESCRIPTION: "*Пожалуйста, подождите, пока мы обработаем ваш промокод...*"
 CODE_REDEEM_PROGRESS: |
-  *Please wait while we process your redemption code...*
-  <a:loading:1015667958237900801> Attempting to redeem code `{code}`
-HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Expired Cookies
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
+  *Пожалуйста, подождите, пока мы обработаем ваш промокод...*
+  <a:loading:1015667958237900801> Попытка активировать код `{code}`
+HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Истекшие Cookies
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Эй, Путешественник! Похоже, что срок действия ваших файлов cookie для промокодов HoYoLAB **истек**! Используйте команду </hoyo:{command_id}> и завершите процесс повторной привязки аккаунта, чтобы **обновить** файлы cookie вашего аккаунта HoYoLAB.
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
-APP_COMMAND_INFO_DESCRIPTION: Shows builds for characters in the user's in-game showcase.
-APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history formatted into a text file via private messages.
-APP_COMMAND_HISTORY_DESCRIPTION: View your Genshin account's wish history.
-APP_COMMAND_DAILY_DESCRIPTION: Claim your daily HoYoLAB sign-in rewards.
-APP_COMMAND_MONTHLY_DESCRIPTION: View HoYoLAB daily rewards for the month.
-APP_COMMAND_DIARY_DESCRIPTION: View your HoYoLAB Traveler's Diary.
-APP_COMMAND_REDEEM_DESCRIPTION: Redeem redemption codes for Genshin Impact.
-APP_COMMAND_HOYO_DESCRIPTION: Check your HoYoLAB account from Genshin Wizard.
-APP_COMMAND_CHARACTERS_DESCRIPTION: View your Genshin account's Character Summary.
-APP_COMMAND_TCG_DESCRIPTION: View your Genius Invokation TCG Account Showcase.
-APP_COMMAND_IMPORT_DESCRIPTION: Import your gacha wish history from other popular sites.
-APP_COMMAND_LEADERBOARD_DESCRIPTION: View Genshin Wizard's leaderboards.
-APP_COMMAND_LOCATION_DESCRIPTION: Display the known location(s) for the resource given.
-APP_COMMAND_LOCATIONS_DESCRIPTION: Display a list of available resource locations.
-APP_COMMAND_CALC_DESCRIPTION: Calculate required ascension materials for a given character.
-APP_COMMAND_BANNER_DESCRIPTION: Change your Genshin Wizard profile's banner.
-APP_COMMAND_PROFILE_DESCRIPTION: View your personal Genshin Wizard profile.
-APP_COMMAND_SETTINGS_DESCRIPTION: Change your Genshin Wizard profile settings.
-APP_COMMAND_STATS_DESCRIPTION: View your Genshin account's statistics.
-APP_COMMAND_ABYSS_DESCRIPTION: View your Genshin account's abyss progression.
-APP_COMMAND_EXPLORATION_DESCRIPTION: View your Genshin account's exploration progression.
-APP_COMMAND_UID_DESCRIPTION: Lookup a user's Genshin UID/Region.
-APP_COMMAND_REGISTER_DESCRIPTION: Register your Genshin account to Genshin Wizard.
-APP_COMMAND_REFRESH_DESCRIPTION: Refresh your wish history link (links expire once every 24 hours).
+CODE_REDEEM_SUCCESS: "*Промокоды успешно обработаны!*"
+APP_COMMAND_INFO_DESCRIPTION: Показывает сборки для персонажей в витрине пользователя.
+APP_COMMAND_EXPORT_DESCRIPTION: Экспорт вашей истории молитв в текстовый файл через личные сообщения.
+APP_COMMAND_HISTORY_DESCRIPTION: Посмотреть свою историю молитв аккаунта Genshin.
+APP_COMMAND_DAILY_DESCRIPTION: Получите ежедневную награду за вход в HoYoLAB.
+APP_COMMAND_MONTHLY_DESCRIPTION: Посмотреть ежедневные награды HoYoLAB за месяц.
+APP_COMMAND_DIARY_DESCRIPTION: Посмотреть свои заметки путешественника HoYoLAB.
+APP_COMMAND_REDEEM_DESCRIPTION: Активировать промокоды для Genshin Impact.
+APP_COMMAND_HOYO_DESCRIPTION: Проверьте свой аккаунт HoYoLAB с помощью Genshin Wizard.
+APP_COMMAND_CHARACTERS_DESCRIPTION: Посмотреть свою сводку персонажей аккаунта Genshin.
+APP_COMMAND_TCG_DESCRIPTION: Просмотр витрины вашего аккаунта Genius Invocation TCG.
+APP_COMMAND_IMPORT_DESCRIPTION: Импортируйте свою историю gacha молитв с других популярных сайтов.
+APP_COMMAND_LEADERBOARD_DESCRIPTION: Посмотреть таблицы лидеров Genshin Wizard.
+APP_COMMAND_LOCATION_DESCRIPTION: Показать известное местоположение указанного ресурса.
+APP_COMMAND_LOCATIONS_DESCRIPTION: Показать список доступных мест расположения ресурсов.
+APP_COMMAND_CALC_DESCRIPTION: Рассчитать необходимое количество материалов для возвышения персонажа.
+APP_COMMAND_BANNER_DESCRIPTION: Изменить свой баннер профиля Genshin Wizard.
+APP_COMMAND_PROFILE_DESCRIPTION: Посмотреть свой профиль Genshin Wizard.
+APP_COMMAND_SETTINGS_DESCRIPTION: Изменить настройки профиля Genshin Wizard.
+APP_COMMAND_STATS_DESCRIPTION: Посмотреть свою статистику аккаунта Genshin.
+APP_COMMAND_ABYSS_DESCRIPTION: Посмотреть свой прогресс бездны Genshin.
+APP_COMMAND_EXPLORATION_DESCRIPTION: Посмотреть свой прогресс исследования Genshin.
+APP_COMMAND_UID_DESCRIPTION: Поиск Genshin UID/региона пользователя.
+APP_COMMAND_REGISTER_DESCRIPTION: Зарегистрируйте свой аккаунт Genshin в Genshin Wizard.
+APP_COMMAND_REFRESH_DESCRIPTION: Обновить ссылку истории молитв (срок действия ссылки истекает каждые 24 часа).
 APP_COMMAND_UNLINK_DESCRIPTION: Отвязать ваш аккаунт Genshin и удалить все данные.
 APP_COMMAND_REMINDERS_DESCRIPTION: Настройте напоминания для уведомления о смоле, чайнике и экспедициях.
-APP_COMMAND_RESIN_DESCRIPTION: Настройте напоминание Resin для уведомления вас о повторной зарядке смолы.
+APP_COMMAND_RESIN_DESCRIPTION: Настройте напоминание смолы для уведомления вас о повторной зарядке смолы.
 APP_COMMAND_GACHA_DESCRIPTION: Отображение обновленной информации о вашей истории для указанного баннера.
-APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Проверьте свою удачу гачи с Симулятором Genshin Wish!
+APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Проверьте свою удачу gacha с Симулятором Genshin Wish!
 APP_COMMAND_INVENTORY_DESCRIPTION: Просмотрите ваш виртуальный инвентарь Genshin Wizard.
 APP_COMMAND_SHOP_DESCRIPTION: Просматривайте магазин Мастера Genshin.
 APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: Просматривайте архивы персонажей вашего Мастера Гениншина.
@@ -228,201 +228,202 @@ APP_COMMAND_ID_DESCRIPTION: Поиск любого внутриигрового
 APP_COMMAND_WEAPON_DESCRIPTION: Посмотрите руководство для конкретного оружия.
 APP_COMMAND_GUIDE_DESCRIPTION: Посмотрите руководство для конкретного персонажа.
 APP_COMMAND_BUILD_DESCRIPTION: Найдите сборку (сборки) для определенного персонажаGenshin.
-APP_COMMAND_PLAYSTYLE_DESCRIPTION: Look up playstyles for a specific Genshin character.
-APP_COMMAND_ASCENSION_DESCRIPTION: Look up a ascension materials for a specific Genshin character.
-APP_COMMAND_SYNERGY_DESCRIPTION: Look up a character and team synergies for a specific Genshin character.
-APP_COMMAND_CONSTELLATIONS_DESCRIPTION: Look up constellations for a specific Genshin character.
-APP_COMMAND_SKILLS_DESCRIPTION: Look up skill talents for a specific Genshin character.
-APP_COMMAND_PASSIVE_DESCRIPTION: Look up passive talents for a specific Genshin character.
-APP_COMMAND_GUIDES_DESCRIPTION: Display a list of available character guides.
-APP_COMMAND_REFERENCE_DESCRIPTION: Search for a specific reference sheet.
-APP_COMMAND_REFERENCESHEETS_DESCRIPTION: View all available reference sheets.
-APP_COMMAND_TODO_DESCRIPTION: Check daily/weekly events in Genshin Impact.
-APP_COMMAND_BANNERS_DESCRIPTION: View ongoing Genshin Impact event banners.
-APP_COMMAND_CONFIG_DESCRIPTION: Genshin Wizard config setup panel, configure automatic announcements and more!
-APP_COMMAND_PARTNER_DESCRIPTION: hidden
-APP_COMMAND_SETUP_DESCRIPTION: Genshin Wizard Role Integration Setup Panel.
-APP_COMMAND_PREMIUM_DESCRIPTION: Purchase Genshin Wizard Premium to gain access to premium features.
-APP_COMMAND_ROLE_DESCRIPTION: Applies specific character roles to a user. Refer to relative text channel for more information.
-APP_COMMAND_HELP_DESCRIPTION: View Genshin Wizard help documentation.
-APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
-APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
-APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
-APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
+APP_COMMAND_PLAYSTYLE_DESCRIPTION: Найдите стиль игры для определенного персонажа Genshin.
+APP_COMMAND_ASCENSION_DESCRIPTION: Найдите материалы по возвышения для конкретного персонажа Genshin.
+APP_COMMAND_SYNERGY_DESCRIPTION: Найдите персонажа и командную синергию для конкретного персонажа Genshin.
+APP_COMMAND_CONSTELLATIONS_DESCRIPTION: Найдите созвездия для конкретного персонажа Genshin.
+APP_COMMAND_SKILLS_DESCRIPTION: Найдите таланты навыков для конкретного персонажа Genshin.
+APP_COMMAND_PASSIVE_DESCRIPTION: Найдите пассивные таланты для конкретного персонажа Genshin.
+APP_COMMAND_GUIDES_DESCRIPTION: Показать список доступных руководств по персонажам.
+APP_COMMAND_REFERENCE_DESCRIPTION: Найдите конкретный справочный лист.
+APP_COMMAND_REFERENCESHEETS_DESCRIPTION: Посмотреть все доступные справочные листы.
+APP_COMMAND_TODO_DESCRIPTION: Проверить ежедневные/еженедельные события в Genshin Impact.
+APP_COMMAND_BANNERS_DESCRIPTION: Посмотреть текущие баннеры событий Genshin Impact.
+APP_COMMAND_CONFIG_DESCRIPTION: Панель настройки Genshin Wizard, настройте автоматические объявления и многое другое!
+APP_COMMAND_PARTNER_DESCRIPTION: скрыто
+APP_COMMAND_SETUP_DESCRIPTION: Панель настройки интеграции ролей Genshin Wizard.
+APP_COMMAND_PREMIUM_DESCRIPTION: Купите Genshin Wizard Премиум, чтобы получить доступ к премиум-функциям.
+APP_COMMAND_ROLE_DESCRIPTION: Применяет к пользователю конкретные роли персонажей. Более подробную информацию см. в соответствующем текстовом канале.
+APP_COMMAND_HELP_DESCRIPTION: Посмотреть справку Genshin Wizard.
+APP_COMMAND_PING_DESCRIPTION: Проверьте задержку Genshin Wizard.
+APP_COMMAND_UPTIME_DESCRIPTION: Проверьте время работы Genshin Wizard.
+APP_COMMAND_ABOUT_DESCRIPTION: Информация о Genshin Wizard.
+APP_COMMAND_INVITE_DESCRIPTION: Получить пригласительную ссылку для этого бота.
 APP_COMMAND_DONATE_DESCRIPTION: Поддержите развитие Genshin Wizard.
-APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
-APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
-APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
-APP_COMMAND_TRUTH_DESCRIPTION: Seek wisdom from Genshin Wizard.
-APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Change Genshin Wizard's prefix for commands.
-APP_COMMAND_PITY_DESCRIPTION: Information on understanding the Genshin pity-system.
-APP_COMMAND_MATH_DESCRIPTION: Compute simple or complex functions.
-APP_COMMAND_EVENTS_DESCRIPTION: Check recent Genshin Impact events.
-APP_COMMAND_SENDCODES_DESCRIPTION: Send a message for Genshin redemption codes with buttons.
-APP_COMMAND_FEEDBACK_DESCRIPTION: Send your feedback to Genshin Wizard Developers.
-APP_COMMAND_DELETE_DESCRIPTION: Delete a user's Genshin Wizard profile.
-APP_COMMAND_BLACKLIST_DESCRIPTION: Blacklist a user from using Genshin Wizard.
-APP_COMMAND_DELIMPORT_DESCRIPTION: Delete a user's imported wish history data.
-EXPORT_NO_WISHES: There are no wishes to export.
-EXPORT_NO_BANNER_WISHES: No {banner} banner wishes found.
-EXPORT_NO_MESSAGE_PERMISSION: "The bot **does not** have permission to send you a private message. Please make sure you have the setting: `Allow direct messages from server members` **enabled** in your *Discord privacy settings*."
-EXPORT_MESSAGE_SUCCESS: Your wish history has successfully been exported and sent to you via DMs.
+APP_COMMAND_VOTE_DESCRIPTION: Ссылки для голосования за Genshin Wizard.
+APP_COMMAND_AVATAR_DESCRIPTION: Посмотреть discord аватар пользователя.
+APP_COMMAND_CRITVALUE_DESCRIPTION: Рассчитать крит-массу для артефакта.
+APP_COMMAND_TRUTH_DESCRIPTION: Обратитесь за мудростью к Genshin Wizard.
+APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Изменить префикс Genshin Wizard для команд.
+APP_COMMAND_PITY_DESCRIPTION: Информация о понимании системы жалости Genshin.
+APP_COMMAND_MATH_DESCRIPTION: Вычисление простых или сложных функций.
+APP_COMMAND_EVENTS_DESCRIPTION: Проверить последние события Genshin Impact.
+APP_COMMAND_SENDCODES_DESCRIPTION: Отправить сообщение для активации промокодов Genshin, с помощью кнопок.
+APP_COMMAND_FEEDBACK_DESCRIPTION: Отправить свой отзыв разработчикам Genshin Wizard.
+APP_COMMAND_DELETE_DESCRIPTION: Удалить профиль пользователя Genshin Wizard.
+APP_COMMAND_BLACKLIST_DESCRIPTION: Внесите пользователя в черный список, запрещающий использовать Genshin Wizard.
+APP_COMMAND_DELIMPORT_DESCRIPTION: Удалить импортированные данные истории молитв пользователя.
+EXPORT_NO_WISHES: Нет никаких молитв к экспорту.
+EXPORT_NO_BANNER_WISHES: Не найдено молитв к баннеру {banner}.
+EXPORT_NO_MESSAGE_PERMISSION: "У бота **нет** разрешения на отправку личного сообщения. Убедитесь, что у вас **включена** настройка: `Разрешить личные сообщения от участников сервера` в *настройках конфиденциальности Discord*."
+EXPORT_MESSAGE_SUCCESS: История ваших молитв была успешно экспортирована и отправлена вам через ЛС.
 INFO_COMMAND_INVALID_ARGUMENT: |
-  **Invalid argument passed.**
+  **Неверный аргумент.**
 
-  To view another player's stats, please enter either Discord User **or** a Genshin UID. Entering both will result in an error.
+  Чтобы посмотреть статистику другого игрока, пожалуйста, введите либо пользователя Discord **или** Genshin UID. Ввод обоих параметров приведет к ошибке.
 INVALID_ARGUMENT_PASSED: |
-  Invalid argument passed.
-  Valid argument is `<discord user>`/`<genshin uid>`
-INFO_COMMAND_ENKA_ISSUE: There seems to be an issue with [**Enka.Network**](https://enka.network/u/{uid}). Please try again later.
-ERROR_NO_USER_DATA: No data found for this user.
-WHAT_HAPPENED_TITLE: What happened?
-WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
-WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
+  Передан неверный аргумент.
+  Допустимым аргументом является `<discord user>`/`<genshin uid>`
+INFO_COMMAND_ENKA_ISSUE: Возникла проблема с [**Enka.Network**](https://enka.network/u/{uid}). Пожалуйста, повторите попытку позже.
+ERROR_NO_USER_DATA: Нет данных для этого пользователя.
+WHAT_HAPPENED_TITLE: Что произошло?
+WHAT_HAPPENED_VALUE: Наиболее распространенной причиной этой проблемы является то, что аккаунт genshin, который вы пытаетесь найти, еще не стал публичным. Чтобы исправить это, включите "Показывать детали персонажей" в своем профиле Genshin. Смотрите изображение ниже для справки.
+WHAT_HAPPENED_FOOTER: Genshin Wizard может потребоваться до пяти минут, чтобы подтвердить последние изменения, внесенные в игру, пожалуйста, наберитесь терпения.
 INFO_COMMAND_SHOWCASE_TITLE: Демонстрация персонажа
-INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
-REFRESHES_KEY: Refreshes
-INFO_COMMAND_CHARACTER_DETAILS: Character
-INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!
+INFO_COMMAND_SHOWCASE_VIEW_ENKA: Посмотреть на Enka.Network
+REFRESHES_KEY: Обновить
+INFO_COMMAND_CHARACTER_DETAILS: Персонаж
+INFO_COMMAND_NOT_OWNER: Вы можете управлять кэшированными сборками только для своих собственных персонажей! Используйте </info:{command_id}> для получения дополнительной информации!
 INFO_COMMAND_CACHE_DESCRIPTION: |
   **Genshin Wizard Cache **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
 
-  <:information:1034639378410115103> **What is Cache?**
-  Genshin Wizard caches builds *automatically* so you never have to worry about swapping your showcase out over and over again!
+  <:information:1034639378410115103> **Что такое кэш?**
+  Genshin Wizard кэширует сборки *автоматически*, так что вам никогда не придется беспокоиться о замене вашей витрины снова и снова!
 
-  <:na:975828401900359711> **What if I want to delete old builds?**
-  Fear not! You'll be able to manage your cached builds straight from this message! Use the UI below to delete specific characters, or all, from your Genshin Wizard cache.
+  <:na:975828401900359711> **Что делать, если я хочу удалить старые сборки?**
+  Не бойтесь! Вы сможете управлять своими кэшированными сборками прямо из этого сообщения! Используйте приведенный ниже пользовательский интерфейс, чтобы удалить конкретных или всех персонажей из кэша Genshin Wizard.
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard Custom Art Feature**
-  Hey Traveler, it looks like you're trying to use Genshin Wizard's **Custom Art** feature! This feature is only available to Genshin Wizard Premium users.
+  <:information:1034639378410115103> **Функция индивидуалього оформления Genshin Wizard**
+  Эй, Путешественник, похоже, ты пытаешься использовать функцию Genshin Wizard **Индивидуальное оформление**! Эта функция доступна только премиум пользователям Genshin Wizard.
 
-  You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Patreon**](https://patreon.com/genshinwizard)!
-PURCHASE_PREMIUM: Purchase Premium
-INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Hey Traveler, you can only manage custom art for your **own characters**!
-GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard Custom Art
+  Вы можете узнать больше о Genshin Wizard Премиум, используя команду </premium:{command_id}> или посетив наш [**Patreon**](https://patreon.com/genshinwizard)!
+PURCHASE_PREMIUM: Купить Премиум
+INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Эй, Путешественник, ты можешь управлять индивидуальным оформлением только для своих **собственных персонажей**!
+GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard Индивидуальное Оформление
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
+  **Настройте оформление инфографики**
+  Эй, Путешественник, нажмите на ссылку или кнопку ниже, чтобы **настроить** оформление инфографики для этого персонажа!
+  <a:PaimonCookies:992302701838864454>
   ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://dashboard.genshinwizard.com/?key={key})
-GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Go to Dashboard
-REMOVE_CHARACTERS_FROM_CACHE: Remove characters from cache...
-INFO_COMMAND_CACHE_DELETE_SELECTED: Successfully deleted selected characters from Genshin Wizard's cache!
-INFO_COMMAND_CACHE_DELETE_ALL: Successfully deleted all your characters from Genshin Wizard's cache!
-INFO_COMMAND_CACHE_CANCEL: "**Cancelled** cache management request! You may dismiss this message."
-APP_COMMAND_DESCRIBE_USER: The name of the member you are trying to search for.
-APP_COMMAND_DESCRIBE_USER_AVATAR: The member you wish to view an avatar for.
-APP_COMMAND_DESCRIBE_UID: The UID of the member you are trying to search for.
-APP_COMMAND_DESCRIBE_USER_WISH: Search up a specific user's Genshin Wish history.
-APP_COMMAND_DESCRIBE_AUTOCLAIM: Enable/Disable automatic HoYoLAB daily sign-in.
-ENABLE_KEY: Enable
-DISABLE_KEY: Disable
-ENABLE_AUTOCLAIM: Enable automatic daily sign-in.
-DISABLE_AUTOCLAIM: Disable automatic daily sign-in.
-APP_COMAND_DESCRIBE_CODES: The redemption code you wish to redeem for your account.
-APP_COMMAND_DESCRIBE_DATA: The file you are trying to import your wish history from.
-APP_COMMAND_DESCRIBE_RESOURCE: The resource you are trying to search for.
-APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: The character you want to calculate ascension materials for.
-APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: Starting level of the character you want to upgrade.
-APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: Desired level of the character you want to upgrade.
-APP_COMMAND_DESCRIBE_BANNER_IMAGE: The image you want to use as your banner.
-APP_COMMAND_DESCRIBE_BANNER_URL: The link to an image you want to use as your banner.
-APP_COMMAND_DESCRIBE_CURRENT_RESIN: The amount of resin you currently have.
-APP_COMMAND_DESCRIBE_CARD: The name of the card you want to look-up.
-APP_COMMAND_DESCRIBE_ARTIFACT: The name of the artifact you want to search for.
-APP_COMMAND_DESCRIBE_ASSET_ID: The ID for the asset you wish to look up.
-APP_COMMAND_DESCRIBE_WEAPON: The name of the weapon you want to look-up a guide for.
-APP_COMMAND_DESCRIBE_CHARACTER: The name of the character you want to look-up.
-APP_COMMAND_DESCRIBE_CHARACTER_GUIDE: The name of the character you want to look-up a guide for
-APP_COMMAND_DESCRIBE_CHARACTER_BUILD: The name of the character you want to look-up a build for.
-APP_COMMAND_DESCRIBE_CHARACTER_PLAYSTYLE: The name of the character you want to look-up a playstyle for.
-APP_COMMAND_DESCRIBE_CHARACTER_SYNERGY: The name of the character you want to look-up team synergies for.
-APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION_LOOKUP: The name of the character you want to look-up ascension materials for.
-APP_COMMAND_DESCRIBE_CHARACTER_CONSTELLATIONS: The name of the character you want to look-up constellations for.
-APP_COMMAND_DESCRIBE_CHARACTER_SKILLS: The name of the character you want to look-up skill talents for.
-APP_COMMAND_DESCRIBE_CHARACTER_PASSIVE: The name of the character you want to look-up passive talents for.
-APP_COMMAND_DESCRIBE_ITEM_REFERENCE_SHEET: The name of the item you want a reference sheet for.
-APP_COMMAND_DESCRIBE_CRIT_RATE: The CRIT Rate of the artifact.
-APP_COMMAND_DESCRIBE_CRIT_DAMAGE: The CRIT Damage of the artifact.
-APP_COMMAND_DESCRIBE_QUESTION: The question you wish to ask Paimon.
-APP_COMMAND_DESCRIBE_PREFIX: The new prefix you wish to set for the bot.
-APP_COMMAND_DESCRIBE_EXPRESSION: The equation/query you're attempting to compute.
-APP_COMMAND_DESCRIBE_CODE_CHANNEL: The channel you want to send the message in.
-APP_COMMAND_DESCRIBE_CODE_PING: The role you want to mention along with the message.
-APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated by a comma.
-APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
-APP_CONTEXT_MENU_PROFILE: Profile
-APP_CONTEXT_MENU_STATISTICS: Stats Progression
-APP_CONTEXT_MENU_ABYSS: Abyss Progression
-APP_CONTEXT_MENU_CHARACTERS: Characters
-APP_CONTEXT_MENU_WISH_HISTORY: Wish History
-WHITELIST_KEY_LOWERCASE: whitelist
-HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Wishes"
-SLASH_PAGINATION: Page {current_page}/{total_pages}
-OF_PAGINATION: Page {current_page} of {total_pages}
+  Инфографику для {character}```
+  > <:Settings:1046877233626742925> [**Нажмите здесь, чтобы настроить изображение**](https://dashboard.genshinwizard.com/?key={key})
+GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Перейти к панели управления
+REMOVE_CHARACTERS_FROM_CACHE: Удаление персонажей из кэша...
+INFO_COMMAND_CACHE_DELETE_SELECTED: Успешно удалены выбранные персонажи из кэша Genshin Wizard!
+INFO_COMMAND_CACHE_DELETE_ALL: Успешно удалены все ваши персонажи из кэша Genshin Wizard!
+INFO_COMMAND_CACHE_CANCEL: "**Отменен** запрос на управление кэшем! Вы можете убрать это сообщение."
+APP_COMMAND_DESCRIBE_USER: Имя участника, которого вы пытаетесь найти.
+APP_COMMAND_DESCRIBE_USER_AVATAR: Участник, для которого вы хотите посмотреть аватар.
+APP_COMMAND_DESCRIBE_UID: UID участника, которого вы пытаетесь найти.
+APP_COMMAND_DESCRIBE_USER_WISH: Найдите историю молитв Genshin конкретного пользователя.
+APP_COMMAND_DESCRIBE_AUTOCLAIM: Включить/отключить автоматические ежедневные отметки в HoYoLAB.
+ENABLE_KEY: Включить
+DISABLE_KEY: Выключить
+ENABLE_AUTOCLAIM: Включить автоматические ежедневные отметки.
+DISABLE_AUTOCLAIM: Отключить автоматические ежедневные отметки.
+APP_COMAND_DESCRIBE_CODES: Промокод, который вы хотите использовать для своего аккаунта.
+APP_COMMAND_DESCRIBE_DATA: Файл, из которого вы пытаетесь импортировать историю своих молитв.
+APP_COMMAND_DESCRIBE_RESOURCE: Ресурс, который вы пытаетесь найти.
+APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: Персонаж, для которого вы хотите рассчитать материалы для возвышения.
+APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: Начальный уровень персонажа, которого вы хотите возвысить.
+APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: Желаемый уровень персонажа, которого вы хотите возвысить.
+APP_COMMAND_DESCRIBE_BANNER_IMAGE: Изображение, которое вы хотите использовать в качестве своего баннера.
+APP_COMMAND_DESCRIBE_BANNER_URL: Ссылка на изображение, которое вы хотите использовать в качестве своего баннера.
+APP_COMMAND_DESCRIBE_CURRENT_RESIN: Количество смолы, которое у вас есть в данный момент.
+APP_COMMAND_DESCRIBE_CARD: Название карты, которую вы хотите просмотреть.
+APP_COMMAND_DESCRIBE_ARTIFACT: Название артефакта, который вы хотите найти.
+APP_COMMAND_DESCRIBE_ASSET_ID: Идентификатор ресурса, который вы хотите найти.
+APP_COMMAND_DESCRIBE_WEAPON: Название оружия, по которому вы хотите найти руководство.
+APP_COMMAND_DESCRIBE_CHARACTER: Имя персонажа, которого вы хотите найти.
+APP_COMMAND_DESCRIBE_CHARACTER_GUIDE: Имя персонажа, для которого вы хотите найти руководство
+APP_COMMAND_DESCRIBE_CHARACTER_BUILD: Имя персонажа, для которого вы хотите найти сборку.
+APP_COMMAND_DESCRIBE_CHARACTER_PLAYSTYLE: Имя персонажа, для которого вы хотите найти стиль игры.
+APP_COMMAND_DESCRIBE_CHARACTER_SYNERGY: Имя персонажа, для которого вы хотите найти командную синергию.
+APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION_LOOKUP: Имя персонажа, для которого вы хотите найти материалы для возвышения.
+APP_COMMAND_DESCRIBE_CHARACTER_CONSTELLATIONS: Имя персонажа, для которого вы хотите найти созвездия.
+APP_COMMAND_DESCRIBE_CHARACTER_SKILLS: Имя персонажа, для которого вы хотите просмотреть список талантов.
+APP_COMMAND_DESCRIBE_CHARACTER_PASSIVE: Имя персонажа, для которого вы хотите найти пассивные таланты.
+APP_COMMAND_DESCRIBE_ITEM_REFERENCE_SHEET: Название элемента, для которого вы хотите получить справочный лист.
+APP_COMMAND_DESCRIBE_CRIT_RATE: Крит Шанс артефакта.
+APP_COMMAND_DESCRIBE_CRIT_DAMAGE: Крит Урон артефакта.
+APP_COMMAND_DESCRIBE_QUESTION: Вопрос, который вы хотите задать Паймон.
+APP_COMMAND_DESCRIBE_PREFIX: Новый префикс, который вы хотите установить для бота.
+APP_COMMAND_DESCRIBE_EXPRESSION: Уравнение/запрос, который вы пытаетесь вычислить.
+APP_COMMAND_DESCRIBE_CODE_CHANNEL: Канал, в который вы хотите отправить сообщение.
+APP_COMMAND_DESCRIBE_CODE_PING: Роль, которую вы хотите упомянуть вместе с сообщением.
+APP_COMMAND_DESCRIBE_CODE_LIST: Промокоды, которые вы хотите отправить, разделенные запятой.
+APP_COMMAND_DESCRIBE_FEEDBACK: Отзыв, который вы хотите передать.
+APP_CONTEXT_MENU_PROFILE: Профиль
+APP_CONTEXT_MENU_STATISTICS: Прогресс статистики
+APP_CONTEXT_MENU_ABYSS: Прогресс бездны
+APP_CONTEXT_MENU_CHARACTERS: Персонажи
+APP_CONTEXT_MENU_WISH_HISTORY: История молитв
+WHITELIST_KEY_LOWERCASE: белый список
+HISTORY_COMMAND_BANNER_TITLE: "Молитвы Баннера {banner_name}"
+SLASH_PAGINATION: Страница {current_page}/{total_pages}
+OF_PAGINATION: Страница {current_page} из {total_pages}
 HISTORY_COMMAND_TABLE_HEADER: "Rarity | Pity | Name | Date"
-HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Guaranteed Pity: {indicator}**"
-HISTORY_LINK_EXPIRED: History Link Expired
-HISTORY_COMMAND_LIFETIME_PULLS: Lifetime Pulls
-HISTORY_COMMAND_WISHES_WORTH: Wishes Worth
-HISTORY_COMMAND_CURRENT_PITIES: Current Pities
-SEARCH_ERROR: Search Error!
+HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Гарант: {indicator}**"
+HISTORY_LINK_EXPIRED: Срок действия ссылки историю истек
+HISTORY_COMMAND_LIFETIME_PULLS: Всего молитв
+HISTORY_COMMAND_WISHES_WORTH: Стоимость Молитв
+HISTORY_COMMAND_CURRENT_PITIES: Текущие молитвы
+SEARCH_ERROR: Ошибка поиска!
 HISTORY_COMMAND_NO_WISHES: |
-  No wishes were found for this search!
-  Try selecting a different banner to check below.
-HISTORY_COMMAND_NO_USER_WISHES: No wishes were found for this user!
-USER_NOT_REGISTERED_TITLE: User has not registered!
-REGISTERED_KEY: Registered
-NOT_REGISTERED_KEY: Not Registered
-USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** yet! Please register using </register:{command_id}> *before* using this command.
-FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."
-FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Note: This command requires you to register through the Wish History or HoYoLAB method."
-FOOTER_REQUIRE_UID_OR_HOYOLAB: "Note: This command requires you to register through the UID or HoYoLAB method."
-FOOTER_GCG_EXPANDED: Your TCG Showcase statistics can be shown in more detail if you register using your HoYoLAB account!
-LINK_HOYOLAB_TITLE: Genshin Wizard | Link HoYoLAB Account
-LINKING_UID_TITLE: Genshin Wizard | Link UID
+  По этому запросу не найдено ни одной молитвы!
+  Попробуйте выбрать другой баннер внизу.
+HISTORY_COMMAND_NO_USER_WISHES: Для этого пользователя не найдено никаких молитв!
+USER_NOT_REGISTERED_TITLE: Пользователь не зарегистрирован!
+REGISTERED_KEY: Зарегистрирован
+NOT_REGISTERED_KEY: Не зарегистрирован
+USER_NOT_REGISTERED_DESCRIPTION: К сожалению, <@{mem_id}> еще **не зарегистрирован**! Пожалуйста, зарегистрируйтесь с помощью </register:{command_id}> *перед* использованием этой команды.
+FOOTER_REQUIRES_WISH_HISTORY: "Примечание: Эта команда требует, чтобы вы зарегистрировались с помощью метода Истории Молитв."
+FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Примечание: Эта команда требует, чтобы вы зарегистрировались с помощью Истории Молитв или метода HoYoLAB."
+FOOTER_REQUIRE_UID_OR_HOYOLAB: "Примечание: Эта команда требует, чтобы вы зарегистрировались с помощью UID или метода HoYoLAB."
+FOOTER_GCG_EXPANDED: Ваша статистика TCG Showcase может быть показана более подробно, если вы зарегистрируетесь, используя свой аккаунт HoYoLAB!
+LINK_HOYOLAB_TITLE: Genshin Wizard | Ссылка на аккаунт HoYoLAB
+LINKING_UID_TITLE: Genshin Wizard | Ссылка на UID
 LINK_HOYOLAB_DESCRIPTION: |
-  Welcome to Genshin Wizard's HoYoLAB account linking system.
+  Добро пожаловать в систему привязки аккаунта HoYoLAB от Genshin Wizard.
 
-  **Linking Features:**
-  > **1.** Access to your in-game resin count in real-time (set up automatic notifications).
-  > **2.** Access to your in-game expedition status in real-time.
-  > **3.** Ability to claim your *Daily Check-in Reward* straight from Discord.
-  > **4.** Ability to view in-depth information about your Spiral Abyss progression.
-  > **5.** View an infographic containing **all** your available characters.
+  ** Функции привязки:**
+  > **1.** Доступ к вашему количеству смолы в игре в режиме реального времени (настройка автоматических уведомлений).
+  > **2.** Доступ к вашему внутриигровому статусу экспедиции в режиме реального времени.
+  > **3.** Возможность получить свою *Ежедневную награду за вход* прямо из Discord.
+  > **4.** Возможность просматривать подробную информацию о вашей прогрессии по Витой Бездны.
+  > **5.** Просмотрите инфографику, содержащую **всех** доступных вам персонажей.
 
-  To begin, click one of the user registration options below!
-HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Automatic Daily Sign-in
-AUTOCLAIM_ALREADY_DISABLED: Automatic HoYoLAB daily sign-in is already disabled.
-AUTOCLAIM_ALREADY_ENABLED: Automatic HoYoLAB daily sign-in is already enabled.
-AUTOCLAIM_DISABLED: Automatic HoYoLAB daily sign-in has been disabled.
-AUTOCLAIM_ENABLED: Automatic HoYoLAB daily sign-in has been enabled.
-AUTOCLAIM_VOTE_REQUIREMENT: You must **__vote__** for our server and bot before being able to enable autoclaim!
-HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | HoYoLAB Daily Sign-in
+  Чтобы начать, нажмите на один из вариантов регистрации пользователя ниже!
+HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Автоматические ежедневные отметки
+AUTOCLAIM_ALREADY_DISABLED: Автоматические ежедневные отметки HoYoLAB уже отключены.
+AUTOCLAIM_ALREADY_ENABLED: Автоматические ежедневные отметки HoYoLAB уже включены.
+AUTOCLAIM_DISABLED: Автоматическая ежедневная регистрация в HoYoLAB отключена.
+AUTOCLAIM_ENABLED: Автоматические ежедневные отметки HoYoLAB включены.
+AUTOCLAIM_VOTE_REQUIREMENT: Вы должны **__vote__** за наш сервер и бота, прежде чем сможете включить автоматические отметки!
+HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | Ежедневные отметки HoYoLAB
 HOYOLAB_SIGN_IN_REWARDS: |
-  Successfully **claimed** daily reward!
+  Успешно **забрали** ежедневную награду!
 
-  Rewards Claimed: `{rewards}`
-  Amount: `x{amount}`
-HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | HoYoLAB Monthly Rewards
-HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: View HoYoLAB daily rewards for the month
-HOYOLAB_DIARY_TITLE: Genshin Wizard | Traveler's Diary
+  Награды: `{rewards}`
+  Количество: `x{amount}`
+HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | Ежемесячные награды HoYoLAB
+HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: Просмотр ежедневных наград HoYoLAB за месяц
+HOYOLAB_DIARY_TITLE: Genshin Wizard | Заметки путешественника
 HOYOLAB_INVALID_REDEEM: |
-  You must provide a redemption code to redeem.
-  **Proper Command Usage** ```/redeem CODE_ONE,CODE_TWO,...```
-CHINA_NOT_ALLOWED: Redeeming codes for CN users is **not supported** as of yet.
-HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | HoYoLAB Overview
-HOYOLAB_LOADING_ACCOUNT: Loading account information...
-HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Real-time Notes** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
-HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Game Record** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
-HOYOLAB_ACCOUNT_ERROR: There was an error grabbing your account's information! Please try again *later*.
-HOYOLAB_ACCOUNT_MANAGE: Manage your HoYoLAB account through Genshin Wizard
-HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Character Summary
-CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /register!
-GCG_NO_CARDS_FOUND: No Cards Found!
-GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Traveler! Unfortunately, {member} has **no cards** yet! Head-in game and play some TCG on Genshin Impact *before* using this command.
-HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
+  Вы должны указать промокоды для активации.
+  **Правильное использование команды** ```/redeem CODE_ONE,CODE_TWO,...```
+CHINA_NOT_ALLOWED: Промокоды для пользователей CN **пока не поддерживается**.
+HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | Обзор HoYoLAB
+HOYOLAB_LOADING_ACCOUNT: Загрузка информации об аккаунте...
+HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> Произошла ошибка при получении информации о **Заметках в режиме реального времени** вашего аккаунта! Пожалуйста, попробуйте еще раз *позже* или присоединяйтесь к нашему [**Официальному серверу поддержки**](https://discord.gg/BTT5Zr7Dmp) за помощью.
+HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> Произошла ошибка при получении информации о **Игровых Записях** вашего аккаунта! Пожалуйста, попробуйте еще раз *позже* или присоединяйтесь к нашему [**Официальному серверу поддержки**](https://discord.gg/BTT5Zr7Dmp) за помощью.
+HOYOLAB_ACCOUNT_ERROR: Произошла ошибка при получении информации о вашем аккаунте! Пожалуйста, повторите попытку *позже*.
+HOYOLAB_ACCOUNT_MANAGE: Управляйте своим аккаунтом HoYoLAB с помощью Genshin Wizard
+HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Сводка Персонажа
+CHARACTER_SUMMARY_NOT_FULL: Сводная информация о персонаже основана на истории получения gacha. Чтобы увидеть полную и наиболее точную информацию о персонаже (уровни, дружеские связи, созвездия и уровень AR), пожалуйста, воспользуйтесь ссылкой /register!
+GCG_NO_CARDS_FOUND: Карты не найдены!
+GCG_NO_CARDS_FOUND_DESCRIPTION: Эй, путешественник! К сожалению, у {member} пока **нет карт**! Войдите в игру и поиграйте немного в Genshin Impact TCG, *прежде чем* использовать эту команду.
+HOYOLAB_REGISTER_SCRIPT_TITLE: Регистрация | Скриптовый метод
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
   **How to link your HoYoLAB account with Genshin Wizard**
   > **1.** To begin with, login to your [**HoYoLAB**](https://www.hoyolab.com/home) account.
@@ -430,74 +431,74 @@ HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
   > **3.** Once you've successfully ran the script, click the `Click here to copy!` button to copy the cookie.
   > **4.** Finally, you're able to register by clicking the `Enter Token` button below and pasting the token you copied.
 HOYOLAB_REGISTER_SCRIPT: |
-  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)```
-HOYOLAB_REGISTER_LOGIN_TITLE: Registration | Login Method
+  ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Пожалуйста, выйдите и снова войдите, прежде чем пытаться снова, срок действия cookie в настоящее время истек/недействителен!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Нажмите здесь, чтобы скопировать!</button>`)```
+HOYOLAB_REGISTER_LOGIN_TITLE: Регистрация | Логин метод
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin, select the `Register` button down below.
-  > **2.** In the input fields, enter your HoYoLAB account login details, remember to use your **email** and password.
-  > **3.** Once you've successfully entered your account details, wait for Genshin Wizard to process your registration request, bear in mind that this may take a minute or two.
-  > **4.** Finally, if all the steps are done correctly, you will receive a **confirmation message** via DMs indicating that your account has been successfully linked.
+  ****Как привязать свой аккаунт HoYoLAB к Genshin Wizard****
+  > **1.** Чтобы начать, нажмите кнопку `Зарегистрироваться` внизу.
+  > **2.** В полях ввода введите данные для входа в свой аккаунт HoYoLAB, не забудьте использовать свою **почту** и пароль.
+  > **3.** После того, как вы успешно ввели данные своего аккаунта, дождитесь, пока Genshin Wizard обработает ваш запрос на регистрацию, имейте в виду, что это может занять минуту или две.
+  > **4.** Наконец, если все шаги выполнены правильно, вы получите **подтверждающее сообщение** через ЛС, указывающее на то, что ваш аккаунт был успешно привязан.
 
-  <:information:1021014187197083668> **Note:** This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead.
-HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
-ARE_YOU_SURE: Are you sure?
+  <:information:1021014187197083668> **Примечание:** Этот метод приведен здесь просто для удобства/качества. Если вы беспокоитесь о безопасности своего аккаунта, пожалуйста, используйте вместо этого метод скрипта или другую форму регистрации.
+HOYOLAB_REGISTER_LOGIN_FOOTER: Дружеское напоминание о том, что Genshin Wizard не хранит никаких данных вашего аккаунта! Этот метод регистрации извлекает необходимые файлы cookie, необходимые для просмотра статистики вашего аккаунта.
+ARE_YOU_SURE: Вы уверены?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
-  You have requested to **unlink** your HoYoLAB account from Genshin Wizard.
-  This means that you will no longer be able to *claim your daily rewards*, view your *full abyss progression*, and other extended features such as *viewing all your characters*.
-UNLINKING_SUCCESSFUL: Unlinking successful!
-UNLINKING_SUCCESSFUL_DESCRIPTION: Your account has been successfully unlinked from Genshin Wizard!
-UNLINKING_UNSUCCESSFUL: Unlinking unsuccessful!
-UNLINKING_UNSUCCESSFUL_DESCRIPTION: Oops! Unlinking was unsuccessful, there was an error. Please try again or contact a staff member!
-UNLINKING_CANCELLED: Unlinking cancelled!
-UNLINKING_CANCELLED_DESCRIPTION: You have cancelled your unlink request!
-OBTAINED_KEY: Obtained
-NOT_OWNED_KEY: Not Owned
-PROFICIENCY_KEY: Proficiency
-USE_COUNT_KEY: Use Count
-IMPORT_ERROR: Import Error!
-FOOTER_ERROR_DESCRIPTION: If you believe this is an error, please contact a staff member.
+  Вы запросили **отвязать** ваш аккаунт HoYoLAB от Genshin Wizard.
+  Это означает, что вы больше не сможете *получать свои ежедневные награды*, просматривать свой *полный прогресс бездны* и другие расширенные функции, такие как *просмотр всех ваших персонажей*.
+UNLINKING_SUCCESSFUL: Успешная отвязка!
+UNLINKING_SUCCESSFUL_DESCRIPTION: Ваш аккаунт был успешно отвязан от Genshin Wizard!
+UNLINKING_UNSUCCESSFUL: Отвязка не удалась!
+UNLINKING_UNSUCCESSFUL_DESCRIPTION: Упс! Отвязка не удалась, произошла ошибка. Пожалуйста, попробуйте еще раз или обратитесь к персоналу!
+UNLINKING_CANCELLED: Отвязка отменена!
+UNLINKING_CANCELLED_DESCRIPTION: Вы отменили свой запрос на отвязку!
+OBTAINED_KEY: Получено
+NOT_OWNED_KEY: Не получено
+PROFICIENCY_KEY: Мастерство
+USE_COUNT_KEY: Количество использований
+IMPORT_ERROR: Ошибка импорта!
+FOOTER_ERROR_DESCRIPTION: Если вы считаете, что это ошибка, пожалуйста, свяжитесь с персоналом.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  Данные, которые вы пытаетесь импортировать, **не поддерживаются**. В настоящее время мы разрешаем импорт *только* из следующих источников:
   {supported_file_types}
-  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-IMPORT_COMMAND_TITLE: Genshin Wizard | Import Wish History
+  Обратитесь к нашей [**Документации**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) для получения дополнительной информации.
+IMPORT_COMMAND_TITLE: Genshin Wizard | Импорт истории молитв
 IMPORT_COMMAND_FILE_DETECTED: |
-  **Detected Import Source: `{source}`**
-  *Please wait while we import your wish history...*
-IMPORT_COMMAND_TAMPERED: The data you are trying to import has been **tampered** with. Please **don't change** anything within the files before importing, try redownloading the data and importing *again*.
-IMPORT_COMMAND_BANNER_IMPORTED: Successfully imported `{number_wishes}` wishes for {banner_name} banner!
-IMPORT_COMMAND_SUCCESS: Successfully imported `{total_wishes}` new wishes from all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
+  **Обнаружен источник импорта: `{source}`**
+  *Пожалуйста, подождите, пока мы импортируем историю ваших молитв...*
+IMPORT_COMMAND_TAMPERED: Данные, которые вы пытаетесь импортировать, были **подделаны**. Пожалуйста, **не меняйте** ничего в файлах перед импортом, попробуйте повторно загрузить данные и импортировать *еще раз*.
+IMPORT_COMMAND_BANNER_IMPORTED: Успешно импортировано `{number_wishes}` молитв для баннера {banner_name}!
+IMPORT_COMMAND_SUCCESS: Успешно импортировано `{total_wishes}` новых молитв со всех баннеров! Теперь вы можете использовать команду </history:{command_id}> для просмотра дополнительной информации о ваших молитвах.
 IMPORT_COMMAND_LOG: |
-  **User:** {user} | `{user_id}`
-  **Name:** `{name}`
-  **Guild:** `{guild_id}` | `{guild_name}`
+  **Пользователь:** {user} | `{user_id}`
+  **Имя:** `{name}`
+  **Гильдия:** `{guild_id}` | `{guild_name}`
 
-  **Detected Import Source:** `{source}`
-  **Total:** `{total}` wishes imported!
-  > 3-Stars: `{three_star}`
-  > 4-Stars: `{four_star}`
-  > 5-Stars: `{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </register:{command_id}>.
-IMPORT_COMMAND_LINK_EXPIRED_TITLE: History Link Expired!
-IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Your history link has **expired**! Please refresh using the command </refresh:{command_id}> before trying to import!
-IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **excel** sheet from their [Wish Counter](https://paimon.moe/wish) page settings. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: This file type is **not supported**. Please make sure you're not *changing* the file type before trying to import. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-LEADERBOARD_NO_DATA: No data found for this specific query!
-LEADERBOARD_EXPERIENCE_FOOTER: Experience can be gained by being active in the server. Chat more to increase your Genshin Wizard ranking level!
-LEADERBOARD_WISHES_FOOTER: Wishes are updated via banner summary and refresh command(s). Check your banners to actively get an updated wish count!
-LEADERBOARD_PLAYTIME_FOOTER: Playtime is updated via stats/info commands, check your stats/builds frequently to actively get an updated playtime count!
-LEADERBOARD_ACHIEVEMENTS_FOOTER: Achievements are updated via stats/info commands, check your stats/builds frequently to actively get an updated achievement count!
-LEADERBOARD_CHESTS_FOOTER: Chests are updated via stats commands, check your stats frequently to actively get an updated chest count!
-LEADERBOARD_GACHA_SIMULATOR_FOOTER: Simulator leaderboards are updated via gacha simulator commands, use the gacha simulator actively to climb the ranks!
-LEADERBOARD_ARTIFACT_FOOTER: Artifact information is updated via info commands, check your builds frequently to actively get updated artifact stats!
-LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Character stats information is updated via info commands, check your builds frequently to actively get updated character stats!
-LEADERBOARD_ABYSS_FOOTER: Abyss statistics are updated via the abyss progression command, check your abyss progression frequently to get an updated statistics measurement!
-LEADERBOARD_DONATION_FOOTER: Donate via the support links found in the /donate command to obtain a spot on this exquisite leaderboard!
-LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Crunching data, please be **patient**...* <a:tyno:1001656937689120788>
-ERROR_GUILD_ONLY_BUTTON: ":no_entry: You must be in a guild to use this button!"
-QUERY_NO_RESULTS: "No results found for `{input}`. Please rephrase and try again!"
-LOCATION_COMMAND_ROUTES_TITLE: Farming Routes Overview
+  **Обнаружен источник импорта:** `{source}`
+  **Всего:** `{total}` молитв импортировано!
+  > 3-Звёзд: `{three_star}`
+  > 4-Звёзд: `{four_star}`
+  > 5-Звёзд: `{five_star}`
+IMPORT_COMMAND_NOT_REGISTERED: Вы уже должны быть **зарегистрированы**, чтобы импортировать ранее существовавшую историю молитв! Попробуйте импортировать еще раз после регистрации с помощью команды </register:{command_id}>.
+IMPORT_COMMAND_LINK_EXPIRED_TITLE: Срок действия ссылки на историю истек!
+IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Срок действия вашей ссылки на историю **истек**! Пожалуйста, обновите с помощью команды </refresh:{command_id}> перед попыткой импорта!
+IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: Этот тип файлов **не поддерживается**. Если вы пытаетесь импортировать данные из `Paimon.moe`, пожалуйста, убедитесь, что вы загружаете таблицу **excel** из их настройки [Счетчика молитв](https://paimon.moe/wish). Обратитесь к нашей [**Документации**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) для получения дополнительной информации.
+IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: Этот тип файла **не поддерживается**. Пожалуйста, убедитесь, что вы не *меняете* тип файла, прежде чем пытаться импортировать. Обратитесь к нашей [**Документации**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) для получения дополнительной информации.
+LEADERBOARD_NO_DATA: Данные по этому конкретному запросу не найдены!
+LEADERBOARD_EXPERIENCE_FOOTER: Опыт можно получить, проявляя активность на сервере. Больше общайтесь в чате, чтобы повысить свой уровень в рейтинге Genshin Wizard!
+LEADERBOARD_WISHES_FOOTER: Молитвы обновляются с помощью сводки баннеров и команд обновления. Проверяйте свои баннеры, чтобы активно получать обновленное количество молитв!
+LEADERBOARD_PLAYTIME_FOOTER: Время игры обновляется с помощью команд статистики/информация, почаще проверяйте свою статистику/сборки, чтобы получать обновленное количество время игры!
+LEADERBOARD_ACHIEVEMENTS_FOOTER: Достижения обновляются с помощью команд статистики/информация, почаще проверяйте свою статистику/сборки, чтобы получать обновленное количество достижений!
+LEADERBOARD_CHESTS_FOOTER: Сундуки обновляются с помощью команды статистики, почаще проверяйте свою статистику, чтобы получать обновленное количество сундуков!
+LEADERBOARD_GACHA_SIMULATOR_FOOTER: Таблицы лидеров симуляторов обновляются с помощью команд gacha симулятор, активно используйте gacha симулятор, чтобы поднимать свой рейтинг!
+LEADERBOARD_ARTIFACT_FOOTER: Информация об артефактах обновляется с помощью информационных команд, почаще проверяйте свои сборки, чтобы получать обновленную статистику артефактов!
+LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Информация о статистике персонажа обновляется с помощью информационных команд, почаще проверяйте свои сборки, чтобы получать обновленную статистику персонажа!
+LEADERBOARD_ABYSS_FOOTER: Статистика бездны обновляется с помощью команды прогресс бездны, почаще проверяйте свой прогресс бездны, чтобы получать обновленные статистические данные!
+LEADERBOARD_DONATION_FOOTER: Сделайте пожертвование по ссылкам поддержки, найденным в команде /donate, чтобы получить место в этой изумительной таблице лидеров!
+LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Обработка данных, пожалуйста, будьте **терпеливым**...* <a:tyno:1001656937689120788>
+ERROR_GUILD_ONLY_BUTTON: ":no_entry: Вы должны быть в гильдии, чтобы использовать эту кнопку!"
+QUERY_NO_RESULTS: "Результатов по запросу `{input}` не найдено. Пожалуйста, перефразируйте и попробуйте еще раз!"
+LOCATION_COMMAND_ROUTES_TITLE: Обзор маршрутов фарма
 LOCATION_COMMAND_MAP_TITLE: "{resource} Map Locations"
 LOCATION_COMMAND_REGION_DESCRIPTION: "Local {region} Specialty:"
 LOCATION_COMMAND_FARMABLE_FOOTER: Farmable locations for specified material
@@ -507,12 +508,12 @@ CALC_CHARACTER_INVALID_TARGET_LEVEL: You need to specify a valid target level!
 CALC_CHARACTER_REQUIREMENT_SURPASSED: Character has already **surpassed** the given desired level!
 CALC_CHARACTER_REQUIREMENT_MET: Character has already **reached** the given desired level!
 CALC_CHARACTER_TITLE: Genshin Wizard | Character Calculator
-CHARACTER_KEY: Character
+CHARACTER_KEY: Персонаж
 CURRENT_LEVEL_KEY: Current Level
 TARGET_LEVEL_KEY: Target Level
 REQUIRED_RESOURCES_KEY: Required Resources
-GENSHIN_WIZARD_USER_PROFILE: "{user}'s Genshin Wizard Profile"
-PROFILE_SUMMARY_KEY: Profile Summary
+GENSHIN_WIZARD_USER_PROFILE: "{user} Genshin Wizard Профиль"
+PROFILE_SUMMARY_KEY: Информация о профиле
 GENSHIN_WISH_STATS_KEY: Genshin Wish Stats
 PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
 GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
@@ -545,7 +546,7 @@ PRIVACY_SETTING_OVERVIEW: |
   > *Hide your showcase builds information from showing up anywhere (`/info`)*
 ALL_KEY: All
 RESET_KEY: Reset
-WISH_HISTORY_KEY: Wish History
+WISH_HISTORY_KEY: История молитв
 ABYSS_KEY: Abyss
 UID_KEY: UID
 STATS_KEY: Stats
@@ -559,9 +560,9 @@ SETTING_BANNER_UPDATE: Your banner has been successfully updated!
 SETTING_BIOGRAPHY_ILLEGAL: Hey Traveler! Your input contains words that **aren't allowed** by Genshin Wizard! Please consider trying something *different* for your bio.
 DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
 SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
-BIOGRAPHY_KEY: Bio
+BIOGRAPHY_KEY: О себе
 BANNER_KEY: Banner
-ELEMENTAL_RESONANCE_KEY: Elemental Resonance
+ELEMENTAL_RESONANCE_KEY: Элементальный Резонанс
 BUILDS_ART_STYLE_KEY: Builds Art Style
 ART_STYLE_KEY: Art Style
 FANART_KEY: Fanart
@@ -598,16 +599,16 @@ UID_LOOKUP: Genshin UID Lookup
 UID_LOOKUP_TITLE: "{user}'s Genshin Account UID"
 PUBLIC_KEY: Public
 PRIVATE_KEY: Private
-CREATION_DATA_KEY: Creation Date
-JOIN_DATE_KEY: Join Date
+CREATION_DATA_KEY: Дата Создания
+JOIN_DATE_KEY: Дата Присоединения
 NOT_HERE_KEY: Not Here
-LOCATION_KEY: Location
-TOP_ROLE_KEY: Top Role
-RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
-RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
-WISHES_WORTH_KEY: Wishes Worth
-OVERALL_SUMMARY_KEY: Overall Summary
-OVERALL_STATS_KEY: Overall Stats
+LOCATION_KEY: Местоположение
+TOP_ROLE_KEY: Наивысшая Роль
+RECENT_FIVE_STAR_CHARACTER: "**Последние 5 :star: Персонажи**"
+RECENT_FIVE_STAR_WEAPON: "**Последние 5 :star: Оружия**"
+WISHES_WORTH_KEY: Стоимость Молитв
+OVERALL_SUMMARY_KEY: Общая Информация
+OVERALL_STATS_KEY: Общая Статистика
 PERCENTAGE_KEY: Percentage
 TOTAL_WISHES_KEY: Total Wishes
 TOTAL_KEY: Total
@@ -702,7 +703,7 @@ UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data fr
 UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If this is a mistake and you are looking to *recover* your Genshin Wizard account, use the </recover:{command_id}> command. If you need further assistance, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Registration
-GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Register your Genshin account to Genshin Wizard.
+GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Зарегистрируйте свой аккаунт Genshin в Genshin Wizard.
 HOYOLAB_ACCOUNT: HoYoLAB Account
 LINKED_UID_KEY: Linked UID
 LINKED_KEY: Linked
@@ -769,7 +770,7 @@ NOT_ENABLED_KEY: Not Enabled
 NO_REMINDERS_SET_KEY: No Reminders Set!
 RESIN_REMINDERS_KEY: Resin Reminders
 EXPEDITION_REMINDERS_KEY: Expedition Reminders
-SERENITEA_POT_KEY: Serenitea Pot
+SERENITEA_POT_KEY: Чайник Безмятежности
 PARAMETRIC_REMINDERS_KEY: Parametric Transformer
 RESIN_REMINDERS_DESCRIPTION: |
   You currently have **<:fragileresin:1029984988583706654>{current_resin}** resin!
@@ -823,7 +824,7 @@ PLEASE_WAIT_DESCRIPTION: Waiting! There is nothing you can do to get past this a
 PLAYER_TITLE: Player {player}
 USER_TITLE: User {user}
 OVERVIEW_KEY: Overview
-GENERAL_OVERVIEW_KEY: General Overview
+GENERAL_OVERVIEW_KEY: Общий Обзор
 GENERAL_OVERVIEW_SECTION: |
   Adventure Rank: {adventure_rank}
   Total achievements: {achievement_number}
@@ -831,10 +832,10 @@ GENERAL_OVERVIEW_SECTION: |
   Characters: **{char_count}**/{total_char}
   Spiral Abyss: {abyss}
   Region: {region}
-CHEST_PROGRESSION_KEY: Chest Progression
-EXPLORATION_AND_OCULI: Exploration & Oculi
+CHEST_PROGRESSION_KEY: Прогресс Сундуков
+EXPLORATION_AND_OCULI: Исследование & Окулусы
 NOT_YET_UNLOCKED: Not Yet Unlocked!
-STATISTICS_COMMAND_FOOTER: "Note: Statistics may be incorrectly shown or missing data, there is nothing we can do on our end to prevent this, it's an API error on HoYoLAB's end."
+STATISTICS_COMMAND_FOOTER: "Примечание: Статистика может отображаться некорректно или в ней могут отсутствовать данные, мы не можем ничего сделать для предотвращения этого, это ошибка API со стороны HoYoLAB."
 CONGRATULATIONS_KEY: Congratulations!
 ABYSS_CONGRATULATE_MESSAGE: |
   Congratulations {user} on perfectly *clearing* the Spiral Abyss!
@@ -848,8 +849,8 @@ MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard is missing permissio
 ROLE_NOT_FOUND: ":no_entry: There was an error retrieving the role. Please make sure the role information under this integration is correct."
 GENSHIN_STATS_HEADER: "{name}'s Genshin Stats"
 PROCESSING_BANNER_TRANSITION: Processing {banner} Banner...
-WEAPON_KEY: Weapon
-PERMANENT_KEY: Permanent
+WEAPON_KEY: Оружие
+PERMANENT_KEY: Постоянный
 NOVICE_KEY: Novice
 STARDUST_EXCHANGES: Stardust Exchanges
 STARGLITTER_EXCHANGES: Starglitter Exchanges
@@ -1085,7 +1086,7 @@ GACHA_COMMAND_LINK_EXPIRED: Your wish history link has expired! Use `/refresh` t
 GACHA_COMMAND_LINK_EXPIRED_FOOTER: "Note: Do keep in mind, since your wish history link has expired, the information above may be inaccurate. To update your wishes, it is recommended to update your wish history link using /refresh!"
 SOMETHING_WENT_WRONG: Something went wrong!
 SOMETHING_WENT_WRONG_FOOTER: If this error persists, please contact a bot administrator!
-GACHA_NO_BANNER_WISHES: You have no wishes for {banner} banner!
+GACHA_NO_BANNER_WISHES: У вас нет молитв для {banner} баннера!
 GACHA_SUMMARY_FOOTER: "Genshin Wish Summary for: {user}"
 GENSHIN_WISH_SUMMARY: Genshin Wish Summary
 SLASH_COMMAND_NEED_HELP: |
@@ -1130,7 +1131,7 @@ REGISTER_SCRIPT_BUTTON: Register via Script
 REGISTER_LOGIN_BUTTON: Register via Login
 ENTER_TOKEN_BUTTON: Enter Token
 REGISTER_ACCOUNT_BUTTON: Register Account
-CHARACTERS_BUTTON: Characters
+CHARACTERS_BUTTON: Персонажи
 CLAIM_DAILY_REWARD_BUTTON: Claim Daily Reward
 MONTHLY_REWARDS_BUTTON: Monthly Rewards
 VIEW_TRAVELER_DIARY_BUTTON: View Traveler's Diary
@@ -1220,14 +1221,14 @@ MASTER_PRIVACY_BUTTON: Master Privacy
 UPDATE_BANNER_MODAL_TITLE: Update Banner
 UPDATE_BANNER_MODAL_URL_INPUT: Link to desired image for banner
 UPDATE_BANNER_MODAL_URL_PLACEHOLDER: https://some.link/to/image.png
-UPDATE_BIO_MODAL_TITLE: Update Bio
-UPDATE_BIO_MODAL_LABEL: A short description about you. (200 chars)
+UPDATE_BIO_MODAL_TITLE: Обновить информацию о себе
+UPDATE_BIO_MODAL_LABEL: Краткое описание о себе. (200 символов)
 UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
 SELECT_CHOOSE_CATEGORY: Choose a category...
-PROFILE_KEY: Profile
-PROFILE_DESCRIPTION: View your Genshin Wizard profile
+PROFILE_KEY: Профиль
+PROFILE_DESCRIPTION: Посмотреть свой профиль Genshin Wizard
 GENSHIN_STATISTICS_KEY: Genshin Stats
-GENSHIN_STATISTICS_DESCRIPTION: View your Genshin stats
+GENSHIN_STATISTICS_DESCRIPTION: Посмотреть свою статистику по Genshin
 SPIRAL_ABYSS_STATISTICS_KEY: Spiral Abyss Stats
 SPIRAL_ABYSS_STATISTICS_DESCRIPTION: View your Spiral Abyss progression stats
 COPY_UID_KEY: Copy UID
@@ -1397,7 +1398,7 @@ CROWDIN_LINK_KEY: Crowdin Link
 OFFICIAL_REPOSITORY_KEY: Official Repository
 OFFICIAL_REPOSITORY_LINK_KEY: Official Repository Link
 GENSHIN_WIZARD_TRANSLATE_TITLE: Contribute to Genshin Wizard Translations
-GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: Click one of the links below to contribute to Genshin Wizard translations!
+GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: Нажмите на одну из ссылок ниже, чтобы внести свой вклад в перевод Genshin Wizard!
 APP_COMMAND_LANGUAGE_DESCRIPTION: Change your language for Genshin Wizard.
 APP_COMMAND_DESCRIBE_LANGUAGE: The language you want Genshin Wizard to be set to.
 GENSHIN_WIZARD_LANGUAGE_SWITCHED: Default language for Genshin Wizard switched to **{language}**!
@@ -1489,7 +1490,7 @@ TRANSFORMER_LOCKED_KEY: Locked
 GENSHIN_STATS_KEY: Genshin Stats
 STATS_TOTAL_ACHIEVEMENTS_KEY: "Total Achievements"
 STATS_TOTAL_ACTIVE_DAYS_KEY: "Total Active Days"
-STATS_TOTAL_CHARACTERS_KEY: "Characters"
+STATS_TOTAL_CHARACTERS_KEY: "Персонажи"
 STATS_SPIRAL_ABYSS_KEY: "Spiral Abyss"
 STATS_REGION_KEY: "Region"
 STATS_WAYPOINTS_KEY: "Waypoints"
@@ -1615,7 +1616,7 @@ RECENT_PITIES_KEY: Recent Pities
 NOVICE_BANNER_KEY: Novice Banner
 CHARACTER_BANNER_KEY: Character Banner
 WEAPON_BANNER_KEY: Weapon Banner
-PERMANENT_BANNER_KEY: Permanent Banner
+PERMANENT_BANNER_KEY: Постоянный баннер
 FIVE_STAR_PITY: 5-Star Pity
 FOUR_STAR_PITY: 4-Star Pity
 FIVE_STAR_PERCENTAGE: 5-Star Percentage
@@ -1645,8 +1646,8 @@ NOTIFICATIONS_KEY: Notifications
 DAILY_AUTOCLAIM_KEY: Daily Auto-Claim
 DAILY_CHECKIN_KEY: Daily Check-In
 INVOKATION_VICTORIES: "{win_count} Victories"
-WORLD_EXPLORATIONS: World Explorations
-REPUTATION_LEVELS: Reputation Levels
+WORLD_EXPLORATIONS: Исследования Мира
+REPUTATION_LEVELS: Уровни Репутации
 REGISTER_SCRIPT_ALERT: Please logout and log back in before trying again, cookie is currently expired/invalid!
 REGISTER_SCRIPT_COPY_BUTTON: Click here to copy!
 ACCOUNT_EMAIL_KEY: Account Email

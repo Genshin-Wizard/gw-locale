@@ -51,7 +51,7 @@ TRUTH_COMMAND_RESPONSES:
   - Tak.
   - Pozytywny.
   - Z mojego punktu widzenia, tak.
-  - Convinced.
+  - Przekonany.
   - To jest pewne.
   - Zdecydowanie tak.
   - Bez wątpienia.
@@ -69,7 +69,7 @@ TRUTH_COMMAND_RESPONSES:
   - Nie mogę teraz przewidzieć.
   - Jestem zmęczony. *kontynuuje spanie*
   - Absolutnie.
-TRUTH_COMMAND_TITLE: Paimon's Wisdom
+TRUTH_COMMAND_TITLE: Mądrość Paimon
 QUESTION_KEY: Pytanie
 RESPONSE_KEY: Odpowiedź
 PREFIX_COMMAND_CURRENT: Prefiks dla tego serwera to `{prefix}`
@@ -143,10 +143,10 @@ ERROR_MISSING_REQUIRED_ARGUMENT: "You forgot to provide an argument, please use 
 ERROR_MISSING_REQUIRED_ATTACHMENT: "You forgot to provide an attachment, please use the correct format: ```{usage} with the correct attachment.```"
 ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, I do not have permission to `Manage Messages` within this channel/guild. Please enable this permission and try again.
 ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
-MESSAGE_KEY: Message
+MESSAGE_KEY: Wiadomość
 ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
 ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
-ERROR_MESSAGE: There has been an error!
+ERROR_MESSAGE: Wystąpił błąd!
 FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
 FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
 FEEDBACK_LOG_RESPONSE: |
@@ -352,11 +352,11 @@ APP_COMMAND_DESCRIBE_CODE_CHANNEL: The channel you want to send the message in.
 APP_COMMAND_DESCRIBE_CODE_PING: The role you want to mention along with the message.
 APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated by a comma.
 APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
-APP_CONTEXT_MENU_PROFILE: Profile
-APP_CONTEXT_MENU_STATISTICS: Stats Progression
-APP_CONTEXT_MENU_ABYSS: Abyss Progression
-APP_CONTEXT_MENU_CHARACTERS: Characters
-APP_CONTEXT_MENU_WISH_HISTORY: Wish History
+APP_CONTEXT_MENU_PROFILE: Profil
+APP_CONTEXT_MENU_STATISTICS: Postęp Statystyk
+APP_CONTEXT_MENU_ABYSS: Postęp Otchłani
+APP_CONTEXT_MENU_CHARACTERS: Postaci
+APP_CONTEXT_MENU_WISH_HISTORY: Historia Życzeń
 WHITELIST_KEY_LOWERCASE: whitelist
 HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Wishes"
 SLASH_PAGINATION: Page {current_page}/{total_pages}
@@ -440,7 +440,7 @@ HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
   > **4.** Finally, if all the steps are done correctly, you will receive a **confirmation message** via DMs indicating that your account has been successfully linked.
 
   <:information:1021014187197083668> **Note:** This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead.
-HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
+HOYOLAB_REGISTER_LOGIN_FOOTER: Przypominamy, że Genshin Wizard nie przechowuje danych Twojego konta. Ta metoda rejestracji pobiera niezbędne pliki cookies wymagane do podglądu statystyk Twojego konta.
 ARE_YOU_SURE: Are you sure?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
   You have requested to **unlink** your HoYoLAB account from Genshin Wizard.
@@ -545,7 +545,7 @@ PRIVACY_SETTING_OVERVIEW: |
   > *Hide your showcase builds information from showing up anywhere (`/info`)*
 ALL_KEY: All
 RESET_KEY: Reset
-WISH_HISTORY_KEY: Wish History
+WISH_HISTORY_KEY: Historia Życzeń
 ABYSS_KEY: Abyss
 UID_KEY: UID
 STATS_KEY: Stats
@@ -1130,7 +1130,7 @@ REGISTER_SCRIPT_BUTTON: Register via Script
 REGISTER_LOGIN_BUTTON: Register via Login
 ENTER_TOKEN_BUTTON: Enter Token
 REGISTER_ACCOUNT_BUTTON: Register Account
-CHARACTERS_BUTTON: Characters
+CHARACTERS_BUTTON: Postaci
 CLAIM_DAILY_REWARD_BUTTON: Claim Daily Reward
 MONTHLY_REWARDS_BUTTON: Monthly Rewards
 VIEW_TRAVELER_DIARY_BUTTON: View Traveler's Diary
@@ -1224,7 +1224,7 @@ UPDATE_BIO_MODAL_TITLE: Update Bio
 UPDATE_BIO_MODAL_LABEL: A short description about you. (200 chars)
 UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
 SELECT_CHOOSE_CATEGORY: Choose a category...
-PROFILE_KEY: Profile
+PROFILE_KEY: Profil
 PROFILE_DESCRIPTION: View your Genshin Wizard profile
 GENSHIN_STATISTICS_KEY: Genshin Stats
 GENSHIN_STATISTICS_DESCRIPTION: View your Genshin stats
@@ -1489,7 +1489,7 @@ TRANSFORMER_LOCKED_KEY: Locked
 GENSHIN_STATS_KEY: Genshin Stats
 STATS_TOTAL_ACHIEVEMENTS_KEY: "Total Achievements"
 STATS_TOTAL_ACTIVE_DAYS_KEY: "Total Active Days"
-STATS_TOTAL_CHARACTERS_KEY: "Characters"
+STATS_TOTAL_CHARACTERS_KEY: "Postaci"
 STATS_SPIRAL_ABYSS_KEY: "Spiral Abyss"
 STATS_REGION_KEY: "Region"
 STATS_WAYPOINTS_KEY: "Waypoints"
