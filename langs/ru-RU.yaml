@@ -182,7 +182,7 @@ APP_COMMAND_REDEEM_DESCRIPTION: Активировать промокоды дл
 APP_COMMAND_HOYO_DESCRIPTION: Проверьте свой аккаунт HoYoLAB с помощью Genshin Wizard.
 APP_COMMAND_CHARACTERS_DESCRIPTION: Посмотреть свою сводку персонажей аккаунта Genshin.
 APP_COMMAND_TCG_DESCRIPTION: Просмотр витрины вашего аккаунта Genius Invocation TCG.
-APP_COMMAND_IMPORT_DESCRIPTION: Импортируйте свою историю молитв гачи с других популярных сайтов.
+APP_COMMAND_IMPORT_DESCRIPTION: Импортируйте свою историю gacha молитв с других популярных сайтов.
 APP_COMMAND_LEADERBOARD_DESCRIPTION: Посмотреть таблицы лидеров Genshin Wizard.
 APP_COMMAND_LOCATION_DESCRIPTION: Показать известное местоположение указанного ресурса.
 APP_COMMAND_LOCATIONS_DESCRIPTION: Показать список доступных мест расположения ресурсов.
@@ -200,7 +200,7 @@ APP_COMMAND_UNLINK_DESCRIPTION: Отвязать ваш аккаунт Genshin �
 APP_COMMAND_REMINDERS_DESCRIPTION: Настройте напоминания для уведомления о смоле, чайнике и экспедициях.
 APP_COMMAND_RESIN_DESCRIPTION: Настройте напоминание смолы для уведомления вас о повторной зарядке смолы.
 APP_COMMAND_GACHA_DESCRIPTION: Отображение обновленной информации о вашей истории для указанного баннера.
-APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Проверьте свою удачу гачи с Симулятором Genshin Wish!
+APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Проверьте свою удачу gacha с Симулятором Genshin Wish!
 APP_COMMAND_INVENTORY_DESCRIPTION: Просмотрите ваш виртуальный инвентарь Genshin Wizard.
 APP_COMMAND_SHOP_DESCRIPTION: Просматривайте магазин Мастера Genshin.
 APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: Просматривайте архивы персонажей вашего Мастера Гениншина.
@@ -487,18 +487,18 @@ IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: Этот тип файла **не подде
 LEADERBOARD_NO_DATA: Данные по этому конкретному запросу не найдены!
 LEADERBOARD_EXPERIENCE_FOOTER: Опыт можно получить, проявляя активность на сервере. Больше общайтесь в чате, чтобы повысить свой уровень в рейтинге Genshin Wizard!
 LEADERBOARD_WISHES_FOOTER: Молитвы обновляются с помощью сводки баннеров и команд обновления. Проверяйте свои баннеры, чтобы активно получать обновленное количество молитв!
-LEADERBOARD_PLAYTIME_FOOTER: Playtime is updated via stats/info commands, check your stats/builds frequently to actively get an updated playtime count!
-LEADERBOARD_ACHIEVEMENTS_FOOTER: Achievements are updated via stats/info commands, check your stats/builds frequently to actively get an updated achievement count!
-LEADERBOARD_CHESTS_FOOTER: Chests are updated via stats commands, check your stats frequently to actively get an updated chest count!
-LEADERBOARD_GACHA_SIMULATOR_FOOTER: Simulator leaderboards are updated via gacha simulator commands, use the gacha simulator actively to climb the ranks!
-LEADERBOARD_ARTIFACT_FOOTER: Artifact information is updated via info commands, check your builds frequently to actively get updated artifact stats!
-LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Character stats information is updated via info commands, check your builds frequently to actively get updated character stats!
-LEADERBOARD_ABYSS_FOOTER: Abyss statistics are updated via the abyss progression command, check your abyss progression frequently to get an updated statistics measurement!
-LEADERBOARD_DONATION_FOOTER: Donate via the support links found in the /donate command to obtain a spot on this exquisite leaderboard!
-LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Crunching data, please be **patient**...* <a:tyno:1001656937689120788>
-ERROR_GUILD_ONLY_BUTTON: ":no_entry: You must be in a guild to use this button!"
-QUERY_NO_RESULTS: "No results found for `{input}`. Please rephrase and try again!"
-LOCATION_COMMAND_ROUTES_TITLE: Farming Routes Overview
+LEADERBOARD_PLAYTIME_FOOTER: Время игры обновляется с помощью команд статистики/информация, почаще проверяйте свою статистику/сборки, чтобы получать обновленное количество время игры!
+LEADERBOARD_ACHIEVEMENTS_FOOTER: Достижения обновляются с помощью команд статистики/информация, почаще проверяйте свою статистику/сборки, чтобы получать обновленное количество достижений!
+LEADERBOARD_CHESTS_FOOTER: Сундуки обновляются с помощью команды статистики, почаще проверяйте свою статистику, чтобы получать обновленное количество сундуков!
+LEADERBOARD_GACHA_SIMULATOR_FOOTER: Таблицы лидеров симуляторов обновляются с помощью команд gacha симулятор, активно используйте gacha симулятор, чтобы поднимать свой рейтинг!
+LEADERBOARD_ARTIFACT_FOOTER: Информация об артефактах обновляется с помощью информационных команд, почаще проверяйте свои сборки, чтобы получать обновленную статистику артефактов!
+LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Информация о статистике персонажа обновляется с помощью информационных команд, почаще проверяйте свои сборки, чтобы получать обновленную статистику персонажа!
+LEADERBOARD_ABYSS_FOOTER: Статистика бездны обновляется с помощью команды прогресс бездны, почаще проверяйте свой прогресс бездны, чтобы получать обновленные статистические данные!
+LEADERBOARD_DONATION_FOOTER: Сделайте пожертвование по ссылкам поддержки, найденным в команде /donate, чтобы получить место в этой изумительной таблице лидеров!
+LEADERBOARD_CRUNCHING_DATA_INTERMISSION: <a:loading:1015667958237900801> *Обработка данных, пожалуйста, будьте **терпеливым**...* <a:tyno:1001656937689120788>
+ERROR_GUILD_ONLY_BUTTON: ":no_entry: Вы должны быть в гильдии, чтобы использовать эту кнопку!"
+QUERY_NO_RESULTS: "Результатов по запросу `{input}` не найдено. Пожалуйста, перефразируйте и попробуйте еще раз!"
+LOCATION_COMMAND_ROUTES_TITLE: Обзор маршрутов фарма
 LOCATION_COMMAND_MAP_TITLE: "{resource} Map Locations"
 LOCATION_COMMAND_REGION_DESCRIPTION: "Local {region} Specialty:"
 LOCATION_COMMAND_FARMABLE_FOOTER: Farmable locations for specified material
