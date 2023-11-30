@@ -573,35 +573,35 @@ GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
   **Информация о профиле**
 GENSHIN_WIZARD_PROFILE_TITLE: Настройки профиля Genshin Wizard
 MISSING_REGISTRATION_INSTRUCTIONS: |
-  Please register using one of:
+  Пожалуйста, зарегистрируйтесь, используя один из:
   **1.)** </register:{command_id}>
-  **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
-MISSING_IMAGE: Please provide an image or a link to an image to update your banner
-PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Profile Banner Link Updated
-IMAGE_LINK_KEY: Image Link
-UPDATE_DATE_KEY: Update Date
-SETTING_COMMAND_REQUIRE_SLASH: You must use a **slash command** (</settings:{command_id}>) or access this via your profile.
+  **2.)** Введите пользователя/UID. Например: `/info [discord-user]/[genshin-uid]`
+MISSING_IMAGE: Пожалуйста, предоставьте изображение или ссылку на изображение для обновления вашего баннера
+PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Ссылка на профиль обновлена
+IMAGE_LINK_KEY: Ссылка на изображение
+UPDATE_DATE_KEY: Дата Обновления
+SETTING_COMMAND_REQUIRE_SLASH: Вы должны использовать **слэш-команду** (</settings:{command_id}>) или получите доступ к этому через свой профиль.
 CURRENT_ABYSS_DESCRIPTION: |
-  **Current Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  **Текущая фаза Луны**
+  **Время начала:** <t:{timestamp_start}:F>
+  **Время окончания:** <t:{timestamp_end}:F>
 PREVIOUS_ABYSS_DESCRIPTION: |
-  **Previous Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
-ABYSS_COMMAND_FOOTER: "Note: Abyss data may be incorrectly shown or missing data, if this is the case, do keep in mind that abyss data can generally take anywhere from 1-3 hours to update!"
-ABYSS_MISSING_DATA_FOOTER: "Note: This data seems to be missing some information! This is likely due to this information not being stored in the database previously, or the data not being updated yet."
+  **Предыдущая фаза Луны**
+  **Время начала:** <t:{timestamp_start}:F>
+  **Время окончания:** <t:{timestamp_end}:F>
+ABYSS_COMMAND_FOOTER: "Примечание: Данные бездны могут отображаться неправильно или отсутствовать данные, если это так, имейте в виду, что обновление данных бездны обычно может занять от 1 до 3 часов!"
+ABYSS_MISSING_DATA_FOOTER: "Примечание: В этих данных, по-видимому, отсутствует некоторая информация! Вероятно, это связано с тем, что эта информация ранее не хранилась в базе данных или данные еще не обновлялись."
 ABYSSAL_ARCHIVE_DESCRIPTION: |
-  <:previous_abyss:1028377675989000215> **Abyssal Archives**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
-UID_LOOKUP: Genshin UID Lookup
-UID_LOOKUP_TITLE: "{user}'s Genshin Account UID"
-PUBLIC_KEY: Public
-PRIVATE_KEY: Private
+  <:previous_abyss:1028377675989000215> **Архивы бездны**
+  **Время начала:** <t:{timestamp_start}:F>
+  **Время окончания:** <t:{timestamp_end}:F>
+UID_LOOKUP: Поиск по Genshin UID
+UID_LOOKUP_TITLE: "UID аккаунта Genshin {user}"
+PUBLIC_KEY: Публичный
+PRIVATE_KEY: Приватный
 CREATION_DATA_KEY: Дата Создания
 JOIN_DATE_KEY: Дата Присоединения
-NOT_HERE_KEY: Not Here
+NOT_HERE_KEY: Не здесь
 LOCATION_KEY: Местоположение
 TOP_ROLE_KEY: Наивысшая Роль
 RECENT_FIVE_STAR_CHARACTER: "**Последние 5 :star: Персонажи**"
@@ -609,19 +609,19 @@ RECENT_FIVE_STAR_WEAPON: "**Последние 5 :star: Оружия**"
 WISHES_WORTH_KEY: Стоимость Молитв
 OVERALL_SUMMARY_KEY: Общая Информация
 OVERALL_STATS_KEY: Общая Статистика
-PERCENTAGE_KEY: Percentage
-TOTAL_WISHES_KEY: Total Wishes
-TOTAL_KEY: Total
-TOTAL_FIVE_STAR: Total 5-star
-NUMBER_FIVE_STAR: Number of 5-star
-TOTAL_FOUR_STAR: Total 4-star
-NUMBER_FOUR_STAR: Number of 4-star
-TOTAL_THREE_STAR: Total 3-star
+PERCENTAGE_KEY: Процент
+TOTAL_WISHES_KEY: Всего молитв
+TOTAL_KEY: Всего
+TOTAL_FIVE_STAR: Всего 5 звезд
+NUMBER_FIVE_STAR: Количество 5-звездочных
+TOTAL_FOUR_STAR: Всего 4 звезд
+NUMBER_FOUR_STAR: Количество 4-звездочных
+TOTAL_THREE_STAR: Всего 3 звезд
 REGISTER_PC_METHOD: "PC"
 REGISTER_ANDROID_METHOD: "Android"
 IOS_KEY: "iOS"
-CONSOLE_KEY: "Console"
-REGISTER_IOS_METHOD: "iOS (Stream App Method)"
+CONSOLE_KEY: "Консоль"
+REGISTER_IOS_METHOD: "iOS (Метод трансляции приложения)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
   Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
 
@@ -1197,7 +1197,7 @@ CRIT_RATE_LABEL: "CRIT Rate"
 CRIT_DMG_LABEL: "CRIT DMG"
 ENERGY_RECHARGE_LABEL: "Energy Recharge"
 ELEMENTAL_MASTERY_LABEL: "Elemental Mastery"
-TOTAL_WISHES_LABEL: "Total Wishes"
+TOTAL_WISHES_LABEL: "Всего молитв"
 PRIMOGEM_COUNT_LABEL: "Total Primogems"
 STARDUST_COUNT_LABEL: "Stardust Count"
 STARGLITTER_COUNT_LABEL: "Starglitter Count"
