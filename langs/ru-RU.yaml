@@ -623,50 +623,50 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "Консоль"
 REGISTER_IOS_METHOD: "iOS (Метод трансляции приложения)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
+  Посмотрите нашу [Документацию на Github](https://github.com/Genshin-Wizard/historyLink) для детальных шагов с изображениями.
 
-  1. Open Genshin Impact Game on your PC
-  2. Go to the wish history page and wait for it to load
-  3. Go back to Windows/Desktop
-  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  5. Then copy the following code and paste it in the Powershell window
+  1. Откройте игру Genshin Impact на своем компьютере
+  2. Перейдите на страницу истории молитв и дождитесь ее загрузки
+  3. Вернитесь к Windows/рабочему столу
+  4. В меню "Пуск" найдите "PowerShell" и откройте "Windows PowerShell"
+  5. Затем скопируйте следующий код и вставьте его в окно Powershell
   ```ps
   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
   ```
-  6. Hit `ENTER` to have the link copied to your clipboard
-  7. Click the button below and paste the link in the input field
+  6. Нажмите `ENTER`, чтобы скопировать ссылку в ваш буфер обмена
+  7. Нажмите на кнопку ниже и вставьте ссылку в поле ввода
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
-  After the 3.0 update, users can no longer simply copy and paste the history link on Android devices anymore.
+  После обновления 3.0 пользователи больше не могут просто копировать и вставлять ссылку на историю на устройствах Android.
 
-  We are currently looking for a way to retrieve the history link on Android devices. Please check back later.
+  В настоящее время мы ищем способ получить ссылку на историю на устройствах Android. Пожалуйста, проверьте позже.
 REGISTER_COMMAND_IOS_DIRECTIONS: |
-  Check out Kaizer's [Stream App Guide](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) for detailed steps with pictures.
+  Посмотрите руководство Kaizer [По трансляции приложения](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) для детальных шагов с изображениями.
 
-  1. Open Genshin Impact and go to the Wish screen
-  2. While Genshin Impact is still open, go to Stream app and tap Sniff Now
-  3. Go back to Genshin Impact and open you wish history
-  4. When your wish list is loaded go back to Stream app and tap Stop sniffing
-  5. Then tap on Sniff History and choose the first item in the list
-  6. Tap the request starting by `GET https://hk4e-api-os/...`
-  7. Tap the request tab
-  8. Tap the long text starting by `GET /event/gacha_info...`
-  9. Finally, tap Copy Url
-  10. Click the button below and paste the link in the input field.
-RESELECT_PLATFORM_KEY: Re-Select Platform
-REGISTER_COMMAND_CONSOLE_DIRECTIONS: Following the 2.3 update event links don't work anymore. This being said, it is still possible to obtain the key by linking your Playstation account with a Mihoyo account and using the pc/mobile method instead.
-REGISTER_COMMAND_PLATFORM_SELECTION: Which platform do you use to play Genshin Impact?
-REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | Wish History Registration
+  1. Откройте Genshin Impact и перейдите к экрану молитв
+  2. Пока Genshin Impact все еще открыт, перейдите в приложение Stream и нажмите Sniff Now
+  3. Вернитесь к Genshin Impact и откройте историю молитв
+  4. Когда ваш список молитв будет загружен, вернитесь в приложение Stream и нажмите Stop sniffing
+  5. Затем нажмите на Sniff History и выберите первый элемент в списке
+  6. Нажмите на запрос, начинающийся с `GET https://hk4e-api-os/...`
+  7. Перейдите на вкладку запрос
+  8. Коснитесь длинного текста, начинающегося с `GET /event/gacha_info...`
+  9. Наконец, нажмите Copy Url
+  10. Нажмите на кнопку ниже и вставьте ссылку в поле ввода.
+RESELECT_PLATFORM_KEY: Перевыбрать платформу
+REGISTER_COMMAND_CONSOLE_DIRECTIONS: После обновления 2.3 ссылки на события больше не работают. При этом по-прежнему возможно получить ключ, связав свой аккаунт Playstation с аккаунтом Mihoyo и используя вместо этого метод PC/мобильного устройства.
+REGISTER_COMMAND_PLATFORM_SELECTION: На какой платформе вы играете в Genshin Impact?
+REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | Регистрация истории молитв
 REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
-  Welcome to Genshin Wizard's Registration system.
+  Добро пожаловать в систему регистрации Genshin Wizard.
 
-  **Linking Features:**
-  > **1.** Keep track of your wish history.
-  > **2.** View in-depth wish history statistics along with your banner pities.
-  > **3.** View whether you're on your guaranteed limited pity or not.
-  > **4.** Full Genshin Wizard profile capabilities.
-  > **5.** Access to all commands that are accessible by [**Linking UID**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-registration).
+  **Функции привязки:**
+  > **1.** Следите за историей своих молитв.
+  > **2.** Просматривайте подробную статистику истории молитв вместе с гарантом баннера.
+  > **3.** Посмотрите, есть ли у вас гарантированный гарант или нет.
+  > **4.** Полные возможности профиля Genshin Wizard.
+  > **5.** Доступ ко всем командам, которые доступны с помощью [**Привязки UID**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-registration).
 
-  Which platform do you use to play Genshin Impact?
+  На какой платформе вы играете в Genshin Impact?
 ERROR_INVALID_UID: Please provide a valid UID to link your Genshin account to your Discord account.
 ERROR_INVALID_REGISTRATION_URL: Hey Traveler, this is an **invalid link!** Make sure you followed the steps correctly and try again.
 ERROR_UNEXPECTED_ERROR: An unexpected error has occurred. Please report this to staff!
@@ -1163,16 +1163,16 @@ ACTIVE_PLAYTIME_KEY: Active Playtime
 WISHES_KEY: Wishes
 DONATIONS_KEY: Donations
 LEVELS_KEY: Levels
-CHESTS_DESCRIPTION: View Genshin Wizard's chests leaderboard.
-ACHIVEMENTS_DESCRIPTION: View Genshin Wizard's achievements leaderboard.
-CHARACTER_STATISTICS_DESCRIPTION: View Genshin Wizard's character stats leaderboard.
-ARTIFACT_SUBSTAT_DESCRIPTION: View Genshin Wizard's artifact substats leaderboard.
-ABYSS_STATISTICS_DESCRIPTION: View Genshin Wizard's Spiral Abyss leaderboard.
-GACHA_SIMULATOR_DESCRIPTION: View Genshin Wizard's gacha simulator leaderboard.
-ACTIVE_PLAYTIME_DESCRIPTION: View Genshin Wizard's active playtime leaderboard.
-WISHES_DESCRIPTION: View Genshin Wizard's wishes leaderboard.
-DONATIONS_DESCRIPTION: View Genshin Wizard's donations leaderboard.
-LEVELS_DESCRIPTION: View Genshin Wizard's levelling leaderboard.
+CHESTS_DESCRIPTION: Посмотреть таблицу лидеров сундуков Genshin Wizard.
+ACHIVEMENTS_DESCRIPTION: Посмотреть таблицу лидеров достижений Genshin Wizard.
+CHARACTER_STATISTICS_DESCRIPTION: Посмотреть таблицу лидеров статистики персонажа Genshin Wizard.
+ARTIFACT_SUBSTAT_DESCRIPTION: Посмотреть таблицу лидеров саб статов артефакта Genshin Wizard.
+ABYSS_STATISTICS_DESCRIPTION: Посмотреть таблицу лидеров Витой Бездны Genshin Wizard.
+GACHA_SIMULATOR_DESCRIPTION: Посмотреть таблицу лидеров gacha симулятора Genshin Wizard.
+ACTIVE_PLAYTIME_DESCRIPTION: Посмотреть таблицу лидеров игрового времени Genshin Wizard.
+WISHES_DESCRIPTION: Посмотреть таблицу лидеров молитв Genshin Wizard.
+DONATIONS_DESCRIPTION: Посмотреть таблицу лидеров пожертвований Genshin Wizard.
+LEVELS_DESCRIPTION: Посмотреть таблицу лидеров уровня Genshin Wizard.
 LEADERBOARD_PLACEHOLDER: Choose a leaderboard category...
 COMMON_LABEL: "Common"
 EXQUISITE_LABEL: "Exquisite"
