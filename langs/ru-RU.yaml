@@ -672,37 +672,35 @@ ERROR_INVALID_REGISTRATION_URL: Эй, путешественник, это **н�
 ERROR_UNEXPECTED_ERROR: Произошла непредвиденная ошибка. Пожалуйста, сообщите об этом персоналу!
 REGISTER_COMMAND_NO_WISHES_TITLE: Молитв не найдено!
 REGISTER_COMMAND_NO_WISHES_DESCRIPTION: |
-  You do not have any wishes yet! Please register again once you have wished on at-least one banner.
-  Wishes show up in history about 1-2 hours after wishing.
-REFRESHING_USER: Refreshing user...
-REGISTERING_USER: Registering user...
-RETRIEIVING_WISH_HISTORY: Retrieving your wish history...
-REGISTER_BANNER_SYNCED: Successfully synced {banner_name} banner!
-REGISTER_BANNER_SYNC_COMPLETE: Successfully synced all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
-SUCCESSFULLY_REGISTERED: Successfully Registered!
-SUCCESSFULLY_REFRESHED: Successfully Refreshed!
+  У вас пока нет никаких молитв! Пожалуйста, зарегистрируйтесь еще раз, как только вы сделаете молитву хотя бы на одном баннере.
+  Молитвы отображаются в истории примерно через 1-2 часа после молитвы.
+REFRESHING_USER: Обновление пользователя...
+REGISTERING_USER: Регистрация пользователя...
+RETRIEIVING_WISH_HISTORY: Получение истории ваших молитв...
+REGISTER_BANNER_SYNCED: Баннер {banner_name} успешно синхронизирован!
+REGISTER_BANNER_SYNC_COMPLETE: Успешно синхронизированы все баннеры! Теперь вы можете использовать команду </history:{command_id}> для просмотра дополнительной информации о ваших молитвах.
+SUCCESSFULLY_REGISTERED: Успешная регистрация!
+SUCCESSFULLY_REFRESHED: Успешно обновлено!
 SUCCESSFULLY_UPDATED_UID: |
-  Congratulations Traveler! You have **successfully** updated your `UID`!
-
-  Refer to </help:{command_id}> for more information.
+  Поздравляем, путешественник! Вы **успешно** обновили свой `UID`!
 SUCCESSFULLY_REGISTERED_RESPONSE: |
-  Hey Traveler! Congratulations, your account was **successfully** registered!
+  Эй, Путешественник! Поздравляем, ваш аккаунт был **успешно** зарегистрирован!
 
-  You can now access several new gacha-related command within Genshin Wizard and more! For more information, check out the </help:{command_id}> command or visit our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/commands)!
-GENSHIN_WIZARD_REGISTRATION: Genshin Wizard Registration
-UNLINK_GENSHIN_ACCOUNT: Unlink Genshin Account
-UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Unlink your Genshin Impact account completely from Genshin Wizard. This will erase all your data from Genshin Wizard, including your wish history, wish statistics, and more. This action is **irreversible**. Are you sure you want to continue?
-UNLINK_HOYOLAB_ACCOUNT: Unlink HoYoLAB Account
-UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Unlink your HoYoLAB account from Genshin Wizard; Will not unlink your linked UID from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
-PURGE_WISH_HISTORY: Purge Wish History
-PURGE_WISH_HISTORY_DESCRIPTION: Purge only your wish history from Genshin Wizard, your Genshin account will still be linked to Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
-UNLINK_EVERYTHING: Unlink Everything
+  Теперь вы можете получить доступ к нескольким новым командам, связанным с gacha, в Genshin Wizard и многим другим! Для получения дополнительной информации ознакомьтесь с командой </help:{command_id}> или посетите нашу [**Документацию**](https://docs.genshinwizard.com/wishing-centre/commands)!
+GENSHIN_WIZARD_REGISTRATION: Регистрация Genshin Wizard
+UNLINK_GENSHIN_ACCOUNT: Отвязать аккаунт Genshin
+UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Полностью отвяжите свой аккаунт Genshin Impact от Genshin Wizard. Это приведет к удалению всех ваших данных из Genshin Wizard, включая историю ваших молитв, статистику молитв и многое другое. Это действие **необратимо**. Вы уверены, что хотите продолжить?
+UNLINK_HOYOLAB_ACCOUNT: Отвязать аккаунт HoYoLAB
+UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Отвяжите свой аккаунт HoYoLAB от Genshin Wizard; Ваш привязанный UID не будет отвязан от Genshin Wizard. Это действие **необратимо**. Вы уверены, что хотите продолжить?
+PURGE_WISH_HISTORY: Очистить историю молитв
+PURGE_WISH_HISTORY_DESCRIPTION: Удалите только историю своих молитв из Genshin Wizard, ваш аккаунт Genshin по-прежнему будет привязан к Genshin Wizard. Это действие **необратимо**. Вы уверены, что хотите продолжить?
+UNLINK_EVERYTHING: Отвязать всё
 UNLINK_EVERYTHING_BRIEF: This method will unlink **everything** from Genshin Wizard.
 UNLINK_EVERYTHING_DESCRIPTION: This method will unlink everything from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
 UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data from Genshin Wizard!
 UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If this is a mistake and you are looking to *recover* your Genshin Wizard account, use the </recover:{command_id}> command. If you need further assistance, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
-GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Registration
+GENSHIN_WIZARD_REGISTRATION_TITLE: Регистрация Genshin Wizard
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Зарегистрируйте свой аккаунт Genshin в Genshin Wizard.
 HOYOLAB_ACCOUNT: HoYoLAB Account
 LINKED_UID_KEY: Linked UID
