@@ -432,13 +432,7 @@ HOYOLAB_REGISTER_SCRIPT: |
   ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Por favor saia e entre novamente na conta antes de tentar novamente, o cookie está expirado/inválido!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Clique para copiar!</button>`)```
 HOYOLAB_REGISTER_LOGIN_TITLE: Registro | Método de Log-in
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin, select the `Register` button down below.
-  > **2.** In the input fields, enter your HoYoLAB account login details, remember to use your **email** and password.
-  > **3.** Once you've successfully entered your account details, wait for Genshin Wizard to process your registration request, bear in mind that this may take a minute or two.
-  > **4.** Finally, if all the steps are done correctly, you will receive a **confirmation message** via DMs indicating that your account has been successfully linked.
-
-  <:information:1021014187197083668> **Note:** This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead.
+  .
 HOYOLAB_REGISTER_LOGIN_FOOTER: Lembramos que o Genshin Wizard não guarda nenhuma das informações de sua conta! Este método de registro busca automaticamente pelos cookies necessários para visualizar as estatísticas da sua conta.
 ARE_YOU_SURE: Tem certeza?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
