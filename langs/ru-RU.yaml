@@ -695,15 +695,15 @@ UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Отвяжите свой аккаунт HoY
 PURGE_WISH_HISTORY: Очистить историю молитв
 PURGE_WISH_HISTORY_DESCRIPTION: Удалите только историю своих молитв из Genshin Wizard, ваш аккаунт Genshin по-прежнему будет привязан к Genshin Wizard. Это действие **необратимо**. Вы уверены, что хотите продолжить?
 UNLINK_EVERYTHING: Отвязать всё
-UNLINK_EVERYTHING_BRIEF: This method will unlink **everything** from Genshin Wizard.
+UNLINK_EVERYTHING_BRIEF: Этот метод отсоединит **всё** от Genshin Wizard.
 UNLINK_EVERYTHING_DESCRIPTION: This method will unlink everything from Genshin Wizard. This action is **irreversible**. Are you sure you want to continue?
 UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data from Genshin Wizard!
 UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If this is a mistake and you are looking to *recover* your Genshin Wizard account, use the </recover:{command_id}> command. If you need further assistance, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Регистрация Genshin Wizard
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Зарегистрируйте свой аккаунт Genshin в Genshin Wizard.
-HOYOLAB_ACCOUNT: HoYoLAB Account
-LINKED_UID_KEY: Linked UID
+HOYOLAB_ACCOUNT: Аккаунт HoYoLAB
+LINKED_UID_KEY: Привязанный UID
 LINKED_KEY: Linked
 NOT_LINKED_KEY: Not Linked
 LINKING_UID_DIRECTIONS: |
@@ -726,16 +726,16 @@ FORCE_REFRESH_FOOTER: If you'd prefer to force-refresh to prolong the expiry of 
 UNLINKING_CENTRE_TITLE: Genshin Wizard | Unlinking Centre
 UNLINKING_CENTRE_DESCRIPTION: Hello Traveler! Welcome to Genshin Wizard's unlinking centre. Manage your linked data through the buttons below. Friendly reminder that any method of unlinking will **erase all your data** from Genshin Wizard. This action is **irreversible**
 INVALID_COOKIE_RESPONSE: ":no_entry: You did not enter a valid **HoYoLAB** cookie!"
-RETRIEVING_ACCOUNT_INFORMATION: "*Retrieving your account information...*"
-SYNCED_HOYOLAB_UID: Successfully synced **HoYoLAB** UID!
-SYNCED_IN_GAME_UID: Successfully synced **In-Game** UID!
+RETRIEVING_ACCOUNT_INFORMATION: "*Получение информации о вашем аккаунте...*"
+SYNCED_HOYOLAB_UID: UID **HoYoLAB** успешно синхронизирован!
+SYNCED_IN_GAME_UID: '**Внутриигровой** UID успешно синхронизирован!'
 ERROR_NO_ACCOUNTS: ":no_entry: There are **no accounts** associated with this token!"
 SUCCESSFULLY_LINKED_KEY: Successfully Linked!
 SUCCESSFULLY_LINKED_HOYOLAB: |
   Successfully synced in-game account progression.
 
   Successfully synced your HoYoLAB account! You can now access the **HoYoLAB account menu** by using the command </hoyo:{command_id}>!
-REGISTRATION_FAILED: Registration Failed!
+REGISTRATION_FAILED: Регистрация не удалась!
 REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> Registering your account was **unsuccessful**! Please try again or contact the [**support team**](https://discord.gg/genshinwizard) if the issue persists. This issue is typically caused by an invalid email/password combination.
 INVALID_HOYOLAB_EMAIL_PROMPT: Please enter a valid email address! You must use the email address you use to login to your **HoYoLAB** account.
 HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | HoYoLAB Registration
@@ -761,8 +761,8 @@ REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
   **Parametric Transformer Reminders <:parametrictransformer:1029984451670847568>**
   > **Automatic Reminder:** {automatic_parametric}
   {para_rmd}
-REMINDER_COMMAND_OVERVIEW_TITLE: Genshin Impact Reminders
-ENABLED_KEY: Enabled
+REMINDER_COMMAND_OVERVIEW_TITLE: Напоминания Genshin Impact
+ENABLED_KEY: Включено
 DISABLED_KEY: Disabled
 NOT_ENABLED_KEY: Not Enabled
 NO_REMINDERS_SET_KEY: No Reminders Set!
