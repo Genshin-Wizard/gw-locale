@@ -1,14 +1,14 @@
 ---
 GENSHIN_WIZARD_KEY: Genshin Wizard
 HELP_DIRECTORY_TITLE: ガイドに関連するコマンドを表示する
-HELP_CATEGORY_DESCRIPTION: Select a category from the dropdown to view commands specific to that category.
-HELP_CATEGORIES: Categories
+HELP_CATEGORY_DESCRIPTION: ドロップダウンからカテゴリを選択すると、そのカテゴリ固有のコマンドが表示されます。
+HELP_CATEGORIES: カテゴリー
 HELP_CATEGORY_LIST: |
-  > 👤 | Profile Commands
+  > 👤 | プロフィールコマンド
   > 💫 | Wish Commands
-  > <:hoyolab:1016159766705344705> | HoYoLAB Commands
-  > 📝 | Guide Commands
-  > ⏰ | Miscellaneous Commands
+  > <:hoyolab:1016159766705344705> | HoYoLAB コマンド
+  > 📝 | ガイドコマンド
+  > ⏰ | その他のコマンド
 MISC_COMMANDS: その他のコマンド
 PING_INFORMATION: |
   **Pong!** :ping_pong:
@@ -20,14 +20,14 @@ UPTIME_INFORMATION: |
   **Uptime:** {uptime}
 VERSION_KEY: バージョン
 PING_KEY: Ping
-UNKNOWN_KEY: Unknown
+UNKNOWN_KEY: 不明
 USER_NOT_PUBLIC: ユーザーデータは公開されていません。
 INVITE_INFORMATION: 以下のリンクを使用して、このボットを自分のサーバーに招待できます。
 REQUESTED_BY: '{user} からのリクエスト'
-SUPPORT_GWIZ_TITLE: Support Genshin Wizard
-SUPPORT_GWIZ_DESC: Support the development of Genshin Wizard.
+SUPPORT_GWIZ_TITLE: 原神ウィザードを支援する。
+SUPPORT_GWIZ_DESC: 原神ウィザードの開発を支援する。
 DONATE_KEY: 寄付
-VOTE_GWIZ_DESCRIPTION: Click the links below to vote for Genshin Wizard.
+VOTE_GWIZ_DESCRIPTION: 以下のリンクをクリックして原神ウィザードに投票してください。
 VOTE_KEY: 投票
 VOTE_BOT: ボットに投票
 VOTE_SERVER: サーバーに投票
@@ -42,13 +42,13 @@ USERS_KEY: ユーザー
 WEBSITE_KEY: ウェブサイト
 INVITE_KEY: 招待
 DOCUMENTATION_KEY: ドキュメント
-GWIZ_INVITE: Genshin Wizard Invite
+GWIZ_INVITE: 源神ウィザードの招待
 AVATAR_KEY: アバター
 ARTIFACT_CRIT_VALUE_TITLE: 聖遺物会心スコア計算機
 TOTAL_CRIT_VALUE: 合計会心スコア
 TRUTH_COMMAND_RESPONSES:
   - As I see it, yes.
-  - Yes.
+  - はい
   - Positive.
   - From my point of view, yes.
   - Convinced.
@@ -100,7 +100,7 @@ SEND_CODES_REDEEMABLE_CODES: 引き換えコード
 SEND_CODES_REDEMPTION_CODES_TITLE: 原神ウィザード | 引き換えコード
 SEND_CODES_REDEMPTION_CODES_CONFIRMATION: '{channel} に引き換えコードを送信しました！'
 MESSAGE_LINK: メッセージリンク
-CLICK_HERE: Click Here
+CLICK_HERE: ここをクリック
 INFO_SELECT_CHARACTER: キャラクターを選択
 INFO_CHARACTER_SOURCE: "Source: Saved Builds"
 INFO_USER_CACHE: ユーザーキャッシュ
@@ -123,13 +123,13 @@ EXCLUSIVE_COMMAND_DESCRIPTION: |
   もしこのコマンドを使用したい場合は、[公式Discord](https://discord.gg/genshinwizard)に参加してください！
 ERROR_COMMAND_INVOKE: このコマンドに正しい引数を使用していることを確認してください！
 ERROR_PRIVACY_SETTING_TITLE: Hidden | Nothing to see!
-ERROR_PRIVACY_SETTING_DESCRIPTION: Hey Traveler! Unfortunately, the person you are trying to search for has **privacy settings** enabled!
+ERROR_PRIVACY_SETTING_DESCRIPTION: こんにちは、トラベラー！残念ながら、検索しようとしている人は **プライバシー設定**を有効にしています！
 ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Ongoing Update!
-ERROR_ONGOING_UPDATE_DESCRIPTION: Hey Traveler! Genshin Wizard is currently **undergoing maintenance** and this command has been *disabled* for the time being. Please try again *later*.
+ERROR_ONGOING_UPDATE_DESCRIPTION: こんにちは！Genshin Wizardは現在**メンテナンス中**のため、このコマンドはしばらくの間*無効*になっています。*後で*もう一度試してください*。
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this is a Genshin Wizard server {command_type}*exclusive* command!
+  こんにちは、旅人さん！このコマンドはGenshin Wizardサーバーの{command_type}専用コマンドです。ここでは**使用できません**。
 
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
+  もしこのコマンドを使用したい場合は、[公式Discord] (https://discord.gg/genshinwizard)に参加してください！
 ERROR_PREMIUM_COMMAND_TITLE: 原神ウィザードプレミアム
 ERROR_PREMIUM_COMMAND_DESCRIPTION: Hey Traveler! You're **not allowed** to use this command, this command is only available to **Premium Subscribers**. If you'd like use this feature, consider learning more using the </premium:{command_id}> command.
 ERROR_BLACKLISTED_TITLE: Genshin Wizard | Blacklisted
@@ -193,8 +193,8 @@ APP_COMMAND_SETTINGS_DESCRIPTION: Change your Genshin Wizard profile settings.
 APP_COMMAND_STATS_DESCRIPTION: View your Genshin account's statistics.
 APP_COMMAND_ABYSS_DESCRIPTION: View your Genshin account's abyss progression.
 APP_COMMAND_EXPLORATION_DESCRIPTION: View your Genshin account's exploration progression.
-APP_COMMAND_UID_DESCRIPTION: Lookup a user's Genshin UID/Region.
-APP_COMMAND_REGISTER_DESCRIPTION: Register your Genshin account to Genshin Wizard.
+APP_COMMAND_UID_DESCRIPTION: ユーザーのGenshin UID/Regionを検索します。
+APP_COMMAND_REGISTER_DESCRIPTION: Genshin Wizardにあなたの原神アカウントを登録する。
 APP_COMMAND_REFRESH_DESCRIPTION: Refresh your wish history link (links expire once every 24 hours).
 APP_COMMAND_UNLINK_DESCRIPTION: Unlink your Genshin account and erase all data.
 APP_COMMAND_REMINDERS_DESCRIPTION: Setup reminders to notify for resin, teapot and expeditions.
@@ -249,7 +249,7 @@ APP_COMMAND_PING_DESCRIPTION: Check Genshin Wizard's latency.
 APP_COMMAND_UPTIME_DESCRIPTION: Check Genshin Wizard's uptime.
 APP_COMMAND_ABOUT_DESCRIPTION: Information about Genshin Wizard.
 APP_COMMAND_INVITE_DESCRIPTION: Get an invite link for this bot.
-APP_COMMAND_DONATE_DESCRIPTION: Support the development of Genshin Wizard.
+APP_COMMAND_DONATE_DESCRIPTION: 原神ウィザードの開発を支援する。
 APP_COMMAND_VOTE_DESCRIPTION: Vote links for Genshin Wizard.
 APP_COMMAND_AVATAR_DESCRIPTION: View a user's discord avatar.
 APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
@@ -702,7 +702,7 @@ UNLINKING_CONFIRMATION: You have **successfully unlinked** the requested data fr
 UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If this is a mistake and you are looking to *recover* your Genshin Wizard account, use the </recover:{command_id}> command. If you need further assistance, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: You are **already registered** to a different UID! If you would like to register using another account, please use </unlink:{command_id}> before attempting to register again."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Registration
-GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Register your Genshin account to Genshin Wizard.
+GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Genshin Wizardにあなたの原神アカウントを登録する。
 HOYOLAB_ACCOUNT: HoYoLAB Account
 LINKED_UID_KEY: Linked UID
 LINKED_KEY: Linked

@@ -4,11 +4,11 @@ HELP_DIRECTORY_TITLE: Genshin Wizard | Katalog pomocy
 HELP_CATEGORY_DESCRIPTION: Wybierz kategorię z rozwijanej listy, aby wyświetlić określone komendy dla tej kategorii.
 HELP_CATEGORIES: Kategorie
 HELP_CATEGORY_LIST: |
-  > 👤 | Profile Commands
-  > 💫 | Wish Commands
-  > <:hoyolab:1016159766705344705> | HoYoLAB Commands
-  > 📝 | Guide Commands
-  > ⏰ | Miscellaneous Commands
+  > 👤 | Polecenia profilu
+  > 💫 | Polecenia życzenia
+  > <:hoyolab:1016159766705344705> | Polecenia HoYoLAB
+  > 📝 | Polecenia przewodnika
+  > ⏰ | Polecenia różne
 MISC_COMMANDS: Pozostałe komendy
 PING_INFORMATION: |
   **Pong!** :ping_pong:
@@ -23,7 +23,7 @@ PING_KEY: Ping
 UNKNOWN_KEY: Nieznany
 USER_NOT_PUBLIC: Dane użytkownika nie są publiczne.
 INVITE_INFORMATION: Użyj poniższego linku, aby zaprosić tego bota na swój serwer.
-REQUESTED_BY: Requested by {user}
+REQUESTED_BY: Zażądane przez {user}
 SUPPORT_GWIZ_TITLE: Wsparcie Genshin Wizard
 SUPPORT_GWIZ_DESC: Wspieraj rozwój Genshin Wizard.
 DONATE_KEY: Wesprzyj nas
@@ -59,9 +59,9 @@ TRUTH_COMMAND_RESPONSES:
   - Duże Szanse.
   - Nie.
   - Myślę, że nie.
-  - Negative.
+  - Negatywne.
   - Moje źródła mówią, że nie.
-  - Not Convinced.
+  - Przekonany.
   - Być może.
   - Nie jestem pewien.
   - Może.
@@ -84,8 +84,8 @@ PREFIX_CHANGED_DESCRIPTION: |
 PREFIX_CHANGED_FOOTER: Ustawienie Prefiksu Genshin Wizard
 MATH_COMMAND_COMPUTE_ERROR: ":no_entry: Błąd obliczeniowy. Spróbuj przeformułować!"
 MATH_COMMAND_RESULT: |
-  **Expression:** `{expression}`
-  **Result:**
+  **Wyrażenie:** `{expression}`
+  **Wynik:**
   ```{result}```
 RECENT_GENSHIN_EVENTS: Ostatnie Wydarzenia Genshin
 SEND_CODES_COMMAND_TITLE: Genshin Wizard | Aktywne kody
@@ -97,84 +97,84 @@ SEND_CODES_COMMAND_DESCRIPTION: |
 SEND_CODES_REDEEM_AUTOMATICALLY: Zrealizuj Automatycznie
 SEND_CODES_DIRECT_LINK: Bezpośredni Link
 SEND_CODES_REDEEMABLE_CODES: Kody do wykorzystania
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Redemption Codes
+SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Aktywne kody
 SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!*
 MESSAGE_LINK: Link do wiadomości
 CLICK_HERE: Kliknij Tutaj
 INFO_SELECT_CHARACTER: Wybierz postać
-INFO_CHARACTER_SOURCE: "Source: Saved Builds"
+INFO_CHARACTER_SOURCE: "Źródło: Zapisane kompilacje"
 INFO_USER_CACHE: Pamięć podręczna użytkownika
 INTERMISSION_MESSAGE: Generowanie infografiki, prosimy o **cierpliwość**...
-MENU_COOLDOWN_TITLE: That menu is on cooldown!
-BUTTON_COOLDOWN_TITLE: That button is on cooldown!
-COMMAND_COOLDOWN_TITLE: That command is on cooldown!
-MENU_COOLDOWN_VALUE: You're clicking attributes too quickly! Try again in **{cooldown}** seconds.
-CHARACTER_SHOWCASE_TITLE: Character Showcase
-ERROR_RATELIMIT: User is currently ratelimited.
-ERROR_COMMAND_COOLDOWN_VALUE: Try using this command again in {cooldown} secs.
-ERROR_COMMAND_LONG_COOLDOWN_VALUE: Try using this command again in <t:{cooldown}:R>
+MENU_COOLDOWN_TITLE: To menu jest ograniczone czasowo!
+BUTTON_COOLDOWN_TITLE: Ten przycisk jest ograniczony czasowo!
+COMMAND_COOLDOWN_TITLE: To polecenie jest ograniczone czasowo!
+MENU_COOLDOWN_VALUE: Klikasz atrybuty zbyt szybko! Spróbuj ponownie za **{cooldown}** sekund.
+CHARACTER_SHOWCASE_TITLE: Prezentacja postaci
+ERROR_RATELIMIT: Użytkownik jest obecnie ograniczony.
+ERROR_COMMAND_COOLDOWN_VALUE: Spróbuj użyć tej komendy ponownie za {cooldown} sekund.
+ERROR_COMMAND_LONG_COOLDOWN_VALUE: Spróbuj użyć tej komendy ponownie za <t:{cooldown}:R>
 ERROR_KEY: Błąd!
 SUCCESSFUL_KEY: Pomyślnie!
-ERROR_MISSING_PERMISSION: You don't have permission to use this command!
-EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Exclusive Command
+ERROR_MISSING_PERMISSION: Nie masz wymaganych uprawnień do używania tej komendy!
+EXCLUSIVE_COMMAND_TITLE: Kreator genów | Ekskluzywne polecenie
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
+  Hej Podróżniku! Jesteś **niedozwolony** aby użyć tej komendy tutaj, to polecenie może być użyte tylko na serwerze!
 
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
-ERROR_COMMAND_INVOKE: Make sure you're using the correct parameters for this command!
-ERROR_PRIVACY_SETTING_TITLE: Hidden | Nothing to see!
-ERROR_PRIVACY_SETTING_DESCRIPTION: Hey Traveler! Unfortunately, the person you are trying to search for has **privacy settings** enabled!
-ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Ongoing Update!
-ERROR_ONGOING_UPDATE_DESCRIPTION: Hey Traveler! Genshin Wizard is currently **undergoing maintenance** and this command has been *disabled* for the time being. Please try again *later*.
+  Jeśli chcesz użyć tej komendy, rozważ dołączenie do naszego [oficjalnego Discorda](https://discord.gg/genshinwizard).
+ERROR_COMMAND_INVOKE: Upewnij się, że używasz właściwych parametrów dla tej komendy!
+ERROR_PRIVACY_SETTING_TITLE: Ukryte | Nic do zobaczenia!
+ERROR_PRIVACY_SETTING_DESCRIPTION: Hej Podróżnik! Niestety, osoba, której szukasz ma włączone **ustawienia prywatności**!
+ERROR_ONGOING_UPDATE_TITLE: Kreator Genshin | Trwające aktualizacje!
+ERROR_ONGOING_UPDATE_DESCRIPTION: Hej Podróżnik! Kreator Genshin jest obecnie **w trakcie konserwacji** i ta komenda została *wyłączona* na chwilę. Spróbuj ponownie *później*.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this is a Genshin Wizard server {command_type}*exclusive* command!
+  Hej Podróżniku! Jesteś **niedozwolony** aby użyć tej komendy tutaj, to polecenie może być użyte tylko na serwerze!
 
-  If you'd like use this command, consider joining our [Official Discord](https://discord.gg/genshinwizard).
-ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
-ERROR_PREMIUM_COMMAND_DESCRIPTION: Hey Traveler! You're **not allowed** to use this command, this command is only available to **Premium Subscribers**. If you'd like use this feature, consider learning more using the </premium:{command_id}> command.
-ERROR_BLACKLISTED_TITLE: Genshin Wizard | Blacklisted
+  Jeśli chcesz użyć tej komendy, rozważ dołączenie do naszego [oficjalnego Discorda](https://discord.gg/genshinwizard).
+ERROR_PREMIUM_COMMAND_TITLE: Zaproszenie Genshin Wizard
+ERROR_PREMIUM_COMMAND_DESCRIPTION: Hej Podróżnik! Jesteś **niedozwolony** do użycia tego polecenia, ta komenda jest dostępna tylko dla **Subskrybentów Premium**. Jeśli chcesz korzystać z tej funkcji, rozważ uczenie się więcej za pomocą polecenia </premium:{command_id}>.
+ERROR_BLACKLISTED_TITLE: Kreator Genshin | Czarna lista
 ERROR_BLACKLISTED_DESCRIPTION: |
-  Hey Traveler! You have been **banned** from using Genshin Wizard!
+  Hej Podróżnik! Zostałeś **zbanowany** w korzystaniu z Kreatora Genshin!
 
-  If you believe for this to be an error, consider joining our [Official Discord](https://discord.gg/genshinwizard)
-ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Member Not Found
-ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Make sure the person you are trying to view is still in the server.
-ERROR_MISSING_REQUIRED_ARGUMENT: "You forgot to provide an argument, please use the correct format: ```{usage}```"
-ERROR_MISSING_REQUIRED_ATTACHMENT: "You forgot to provide an attachment, please use the correct format: ```{usage} with the correct attachment.```"
-ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, I do not have permission to `Manage Messages` within this channel/guild. Please enable this permission and try again.
-ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
+  Jeśli uważasz, że to błąd, rozważ dołączenie do naszego [Oficjalnego Discorda](https://discord.gg/genshinwizard)
+ERROR_MEMBER_NOT_FOUND_TITLE: Kreator Genshin | Nie znaleziono użytkownika
+ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Upewnij się, że osoba, którą próbujesz zobaczyć, jest nadal na serwerze.
+ERROR_MISSING_REQUIRED_ARGUMENT: "Zapomniałeś podać argument, proszę użyć prawidłowego formatu: ```{usage}```"
+ERROR_MISSING_REQUIRED_ATTACHMENT: "Zapomniałeś podać załącznik, użyj prawidłowego formatu: ```{usage} z odpowiednim załącznikiem.```"
+ERROR_MISSING_MANAGE_MESSAGE: Witaj Podróżnik, nie mam uprawnień do `Zarządzanie wiadomościami` na tym kanale/gildii. Proszę włączyć to uprawnienie i spróbować ponownie.
+ERROR_MISSING_SEND_MESSAGE: Witaj Podróżniku, nie mam uprawnień do `Wyślij wiadomości` na tym kanale/gildii. Proszę włączyć to uprawnienie i spróbować ponownie.
 MESSAGE_KEY: Wiadomość
-ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
+ERROR_EMPTY_BACKPACK: Twój plecak jest **pusty**! Aby rozpocząć podróż, użyj polecenia </wishsimulator:{command_id}>!
+ERROR_INTERACTION_MISMATCH: Cześć Podróżniku! To **nie jest twoja interakcja** do kontaktu! Użyj polecenia {command} jeśli chcesz użyć tej komendy dla siebie!
 ERROR_MESSAGE: Wystąpił błąd!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
+FEEDBACK_CONFIRMATION_TITLE: Kreator Genshin | Opinie
+FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Twoja opinia została pomyślnie wysłana do programistów!*
 FEEDBACK_LOG_RESPONSE: |
-  > User: **{author_name}** | {author_mention}
-  > Discord ID: `{author_id}`
+  > Użytkownik: **{author_name}** | {author_mention}
+  > ID Discorda: `{author_id}`
 
-  **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </register:{command_id}> to link your account.
+  **Opinie:**```{feedback}```
+NO_HOYOLAB_LINKED: Nie połączyłeś jeszcze swojego konta HoYoLAB. Użyj </register:{command_id}>, aby połączyć swoje konto.
 OLD_HOYOLAB_LINKED: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
+  Witaj Podróżniku! Przepraszamy za niedogodności, ale ta funkcja została zaimplementowana **po** po zarejestrowaniu konta `HoYoLAB` w Genshin Wizard.
 
-  In order to use this button, you must unlink your HoYoLAB account through </hoyo:{command_id}> and **relink** through the usual registration command.
-CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Redemption
-CODE_REDEEM_DESCRIPTION: "*Please wait while we process your redemption code...*"
+  Aby użyć tego przycisku, musisz odłączyć swoje konto HoYoLAB za pośrednictwem </hoyo:{command_id}> i **ponownie link** za pomocą zwykłej komendy rejestracyjnej.
+CODE_REDEEM_TITLE: Kreator Genshin | Wykorzystanie kodu HoYoLAB
+CODE_REDEEM_DESCRIPTION: "*Proszę czekać na przetwarzanie twojego kodu...*"
 CODE_REDEEM_PROGRESS: |
-  *Please wait while we process your redemption code...*
-  <a:loading:1015667958237900801> Attempting to redeem code `{code}`
-HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Expired Cookies
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
+  *Proszę czekać, przetwarzamy twój kod...*
+  <a:loading:1015667958237900801> Próba sprawdzania kodu `{code}`
+HOYOLAB_EXPIRED_COOKIE_TITLE: Kreator Genshin | Wygasłe ciasteczka
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Podróżnik! Wygląda na to, że Twoje ciasteczka kodu HoYoLAB **wygasły**! Użyj polecenia </hoyo:{command_id}> i dokończ proces ponownego łączenia konta do **odświeżania** plików cookie konta HoYoLAB.
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
-APP_COMMAND_INFO_DESCRIPTION: Shows builds for characters in the user's in-game showcase.
-APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history formatted into a text file via private messages.
-APP_COMMAND_HISTORY_DESCRIPTION: View your Genshin account's wish history.
+CODE_REDEEM_SUCCESS: "*Kody zostały pomyślnie przetworzone!*"
+APP_COMMAND_INFO_DESCRIPTION: Pokazuje kompilacje dla postaci użytkownika w grze.
+APP_COMMAND_EXPORT_DESCRIPTION: Eksportuj historię życzeń Genshin sformatowanych do pliku tekstowego za pomocą prywatnych wiadomości.
+APP_COMMAND_HISTORY_DESCRIPTION: Zobacz historię życzeń swojego konta Genshin.
 APP_COMMAND_DAILY_DESCRIPTION: Claim your daily HoYoLAB sign-in rewards.
 APP_COMMAND_MONTHLY_DESCRIPTION: View HoYoLAB daily rewards for the month.
 APP_COMMAND_DIARY_DESCRIPTION: View your HoYoLAB Traveler's Diary.
@@ -279,7 +279,7 @@ ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
 WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
-INFO_COMMAND_SHOWCASE_TITLE: Character Showcase
+INFO_COMMAND_SHOWCASE_TITLE: Prezentacja postaci
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
 REFRESHES_KEY: Refreshes
 INFO_COMMAND_CHARACTER_DETAILS: Character
@@ -991,7 +991,7 @@ PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
   Role: {role_mention}
   Role Name: {role_name}
   Role Color: `{role_color}`
-GENSHIN_WIZARD_PREMIUM: Genshin Wizard Premium
+GENSHIN_WIZARD_PREMIUM: Zaproszenie Genshin Wizard
 CLAIMED_KEY: Claimed
 UNCLAIMED_KEY: Unclaimed
 PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard Premium Server Settings
