@@ -142,39 +142,39 @@ ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Upewnij się, że osoba, którą próbujesz 
 ERROR_MISSING_REQUIRED_ARGUMENT: "Zapomniałeś podać argument, proszę użyć prawidłowego formatu: ```{usage}```"
 ERROR_MISSING_REQUIRED_ATTACHMENT: "Zapomniałeś podać załącznik, użyj prawidłowego formatu: ```{usage} z odpowiednim załącznikiem.```"
 ERROR_MISSING_MANAGE_MESSAGE: Witaj Podróżnik, nie mam uprawnień do `Zarządzanie wiadomościami` na tym kanale/gildii. Proszę włączyć to uprawnienie i spróbować ponownie.
-ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
+ERROR_MISSING_SEND_MESSAGE: Witaj Podróżniku, nie mam uprawnień do `Wyślij wiadomości` na tym kanale/gildii. Proszę włączyć to uprawnienie i spróbować ponownie.
 MESSAGE_KEY: Wiadomość
-ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
+ERROR_EMPTY_BACKPACK: Twój plecak jest **pusty**! Aby rozpocząć podróż, użyj polecenia </wishsimulator:{command_id}>!
+ERROR_INTERACTION_MISMATCH: Cześć Podróżniku! To **nie jest twoja interakcja** do kontaktu! Użyj polecenia {command} jeśli chcesz użyć tej komendy dla siebie!
 ERROR_MESSAGE: Wystąpił błąd!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
+FEEDBACK_CONFIRMATION_TITLE: Kreator Genshin | Opinie
+FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Twoja opinia została pomyślnie wysłana do programistów!*
 FEEDBACK_LOG_RESPONSE: |
-  > User: **{author_name}** | {author_mention}
-  > Discord ID: `{author_id}`
+  > Użytkownik: **{author_name}** | {author_mention}
+  > ID Discorda: `{author_id}`
 
-  **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </register:{command_id}> to link your account.
+  **Opinie:**```{feedback}```
+NO_HOYOLAB_LINKED: Nie połączyłeś jeszcze swojego konta HoYoLAB. Użyj </register:{command_id}>, aby połączyć swoje konto.
 OLD_HOYOLAB_LINKED: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
+  Witaj Podróżniku! Przepraszamy za niedogodności, ale ta funkcja została zaimplementowana **po** po zarejestrowaniu konta `HoYoLAB` w Genshin Wizard.
 
-  In order to use this button, you must unlink your HoYoLAB account through </hoyo:{command_id}> and **relink** through the usual registration command.
-CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Redemption
-CODE_REDEEM_DESCRIPTION: "*Please wait while we process your redemption code...*"
+  Aby użyć tego przycisku, musisz odłączyć swoje konto HoYoLAB za pośrednictwem </hoyo:{command_id}> i **ponownie link** za pomocą zwykłej komendy rejestracyjnej.
+CODE_REDEEM_TITLE: Kreator Genshin | Wykorzystanie kodu HoYoLAB
+CODE_REDEEM_DESCRIPTION: "*Proszę czekać na przetwarzanie twojego kodu...*"
 CODE_REDEEM_PROGRESS: |
-  *Please wait while we process your redemption code...*
-  <a:loading:1015667958237900801> Attempting to redeem code `{code}`
-HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Expired Cookies
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
+  *Proszę czekać, przetwarzamy twój kod...*
+  <a:loading:1015667958237900801> Próba sprawdzania kodu `{code}`
+HOYOLAB_EXPIRED_COOKIE_TITLE: Kreator Genshin | Wygasłe ciasteczka
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Podróżnik! Wygląda na to, że Twoje ciasteczka kodu HoYoLAB **wygasły**! Użyj polecenia </hoyo:{command_id}> i dokończ proces ponownego łączenia konta do **odświeżania** plików cookie konta HoYoLAB.
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
-APP_COMMAND_INFO_DESCRIPTION: Shows builds for characters in the user's in-game showcase.
-APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history formatted into a text file via private messages.
-APP_COMMAND_HISTORY_DESCRIPTION: View your Genshin account's wish history.
+CODE_REDEEM_SUCCESS: "*Kody zostały pomyślnie przetworzone!*"
+APP_COMMAND_INFO_DESCRIPTION: Pokazuje kompilacje dla postaci użytkownika w grze.
+APP_COMMAND_EXPORT_DESCRIPTION: Eksportuj historię życzeń Genshin sformatowanych do pliku tekstowego za pomocą prywatnych wiadomości.
+APP_COMMAND_HISTORY_DESCRIPTION: Zobacz historię życzeń swojego konta Genshin.
 APP_COMMAND_DAILY_DESCRIPTION: Claim your daily HoYoLAB sign-in rewards.
 APP_COMMAND_MONTHLY_DESCRIPTION: View HoYoLAB daily rewards for the month.
 APP_COMMAND_DIARY_DESCRIPTION: View your HoYoLAB Traveler's Diary.
