@@ -644,16 +644,16 @@ REGISTER_COMMAND_CONSOLE_DIRECTIONS: Suite à la mise à jour 2.3 les liens év�
 REGISTER_COMMAND_PLATFORM_SELECTION: Quelle plateforme utilisez-vous pour jouer à Genshin Impact ?
 REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | Inscription à l'Historique des Vœux
 REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
-  Welcome to Genshin Wizard's Registration system.
+  Bienvenue dans le système d'enregistrement de l'assistant Genshin.
 
-  **Linking Features:**
-  > **1.** Keep track of your wish history.
-  > **2.** View in-depth wish history statistics along with your banner pities.
-  > **3.** View whether you're on your guaranteed limited pity or not.
-  > **4.** Full Genshin Wizard profile capabilities.
-  > **5.** Access to all commands that are accessible by [**Linking UID**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-registration).
+  **Fonctionnalités de liaison :**
+  > **1.** Gardez une trace de votre historique de vœux.
+  > **2.** Voir les statistiques détaillées de l'historique des vœux avec vos pity sur les bannières.
+  > **3.** Voir si vous avez la pity garantie ou non.
+  > **4.** Fonctionnalités de profil Full Genshin Wizard.
+  > **5.** Accédez à toutes les commandes accessibles par [**Lier l'UID**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-registration).
 
-  Which platform do you use to play Genshin Impact?
+  Quelle plateforme utilisez-vous pour jouer à l'impact Genshin ?
 ERROR_INVALID_UID: Veuillez fournir un UID valide pour lier votre compte Genshin à votre compte Discord.
 ERROR_INVALID_REGISTRATION_URL: Hey Voyageur, c'est un **lien non valide !** Assurez-vous d'avoir suivi les étapes correctement et réessayez.
 ERROR_UNEXPECTED_ERROR: Une erreur inattendue est survenue. Veuillez la signaler au personnel !
@@ -665,7 +665,7 @@ REFRESHING_USER: Actualisation de l'utilisateur...
 REGISTERING_USER: Enregistrement de l'utilisateur...
 RETRIEIVING_WISH_HISTORY: Récupération de votre historique de vœux...
 REGISTER_BANNER_SYNCED: Bannière {banner_name} synchronisée avec succès !
-REGISTER_BANNER_SYNC_COMPLETE: Successfully synced all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
+REGISTER_BANNER_SYNC_COMPLETE: Toutes les bannières ont été synchronisées avec succès ! Vous pouvez maintenant utiliser la commande </history:{command_id}> pour voir plus d'informations sur vos vœux.
 SUCCESSFULLY_REGISTERED: Inscription Réussie !
 SUCCESSFULLY_REFRESHED: Actualisation Réussie !
 SUCCESSFULLY_UPDATED_UID: |
@@ -687,7 +687,7 @@ UNLINK_EVERYTHING: Tout Délier
 UNLINK_EVERYTHING_BRIEF: Cette méthode va **tout** délier de Genshin Wizard.
 UNLINK_EVERYTHING_DESCRIPTION: Cette méthode va tout dissocier de Genshin Wizard. Cette action est **irréversible**. Êtes-vous sûr de vouloir continuer ?
 UNLINKING_CONFIRMATION: Vous avez **délié avec succès** les données demandées par Genshin Wizard !
-UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If this is a mistake and you are looking to *recover* your Genshin Wizard account, use the </recover:{command_id}> command. If you need further assistance, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
+UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: Cet UID est **déjà enregistré** à un autre utilisateur! Si c'est une erreur et que vous voulez *récupérer* votre compte Genshin Wizard, utilisez la commande </recover:{command_id}> . Si vous avez besoin d'assistance, veuillez contacter [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: Vous êtes **déjà enregistré** à un UID différent ! Si vous souhaitez vous inscrire en utilisant un autre compte, veuillez utiliser </unlink:{command_id}> avant de tenter de vous inscrire à nouveau."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Genshin Wizard Inscription
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Enregistrez votre compte Genshin sur Genshin Wizard.
@@ -1114,7 +1114,7 @@ WEAPON_BANNER_DESCRIPTION: Consultez votre historique de vœux pour la bannière
 PERMANENT_BANNER_DESCRIPTION: Consultez votre historique de vœux pour la bannière permanente.
 CHOOSE_BANNER_PLACEHOLDER: Choisissez une bannière...
 GO_BACK_BUTTON: Retour
-REGISTER_SCRIPT_BUTTON: Register via Script
+REGISTER_SCRIPT_BUTTON: S'enregistrer via Script
 REGISTER_LOGIN_BUTTON: S'enregistrer via Login
 ENTER_TOKEN_BUTTON: Entrer Jeton
 REGISTER_ACCOUNT_BUTTON: Enregistrer le Compte
@@ -1431,13 +1431,13 @@ ART_SETTING_TITLE: Paramètres de Confidentialité de Genshin Wizard
 ART_SETTING_DESCRIPTION: Gérez ici les paramètres de votre </info:{command_id}> art Genshin Wizard.
 ART_LAYOUT_STYLE: "Type de mise en page"
 ART_CHARACTER_STYLE: "Statistiques de Personnage"
-RESET_PROFILE_SETTINGS: Reset Profile Settings
-CHOOSE_ART_LAYOUT: "Choose an art layout style..."
-MANAGE_CACHED_DATA: Manage Cached Data
+RESET_PROFILE_SETTINGS: Réinitialiser les paramètres de profil
+CHOOSE_ART_LAYOUT: "Choisir un style de mise en page..."
+MANAGE_CACHED_DATA: Gérer les données en cache
 INFO_COMMAND_SETTING_NOT_OWNER: You can only manage art settings for your own characters! Use the </info:{command_id}> for more information!
-VERTICAL_ART_SETTING: Vertical Card Layout
-DIARY_DATE_LABEL: "{month}/{year} Diary"
-NO_ACTIVE_BONUS: No Activated Bonuses
+VERTICAL_ART_SETTING: Disposition de la carte verticale
+DIARY_DATE_LABEL: "Journal {month}/{year}"
+NO_ACTIVE_BONUS: Aucun bonus activé
 JANUARY_KEY: Janvier
 FEBRUARY_KEY: Février
 MARCH_KEY: Mars
@@ -1467,39 +1467,39 @@ UID_KEY_VALUE: "UID : {uid}"
 HOYO_API_LIMITATION: "*Les données peuvent être inexactes en raison des limitations de l'API HoYoLAB"
 CHECK_IN_GAME: "Voir en jeu pour des informations plus précises"
 HOYO_COMMISSION_KEY: "Commandes :"
-HOYO_ADVENTURE_RANK_KEY: "Adventure Rank:"
+HOYO_ADVENTURE_RANK_KEY: "Niveau d'Aventure :"
 HOYO_DAILY_BONUS_STATUS: "Connexion journalière:"
 HOYO_RESIN_KEY: "Résine :"
 HOYO_TEAPOT_KEY: "Sérénithéière:"
 HOYO_TRANSFORMER_KEY: "Transformateur:"
-TRANSFORMER_READY_KEY: Ready
-TRANSFORMER_LOCKED_KEY: Locked
+TRANSFORMER_READY_KEY: Prêt
+TRANSFORMER_LOCKED_KEY: Verrouillé
 GENSHIN_STATS_KEY: Statistiques Genshin
-STATS_TOTAL_ACHIEVEMENTS_KEY: "Total Achievements"
-STATS_TOTAL_ACTIVE_DAYS_KEY: "Total Active Days"
+STATS_TOTAL_ACHIEVEMENTS_KEY: "Succès total"
+STATS_TOTAL_ACTIVE_DAYS_KEY: "Nombre de jours actifs"
 STATS_TOTAL_CHARACTERS_KEY: "Personnages"
-STATS_SPIRAL_ABYSS_KEY: "Spiral Abyss"
-STATS_REGION_KEY: "Region"
-STATS_WAYPOINTS_KEY: "Waypoints"
-STATS_DOMAINS_KEY: "Domains"
-ANEMOCULUS_KEY: Anemoculus
-GEOCULUS_KEY: Geoculus
-ELECTROCULUS_KEY: Electroculus
+STATS_SPIRAL_ABYSS_KEY: "Profondeurs spiralées"
+STATS_REGION_KEY: "Région"
+STATS_WAYPOINTS_KEY: "Repères"
+STATS_DOMAINS_KEY: "Domaines"
+ANEMOCULUS_KEY: Anémoculus
+GEOCULUS_KEY: Géoculus
+ELECTROCULUS_KEY: Électroculus
 DENDROCULUS_KEY: Dendroculus
-TRUST_RANK_KEY: Trust Rank
+TRUST_RANK_KEY: Affinité
 ADEPTAL_ENERGY_KEY: Adeptal Energy
-ITEMS_KEY: Items
-TOTAL_ISLANDS_KEY: Total Islands
-TOTAL_PULLS_KEY: Total Pulls
-WISH_STATISTICS_KEY: Wish Statistics
-PERCENT_KEY: Percent
-FIVE_STAR_KEY: 5-Star
-FOUR_STAR_KEY: 4-Star
-THREE_STAR_KEY: 3-Star
-BOTTOM_KEY: Bottom
-TOP_KEY: Top
-WISH_STAT_LESS_THAN: "Less pulls than {global_percentile}% of Genshin Wizard Users."
-WISH_STAT_MORE_THAN: "More pulls than {global_percentile}% of Genshin Wizard Users."
+ITEMS_KEY: Objets
+TOTAL_ISLANDS_KEY: Îles totales
+TOTAL_PULLS_KEY: Vœux totaux
+WISH_STATISTICS_KEY: Statistiques des vœux
+PERCENT_KEY: Pourcent
+FIVE_STAR_KEY: 5 étoiles
+FOUR_STAR_KEY: 4 étoiles
+THREE_STAR_KEY: 3 étoiles
+BOTTOM_KEY: Bas
+TOP_KEY: Haut
+WISH_STAT_LESS_THAN: "Moins de tirages que {global_percentile}% des utilisateurs de Genshin Wizard."
+WISH_STAT_MORE_THAN: "Plus de pulls que {global_percentile}% des utilisateurs de Genshin Wizard."
 FIVE_STAR_LUCK: "5-Star Luck"
 FOUR_STAR_LUCK: "4-Star Luck"
 THREE_STAR_LUCK: "3-Star Luck"
