@@ -416,7 +416,7 @@ HOYOLAB_OVERVIEW_TITLE: 원신 위자드 | 호요랩 전적
 HOYOLAB_LOADING_ACCOUNT: 계정 정보 불러오는 중....
 HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> 계정의 **실시간 메모** 정보를 검색하는 동안 오류가 발생했습니다! *나중에* 다시 시도하거나 [**공식 지원 서버**](https://discord.gg/BTT5Zr7Dmp)에 가입하여 도움을 받으세요.
 HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> 계정의 **게임 기록** 정보를 검색하는 동안 오류가 발생했습니다! *나중에* 다시 시도하거나 [**공식 지원 서버**](https://discord.gg/BTT5Zr7Dmp)에 가입하여 도움을 받으세요.
-HOYOLAB_ACCOUNT_ERROR: 계정 정보를 가져오는 중에 오류가 발생했습니다! 나중에 다시 시도 해주십시오*.
+HOYOLAB_ACCOUNT_ERROR: 여행자의 계정 정보를 가져오는데 오류가 발생했어! 조금 있다가 다시 시도해줄래?
 HOYOLAB_ACCOUNT_MANAGE: 원신 위자드로 여행자의 호요랩 계정을 관리해봐
 HOYOLAB_CHARACTER_SUMMARY_TITLE: 원신 위자드 |캐릭터 요약
 CHARACTER_SUMMARY_NOT_FULL: 이 기능은 가챠 기록을 기반으로 합니다. 가장 최근의 쇼케이스 (레벨, 호감도, 별자리돌파, 모험가레벨 포함) 를 보려면 /register 명령으로 등록을 하세요.
@@ -700,7 +700,7 @@ UNLINK_EVERYTHING: 모두 연결 해제
 UNLINK_EVERYTHING_BRIEF: 이 방법은 Genshin Wizard에서 **모든 것**의 연결을 해제합니다.
 UNLINK_EVERYTHING_DESCRIPTION: 이 방법은 Genshin Wizard에서 모든 연결을 해제합니다. 이 작업은 **돌이킬 수 없습니다**. 정말로 계속하기를 원하십니까?
 UNLINKING_CONFIRMATION: Genshin Wizard에서 요청한 데이터를 **성공적으로 연결 해제**했습니다!
-UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If this is a mistake and you are looking to *recover* your Genshin Wizard account, use the </recover:{command_id}> command. If you need further assistance, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
+UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: 이 UID 는 다른 여행자가  **이미 등록했어**! 혹시 여행자 본인의 계정을 *복구* 하고 싶다면, 다음 커맨드를 사용해봐 : </recover:{command_id}>. 도움이 더 필요하다면, 꼭 연락해줘! [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: 다른 UID에 **이미 등록**되었습니다! 다른 계정을 사용하여 등록하려면 다시 등록을 시도하기 전에 </unlink:{command_id}>를 사용하십시오."
 GENSHIN_WIZARD_REGISTRATION_TITLE: 원신 위자드 등륵하기
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: 여행자의 정보를 원신 위자드에 등록해.
@@ -1656,44 +1656,44 @@ REGISTER_SCRIPT_COPY_BUTTON: 여기를 눌러 복사해줘!
 ACCOUNT_EMAIL_KEY: 계정 이메일
 PASSWORD_KEY: 계정 비밀번호
 HYDROCULUS_KEY: 물의 신의 눈동자
-APP_COMMAND_RECOVER_DESCRIPTION: Recover your inaccessible Genshin Wizard account.
-RECOVER_COMMAND_TITLE: Genshin Wizard Account Recovery
-RECOVER_COMMAND_ALREADY_REGISTERED: You have already **registered** to an account! Unlink using </unlink:{command_id}> before trying to recover your previous account.
+APP_COMMAND_RECOVER_DESCRIPTION: 여행자의 계정을 복구할 수 있어.
+RECOVER_COMMAND_TITLE: 원신 위자드 계정 복구
+RECOVER_COMMAND_ALREADY_REGISTERED: 여행자는 이미 계정에 **등록되어있어**! 이전 계정 복구를 위해 등록해제 </unlink:{command_id}> 를 먼저 진행해줘.
 RECOVER_COMMAND_INSTRUCTIONS: |
-  Lost access to your Genshin Wizard account and want to re-link your account? You've come to the right place!
+  기존 위자드 계정을 확인할 수 없거나 재연결을 하고싶어? 그렇다면 딱 맞게 찾아왔네!
 
-  Click the button below to begin the **account recovery** process.
-METHOD_ONE_BUTTON: Method 1
-METHOD_TWO_BUTTON: Method 2
-METHOD_THREE_BUTTON: Method 3
-METHOD_MANUAL_BUTTON: Manual
-METHOD_ONE_TITLE: Wish History Registration | Method 1
-METHOD_TWO_TITLE: Wish History Registration | Method 2
-METHOD_THREE_TITLE: Wish History Registration | Method 3
-METHOD_MANUAL_TITLE: Wish History Registration | Manual Method
+  아래 버튼을 눌러서 **계정 복구** 를 시작하자.
+METHOD_ONE_BUTTON: 방법 1
+METHOD_TWO_BUTTON: 방법 2
+METHOD_THREE_BUTTON: 방법 3
+METHOD_MANUAL_BUTTON: 직접입력
+METHOD_ONE_TITLE: 기원 기록 등록 | 방법 1
+METHOD_TWO_TITLE: 기원 기록 등록 | 방법 2
+METHOD_THREE_TITLE: 기원 기록 등록 | 방법 3
+METHOD_MANUAL_TITLE: 기원 기록 등록 | 직접입력
 METHOD_TWO_DESCRIPTION: |
-  1. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  2. Then copy the following code and paste it in the Powershell window
+  1. 윈도우 시작 메뉴에서 "PowerShell" 을 검색하고, "Windows PowerShell" 을 실행해줘
+  2. 아래 코드를 복사해서, 실행한 PowerShell 창에 붙여넣기 해줘(아직 엔터키를 누르면 안돼!)
   ```ps
   iex('Write-Host "Copy the wish history table!";while(1) { $c = Get-Clipboard -TextFormatType Html; if ($c -match "^SourceURL:https:/.+log") { break; }; for($i=5; $i -gt 0; $i--) { Write-Host "`rChecking in $i" -NoNewline; Sleep 1; }; }; Write-Host " OK"; $m=(((Get-Clipboard -TextFormatType Html) | Select-String "(https:/.+log)").Matches[0].Value);$m; Set-Clipboard -Value $m;')
   ```
-  3. Go to the Genshin Impact game and open the wish history page
-  4. Hit `ENTER` to have the link copied to your clipboard
-  5. Click the button below and paste the link in the input field
+  3. 원신에 들어가서 기원 기록창을 띄워줘
+  4. PowerShell 창으로 돌아와서 엔터키를 눌러줘. 여행자의 클립보드에 링크가 자동으로 복사될꺼야
+  5. 아래 버튼을 눌러서 복사된 링크를 붙여넣어줘
 METHOD_THREE_DESCRIPTION: |
-  1. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  2. Then copy the following code and paste it in the Powershell window
+  1. 윈도우 시작 메뉴에서 "PowerShell" 을 검색하고, "Windows PowerShell" 을 실행해줘
+  2. 아래 코드를 복사해서, 실행한 PowerShell 창에 붙여넣기 해줘(아직 엔터키를 누르면 안돼!)
   ```ps
   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://gist.githubusercontent.com/MadeBaruna/bf36bad751dc9221067ca1e31ab08255/raw/cb73a9f46f08fad6f27581ebb1a6249ba086af13/read.ps1'))
   ```
-  3. Go to the Genshin Impact game and open the wish history page
-  4. Hit `ENTER` to have the link copied to your clipboard
-  5. Click the button below and paste the link in the input field
+  3. 원신에 들어가서 기원 기록창을 띄워줘
+  4. PowerShell 창으로 돌아와서 엔터키를 눌러줘. 여행자의 클립보드에 링크가 자동으로 복사될꺼야
+  5. 아래 버튼을 눌러서 복사된 링크를 붙여넣어줘
 METHOD_MANUAL_DESCRIPTION: |
-  1. Open Genshin Impact Game on your PC (Make sure you restart the game if you use multiple accounts/share computers)
-  2. Go to the wish history page and wait for it to load
-  3. Open the installation folder for Genshin Impact (i.e. C:\Games\Genshin Impact\Genshin Impact game)
-  4. Open folders "GenshinImpact_Data" > "webCaches" > "2.13.0.1" > "Cache" > "Cache_Data"
-  5. Right click "data_2" file then click "Open with" then select Notepad (If you get error like "The process cannot access the file because it is being used by another process" please exit the game first)
-  6. Press CTRL+F, check `Wrap around`, and select direction `Up` then in the input box search for "**e20190909gacha-v2**" (without the quote). Finally, click `Find Next`
-  7. Copy the link from *`https://webstatic`* to *`game_biz=hk4e_global`* the url looks like this: *`https://webstatic-sea.hoyoverse.com/genshin/event/e20190909gacha-v2/index.html?.......&game_biz=hk4e_global`*
+  1. 컴퓨터로 원신을 실행해줘(혹시 여러 계정을 이용하고 있거나 컴퓨터를 공유중이라면, 확실히 하기 위해 재실행을 해줘)
+  2. 기원 기록창을 띄워줘
+  3. 컴퓨터에 원신이 설치된 폴더를 열어줘 (예: C:\Games\Genshin Impact\Genshin Impact game)
+  4. 다음 경로를 따라 차례로 들어가줘: "GenshinImpact_Data" > "webCaches" > "2.13.0.1" > "Cache" > "Cache_Data"
+  5. "data_2" 라는 이름의 파일을 우클릭해서 "연결 프로그램"을 통해 메모장으로 열어줘(혹시 "다른 프로그램에서 이 파일을 사용 중이므로 열 수 없습니다" 와 같은 에러가 발생한다면, 원신을 종료한 다음에 다시 시도해줘)
+  6. CTRL+F 를 눌러서 다음 문자를 찾아줘: "**e20190909gacha-v2**" (물론, 따옴표는 빼고 찾아야해)
+  7. *`https://webstatic`* 으로 시작하는 부분부터 *`game_biz=hk4e_global`* 로 끝나는 부분까지 선택해서 복사해줘. 아마 다음과 같은 형태일테니 참고해줘: *`https://webstatic-sea.hoyoverse.com/genshin/event/e20190909gacha-v2/index.html?.......&game_biz=hk4e_global`*
