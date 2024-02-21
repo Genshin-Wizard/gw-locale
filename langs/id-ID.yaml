@@ -457,9 +457,9 @@ USE_COUNT_KEY: Gunakan Hitungan
 IMPORT_ERROR: Kesalahan Impor!
 FOOTER_ERROR_DESCRIPTION: Jika anda yakin ini adalah kesalahan, harap hubungi anggota staf.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  Data yang kamu ingin import tidak **didukung**. Untuk saat ini kami *hanya* mengizinkan import dari:
   {supported_file_types}
-  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
+  Silahkan lihat [**Dokumentasi**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) untuk informasi lebih lanjut.
 IMPORT_COMMAND_TITLE: Genshin Wizard | Impor Riwayat Permohonan
 IMPORT_COMMAND_FILE_DETECTED: |
   *Sumber Impor Terdeteksi: `{source}`**
@@ -621,18 +621,18 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "Konsol"
 REGISTER_IOS_METHOD: "iOS (Metode Stream App)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
+  Silahkan lihat [Github Documentation](https://github.com/Genshin-Wizard/historyLink) untuk petunjuk yang lebih detail dengan gambar.
 
-  1. Open Genshin Impact Game on your PC
-  2. Go to the wish history page and wait for it to load
-  3. Go back to Windows/Desktop
-  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  5. Then copy the following code and paste it in the Powershell window
+  1. Buka Genshin Impact di PC kamu
+  2. Buka riwayat permohonan dan tunggu sampai terbuka sepenuhnya
+  3. Kembali ke Windows/Desktop
+  4. Di menu start, cari "Powershell" dan buka "Windows PowerShell"
+  5. Salin kode berikut ini dan tempel di Powershell
   ```ps
   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
   ```
-  6. Hit `ENTER` to have the link copied to your clipboard
-  7. Click the button below and paste the link in the input field
+  6. Tekan `ENTER` untuk menyalin link secara otomatis
+  7. Tekan tombol dibawah ini dan tempel link di kolom input
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   Setelah pembaruan 3.0, pengguna tidak daoat lagi menyalin dan menempelkan tautan riwayat di perangkat Android.
 
@@ -699,7 +699,7 @@ UNLINK_EVERYTHING: Putuskan Semua Tautan
 UNLINK_EVERYTHING_BRIEF: Metode ini akan menghapus **semuanya** dari Genshin Wizard.
 UNLINK_EVERYTHING_DESCRIPTION: Metode ini akan menghapus semua tautan dari Genshin Wizard. Tindakan ini **tidak dapat diubah**. Apakah anda yakin ingin melanjutkan?
 UNLINKING_CONFIRMATION: Anda telah **berhasil menghapus tautan** data yang diminta dari Genshin Wizard!
-UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If this is a mistake and you are looking to *recover* your Genshin Wizard account, use the </recover:{command_id}> command. If you need further assistance, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
+UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: UID ini **sudah terdaftar** untuk user lain! Jika ini adalah suatu kesalahan dan kamu ingin *memulihkan* akun kamu, gunakan perintah </recover:{command_id}>. Jika kamu membutuhkan bantuan lebih lanjut, tolong hubungi [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: Anda **sudah mendaftar** ke UID yang berbeda! Jika Anda ingin mendaftar menggunakan akun lain, harap gunakan </unlink:{command_id}> sebelum mencoba daftar lagi."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Pendaftaran Genshin Wizard
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Daftarkan akun Genshin kamu ke Genshin Wizard.
@@ -1126,7 +1126,7 @@ WEAPON_BANNER_DESCRIPTION: Lihat ringkasan permohanan untuk banner senjata.
 PERMANENT_BANNER_DESCRIPTION: Lihat ringkasan permohanan untuk banner permanen.
 CHOOSE_BANNER_PLACEHOLDER: Pilih banner...
 GO_BACK_BUTTON: Kembali
-REGISTER_SCRIPT_BUTTON: Register via Script
+REGISTER_SCRIPT_BUTTON: Daftar lewat Script
 REGISTER_LOGIN_BUTTON: Daftar melalui Login
 ENTER_TOKEN_BUTTON: Masukkan Token
 REGISTER_ACCOUNT_BUTTON: Daftar akun
@@ -1423,7 +1423,7 @@ HISTORY_COMMAND_OVERVIEW_TITLE: Genshin Wizard | Rangkuman Riwayat Permohonan
 ABYSS_ENEMY_FLOOR_VIEW: Tampilan Tiap Lantai
 ABYSS_ENEMY_CHAMBER_VIEW: Tampilan Tiap Chamber
 ABYSS_ENEMY_FLOOR_OVERVIEW: "Jadwal: **Ringkasan Lantai {floor_index}**"
-ABYSS_ENEMY_INFORMATION_BUTTON: Hello Traveler, as inconveniencing as it may be, I am **__unable__** to display information regarding **specific enemy counts**. This is due to the fact that this information is generated when *starting* the challenge. I apologize for any inconvenience this may cause.
+ABYSS_ENEMY_INFORMATION_BUTTON: Halo Pengembara, meskipun ini akan terasa tidak nyaman, aku **__unable__** untuk menampilkan informasi terhadap **jumlah musuh spesifik**. Ini disebabkan karena fakta bahwa informasi ini dihasilkan saat *memulai* tantangan. Aku minta maaf atas ketidaknyamanan yang mungkin ditimbulkan.
 ABYSS_ENEMY_INFORMATION_BUTTON_LABEL: Jumlah Musuh
 APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: Ubah Pengaturan Privasi Battle Chronicles Anda.
 VIEW_ON_HOYOLAB: Lihat di HoYoLAB
@@ -1568,21 +1568,21 @@ ONGOING_KEY: Sedang berlangsung
 FINISHED_KEY: Selesai
 VENTURA_ART_SETTING: Layout Ventura
 TITLE_KEY: Judul
-AFFILIATION_KEY: Affiliation
-ELEMENT_KEY: Element Type
-CONSTELLATION_KEY: Constellation
-WEAPON_TYPE_KEY: Weapon Type
-RARITY_KEY: Rarity
-CHARACTER_GUIDE_FOOTER: "Character Guide • {guide_type}: {character_name}"
-DEFAULT_ASCENSION_DESCRIPTION: Information regarding this character's ascension information.
+AFFILIATION_KEY: Afiliasi
+ELEMENT_KEY: Tipe Elemen
+CONSTELLATION_KEY: Konstelasi
+WEAPON_TYPE_KEY: Tipe Senjata
+RARITY_KEY: Kelangkaan
+CHARACTER_GUIDE_FOOTER: "Panduan Karakter • {guide_type}: {character_name}"
+DEFAULT_ASCENSION_DESCRIPTION: Informasi tentang Ascension karakter ini.
 READY_TO_CLAIM: Siap untuk diklaim
 STATUS_KEY: Status
-TIME_LEFT_KEY: Time Left
-TEAM_SYNERGY_TITLE: Team Synergies & Compositions
-FOUR_STAR_CHARACTER: Four Star Character
-FIVE_STAR_CHARACTER: Five Star Character
-CHARACTER_ART_INFO: Art By {artist}
-ARTIFACT_SET_KEY: Artifact Set
+TIME_LEFT_KEY: Sisa Waktu
+TEAM_SYNERGY_TITLE: Sinergi & Komposisi Tim
+FOUR_STAR_CHARACTER: Karakter Bintang Empat
+FIVE_STAR_CHARACTER: Karakter Bintang Lima
+CHARACTER_ART_INFO: Karya Oleh {artist}
+ARTIFACT_SET_KEY: Set Artifact
 TWO_PIECE_BONUS: 2-piece Set Bonus
 FOUR_PIECE_BONUS: 4-piece Set Bonus
 WEAPON_CATALYST: Catalyst
@@ -1590,28 +1590,28 @@ WEAPON_BOW: Bow
 WEAPON_CLAYMORE: Claymore
 WEAPON_POLE: Polearm
 WEAPON_SWORD_ONE_HAND: Sword
-GUIDE_LIST_FOOTER: Use the /guide <character> command to view a character's guide!
-NO_BANNERS_ERROR: There are **no event banners** currently running.
-APP_COMMAND_FURNITURE_DESCRIPTION: Look up information on a specific piece of furniture in Genshin Impact.
-APP_COMMAND_DESCRIBE_FURNITURE: The name of the furnishing you want to look-up.
+GUIDE_LIST_FOOTER: Gunakan perintah /guide <character> untuk melihat panduan karakter!
+NO_BANNERS_ERROR: '**Tidak ada Event Banner** yang sedang berlangsung.'
+APP_COMMAND_FURNITURE_DESCRIPTION: Cari informasi tentang perabotan tertentu di Genshin Impact.
+APP_COMMAND_DESCRIBE_FURNITURE: Name perabotan yang kamu ingin cari.
 COMFORT_KEY: Comfort
 LOAD_KEY: Load
-CREATION_TIME_KEY: Creation Time
+CREATION_TIME_KEY: Waktu Pembuatan
 TRUST_KEY: Trust
-FURNISHING_DETAILS_KEY: Furnishing Details
-INGREDIENTS_KEY: Ingredients
-SOURCE_KEY: Source
-APP_COMMAND_MATERIAL_DESCRIPTION: Look up information on a specific material in Genshin Impact.
-APP_COMMAND_DESCRIBE_MATERIAL: The name of the material you want to look-up.
-APP_COMMAND_NAMECARD_DESCRIPTION: Look up information on a specific namecard in Genshin Impact.
-APP_COMMAND_DESCRIBE_NAMECARD: The name of the namecard you want to look-up.
-APP_COMMAND_RECIPE_DESCRIPTION: Look up information on a specific recipe in Genshin Impact.
-APP_COMMAND_DESCRIBE_RECIPE: The name of the recipe you want to look-up.
-APP_COMMAND_MONSTER_DESCRIPTION: Look up information on a specific monster in Genshin Impact.
-APP_COMMAND_DESCRIBE_MONSTER: The name of the monster you want to look-up.
-SYNERGY_IMAGE_DESCRIPTION: Character synergy information are subject to change from update to update.*
-GENSHIN_WIZARD_LEADERBOARD: Genshin Wizard Leaderboard
-RECENT_PITIES_KEY: Recent Pities
+FURNISHING_DETAILS_KEY: Detail Perabotan
+INGREDIENTS_KEY: Bahan-Bahan
+SOURCE_KEY: Sumber
+APP_COMMAND_MATERIAL_DESCRIPTION: Cari informasi tentang material tertentu di Genshin Impact.
+APP_COMMAND_DESCRIBE_MATERIAL: Nama material yang kamu ingin cari.
+APP_COMMAND_NAMECARD_DESCRIPTION: Cari informasi tentang kartu nama tertentu di Genshin Impact.
+APP_COMMAND_DESCRIBE_NAMECARD: Nama namecard yang kamu ingin cari.
+APP_COMMAND_RECIPE_DESCRIPTION: Cari informasi tentang resep tertentu di Genshin Impact.
+APP_COMMAND_DESCRIBE_RECIPE: Nama resep yang kamu ingin cari.
+APP_COMMAND_MONSTER_DESCRIPTION: Cari informasi tentang monster tertentu di Genshin Impact.
+APP_COMMAND_DESCRIBE_MONSTER: Nama monster yang ingin kamu cari.
+SYNERGY_IMAGE_DESCRIPTION: Informasi sinergi karakter dapat berubah dari update ke update.*
+GENSHIN_WIZARD_LEADERBOARD: Papan Peringkat Genshin Wizard
+RECENT_PITIES_KEY: Pity Saat Ini
 NOVICE_BANNER_KEY: Novice Banner
 CHARACTER_BANNER_KEY: Character Banner
 WEAPON_BANNER_KEY: Weapon Banner
@@ -1659,14 +1659,14 @@ RECOVER_COMMAND_INSTRUCTIONS: |
   Lost access to your Genshin Wizard account and want to re-link your account? You've come to the right place!
 
   Click the button below to begin the **account recovery** process.
-METHOD_ONE_BUTTON: Method 1
-METHOD_TWO_BUTTON: Method 2
-METHOD_THREE_BUTTON: Method 3
+METHOD_ONE_BUTTON: Metode 1
+METHOD_TWO_BUTTON: Metode 2
+METHOD_THREE_BUTTON: Metode 3
 METHOD_MANUAL_BUTTON: Manual
-METHOD_ONE_TITLE: Wish History Registration | Method 1
-METHOD_TWO_TITLE: Wish History Registration | Method 2
-METHOD_THREE_TITLE: Wish History Registration | Method 3
-METHOD_MANUAL_TITLE: Wish History Registration | Manual Method
+METHOD_ONE_TITLE: Registrasi Riwayat Permohonan | Metode 1
+METHOD_TWO_TITLE: Registrasi Riwayat Permohonan | Metode 2
+METHOD_THREE_TITLE: Registrasi Riwayat Permohonan | Metode 3
+METHOD_MANUAL_TITLE: Registrasi Riwayat Permohonan | Metode Manual
 METHOD_TWO_DESCRIPTION: |
   1. In the start menu search for "PowerShell" and open "Windows PowerShell"
   2. Then copy the following code and paste it in the Powershell window
@@ -1693,7 +1693,7 @@ METHOD_MANUAL_DESCRIPTION: |
   5. Right click "data_2" file then click "Open with" then select Notepad (If you get error like "The process cannot access the file because it is being used by another process" please exit the game first)
   6. Press CTRL+F, check `Wrap around`, and select direction `Up` then in the input box search for "**e20190909gacha-v2**" (without the quote). Finally, click `Find Next`
   7. Copy the link from *`https://webstatic`* to *`game_biz=hk4e_global`* the url looks like this: *`https://webstatic-sea.hoyoverse.com/genshin/event/e20190909gacha-v2/index.html?.......&game_biz=hk4e_global`*
-WEAPON_INFORMATION_KEY: Weapon Information
-COMBAT_STATISTICS_KEY: Combat Statistics
-WEAPON_BASED_MAX_LEVEL: based on max lvl weapon*
-WEAPON_DESCRIPTION_KEY: Weapon Description
+WEAPON_INFORMATION_KEY: Informasi Senjata
+COMBAT_STATISTICS_KEY: Statistik Pertarungan
+WEAPON_BASED_MAX_LEVEL: berdasarkan senjata level max
+WEAPON_DESCRIPTION_KEY: Deskripsi Senjata
