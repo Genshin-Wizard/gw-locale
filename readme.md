@@ -3,7 +3,7 @@
 
 
 <div align="center">
-    <img src="https://cdn.discordapp.com/attachments/1014919079154425917/1057017613240242326/locale.png" />
+    <img src="https://i.ibb.co/gr0dNYz/locale.png" />
 </div>
 
 
