@@ -1,8 +1,8 @@
 ---
-GENSHIN_WIZARD_KEY: Genshin Wizard
-HELP_DIRECTORY_TITLE: Genshin Wizard | Help Directory
+GENSHIN_WIZARD_KEY: Ґеншін Чарівник
+HELP_DIRECTORY_TITLE:
 HELP_CATEGORY_DESCRIPTION: Select a category from the dropdown to view commands specific to that category.
-HELP_CATEGORIES: Categories
+HELP_CATEGORIES: Категорії
 HELP_CATEGORY_LIST: |
   > 👤 | Profile Commands
   > 💫 | Wish Commands
@@ -88,17 +88,17 @@ MATH_COMMAND_RESULT: |
   **Result:**
   ```{result}```
 RECENT_GENSHIN_EVENTS: Recent Genshin Events
-SEND_CODES_COMMAND_TITLE: Genshin Wizard | Active Codes
+SEND_CODES_COMMAND_TITLE: Ґеншін Майстер | Активні Промокоди
 SEND_CODES_COMMAND_DESCRIPTION: |
-  <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
-  <:blurpleannouncement:1020402170127982712> **Note:** Codes expire quickly, so be sure to redeem them as soon as possible!
+  <:blurplelink:1020155547187691600> [***Активувати можна за кнопками нижче!***](https://genshin.mihoyo.com/en/gift)
+  <:blurpleannouncement:1020402170127982712> **Примітка:** Термін дії кодів може швидко сплинути, тому поспішайте!
 
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
-SEND_CODES_REDEEM_AUTOMATICALLY: Redeem Automatically
-SEND_CODES_DIRECT_LINK: Direct Link
-SEND_CODES_REDEEMABLE_CODES: Redeemable Codes
-SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Redemption Codes
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!
+SEND_CODES_REDEEM_AUTOMATICALLY: Активувати Автоматично
+SEND_CODES_DIRECT_LINK: Посилання
+SEND_CODES_REDEEMABLE_CODES: Промокоди
+SEND_CODES_REDEMPTION_CODES_TITLE: Ґеншін Майстер | Промокоди
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Промокоди успішно відправлені в {channel}!
 MESSAGE_LINK: Message Link
 CLICK_HERE: Click Here
 INFO_SELECT_CHARACTER: Select a character
@@ -167,10 +167,7 @@ CODE_REDEEM_PROGRESS: |
 HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Expired Cookies
 HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
 GENSHIN_WIZARD_INFORMATION: |
-  <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
-  <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
-  <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
-  <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
+
 CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
 APP_COMMAND_INFO_DESCRIPTION: Shows builds for characters in the user's in-game showcase.
 APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history formatted into a text file via private messages.
@@ -424,11 +421,13 @@ GCG_NO_CARDS_FOUND: No Cards Found!
 GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Traveler! Unfortunately, {member} has **no cards** yet! Head-in game and play some TCG on Genshin Impact *before* using this command.
 HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin with, login to your [**HoYoLAB**](https://www.hoyolab.com/home) account.
-  > **2.** Type `java` in the address bar followed by the script down below.
-  > **3.** Once you've successfully ran the script, click the `Click here to copy!` button to copy the cookie.
-  > **4.** Finally, you're able to register by clicking the `Enter Token` button below and pasting the token you copied.
+  **Як зв'язати обліковий запис HoYoLAB з Genshin Wizard**
+  > **1.** Для того, щоб розпочати, увійдіть до свого [**HoYoLAB**](https://www.hoyolab.com/home) облікового запису.
+  > **2. * Введіть 'java` в адресному рядку за яким йде скрипт нижче.
+  > **3. * Коли ви успішно запустили скрипт, натисніть кнопку `Натисніть тут, щоб скопіювати кукуку.
+  > **4. * Натисніть кнопку `Enter Token` і вставте скопійований токен в першому полі вводу.
+  > **5.** Для решти двох входів, відвідайте наш [**HoYoLAB Реєстраційний Посібник**](https://документації. enshinwizard.com/overview/hoyolab-registration) для отримання додаткової інформації.
+  > **6.** Нарешті, натисніть кнопку "Submit" для завершення процесу реєстрації.
 HOYOLAB_REGISTER_SCRIPT: |
   ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)```
 HOYOLAB_REGISTER_LOGIN_TITLE: Registration | Login Method
@@ -864,13 +863,7 @@ GENSHIN_WIZARD_SHOP_DESCRIPTION: |
 
   <:GreyPin:949815085335986246> **__CURRENT SHOP__ [ Price | Item ]**
 SIMULATOR_NO_PRIMOGEMS: |
-  <:Error:1021889679857037372> Hey Traveler, you don't have anymore **primogems** for today! You need at least <:Primogem:951924423340994610>**1,600** primogems to do *another* ten pull. To view your current balance, use the **</balance:{balance_id}>** command.
 
-  **__Need a Refill?__**
-  <:blurplelink:1020155547187691600> [**Vote for Genshin Wizard Bot [8,000 Primogems]**](https://top.gg/bot/782099719718699009/vote)
-  <:blurplelink:1020155547187691600> [**Vote for Genshin Wizard Server [8,000 Primogems]**](https://top.gg/servers/951370297582436392/vote)
-  <:blurplelink:1020155547187691600> **Use the </commissions:{commission_id}> command. [16,000 Primogems]**
-  > <:GreyPin:949815085335986246> Extra rewards for **Adventurers** of the **[Genshin Wizard Guild](https://discord.gg/genshinwizard) [16,000 Primogems]**
 WISH_RESULTS_DESCRIPTION: |
   **Wish Results** <a:results:1020753234555584562>```glsl
   {rolls}```
@@ -1021,12 +1014,7 @@ PREMIUM_TIER_ONE_PERKS: |
   <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>16,000** Primogems everyday for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
   <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier1:1045526665335427183> Witch of Purple Rose** role.
 PREMIUM_TIER_TWO_PERKS: |
-  <:information:1034639378410115103> **Premium Perks: $10 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
-  <:blurplejoinarrow:932413900073369621> All previous tiers' benefits.
-  <:blurplejoinarrow:932413900073369621> The ability to select a server of your choice to gain Genshin Wizard Partner perks, no questions asked. This includes access to /abyss, /stats and automatic role integration for 36 star abyss clears and C6 characters (role integration dashboard).
-  <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>24,000** Primogems a day for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
-  <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier2:1045526666354643034> Astral Reflection** role.
+
 PREMIUM_TIER_THREE_PERKS: |
   <:information:1034639378410115103> **Premium Perks: $25 Monthly Plan**
   **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
@@ -1702,3 +1690,8 @@ SECOND_HALF_KEY: Second Half
 ASCENSION_GUIDE_KEY: Ascension Guide
 TALENT_MATERIALS_KEY: Talent Materials
 EXPEDITION_PROGRESS_KEY: Expedition Progress
+DOMAIN_SCHEDULE_DAY_TITLE: "{day} Domain Schedule"
+CHARACTER_USAGE_KEY: Character Usage
+WEAPON_USAGE_KEY: Weapon Usage
+REQUIRED_BY_KEY: Required By
+REFERENCE_SHEET_KEY: Reference Sheet
