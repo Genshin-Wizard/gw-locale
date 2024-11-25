@@ -173,7 +173,7 @@ GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
 CODE_REDEEM_SUCCESS: "*Mã đổi thưởng đã được quy đổi thành công!*"
 APP_COMMAND_INFO_DESCRIPTION: Mở infographic với cách build nhân vật trên hồ sơ của bạn.
-APP_COMMAND_EXPORT_DESCRIPTION: Xuất dữ liệu lịch sử cầu nguyện của bạn sang file text qua tin nhắn riêng tư.
+APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in [**UIGF v4.0**](https://uigf.org/en/) format via direct messages.
 APP_COMMAND_HISTORY_DESCRIPTION: Mở lịch sử cầu nguyện của bạn.
 APP_COMMAND_DAILY_DESCRIPTION: Nhận phần thưởng đăng nhập HoYoLAB hàng ngày.
 APP_COMMAND_MONTHLY_DESCRIPTION: Hiển thị phần thưởng đăng nhập HoYoLAB trong tháng này.
@@ -267,6 +267,7 @@ EXPORT_NO_WISHES: Không có lần cầu nguyện nào có thể xuất ra.
 EXPORT_NO_BANNER_WISHES: Không có {banner} lần cầu nguyện nào được tìm thấy.
 EXPORT_NO_MESSAGE_PERMISSION: "Genshin Wizard đang **không có quyền** gửi tin nhắn riêng tư cho bạn. Hãy **bật tùy chọn** `Cho phép thành viên trong máy chủ gửi tin nhắn trực tiếp` trong cài đặt Bảo mật&An toàn của Discord."
 EXPORT_MESSAGE_SUCCESS: Lịch sử cầu nguyện của bạn đã được xuất ra thành công và đã được gửi đến tin nhắn riêng tư.
+EXPORT_DM_DESCRIPTION: Genshin Wizard supports [**UIGF v4.0**](https://uigf.org/en/) standard that is used by many popular third-party tools. Be sure to store your backup data in a safe place.
 INFO_COMMAND_INVALID_ARGUMENT: |
   **Tham số đã nhập không hợp lệ.**
 
@@ -481,7 +482,7 @@ IMPORT_COMMAND_LOG: |
 IMPORT_COMMAND_NOT_REGISTERED: Bạn phải **đăng ký** để nhập lịch sử cầu nguyện đã có sẵn! Vui lòng thử lại sau khi đăng ký bằng lệnh </register:{command_id}>.
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: Link lịch sử đã hết hạn!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Link lịch sử của bạn **đã hết hạn**! Vui lòng làm mới lại sử dụng lệnh </refresh:{command_id}> trước khi thử nhập lại!
-IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **JSON** export from their [settings](https://paimon.moe/settings) page. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
+IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: "Định dạng file này **không được hỗ trợ**. Nếu bạn đang thử nhập dữ liệu từ `Paimon.moe`, hãy đảm bảo rằng bạn đã tải file **Excel** từ trang [Lịch Sử Cầu Nguyện](https://paimon.moe/wish) của Paimon.moe.\nHãy kiểm tra **Tài liệu hướng dẫn**(https://docs.genshinwizard.com/wishing-centre/importing-wishes) để biết thêm thông tin."
 IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: "Định dạng file này **không được hỗ trợ**. Hãy đảm bảo rằng bạn không đổi định dạng file trước khi nhập. \nHãy kiểm tra **Tài liệu hướng dẫn**(https://docs.genshinwizard.com/wishing-centre/importing-wishes) để biết thêm thông tin."
 LEADERBOARD_NO_DATA: Không tìm thấy dữ liệu cho mục này!
 LEADERBOARD_EXPERIENCE_FOOTER: Bạn có thể nhận Kinh nghiệm qua tương tác với server. Hãy chat nhiều hơn để nâng level trên bảng xếp hạng của Genshin Wizard!

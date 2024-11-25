@@ -173,7 +173,7 @@ GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Doe](https://ko-fi.com/genshinwizard)**
 CODE_REDEEM_SUCCESS: "*Os códigos de resgate foram processados com sucesso!*"
 APP_COMMAND_INFO_DESCRIPTION: Mostra as builds dos personagens na Exibição de Personagens do usuário.
-APP_COMMAND_EXPORT_DESCRIPTION: Exporta o seu Histórico de Orações do Genshin como um arquivo de texto através de uma mensagem privada.
+APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in [**UIGF v4.0**](https://uigf.org/en/) format via direct messages.
 APP_COMMAND_HISTORY_DESCRIPTION: Mostra o histórico de orações da sua conta Genshin.
 APP_COMMAND_DAILY_DESCRIPTION: Reivindique as suas recompensas diárias HoYoLAB.
 APP_COMMAND_MONTHLY_DESCRIPTION: Mostra as recompensas diárias HoYoLAB pelo mês.
@@ -267,6 +267,7 @@ EXPORT_NO_WISHES: Não há orações para exportar.
 EXPORT_NO_BANNER_WISHES: Não foram encontradas orações em {banner}.
 EXPORT_NO_MESSAGE_PERMISSION: "O bot **não tem** permissão para de enviar uma mensagem direta. Certifique-se de que tem a configuração `Permitir mensagens diretas de membros do servidor` **ativada** nas suas *configurações de privacidade do Discord*."
 EXPORT_MESSAGE_SUCCESS: Seu histórico de orações foi exportado com sucesso, e foi enviado para você através de uma mensagem direta.
+EXPORT_DM_DESCRIPTION: Genshin Wizard supports [**UIGF v4.0**](https://uigf.org/en/) standard that is used by many popular third-party tools. Be sure to store your backup data in a safe place.
 INFO_COMMAND_INVALID_ARGUMENT: |
   **Argumento inválido.**
 
@@ -472,7 +473,7 @@ IMPORT_COMMAND_LOG: |
 IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </register:{command_id}>.
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: Link do Histórico Expirado!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Your history link has **expired**! Please refresh using the command </refresh:{command_id}> before trying to import!
-IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **JSON** export from their [settings](https://paimon.moe/settings) page. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
+IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **excel** sheet from their [Wish Counter](https://paimon.moe/wish) page settings. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
 IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: This file type is **not supported**. Please make sure you're not *changing* the file type before trying to import. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
 LEADERBOARD_NO_DATA: No data found for this specific query!
 LEADERBOARD_EXPERIENCE_FOOTER: Experience can be gained by being active in the server. Chat more to increase your Genshin Wizard ranking level!
