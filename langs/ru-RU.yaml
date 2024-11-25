@@ -173,7 +173,7 @@ GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
 CODE_REDEEM_SUCCESS: "*Промокоды успешно обработаны!*"
 APP_COMMAND_INFO_DESCRIPTION: Показывает сборки для персонажей в витрине пользователя.
-APP_COMMAND_EXPORT_DESCRIPTION: Экспорт вашей истории молитв в текстовый файл через личные сообщения.
+APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in [**UIGF v4.0**](https://uigf.org/en/) format via direct messages.
 APP_COMMAND_HISTORY_DESCRIPTION: Посмотреть свою историю молитв аккаунта Genshin.
 APP_COMMAND_DAILY_DESCRIPTION: Получите ежедневную награду за вход в HoYoLAB.
 APP_COMMAND_MONTHLY_DESCRIPTION: Посмотреть ежедневные награды HoYoLAB за месяц.
@@ -267,6 +267,7 @@ EXPORT_NO_WISHES: Нет никаких молитв к экспорту.
 EXPORT_NO_BANNER_WISHES: Не найдено молитв к баннеру {banner}.
 EXPORT_NO_MESSAGE_PERMISSION: "У бота **нет** разрешения на отправку личного сообщения. Убедитесь, что у вас **включена** настройка: `Разрешить личные сообщения от участников сервера` в *настройках конфиденциальности Discord*."
 EXPORT_MESSAGE_SUCCESS: История ваших молитв была успешно экспортирована и отправлена вам через ЛС.
+EXPORT_DM_DESCRIPTION: Genshin Wizard supports [**UIGF v4.0**](https://uigf.org/en/) standard that is used by many popular third-party tools. Be sure to store your backup data in a safe place.
 INFO_COMMAND_INVALID_ARGUMENT: |
   **Неверный аргумент.**
 
@@ -484,7 +485,7 @@ IMPORT_COMMAND_LOG: |
 IMPORT_COMMAND_NOT_REGISTERED: Вы уже должны быть **зарегистрированы**, чтобы импортировать ранее существовавшую историю молитв! Попробуйте импортировать еще раз после регистрации с помощью команды </register:{command_id}>.
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: Срок действия ссылки на историю истек!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Срок действия вашей ссылки на историю **истек**! Пожалуйста, обновите с помощью команды </refresh:{command_id}> перед попыткой импорта!
-IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **JSON** export from their [settings](https://paimon.moe/settings) page. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
+IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: Этот тип файлов **не поддерживается**. Если вы пытаетесь импортировать данные из `Paimon.moe`, пожалуйста, убедитесь, что вы загружаете таблицу **excel** из их настройки [Счетчика молитв](https://paimon.moe/wish). Обратитесь к нашей [**Документации**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) для получения дополнительной информации.
 IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: Этот тип файла **не поддерживается**. Пожалуйста, убедитесь, что вы не *меняете* тип файла, прежде чем пытаться импортировать. Обратитесь к нашей [**Документации**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) для получения дополнительной информации.
 LEADERBOARD_NO_DATA: Данные по этому конкретному запросу не найдены!
 LEADERBOARD_EXPERIENCE_FOOTER: Опыт можно получить, проявляя активность на сервере. Больше общайтесь в чате, чтобы повысить свой уровень в рейтинге Genshin Wizard!
@@ -1614,8 +1615,8 @@ NOVICE_BANNER_KEY: Знамя Новичка
 CHARACTER_BANNER_KEY: Знамя персонажа
 WEAPON_BANNER_KEY: Знамя оружия
 PERMANENT_BANNER_KEY: Постоянный баннер
-FIVE_STAR_PITY: 5-х звездный 
-FOUR_STAR_PITY: Пятизвёздочный 
+FIVE_STAR_PITY: 5-х звездный
+FOUR_STAR_PITY: Пятизвёздочный
 FIVE_STAR_PERCENTAGE: 5-х звездный
 FOUR_STAR_PERCENTAGE: 4-х звездный
 SIGN_IN_TITLE: Зарегистрировался {total_days} день (ы) в этом месяце.
