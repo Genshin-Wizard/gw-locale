@@ -172,6 +172,7 @@ GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Documentation](https://docs.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
 CODE_REDEEM_SUCCESS: "*Промокоды успешно обработаны!*"
+CODE_REDEEM_FAILURE: "*There was an error processing your redemption codes!*"
 APP_COMMAND_INFO_DESCRIPTION: Показывает сборки для персонажей в витрине пользователя.
 APP_COMMAND_EXPORT_DESCRIPTION: Экспорт вашей истории молитв в текстовый файл через личные сообщения.
 APP_COMMAND_HISTORY_DESCRIPTION: Посмотреть свою историю молитв аккаунта Genshin.
@@ -278,7 +279,7 @@ INVALID_ARGUMENT_PASSED: |
 INFO_COMMAND_ENKA_ISSUE: Возникла проблема с [**Enka.Network**](https://enka.network/u/{uid}). Пожалуйста, повторите попытку позже.
 ERROR_NO_USER_DATA: Нет данных для этого пользователя.
 WHAT_HAPPENED_TITLE: Что произошло?
-WHAT_HAPPENED_VALUE: Наиболее распространенной причиной этой проблемы является то, что аккаунт genshin, который вы пытаетесь найти, еще не стала общедоступной. Чтобы исправить это, включите "Показывать детали персонажей" в своем профиле Genshin. Смотрите изображение ниже для справки.
+WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference. Also make sure that your "Character Showcase" section is not empty.
 WHAT_HAPPENED_FOOTER: Genshin Wizard может потребоваться до пяти минут, чтобы подтвердить последние изменения, внесенные в игру, пожалуйста, наберитесь терпения.
 INFO_COMMAND_SHOWCASE_TITLE: Демонстрация персонажа
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: Посмотреть на Enka.Network
@@ -1081,7 +1082,7 @@ SUCCESSFULLY_UPDATED_ROLES: "**Успешно обновлено** ролей п
 CHARACTER_REQUIREMENTS_NOT_MET: |
   Персонаж `{name}` не соответствует **требованиям роли**!\n\nПопробуйте использовать эту команду позже, когда ваш персонаж выполнит **необходимые требования**.
 CHARACTER_NOT_IN_SHOWCASE: Персонаж `{name}` не найден в вашем персонажном шоу!
-GACHA_COMMAND_LINK_EXPIRED: Ваша ссылка на историю желаний истекла! Используйте `/refresh`, чтобы обновить ваши пожелания.
+GACHA_COMMAND_LINK_EXPIRED: Your wish history link has expired! Use </refresh:{command_id}> to update your wishes.
 GACHA_COMMAND_LINK_EXPIRED_FOOTER: "Примечание: Имейте в виду, так как срок действия вашей ссылки истории пожеланий истек, информация выше может быть неточной. Чтобы обновить ваши пожелания, рекомендуется обновить историю ваших пожеланий, используя /refresh!"
 SOMETHING_WENT_WRONG: Что-то пошло не так!
 SOMETHING_WENT_WRONG_FOOTER: Если эта ошибка повторяется, пожалуйста, свяжитесь с администратором бота!
@@ -1645,6 +1646,7 @@ CLAIM_DAILY_REWARD_MESSAGE: Заберите ваши ежедневные на�
 SELECTED_GAME_KEY: Выбранные Игры
 NOTIFICATIONS_KEY: Уведомления
 DAILY_AUTOCLAIM_KEY: Авто-заявка за день
+DAILY_AUTO_REDEEM_KEY: Daily Auto-Redeem
 DAILY_CHECKIN_KEY: Ежедневная проверка
 INVOKATION_VICTORIES: "{win_count} Побед"
 WORLD_EXPLORATIONS: Исследования Мира
@@ -1723,3 +1725,6 @@ HELP_FUN_COG_NAME: Развлечения
 HELP_DROPDOWN_FUN_COMMANDS: Веселье команды
 HELP_DROPDOWN_FUN_COMMANDS_DESCRIPTION: Просмотр связанных с Fun-команд
 EXPORT_COMMAND_HISTORY_TITLE: User {uid}'s Wish History
+REDEEM_SINGLE_CODE: Redeem Single Code
+REDEEM_ALL_CODES: Redeem All Available Code(s)
+AUTO_REDEEM_MESSAGE: Automatically redeem codes for your account! Select a game to claim your rewards from below.

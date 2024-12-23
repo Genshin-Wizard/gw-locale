@@ -171,6 +171,7 @@ GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
 CODE_REDEEM_SUCCESS: "*兌換代碼已嘗試兌換！*"
+CODE_REDEEM_FAILURE: "*There was an error processing your redemption codes!*"
 APP_COMMAND_INFO_DESCRIPTION: 展示遊戲內的角色面板陣容
 APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in [**UIGF v4.0**](https://uigf.org/en/) format via direct messages.
 APP_COMMAND_HISTORY_DESCRIPTION: 檢視遊戲內的祈願歷史記錄
@@ -276,7 +277,7 @@ INVALID_ARGUMENT_PASSED: |
 INFO_COMMAND_ENKA_ISSUE: There seems to be an issue with [**Enka.Network**](https://enka.network/u/{uid}). Please try again later.
 ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
-WHAT_HAPPENED_VALUE: 此問題最常見的原因是您嘗試搜索的 genshin 帳戶尚未設置為公開。要解決此問題，請在 Genshin 的個人資料中啟用“顯示角色詳細信息”。請參考下圖。
+WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference. Also make sure that your "Character Showcase" section is not empty.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
 INFO_COMMAND_SHOWCASE_TITLE: 角色面板
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: 在 Enka.Network 上檢視
@@ -1063,7 +1064,7 @@ SUCCESSFULLY_UPDATED_ROLES: "**成功**更新了用戶的角色！"
 CHARACTER_REQUIREMENTS_NOT_MET: |
   The character `{name}` does not meet any of the **role requirements**!\n\nPlease try using this command later when your character fulfills the necessary **requirements**.
 CHARACTER_NOT_IN_SHOWCASE: The character `{name}` was not found in your in-game character showcase!
-GACHA_COMMAND_LINK_EXPIRED: 您的願望歷史記錄鏈接已過期！使用 `/refresh` 更新您的願望。
+GACHA_COMMAND_LINK_EXPIRED: Your wish history link has expired! Use </refresh:{command_id}> to update your wishes.
 GACHA_COMMAND_LINK_EXPIRED_FOOTER: "注意：請記住，由於您的願望歷史記錄鏈接已過期，以上信息可能不准確。要更新您的願望，建議使用 /refresh 更新您的願望歷史記錄鏈接！"
 SOMETHING_WENT_WRONG: 出了問題！
 SOMETHING_WENT_WRONG_FOOTER: If this error persists, please contact a bot administrator!
@@ -1627,6 +1628,7 @@ CLAIM_DAILY_REWARD_MESSAGE: 領取每日 HoYLAB 登錄獎勵！從下面選擇�
 SELECTED_GAME_KEY: 選擇遊戲
 NOTIFICATIONS_KEY: 通知
 DAILY_AUTOCLAIM_KEY: 每日自動簽到
+DAILY_AUTO_REDEEM_KEY: Daily Auto-Redeem
 DAILY_CHECKIN_KEY: Daily Check-In
 INVOKATION_VICTORIES: "{win_count} Victories"
 WORLD_EXPLORATIONS: 世界探索度
@@ -1700,3 +1702,6 @@ HELP_FUN_COG_NAME: Fun
 HELP_DROPDOWN_FUN_COMMANDS: Fun Commands
 HELP_DROPDOWN_FUN_COMMANDS_DESCRIPTION: View Fun-Related Commands
 EXPORT_COMMAND_HISTORY_TITLE: User {uid}'s Wish History
+REDEEM_SINGLE_CODE: Redeem Single Code
+REDEEM_ALL_CODES: Redeem All Available Code(s)
+AUTO_REDEEM_MESSAGE: Automatically redeem codes for your account! Select a game to claim your rewards from below.

@@ -172,6 +172,7 @@ GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[투표](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[개발자 지원](https://ko-fi.com/genshinwizard)**
 CODE_REDEEM_SUCCESS: "*축하해! 리딤코드가 성공적으로 처리됐어!*"
+CODE_REDEEM_FAILURE: "*There was an error processing your redemption codes!*"
 APP_COMMAND_INFO_DESCRIPTION: 여행자가 설정한 진열장 캐릭터들의 빌드를 확인할 수 있어.
 APP_COMMAND_EXPORT_DESCRIPTION: 개인 메시지로 여행자의 기원 기록을 텍스트 파일 형식으로 출력해.
 APP_COMMAND_HISTORY_DESCRIPTION: 여행자의 기원 기록을 볼 수 있어.
@@ -267,7 +268,7 @@ EXPORT_NO_WISHES: 밖으로 꺼낼 기원 기록이 없어.
 EXPORT_NO_BANNER_WISHES: '{banner} 배너를 찾지 못했어.'
 EXPORT_NO_MESSAGE_PERMISSION: "봇이 여행자에게 개인 메시지를 보낼 권한이 **없어**. *디스코드 개인 정보 설정*에서 `서버 구성원의 다이렉트 메시지 허용` 항목이 **활성화** 되어있는지 확인해줘."
 EXPORT_MESSAGE_SUCCESS: 여행자의 기원 기록을 성공적으로 꺼내서, 여행자의 개인 메시지로 보냈어.
-EXPORT_DM_DESCRIPTION: Genshin Wizard supports [**UIGF v4.0**](https://uigf.org/en/) standard that is used by many popular third-party tools. Be sure to store your backup data in a safe place.
+EXPORT_DM_DESCRIPTION:
 INFO_COMMAND_INVALID_ARGUMENT: |
   **잘못된 값이 입력되었어.**
 
@@ -278,7 +279,7 @@ INVALID_ARGUMENT_PASSED: |
 INFO_COMMAND_ENKA_ISSUE: '[**Enka.Network**](https://enka.network/u/{uid})에 문제가 생긴 것 같아. 나중에 다시 시도 해줘.'
 ERROR_NO_USER_DATA: 이 여행자에 대한 정보를 찾을 수 없어.
 WHAT_HAPPENED_TITLE: 무슨 일이 일어났냐고?
-WHAT_HAPPENED_VALUE: 이 문제가 생기는 가장 흔한 이유는 원신 계정의 공개설정 때문이야. 해결을 위해서는 원신 게임내의 프로필에서 '캐릭터 세부 정보 표시'를 활성해줘. 아래 이미지를 참고하면 될꺼야!
+WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference. Also make sure that your "Character Showcase" section is not empty.
 WHAT_HAPPENED_FOOTER: 원신 위자드는 최근 변경사항을 확인하는데 최대 5분 정도 걸릴 수 있어. 침착하게 잠시만 기다려줘.
 INFO_COMMAND_SHOWCASE_TITLE: 캐릭터 진열장
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: Enka.Network 에서 보기
@@ -774,9 +775,7 @@ EXPEDITION_REMINDERS_KEY: 탐사파견 알림
 SERENITEA_POT_KEY: 선계통계
 PARAMETRIC_REMINDERS_KEY: 매개변수변환기
 RESIN_REMINDERS_DESCRIPTION: |
-  You currently have **<:fragileresin:1029984988583706654>{current_resin}** resin!
-  **Replenish Time:** {time_left}
-  **Automatic Reminder:** {reminder_setting}
+
 TEAPOT_REMINDERS_DESCRIPTION: |
   현재 **<:realmcurrency:1029984449565310976>{current_currency}** 선계화폐가 있습니다!
   **한계치 도달:** {time_left} 남음
@@ -850,7 +849,7 @@ MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard에 '역할 관리' �
 ROLE_NOT_FOUND: ":no_entry: 역할을 검색하는 중에 오류가 발생했습니다. 이 통합의 역할 정보가 올바른지 확인하십시오."
 GENSHIN_STATS_HEADER: "{name} 원신 통계"
 PROCESSING_BANNER_TRANSITION: '{banner} 배너 처리 중...'
-CHRONICLED_KEY: Chronicled
+CHRONICLED_KEY:
 WEAPON_KEY: 무기
 PERMANENT_KEY: 상시
 NOVICE_KEY: 초심자
@@ -1086,7 +1085,7 @@ SUCCESSFULLY_UPDATED_ROLES: "**성공적으로** 사용자 역할을 업데이�
 CHARACTER_REQUIREMENTS_NOT_MET: |
   캐릭터 `{name}`은 **역할 요구 사항**을 충족하지 않습니다!\n\n나중에 캐릭터가 필요한 **요구 사항**을 충족하면 이 명령을 사용해 보세요.
 CHARACTER_NOT_IN_SHOWCASE: 인게임 캐릭터 쇼케이스에서 `{name}` 캐릭터를 찾을 수 없습니다!
-GACHA_COMMAND_LINK_EXPIRED: 기원 기록 링크가 만료되었습니다! 기원 기록을 업데이트하려면 `/refresh`를 사용하세요.
+GACHA_COMMAND_LINK_EXPIRED: Your wish history link has expired! Use </refresh:{command_id}> to update your wishes.
 GACHA_COMMAND_LINK_EXPIRED_FOOTER: "참고: 기원 내역 링크가 만료되었으므로 위의 정보가 정확하지 않을 수 있음을 명심하십시오. 기원을 업데이트하려면 /refresh를 사용하여 기원 내역 링크를 업데이트하는 것이 좋습니다!"
 SOMETHING_WENT_WRONG: 알 수 없는 오류가 발생했습니다.
 SOMETHING_WENT_WRONG_FOOTER: 오류가 지속될 경우, 관리자에게 문의하시기 바랍니다.
@@ -1651,6 +1650,7 @@ CLAIM_DAILY_REWARD_MESSAGE: 일일보상을 수령할 게임을 선택해봐, �
 SELECTED_GAME_KEY: 선택된 게임
 NOTIFICATIONS_KEY: 알림
 DAILY_AUTOCLAIM_KEY: 일일 출석체크 자동 수령
+DAILY_AUTO_REDEEM_KEY: Daily Auto-Redeem
 DAILY_CHECKIN_KEY: 일일 출석체크
 INVOKATION_VICTORIES: "{win_count} 승"
 WORLD_EXPLORATIONS: 지역 탐사도
@@ -1724,3 +1724,6 @@ HELP_FUN_COG_NAME: Fun
 HELP_DROPDOWN_FUN_COMMANDS: Fun Commands
 HELP_DROPDOWN_FUN_COMMANDS_DESCRIPTION: View Fun-Related Commands
 EXPORT_COMMAND_HISTORY_TITLE: User {uid}'s Wish History
+REDEEM_SINGLE_CODE: Redeem Single Code
+REDEEM_ALL_CODES: Redeem All Available Code(s)
+AUTO_REDEEM_MESSAGE: Automatically redeem codes for your account! Select a game to claim your rewards from below.
