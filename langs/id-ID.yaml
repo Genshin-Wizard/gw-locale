@@ -172,8 +172,9 @@ GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
 CODE_REDEEM_SUCCESS: "*Kode redeem berhasil diproses!*"
+CODE_REDEEM_FAILURE: "*There was an error processing your redemption codes!*"
 APP_COMMAND_INFO_DESCRIPTION: Menampilkan build untuk karakter di tampilan dalam game.
-APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in [**UIGF v4.0**](https://uigf.org/en/) format via direct messages.
+APP_COMMAND_EXPORT_DESCRIPTION: .(.
 APP_COMMAND_HISTORY_DESCRIPTION: Lihat riwayat permohonan akun Genshin kamu.
 APP_COMMAND_DAILY_DESCRIPTION: Klaim hadiah Login HoYoLAB harian kamu.
 APP_COMMAND_MONTHLY_DESCRIPTION: Lihat hadiah harian HoYoLAB untuk bulan ini.
@@ -267,7 +268,7 @@ EXPORT_NO_WISHES: Tidak ada keinginan untuk ekspor.
 EXPORT_NO_BANNER_WISHES: Tidak ada keinginan baner {banner} yang ditemukan.
 EXPORT_NO_MESSAGE_PERMISSION: "Bot **tidak** memiliki izin untuk mengirimi kamu pesan pribadi. Pastikan Anda memiliki pengaturan: `Izinkan pesan langsung dari anggota server` **diaktifkan** di *pengaturan privasi Discord* Anda."
 EXPORT_MESSAGE_SUCCESS: Riwayat keinginan Anda telah berhasil diekspor dan dikirimkan kepada Anda melalui DM.
-EXPORT_DM_DESCRIPTION: Genshin Wizard supports [**UIGF v4.0**](https://uigf.org/en/) standard that is used by many popular third-party tools. Be sure to store your backup data in a safe place.
+EXPORT_DM_DESCRIPTION: .
 INFO_COMMAND_INVALID_ARGUMENT: |
   **Argumen tidak valid**
 
@@ -278,7 +279,7 @@ INVALID_ARGUMENT_PASSED: |
 INFO_COMMAND_ENKA_ISSUE: Sepertinya ada masalah dengan [**Enka.Network**](https://enka.network/u/{uid}). Coba lagi nanti.
 ERROR_NO_USER_DATA: Tidak ada data yang ditemukan untuk pengguna ini.
 WHAT_HAPPENED_TITLE: Apa yang terjadi?
-WHAT_HAPPENED_VALUE: Sebab paling umum untuk masalah ini adalah akun genshin yang Anda coba cari belum diset ke publik. Untuk memperbaikinya, aktifkan `Tampilkan Detail Karakter` di Profil Anda di Genshin. Lihat gambar di bawah ini untuk referensi.
+WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference. Also make sure that your "Character Showcase" section is not empty.
 WHAT_HAPPENED_FOOTER: Genshin Wizard mungkin membutuhkan waktu hingga lima menit untuk mengetahui perubahan terbaru yang dibuat dalam game, harap bersabar dengan kami.
 INFO_COMMAND_SHOWCASE_TITLE: Karakter Showcase
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: Lihat di Enka.Network
@@ -1083,7 +1084,7 @@ SUCCESSFULLY_UPDATED_ROLES: "**Berhasil** memperbarui user role!"
 CHARACTER_REQUIREMENTS_NOT_MET: |
   Karakter `{name}` tidak memenuhi salah satu **persyaratan role**!\n\nHarap coba gunakan perintah ini lagi nanti saat karakter Anda memenuhi **persyaratan** yang diperlukan.
 CHARACTER_NOT_IN_SHOWCASE: Karakter `{name}` tidak ditemukan di etalase karakter dalam game Anda!
-GACHA_COMMAND_LINK_EXPIRED: Tautan riwayat Permohonanmu telah kedaluwarsa! Gunakan `/refresh` untuk memperbarui riwayat permohonan kamu.
+GACHA_COMMAND_LINK_EXPIRED: Your wish history link has expired! Use </refresh:{command_id}> to update your wishes.
 GACHA_COMMAND_LINK_EXPIRED_FOOTER: "Catatan: Perlu diingat, karena tautan riwayat permohonanmu telah kedaluwarsa, informasi di atas mungkin tidak akurat. Untuk memperbarui riwayat permohonanmu, disarankan untuk memperbarui tautan riwayat permohonan menggunakan perintah /refresh!"
 SOMETHING_WENT_WRONG: Terjadi kesalahan!
 SOMETHING_WENT_WRONG_FOOTER: Jika kesalahan ini berlanjut, harap hubungi administrator bot!
@@ -1647,7 +1648,8 @@ CLAIM_DAILY_REWARD_MESSAGE: Claim your daily HoYoLAB sign-in rewards! Select a g
 SELECTED_GAME_KEY: Selected Game
 NOTIFICATIONS_KEY: Notifikasi
 DAILY_AUTOCLAIM_KEY: Daily Auto-Claim
-DAILY_CHECKIN_KEY: Daily Check-In
+DAILY_AUTO_REDEEM_KEY: Daily Auto-Redeem
+DAILY_CHECKIN_KEY: Check-in Harian
 INVOKATION_VICTORIES: "{win_count} Kemenangan"
 WORLD_EXPLORATIONS: Penjelajahan
 REPUTATION_LEVELS: Level Reputasi
@@ -1720,3 +1722,6 @@ HELP_FUN_COG_NAME: Fun
 HELP_DROPDOWN_FUN_COMMANDS: Fun Commands
 HELP_DROPDOWN_FUN_COMMANDS_DESCRIPTION: View Fun-Related Commands
 EXPORT_COMMAND_HISTORY_TITLE: User {uid}'s Wish History
+REDEEM_SINGLE_CODE: Redeem Single Code
+REDEEM_ALL_CODES: Redeem All Available Code(s)
+AUTO_REDEEM_MESSAGE: Automatically redeem codes for your account! Select a game to claim your rewards from below.

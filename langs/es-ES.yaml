@@ -172,6 +172,7 @@ GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Votar](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donar](https://ko-fi.com/genshinwizard)**
 CODE_REDEEM_SUCCESS: "*¡Los códigos de canje se han procesado con éxito!*"
+CODE_REDEEM_FAILURE: "*There was an error processing your redemption codes!*"
 APP_COMMAND_INFO_DESCRIPTION: Muestra builds para los personajes en la vitrina del juego del usuario.
 APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in [**UIGF v4.0**](https://uigf.org/en/) format via direct messages.
 APP_COMMAND_HISTORY_DESCRIPTION: Ver el historial de deseos de tu cuenta de Genshin.
@@ -278,7 +279,7 @@ INVALID_ARGUMENT_PASSED: |
 INFO_COMMAND_ENKA_ISSUE: Parece haber un problema con [**Enka.Network**](https://enka.network/u/{uid}). Por favor, inténtalo de nuevo más tarde.
 ERROR_NO_USER_DATA: No se encontraron datos para este usuario.
 WHAT_HAPPENED_TITLE: '¿Qué sucedió?'
-WHAT_HAPPENED_VALUE: La razón más común para este problema es que la cuenta de genshin que estás intentando buscar aún no se ha establecido como pública. Para solucionar esto, habilita `Mostrar detalles de personaje` en tu perfil en Genshin. Consulta la imagen a continuación como referencia.
+WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference. Also make sure that your "Character Showcase" section is not empty.
 WHAT_HAPPENED_FOOTER: Genshin Wizard puede tardar hasta cinco minutos en reconocer los cambios recientes realizados en el juego, por favor se paciente con nosotros.
 INFO_COMMAND_SHOWCASE_TITLE: Exhibición de personajes
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: Ver en Enka.Network
@@ -1061,7 +1062,7 @@ SUCCESSFULLY_UPDATED_ROLES: "¡Se han actualizado con éxito los roles del usuar
 CHARACTER_REQUIREMENTS_NOT_MET: |
   ¡El personaje `{name}` no cumple con ninguno de los **requisitos de rol**!\n\nIntenta utilizar este comando más tarde cuando tu personaje cumpla con los **requisitos** necesarios.
 CHARACTER_NOT_IN_SHOWCASE: '¡No se encontró al personaje `{name}` en tu muestrario de personajes en el juego!'
-GACHA_COMMAND_LINK_EXPIRED: '¡Tu enlace del historial de deseos ha expirado! Utiliza `/refresh` para actualizar tus deseos.'
+GACHA_COMMAND_LINK_EXPIRED: Your wish history link has expired! Use </refresh:{command_id}> to update your wishes.
 GACHA_COMMAND_LINK_EXPIRED_FOOTER: "Nota: Ten en cuenta que, como tu enlace del historial de deseos ha expirado, la información de arriba puede ser inexacta. Para actualizar tus deseos, se recomienda actualizar tu enlace del historial de deseos utilizando /refresh!"
 SOMETHING_WENT_WRONG: '¡Algo ha salido mal!'
 SOMETHING_WENT_WRONG_FOOTER: Si este error persiste, ¡por favor contacta a un administrador del bot!
@@ -1625,6 +1626,7 @@ CLAIM_DAILY_REWARD_MESSAGE: Claim your daily HoYoLAB sign-in rewards! Select a g
 SELECTED_GAME_KEY: Juego seleccionado
 NOTIFICATIONS_KEY: Notificaciones
 DAILY_AUTOCLAIM_KEY: Reclamación automática diaria
+DAILY_AUTO_REDEEM_KEY: Daily Auto-Redeem
 DAILY_CHECKIN_KEY: Inicio de sesión diario
 INVOKATION_VICTORIES: "{win_count} victorias"
 WORLD_EXPLORATIONS: Exploraciones de mundo
@@ -1698,3 +1700,6 @@ HELP_FUN_COG_NAME: Fun
 HELP_DROPDOWN_FUN_COMMANDS: Fun Commands
 HELP_DROPDOWN_FUN_COMMANDS_DESCRIPTION: View Fun-Related Commands
 EXPORT_COMMAND_HISTORY_TITLE: User {uid}'s Wish History
+REDEEM_SINGLE_CODE: Redeem Single Code
+REDEEM_ALL_CODES: Redeem All Available Code(s)
+AUTO_REDEEM_MESSAGE: Automatically redeem codes for your account! Select a game to claim your rewards from below.
