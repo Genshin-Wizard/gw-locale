@@ -158,14 +158,14 @@ NO_HOYOLAB_LINKED: Kamu belum menautkan akun HoYoLAB. Gunakan </register:{comman
 OLD_HOYOLAB_LINKED: |
   Halo Traveler! Maaf atas ketidaknyamanannya, tetapi fitur ini diterapkan **setelah** kamu mendaftarkan akun `HoYoLAB` kamu ke Genshin Wizard.
 
-  Untuk menggunakan tombol ini, kamu harus putuskan tautan akun HoYoLAB Anda melalui </hoyolab-info:{command_id}> dan **taut kembali** melalui perintah pendaftaran yang biasa.
+  Untuk menggunakan tombol ini, kamu harus putuskan tautan akun HoYoLAB Anda melalui </hoyo:{command_id}> dan **taut kembali** melalui perintah pendaftaran yang biasa.
 CODE_REDEEM_TITLE: Genshin Wizard | Redeem Kode HoYoLAB
 CODE_REDEEM_DESCRIPTION: "*Harap tunggu sebentar kami sedang memproses kode redeem kamu...*"
 CODE_REDEEM_PROGRESS: |
   *Harap tunggu sebentar kami sedang memproses kode redeem kamu...*
   <a:loading:1015667958237900801> Mencoba menebus kode `{code}`
 HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Cookie Kadaluarsa
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hai Traveler! Tampaknya kuki kode redeem HoYoLAB kamu telah **Kadaluarsa**! Gunakan perintah </hoyolab-info:{command_id}> dan selesaikan proses penautan ulang akun untuk **menyegarkan** cookie akun HoYoLAB kamu.
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hai Traveler! Tampaknya kuki kode redeem HoYoLAB kamu telah **Kadaluarsa**! Gunakan perintah </hoyo:{command_id}> dan selesaikan proses penautan ulang akun untuk **menyegarkan** cookie akun HoYoLAB kamu.
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Undang Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[Situs Rasmi](https://www.genshinwizard.com)**
@@ -285,7 +285,7 @@ INFO_COMMAND_SHOWCASE_TITLE: Karakter Showcase
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: Lihat di Enka.Network
 REFRESHES_KEY: Refresh
 INFO_COMMAND_CHARACTER_DETAILS: Karakter
-INFO_COMMAND_NOT_OWNER: Anda hanya dapat mengelola build yang di-cache untuk karakter Anda sendiri! Gunakan </character-showcase:{command_id}> untuk informasi lebih lanjut!
+INFO_COMMAND_NOT_OWNER: Anda hanya dapat mengelola build yang di-cache untuk karakter Anda sendiri! Gunakan </info:{command_id}> untuk informasi lebih lanjut!
 INFO_COMMAND_CACHE_DESCRIPTION: |
   **Genshin Wizard Cache **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
 
@@ -737,7 +737,7 @@ SUCCESSFULLY_LINKED_KEY: Berhasil Ditautkan!
 SUCCESSFULLY_LINKED_HOYOLAB: |
   Berhasil menyinkronkan progres akun dalam game.
 
-  Berhasil menyinkronkan akun HoYoLABmu! Kamu sekarang dapat mengakses **menu akun HoYoLAB** dengan menggunakan perintah </hoyolab-info:{command_id}>!
+  Berhasil menyinkronkan akun HoYoLABmu! Kamu sekarang dapat mengakses **menu akun HoYoLAB** dengan menggunakan perintah </hoyo:{command_id}>!
 REGISTRATION_FAILED: Registrasi gagal!
 REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> Pendaftaran akun Kamu **tidak berhasil**! Harap coba lagi atau hubungi [**tim dukungan**](https://discord.gg/genshinwizard) jika masalah berlanjut. Masalah ini biasanya disebabkan oleh kombinasi email/sandi yang tidak valid.
 INVALID_HOYOLAB_EMAIL_PROMPT: Silakan isi alamat email! Kamu harus menggunakan alamat email yang Kamu gunakan untuk login ke akun **HoYoLAB** mu.
@@ -820,7 +820,7 @@ RESIN_REMINDER_FOOTER: Klik tombol 🔔 untuk mendapatkan pengingat! Pastikan un
 SET_RESIN_REMINDER_KEY: Atur pengingat resin!
 API_ISSUE: Telah terjadi masalah API.
 HOW_TO_SOLVE_TITLE: Bagaimana cara menyelesaikannya?
-ENABLE_CHRONICLES: "Gunakan perintah </hoyolab-infolab-privacy:{command_id}> atau kunjungi [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) dan aktifkan *Battle Chronicle privacy* untuk membuat genshin Anda profil publik."
+ENABLE_CHRONICLES: "Gunakan perintah </hoyolab-privacy:{command_id}> atau kunjungi [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) dan aktifkan *Battle Chronicle privacy* untuk membuat genshin Anda profil publik."
 PLEASE_WAIT_DESCRIPTION: Menunggu! Tidak ada yang dapat Anda lakukan untuk melewati ini saat ini.
 PLAYER_TITLE: Pemain {player}
 USER_TITLE: 'Pengguna: {user}'
@@ -977,7 +977,7 @@ SETUP_COMMAND_TITLE: Genshin Wizard | Panel Konfigurasi
 UPDATED_INTEGRATION_RESPONSE: "Integrasi berhasil diperbarui untuk: **{integration}**!"
 PREMIUM_ART_SETTINGS_TITLE: Pengaturan Genshin Wizard Custom Art
 PREMIUM_ART_SETTINGS_DESCRIPTION: |
-  <:information:1034639378410115103> **Coba atur Pengaturan Genshin Wizard </character-showcase:{command_id}> Art Anda**
+  <:information:1034639378410115103> **Coba atur Pengaturan Genshin Wizard </info:{command_id}> Art Anda**
   Bosan dengan gambar default dari Genshin Wizard? Nah, sekarang Anda dapat memilih gambar sendiri untuk kartu karakter Anda!
 
   <:na:975828401900359711> **Bagaimana jika saya mau menghapus gambar custom yang disimpan sebelumnya?**
@@ -1018,21 +1018,21 @@ LINK_TO_PREMIUM: Klik tautan di bawah untuk membeli Genshin Wizard premium.
 PATREON_KEY: Patreon
 PREMIUM_TIER_ONE_PERKS: |
   <:information:1034639378410115103> **Premium Perks: Paket Bulanan $5**
-  **HOT!** 🔥 Kemampuan untuk memilih gambar khusus untuk kartu karakter yang dihasilkan menggunakan </character-showcase:{info_id}>.
+  **HOT!** 🔥 Kemampuan untuk memilih gambar khusus untuk kartu karakter yang dihasilkan menggunakan </info:{info_id}>.
   <:blurplejoinarrow:932413900073369621> Akses ke Supporters' Lounge, tempat Anda dapat menerima dukungan premium untuk Genshin Wizard.
   <:blurplejoinarrow:932413900073369621> Kemampuan untuk memilih nama dan warna role khusus di server Discord Genshin Wizard.
   <:blurplejoinarrow:932413900073369621> Bonus **<:Primogem:951924423340994610>16,000** Primogem setiap hari untuk Genshin Wizard Wish Simulator saat menggunakan </commissions:{commissions_id}>.
   <:blurplejoinarrow:932413900073369621> Role eksklusif **<:gw_tier1:1045526665335427183> Witch of Purple Rose**.
 PREMIUM_TIER_TWO_PERKS: |
   <:information:1034639378410115103> **Premium Perks: $10 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </character-showcase:{info_id}>.
+  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
   <:blurplejoinarrow:932413900073369621> All previous tiers' benefits.
   <:blurplejoinarrow:932413900073369621> The ability to select a server of your choice to gain Genshin Wizard Partner perks, no questions asked. This includes access to /abyss, /stats and automatic role integration for 36 star abyss clears and C6 characters (role integration dashboard).
   <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>24,000** Primogems a day for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
   <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier2:1045526666354643034> Astral Reflection** role.
 PREMIUM_TIER_THREE_PERKS: |
   <:information:1034639378410115103> **Premium Perks: Paket Bulanan $25**
-  **HOT!** 🔥 Kemampuan untuk memilih gambar khusus untuk kartu karakter yang dihasilkan menggunakan </character-showcase:{info_id}>.
+  **HOT!** 🔥 Kemampuan untuk memilih gambar khusus untuk kartu karakter yang dihasilkan menggunakan </info:{info_id}>.
   <:blurplejoinarrow:932413900073369621> Semua benefit dari tier sebelumnya.
   <:blurplejoinarrow:932413900073369621> Kemampuan untuk memilih hingga dua server pilihan Anda untuk mendapatkan Genshin Wizard Partner perks.
   <:blurplejoinarrow:932413900073369621> Kemampuan untuk memilih lencana khusus profil Genshin Wizard Anda.
@@ -1040,7 +1040,7 @@ PREMIUM_TIER_THREE_PERKS: |
   <:blurplejoinarrow:932413900073369621> Role Eksklusif **<:gw_tier3:1045526664513323039> Crimson Witch of Flames**.
 PREMIUM_TIER_FOUR_PERKS: |
   <:information:1034639378410115103> **Premium Perks: Paket Bulanan $50**
-  **HOT!** 🔥 Kemampuan untuk memilih gambar khusus untuk kartu karakter yang dihasilkan menggunakan </character-showcase:{info_id}>.
+  **HOT!** 🔥 Kemampuan untuk memilih gambar khusus untuk kartu karakter yang dihasilkan menggunakan </info:{info_id}>.
   <:blurplejoinarrow:932413900073369621> Semua benefit dari tier sebelumnya.
   <:blurplejoinarrow:932413900073369621> Anda dapat memilih untuk menampilkan role Elder of the Hexenzirkel atau role khusus Anda untuk ditampilkan di bagian paling atas server Discord Genshin Wizard.
   <:blurplejoinarrow:932413900073369621> Kemampuan untuk memilih hingga tiga server pilihan Anda untuk mendapatkan Genshin Wizard Partner perks.
@@ -1067,7 +1067,7 @@ PREMIUM_SERVER_REMOVED: Hai Traveler, Anda berhasil **menghapus** server yang di
 PREMIUM_SERVER_CLEARED: Hai Traveler, Anda berhasil **menghapus** semua server premium Anda.
 PREMIUM_SERVER_ALREADY: Hai Traveler, sepertinya server ini sudah mengaktifkan **premium**. Pertimbangkan untuk menggunakan fasilitas ini di server lain!
 PREMIUM_SERVER_ADDED: Hai Traveler, Anda berhasil menambahkan **{guild}** sebagai server premium!
-PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hai Traveler, jika ingin menambahkan **Custom Art Infographics** untuk karakter Anda, cukup gunakan perintah </character-showcase:{command_id}> dan tekan **Add Custom Art**. Anda akan dibawa ke halaman web tempat Anda dapat mengunggah pilihan gambar Anda sendiri dan menyimpannya langsung ke akun Genshin Wizard Anda.
+PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hai Traveler, jika ingin menambahkan **Custom Art Infographics** untuk karakter Anda, cukup gunakan perintah </info:{command_id}> dan tekan **Add Custom Art**. Anda akan dibawa ke halaman web tempat Anda dapat mengunggah pilihan gambar Anda sendiri dan menyimpannya langsung ke akun Genshin Wizard Anda.
 PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> Hai Traveler, Anda belum **memilih** karakter apapun dengan custom-art untuk dihapus.
 PREMIUM_CUSTOM_ART_REMOVED: Hai Traveler, Kamu telah berhasil **menghapus** karakter yang dipilih.
 PREMIUM_CUSTOM_ART_CLEARED: Hai Traveler, Kamu telah berhasil **menghapus** semua karakter tersimpan Anda dengan seni kustom.
@@ -1445,13 +1445,13 @@ MANAGE_ART_SETTING_KEY: Atur Gambar
 DEFAULT_ART_SETTING: Layout Default
 ENKA_ART_SETTING: Layout Enka.Network
 ART_SETTING_TITLE: Pengaturan Seni Genshin Wizard
-ART_SETTING_DESCRIPTION: Kelola pengaturan seni Genshin Wizard </character-showcase:{command_id}> Kamu di sini.
+ART_SETTING_DESCRIPTION: Kelola pengaturan seni Genshin Wizard </info:{command_id}> Kamu di sini.
 ART_LAYOUT_STYLE: "Gaya Layout"
 ART_CHARACTER_STYLE: "Seni Karakter"
 RESET_PROFILE_SETTINGS: Atur Ulang Pengaturan Profil
 CHOOSE_ART_LAYOUT: "Pilih gaya tata letak Art..."
 MANAGE_CACHED_DATA: Kelola Data Cached
-INFO_COMMAND_SETTING_NOT_OWNER: Anda dapat mengatur gambar untuk karakter Anda sendiri! Gunakan </character-showcase:{command_id}> untuk info lebih lanjut!
+INFO_COMMAND_SETTING_NOT_OWNER: Anda dapat mengatur gambar untuk karakter Anda sendiri! Gunakan </info:{command_id}> untuk info lebih lanjut!
 VERTICAL_ART_SETTING: Tata Letak Vertikal
 DIARY_DATE_LABEL: "{month}/{year} Buku Harian"
 NO_ACTIVE_BONUS: Tidak Ada Bonus Diaktifkan
@@ -1634,7 +1634,7 @@ INVOKATION_SHOWCASE: "Card Showcase"
 INVOKATION_SUMMARY: "Trading Card Summary"
 DAILY_ALREADY_CLAIMED: You have already claimed your daily reward.
 UNABLE_TO_CLAIM: Unable to claim your daily reward.
-COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </hoyolab-info:{command_id}> to register.
+COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </hoyo:{command_id}> to register.
 INVALID_COOKIE_KEY: Cookie tidak valid
 TEST_NOTIFICATION_KEY: Test Notification
 TEST_NOTIFICATION_TITLE: Genshin Wizard | Notification Test
