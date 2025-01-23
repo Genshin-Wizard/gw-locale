@@ -692,15 +692,15 @@ SUCCESSFULLY_REGISTERED_RESPONSE: |
 
   Теперь вы можете получить доступ к нескольким новым командам, связанным с gacha, в Genshin Wizard и многим другим! Для получения дополнительной информации ознакомьтесь с командой </help:{command_id}> или посетите нашу [**Документацию**](https://docs.genshinwizard.com/wishing-centre/commands)!
 GENSHIN_WIZARD_REGISTRATION: Регистрация Genshin Wizard
-UNLINK_GENSHIN_ACCOUNT: Отвязать аккаунт Genshin
+UNLINK_GENSHIN_ACCOUNT: Unlink Current Genshin Account
 UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Полностью отвяжите свой аккаунт Genshin Impact от Genshin Wizard. Это приведет к удалению всех ваших данных из Genshin Wizard, включая историю ваших молитв, статистику молитв и многое другое. Это действие **необратимо**. Вы уверены, что хотите продолжить?
-UNLINK_HOYOLAB_ACCOUNT: Отвязать аккаунт HoYoLAB
+UNLINK_HOYOLAB_ACCOUNT: Unlink Current HoYoLAB Account
 UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: Отвяжите свой аккаунт HoYoLAB от Genshin Wizard; Ваш привязанный UID не будет отвязан от Genshin Wizard. Это действие **необратимо**. Вы уверены, что хотите продолжить?
-PURGE_WISH_HISTORY: Очистить историю молитв
+PURGE_WISH_HISTORY: Purge Current Account's Wish History
 PURGE_WISH_HISTORY_DESCRIPTION: Удалите только историю своих молитв из Genshin Wizard, ваш аккаунт Genshin по-прежнему будет привязан к Genshin Wizard. Это действие **необратимо**. Вы уверены, что хотите продолжить?
 UNLINK_EVERYTHING: Отвязать всё
 UNLINK_EVERYTHING_BRIEF: Этот метод отвяжет **всё** от Genshin Wizard.
-UNLINK_EVERYTHING_DESCRIPTION: Этот метод удалит всё из Мастера Гэншина. Это действие **необратимо**. Вы уверены, что хотите продолжить?
+UNLINK_EVERYTHING_DESCRIPTION: This method will unlink everything from Genshin Wizard. All your linked accounts, wish histories, and stored data will be wipred. This action is **irreversible**. Are you sure you want to continue?
 UNLINKING_CONFIRMATION: Вы **успешно отменили привязку** запрошенные данные от мастера Genshin Wizard!
 UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: Этот UID **уже зарегистрирован** другому пользователю! Если это ошибка и вы хотите *восстановить* свою учетную запись Genshin Wizard используйте команду </recover:{command_id}> . Если вам нужна дополнительная помощь, пожалуйста, свяжитесь с [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: Вы **уже зарегистрированы** на другой UID! Если вы хотите зарегистрироваться с помощью другого аккаунта, пожалуйста, используйте </unlink:{command_id}> перед попыткой регистрации снова."
@@ -1758,3 +1758,8 @@ REMOVE_ACCOUNT_COMPLETE_KEY: Remove Account Completely
 YES_KEY: Yes
 NO_KEY: No
 VIEW_ACCOUNT_KEYS: View Account(s)
+ADD_ACCOUNT_REGISTER_TITLE: Genshin Wizard Account Registration
+ADD_ACCOUNT_REGISTER_DESCRIPTION: Use the buttons below to register your Genshin Impact account with Genshin Wizard.
+IMPORT_COMMAND_UID_MISMATCH: The UID in the imported file does not match your account's current UID. Please ensure you are importing the correct file or switch your account to the correct one.
+PREMIUM_REQUIRED_TITLE: Genshin Wizard Premium Required
+MAX_ACCOUNTS_REACHED: "You have reached the maximum number of accounts allowed for **{tier_notation}.** Please consider upgrading to premium to add more accounts. If you're interested in upgrading, use the </premium:{command_id}> command."

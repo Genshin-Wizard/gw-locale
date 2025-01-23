@@ -691,15 +691,15 @@ SUCCESSFULLY_REGISTERED_RESPONSE: |
 
   您现在可以在Genshin Wizard中访问几个新的与gacha有关的命令！ 想要了解更多信息，请查阅 </help:{command_id}> 指令或访问我们的 [**文档**](https://docs.genshinwizard.com/wishing-centre/commands)!
 GENSHIN_WIZARD_REGISTRATION: Genshin Wizard注册
-UNLINK_GENSHIN_ACCOUNT: 解绑原神账号
+UNLINK_GENSHIN_ACCOUNT: Unlink Current Genshin Account
 UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: 完全从Genshin Wizard解绑你的原神账号。这将会从Genshin Wizard中清除你的所有数据，包括祈愿记录，祈愿统计等等。此操作**不可逆**。你确定要继续吗？
-UNLINK_HOYOLAB_ACCOUNT: 解绑 HoYoLAB 账号
+UNLINK_HOYOLAB_ACCOUNT: Unlink Current HoYoLAB Account
 UNLINK_HOYOLAB_ACCOUNT_DESCRIPTION: 从Genshin Wizard解绑你的HoYoLAB账号，将不会解绑你在Genshin Wizard绑定的UID。此操作**不可逆**。你确认要继续吗？
-PURGE_WISH_HISTORY: 清除祈愿记录
+PURGE_WISH_HISTORY: Purge Current Account's Wish History
 PURGE_WISH_HISTORY_DESCRIPTION: 只从Genshin Wizard清除你的祈愿记录，你的原神账号仍将链接到Genshin Wizard。 此操作**不可逆**。您确定要继续吗？
 UNLINK_EVERYTHING: 解绑所有
 UNLINK_EVERYTHING_BRIEF: 此方法将从 Genshin Wizard 解绑**所有东西** 。
-UNLINK_EVERYTHING_DESCRIPTION: 这个方法将会从Genshin Wizard解除所有绑定。该操作**不可逆**。你确定要继续吗？
+UNLINK_EVERYTHING_DESCRIPTION: This method will unlink everything from Genshin Wizard. All your linked accounts, wish histories, and stored data will be wipred. This action is **irreversible**. Are you sure you want to continue?
 UNLINKING_CONFIRMATION: 你有 来自Genshin Wizard**成功解绑**的请求数据！
 UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If this is a mistake and you are looking to *recover* your Genshin Wizard account, use the </recover:{command_id}> command. If you need further assistance, please contact [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: 您已经注册了一个不同的 UID！ 如果您想要使用另一个账户注册，请在尝试再次注册之前使用 </unlink:{command_id}>。"
@@ -1756,3 +1756,8 @@ REMOVE_ACCOUNT_COMPLETE_KEY: Remove Account Completely
 YES_KEY: Yes
 NO_KEY: No
 VIEW_ACCOUNT_KEYS: View Account(s)
+ADD_ACCOUNT_REGISTER_TITLE: Genshin Wizard Account Registration
+ADD_ACCOUNT_REGISTER_DESCRIPTION: Use the buttons below to register your Genshin Impact account with Genshin Wizard.
+IMPORT_COMMAND_UID_MISMATCH: The UID in the imported file does not match your account's current UID. Please ensure you are importing the correct file or switch your account to the correct one.
+PREMIUM_REQUIRED_TITLE: Genshin Wizard Premium Required
+MAX_ACCOUNTS_REACHED: "You have reached the maximum number of accounts allowed for **{tier_notation}.** Please consider upgrading to premium to add more accounts. If you're interested in upgrading, use the </premium:{command_id}> command."
