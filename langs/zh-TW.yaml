@@ -158,13 +158,13 @@ NO_HOYOLAB_LINKED: 您尚未關聯您的 HoYoLAB 帳戶。使用 </register:{com
 OLD_HOYOLAB_LINKED: |
   你好旅行者！對於給您帶來的不便，我們深表歉意，但此功能是在您將 `HoYoLAB` 帳戶註冊到 Genshin Wizard **後**實施的。
 
-  為了使用此按鈕，您必須通過 </hoyo:{command_id}> 取消鏈接您的 HoYoLAB 帳戶，並通過通常的註冊命令**重新鏈接**。
+  為了使用此按鈕，您必須通過 </hoyolab-info:{command_id}> 取消鏈接您的 HoYoLAB 帳戶，並通過通常的註冊命令**重新鏈接**。
 CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB 代碼兌換
 CODE_REDEEM_DESCRIPTION: "*請稍候，我們正嘗試兌換您的兌換碼...*"
 CODE_REDEEM_PROGRESS: |
   *請稍候，咱們正在處理您的兌換碼...* <a:loading:1015667958237900801> 正在嘗試兌換代碼 `{code}`
 HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | 過期的Cookies
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: 嘿旅行者！您的 HoYoLAB 代碼兌換 cookie 似乎已**過期**！使用命令 </hoyo:{command_id}> 並完成帳戶重新鏈接過程以**刷新**您的 HoYoLAB 帳戶 cookie。
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: 嘿旅行者！您的 HoYoLAB 代碼兌換 cookie 似乎已**過期**！使用命令 </hoyolab-info:{command_id}> 並完成帳戶重新鏈接過程以**刷新**您的 HoYoLAB 帳戶 cookie。
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
@@ -283,7 +283,7 @@ INFO_COMMAND_SHOWCASE_TITLE: 角色面板
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: 在 Enka.Network 上檢視
 REFRESHES_KEY: 更新時間
 INFO_COMMAND_CHARACTER_DETAILS: 角色
-INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!
+INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </character-showcase:{command_id}> for more information!
 INFO_COMMAND_CACHE_DESCRIPTION: |
   **Genshin Wizard 緩存 **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
 
@@ -724,7 +724,7 @@ SUCCESSFULLY_LINKED_KEY: Successfully Linked!
 SUCCESSFULLY_LINKED_HOYOLAB: |
   Successfully synced in-game account progression.
 
-  Successfully synced your HoYoLAB account! You can now access the **HoYoLAB account menu** by using the command </hoyo:{command_id}>!
+  Successfully synced your HoYoLAB account! You can now access the **HoYoLAB account menu** by using the command </hoyolab-info:{command_id}>!
 REGISTRATION_FAILED: Registration Failed!
 REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> 註冊您的帳戶**不成功**！如果問題仍然存在，請重試或聯繫 [**支援團隊**](https://discord.gg/genshinwizard)。此問題通常是由無效的電子郵件/密碼組合引起的。
 INVALID_HOYOLAB_EMAIL_PROMPT: Please enter a valid email address! You must use the email address you use to login to your **HoYoLAB** account.
@@ -807,7 +807,7 @@ RESIN_REMINDER_FOOTER: 單擊帶有 🔔 的按鈕即可獲得提醒！確保您
 SET_RESIN_REMINDER_KEY: 設置樹脂提醒！
 API_ISSUE: There has been an API Issue.
 HOW_TO_SOLVE_TITLE: How to solve this?
-ENABLE_CHRONICLES: "使用命令</hoyolab-privacy:{command_id}>或訪問[**HoYoLAB隱私設定**]\n(https://www.hoyolab.com/setting/privacy/)並啟用*角色戰績設定*來製作你的原神個人資料公開。"
+ENABLE_CHRONICLES: "使用命令</hoyolab-infolab-privacy:{command_id}>或訪問[**HoYoLAB隱私設定**]\n(https://www.hoyolab.com/setting/privacy/)並啟用*角色戰績設定*來製作你的原神個人資料公開。"
 PLEASE_WAIT_DESCRIPTION: 等待！目前您無能為力。
 PLAYER_TITLE: 玩家{player}
 USER_TITLE: User {user}
@@ -960,7 +960,7 @@ SETUP_COMMAND_TITLE: Genshin Wizard | Setup Panel
 UPDATED_INTEGRATION_RESPONSE: "Successfully updated integration for: **{integration}**!"
 PREMIUM_ART_SETTINGS_TITLE: Genshin Wizard 自訂美術圖設定
 PREMIUM_ART_SETTINGS_DESCRIPTION: |
-  <:information:1034639378410115103> **Manage your Genshin Wizard </info:{command_id}> Art Settings**
+  <:information:1034639378410115103> **Manage your Genshin Wizard </character-showcase:{command_id}> Art Settings**
   Tired of the default art that Genshin Wizard delivers? Well, you can now choose your own custom art for your character cards!
 
   <:na:975828401900359711> **What if I want to delete previously saved custom art?**
@@ -999,20 +999,20 @@ LINK_TO_PREMIUM: 點選下方連結購買 Genshin Wizard Premium
 PATREON_KEY: Patreon
 PREMIUM_TIER_ONE_PERKS: |
   <:information:1034639378410115103> **Premium Perks: $5 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
+  **HOT!** 🔥 The ability to choose custom images for character cards generated using </character-showcase:{info_id}>.
   <:blurplejoinarrow:932413900073369621> Access to the Supporters' Lounge, where you may receive premium support for Genshin Wizard.
   <:blurplejoinarrow:932413900073369621> The ability to choose a custom role name and color in the Genshin Wizard Discord server.
   <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>16,000** Primogems everyday for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
   <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier1:1045526665335427183> Witch of Purple Rose** role.
 PREMIUM_TIER_TWO_PERKS: |
   <:information:1034639378410115103> **高級津貼：每月 10 美元的計劃**
-   **熱門！** 🔥 能夠為使用 </info:{info_id}> 生成的角色卡選擇自定義圖像。 <:blurplejoinarrow:932413900073369621> 所有先前等級的好處。 <:blurplejoinarrow:932413900073369621> 選擇您選擇的服務器以獲得 Genshin Wizard Partner 特權的能力，沒有任何問題。這包括訪問 36 個星深淵通關和 C6 角色的自動角色集成(角色集成儀表板)。
+   **熱門！** 🔥 能夠為使用 </character-showcase:{info_id}> 生成的角色卡選擇自定義圖像。 <:blurplejoinarrow:932413900073369621> 所有先前等級的好處。 <:blurplejoinarrow:932413900073369621> 選擇您選擇的服務器以獲得 Genshin Wizard Partner 特權的能力，沒有任何問題。這包括訪問 36 個星深淵通關和 C6 角色的自動角色集成(角色集成儀表板)。
    <:blurplejoinarrow:932413900073369621> 獎勵 **<:Primogem:951924423340994610>24,000** 使用 </commissions:{commissions_id}> 時，Genshin Wizard Wish Simulator 每天可獲得 Primogems。
    <:blurplejoinarrow:932413900073369621> 獨家 **
   <:gw_tier2:1045526666354643034> 星體反射** 角色。
 PREMIUM_TIER_THREE_PERKS: |
   <:information:1034639378410115103> **Premium Perks: $25 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
+  **HOT!** 🔥 The ability to choose custom images for character cards generated using </character-showcase:{info_id}>.
   <:blurplejoinarrow:932413900073369621> All previous tiers' benefits.
   <:blurplejoinarrow:932413900073369621> The ability to select up to two servers of your choice to gain Genshin Wizard Partner perks.
   <:blurplejoinarrow:932413900073369621> The ability to select a custom badge for your Genshin Wizard profile.
@@ -1020,7 +1020,7 @@ PREMIUM_TIER_THREE_PERKS: |
   <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier3:1045526664513323039> Crimson Witch of Flames** role.
 PREMIUM_TIER_FOUR_PERKS: |
   <:information:1034639378410115103> **Premium Perks: $50 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
+  **HOT!** 🔥 The ability to choose custom images for character cards generated using </character-showcase:{info_id}>.
   <:blurplejoinarrow:932413900073369621> All previous tiers' benefits.
   <:blurplejoinarrow:932413900073369621> You may opt to have either the Elder of the Hexenzirkel role or your custom role to be displayed at the very top of the Genshin Wizard Discord server.
   <:blurplejoinarrow:932413900073369621> The ability to select up to three servers of your choice to gain Genshin Wizard Partner perks.
@@ -1047,7 +1047,7 @@ PREMIUM_SERVER_REMOVED: Hey Traveler, you've successfully **removed** the select
 PREMIUM_SERVER_CLEARED: Hey Traveler, you've successfully **removed** all of your premium servers.
 PREMIUM_SERVER_ALREADY: Hey Traveler, this server seems to already have **premium** enabled. Consider using this perk on another server!
 PREMIUM_SERVER_ADDED: Hey Traveler, you've successfully added **{guild}** as a premium server!
-PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hey Traveler, if you wish to add **Custom Art Infographics** for your characters, simply use the </info:{command_id}> command and press the **Add Custom Art** button. You'll be brought to a webpage where you can upload your own artchoice and save it directly to your Genshin Wizard account.
+PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hey Traveler, if you wish to add **Custom Art Infographics** for your characters, simply use the </character-showcase:{command_id}> command and press the **Add Custom Art** button. You'll be brought to a webpage where you can upload your own artchoice and save it directly to your Genshin Wizard account.
 PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> Hey Traveler, you haven't **selected** any characters with custom-art to delete.
 PREMIUM_CUSTOM_ART_REMOVED: Hey Traveler, you've successfully **removed** the selected characters.
 PREMIUM_CUSTOM_ART_CLEARED: Hey Traveler, you've successfully **removed** all of your saved characters with custom-art.
@@ -1425,13 +1425,13 @@ MANAGE_ART_SETTING_KEY: Manage Art Settings
 DEFAULT_ART_SETTING: 預設排版
 ENKA_ART_SETTING: Enka.Network 風格
 ART_SETTING_TITLE: Genshin Wizard 美術圖設定
-ART_SETTING_DESCRIPTION: Manage your Genshin Wizard </info:{command_id}> art settings here.
+ART_SETTING_DESCRIPTION: Manage your Genshin Wizard </character-showcase:{command_id}> art settings here.
 ART_LAYOUT_STYLE: "排版風格"
 ART_CHARACTER_STYLE: "角色美術圖"
 RESET_PROFILE_SETTINGS: Reset Profile Settings
 CHOOSE_ART_LAYOUT: "Choose an art layout style..."
 MANAGE_CACHED_DATA: Manage Cached Data
-INFO_COMMAND_SETTING_NOT_OWNER: You can only manage art settings for your own characters! Use the </info:{command_id}> for more information!
+INFO_COMMAND_SETTING_NOT_OWNER: You can only manage art settings for your own characters! Use the </character-showcase:{command_id}> for more information!
 VERTICAL_ART_SETTING: 垂直卡片排版
 DIARY_DATE_LABEL: "{month}/{year} Diary"
 NO_ACTIVE_BONUS: No Activated Bonuses
@@ -1614,7 +1614,7 @@ INVOKATION_SHOWCASE: "卡牌展示櫃"
 INVOKATION_SUMMARY: "Trading Card Summary"
 DAILY_ALREADY_CLAIMED: You have already claimed your daily reward.
 UNABLE_TO_CLAIM: Unable to claim your daily reward.
-COOKIE_RESET_MESSAGE: 重置您的 原神 帳戶密碼後，cookie 會被 **重置**，為了使用此命令，您將必須再次執行 *註冊過程 *。使用命令</hoyo:{command_id}>進行登錄。
+COOKIE_RESET_MESSAGE: 重置您的 原神 帳戶密碼後，cookie 會被 **重置**，為了使用此命令，您將必須再次執行 *註冊過程 *。使用命令</hoyolab-info:{command_id}>進行登錄。
 INVALID_COOKIE_KEY: 無效的 Cookie
 TEST_NOTIFICATION_KEY: Test Notification
 TEST_NOTIFICATION_TITLE: Genshin Wizard | Notification Test
