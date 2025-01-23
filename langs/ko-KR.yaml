@@ -158,14 +158,14 @@ NO_HOYOLAB_LINKED: 여행자, 아직 HoYoLAB 계정을 연결하지 않았구나
 OLD_HOYOLAB_LINKED: |
   여행자! 사용에 불편을 줘서 미안해. 이 기능은 `HoYoLAB` 계정을 원신 위자드에 **등록한 다음에** 사용 가능해.
 
-  우선은 </hoyo:{command_id}> 명령어를 이용해서 HoYoLAB 계정의 연결을 해제하고, 기본 등록 명령어를 통해 **재연결** 해줘. 불편을 줘서 정말 미안해!
+  우선은 </hoyolab-info:{command_id}> 명령어를 이용해서 HoYoLAB 계정의 연결을 해제하고, 기본 등록 명령어를 통해 **재연결** 해줘. 불편을 줘서 정말 미안해!
 CODE_REDEEM_TITLE: 원신 위자드 | HoYoLAB 코드 사용
 CODE_REDEEM_DESCRIPTION: "*보상 코드를 처리하는 중이야. 잠깐만 기다려줘!*"
 CODE_REDEEM_PROGRESS: |
   *보상 코드를 처리하는 중이야. 잠깐만 기다려줘!*
    <a:loading:1015667958237900801> `{code}` 코드 사용 시도 중
 HOYOLAB_EXPIRED_COOKIE_TITLE: 원신 위자드 | 만료된 쿠키
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: 여행자! 여행자의 HoYoLAB 쿠키가 **만료**돼버렸어! 쿠키를 **새로 가져와야** 하니까, </hoyo:{command_id}> 명령어를 사용해서 계정 재연결을 진행해줘!
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: 여행자! 여행자의 HoYoLAB 쿠키가 **만료**돼버렸어! 쿠키를 **새로 가져와야** 하니까, </hoyolab-info:{command_id}> 명령어를 사용해서 계정 재연결을 진행해줘!
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[봇초대](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[공식 웹사이트](https://www.genshinwizard.com)**
@@ -285,7 +285,7 @@ INFO_COMMAND_SHOWCASE_TITLE: 캐릭터 진열장
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: Enka.Network 에서 보기
 REFRESHES_KEY: 새로고침
 INFO_COMMAND_CHARACTER_DETAILS: 캐릭터
-INFO_COMMAND_NOT_OWNER: '여행자는 여행자 본인의 캐릭터에 대해서만 저장된 빌드를 관리할 수 있어! 자세한 내용을 보고 싶다면 이 명령어를 사용해봐!: </info:{command_id}>'
+INFO_COMMAND_NOT_OWNER: '여행자는 여행자 본인의 캐릭터에 대해서만 저장된 빌드를 관리할 수 있어! 자세한 내용을 보고 싶다면 이 명령어를 사용해봐!: </character-showcase:{command_id}>'
 INFO_COMMAND_CACHE_DESCRIPTION: |
   **원신 위자드 캐시 **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
 
@@ -738,7 +738,7 @@ SUCCESSFULLY_LINKED_KEY: 성공적으로 연결되었어!
 SUCCESSFULLY_LINKED_HOYOLAB: |
   게임 내 계정 진행을 성공적으로 동기화했습니다.
 
-  호요랩 계정을 성공적으로 동기화했습니다! 이제 </hoyo:{command_id}> 명령을 사용하여 **호요랩 계정 메뉴**에 액세스할 수 있습니다!
+  호요랩 계정을 성공적으로 동기화했습니다! 이제 </hoyolab-info:{command_id}> 명령을 사용하여 **호요랩 계정 메뉴**에 액세스할 수 있습니다!
 REGISTRATION_FAILED: 등록 실패!
 REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> 계정 등록이 **성공하지 못했습니다**! 다시 시도하거나 문제가 지속되면 [**지원팀**](https://discord.gg/genshinwizard)에 문의하세요. 이 문제는 일반적으로 잘못된 이메일/비밀번호 조합으로 인해 발생합니다.
 INVALID_HOYOLAB_EMAIL_PROMPT: 유효한 이메일 주소를 입력하세요! **호요랩** 계정에 로그인하는 데 사용하는 이메일 주소를 사용해야 합니다.
@@ -819,7 +819,7 @@ RESIN_REMINDER_FOOTER: 알림을 받으려면 🔔 버튼을 클릭하세요! �
 SET_RESIN_REMINDER_KEY: 레진알림 설정!
 API_ISSUE: API 문제가 발생했습니다.
 HOW_TO_SOLVE_TITLE: 어떻게 해결할까요?
-ENABLE_CHRONICLES: "여행자, 다음 커맨드를 사용해봐! </hoyolab-privacy:{command_id}>\n아니면, [**호요랩 설정 페이지**](https://www.hoyolab.com/setting/privacy) 에 접속해서 *개인센터에 캐릭터 전적 전시* 항목을 설정해줘."
+ENABLE_CHRONICLES: "여행자, 다음 커맨드를 사용해봐! </hoyolab-infolab-privacy:{command_id}>\n아니면, [**호요랩 설정 페이지**](https://www.hoyolab.com/setting/privacy) 에 접속해서 *개인센터에 캐릭터 전적 전시* 항목을 설정해줘."
 PLEASE_WAIT_DESCRIPTION: 기다려줘! 안타깝게도 지금은 여행자가 해줄 수 있는 일이 없어.
 PLAYER_TITLE: 플레이어 {player}
 USER_TITLE: 유저 {user}
@@ -978,7 +978,7 @@ SETUP_COMMAND_TITLE: Genshin Wizard | 설정창
 UPDATED_INTEGRATION_RESPONSE: "**{integration}**에 대한 통합을 성공적으로 업데이트했습니다!"
 PREMIUM_ART_SETTINGS_TITLE: Genshin Wizard 커스텀 아트 설정
 PREMIUM_ART_SETTINGS_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard 관리 </info:{command_id}> 아트 설정**
+  <:information:1034639378410115103> **Genshin Wizard 관리 </character-showcase:{command_id}> 아트 설정**
   Genshin Wizard가 제공하는 기본 아트에 지쳤습니까? 자, 이제 캐릭터 카드에 대한 나만의 맞춤 아트를 선택할 수 있습니다!
 
   <:na:975828401900359711> **이전에 저장된 사용자 정의 아트를 삭제하려면 어떻게 해야 합니까?**
@@ -1019,21 +1019,21 @@ LINK_TO_PREMIUM: 원신 위자드 프리미엄을 구입하려면 아래 링크�
 PATREON_KEY: Patreon(후원)
 PREMIUM_TIER_ONE_PERKS: |
   <:information:1034639378410115103> **프리미엄 혜택: $5 월 플랜**
-  **HOT!** 🔥 </info:{info_id}>를 사용하여 생성된 캐릭터 카드에 대한 사용자 지정 이미지를 선택할 수 있는 기능.
+  **HOT!** 🔥 </character-showcase:{info_id}>를 사용하여 생성된 캐릭터 카드에 대한 사용자 지정 이미지를 선택할 수 있는 기능.
   <:blurplejoinarrow:932413900073369621> Genshin Wizard에 대한 프리미엄 지원을 받을 수 있는 Supporters' Lounge에 액세스할 수 있습니다.
   <:blurplejoinarrow:932413900073369621> Genshin Wizard Discord 서버에서 사용자 정의 역할 이름 및 색상을 선택하는 기능.
   <:blurplejoinarrow:932413900073369621> 보너스 **<:Primogem:951924423340994610>16,000** Genshin Wizard Wish Simulator 사용 시 </commissions:{commissions_id}> 매일 Primoges.
   <:blurplejoinarrow:932413900073369621> 독점 **<:gw_tier1:1045526665335427183> 보라색 장미의 마녀** 역할
 PREMIUM_TIER_TWO_PERKS: |
   <:information:1034639378410115103> **프리미엄 혜택: $10 월 플랜**
-  **HOT!** 🔥 </info:{info_id}>를 사용하여 생성된 캐릭터 카드에 대한 사용자 지정 이미지를 선택할 수 있는 기능.
+  **HOT!** 🔥 </character-showcase:{info_id}>를 사용하여 생성된 캐릭터 카드에 대한 사용자 지정 이미지를 선택할 수 있는 기능.
   <:blurplejoinarrow:932413900073369621> 모든 이전 계층의 이점
   <:blurplejoinarrow:932413900073369621> 원하는 서버를 선택하여 Genshin Wizard Partner 특전을 얻을 수 있습니다. 여기에는 /abyss, /stats에 대한 액세스와 36개의 스타 어비스 클리어 및 C6 캐릭터(역할 통합 대시보드)에 대한 자동 역할 통합이 포함됩니다.
   <:blurplejoinarrow:932413900073369621> </commissions:{commissions_id}> 사용 시 Genshin Wizard Wish Simulator에 대한 보너스 **<:Primogem:951924423340994610>24,000** Primoges.
   <:blurplejoinarrow:932413900073369621> 독점 **<:gw_tier2:1045526666354643034> Astral Reflection** 역할.
 PREMIUM_TIER_THREE_PERKS: |
   <:information:1034639378410115103> **프리미엄 혜택: $25 월 플랜**
-  **HOT!** 🔥 </info:{info_id}>를 사용하여 생성된 캐릭터 카드에 대한 사용자 지정 이미지를 선택할 수 있는 기능.
+  **HOT!** 🔥 </character-showcase:{info_id}>를 사용하여 생성된 캐릭터 카드에 대한 사용자 지정 이미지를 선택할 수 있는 기능.
   <:blurplejoinarrow:932413900073369621> 모든 이전 계층의 이점
   <:blurplejoinarrow:932413900073369621> Genshin Wizard Partner 특전을 얻기 위해 원하는 서버를 최대 2개까지 선택할 수 있습니다.
   <:blurplejoinarrow:932413900073369621> Genshin Wizard 프로필에 대한 사용자 정의 배지를 선택하는 기능입니다.
@@ -1041,7 +1041,7 @@ PREMIUM_TIER_THREE_PERKS: |
   <:blurplejoinarrow:932413900073369621> 독점 **<:gw_tier3:1045526664513323039> Crimson Witch of Flames** 역할
 PREMIUM_TIER_FOUR_PERKS: |
   <:information:1034639378410115103> **프리미엄 혜택: $50 월 플랜**
-  **HOT!** 🔥 </info:{info_id}>를 사용하여 생성된 캐릭터 카드에 대한 사용자 지정 이미지를 선택할 수 있는 기능.
+  **HOT!** 🔥 </character-showcase:{info_id}>를 사용하여 생성된 캐릭터 카드에 대한 사용자 지정 이미지를 선택할 수 있는 기능.
   <:blurplejoinarrow:932413900073369621> 모든 이전 계층의 이점
   <:blurplejoinarrow:932413900073369621> Elder of the Heexenzirkel 역할 또는 사용자 정의 역할이 Genshin Wizard Discord 서버 맨 위에 표시되도록 선택할 수 있습니다.
   <:blurplejoinarrow:932413900073369621> 최대 3개의 서버를 선택하여 Genshin Wizard Partner 특전을 얻을 수 있습니다.
@@ -1068,7 +1068,7 @@ PREMIUM_SERVER_REMOVED: Traveler님, 선택한 서버를 성공적으로 **제�
 PREMIUM_SERVER_CLEARED: Traveler님, 모든 프리미엄 서버를 성공적으로 **제거**했습니다.
 PREMIUM_SERVER_ALREADY: 이 서버는 이미 **프리미엄**이 활성화된 것 같습니다. 다른 서버에서 이 특전을 사용하는 것을 고려하십시오!
 PREMIUM_SERVER_ADDED: '**{guild}**를 프리미엄 서버로 성공적으로 추가했습니다!'
-PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> 캐릭터에 **맞춤 아트 인포그래픽**을 추가하려면 </info:{command_id}> 명령을 사용하고 **Add Custom Art** 버튼을 누르기만 하면 됩니다. 자신만의 예술 작품을 업로드하고 Genshin Wizard 계정에 직접 저장할 수 있는 웹 페이지로 이동합니다.
+PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> 캐릭터에 **맞춤 아트 인포그래픽**을 추가하려면 </character-showcase:{command_id}> 명령을 사용하고 **Add Custom Art** 버튼을 누르기만 하면 됩니다. 자신만의 예술 작품을 업로드하고 Genshin Wizard 계정에 직접 저장할 수 있는 웹 페이지로 이동합니다.
 PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> 삭제할 커스텀 아트가 있는 캐릭터를 **선택**하지 않으셨습니다.
 PREMIUM_CUSTOM_ART_REMOVED: 선택한 캐릭터를 성공적으로 **제거**했습니다.
 PREMIUM_CUSTOM_ART_CLEARED: 커스텀 아트로 저장된 모든 캐릭터를 성공적으로 **제거**하셨습니다.
@@ -1447,13 +1447,13 @@ MANAGE_ART_SETTING_KEY: 캐릭터 프로필 관리
 DEFAULT_ART_SETTING: 기본 레이아웃
 ENKA_ART_SETTING: Enka.Network 레이아웃
 ART_SETTING_TITLE: 원신 위자드 캐릭터 정보 설정
-ART_SETTING_DESCRIPTION: 여기서 여행자의 </info:{command_id}> 설정을 변경할 수 있어.
+ART_SETTING_DESCRIPTION: 여기서 여행자의 </character-showcase:{command_id}> 설정을 변경할 수 있어.
 ART_LAYOUT_STYLE: "레이아웃 설정"
 ART_CHARACTER_STYLE: "캐릭터 프로필"
 RESET_PROFILE_SETTINGS: 프로필 설정 초기화
 CHOOSE_ART_LAYOUT: "프로필 레이아웃을 선택..."
 MANAGE_CACHED_DATA: 캐시 데이터 관리
-INFO_COMMAND_SETTING_NOT_OWNER: '여행자, 캐릭터 이미지를 수정하는건 여행자 소유의 캐릭터들만 가능해! 좀 더 자세한 내용은 다음 명령어를 이용해서 확인해줘!: </info:{command_id}>'
+INFO_COMMAND_SETTING_NOT_OWNER: '여행자, 캐릭터 이미지를 수정하는건 여행자 소유의 캐릭터들만 가능해! 좀 더 자세한 내용은 다음 명령어를 이용해서 확인해줘!: </character-showcase:{command_id}>'
 VERTICAL_ART_SETTING: 수직 카드 레이아웃
 DIARY_DATE_LABEL: "{year}/{month} 여행자 핸드북"
 NO_ACTIVE_BONUS: 활성화된 보너스가 없음
@@ -1636,7 +1636,7 @@ INVOKATION_SHOWCASE: "일곱 성인의 소환 카드 쇼케이스"
 INVOKATION_SUMMARY: "일곱성인의 소환 카드 개요"
 DAILY_ALREADY_CLAIMED: 이미 오늘의 일일 출석체크 보상을 수령했어!
 UNABLE_TO_CLAIM: 일일 출석체크 보상을 수령할 수 없어.
-COOKIE_RESET_MESSAGE: 계정 비밀번호를 재설정하면, 호요랩 사이트의 쿠키가 리셋돼. 따라서 이 명령을 사용하려면 *호요랩 등록 절차* - </hoyo:{command_id}> 를 다시 한번 거쳐야 해.
+COOKIE_RESET_MESSAGE: 계정 비밀번호를 재설정하면, 호요랩 사이트의 쿠키가 리셋돼. 따라서 이 명령을 사용하려면 *호요랩 등록 절차* - </hoyolab-info:{command_id}> 를 다시 한번 거쳐야 해.
 INVALID_COOKIE_KEY: 유효하지 않은 쿠키
 TEST_NOTIFICATION_KEY: 테스트 알림
 TEST_NOTIFICATION_TITLE: 원신 위자드 | 테스트 알림
