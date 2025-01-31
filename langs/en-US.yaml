@@ -635,7 +635,7 @@ REGISTER_COMMAND_PC_DIRECTIONS: |
   4. In the start menu search for "PowerShell" and open "Windows PowerShell"
   5. Then copy the following code and paste it in the Powershell window
   ```ps
-  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
+  iwr https://www.genshinwizard.com/file/history | iex
   ```
   6. Hit `ENTER` to have the link copied to your clipboard
   7. Click the button below and paste the link in the input field
