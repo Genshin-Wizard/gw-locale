@@ -488,6 +488,7 @@ IMPORT_COMMAND_LINK_EXPIRED_TITLE: Срок действия ссылки на �
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Срок действия вашей ссылки на историю **истек**! Пожалуйста, обновите с помощью команды </refresh:{command_id}> перед попыткой импорта!
 IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: Этот тип файлов **не поддерживается**. Если вы пытаетесь импортировать данные из `Paimon.moe`, пожалуйста, убедитесь, что вы загружаете таблицу **excel** из их настройки [Счетчика молитв](https://paimon.moe/wish). Обратитесь к нашей [**Документации**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) для получения дополнительной информации.
 IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: Этот тип файла **не поддерживается**. Пожалуйста, убедитесь, что вы не *меняете* тип файла, прежде чем пытаться импортировать. Обратитесь к нашей [**Документации**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) для получения дополнительной информации.
+IMPORT_COMMAND_UID_MISMATCH: The UID in the imported file does not match your account's current UID. Please ensure you are importing the correct file or switch your account to the correct one.
 LEADERBOARD_NO_DATA: Данные по этому конкретному запросу не найдены!
 LEADERBOARD_EXPERIENCE_FOOTER: Опыт можно получить, проявляя активность на сервере. Больше общайтесь в чате, чтобы повысить свой уровень в рейтинге Genshin Wizard!
 LEADERBOARD_WISHES_FOOTER: Пожелания обновляются с помощью сводки баннеров и команд (ы) обновления. Проверяйте свои баннеры, чтобы получать обновленное количество пожеланий!
@@ -627,18 +628,18 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "Консоль"
 REGISTER_IOS_METHOD: "iOS (Метод трансляции приложения)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Посмотрите нашу [Документацию на Github](https://github.com/Genshin-Wizard/historyLink) для детальных шагов с изображениями.
+  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
 
-  1. Откройте игру Genshin Impact на своем компьютере
-  2. Перейдите на страницу истории молитв и дождитесь ее загрузки
-  3. Вернитесь к Windows/рабочему столу
-  4. В меню "Пуск" найдите "PowerShell" и откройте "Windows PowerShell"
-  5. Затем скопируйте следующий код и вставьте его в окно Powershell
+  1. Open Genshin Impact Game on your PC
+  2. Go to the wish history page and wait for it to load
+  3. Go back to Windows/Desktop
+  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
+  5. Then copy the following code and paste it in the Powershell window
   ```ps
-  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
+  iwr https://www.genshinwizard.com/file/history | iex
   ```
-  6. Нажмите `ENTER`, чтобы скопировать ссылку в ваш буфер обмена
-  7. Нажмите на кнопку ниже и вставьте ссылку в поле ввода
+  6. Hit `ENTER` to have the link copied to your clipboard
+  7. Click the button below and paste the link in the input field
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   После обновления 3.0 пользователи больше не могут просто копировать и вставлять ссылку на историю на устройствах Android.
 
@@ -1760,6 +1761,5 @@ NO_KEY: No
 VIEW_ACCOUNT_KEYS: View Account(s)
 ADD_ACCOUNT_REGISTER_TITLE: Genshin Wizard Account Registration
 ADD_ACCOUNT_REGISTER_DESCRIPTION: Use the buttons below to register your Genshin Impact account with Genshin Wizard.
-IMPORT_COMMAND_UID_MISMATCH: The UID in the imported file does not match your account's current UID. Please ensure you are importing the correct file or switch your account to the correct one.
 PREMIUM_REQUIRED_TITLE: Genshin Wizard Premium Required
 MAX_ACCOUNTS_REACHED: "You have reached the maximum number of accounts allowed for **{tier_notation}.** Please consider upgrading to premium to add more accounts. If you're interested in upgrading, use the </premium:{command_id}> command."
