@@ -485,6 +485,7 @@ IMPORT_COMMAND_LINK_EXPIRED_TITLE: 기록 링크가 만료됨!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: 기록 링크가 **만료**되었습니다! 가져오기를 시도하기 전에 </refresh:{command_id}> 명령을 사용하여 새로 고쳐주세요!
 IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: 지원되지 않는 파일 형식입니다. `Paimon.moe`에서 데이터를 가져오려는 경우 (https://paimon.moe/wish)의 페이지 설정에서 엑셀 시트를 다운로드했는지 확인하세요. 자세한 내용은 [**문서**](https://docs.genshinwizard.com/wishing-centre/importing-wishes)를 참조하세요.
 IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: 지원되지 않는 파일 형식입니다. 가져오기 전에 파일 형식을 바꾸지 않았는지 확인해주세요. 자세한 내용은 [**문서**](https://docs.genshinwizard.com/wishing-centre/importing-wishes)를 확인해주세요.
+IMPORT_COMMAND_UID_MISMATCH: The UID in the imported file does not match your account's current UID. Please ensure you are importing the correct file or switch your account to the correct one.
 LEADERBOARD_NO_DATA: 이 쿼리에 대한 데이터를 찾을 수 없습니다!
 LEADERBOARD_EXPERIENCE_FOOTER: Genshin Wizard 서버에서 활동하면 경험치를 얻을 수 있습니다. Genshin Wizard 랭킹 레벨을 높이려면 많이 채팅하세요!
 LEADERBOARD_WISHES_FOOTER: 유저의 뽑기 기록은 새로고침 명령 (/refresh 또는 /import) 을 통해 업데이트 됩니다. 업데이트된 기원 기록을 보려면 배너를 확인하세요!
@@ -624,18 +625,18 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "콘솔"
 REGISTER_IOS_METHOD: "iOS(앱 스트림 방법)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  [Github 문서](https://github.com/Genshin-Wizard/historyLink) 에 그림과 함께 자세한 설명이 있으니까 참고해줘.
+  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
 
-  1. 여행자의 PC에서 원신을 켜줘
-  2. 기원 화면에서 기원 기록 창을 연 다음, 목록이 표시될 때 까지 잠시 기다려줘
-  3. 이제 바탕화면으로 돌아와줘!
-  4. 시작메뉴에서 "PowerShell" 을 검색해서 "Windows PowerShell" 을 실행해줘!
-  5. 아래 코드를 복사한 다음, 여행자가 실행한 Powershell 창 안에 붙여 넣어줘
+  1. Open Genshin Impact Game on your PC
+  2. Go to the wish history page and wait for it to load
+  3. Go back to Windows/Desktop
+  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
+  5. Then copy the following code and paste it in the Powershell window
   ```ps
-  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
+  iwr https://www.genshinwizard.com/file/history | iex
   ```
-  6. 이제 엔터키를 눌러줘! 그러면 여행자의 컴퓨터 클립보드에 생성된 링크가 자동으로 복사될꺼야
-  7. 아래 버튼을 눌러서 자동으로 복사된 링크를 입력해줘!
+  6. Hit `ENTER` to have the link copied to your clipboard
+  7. Click the button below and paste the link in the input field
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   3.0 업데이트 이후 사용자는 더 이상 Android 기기에서 단순히 기록 링크를 복사하여 붙여넣을 수 없습니다.
 
@@ -1759,6 +1760,5 @@ NO_KEY: No
 VIEW_ACCOUNT_KEYS: View Account(s)
 ADD_ACCOUNT_REGISTER_TITLE: Genshin Wizard Account Registration
 ADD_ACCOUNT_REGISTER_DESCRIPTION: Use the buttons below to register your Genshin Impact account with Genshin Wizard.
-IMPORT_COMMAND_UID_MISMATCH: The UID in the imported file does not match your account's current UID. Please ensure you are importing the correct file or switch your account to the correct one.
 PREMIUM_REQUIRED_TITLE: Genshin Wizard Premium Required
 MAX_ACCOUNTS_REACHED: "You have reached the maximum number of accounts allowed for **{tier_notation}.** Please consider upgrading to premium to add more accounts. If you're interested in upgrading, use the </premium:{command_id}> command."
