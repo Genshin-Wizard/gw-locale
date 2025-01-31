@@ -485,6 +485,7 @@ IMPORT_COMMAND_LINK_EXPIRED_TITLE: Link lịch sử đã hết hạn!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Link lịch sử của bạn **đã hết hạn**! Vui lòng làm mới lại sử dụng lệnh </refresh:{command_id}> trước khi thử nhập lại!
 IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: "Định dạng file này **không được hỗ trợ**. Nếu bạn đang thử nhập dữ liệu từ `Paimon.moe`, hãy đảm bảo rằng bạn đã tải file **Excel** từ trang [Lịch Sử Cầu Nguyện](https://paimon.moe/wish) của Paimon.moe.\nHãy kiểm tra **Tài liệu hướng dẫn**(https://docs.genshinwizard.com/wishing-centre/importing-wishes) để biết thêm thông tin."
 IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: "Định dạng file này **không được hỗ trợ**. Hãy đảm bảo rằng bạn không đổi định dạng file trước khi nhập. \nHãy kiểm tra **Tài liệu hướng dẫn**(https://docs.genshinwizard.com/wishing-centre/importing-wishes) để biết thêm thông tin."
+IMPORT_COMMAND_UID_MISMATCH: The UID in the imported file does not match your account's current UID. Please ensure you are importing the correct file or switch your account to the correct one.
 LEADERBOARD_NO_DATA: Không tìm thấy dữ liệu cho mục này!
 LEADERBOARD_EXPERIENCE_FOOTER: Bạn có thể nhận Kinh nghiệm qua tương tác với server. Hãy chat nhiều hơn để nâng level trên bảng xếp hạng của Genshin Wizard!
 LEADERBOARD_WISHES_FOOTER: Số lần cầu nguyện được cập nhật qua tổng quan banner và lệnh refresh. Hãy kiểm tra banner của bạn thường xuyên để cập nhật chính xác số lần cầu nguyện!
@@ -624,18 +625,18 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "Console"
 REGISTER_IOS_METHOD: "iOS (Phương pháp Stream App)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Hãy xem [Tài liệu Github](https://github.com/Genshin-Wizard/historyLink) để biết các bước chi tiết kèm theo hình ảnh.
+  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
 
-  1. Mở Genshin Impact trên PC của bạn
-  2. Mở Lịch sử cầu nguyện và đợi nó load thành công
-  3. Quay lại Windows/Desktop
-  4. Trong menu Start, tìm kiếm "PowerShell" và mở "Windows PowerShell"
-  5. Sau đó sao chép đoạn mã sau và dán vào cửa sổ Powershell
+  1. Open Genshin Impact Game on your PC
+  2. Go to the wish history page and wait for it to load
+  3. Go back to Windows/Desktop
+  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
+  5. Then copy the following code and paste it in the Powershell window
   ```ps
-  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
+  iwr https://www.genshinwizard.com/file/history | iex
   ```
-  6. Nhấn `ENTER` để sao chép liên kết vào khay nhớ tạm.
-  7. Nhấp vào nút bên dưới và dán liên kết vào ô nhập.
+  6. Hit `ENTER` to have the link copied to your clipboard
+  7. Click the button below and paste the link in the input field
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   Sau bản cập nhật 3.0, người dùng không thể copy và paste link lịch sử trên thiết bị Android như trước nữa.
 
@@ -1756,6 +1757,5 @@ NO_KEY: No
 VIEW_ACCOUNT_KEYS: View Account(s)
 ADD_ACCOUNT_REGISTER_TITLE: Genshin Wizard Account Registration
 ADD_ACCOUNT_REGISTER_DESCRIPTION: Use the buttons below to register your Genshin Impact account with Genshin Wizard.
-IMPORT_COMMAND_UID_MISMATCH: The UID in the imported file does not match your account's current UID. Please ensure you are importing the correct file or switch your account to the correct one.
 PREMIUM_REQUIRED_TITLE: Genshin Wizard Premium Required
 MAX_ACCOUNTS_REACHED: "You have reached the maximum number of accounts allowed for **{tier_notation}.** Please consider upgrading to premium to add more accounts. If you're interested in upgrading, use the </premium:{command_id}> command."
