@@ -241,7 +241,7 @@ APP_COMMAND_REFERENCESHEETS_DESCRIPTION: View all available reference sheets.
 APP_COMMAND_TODO_DESCRIPTION: Check daily/weekly events in Genshin Impact.
 APP_COMMAND_BANNERS_DESCRIPTION: View ongoing Genshin Impact event banners.
 APP_COMMAND_CONFIG_DESCRIPTION: Genshin Wizard config setup panel, configure automatic announcements and more!
-APP_COMMAND_PARTNER_DESCRIPTION: hidden
+APP_COMMAND_PARTNER_DESCRIPTION: ukryte
 APP_COMMAND_SETUP_DESCRIPTION: Genshin Wizard Role Integration Setup Panel.
 APP_COMMAND_PREMIUM_DESCRIPTION: Purchase Genshin Wizard Premium to gain access to premium features.
 APP_COMMAND_ROLE_DESCRIPTION: Applies specific character roles to a user. Refer to relative text channel for more information.
@@ -257,34 +257,34 @@ APP_COMMAND_CRITVALUE_DESCRIPTION: Calculate CRIT Value for an artifact.
 APP_COMMAND_TRUTH_DESCRIPTION: Seek wisdom from Genshin Wizard.
 APP_COMMAND_CHANGEPREFIX_DESCRIPTION: Change Genshin Wizard's prefix for commands.
 APP_COMMAND_PITY_DESCRIPTION: Information on understanding the Genshin pity-system.
-APP_COMMAND_MATH_DESCRIPTION: Compute simple or complex functions.
-APP_COMMAND_EVENTS_DESCRIPTION: Check recent Genshin Impact events.
+APP_COMMAND_MATH_DESCRIPTION: Oblicz proste lub złożone funkcje.
+APP_COMMAND_EVENTS_DESCRIPTION: Sprawdź ostatnie wydarzenia w Genshin Impact.
 APP_COMMAND_SENDCODES_DESCRIPTION: Send a message for Genshin redemption codes with buttons.
-APP_COMMAND_FEEDBACK_DESCRIPTION: Send your feedback to Genshin Wizard Developers.
-APP_COMMAND_DELETE_DESCRIPTION: Delete a user's Genshin Wizard profile.
+APP_COMMAND_FEEDBACK_DESCRIPTION: Wyślij swoją opinię do deweloperów Genshin Wizard.
+APP_COMMAND_DELETE_DESCRIPTION: Usuń profil użytkownika Genshin Wizard.
 APP_COMMAND_BLACKLIST_DESCRIPTION: Blacklist a user from using Genshin Wizard.
-APP_COMMAND_DELIMPORT_DESCRIPTION: Delete a user's imported wish history data.
-EXPORT_NO_WISHES: There are no wishes to export.
+APP_COMMAND_DELIMPORT_DESCRIPTION: Usuń dane historii życzeń importowanych przez użytkownika.
+EXPORT_NO_WISHES: Nie ma żadnych życzeń do eksportowania.
 EXPORT_NO_BANNER_WISHES: No {banner} banner wishes found.
 EXPORT_NO_MESSAGE_PERMISSION: "The bot **does not** have permission to send you a private message. Please make sure you have the setting: `Allow direct messages from server members` **enabled** in your *Discord privacy settings*."
 EXPORT_MESSAGE_SUCCESS: Your wish history has successfully been exported and sent to you via DMs.
 EXPORT_DM_DESCRIPTION: Genshin Wizard supports [**UIGF v4.0**](https://uigf.org/en/) standard that is used by many popular third-party tools. Be sure to store your backup data in a safe place.
 INFO_COMMAND_INVALID_ARGUMENT: |
-  **Invalid argument passed.**
+  **Podano nieprawidłowy argument.**
 
-  To view another player's stats, please enter either Discord User **or** a Genshin UID. Entering both will result in an error.
+  Aby zobaczyć statystyki innego gracza, proszę wpisać UID użytkownika Discorda **lub** Genshin. Wpisanie obydwu będzie skutkować błędem.
 INVALID_ARGUMENT_PASSED: |
-  Invalid argument passed.
-  Valid argument is `<discord user>`/`<genshin uid>`
+  Podano nieprawidłowy argument.
+  Prawidłowy argument to `<discord user>`/`<genshin uid>`
 INFO_COMMAND_ENKA_ISSUE: There seems to be an issue with [**Enka.Network**](https://enka.network/u/{uid}). Please try again later.
-ERROR_NO_USER_DATA: No data found for this user.
-WHAT_HAPPENED_TITLE: What happened?
+ERROR_NO_USER_DATA: Nie znaleziono danych dla tego użytkownika.
+WHAT_HAPPENED_TITLE: Co się stało?
 WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
 INFO_COMMAND_SHOWCASE_TITLE: Prezentacja postaci
-INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
-REFRESHES_KEY: Refreshes
-INFO_COMMAND_CHARACTER_DETAILS: Character
+INFO_COMMAND_SHOWCASE_VIEW_ENKA: Zobacz na Enka.Network
+REFRESHES_KEY: Odświeżenia
+INFO_COMMAND_CHARACTER_DETAILS: Postać
 INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!
 INFO_COMMAND_CACHE_DESCRIPTION: |
   **Genshin Wizard Cache **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
@@ -415,14 +415,14 @@ HOYOLAB_INVALID_REDEEM: |
   **Proper Command Usage** ```/redeem CODE_ONE,CODE_TWO,...```
 CHINA_NOT_ALLOWED: Redeeming codes for CN users is **not supported** as of yet.
 HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | HoYoLAB Overview
-HOYOLAB_LOADING_ACCOUNT: Loading account information...
+HOYOLAB_LOADING_ACCOUNT: Wczytywanie informacji o koncie...
 HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Real-time Notes** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
 HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Game Record** information! Please try again *later* or join our [**Official Support Server**](https://discord.gg/BTT5Zr7Dmp) for help.
 HOYOLAB_ACCOUNT_ERROR: There was an error grabbing your account's information! Please try again *later*.
 HOYOLAB_ACCOUNT_MANAGE: Manage your HoYoLAB account through Genshin Wizard
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Character Summary
 CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /register!
-GCG_NO_CARDS_FOUND: No Cards Found!
+GCG_NO_CARDS_FOUND: Nie znaleziono kart!
 GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Traveler! Unfortunately, {member} has **no cards** yet! Head-in game and play some TCG on Genshin Impact *before* using this command.
 HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
@@ -443,7 +443,7 @@ HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
 
   <:information:1021014187197083668> **Note:** This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead.
 HOYOLAB_REGISTER_LOGIN_FOOTER: Przypominamy, że Genshin Wizard nie przechowuje danych Twojego konta. Ta metoda rejestracji pobiera niezbędne pliki cookies wymagane do podglądu statystyk Twojego konta.
-ARE_YOU_SURE: Are you sure?
+ARE_YOU_SURE: Jesteś pewien?
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
   You have requested to **unlink** your HoYoLAB account from Genshin Wizard.
   This means that you will no longer be able to *claim your daily rewards*, view your *full abyss progression*, and other extended features such as *viewing all your characters*.
@@ -510,7 +510,7 @@ CALC_CHARACTER_INVALID_TARGET_LEVEL: You need to specify a valid target level!
 CALC_CHARACTER_REQUIREMENT_SURPASSED: Character has already **surpassed** the given desired level!
 CALC_CHARACTER_REQUIREMENT_MET: Character has already **reached** the given desired level!
 CALC_CHARACTER_TITLE: Genshin Wizard | Character Calculator
-CHARACTER_KEY: Character
+CHARACTER_KEY: Postać
 CURRENT_LEVEL_KEY: Current Level
 TARGET_LEVEL_KEY: Target Level
 REQUIRED_RESOURCES_KEY: Required Resources
