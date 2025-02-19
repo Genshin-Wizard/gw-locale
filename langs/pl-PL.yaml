@@ -633,7 +633,7 @@ REGISTER_COMMAND_PC_DIRECTIONS: |
   4. In the start menu search for "PowerShell" and open "Windows PowerShell"
   5. Then copy the following code and paste it in the Powershell window
   ```ps
-  iwr https://www.genshinwizard.com/file/history | iex
+  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
   ```
   6. Hit `ENTER` to have the link copied to your clipboard
   7. Click the button below and paste the link in the input field
@@ -690,7 +690,7 @@ SUCCESSFULLY_UPDATED_UID: |
 SUCCESSFULLY_REGISTERED_RESPONSE: |
   Hey Traveler! Congratulations, your account was **successfully** registered!
 
-  You can now access several new gacha-related command within Genshin Wizard and more! For more information, check out the </help:{command_id}> command or visit our [**Documentation**](https://genshinwizard.com/commands)!
+  You can now access several new gacha-related command within Genshin Wizard and more! For more information, check out the </help:{command_id}> command or visit our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/commands)!
 GENSHIN_WIZARD_REGISTRATION: Rejestracja Genshin Wizard
 UNLINK_GENSHIN_ACCOUNT: Unlink Genshin Account
 UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Unlink your Genshin Impact account completely from Genshin Wizard. This will erase all your data from Genshin Wizard, including your wish history, wish statistics, and more. This action is **irreversible**. Are you sure you want to continue?
