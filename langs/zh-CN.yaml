@@ -633,7 +633,7 @@ REGISTER_COMMAND_PC_DIRECTIONS: |
   4. In the start menu search for "PowerShell" and open "Windows PowerShell"
   5. Then copy the following code and paste it in the Powershell window
   ```ps
-  iwr https://www.genshinwizard.com/file/history | iex
+  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
   ```
   6. Hit `ENTER` to have the link copied to your clipboard
   7. Click the button below and paste the link in the input field
@@ -688,9 +688,9 @@ SUCCESSFULLY_UPDATED_UID: |
 
   Refer to </help:{command_id}> for more information.
 SUCCESSFULLY_REGISTERED_RESPONSE: |
-  Hey Traveler! Congratulations, your account was **successfully** registered!
+  嘿，旅行者！恭喜您的账户已注册**成功**！
 
-  You can now access several new gacha-related command within Genshin Wizard and more! For more information, check out the </help:{command_id}> command or visit our [**Documentation**](https://genshinwizard.com/commands)!
+  您现在可以在Genshin Wizard中访问几个新的与gacha有关的命令！ 想要了解更多信息，请查阅 </help:{command_id}> 指令或访问我们的 [**文档**](https://docs.genshinwizard.com/wishing-centre/commands)!
 GENSHIN_WIZARD_REGISTRATION: Genshin Wizard注册
 UNLINK_GENSHIN_ACCOUNT: 解绑原神账号
 UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: 完全从Genshin Wizard解绑你的原神账号。这将会从Genshin Wizard中清除你的所有数据，包括祈愿记录，祈愿统计等等。此操作**不可逆**。你确定要继续吗？
