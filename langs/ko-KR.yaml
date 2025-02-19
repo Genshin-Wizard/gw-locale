@@ -625,18 +625,18 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "콘솔"
 REGISTER_IOS_METHOD: "iOS(앱 스트림 방법)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
+  [Github 문서](https://github.com/Genshin-Wizard/historyLink) 에 그림과 함께 자세한 설명이 있으니까 참고해줘.
 
-  1. Open Genshin Impact Game on your PC
-  2. Go to the wish history page and wait for it to load
-  3. Go back to Windows/Desktop
-  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  5. Then copy the following code and paste it in the Powershell window
+  1. 여행자의 PC에서 원신을 켜줘
+  2. 기원 화면에서 기원 기록 창을 연 다음, 목록이 표시될 때 까지 잠시 기다려줘
+  3. 이제 바탕화면으로 돌아와줘!
+  4. 시작메뉴에서 "PowerShell" 을 검색해서 "Windows PowerShell" 을 실행해줘!
+  5. 아래 코드를 복사한 다음, 여행자가 실행한 Powershell 창 안에 붙여 넣어줘
   ```ps
-  iwr https://www.genshinwizard.com/file/history | iex
+  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
   ```
-  6. Hit `ENTER` to have the link copied to your clipboard
-  7. Click the button below and paste the link in the input field
+  6. 이제 엔터키를 눌러줘! 그러면 여행자의 컴퓨터 클립보드에 생성된 링크가 자동으로 복사될꺼야
+  7. 아래 버튼을 눌러서 자동으로 복사된 링크를 입력해줘!
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   3.0 업데이트 이후 사용자는 더 이상 Android 기기에서 단순히 기록 링크를 복사하여 붙여넣을 수 없습니다.
 
@@ -688,9 +688,10 @@ SUCCESSFULLY_UPDATED_UID: |
 
   자세한 내용이 궁금하면 </help:{command_id}>를 확인해줘!
 SUCCESSFULLY_REGISTERED_RESPONSE: |
-  Hey Traveler! Congratulations, your account was **successfully** registered!
+  여행자, 축하해! 여행자의 정보가 **성공적으로** 등록되었어!
 
-  You can now access several new gacha-related command within Genshin Wizard and more! For more information, check out the </help:{command_id}> command or visit our [**Documentation**](https://genshinwizard.com/commands)!
+  이제 마음껏 Genshin Wizard에서 제공해주는 다양한 명령어를 실행해볼 수 있어!
+  자세한 내용이 궁금하면 </help:{command_id}> 명령어를 실행해보거나 [**공식 문서 페이지**](https://docs.genshinwizard.com/wishing-centre/commands)를 방문해줘!
 GENSHIN_WIZARD_REGISTRATION: 원신 위자드 등륵하기
 UNLINK_GENSHIN_ACCOUNT: 원신 계정 연결 해제
 UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: "원신 위자드에서 여행자의 계정 연결을 해제할게. 기원 기록, 통계 등을 포함한 여행자의 모든 정보가 원신 위자드에서 지워질거야. 참고로 이 작업은 **돌이킬 수 없어**.\n정말로 계속 할거야?"
