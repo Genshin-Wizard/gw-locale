@@ -158,14 +158,14 @@ NO_HOYOLAB_LINKED: Aún no has vinculado tu cuenta de HoYoLAB. Utiliza </registe
 OLD_HOYOLAB_LINKED: |
   ¡Hola Viajero! Lo siento por las molestias, pero esta función fue implementada **después** de que registraste tu cuenta de `HoYoLAB` en Genshin Wizard.
 
-  Para poder usar este botón, debes desvincular tu cuenta de HoYoLAB a través de </hoyolab-info:{command_id}> y **vuelve a vincular** a través del comando de registro habitual.
+  Para poder usar este botón, debes desvincular tu cuenta de HoYoLAB a través de </hoyo:{command_id}> y **vuelve a vincular** a través del comando de registro habitual.
 CODE_REDEEM_TITLE: Genshin Wizard | Canje de código de HoYoLAB
 CODE_REDEEM_DESCRIPTION: "*Por favor, espera mientras procesamos tu código de canje...*"
 CODE_REDEEM_PROGRESS: |
   *Por favor, espera mientras procesamos tu código de canje...*
   <a:loading:1015667958237900801> Intentando canjear el código `{code}`
 HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Cookies caducadas
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: '¡Hola Viajero! Parece que tus cookies de canje de código de HoYoLAB han **caducado**! Utiliza el comando </hoyolab-info:{command_id}> y completa el proceso de reenlace de cuenta para **actualizar** tus cookies de cuenta de HoYoLAB.'
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: '¡Hola Viajero! Parece que tus cookies de canje de código de HoYoLAB han **caducado**! Utiliza el comando </hoyo:{command_id}> y completa el proceso de reenlace de cuenta para **actualizar** tus cookies de cuenta de HoYoLAB.'
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Invitar al bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[Sitio web oficial](https://www.genshinwizard.com)**
@@ -285,7 +285,7 @@ INFO_COMMAND_SHOWCASE_TITLE: Exhibición de personajes
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: Ver en Enka.Network
 REFRESHES_KEY: Actualizaciones
 INFO_COMMAND_CHARACTER_DETAILS: Personaje
-INFO_COMMAND_NOT_OWNER: '¡Sólo puedes gestionar las construcciones almacenadas para tus propios personajes! ¡Usa el </character-showcase:{command_id}> para obtener más información!'
+INFO_COMMAND_NOT_OWNER: '¡Sólo puedes gestionar las construcciones almacenadas para tus propios personajes! ¡Usa el </info:{command_id}> para obtener más información!'
 INFO_COMMAND_CACHE_DESCRIPTION: |
   **Genshin Wizard Cache **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
 
@@ -483,6 +483,7 @@ IMPORT_COMMAND_LINK_EXPIRED_TITLE: '¡Enlace del historial caducado!'
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: '¡Tu enlace del historial ha **caducado**! ¡Por favor, actualiza usando el comando </refresh:{command_id}> antes de intentar importar!'
 IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **JSON** export from their [settings](https://paimon.moe/settings) page. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
 IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: Este tipo de archivo **no es compatible**. Asegúrate de *no cambiar* el tipo de archivo antes de intentar importar. Consulta nuestra [**Documentación**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) para más información.
+IMPORT_COMMAND_UID_MISMATCH: The UID in the imported file does not match your account's current UID. Please ensure you are importing the correct file or switch your account to the correct one.
 LEADERBOARD_NO_DATA: '¡No se han encontrado datos para esta consulta específica!'
 LEADERBOARD_EXPERIENCE_FOOTER: La experiencia se puede adquirir al estar activo en el servidor. ¡Chatea más para subir de nivel en el ranking de Genshin Wizard!
 LEADERBOARD_WISHES_FOOTER: Los deseos se actualizan a través del resumen de la bandera y del comando de actualización (s). ¡Consulta tus banderas para obtener un conteo de deseos actualizado de forma activa!
@@ -622,7 +623,18 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "Consola"
 REGISTER_IOS_METHOD: "iOS (método de la aplicación Stream)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
+  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
 
+  1. Open Genshin Impact Game on your PC
+  2. Go to the wish history page and wait for it to load
+  3. Go back to Windows/Desktop
+  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
+  5. Then copy the following code and paste it in the Powershell window
+  ```ps
+  iwr https://www.genshinwizard.com/file/history | iex
+  ```
+  6. Hit `ENTER` to have the link copied to your clipboard
+  7. Click the button below and paste the link in the input field
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   Después de la actualización 3.0, ya no se puede copiar y pegar simplemente el enlace del historial en los dispositivos Android.
 
@@ -665,9 +677,9 @@ SUCCESSFULLY_UPDATED_UID: |
 
   Consulta </help:{command_id}> para obtener más información.
 SUCCESSFULLY_REGISTERED_RESPONSE: |
-  ¡Oye viajero! ¡Felicidades, tu cuenta fue registrada **correctamente**!
+  Hey Traveler! Congratulations, your account was **successfully** registered!
 
-  ¡Ahora puedes acceder a varios nuevos comandos relacionados con gacha en Genshin Wizard y más! Para obtener más información, echa un vistazo al comando </help:{command_id}> o visita nuestra [**Documentación**](https://docs.genshinwizard.com/wishing-centre/commands)!
+  You can now access several new gacha-related command within Genshin Wizard and more! For more information, check out the </help:{command_id}> command or visit our [**Documentation**](https://genshinwizard.com/commands)!
 GENSHIN_WIZARD_REGISTRATION: Registro de Genshin Wizard
 UNLINK_GENSHIN_ACCOUNT: Desvincular cuenta de Genshin
 UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Desvincula completamente tu cuenta de Genshin Impact de Genshin Wizard. Esto borrara todos tus datos de Genshin Wizard, incluyendo tu historial de deseos, estadísticas de deseos y más. Esta acción es **irreversible**. ¿Estás seguro de que quieres continuar?
@@ -715,7 +727,7 @@ SUCCESSFULLY_LINKED_KEY: '¡Vinculado con éxito!'
 SUCCESSFULLY_LINKED_HOYOLAB: |
   Progreso de cuenta de juego en línea sincronizado con éxito.
 
-  ¡Cuenta de HoYoLAB sincronizada con éxito! ¡Ahora puedes acceder al **menú de cuenta de HoYoLAB** utilizando el comando </hoyolab-info:{command_id}>!
+  ¡Cuenta de HoYoLAB sincronizada con éxito! ¡Ahora puedes acceder al **menú de cuenta de HoYoLAB** utilizando el comando </hoyo:{command_id}>!
 REGISTRATION_FAILED: '¡Error de registro!'
 REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> ¡El registro de tu cuenta ha sido **infructuoso**! Por favor intenta de nuevo o contacta al [**equipo de soporte**](https://discord.gg/genshinwizard) si el problema persiste. Este problema se debe típicamente a una combinación de correo electrónico/contraseña inválida.
 INVALID_HOYOLAB_EMAIL_PROMPT: '¡Por favor ingrese una dirección de correo electrónico válida! Debes usar la dirección de correo electrónico que utilizas para iniciar sesión en tu cuenta de **HoYoLAB**.'
@@ -798,7 +810,7 @@ RESIN_REMINDER_FOOTER: '¡Haz clic en un botón con 🔔 para obtener un recorda
 SET_RESIN_REMINDER_KEY: '¡Configurar recordatorio de resin!'
 API_ISSUE: Ha habido un problema con la API.
 HOW_TO_SOLVE_TITLE: '¿Cómo solucionar esto?'
-ENABLE_CHRONICLES: "Usa el comando </hoyolab-infolab-privacy:{command_id}> o visita la [**configuración de HoYoLAB**](https://www.hoyolab.com/setting/privacy/) y habilita los *Ajustes de registros de batalla* para hacer público tu perfil de genshin."
+ENABLE_CHRONICLES: "Usa el comando </hoyolab-privacy:{command_id}> o visita la [**configuración de HoYoLAB**](https://www.hoyolab.com/setting/privacy/) y habilita los *Ajustes de registros de batalla* para hacer público tu perfil de genshin."
 PLEASE_WAIT_DESCRIPTION: '¡Esperando! En este momento no hay nada que puedas hacer para superar esto.'
 PLAYER_TITLE: Jugador {player}
 USER_TITLE: Usuario {user}
@@ -955,7 +967,7 @@ SETUP_COMMAND_TITLE: Genshin Wizard | Panel de configuración
 UPDATED_INTEGRATION_RESPONSE: "¡Integración actualizada con éxito para: **{integration}**!"
 PREMIUM_ART_SETTINGS_TITLE: Genshin Wizard Ajustes de arte personalizado
 PREMIUM_ART_SETTINGS_DESCRIPTION: |
-  <:information:1034639378410115103> **Gestiona tus ajustes de arte de Genshin Wizard </character-showcase:{command_id}>**
+  <:information:1034639378410115103> **Gestiona tus ajustes de arte de Genshin Wizard </info:{command_id}>**
   ¿Cansado del arte predeterminado que entrega Genshin Wizard? ¡Bueno, ahora puedes elegir tu propio arte personalizado para tus tarjetas de personajes!
 
   <:na:975828401900359711> **¿Qué pasa si quiero eliminar el arte personalizado guardado anteriormente?**
@@ -996,21 +1008,21 @@ LINK_TO_PREMIUM: Haz clic en los enlaces a continuación para comprar Genshin Wi
 PATREON_KEY: Patreon
 PREMIUM_TIER_ONE_PERKS: |
   <:information:1034639378410115103> **Ventajas premium: Plan mensual de $5**
-  **¡CALIENTE!** 🔥 La posibilidad de elegir imágenes personalizadas para las tarjetas de personajes generadas usando </character-showcase:{info_id}>.
+  **¡CALIENTE!** 🔥 La posibilidad de elegir imágenes personalizadas para las tarjetas de personajes generadas usando </info:{info_id}>.
   <:blurplejoinarrow:932413900073369621> Acceso al Lounge de patrocinadores, donde puedes recibir soporte premium para Genshin Wizard.
   <:blurplejoinarrow:932413900073369621> La posibilidad de elegir un nombre y un color de rol personalizado en el servidor de Discord de Genshin Wizard.
   <:blurplejoinarrow:932413900073369621> Un bonus de **<:Primogem:951924423340994610>16,000** Primogemas diarias para el simulador de deseos de Genshin Wizard al usar </commissions:{commissions_id}>.
   <:blurplejoinarrow:932413900073369621> Rol exclusivo **<:gw_tier1:1045526665335427183> Bruja de la Rosa Púrpura**.
 PREMIUM_TIER_TWO_PERKS: |
   <:information:1034639378410115103> **Ventajas premium: Plan mensual de $10**
-  **¡CALIENTE!** 🔥 La posibilidad de elegir imágenes personalizadas para las tarjetas de personajes generadas usando </character-showcase:{info_id}>.
+  **¡CALIENTE!** 🔥 La posibilidad de elegir imágenes personalizadas para las tarjetas de personajes generadas usando </info:{info_id}>.
   <:blurplejoinarrow:932413900073369621> Todas las ventajas de los planes anteriores.
   <:blurplejoinarrow:932413900073369621> La posibilidad de seleccionar un servidor de tu elección para obtener beneficios de asociación con Genshin Wizard, sin preguntas. Esto incluye acceso a /abyss, /stats e integración automática de roles para 36 limpiezas de abismo de estrella y personajes C6 (panel de integración de roles).
   <:blurplejoinarrow:932413900073369621> Un bonus de **<:Primogem:951924423340994610>24,000** Primogemas al día para el simulador de deseos de Genshin Wizard al usar </commissions:{commissions_id}>.
   <:blurplejoinarrow:932413900073369621> Rol exclusivo **<:gw_tier2:1045526666354643034> Reflejo astral**.
 PREMIUM_TIER_THREE_PERKS: |
   <:information:1034639378410115103> **Ventajas premium: plan mensual de 25 dólares**
-  **¡Caliente!** 🔥 La posibilidad de elegir imágenes personalizadas para las tarjetas de personajes generadas usando </character-showcase:{info_id}>.
+  **¡Caliente!** 🔥 La posibilidad de elegir imágenes personalizadas para las tarjetas de personajes generadas usando </info:{info_id}>.
   <:blurplejoinarrow:932413900073369621> Todos los beneficios de los niveles anteriores.
   <:blurplejoinarrow:932413900073369621> La posibilidad de seleccionar hasta dos servidores de tu elección para obtener las ventajas de Asistente Genshin Wizard Partner.
   <:blurplejoinarrow:932413900073369621> La posibilidad de seleccionar un distintivo personalizado para tu perfil de Genshin Wizard.
@@ -1018,7 +1030,7 @@ PREMIUM_TIER_THREE_PERKS: |
   <:blurplejoinarrow:932413900073369621> Rol exclusivo **<:gw_tier3:1045526664513323039> Bruja carmesí de llamas**.
 PREMIUM_TIER_FOUR_PERKS: |
   <:information:1034639378410115103> **Ventajas premium: plan mensual de 50 dólares**
-  **¡Caliente!** 🔥 La posibilidad de elegir imágenes personalizadas para las tarjetas de personajes generadas usando </character-showcase:{info_id}>.
+  **¡Caliente!** 🔥 La posibilidad de elegir imágenes personalizadas para las tarjetas de personajes generadas usando </info:{info_id}>.
   <:blurplejoinarrow:932413900073369621> Todos los beneficios de los niveles anteriores.
   <:blurplejoinarrow:932413900073369621> Puedes optar por que el rol de Anciano del Hexenzirkel o tu rol personalizado se muestre en la parte superior del servidor de Discord de Genshin Wizard.
   <:blurplejoinarrow:932413900073369621> La posibilidad de seleccionar hasta tres servidores de tu elección para obtener las ventajas de Asistente Genshin Wizard Partner.
@@ -1045,7 +1057,7 @@ PREMIUM_SERVER_REMOVED: Hola, Viajero, has eliminado con éxito los servidores s
 PREMIUM_SERVER_CLEARED: Hola, Viajero, has eliminado con éxito todos tus servidores premium.
 PREMIUM_SERVER_ALREADY: Hola, Viajero, este servidor parece tener **premium** habilitado. ¡Considera usar esta ventaja en otro servidor!
 PREMIUM_SERVER_ADDED: Hola, Viajero, ¡has añadido con éxito **{guild}** como un servidor premium!
-PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hola, Viajero, si deseas añadir **Infografías de arte personalizado** para tus personajes, simplemente utiliza el comando </character-showcase:{command_id}> y presiona el botón **Añadir arte personalizado**. Se te llevará a una página web donde podrás subir tu propio arte y guardarlo directamente en tu cuenta de Genshin Wizard.
+PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hola, Viajero, si deseas añadir **Infografías de arte personalizado** para tus personajes, simplemente utiliza el comando </info:{command_id}> y presiona el botón **Añadir arte personalizado**. Se te llevará a una página web donde podrás subir tu propio arte y guardarlo directamente en tu cuenta de Genshin Wizard.
 PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> Hola, Viajero, no has **seleccionado** ningún personaje con arte personalizado para eliminar.
 PREMIUM_CUSTOM_ART_REMOVED: Hola, Viajero, has eliminado con éxito a los personajes seleccionados.
 PREMIUM_CUSTOM_ART_CLEARED: Hola, Viajero, has eliminado con éxito todos tus personajes guardados con arte personalizado.
@@ -1423,13 +1435,13 @@ MANAGE_ART_SETTING_KEY: Administrar configuración de arte
 DEFAULT_ART_SETTING: Diseño predeterminado
 ENKA_ART_SETTING: Diseño de Enka.Network
 ART_SETTING_TITLE: Configuración de arte de Genshin Wizard
-ART_SETTING_DESCRIPTION: Administre la configuración de arte de Genshin Wizard de </character-showcase:{command_id}> aquí.
+ART_SETTING_DESCRIPTION: Administre la configuración de arte de Genshin Wizard de </info:{command_id}> aquí.
 ART_LAYOUT_STYLE: "Estilo de diseño"
 ART_CHARACTER_STYLE: "Arte del personaje"
 RESET_PROFILE_SETTINGS: Restablecer la configuración del perfil
 CHOOSE_ART_LAYOUT: "Elije un estilo de diseño de arte..."
 MANAGE_CACHED_DATA: Administrar datos en caché
-INFO_COMMAND_SETTING_NOT_OWNER: '¡Solo puedes administrar los ajustes de diseño de tus propios personajes! ¡Usa </character-showcase:{command_id}> para más información!'
+INFO_COMMAND_SETTING_NOT_OWNER: '¡Solo puedes administrar los ajustes de diseño de tus propios personajes! ¡Usa </info:{command_id}> para más información!'
 VERTICAL_ART_SETTING: Diseño de Tarjeta Vertical
 DIARY_DATE_LABEL: "{month}/{year} Diario"
 NO_ACTIVE_BONUS: Sin Bonos Activados
@@ -1612,7 +1624,7 @@ INVOKATION_SHOWCASE: "Escaparate de cartas"
 INVOKATION_SUMMARY: "Trading Card Summary"
 DAILY_ALREADY_CLAIMED: You have already claimed your daily reward.
 UNABLE_TO_CLAIM: Unable to claim your daily reward.
-COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </hoyolab-info:{command_id}> to register.
+COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </hoyo:{command_id}> to register.
 INVALID_COOKIE_KEY: Invalid Cookie
 TEST_NOTIFICATION_KEY: Test Notification
 TEST_NOTIFICATION_TITLE: Genshin Wizard | Notification Test
@@ -1735,6 +1747,5 @@ NO_KEY: No
 VIEW_ACCOUNT_KEYS: View Account(s)
 ADD_ACCOUNT_REGISTER_TITLE: Genshin Wizard Account Registration
 ADD_ACCOUNT_REGISTER_DESCRIPTION: Use the buttons below to register your Genshin Impact account with Genshin Wizard.
-IMPORT_COMMAND_UID_MISMATCH: The UID in the imported file does not match your account's current UID. Please ensure you are importing the correct file or switch your account to the correct one.
 PREMIUM_REQUIRED_TITLE: Genshin Wizard Premium Required
 MAX_ACCOUNTS_REACHED: "You have reached the maximum number of accounts allowed for **{tier_notation}.** Please consider upgrading to premium to add more accounts. If you're interested in upgrading, use the </premium:{command_id}> command."
