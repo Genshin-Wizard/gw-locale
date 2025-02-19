@@ -625,18 +625,18 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "Console"
 REGISTER_IOS_METHOD: "iOS (Phương pháp Stream App)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
+  Hãy xem [Tài liệu Github](https://github.com/Genshin-Wizard/historyLink) để biết các bước chi tiết kèm theo hình ảnh.
 
-  1. Open Genshin Impact Game on your PC
-  2. Go to the wish history page and wait for it to load
-  3. Go back to Windows/Desktop
-  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  5. Then copy the following code and paste it in the Powershell window
+  1. Mở Genshin Impact trên PC của bạn
+  2. Mở Lịch sử cầu nguyện và đợi nó load thành công
+  3. Quay lại Windows/Desktop
+  4. Trong menu Start, tìm kiếm "PowerShell" và mở "Windows PowerShell"
+  5. Sau đó sao chép đoạn mã sau và dán vào cửa sổ Powershell
   ```ps
-  iwr https://www.genshinwizard.com/file/history | iex
+  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
   ```
-  6. Hit `ENTER` to have the link copied to your clipboard
-  7. Click the button below and paste the link in the input field
+  6. Nhấn `ENTER` để sao chép liên kết vào khay nhớ tạm.
+  7. Nhấp vào nút bên dưới và dán liên kết vào ô nhập.
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   Sau bản cập nhật 3.0, người dùng không thể copy và paste link lịch sử trên thiết bị Android như trước nữa.
 
@@ -688,9 +688,9 @@ SUCCESSFULLY_UPDATED_UID: |
 
   Hãy kiểm tra thêm thông tin bằng lệnh </help:{command_id}>.
 SUCCESSFULLY_REGISTERED_RESPONSE: |
-  Hey Traveler! Congratulations, your account was **successfully** registered!
+  Nhà Lữ Hành ơi! Chúc mừng bạn đã đăng kí tài khoản **thành công**!
 
-  You can now access several new gacha-related command within Genshin Wizard and more! For more information, check out the </help:{command_id}> command or visit our [**Documentation**](https://genshinwizard.com/commands)!
+  Bạn giờ đây có thể truy cập những command gacha trong Genshin Wizard và hơn nữa! Để biết thêm thông tin, vui lòng sử dụng lệnh </help:{command_id}> hoặc kiểm tra [**Documentation**](https://docs.genshinwizard.com/wishing-centre/commands)!
 GENSHIN_WIZARD_REGISTRATION: Đăng kí Genshin Wizard
 UNLINK_GENSHIN_ACCOUNT: Hủy liên kết tài khoản Genshin
 UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: "Hủy liên kết tài khoản Genshin của bạn khỏi Genshin Wizard. Dữ liệu Genshin Wizard về tài khoản này sẽ bị xóa bỏ, bao gồm: lịch sử cầu nguyện, thông số cầu nguyện, ... Hành động này là **không thể hoàn tác**. \nBạn có muốn tiếp tục không?"
