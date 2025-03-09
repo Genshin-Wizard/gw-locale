@@ -831,45 +831,45 @@ USER_TITLE: Người dùng {user}
 OVERVIEW_KEY: Tổng Quan
 GENERAL_OVERVIEW_KEY: Tổng Quan Chung
 GENERAL_OVERVIEW_SECTION: |
-  Adventure Rank: {adventure_rank}
-  Total achievements: {achievement_number}
-  Total active days: {playtime}
-  Characters: **{char_count}**/{total_char}
-  Spiral Abyss: {abyss}
-  Region: {region}
-CHEST_PROGRESSION_KEY: Chest Progression
-EXPLORATION_AND_OCULI: Exploration & Oculi
-NOT_YET_UNLOCKED: Not Yet Unlocked!
-STATISTICS_COMMAND_FOOTER: "Note: Statistics may be incorrectly shown or missing data, there is nothing we can do on our end to prevent this, it's an API error on HoYoLAB's end."
-CONGRATULATIONS_KEY: Congratulations!
+  Hạng Mạo Hiểm: {adventure_rank}  
+  Tổng số thành tựu: {achievement_number}  
+  Tổng số ngày hoạt động: {playtime}  
+  Nhân vật: **{char_count}**/{total_char}  
+  La Hoàn Thâm Cảnh: {abyss}  
+  Khu vực: {region}
+CHEST_PROGRESSION_KEY: Tiến Độ Rương
+EXPLORATION_AND_OCULI: Thám Hiểm & Mắt Thần
+NOT_YET_UNLOCKED: Chưa Mở Khóa!
+STATISTICS_COMMAND_FOOTER: "Lưu ý: Thống kê có thể hiển thị không chính xác hoặc thiếu dữ liệu. Chúng tôi không thể làm gì để ngăn chặn điều này, vì đây là lỗi API từ phía HoYoLAB."
+CONGRATULATIONS_KEY: Chúc Mừng!
 ABYSS_CONGRATULATE_MESSAGE: |
-  Congratulations {user} on perfectly *clearing* the Spiral Abyss!
-  <:spiralabyss:1000079902596411482> <@&{role_id}> Role Given <a:check:956327345717907507>
-ABYSS_COMMAND_STATISTICS_CREDIT: User {name}'s Spiral Abyss Stats
+  Chúc mừng {user} đã hoàn thành *hoàn hảo* La Hoàn Thâm Cảnh!  
+  <:spiralabyss:1000079902596411482> Đã cấp vai trò <@&{role_id}> <a:check:956327345717907507>
+ABYSS_COMMAND_STATISTICS_CREDIT: Thống kê La Hoàn Thâm Cảnh của người chơi {name}
 CURRENT_LUNAR_PHASE_DESCRIPTION: |
-  **Current Lunar Phase**
-  **Start Time:** {start}
-  **End Time:** {end}
-MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard is missing permissions to `Manage Roles`. Please enable this permission and try again."
-ROLE_NOT_FOUND: ":no_entry: There was an error retrieving the role. Please make sure the role information under this integration is correct."
-GENSHIN_STATS_HEADER: "{name}'s Genshin Stats"
-PROCESSING_BANNER_TRANSITION: Processing {banner} Banner...
-CHRONICLED_KEY: Chronicled
-WEAPON_KEY: Weapon
-PERMANENT_KEY: Permanent
-NOVICE_KEY: Novice
-STARDUST_EXCHANGES: Stardust Exchanges
-STARGLITTER_EXCHANGES: Starglitter Exchanges
-STARDUST_KEY: Stardust
-STARGLITTER_KEY: Starglitter
-GENSHIN_WIZARD_SHOP_TITLE: Genshin Wizard Shop
+  **Giai đoạn Trăng hiện tại**  
+  **Bắt đầu:** {start}  
+  **Kết thúc:** {end}
+MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard thiếu quyền `Quản lý Vai trò`. Vui lòng bật quyền này và thử lại."
+ROLE_NOT_FOUND: ":no_entry: Đã xảy ra lỗi khi lấy vai trò. Vui lòng đảm bảo thông tin vai trò trong tích hợp này là chính xác."
+GENSHIN_STATS_HEADER: "Thống kê Genshin của {name}"
+PROCESSING_BANNER_TRANSITION: Đang xử lý biểu ngữ {banner}...
+CHRONICLED_KEY: Ghi chép lại
+WEAPON_KEY: Vũ Khí
+PERMANENT_KEY: Vĩnh Viễn
+NOVICE_KEY: Tân Thủ
+STARDUST_EXCHANGES: Trao Đổi Tinh Huy
+STARGLITTER_EXCHANGES: Trao Đổi Tinh Trần
+STARDUST_KEY: Tinh Huy
+STARGLITTER_KEY: Tinh Trần
+GENSHIN_WIZARD_SHOP_TITLE: Cửa Hàng Genshin Wizard
 GENSHIN_WIZARD_SHOP_DESCRIPTION: |
-  Welcome to Paimon's Bargains! Here you can purchase items to help you on your journey. You currently have <:Primogem:951924423340994610>**{primogems} Primogems** in your Genshin Wizard inventory.
+  Chào mừng đến với Cửa Hàng Của Paimon! Tại đây, bạn có thể mua vật phẩm để hỗ trợ chuyến hành trình của mình. Hiện tại, bạn có <:Primogem:951924423340994610>**{primogems} Nguyên Thạch** trong kho Genshin Wizard của bạn.  
 
-  <:MasterlessStardust:951924423332626522> **Stardust:** {stardust}
-  <:MasterlessStarglitter:951924423059980290> **Starglitter:** {starglitter}
+  <:MasterlessStardust:951924423332626522> **Tinh Huy Không Định:** {stardust}  
+  <:MasterlessStarglitter:951924423059980290> **Tinh Trần Không Định:** {starglitter}  
 
-  <:GreyPin:949815085335986246> **__CURRENT SHOP__ [ Price | Item ]**
+  <:GreyPin:949815085335986246> **__CỬA HÀNG HIỆN TẠI__ [ Giá | Vật phẩm ]**
 SIMULATOR_NO_PRIMOGEMS: |
   <:Error:1021889679857037372> Hey Traveler, you don't have anymore **primogems** for today! You need at least <:Primogem:951924423340994610>**1,600** primogems to do *another* ten pull. To view your current balance, use the **</balance:{balance_id}>** command.
 
@@ -879,18 +879,18 @@ SIMULATOR_NO_PRIMOGEMS: |
   <:blurplelink:1020155547187691600> **Use the </commissions:{commission_id}> command. [16,000 Primogems]**
   > <:GreyPin:949815085335986246> Extra rewards for **Adventurers** of the **[Genshin Wizard Guild](https://discord.gg/genshinwizard) [16,000 Primogems]**
 WISH_RESULTS_DESCRIPTION: |
-  **Wish Results** <a:results:1020753234555584562>```glsl
+  **Kết Quả Cầu Nguyện** <a:results:1020753234555584562>```glsl
   {rolls}```
-  <a:7094whitecheck:1020160260637462618> **__INVENTORY ADDITIONS__**
+  <a:7094whitecheck:1020160260637462618> **__VẬT PHẨM NHẬN ĐƯỢC__**
   {results}
   {rewards}
-  **Current Pities:
+  **Chỉ số Nhân Phẩm Hiện Tại:
   <:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620><:5Star:954093937109401620>: `{five_star_pity}` | <:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616><:4Star:954095346051608616>: `{four_star_pity}`
-  Guaranteed Pity: {guaranteed_pity}
-  New Balance:** <:Primogem:951924423340994610>{balance} Primogems
-NONE_KEY: None
+  Bảo hiểm: {guaranteed_pity}
+  Số Dư Mới:** <:Primogem:951924423340994610>{balance} Nguyên Thạch
+NONE_KEY: Không Có
 SIMULATOR_TITLE: Giả lập Gacha Genshin Wizard
-SIMULATOR_ALREADY_CLAIMED: ":no_entry: You have **__already claimed__** your Daily Commission rewards today! There will be new commissions <t:{time}:R>."
+SIMULATOR_ALREADY_CLAIMED: ":no_entry: Bạn đã **__nhận thưởng__** Ủy Thác Hàng Ngày hôm nay rồi! Sẽ có ủy thác mới <t:{time}:R>."
 COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> As an **Adventurer** of the [**Genshin Wizard Guild**](https://discord.gg/genshinwizard), you have been rewarded with an extra **16,000 Primogems** <:Primogem:951924423340994610> as a result of ongoing expeditions!"
 COMMISSION_ADVENTURER_REWARD_UNRECEIVED: "> <:GreyPin:949815085335986246> Become an **Adventurer** of the [**Genshin Wizard Guild**](https://discord.gg/genshinwizard) to earn extra rewards when completing Daily Commissions!"
 COMMISSION_PREMIUM_EXTRA_REWARD: "> <a:mona_mora:1046611739774562374> As a **Premium Member** of [**Genshin Wizard**](https://patreon.com/genshinwizard), you have been rewarded with an extra **{primogems} Primogems** <:Primogem:951924423340994610> as a result of your support!"
@@ -1095,23 +1095,22 @@ GACHA_NO_BANNER_WISHES: You have no wishes for {banner} banner!
 GACHA_SUMMARY_FOOTER: "Genshin Wish Summary for: {user}"
 GENSHIN_WISH_SUMMARY: Genshin Wish Summary
 SLASH_COMMAND_NEED_HELP: |
-  <:blurpleannouncement:1020402170127982712> **HAVING ISSUES? FEAR NOT!** <:KeqingHeart:952837574878199808>
+  <:blurpleannouncement:1020402170127982712> **GẶP VẤN ĐỀ? ĐỪNG LO LẮNG!** <:KeqingHeart:952837574878199808>
 
-  Hello Traveler, it looks like you're having difficulty using **slash commands**!
+  Chào bạn, có vẻ như bạn đang gặp khó khăn khi sử dụng **lệnh slash**!
 
-  Remember to **__click__** on the command you want to use and keep in mind that you **do not** have to pass your own name as a parameter!
+  Hãy nhớ là **__click__** vào lệnh bạn muốn sử dụng và lưu ý rằng bạn **không cần** phải nhập tên của mình làm tham số!
 
-  <a:7094whitecheck:1020160260637462618> Happy Wishing Fellow Traveler,
-  Paimon
+  <a:7094whitecheck:1020160260637462618> Chúc bạn gặp nhiều may mắn trong việc cầu nguyện, người bạn đồng hành Paimon
 SLASH_COMMAND_HELP_GUIDE: <:verifiedlight:939225784936202241> For **help**, use the </help:982685016012226590> command!
 GENSHIN_WIZARD_SERVER_JOIN_TITLE: Genshin Wizard has arrived!
 GENSHIN_WIZARD_SERVER_JOIN_DESCRIPTION: |
-  Hello Traveler! Thank you for inviting **Genshin Wizard** to your humble abode. Some things to note before getting started:
+  Chào Nhà Lữ Hành! Cảm ơn bạn đã mời **Genshin Wizard** đến nơi ở khiêm tốn của bạn. Trước khi bắt đầu, có một số điều bạn cần lưu ý:
 
-  **Command Prefix:** `g!` or `/`
-  > Congratulations! This server is the **{guilds}** server to invite Genshin Wizard! 🎉
+  **Tiền tố lệnh:** `g!` hoặc `/`
+  > Chúc mừng! Đây là server **{guilds}** đã mời Genshin Wizard! 🎉
 
-  For more information on how to use me, refer to our [**Documentation**](https://docs.genshinwizard.com/) or use the </help:{command_id}> command!
+  Để biết thêm thông tin về cách sử dụng tôi, hãy tham khảo [**Tài liệu hướng dẫn**](https://docs.genshinwizard.com/) hoặc sử dụng lệnh </help:{command_id}>!
 SHOWCASE_KEY: Showcase
 CUSTOM_ART_KEY: Custom Art
 DELETE_SELECTED_KEY: Delete Selected
@@ -1677,31 +1676,32 @@ METHOD_TWO_TITLE: Wish History Registration | Method 2
 METHOD_THREE_TITLE: Wish History Registration | Method 3
 METHOD_MANUAL_TITLE: Wish History Registration | Manual Method
 METHOD_TWO_DESCRIPTION: |
-  1. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  2. Then copy the following code and paste it in the Powershell window
+  1. Trong menu Start, tìm kiếm `"PowerShell"` và mở `"Windows PowerShell"`.  
+  2. Sao chép đoạn mã sau và dán vào cửa sổ PowerShell:  
   ```ps
   iex('Write-Host "Copy the wish history table!";while(1) { $c = Get-Clipboard -TextFormatType Html; if ($c -match "^SourceURL:https:/.+log") { break; }; for($i=5; $i -gt 0; $i--) { Write-Host "`rChecking in $i" -NoNewline; Sleep 1; }; }; Write-Host " OK"; $m=(((Get-Clipboard -TextFormatType Html) | Select-String "(https:/.+log)").Matches[0].Value);$m; Set-Clipboard -Value $m;')
   ```
-  3. Go to the Genshin Impact game and open the wish history page
-  4. Hit `ENTER` to have the link copied to your clipboard
-  5. Click the button below and paste the link in the input field
+  3. Mở game Genshin Impact và vào trang lịch sử cầu nguyện.  
+  4. Nhấn `ENTER` để sao chép liên kết vào clipboard.  
+  5. Nhấp vào nút bên dưới và dán liên kết vào ô nhập.
 METHOD_THREE_DESCRIPTION: |
-  1. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  2. Then copy the following code and paste it in the Powershell window
+  1. Trong menu Start, tìm kiếm `"PowerShell"` và mở `"Windows PowerShell"`.  
+  2. Sao chép đoạn mã sau và dán vào cửa sổ PowerShell:  
   ```ps
   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://gist.githubusercontent.com/MadeBaruna/bf36bad751dc9221067ca1e31ab08255/raw/cb73a9f46f08fad6f27581ebb1a6249ba086af13/read.ps1'))
   ```
-  3. Go to the Genshin Impact game and open the wish history page
-  4. Hit `ENTER` to have the link copied to your clipboard
-  5. Click the button below and paste the link in the input field
+  3. Mở game Genshin Impact và vào trang lịch sử cầu nguyện.  
+  4. Nhấn `ENTER` để sao chép liên kết vào clipboard.  
+  5. Nhấp vào nút bên dưới và dán liên kết vào ô nhập.
 METHOD_MANUAL_DESCRIPTION: |
-  1. Open Genshin Impact Game on your PC (Make sure you restart the game if you use multiple accounts/share computers)
-  2. Go to the wish history page and wait for it to load
-  3. Open the installation folder for Genshin Impact (i.e. C:\Games\Genshin Impact\Genshin Impact game)
-  4. Open folders "GenshinImpact_Data" > "webCaches" > "2.13.0.1" > "Cache" > "Cache_Data"
-  5. Right click "data_2" file then click "Open with" then select Notepad (If you get error like "The process cannot access the file because it is being used by another process" please exit the game first)
-  6. Press CTRL+F, check `Wrap around`, and select direction `Up` then in the input box search for "**e20190909gacha-v2**" (without the quote). Finally, click `Find Next`
-  7. Copy the link from *`https://webstatic`* to *`game_biz=hk4e_global`* the url looks like this: *`https://webstatic-sea.hoyoverse.com/genshin/event/e20190909gacha-v2/index.html?.......&game_biz=hk4e_global`*
+  1. Mở game Genshin Impact trên PC của bạn (Đảm bảo bạn khởi động lại game nếu sử dụng nhiều tài khoản hoặc chia sẻ máy tính).  
+  2. Truy cập trang lịch sử cầu nguyện và chờ tải xong.  
+  3. Mở thư mục cài đặt của Genshin Impact (Ví dụ: `C:\Games\Genshin Impact\Genshin Impact game`).  
+  4. Mở các thư mục theo đường dẫn: `"GenshinImpact_Data" > "webCaches" > "2.13.0.1" > "Cache" > "Cache_Data"`.  
+  5. Nhấp chuột phải vào tệp `"data_2"`, chọn `"Open with"`, sau đó chọn `"Notepad"` (Nếu gặp lỗi `"The process cannot access the file because it is being used by another process"`, hãy thoát game trước).  
+  6. Nhấn `CTRL+F`, chọn `Wrap around`, đặt hướng tìm kiếm là `Up`, sau đó nhập **"e20190909gacha-v2"** (không bao gồm dấu ngoặc kép) vào ô tìm kiếm rồi nhấn `"Find Next"`.  
+  7. Sao chép đường link từ phần *`https://webstatic`* đến *`game_biz=hk4e_global`*. Link sẽ có dạng:  
+     *`https://webstatic-sea.hoyoverse.com/genshin/event/e20190909gacha-v2/index.html?.......&game_biz=hk4e_global`*.
 WEAPON_INFORMATION_KEY: Weapon Information
 COMBAT_STATISTICS_KEY: Combat Statistics
 WEAPON_BASED_MAX_LEVEL: based on max lvl weapon*
