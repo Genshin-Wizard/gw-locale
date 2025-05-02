@@ -154,7 +154,7 @@ FEEDBACK_LOG_RESPONSE: |
   > Discord ID: `{author_id}`
 
   **Phản hồi:**```{feedback}```
-NO_HOYOLAB_LINKED: Bạn chưa liên kết với tài khoản HoYoLAB. Hãy dùng lệnh </register:{command_id}> để bắt đầu liên kết.
+NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </accounts:{command_id}> to link your account.
 OLD_HOYOLAB_LINKED: |
   Xin chào Nhà Lữ Hành! Rất tiếc vì sự bất tiện, nhưng tính năng này đã được bổ sung **sau khi** bạn liên kết tài khoản `HoYoLAB` với Genshin Wizard.
 
@@ -174,7 +174,7 @@ GENSHIN_WIZARD_INFORMATION: |
 CODE_REDEEM_SUCCESS: "*Mã đổi thưởng đã được quy đổi thành công!*"
 CODE_REDEEM_FAILURE: "*Đã xảy ra lỗi khi xử lý mã đổi thưởng của bạn.!*"
 APP_COMMAND_INFO_DESCRIPTION: Mở infographic với cách build nhân vật trên hồ sơ của bạn.
-APP_COMMAND_EXPORT_DESCRIPTION: Xuất dữ liệu lịch sử cầu nguyện của bạn sang file text qua tin nhắn riêng tư.
+APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in UIGF v4.0 format via direct message.
 APP_COMMAND_HISTORY_DESCRIPTION: Mở lịch sử cầu nguyện của bạn.
 APP_COMMAND_DAILY_DESCRIPTION: Nhận phần thưởng đăng nhập HoYoLAB hàng ngày.
 APP_COMMAND_MONTHLY_DESCRIPTION: Hiển thị phần thưởng đăng nhập HoYoLAB trong tháng này.
@@ -379,7 +379,7 @@ HISTORY_COMMAND_NO_USER_WISHES: Không tìm thấy lần cầu nguyện nào cho
 USER_NOT_REGISTERED_TITLE: Người dùng chưa đăng ký!
 REGISTERED_KEY: Đã đăng ký
 NOT_REGISTERED_KEY: Chưa đăng ký
-USER_NOT_REGISTERED_DESCRIPTION: Thật đáng tiếc, người dùng <@{mem_id}> **chưa được đăng ký!** Hãy đăng ký bằng </register:{command_id}> trước khi sử dụng lệnh này.
+USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** or their active account is not a Genshin Impact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
 FOOTER_REQUIRES_WISH_HISTORY: "Ghi chú: Để sử dụng lệnh này bạn cần liên kết tài khoản thông qua Lịch sử Cầu nguyện."
 FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Ghi chú: Để sử dụng lệnh này bạn cần liên kết tài khoản thông qua Lịch sử Cầu nguyện hoặc HoYoLAB."
 FOOTER_REQUIRE_UID_OR_HOYOLAB: "Ghi chú: Để sử dụng lệnh này bạn cần liên kết tài khoản thông qua UID hoặc HoYoLAB."
@@ -422,7 +422,7 @@ HOYOLAB_GAME_RECORD_UNAVAILABLE: "<:Error:1021889679857037372> Đã có lỗi x�
 HOYOLAB_ACCOUNT_ERROR: Đã có lỗi xảy ra khi truy cập vào thông tin tài khoản của bạn! Vui lòng thử lại sau.
 HOYOLAB_ACCOUNT_MANAGE: Quản lý tài khoản HoYoLAB của bạn qua Genshin Wizard
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Tổng Quan Nhân Vật
-CHARACTER_SUMMARY_NOT_FULL: Tổng Quan Nhân Vật của bạn được dựa trên lịch sử cầu nguyện đã nhập của bạn. Đã xem chi tiết chính xác tổng quan nhân vật (bao gồm Cấp Độ, Cấp Yêu Thích, Cung Mệnh và Hạng Mạo Hiểm) vui lòng liên kết tài khoản bằng lệnh /register!
+CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /accounts!
 GCG_NO_CARDS_FOUND: Không tìm thấy Thẻ Bài nào!
 GCG_NO_CARDS_FOUND_DESCRIPTION: Nhà Lữ Hành ơi! Thật đáng tiếc, {member} **chưa có thẻ bài nào**! Hãy vào game và chơi Thất Thánh Triệu Hồi trước khi dùng lệnh này nhé.
 HOYOLAB_REGISTER_SCRIPT_TITLE: Đăng ký | Sử dụng Script
@@ -480,7 +480,7 @@ IMPORT_COMMAND_LOG: |
   > 3 sao: `{three_star}`
   > 4 sao: `{four_star}`
   > 5 sao: `{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: Bạn phải **đăng ký** để nhập lịch sử cầu nguyện đã có sẵn! Vui lòng thử lại sau khi đăng ký bằng lệnh </register:{command_id}>.
+IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </accounts:{command_id}>.
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: Link lịch sử đã hết hạn!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Link lịch sử của bạn **đã hết hạn**! Vui lòng làm mới lại sử dụng lệnh </refresh:{command_id}> trước khi thử nhập lại!
 IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: "Định dạng file này **không được hỗ trợ**. Nếu bạn đang thử nhập dữ liệu từ `Paimon.moe`, hãy đảm bảo rằng bạn đã tải file **Excel** từ trang [Lịch Sử Cầu Nguyện](https://paimon.moe/wish) của Paimon.moe.\nHãy kiểm tra **Tài liệu hướng dẫn**(https://docs.genshinwizard.com/wishing-centre/importing-wishes) để biết thêm thông tin."
@@ -575,9 +575,9 @@ GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
   **Tổng quan Profile**
 GENSHIN_WIZARD_PROFILE_TITLE: Cài đặt Profile Genshin Wizard
 MISSING_REGISTRATION_INSTRUCTIONS: |
-  Vui lòng đăng ký bằng cách:
-  **1.)** </register:{command_id}>
-  **2.)** Nhập vào user/UID. Ví dụ: `/info [discord-user]/[genshin-uid]`
+  Please register using one of:
+  **1.)** </accounts:{command_id}>
+  **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
 MISSING_IMAGE: Hãy cung cấp đường link hình ảnh để cập nhật banner của bạn
 PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Link Banner Profile đã cập nhật
 IMAGE_LINK_KEY: Link Hình ảnh

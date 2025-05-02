@@ -154,7 +154,7 @@ FEEDBACK_LOG_RESPONSE: |
   > Identifiant Discord : `{author_id}`
 
   **Commentaire :**```{feedback}```
-NO_HOYOLAB_LINKED: Vous n'avez pas encore lié votre compte HoYoLAB. Utilisez </register:{command_id}> pour lier votre compte.
+NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </accounts:{command_id}> to link your account.
 OLD_HOYOLAB_LINKED: |
   Bonjour Traveler ! Désolé pour le désagrément mais cette fonctionnalité a été implémentée **après** que vous ayez enregistré votre compte `HoYoLAB` sur Genshin Wizard.
 
@@ -174,7 +174,7 @@ GENSHIN_WIZARD_INFORMATION: |
 CODE_REDEEM_SUCCESS: "*Les codes de rédemption ont été traités avec succès!*"
 CODE_REDEEM_FAILURE: "*There was an error processing your redemption codes!*"
 APP_COMMAND_INFO_DESCRIPTION: Affiche les builds pour les personnages dans la vitrine en jeu de l'utilisateur.
-APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in [**UIGF v4.0**](https://uigf.org/en/) format via direct messages.
+APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in UIGF v4.0 format via direct message.
 APP_COMMAND_HISTORY_DESCRIPTION: Consultez l'historique des vœux de votre compte Genshin.
 APP_COMMAND_DAILY_DESCRIPTION: Réclamez vos récompenses de connexion quotidiennes HoYoLAB.
 APP_COMMAND_MONTHLY_DESCRIPTION: Consultez les récompenses quotidiennes HoYoLAB pour le mois.
@@ -378,7 +378,7 @@ HISTORY_COMMAND_NO_USER_WISHES: Aucuns vœux n'ont été trouvé pour cet utilis
 USER_NOT_REGISTERED_TITLE: L'utilisateur n'est pas enregistré !
 REGISTERED_KEY: Enregistré
 NOT_REGISTERED_KEY: Non Enregistré
-USER_NOT_REGISTERED_DESCRIPTION: Malheureusement, <@{mem_id}> **n'est pas inscrit** ! Veuillez vous inscrire en utilisant </register:{command_id}> *avant* d'utiliser cette commande.
+USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** or their active account is not a Genshin Impact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
 FOOTER_REQUIRES_WISH_HISTORY: "Note : Cette commande nécessite que vous vous inscriviez via la méthode Historique de Vœux."
 FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Note : Cette commande nécessite que vous vous inscriviez via l'Historique des Vœux ou HoYoLAB."
 FOOTER_REQUIRE_UID_OR_HOYOLAB: "Note : Cette commande nécessite que vous vous inscriviez via l'UID ou HoYoLAB."
@@ -422,7 +422,7 @@ HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> Une erreur s'est p
 HOYOLAB_ACCOUNT_ERROR: Il y a eu une erreur lors de la saisie des informations de votre compte ! Veuillez réessayer *plus tard*.
 HOYOLAB_ACCOUNT_MANAGE: Gérez votre compte HoYoLAB via Genshin Wizard
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Résumé du personnage
-CHARACTER_SUMMARY_NOT_FULL: Votre résumé du personnage est basé sur votre historique de tirage gacha. Pour voir votre résumé de personnage complet et le plus précis (niveaux, amitiés, constellations et niveau AR), veuillez lier en utilisant /register!
+CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /accounts!
 GCG_NO_CARDS_FOUND: Aucune carte trouvée !
 GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Voyageur ! Malheureusement, {member} n'a encore **aucune carte** ! Aller sur le jeu et jouez à quelques TCG sur Genshin Impact *avant* d'utiliser la commande.
 HOYOLAB_REGISTER_SCRIPT_TITLE: Inscription | Méthode Script
@@ -479,7 +479,7 @@ IMPORT_COMMAND_LOG: |
   > 3-Étoiles : `{three_star}`
   > 4-Étoiles : `{four_star}`
   > 5-Étoiles : `{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: Vous devez déjà être **enregistré** pour importer un historique de vœux préexistant ! Essayez d'importer à nouveau après vous être inscrit en utilisant la commande </register:{command_id}>.
+IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </accounts:{command_id}>.
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: Lien d'Historique Expiré !
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Votre lien d'historique a **expiré** ! Veuillez actualiser avec la commande </refresh:{command_id}> avant d'essayer d'importer !
 IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **JSON** export from their [settings](https://paimon.moe/settings) page. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
@@ -574,9 +574,9 @@ GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
   **Résumé du Profil**
 GENSHIN_WIZARD_PROFILE_TITLE: Paramètres du Profil de Genshin Wizard
 MISSING_REGISTRATION_INSTRUCTIONS: |
-  Veuillez-vous inscrire en utilisant l'un des suivants :
-  **1.)** </register:{command_id}>
-  **2.)** Renseigner votre utilisateur/UID. Par exemple : `/info [discord-user]/[genshin-uid]`
+  Please register using one of:
+  **1.)** </accounts:{command_id}>
+  **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
 MISSING_IMAGE: Merci de fournir une image ou un lien vers une image pour mettre à jour votre bannière
 PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Lien de Bannière du Profil mis à jour
 IMAGE_LINK_KEY: Lien Image

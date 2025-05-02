@@ -154,7 +154,7 @@ FEEDBACK_LOG_RESPONSE: |
   > Discord ID: `{author_id}`
 
   **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: 您尚未關聯您的 HoYoLAB 帳戶。使用 </register:{command_id}> 鏈接您的帳戶。
+NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </accounts:{command_id}> to link your account.
 OLD_HOYOLAB_LINKED: |
   你好旅行者！對於給您帶來的不便，我們深表歉意，但此功能是在您將 `HoYoLAB` 帳戶註冊到 Genshin Wizard **後**實施的。
 
@@ -173,7 +173,7 @@ GENSHIN_WIZARD_INFORMATION: |
 CODE_REDEEM_SUCCESS: "*兌換代碼已嘗試兌換！*"
 CODE_REDEEM_FAILURE: "*There was an error processing your redemption codes!*"
 APP_COMMAND_INFO_DESCRIPTION: 展示遊戲內的角色面板陣容
-APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in [**UIGF v4.0**](https://uigf.org/en/) format via direct messages.
+APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in UIGF v4.0 format via direct message.
 APP_COMMAND_HISTORY_DESCRIPTION: 檢視遊戲內的祈願歷史記錄
 APP_COMMAND_DAILY_DESCRIPTION: 領取 HoYoLAB 每日簽到獎勵
 APP_COMMAND_MONTHLY_DESCRIPTION: 檢視這個月的 HoYoLAB 每日簽到獎勵
@@ -373,7 +373,7 @@ HISTORY_COMMAND_NO_USER_WISHES: No wishes were found for this user!
 USER_NOT_REGISTERED_TITLE: 使用者未註冊!
 REGISTERED_KEY: Registered
 NOT_REGISTERED_KEY: 尚未註冊
-USER_NOT_REGISTERED_DESCRIPTION: 不幸的是，<@{mem_id}> 還**沒有註冊**！請在使用此命令之前使用 </register:{command_id}> *註冊。
+USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** or their active account is not a Genshin Impact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
 FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."
 FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Note: This command requires you to register through the Wish History or HoYoLAB method."
 FOOTER_REQUIRE_UID_OR_HOYOLAB: "Note: This command requires you to register through the UID or HoYoLAB method."
@@ -417,7 +417,7 @@ HOYOLAB_GAME_RECORD_UNAVAILABLE: <:錯誤:1021889679857037372> 檢索您帳戶�
 HOYOLAB_ACCOUNT_ERROR: There was an error grabbing your account's information! Please try again *later*.
 HOYOLAB_ACCOUNT_MANAGE: 透過 Genshin Wizard 管理你的 HoYoLAB 帳號
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | 角色一覽
-CHARACTER_SUMMARY_NOT_FULL: 您的角色摘要基於您的 gacha 拉取歷史記錄。要查看您完整且最準確的角色摘要(等級、好感、星座和 AR 等級)，請使用命令 /register！
+CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /accounts!
 GCG_NO_CARDS_FOUND: No Cards Found!
 GCG_NO_CARDS_FOUND_DESCRIPTION: 嘿旅行者！不幸的是，{member} **還沒有卡片**！在*使用此命令之前*在 Genshin Impact 上進入遊戲並玩一些 七星召喚。
 HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
@@ -474,7 +474,7 @@ IMPORT_COMMAND_LOG: |
    > 3 星：`{three_star}`
    > 4 星：`{four_star}`
    > 5 星：`{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </register:{command_id}>.
+IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </accounts:{command_id}>.
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: History Link Expired!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Your history link has **expired**! Please refresh using the command </refresh:{command_id}> before trying to import!
 IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **JSON** export from their [settings](https://paimon.moe/settings) page. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
@@ -568,7 +568,7 @@ GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
 GENSHIN_WIZARD_PROFILE_TITLE: Genshin Wizard 配置文件設定
 MISSING_REGISTRATION_INSTRUCTIONS: |
   Please register using one of:
-  **1.)** </register:{command_id}>
+  **1.)** </accounts:{command_id}>
   **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
 MISSING_IMAGE: 請提供圖片或圖片鏈接以更新您的條幅
 PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | 個人資料橫幅鏈接已更新
