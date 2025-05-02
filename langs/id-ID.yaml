@@ -154,7 +154,7 @@ FEEDBACK_LOG_RESPONSE: |
   > ID Discord: `{author_id}`
 
   **Saran:**```{feedback}```
-NO_HOYOLAB_LINKED: Kamu belum menautkan akun HoYoLAB. Gunakan </register:{command_id}> untuk menautkan akun kamu.
+NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </accounts:{command_id}> to link your account.
 OLD_HOYOLAB_LINKED: |
   Halo Traveler! Maaf atas ketidaknyamanannya, tetapi fitur ini diterapkan **setelah** kamu mendaftarkan akun `HoYoLAB` kamu ke Genshin Wizard.
 
@@ -174,7 +174,7 @@ GENSHIN_WIZARD_INFORMATION: |
 CODE_REDEEM_SUCCESS: "*Kode redeem berhasil diproses!*"
 CODE_REDEEM_FAILURE: "*There was an error processing your redemption codes!*"
 APP_COMMAND_INFO_DESCRIPTION: Menampilkan build untuk karakter di tampilan dalam game.
-APP_COMMAND_EXPORT_DESCRIPTION: .(.
+APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in UIGF v4.0 format via direct message.
 APP_COMMAND_HISTORY_DESCRIPTION: Lihat riwayat permohonan akun Genshin kamu.
 APP_COMMAND_DAILY_DESCRIPTION: Klaim hadiah Login HoYoLAB harian kamu.
 APP_COMMAND_MONTHLY_DESCRIPTION: Lihat hadiah harian HoYoLAB untuk bulan ini.
@@ -377,7 +377,7 @@ HISTORY_COMMAND_NO_USER_WISHES: Tidak ada keinginan yang ditemukan untuk penggun
 USER_NOT_REGISTERED_TITLE: Pengguna belum terdaftar!
 REGISTERED_KEY: Terdaftar
 NOT_REGISTERED_KEY: Tidak Terdaftar
-USER_NOT_REGISTERED_DESCRIPTION: Sayangnya, <@{mem_id}> **belum terdaftar**! Silakan mendaftar menggunakan </register:{command_id}> *sebelum* menggunakan perintah ini.
+USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** or their active account is not a Genshin Impact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
 FOOTER_REQUIRES_WISH_HISTORY: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode Riwayat Keinginan."
 FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode Riwayat Keinginan atau HoYoLAB."
 FOOTER_REQUIRE_UID_OR_HOYOLAB: "Catatan: Perintah ini mengharuskan Anda mendaftar melalui metode UID atau HoYoLAB."
@@ -420,7 +420,7 @@ HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> Terdapat kesalahan
 HOYOLAB_ACCOUNT_ERROR: Terjadi kesalahan saat mengambil informasi akunmu! Silakan coba lagi *nanti*.
 HOYOLAB_ACCOUNT_MANAGE: Kelola akun HoYoLAB Anda melalui Genshin Wizard
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Ringkasan Karakter
-CHARACTER_SUMMARY_NOT_FULL: Ringkasan Karakter Anda diatur berdasarkan riwayat permohonan gacha Anda. Untuk melihat Ringkasan Karakter Anda lebih lengkap dan paling akurat (level, persahabatan, konstelasi, dan level AR), silakan tautkan menggunakan /register!
+CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /accounts!
 GCG_NO_CARDS_FOUND: Tidak Ada Kartu yang Ditemukan!
 GCG_NO_CARDS_FOUND_DESCRIPTION: Hai Traveler! Sayangnya, {member} belum memiliki **kartu**! Masuk ke game dan mainkan beberapa TCG di Genshin Impact *sebelum* menggunakan perintah ini.
 HOYOLAB_REGISTER_SCRIPT_TITLE: Registrasi | Metode Skrip
@@ -479,7 +479,7 @@ IMPORT_COMMAND_LOG: |
   > Bintang 3: `{three_star}`
   > Bintang 4: `{four_star}`
   > Bintang 5: `{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: Anda harus **terdaftar** untuk mengimpor riwayat permohonan yang sudah ada sebelumnya! Coba impor lagi setelah mendaftar menggunakan perintah </register:{command_id}>.
+IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </accounts:{command_id}>.
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: Tautan Riwayat Tamat!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Tautan riwayat anda telah **tamat**! Segarkan menggunakan perintah </refresh:{command_id}> sebelum coba untuk mengimpor!
 IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **JSON** export from their [settings](https://paimon.moe/settings) page. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
@@ -574,9 +574,9 @@ GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
   **Ringkasan Profil**
 GENSHIN_WIZARD_PROFILE_TITLE: Pengaturan Profil Wizard Genshin
 MISSING_REGISTRATION_INSTRUCTIONS: |
-  Silakan mendaftar menggunakan salah satu dari:
-  **1.)** </register:{command_id}>
-  **2.)** Masukan di pengguna/UID. Misalnya: `/info [discord-user]/[genshin-uid]`
+  Please register using one of:
+  **1.)** </accounts:{command_id}>
+  **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
 MISSING_IMAGE: Berikan gambar atau tautan ke gambar untuk memperbarui banner Kamu
 PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Link Banner Profil Telah Diperbarui
 IMAGE_LINK_KEY: Link Gambar
