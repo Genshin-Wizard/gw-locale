@@ -154,7 +154,7 @@ FEEDBACK_LOG_RESPONSE: |
   > ID de Discord: `{author_id}`
 
   **Comentario:**```{feedback}```
-NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </accounts:{command_id}> to link your account.
+NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </a/accountscommand_id}> to link your account.
 OLD_HOYOLAB_LINKED: |
   ¡Hola Viajero! Lo siento por las molestias, pero esta función fue implementada **después** de que registraste tu cuenta de `HoYoLAB` en Genshin Wizard.
 
@@ -377,7 +377,7 @@ HISTORY_COMMAND_NO_USER_WISHES: '¡No se han encontrado deseos para este usuario
 USER_NOT_REGISTERED_TITLE: '¡El usuario no se ha registrado!'
 REGISTERED_KEY: Registrado
 NOT_REGISTERED_KEY: No registrado
-USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** or their active account is not a Genshin Impact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
+USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** or their active account is not /accounts Impact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
 FOOTER_REQUIRES_WISH_HISTORY: "Nota: Este comando requiere que te registres a través del método de historial de deseos."
 FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Nota: Este comando requiere que te registres a través del método Historial de deseos o HoYoLAB."
 FOOTER_REQUIRE_UID_OR_HOYOLAB: "Nota: Este comando requiere que te registres a través del UID o método HoYoLAB."
@@ -421,7 +421,7 @@ HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> ¡Se produjo un er
 HOYOLAB_ACCOUNT_ERROR: '¡Se produjo un error al obtener la información de tu cuenta! Por favor, inténtalo de nuevo *más tarde*.'
 HOYOLAB_ACCOUNT_MANAGE: Gestiona tu cuenta de HoYoLAB a través de Genshin Wizard
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Resumen de personaje
-CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /accounts!
+CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using /a/accounts
 GCG_NO_CARDS_FOUND: '¡No se han encontrado tarjetas!'
 GCG_NO_CARDS_FOUND_DESCRIPTION: '¡Hola, viajero! Desafortunadamente, ¡{member} **no tiene tarjetas** todavía! ¡Entra en el juego y juega algo de TCG en Genshin Impact *antes* de usar este comando.'
 HOYOLAB_REGISTER_SCRIPT_TITLE: Registro | Método de script
@@ -478,7 +478,7 @@ IMPORT_COMMAND_LOG: |
   > 3-Estrellas: `{three_star}`
   > 4-Estrellas: `{four_star}`
   > 5-Estrellas: `{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </accounts:{command_id}>.
+IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </accounts:{comman/accounts
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: '¡Enlace del historial caducado!'
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: '¡Tu enlace del historial ha **caducado**! ¡Por favor, actualiza usando el comando </refresh:{command_id}> antes de intentar importar!'
 IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: This file type is **not supported**. If you're trying to import data from `Paimon.moe`, please make sure you're downloading the **JSON** export from their [settings](https://paimon.moe/settings) page. Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
