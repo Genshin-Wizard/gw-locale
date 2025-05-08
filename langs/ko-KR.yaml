@@ -156,9 +156,9 @@ FEEDBACK_LOG_RESPONSE: |
    **피드백:**```{feedback}```
 NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB /accountset. Use </accounts:{command_id}> to link your account.
 OLD_HOYOLAB_LINKED: |
-  여행자! 사용에 불편을 줘서 미안해. 이 기능은 `HoYoLAB` 계정을 원신 위자드에 **등록한 다음에** 사용 가능해.
+  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
 
-  우선은 </hoyo:{command_id}> 명령어를 이용해서 HoYoLAB 계정의 연결을 해제하고, 기본 등록 명령어를 통해 **재연결** 해줘. 불편을 줘서 정말 미안해!
+  In order to use this button, you must unlink your HoYoLAB account through </accounts:{command_id}> and **relink** with the same command.
 CODE_REDEEM_TITLE: 원신 위자드 | HoYoLAB 코드 사용
 CODE_REDEEM_DESCRIPTION: "*보상 코드를 처리하는 중이야. 잠깐만 기다려줘!*"
 CODE_REDEEM_PROGRESS: |
@@ -1635,7 +1635,7 @@ INVOKATION_SHOWCASE: "일곱 성인의 소환 카드 쇼케이스"
 INVOKATION_SUMMARY: "일곱성인의 소환 카드 개요"
 DAILY_ALREADY_CLAIMED: 이미 오늘의 일일 출석체크 보상을 수령했어!
 UNABLE_TO_CLAIM: 일일 출석체크 보상을 수령할 수 없어.
-COOKIE_RESET_MESSAGE: 계정 비밀번호를 재설정하면, 호요랩 사이트의 쿠키가 리셋돼. 따라서 이 명령을 사용하려면 *호요랩 등록 절차* - </hoyo:{command_id}> 를 다시 한번 거쳐야 해.
+COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </accounts:{command_id}> to register.
 INVALID_COOKIE_KEY: 유효하지 않은 쿠키
 TEST_NOTIFICATION_KEY: 테스트 알림
 TEST_NOTIFICATION_TITLE: 원신 위자드 | 테스트 알림
