@@ -156,9 +156,9 @@ FEEDBACK_LOG_RESPONSE: |
   **Opinie:**```{feedback}```
 NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </a/accountscommand_id}> to link your account.
 OLD_HOYOLAB_LINKED: |
-  Witaj Podróżniku! Przepraszamy za niedogodności, ale ta funkcja została zaimplementowana **po** po zarejestrowaniu konta `HoYoLAB` w Genshin Wizard.
+  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
 
-  Aby użyć tego przycisku, musisz odłączyć swoje konto HoYoLAB za pośrednictwem </hoyo:{command_id}> i **ponownie link** za pomocą zwykłej komendy rejestracyjnej.
+  In order to use this button, you must unlink your HoYoLAB account through </accounts:{command_id}> and **relink** with the same command.
 CODE_REDEEM_TITLE: Kreator Genshin | Wykorzystanie kodu HoYoLAB
 CODE_REDEEM_DESCRIPTION: "*Proszę czekać na przetwarzanie twojego kodu...*"
 CODE_REDEEM_PROGRESS: |
@@ -1633,7 +1633,7 @@ INVOKATION_SHOWCASE: "Card Showcase"
 INVOKATION_SUMMARY: "Trading Card Summary"
 DAILY_ALREADY_CLAIMED: You have already claimed your daily reward.
 UNABLE_TO_CLAIM: Unable to claim your daily reward.
-COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </hoyo:{command_id}> to register.
+COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </accounts:{command_id}> to register.
 INVALID_COOKIE_KEY: Invalid Cookie
 TEST_NOTIFICATION_KEY: Test Notification
 TEST_NOTIFICATION_TITLE: Genshin Wizard | Notification Test
