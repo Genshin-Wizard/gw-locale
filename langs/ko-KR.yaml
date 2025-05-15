@@ -820,7 +820,7 @@ RESIN_REMINDER_FOOTER: 알림을 받으려면 🔔 버튼을 클릭하세요! �
 SET_RESIN_REMINDER_KEY: 레진알림 설정!
 API_ISSUE: API 문제가 발생했습니다.
 HOW_TO_SOLVE_TITLE: 어떻게 해결할까요?
-ENABLE_CHRONICLES: "여행자, 다음 커맨드를 사용해봐! </hoyolab-privacy:{command_id}>\n아니면, [**호요랩 설정 페이지**](https://www.hoyolab.com/setting/privacy) 에 접속해서 *개인센터에 캐릭터 전적 전시* 항목을 설정해줘."
+ENABLE_CHRONICLES: "Use the command </hoyolab-privacy:{command_id}> or visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable *Battle Chronicle privacy* to make your genshin profile public."
 PLEASE_WAIT_DESCRIPTION: 기다려줘! 안타깝게도 지금은 여행자가 해줄 수 있는 일이 없어.
 PLAYER_TITLE: 플레이어 {player}
 USER_TITLE: 유저 {user}
@@ -1757,8 +1757,8 @@ ADD_ACCOUNT_REGISTER_TITLE: Genshin Wizard Account Registration
 ADD_ACCOUNT_REGISTER_DESCRIPTION: Use the buttons below to register your Genshin Impact account with Genshin Wizard.
 PREMIUM_REQUIRED_TITLE: Genshin Wizard Premium Required
 MAX_ACCOUNTS_REACHED: "You have reached the maximum number of accounts allowed for **{tier_notation}.** Please consider upgrading to premium to add more accounts. If you're interested in upgrading, use the </premium:{command_id}> command."
-YES_BUTTON: Yes
-NO_BUTTON: No
+YES_BUTTON: "Yes"
+NO_BUTTON: "No"
 REMOVE_ACCOUNT_TITLE: Remove Account from Genshin Wizard
 REMOVE_ACCOUNT_DESCRIPTION: Use the buttons below to remove your Genshin Impact account from Genshin Wizard.
 ERROR_GENSHIN_COMMAND_ONLY_TITLE: Genshin Wizard | Error
@@ -1771,4 +1771,5 @@ ACCOUNT_CANNOT_REDEEM: |
 
   In order to use this command/feature, you must relink your HoYoLAB account through </accounts:{command_id}>.
 VIEW_ACCOUNTS_KEYS: View Account(s)
-YES_KEY: Yes
+NOT_YET_EXPLORED: Not Yet Explored!
+EXPLORATION_PROGRESS: Exploration Progress
