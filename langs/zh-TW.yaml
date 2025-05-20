@@ -524,22 +524,25 @@ PRIVACY_SETTING_TITLE: Genshin Wizard Privacy Settings
 PRIVACY_SETTING_DESCRIPTION: Change your Genshin Wizard privacy settings here.
 PRIVACY_SETTING_KEY: Privacy Settings
 PRIVACY_SETTING_BRIEF: |
-  **UID 隱私：** {uid_privacy}
-  **願望歷史隱私：** {wish_privacy}
-  **統計數據隱私：** {stats_privacy}
-  **深淵隱私：** {abyss_privacy}
-  **信息隱私：** {info_privacy}
+  **UID Privacy:** {uid_privacy}
+  **Wish History Privacy:** {wish_privacy}
+  **Stats Privacy:** {stats_privacy}
+  **Abyss Privacy:** {abyss_privacy}
+  **Info Privacy:** {info_privacy}
+  **Imaginarium Theater Privacy:** {theater_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **UID 隱私：** {uid_privacy}
-  > *隱藏你的 UID，不讓它出現在任何地方*
-  **願望歷史隱私：** {wish_privacy}
-  > *隱藏您的願望歷史，不在任何地方顯示 (`/history`)*
-  **統計數據隱私：** {stats_privacy}
-  > *隱藏你的 Genshin Stats Progression 不顯示在任何地方 (`/stats`)*
-  **深淵隱私：** {abyss_privacy}
-  > *隱藏你的 Genshin Abyss Progression，不在任何地方顯示 (`/abyss`)*
-  **信息隱私：** {info_privacy}
-  > *隱藏您的展示構建信息以防止在任何地方出現 (`/info`)*
+  **UID Privacy:** {uid_privacy}
+  > *Hide your UID from showing up anywhere*
+  **Wish History Privacy:** {wish_privacy}
+  > *Hide your Wish History from showing up anywhere (`/history`)*
+  **Stats Privacy:** {stats_privacy}
+  > *Hide your Genshin Stats Progression from showing up anywhere (`/statistics`)*
+  **Abyss Privacy:** {abyss_privacy}
+  > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
+  **Info Privacy:** {info_privacy}
+  > *Hide your showcase builds information from showing up anywhere (`/info`)*
+  **Imaginarium Theater Privacy:** {theater_privacy}
+  > *Hide your Imaginarium Theater Progression from showing up anywhere (`/imaginarium-theater`)
 ALL_KEY: 全部
 RESET_KEY: 重置
 WISH_HISTORY_KEY: 祈願記錄
@@ -1780,3 +1783,4 @@ THEATER_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Theatrical Archives**
   **Start Time:** <t:{timestamp_start}:F>
   **End Time:** <t:{timestamp_end}:F>
+UNKNOWN_ERROR_ALERT: Oops! Seems Genshin Wizard caught an **unexpected** exception. Please try again later.

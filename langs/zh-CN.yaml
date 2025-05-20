@@ -530,22 +530,25 @@ PRIVACY_SETTING_TITLE: Genshin Wizard隐私设置
 PRIVACY_SETTING_DESCRIPTION: 在这里更改你的Genshin Wizard 隐私设置
 PRIVACY_SETTING_KEY: 隐私设置
 PRIVACY_SETTING_BRIEF: |
-  **UID隐私**：** {uid_privacy}
-  **祈愿记录隐私**：** {wish_privacy}
-  **统计数据隐私：** {stats_privacy}
-  **深渊螺旋隐私：** {abyss_privacy}
-  **个人信息隐私：** {info_privacy}
+  **UID Privacy:** {uid_privacy}
+  **Wish History Privacy:** {wish_privacy}
+  **Stats Privacy:** {stats_privacy}
+  **Abyss Privacy:** {abyss_privacy}
+  **Info Privacy:** {info_privacy}
+  **Imaginarium Theater Privacy:** {theater_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **UID隐私：** {uid_privacy}
-  > *不让UID在任何地方显示*
-  **祈愿记录隐私：** {wish_privacy}
-  > *不让你的祈愿记录在任何地方显示(`/history`)*
-  **原神进展隐私** {stats_privacy}
-  > *不让你的原神进展在任何地方显示 (`/stats`)*
-  **深渊隐私：** {abyss_privacy}
-  > *不让你的原神深境螺旋进展在任何地方显示 (`/abyss`)*
-  **个人信息隐私:** {info_privacy}
-  > *不让你的角色展示柜信息对外公开 (`/info`)*
+  **UID Privacy:** {uid_privacy}
+  > *Hide your UID from showing up anywhere*
+  **Wish History Privacy:** {wish_privacy}
+  > *Hide your Wish History from showing up anywhere (`/history`)*
+  **Stats Privacy:** {stats_privacy}
+  > *Hide your Genshin Stats Progression from showing up anywhere (`/statistics`)*
+  **Abyss Privacy:** {abyss_privacy}
+  > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
+  **Info Privacy:** {info_privacy}
+  > *Hide your showcase builds information from showing up anywhere (`/info`)*
+  **Imaginarium Theater Privacy:** {theater_privacy}
+  > *Hide your Imaginarium Theater Progression from showing up anywhere (`/imaginarium-theater`)
 ALL_KEY: 全部
 RESET_KEY: 重置
 WISH_HISTORY_KEY: Wish History
@@ -1801,3 +1804,4 @@ THEATER_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Theatrical Archives**
   **Start Time:** <t:{timestamp_start}:F>
   **End Time:** <t:{timestamp_end}:F>
+UNKNOWN_ERROR_ALERT: Oops! Seems Genshin Wizard caught an **unexpected** exception. Please try again later.
