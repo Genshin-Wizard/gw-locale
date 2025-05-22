@@ -66,14 +66,14 @@ TRUTH_COMMAND_RESPONSES:
   - 不确定？
   - 可能
   - 这谁知道呢？
-  - I cannot predict now.
-  - I am tired. *proceeds with sleeping*
-  - Absolutely.
-TRUTH_COMMAND_TITLE: Paimon's Wisdom
-QUESTION_KEY: Question
-RESPONSE_KEY: Response
+  - 我现在无法预测。
+  - 我已经厌倦了。*继续睡觉*
+  - 当然。
+TRUTH_COMMAND_TITLE: 佩蒙的智慧值
+QUESTION_KEY: 疑问
+RESPONSE_KEY: 回應
 PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
-PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
+PREFIX_TOO_LONG: 前缀不能超过 5 个字符。
 PREFIX_TOO_SHORT: The prefix cannot be shorter than 1 character.
 PREFIX_CHANGED_TITLE: Genshin Wizard | Prefix Change
 PREFIX_CHANGED_DESCRIPTION: |
@@ -144,7 +144,7 @@ ERROR_MISSING_REQUIRED_ATTACHMENT: "You forgot to provide an attachment, please 
 ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, I do not have permission to `Manage Messages` within this channel/guild. Please enable this permission and try again.
 ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
 MESSAGE_KEY: Message
-ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
+ERROR_EMPTY_BACKPACK: 你的背包**是空的**！要开始你的旅程，请使用 </wishsimulator:{command_id}> 命令！
 ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
 ERROR_MESSAGE: There has been an error!
 FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
@@ -1805,3 +1805,10 @@ THEATER_ARCHIVE_DESCRIPTION: |
   **Start Time:** <t:{timestamp_start}:F>
   **End Time:** <t:{timestamp_end}:F>
 UNKNOWN_ERROR_ALERT: Oops! Seems Genshin Wizard caught an **unexpected** exception. Please try again later.
+WEAPON_GUIDE_LIST_SECTION_TITLE: Genshin Impact Weapon List
+ARTIFACT_GUIDE_LIST_SECTION_TITLE: Genshin Impact Artifact List
+FOOD_GUIDE_LIST_SECTION_TITLE: Genshin Impact Food List
+MATERIAL_GUIDE_LIST_SECTION_TITLE: Genshin Impact Material List
+MONSTER_GUIDE_LIST_SECTION_TITLE: Genshin Impact Monster List
+GCG_GUIDE_LIST_SECTION_TITLE: Genshin Impact TCD Card List
+FURNISHING_GUIDE_LIST_SECTION_TITLE: Genshin Impact Furnishing List
