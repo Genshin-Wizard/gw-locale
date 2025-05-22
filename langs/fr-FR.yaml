@@ -529,23 +529,25 @@ PRIVACY_SETTING_TITLE: Paramètres de Confidentialité de Genshin Wizard
 PRIVACY_SETTING_DESCRIPTION: Modifiez ici vos paramètres de confidentialité Genshin Wizard.
 PRIVACY_SETTING_KEY: Paramètres de Confidentialité
 PRIVACY_SETTING_BRIEF: |
-  **Confidentialité des UIDs :** {uid_privacy}
-  **Vie privée des souhaits :** {wish_privacy}
+  **UID Privacy:** {uid_privacy}
+  **Wish History Privacy:** {wish_privacy}
   **Stats Privacy:** {stats_privacy}
-  **Confidentialité des Abysses:** {abyss_privacy}
-  **Info Confidentialité :** {info_privacy}
-  **Confidentialité du théâtre d'Imaginarium :** {theater_privacy}
+  **Abyss Privacy:** {abyss_privacy}
+  **Info Privacy:** {info_privacy}
+  **Imaginarium Theater Privacy:** {theater_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **Privacité UID :** {uid_privacy}
-  > *Cahcer votre UID d'apparaître n'importe où*
-  **Privacité Historique de Vœux :** {wish_privacy}
-  > *Cacher votre historique de vœux d'apparaître n'importe où (`/history`)*
-  **Privacité Statistiques :** {stats_privacy}
-  > *Cacher la progression de vos statistiques Genshin d'apparaître n'importe où (`/stats`)*
-  **Privacité Abysse :** {abyss_privacy}
-  > *Cacher la progression de votre Abysse Genshin d'apparaître n'importe où (`/abyss`)*
-  **Privacité Information :** {info_privacy}
-  > *Cacher votre vitrine d'informations de builds d'apparaître n'importe où (`/info`)*
+  **UID Privacy:** {uid_privacy}
+  > *Hide your UID from showing up anywhere*
+  **Wish History Privacy:** {wish_privacy}
+  > *Hide your Wish History from showing up anywhere (`/history`)*
+  **Stats Privacy:** {stats_privacy}
+  > *Hide your Genshin Stats Progression from showing up anywhere (`/statistics`)*
+  **Abyss Privacy:** {abyss_privacy}
+  > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
+  **Info Privacy:** {info_privacy}
+  > *Hide your showcase builds information from showing up anywhere (`/info`)*
+  **Imaginarium Theater Privacy:** {theater_privacy}
+  > *Hide your Imaginarium Theater Progression from showing up anywhere (`/imaginarium-theater`)
 ALL_KEY: Tout
 RESET_KEY: Réinitialiser
 WISH_HISTORY_KEY: Historiques des Vœux
@@ -1468,7 +1470,7 @@ NOVEMBER_KEY: Novembre
 DECEMBER_KEY: Décembre
 SIGN_IN_DAY: "Jour {day}"
 CHARACTER_ARCHIVE_TITLE: Archive des Personnages
-USER_KEY_VALUE: "Utilisateur : {user}"
+USER_KEY_VALUE: "Utilisateur : {user}\n"
 PLAYER_KEY_VALUE: "Joueur {player}"
 TOTAL_WISHES_VALUE: "Total de vœux : {total_wishes}"
 FIVE_STAR_COUNT: "Cinq Étoiles : {five_star_count}"
