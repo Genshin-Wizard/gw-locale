@@ -377,7 +377,7 @@ HISTORY_COMMAND_NO_USER_WISHES: 이 유저의 가챠 기록이 존재하지 않�
 USER_NOT_REGISTERED_TITLE: 등록되지 않은 유저입니다!
 REGISTERED_KEY: 등록됨
 NOT_REGISTERED_KEY: 등록되지 않음
-USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** or their ac/accountsunt is not a Genshin Impact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
+USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, this user has **not registered** or their active account is not a Genshin Impact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
 FOOTER_REQUIRES_WISH_HISTORY: "참고: 이 명령어는 뽑기 기록 등록을 해야만 이용하실 수 있습니다."
 FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "참고: 이 명령을 사용하려면 기원 기록 또는 호요랩을 사용하는 방법을 통해 등록해야 합니다."
 FOOTER_REQUIRE_UID_OR_HOYOLAB: "참고: 이 명령을 사용하려면 UID 또는 호요랩 방법을 통해 등록해야 합니다."
@@ -1818,3 +1818,5 @@ ERROR_CHANNEL_NOT_EXIST: 'The channel you provided (<#{channel_id}) does not exi
 ERROR_ROLE_NOT_EXIST: The role you provided (<@&{role_id}>) does not exist!
 ROLE_COMMAND_EMBED_TITLE: Automatic Role Assignment
 ROLE_COMMAND_IN_PROGRESS: Checking user's characters...
+APP_COMMAND_WEAPON_LIST_DESCRIPTION: Display a list of available weapons in Genshin Impact.
+USER_NOT_REGISTERED_ERROR: Unfortunately, this user has **not registered** or their active account is not a Genshin Impact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
