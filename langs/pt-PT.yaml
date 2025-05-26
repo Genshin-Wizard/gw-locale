@@ -377,7 +377,7 @@ HISTORY_COMMAND_NO_USER_WISHES: Não foram encontradas orações deste usuário!
 USER_NOT_REGISTERED_TITLE: O Usuário não se registrou!
 REGISTERED_KEY: Registrado
 NOT_REGISTERED_KEY: Não Registrado
-USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** or their active account is not a Ge/accountsact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
+USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, this user has **not registered** or their active account is not a Genshin Impact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
 FOOTER_REQUIRES_WISH_HISTORY: "Nota: Esse comando precisa que você se registre através do método do Histórico de Orações."
 FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Nota: Esse comando precisa que você se registre através do método do Histórico de Orações ou do HoYoLAB."
 FOOTER_REQUIRE_UID_OR_HOYOLAB: "Nota: Esse comando precisa que você se registre através do método de UID ou do HoYoLAB."
@@ -1805,3 +1805,5 @@ ERROR_CHANNEL_NOT_EXIST: 'The channel you provided (<#{channel_id}) does not exi
 ERROR_ROLE_NOT_EXIST: The role you provided (<@&{role_id}>) does not exist!
 ROLE_COMMAND_EMBED_TITLE: Automatic Role Assignment
 ROLE_COMMAND_IN_PROGRESS: Checking user's characters...
+APP_COMMAND_WEAPON_LIST_DESCRIPTION: Display a list of available weapons in Genshin Impact.
+USER_NOT_REGISTERED_ERROR: Unfortunately, this user has **not registered** or their active account is not a Genshin Impact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
