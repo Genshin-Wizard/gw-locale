@@ -377,7 +377,7 @@ HISTORY_COMMAND_NO_USER_WISHES: No wishes were found for this user!
 USER_NOT_REGISTERED_TITLE: User has not registered!
 REGISTERED_KEY: Registered
 NOT_REGISTERED_KEY: Not Registered
-USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, <@{mem_id}> has **not registered** or their active account is n/accountshin Impact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
+USER_NOT_REGISTERED_DESCRIPTION: Unfortunately, this user has **not registered** or their active account is not a Genshin Impact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
 FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."
 FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Note: This command requires you to register through the Wish History or HoYoLAB method."
 FOOTER_REQUIRE_UID_OR_HOYOLAB: "Note: This command requires you to register through the UID or HoYoLAB method."
@@ -1816,3 +1816,5 @@ ERROR_CHANNEL_NOT_EXIST: 'The channel you provided (<#{channel_id}) does not exi
 ERROR_ROLE_NOT_EXIST: The role you provided (<@&{role_id}>) does not exist!
 ROLE_COMMAND_EMBED_TITLE: Automatic Role Assignment
 ROLE_COMMAND_IN_PROGRESS: Checking user's characters...
+APP_COMMAND_WEAPON_LIST_DESCRIPTION: Display a list of available weapons in Genshin Impact.
+USER_NOT_REGISTERED_ERROR: Unfortunately, this user has **not registered** or their active account is not a Genshin Impact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
