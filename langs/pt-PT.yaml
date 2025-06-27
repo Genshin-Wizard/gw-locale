@@ -1845,3 +1845,14 @@ BATTLE_INDEX_KEY: Battle {battle_field_id}
 FASTEST_KEY: Fastest
 COMPLETE_KEY: Complete
 NO_TEAM_DETAILS: No Team Details
+CURRENT_PHASE_KEY: Current Phase
+PREVIOUS_PHASE_KEY: Previous Phase
+CURRENT_PHASE_DESCRIPTION: |
+  **Current Phase**
+  **Start Time:** <t:{timestamp_start}:F>
+  **End Time:** <t:{timestamp_end}:F>
+PREVIOUS_PHASE_DESCRIPTION: |
+  **Previous Phase**
+  **Start Time:** <t:{timestamp_start}:F>
+  **End Time:** <t:{timestamp_end}:F>
+PHASE_NO_DATA: Hey Traveler, it seems there is currently no data for this phase. Please try again later or contact the Genshin Wizard support team if you believe this is an error.
