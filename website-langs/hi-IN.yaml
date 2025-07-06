@@ -419,10 +419,10 @@ EMAIL_VERIFICATION_CODE_REQUIRED: Email Verification Code Required
 EMAIL_VERIFICATION_CODE: Email Verification Code
 ENTER_CODE_SENT_TO_EMAIL: Enter the code sent to your email
 COMPLETE_REGISTRATION: Complete Registration
-DOES_NOT_STORE_ACCOUNT_DETAILS: Wizard <strong>does not store</strong> any of your account details!
-REGISTRATION_CONVENIENCE_WARNING: This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead. A friendly reminder that Genshin Wizard <strong>does not store</strong> any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
-ENTER_VERIFICATION_CODE: Please enter the <strong>verification code</strong> sent to your
-ENTER_VERIFICATION_CODE_EMAIL: Please enter the <strong>verification code</strong> sent to your email address to complete the registration process.
+DOES_NOT_STORE_ACCOUNT_DETAILS: Wizard does not store any of your account details!
+REGISTRATION_CONVENIENCE_WARNING: This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead. A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
+ENTER_VERIFICATION_CODE: Please enter the verification code sent to your
+ENTER_VERIFICATION_CODE_EMAIL: Please enter the verification code sent to your email address to complete the registration process.
 CAPTCHA_SEND_EMAIL: Captcha is required to send the verification email verification code. Please complete the captcha challenge to continue. If you do not see any popups or the captcha does not load, please ensure that your browser allows popups and that you have a stable internet connection.
 CAPTCHA_SEND_OTP: 发送验证码需要进行 Captcha 验证。请完成 Captcha 挑战以继续操作。如果您未看到弹出窗口或 Captcha 未加载，请确保您的浏览器允许弹出窗口，并且您的网络连接稳定。
 CAPTCHA_COMPLETE_CHALLENGE: Please complete the captcha to proceed with the registration. If you do not see any popups or the captcha does not load, please ensure that your browser allows popups and that you have a stable internet connection.
@@ -592,7 +592,7 @@ MORE_THAN_PERCENTAGE: More {statType} than {percentage}% of Genshin Wizard users
 LOGO: logo
 REGISTERING_GENSHIN_ACCOUNT: Registering your Genshin Impact account to Genshin Wizard
 REGISTER_GENSHIN_UID_DESCRIPTION: To register your Genshin Impact account, you need to provide your UID.
-UNIQUE_IDENTIFIER_DESCRIPTION: This is a <strong>unique identifier</strong> for your account and is essential for tracking your game progress.
+UNIQUE_IDENTIFIER_DESCRIPTION: This is a unique identifier for your account and is essential for tracking your game progress.
 FIND_UID_DESCRIPTION: You can find your UID in the game settings menu or on the bottom right corner of the screen in-game!
 UID_REQUIRED: UID is required
 ENTER_VALID_UID: Please enter a valid account UID
@@ -616,7 +616,7 @@ REGISTER_WITH: Register with {platform}
 REFRESHING: Refreshing
 YOUR_WISH_HISTORY_TO_GENSHIN_WIZARD: your Wish History to Genshin Wizard
 TO_REFRESH_OR_REGISTER_WISH_HISTORY: To {action} your Genshin Impact wish history, you need to provide your an active wish history link.
-TEMPORARY_LINK_EXPLANATION: This is a <strong>temporary link</strong> that contains an authorization key that allows Genshin Wizard to view your gacha history.
+TEMPORARY_LINK_EXPLANATION: This is a temporary link that contains an authorization key that allows Genshin Wizard to view your gacha history.
 FOLLOW_STEPS_BELOW: "Follow the steps below to link your account:"
 ACCOUNT_LIFETIME_STATISTICS: Account Lifetime Statistics
 GACHA_HISTORY_METRICS: Gacha History Metrics
@@ -695,3 +695,45 @@ PITY_HISTORY_PERFORMANCE: Pity History Performance
 OVER: Over
 FIVE_STAR_PITY_PULLS: 5-Star Pity Pulls
 AT: at
+USER_REGISTER_CENTRE_TITLE: Account Registration Centre
+USER_REGISTER_WELCOME: Hello Traveler! Welcome to Genshin Wizard's registration centre, where you can register your account to access all features. Please choose a registration method below.
+USER_REGISTER_HOYOLAB_TITLE: Register with HoYoLAB Account
+USER_REGISTER_HOYOLAB_SUBTITLE: Register using your HoYoLAB account.
+USER_REGISTER_WISHES_TITLE: Register using Wish History
+USER_REGISTER_WISHES_SUBTITLE: Register using your Genshin Impact wish history.
+USER_REGISTER_UID_TITLE: Register with UID
+USER_REGISTER_UID_SUBTITLE: Register using your Genshin Impact UID.
+USER_REGISTER_MAX_ACCOUNTS_ERROR_PREFIX: You have reached the
+USER_REGISTER_MAX_ACCOUNTS_STRONG: "maximum number of accounts"
+USER_REGISTER_MAX_ACCOUNTS_ERROR_SUFFIX: you can register! Please remove an account or upgrade your Genshin Wizard premium tier before attempting to register another account.
+IMPORTANT_NOTE: "Important Note:"
+USER_REGISTER_REMOVE_NOTE_TEXT: You can remove account(s) via the account selection dropdown on the left side of the screen or switch your account and select "Unlink Account" from the dashboard menu.
+ACCOUNT_LIMIT_MESSAGE_PREFIX: You can currently register up to
+ACCOUNT_LIMIT_MESSAGE_SUFFIX: accounts with Genshin Wizard. If you need to register more accounts, please consider upgrading to Genshin Wizard Premium.
+ACCOUNT_UID: यूआईडी
+GO_BACK: Go Back
+RETURN_TO_PREVIOUS_STEP: Return to the previous step
+COPY_VERIFICATION_KEY: Copy Verification Key
+STEP_TWO: Step Two
+STEP_TWO_DESCRIPTION: To continue linking the requested UID to Genshin Wizard, we're going to need to verify that this account is actually yours!
+LINK_UID_NICKNAME: "Nickname"
+LINK_UID_TOTAL_ACHIEVEMENTS: "Total Achievements"
+LINK_UID_LEVEL: "Level"
+LINK_UID_REGENERATE_CODE_ALERT: You can regenerate the key up to 3 times. You have {count} attempts left.
+REGENERATE_KEY: Regenerate Key
+WHERE_QUESTION: Where?
+LINK_UID_EXPIRES_IN: "This key expires in"
+HOW_TO_COMPLETE_VERIFICATION: How to complete verification?
+COMPLETE_VERIFICATION_STEP_ONE: Go in-game and add the key above anywhere in your profile signature or nickname.
+COMPLETE_VERIFICATION_STEP_TWO: Make sure you copy the key above exactly how it is written or else the bot will not be able to verify your account.
+CHANGE_LINK_UID_STEP: Previous (Change UID)
+CANCEL_REGISTRATION_PROCESS: Cancel Registration Progress
+CANCEL_REGISTRATION_CONFIRMATION: Are you sure you want to cancel the registration process? This will reset your progress and you will have to start over.
+COMPLETE_VERIFICATION: Complete Verification
+STEP_THREE: Step Three
+STEP_THREE_DESCRIPTION: Once you have added the verification key to your profile, log out from the game so it refreshes your profile data!
+STEP_THREE_DESCRIPTION_EXTENDED: After logging out, you can click the button below to check if your account data has been updated and the verification key is valid.
+CHECK_ACCOUNT_DATA: Check Account Data
+WHERE_ADD_VERIFICATION_KEY: Where to add the verification key?
+WHERE_ADD_VERIFICATION_KEY_DESCRIPTION: On Genshin Impact, open the main game menu and look for the button that reads "Edit Signature".
+LINK_UID_FOOTER_NOTE: "Note: You can remove the key from your profile once you're verified."
