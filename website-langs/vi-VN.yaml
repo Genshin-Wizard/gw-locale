@@ -302,3 +302,361 @@ GUIDES_SEARCH_HINT: Look for a character guide.
 GUIDES_SEARCH_LABEL: Character Lookup
 CHARACTER_GUIDE_TITLE: Character Guide
 WISHES_REGISTER_TITLE: Register Wish History
+USER_ART_STYLE_LABEL: Art Layout Style
+USER_ART_OFFICIAL_LABEL: Only use Official HoYoVerse Art
+USER_ART_OFFICIAL_TOOLTIP: Not interested in using fan-made art? Enable this to only use official HoYoverse art.
+USER_ART_ADAPTIVE_LABEL: Use adaptive-background
+USER_ART_ADAPTIVE_TOOLTIP: Use adaptive-background to generate a background color based on the artwork displayed.
+USER_ART_CUSTOM_LABEL: Use Custom Artwork
+USER_ART_CUSTOM_TOOLTIP: Upload your own custom artwork to be displayed on your character showcase cards.
+USER_ART_LAYOUT_DEFAULT: Default Layout
+USER_ART_LAYOUT_ENKA: Enka.Network Layout
+USER_ART_LAYOUT_VERTICAL: Vertical Layout
+USER_ART_LAYOUT_VENTURA: Ventura Layout
+WISH_TABLE_STAR: Star
+WISH_TABLE_THREE_STAR: 3-Star
+WISH_TABLE_FOUR_STAR: 4-Star
+WISH_TABLE_FIVE_STAR: 5-Star
+WISH_TABLE_CHARACTER: Nhân vật
+WISH_TABLE_WEAPON: Vũ Khí
+CHARACTER_BANNER_TITLE: Character Banner
+WEAPON_BANNER_TITLE: Weapon Banner
+PERMANENT_BANNER_TITLE: Permanent Banner
+CHRONICLED_BANNER_TITLE: Chronicled Banner
+NOVICE_BANNER_TITLE: Novice Banner
+WISHES_IMPORT_INSTRUCTIONS_IMPORTANT: "Before you import, it is important to follow these steps, otherwise, your import may not synchronize as you imagined it would. Since many popular services don't store a wish's unique id, wishes are automatically appended to the front of your pre-existing wish history."
+WISHES_IMPORT_INSTRUCTIONS_SYNC_PREFIX: "For this very reason, before you decide to import, ensure that your current wishes up until the current day are completely in sync, you can do this by using the"
+WISHES_IMPORT_INSTRUCTIONS_SYNC_SUFFIX: "command through Genshin Wizard or visiting the"
+WISHES_IMPORT_INSTRUCTIONS_SYNC_END: "page."
+WISHES_IMPORT_INSTRUCTIONS_SOURCES: "To find more about supported import sources, check out"
+WISHES_EXPORT_INSTRUCTIONS_MAIN: "The Genshin Wizard export feature allows users to effortlessly save their wish history in a CSV format with a single click. This convenient functionality ensures that all your important data, including roll numbers, pity counts, item names, and banner types, are securely stored and easily accessible for future use."
+WISHES_EXPORT_INSTRUCTIONS_USAGE: "Whether you're looking to re-import your data back into Genshin Wizard after a reset or share it with third-party applications that support Genshin Wizard imports, this CSV file provides a flexible and portable solution. With just a simple download, your wish history is preserved and ready to be used whenever and wherever you need it."
+WISHES_MANAGE_INSTRUCTIONS: "Manage your imported wish history with ease. You can view detailed information about your imported data, including the number of wishes imported and any potential issues that may have occurred during the import process."
+WISHES_DELETE_CONFIRMATION_TITLE: "Delete Imported Wish History"
+WISHES_DELETE_CONFIRMATION_MESSAGE: "Are you sure you want to delete all imported wish history data? This action cannot be undone."
+WISHES_FILE_UPLOAD_ALERT: "Please select a file to import."
+WISHES_NO_HISTORY_ALERT: "No wish history found."
+WISHES_IMPORT_SUCCESS: "Successfully imported {count} new wishes!"
+WISHES_IMPORT_NO_NEW: "Successfully imported wishes, but no new wishes were added."
+WISHES_IMPORT_ERROR: "Failed to import wish history: {error}"
+WISHES_EXPORT_SUCCESS: "Wish history exported successfully! Please check your downloads folder."
+WISHES_EXPORT_ERROR: "Failed to export wish history: {error}"
+WISHES_DELETE_SUCCESS: "Successfully deleted imported wish history data."
+WISHES_DELETE_ERROR: "Failed to delete imported data: {error}"
+WISHES_FETCH_DETAILS_ERROR: "Failed to fetch import details: {error}"
+WISHES_REFRESH_COMMAND: "/refresh"
+WISHES_REFRESH_PAGE_LINK: "Wish History Refresh"
+IMPORT_DOCUMENTATION_LINK_TEXT: "Import Documentation"
+ENABLE_AUTO_CLAIM_SWITCH_TITLE: Enable Automatic HoYoLAB Daily Check-In
+ENABLE_AUTO_CLAIM_SWITCH_TOOLTIP: Automatically get your check-in rewards by having the bot check in for you!
+ENABLE_DAILY_CHECK_IN_NOTIFICATIONS_TITLE: Enable Daily Check-In Notifications
+ENABLE_DAILY_CHECK_IN_NOTIFICATIONS_TOOLTIP: Receive notifications when Genshin Wizard checks in for you.
+GENSHIN_GAME_NAME: Genshin Impact
+HONKAI_GAME_NAME: Honkai Impact 3rd
+STARRAIL_GAME_NAME: Star Rail
+ZENLESS_GAME_NAME: Zenless Zone Zero
+TEARS_GAME_NAME: Tears of Themis
+ENABLE_AUTO_HOYOLAB_CODE_REDEMPTION_TITLE: Enable Automatic HoYoLAB Code Redemption
+ENABLE_AUTO_HOYOLAB_CODE_REDEMPTION_TOOLTIP: Automatically get HoYoLAB codes redeemed by having the bot redeem them for you!
+ENABLE_HOYOLAB_CODE_REDEMPTION_NOTIFICATIONS_TITLE: Enable HoYoLAB Code Redemption Notifications
+ENABLE_HOYOLAB_CODE_REDEMPTION_NOTIFICATIONS_TOOLTIP: Receive notifications when Genshin Wizard redeems codes for you.
+RESET_SETTINGS: Reset Settings
+UNLINK_CONFIRMATION_METHOD_MESSAGE: This action is irreversible. You are about to {method}. Are you sure you want to proceed?
+UNLINK_PROFILE_TEXT: Hủy liên kết tất cả
+UNLINK_PROFILE_DESCRIPTION: Unlinking everything will remove all your data from Genshin Wizard. This includes your wish history, wish statistics, and more. This action is irreversible.
+UNLINK_ACCOUNT_TEXT: Unlink Current Game Account
+UNLINK_ACCOUNT_DESCRIPTION: Unlink your game account completely from Genshin Wizard. This will erase all your data from Genshin Wizard, including your wish history, wish statistics, and more. This action is irreversible.
+UNLINK_HOYOLAB_TEXT: Unlink HoYoLAB Account
+UNLINK_HOYOLAB_DESCRIPTION: Unlink your HoYoLAB account from Genshin Wizard; Will not unlink your linked UID from Genshin Wizard. This action is irreversible.
+UNLINK_WISH_HISTORY_TEXT: Purge Wish History
+UNLINK_WISH_HISTORY_DESCRIPTION: Purge only your wish history from Genshin Wizard, your Genshin account will still be linked to Genshin Wizard. This action is irreversible.
+UNLINK_METHOD_TEXT: Unlinking Method
+USER_UNLINK_PAGE_TITLE: Unlink Account
+USER_UNLINK_CONTAINER_TITLE: Unlink Genshin Wizard's connected accounts
+USER_UNLINK_WELCOME: Hello Traveler! Welcome to Genshin Wizard's unlinking centre. Manage your linked data through the buttons below. Friendly reminder that any method of unlinking will erase all your data from Genshin Wizard. This action is irreversible.
+PROFILE_DEFAULT_BIO: "Nhà Lữ Hành ưa thích những chuyến mạo hiểm!"
+PROFILE_SAVE_ERROR: "Failed to save profile settings. Please try again."
+PROFILE_SAVE_SUCCESS: "Profile settings saved successfully!"
+ANDROID_UNLINK_ALERT: After the 3.0 update, users can no longer simply copy and paste the history link on Android devices anymore. We are currently looking for a way to retrieve the history link on Android devices. Please check back later.
+SELECT_YOUR_ACCOUNTS: Select Your Accounts
+CHOOSE_ACCOUNTS_TO_REGISTER: Choose the accounts you want to register/refresh.
+SELECT_AN_ACCOUNT: Select an account
+REGISTERING: Registering...
+CONTINUE: Continue
+PLEASE_WAIT_PROCESSING: Please wait while we process your request
+CONTINUE_TO_NEXT_STEP: Continue to next step
+SELECT_AT_LEAST_ONE_ACCOUNT: Select at least one account to continue
+NO_NICKNAME: No Nickname
+SUCCESSFULLY_REGISTERED_ACCOUNTS: Successfully registered accounts!
+FAILED_TO_REGISTER_ACCOUNTS: Failed to register account(s)
+REGISTER_USING_HOYOLAB_ACCOUNT: Register using your HoYoLAB account
+REGISTER_USING_YOUR_ACCOUNT: Register using your {platform} account
+REGISTER_USING_LOGIN: Register using Login
+REGISTER_USING_DEVTOOLS: Register using DevTools
+REGISTER_USING_DEVTOOLS_DESKTOP: Register using developer tools (desktop only)
+VISIT_HOYOLAB_PAGE: Visit HoYoLAB Page
+LOGIN_THROUGH_OFFICIAL_HOYOLAB: Login through the official HoYoLAB website.
+NEED_MORE_HELP: Need more help?
+CLICK_HERE_FOR_REFERENCE: Click here for a reference image.
+REGISTER: Register
+FILL_FIELDS_TO_CONTINUE: Fill in the fields above to continue
+HOW_TO_FIND_COOKIES: How to find your authentication cookies
+TO_BEGIN_LOGIN_HOYOLAB: To begin with, login to your HoYoLAB account.
+OPEN_DEVELOPER_TOOLS: Once logged in, open developer tools by pressing F12 on your keyboard or right-clicking anywhere on the page and selecting Inspect.
+SELECT_APPLICATION_TAB: On the series of tabs, select the Application tab.
+SELECT_COOKIES: On the left-hand side, select Cookies and click on the website to view all your site cookies.
+COPY_TOKENS: Copy the ltoken_v2, ltuid_v2, and ltmid_v2 tokens and paste them into their dedicated input fields below.
+DISCORD_SUPPORT_SERVER: Official Discord Support Server
+WHERE_TO_LOOK: Where to look?
+REFER_TO_IMAGE_BELOW: Refer to the image below for guidance on where to find your ltmid_v2, ltoken_v2, ltuid_v2 tokens in the developer tools.
+VERIFICATION_KEY_GUIDE: Verification Key Guide
+ISSUES_LOCATING_TOKENS: If you have any issues locating these tokens, feel free to create a support ticket on our
+EMAIL_ADDRESS: Email Address
+EMAIL_PLACEHOLDER: "yourhoyolab@email.com"
+PASSWORD_PLACEHOLDER: yourhoyolabpassword
+CAPTCHA_REQUIRED: Captcha Required
+EMAIL_VERIFICATION_CODE_REQUIRED: Email Verification Code Required
+EMAIL_VERIFICATION_CODE: Email Verification Code
+ENTER_CODE_SENT_TO_EMAIL: Enter the code sent to your email
+COMPLETE_REGISTRATION: Complete Registration
+DOES_NOT_STORE_ACCOUNT_DETAILS: Wizard <strong>does not store</strong> any of your account details!
+REGISTRATION_CONVENIENCE_WARNING: This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead. A friendly reminder that Genshin Wizard <strong>does not store</strong> any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
+ENTER_VERIFICATION_CODE: Please enter the <strong>verification code</strong> sent to your
+ENTER_VERIFICATION_CODE_EMAIL: Please enter the <strong>verification code</strong> sent to your email address to complete the registration process.
+CAPTCHA_SEND_EMAIL: Captcha is required to send the verification email verification code. Please complete the captcha challenge to continue. If you do not see any popups or the captcha does not load, please ensure that your browser allows popups and that you have a stable internet connection.
+CAPTCHA_SEND_OTP: 发送验证码需要进行 Captcha 验证。请完成 Captcha 挑战以继续操作。如果您未看到弹出窗口或 Captcha 未加载，请确保您的浏览器允许弹出窗口，并且您的网络连接稳定。
+CAPTCHA_COMPLETE_CHALLENGE: Please complete the captcha to proceed with the registration. If you do not see any popups or the captcha does not load, please ensure that your browser allows popups and that you have a stable internet connection.
+FILL_EMAIL_PASSWORD_TO_CONTINUE: Fill in your email and password to continue
+GET_IN_TOUCH: Get in touch
+MULTI_UTILITY_DISCORD_BOT: A multi-utility Discord bot for all your Genshin Impact needs.
+GENSHIN_WIZARD: Genshin Wizard
+INFORMATION: Information
+LEGAL: Legal
+COMMANDS: Commands
+GUIDES: Guides
+SUMERU_SCHOLARS: Sumeru Scholars
+PARTNERS: Partners
+STATUS: Status
+GET_PREMIUM: Get Premium
+ADD_TO_DISCORD: Add to Discord
+DASHBOARD: Dashboard
+LOGIN_WITH_DISCORD: Login with Discord
+LOGIN: Login
+HOME: Home
+INVITE_BOT: Invite Bot
+SELECT_A_SERVER: Select a server
+CHOOSE_AN_ACCOUNT: Choose an Account
+SERVER_SETTINGS: Server Settings
+ACCOUNT_SETTINGS: Account Settings
+SERVER_DASHBOARD: Server Dashboard
+DAILY_ANNOUNCEMENTS: Daily Announcements
+SERVER_TIME: Server Time
+DOMAIN_SCHEDULE: Domain Schedule
+CONFIRM_RESET: Confirm Reset
+ACCOUNT_DASHBOARD: Account Dashboard
+GENSHIN_WIZARD_PROFILE: Genshin Wizard Profile
+PROFILE_SETTINGS: Profile Settings
+CUSTOMIZE_INFOGRAPHICS: Customize Infographics
+INFOGRAPHIC_CUSTOMIZATION: Infographic Customization
+PRIVACY_SETTINGS: Cài đặt riêng tư
+PRIVACY_CONTROLS: Privacy Controls
+WISH_HISTORY_REGISTRATION: Wish History Registration
+REFRESH_WISH_HISTORY: Refresh Wish History
+WISH_ANALYTICS: Wish Analytics
+WISH_HISTORY_LOG: Wish History Log
+DATA_MANAGEMENT: Data Management
+HOYOLAB_REGISTRATION: HoYoLAB Registration
+AUTOMATIC_DAILY_REWARDS: Automatic Daily Rewards
+AUTOMATIC_CODE_REDEMPTION: Automatic Code Redemption
+UNLINK_ACCOUNT: Unlink Account
+REFRESH: Refresh
+IMPORT_EXPORT: Import / Export
+WISH_STATISTICS: Wish Statistics
+WISH_HISTORY: Lịch sử Cầu nguyện
+DAILY_AUTOCLAIM: Daily Autoclaim
+AUTO_CODE_REDEMPTION: Auto Code Redemption
+SELECT_LANGUAGE: Select Language
+SHARD: Shard
+SERVER_KUBERNETES: "Server: Kubernetes"
+SERVICE: Service
+CROP_YOUR_BANNER: Crop Your Banner
+APPLY: Apply
+GENSHIN_WIZARD_CUSTOM_ARTWORK: Genshin Wizard Custom Artwork
+CUSTOM_ART_INFOGRAPHIC_PREVIEW: Custom Art Infographic Preview
+DELETE_SAVED_CUSTOM_ART: Delete Saved Custom Art
+NO_IMPORTED_DATA_FOUND: No imported data found.
+CLOSE: Close
+BANNER_STATISTICS: Banner Statistics
+TOTAL_WISHES: Tổng số Cầu nguyện
+WISHES_WORTH: Tổng số Nguyên Thạch
+PRIMOGEMS: Primogems
+HIGHEST_PULL_VOLUME: Highest Pull Volume (by Month)
+MOST_PULLED_ITEM: Most Pulled Item
+LAST_5_STAR_PULL: Last 5-Star Pull
+NONE: Không Có
+VIEW_WISH_HISTORY: View Wish History
+PULL_DISTRIBUTION_BY_RARITY: Pull Distribution (By Rarity)
+PULL_DISTRIBUTION_BY_BANNER: Pull Distribution (By Banner)
+TOTAL_LABEL_PULLS: Total {label} Pulls
+OF: of
+PITY_INFORMATION: Pity Information
+CURRENT_5_STAR_PITY: Current 5-Star Pity
+PULLS: pull(s)
+LAST_5_STAR_PULL_TOOLTIP: "Last 5-Star Pull: {name}"
+N_A: N/A
+SERVER_OWNERS: Server Owners
+LANGUAGE: Language
+CHANGELOG: Changelog
+HELP_CENTER: Help Center
+LOGOUT: Logout
+PREMIUM_SERVERS: Premium Servers
+SHIELD_EDIT: Cài đặt riêng tư
+PREMIUM: Premium
+NEW: New
+RECENTLY_UPDATED: Recently Updated
+DISABLED: Đã tắt
+VIEW_DETAILS: View Details
+OWNER: Owner
+SERVER_MANAGER: Server Manager
+GENSHIN_WISH_HISTORY_NOT_REGISTERED: Genshin Wish History not Registered!
+HOYOLAB_ACCOUNT_NOT_REGISTERED: HoYoLAB Account not Registered!
+ACCOUNT_NOT_REGISTERED: Account not Registered!
+GENSHIN_WISH_HISTORY_WELCOME: Welcome to Genshin Wizard's wish history management page! It seems like you haven't registered your Genshin Wish History yet. To use this feature, please register your Genshin wish history account with Genshin Wizard first.
+FEATURE_ONLY_GENSHIN: This feature is only available for Genshin Impact accounts. Switch to a Genshin Impact account to use this feature.
+HOYOLAB_REGISTRATION_MESSAGE: Hey Traveler, it seems like you haven't registered your HoYoLAB account yet. To use this feature, please register your HoYoLAB account with Genshin Wizard first.
+GENERAL_REGISTRATION_MESSAGE: Hey there! It seems like you haven't registered your account yet. To use this feature, you must register your account with Genshin Wizard first.
+SHARDS_ARE_ONLINE: shards are online.
+CLUSTERS_HAVE_ISSUES: clusters have issues.
+ONLINE: Online
+OFFLINE: Offline
+NO_GUILDS: No guilds
+ALL_GUILDS_UNAVAILABLE: All guilds unavailable
+NO_ISSUES: No issues
+GUILD_COUNT: Guild Count
+USER_COUNT: User Count
+MEMORY_UTILIZATION: Memory Utilization
+NOT_ONLINE: Not Online
+UPTIME: Uptime
+GUILDS_UNAVAILABLE: guild(s) unavailable
+EDIT_ACCOUNT_NICKNAME: Edit Account Nickname
+CHANGE_NICKNAME_DESCRIPTION: Change the nickname for this account. This will be the nickname that is used to reference your account via the Discord bot.
+PARTNERS_AFFILIATES: Partners/Affiliates
+SUMERU_SCHOLAR: Sumeru Scholar
+MEET_OUR_TEAM: Meet our Team
+ABOUT_US: About Us
+DOCUMENTATION: Tài liệu hướng dẫn
+BOT_COMMANDS: Bot Commands
+CROWDIN_TRANSLATIONS: Crowdin (Translations)
+TERMS_OF_SERVICE: Terms of Service
+PRIVACY_POLICY: Privacy Policy
+COOKIE_POLICY: Cookie Policy
+CUSTOM_ARTWORK_DESCRIPTION: Want to customize your character showcase cards? Upload your own art to be displayed on your character showcase cards! A preview of the selected layout is shown.
+CURRENT_CHARACTER: Current Character
+DELETE_CUSTOM_ARTWORK: Delete Custom Artwork
+RESET_CUSTOM_ARTWORK: Reset Custom Artwork
+SAVE_ARTWORK: Save Artwork
+DELETE_CONFIRM_MESSAGE: Are you sure you want to delete the saved custom art? This action cannot be undone.
+IMPORTED_DATA_DETAILS: Imported Data Details
+SOURCE: Source
+WISHES_IMPORTED: Wishes Imported
+ACTIONS: Actions
+WISHES: wishes
+PAIMON_MOE_IMPORT: Paimon.moe Import
+ELEMENT: Element
+MANAGE_SERVERS: Manage Servers
+MANAGE_ACCOUNT: Manage Account
+NO_ACCOUNTS_FOUND: No accounts found!
+NO_SERVERS_FOUND: No servers found!
+OPEN_GENSHIN_IMPACT_PC: Open Genshin Impact Game on your PC
+GO_TO_WISH_HISTORY: Go to the wish history page and wait for it to load
+GO_BACK_TO_WINDOWS: Go back to Windows
+SEARCH_POWERSHELL: In the start menu search for "PowerShell" and open "Windows PowerShell"
+COPY_PASTE_POWERSHELL: Then copy the following code and paste it in the Powershell window
+HIT_ENTER_COPY_LINK: Hit ENTER to have the link copied to your clipboard
+PASTE_LINK_SUBMIT: Paste the link in the input field below, and click "Submit"
+OPEN_GENSHIN_WISH_SCREEN: Open Genshin Impact and go to the Wish screen
+GO_TO_STREAM_APP: While Genshin Impact is still open, go to Stream app and tap Sniff Now
+GO_BACK_OPEN_WISH_HISTORY: Go back to Genshin Impact and open you wish history
+STOP_SNIFFING: When your wish list is loaded go back to Stream app and tap Stop sniffing
+TAP_SNIFF_HISTORY: Then tap on Sniff History and choose the first item in the list
+TAP_REQUEST_STARTING: Tap the request starting by GET https://hk4e-api-os/...
+TAP_REQUEST_TAB: Tap the request tab
+TAP_LONG_TEXT: Tap the long text starting by GET /event/gacha_info...
+TAP_COPY_URL: Finally, tap Copy Url
+CONSOLE_UPDATE_MESSAGE: Sau bản cập nhật 2.3 các đường link event không còn hoạt động nữa. Tuy nhiên bạn vẫn có thể lấy key bằng cách liên kết tài khoản Playstation với tài khoản Mihoyo và sử dụng phương pháp pc/mobile.
+BOTTOM: Bottom
+TOP: Top
+LUCKY: lucky
+LESS_THAN_PERCENTAGE: Less {statType} than {percentage}% of Genshin Wizard users.
+MORE_THAN_PERCENTAGE: More {statType} than {percentage}% of Genshin Wizard users.
+LOGO: logo
+REGISTERING_GENSHIN_ACCOUNT: Registering your Genshin Impact account to Genshin Wizard
+REGISTER_GENSHIN_UID_DESCRIPTION: To register your Genshin Impact account, you need to provide your UID.
+UNIQUE_IDENTIFIER_DESCRIPTION: This is a <strong>unique identifier</strong> for your account and is essential for tracking your game progress.
+FIND_UID_DESCRIPTION: You can find your UID in the game settings menu or on the bottom right corner of the screen in-game!
+UID_REQUIRED: UID is required
+ENTER_VALID_UID: Please enter a valid account UID
+SUBMIT: Submit
+CHECK_AGAIN_IN: Check Again In {seconds}s
+REQUIRED: Required
+URL_MISSING_PARAMETER: URL is missing a required parameter!
+COMMANDS_CATEGORY: "{category} COMMANDS"
+ARTIFACT_ATTACK_SET: Attack Set
+ARTIFACT_DEFENSE_SET: Defense Set
+ARTIFACT_ELEMENTAL_MASTERY_SET: Elemental Mastery Set
+ARTIFACT_PHYSICAL_SET: Physical Set
+ARTIFACT_ENERGY_RECHARGE_SET: Energy Recharge Set
+ARTIFACT_HYDRO_DMG_SET: Hydro DMG Set
+ARTIFACT_HP_SET: HP% Set
+FLEXIBLE_CHARACTER_CHOICE: Flexible Character Choice
+FLEXIBLE: Flexible
+ACTIVE: Active
+WON_50_50: You won your 50/50!
+REGISTER_WITH: Register with {platform}
+REFRESHING: Refreshing
+YOUR_WISH_HISTORY_TO_GENSHIN_WIZARD: your Wish History to Genshin Wizard
+TO_REFRESH_OR_REGISTER_WISH_HISTORY: To {action} your Genshin Impact wish history, you need to provide your an active wish history link.
+TEMPORARY_LINK_EXPLANATION: This is a <strong>temporary link</strong> that contains an authorization key that allows Genshin Wizard to view your gacha history.
+FOLLOW_STEPS_BELOW: "Follow the steps below to link your account:"
+ACCOUNT_LIFETIME_STATISTICS: Account Lifetime Statistics
+GACHA_HISTORY_METRICS: Gacha History Metrics
+TOTAL_NUMBER_OF_WISHES: Total Number of Wishes
+DAYS_SINCE_FIRST_PULL: Days Since First Pull
+AVG_WISHES_PER_DAY: Avg. Wishes Per Day
+LATEST_GACHA_PULL: Latest Gacha Pull
+AGGREGATED_GACHA_STATISTICS: Aggregated Gacha Statistics
+YES_KEY: "Yes"
+NO_KEY: "No"
+NO_PITIES: No Pities
+PULL_PITY_INSIGHTS: Pull Pity Insights
+PULL_COUNTS_INSIGHTS: Pull Counts Insights
+ITEM: Item
+RARITY: Rarity
+COUNT: Count
+PC: PC
+ANDROID: Android
+IOS: iOS
+CONSOLE: Console
+COPYRIGHT_GENSHIN_WIZARD: Copyright © 2024 Genshin Wizard. All rights reserved.
+BACK_TO_DASHBOARD: Back to Dashboard
+RETURN_TO_USER_DASHBOARD: Return to your user dashboard
+REGISTER_NOW: Register Now
+REGISTER_ACCOUNT_TO_USE_FEATURE: Register your account to use this feature
+NEW_NICKNAME: New Nickname
+USAGE: Usage
+ALIASES: Aliases
+COMMAND_INFORMATION: Command Information
+COMMAND: Command
+PARAMETERS: Parameters
+OPTIONAL: Optional
+CHECK_GITHUB_DOCUMENTATION: Check our GitHub documentation for detailed instructions
+VIEW_REGISTRATION_DOCUMENTATION: View Registration Documentation
+CHECK_KAIZER_STREAM_APP_GUIDE: Check Kaizer's Stream app guide
+STREAM_APP_GUIDE: Stream App Guide
+STEP_ONE: Step One
+ENTER_YOUR_UID: Enter Your UID
+ENTER_YOUR_ACCOUNT_UID: Enter your account UID
+UID_PLACEHOLDER: 123456789
+WISH_HISTORY_URL: Wish History URL
+WISH_HISTORY_URL_PLACEHOLDER: https://hk4e-api-os.hoyoverse.com/event/gacha_info/api/getGachaLog?...
+CONFIRM: Confirm
