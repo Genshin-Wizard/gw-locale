@@ -295,19 +295,19 @@ INFO_COMMAND_CACHE_DESCRIPTION: |
   <:na:975828401900359711> **이전 정보를 지우고 싶으면 어떻게 해야해?**
   걱정마, 여행자! 이 메시지를 이용해서 여행자의 캐시 정보를 수정할 수 있어! 지금 보이는 메시지 아래에있는 UI를 이용해서 특정 캐릭터나 모든 캐릭터의 캐시를 삭제할 수 있어.
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
-  <:information:1034639378410115103> **원신 위자드 커스텀 아트 기능**
-  여행자, 원신 위자드의 **커스텀 아트** 기능을 사용하려구? 미안하지만 이 기능은 프리미엄 사용자만 가능해.
+  <:information:1034639378410115103> **Genshin Wizard Custom Art Feature**
+  Hey Traveler, it looks like you're trying to use Genshin Wizard's **Custom Art** feature! This feature is only available to Genshin Wizard Premium users.
 
-  </premium:{command_id}> 명령을 사용하거나 [**Patreon**](https://patreon.com/genshinwizard)을 방문해서 원신 위자드 프리미엄에 대해 자세히 알아봐!
+  You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Premium Page Information**](https://)!
 PURCHASE_PREMIUM: 프리미엄 구매하기
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: 여행자! 미안하지만 여행자가 **갖고있는 캐릭터**만 이미지를 수정할 수 있어!
 GENSHIN_WIZARD_CUSTOM_ART: 원신 위자드 커스텀 아트
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **인포그래픽 지정**
-  여행자, 아래 링크나 버튼을 클릭해서 이 캐릭터에 사용될 이미지를 **개인설정** 해봐! <a:PaimonCookies:992302701838864454>
-  ```
-  {character} 이미지 수정```
-  > <:Settings:1046877233626742925> [**이미지를 변경하려면 여기를 클릭해줘**](https://dashboard.genshinwizard.com/?key={key})
+  **Customize Infographic Art**
+  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
+  ```fix
+  Infographic for {character}```
+  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://genshinwizard.com/premium)
 GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: 대시보드로 이동
 REMOVE_CHARACTERS_FROM_CACHE: 저장된 캐릭터 정보 제거
 INFO_COMMAND_CACHE_DELETE_SELECTED: 원신 위자드에 등록된 캐릭터의 정보를 성공적으로 제거했어!
@@ -893,7 +893,7 @@ SIMULATOR_TITLE: Genshin Wizard 기원 시뮬레이션
 SIMULATOR_ALREADY_CLAIMED: ":no_entry: 오늘 일일 커미션 보상을 **__이미 청구__**하셨습니다! 새로운 커미션이 있습니다 <t:{time}:R>."
 COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> [**Genshin Wizard Guild**](https://discord.gg/genshinwizard)의 **모험가**로서 추가로 **16,000 원석**를 보상으로 받았습니다. <:Primogem:951924423340994610> 지속적인 탐험의 결과!"
 COMMISSION_ADVENTURER_REWARD_UNRECEIVED: "> <:GreyPin:949815085335986246> [**Genshin Wizard Guild**](https://discord.gg/genshinwizard)의 **모험가**가 되어 일일 커미션 완료 시 추가 보상을 받으세요!"
-COMMISSION_PREMIUM_EXTRA_REWARD: "> <a:mona_mora:1046611739774562374> [**Genshin Wizard**](https://patreon.com/genshinwizard)의 **프리미엄 회원**으로서 추가 **{primogems} 원석을 보상으로 받았습니다. ** <:Primogem:951924423340994610> 여러분의 성원에 힘입어!"
+COMMISSION_PREMIUM_EXTRA_REWARD: "> <a:mona_mora:1046611739774562374> As a **Premium Member** of [**Genshin Wizard**](https://genshinwizard.com/premium), you have been rewarded with an extra **{primogems} Primogems** <:Primogem:951924423340994610> as a result of your support!"
 COMMISSION_COMPLETE_MESSAGE: |
   <a:7094whitecheck:1020160260637462618> 일일 출석체크를 **성공적으로** 완료했습니다!
   **16,000개의 원석**를 보상으로 받았습니다. <:Primogem:951924423340994610>
@@ -1054,7 +1054,7 @@ PREMIUM_PLAN: 프리미엄 플랜
 PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Genshin Wizard Server [커스텀역할]
 PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: 여행자님, 이 커스텀 역할 기능은 [**Genshin Wizard 디스코드 서버**](https://discord.gg/BTT5Zr7Dmp)에서만 사용 가능합니다.
 PREMIUM_CUSTOM_ROLE_FOOTER: Genshin Wizard 커스텀 역할 설정
-PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> 여행자, 이 기능을 사용하려면 **1티어** 이상의 프리미엄 사용자여야해. 이 놀라운 기능을 사용하고 싶다면 [**__upgrade__**](https://patreon.com/genshinwizard)를 구매해줘!
+PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> Hey Traveler, you must be a **Tier 1** or higher premium user to use this feature. Consider purchasing an [**__upgrade__**](https://genshinwizard.com/premium) to unlock this amazing feature.
 PREMIUM_ROLE_NAME_CHANGED: <:yescheck:1021114525858136074> 역할 이름이 **{name}**로 변경되었습니다.
 PREMIUM_ROLE_COLOR_CHANGED: '<:yescheck:1021114525858136074> 역할 색상이 **#{color}**로 변경되었습니다.'
 HEX_NOT_PARSED: 제공하신 HEX 색상 코드를 구문 분석할 수 없습니다. 다시 시도해 주세요.
