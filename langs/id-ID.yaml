@@ -592,7 +592,7 @@ PREVIOUS_ABYSS_DESCRIPTION: |
   **Fase Lunar Sebelumnya**
   **Waktu Mulai:** <t:{timestamp_start}:F>
   **Waktu Berakhir:** <t:{timestamp_end}:F>
-ABYSS_COMMAND_FOOTER: "Catatan: Data abyss mungkin tidak akurat atau tidak ada data, jika ini terjadi, perlu diingat bahwa data abyss biasanya membutuhkan waktu antara 1-3 jam untuk diperbarui!"
+ABYSS_COMMAND_FOOTER: "Note: Spiral Abyss data may take anywhere from 1-3 hours to update due to Hoyo's API limitations."
 ABYSS_MISSING_DATA_FOOTER: "Catatan: Sepertinya data ini kehilangan beberapa informasi! Mungkin karena informasi ini belum disimpan di database sebelumnya, atau data belum diperbarui."
 ABYSSAL_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Arsip Abyssal**
@@ -1165,7 +1165,7 @@ CHESTS_KEY: Peti
 ACHIVEMENTS_KEY: Achievement
 CHARACTER_STATISTICS_KEY: Stats karakter
 ARTIFACT_SUBSTAT_KEY: Substat Artefak
-ABYSS_STATISTICS_KEY: Statistik Abyss
+ABYSS_STATISTICS_KEY: Statistik Abyss Spiral
 GACHA_SIMULATOR_KEY: Simulator gacha
 ACTIVE_PLAYTIME_KEY: Jumlah Hari Aktif
 WISHES_KEY: Permohonan
@@ -1445,7 +1445,7 @@ PAGE_MODAL_PLACEHOLDER: "Masukkan nomor halaman..."
 RARITY_FILTER_PLACEHOLDER: "Pilih filter kelangkaan..."
 CHRONICLE_PRIVACY_PLACEHOLDER: "Kelola setelan privasi Battle Chronicle..."
 LEADERBOARD_FILTER_PLACEHOLDER: "Pilih filter untuk leaderboard ini..."
-VIEW_ABYSS_TEAM: Melihat Tim Abyss
+VIEW_FULL_TEAM: "How Do I View Full Teams?"
 MANAGE_ART_SETTING_KEY: Atur Gambar
 DEFAULT_ART_SETTING: Layout Default
 ENKA_ART_SETTING: Layout Enka.Network
@@ -1796,7 +1796,7 @@ FASTEST_ACT_KEY: Fastest Act
 HIGHEST_DAMAGE_DEALT_LABEL: Highest Damage Dealt
 TRIAL_KEY: Trial
 SUPPORT_KEY: Support
-THEATER_COMMAND_FOOTER: "Note: Theater data may be incorrectly shown or missing data, if this is the case, do keep in mind that theater data can generally take anywhere from 1-3 hours to update!"
+THEATER_COMMAND_FOOTER: "Note: Imaginarium Theater data may take anywhere from 1-3 hours to update due to Hoyo's API limitations."
 IMAGINARIUM_THEATER_DESCRIPTION: View your Imaginarium Theater progression stats
 THEATER_LEADERBOARD_PLACEHOLDER: Choose a lunar phase to view...
 VIEW_THEATER_TEAM: Viewing Imaginarium Theater Lineup
@@ -1827,7 +1827,7 @@ MAGIC_LABEL: Remarkable
 THEATER_NOT_UNLOCKED: The Imaginarium Theater is not yet unlocked for your account!
 CHARACTER_NOT_IN_ACCOUNT: The character `{name}` was not found in your account!
 ONSLAUGHT_NOT_UNLOCKED: The Stygian Onslaught is not yet unlocked for your account!
-ONSLAUGHT_COMMAND_FOOTER: "Note: Stygian Onslaught data may be incorrectly shown or missing data, if this is the case, do keep in mind that Stygian Onslaught data can generally take anywhere from 1-3 hours to update!"
+ONSLAUGHT_COMMAND_FOOTER: "Note: Stygian Onslaught data may take anywhere from 1-3 hours to update due to Hoyo's API limitations."
 NO_ONSLAUGHT_DATA: "No Stygian Onslaught Data"
 ONSLAUGHT_COMMAND_STATISTICS_CREDIT: User {name}'s Stygian Onslaught Stats
 CURRENT_ONSLAUGHT_PHASE_DESCRIPTION: View Current Stygian Onslaught Stats Progression
@@ -1880,3 +1880,12 @@ WEBHOOK_INITIALIZED: Successfully initialized the plugin, please enable the plug
 PREMIUM_MANAGE_BILLING: Manage Billing
 MAX_OUT_PRIMOGEMS: Max Out Primogems
 PREMIUM_FEATURE_CONSIDER_UPGRADE: Hey Traveler! You're **not allowed** to use this command, this command is only available to **Premium Subscribers**. If you'd like use this feature, consider upgrading!
+NO_ROLE_KEY: No Role
+THEATER_STATISTICS_KEY: Imaginarium Theater Statistics
+ONSLAUGHT_STATISTICS_KEY: Stygian Onslaught Statistics
+LEADERBOARD_THEATER_FOOTER: Imaginarium Theater statistics are updated via the imaginarium theater progression command, check your imaginarium theater progression frequently to get an updated statistics measurement!
+LEADERBOARD_ONSLAUGHT_FOOTER: Stygian Onslaught statistics are updated via the stygian onslaught progression command, check your stygian onslaught progression frequently to get an updated statistics measurement!
+THEATER_LEADERBOARD_ALL_TIME: Leaderboard Sepanjang Masa
+THEATER_LEADERBOARD_ALL_TIME_DESCRIPTION: View records from all Imaginarium Theater phases.
+ONSLAUGHT_LEADERBOARD_ALL_TIME: Leaderboard Sepanjang Masa
+ONSLAUGHT_LEADERBOARD_ALL_TIME_DESCRIPTION: View records from all Stygian Onslaught phases.
