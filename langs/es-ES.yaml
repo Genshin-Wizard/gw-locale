@@ -118,25 +118,25 @@ SUCCESSFUL_KEY: '¡Exitoso!'
 ERROR_MISSING_PERMISSION: '¡No tienes permiso para usar este comando!'
 EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Comando exclusivo
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  ¡Hola Viajero! **No está permitido** usar este comando aquí, ¡este comando solo se puede usar en un servidor!
+  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
 
-  Si deseas utilizar este comando, considera unirte a nuestro [Discord oficial](https://discord.gg/genshinwizard).
+  If you'd like use this command, consider joining our [Official Discord](https://genshinwizard.com/discord).
 ERROR_COMMAND_INVOKE: '¡Asegúrate de usar los parámetros correctos para este comando!'
 ERROR_PRIVACY_SETTING_TITLE: Oculto | ¡No hay nada que ver!
 ERROR_PRIVACY_SETTING_DESCRIPTION: '¡Hola Viajero! Lamentablemente, ¡la persona que intenta buscar tiene **configuraciones de privacidad** habilitadas!'
 ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | ¡Actualización en curso!
 ERROR_ONGOING_UPDATE_DESCRIPTION: '¡Hola, Viajero! Genshin Wizard está actualmente **en mantenimiento** y este comando ha sido *deshabilitado* por el momento. Por favor, inténtalo de nuevo más tarde*.'
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  ¡Hola Viajero! **No está permitido** usar este comando aquí, ¡este es un comando {command_type} *exclusivo* del servidor de Genshin Wizard!
+  Hey Traveler! You're **not allowed** to use this command here, this is a Genshin Wizard server {command_type}*exclusive* command!
 
-  Si deseas utilizar este comando, considera unirte a nuestro [Discord oficial](https://discord.gg/genshinwizard).
+  If you'd like use this command, consider joining our [Official Discord](https://genshinwizard.com/discord).
 ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
 ERROR_PREMIUM_COMMAND_DESCRIPTION: '¡Hola, viajero! **No estás permitido** usar este comando, ¡este comando solo está disponible para **suscriptores Premium**! Si te gustaría usar esta función, considera aprender más usando el comando </premium:{command_id}>.'
 ERROR_BLACKLISTED_TITLE: Genshin Wizard | Prohibido
 ERROR_BLACKLISTED_DESCRIPTION: |
-  ¡Hola, viajero! ¡Has sido **baneado** de usar Genshin Wizard!
+  Hey Traveler! You have been **banned** from using Genshin Wizard!
 
-  Si crees que esto es un error, considera unirte a nuestro [Discord Oficial](https://discord.gg/genshinwizard)
+  If you believe for this to be an error, consider joining our [Official Discord](https://genshinwizard.com/discord)
 ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Miembro no encontrado
 ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Asegúrate de que la persona que intentas ver sigue estando en el servidor.
 ERROR_MISSING_REQUIRED_ARGUMENT: "Olvidaste proporcionar un argumento, por favor utiliza el formato correcto: ```{usage}```"
@@ -415,8 +415,8 @@ HOYOLAB_INVALID_REDEEM: |
 CHINA_NOT_ALLOWED: El canje de códigos para usuarios de CN **no está soportado** por el momento.
 HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | Visión general de HoYoLAB
 HOYOLAB_LOADING_ACCOUNT: Cargando la información de la cuenta...
-HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> ¡Se produjo un error al recuperar la información de las **Notas en tiempo real** de tu cuenta! Por favor, inténtalo de nuevo *más tarde* o únete a nuestro [**Servidor de soporte oficial**](https://discord.gg/BTT5Zr7Dmp) para obtener ayuda.
-HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> ¡Se produjo un error al recuperar la información del **Registro del juego** de tu cuenta! Por favor, inténtalo de nuevo *más tarde* o únete a nuestro [**Servidor de soporte oficial**](https://discord.gg/BTT5Zr7Dmp) para obtener ayuda.
+HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Real-time Notes** information! Please try again *later* or join our [**Official Support Server**](https://genshinwizard.com/discord) for help.
+HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Game Record** information! Please try again *later* or join our [**Official Support Server**](https://genshinwizard.com/discord) for help.
 HOYOLAB_ACCOUNT_ERROR: '¡Se produjo un error al obtener la información de tu cuenta! Por favor, inténtalo de nuevo *más tarde*.'
 HOYOLAB_ACCOUNT_MANAGE: Gestiona tu cuenta de HoYoLAB a través de Genshin Wizard
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Resumen de personaje
@@ -693,7 +693,7 @@ UNLINK_EVERYTHING: Desvincular todo
 UNLINK_EVERYTHING_BRIEF: Este método desvinculará **todo** de Genshin Wizard.
 UNLINK_EVERYTHING_DESCRIPTION: Este método desvinculará todo de Genshin Wizard. Esta acción es **irreversible**. ¿Estás seguro de que quieres continuar?
 UNLINKING_CONFIRMATION: '¡Has desvinculado **correctamente** los datos solicitados de Genshin Wizard!'
-UID_REGISTERED_TO_ANOTHER_USER: "!"
+UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If this is a mistake and you are looking to *recover* your Genshin Wizard account, use the </recover:{command_id}> command. If you need further assistance, please contact [**Genshin Wizard Support**](https://genshinwizard.com/discord)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: ¡Ya estás **registrado** en un UID diferente! Si quieres registrarte con otra cuenta, utiliza </unlink:{command_id}> antes de intentar registrarte de nuevo."
 GENSHIN_WIZARD_REGISTRATION_TITLE: Registro de Genshin Wizard
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: Regístra tu cuenta de Genshin en Genshin Wizard.
@@ -731,7 +731,7 @@ SUCCESSFULLY_LINKED_HOYOLAB: |
 
   ¡Cuenta de HoYoLAB sincronizada con éxito! ¡Ahora puedes acceder al **menú de cuenta de HoYoLAB** utilizando el comando </hoyo:{command_id}>!
 REGISTRATION_FAILED: '¡Error de registro!'
-REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> ¡El registro de tu cuenta ha sido **infructuoso**! Por favor intenta de nuevo o contacta al [**equipo de soporte**](https://discord.gg/genshinwizard) si el problema persiste. Este problema se debe típicamente a una combinación de correo electrónico/contraseña inválida.
+REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> Registering your account was **unsuccessful**! Please try again or contact the [**support team**](https://genshinwizard.com/discord) if the issue persists. This issue is typically caused by an invalid email/password combination.
 INVALID_HOYOLAB_EMAIL_PROMPT: '¡Por favor ingrese una dirección de correo electrónico válida! Debes usar la dirección de correo electrónico que utilizas para iniciar sesión en tu cuenta de **HoYoLAB**.'
 HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | Registro de HoYoLAB
 HOYOLAB_REGISTRATION_DESCRIPTION: |
@@ -865,13 +865,11 @@ GENSHIN_WIZARD_SHOP_DESCRIPTION: |
 
   <:GreyPin:949815085335986246> **__TIENDA ACTUAL__ [ Precio | Artículo ]**
 SIMULATOR_NO_PRIMOGEMS: |
-  <:Error:1021889679857037372> ¡Hola Viajero, ya no tienes más **primogemas** para hoy! Necesitas al menos <:Primogem:951924423340994610>**1.600** primogemas para hacer *otro* tirón de diez. Para ver tu saldo actual, usa el comando **</balance:{balance_id}>**.
+  <:Error:1021889679857037372> Hey Traveler, you don't have anymore **primogems** for today! You need at least <:Primogem:951924423340994610>**1,600** primogems to do *another* ten pull. To view your current balance, use the **</balance:{balance_id}>** command.
 
-  **__¿Necesitas un relleno?__**
-  <:blurplelink:1020155547187691600> [**Vota por Genshin Wizard Bot [8.000 Primogemas]**](https://top.gg/bot/782099719718699009/vote)
-  <:blurplelink:1020155547187691600> [**Vota por el Servidor de Genshin Wizard [8.000 Primogemas]**](https://top.gg/servers/951370297582436392/vote)
-  <:blurplelink:1020155547187691600> **Usa el comando </commissions:{commission_id}>. [16.000 Primogemas]**
-  > <:GreyPin:949815085335986246> ¡Recompensas adicionales para **Aventureros** de la **[Genshin Wizard Guild](https://discord.gg/genshinwizard) [16.000 Primogemas]**
+  **__Need a Refill?__**
+  <:blurplelink:1020155547187691600> **Use the </commissions:{commission_id}> command. [16,000 Primogems]**
+  > <:GreyPin:949815085335986246> Extra rewards for **Adventurers** of the **[Genshin Wizard Guild](https://genshinwizard.com/discord) [16,000 Primogems]**
 WISH_RESULTS_DESCRIPTION: |
   **Resultados de deseo** <a:results:1020753234555584562>```glsl
   {rolls}```
@@ -885,8 +883,8 @@ WISH_RESULTS_DESCRIPTION: |
 NONE_KEY: Ninguno
 SIMULATOR_TITLE: Simulador de Gacha de Genshin Wizard
 SIMULATOR_ALREADY_CLAIMED: ":no_entry: ¡Ya has **__cobrado__** tus recompensas de comisión diarias hoy! Habrá nuevas comisiones <t:{time}:R>."
-COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> Como **Aventurero** de la [**Genshin Wizard Guild**](https://discord.gg/genshinwizard), has recibido una recompensa extra de **16,000 Primogemas** <:Primogem:951924423340994610> como resultado de expediciones en curso!"
-COMMISSION_ADVENTURER_REWARD_UNRECEIVED: "> <:GreyPin:949815085335986246> ¡Conviértete en un **Aventurero** de la [**Genshin Wizard Guild**](https://discord.gg/genshinwizard) para obtener recompensas adicionales al completar las comisiones diarias!"
+COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> As an **Adventurer** of the [**Genshin Wizard Guild**](https://genshinwizard.com/discord), you have been rewarded with an extra **16,000 Primogems** <:Primogem:951924423340994610> as a result of ongoing expeditions!"
+COMMISSION_ADVENTURER_REWARD_UNRECEIVED: "> <:GreyPin:949815085335986246> Become an **Adventurer** of the [**Genshin Wizard Guild**](https://genshinwizard.com/discord) to earn extra rewards when completing Daily Commissions!"
 COMMISSION_PREMIUM_EXTRA_REWARD: "> <a:mona_mora:1046611739774562374> As a **Premium Member** of [**Genshin Wizard**](https://genshinwizard.com/premium), you have been rewarded with an extra **{primogems} Primogems** <:Primogem:951924423340994610> as a result of your support!"
 COMMISSION_COMPLETE_MESSAGE: |
   <a:7094whitecheck:1020160260637462618> ¡Has completado con éxito tus comisiones diarias!
@@ -933,7 +931,7 @@ WEAPON_GUIDE_TITLE: Guía de armas | {weapon}
 ASSET_NOT_FOUND: ":no_entry: ¡No se han encontrado resultados para {asset}! Asegúrate de que existe un activo en el juego para el ID proporcionado"
 DEFAULT_SYNERGY_DESCRIPTION: Información sobre la composición del equipo y la sinergia de este personaje.
 GUIDES_SUGGESTION_TITLE: '¿Quieres sugerir cambios para esta guía en particular?'
-GUIDES_SUGGESTION_DESCRIPTION: '¡Únete al [**Discord Oficial**](https://discord.gg/BTT5Zr7Dmp) y ve al foro <:blurplelink:1020155547187691600> [**__Guides Discussion__**](https://discord.com/channels/951370297582436392/1007382105417854997) para sugerir cambios para esta guía!'
+GUIDES_SUGGESTION_DESCRIPTION: Join the [**Official Discord**](https://genshinwizard.com/discord) and head to the <:blurplelink:1020155547187691600> [**__Guides Discussion__**](https://discord.com/channels/951370297582436392/1007382105417854997) forum to suggest changes to this guide!
 JOIN_OFFICIAL_DISCORD: Únete al Discord oficial
 CHARACTER_GUIDE_OVERVIEW: Visión general de guías de personajes
 TALENT_BOOK_OVERVIEW: Visión general de libros de talento
@@ -1046,7 +1044,7 @@ PREMIUM_TIER_FOUR_PERKS: |
 PREMIUM_UNKNOWN_TIER: Nivel desconocido seleccionado
 PREMIUM_PLAN: Plan premium
 PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Servidor de Genshin Wizard [Rol personalizado]
-PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: Hola viajero, esta función de **rol personalizado** solo está disponible en el servidor de Discord oficial [**Genshin Wizard**](https://discord.gg/BTT5Zr7Dmp).
+PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: Hey Traveler, this **custom role** feature is only available in the official [**Genshin Wizard Discord Server**](https://genshinwizard.com/discord).
 PREMIUM_CUSTOM_ROLE_FOOTER: Ajustes de rol personalizado de Genshin Wizard
 PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> Hey Traveler, you must be a **Tier 1** or higher premium user to use this feature. Consider purchasing an [**__upgrade__**](https://genshinwizard.com/premium) to unlock this amazing feature.
 PREMIUM_ROLE_NAME_CHANGED: <:yescheck:1021114525858136074> Nombre de rol cambiado a **{name}**.
@@ -1884,3 +1882,4 @@ ACCOUNT_PREFERENCE_EVENT_TITLE: Account Preferences Updated
 AUTOCLAIM_EVENT_UNSUBSCRIBE_DESCRIPTION: "You have successfully **unsubscribed** from the auto-claim feature. You will no longer receive any notifications regarding auto-claim for the following account: **{uid}**."
 AUTOCLAIM_EVENT_DISABLE_DESCRIPTION: "You have successfully **disabled** the auto-claim feature. You will no longer receive any notifications regarding auto-claim for the following account: **{uid}**."
 STATS_MAX_FRIENDSHIP_COUNT_KEY: Max Friendship Characters
+PARTNER_ONLY_CONFIGURATION: Hey Traveler, this configuration is reserved for **partners** of Genshin Wizard. Please select a different role-integration to configure or consider partnering with our **[Discord Server](https://genshinwizard.com/discord)**!
