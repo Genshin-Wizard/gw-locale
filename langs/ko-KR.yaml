@@ -117,26 +117,25 @@ SUCCESSFUL_KEY: 성공했어!
 ERROR_MISSING_PERMISSION: 여행자, 지금 이 명령어를 실행할 권한이 없어!
 EXCLUSIVE_COMMAND_TITLE: 원신 위자드 | 특별 명령어
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  여행자! 여기서는 그 명령어를 **사용못해**. 이건 공식 서버에서만 사용할 수 있다구!
+  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
 
-  이 명령어를 사용하고 싶으면, 여기에 가입해줘! [원신 위자드 공식 디스코드](https://discord.gg/genshinwizard)
+  If you'd like use this command, consider joining our [Official Discord](https://genshinwizard.com/discord).
 ERROR_COMMAND_INVOKE: 여행자! 명령어 뒤에 정보를 올바르게 입력했는지 확인해줘!
 ERROR_PRIVACY_SETTING_TITLE: 숨겨진 정보 | 볼 수 있는게 없어!
 ERROR_PRIVACY_SETTING_DESCRIPTION: 여행자! 아쉽게도 이 여행자는 **공개설정**이 되어있지 않아서 검색을 할 수 없어!
 ERROR_ONGOING_UPDATE_TITLE: 원신 위자드 | 업데이트중이야!
 ERROR_ONGOING_UPDATE_DESCRIPTION: 여행자! 지금 원신 위자드가 **점검중**이야! 그래서 모든 명령어가 잠시 *비활성화* 되었을꺼야. 점검이 끝날 때 까지 조금만 기다려줘!
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  여행자! 아쉽게도 이 명령어는 **사용못해**. 이건 원신 위자드 서버 {command_type} *전용* 명령어야!
+  Hey Traveler! You're **not allowed** to use this command here, this is a Genshin Wizard server {command_type}*exclusive* command!
 
-  이 명령어를 사용하고 싶으면, 여기에 가입해줘! [원신 위자드 공식 디스코드](https://discord.gg/genshinwizard)
+  If you'd like use this command, consider joining our [Official Discord](https://genshinwizard.com/discord).
 ERROR_PREMIUM_COMMAND_TITLE: 원신 위자드 프리미엄
 ERROR_PREMIUM_COMMAND_DESCRIPTION: "여행자! 아쉽게도 이 명령어는 **사용못해**. 이건 **프리미엄 구독자**들을 위한 기능이야.\n자세한 내용은 </premium:{command_id}> 을 입력해서 확인해줘!"
 ERROR_BLACKLISTED_TITLE: 원신 위자드 | 블랙리스트
 ERROR_BLACKLISTED_DESCRIPTION: |
-  여행자! 여행자의 원신 위자드 사용이 **금지**되었어!
+  Hey Traveler! You have been **banned** from using Genshin Wizard!
 
-  여행자 생각에 오류인 것 같으면, 공식 서버에 가입해서 자세한 정보를 확인해봐!
-  [원신 위자드 공식 디스코드](https://discord.gg/genshinwizard)
+  If you believe for this to be an error, consider joining our [Official Discord](https://genshinwizard.com/discord)
 ERROR_MEMBER_NOT_FOUND_TITLE: 원신 위자드 | 맴버를 찾을 수 없어
 ERROR_MEMBER_NOT_FOUND_DESCRIPTION: 찾고 싶은 여행자가 이 서버에 있는지 한 번 더 확인해줄래?
 ERROR_MISSING_REQUIRED_ARGUMENT: "여행자, 추가로 입력해야 하는 값을 잊어버린 것 같아. 올바르게 입력해줘!: ```{usage}```"
@@ -415,8 +414,8 @@ HOYOLAB_INVALID_REDEEM: |
 CHINA_NOT_ALLOWED: 중국서버 사용자를 위한 리딤 코드 입력 기능은 아직 지원되지 않습니다.
 HOYOLAB_OVERVIEW_TITLE: 원신 위자드 | 호요랩 전적
 HOYOLAB_LOADING_ACCOUNT: 계정 정보 불러오는 중....
-HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> 계정의 **실시간 메모** 정보를 검색하는 동안 오류가 발생했습니다! *나중에* 다시 시도하거나 [**공식 지원 서버**](https://discord.gg/BTT5Zr7Dmp)에 가입하여 도움을 받으세요.
-HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> 계정의 **게임 기록** 정보를 검색하는 동안 오류가 발생했습니다! *나중에* 다시 시도하거나 [**공식 지원 서버**](https://discord.gg/BTT5Zr7Dmp)에 가입하여 도움을 받으세요.
+HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Real-time Notes** information! Please try again *later* or join our [**Official Support Server**](https://genshinwizard.com/discord) for help.
+HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Game Record** information! Please try again *later* or join our [**Official Support Server**](https://genshinwizard.com/discord) for help.
 HOYOLAB_ACCOUNT_ERROR: 여행자의 계정 정보를 가져오는데 오류가 발생했어! 조금 있다가 다시 시도해줄래?
 HOYOLAB_ACCOUNT_MANAGE: 원신 위자드로 여행자의 호요랩 계정을 관리해봐
 HOYOLAB_CHARACTER_SUMMARY_TITLE: 원신 위자드 |캐릭터 요약
@@ -705,7 +704,7 @@ UNLINK_EVERYTHING: 모두 연결 해제
 UNLINK_EVERYTHING_BRIEF: 이 방법은 Genshin Wizard에서 **모든 것**의 연결을 해제합니다.
 UNLINK_EVERYTHING_DESCRIPTION: 이 방법은 Genshin Wizard에서 모든 연결을 해제합니다. 이 작업은 **돌이킬 수 없습니다**. 정말로 계속하기를 원하십니까?
 UNLINKING_CONFIRMATION: Genshin Wizard에서 요청한 데이터를 **성공적으로 연결 해제**했습니다!
-UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: 이 UID 는 다른 여행자가  **이미 등록했어**! 혹시 여행자 본인의 계정을 *복구* 하고 싶다면, 다음 커맨드를 사용해봐 : </recover:{command_id}>. 도움이 더 필요하다면, 꼭 연락해줘! [**Genshin Wizard Support**](https://discord.gg/BTT5Zr7Dmp)!"
+UID_REGISTERED_TO_ANOTHER_USER: ":no_entry: This UID is **already registered** to another user! If this is a mistake and you are looking to *recover* your Genshin Wizard account, use the </recover:{command_id}> command. If you need further assistance, please contact [**Genshin Wizard Support**](https://genshinwizard.com/discord)!"
 USER_REGISTERED_TO_ANOTHER_UID: ":no_entry: 다른 UID에 **이미 등록**되었습니다! 다른 계정을 사용하여 등록하려면 다시 등록을 시도하기 전에 </unlink:{command_id}>를 사용하십시오."
 GENSHIN_WIZARD_REGISTRATION_TITLE: 원신 위자드 등륵하기
 GENSHIN_WIZARD_REGISTRATION_DESCRIPTION: 여행자의 정보를 원신 위자드에 등록해.
@@ -743,7 +742,7 @@ SUCCESSFULLY_LINKED_HOYOLAB: |
 
   호요랩 계정을 성공적으로 동기화했습니다! 이제 </hoyo:{command_id}> 명령을 사용하여 **호요랩 계정 메뉴**에 액세스할 수 있습니다!
 REGISTRATION_FAILED: 등록 실패!
-REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> 계정 등록이 **성공하지 못했습니다**! 다시 시도하거나 문제가 지속되면 [**지원팀**](https://discord.gg/genshinwizard)에 문의하세요. 이 문제는 일반적으로 잘못된 이메일/비밀번호 조합으로 인해 발생합니다.
+REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> Registering your account was **unsuccessful**! Please try again or contact the [**support team**](https://genshinwizard.com/discord) if the issue persists. This issue is typically caused by an invalid email/password combination.
 INVALID_HOYOLAB_EMAIL_PROMPT: 유효한 이메일 주소를 입력하세요! **호요랩** 계정에 로그인하는 데 사용하는 이메일 주소를 사용해야 합니다.
 HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | 호요랩 등록
 HOYOLAB_REGISTRATION_DESCRIPTION: |
@@ -877,13 +876,11 @@ GENSHIN_WIZARD_SHOP_DESCRIPTION: |
 
   <:GreyPin:949815085335986246> **__CURRENT SHOP__ [ 가격 | 아이템 ]**
 SIMULATOR_NO_PRIMOGEMS: |
-  <:Error:1021889679857037372> 안녕하세요, Traveler님, 오늘은 더 이상 **원석**가 없습니다! *다른* 10뽑기를 실행하려면 적어도 <:Primogem:951924423340994610>**1,600** 원석이 필요합니다. 현재 잔액을 보려면 **</balance:{balance_id}>** 명령을 사용하십시오.
+  <:Error:1021889679857037372> Hey Traveler, you don't have anymore **primogems** for today! You need at least <:Primogem:951924423340994610>**1,600** primogems to do *another* ten pull. To view your current balance, use the **</balance:{balance_id}>** command.
 
-  **__리필이 필요하세요?__**
-  <:blurplelink:1020155547187691600> [**Genshin Wizard Bot [8,000 Primogems]에 투표하세요**](https://top.gg/bot/782099719718699009/vote)
-  <:blurplelink:1020155547187691600> [**Genshin Wizard Server [8,000 Primogems]에 투표하세요**](https://top.gg/servers/951370297582436392/vote)
-  <:blurplelink:1020155547187691600> **</commissions:{commission_id}> 명령을 사용합니다. [16,000 원석]**
-  > <:GreyPin:949815085335986246> **[Genshin Wizard Guild](https://discord.gg/genshinwizard) [16,000 원석]**의 **Adventurers**를 위한 추가 보상
+  **__Need a Refill?__**
+  <:blurplelink:1020155547187691600> **Use the </commissions:{commission_id}> command. [16,000 Primogems]**
+  > <:GreyPin:949815085335986246> Extra rewards for **Adventurers** of the **[Genshin Wizard Guild](https://genshinwizard.com/discord) [16,000 Primogems]**
 WISH_RESULTS_DESCRIPTION: |
   **기원 결과** <a:results:1020753234555584562>```glsl
   {rolls}```
@@ -897,8 +894,8 @@ WISH_RESULTS_DESCRIPTION: |
 NONE_KEY: 없음
 SIMULATOR_TITLE: Genshin Wizard 기원 시뮬레이션
 SIMULATOR_ALREADY_CLAIMED: ":no_entry: 오늘 일일 커미션 보상을 **__이미 청구__**하셨습니다! 새로운 커미션이 있습니다 <t:{time}:R>."
-COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> [**Genshin Wizard Guild**](https://discord.gg/genshinwizard)의 **모험가**로서 추가로 **16,000 원석**를 보상으로 받았습니다. <:Primogem:951924423340994610> 지속적인 탐험의 결과!"
-COMMISSION_ADVENTURER_REWARD_UNRECEIVED: "> <:GreyPin:949815085335986246> [**Genshin Wizard Guild**](https://discord.gg/genshinwizard)의 **모험가**가 되어 일일 커미션 완료 시 추가 보상을 받으세요!"
+COMMISSION_ADVENTURER_REWARD_RECEIVED: "> <:GreyPin:949815085335986246> As an **Adventurer** of the [**Genshin Wizard Guild**](https://genshinwizard.com/discord), you have been rewarded with an extra **16,000 Primogems** <:Primogem:951924423340994610> as a result of ongoing expeditions!"
+COMMISSION_ADVENTURER_REWARD_UNRECEIVED: "> <:GreyPin:949815085335986246> Become an **Adventurer** of the [**Genshin Wizard Guild**](https://genshinwizard.com/discord) to earn extra rewards when completing Daily Commissions!"
 COMMISSION_PREMIUM_EXTRA_REWARD: "> <a:mona_mora:1046611739774562374> As a **Premium Member** of [**Genshin Wizard**](https://genshinwizard.com/premium), you have been rewarded with an extra **{primogems} Primogems** <:Primogem:951924423340994610> as a result of your support!"
 COMMISSION_COMPLETE_MESSAGE: |
   <a:7094whitecheck:1020160260637462618> 일일 출석체크를 **성공적으로** 완료했습니다!
@@ -945,7 +942,7 @@ WEAPON_GUIDE_TITLE: 무기 도움말 | {weapon}
 ASSET_NOT_FOUND: ":no_entry: {asset}에 대한 검색 결과가 없습니다! 제공된 ID에 대한 게임 내 에셋이 존재하는지 확인해보세요."
 DEFAULT_SYNERGY_DESCRIPTION: 해당 캐릭터의 팀 구성 및 시너지에 대한 정보입니다.
 GUIDES_SUGGESTION_TITLE: 이 특정 가이드에 대한 변경 사항을 제안하고 싶습니까?
-GUIDES_SUGGESTION_DESCRIPTION: '[**공식 Discord**](https://discord.gg/BTT5Zr7Dmp)에 가입하고 <:blurplelink:1020155547187691600> [**__가이드 토론__**](https://discord.com/channels/ 951370297582436392/1007382105417854997) 포럼에서 이 가이드에 대한 변경 사항을 제안하세요!'
+GUIDES_SUGGESTION_DESCRIPTION: Join the [**Official Discord**](https://genshinwizard.com/discord) and head to the <:blurplelink:1020155547187691600> [**__Guides Discussion__**](https://discord.com/channels/951370297582436392/1007382105417854997) forum to suggest changes to this guide!
 JOIN_OFFICIAL_DISCORD: 공식 디스코드에 가입하세요
 CHARACTER_GUIDE_OVERVIEW: 캐릭터 가이드 요약
 TALENT_BOOK_OVERVIEW: 특성책 요약
@@ -1058,7 +1055,7 @@ PREMIUM_TIER_FOUR_PERKS: |
 PREMIUM_UNKNOWN_TIER: 알수없는티어선택
 PREMIUM_PLAN: 프리미엄 플랜
 PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Genshin Wizard Server [커스텀역할]
-PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: 여행자님, 이 커스텀 역할 기능은 [**Genshin Wizard 디스코드 서버**](https://discord.gg/BTT5Zr7Dmp)에서만 사용 가능합니다.
+PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: Hey Traveler, this **custom role** feature is only available in the official [**Genshin Wizard Discord Server**](https://genshinwizard.com/discord).
 PREMIUM_CUSTOM_ROLE_FOOTER: Genshin Wizard 커스텀 역할 설정
 PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> Hey Traveler, you must be a **Tier 1** or higher premium user to use this feature. Consider purchasing an [**__upgrade__**](https://genshinwizard.com/premium) to unlock this amazing feature.
 PREMIUM_ROLE_NAME_CHANGED: <:yescheck:1021114525858136074> 역할 이름이 **{name}**로 변경되었습니다.
@@ -1897,3 +1894,4 @@ ACCOUNT_PREFERENCE_EVENT_TITLE: Account Preferences Updated
 AUTOCLAIM_EVENT_UNSUBSCRIBE_DESCRIPTION: "You have successfully **unsubscribed** from the auto-claim feature. You will no longer receive any notifications regarding auto-claim for the following account: **{uid}**."
 AUTOCLAIM_EVENT_DISABLE_DESCRIPTION: "You have successfully **disabled** the auto-claim feature. You will no longer receive any notifications regarding auto-claim for the following account: **{uid}**."
 STATS_MAX_FRIENDSHIP_COUNT_KEY: Max Friendship Characters
+PARTNER_ONLY_CONFIGURATION: Hey Traveler, this configuration is reserved for **partners** of Genshin Wizard. Please select a different role-integration to configure or consider partnering with our **[Discord Server](https://genshinwizard.com/discord)**!
