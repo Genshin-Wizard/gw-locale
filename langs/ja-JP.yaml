@@ -144,35 +144,35 @@ ERROR_MISSING_REQUIRED_ATTACHMENT: "添付ファイルが必要です。正し�
 ERROR_MISSING_MANAGE_MESSAGE: 旅人！このチャンネル・ギルドで `メッセージの管理` の権限がないみたいだぞ... 権限を有効にしてから、もう一度試してみてくれよな〜
 ERROR_MISSING_SEND_MESSAGE: 旅人！このチャンネル・ギルドで `メッセージを送信` の権限がないみたいだぞ... 権限を有効にしてから、もう一度試してみてくれよな〜
 MESSAGE_KEY: メッセージ
-ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
-ERROR_MESSAGE: There has been an error!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
+ERROR_EMPTY_BACKPACK: バッグになにもないみたいだ... </wishsimulator:{command_id}> を使っていっぱい祈願しような〜
+ERROR_INTERACTION_MISMATCH: 旅人！これはお前のじゃないみたいだ。もし自分で使いたかったら、{command} コマンドを使ってみるといいぞ！
+ERROR_MESSAGE: エラーが発生してしまいました！
+FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | フィードバック
+FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *あなたのフィードバックは無事開発者に送られました！*
 FEEDBACK_LOG_RESPONSE: |
-  > User: **{author_name}** | {author_mention}
-  > Discord ID: `{author_id}`
+  > ユーザー： **{author_name}** | {author_mention}
+  > Discord ID： `{author_id}`
 
-  **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </accounts:{command_id}> to link your account.
+  **フィードバック：** ```{feedback}```
+NO_HOYOLAB_LINKED: あなたのアカウントはまだ HoYoLAB アカウントに紐づいていないようです。 </accounts:{command_id}> から紐付けをしてください。
 OLD_HOYOLAB_LINKED: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
+  旅人！ちょっと不便かもだけど、この機能は旅人が `HoYoLAB` アカウントをオイラのところに登録したあとに追加されたんだ。
 
-  In order to use this button, you must unlink your HoYoLAB account through </accounts:{command_id}> and **relink** with the same command.
-CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Redemption
-CODE_REDEEM_DESCRIPTION: "*Please wait while we process your redemption code...*"
+  このボタンを使うには、一回 </accounts:{command_id}> でHoYoLABアカウントを解除して、同じコマンドでもう一度登録してみてくれよな！
+CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB 交換コード
+CODE_REDEEM_DESCRIPTION: "*入力された交換コードの処理の処理が完了するまで、お待ちください...*"
 CODE_REDEEM_PROGRESS: |
-  *Please wait while we process your redemption code...*
-  <a:loading:1015667958237900801> Attempting to redeem code `{code}`
-HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Expired Cookies
+  *交換コードの処理が完了するまで、お待ちください...*
+  <a:loading:1015667958237900801> コード `{code}` を交換しています...
+HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | 期限切れのCookie
 HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
-CODE_REDEEM_FAILURE: "*There was an error processing your redemption codes!*"
+CODE_REDEEM_SUCCESS: "*交換コードの処理が完了しました！*"
+CODE_REDEEM_FAILURE: "*交換コードの処理中に問題が発生しました！*"
 APP_COMMAND_INFO_DESCRIPTION: Shows builds for characters in the user's in-game showcase.
 APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in UIGF v4.0 format via direct message.
 APP_COMMAND_HISTORY_DESCRIPTION: View your Genshin account's wish history.
