@@ -47,31 +47,31 @@ AVATAR_KEY: アバター
 ARTIFACT_CRIT_VALUE_TITLE: 聖遺物会心スコア計算機
 TOTAL_CRIT_VALUE: 合計会心スコア
 TRUTH_COMMAND_RESPONSES:
-  - As I see it, yes.
+  - オイラは大丈夫だと思うぞ！
   - はい
-  - Positive.
-  - From my point of view, yes.
-  - Convinced.
-  - It is certain.
-  - It is decidedly so.
+  - 間違いないぞ！
+  - オイラが思うに... 大丈夫だな！
+  - 当たり前だよな！
+  - 当然だよな！
+  - そうに決まってるぞ！
   - Without a doubt.
-  - Most Likely.
+  - たぶんな！
   - Chances High.
-  - No.
-  - I think not.
-  - Negative.
-  - My sources say no.
-  - Not Convinced.
-  - Perhaps.
-  - Not Sure.
-  - Maybe.
-  - Who knows?
-  - I cannot predict now.
-  - I am tired. *proceeds with sleeping*
-  - Absolutely.
-TRUTH_COMMAND_TITLE: Paimon's Wisdom
-QUESTION_KEY: Question
-RESPONSE_KEY: Response
+  - だめそうだ...
+  - 無理じゃないか...？
+  - 否っ！
+  - とある情報筋によると... 無理。
+  - 考えられないぞ...
+  - かもな。
+  - なんとも言えないぞ...
+  - かもしれないぞ。
+  - それは誰にもわからないぞ...
+  - '？？わ、わかんないぞ・・・'
+  - 疲れちゃったぞ。(むにゃむにゃ...)
+  - 間違いないな！
+TRUTH_COMMAND_TITLE: 知恵のパイモン
+QUESTION_KEY: 質問
+RESPONSE_KEY: 回答
 PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
 PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
 PREFIX_TOO_SHORT: The prefix cannot be shorter than 1 character.
@@ -108,19 +108,19 @@ INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
 MENU_COOLDOWN_TITLE: メニューはクールダウン中です！
 BUTTON_COOLDOWN_TITLE: このボタンはクールダウン中です！
 COMMAND_COOLDOWN_TITLE: このコマンドはクールダウン中です。
-MENU_COOLDOWN_VALUE: You're clicking attributes too quickly! Try again in **{cooldown}** seconds.
+MENU_COOLDOWN_VALUE: クリックが速過ぎます！**{cooldown}**秒後にまたお試しください。
 CHARACTER_SHOWCASE_TITLE: Character Showcase
 ERROR_RATELIMIT: ユーザーは現在レート制限がかかっています。
 ERROR_COMMAND_COOLDOWN_VALUE: '{cooldown}秒後にもう一度このコマンドを使用してみてください。'
-ERROR_COMMAND_LONG_COOLDOWN_VALUE: Try using this command again in <t:{cooldown}:R>
-ERROR_KEY: Error!
-SUCCESSFUL_KEY: Successful!
+ERROR_COMMAND_LONG_COOLDOWN_VALUE: <t:{cooldown}:R>秒後にまたお試しください。
+ERROR_KEY: エラー！
+SUCCESSFUL_KEY: 成功！
 ERROR_MISSING_PERMISSION: このコマンドを使用する権限がありません！
 EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Exclusive Command
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
+  旅人！このコマンドはここじゃ使えないぞ、サーバー内で試してみてくれ！
 
-  If you'd like use this command, consider joining our [Official Discord](https://genshinwizard.com/discord).
+  このコマンドがどうしても使いたいなら、[公式Discord](https://genshinwizard.com/discord)に参加してみてくれよな〜
 ERROR_COMMAND_INVOKE: このコマンドに正しい引数を使用していることを確認してください！
 ERROR_PRIVACY_SETTING_TITLE: Hidden | Nothing to see!
 ERROR_PRIVACY_SETTING_DESCRIPTION: こんにちは、トラベラー！残念ながら、検索しようとしている人は **プライバシー設定**を有効にしています！
@@ -146,7 +146,7 @@ ERROR_MISSING_SEND_MESSAGE: 旅人！このチャンネル・ギルドで `メ�
 MESSAGE_KEY: メッセージ
 ERROR_EMPTY_BACKPACK: バッグになにもないみたいだ... </wishsimulator:{command_id}> を使っていっぱい祈願しような〜
 ERROR_INTERACTION_MISMATCH: 旅人！これはお前のじゃないみたいだ。もし自分で使いたかったら、{command} コマンドを使ってみるといいぞ！
-ERROR_MESSAGE: エラーが発生してしまいました！
+ERROR_MESSAGE: エラーが発生しました！
 FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | フィードバック
 FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *あなたのフィードバックは無事開発者に送られました！*
 FEEDBACK_LOG_RESPONSE: |
@@ -155,10 +155,6 @@ FEEDBACK_LOG_RESPONSE: |
 
   **フィードバック：** ```{feedback}```
 NO_HOYOLAB_LINKED: あなたのアカウントはまだ HoYoLAB アカウントに紐づいていないようです。 </accounts:{command_id}> から紐付けをしてください。
-OLD_HOYOLAB_LINKED: |
-  旅人！ちょっと不便かもだけど、この機能は旅人が `HoYoLAB` アカウントをオイラのところに登録したあとに追加されたんだ。
-
-  このボタンを使うには、一回 </accounts:{command_id}> でHoYoLABアカウントを解除して、同じコマンドでもう一度登録してみてくれよな！
 CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB 交換コード
 CODE_REDEEM_DESCRIPTION: "*入力された交換コードの処理の処理が完了するまで、お待ちください...*"
 CODE_REDEEM_PROGRESS: |
@@ -279,7 +275,7 @@ INVALID_ARGUMENT_PASSED: |
 INFO_COMMAND_ENKA_ISSUE: There seems to be an issue with [**Enka.Network**](https://enka.network/u/{uid}). Please try again later.
 ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
-WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
+WHAT_HAPPENED_VALUE: この問題が発生する最も一般的な原因は、検索しようとしている原神アカウントが公開設定になっていないことです。解決するには、原神内のプロフィールで「キャラ詳細表示」を有効にしてください。参考までに以下の画像をご覧ください。
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
 INFO_COMMAND_SHOWCASE_TITLE: Character Showcase
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
@@ -742,7 +738,7 @@ SUCCESSFULLY_LINKED_HOYOLAB: |
 
   Successfully synced your HoYoLAB account! You can now access the **HoYoLAB account menu** by using the command </hoyo:{command_id}>!
 REGISTRATION_FAILED: Registration Failed!
-REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> Registering your account was **unsuccessful**! Please try again or contact the [**support team**](https://genshinwizard.com/discord) if the issue persists. This issue is typically caused by an invalid email/password combination.
+REGISTRATION_FAILED_DESCRIPTION: アカウントの登録に失敗したみたいだ... もしこれが続くようなら、**[Genshin Wizardのサポートチーム]**(https://genshinwizard.com/support)に連絡してみてくれよな。この問題はEメール、パスワードの間違いで起こることがあるぞ！
 INVALID_HOYOLAB_EMAIL_PROMPT: Please enter a valid email address! You must use the email address you use to login to your **HoYoLAB** account.
 HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | HoYoLAB Registration
 HOYOLAB_REGISTRATION_DESCRIPTION: |
@@ -852,9 +848,9 @@ ONSLAUGHT_CONGRATULATE_MESSAGE: |
   {dire_emoji} <@&{role_id}> Role Given <a:check:956327345717907507>
 ABYSS_COMMAND_STATISTICS_CREDIT: User {name}'s Spiral Abyss Stats
 CURRENT_LUNAR_PHASE_DESCRIPTION: |
-  **Current Lunar Phase**
-  **Start Time:** {start}
-  **End Time:** {end}
+  **今期の淵月螺旋**
+  **開始時刻:** {start}
+  **終了時刻:** {end}
 MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard is missing permissions to `Manage Roles`. Please enable this permission and try again."
 ROLE_NOT_FOUND: ":no_entry: There was an error retrieving the role. Please make sure the role information under this integration is correct."
 GENSHIN_STATS_HEADER: "{name}'s Genshin Stats"
@@ -1066,7 +1062,7 @@ PREMIUM_CUSTOM_ROLE_TITLE: "{user}'s Custom Role"
 PREMIUM_ROLE_CREATED: "<:yescheck:1021114525858136074> Successfully created custom role ({role}). Please use the buttons below to change your unique role's name and color."
 PREMIUM_CUSTOM_ROLE_UNCLAIMED: <:Error:1021889679857037372> Hey Traveler, you don't have a custom role set up yet. Please create one first.
 PREMIUM_CUSTOM_ROLE_DELETED: <:yescheck:1021114525858136074> Your custom role has been successfully deleted.
-PREMIUM_CUSTOM_ROLE_INFORMATION: <:information:1034639378410115103> Hey Traveler, as a **premium subscriber** of Genshin Wizard, you'll have *exclusive* access to a custom role! You can change the name and color of your role at any time. You can also delete your custom role at any time. If you have any questions, please contact the **__support team__**.
+PREMIUM_CUSTOM_ROLE_INFORMATION: 旅人！Genshin Wizardの**プレミアム会員**として、カスタムロールへの*限定*アクセス権を獲得できるぞ。ロール名や色はいつでも変更可能で、カスタムロールはいつでも削除できるんだ。何か質問があったら、サポートチームに連絡してみてくれよな。
 PREMIUM_SERVER_MAXIMUM_REACHED: Hey Traveler, you've reached the maximum amount of premium servers you can add. You can only add up to **{servers}** premium servers with your current subscription.
 PREMIUM_NO_SERVERS_SELECTED: <:Error:1021889679857037372> Hey Traveler, you haven't **selected** any servers to delete.
 PREMIUM_SERVER_REMOVED: Hey Traveler, you've successfully **removed** the selected servers.
@@ -1163,7 +1159,7 @@ CHESTS_KEY: Chests
 ACHIVEMENTS_KEY: Achievements
 CHARACTER_STATISTICS_KEY: Character Stats
 ARTIFACT_SUBSTAT_KEY: Artifact Substats
-ABYSS_STATISTICS_KEY: Spiral Abyss Statistics
+ABYSS_STATISTICS_KEY: 深境螺旋戦績
 GACHA_SIMULATOR_KEY: Gacha Simulator
 ACTIVE_PLAYTIME_KEY: Active Playtime
 WISHES_KEY: Wishes
@@ -1215,14 +1211,14 @@ NEXT_BUTTON: Next
 GENERATE_IMAGE_BUTTON: Generate Image
 GENERATE_EXPLORATION_BUTTON: Export Exploration Progression
 SETTINGS_BUTTON: Settings
-ANEMO_KEY: Anemo
-CRYO_KEY: Cryo
-DENDRO_KEY: Dendro
-ELECTRO_KEY: Electro
-GEO_KEY: Geo
-HYDRO_KEY: Hydro
-PYRO_KEY: Pyro
-RESET_SETTINGS_BUTTON: Reset Settings
+ANEMO_KEY: 風
+CRYO_KEY: 氷
+DENDRO_KEY: 草
+ELECTRO_KEY: 雷
+GEO_KEY: 岩
+HYDRO_KEY: 水
+PYRO_KEY: 炎
+RESET_SETTINGS_BUTTON: 設定をリセット
 MASTER_PRIVACY_BUTTON: Master Privacy
 UPDATE_BANNER_MODAL_TITLE: Update Banner
 UPDATE_BANNER_MODAL_URL_INPUT: Link to desired image for banner
@@ -1234,15 +1230,15 @@ SELECT_CHOOSE_CATEGORY: Choose a category...
 PROFILE_KEY: Profile
 PROFILE_DESCRIPTION: View your Genshin Wizard profile
 GENSHIN_STATISTICS_KEY: Genshin Stats
-GENSHIN_STATISTICS_DESCRIPTION: View your Genshin stats
-SPIRAL_ABYSS_STATISTICS_KEY: Spiral Abyss Stats
-SPIRAL_ABYSS_STATISTICS_DESCRIPTION: View your Spiral Abyss progression stats
-COPY_UID_KEY: Copy UID
-CURRENT_ABYSS_PHASE: Current Abyssal Phase
-CURRENT_ABYSS_PHASE_DESCRIPTION: View Current Abyssal Stats Progression
-PREVIOUS_ABYSS_PHASE: Previous Abyssal Phase
-PREVIOUS_ABYSS_PHASE_DESCRIPTION: View Previous Abyssal Stats Progression
-ENTER_LINK_BUTTON: Enter link
+GENSHIN_STATISTICS_DESCRIPTION: 原神ステータスを確認
+SPIRAL_ABYSS_STATISTICS_KEY: 深境螺旋戦績
+SPIRAL_ABYSS_STATISTICS_DESCRIPTION: 深境螺旋の戦績を確認
+COPY_UID_KEY: UIDをコピー
+CURRENT_ABYSS_PHASE: 今期
+CURRENT_ABYSS_PHASE_DESCRIPTION: 今期の深境螺旋の戦績を確認
+PREVIOUS_ABYSS_PHASE: 前期
+PREVIOUS_ABYSS_PHASE_DESCRIPTION: 前期の深境螺旋の戦績を確認
+ENTER_LINK_BUTTON: リンクを入力
 LINK_UID_MODAL_TITLE: Link UID
 LINK_UID_MODAL_LABEL: Genshin Impact UID
 LINK_UID_MODAL_PLACEHOLDER: Insert your Genshin Impact UID
@@ -1258,7 +1254,7 @@ PARAMETRIC_TRANSFORMER_KEY: Parametric Transformer
 CLEAR_ALL_REMINDERS_BUTTON: Clear All Reminders
 CLEAR_REMINDER_BUTTON: Clear {reminder_type} Reminders
 SET_REMINDER_KEY: Set Reminder
-RESIN_THRESHOLD_MODAL_TITLE: Enter resin amount
+RESIN_THRESHOLD_MODAL_TITLE: 樹脂の数を入力
 RESIN_THRESHOLD_LABEL: Resin Threshold
 RESIN_THRESHOLD_DESCRIPTION: Enter the amount of resin you want to be reminded at...
 NOVICE_WISH_SUMMARY: View your wish summary for the Novice banner.
@@ -1276,11 +1272,11 @@ SHOW_OWNED_KEY: Show Owned
 SHOP_BUTTON_LABEL: "{primogem_price} Primogems"
 REROLL_WISHES_BUTTON: Reroll Wishes
 VIEW_INVENTORY_BUTTON: View Inventory
-REGION_SELECT_PLACEHOLDER: Select a region...
+REGION_SELECT_PLACEHOLDER: 地域を選択…
 AMERICA_KEY: America
 EUROPE_KEY: Europe
 ASIA_KEY: Asia
-SAR_KEY: SAR
+SAR_KEY: TW, HK, MO
 AMERICA_SERVER_DOMAIN_SCHEDULE: View current Domain Schedule for America servers.
 EUROPE_SERVER_DOMAIN_SCHEDULE: View current Domain Schedule for Europe servers.
 ASIA_SERVER_DOMAIN_SCHEDULE: View current Domain Schedule for Asia servers.
@@ -1399,20 +1395,20 @@ HELP_GUIDE_COG_NAME: Guides
 HELP_MISC_COG_NAME: Miscellaneous
 CHOOSE_ELEMENT_DROPDOWN: Choose an element...
 CHOOSE_LANGUAGE_DROPDOWN: Choose a language...
-CURRENT_LANGUAGE_KEY: Current Language
+CURRENT_LANGUAGE_KEY: 現在の言語
 CROWDIN_KEY: Crowdin
-CROWDIN_LINK_KEY: Crowdin Link
+CROWDIN_LINK_KEY: Crowdinのリンク
 OFFICIAL_REPOSITORY_KEY: Official Repository
 OFFICIAL_REPOSITORY_LINK_KEY: Official Repository Link
 GENSHIN_WIZARD_TRANSLATE_TITLE: Contribute to Genshin Wizard Translations
-GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: Click one of the links below to contribute to Genshin Wizard translations!
-APP_COMMAND_LANGUAGE_DESCRIPTION: Change your language for Genshin Wizard.
+GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: 下記のリンクをクリックして、Genshin Wizardの翻訳に貢献しよう！
+APP_COMMAND_LANGUAGE_DESCRIPTION: Genshin Wizardの言語を選択
 APP_COMMAND_DESCRIBE_LANGUAGE: The language you want Genshin Wizard to be set to.
 GENSHIN_WIZARD_LANGUAGE_SWITCHED: Default language for Genshin Wizard switched to **{language}**!
 GENSHIN_WIZARD_CURRENT_LANGUAGE: Your current language for Genshin Wizard is **{language}**!
 ABYSS_FLOOR_PROGRESSION: "Current Progression: **{stars}/9** {bounty_status}"
-ABYSS_FLOOR_AUTHOR: Floor {floor} • Spiral Abyss Progression
-ABYSS_FLOOR_LABEL: Floor {floor}
+ABYSS_FLOOR_AUTHOR: 第{floor}層 • 深境螺旋戦績
+ABYSS_FLOOR_LABEL: 第{floor}層
 APP_COMMAND_ABYSS_ENEMY_DESCRIPTION: View abyss-enemy information for Spiral Abyss.
 ABYSS_ENEMY_NOT_ONGOING: There is currently no ongoing Spiral Abyss challenges.
 ABYSS_ENEMY_TITLE: Spiral Abyss Enemy Information
@@ -1480,98 +1476,98 @@ FOUR_STAR_COUNT: "Four Stars: {four_star_count}"
 GACHA_DATA_NOT_REAL: "*This data is not real."
 INVENTORY_KEY: Inventory
 CHARACTER_SUMMARY_KEY: Character Summary
-UNKNOWN_ADVENTURE_RANK: "Adventure Rank: N/A"
-ADVENTURE_RANK_VALUE: "Adventure Rank: {adventure_rank}"
-SERVER_KEY_VALUE: "Server: {server}"
+UNKNOWN_ADVENTURE_RANK: "冒険ランク：不明"
+ADVENTURE_RANK_VALUE: "冒険ランク：{adventure_rank}"
+SERVER_KEY_VALUE: "サーバー：{server}"
 UID_KEY_VALUE: "UID: {uid}"
-HOYO_API_LIMITATION: "*Data may be inaccurate due to HoYoLAB API limitations"
-CHECK_IN_GAME: "See in-game for the most accurate information"
-HOYO_COMMISSION_KEY: "Commissions:"
-HOYO_ADVENTURE_RANK_KEY: "Adventure Rank:"
-HOYO_DAILY_BONUS_STATUS: "Daily Sign-In:"
-HOYO_RESIN_KEY: "Resin:"
-HOYO_TEAPOT_KEY: "Teapot:"
-HOYO_TRANSFORMER_KEY: "P. Transformer:"
+HOYO_API_LIMITATION: "*HoYoLABのAPI制限により、データが不正確な場合があります"
+CHECK_IN_GAME: "正確な情報はゲーム内を確認してください"
+HOYO_COMMISSION_KEY: "デイリー依頼："
+HOYO_ADVENTURE_RANK_KEY: "冒険ランク："
+HOYO_DAILY_BONUS_STATUS: "デイリーログイン："
+HOYO_RESIN_KEY: "天然樹脂："
+HOYO_TEAPOT_KEY: "洞天宝銭："
+HOYO_TRANSFORMER_KEY: "参量物質変化器："
 TRANSFORMER_READY_KEY: Ready
 TRANSFORMER_LOCKED_KEY: Locked
 GENSHIN_STATS_KEY: Genshin Stats
 STATS_TOTAL_ACHIEVEMENTS_KEY: "Achievements"
 STATS_TOTAL_ACTIVE_DAYS_KEY: "Total Active Days"
 STATS_TOTAL_CHARACTERS_KEY: "Characters"
-STATS_SPIRAL_ABYSS_KEY: "Spiral Abyss"
+STATS_SPIRAL_ABYSS_KEY: "深境螺旋"
 STATS_IMAGINARIUM_THEATER_KEY: "Imaginarium Theater"
-STATS_STYGIAN_ONSLAUGHT_KEY: "Stygian Onslaught"
-STATS_REGION_KEY: "Region"
-STATS_WAYPOINTS_KEY: "Waypoints"
-STATS_DOMAINS_KEY: "Domains"
-ANEMOCULUS_KEY: Anemoculus
-GEOCULUS_KEY: Geoculus
-ELECTROCULUS_KEY: Electroculus
-DENDROCULUS_KEY: Dendroculus
-TRUST_RANK_KEY: Trust Rank
-ADEPTAL_ENERGY_KEY: Adeptal Energy
-ITEMS_KEY: Items
-TOTAL_ISLANDS_KEY: Total Islands
-TOTAL_PULLS_KEY: Total Pulls
-WISH_STATISTICS_KEY: Wish Statistics
-PERCENT_KEY: Percent
-FIVE_STAR_KEY: 5-Star
-FOUR_STAR_KEY: 4-Star
-THREE_STAR_KEY: 3-Star
-BOTTOM_KEY: Bottom
-TOP_KEY: Top
-WISH_STAT_LESS_THAN: "Less pulls than {global_percentile}% of Genshin Wizard Users."
-WISH_STAT_MORE_THAN: "More pulls than {global_percentile}% of Genshin Wizard Users."
-FIVE_STAR_LUCK: "5-Star Luck"
-FOUR_STAR_LUCK: "4-Star Luck"
-THREE_STAR_LUCK: "3-Star Luck"
-WISH_LUCK_LESS: "Less lucky than {rarity_percentile}% of Genshin Wizard Users."
-WISH_LUCK_MORE: "Luckier than {rarity_percentile}% of Genshin Wizard Users."
-CURRENT_LUNAR_PHASE: Current Lunar Phase
-PREVIOUS_LUNAR_PHASE: Previous Lunar Phase
+STATS_STYGIAN_ONSLAUGHT_KEY: "幽境の激戦"
+STATS_REGION_KEY: "地域"
+STATS_WAYPOINTS_KEY: "ワープポイント"
+STATS_DOMAINS_KEY: "秘境"
+ANEMOCULUS_KEY: 失われた風神の瞳
+GEOCULUS_KEY: 失われた岩神の瞳
+ELECTROCULUS_KEY: 失われた雷神の瞳
+DENDROCULUS_KEY: 失われた草神の瞳
+TRUST_RANK_KEY: 信頼ランク
+ADEPTAL_ENERGY_KEY: 最高洞天仙力
+ITEMS_KEY: 調度品の総数
+TOTAL_ISLANDS_KEY: 島数
+TOTAL_PULLS_KEY: 総祈願数
+WISH_STATISTICS_KEY: 祈願統計
+PERCENT_KEY: 確率
+FIVE_STAR_KEY: 星5
+FOUR_STAR_KEY: 星4
+THREE_STAR_KEY: 星3
+BOTTOM_KEY: 下位
+TOP_KEY: 上位
+WISH_STAT_LESS_THAN: "Genshin Wizardユーザーの{global_percentile}%よりも少ない祈願数です。"
+WISH_STAT_MORE_THAN: "Genshin Wizardユーザーの{global_percentile}%よりも多い祈願数です。"
+FIVE_STAR_LUCK: "星5引き運"
+FOUR_STAR_LUCK: "星4引き運"
+THREE_STAR_LUCK: "星3引き運"
+WISH_LUCK_LESS: "Genshin Wizardユーザーの{rarity_percentile}％よりも運が悪いようです。"
+WISH_LUCK_MORE: "Genshin Wizardユーザーの{rarity_percentile}%より運が良いようです。"
+CURRENT_LUNAR_PHASE: 今期の淵月螺旋
+PREVIOUS_LUNAR_PHASE: 前期の淵月螺旋
 ABYSSAL_ARCHIVES: Abyssal Archives
 ELEMENTAL_SKILLS_CAST_LABEL: Elemental Skills Cast
 ELEMENTAL_BURSTS_UNLEASHED_LABEL: Elemental Bursts Unleashed
 STRONGEST_SINGLE_STRIKE_LABEL: Strongest Single Strike
-ACCOUNT_INFO_KEY: Account Info
+ACCOUNT_INFO_KEY: アカウント情報
 CLASSIFIED_KEY: Classified
-INFORMATION_KEY: Information
-FROM_DIARY_NOTE: "-from {nickname}"
-TRAVELER_DIARY_KEY: Traveler's Diary
-NICKNAME_KEY_VALUE: "Nickname: {nickname}"
-DIARY_MONTH_OF_KEY: "Month of"
-ACQUIRED_MONTH_KEY: Acquired this month
-TOTAL_MORA_KEY: Total Mora
-DIARY_MONTHLY_DESCRIPTION: "This month, your primary source for obtaining Primogems is through {source}, for a total of {primogem_count} Primogems, or {top_percentage}% of your total!"
-DIARY_DAILY_DESCRIPTION: Hey Traveler! You have earned {primogems} Primogems and {mora} Mora today, what a bountiful day!
-TOTAL_PRIMOGEMS_OBTAINED: Primogems Obtained
-DIARY_DATA_DELAYED: "*This data is delayed by about one hour, please check the updated records later"
-DIARY_DATA_SOURCE_DESCRIPTION: "*This diary only includes the resources obtained outside of top-ups"
-REGION_EXPLORATION_STATUS: "Exploration Progress: {percentage}%"
+INFORMATION_KEY: 情報
+FROM_DIARY_NOTE: "- {nickname} より"
+TRAVELER_DIARY_KEY: 旅人手帳
+NICKNAME_KEY_VALUE: "ニックネーム：{nickname}"
+DIARY_MONTH_OF_KEY: "記録対象："
+ACQUIRED_MONTH_KEY: 今月の収穫
+TOTAL_MORA_KEY: モラ
+DIARY_MONTHLY_DESCRIPTION: "今月、原石獲得源の一位は{source}となり、合計で原石x{primogem_count}を獲得した。総獲得数の{top_percentage}%を占めている。"
+DIARY_DAILY_DESCRIPTION: 今日は原石×{primogems}とモラ×{mora}を手に入れた、充実した一日だね
+TOTAL_PRIMOGEMS_OBTAINED: 原石パーセント
+DIARY_DATA_DELAYED: "*データには約1時間の遅延があります。最新のデータは後ほどご確認ください。"
+DIARY_DATA_SOURCE_DESCRIPTION: "*手帳はチャージ以外で入手した資源のみをカウントします。"
+REGION_EXPLORATION_STATUS: "探索度： {percentage}%"
 CHARACTER_CARDS_STATUS: "Character Cards: {owned_cards}/{total_cards}"
 ACTION_CARDS_STATUS: "Action Cards: {owned_cards}/{total_cards}"
 UID_HIDDEN_KEY: "UID Hidden"
 NO_CRIT_VALUE_KEY: "No Crit Value"
 NO_CRIT_VALUE_FOUND: "No CRIT Value Found"
-FRIENDSHIP_LEVEL_KEY: "Friendship Lv. {friendship_level}"
+FRIENDSHIP_LEVEL_KEY: "好感度 Lv. {friendship_level}"
 ARTIST_CREDIT_STRING: Character Artist Credits
 CUSTOM_ARTWORK_STRING: Custom Artwork
 CHARACTER_LEVEL_KEY: "Lv. {level}"
-CHAMBER_KEY_VALUE: "Chamber {chamber}"
-MORA_PREVIOUS: "Previous Month's Mora: {mora}"
-PRIMOGEM_PREVIOUS: "Previous Month's Primogems: {primogems}"
-SUMMARY_KEY: Summary
-DEEPEST_DESCENT: Deepest Descent
-BATTLES_FOUGHT: Battles Fought
-ABYSS_STARS_COLLECTED: Abyss Stars Collected
-ADVENTURE_RANK: Adventure Rank
-DAMAGE_BREAKDOWN: Damage Breakdown
-MOST_USED_CHARACTERS: Most Used Characters
-ABYSS_IMAGE_TITLE: Spiral Abyss Statistics
+CHAMBER_KEY_VALUE: "第{chamber}層"
+MORA_PREVIOUS: "先月の獲得モラ: {mora}"
+PRIMOGEM_PREVIOUS: "先月の獲得原石: {primogems}"
+SUMMARY_KEY: 概要
+DEEPEST_DESCENT: 深境螺旋
+BATTLES_FOUGHT: 戦闘勝利数
+ABYSS_STARS_COLLECTED: 獲得した淵星
+ADVENTURE_RANK: 冒険ランク
+DAMAGE_BREAKDOWN: 戦闘データ
+MOST_USED_CHARACTERS: 最多使用キャラ
+ABYSS_IMAGE_TITLE: 深境螺旋戦績
 ABYSS_FLOOR_COMPLETION: Abyss Floor Completion
-WORLD_LEVEL_KEY: World Level
+WORLD_LEVEL_KEY: 世界ランク
 PROFILE_SHOWCASE_TITLE: Genshin Wizard Profile Showcase
-ADVENTURE_RANK_KEY: Adventure Rank
+ADVENTURE_RANK_KEY: 冒険ランク
 HIDE_WEAPON_KEY: Hide Weapon Details
 SHOW_WEAPON_KEY: Show Weapon Details
 ONGOING_KEY: Ongoing
@@ -1579,38 +1575,38 @@ FINISHED_KEY: Finished
 VENTURA_ART_SETTING: Ventura Layout
 TITLE_KEY: Title
 AFFILIATION_KEY: Affiliation
-ELEMENT_KEY: Element Type
-CONSTELLATION_KEY: Constellation
-WEAPON_TYPE_KEY: Weapon Type
-RARITY_KEY: Rarity
+ELEMENT_KEY: 元素タイプ
+CONSTELLATION_KEY: 命ノ星座
+WEAPON_TYPE_KEY: 武器タイプ
+RARITY_KEY: レアリティ
 CHARACTER_GUIDE_FOOTER: "Character Guide • {guide_type}: {character_name}"
 DEFAULT_ASCENSION_DESCRIPTION: Information regarding this character's ascension information.
 READY_TO_CLAIM: Ready to Claim
-STATUS_KEY: Status
-TIME_LEFT_KEY: Time Left
-TEAM_SYNERGY_TITLE: Team Synergies & Compositions
-FOUR_STAR_CHARACTER: Four Star Character
-FIVE_STAR_CHARACTER: Five Star Character
-CHARACTER_ART_INFO: Art By {artist}
-ARTIFACT_SET_KEY: Artifact Set
-TWO_PIECE_BONUS: 2-piece Set Bonus
-FOUR_PIECE_BONUS: 4-piece Set Bonus
-WEAPON_CATALYST: Catalyst
-WEAPON_BOW: Bow
-WEAPON_CLAYMORE: Claymore
-WEAPON_POLE: Polearm
-WEAPON_SWORD_ONE_HAND: Sword
+STATUS_KEY: ステータス
+TIME_LEFT_KEY: 残り時間
+TEAM_SYNERGY_TITLE: チーム編成候補
+FOUR_STAR_CHARACTER: 星4キャラ
+FIVE_STAR_CHARACTER: 星5キャラ
+CHARACTER_ART_INFO: '画像提供: {artist}'
+ARTIFACT_SET_KEY: 聖遺物セット
+TWO_PIECE_BONUS: 2セット効果
+FOUR_PIECE_BONUS: 4セット効果
+WEAPON_CATALYST: 法器
+WEAPON_BOW: 弓
+WEAPON_CLAYMORE: 両手剣
+WEAPON_POLE: 長柄武器
+WEAPON_SWORD_ONE_HAND: 片手剣
 GUIDE_LIST_FOOTER: Use the /guide <character> command to view a character's guide!
 NO_BANNERS_ERROR: There are **no event banners** currently running.
-APP_COMMAND_FURNITURE_DESCRIPTION: Look up information on a specific piece of furniture in Genshin Impact.
-APP_COMMAND_DESCRIBE_FURNITURE: The name of the furnishing you want to look-up.
-COMFORT_KEY: Comfort
-LOAD_KEY: Load
-CREATION_TIME_KEY: Creation Time
-TRUST_KEY: Trust
-FURNISHING_DETAILS_KEY: Furnishing Details
-INGREDIENTS_KEY: Ingredients
-SOURCE_KEY: Source
+APP_COMMAND_FURNITURE_DESCRIPTION: 原神内の調度品に関する情報を表示します。
+APP_COMMAND_DESCRIBE_FURNITURE: 検索したい調度品の名前
+COMFORT_KEY: 洞天仙力
+LOAD_KEY: 負荷
+CREATION_TIME_KEY: 制作必要時間
+TRUST_KEY: 信頼値
+FURNISHING_DETAILS_KEY: 調度品概要
+INGREDIENTS_KEY: 消費素材
+SOURCE_KEY: 入手方法
 APP_COMMAND_MATERIAL_DESCRIPTION: Look up information on a specific material in Genshin Impact.
 APP_COMMAND_DESCRIBE_MATERIAL: The name of the material you want to look-up.
 APP_COMMAND_NAMECARD_DESCRIPTION: Look up information on a specific namecard in Genshin Impact.
@@ -1639,45 +1635,45 @@ INVOKATION_SHOWCASE: "Card Showcase"
 INVOKATION_SUMMARY: "Trading Card Summary"
 DAILY_ALREADY_CLAIMED: You have already claimed your daily reward.
 UNABLE_TO_CLAIM: Unable to claim your daily reward.
-COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </accounts:{command_id}> to register.
-INVALID_COOKIE_KEY: Invalid Cookie
+COOKIE_RESET_MESSAGE: 原神アカウントのパスワードをリセットすると、Cookieが**リセット**されます。このコマンドを使用するには、HoYoLABアカウントの**再認証**が必要です。再認証にはコマンド</reauthenticate:{command_id}>を使用してください。
+INVALID_COOKIE_KEY: 無効なCookie
 TEST_NOTIFICATION_KEY: Test Notification
 TEST_NOTIFICATION_TITLE: Genshin Wizard | Notification Test
 TEST_NOTIFICATION_SUCCESS: This is a test notification to see if you're able to receive notifications from me! If you're able to see this, then you're good to go!
 TEST_NOTIFICATION_FAILURE: Hey Traveler, I was unable to send you a private message. Please make sure your message box is open and try again!
 GAME_SELECT_PLACEHOLDER: Select a game to view...
-GENSHIN_GAME_KEY: Genshin Impact
-HONKAI_GAME_KEY: Honkai Impact 3rd
-STARRAIL_GAME_KEY: Star Rail
-CLAIM_DAILY_REWARD_MESSAGE: Claim your daily HoYoLAB sign-in rewards! Select a game to claim your rewards from below.
-SELECTED_GAME_KEY: Selected Game
-NOTIFICATIONS_KEY: Notifications
+GENSHIN_GAME_KEY: 原神
+HONKAI_GAME_KEY: 崩壊3rd
+STARRAIL_GAME_KEY: 崩壊：スターレイル
+CLAIM_DAILY_REWARD_MESSAGE: 毎日のHoYoLABサインイン報酬をゲットしましょう！下から報酬を受け取るゲームを選択してください。
+SELECTED_GAME_KEY: 選択されたゲーム
+NOTIFICATIONS_KEY: 通知
 DAILY_AUTOCLAIM_KEY: Daily Auto-Claim
 DAILY_AUTO_REDEEM_KEY: Daily Auto-Redeem
 DAILY_CHECKIN_KEY: Daily Check-In
 INVOKATION_VICTORIES: "{win_count} Victories"
-WORLD_EXPLORATIONS: World Explorations
-REPUTATION_LEVELS: Reputation Levels
-REGISTER_SCRIPT_ALERT: Please logout and log back in before trying again, cookie is currently expired/invalid!
-REGISTER_SCRIPT_COPY_BUTTON: Click here to copy!
-ACCOUNT_EMAIL_KEY: Account Email
-PASSWORD_KEY: Account Password
-HYDROCULUS_KEY: Hydroculus
+WORLD_EXPLORATIONS: 探索度
+REPUTATION_LEVELS: 評判レベル
+REGISTER_SCRIPT_ALERT: 一度ログアウトして、またログインしてください。Cookieが現在期限切れ、または無効です！
+REGISTER_SCRIPT_COPY_BUTTON: クリックしてコピー！
+ACCOUNT_EMAIL_KEY: アカウントのEメール
+PASSWORD_KEY: アカウントのパスワード
+HYDROCULUS_KEY: 失われた水神の瞳
 APP_COMMAND_RECOVER_DESCRIPTION: Recover your inaccessible Genshin Wizard account.
 RECOVER_COMMAND_TITLE: Genshin Wizard Account Recovery
 RECOVER_COMMAND_ALREADY_REGISTERED: You have already **registered** to an account! Unlink using </unlink:{command_id}> before trying to recover your previous account.
 RECOVER_COMMAND_INSTRUCTIONS: |
-  Lost access to your Genshin Wizard account and want to re-link your account? You've come to the right place!
+  Genshin Wizardアカウントへのアクセスを失って、再び紐付けをしたいあなたにピッタリ！
 
-  Click the button below to begin the **account recovery** process.
-METHOD_ONE_BUTTON: Method 1
-METHOD_TWO_BUTTON: Method 2
-METHOD_THREE_BUTTON: Method 3
-METHOD_MANUAL_BUTTON: Manual
-METHOD_ONE_TITLE: Wish History Registration | Method 1
-METHOD_TWO_TITLE: Wish History Registration | Method 2
-METHOD_THREE_TITLE: Wish History Registration | Method 3
-METHOD_MANUAL_TITLE: Wish History Registration | Manual Method
+  下のボタンをクリックして、**アカウントの回復**をしましょう。
+METHOD_ONE_BUTTON: 方法1
+METHOD_TWO_BUTTON: 方法2
+METHOD_THREE_BUTTON: 方法3
+METHOD_MANUAL_BUTTON: 手動
+METHOD_ONE_TITLE: 祈願履歴の登録 | 方法1
+METHOD_TWO_TITLE: 祈願履歴の登録 | 方法2
+METHOD_THREE_TITLE: 祈願履歴の登録 | 方法3
+METHOD_MANUAL_TITLE: 祈願履歴の登録 | 手動
 METHOD_TWO_DESCRIPTION: |
   1. In the start menu search for "PowerShell" and open "Windows PowerShell"
   2. Then copy the following code and paste it in the Powershell window
@@ -1704,14 +1700,14 @@ METHOD_MANUAL_DESCRIPTION: |
   5. Right click "data_2" file then click "Open with" then select Notepad (If you get error like "The process cannot access the file because it is being used by another process" please exit the game first)
   6. Press CTRL+F, check `Wrap around`, and select direction `Up` then in the input box search for "**e20190909gacha-v2**" (without the quote). Finally, click `Find Next`
   7. Copy the link from *`https://webstatic`* to *`game_biz=hk4e_global`* the url looks like this: *`https://webstatic-sea.hoyoverse.com/genshin/event/e20190909gacha-v2/index.html?.......&game_biz=hk4e_global`*
-WEAPON_INFORMATION_KEY: Weapon Information
-COMBAT_STATISTICS_KEY: Combat Statistics
+WEAPON_INFORMATION_KEY: 武器情報
+COMBAT_STATISTICS_KEY: 戦闘統計
 WEAPON_BASED_MAX_LEVEL: based on max lvl weapon*
-WEAPON_DESCRIPTION_KEY: Weapon Description
-FIRST_HALF_KEY: First Half
-SECOND_HALF_KEY: Second Half
-ASCENSION_GUIDE_KEY: Ascension Guide
-TALENT_MATERIALS_KEY: Talent Materials
+WEAPON_DESCRIPTION_KEY: 武器の説明
+FIRST_HALF_KEY: 前半
+SECOND_HALF_KEY: 後半
+ASCENSION_GUIDE_KEY: 育成ガイド
+TALENT_MATERIALS_KEY: 天賦素材
 EXPEDITION_PROGRESS_KEY: Expedition Progress
 DOMAIN_SCHEDULE_DAY_TITLE: "{day} Domain Schedule"
 CHARACTER_USAGE_KEY: Character Usage
@@ -1719,9 +1715,9 @@ WEAPON_USAGE_KEY: Weapon Usage
 REQUIRED_BY_KEY: Required By
 REFERENCE_SHEET_KEY: Reference Sheet
 APP_COMMAND_MEMORY_DESCRIPTION: Play a Genshin Impact memory game.
-MEMORY_COMMAND_COOLDOWN_MESSAGE: Hey Traveler, **slow down**! You're clicking the cards too fast.
+MEMORY_COMMAND_COOLDOWN_MESSAGE: 旅人、焦りすぎだ！もっとゆっくりカードをクリックしてくれよな〜
 MEMORY_COMMAND_COMPLETION: Congratulations! You completed the minigame in **{time_taken}** seconds with **{try_count}** attempts.
-ZENLESS_GAME_KEY: Zenless Zone Zero
+ZENLESS_GAME_KEY: ゼンレスゾーンゼロ
 TEARS_GAME_KEY: Tears of Themis
 HELP_FUN_COG_NAME: Fun
 HELP_DROPDOWN_FUN_COMMANDS: Fun Commands
@@ -1754,16 +1750,16 @@ GENSHIN_WIZARD_CURRENT_ACCOUNT_DESCRIPTION: |
   Active Account: **{account}**
   Nickname: **{nickname}**
 EDIT_NICKNAME_KEY: Edit Nickname
-ADD_ACCOUNT_KEY: Add Account
-REMOVE_ACCOUNT_KEY: Remove Account
-REMOVE_ACCOUNT_COMPLETE_KEY: Remove Account Completely
+ADD_ACCOUNT_KEY: アカウントを追加
+REMOVE_ACCOUNT_KEY: アカウントを削除
+REMOVE_ACCOUNT_COMPLETE_KEY: アカウントを完全に削除
 ADD_ACCOUNT_REGISTER_TITLE: Genshin Wizard Account Registration
 ADD_ACCOUNT_REGISTER_DESCRIPTION: Use the buttons below to register your Genshin Impact account with Genshin Wizard.
 PREMIUM_REQUIRED_TITLE: Genshin Wizard Premium Required
 MAX_ACCOUNTS_REACHED: "You have reached the maximum number of accounts allowed for **{tier_notation}.** Please consider upgrading to premium to add more accounts. If you're interested in upgrading, use the </premium:{command_id}> command."
-YES_BUTTON: "Yes"
-NO_BUTTON: "No"
-REMOVE_ACCOUNT_TITLE: Remove Account from Genshin Wizard
+YES_BUTTON: "はい"
+NO_BUTTON: "いいえ"
+REMOVE_ACCOUNT_TITLE: Genshin Wizardからアカウントを削除
 REMOVE_ACCOUNT_DESCRIPTION: Use the buttons below to remove your Genshin Impact account from Genshin Wizard.
 ERROR_GENSHIN_COMMAND_ONLY_TITLE: Genshin Wizard | Error
 ERROR_GENSHIN_COMMAND_ONLY_DESCRIPTION: |
@@ -1771,9 +1767,9 @@ ERROR_GENSHIN_COMMAND_ONLY_DESCRIPTION: |
 CHARACTER_GUIDE_LIST_SECTION_TITLE: Genshin Impact Character Guides
 PROCESSING_MESSAGE: Processing request/action, please be **patient**...
 ACCOUNT_CANNOT_REDEEM: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard or your account was not properly configured initially.
+  旅人さん、ご不便をおかけして申し訳ありませんが、現在お客様のアカウントでは**コードの引き換えができません**。コードを引き換えるには、HoYoLABアカウントの再認証が必要です！
 
-  In order to use this command/feature, you must relink your HoYoLAB account through </accounts:{command_id}>.
+  このコマンド・機能をご利用いただくには、</reauthenticate:{command_id}> を通じてHoYoLABアカウントの再認証を行ってください。
 VIEW_ACCOUNTS_KEYS: View Account(s)
 NOT_YET_EXPLORED: Not Yet Explored!
 EXPLORATION_PROGRESS: Exploration Progress
@@ -1788,19 +1784,19 @@ NO_IMAGINARIUM_THEATER_DATA: "No Imaginarium Theater Data"
 FANTASIA_FLOWERS_USED: Fantasia Flowers Used
 EXTERNAL_AUDIENCE_SUPPORT: Triggered External Audience Support
 SUPPORT_CAST_ASSIST: Supporting Cast Characters Assist Other Players
-TOTAL_CAST_TIME: Total Cast Time
-THEATER_ACT_KEY: Act {act_id}
-FASTEST_ACT_KEY: Fastest Act
-HIGHEST_DAMAGE_DEALT_LABEL: Highest Damage Dealt
-TRIAL_KEY: Trial
-SUPPORT_KEY: Support
-THEATER_COMMAND_FOOTER: "Note: Theater data may be incorrectly shown or missing data, if this is the case, do keep in mind that theater data can generally take anywhere from 1-3 hours to update!"
-IMAGINARIUM_THEATER_DESCRIPTION: View your Imaginarium Theater progression stats
-THEATER_LEADERBOARD_PLACEHOLDER: Choose a lunar phase to view...
+TOTAL_CAST_TIME: 公演時間
+THEATER_ACT_KEY: 第{act_id}幕
+FASTEST_ACT_KEY: 最速
+HIGHEST_DAMAGE_DEALT_LABEL: 与えた最大ダメージ
+TRIAL_KEY: お試し
+SUPPORT_KEY: サポート
+THEATER_COMMAND_FOOTER: "注: 幻想シアターのデータ更新には、1～3時間ほどかかる場合があります。"
+IMAGINARIUM_THEATER_DESCRIPTION: 幻想シアターの進捗状況を確認
+THEATER_LEADERBOARD_PLACEHOLDER: 表示したい期を選択…
 VIEW_THEATER_TEAM: Viewing Imaginarium Theater Lineup
-CURRENT_THEATER_PHASE_DESCRIPTION: View Current Theater Stats Progression
-PREVIOUS_THEATER_PHASE_DESCRIPTION: View Previous Theater Stats Progression
-THEATER_COMMAND_STATISTICS_CREDIT: User {name}'s Imaginarium Theater Stats
+CURRENT_THEATER_PHASE_DESCRIPTION: 今期の幻想シアターの進捗を確認
+PREVIOUS_THEATER_PHASE_DESCRIPTION: 前期の幻想シアターの進捗を確認
+THEATER_COMMAND_STATISTICS_CREDIT: ユーザー{name}の幻想シアター情報
 THEATER_ARCHIVES_KEY: Theaterical Archives
 THEATER_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Theatrical Archives**
@@ -1825,7 +1821,7 @@ MAGIC_LABEL: Remarkable
 THEATER_NOT_UNLOCKED: The Imaginarium Theater is not yet unlocked for your account!
 CHARACTER_NOT_IN_ACCOUNT: The character `{name}` was not found in your account!
 ONSLAUGHT_NOT_UNLOCKED: The Stygian Onslaught is not yet unlocked for your account!
-ONSLAUGHT_COMMAND_FOOTER: "Note: Stygian Onslaught data may be incorrectly shown or missing data, if this is the case, do keep in mind that Stygian Onslaught data can generally take anywhere from 1-3 hours to update!"
+ONSLAUGHT_COMMAND_FOOTER: "注: 幽境の激戦のデータ更新には、1〜3時間ほどかかる場合があります。"
 NO_ONSLAUGHT_DATA: "No Stygian Onslaught Data"
 ONSLAUGHT_COMMAND_STATISTICS_CREDIT: User {name}'s Stygian Onslaught Stats
 CURRENT_ONSLAUGHT_PHASE_DESCRIPTION: View Current Stygian Onslaught Stats Progression
@@ -1834,9 +1830,9 @@ ONSLAUGHT_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Stygian Onslaught Archives**
   **Start Time:** <t:{timestamp_start}:F>
   **End Time:** <t:{timestamp_end}:F>
-ONSLAUGHT_LEADERBOARD_PLACEHOLDER: Choose a lunar phase to view...
-ONSLAUGHT_ARCHIVES_KEY: Stygian Onslaught Archives
-STYGIAN_ONSLAUGHT_KEY: Stygian Onslaught
+ONSLAUGHT_LEADERBOARD_PLACEHOLDER: 表示したい期を選択…
+ONSLAUGHT_ARCHIVES_KEY: 幽境の激戦アーカイブ
+STYGIAN_ONSLAUGHT_KEY: 幽境の激戦
 ONSLAUGHT_DESCRIPTION: View your Stygian Onslaught progression stats
 APP_COMMAND_ONSLAUGHT_DESCRIPTION: View your Genshin account's Stygian Onslaught progress.
 APP_COMMAND_THEATER_DESCRIPTION: View your Genshin account's Imaginarium Theater progress.
@@ -1846,48 +1842,48 @@ ONSLAUGHT_DETAIL_HARD: "Stygian Onslaught Details: Hard Mode"
 ONSLAUGHT_DETAIL_MENACING: "Stygian Onslaught Details: Menacing Mode"
 ONSLAUGHT_DETAIL_FEARLESS: "Stygian Onslaught Details: Fearless Mode"
 ONSLAUGHT_DETAIL_DIRE: "Stygian Onslaught Details: Dire Mode"
-BATTLE_FIELD_KEY: "Battlefield {battle_field_id}"
-HIGHEST_TOTAL_DAMAGE_DEALT_LABEL: Highest Total Damage Dealt
-BEST_RECORD_KEY: Best Record
-BATTLE_TIME_KEY: "Battle Time: {time}s"
-WEAK_AGAINST_KEY: Weak Against
+BATTLE_FIELD_KEY: "戦場 {battle_field_id}"
+HIGHEST_TOTAL_DAMAGE_DEALT_LABEL: 最大合計ダメージ
+BEST_RECORD_KEY: 最高記録
+BATTLE_TIME_KEY: "クリアタイム: {time}秒"
+WEAK_AGAINST_KEY: 弱点
 STRONG_AGAINST_KEY: Strong Against
 ONSLAUGHT_SCHEDULE_RECORD: Schedule Record
-SINGLE_PLAYER_KEY: Single Player
-MULTI_PLAYER_KEY: Multi Player
-BATTLE_SYNOPSIS_KEY: Battle Synopsis
-BATTLE_INDEX_KEY: Battle {battle_field_id}
-FASTEST_KEY: Fastest
-COMPLETE_KEY: Complete
-NO_TEAM_DETAILS: No Team Details
-CURRENT_PHASE_KEY: Current Phase
-PREVIOUS_PHASE_KEY: Previous Phase
+SINGLE_PLAYER_KEY: ソロプレイ
+MULTI_PLAYER_KEY: マルチプレイ
+BATTLE_SYNOPSIS_KEY: 戦績概要
+BATTLE_INDEX_KEY: 戦闘 {battle_field_id}
+FASTEST_KEY: 最速
+COMPLETE_KEY: 完了
+NO_TEAM_DETAILS: チーム情報なし
+CURRENT_PHASE_KEY: 今期
+PREVIOUS_PHASE_KEY: 前期
 CURRENT_PHASE_DESCRIPTION: |
-  **Current Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  **今期**
+  **開始時間:** <t:{timestamp_start}:F>
+  **終了時間:** <t:{timestamp_end}:F>
 PREVIOUS_PHASE_DESCRIPTION: |
-  **Previous Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
-PHASE_NO_DATA: Hey Traveler, it seems there is currently no data for this phase. Please try again later or contact the Genshin Wizard support team if you believe this is an error.
+  **前期**
+  **開始時間:** <t:{timestamp_start}:F>
+  **終了時間:** <t:{timestamp_end}:F>
+PHASE_NO_DATA: 旅人！この期のデータがないみたいだ... あとでもういっかい試してみてくれ。もしこれが続くようなら、Genshin Wizardのサポートチームに連絡してみてくれよな。
 CHANNEL_NOT_FOUND: The channel you provided does not exist or is not accessible.
-INITIALIZE_WEBHOOK_BUTTON: Initialize/Refresh Webhook
+INITIALIZE_WEBHOOK_BUTTON: Webhookを更新・初期化
 CHANNEL_SETUP_SUCCESS: The channel {channel} has been successfully set! Please enable/initialize the webhook by clicking the button in the panel configuration view.
 WEBHOOK_INITIALIZED: Successfully initialized the plugin, please enable the plugin if you haven't already. You're all set to go!
 PREMIUM_MANAGE_BILLING: Manage Billing
 MAX_OUT_PRIMOGEMS: Max Out Primogems
-PREMIUM_FEATURE_CONSIDER_UPGRADE: Hey Traveler! You're **not allowed** to use this command, this command is only available to **Premium Subscribers**. If you'd like use this feature, consider upgrading!
+PREMIUM_FEATURE_CONSIDER_UPGRADE: 旅人！このコマンドはプレミアム会員限定みたいだ... この機能が使いたいときは、アップグレードすることをお勧めするぞ！
 NO_ROLE_KEY: No Role
-THEATER_STATISTICS_KEY: Imaginarium Theater Statistics
-ONSLAUGHT_STATISTICS_KEY: Stygian Onslaught Statistics
-LEADERBOARD_THEATER_FOOTER: Imaginarium Theater statistics are updated via the imaginarium theater progression command, check your imaginarium theater progression frequently to get an updated statistics measurement!
+THEATER_STATISTICS_KEY: 幻想シアター・公演振り返り
+ONSLAUGHT_STATISTICS_KEY: 幽境の激戦・戦績の振り返り
+LEADERBOARD_THEATER_FOOTER: 幻想シアターの公演振り返りは「幻想シアターの進行状況」コマンドで更新されます。最新の統計値を確認するには、頻繁に進行状況をチェックしてくださいね！
 LEADERBOARD_ONSLAUGHT_FOOTER: Stygian Onslaught statistics are updated via the stygian onslaught progression command, check your stygian onslaught progression frequently to get an updated statistics measurement!
 THEATER_LEADERBOARD_ALL_TIME: All-time Leaderboard
-THEATER_LEADERBOARD_ALL_TIME_DESCRIPTION: View records from all Imaginarium Theater phases.
+THEATER_LEADERBOARD_ALL_TIME_DESCRIPTION: 幻想シアターの全公演記録を表示
 ONSLAUGHT_LEADERBOARD_ALL_TIME: All-time Leaderboard
 ONSLAUGHT_LEADERBOARD_ALL_TIME_DESCRIPTION: View records from all Stygian Onslaught phases.
-THEATER_STATISTICS_DESCRIPTION: View Genshin Wizard's Imaginarium Theater leaderboard.
+THEATER_STATISTICS_DESCRIPTION: Genshin Wizardの幻想シアターランキングを表示
 ONSLAUGHT_STATISTICS_DESCRIPTION: View Genshin Wizard's Stygian Onslaught leaderboard.
 ACCOUNT_PREFERENCE_EVENT_TITLE: Account Preferences Updated
 AUTOCLAIM_EVENT_UNSUBSCRIBE_DESCRIPTION: "You have successfully **unsubscribed** from the auto-claim feature. You will no longer receive any notifications regarding auto-claim for the following account: **{uid}**."
@@ -1900,3 +1896,38 @@ SUPPORT_VOTE_DESCRIPTION: Support the Genshin Wizard bot by voting on bot discov
 VOTE_FOR_BOT: Vote for Genshin Wizard Bot!
 VOTE_FOR_SERVER: Vote for Genshin Wizard Server!
 VOTE_PERIOD_NOTICE: You can vote once every **12 hours**!
+REAUTHENTICATE_TITLE: Reauthenticate HoYoLAB Account
+REAUTHENTICATE_DESCRIPTION: Reauthenticate your HoYoLAB account to continue using select Genshin Wizard features. This may be required if your cookie has **expired** or is invalid.
+REGISTER_DEVTOOLS_BUTTONS: Register using DevTools (Desktop Only)
+APP_COMMAND_REAUTHENTICATE_DESCRIPTION: Reauthenticate your HoYoLAB account if login has expired.
+REAUTHENTICATE_KEY: Reauthenticate
+ACTION_LOADING_LABEL: "Loading..."
+SETUP_REMINDERS_BUTTON: Setup Account Reminders (Resin, Teapot, etc.)
+ACCOUNT_OVERVIEW_KEY: アカウント概要
+ACCOUNT_OVERVIEW_DESCRIPTION: View current resin, teapot currency, expeditions, and more!
+MONTHLY_REWARDS_DESCRIPTION: View your monthly HoYoLAB check-in rewards and claim status.
+VIEW_CHARACTERS_DESCRIPTION: View your Genshin Impact characters and their details.
+VIEW_TRAVELER_DIARY_DESCRIPTION: 旅人手帳の概要を表示
+SELECT_HOYO_OPTION: 表示するカテゴリを選択…
+LOGIN_ACCOUNT_REGISTRATION: Genshin Wizard HoYoLABアカウント登録
+LOGIN_ACCOUNT_EMAIL_VERIFICATION: アカウント登録 | Eメール認証が必要
+LOGIN_ACCOUNT_REGISTRATION_PROCESSING: 旅人さん、現在、私たちはあなたのアカウント登録リクエストを処理しています。お客様のアカウント情報を確認しておりますので、少々お待ちください。
+LOGIN_ACCOUNT_REGISTRATION_FAILED: アカウント登録失敗
+LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: Hello Traveler, it seems that we were unable to register your account. Please try again later or contact the **[Genshin Wizard Support Team](https://genshinwizard.com/support)** if you believe this is an error.
+LOGIN_REGISTRATION_METHOD: "認証方法: **{method}**"
+LOGIN_REGISTRATION_STATUS: "ステータス: **{status}**"
+LOGIN_STATUS_PROCESSING: 処理中
+LOGIN_STATUS_EMAIL_VERIFICATION_PENDING: Eメール認証待ち
+LOGIN_STATUS_FAILED: 登録失敗
+LOGIN_STATUS_SUCCESS: 登録成功
+REAUTHENTICATION_SUCCESS_TITLE: 再認証成功
+REAUTHENTICATION_SUCCESS: あなたのHoYoLABアカウントの再認証に成功しました！再び、一部のGenshin Wizardの機能をご利用いただけます。
+NO_REAUTH_ACCOUNT_FOUND: 再認証するHoYoLABアカウントが見つかりません！
+REAUTHENTICATION_FAILED_TITLE: 再認証失敗
+REAUTHENTICATION_FAILED: Hello Traveler, it seems that we were unable to reauthenticate your account. Please try again later or contact the **[Genshin Wizard Support Team](https://genshinwizard.com/support)** if you believe this is an error.
+EMAIL_VERIFICATION_KEY: Eメール認証
+VERIFICATION_CODE_KEY: 認証コード
+LOGIN_STATUS_SUCCESS_DESCRIPTION: おめでとうございます！あなたのHoYoLABアカウントはGenshin Wizardに登録されました。一部のGenshin Wizardの機能をご利用いただけます。
+EMAIL_VERIFICATION_FAILURE: Eメール認証失敗
+ENTER_VERIFICATION_CODE: Enter Verification Code
+NEED_MORE_HELP: Need More Help?
