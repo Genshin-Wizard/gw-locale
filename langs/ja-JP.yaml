@@ -11,13 +11,13 @@ HELP_CATEGORY_LIST: |
   > ⏰ | その他のコマンド
 MISC_COMMANDS: その他のコマンド
 PING_INFORMATION: |
-  **Pong!** :ping_pong:
-  Bot Latency is **{bot_latency}ms.**
-  Websocket Latency is **{ws_latency}ms.**
+  **ｯﾎﾟﾝ!** :ping_pong:
+  Botの遅延は **{bot_latency}ms** でした。
+  WebSocketの遅延は **{ws_latency}ms** でした。
 UPTIME_INFORMATION: |
   **Genshin Wizard Uptime**
-  **Last Restart:** <t:{last_restart}:R>
-  **Uptime:** {uptime}
+  **最終起動:** <t:{last_restart}:R>
+  **稼働時間:** {uptime}
 VERSION_KEY: バージョン
 PING_KEY: Ping
 UNKNOWN_KEY: 不明
@@ -131,48 +131,48 @@ ERROR_PRIVATE_COMMAND_DESCRIPTION: |
 
   If you'd like use this command, consider joining our [Official Discord](https://genshinwizard.com/discord).
 ERROR_PREMIUM_COMMAND_TITLE: 原神ウィザードプレミアム
-ERROR_PREMIUM_COMMAND_DESCRIPTION: Hey Traveler! You're **not allowed** to use this command, this command is only available to **Premium Subscribers**. If you'd like use this feature, consider learning more using the </premium:{command_id}> command.
-ERROR_BLACKLISTED_TITLE: Genshin Wizard | Blacklisted
+ERROR_PREMIUM_COMMAND_DESCRIPTION: 旅人！このコマンドはオイラには使えないぞ... これはプレミアム加入者限定なんだ。もしこの機能を使いたいなら、</premium:{command_id}> コマンドで詳しく見てみるといいかもな！
+ERROR_BLACKLISTED_TITLE: Genshin Wizard | ブラックリスト入り
 ERROR_BLACKLISTED_DESCRIPTION: |
-  Hey Traveler! You have been **banned** from using Genshin Wizard!
+  あなたはGenshin Wizardの利用を禁止されました。
 
-  If you believe for this to be an error, consider joining our [Official Discord](https://genshinwizard.com/discord)
-ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | Member Not Found
-ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Make sure the person you are trying to view is still in the server.
-ERROR_MISSING_REQUIRED_ARGUMENT: "You forgot to provide an argument, please use the correct format: ```{usage}```"
-ERROR_MISSING_REQUIRED_ATTACHMENT: "You forgot to provide an attachment, please use the correct format: ```{usage} with the correct attachment.```"
-ERROR_MISSING_MANAGE_MESSAGE: Hey Traveler, I do not have permission to `Manage Messages` within this channel/guild. Please enable this permission and try again.
-ERROR_MISSING_SEND_MESSAGE: Hey Traveler, I do not have permission to `Send Messages` within this channel/guild. Please enable this permission and try again.
-MESSAGE_KEY: Message
-ERROR_EMPTY_BACKPACK: Your backpack is **empty**! To begin your journey, use the </wishsimulator:{command_id}> command!
-ERROR_INTERACTION_MISMATCH: Hey Traveler! This **isn't your interaction** to touch! Use the command {command} if you want to use this command for yourself!
-ERROR_MESSAGE: There has been an error!
-FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Feedback
-FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Your feedback has successfully been sent to the developers!*
+  これが間違いだと思われる場合は、私たちの[公式Discordサーバー](https://genshinwizard.com/discord)から報告をお願いします。
+ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | 不明なメンバー
+ERROR_MEMBER_NOT_FOUND_DESCRIPTION: 表示しようとしている人がまだサーバーにいることを確認してください。
+ERROR_MISSING_REQUIRED_ARGUMENT: "引数が必要です。正しい形式で入力してくださいね！使用方法: ```{usage}```"
+ERROR_MISSING_REQUIRED_ATTACHMENT: "添付ファイルが必要です。正しい形式で入力してくださいね！使用方法: ```{usage} + 添付ファイル```"
+ERROR_MISSING_MANAGE_MESSAGE: 旅人！このチャンネル・ギルドで `メッセージの管理` の権限がないみたいだぞ... 権限を有効にしてから、もう一度試してみてくれよな〜
+ERROR_MISSING_SEND_MESSAGE: 旅人！このチャンネル・ギルドで `メッセージを送信` の権限がないみたいだぞ... 権限を有効にしてから、もう一度試してみてくれよな〜
+MESSAGE_KEY: メッセージ
+ERROR_EMPTY_BACKPACK: バッグになにもないみたいだ... </wishsimulator:{command_id}> を使っていっぱい祈願しような〜
+ERROR_INTERACTION_MISMATCH: 旅人！これはお前のじゃないみたいだ。もし自分で使いたかったら、{command} コマンドを使ってみるといいぞ！
+ERROR_MESSAGE: エラーが発生してしまいました！
+FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | フィードバック
+FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *あなたのフィードバックは無事開発者に送られました！*
 FEEDBACK_LOG_RESPONSE: |
-  > User: **{author_name}** | {author_mention}
-  > Discord ID: `{author_id}`
+  > ユーザー： **{author_name}** | {author_mention}
+  > Discord ID： `{author_id}`
 
-  **Feedback:**```{feedback}```
-NO_HOYOLAB_LINKED: You haven't linked your HoYoLAB account yet. Use </accounts:{command_id}> to link your account.
+  **フィードバック：** ```{feedback}```
+NO_HOYOLAB_LINKED: あなたのアカウントはまだ HoYoLAB アカウントに紐づいていないようです。 </accounts:{command_id}> から紐付けをしてください。
 OLD_HOYOLAB_LINKED: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard.
+  旅人！ちょっと不便かもだけど、この機能は旅人が `HoYoLAB` アカウントをオイラのところに登録したあとに追加されたんだ。
 
-  In order to use this button, you must unlink your HoYoLAB account through </accounts:{command_id}> and **relink** with the same command.
-CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Code Redemption
-CODE_REDEEM_DESCRIPTION: "*Please wait while we process your redemption code...*"
+  このボタンを使うには、一回 </accounts:{command_id}> でHoYoLABアカウントを解除して、同じコマンドでもう一度登録してみてくれよな！
+CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB 交換コード
+CODE_REDEEM_DESCRIPTION: "*入力された交換コードの処理の処理が完了するまで、お待ちください...*"
 CODE_REDEEM_PROGRESS: |
-  *Please wait while we process your redemption code...*
-  <a:loading:1015667958237900801> Attempting to redeem code `{code}`
-HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Expired Cookies
+  *交換コードの処理が完了するまで、お待ちください...*
+  <a:loading:1015667958237900801> コード `{code}` を交換しています...
+HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | 期限切れのCookie
 HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
   <a:blue_arrow:1005981235966910494> **[Vote](https://top.gg/bot/782099719718699009)**
   <a:blue_arrow:1005981235966910494> **[Donate](https://ko-fi.com/genshinwizard)**
-CODE_REDEEM_SUCCESS: "*Redemption codes have successfully been processed!*"
-CODE_REDEEM_FAILURE: "*There was an error processing your redemption codes!*"
+CODE_REDEEM_SUCCESS: "*交換コードの処理が完了しました！*"
+CODE_REDEEM_FAILURE: "*交換コードの処理中に問題が発生しました！*"
 APP_COMMAND_INFO_DESCRIPTION: Shows builds for characters in the user's in-game showcase.
 APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in UIGF v4.0 format via direct message.
 APP_COMMAND_HISTORY_DESCRIPTION: View your Genshin account's wish history.
@@ -586,13 +586,13 @@ IMAGE_LINK_KEY: Image Link
 UPDATE_DATE_KEY: Update Date
 SETTING_COMMAND_REQUIRE_SLASH: You must use a **slash command** (</settings:{command_id}>) or access this via your profile.
 CURRENT_ABYSS_DESCRIPTION: |
-  **Current Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  **今期の淵月螺旋**
+  **開始時刻:** <t:{timestamp_start}:F>
+  **終了時刻:** <t:{timestamp_end}:F>
 PREVIOUS_ABYSS_DESCRIPTION: |
-  **Previous Lunar Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  **前期の淵月螺旋**
+  **開始時刻:** <t:{timestamp_start}:F>
+  **終了時刻:** <t:{timestamp_end}:F>
 ABYSS_COMMAND_FOOTER: "Note: Abyss data may be incorrectly shown or missing data, if this is the case, do keep in mind that abyss data can generally take anywhere from 1-3 hours to update!"
 ABYSS_MISSING_DATA_FOOTER: "Note: This data seems to be missing some information! This is likely due to this information not being stored in the database previously, or the data not being updated yet."
 ABYSSAL_ARCHIVE_DESCRIPTION: |
@@ -1894,3 +1894,9 @@ AUTOCLAIM_EVENT_UNSUBSCRIBE_DESCRIPTION: "You have successfully **unsubscribed**
 AUTOCLAIM_EVENT_DISABLE_DESCRIPTION: "You have successfully **disabled** the auto-claim feature. You will no longer receive any notifications regarding auto-claim for the following account: **{uid}**."
 STATS_MAX_FRIENDSHIP_COUNT_KEY: Max Friendship Characters
 PARTNER_ONLY_CONFIGURATION: Hey Traveler, this configuration is reserved for **partners** of Genshin Wizard. Please select a different role-integration to configure or consider partnering with our **[Discord Server](https://genshinwizard.com/discord)**!
+CLUSTER_KEY: Cluster
+VOTE_GENSHIN_WIZARD: Vote for Genshin Wizard!
+SUPPORT_VOTE_DESCRIPTION: Support the Genshin Wizard bot by voting on bot discovery platforms and earn free rewards in the process!
+VOTE_FOR_BOT: Vote for Genshin Wizard Bot!
+VOTE_FOR_SERVER: Vote for Genshin Wizard Server!
+VOTE_PERIOD_NOTICE: You can vote once every **12 hours**!
