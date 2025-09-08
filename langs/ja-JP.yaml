@@ -155,10 +155,6 @@ FEEDBACK_LOG_RESPONSE: |
 
   **フィードバック：** ```{feedback}```
 NO_HOYOLAB_LINKED: あなたのアカウントはまだ HoYoLAB アカウントに紐づいていないようです。 </accounts:{command_id}> から紐付けをしてください。
-OLD_HOYOLAB_LINKED: |
-  旅人！ちょっと不便かもだけど、この機能は旅人が `HoYoLAB` アカウントをオイラのところに登録したあとに追加されたんだ。
-
-  このボタンを使うには、一回 </accounts:{command_id}> でHoYoLABアカウントを解除して、同じコマンドでもう一度登録してみてくれよな！
 CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB 交換コード
 CODE_REDEEM_DESCRIPTION: "*入力された交換コードの処理の処理が完了するまで、お待ちください...*"
 CODE_REDEEM_PROGRESS: |
@@ -1215,14 +1211,14 @@ NEXT_BUTTON: Next
 GENERATE_IMAGE_BUTTON: Generate Image
 GENERATE_EXPLORATION_BUTTON: Export Exploration Progression
 SETTINGS_BUTTON: Settings
-ANEMO_KEY: Anemo
-CRYO_KEY: Cryo
-DENDRO_KEY: Dendro
-ELECTRO_KEY: Electro
-GEO_KEY: Geo
-HYDRO_KEY: Hydro
-PYRO_KEY: Pyro
-RESET_SETTINGS_BUTTON: Reset Settings
+ANEMO_KEY: 風
+CRYO_KEY: 氷
+DENDRO_KEY: 草
+ELECTRO_KEY: 雷
+GEO_KEY: 岩
+HYDRO_KEY: 水
+PYRO_KEY: 炎
+RESET_SETTINGS_BUTTON: 設定をリセット
 MASTER_PRIVACY_BUTTON: Master Privacy
 UPDATE_BANNER_MODAL_TITLE: Update Banner
 UPDATE_BANNER_MODAL_URL_INPUT: Link to desired image for banner
@@ -1234,15 +1230,15 @@ SELECT_CHOOSE_CATEGORY: Choose a category...
 PROFILE_KEY: Profile
 PROFILE_DESCRIPTION: View your Genshin Wizard profile
 GENSHIN_STATISTICS_KEY: Genshin Stats
-GENSHIN_STATISTICS_DESCRIPTION: View your Genshin stats
-SPIRAL_ABYSS_STATISTICS_KEY: Spiral Abyss Stats
-SPIRAL_ABYSS_STATISTICS_DESCRIPTION: View your Spiral Abyss progression stats
-COPY_UID_KEY: Copy UID
-CURRENT_ABYSS_PHASE: Current Abyssal Phase
-CURRENT_ABYSS_PHASE_DESCRIPTION: View Current Abyssal Stats Progression
-PREVIOUS_ABYSS_PHASE: Previous Abyssal Phase
-PREVIOUS_ABYSS_PHASE_DESCRIPTION: View Previous Abyssal Stats Progression
-ENTER_LINK_BUTTON: Enter link
+GENSHIN_STATISTICS_DESCRIPTION: 原神ステータスを確認
+SPIRAL_ABYSS_STATISTICS_KEY: 深境螺旋戦績
+SPIRAL_ABYSS_STATISTICS_DESCRIPTION: 深境螺旋の戦績を確認
+COPY_UID_KEY: UIDをコピー
+CURRENT_ABYSS_PHASE: 今期
+CURRENT_ABYSS_PHASE_DESCRIPTION: 今期の深境螺旋の戦績を確認
+PREVIOUS_ABYSS_PHASE: 前期
+PREVIOUS_ABYSS_PHASE_DESCRIPTION: 前期の深境螺旋の戦績を確認
+ENTER_LINK_BUTTON: リンクを入力
 LINK_UID_MODAL_TITLE: Link UID
 LINK_UID_MODAL_LABEL: Genshin Impact UID
 LINK_UID_MODAL_PLACEHOLDER: Insert your Genshin Impact UID
@@ -1258,7 +1254,7 @@ PARAMETRIC_TRANSFORMER_KEY: Parametric Transformer
 CLEAR_ALL_REMINDERS_BUTTON: Clear All Reminders
 CLEAR_REMINDER_BUTTON: Clear {reminder_type} Reminders
 SET_REMINDER_KEY: Set Reminder
-RESIN_THRESHOLD_MODAL_TITLE: Enter resin amount
+RESIN_THRESHOLD_MODAL_TITLE: 樹脂の数を入力
 RESIN_THRESHOLD_LABEL: Resin Threshold
 RESIN_THRESHOLD_DESCRIPTION: Enter the amount of resin you want to be reminded at...
 NOVICE_WISH_SUMMARY: View your wish summary for the Novice banner.
@@ -1276,8 +1272,8 @@ SHOW_OWNED_KEY: Show Owned
 SHOP_BUTTON_LABEL: "{primogem_price} Primogems"
 REROLL_WISHES_BUTTON: Reroll Wishes
 VIEW_INVENTORY_BUTTON: View Inventory
-REGION_SELECT_PLACEHOLDER: Select a region...
-AMERICA_KEY: America
+REGION_SELECT_PLACEHOLDER: 地域を選択…
+AMERICA_KEY: アメリカ
 EUROPE_KEY: Europe
 ASIA_KEY: Asia
 SAR_KEY: SAR
@@ -1900,3 +1896,36 @@ SUPPORT_VOTE_DESCRIPTION: Support the Genshin Wizard bot by voting on bot discov
 VOTE_FOR_BOT: Vote for Genshin Wizard Bot!
 VOTE_FOR_SERVER: Vote for Genshin Wizard Server!
 VOTE_PERIOD_NOTICE: You can vote once every **12 hours**!
+REAUTHENTICATE_TITLE: Reauthenticate HoYoLAB Account
+REAUTHENTICATE_DESCRIPTION: Reauthenticate your HoYoLAB account to continue using select Genshin Wizard features. This may be required if your cookie has **expired** or is invalid.
+REGISTER_DEVTOOLS_BUTTONS: Register using DevTools (Desktop Only)
+APP_COMMAND_REAUTHENTICATE_DESCRIPTION: Reauthenticate your HoYoLAB account if login has expired.
+REAUTHENTICATE_KEY: Reauthenticate
+ACTION_LOADING_LABEL: "Loading..."
+SETUP_REMINDERS_BUTTON: Setup Account Reminders (Resin, Teapot, etc.)
+ACCOUNT_OVERVIEW_KEY: Account Overview
+ACCOUNT_OVERVIEW_DESCRIPTION: View current resin, teapot currency, expeditions, and more!
+MONTHLY_REWARDS_DESCRIPTION: View your monthly HoYoLAB check-in rewards and claim status.
+VIEW_CHARACTERS_DESCRIPTION: View your Genshin Impact characters and their details.
+VIEW_TRAVELER_DIARY_DESCRIPTION: View your monthly Traveler's Diary summary.
+SELECT_HOYO_OPTION: Select a category to view...
+LOGIN_ACCOUNT_REGISTRATION: Genshin Wizard HoYoLAB Account Registration
+LOGIN_ACCOUNT_EMAIL_VERIFICATION: Account Registration | Email Verification Required
+LOGIN_ACCOUNT_REGISTRATION_PROCESSING: Hello Traveler, we are processing your account registration request. Please wait while we take a moment to gather your account details.
+LOGIN_ACCOUNT_REGISTRATION_FAILED: Account Registration Failed
+LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: Hello Traveler, it seems that we were unable to register your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error.
+LOGIN_REGISTRATION_METHOD: "Registration Method: **{method}**"
+LOGIN_REGISTRATION_STATUS: "Status: **{status}**"
+LOGIN_STATUS_PROCESSING: Processing
+LOGIN_STATUS_EMAIL_VERIFICATION_PENDING: Email Verification Pending
+LOGIN_STATUS_FAILED: Registration Failed
+LOGIN_STATUS_SUCCESS: Registration Successful
+REAUTHENTICATION_SUCCESS_TITLE: Reauthentication Successful
+REAUTHENTICATION_SUCCESS: You have **successfully** reauthenticated your HoYoLAB account! You may now use select Genshin Wizard features again.
+NO_REAUTH_ACCOUNT_FOUND: No existing HoYoLab account found to reauthenticate!
+REAUTHENTICATION_FAILED_TITLE: Reauthentication Failed
+REAUTHENTICATION_FAILED: Hello Traveler, it seems that we were unable to reauthenticate your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error.
+EMAIL_VERIFICATION_KEY: Email Verification
+VERIFICATION_CODE_KEY: Verification Code
+LOGIN_STATUS_SUCCESS_DESCRIPTION: Congratulations! You have successfully registered your HoYoLAB account with Genshin Wizard. You may now use select Genshin Wizard features.
+EMAIL_VERIFICATION_FAILURE: Email Verification Failed
