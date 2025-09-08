@@ -350,46 +350,46 @@ APP_COMMAND_DESCRIBE_CODE_CHANNEL: メッセージを送信したいチャンネ
 APP_COMMAND_DESCRIBE_CODE_PING: メッセージ内で言及するロール
 APP_COMMAND_DESCRIBE_CODE_LIST: 送信したい交換コード（コンマで分割）
 APP_COMMAND_DESCRIBE_FEEDBACK: フィードバックの内容
-APP_CONTEXT_MENU_PROFILE: Profile
-APP_CONTEXT_MENU_STATISTICS: Stats Progression
-APP_CONTEXT_MENU_ABYSS: Abyss Progression
-APP_CONTEXT_MENU_CHARACTERS: Characters
-APP_CONTEXT_MENU_WISH_HISTORY: Wish History
-WHITELIST_KEY_LOWERCASE: whitelist
-HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Wishes"
-SLASH_PAGINATION: Page {current_page}/{total_pages}
-OF_PAGINATION: Page {current_page} of {total_pages}
+APP_CONTEXT_MENU_PROFILE: プロフィール
+APP_CONTEXT_MENU_STATISTICS: 統計
+APP_CONTEXT_MENU_ABYSS: 深境螺旋の進捗
+APP_CONTEXT_MENU_CHARACTERS: キャラクター
+APP_CONTEXT_MENU_WISH_HISTORY: 祈願履歴
+WHITELIST_KEY_LOWERCASE: ホワイトリスト
+HISTORY_COMMAND_BANNER_TITLE: "{banner_name}祈願"
+SLASH_PAGINATION: ページ {current_page}/{total_pages}
+OF_PAGINATION: ページ {current_page}/{total_pages}
 HISTORY_COMMAND_TABLE_HEADER: "Rarity | Pity | Name | Date"
-HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Guaranteed Pity: {indicator}**"
-HISTORY_LINK_EXPIRED: History Link Expired
-HISTORY_COMMAND_LIFETIME_PULLS: Lifetime Pulls
-HISTORY_COMMAND_WISHES_WORTH: Wishes Worth
-HISTORY_COMMAND_CURRENT_PITIES: Current Pities
-SEARCH_ERROR: Search Error!
+HISTORY_COMMAND_GUARANTEE_INDICATOR: "**確定補償: {indicator}**"
+HISTORY_LINK_EXPIRED: 履歴リンク期限切れ
+HISTORY_COMMAND_LIFETIME_PULLS: 生涯祈願数
+HISTORY_COMMAND_WISHES_WORTH: 原石換算
+HISTORY_COMMAND_CURRENT_PITIES: 現在の祈願
+SEARCH_ERROR: 検索エラー！
 HISTORY_COMMAND_NO_WISHES: |
-  No wishes were found for this search!
-  Try selecting a different banner to check below.
-HISTORY_COMMAND_NO_USER_WISHES: No wishes were found for this user!
-USER_NOT_REGISTERED_TITLE: User has not registered!
-REGISTERED_KEY: Registered
-NOT_REGISTERED_KEY: Not Registered
-FOOTER_REQUIRES_WISH_HISTORY: "Note: This command requires you to register through the Wish History method."
-FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "Note: This command requires you to register through the Wish History or HoYoLAB method."
-FOOTER_REQUIRE_UID_OR_HOYOLAB: "Note: This command requires you to register through the UID or HoYoLAB method."
-FOOTER_GCG_EXPANDED: Your TCG Showcase statistics can be shown in more detail if you register using your HoYoLAB account!
-LINK_HOYOLAB_TITLE: Genshin Wizard | Link HoYoLAB Account
-LINKING_UID_TITLE: Genshin Wizard | Link UID
+  オイラ、がんばったけど、言われた祈願タイプの履歴を見つけられなかったぞ！
+  下から違う祈願タイプを選択してくれ。
+HISTORY_COMMAND_NO_USER_WISHES: 祈願履歴が見つからなかったぞ！
+USER_NOT_REGISTERED_TITLE: ユーザーが登録されていません！
+REGISTERED_KEY: 登録済
+NOT_REGISTERED_KEY: 未登録
+FOOTER_REQUIRES_WISH_HISTORY: "注：このコマンドは、祈願履歴による登録が必要です。"
+FOOTER_REQUIRE_WISH_HISTORY_OR_HOYOLAB: "注：このコマンドは、祈願履歴またはHoYoLAB経由での登録が必要です。"
+FOOTER_REQUIRE_UID_OR_HOYOLAB: "注：このコマンドは、UIDまたはHoYoLABの登録が必要です。"
+FOOTER_GCG_EXPANDED: HoYoLABアカウントを登録すると、七聖召喚の統計情報をより詳細に表示できます！
+LINK_HOYOLAB_TITLE: Genshin Wizard | HoYoLABアカウントの紐付け
+LINKING_UID_TITLE: Genshin Wizard | UIDの紐付け
 LINK_HOYOLAB_DESCRIPTION: |
-  Welcome to Genshin Wizard's HoYoLAB account linking system.
+  原神ウィザードのHoYoLABアカウント紐付けシステムへようこそ。
 
-  **Linking Features:**
-  > **1.** Access to your in-game resin count in real-time (set up automatic notifications).
-  > **2.** Access to your in-game expedition status in real-time.
-  > **3.** Ability to claim your *Daily Check-in Reward* straight from Discord.
-  > **4.** Ability to view in-depth information about your Spiral Abyss progression.
-  > **5.** View an infographic containing **all** your available characters.
+  **連携機能:**
+  > **1.** ゲーム内の樹脂数をリアルタイムで確認できます。（自動通知可）
+  > **2.** ゲーム内の探検ステータスをリアルタイムで確認できます。
+  > **3.** Discordから直接**デイリーログインボーナス**を受け取れます。
+  > **4.** 深境螺旋の戦績に関する詳細情報を見られます。
+  > **5.** 自身の利用可能なキャラクターを**全て**掲載したビルドカードを出力できます。
 
-  To begin, click one of the user registration options below!
+  まずは、以下のユーザー登録オプションのいずれかをクリックしてください！
 HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Automatic Daily Sign-in
 AUTOCLAIM_ALREADY_DISABLED: Automatic HoYoLAB daily sign-in is already disabled.
 AUTOCLAIM_ALREADY_ENABLED: Automatic HoYoLAB daily sign-in is already enabled.
@@ -514,8 +514,8 @@ PROFILE_SUMMARY_KEY: Profile Summary
 GENSHIN_WISH_STATS_KEY: Genshin Wish Stats
 PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
 GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
-GENSHIN_STATISTICS_INFOGRAPHIC: Genshin Statistics Infographic
-GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin stats/progression infographic that you requested!
+GENSHIN_STATISTICS_INFOGRAPHIC: 原神 統計カード
+GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: 旅人！お前だけの**特別な**原神ステータス・進行状況カードをお届けするぞ！
 HIDDEN_KEY: Hidden
 REQUESTED_UID_KEY: Requested UID
 GENSHIN_EXPLORATION_INFOGRAPHIC: Genshin Exploration Progression
@@ -546,7 +546,7 @@ PRIVACY_SETTING_OVERVIEW: |
   > *Hide your Imaginarium Theater Progression from showing up anywhere (`/imaginarium-theater`)
 ALL_KEY: All
 RESET_KEY: Reset
-WISH_HISTORY_KEY: Wish History
+WISH_HISTORY_KEY: 祈願履歴
 ABYSS_KEY: Abyss
 UID_KEY: UID
 STATS_KEY: Stats
@@ -606,7 +606,7 @@ LOCATION_KEY: Location
 TOP_ROLE_KEY: Top Role
 RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
 RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
-WISHES_WORTH_KEY: Wishes Worth
+WISHES_WORTH_KEY: 原石換算
 OVERALL_SUMMARY_KEY: Overall Summary
 OVERALL_STATS_KEY: Overall Stats
 PERCENTAGE_KEY: Percentage
@@ -1135,7 +1135,7 @@ REGISTER_SCRIPT_BUTTON: Register via Script
 REGISTER_LOGIN_BUTTON: Register via Login
 ENTER_TOKEN_BUTTON: Enter Token
 REGISTER_ACCOUNT_BUTTON: Register Account
-CHARACTERS_BUTTON: Characters
+CHARACTERS_BUTTON: キャラクター
 CLAIM_DAILY_REWARD_BUTTON: Claim Daily Reward
 MONTHLY_REWARDS_BUTTON: Monthly Rewards
 VIEW_TRAVELER_DIARY_BUTTON: View Traveler's Diary
@@ -1227,7 +1227,7 @@ UPDATE_BIO_MODAL_TITLE: Update Bio
 UPDATE_BIO_MODAL_LABEL: A short description about you. (200 chars)
 UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
 SELECT_CHOOSE_CATEGORY: Choose a category...
-PROFILE_KEY: Profile
+PROFILE_KEY: プロフィール
 PROFILE_DESCRIPTION: View your Genshin Wizard profile
 GENSHIN_STATISTICS_KEY: Genshin Stats
 GENSHIN_STATISTICS_DESCRIPTION: 原神ステータスを確認
@@ -1493,7 +1493,7 @@ TRANSFORMER_LOCKED_KEY: 未解放
 GENSHIN_STATS_KEY: Genshin Stats
 STATS_TOTAL_ACHIEVEMENTS_KEY: "Achievements"
 STATS_TOTAL_ACTIVE_DAYS_KEY: "Total Active Days"
-STATS_TOTAL_CHARACTERS_KEY: "Characters"
+STATS_TOTAL_CHARACTERS_KEY: "キャラクター"
 STATS_SPIRAL_ABYSS_KEY: "深境螺旋"
 STATS_IMAGINARIUM_THEATER_KEY: "Imaginarium Theater"
 STATS_STYGIAN_ONSLAUGHT_KEY: "幽境の激戦"
