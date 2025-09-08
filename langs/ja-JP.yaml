@@ -54,9 +54,9 @@ TRUTH_COMMAND_RESPONSES:
   - 当たり前だよな！
   - 当然だよな！
   - そうに決まってるぞ！
-  - Without a doubt.
+  - そうに決まってるぞ！
   - たぶんな！
-  - Chances High.
+  - 可能性は高そうだ！
   - だめそうだ...
   - 無理じゃないか...？
   - 否っ！
@@ -127,9 +127,9 @@ ERROR_PRIVACY_SETTING_DESCRIPTION: こんにちは、トラベラー！残念な
 ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Ongoing Update!
 ERROR_ONGOING_UPDATE_DESCRIPTION: こんにちは！Genshin Wizardは現在**メンテナンス中**のため、このコマンドはしばらくの間*無効*になっています。*後で*もう一度試してください*。
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this is a Genshin Wizard server {command_type}*exclusive* command!
+  旅人！このコマンドはここじゃ**使えない**んだ、Genshin Wizardサーバー{command_type}でだけ使えるんだぞ...
 
-  If you'd like use this command, consider joining our [Official Discord](https://genshinwizard.com/discord).
+  このコマンドを使いたいんだったら、[公式Discordサーバー](https://genshinwizard.com/discord)に参加してみてくれよな！
 ERROR_PREMIUM_COMMAND_TITLE: 原神ウィザードプレミアム
 ERROR_PREMIUM_COMMAND_DESCRIPTION: 旅人！このコマンドはオイラには使えないぞ... これはプレミアム加入者限定なんだ。もしこの機能を使いたいなら、</premium:{command_id}> コマンドで詳しく見てみるといいかもな！
 ERROR_BLACKLISTED_TITLE: Genshin Wizard | ブラックリスト入り
@@ -146,7 +146,7 @@ ERROR_MISSING_SEND_MESSAGE: 旅人！このチャンネル・ギルドで `メ�
 MESSAGE_KEY: メッセージ
 ERROR_EMPTY_BACKPACK: バッグになにもないみたいだ... </wishsimulator:{command_id}> を使っていっぱい祈願しような〜
 ERROR_INTERACTION_MISMATCH: 旅人！これはお前のじゃないみたいだ。もし自分で使いたかったら、{command} コマンドを使ってみるといいぞ！
-ERROR_MESSAGE: エラーが発生しました！
+ERROR_MESSAGE: エラーが発生してしまいました！
 FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | フィードバック
 FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *あなたのフィードバックは無事開発者に送られました！*
 FEEDBACK_LOG_RESPONSE: |
@@ -296,60 +296,60 @@ INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
 
   You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Premium Page Information**](https://)!
 PURCHASE_PREMIUM: Purchase Premium
-INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Hey Traveler, you can only manage custom art for your **own characters**!
-GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard Custom Art
+INFO_COMMAND_CUSTOM_ART_NOT_OWNER: 旅人！カスタムアートを管理できるのは**自分のキャラクター**だけだぞ！
+GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizardカスタムアート
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
   **Customize Infographic Art**
   Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
   ```fix
   Infographic for {character}```
   > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://genshinwizard.com/premium)
-GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Go to Dashboard
-REMOVE_CHARACTERS_FROM_CACHE: Remove characters from cache...
-INFO_COMMAND_CACHE_DELETE_SELECTED: Successfully deleted selected characters from Genshin Wizard's cache!
-INFO_COMMAND_CACHE_DELETE_ALL: Successfully deleted all your characters from Genshin Wizard's cache!
-INFO_COMMAND_CACHE_CANCEL: "**Cancelled** cache management request! You may dismiss this message."
-APP_COMMAND_DESCRIBE_USER: The name of the member you are trying to search for.
-APP_COMMAND_DESCRIBE_USER_AVATAR: The member you wish to view an avatar for.
-APP_COMMAND_DESCRIBE_UID: The UID of the member you are trying to search for.
-APP_COMMAND_DESCRIBE_USER_WISH: Search up a specific user's Genshin Wish history.
-APP_COMMAND_DESCRIBE_AUTOCLAIM: Enable/Disable automatic HoYoLAB daily sign-in.
-ENABLE_KEY: Enable
-DISABLE_KEY: Disable
-ENABLE_AUTOCLAIM: Enable automatic daily sign-in.
-DISABLE_AUTOCLAIM: Disable automatic daily sign-in.
-APP_COMAND_DESCRIBE_CODES: The redemption code you wish to redeem for your account.
-APP_COMMAND_DESCRIBE_DATA: The file you are trying to import your wish history from.
-APP_COMMAND_DESCRIBE_RESOURCE: The resource you are trying to search for.
-APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: The character you want to calculate ascension materials for.
-APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: Starting level of the character you want to upgrade.
-APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: Desired level of the character you want to upgrade.
-APP_COMMAND_DESCRIBE_BANNER_IMAGE: The image you want to use as your banner.
-APP_COMMAND_DESCRIBE_BANNER_URL: The link to an image you want to use as your banner.
-APP_COMMAND_DESCRIBE_CURRENT_RESIN: The amount of resin you currently have.
-APP_COMMAND_DESCRIBE_CARD: The name of the card you want to look-up.
-APP_COMMAND_DESCRIBE_ARTIFACT: The name of the artifact you want to search for.
-APP_COMMAND_DESCRIBE_ASSET_ID: The ID for the asset you wish to look up.
-APP_COMMAND_DESCRIBE_WEAPON: The name of the weapon you want to look-up a guide for.
-APP_COMMAND_DESCRIBE_CHARACTER: The name of the character you want to look-up.
-APP_COMMAND_DESCRIBE_CHARACTER_GUIDE: The name of the character you want to look-up a guide for
-APP_COMMAND_DESCRIBE_CHARACTER_BUILD: The name of the character you want to look-up a build for.
-APP_COMMAND_DESCRIBE_CHARACTER_PLAYSTYLE: The name of the character you want to look-up a playstyle for.
-APP_COMMAND_DESCRIBE_CHARACTER_SYNERGY: The name of the character you want to look-up team synergies for.
-APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION_LOOKUP: The name of the character you want to look-up ascension materials for.
-APP_COMMAND_DESCRIBE_CHARACTER_CONSTELLATIONS: The name of the character you want to look-up constellations for.
-APP_COMMAND_DESCRIBE_CHARACTER_SKILLS: The name of the character you want to look-up skill talents for.
-APP_COMMAND_DESCRIBE_CHARACTER_PASSIVE: The name of the character you want to look-up passive talents for.
-APP_COMMAND_DESCRIBE_ITEM_REFERENCE_SHEET: The name of the item you want a reference sheet for.
-APP_COMMAND_DESCRIBE_CRIT_RATE: The CRIT Rate of the artifact.
-APP_COMMAND_DESCRIBE_CRIT_DAMAGE: The CRIT Damage of the artifact.
-APP_COMMAND_DESCRIBE_QUESTION: The question you wish to ask Paimon.
-APP_COMMAND_DESCRIBE_PREFIX: The new prefix you wish to set for the bot.
-APP_COMMAND_DESCRIBE_EXPRESSION: The equation/query you're attempting to compute.
-APP_COMMAND_DESCRIBE_CODE_CHANNEL: The channel you want to send the message in.
-APP_COMMAND_DESCRIBE_CODE_PING: The role you want to mention along with the message.
-APP_COMMAND_DESCRIBE_CODE_LIST: The redemption codes you wish to send, seperated by a comma.
-APP_COMMAND_DESCRIBE_FEEDBACK: The feedback you wish to deliver.
+GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: ダッシュボードに行く
+REMOVE_CHARACTERS_FROM_CACHE: キャッシュからキャラクターを消去...
+INFO_COMMAND_CACHE_DELETE_SELECTED: Genshin Wizardのキャッシュから、選択されたキャラクターを消去しました！
+INFO_COMMAND_CACHE_DELETE_ALL: Genshin Wizardのキャッシュから、すべてのキャラクターを消去しました！
+INFO_COMMAND_CACHE_CANCEL: "キャッシュ管理の要求を**キャンセル**しました！このメッセージを無視しても構いません。"
+APP_COMMAND_DESCRIBE_USER: 検索したいメンバーの名前
+APP_COMMAND_DESCRIBE_USER_AVATAR: アバターを表示したいメンバー
+APP_COMMAND_DESCRIBE_UID: 検索対象のメンバーのUID
+APP_COMMAND_DESCRIBE_USER_WISH: 特定のユーザーの祈願履歴を検索する
+APP_COMMAND_DESCRIBE_AUTOCLAIM: 自動HoYoLABデイリーログインの有効／無効
+ENABLE_KEY: 有効
+DISABLE_KEY: 無効
+ENABLE_AUTOCLAIM: 自動ログインを有効化
+DISABLE_AUTOCLAIM: 自動ログインを無効化
+APP_COMAND_DESCRIBE_CODES: 自分のアカウントで引き換えしたい交換コード
+APP_COMMAND_DESCRIBE_DATA: 祈願履歴を取り込みたいファイル
+APP_COMMAND_DESCRIBE_RESOURCE: 検索したいリソース
+APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION: 突破素材を計算したいキャラクター
+APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_START: 強化したいキャラクターの開始レベル
+APP_COMMAND_DESCRIBE_CHARACTER_LEVEL_END: 強化したいキャラクターの目標レベル
+APP_COMMAND_DESCRIBE_BANNER_IMAGE: バナーに使いたい画像
+APP_COMMAND_DESCRIBE_BANNER_URL: バナーとして使いたい画像へのリンク
+APP_COMMAND_DESCRIBE_CURRENT_RESIN: 現在所持している樹脂の量
+APP_COMMAND_DESCRIBE_CARD: 検索したいカードの名前
+APP_COMMAND_DESCRIBE_ARTIFACT: 検索したい聖遺物の名前
+APP_COMMAND_DESCRIBE_ASSET_ID: 検索したいアセットのID
+APP_COMMAND_DESCRIBE_WEAPON: ガイドを参照したい武器の名前
+APP_COMMAND_DESCRIBE_CHARACTER: 検索したいキャラクターの名前
+APP_COMMAND_DESCRIBE_CHARACTER_GUIDE: ガイドを参照したいキャラクターの名前
+APP_COMMAND_DESCRIBE_CHARACTER_BUILD: ビルドを検索したいキャラクターの名前
+APP_COMMAND_DESCRIBE_CHARACTER_PLAYSTYLE: プレイスタイルを検索したいキャラクターの名前
+APP_COMMAND_DESCRIBE_CHARACTER_SYNERGY: チーム編成候補を調べたいキャラクターの名前
+APP_COMMAND_DESCRIBE_CHARACTER_ASCENSION_LOOKUP: 突破素材を調べたいキャラクターの名前
+APP_COMMAND_DESCRIBE_CHARACTER_CONSTELLATIONS: 命ノ星座を調べたいキャラクターの名前
+APP_COMMAND_DESCRIBE_CHARACTER_SKILLS: 天賦効果を調べたいキャラクターの名前
+APP_COMMAND_DESCRIBE_CHARACTER_PASSIVE: 固有天賦の内容を調べたいキャラクターの名前
+APP_COMMAND_DESCRIBE_ITEM_REFERENCE_SHEET: 参照シートに使用したいアイテムの名前
+APP_COMMAND_DESCRIBE_CRIT_RATE: 聖遺物の会心率
+APP_COMMAND_DESCRIBE_CRIT_DAMAGE: 聖遺物の会心ダメージ
+APP_COMMAND_DESCRIBE_QUESTION: パイモンに訊きたい質問
+APP_COMMAND_DESCRIBE_PREFIX: Botに設定したい新しいプレフィックス
+APP_COMMAND_DESCRIBE_EXPRESSION: 計算したい数式
+APP_COMMAND_DESCRIBE_CODE_CHANNEL: メッセージを送信したいチャンネル
+APP_COMMAND_DESCRIBE_CODE_PING: メッセージ内で言及するロール
+APP_COMMAND_DESCRIBE_CODE_LIST: 送信したい交換コード（コンマで分割）
+APP_COMMAND_DESCRIBE_FEEDBACK: フィードバックの内容
 APP_CONTEXT_MENU_PROFILE: Profile
 APP_CONTEXT_MENU_STATISTICS: Stats Progression
 APP_CONTEXT_MENU_ABYSS: Abyss Progression
@@ -1436,46 +1436,46 @@ PRIVACY_SETTING_BUTTON_LABEL: Privacy Setting {setting_number}
 INVALID_PAGE_INPUT: You must provide a **valid** page number.
 PAGE_MODAL_LABEL: "Page number you want to view:"
 PAGE_MODAL_PLACEHOLDER: "Enter page number..."
-RARITY_FILTER_PLACEHOLDER: "Choose a rarity filter..."
-CHRONICLE_PRIVACY_PLACEHOLDER: "Manage Battle Chronicle privacy settings..."
-LEADERBOARD_FILTER_PLACEHOLDER: "Choose a filter for this leaderboard..."
+RARITY_FILTER_PLACEHOLDER: "レアリティフィルターを選択..."
+CHRONICLE_PRIVACY_PLACEHOLDER: "戦績のプライバシー設定を管理..."
+LEADERBOARD_FILTER_PLACEHOLDER: "ランキングのフィルターを選択..."
 VIEW_FULL_TEAM: "How Do I View Full Teams?"
-MANAGE_ART_SETTING_KEY: Manage Art Settings
-DEFAULT_ART_SETTING: Default Layout
-ENKA_ART_SETTING: Enka.Network Layout
-ART_SETTING_TITLE: Genshin Wizard Art Settings
+MANAGE_ART_SETTING_KEY: アート設定を管理
+DEFAULT_ART_SETTING: デフォルトレイアウト
+ENKA_ART_SETTING: Enka.Network風レイアウト
+ART_SETTING_TITLE: Genshin Wizard アート設定
 ART_SETTING_DESCRIPTION: Manage your Genshin Wizard </info:{command_id}> art settings here.
-ART_LAYOUT_STYLE: "Layout Style"
-ART_CHARACTER_STYLE: "Character Art"
-RESET_PROFILE_SETTINGS: Reset Profile Settings
-CHOOSE_ART_LAYOUT: "Choose an art layout style..."
-MANAGE_CACHED_DATA: Manage Cached Data
+ART_LAYOUT_STYLE: "ケイアウト形式"
+ART_CHARACTER_STYLE: "キャラクターアート"
+RESET_PROFILE_SETTINGS: プロファイル設定をリセット
+CHOOSE_ART_LAYOUT: "アートレイアウト形式を選択..."
+MANAGE_CACHED_DATA: キャッシュデータの管理
 INFO_COMMAND_SETTING_NOT_OWNER: You can only manage art settings for your own characters! Use the </info:{command_id}> for more information!
-VERTICAL_ART_SETTING: Vertical Card Layout
-DIARY_DATE_LABEL: "{month}/{year} Diary"
+VERTICAL_ART_SETTING: 縦向きカードレイアウト
+DIARY_DATE_LABEL: "{year}年{month}の手帳"
 NO_ACTIVE_BONUS: No Activated Bonuses
-JANUARY_KEY: January
-FEBRUARY_KEY: February
-MARCH_KEY: March
-APRIL_KEY: April
-MAY_KEY: May
-JUNE_KEY: June
-JULY_KEY: July
-AUGUST_KEY: August
-SEPTEMBER_KEY: September
-OCTOBER_KEY: October
-NOVEMBER_KEY: November
-DECEMBER_KEY: December
-SIGN_IN_DAY: "Day {day}"
-CHARACTER_ARCHIVE_TITLE: Character Archive
-USER_KEY_VALUE: "User: {user}"
-PLAYER_KEY_VALUE: "Player: {player}"
-TOTAL_WISHES_VALUE: "Total Wishes: {total_wishes}"
-FIVE_STAR_COUNT: "Five Stars: {five_star_count}"
-FOUR_STAR_COUNT: "Four Stars: {four_star_count}"
-GACHA_DATA_NOT_REAL: "*This data is not real."
-INVENTORY_KEY: Inventory
-CHARACTER_SUMMARY_KEY: Character Summary
+JANUARY_KEY: 1月
+FEBRUARY_KEY: 2月
+MARCH_KEY: 3月
+APRIL_KEY: 4月
+MAY_KEY: 5月
+JUNE_KEY: 6月
+JULY_KEY: 7月
+AUGUST_KEY: 8月
+SEPTEMBER_KEY: 9月
+OCTOBER_KEY: 10月
+NOVEMBER_KEY: 11月
+DECEMBER_KEY: 12月
+SIGN_IN_DAY: "{day}日"
+CHARACTER_ARCHIVE_TITLE: キャラクターアーカイブス
+USER_KEY_VALUE: "ユーザー：{user}"
+PLAYER_KEY_VALUE: "プレーヤー：{player}"
+TOTAL_WISHES_VALUE: "総祈願数: {total_wishes}"
+FIVE_STAR_COUNT: "星5人数：{five_star_count}"
+FOUR_STAR_COUNT: "星4人数：{four_star_count}"
+GACHA_DATA_NOT_REAL: "*このデータは架空のものです。"
+INVENTORY_KEY: バッグ
+CHARACTER_SUMMARY_KEY: キャラクター概要
 UNKNOWN_ADVENTURE_RANK: "冒険ランク：不明"
 ADVENTURE_RANK_VALUE: "冒険ランク：{adventure_rank}"
 SERVER_KEY_VALUE: "サーバー：{server}"
@@ -1488,8 +1488,8 @@ HOYO_DAILY_BONUS_STATUS: "デイリーログイン："
 HOYO_RESIN_KEY: "天然樹脂："
 HOYO_TEAPOT_KEY: "洞天宝銭："
 HOYO_TRANSFORMER_KEY: "参量物質変化器："
-TRANSFORMER_READY_KEY: Ready
-TRANSFORMER_LOCKED_KEY: Locked
+TRANSFORMER_READY_KEY: 準備完了
+TRANSFORMER_LOCKED_KEY: 未解放
 GENSHIN_STATS_KEY: Genshin Stats
 STATS_TOTAL_ACHIEVEMENTS_KEY: "Achievements"
 STATS_TOTAL_ACTIVE_DAYS_KEY: "Total Active Days"
@@ -1572,7 +1572,7 @@ HIDE_WEAPON_KEY: Hide Weapon Details
 SHOW_WEAPON_KEY: Show Weapon Details
 ONGOING_KEY: Ongoing
 FINISHED_KEY: Finished
-VENTURA_ART_SETTING: Ventura Layout
+VENTURA_ART_SETTING: Ventura レイアウト
 TITLE_KEY: Title
 AFFILIATION_KEY: Affiliation
 ELEMENT_KEY: 元素タイプ
@@ -1913,7 +1913,7 @@ LOGIN_ACCOUNT_REGISTRATION: Genshin Wizard HoYoLABアカウント登録
 LOGIN_ACCOUNT_EMAIL_VERIFICATION: アカウント登録 | Eメール認証が必要
 LOGIN_ACCOUNT_REGISTRATION_PROCESSING: 旅人さん、現在、私たちはあなたのアカウント登録リクエストを処理しています。お客様のアカウント情報を確認しておりますので、少々お待ちください。
 LOGIN_ACCOUNT_REGISTRATION_FAILED: アカウント登録失敗
-LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: Hello Traveler, it seems that we were unable to register your account. Please try again later or contact the **[Genshin Wizard Support Team](https://genshinwizard.com/support)** if you believe this is an error.
+LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: 旅人！お前のアカウントを登録できなかったみたいだ... あとでもういっかい試してみてくれ。もしこれが続くようなら、**[Genshin Wizardのサポートチーム]**(https://genshinwizard.com/support)に連絡してみてくれよな。
 LOGIN_REGISTRATION_METHOD: "認証方法: **{method}**"
 LOGIN_REGISTRATION_STATUS: "ステータス: **{status}**"
 LOGIN_STATUS_PROCESSING: 処理中
@@ -1924,7 +1924,7 @@ REAUTHENTICATION_SUCCESS_TITLE: 再認証成功
 REAUTHENTICATION_SUCCESS: あなたのHoYoLABアカウントの再認証に成功しました！再び、一部のGenshin Wizardの機能をご利用いただけます。
 NO_REAUTH_ACCOUNT_FOUND: 再認証するHoYoLABアカウントが見つかりません！
 REAUTHENTICATION_FAILED_TITLE: 再認証失敗
-REAUTHENTICATION_FAILED: Hello Traveler, it seems that we were unable to reauthenticate your account. Please try again later or contact the **[Genshin Wizard Support Team](https://genshinwizard.com/support)** if you believe this is an error.
+REAUTHENTICATION_FAILED: 旅人！お前のアカウントを再認証できなかったみたいだ... あとでもう一回試してみてくれ。もしこれが続くようなら、**[Genshin Wizardのサポートチーム]**(https://genshinwizard.com/support)に連絡してみてくれよな。
 EMAIL_VERIFICATION_KEY: Eメール認証
 VERIFICATION_CODE_KEY: 認証コード
 LOGIN_STATUS_SUCCESS_DESCRIPTION: おめでとうございます！あなたのHoYoLABアカウントはGenshin Wizardに登録されました。一部のGenshin Wizardの機能をご利用いただけます。
