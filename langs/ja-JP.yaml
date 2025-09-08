@@ -47,31 +47,31 @@ AVATAR_KEY: アバター
 ARTIFACT_CRIT_VALUE_TITLE: 聖遺物会心スコア計算機
 TOTAL_CRIT_VALUE: 合計会心スコア
 TRUTH_COMMAND_RESPONSES:
-  - As I see it, yes.
+  - オイラは大丈夫だと思うぞ！
   - はい
-  - Positive.
-  - From my point of view, yes.
-  - Convinced.
-  - It is certain.
-  - It is decidedly so.
+  - 間違いないぞ！
+  - オイラが思うに... 大丈夫だな！
+  - 当たり前だよな！
+  - 当然だよな！
+  - そうに決まってるぞ！
   - Without a doubt.
-  - Most Likely.
+  - たぶんな！
   - Chances High.
-  - No.
-  - I think not.
-  - Negative.
-  - My sources say no.
-  - Not Convinced.
-  - Perhaps.
-  - Not Sure.
-  - Maybe.
-  - Who knows?
-  - I cannot predict now.
-  - I am tired. *proceeds with sleeping*
-  - Absolutely.
-TRUTH_COMMAND_TITLE: Paimon's Wisdom
-QUESTION_KEY: Question
-RESPONSE_KEY: Response
+  - だめそうだ...
+  - 無理じゃないか...？
+  - 否っ！
+  - とある情報筋によると... 無理。
+  - 考えられないぞ...
+  - かもな。
+  - なんとも言えないぞ...
+  - かもしれないぞ。
+  - それは誰にもわからないぞ...
+  - '？？わ、わかんないぞ・・・'
+  - 疲れちゃったぞ。(むにゃむにゃ...)
+  - 間違いないな！
+TRUTH_COMMAND_TITLE: 知恵のパイモン
+QUESTION_KEY: 質問
+RESPONSE_KEY: 回答
 PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
 PREFIX_TOO_LONG: The prefix cannot be longer than 5 characters.
 PREFIX_TOO_SHORT: The prefix cannot be shorter than 1 character.
@@ -108,19 +108,19 @@ INTERMISSION_MESSAGE: Generating infographic, please be **patient**...
 MENU_COOLDOWN_TITLE: メニューはクールダウン中です！
 BUTTON_COOLDOWN_TITLE: このボタンはクールダウン中です！
 COMMAND_COOLDOWN_TITLE: このコマンドはクールダウン中です。
-MENU_COOLDOWN_VALUE: You're clicking attributes too quickly! Try again in **{cooldown}** seconds.
+MENU_COOLDOWN_VALUE: クリックが速過ぎます！**{cooldown}**秒後にまたお試しください。
 CHARACTER_SHOWCASE_TITLE: Character Showcase
 ERROR_RATELIMIT: ユーザーは現在レート制限がかかっています。
 ERROR_COMMAND_COOLDOWN_VALUE: '{cooldown}秒後にもう一度このコマンドを使用してみてください。'
-ERROR_COMMAND_LONG_COOLDOWN_VALUE: Try using this command again in <t:{cooldown}:R>
-ERROR_KEY: Error!
-SUCCESSFUL_KEY: Successful!
+ERROR_COMMAND_LONG_COOLDOWN_VALUE: <t:{cooldown}:R>秒後にまたお試しください。
+ERROR_KEY: エラー！
+SUCCESSFUL_KEY: 成功！
 ERROR_MISSING_PERMISSION: このコマンドを使用する権限がありません！
 EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Exclusive Command
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
+  旅人！このコマンドはここじゃ使えないぞ、サーバー内で試してみてくれ！
 
-  If you'd like use this command, consider joining our [Official Discord](https://genshinwizard.com/discord).
+  このコマンドがどうしても使いたいなら、[公式Discord](https://genshinwizard.com/discord)に参加してみてくれよな〜
 ERROR_COMMAND_INVOKE: このコマンドに正しい引数を使用していることを確認してください！
 ERROR_PRIVACY_SETTING_TITLE: Hidden | Nothing to see!
 ERROR_PRIVACY_SETTING_DESCRIPTION: こんにちは、トラベラー！残念ながら、検索しようとしている人は **プライバシー設定**を有効にしています！
@@ -146,7 +146,7 @@ ERROR_MISSING_SEND_MESSAGE: 旅人！このチャンネル・ギルドで `メ�
 MESSAGE_KEY: メッセージ
 ERROR_EMPTY_BACKPACK: バッグになにもないみたいだ... </wishsimulator:{command_id}> を使っていっぱい祈願しような〜
 ERROR_INTERACTION_MISMATCH: 旅人！これはお前のじゃないみたいだ。もし自分で使いたかったら、{command} コマンドを使ってみるといいぞ！
-ERROR_MESSAGE: エラーが発生してしまいました！
+ERROR_MESSAGE: エラーが発生しました！
 FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | フィードバック
 FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *あなたのフィードバックは無事開発者に送られました！*
 FEEDBACK_LOG_RESPONSE: |
@@ -1273,10 +1273,10 @@ SHOP_BUTTON_LABEL: "{primogem_price} Primogems"
 REROLL_WISHES_BUTTON: Reroll Wishes
 VIEW_INVENTORY_BUTTON: View Inventory
 REGION_SELECT_PLACEHOLDER: 地域を選択…
-AMERICA_KEY: アメリカ
+AMERICA_KEY: America
 EUROPE_KEY: Europe
 ASIA_KEY: Asia
-SAR_KEY: SAR
+SAR_KEY: TW, HK, MO
 AMERICA_SERVER_DOMAIN_SCHEDULE: View current Domain Schedule for America servers.
 EUROPE_SERVER_DOMAIN_SCHEDULE: View current Domain Schedule for Europe servers.
 ASIA_SERVER_DOMAIN_SCHEDULE: View current Domain Schedule for Asia servers.
@@ -1395,20 +1395,20 @@ HELP_GUIDE_COG_NAME: Guides
 HELP_MISC_COG_NAME: Miscellaneous
 CHOOSE_ELEMENT_DROPDOWN: Choose an element...
 CHOOSE_LANGUAGE_DROPDOWN: Choose a language...
-CURRENT_LANGUAGE_KEY: Current Language
+CURRENT_LANGUAGE_KEY: 現在の言語
 CROWDIN_KEY: Crowdin
-CROWDIN_LINK_KEY: Crowdin Link
+CROWDIN_LINK_KEY: Crowdinのリンク
 OFFICIAL_REPOSITORY_KEY: Official Repository
 OFFICIAL_REPOSITORY_LINK_KEY: Official Repository Link
 GENSHIN_WIZARD_TRANSLATE_TITLE: Contribute to Genshin Wizard Translations
-GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: Click one of the links below to contribute to Genshin Wizard translations!
-APP_COMMAND_LANGUAGE_DESCRIPTION: Change your language for Genshin Wizard.
+GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: 下記のリンクをクリックして、Genshin Wizardの翻訳に貢献しよう！
+APP_COMMAND_LANGUAGE_DESCRIPTION: Genshin Wizardの言語を選択
 APP_COMMAND_DESCRIBE_LANGUAGE: The language you want Genshin Wizard to be set to.
 GENSHIN_WIZARD_LANGUAGE_SWITCHED: Default language for Genshin Wizard switched to **{language}**!
 GENSHIN_WIZARD_CURRENT_LANGUAGE: Your current language for Genshin Wizard is **{language}**!
 ABYSS_FLOOR_PROGRESSION: "Current Progression: **{stars}/9** {bounty_status}"
-ABYSS_FLOOR_AUTHOR: Floor {floor} • Spiral Abyss Progression
-ABYSS_FLOOR_LABEL: Floor {floor}
+ABYSS_FLOOR_AUTHOR: 第{floor}層 • 深境螺旋戦績
+ABYSS_FLOOR_LABEL: 第{floor}層
 APP_COMMAND_ABYSS_ENEMY_DESCRIPTION: View abyss-enemy information for Spiral Abyss.
 ABYSS_ENEMY_NOT_ONGOING: There is currently no ongoing Spiral Abyss challenges.
 ABYSS_ENEMY_TITLE: Spiral Abyss Enemy Information
@@ -1635,7 +1635,7 @@ INVOKATION_SHOWCASE: "Card Showcase"
 INVOKATION_SUMMARY: "Trading Card Summary"
 DAILY_ALREADY_CLAIMED: You have already claimed your daily reward.
 UNABLE_TO_CLAIM: Unable to claim your daily reward.
-COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </accounts:{command_id}> to register.
+COOKIE_RESET_MESSAGE: 原神アカウントのパスワードをリセットすると、Cookieが**リセット**されます。このコマンドを使用するには、HoYoLABアカウントの**再認証**が必要です。再認証にはコマンド</reauthenticate:{command_id}>を使用してください。
 INVALID_COOKIE_KEY: Invalid Cookie
 TEST_NOTIFICATION_KEY: Test Notification
 TEST_NOTIFICATION_TITLE: Genshin Wizard | Notification Test
@@ -1767,9 +1767,9 @@ ERROR_GENSHIN_COMMAND_ONLY_DESCRIPTION: |
 CHARACTER_GUIDE_LIST_SECTION_TITLE: Genshin Impact Character Guides
 PROCESSING_MESSAGE: Processing request/action, please be **patient**...
 ACCOUNT_CANNOT_REDEEM: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard or your account was not properly configured initially.
+  旅人さん、ご不便をおかけして申し訳ありませんが、現在お客様のアカウントでは**コードの引き換えができません**。コードを引き換えるには、HoYoLABアカウントの再認証が必要です！
 
-  In order to use this command/feature, you must relink your HoYoLAB account through </accounts:{command_id}>.
+  このコマンド・機能をご利用いただくには、</reauthenticate:{command_id}> を通じてHoYoLABアカウントの再認証を行ってください。
 VIEW_ACCOUNTS_KEYS: View Account(s)
 NOT_YET_EXPLORED: Not Yet Explored!
 EXPLORATION_PROGRESS: Exploration Progress
@@ -1790,7 +1790,7 @@ FASTEST_ACT_KEY: Fastest Act
 HIGHEST_DAMAGE_DEALT_LABEL: Highest Damage Dealt
 TRIAL_KEY: Trial
 SUPPORT_KEY: Support
-THEATER_COMMAND_FOOTER: "Note: Theater data may be incorrectly shown or missing data, if this is the case, do keep in mind that theater data can generally take anywhere from 1-3 hours to update!"
+THEATER_COMMAND_FOOTER: "注: 幻想シアターのデータ更新には、1～3時間ほどかかる場合があります。"
 IMAGINARIUM_THEATER_DESCRIPTION: View your Imaginarium Theater progression stats
 THEATER_LEADERBOARD_PLACEHOLDER: Choose a lunar phase to view...
 VIEW_THEATER_TEAM: Viewing Imaginarium Theater Lineup
@@ -1821,7 +1821,7 @@ MAGIC_LABEL: Remarkable
 THEATER_NOT_UNLOCKED: The Imaginarium Theater is not yet unlocked for your account!
 CHARACTER_NOT_IN_ACCOUNT: The character `{name}` was not found in your account!
 ONSLAUGHT_NOT_UNLOCKED: The Stygian Onslaught is not yet unlocked for your account!
-ONSLAUGHT_COMMAND_FOOTER: "Note: Stygian Onslaught data may be incorrectly shown or missing data, if this is the case, do keep in mind that Stygian Onslaught data can generally take anywhere from 1-3 hours to update!"
+ONSLAUGHT_COMMAND_FOOTER: "注: 幽境の激戦のデータ更新には、1〜3時間ほどかかる場合があります。"
 NO_ONSLAUGHT_DATA: "No Stygian Onslaught Data"
 ONSLAUGHT_COMMAND_STATISTICS_CREDIT: User {name}'s Stygian Onslaught Stats
 CURRENT_ONSLAUGHT_PHASE_DESCRIPTION: View Current Stygian Onslaught Stats Progression
@@ -1843,32 +1843,32 @@ ONSLAUGHT_DETAIL_MENACING: "Stygian Onslaught Details: Menacing Mode"
 ONSLAUGHT_DETAIL_FEARLESS: "Stygian Onslaught Details: Fearless Mode"
 ONSLAUGHT_DETAIL_DIRE: "Stygian Onslaught Details: Dire Mode"
 BATTLE_FIELD_KEY: "Battlefield {battle_field_id}"
-HIGHEST_TOTAL_DAMAGE_DEALT_LABEL: Highest Total Damage Dealt
-BEST_RECORD_KEY: Best Record
-BATTLE_TIME_KEY: "Battle Time: {time}s"
+HIGHEST_TOTAL_DAMAGE_DEALT_LABEL: 最大合計ダメージ
+BEST_RECORD_KEY: 最高記録
+BATTLE_TIME_KEY: "クリアタイム: {time}秒"
 WEAK_AGAINST_KEY: Weak Against
 STRONG_AGAINST_KEY: Strong Against
 ONSLAUGHT_SCHEDULE_RECORD: Schedule Record
-SINGLE_PLAYER_KEY: Single Player
-MULTI_PLAYER_KEY: Multi Player
-BATTLE_SYNOPSIS_KEY: Battle Synopsis
-BATTLE_INDEX_KEY: Battle {battle_field_id}
-FASTEST_KEY: Fastest
-COMPLETE_KEY: Complete
-NO_TEAM_DETAILS: No Team Details
-CURRENT_PHASE_KEY: Current Phase
-PREVIOUS_PHASE_KEY: Previous Phase
+SINGLE_PLAYER_KEY: ソロプレイ
+MULTI_PLAYER_KEY: マルチプレイ
+BATTLE_SYNOPSIS_KEY: 戦績概要
+BATTLE_INDEX_KEY: 戦闘 {battle_field_id}
+FASTEST_KEY: 最速
+COMPLETE_KEY: 完了
+NO_TEAM_DETAILS: チーム情報なし
+CURRENT_PHASE_KEY: 今期
+PREVIOUS_PHASE_KEY: 前期
 CURRENT_PHASE_DESCRIPTION: |
-  **Current Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  **今期**
+  **開始時間:** <t:{timestamp_start}:F>
+  **終了時間:** <t:{timestamp_end}:F>
 PREVIOUS_PHASE_DESCRIPTION: |
-  **Previous Phase**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  **前期**
+  **開始時間:** <t:{timestamp_start}:F>
+  **終了時間:** <t:{timestamp_end}:F>
 PHASE_NO_DATA: Hey Traveler, it seems there is currently no data for this phase. Please try again later or contact the Genshin Wizard support team if you believe this is an error.
 CHANNEL_NOT_FOUND: The channel you provided does not exist or is not accessible.
-INITIALIZE_WEBHOOK_BUTTON: Initialize/Refresh Webhook
+INITIALIZE_WEBHOOK_BUTTON: Webhookを更新・初期化
 CHANNEL_SETUP_SUCCESS: The channel {channel} has been successfully set! Please enable/initialize the webhook by clicking the button in the panel configuration view.
 WEBHOOK_INITIALIZED: Successfully initialized the plugin, please enable the plugin if you haven't already. You're all set to go!
 PREMIUM_MANAGE_BILLING: Manage Billing
@@ -1903,29 +1903,29 @@ APP_COMMAND_REAUTHENTICATE_DESCRIPTION: Reauthenticate your HoYoLAB account if l
 REAUTHENTICATE_KEY: Reauthenticate
 ACTION_LOADING_LABEL: "Loading..."
 SETUP_REMINDERS_BUTTON: Setup Account Reminders (Resin, Teapot, etc.)
-ACCOUNT_OVERVIEW_KEY: Account Overview
+ACCOUNT_OVERVIEW_KEY: アカウント概要
 ACCOUNT_OVERVIEW_DESCRIPTION: View current resin, teapot currency, expeditions, and more!
 MONTHLY_REWARDS_DESCRIPTION: View your monthly HoYoLAB check-in rewards and claim status.
 VIEW_CHARACTERS_DESCRIPTION: View your Genshin Impact characters and their details.
-VIEW_TRAVELER_DIARY_DESCRIPTION: View your monthly Traveler's Diary summary.
-SELECT_HOYO_OPTION: Select a category to view...
-LOGIN_ACCOUNT_REGISTRATION: Genshin Wizard HoYoLAB Account Registration
-LOGIN_ACCOUNT_EMAIL_VERIFICATION: Account Registration | Email Verification Required
-LOGIN_ACCOUNT_REGISTRATION_PROCESSING: Hello Traveler, we are processing your account registration request. Please wait while we take a moment to gather your account details.
-LOGIN_ACCOUNT_REGISTRATION_FAILED: Account Registration Failed
-LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: Hello Traveler, it seems that we were unable to register your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error.
-LOGIN_REGISTRATION_METHOD: "Registration Method: **{method}**"
-LOGIN_REGISTRATION_STATUS: "Status: **{status}**"
-LOGIN_STATUS_PROCESSING: Processing
-LOGIN_STATUS_EMAIL_VERIFICATION_PENDING: Email Verification Pending
-LOGIN_STATUS_FAILED: Registration Failed
-LOGIN_STATUS_SUCCESS: Registration Successful
-REAUTHENTICATION_SUCCESS_TITLE: Reauthentication Successful
-REAUTHENTICATION_SUCCESS: You have **successfully** reauthenticated your HoYoLAB account! You may now use select Genshin Wizard features again.
-NO_REAUTH_ACCOUNT_FOUND: No existing HoYoLab account found to reauthenticate!
-REAUTHENTICATION_FAILED_TITLE: Reauthentication Failed
-REAUTHENTICATION_FAILED: Hello Traveler, it seems that we were unable to reauthenticate your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error.
-EMAIL_VERIFICATION_KEY: Email Verification
-VERIFICATION_CODE_KEY: Verification Code
-LOGIN_STATUS_SUCCESS_DESCRIPTION: Congratulations! You have successfully registered your HoYoLAB account with Genshin Wizard. You may now use select Genshin Wizard features.
-EMAIL_VERIFICATION_FAILURE: Email Verification Failed
+VIEW_TRAVELER_DIARY_DESCRIPTION: 旅人手帳の概要を表示
+SELECT_HOYO_OPTION: 表示するカテゴリを選択…
+LOGIN_ACCOUNT_REGISTRATION: Genshin Wizard HoYoLABアカウント登録
+LOGIN_ACCOUNT_EMAIL_VERIFICATION: アカウント登録 | Eメール認証が必要
+LOGIN_ACCOUNT_REGISTRATION_PROCESSING: 旅人さん、現在、私たちはあなたのアカウント登録リクエストを処理しています。お客様のアカウント情報を確認しておりますので、少々お待ちください。
+LOGIN_ACCOUNT_REGISTRATION_FAILED: アカウント登録失敗
+LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: 旅人！お前のアカウントを登録できなかったみたいだ... あとでもういっかい試してみてくれ。もしこれが続くようなら、**[Genshin Wizardのサポートチーム]**(https://genshinwizard.com/support)に連絡してみてくれよな。
+LOGIN_REGISTRATION_METHOD: "認証方法: **{method}**"
+LOGIN_REGISTRATION_STATUS: "ステータス: **{status}**"
+LOGIN_STATUS_PROCESSING: 処理中
+LOGIN_STATUS_EMAIL_VERIFICATION_PENDING: Eメール認証待ち
+LOGIN_STATUS_FAILED: 登録失敗
+LOGIN_STATUS_SUCCESS: 登録成功
+REAUTHENTICATION_SUCCESS_TITLE: 再認証成功
+REAUTHENTICATION_SUCCESS: あなたのHoYoLABアカウントの再認証に成功しました！再び、一部のGenshin Wizardの機能をご利用いただけます。
+NO_REAUTH_ACCOUNT_FOUND: 再認証するHoYoLABアカウントが見つかりません！
+REAUTHENTICATION_FAILED_TITLE: 再認証失敗
+REAUTHENTICATION_FAILED: 旅人！お前のアカウントを再認証できなかったみたいだ... あとでもう一回試してみてくれ。もしこれが続くようなら、**[Genshin Wizardのサポートチーム]**(https://genshinwizard.com/support)に連絡してみてくれよな。
+EMAIL_VERIFICATION_KEY: Eメール認証
+VERIFICATION_CODE_KEY: 認証コード
+LOGIN_STATUS_SUCCESS_DESCRIPTION: おめでとうございます！あなたのHoYoLABアカウントはGenshin Wizardに登録されました。一部のGenshin Wizardの機能をご利用いただけます。
+EMAIL_VERIFICATION_FAILURE: Eメール認証失敗
