@@ -275,7 +275,7 @@ INVALID_ARGUMENT_PASSED: |
 INFO_COMMAND_ENKA_ISSUE: There seems to be an issue with [**Enka.Network**](https://enka.network/u/{uid}). Please try again later.
 ERROR_NO_USER_DATA: No data found for this user.
 WHAT_HAPPENED_TITLE: What happened?
-WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
+WHAT_HAPPENED_VALUE: この問題が発生する最も一般的な原因は、検索しようとしている原神アカウントが公開設定になっていないことです。解決するには、原神内のプロフィールで「キャラ詳細表示」を有効にしてください。参考までに以下の画像をご覧ください。
 WHAT_HAPPENED_FOOTER: Genshin Wizard may take upto five minutes to acknowledge recent changes made in-game, please be patient with us.
 INFO_COMMAND_SHOWCASE_TITLE: Character Showcase
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: View on Enka.Network
@@ -738,7 +738,7 @@ SUCCESSFULLY_LINKED_HOYOLAB: |
 
   Successfully synced your HoYoLAB account! You can now access the **HoYoLAB account menu** by using the command </hoyo:{command_id}>!
 REGISTRATION_FAILED: Registration Failed!
-REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> Registering your account was **unsuccessful**! Please try again or contact the [**support team**](https://genshinwizard.com/discord) if the issue persists. This issue is typically caused by an invalid email/password combination.
+REGISTRATION_FAILED_DESCRIPTION: アカウントの登録に失敗したみたいだ... もしこれが続くようなら、**[Genshin Wizardのサポートチーム]**(https://genshinwizard.com/support)に連絡してみてくれよな。この問題はEメール、パスワードの間違いで起こることがあるぞ！
 INVALID_HOYOLAB_EMAIL_PROMPT: Please enter a valid email address! You must use the email address you use to login to your **HoYoLAB** account.
 HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | HoYoLAB Registration
 HOYOLAB_REGISTRATION_DESCRIPTION: |
@@ -1062,7 +1062,7 @@ PREMIUM_CUSTOM_ROLE_TITLE: "{user}'s Custom Role"
 PREMIUM_ROLE_CREATED: "<:yescheck:1021114525858136074> Successfully created custom role ({role}). Please use the buttons below to change your unique role's name and color."
 PREMIUM_CUSTOM_ROLE_UNCLAIMED: <:Error:1021889679857037372> Hey Traveler, you don't have a custom role set up yet. Please create one first.
 PREMIUM_CUSTOM_ROLE_DELETED: <:yescheck:1021114525858136074> Your custom role has been successfully deleted.
-PREMIUM_CUSTOM_ROLE_INFORMATION: <:information:1034639378410115103> Hey Traveler, as a **premium subscriber** of Genshin Wizard, you'll have *exclusive* access to a custom role! You can change the name and color of your role at any time. You can also delete your custom role at any time. If you have any questions, please contact the **__support team__**.
+PREMIUM_CUSTOM_ROLE_INFORMATION: 旅人！Genshin Wizardの**プレミアム会員**として、カスタムロールへの*限定*アクセス権を獲得できるぞ。ロール名や色はいつでも変更可能で、カスタムロールはいつでも削除できるんだ。何か質問があったら、サポートチームに連絡してみてくれよな。
 PREMIUM_SERVER_MAXIMUM_REACHED: Hey Traveler, you've reached the maximum amount of premium servers you can add. You can only add up to **{servers}** premium servers with your current subscription.
 PREMIUM_NO_SERVERS_SELECTED: <:Error:1021889679857037372> Hey Traveler, you haven't **selected** any servers to delete.
 PREMIUM_SERVER_REMOVED: Hey Traveler, you've successfully **removed** the selected servers.
@@ -1496,7 +1496,7 @@ STATS_TOTAL_ACTIVE_DAYS_KEY: "Total Active Days"
 STATS_TOTAL_CHARACTERS_KEY: "Characters"
 STATS_SPIRAL_ABYSS_KEY: "Spiral Abyss"
 STATS_IMAGINARIUM_THEATER_KEY: "Imaginarium Theater"
-STATS_STYGIAN_ONSLAUGHT_KEY: "Stygian Onslaught"
+STATS_STYGIAN_ONSLAUGHT_KEY: "幽境の激戦"
 STATS_REGION_KEY: "Region"
 STATS_WAYPOINTS_KEY: "Waypoints"
 STATS_DOMAINS_KEY: "Domains"
@@ -1645,35 +1645,35 @@ GAME_SELECT_PLACEHOLDER: Select a game to view...
 GENSHIN_GAME_KEY: Genshin Impact
 HONKAI_GAME_KEY: Honkai Impact 3rd
 STARRAIL_GAME_KEY: Star Rail
-CLAIM_DAILY_REWARD_MESSAGE: Claim your daily HoYoLAB sign-in rewards! Select a game to claim your rewards from below.
-SELECTED_GAME_KEY: Selected Game
-NOTIFICATIONS_KEY: Notifications
+CLAIM_DAILY_REWARD_MESSAGE: 毎日のHoYoLABサインイン報酬をゲットしましょう！下から報酬を受け取るゲームを選択してください。
+SELECTED_GAME_KEY: 選択されたゲーム
+NOTIFICATIONS_KEY: 通知
 DAILY_AUTOCLAIM_KEY: Daily Auto-Claim
 DAILY_AUTO_REDEEM_KEY: Daily Auto-Redeem
 DAILY_CHECKIN_KEY: Daily Check-In
 INVOKATION_VICTORIES: "{win_count} Victories"
-WORLD_EXPLORATIONS: World Explorations
-REPUTATION_LEVELS: Reputation Levels
-REGISTER_SCRIPT_ALERT: Please logout and log back in before trying again, cookie is currently expired/invalid!
-REGISTER_SCRIPT_COPY_BUTTON: Click here to copy!
-ACCOUNT_EMAIL_KEY: Account Email
-PASSWORD_KEY: Account Password
-HYDROCULUS_KEY: Hydroculus
+WORLD_EXPLORATIONS: 探索度
+REPUTATION_LEVELS: 評判レベル
+REGISTER_SCRIPT_ALERT: 一度ログアウトして、またログインしてください。Cookieが現在期限切れ、または無効です！
+REGISTER_SCRIPT_COPY_BUTTON: クリックしてコピー！
+ACCOUNT_EMAIL_KEY: アカウントのEメール
+PASSWORD_KEY: アカウントのパスワード
+HYDROCULUS_KEY: 失われた水神の瞳
 APP_COMMAND_RECOVER_DESCRIPTION: Recover your inaccessible Genshin Wizard account.
 RECOVER_COMMAND_TITLE: Genshin Wizard Account Recovery
 RECOVER_COMMAND_ALREADY_REGISTERED: You have already **registered** to an account! Unlink using </unlink:{command_id}> before trying to recover your previous account.
 RECOVER_COMMAND_INSTRUCTIONS: |
-  Lost access to your Genshin Wizard account and want to re-link your account? You've come to the right place!
+  Genshin Wizardアカウントへのアクセスを失って、再び紐付けをしたいあなたにピッタリ！
 
-  Click the button below to begin the **account recovery** process.
-METHOD_ONE_BUTTON: Method 1
-METHOD_TWO_BUTTON: Method 2
-METHOD_THREE_BUTTON: Method 3
-METHOD_MANUAL_BUTTON: Manual
-METHOD_ONE_TITLE: Wish History Registration | Method 1
-METHOD_TWO_TITLE: Wish History Registration | Method 2
-METHOD_THREE_TITLE: Wish History Registration | Method 3
-METHOD_MANUAL_TITLE: Wish History Registration | Manual Method
+  下のボタンをクリックして、**アカウントの回復**をしましょう。
+METHOD_ONE_BUTTON: 方法1
+METHOD_TWO_BUTTON: 方法2
+METHOD_THREE_BUTTON: 方法3
+METHOD_MANUAL_BUTTON: 手動
+METHOD_ONE_TITLE: 祈願履歴の登録 | 方法1
+METHOD_TWO_TITLE: 祈願履歴の登録 | 方法2
+METHOD_THREE_TITLE: 祈願履歴の登録 | 方法3
+METHOD_MANUAL_TITLE: 祈願履歴の登録 | 手動
 METHOD_TWO_DESCRIPTION: |
   1. In the start menu search for "PowerShell" and open "Windows PowerShell"
   2. Then copy the following code and paste it in the Powershell window
@@ -1700,14 +1700,14 @@ METHOD_MANUAL_DESCRIPTION: |
   5. Right click "data_2" file then click "Open with" then select Notepad (If you get error like "The process cannot access the file because it is being used by another process" please exit the game first)
   6. Press CTRL+F, check `Wrap around`, and select direction `Up` then in the input box search for "**e20190909gacha-v2**" (without the quote). Finally, click `Find Next`
   7. Copy the link from *`https://webstatic`* to *`game_biz=hk4e_global`* the url looks like this: *`https://webstatic-sea.hoyoverse.com/genshin/event/e20190909gacha-v2/index.html?.......&game_biz=hk4e_global`*
-WEAPON_INFORMATION_KEY: Weapon Information
-COMBAT_STATISTICS_KEY: Combat Statistics
+WEAPON_INFORMATION_KEY: 武器情報
+COMBAT_STATISTICS_KEY: 戦闘統計
 WEAPON_BASED_MAX_LEVEL: based on max lvl weapon*
-WEAPON_DESCRIPTION_KEY: Weapon Description
-FIRST_HALF_KEY: First Half
-SECOND_HALF_KEY: Second Half
-ASCENSION_GUIDE_KEY: Ascension Guide
-TALENT_MATERIALS_KEY: Talent Materials
+WEAPON_DESCRIPTION_KEY: 武器の説明
+FIRST_HALF_KEY: 前半
+SECOND_HALF_KEY: 後半
+ASCENSION_GUIDE_KEY: 育成ガイド
+TALENT_MATERIALS_KEY: 天賦素材
 EXPEDITION_PROGRESS_KEY: Expedition Progress
 DOMAIN_SCHEDULE_DAY_TITLE: "{day} Domain Schedule"
 CHARACTER_USAGE_KEY: Character Usage
@@ -1715,9 +1715,9 @@ WEAPON_USAGE_KEY: Weapon Usage
 REQUIRED_BY_KEY: Required By
 REFERENCE_SHEET_KEY: Reference Sheet
 APP_COMMAND_MEMORY_DESCRIPTION: Play a Genshin Impact memory game.
-MEMORY_COMMAND_COOLDOWN_MESSAGE: Hey Traveler, **slow down**! You're clicking the cards too fast.
+MEMORY_COMMAND_COOLDOWN_MESSAGE: 旅人、焦りすぎだ！もっとゆっくりカードをクリックしてくれよな〜
 MEMORY_COMMAND_COMPLETION: Congratulations! You completed the minigame in **{time_taken}** seconds with **{try_count}** attempts.
-ZENLESS_GAME_KEY: Zenless Zone Zero
+ZENLESS_GAME_KEY: ゼンレスゾーンゼロ
 TEARS_GAME_KEY: Tears of Themis
 HELP_FUN_COG_NAME: Fun
 HELP_DROPDOWN_FUN_COMMANDS: Fun Commands
@@ -1750,16 +1750,16 @@ GENSHIN_WIZARD_CURRENT_ACCOUNT_DESCRIPTION: |
   Active Account: **{account}**
   Nickname: **{nickname}**
 EDIT_NICKNAME_KEY: Edit Nickname
-ADD_ACCOUNT_KEY: Add Account
-REMOVE_ACCOUNT_KEY: Remove Account
-REMOVE_ACCOUNT_COMPLETE_KEY: Remove Account Completely
+ADD_ACCOUNT_KEY: アカウントを追加
+REMOVE_ACCOUNT_KEY: アカウントを削除
+REMOVE_ACCOUNT_COMPLETE_KEY: アカウントを完全に削除
 ADD_ACCOUNT_REGISTER_TITLE: Genshin Wizard Account Registration
 ADD_ACCOUNT_REGISTER_DESCRIPTION: Use the buttons below to register your Genshin Impact account with Genshin Wizard.
 PREMIUM_REQUIRED_TITLE: Genshin Wizard Premium Required
 MAX_ACCOUNTS_REACHED: "You have reached the maximum number of accounts allowed for **{tier_notation}.** Please consider upgrading to premium to add more accounts. If you're interested in upgrading, use the </premium:{command_id}> command."
-YES_BUTTON: "Yes"
-NO_BUTTON: "No"
-REMOVE_ACCOUNT_TITLE: Remove Account from Genshin Wizard
+YES_BUTTON: "はい"
+NO_BUTTON: "いいえ"
+REMOVE_ACCOUNT_TITLE: Genshin Wizardからアカウントを削除
 REMOVE_ACCOUNT_DESCRIPTION: Use the buttons below to remove your Genshin Impact account from Genshin Wizard.
 ERROR_GENSHIN_COMMAND_ONLY_TITLE: Genshin Wizard | Error
 ERROR_GENSHIN_COMMAND_ONLY_DESCRIPTION: |
@@ -1784,19 +1784,19 @@ NO_IMAGINARIUM_THEATER_DATA: "No Imaginarium Theater Data"
 FANTASIA_FLOWERS_USED: Fantasia Flowers Used
 EXTERNAL_AUDIENCE_SUPPORT: Triggered External Audience Support
 SUPPORT_CAST_ASSIST: Supporting Cast Characters Assist Other Players
-TOTAL_CAST_TIME: Total Cast Time
-THEATER_ACT_KEY: Act {act_id}
-FASTEST_ACT_KEY: Fastest Act
-HIGHEST_DAMAGE_DEALT_LABEL: Highest Damage Dealt
-TRIAL_KEY: Trial
-SUPPORT_KEY: Support
+TOTAL_CAST_TIME: 公演時間
+THEATER_ACT_KEY: 第{act_id}幕
+FASTEST_ACT_KEY: 最速
+HIGHEST_DAMAGE_DEALT_LABEL: 与えた最大ダメージ
+TRIAL_KEY: お試し
+SUPPORT_KEY: サポート
 THEATER_COMMAND_FOOTER: "注: 幻想シアターのデータ更新には、1～3時間ほどかかる場合があります。"
-IMAGINARIUM_THEATER_DESCRIPTION: View your Imaginarium Theater progression stats
-THEATER_LEADERBOARD_PLACEHOLDER: Choose a lunar phase to view...
+IMAGINARIUM_THEATER_DESCRIPTION: 幻想シアターの進捗状況を確認
+THEATER_LEADERBOARD_PLACEHOLDER: 表示したい期を選択…
 VIEW_THEATER_TEAM: Viewing Imaginarium Theater Lineup
-CURRENT_THEATER_PHASE_DESCRIPTION: View Current Theater Stats Progression
-PREVIOUS_THEATER_PHASE_DESCRIPTION: View Previous Theater Stats Progression
-THEATER_COMMAND_STATISTICS_CREDIT: User {name}'s Imaginarium Theater Stats
+CURRENT_THEATER_PHASE_DESCRIPTION: 今期の幻想シアターの進捗を確認
+PREVIOUS_THEATER_PHASE_DESCRIPTION: 前期の幻想シアターの進捗を確認
+THEATER_COMMAND_STATISTICS_CREDIT: ユーザー{name}の幻想シアター情報
 THEATER_ARCHIVES_KEY: Theaterical Archives
 THEATER_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Theatrical Archives**
@@ -1830,9 +1830,9 @@ ONSLAUGHT_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Stygian Onslaught Archives**
   **Start Time:** <t:{timestamp_start}:F>
   **End Time:** <t:{timestamp_end}:F>
-ONSLAUGHT_LEADERBOARD_PLACEHOLDER: Choose a lunar phase to view...
-ONSLAUGHT_ARCHIVES_KEY: Stygian Onslaught Archives
-STYGIAN_ONSLAUGHT_KEY: Stygian Onslaught
+ONSLAUGHT_LEADERBOARD_PLACEHOLDER: 表示したい期を選択…
+ONSLAUGHT_ARCHIVES_KEY: 幽境の激戦アーカイブ
+STYGIAN_ONSLAUGHT_KEY: 幽境の激戦
 ONSLAUGHT_DESCRIPTION: View your Stygian Onslaught progression stats
 APP_COMMAND_ONSLAUGHT_DESCRIPTION: View your Genshin account's Stygian Onslaught progress.
 APP_COMMAND_THEATER_DESCRIPTION: View your Genshin account's Imaginarium Theater progress.
@@ -1842,11 +1842,11 @@ ONSLAUGHT_DETAIL_HARD: "Stygian Onslaught Details: Hard Mode"
 ONSLAUGHT_DETAIL_MENACING: "Stygian Onslaught Details: Menacing Mode"
 ONSLAUGHT_DETAIL_FEARLESS: "Stygian Onslaught Details: Fearless Mode"
 ONSLAUGHT_DETAIL_DIRE: "Stygian Onslaught Details: Dire Mode"
-BATTLE_FIELD_KEY: "Battlefield {battle_field_id}"
+BATTLE_FIELD_KEY: "戦場 {battle_field_id}"
 HIGHEST_TOTAL_DAMAGE_DEALT_LABEL: 最大合計ダメージ
 BEST_RECORD_KEY: 最高記録
 BATTLE_TIME_KEY: "クリアタイム: {time}秒"
-WEAK_AGAINST_KEY: Weak Against
+WEAK_AGAINST_KEY: 弱点
 STRONG_AGAINST_KEY: Strong Against
 ONSLAUGHT_SCHEDULE_RECORD: Schedule Record
 SINGLE_PLAYER_KEY: ソロプレイ
@@ -1866,24 +1866,24 @@ PREVIOUS_PHASE_DESCRIPTION: |
   **前期**
   **開始時間:** <t:{timestamp_start}:F>
   **終了時間:** <t:{timestamp_end}:F>
-PHASE_NO_DATA: Hey Traveler, it seems there is currently no data for this phase. Please try again later or contact the Genshin Wizard support team if you believe this is an error.
+PHASE_NO_DATA: 旅人！この期のデータがないみたいだ... あとでもういっかい試してみてくれ。もしこれが続くようなら、Genshin Wizardのサポートチームに連絡してみてくれよな。
 CHANNEL_NOT_FOUND: The channel you provided does not exist or is not accessible.
 INITIALIZE_WEBHOOK_BUTTON: Webhookを更新・初期化
 CHANNEL_SETUP_SUCCESS: The channel {channel} has been successfully set! Please enable/initialize the webhook by clicking the button in the panel configuration view.
 WEBHOOK_INITIALIZED: Successfully initialized the plugin, please enable the plugin if you haven't already. You're all set to go!
 PREMIUM_MANAGE_BILLING: Manage Billing
 MAX_OUT_PRIMOGEMS: Max Out Primogems
-PREMIUM_FEATURE_CONSIDER_UPGRADE: Hey Traveler! You're **not allowed** to use this command, this command is only available to **Premium Subscribers**. If you'd like use this feature, consider upgrading!
+PREMIUM_FEATURE_CONSIDER_UPGRADE: 旅人！このコマンドはプレミアム会員限定みたいだ... この機能が使いたいときは、アップグレードすることをお勧めするぞ！
 NO_ROLE_KEY: No Role
-THEATER_STATISTICS_KEY: Imaginarium Theater Statistics
-ONSLAUGHT_STATISTICS_KEY: Stygian Onslaught Statistics
-LEADERBOARD_THEATER_FOOTER: Imaginarium Theater statistics are updated via the imaginarium theater progression command, check your imaginarium theater progression frequently to get an updated statistics measurement!
+THEATER_STATISTICS_KEY: 幻想シアター・公演振り返り
+ONSLAUGHT_STATISTICS_KEY: 幽境の激戦・戦績の振り返り
+LEADERBOARD_THEATER_FOOTER: 幻想シアターの公演振り返りは「幻想シアターの進行状況」コマンドで更新されます。最新の統計値を確認するには、頻繁に進行状況をチェックしてくださいね！
 LEADERBOARD_ONSLAUGHT_FOOTER: Stygian Onslaught statistics are updated via the stygian onslaught progression command, check your stygian onslaught progression frequently to get an updated statistics measurement!
 THEATER_LEADERBOARD_ALL_TIME: All-time Leaderboard
-THEATER_LEADERBOARD_ALL_TIME_DESCRIPTION: View records from all Imaginarium Theater phases.
+THEATER_LEADERBOARD_ALL_TIME_DESCRIPTION: 幻想シアターの全公演記録を表示
 ONSLAUGHT_LEADERBOARD_ALL_TIME: All-time Leaderboard
 ONSLAUGHT_LEADERBOARD_ALL_TIME_DESCRIPTION: View records from all Stygian Onslaught phases.
-THEATER_STATISTICS_DESCRIPTION: View Genshin Wizard's Imaginarium Theater leaderboard.
+THEATER_STATISTICS_DESCRIPTION: Genshin Wizardの幻想シアターランキングを表示
 ONSLAUGHT_STATISTICS_DESCRIPTION: View Genshin Wizard's Stygian Onslaught leaderboard.
 ACCOUNT_PREFERENCE_EVENT_TITLE: Account Preferences Updated
 AUTOCLAIM_EVENT_UNSUBSCRIBE_DESCRIPTION: "You have successfully **unsubscribed** from the auto-claim feature. You will no longer receive any notifications regarding auto-claim for the following account: **{uid}**."
