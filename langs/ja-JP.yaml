@@ -390,36 +390,35 @@ LINK_HOYOLAB_DESCRIPTION: |
   > **5.** 自身の利用可能なキャラクターを**全て**掲載したビルドカードを出力できます。
 
   まずは、以下のユーザー登録オプションのいずれかをクリックしてください！
-HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Automatic Daily Sign-in
-AUTOCLAIM_ALREADY_DISABLED: Automatic HoYoLAB daily sign-in is already disabled.
-AUTOCLAIM_ALREADY_ENABLED: Automatic HoYoLAB daily sign-in is already enabled.
-AUTOCLAIM_DISABLED: Automatic HoYoLAB daily sign-in has been disabled.
-AUTOCLAIM_ENABLED: Automatic HoYoLAB daily sign-in has been enabled.
+HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | 自動デイリーログイン
+AUTOCLAIM_ALREADY_DISABLED: 自動HoYoLABデイリーログインは、すでに無効になっています。
+AUTOCLAIM_ALREADY_ENABLED: 自動HoYoLABデイリーログインは、すでに有効になっています。
+AUTOCLAIM_DISABLED: 自動HoYoLABデイリーログインが無効になりました。
+AUTOCLAIM_ENABLED: 自動HoYoLABデイリーログインが有効になりました。
 AUTOCLAIM_VOTE_REQUIREMENT: You must **__vote__** for our server and bot before being able to enable autoclaim!
-HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | HoYoLAB Daily Sign-in
+HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | HoYoLABデイリーログイン
 HOYOLAB_SIGN_IN_REWARDS: |
-  Successfully **claimed** daily reward!
+  デイリーログインボーナスを獲得しました！
 
-  Rewards Claimed: `{rewards}`
-  Amount: `x{amount}`
-HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | HoYoLAB Monthly Rewards
-HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: View HoYoLAB daily rewards for the month
-HOYOLAB_DIARY_TITLE: Genshin Wizard | Traveler's Diary
+  報酬: `{rewards} ×{amount}`
+HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | HoYoLAB マンスリー報酬
+HOYOLAB_MONTHLY_REWARDS_DESCRIPTION: 今月のHoYoLABデイリーログインボーナスを確認する
+HOYOLAB_DIARY_TITLE: Genshin Wizard | 旅人手帳
 HOYOLAB_INVALID_REDEEM: |
-  You must provide a redemption code to redeem.
-  **Proper Command Usage** ```/redeem CODE_ONE,CODE_TWO,...```
-CHINA_NOT_ALLOWED: Redeeming codes for CN users is **not supported** as of yet.
-HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | HoYoLAB Overview
-HOYOLAB_LOADING_ACCOUNT: Loading account information...
-HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Real-time Notes** information! Please try again *later* or join our [**Official Support Server**](https://genshinwizard.com/discord) for help.
-HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> There was an error retrieving your account's **Game Record** information! Please try again *later* or join our [**Official Support Server**](https://genshinwizard.com/discord) for help.
-HOYOLAB_ACCOUNT_ERROR: There was an error grabbing your account's information! Please try again *later*.
-HOYOLAB_ACCOUNT_MANAGE: Manage your HoYoLAB account through Genshin Wizard
-HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Character Summary
-CHARACTER_SUMMARY_NOT_FULL: Your Character Summary is based off your gacha pull history. To see your full and most accurate Character Summary (levels, friendships, constellations, and AR level), please link using </accounts:{command_id}>!
-GCG_NO_CARDS_FOUND: No Cards Found!
-GCG_NO_CARDS_FOUND_DESCRIPTION: Hey Traveler! Unfortunately, {member} has **no cards** yet! Head-in game and play some TCG on Genshin Impact *before* using this command.
-HOYOLAB_REGISTER_SCRIPT_TITLE: Registration | Script Method
+  引き換えには交換コードが必要です。
+  **コマンド使用方法** ```/redeem コード1,コード2,...```
+CHINA_NOT_ALLOWED: 中国ユーザー向けの交換コードは、現時点では**サポートされていません**。
+HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | HoYoLAB 情報
+HOYOLAB_LOADING_ACCOUNT: アカウント情報を読み込み中…
+HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> **リアルタイムノート**情報の取得に失敗しました！あとでもう一度お試しください。サポートが必要な場合は、私たちの[**公式Discordサーバー**](https://genshinwizard.com/discord)にご参加ください。
+HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> **ゲーム記録**情報の取得に失敗しました！あとでもう一度お試しください。サポートが必要な場合は、私たちの[**公式Discordサーバー**](https://genshinwizard.com/discord)にご参加ください。
+HOYOLAB_ACCOUNT_ERROR: アカウント情報の取得中にエラーが発生しました！*後で*もう一度お試しください。
+HOYOLAB_ACCOUNT_MANAGE: Genshin Wizardを通じてHoYoLABアカウントを管理
+HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | キャラクター概要
+CHARACTER_SUMMARY_NOT_FULL: キャラクター概要は祈願履歴に基づいています。完全かつ最も正確なキャラクター概要（レベル、好感度、命ノ星座、冒険ランク）を確認するには、</accounts:{command_id}>で紐付けを行ってください！
+GCG_NO_CARDS_FOUND: 七聖召喚カードがありません！
+GCG_NO_CARDS_FOUND_DESCRIPTION: 旅人！残念だけど… {member}には七聖召喚のカードがないみたいだ... ゲーム内で七聖召喚を遊んでみてくれよな！
+HOYOLAB_REGISTER_SCRIPT_TITLE: 登録 | スクリプト方式
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
   **How to link your HoYoLAB account with Genshin Wizard**
   > **1.** To begin with, login to your [**HoYoLAB**](https://www.hoyolab.com/home) account.
@@ -428,7 +427,7 @@ HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
   > **4.** Finally, you're able to register by clicking the `Enter Token` button below and pasting the token you copied.
 HOYOLAB_REGISTER_SCRIPT: |
   ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Please logout and log back in before trying again, cookie is currently expired/invalid!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Click here to copy!</button>`)```
-HOYOLAB_REGISTER_LOGIN_TITLE: Registration | Login Method
+HOYOLAB_REGISTER_LOGIN_TITLE: 登録 | ログイン方式
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
   **How to link your HoYoLAB account with Genshin Wizard**
   > **1.** To begin, select the `Register` button down below.
@@ -513,46 +512,49 @@ GENSHIN_WIZARD_USER_PROFILE: "{user}'s Genshin Wizard Profile"
 PROFILE_SUMMARY_KEY: Profile Summary
 GENSHIN_WISH_STATS_KEY: Genshin Wish Stats
 PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
-GENERATE_IMAGE_COOLDOWN: You're generating images too quickly! Try using this button again in **{seconds}** seconds.
+GENERATE_IMAGE_COOLDOWN: 画像の生成が速すぎます！**{seconds}**秒後に再度このボタンを使用してみてください。
 GENSHIN_STATISTICS_INFOGRAPHIC: 原神 統計カード
 GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: 旅人！お前だけの**特別な**原神ステータス・進行状況カードをお届けするぞ！
-HIDDEN_KEY: Hidden
+HIDDEN_KEY: 非表示
 REQUESTED_UID_KEY: Requested UID
-GENSHIN_EXPLORATION_INFOGRAPHIC: Genshin Exploration Progression
-GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: Hello Traveler! Here is the **uniquely** generated Genshin exploration infographic that you requested!
+GENSHIN_EXPLORATION_INFOGRAPHIC: 世界探索
+GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: 旅人！お前だけの**特別な**世界探索カードをお届けするぞ！
 PROFILE_NOT_OWNER: You can't use this button on someone else's profile!
 PRIVACY_SETTING_TITLE: Genshin Wizard Privacy Settings
 PRIVACY_SETTING_DESCRIPTION: Change your Genshin Wizard privacy settings here.
 PRIVACY_SETTING_KEY: Privacy Settings
 PRIVACY_SETTING_BRIEF: |
-  **UID Privacy:** {uid_privacy}
-  **Wish History Privacy:** {wish_privacy}
-  **Stats Privacy:** {stats_privacy}
-  **Abyss Privacy:** {abyss_privacy}
-  **Info Privacy:** {info_privacy}
-  **Imaginarium Theater Privacy:** {theater_privacy}
+  **UIDプライバシー:** {uid_privacy}
+  **祈願履歴プライバシー:** {wish_privacy}
+  **ステータスプライバシー:** {stats_privacy}
+  **深境螺旋プライバシー:** {abyss_privacy}
+  **情報プライバシー:** {info_privacy}
+  **幻想シアタープライバシー:** {theater_privacy}
+  **幽境の激戦プライバシー:** {onslaught_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **UID Privacy:** {uid_privacy}
-  > *Hide your UID from showing up anywhere*
-  **Wish History Privacy:** {wish_privacy}
-  > *Hide your Wish History from showing up anywhere (`/history`)*
-  **Stats Privacy:** {stats_privacy}
-  > *Hide your Genshin Stats Progression from showing up anywhere (`/statistics`)*
-  **Abyss Privacy:** {abyss_privacy}
-  > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
-  **Info Privacy:** {info_privacy}
-  > *Hide your showcase builds information from showing up anywhere (`/info`)*
-  **Imaginarium Theater Privacy:** {theater_privacy}
-  > *Hide your Imaginarium Theater Progression from showing up anywhere (`/imaginarium-theater`)
-ALL_KEY: All
-RESET_KEY: Reset
+  **UIDプライバシー:** {uid_privacy}
+  > *あなたのUIDを秘密にします*
+  **祈願履歴プライバシー:** {wish_privacy}
+  > *あなたの祈願履歴を秘密にします (`/history`)*
+  **ステータスプライバシー:** {stats_privacy}
+  > *あなたの原神ステータスを秘密にします (`/statistics`)*
+  **深境螺旋プライバシー:** {abyss_privacy}
+  > *あなたの深境螺旋の進捗を秘密にします (`/abyss`)*
+  **情報プライバシー:** {info_privacy}
+  > *あなたのビルド情報を秘密にします (`/character-showcase`)*
+  **幻想シアタープライバシー:** {theater_privacy}
+  > *あなたの幻想シアターの進捗を秘密にします (`/imaginarium-theater`)*
+  **幽境の激戦プライバシー:** {onslaught_privacy}
+  > *あなたの幽境の激戦の進捗を秘密にします (`/stygian-onslaught`)*
+ALL_KEY: すべて
+RESET_KEY: リセット
 WISH_HISTORY_KEY: 祈願履歴
-ABYSS_KEY: Abyss
+ABYSS_KEY: 深境螺旋
 UID_KEY: UID
-STATS_KEY: Stats
-INFO_KEY: Info
-SETTING_RESET_PRIVACY: Successfully reset privacy settings to default setting!
-SETTING_PRIVACY_UPDATED: "{privacy_type} privacy settings have been updated! Current Privacy: {current_privacy}"
+STATS_KEY: ステータス
+INFO_KEY: 情報
+SETTING_RESET_PRIVACY: プライバシー設定をデフォルトにリセットしました！
+SETTING_PRIVACY_UPDATED: "{privacy_type}のプライバシー設定が更新されました！現在のプライバシー：{current_privacy}"
 SETTING_ART_STYLE_UPDATED: "Character builds Art Styles have been updated! Current Art Style: {current_setting}"
 SETTING_MASTER_PROFILE_RESET: Your Genshin Wizard profile has been reset to default settings!
 INVALID_IMAGE_URL: "Please provide a **valid** image URL. Acceptable image types include: `PNGs`, `JPGs`, `JPEGs`, and `GIFs`."
@@ -933,7 +935,7 @@ ARTIFACT_GUIDE_FOOTER: Use the command /artifact <name_of_artifact> to get more 
 ARTIFACT_GUIDE_TITLE: Artifacts Overview
 NO_ASSET_INPUT: ":no_entry: Please provide an asset ID to look up."
 WEAPON_INFORMATION_TITLE: Weapon Information | {weapon}
-WEAPON_INFORMATION_FOOTER: "Weapon Guide • Infographic: {weapon}"
+WEAPON_INFORMATION_FOOTER: "武器ガイド • カード: {weapon}"
 WEAPON_GUIDE_TITLE: Weapon Guide | {weapon}
 ASSET_NOT_FOUND: ":no_entry: No results found for {asset}! Please make sure an in-game asset exists for the provided ID"
 DEFAULT_SYNERGY_DESCRIPTION: Information regarding this character's team composition and synergy.
@@ -1373,8 +1375,8 @@ PREMIUM_SERVER_TIMESTAMP: Premium since {date}
 GUILD_OR_SERVER_ID: Guild/Server ID
 GUILD_OR_SERVER_ID_PLACEHOLDER: Insert Guild/Server ID here...
 GUIDE_KEY: Guide
-ENABLE_ADAPTIVE_ART_SETTING: Enable Adaptive Infographic Art
-ADAPTIVE_INFOGRAPHIC_KEY: Adaptive Infographic Art
+ENABLE_ADAPTIVE_ART_SETTING: 適応型カードアートを有効にする
+ADAPTIVE_INFOGRAPHIC_KEY: 適応型カードアート
 INVITE_BOT_KEY: Invite Bot
 HELP_DROPDOWN_DIRECTORY: Help Directory
 HELP_DROPDOWN_PROFILE_COMMANDS: Profile/Stats Commands
