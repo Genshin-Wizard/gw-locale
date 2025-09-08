@@ -555,34 +555,34 @@ STATS_KEY: ステータス
 INFO_KEY: 情報
 SETTING_RESET_PRIVACY: プライバシー設定をデフォルトにリセットしました！
 SETTING_PRIVACY_UPDATED: "{privacy_type}のプライバシー設定が更新されました！現在のプライバシー：{current_privacy}"
-SETTING_ART_STYLE_UPDATED: "Character builds Art Styles have been updated! Current Art Style: {current_setting}"
-SETTING_MASTER_PROFILE_RESET: Your Genshin Wizard profile has been reset to default settings!
-INVALID_IMAGE_URL: "Please provide a **valid** image URL. Acceptable image types include: `PNGs`, `JPGs`, `JPEGs`, and `GIFs`."
-SETTING_BANNER_UPDATE: Your banner has been successfully updated!
-SETTING_BIOGRAPHY_ILLEGAL: Hey Traveler! Your input contains words that **aren't allowed** by Genshin Wizard! Please consider trying something *different* for your bio.
-DEFAULT_BIOGRAPHY: A traveler who loves the thrill of adventure!
-SETTING_BIOGRAPHY_UPDATED: Your biography has been successfully updated!
-BIOGRAPHY_KEY: Bio
-BANNER_KEY: Banner
-ELEMENTAL_RESONANCE_KEY: Elemental Resonance
-BUILDS_ART_STYLE_KEY: Builds Art Style
-ART_STYLE_KEY: Art Style
-FANART_KEY: Fanart
-OFFICIAL_ART_KEY: Official Art
+SETTING_ART_STYLE_UPDATED: "キャラクタービルドアートスタイルが更新されました！現在のアートスタイル：{current_setting}"
+SETTING_MASTER_PROFILE_RESET: あなたのGenshin Wizardプロフィールがデフォルトの設定にリセットされました！
+INVALID_IMAGE_URL: "**有効な**画像URLを指定してください。受け入れられる画像の形式は、`PNG`、`JPG`、`JPEG`、および`GIF`です。"
+SETTING_BANNER_UPDATE: バナーを更新しました！
+SETTING_BIOGRAPHY_ILLEGAL: 旅人！おまえの入力には**使えないワード**が含まれてるぞ！なにか別のステータスメッセージで試してみてくれ！
+DEFAULT_BIOGRAPHY: スリルのある冒険が大好きな旅人！
+SETTING_BIOGRAPHY_UPDATED: ステータスメッセージが更新されました！
+BIOGRAPHY_KEY: ステータスメッセージ
+BANNER_KEY: バナー
+ELEMENTAL_RESONANCE_KEY: 元素共鳴
+BUILDS_ART_STYLE_KEY: ビルドアートスタイル
+ART_STYLE_KEY: アートスタイル
+FANART_KEY: ファンアート
+OFFICIAL_ART_KEY: 公式アート
 GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
-  Change your Genshin Wizard profile settings here.
+  Genshin Wizardのプロフィール設定を変更しましょう。
 
-  **Profile Summary**
-GENSHIN_WIZARD_PROFILE_TITLE: Genshin Wizard Profile Settings
+  **プロフィール**
+GENSHIN_WIZARD_PROFILE_TITLE: Genshin Wizardプロフィール設定
 MISSING_REGISTRATION_INSTRUCTIONS: |
-  Please register using one of:
+  以下のいずれかを使用して登録してください。
   **1.)** </accounts:{command_id}>
-  **2.)** Pass in user/UID. For example: `/info [discord-user]/[genshin-uid]`
-MISSING_IMAGE: Please provide an image or a link to an image to update your banner
-PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Profile Banner Link Updated
-IMAGE_LINK_KEY: Image Link
-UPDATE_DATE_KEY: Update Date
-SETTING_COMMAND_REQUIRE_SLASH: You must use a **slash command** (</settings:{command_id}>) or access this via your profile.
+  **2)** ユーザー/UIDを指定する。例: `/info [discord-user]/[genshin-uid]`
+MISSING_IMAGE: バナーを更新するため、画像もしくは画像へのリンクを入力してください
+PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | プロフィールバナーのリンク更新
+IMAGE_LINK_KEY: 画像リンク
+UPDATE_DATE_KEY: 更新日時
+SETTING_COMMAND_REQUIRE_SLASH: '**スラッシュコマンド** (</settings:{command_id}>) を使用するか、プロフィールからアクセスする必要があります。'
 CURRENT_ABYSS_DESCRIPTION: |
   **今期の淵月螺旋**
   **開始時刻:** <t:{timestamp_start}:F>
@@ -592,38 +592,38 @@ PREVIOUS_ABYSS_DESCRIPTION: |
   **開始時刻:** <t:{timestamp_start}:F>
   **終了時刻:** <t:{timestamp_end}:F>
 ABYSS_COMMAND_FOOTER: "Note: Abyss data may be incorrectly shown or missing data, if this is the case, do keep in mind that abyss data can generally take anywhere from 1-3 hours to update!"
-ABYSS_MISSING_DATA_FOOTER: "Note: This data seems to be missing some information! This is likely due to this information not being stored in the database previously, or the data not being updated yet."
+ABYSS_MISSING_DATA_FOOTER: "注：このデータには情報が不足しているようです！これは、情報が以前にデータベースに保存されていなかったか、データがまだ更新されていないことが原因である可能性があります。"
 ABYSSAL_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Abyssal Archives**
   **Start Time:** <t:{timestamp_start}:F>
   **End Time:** <t:{timestamp_end}:F>
-UID_LOOKUP: Genshin UID Lookup
-UID_LOOKUP_TITLE: "{user}'s Genshin Account UID"
-PUBLIC_KEY: Public
-PRIVATE_KEY: Private
-CREATION_DATA_KEY: Creation Date
-JOIN_DATE_KEY: Join Date
-NOT_HERE_KEY: Not Here
-LOCATION_KEY: Location
-TOP_ROLE_KEY: Top Role
-RECENT_FIVE_STAR_CHARACTER: "**Recent 5 :star: Characters**"
-RECENT_FIVE_STAR_WEAPON: "**Recent 5 :star: Weapons**"
+UID_LOOKUP: 原神 UID検索
+UID_LOOKUP_TITLE: "{user}の原神アカウントUID"
+PUBLIC_KEY: 公開
+PRIVATE_KEY: 非公開
+CREATION_DATA_KEY: 作成日時
+JOIN_DATE_KEY: 参加日時
+NOT_HERE_KEY: なし
+LOCATION_KEY: 地域
+TOP_ROLE_KEY: 主なロール
+RECENT_FIVE_STAR_CHARACTER: "**最近の星5キャラ**"
+RECENT_FIVE_STAR_WEAPON: "**最近の星5武器**"
 WISHES_WORTH_KEY: 原石換算
-OVERALL_SUMMARY_KEY: Overall Summary
-OVERALL_STATS_KEY: Overall Stats
-PERCENTAGE_KEY: Percentage
-TOTAL_WISHES_KEY: Total Wishes
-TOTAL_KEY: Total
-TOTAL_FIVE_STAR: Total 5-star
-NUMBER_FIVE_STAR: Number of 5-star
-TOTAL_FOUR_STAR: Total 4-star
-NUMBER_FOUR_STAR: Number of 4-star
-TOTAL_THREE_STAR: Total 3-star
+OVERALL_SUMMARY_KEY: 全体の概要
+OVERALL_STATS_KEY: 全体の統計
+PERCENTAGE_KEY: 確率
+TOTAL_WISHES_KEY: 総祈願数
+TOTAL_KEY: 合計
+TOTAL_FIVE_STAR: 星5合計
+NUMBER_FIVE_STAR: 星5の数
+TOTAL_FOUR_STAR: 星4合計
+NUMBER_FOUR_STAR: 星4の数
+TOTAL_THREE_STAR: 星3合計
 REGISTER_PC_METHOD: "PC"
 REGISTER_ANDROID_METHOD: "Android"
 IOS_KEY: "iOS"
-CONSOLE_KEY: "Console"
-REGISTER_IOS_METHOD: "iOS (Stream App Method)"
+CONSOLE_KEY: "コンソール"
+REGISTER_IOS_METHOD: "iOS (Stream App の方法)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
   Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
 
@@ -1201,7 +1201,7 @@ CRIT_RATE_LABEL: "CRIT Rate"
 CRIT_DMG_LABEL: "CRIT DMG"
 ENERGY_RECHARGE_LABEL: "Energy Recharge"
 ELEMENTAL_MASTERY_LABEL: "Elemental Mastery"
-TOTAL_WISHES_LABEL: "Total Wishes"
+TOTAL_WISHES_LABEL: "総祈願数"
 PRIMOGEM_COUNT_LABEL: "Total Primogems"
 STARDUST_COUNT_LABEL: "Stardust Count"
 STARGLITTER_COUNT_LABEL: "Starglitter Count"
@@ -1447,10 +1447,10 @@ DEFAULT_ART_SETTING: デフォルトレイアウト
 ENKA_ART_SETTING: Enka.Network風レイアウト
 ART_SETTING_TITLE: Genshin Wizard アート設定
 ART_SETTING_DESCRIPTION: Manage your Genshin Wizard </info:{command_id}> art settings here.
-ART_LAYOUT_STYLE: "ケイアウト形式"
+ART_LAYOUT_STYLE: "レイアウトスタイル"
 ART_CHARACTER_STYLE: "キャラクターアート"
 RESET_PROFILE_SETTINGS: プロファイル設定をリセット
-CHOOSE_ART_LAYOUT: "アートレイアウト形式を選択..."
+CHOOSE_ART_LAYOUT: "アートレイアウトスタイルを選択…"
 MANAGE_CACHED_DATA: キャッシュデータの管理
 INFO_COMMAND_SETTING_NOT_OWNER: You can only manage art settings for your own characters! Use the </info:{command_id}> for more information!
 VERTICAL_ART_SETTING: 縦向きカードレイアウト
