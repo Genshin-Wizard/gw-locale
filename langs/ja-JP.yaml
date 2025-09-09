@@ -437,7 +437,7 @@ HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
 
   <:information:1021014187197083668> **Note:** This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead.
 HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
-ARE_YOU_SURE: Are you sure?
+ARE_YOU_SURE: よろしいですか？
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
   You have requested to **unlink** your HoYoLAB account from Genshin Wizard.
   This means that you will no longer be able to *claim your daily rewards*, view your *full abyss progression*, and other extended features such as *viewing all your characters*.
@@ -446,34 +446,34 @@ UNLINKING_SUCCESSFUL_DESCRIPTION: Your account has been successfully unlinked fr
 UNLINKING_UNSUCCESSFUL: Unlinking unsuccessful!
 UNLINKING_UNSUCCESSFUL_DESCRIPTION: Oops! Unlinking was unsuccessful, there was an error. Please try again or contact a staff member!
 UNLINKING_CANCELLED: Unlinking cancelled!
-UNLINKING_CANCELLED_DESCRIPTION: You have cancelled your unlink request!
-OBTAINED_KEY: Obtained
-NOT_OWNED_KEY: Not Owned
-PROFICIENCY_KEY: Proficiency
-USE_COUNT_KEY: Use Count
-IMPORT_ERROR: Import Error!
-FOOTER_ERROR_DESCRIPTION: If you believe this is an error, please contact a staff member.
+UNLINKING_CANCELLED_DESCRIPTION: 連携解除の要求をキャンセルしました！
+OBTAINED_KEY: 獲得済
+NOT_OWNED_KEY: 未所持
+PROFICIENCY_KEY: 熟練度
+USE_COUNT_KEY: 使用回数
+IMPORT_ERROR: 取り込みエラー！
+FOOTER_ERROR_DESCRIPTION: これが間違いであると思われる場合は、スタッフまでご連絡ください。
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  取り込みしようとしているデータの形式は**サポートされていません**。現在、以下のファイル形式からの取り込みがサポートされています。
   {supported_file_types}
-  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
-IMPORT_COMMAND_TITLE: Genshin Wizard | Import Wish History
+  詳しくは[**ドキュメント**](https://docs.genshinwizard.com/wishing-centre/importing-wishes)をご覧ください。
+IMPORT_COMMAND_TITLE: Genshin Wizard | 祈願履歴取り込み
 IMPORT_COMMAND_FILE_DETECTED: |
-  **Detected Import Source: `{source}`**
-  *Please wait while we import your wish history...*
-IMPORT_COMMAND_TAMPERED: The data you are trying to import has been **tampered** with. Please **don't change** anything within the files before importing, try redownloading the data and importing *again*.
-IMPORT_COMMAND_BANNER_IMPORTED: Successfully imported `{number_wishes}` wishes for {banner_name} banner!
-IMPORT_COMMAND_SUCCESS: Successfully imported `{total_wishes}` new wishes from all banners! You can now use the </history:{command_id}> command to view more information regarding your wishes.
+  **検出された取り込みソース： `{source}`**
+  *祈願履歴の取り込みが完了するまでお待ちください...*
+IMPORT_COMMAND_TAMPERED: 取り込もうとしているデータが**変更されました**。取り込み前にファイル内のデータを**変更しないでください**。データを再度ダウンロードして、もう取り込みをしてください。
+IMPORT_COMMAND_BANNER_IMPORTED: '{banner_name}バナーの、`{number_wishes}`個の祈願履歴が取り込まれました！'
+IMPORT_COMMAND_SUCCESS: 全てのバナーの`{total_wishes}`個の祈願履歴が取り込まれました！</history:{command_id}>コマンドから、祈願に関するより多くの情報を閲覧できるようになります。
 IMPORT_COMMAND_LOG: |
-  **User:** {user} | `{user_id}`
-  **Name:** `{name}`
-  **Guild:** `{guild_id}` | `{guild_name}`
+  **ユーザー**：{user} | `{user_id}`
+  **名前**：`{name}`
+  **ギルド**：`{guild_id}` | `{guild_name}`
 
-  **Detected Import Source:** `{source}`
-  **Total:** `{total}` wishes imported!
-  > 3-Stars: `{three_star}`
-  > 4-Stars: `{four_star}`
-  > 5-Stars: `{five_star}`
+  **検出された取り込みソース**：`{source}`
+  **合計**：`{total}`件の祈願が取り込まれました！
+  > 星3：`{three_star}`
+  > 星4：`{four_star}`
+  > 星5：`{five_star}`
 IMPORT_COMMAND_NOT_REGISTERED: You must already be **registered** to import a pre-existing wish history! Try to import again after registering using the command </accounts:{command_id}>.
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: History Link Expired!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Your history link has **expired**! Please refresh using the command </refresh:{command_id}> before trying to import!
@@ -654,25 +654,25 @@ REGISTER_COMMAND_IOS_DIRECTIONS: |
   8. Tap the long text starting by `GET /event/gacha_info...`
   9. Finally, tap Copy Url
   10. Click the button below and paste the link in the input field.
-RESELECT_PLATFORM_KEY: Re-Select Platform
+RESELECT_PLATFORM_KEY: プラットフォームを再選択
 REGISTER_COMMAND_CONSOLE_DIRECTIONS: Following the 2.3 update event links don't work anymore. This being said, it is still possible to obtain the key by linking your Playstation account with a Mihoyo account and using the pc/mobile method instead.
-REGISTER_COMMAND_PLATFORM_SELECTION: Which platform do you use to play Genshin Impact?
-REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | Wish History Registration
+REGISTER_COMMAND_PLATFORM_SELECTION: 原神をどのプラットフォームでプレイしていますか？
+REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | 祈願履歴登録
 REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
-  Welcome to Genshin Wizard's Registration system.
+  Genshin Wizardの登録システムへようこそ。
 
-  **Linking Features:**
-  > **1.** Keep track of your wish history.
-  > **2.** View in-depth wish history statistics along with your banner pities.
-  > **3.** View whether you're on your guaranteed limited pity or not.
-  > **4.** Full Genshin Wizard profile capabilities.
-  > **5.** Access to all commands that are accessible by [**Linking UID**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-registration).
+  **連携機能:**
+  > **1.** 祈願履歴を追跡できます。
+  > **2.** 祈願履歴とバナーへの同情の詳細な統計情報を確認できます。
+  > **3.** ピックアップ保証がされているかどうかを確認できます。
+  > **4.** Genshin Wizardのプロフィール機能を全てご利用いただけます。
+  > **5.** [**UIDの紐付け**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-registration)をすることで使えるすべてのコマンドにアクセスできます。
 
-  Which platform do you use to play Genshin Impact?
-ERROR_INVALID_UID: Please provide a valid UID to link your Genshin account to your Discord account.
-ERROR_INVALID_REGISTRATION_URL: Hey Traveler, this is an **invalid link!** Make sure you followed the steps correctly and try again.
+  原神をどのプラットフォームで遊んでいますか？
+ERROR_INVALID_UID: 原神アカウントとDiscordアカウントを連携させるには有効なUIDを入力してください。
+ERROR_INVALID_REGISTRATION_URL: 旅人、このリンクは使えないみたいだ... もう一回手順に戻ってみて、やり直してみてくれよな！
 ERROR_UNEXPECTED_ERROR: An unexpected error has occurred. Please report this to staff!
-REGISTER_COMMAND_NO_WISHES_TITLE: No wishes found!
+REGISTER_COMMAND_NO_WISHES_TITLE: 祈願が見つかりません！
 REGISTER_COMMAND_NO_WISHES_DESCRIPTION: |
   You do not have any wishes yet! Please register again once you have wished on at-least one banner.
   Wishes show up in history about 1-2 hours after wishing.
