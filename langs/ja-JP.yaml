@@ -1186,13 +1186,13 @@ MOST_BURSTS_USED_LABEL: "元素爆発使用回数"
 MOST_SKILLS_USED_LABEL: "元素スキル使用回数"
 MOST_DAMAGE_TAKEN_LABEL: "受けた最大ダメージ"
 MOST_DEFEATS_LABEL: "最多撃破数"
-MAX_HP_LABEL: "Max HP"
+MAX_HP_LABEL: "HP上限"
 HP_LABEL: "HP"
-HP_PERCENT_LABEL: "HP%"
-ATK_LABEL: "ATK"
-ATK_PERCENT_LABEL: "ATK%"
-DEF_LABEL: "DEF"
-DEF_PERCENT_LABEL: "DEF%"
+HP_PERCENT_LABEL: "HPパーセンテージ"
+ATK_LABEL: "攻撃力"
+ATK_PERCENT_LABEL: "攻撃力パーセンテージ"
+DEF_LABEL: "防御力"
+DEF_PERCENT_LABEL: "防御力パーセンテージ"
 CRIT_VALUE_LABEL: "会心スコア"
 CRIT_RATE_LABEL: "会心率"
 CRIT_DMG_LABEL: "会心ダメージ"
@@ -1208,27 +1208,27 @@ FIVE_STAR_LABEL: "星5"
 PREVIOUS_BUTTON: 前
 NEXT_BUTTON: 次
 GENERATE_IMAGE_BUTTON: 画像を生成
-GENERATE_EXPLORATION_BUTTON: Export Exploration Progression
-SETTINGS_BUTTON: Settings
-ANEMO_KEY: 風
-CRYO_KEY: 氷
-DENDRO_KEY: 草
-ELECTRO_KEY: 雷
-GEO_KEY: 岩
-HYDRO_KEY: 水
-PYRO_KEY: 炎
+GENERATE_EXPLORATION_BUTTON: 世界探索状況を書き出し
+SETTINGS_BUTTON: 設定
+ANEMO_KEY: 風元素
+CRYO_KEY: 氷元素
+DENDRO_KEY: 草元素
+ELECTRO_KEY: 雷元素
+GEO_KEY: 岩元素
+HYDRO_KEY: 水元素
+PYRO_KEY: 炎元素
 RESET_SETTINGS_BUTTON: 設定をリセット
 MASTER_PRIVACY_BUTTON: マスタープライバシー設定
-UPDATE_BANNER_MODAL_TITLE: Update Banner
+UPDATE_BANNER_MODAL_TITLE: バナーを更新
 UPDATE_BANNER_MODAL_URL_INPUT: Link to desired image for banner
-UPDATE_BANNER_MODAL_URL_PLACEHOLDER: https://some.link/to/image.png
-UPDATE_BIO_MODAL_TITLE: Update Bio
-UPDATE_BIO_MODAL_LABEL: A short description about you. (200 chars)
-UPDATE_BIO_MODAL_PLACEHOLDER: Hey! I'm Lumine and here are some fun facts about me...
-SELECT_CHOOSE_CATEGORY: Choose a category...
+UPDATE_BANNER_MODAL_URL_PLACEHOLDER: https://example.com/xxxx/yyyyy.png
+UPDATE_BIO_MODAL_TITLE: プロフィールを更新
+UPDATE_BIO_MODAL_LABEL: おまえの自己紹介を入力してくれ！（200文字以内）
+UPDATE_BIO_MODAL_PLACEHOLDER: こんにちは、私は蛍！今からここにちょっとした自己紹介を書いてみるね...
+SELECT_CHOOSE_CATEGORY: カテゴリーを選択...
 PROFILE_KEY: プロフィール
-PROFILE_DESCRIPTION: View your Genshin Wizard profile
-GENSHIN_STATISTICS_KEY: Genshin Stats
+PROFILE_DESCRIPTION: Genshin Wizardのプロフィールを見る
+GENSHIN_STATISTICS_KEY: 旅の統計情報
 GENSHIN_STATISTICS_DESCRIPTION: 原神ステータスを確認
 SPIRAL_ABYSS_STATISTICS_KEY: 深境螺旋戦績
 SPIRAL_ABYSS_STATISTICS_DESCRIPTION: 深境螺旋の戦績を確認
@@ -1238,39 +1238,39 @@ CURRENT_ABYSS_PHASE_DESCRIPTION: 今期の深境螺旋の戦績を確認
 PREVIOUS_ABYSS_PHASE: 前期
 PREVIOUS_ABYSS_PHASE_DESCRIPTION: 前期の深境螺旋の戦績を確認
 ENTER_LINK_BUTTON: リンクを入力
-LINK_UID_MODAL_TITLE: Link UID
-LINK_UID_MODAL_LABEL: Genshin Impact UID
-LINK_UID_MODAL_PLACEHOLDER: Insert your Genshin Impact UID
-REGISTER_MODAL_LABEL: Your wish history URL
+LINK_UID_MODAL_TITLE: UIDを連携
+LINK_UID_MODAL_LABEL: 原神のUID
+LINK_UID_MODAL_PLACEHOLDER: 原神のUIDを入力
+REGISTER_MODAL_LABEL: あなたの祈願履歴のURL
 HOYOLAB_KEY: HoYoLAB
-HOYOLAB_REGISTRATION_MODAL_TITLE: HoYoLAB Registration
-HOYOLAB_REGISTRATION_MODAL_LABEL: Your HoYoLAB Cookie
-LOGIN_MODAL_TITLE: HoYoLAB Account Login
-RESIN_KEY: Resin
-TEAPOT_KEY: Teapot
-EXPEDITIONS_KEY: Expeditions
+HOYOLAB_REGISTRATION_MODAL_TITLE: HoYALAB 登録
+HOYOLAB_REGISTRATION_MODAL_LABEL: あなたのHoYoLABのCookie
+LOGIN_MODAL_TITLE: HoYoLAB アカウントログイン
+RESIN_KEY: 樹脂
+TEAPOT_KEY: 塵歌壺
+EXPEDITIONS_KEY: 探索派遣
 PARAMETRIC_TRANSFORMER_KEY: 参量物質変化器
-CLEAR_ALL_REMINDERS_BUTTON: Clear All Reminders
-CLEAR_REMINDER_BUTTON: Clear {reminder_type} Reminders
-SET_REMINDER_KEY: Set Reminder
+CLEAR_ALL_REMINDERS_BUTTON: すべてのリマインダーを削除
+CLEAR_REMINDER_BUTTON: '{reminder_type} のリマインダーをクリア'
+SET_REMINDER_KEY: リマインダーを設定
 RESIN_THRESHOLD_MODAL_TITLE: 樹脂の数を入力
-RESIN_THRESHOLD_LABEL: Resin Threshold
-RESIN_THRESHOLD_DESCRIPTION: Enter the amount of resin you want to be reminded at...
-NOVICE_WISH_SUMMARY: View your wish summary for the Novice banner.
-CHARACTER_WISH_SUMMARY: View your wish summary for the Character banner.
-WEAPON_WISH_SUMMARY: View your wish summary for the Weapon banner.
-CHRONICLED_WISH_SUMMARY: View your wish summary for the Chronicled banner.
-PERMANENT_WISH_SUMMARY: View your wish summary for the Permanent banner.
-RESET_INVENTORY_BUTTON: Reset Inventory
-EXCLUSIVE_KEY: Exclusive
-MISCELLANEOUS_KEY_SHORT: Misc.
-BADGES_KEY: Badges
-RETURN_TO_MENU: Return to Menu
-SHOW_UNOWNED_KEY: Show Unowned
-SHOW_OWNED_KEY: Show Owned
-SHOP_BUTTON_LABEL: "{primogem_price} Primogems"
-REROLL_WISHES_BUTTON: Reroll Wishes
-VIEW_INVENTORY_BUTTON: View Inventory
+RESIN_THRESHOLD_LABEL: 樹脂の閾値
+RESIN_THRESHOLD_DESCRIPTION: 通知してほしい樹脂の量を入力してください...
+NOVICE_WISH_SUMMARY: 初心者向け祈願の概要を表示
+CHARACTER_WISH_SUMMARY: イベント祈願・キャラクターの概要を表示
+WEAPON_WISH_SUMMARY: イベント祈願・武器の概要を表示
+CHRONICLED_WISH_SUMMARY: 集録祈願の概要を表示
+PERMANENT_WISH_SUMMARY: 通常祈願の概要を表示
+RESET_INVENTORY_BUTTON: インベントリをリセット
+EXCLUSIVE_KEY: 専用
+MISCELLANEOUS_KEY_SHORT: その他
+BADGES_KEY: バッジ
+RETURN_TO_MENU: メニューに戻る
+SHOW_UNOWNED_KEY: 未所持を表示
+SHOW_OWNED_KEY: 所持中を表示
+SHOP_BUTTON_LABEL: "原石 × {primogem_price}"
+REROLL_WISHES_BUTTON: 祈願を続ける
+VIEW_INVENTORY_BUTTON: インベントリを表示
 REGION_SELECT_PLACEHOLDER: 地域を選択…
 AMERICA_KEY: America
 EUROPE_KEY: Europe
@@ -1280,46 +1280,46 @@ AMERICA_SERVER_DOMAIN_SCHEDULE: アメリカサーバー用の現在の日替わ
 EUROPE_SERVER_DOMAIN_SCHEDULE: ヨーロッパサーバー用の現在の日替わりドロップを表示します。
 ASIA_SERVER_DOMAIN_SCHEDULE: アジアサーバー用の現在の日替わりドロップを表示します。
 SAR_SERVER_DOMAIN_SCHEDULE: 特別行政区サーバー用の現在の日替わりドロップを表示します。
-SUGGEST_CHANGES_BUTTON: Suggest Changes
-KQM_GUIDE: KQM Guide
-INTRODUCTION_KEY: Introduction
-PLAYSTYLE_KEY: Playstyle
-BUILD_KEY: Build
-ASCENSION_MATERIALS_KEY: Ascension Materials
-TEAM_SYNERGIES_KEY: Team Synergies
-CONSTELLATIONS_KEY: Constellations
-SKILL_TALENTS_KEY: Skill Talents
-PASSIVE_TALENTS_KEY: Passive Talents
-INTRODUCTION_DESCRIPTION: View Basic Character Information
-PLAYSTYLE_DESCRIPTION: View Character Playstyle(s)
-BUILD_DESCRIPTION: View Character Build(s)
-ASCENSION_MATERIALS_DESCRIPTION: View Character Ascension Materials
-TEAM_SYNERGIES_DESCRIPTION: View Character Team Synergies
-CONSTELLATIONS_DESCRIPTION: View Character Constellations Overview
-SKILL_TALENTS_DESCRIPTION: View Character Active/Skill Talents
-PASSIVE_TALENTS_DESCRIPTION: View Character Passive Talents
-VIEW_CARD_BUTTON: View Card on HoYoLAB Wiki
-CONFIG_DAILY_ANNOUNCEMENTS_PANEL: Daily Announcements Panel
+SUGGEST_CHANGES_BUTTON: 変更を提案
+KQM_GUIDE: KQM ガイド
+INTRODUCTION_KEY: 概要
+PLAYSTYLE_KEY: 運用
+BUILD_KEY: ビルド
+ASCENSION_MATERIALS_KEY: 育成素材
+TEAM_SYNERGIES_KEY: 他キャラクターとの相性
+CONSTELLATIONS_KEY: 命ノ星座
+SKILL_TALENTS_KEY: 天賦効果
+PASSIVE_TALENTS_KEY: 固有天賦効果
+INTRODUCTION_DESCRIPTION: キャラクターについての基本的な情報を表示
+PLAYSTYLE_DESCRIPTION: キャラクターの運用方法を表示
+BUILD_DESCRIPTION: キャラクターのビルドに関する情報を表示
+ASCENSION_MATERIALS_DESCRIPTION: キャラクターの育成素材を表示
+TEAM_SYNERGIES_DESCRIPTION: 他キャラクターとの相性に関する情報を表示
+CONSTELLATIONS_DESCRIPTION: 命ノ星座の効果を表示
+SKILL_TALENTS_DESCRIPTION: 通常攻撃・元素スキル・元素爆発の天賦紹介を表示
+PASSIVE_TALENTS_DESCRIPTION: 固有天賦の紹介文を表示
+VIEW_CARD_BUTTON: HoYoLAB Wikiでカードを見る
+CONFIG_DAILY_ANNOUNCEMENTS_PANEL: 毎日のお知らせパネル
 CONFIG_SERVER_TIME_PANEL: サーバー時間パネル
 CONFIG_DOMAIN_SCHEDULE_PANEL: 日替わりドロップパネル
-CONFIG_CUSTOM_BANNER: Custom Banner
-SERVER_SELECT_PLACEHOLDER: Choose server-time for announcements...
-MASTER_SWITCH_BUTTON: Enable/Disable All
-SWITCH_BUTTON: Enable/Disable
-PING_ROLE_BUTTON: Ping Role
-TEST_KEY: Test
-DAILY_ANNOUNCEMENT_MODAL_TITLE: Daily Announcements Integration
-DAILY_ANNOUNCEMENT_AMERICA_PING_ROLE: America Ping Role ID
-DAILY_ANNOUNCEMENT_EUROPE_PING_ROLE: Europe Ping Role ID
-DAILY_ANNOUNCEMENT_ASIA_PING_ROLE: Asia Ping Role ID
-DAILY_ANNOUNCEMENT_SAR_PING_ROLE: SAR Ping Role ID
-DAILY_ANNOUNCEMENT_CHANNEL: Announcement Channel ID
-MODAL_ROLE_ID_PLACEHOLDER: Insert Desired Role ID here...
-MODAL_CHANNEL_ID_PLACEHOLDER: Insert Desired Channel ID here...
-MODAL_ROLE_OR_CHANNEL_ID_PLACEHOLDER: Insert Desired Channel/Role ID here...
-MODAL_ROLE_NAME_PLACEHOLDER: Insert desired role name here...
-RESEND_BUTTON: Resend
-PANEL_UPDATE_INTEGRATION_TITLE: Update Genshin Wizard Integration
+CONFIG_CUSTOM_BANNER: カスタムバナー
+SERVER_SELECT_PLACEHOLDER: アナウンスのサーバー時間を選択...
+MASTER_SWITCH_BUTTON: 全て 有効/無効
+SWITCH_BUTTON: 有効/無効
+PING_ROLE_BUTTON: Ping ロール
+TEST_KEY: テスト
+DAILY_ANNOUNCEMENT_MODAL_TITLE: 毎日のお知らせの統合
+DAILY_ANNOUNCEMENT_AMERICA_PING_ROLE: アメリカのPingロールID
+DAILY_ANNOUNCEMENT_EUROPE_PING_ROLE: ヨーロッパのPingロールID
+DAILY_ANNOUNCEMENT_ASIA_PING_ROLE: アジアのPingロールID
+DAILY_ANNOUNCEMENT_SAR_PING_ROLE: 特別行政区のPingロールID
+DAILY_ANNOUNCEMENT_CHANNEL: お知らせのチャンネルID
+MODAL_ROLE_ID_PLACEHOLDER: 希望のロール ID をここに挿入...
+MODAL_CHANNEL_ID_PLACEHOLDER: 希望のチャンネルIDをここに挿入...
+MODAL_ROLE_OR_CHANNEL_ID_PLACEHOLDER: 希望のロール ID をここに挿入...
+MODAL_ROLE_NAME_PLACEHOLDER: 希望のロール名をここに挿入...
+RESEND_BUTTON: 再送
+PANEL_UPDATE_INTEGRATION_TITLE: Genshin Wizard の統合を更新
 PARTNER_ABYSS_ROLE_BUTTON: Abyss Role
 PARTNER_ABYSS_REWARD_BUTTON: Abyss Reward
 PARTNER_ABYSS_CONGRATULATORY_MESSAGE: Congratulatory Message
@@ -1328,7 +1328,7 @@ FRIENDSHIP_ROLE_BUTTON: Friendship Role
 CONSTELLATION_ROLE_BUTTON: Constellation Role (C6)
 CONSTELLATION_ROLE_KEY: Constellation Role
 CROWNED_ROLE_BUTTON: Crowned Role
-ABYSS_SETTINGS_BUTTON: Abyss Settings
+ABYSS_SETTINGS_BUTTON: 深境螺旋設定
 DOLPHIN_ROLE_BUTTON: Dolphin Role
 WHALE_ROLE_BUTTON: Whale Role
 LEVIATHAN_ROLE_BUTTON: Leviathan Role
@@ -1352,93 +1352,93 @@ WITCH_OF_PURPLE_ROSE: Witch of Purple Rose
 ASTRAL_REFLECTION: Astral Reflection
 CRIMSON_WITCH_OF_FLAMES: Crimson Witch of Flames
 ELDER_OF_THE_HEXENZIRKEL: Elder of the Hexenzirkel
-PREMIUM_PLAN_TIER_ONE: "Premium Plan: Tier One"
-PREMIUM_PLAN_TIER_TWO: "Premium Plan: Tier Two"
-PREMIUM_PLAN_TIER_THREE: "Premium Plan: Tier Three"
-PREMIUM_PLAN_TIER_FOUR: "Premium Plan: Tier Four"
-ART_SETTINGS_KEY: Art Settings
-CUSTOM_ROLE_KEY: Custom Role
-ADD_PREMIUM_SERVERS_BUTTON: Add Premium Servers
-ADD_PREMIUM_SERVER_BUTTON: Add Premium Server
-ROLE_NAME_KEY: Role Name
-HEX_COLOR_KEY: HEX Color Code
-CUSTOM_ROLE_MODAL_TITLE: "Custom Role: {modal_type}"
-CUSTOM_ROLE_CREATE_BUTTON: Create Custom Role
-CUSTOM_ROLE_DELETE_BUTTON: Delete Custom Role
-CUSTOM_ROLE_NAME_CHANGE_BUTTON: Change Role Name
-CUSTOM_ROLE_COLOR_CHANGE_BUTTON: Change Role Color
-PREMIUM_SERVER_REMOVE: Select a server to remove...
-PREMIUM_SERVER_TIMESTAMP: Premium since {date}
-GUILD_OR_SERVER_ID: Guild/Server ID
-GUILD_OR_SERVER_ID_PLACEHOLDER: Insert Guild/Server ID here...
-GUIDE_KEY: Guide
+PREMIUM_PLAN_TIER_ONE: "プレミアムプラン：Tier 1"
+PREMIUM_PLAN_TIER_TWO: "プレミアムプラン：Tier 2"
+PREMIUM_PLAN_TIER_THREE: "プレミアムプラン：Tier 3"
+PREMIUM_PLAN_TIER_FOUR: "プレミアムプラン：Tier 4"
+ART_SETTINGS_KEY: アート設定
+CUSTOM_ROLE_KEY: カスタムロール
+ADD_PREMIUM_SERVERS_BUTTON: プレミアムサーバーを追加
+ADD_PREMIUM_SERVER_BUTTON: プレミアムサーバーを追加
+ROLE_NAME_KEY: ロール名
+HEX_COLOR_KEY: 16進カラーコード
+CUSTOM_ROLE_MODAL_TITLE: "カスタムロール： {modal_type}"
+CUSTOM_ROLE_CREATE_BUTTON: カスタムロールを作成
+CUSTOM_ROLE_DELETE_BUTTON: カスタムロールを削除
+CUSTOM_ROLE_NAME_CHANGE_BUTTON: ロール名を変更
+CUSTOM_ROLE_COLOR_CHANGE_BUTTON: ロールの色を変更
+PREMIUM_SERVER_REMOVE: 削除するサーバーを選択...
+PREMIUM_SERVER_TIMESTAMP: '{date}からプレミアム'
+GUILD_OR_SERVER_ID: ギルド/サーバーID
+GUILD_OR_SERVER_ID_PLACEHOLDER: ギルド/サーバーIDをここに挿入...
+GUIDE_KEY: ガイド
 ENABLE_ADAPTIVE_ART_SETTING: 適応型カードアートを有効にする
 ADAPTIVE_INFOGRAPHIC_KEY: 適応型カードアート
-INVITE_BOT_KEY: Invite Bot
-HELP_DROPDOWN_DIRECTORY: Help Directory
-HELP_DROPDOWN_PROFILE_COMMANDS: Profile/Stats Commands
-HELP_DROPDOWN_WISH_COMMANDS: Wish Commands
-HELP_DROPDOWN_HOYOLAB_COMMANDS: HoYoLAB Commands
-HELP_DROPDOWN_GUIDE_COMMANDS: Guide Commands
-HELP_DROPDOWN_MISC_COMMANDS: Miscellaneous Commands
-HELP_DROPDOWN_DIRECTORY_DESCRIPTION: View Genshin Wizard Help Directory
-HELP_DROPDOWN_PROFILE_COMMANDS_DESCRIPTION: View Profile-Related Commands
-HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: View Wish-Related Commands
-HELP_DROPDOWN_HOYOLAB_COMMANDS_DESCRIPTION: View HoYoLAB-Related Commands
-HELP_DROPDOWN_GUIDE_COMMANDS_DESCRIPTION: View Guide-Related Commands
-HELP_DROPDOWN_MISC_COMMANDS_DESCRIPTION: View Miscellaneous-Related Commands
-HELP_PROFILE_COG_NAME: Profile/Stats
-HELP_WISH_COG_NAME: Wish
+INVITE_BOT_KEY: Bot を招待
+HELP_DROPDOWN_DIRECTORY: ヘルプについて
+HELP_DROPDOWN_PROFILE_COMMANDS: プロフィールコマンド
+HELP_DROPDOWN_WISH_COMMANDS: 祈願コマンド
+HELP_DROPDOWN_HOYOLAB_COMMANDS: HoYoLAB コマンド
+HELP_DROPDOWN_GUIDE_COMMANDS: ガイドコマンド
+HELP_DROPDOWN_MISC_COMMANDS: その他のコマンド
+HELP_DROPDOWN_DIRECTORY_DESCRIPTION: Genshin Wizard のヘルプについて表示します
+HELP_DROPDOWN_PROFILE_COMMANDS_DESCRIPTION: プロフィール関連のコマンドを表示します
+HELP_DROPDOWN_WISH_COMMANDS_DESCRIPTION: 祈願関連のコマンドを表示します
+HELP_DROPDOWN_HOYOLAB_COMMANDS_DESCRIPTION: HoYoLAB関連のコマンドを表示します
+HELP_DROPDOWN_GUIDE_COMMANDS_DESCRIPTION: ガイド関連のコマンドを表示します
+HELP_DROPDOWN_MISC_COMMANDS_DESCRIPTION: その他の関連するコマンドを表示します
+HELP_PROFILE_COG_NAME: プロフィール/統計情報
+HELP_WISH_COG_NAME: 祈願
 HELP_HOYOLAB_COG_NAME: HoYoLAB
-HELP_GUIDE_COG_NAME: Guides
-HELP_MISC_COG_NAME: Miscellaneous
-CHOOSE_ELEMENT_DROPDOWN: Choose an element...
-CHOOSE_LANGUAGE_DROPDOWN: Choose a language...
+HELP_GUIDE_COG_NAME: ガイド
+HELP_MISC_COG_NAME: その他
+CHOOSE_ELEMENT_DROPDOWN: 要素を選択...
+CHOOSE_LANGUAGE_DROPDOWN: 言語を選択...
 CURRENT_LANGUAGE_KEY: 現在の言語
 CROWDIN_KEY: Crowdin
 CROWDIN_LINK_KEY: Crowdinのリンク
-OFFICIAL_REPOSITORY_KEY: Official Repository
-OFFICIAL_REPOSITORY_LINK_KEY: Official Repository Link
-GENSHIN_WIZARD_TRANSLATE_TITLE: Contribute to Genshin Wizard Translations
+OFFICIAL_REPOSITORY_KEY: 公式リポジトリ
+OFFICIAL_REPOSITORY_LINK_KEY: 公式リポジトリへのリンク
+GENSHIN_WIZARD_TRANSLATE_TITLE: Genshin Wizardの翻訳に貢献
 GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: 下記のリンクをクリックして、Genshin Wizardの翻訳に貢献しよう！
 APP_COMMAND_LANGUAGE_DESCRIPTION: Genshin Wizardの言語を選択
-APP_COMMAND_DESCRIBE_LANGUAGE: The language you want Genshin Wizard to be set to.
-GENSHIN_WIZARD_LANGUAGE_SWITCHED: Genshin Wizardの標準言語が**{language}**に設定されました！
-GENSHIN_WIZARD_CURRENT_LANGUAGE: Your current language for Genshin Wizard is **{language}**!
-ABYSS_FLOOR_PROGRESSION: "Current Progression: **{stars}/9** {bounty_status}"
+APP_COMMAND_DESCRIBE_LANGUAGE: Genshin Wizardに設定したい言語
+GENSHIN_WIZARD_LANGUAGE_SWITCHED: Genshin Wizardの既定言語が**{language}**に設定されました！
+GENSHIN_WIZARD_CURRENT_LANGUAGE: 現在、Genshin Wizardの言語は**{language}**です！
+ABYSS_FLOOR_PROGRESSION: "現在の進捗：**{stars}/9** {bounty_status}"
 ABYSS_FLOOR_AUTHOR: 第{floor}層 • 深境螺旋戦績
 ABYSS_FLOOR_LABEL: 第{floor}層
-APP_COMMAND_ABYSS_ENEMY_DESCRIPTION: View abyss-enemy information for Spiral Abyss.
-ABYSS_ENEMY_NOT_ONGOING: There is currently no ongoing Spiral Abyss challenges.
-ABYSS_ENEMY_TITLE: Spiral Abyss Enemy Information
-ABYSS_ENEMY_DESCRIPTION: "対象: **第{floor_index}層 - 第{chamber_index}幕**"
-CUSTOM_ROLE_ICON_CHANGE_BUTTON: Change Role Icon
-CUSTOM_ROLE_ICON_REQUEST_MESSAGE: Please send the **link**, **attachment**, or **emoji** you want to use as your custom role icon. This request will time out in 60 seconds.
-CUSTOM_ROLE_ICON_REQUEST_TIMEOUT: Hey Traveler! I didn't receive any input from you, so I've cancelled this request.
-CUSTOM_ROLE_ICON_NOT_IMAGE: Hey Traveler! The attachment must be an **image**!
-CUSTOM_ROLE_ICON_SUCCESS: Your custom role icon has been successfully changed. This confirmation message will be deleted in **10 seconds**.
+APP_COMMAND_ABYSS_ENEMY_DESCRIPTION: 淵月螺旋の敵に関する情報を表示します。
+ABYSS_ENEMY_NOT_ONGOING: 現在進行中の淵月螺旋の挑戦はありません。
+ABYSS_ENEMY_TITLE: 淵月螺旋 敵の詳細情報
+ABYSS_ENEMY_DESCRIPTION: "対象: **第{floor_index}層 - 第{chamber_index}間**"
+CUSTOM_ROLE_ICON_CHANGE_BUTTON: ロールアイコンを変更
+CUSTOM_ROLE_ICON_REQUEST_MESSAGE: カスタムロールアイコンとして使用したい**リンク**、**添付ファイル**、または**絵文字**を送信してください。このリクエストは60秒後に自動的に無効になります。
+CUSTOM_ROLE_ICON_REQUEST_TIMEOUT: 旅人さん、あなたからの入力を受け取れなかったので、このリクエストはキャンセルされました。
+CUSTOM_ROLE_ICON_NOT_IMAGE: 旅人さん、**画像**を添付ファイルとして送信してくださいね。
+CUSTOM_ROLE_ICON_SUCCESS: カスタムロールアイコンが変更されました。この確認メッセージは**10秒**で削除されます。
 DEFAULT_KEY: デフォルト
-EDITOR_NOT_WHITELISTED: Hello Traveler! You are **not whitelisted** to edit guides. Please [**Apply Here**](https://genshinwizard.com/sumeru/) for a chance to join the elite Sumeru Scholars team!
-GENSHIN_WIZARD_CUSTOM_ROLE: Genshin Wizard Custom Role
-GENSHIN_WIZARD_INVENTORY_TITLE: Genshin Wizard Inventory
-HELP_LIST_COMMAND: View Commands
-HISTORY_COMMAND_OVERVIEW_TITLE: Genshin Wizard | Wish History Overview
-ABYSS_ENEMY_FLOOR_VIEW: Floor View
-ABYSS_ENEMY_CHAMBER_VIEW: Chamber View
+EDITOR_NOT_WHITELISTED: 旅人さん、あなたにはガイドを編集する権限がないようです。エリートな「スメール学生団」へ参加する機会を得るには、まず[**こちらからお申し込みください**](https://genshinwizard.com/sumeru/)！
+GENSHIN_WIZARD_CUSTOM_ROLE: Genshin Wizard カスタムロール
+GENSHIN_WIZARD_INVENTORY_TITLE: Genshin Wizard インベントリ
+HELP_LIST_COMMAND: コマンドを見る
+HISTORY_COMMAND_OVERVIEW_TITLE: Genshin Wizard | 祈願履歴概要
+ABYSS_ENEMY_FLOOR_VIEW: '「層」表示'
+ABYSS_ENEMY_CHAMBER_VIEW: '「間」表示'
 ABYSS_ENEMY_FLOOR_OVERVIEW: "対象: **第{floor_index}層**"
-ABYSS_ENEMY_INFORMATION_BUTTON: Hello Traveler, as inconveniencing as it may be, I am **__unable__** to display information regarding **specific enemy counts**. This is due to the fact that this information is generated when *starting* the challenge. I apologize for any inconvenience this may cause.
-ABYSS_ENEMY_INFORMATION_BUTTON_LABEL: Enemy Counts
+ABYSS_ENEMY_INFORMATION_BUTTON: 旅人さん、ご不便をおかけしますが、特定の**敵の数**に関する情報は**__表示できません__**。これは、この情報がチャレンジを開始する際に生成されるためです。ご不便をおかけして申し訳ございません。
+ABYSS_ENEMY_INFORMATION_BUTTON_LABEL: 敵の数
 APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: 戦績のプライバシー設定を変更します
-VIEW_ON_HOYOLAB: View on HoYoLAB
+VIEW_ON_HOYOLAB: HoYoLABで表示
 CHRONICLES_PRIVACY_SETTING: 戦績のプライバシー設定
 PRIVACY_SETTING_BUTTON_LABEL: プライバシー設定{setting_number}
-INVALID_PAGE_INPUT: You must provide a **valid** page number.
-PAGE_MODAL_LABEL: "Page number you want to view:"
-PAGE_MODAL_PLACEHOLDER: "Enter page number..."
+INVALID_PAGE_INPUT: '**有効な**ページ番号を入力する必要があります。'
+PAGE_MODAL_LABEL: "表示したいページ番号："
+PAGE_MODAL_PLACEHOLDER: "ページ番号を入力..."
 RARITY_FILTER_PLACEHOLDER: "レアリティフィルターを選択..."
 CHRONICLE_PRIVACY_PLACEHOLDER: "戦績のプライバシー設定を管理..."
 LEADERBOARD_FILTER_PLACEHOLDER: "ランキングのフィルターを選択..."
-VIEW_FULL_TEAM: "How Do I View Full Teams?"
+VIEW_FULL_TEAM: "フルチームを表示するには？"
 MANAGE_ART_SETTING_KEY: アート設定を管理
 DEFAULT_ART_SETTING: デフォルトレイアウト
 ENKA_ART_SETTING: Enka.Network風レイアウト
@@ -1452,7 +1452,7 @@ MANAGE_CACHED_DATA: キャッシュデータの管理
 INFO_COMMAND_SETTING_NOT_OWNER: You can only manage art settings for your own characters! Use the </info:{command_id}> for more information!
 VERTICAL_ART_SETTING: 縦向きカードレイアウト
 DIARY_DATE_LABEL: "{year}年{month}の手帳"
-NO_ACTIVE_BONUS: No Activated Bonuses
+NO_ACTIVE_BONUS: 有効なボーナスはありません
 JANUARY_KEY: 1月
 FEBRUARY_KEY: 2月
 MARCH_KEY: 3月
@@ -1489,7 +1489,7 @@ HOYO_TEAPOT_KEY: "洞天宝銭："
 HOYO_TRANSFORMER_KEY: "参量物質変化器："
 TRANSFORMER_READY_KEY: 準備完了
 TRANSFORMER_LOCKED_KEY: 未解放
-GENSHIN_STATS_KEY: Genshin Stats
+GENSHIN_STATS_KEY: 旅の統計情報
 STATS_TOTAL_ACHIEVEMENTS_KEY: "アチーブメント"
 STATS_TOTAL_ACTIVE_DAYS_KEY: "Total Active Days"
 STATS_TOTAL_CHARACTERS_KEY: "キャラクター"
@@ -1525,11 +1525,11 @@ WISH_LUCK_MORE: "Genshin Wizardユーザーの{rarity_percentile}%より運が�
 CURRENT_LUNAR_PHASE: 今期の淵月螺旋
 PREVIOUS_LUNAR_PHASE: 前期の淵月螺旋
 ABYSSAL_ARCHIVES: 深境螺旋アーカイブ
-ELEMENTAL_SKILLS_CAST_LABEL: Elemental Skills Cast
-ELEMENTAL_BURSTS_UNLEASHED_LABEL: Elemental Bursts Unleashed
-STRONGEST_SINGLE_STRIKE_LABEL: Strongest Single Strike
+ELEMENTAL_SKILLS_CAST_LABEL: 元素スキル使用回数
+ELEMENTAL_BURSTS_UNLEASHED_LABEL: 元素爆発使用回数
+STRONGEST_SINGLE_STRIKE_LABEL: 最大ダメージ
 ACCOUNT_INFO_KEY: アカウント情報
-CLASSIFIED_KEY: Classified
+CLASSIFIED_KEY: 分類
 INFORMATION_KEY: 情報
 FROM_DIARY_NOTE: "- {nickname} より"
 TRAVELER_DIARY_KEY: 旅人手帳
@@ -1543,16 +1543,16 @@ TOTAL_PRIMOGEMS_OBTAINED: 原石パーセント
 DIARY_DATA_DELAYED: "*データには約1時間の遅延があります。最新のデータは後ほどご確認ください。"
 DIARY_DATA_SOURCE_DESCRIPTION: "*手帳はチャージ以外で入手した資源のみをカウントします。"
 REGION_EXPLORATION_STATUS: "探索度： {percentage}%"
-CHARACTER_CARDS_STATUS: "Character Cards: {owned_cards}/{total_cards}"
-ACTION_CARDS_STATUS: "Action Cards: {owned_cards}/{total_cards}"
-UID_HIDDEN_KEY: "UID Hidden"
-NO_CRIT_VALUE_KEY: "No Crit Value"
-NO_CRIT_VALUE_FOUND: "No CRIT Value Found"
+CHARACTER_CARDS_STATUS: "キャラカード： {owned_cards}/{total_cards}"
+ACTION_CARDS_STATUS: "アクションカード：{owned_cards}/{total_cards}"
+UID_HIDDEN_KEY: "UID 非表示"
+NO_CRIT_VALUE_KEY: "会心スコアなし"
+NO_CRIT_VALUE_FOUND: "会心スコアが見つかりませんでした"
 FRIENDSHIP_LEVEL_KEY: "好感度 Lv. {friendship_level}"
-ARTIST_CREDIT_STRING: Character Artist Credits
-CUSTOM_ARTWORK_STRING: Custom Artwork
+ARTIST_CREDIT_STRING: キャラクターアーティストクレジット
+CUSTOM_ARTWORK_STRING: カスタムアート
 CHARACTER_LEVEL_KEY: "Lv. {level}"
-CHAMBER_KEY_VALUE: "第{chamber}層"
+CHAMBER_KEY_VALUE: "第{chamber}間"
 MORA_PREVIOUS: "先月の獲得モラ: {mora}"
 PRIMOGEM_PREVIOUS: "先月の獲得原石: {primogems}"
 SUMMARY_KEY: 概要
@@ -1563,24 +1563,24 @@ ADVENTURE_RANK: 冒険ランク
 DAMAGE_BREAKDOWN: 戦闘データ
 MOST_USED_CHARACTERS: 最多使用キャラ
 ABYSS_IMAGE_TITLE: 深境螺旋戦績
-ABYSS_FLOOR_COMPLETION: Abyss Floor Completion
+ABYSS_FLOOR_COMPLETION: 淵月螺旋 層をクリア
 WORLD_LEVEL_KEY: 世界ランク
 PROFILE_SHOWCASE_TITLE: Genshin Wizard プロフィール紹介
 ADVENTURE_RANK_KEY: 冒険ランク
-HIDE_WEAPON_KEY: Hide Weapon Details
-SHOW_WEAPON_KEY: Show Weapon Details
-ONGOING_KEY: Ongoing
-FINISHED_KEY: Finished
+HIDE_WEAPON_KEY: 武器詳細を非表示
+SHOW_WEAPON_KEY: 武器詳細を表示
+ONGOING_KEY: 進行中
+FINISHED_KEY: 終了
 VENTURA_ART_SETTING: Ventura レイアウト
-TITLE_KEY: Title
-AFFILIATION_KEY: Affiliation
+TITLE_KEY: 称号
+AFFILIATION_KEY: 所属
 ELEMENT_KEY: 元素タイプ
 CONSTELLATION_KEY: 命ノ星座
 WEAPON_TYPE_KEY: 武器タイプ
 RARITY_KEY: レアリティ
-CHARACTER_GUIDE_FOOTER: "Character Guide • {guide_type}: {character_name}"
+CHARACTER_GUIDE_FOOTER: "キャラクターガイド • {guide_type}: {character_name}"
 DEFAULT_ASCENSION_DESCRIPTION: このキャラクターの突破に関する情報
-READY_TO_CLAIM: Ready to Claim
+READY_TO_CLAIM: 獲得可能
 STATUS_KEY: ステータス
 TIME_LEFT_KEY: 残り時間
 TEAM_SYNERGY_TITLE: チーム編成候補
@@ -1595,8 +1595,8 @@ WEAPON_BOW: 弓
 WEAPON_CLAYMORE: 両手剣
 WEAPON_POLE: 長柄武器
 WEAPON_SWORD_ONE_HAND: 片手剣
-GUIDE_LIST_FOOTER: Use the /guide <character> command to view a character's guide!
-NO_BANNERS_ERROR: There are **no event banners** currently running.
+GUIDE_LIST_FOOTER: /guide <character> コマンドを使用して、キャラクターのガイドを表示します！
+NO_BANNERS_ERROR: 現在開催されているイベントバナーはありません。
 APP_COMMAND_FURNITURE_DESCRIPTION: 原神内の調度品に関する情報を表示します。
 APP_COMMAND_DESCRIBE_FURNITURE: 検索したい調度品の名前
 COMFORT_KEY: 洞天仙力
@@ -1623,8 +1623,8 @@ WEAPON_BANNER_KEY: Weapon Banner
 PERMANENT_BANNER_KEY: Permanent Banner
 FIVE_STAR_PITY: 5-Star Pity
 FOUR_STAR_PITY: 4-Star Pity
-FIVE_STAR_PERCENTAGE: 5-Star Percentage
-FOUR_STAR_PERCENTAGE: 4-Star Percentage
+FIVE_STAR_PERCENTAGE: 星5割合
+FOUR_STAR_PERCENTAGE: 星4割合
 SIGN_IN_TITLE: Checked in {total_days} day(s) this month.
 SIGN_IN_DESCRIPTION: "*Use the command /daily to never miss a sign-in again!"
 INVOKATION_LEVEL: "Level:"
