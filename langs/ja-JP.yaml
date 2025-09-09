@@ -501,28 +501,28 @@ LOCATION_COMMAND_FARMABLE_FOOTER: Farmable locations for specified material
 CALC_CHARACTER_INVALID_CHARACTER: 有効なキャラクターを指定してください！
 CALC_CHARACTER_INVALID_STARTING_LEVEL: You need to specify a valid starting level!
 CALC_CHARACTER_INVALID_TARGET_LEVEL: You need to specify a valid target level!
-CALC_CHARACTER_REQUIREMENT_SURPASSED: キャラクターはすでに希望のレベルを**上回っています**！
-CALC_CHARACTER_REQUIREMENT_MET: キャラクターはすでに希望のレベルに**到達しています**！
+CALC_CHARACTER_REQUIREMENT_SURPASSED: キャラクターはすでに目標レベルを**上回っています**！
+CALC_CHARACTER_REQUIREMENT_MET: キャラクターはすでに目標レベルに**到達しています**！
 CALC_CHARACTER_TITLE: Genshin Wizard | キャラクター計算ツール
 CHARACTER_KEY: キャラクター
-CURRENT_LEVEL_KEY: Current Level
-TARGET_LEVEL_KEY: Target Level
-REQUIRED_RESOURCES_KEY: Required Resources
-GENSHIN_WIZARD_USER_PROFILE: "{user}'s Genshin Wizard Profile"
-PROFILE_SUMMARY_KEY: Profile Summary
-GENSHIN_WISH_STATS_KEY: Genshin Wish Stats
-PROFILE_COMMAND_FOOTER: Profile statistics are updated via banner summary and refresh command(s). Check your banners to actively get an updated /profile!
+CURRENT_LEVEL_KEY: 現在のレベル
+TARGET_LEVEL_KEY: 目標レベル
+REQUIRED_RESOURCES_KEY: 必要な育成素材
+GENSHIN_WIZARD_USER_PROFILE: "{user}のGenshin Wizardプロフィール"
+PROFILE_SUMMARY_KEY: プロフィール概要
+GENSHIN_WISH_STATS_KEY: 祈願統計
+PROFILE_COMMAND_FOOTER: プロフィール統計はバナーサマリーと更新コマンドによって更新されます。バナーを確認して、積極的に更新されたプロフィールを作りましょう！
 GENERATE_IMAGE_COOLDOWN: 画像の生成が速すぎます！**{seconds}**秒後に再度このボタンを使用してみてください。
 GENSHIN_STATISTICS_INFOGRAPHIC: 原神 統計カード
 GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: 旅人！お前だけの**特別な**原神ステータス・進行状況カードをお届けするぞ！
 HIDDEN_KEY: 非表示
-REQUESTED_UID_KEY: Requested UID
+REQUESTED_UID_KEY: 要求されたUID
 GENSHIN_EXPLORATION_INFOGRAPHIC: 世界探索
-GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: 旅人！お前だけの**特別な**世界探索カードをお届けするぞ！
-PROFILE_NOT_OWNER: You can't use this button on someone else's profile!
-PRIVACY_SETTING_TITLE: Genshin Wizard Privacy Settings
-PRIVACY_SETTING_DESCRIPTION: Change your Genshin Wizard privacy settings here.
-PRIVACY_SETTING_KEY: Privacy Settings
+GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: 旅人！お前だけの**特別な**世界探索状況カードをお届けするぞ！
+PROFILE_NOT_OWNER: 他人のプロフィールではこのボタンは使用できません！
+PRIVACY_SETTING_TITLE: Genshin Wizard プライバシー設定
+PRIVACY_SETTING_DESCRIPTION: Genshin Wizardのプライバシー設定はこちらから変更できます。
+PRIVACY_SETTING_KEY: プライバシー設定
 PRIVACY_SETTING_BRIEF: |
   **UIDプライバシー:** {uid_privacy}
   **祈願履歴プライバシー:** {wish_privacy}
@@ -594,9 +594,9 @@ PREVIOUS_ABYSS_DESCRIPTION: |
 ABYSS_COMMAND_FOOTER: "Note: Abyss data may be incorrectly shown or missing data, if this is the case, do keep in mind that abyss data can generally take anywhere from 1-3 hours to update!"
 ABYSS_MISSING_DATA_FOOTER: "注：このデータには情報が不足しているようです！これは、情報が以前にデータベースに保存されていなかったか、データがまだ更新されていないことが原因である可能性があります。"
 ABYSSAL_ARCHIVE_DESCRIPTION: |
-  <:previous_abyss:1028377675989000215> **Abyssal Archives**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  <:previous_abyss:1028377675989000215> **深境螺旋アーカイブ**
+  **開始時刻:** <t:{timestamp_start}:F>
+  **終了時刻:** <t:{timestamp_end}:F>
 UID_LOOKUP: 原神 UID検索
 UID_LOOKUP_TITLE: "{user}の原神アカウントUID"
 PUBLIC_KEY: 公開
@@ -1527,7 +1527,7 @@ WISH_LUCK_LESS: "Genshin Wizardユーザーの{rarity_percentile}％よりも運
 WISH_LUCK_MORE: "Genshin Wizardユーザーの{rarity_percentile}%より運が良いようです。"
 CURRENT_LUNAR_PHASE: 今期の淵月螺旋
 PREVIOUS_LUNAR_PHASE: 前期の淵月螺旋
-ABYSSAL_ARCHIVES: Abyssal Archives
+ABYSSAL_ARCHIVES: 深境螺旋アーカイブ
 ELEMENTAL_SKILLS_CAST_LABEL: Elemental Skills Cast
 ELEMENTAL_BURSTS_UNLEASHED_LABEL: Elemental Bursts Unleashed
 STRONGEST_SINGLE_STRIKE_LABEL: Strongest Single Strike
@@ -1799,11 +1799,11 @@ VIEW_THEATER_TEAM: Viewing Imaginarium Theater Lineup
 CURRENT_THEATER_PHASE_DESCRIPTION: 今期の幻想シアターの進捗を確認
 PREVIOUS_THEATER_PHASE_DESCRIPTION: 前期の幻想シアターの進捗を確認
 THEATER_COMMAND_STATISTICS_CREDIT: ユーザー{name}の幻想シアター情報
-THEATER_ARCHIVES_KEY: Theaterical Archives
+THEATER_ARCHIVES_KEY: 幻想シアターアーカイブ
 THEATER_ARCHIVE_DESCRIPTION: |
-  <:previous_abyss:1028377675989000215> **Theatrical Archives**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  <:previous_abyss:1028377675989000215> **幻想シアターアーカイブ**
+  **開始時刻:** <t:{timestamp_start}:F>
+  **終了時刻:** <t:{timestamp_end}:F>
 UNKNOWN_ERROR_ALERT: Oops! Seems Genshin Wizard caught an **unexpected** exception. Please try again later.
 WEAPON_GUIDE_LIST_SECTION_TITLE: Genshin Impact Weapon List
 ARTIFACT_GUIDE_LIST_SECTION_TITLE: Genshin Impact Artifact List
@@ -1829,9 +1829,9 @@ ONSLAUGHT_COMMAND_STATISTICS_CREDIT: User {name}'s Stygian Onslaught Stats
 CURRENT_ONSLAUGHT_PHASE_DESCRIPTION: View Current Stygian Onslaught Stats Progression
 PREVIOUS_ONSLAUGHT_PHASE_DESCRIPTION: View Previous Stygian Onslaught Stats Progression
 ONSLAUGHT_ARCHIVE_DESCRIPTION: |
-  <:previous_abyss:1028377675989000215> **Stygian Onslaught Archives**
-  **Start Time:** <t:{timestamp_start}:F>
-  **End Time:** <t:{timestamp_end}:F>
+  <:previous_abyss:1028377675989000215> **幽境の激戦アーカイブ**
+  **開始時刻:** <t:{timestamp_start}:F>
+  **終了時刻:** <t:{timestamp_end}:F>
 ONSLAUGHT_LEADERBOARD_PLACEHOLDER: 表示したい期を選択…
 ONSLAUGHT_ARCHIVES_KEY: 幽境の激戦アーカイブ
 STYGIAN_ONSLAUGHT_KEY: 幽境の激戦
