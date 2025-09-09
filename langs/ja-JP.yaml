@@ -799,80 +799,77 @@ SPECIFIC_REMINDER_CLEARED: '{rmd_type}のリマインダーを全て**消去し�
 TEAPOT_ALREADY_SET: 塵歌壺のリマインダーが**既に**設定されています！
 RESIN_ALREADY_SET: 既に**<:fragileresin:1029984988583706654>×{resin}**にリマインダーが設定されています！
 TEAPOT_AUTOMATIC_ALREADY_SET: 塵歌壺の自動リマインダー設定が**既に**設定されています！
-TEAPOT_REMINDER_SET: Reminder successfully set for <:realmcurrency:1029984449565310976><t:{time}:F>!
-AUTOMATIC_TEAPOT_EXPLANATION: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your teapot maxes out!
-EXPEDITION_ALREADY_SET: You **already** have a reminder set for this expedition!
-EXPEDITION_REMINDER_SET: Reminder successfully set for **{char_emote} <t:{time}:F>!**
-PARAMETRIC_ALREADY_SET: You **already** have a reminder set for parametric transformer!
-PARAMETRIC_AUTOMATIC_ALREADY_SET: You **already** have an automatic reminder set for parametric transformer!
-PARAMETRIC_REMINDER_SET: Reminder successfully set for <:parametrictransformer:1029984451670847568><t:{time}:F>!
-AUTOMATIC_PARAMETRIC_EXPLANATION: This reminder has been set as an **automatic** reminder! This means that you will be reminded *every time* your parametric transformer is ready to use!
-INVALID_RESIN_AMOUNT: You need to specify a valid amount of resin.
-RESIN_AMOUNT_LOWER: Please enter a resin amount that is **higher** than your current resin!
-RESIN_REMINDER_SET: Reminder successfully set at <t:{rmd_time}:F> for **<:fragileresin:1029984988583706654>{resin}** resin!
-ENTER_CUSTOM_AMOUNT_KEY: Enter Custom Amount
-ENABLE_AUTOMATIC_REMINDER_KEY: Enable Automatic Reminder
+TEAPOT_REMINDER_SET: <:realmcurrency:1029984449565310976><t:{time}:F>にリマインダーを設定しました！
+AUTOMATIC_TEAPOT_EXPLANATION: これは**自動**リマインダーとして設定されています！これは、洞天集宝盆の保存量が上限に達する**たびに**通知が表示されます！
+EXPEDITION_ALREADY_SET: 参量物質変化器のリマインダーが**既に**設定されています！
+EXPEDITION_REMINDER_SET: '**{char_emote}（<t:{time}:F>）**のリマインダーが設定されました！'
+PARAMETRIC_ALREADY_SET: 参量物質変化器のリマインダーが**既に**設定されています！
+PARAMETRIC_AUTOMATIC_ALREADY_SET: 参量物質変化器の自動リマインダー設定が**既に**設定されています！
+PARAMETRIC_REMINDER_SET: <:parametrictransformer:1029984451670847568><t:{time}:F>にリマインダーを設定しました！
+AUTOMATIC_PARAMETRIC_EXPLANATION: これは**自動**リマインダーとして設定されています！つまり、参量物質変化器が利用可能になる**たびに**通知が表示されます！
+INVALID_RESIN_AMOUNT: 有効な樹脂の量を指定する必要があります。
+RESIN_AMOUNT_LOWER: 現在の樹脂量よりも高い樹脂量を入力してください！
+RESIN_REMINDER_SET: '**<:fragileresin:1029984988583706654>×{resin}（<t:{rmd_time}:F>）**のリマインダーが設定されました！'
+ENTER_CUSTOM_AMOUNT_KEY: 閾値カスタム設定
+ENABLE_AUTOMATIC_REMINDER_KEY: 自動リマインダーを有効化
 CURRENT_ONGOING_EXPEDITIONS_DESCRIPTION: "旅人！いまやってる探索派遣はこんな感じだぞ"
-NO_CURRENT_EXPEDITIONS: You have no ongoing expeditions.
-MISSING_RESIN_AMOUNT: You need to specify the amount of resin you currently have.
-TOO_MUCH_RESIN: You cannot have more than 160 resin.
-MAXED_RESIN_ALERT: You already have 160 resin.
-RESIN_REMINDER_FOOTER: Click a button with 🔔 to get a reminder! Make sure you have private messages enabled to ensure you receive a notification!
-SET_RESIN_REMINDER_KEY: Set resin reminder!
-API_ISSUE: There has been an API Issue.
-HOW_TO_SOLVE_TITLE: How to solve this?
-ENABLE_CHRONICLES: "Use the command </hoyolab-privacy:{command_id}> or visit [**HoYoLAB Settings**](https://www.hoyolab.com/setting/privacy/) and enable *Battle Chronicle privacy* to make your genshin profile public."
+NO_CURRENT_EXPEDITIONS: 進行中の探索派遣はありません。
+MISSING_RESIN_AMOUNT: 現在持っている樹脂の量を指定する必要があります。
+TOO_MUCH_RESIN: 160個以上の樹脂を持つことはできません。
+MAXED_RESIN_ALERT: 既に160個の樹脂を持っています。
+RESIN_REMINDER_FOOTER: 通知を受け取るには、🔔のボタンをクリックしてください！通知を確実に受け取るために、ダイレクトメッセージが有効になっていることを確認してください！
+SET_RESIN_REMINDER_KEY: 樹脂のリマインダーを設定！
+API_ISSUE: API の問題が発生しました。
+HOW_TO_SOLVE_TITLE: これを解決するには？
+ENABLE_CHRONICLES: "コマンド</hoyolab-privacy:{command_id}>を使うか、[**HoYoLAB 設定**] (https://www.hoyolab.com/setting/privacy/)にアクセスし、**戦績のプライバシー設定**を全て有効にして、あなたの原神プロフィールを公開してください。"
 PLEASE_WAIT_DESCRIPTION: Waiting! There is nothing you can do to get past this at the moment.
-PLAYER_TITLE: Player {player}
-USER_TITLE: User {user}
-OVERVIEW_KEY: Overview
-GENERAL_OVERVIEW_KEY: General Overview
+PLAYER_TITLE: プレーヤー {player}
+USER_TITLE: ユーザー {user}
+OVERVIEW_KEY: 概要
+GENERAL_OVERVIEW_KEY: 基本情報
 GENERAL_OVERVIEW_SECTION: |
-  Adventure Rank: {adventure_rank}
-  Total achievements: {achievement_number}
-  Total active days: {playtime}
-  Characters: **{char_count}**/{total_char}
-  Spiral Abyss: {abyss}
-  Region: {region}
-CHEST_PROGRESSION_KEY: Chest Progression
-EXPLORATION_AND_OCULI: Exploration & Oculi
-NOT_YET_UNLOCKED: Not Yet Unlocked!
-STATISTICS_COMMAND_FOOTER: "Note: Statistics may be incorrectly shown or missing data, there is nothing we can do on our end to prevent this, it's an API error on HoYoLAB's end."
-CONGRATULATIONS_KEY: Congratulations!
+  冒険ランク: {adventure_rank}
+  アチーブメント: {achievement_number}
+  活動日数: {playtime}
+  キャラクター: **{char_count}**/{total_char}
+  深境螺旋: {abyss}
+  地域: {region}
+CHEST_PROGRESSION_KEY: 宝箱
+EXPLORATION_AND_OCULI: 世界探索
+NOT_YET_UNLOCKED: 未解放！
+STATISTICS_COMMAND_FOOTER: "注：統計が正しく表示されなかったり、データが欠落している場合がありますが、これはHoYoLAB APIの問題であり、私たちではどうにもできません。"
+CONGRATULATIONS_KEY: おめでとうございます！
 ABYSS_CONGRATULATE_MESSAGE: |
-  Congratulations {user} on perfectly *clearing* the Spiral Abyss!
-  <:spiralabyss:1000079902596411482> <@&{role_id}> Role Given <a:check:956327345717907507>
+  おめでとうございます。{user}は深境螺旋を**制覇**しました！<:spiralabyss:1000079902596411482> <@&{role_id}> ロールが付与されました <a:check:956327345717907507>
 THEATER_CONGRATULATE_MESSAGE: |
-  Congratulations {user} on perfectly *clearing* Act 10 of **Visionary Mode** in Imaginarium Theater!
-  {heraldry_emoji} <@&{role_id}> Role Given <a:check:956327345717907507>
+  おめでとうございます。{user}が幻想シアターの第10幕までを制覇しました！{heraldry_emoji} <@&{role_id}> ロールが付与されました<a:check:956327345717907507>
 ONSLAUGHT_CONGRATULATE_MESSAGE: |
-  Congratulations {user} on perfectly *clearing* **Difficulty {difficulty_level}** for Stygian Onslaught!
-  {dire_emoji} <@&{role_id}> Role Given <a:check:956327345717907507>
-ABYSS_COMMAND_STATISTICS_CREDIT: User {name}'s Spiral Abyss Stats
+  おめでとうございます。{user}が幽境の激戦 難易度 {difficulty_level} を制覇しました！{dire_emoji} <@&{role_id}> ロールが付与されました <a:check:956327345717907507>
+ABYSS_COMMAND_STATISTICS_CREDIT: ユーザー {name} の深境螺旋統計
 CURRENT_LUNAR_PHASE_DESCRIPTION: |
   **今期の淵月螺旋**
   **開始時刻:** {start}
   **終了時刻:** {end}
-MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard is missing permissions to `Manage Roles`. Please enable this permission and try again."
-ROLE_NOT_FOUND: ":no_entry: There was an error retrieving the role. Please make sure the role information under this integration is correct."
-GENSHIN_STATS_HEADER: "{name}'s Genshin Stats"
-PROCESSING_BANNER_TRANSITION: Processing {banner} Banner...
-CHRONICLED_KEY: Chronicled
-WEAPON_KEY: Weapon
-PERMANENT_KEY: Permanent
-NOVICE_KEY: Novice
-STARDUST_EXCHANGES: Stardust Exchanges
-STARGLITTER_EXCHANGES: Starglitter Exchanges
-STARDUST_KEY: Stardust
-STARGLITTER_KEY: Starglitter
-GENSHIN_WIZARD_SHOP_TITLE: Genshin Wizard Shop
+MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizardに `ロールの管理` 権限がありません。この権限を有効にしてもう一度お試しください。"
+ROLE_NOT_FOUND: ":no_entry: ロールの取得中にエラーが発生しました。この統合設定内のロール情報が正しいことを確認してください。"
+GENSHIN_STATS_HEADER: "{name}の原神ステータス"
+PROCESSING_BANNER_TRANSITION: '{banner}バナーを処理しています...'
+CHRONICLED_KEY: 集録祈願
+WEAPON_KEY: イベント祈願・武器
+PERMANENT_KEY: 通常祈願
+NOVICE_KEY: 初心者向け祈願
+STARDUST_EXCHANGES: スターダスト交換
+STARGLITTER_EXCHANGES: スターライト交換
+STARDUST_KEY: スターダスト
+STARGLITTER_KEY: スターライト
+GENSHIN_WIZARD_SHOP_TITLE: Genshin Wizard ショップ
 GENSHIN_WIZARD_SHOP_DESCRIPTION: |
-  Welcome to Paimon's Bargains! Here you can purchase items to help you on your journey. You currently have <:Primogem:951924423340994610>**{primogems} Primogems** in your Genshin Wizard inventory.
+  パイモンのバーチャルショップへようこそ！旅の助けとなるアイテムを購入できます。現在、あなたのバーチャルインベントリには<:Primogem:951924423340994610>**原石 × {primogems}**があります。
 
-  <:MasterlessStardust:951924423332626522> **Stardust:** {stardust}
-  <:MasterlessStarglitter:951924423059980290> **Starglitter:** {starglitter}
+  <:MasterlessStardust:951924423332626522> **スターダスト** × {stardust}
+  <:MasterlessStarglitter:951924423059980290> **スターライト** × {starglitter}
 
-  <:GreyPin:949815085335986246> **__CURRENT SHOP__ [ Price | Item ]**
+  <:GreyPin:949815085335986246> **__現在のショップ__ [ 価格 | アイテム ]**
 SIMULATOR_NO_PRIMOGEMS: |
   <:Error:1021889679857037372> 旅人、今日はもう**原石**がないみたいだ... 10連をもう一回するには原石<:Primogem:951924423340994610>×**1,600**が必要だぞ。おまえが持ってる原石の数は、**</balance:{balance_id}>**コマンドで確認できるから、試してみてくれよな〜！
 
@@ -976,7 +973,7 @@ INVALID_ROLE_MESSAGE: You must use a **Valid Role ID** for this integration! Ple
 INVALID_GUILD_MESSAGE: You must use a **Valid Guild ID** for this integration! Please try again.
 INVALID_CHANNEL_MESSAGE: You must use a **Valid Channel ID** for this integration! Please try again.
 CANNOT_FIND_GUILD: 旅人、探してるサーバーが見つからなかったぞ... またやり直してみてくれ！
-MISSING_WEBHOOK_PERMISSION: I don't have permission to `Manage Webhooks` in this server/channel!
+MISSING_WEBHOOK_PERMISSION: このサーバー・チャンネルで`Webhookの管理`権限がありません！
 CHANGE_ROLE_INTEGRATION: Make changes to Genshin Wizard's automatic role integration.
 SETUP_COMMAND_TITLE: Genshin Wizard | Setup Panel
 UPDATED_INTEGRATION_RESPONSE: "Successfully updated integration for: **{integration}**!"
@@ -1221,7 +1218,7 @@ GEO_KEY: 岩
 HYDRO_KEY: 水
 PYRO_KEY: 炎
 RESET_SETTINGS_BUTTON: 設定をリセット
-MASTER_PRIVACY_BUTTON: Master Privacy
+MASTER_PRIVACY_BUTTON: マスタープライバシー設定
 UPDATE_BANNER_MODAL_TITLE: Update Banner
 UPDATE_BANNER_MODAL_URL_INPUT: Link to desired image for banner
 UPDATE_BANNER_MODAL_URL_PLACEHOLDER: https://some.link/to/image.png
@@ -1431,10 +1428,10 @@ ABYSS_ENEMY_CHAMBER_VIEW: Chamber View
 ABYSS_ENEMY_FLOOR_OVERVIEW: "Schedule: **Floor {floor_index} Overview**"
 ABYSS_ENEMY_INFORMATION_BUTTON: Hello Traveler, as inconveniencing as it may be, I am **__unable__** to display information regarding **specific enemy counts**. This is due to the fact that this information is generated when *starting* the challenge. I apologize for any inconvenience this may cause.
 ABYSS_ENEMY_INFORMATION_BUTTON_LABEL: Enemy Counts
-APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: Change your Battle Chronicles Privacy Settings.
+APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: 戦績のプライバシー設定を変更します
 VIEW_ON_HOYOLAB: View on HoYoLAB
-CHRONICLES_PRIVACY_SETTING: Character Battle Chronicle Settings
-PRIVACY_SETTING_BUTTON_LABEL: Privacy Setting {setting_number}
+CHRONICLES_PRIVACY_SETTING: 戦績のプライバシー設定
+PRIVACY_SETTING_BUTTON_LABEL: プライバシー設定{setting_number}
 INVALID_PAGE_INPUT: You must provide a **valid** page number.
 PAGE_MODAL_LABEL: "Page number you want to view:"
 PAGE_MODAL_PLACEHOLDER: "Enter page number..."
@@ -1502,10 +1499,10 @@ STATS_STYGIAN_ONSLAUGHT_KEY: "幽境の激戦"
 STATS_REGION_KEY: "地域"
 STATS_WAYPOINTS_KEY: "ワープポイント"
 STATS_DOMAINS_KEY: "秘境"
-ANEMOCULUS_KEY: 失われた風神の瞳
-GEOCULUS_KEY: 失われた岩神の瞳
-ELECTROCULUS_KEY: 失われた雷神の瞳
-DENDROCULUS_KEY: 失われた草神の瞳
+ANEMOCULUS_KEY: 風神の瞳
+GEOCULUS_KEY: 岩神の瞳
+ELECTROCULUS_KEY: 雷神の瞳
+DENDROCULUS_KEY: 草神の瞳
 TRUST_RANK_KEY: 信頼ランク
 ADEPTAL_ENERGY_KEY: 最高洞天仙力
 ITEMS_KEY: 調度品の総数
@@ -1660,7 +1657,7 @@ REGISTER_SCRIPT_ALERT: 一度ログアウトして、またログインしてく
 REGISTER_SCRIPT_COPY_BUTTON: クリックしてコピー！
 ACCOUNT_EMAIL_KEY: アカウントのEメール
 PASSWORD_KEY: アカウントのパスワード
-HYDROCULUS_KEY: 失われた水神の瞳
+HYDROCULUS_KEY: 水神の瞳
 APP_COMMAND_RECOVER_DESCRIPTION: Recover your inaccessible Genshin Wizard account.
 RECOVER_COMMAND_TITLE: Genshin Wizard Account Recovery
 RECOVER_COMMAND_ALREADY_REGISTERED: You have already **registered** to an account! Unlink using </unlink:{command_id}> before trying to recover your previous account.
@@ -1739,7 +1736,7 @@ SEND_CODE_MANAGE_TITLE: Send Code Announcement | Manage Codes
 SEND_CODE_MANAGE_MESSAGE: Prepare your codes announcement here before sending.
 SEND_CODE_MANAGE_FOOTER: Send Code Announcement Management Panel
 SEND_CODE_NO_ROLE_SELECTED: No role selected
-PYROCULUS_KEY: Pyroculus
+PYROCULUS_KEY: 炎神の瞳
 SELECT_ACCOUNT_KEY: Select Account
 SELECT_ACCOUNT_DESCRIPTION: |
   Please select the account you wish to link from the below select menu.
