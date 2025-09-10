@@ -926,7 +926,7 @@ SIMULATOR_DUMP_UNSUCCESSFUL: なんということでしょう！バッグの廃
 SIMULATOR_DUMP_SUCCESSFUL: <:yescheck:1021114525858136074> インベントリを空にしました！
 SIMULATOR_DUMP_CANCELLED: "**<:yescheck:1021114525858136074> キャンセルしました！**"
 FARM_COMMAND_DOMAIN_TITLE: 秘境の日替わりドロップ ［{region}］
-SERVER_RESET_KEY: サーバーリセット
+SERVER_RESET_KEY: 曜日切り替え
 ARTIFACT_GUIDE_FOOTER: 聖遺物の詳細情報を取得するには、コマンド `/artifact <name_of_artifact>` を使用してください。
 ARTIFACT_GUIDE_TITLE: 聖遺物概要
 NO_ASSET_INPUT: ":no_entry: 検索するアセットIDを入力してください。"
@@ -1683,22 +1683,22 @@ METHOD_TWO_DESCRIPTION: |
   4. Hit `ENTER` to have the link copied to your clipboard
   5. Click the button below and paste the link in the input field
 METHOD_THREE_DESCRIPTION: |
-  1. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  2. Then copy the following code and paste it in the Powershell window
+  1. タスクバーから「PowerShell」を検索し、「Windows PowerShell」を開く。
+  2. 次に、以下のコードをコピーしてPowerShellウィンドウに貼り付ける。
   ```ps
   Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://gist.githubusercontent.com/MadeBaruna/bf36bad751dc9221067ca1e31ab08255/raw/cb73a9f46f08fad6f27581ebb1a6249ba086af13/read.ps1'))
   ```
-  3. Go to the Genshin Impact game and open the wish history page
-  4. Hit `ENTER` to have the link copied to your clipboard
-  5. Click the button below and paste the link in the input field
+  3. 原神を開き、祈願履歴ページを表示する。
+  4. `エンター`キーを押すと、リンクがクリップボードにコピーされる。
+  5. 下のボタンをクリックし、入力欄にリンクを貼り付けて完了。
 METHOD_MANUAL_DESCRIPTION: |
-  1. Open Genshin Impact Game on your PC (Make sure you restart the game if you use multiple accounts/share computers)
-  2. Go to the wish history page and wait for it to load
-  3. Open the installation folder for Genshin Impact (i.e. C:\Games\Genshin Impact\Genshin Impact game)
-  4. Open folders "GenshinImpact_Data" > "webCaches" > "2.13.0.1" > "Cache" > "Cache_Data"
-  5. Right click "data_2" file then click "Open with" then select Notepad (If you get error like "The process cannot access the file because it is being used by another process" please exit the game first)
-  6. Press CTRL+F, check `Wrap around`, and select direction `Up` then in the input box search for "**e20190909gacha-v2**" (without the quote). Finally, click `Find Next`
-  7. Copy the link from *`https://webstatic`* to *`game_biz=hk4e_global`* the url looks like this: *`https://webstatic-sea.hoyoverse.com/genshin/event/e20190909gacha-v2/index.html?.......&game_biz=hk4e_global`*
+  1. PCで原神を起動する（複数アカウント使用時や共有PCの場合は必ずゲームを再起動すること）
+  2. ゲーム内の祈願履歴ページに移動し、読み込みが完了するまで待つ
+  3. 原神のインストールフォルダを開く（例：C:\Games\Genshin Impact\Genshin Impact game）
+  4. 「GenshinImpact_Data」＞「webCaches」＞「2.13.0.1」＞「Cache」＞「Cache_Data」フォルダを開く
+  5. 「data_2」ファイルを右クリックし、「プログラムから開く」＞「メモ帳」を選択（「別のプロセスが使用中のため、このプロセスはファイルにアクセスできません」が表示された場合は、まずゲームを終了してください）
+  6. Ctrl+Fを押し、「その他のオプション」から「**折り返す**」にチェックを入れる。検索ボックスに「**e20190909gacha-v2**」と入力し、「**上へ検索**」をクリック。
+  7. *`https://webstatic`* から *`game_biz=hk4e_global`* までのリンクをコピーします。URLは以下のような形式になります：*`https://webstatic-sea.hoyoverse.com/genshin/event/e20190909gacha-v2/index.html?.......&game_biz=hk4e_global`*
 WEAPON_INFORMATION_KEY: 武器情報
 COMBAT_STATISTICS_KEY: 戦闘統計
 WEAPON_BASED_MAX_LEVEL: 最大レベル武器に基づく*
