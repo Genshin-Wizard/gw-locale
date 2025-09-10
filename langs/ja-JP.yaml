@@ -53,19 +53,19 @@ TRUTH_COMMAND_RESPONSES:
   - オイラが思うに... 大丈夫だな！
   - 当たり前だよな！
   - 当然だよな！
-  - そうに決まってるぜ！
+  - そうに決まってるぞ！
   - そうに決まってるぞ！
   - たぶんな！
   - 可能性は高そうだ！
   - だめそうだ...
   - 無理じゃないか...？
-  - できないぞ...
-  - また後で来よう、今は他を探索しよう。
+  - 否っ！
+  - とある情報筋によると... 無理。
   - 考えられないぞ...
   - かもな。
   - なんとも言えないぞ...
   - かもしれないぞ。
-  - '「お可愛いこと。」'
+  - それは誰にもわからないぞ...
   - '？？わ、わかんないぞ・・・'
   - 疲れちゃったぞ。(むにゃむにゃ...)
   - 間違いないな！
@@ -134,7 +134,7 @@ ERROR_PREMIUM_COMMAND_TITLE: 原神ウィザードプレミアム
 ERROR_PREMIUM_COMMAND_DESCRIPTION: 旅人！このコマンドはオイラには使えないぞ... これはプレミアム加入者限定なんだ。もしこの機能を使いたいなら、</premium:{command_id}> コマンドで詳しく見てみるといいかもな！
 ERROR_BLACKLISTED_TITLE: Genshin Wizard | ブラックリスト入り
 ERROR_BLACKLISTED_DESCRIPTION: |
-  旅人さん、あなたはGenshin Wizardの利用を禁止されました。
+  あなたはGenshin Wizardの利用を禁止されました。
 
   これが間違いだと思われる場合は、私たちの[公式Discordサーバー](https://genshinwizard.com/discord)から報告をお願いします。
 ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | 不明なメンバー
@@ -457,13 +457,13 @@ IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
   取り込みしようとしているデータの形式は**サポートされていません**。現在、以下のファイル形式からの取り込みがサポートされています。
   {supported_file_types}
   詳しくは[**ドキュメント**](https://docs.genshinwizard.com/wishing-centre/importing-wishes)をご覧ください。
-IMPORT_COMMAND_TITLE: Genshin Wizard | 祈願履歴を取り込み
+IMPORT_COMMAND_TITLE: Genshin Wizard | 祈願履歴取り込み
 IMPORT_COMMAND_FILE_DETECTED: |
   **検出された取り込みソース： `{source}`**
   *祈願履歴の取り込みが完了するまでお待ちください...*
 IMPORT_COMMAND_TAMPERED: 取り込もうとしているデータが**変更されました**。取り込み前にファイル内のデータを**変更しないでください**。データを再度ダウンロードして、もう取り込みをしてください。
-IMPORT_COMMAND_BANNER_IMPORTED: '{banner_name}バナーの、`{number_wishes}`件の祈願履歴が取り込まれました！'
-IMPORT_COMMAND_SUCCESS: 全てのバナーの`{total_wishes}`件の祈願履歴が取り込まれました！</history:{command_id}>コマンドから、祈願に関するより多くの情報を閲覧できるようになります。
+IMPORT_COMMAND_BANNER_IMPORTED: '{banner_name}バナーの、`{number_wishes}`個の祈願履歴が取り込まれました！'
+IMPORT_COMMAND_SUCCESS: 全てのバナーの`{total_wishes}`個の祈願履歴が取り込まれました！</history:{command_id}>コマンドから、祈願に関するより多くの情報を閲覧できるようになります。
 IMPORT_COMMAND_LOG: |
   **ユーザー**：{user} | `{user_id}`
   **名前**：`{name}`
@@ -501,8 +501,8 @@ LOCATION_COMMAND_FARMABLE_FOOTER: Farmable locations for specified material
 CALC_CHARACTER_INVALID_CHARACTER: 有効なキャラクターを指定してください！
 CALC_CHARACTER_INVALID_STARTING_LEVEL: 有効な開始レベルを指定してください！
 CALC_CHARACTER_INVALID_TARGET_LEVEL: 有効な目標レベルを指定してください！
-CALC_CHARACTER_REQUIREMENT_SURPASSED: キャラクターはすでに目標レベルを**上回っています**！
-CALC_CHARACTER_REQUIREMENT_MET: キャラクターはすでに目標レベルに**到達しています**！
+CALC_CHARACTER_REQUIREMENT_SURPASSED: キャラクターはすでに希望のレベルを**上回っています**！
+CALC_CHARACTER_REQUIREMENT_MET: キャラクターはすでに希望のレベルに**到達しています**！
 CALC_CHARACTER_TITLE: Genshin Wizard | キャラクター計算ツール
 CHARACTER_KEY: キャラクター
 CURRENT_LEVEL_KEY: 現在のレベル
@@ -518,7 +518,7 @@ GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: 旅人！お前だけの**特別な*
 HIDDEN_KEY: 非表示
 REQUESTED_UID_KEY: 要求されたUID
 GENSHIN_EXPLORATION_INFOGRAPHIC: 世界探索
-GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: 旅人！お前だけの**特別な**世界探索状況カードをお届けするぞ！
+GENSHIN_EXPLORATION_INFOGRAPHIC_DESCRIPTION: 旅人！お前だけの**特別な**世界探索カードをお届けするぞ！
 PROFILE_NOT_OWNER: 他人のプロフィールではこのボタンは使用できません！
 PRIVACY_SETTING_TITLE: Genshin Wizard プライバシー設定
 PRIVACY_SETTING_DESCRIPTION: Genshin Wizardのプライバシー設定はこちらから変更できます。
@@ -1210,13 +1210,13 @@ NEXT_BUTTON: 次
 GENERATE_IMAGE_BUTTON: 画像を生成
 GENERATE_EXPLORATION_BUTTON: 世界探索状況を書き出し
 SETTINGS_BUTTON: 設定
-ANEMO_KEY: 風元素
-CRYO_KEY: 氷元素
-DENDRO_KEY: 草元素
-ELECTRO_KEY: 雷元素
-GEO_KEY: 岩元素
-HYDRO_KEY: 水元素
-PYRO_KEY: 炎元素
+ANEMO_KEY: 風
+CRYO_KEY: 氷
+DENDRO_KEY: 草
+ELECTRO_KEY: 雷
+GEO_KEY: 岩
+HYDRO_KEY: 水
+PYRO_KEY: 炎
 RESET_SETTINGS_BUTTON: 設定をリセット
 MASTER_PRIVACY_BUTTON: マスタープライバシー設定
 UPDATE_BANNER_MODAL_TITLE: バナーを更新
@@ -1322,7 +1322,7 @@ RESEND_BUTTON: 再送
 PANEL_UPDATE_INTEGRATION_TITLE: Genshin Wizard の統合を更新
 PARTNER_ABYSS_ROLE_BUTTON: Abyss Role
 PARTNER_ABYSS_REWARD_BUTTON: Abyss Reward
-PARTNER_ABYSS_CONGRATULATORY_MESSAGE: Congratulatory Message
+PARTNER_ABYSS_CONGRATULATORY_MESSAGE: お祝いメッセージ
 LOG_CHANNEL_KEY: Log Channel
 FRIENDSHIP_ROLE_BUTTON: Friendship Role
 CONSTELLATION_ROLE_BUTTON: Constellation Role (C6)
@@ -1403,7 +1403,7 @@ GENSHIN_WIZARD_TRANSLATE_TITLE: Genshin Wizardの翻訳に貢献
 GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: 下記のリンクをクリックして、Genshin Wizardの翻訳に貢献しよう！
 APP_COMMAND_LANGUAGE_DESCRIPTION: Genshin Wizardの言語を選択
 APP_COMMAND_DESCRIBE_LANGUAGE: Genshin Wizardに設定したい言語
-GENSHIN_WIZARD_LANGUAGE_SWITCHED: Genshin Wizardの既定言語が**{language}**に設定されました！
+GENSHIN_WIZARD_LANGUAGE_SWITCHED: Genshin Wizardの標準言語が**{language}**に設定されました！
 GENSHIN_WIZARD_CURRENT_LANGUAGE: 現在、Genshin Wizardの言語は**{language}**です！
 ABYSS_FLOOR_PROGRESSION: "現在の進捗：**{stars}/9** {bounty_status}"
 ABYSS_FLOOR_AUTHOR: 第{floor}層 • 深境螺旋戦績
@@ -1411,7 +1411,7 @@ ABYSS_FLOOR_LABEL: 第{floor}層
 APP_COMMAND_ABYSS_ENEMY_DESCRIPTION: 淵月螺旋の敵に関する情報を表示します。
 ABYSS_ENEMY_NOT_ONGOING: 現在進行中の淵月螺旋の挑戦はありません。
 ABYSS_ENEMY_TITLE: 淵月螺旋 敵の詳細情報
-ABYSS_ENEMY_DESCRIPTION: "対象: **第{floor_index}層 - 第{chamber_index}間**"
+ABYSS_ENEMY_DESCRIPTION: "対象: **第{floor_index}層 - 第{chamber_index}幕**"
 CUSTOM_ROLE_ICON_CHANGE_BUTTON: ロールアイコンを変更
 CUSTOM_ROLE_ICON_REQUEST_MESSAGE: カスタムロールアイコンとして使用したい**リンク**、**添付ファイル**、または**絵文字**を送信してください。このリクエストは60秒後に自動的に無効になります。
 CUSTOM_ROLE_ICON_REQUEST_TIMEOUT: 旅人さん、あなたからの入力を受け取れなかったので、このリクエストはキャンセルされました。
@@ -1444,10 +1444,10 @@ DEFAULT_ART_SETTING: デフォルトレイアウト
 ENKA_ART_SETTING: Enka.Network風レイアウト
 ART_SETTING_TITLE: Genshin Wizard アート設定
 ART_SETTING_DESCRIPTION: Manage your Genshin Wizard </info:{command_id}> art settings here.
-ART_LAYOUT_STYLE: "レイアウトスタイル"
+ART_LAYOUT_STYLE: "ケイアウト形式"
 ART_CHARACTER_STYLE: "キャラクターアート"
 RESET_PROFILE_SETTINGS: プロファイル設定をリセット
-CHOOSE_ART_LAYOUT: "アートレイアウトスタイルを選択…"
+CHOOSE_ART_LAYOUT: "アートレイアウト形式を選択..."
 MANAGE_CACHED_DATA: キャッシュデータの管理
 INFO_COMMAND_SETTING_NOT_OWNER: You can only manage art settings for your own characters! Use the </info:{command_id}> for more information!
 VERTICAL_ART_SETTING: 縦向きカードレイアウト
@@ -1473,7 +1473,7 @@ TOTAL_WISHES_VALUE: "総祈願数: {total_wishes}"
 FIVE_STAR_COUNT: "星5人数：{five_star_count}"
 FOUR_STAR_COUNT: "星4人数：{four_star_count}"
 GACHA_DATA_NOT_REAL: "*このデータは架空のものです。"
-INVENTORY_KEY: インベントリ
+INVENTORY_KEY: バッグ
 CHARACTER_SUMMARY_KEY: キャラクター概要
 UNKNOWN_ADVENTURE_RANK: "冒険ランク：不明"
 ADVENTURE_RANK_VALUE: "冒険ランク：{adventure_rank}"
@@ -1499,10 +1499,10 @@ STATS_STYGIAN_ONSLAUGHT_KEY: "幽境の激戦"
 STATS_REGION_KEY: "地域"
 STATS_WAYPOINTS_KEY: "ワープポイント"
 STATS_DOMAINS_KEY: "秘境"
-ANEMOCULUS_KEY: 風神の瞳
-GEOCULUS_KEY: 岩神の瞳
-ELECTROCULUS_KEY: 雷神の瞳
-DENDROCULUS_KEY: 草神の瞳
+ANEMOCULUS_KEY: 失われた風神の瞳
+GEOCULUS_KEY: 失われた岩神の瞳
+ELECTROCULUS_KEY: 失われた雷神の瞳
+DENDROCULUS_KEY: 失われた草神の瞳
 TRUST_RANK_KEY: 信頼ランク
 ADEPTAL_ENERGY_KEY: 最高洞天仙力
 ITEMS_KEY: 調度品の総数
@@ -1552,7 +1552,7 @@ FRIENDSHIP_LEVEL_KEY: "好感度 Lv. {friendship_level}"
 ARTIST_CREDIT_STRING: キャラクターアーティストクレジット
 CUSTOM_ARTWORK_STRING: カスタムアート
 CHARACTER_LEVEL_KEY: "Lv. {level}"
-CHAMBER_KEY_VALUE: "第{chamber}間"
+CHAMBER_KEY_VALUE: "第{chamber}層"
 MORA_PREVIOUS: "先月の獲得モラ: {mora}"
 PRIMOGEM_PREVIOUS: "先月の獲得原石: {primogems}"
 SUMMARY_KEY: 概要
@@ -1606,15 +1606,15 @@ TRUST_KEY: 信頼値
 FURNISHING_DETAILS_KEY: 調度品概要
 INGREDIENTS_KEY: 消費素材
 SOURCE_KEY: 入手方法
-APP_COMMAND_MATERIAL_DESCRIPTION: Look up information on a specific material in Genshin Impact.
-APP_COMMAND_DESCRIBE_MATERIAL: The name of the material you want to look-up.
-APP_COMMAND_NAMECARD_DESCRIPTION: Look up information on a specific namecard in Genshin Impact.
-APP_COMMAND_DESCRIBE_NAMECARD: The name of the namecard you want to look-up.
-APP_COMMAND_RECIPE_DESCRIPTION: Look up information on a specific recipe in Genshin Impact.
-APP_COMMAND_DESCRIBE_RECIPE: The name of the recipe you want to look-up.
-APP_COMMAND_MONSTER_DESCRIPTION: Look up information on a specific monster in Genshin Impact.
-APP_COMMAND_DESCRIBE_MONSTER: The name of the monster you want to look-up.
-SYNERGY_IMAGE_DESCRIPTION: Character synergy information are subject to change from update to update.*
+APP_COMMAND_MATERIAL_DESCRIPTION: 指定された素材に関する情報を検索します。
+APP_COMMAND_DESCRIBE_MATERIAL: 検索したい素材の名前
+APP_COMMAND_NAMECARD_DESCRIPTION: 指定された名刺の飾り紋に関する情報を検索します。
+APP_COMMAND_DESCRIBE_NAMECARD: 検索したい名刺の名前
+APP_COMMAND_RECIPE_DESCRIPTION: 指定された食べ物に関する情報を検索します。
+APP_COMMAND_DESCRIBE_RECIPE: 検索したい食べ物の名前
+APP_COMMAND_MONSTER_DESCRIPTION: 指定された敵に関する情報を検索します。
+APP_COMMAND_DESCRIBE_MONSTER: 検索したい敵の名前
+SYNERGY_IMAGE_DESCRIPTION: '※ キャラクターの相性に関する情報は、アップデートにより変更される場合があります。'
 GENSHIN_WIZARD_LEADERBOARD: Genshin Wizard ランキング
 RECENT_PITIES_KEY: 最近の祈願
 NOVICE_BANNER_KEY: 初心者向け祈願
@@ -1657,7 +1657,7 @@ REGISTER_SCRIPT_ALERT: 一度ログアウトして、またログインしてく
 REGISTER_SCRIPT_COPY_BUTTON: クリックしてコピー！
 ACCOUNT_EMAIL_KEY: アカウントのEメール
 PASSWORD_KEY: アカウントのパスワード
-HYDROCULUS_KEY: 水神の瞳
+HYDROCULUS_KEY: 失われた水神の瞳
 APP_COMMAND_RECOVER_DESCRIPTION: 使用できないGenshin Wizardアカウントを回復します。
 RECOVER_COMMAND_TITLE: Genshin Wizard アカウント回復
 RECOVER_COMMAND_ALREADY_REGISTERED: すでにアカウントを**登録済み**です！以前のアカウントを復元しようとする前に、</unlink:{command_id}>から紐付けを解除してください。
@@ -1674,14 +1674,14 @@ METHOD_TWO_TITLE: 祈願履歴の登録 | 方法2
 METHOD_THREE_TITLE: 祈願履歴の登録 | 方法3
 METHOD_MANUAL_TITLE: 祈願履歴の登録 | 手動
 METHOD_TWO_DESCRIPTION: |
-  1. In the start menu search for "PowerShell" and open "Windows PowerShell"
-  2. Then copy the following code and paste it in the Powershell window
+  1. スタートメニューで「PowerShell」を検索し、「Windows PowerShell」を開く。
+  2. 次に、以下のコードをコピーしてPowerShellウィンドウに貼り付ける。
   ```ps
   iex('Write-Host "Copy the wish history table!";while(1) { $c = Get-Clipboard -TextFormatType Html; if ($c -match "^SourceURL:https:/.+log") { break; }; for($i=5; $i -gt 0; $i--) { Write-Host "`rChecking in $i" -NoNewline; Sleep 1; }; }; Write-Host " OK"; $m=(((Get-Clipboard -TextFormatType Html) | Select-String "(https:/.+log)").Matches[0].Value);$m; Set-Clipboard -Value $m;')
   ```
-  3. Go to the Genshin Impact game and open the wish history page
-  4. Hit `ENTER` to have the link copied to your clipboard
-  5. Click the button below and paste the link in the input field
+  3. 原神を開き、祈願履歴ページを表示する。
+  4. `エンター`キーを押すと、リンクがクリップボードにコピーされる。
+  5. 下のボタンをクリックし、入力欄にリンクを貼り付けて完了。
 METHOD_THREE_DESCRIPTION: |
   1. タスクバーから「PowerShell」を検索し、「Windows PowerShell」を開く。
   2. 次に、以下のコードをコピーしてPowerShellウィンドウに貼り付ける。
@@ -1709,8 +1709,8 @@ ASCENSION_GUIDE_KEY: 育成ガイド
 TALENT_MATERIALS_KEY: 天賦素材
 EXPEDITION_PROGRESS_KEY: 探索派遣の進捗
 DOMAIN_SCHEDULE_DAY_TITLE: "{day}の秘境日替わりドロップ"
-CHARACTER_USAGE_KEY: この素材を使用するキャラクター
-WEAPON_USAGE_KEY: この素材を使用する武器
+CHARACTER_USAGE_KEY: 文字の使用法
+WEAPON_USAGE_KEY: 武器使用率
 REQUIRED_BY_KEY: 必要：
 REFERENCE_SHEET_KEY: 参照シート
 APP_COMMAND_MEMORY_DESCRIPTION: 原神の記憶ゲームで遊ぼう。
@@ -1845,7 +1845,7 @@ BATTLE_FIELD_KEY: "戦場 {battle_field_id}"
 HIGHEST_TOTAL_DAMAGE_DEALT_LABEL: 最大合計ダメージ
 BEST_RECORD_KEY: 最高記録
 BATTLE_TIME_KEY: "クリアタイム: {time}秒"
-WEAK_AGAINST_KEY: 推奨元素
+WEAK_AGAINST_KEY: 弱点
 STRONG_AGAINST_KEY: 不利元素
 ONSLAUGHT_SCHEDULE_RECORD: スケジュール記録
 SINGLE_PLAYER_KEY: ソロプレイ
