@@ -1494,7 +1494,7 @@ STATS_TOTAL_ACHIEVEMENTS_KEY: "アチーブメント"
 STATS_TOTAL_ACTIVE_DAYS_KEY: "Total Active Days"
 STATS_TOTAL_CHARACTERS_KEY: "キャラクター"
 STATS_SPIRAL_ABYSS_KEY: "深境螺旋"
-STATS_IMAGINARIUM_THEATER_KEY: "Imaginarium Theater"
+STATS_IMAGINARIUM_THEATER_KEY: "幻想シアター"
 STATS_STYGIAN_ONSLAUGHT_KEY: "幽境の激戦"
 STATS_REGION_KEY: "地域"
 STATS_WAYPOINTS_KEY: "ワープポイント"
@@ -1626,14 +1626,14 @@ FOUR_STAR_PITY: 星4祈願
 FIVE_STAR_PERCENTAGE: 星5割合
 FOUR_STAR_PERCENTAGE: 星4割合
 SIGN_IN_TITLE: 今月累計ログイン日数：{total_days}日
-SIGN_IN_DESCRIPTION: "*Use the command /daily to never miss a sign-in again!"
-INVOKATION_LEVEL: "Level:"
-INVOKATION_NICKNAME: "Nickname:"
+SIGN_IN_DESCRIPTION: "*/dailyコマンドを使用して、これから二度とデイリーログインボーナスを逃さないようにしましょう！"
+INVOKATION_LEVEL: "レベル："
+INVOKATION_NICKNAME: "ニックネーム："
 INVOKATION_TITLE: "七聖召喚"
 INVOKATION_SHOWCASE: "カードラインナップ"
 INVOKATION_SUMMARY: "カード概要"
-DAILY_ALREADY_CLAIMED: You have already claimed your daily reward.
-UNABLE_TO_CLAIM: Unable to claim your daily reward.
+DAILY_ALREADY_CLAIMED: 今日はもうログインボーナスを受け取り済みです。
+UNABLE_TO_CLAIM: ログインボーナスの受け取りに失敗しました。
 COOKIE_RESET_MESSAGE: 原神アカウントのパスワードをリセットすると、Cookieが**リセット**されます。このコマンドを使用するには、HoYoLABアカウントの**再認証**が必要です。再認証にはコマンド</reauthenticate:{command_id}>を使用してください。
 INVALID_COOKIE_KEY: 無効なCookie
 TEST_NOTIFICATION_KEY: 通知のテストをする
@@ -1647,10 +1647,10 @@ STARRAIL_GAME_KEY: 崩壊：スターレイル
 CLAIM_DAILY_REWARD_MESSAGE: 毎日のHoYoLABサインイン報酬をゲットしましょう！下から報酬を受け取るゲームを選択してください。
 SELECTED_GAME_KEY: 選択されたゲーム
 NOTIFICATIONS_KEY: 通知
-DAILY_AUTOCLAIM_KEY: Daily Auto-Claim
-DAILY_AUTO_REDEEM_KEY: Daily Auto-Redeem
-DAILY_CHECKIN_KEY: Daily Check-In
-INVOKATION_VICTORIES: "{win_count} Victories"
+DAILY_AUTOCLAIM_KEY: 自動デイリーログイン
+DAILY_AUTO_REDEEM_KEY: 自動デイリー交換
+DAILY_CHECKIN_KEY: デイリーログインボーナス
+INVOKATION_VICTORIES: "{win_count}回勝利"
 WORLD_EXPLORATIONS: 探索度
 REPUTATION_LEVELS: 評判レベル
 REGISTER_SCRIPT_ALERT: 一度ログアウトして、またログインしてください。Cookieが現在期限切れ、または無効です！
@@ -1658,9 +1658,9 @@ REGISTER_SCRIPT_COPY_BUTTON: クリックしてコピー！
 ACCOUNT_EMAIL_KEY: アカウントのEメール
 PASSWORD_KEY: アカウントのパスワード
 HYDROCULUS_KEY: 水神の瞳
-APP_COMMAND_RECOVER_DESCRIPTION: Recover your inaccessible Genshin Wizard account.
-RECOVER_COMMAND_TITLE: Genshin Wizard Account Recovery
-RECOVER_COMMAND_ALREADY_REGISTERED: You have already **registered** to an account! Unlink using </unlink:{command_id}> before trying to recover your previous account.
+APP_COMMAND_RECOVER_DESCRIPTION: 使用できないGenshin Wizardアカウントを回復します。
+RECOVER_COMMAND_TITLE: Genshin Wizard アカウント回復
+RECOVER_COMMAND_ALREADY_REGISTERED: すでにアカウントを**登録済み**です！以前のアカウントを復元しようとする前に、</unlink:{command_id}>から紐付けを解除してください。
 RECOVER_COMMAND_INSTRUCTIONS: |
   Genshin Wizardアカウントへのアクセスを失って、再び紐付けをしたいあなたにピッタリ！
 
@@ -1701,88 +1701,88 @@ METHOD_MANUAL_DESCRIPTION: |
   7. Copy the link from *`https://webstatic`* to *`game_biz=hk4e_global`* the url looks like this: *`https://webstatic-sea.hoyoverse.com/genshin/event/e20190909gacha-v2/index.html?.......&game_biz=hk4e_global`*
 WEAPON_INFORMATION_KEY: 武器情報
 COMBAT_STATISTICS_KEY: 戦闘統計
-WEAPON_BASED_MAX_LEVEL: based on max lvl weapon*
+WEAPON_BASED_MAX_LEVEL: 最大レベル武器に基づく*
 WEAPON_DESCRIPTION_KEY: 武器の説明
 FIRST_HALF_KEY: 前半
 SECOND_HALF_KEY: 後半
 ASCENSION_GUIDE_KEY: 育成ガイド
 TALENT_MATERIALS_KEY: 天賦素材
-EXPEDITION_PROGRESS_KEY: Expedition Progress
+EXPEDITION_PROGRESS_KEY: 探索派遣の進捗
 DOMAIN_SCHEDULE_DAY_TITLE: "{day}の秘境日替わりドロップ"
-CHARACTER_USAGE_KEY: Character Usage
-WEAPON_USAGE_KEY: Weapon Usage
-REQUIRED_BY_KEY: Required By
-REFERENCE_SHEET_KEY: Reference Sheet
-APP_COMMAND_MEMORY_DESCRIPTION: Play a Genshin Impact memory game.
+CHARACTER_USAGE_KEY: 文字の使用法
+WEAPON_USAGE_KEY: 武器使用率
+REQUIRED_BY_KEY: 必要：
+REFERENCE_SHEET_KEY: 参照シート
+APP_COMMAND_MEMORY_DESCRIPTION: 原神の記憶ゲームで遊ぼう。
 MEMORY_COMMAND_COOLDOWN_MESSAGE: 旅人、焦りすぎだ！もっとゆっくりカードをクリックしてくれよな〜
-MEMORY_COMMAND_COMPLETION: Congratulations! You completed the minigame in **{time_taken}** seconds with **{try_count}** attempts.
+MEMORY_COMMAND_COMPLETION: おめでとうございます！**{try_count}** 回の試行の末、**{time_taken}**秒でミニゲームをクリアしました。
 ZENLESS_GAME_KEY: ゼンレスゾーンゼロ
-TEARS_GAME_KEY: Tears of Themis
+TEARS_GAME_KEY: 未定事件簿
 HELP_FUN_COG_NAME: Fun
-HELP_DROPDOWN_FUN_COMMANDS: Fun Commands
-HELP_DROPDOWN_FUN_COMMANDS_DESCRIPTION: View Fun-Related Commands
-EXPORT_COMMAND_HISTORY_TITLE: User {uid}'s Wish History
-REDEEM_SINGLE_CODE: Redeem Single Code
-REDEEM_ALL_CODES: Redeem All Available Code(s)
-AUTO_REDEEM_MESSAGE: Automatically redeem codes for your account! Select a game to claim your rewards from below.
-SEND_CODE_MINIMUM_CODES: You need to add **at least one** code before sending an announcement message!
-SEND_CODE_ADD_CODE: Add Code
-SEND_CODE_ADD_CODE_PLACEHOLDER: Enter redemption code...
-SEND_CODE_CHANGE_CHANNEL: Select a channel...
-SEND_CODE_CHANGE_ROLE: Select a role...
-SEND_CODE_REMOVE_ALL_CODES: Remove All Code(s)
-SEND_CODE_ANNOUNCEMENT_MESSAGE: Send Announcement Message
-SEND_CODE_MANAGE_TITLE: Send Code Announcement | Manage Codes
-SEND_CODE_MANAGE_MESSAGE: Prepare your codes announcement here before sending.
-SEND_CODE_MANAGE_FOOTER: Send Code Announcement Management Panel
-SEND_CODE_NO_ROLE_SELECTED: No role selected
+HELP_DROPDOWN_FUN_COMMANDS: お遊びコマンド
+HELP_DROPDOWN_FUN_COMMANDS_DESCRIPTION: お遊びのコマンドを表示します
+EXPORT_COMMAND_HISTORY_TITLE: ユーザー {uid}の祈願履歴
+REDEEM_SINGLE_CODE: ひとつのコードを引き換える
+REDEEM_ALL_CODES: 利用可能なすべてのコードを引き換える
+AUTO_REDEEM_MESSAGE: 交換コードを自動的に引き換えます！報酬を受け取るには下からゲームを選択してください。
+SEND_CODE_MINIMUM_CODES: お知らせメッセージを送信する前に、**少なくとも1つ**のコードを追加する必要があります。
+SEND_CODE_ADD_CODE: コードを追加
+SEND_CODE_ADD_CODE_PLACEHOLDER: 交換コードを入力...
+SEND_CODE_CHANGE_CHANNEL: チャンネルを選択...
+SEND_CODE_CHANGE_ROLE: ロールを選択...
+SEND_CODE_REMOVE_ALL_CODES: すべてのコードを削除
+SEND_CODE_ANNOUNCEMENT_MESSAGE: お知らせメッセージを送信
+SEND_CODE_MANAGE_TITLE: 交換コードアナウンス送信 | コード管理
+SEND_CODE_MANAGE_MESSAGE: コードを送信する前に、ここでコードのお知らせを準備してください。
+SEND_CODE_MANAGE_FOOTER: 交換コードアナウンス送信管理パネル
+SEND_CODE_NO_ROLE_SELECTED: ロールが選択されていません
 PYROCULUS_KEY: 炎神の瞳
-SELECT_ACCOUNT_KEY: Select Account
+SELECT_ACCOUNT_KEY: アカウントを選択
 SELECT_ACCOUNT_DESCRIPTION: |
   Please select the account you wish to link from the below select menu.
 
   Genshin Wizard has found **{num_accounts}** different game accounts linked with the provided details.
-NO_NICKNAME_KEY: No Nickname
+NO_NICKNAME_KEY: ニックネームなし
 GENSHIN_WIZARD_CURRENT_ACCOUNT_DESCRIPTION: |
   Register your Genshin/HoYoLAB account to Genshin Wizard.
 
   Active Account: **{account}**
   Nickname: **{nickname}**
-EDIT_NICKNAME_KEY: Edit Nickname
+EDIT_NICKNAME_KEY: ニックネームを編集
 ADD_ACCOUNT_KEY: アカウントを追加
 REMOVE_ACCOUNT_KEY: アカウントを削除
 REMOVE_ACCOUNT_COMPLETE_KEY: アカウントを完全に削除
-ADD_ACCOUNT_REGISTER_TITLE: Genshin Wizard Account Registration
-ADD_ACCOUNT_REGISTER_DESCRIPTION: Use the buttons below to register your Genshin Impact account with Genshin Wizard.
-PREMIUM_REQUIRED_TITLE: Genshin Wizard Premium Required
-MAX_ACCOUNTS_REACHED: "You have reached the maximum number of accounts allowed for **{tier_notation}.** Please consider upgrading to premium to add more accounts. If you're interested in upgrading, use the </premium:{command_id}> command."
+ADD_ACCOUNT_REGISTER_TITLE: Genshin Wizard アカウント登録
+ADD_ACCOUNT_REGISTER_DESCRIPTION: 以下のボタンを使用して、あなたの原神アカウントをGenshin Wizardに登録できます。
+PREMIUM_REQUIRED_TITLE: Genshin Wizard プレミアムが必要
+MAX_ACCOUNTS_REACHED: "**{tier_notation}**で許可されているアカウント数の上限に達しました。追加アカウントをご利用になるには、プレミアムへのアップグレードをご検討ください。アップグレードをご希望の場合は、</premium:{command_id}> コマンドをご利用ください。"
 YES_BUTTON: "はい"
 NO_BUTTON: "いいえ"
 REMOVE_ACCOUNT_TITLE: Genshin Wizardからアカウントを削除
-REMOVE_ACCOUNT_DESCRIPTION: Use the buttons below to remove your Genshin Impact account from Genshin Wizard.
-ERROR_GENSHIN_COMMAND_ONLY_TITLE: Genshin Wizard | Error
+REMOVE_ACCOUNT_DESCRIPTION: 以下のボタンを使用して、あなたの原神アカウントをGenshin Wizardから削除します。
+ERROR_GENSHIN_COMMAND_ONLY_TITLE: Genshin Wizard | エラー
 ERROR_GENSHIN_COMMAND_ONLY_DESCRIPTION: |
-  This command is only available for Genshin Impact accounts. Please use the </accounts:{command_id}> command to select or register a Genshin Impact account before using this command.
-CHARACTER_GUIDE_LIST_SECTION_TITLE: Genshin Impact Character Guides
-PROCESSING_MESSAGE: Processing request/action, please be **patient**...
+  このコマンドは原神アカウントでのみ利用可能です。本コマンド使用前に、</accounts:{command_id}> コマンドで原神アカウントを選択、または登録してください。
+CHARACTER_GUIDE_LIST_SECTION_TITLE: 原神キャラクターガイド
+PROCESSING_MESSAGE: 要求を処理しています、少々**お待ちください**...
 ACCOUNT_CANNOT_REDEEM: |
   旅人さん、ご不便をおかけして申し訳ありませんが、現在お客様のアカウントでは**コードの引き換えができません**。コードを引き換えるには、HoYoLABアカウントの再認証が必要です！
 
   このコマンド・機能をご利用いただくには、</reauthenticate:{command_id}> を通じてHoYoLABアカウントの再認証を行ってください。
-VIEW_ACCOUNTS_KEYS: View Account(s)
-NOT_YET_EXPLORED: Not Yet Explored!
-EXPLORATION_PROGRESS: Exploration Progress
-REFRESH_ACCOUNT_LOGIN_KEY: Refresh Account Login
-IMAGINARIUM_THEATER_KEY: Imaginarium Theater
-THEATER_DETAIL_EASY: "Theater Details: Easy Mode"
-THEATER_DETAIL_NORMAL: "Theater Details: Normal Mode"
-THEATER_DETAIL_HARD: "Theater Details: Hard Mode"
-THEATER_DETAIL_VISIONARY: "Theater Details: Visionary Mode"
-THEATER_DETAIL: "Theater Details"
-NO_IMAGINARIUM_THEATER_DATA: "No Imaginarium Theater Data"
-FANTASIA_FLOWERS_USED: Fantasia Flowers Used
-EXTERNAL_AUDIENCE_SUPPORT: Triggered External Audience Support
-SUPPORT_CAST_ASSIST: Supporting Cast Characters Assist Other Players
+VIEW_ACCOUNTS_KEYS: アカウントを表示
+NOT_YET_EXPLORED: 未開の地
+EXPLORATION_PROGRESS: 探索度
+REFRESH_ACCOUNT_LOGIN_KEY: アカウントのログイン情報を更新
+IMAGINARIUM_THEATER_KEY: 幻想シアター
+THEATER_DETAIL_EASY: "公演振り返り：イージーモード"
+THEATER_DETAIL_NORMAL: "公演振り返り：ノーマルモード"
+THEATER_DETAIL_HARD: "公演振り返り：ハードモード"
+THEATER_DETAIL_VISIONARY: "公演振り返り：マスターモード"
+THEATER_DETAIL: "公演振り返り"
+NO_IMAGINARIUM_THEATER_DATA: "幻想シアターデータなし"
+FANTASIA_FLOWERS_USED: 消費した「幻戯の花」
+EXTERNAL_AUDIENCE_SUPPORT: 観客の応援を引き起こした回数
+SUPPORT_CAST_ASSIST: サポートキャストが他のプレイヤーを支援した回数
 TOTAL_CAST_TIME: 公演時間
 THEATER_ACT_KEY: 第{act_id}幕
 FASTEST_ACT_KEY: 最速
@@ -1792,7 +1792,7 @@ SUPPORT_KEY: サポート
 THEATER_COMMAND_FOOTER: "注: 幻想シアターのデータ更新には、1～3時間ほどかかる場合があります。"
 IMAGINARIUM_THEATER_DESCRIPTION: 幻想シアターの進捗状況を確認
 THEATER_LEADERBOARD_PLACEHOLDER: 表示したい期を選択…
-VIEW_THEATER_TEAM: Viewing Imaginarium Theater Lineup
+VIEW_THEATER_TEAM: 幻想シアターの編成を表示
 CURRENT_THEATER_PHASE_DESCRIPTION: 今期の幻想シアターの進捗を確認
 PREVIOUS_THEATER_PHASE_DESCRIPTION: 前期の幻想シアターの進捗を確認
 THEATER_COMMAND_STATISTICS_CREDIT: ユーザー{name}の幻想シアター情報
@@ -1801,30 +1801,30 @@ THEATER_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **幻想シアターアーカイブ**
   **開始時刻:** <t:{timestamp_start}:F>
   **終了時刻:** <t:{timestamp_end}:F>
-UNKNOWN_ERROR_ALERT: Oops! Seems Genshin Wizard caught an **unexpected** exception. Please try again later.
-WEAPON_GUIDE_LIST_SECTION_TITLE: Genshin Impact Weapon List
-ARTIFACT_GUIDE_LIST_SECTION_TITLE: Genshin Impact Artifact List
-FOOD_GUIDE_LIST_SECTION_TITLE: Genshin Impact Food List
-MATERIAL_GUIDE_LIST_SECTION_TITLE: Genshin Impact Material List
-MONSTER_GUIDE_LIST_SECTION_TITLE: Genshin Impact Monster List
-GCG_GUIDE_LIST_SECTION_TITLE: Genshin Impact TCD Card List
-FURNISHING_GUIDE_LIST_SECTION_TITLE: Genshin Impact Furnishing List
-UPDATE_CHARACTER_ROLE_CONFIGURATION: Update Character-Oriented Role Configuration
-ERROR_CHANNEL_NOT_EXIST: 'The channel you provided (<#{channel_id}) does not exist!'
-ERROR_ROLE_NOT_EXIST: The role you provided (<@&{role_id}>) does not exist!
-ROLE_COMMAND_EMBED_TITLE: Automatic Role Assignment
-ROLE_COMMAND_IN_PROGRESS: Checking user's characters...
-APP_COMMAND_WEAPON_LIST_DESCRIPTION: Display a list of available weapons in Genshin Impact.
-USER_NOT_REGISTERED_ERROR: Unfortunately, this user has **not registered** or their active account is not a Genshin Impact account! Please register/switch accounts using </accounts:{command_id}> *before* using this command.
+UNKNOWN_ERROR_ALERT: あらら〜！Genshin Wizardが**予期せぬ**エラーが発生しました。後でもう一度お試しください。
+WEAPON_GUIDE_LIST_SECTION_TITLE: 原神 武器一覧
+ARTIFACT_GUIDE_LIST_SECTION_TITLE: 原神 聖遺物一覧
+FOOD_GUIDE_LIST_SECTION_TITLE: 原神 食べ物一覧
+MATERIAL_GUIDE_LIST_SECTION_TITLE: 原神 材料一覧
+MONSTER_GUIDE_LIST_SECTION_TITLE: 原神 敵一覧
+GCG_GUIDE_LIST_SECTION_TITLE: 原神 七聖召喚カード一覧
+FURNISHING_GUIDE_LIST_SECTION_TITLE: 原神 調度品一覧
+UPDATE_CHARACTER_ROLE_CONFIGURATION: キャラクター指向のロール設定を更新
+ERROR_CHANNEL_NOT_EXIST: '指定したチャンネル (<#{channel_id}) は存在しません！'
+ERROR_ROLE_NOT_EXIST: 指定したロール (<@&{role_id}>) は存在しません！
+ROLE_COMMAND_EMBED_TITLE: 自動ロール付与
+ROLE_COMMAND_IN_PROGRESS: ユーザーのキャラクターを確認中...
+APP_COMMAND_WEAPON_LIST_DESCRIPTION: 原神の利用可能な武器の一覧を表示します。
+USER_NOT_REGISTERED_ERROR: 残念ながら、このユーザーは**登録されていない**か、または有効なアカウントが原神のアカウントではありません！このコマンドを使用する前に、</accounts:{command_id}>を使用して登録、アカウント切り替えを行ってください。
 MAGIC_LABEL: 珍奇な宝箱
-THEATER_NOT_UNLOCKED: The Imaginarium Theater is not yet unlocked for your account!
-CHARACTER_NOT_IN_ACCOUNT: The character `{name}` was not found in your account!
-ONSLAUGHT_NOT_UNLOCKED: The Stygian Onslaught is not yet unlocked for your account!
+THEATER_NOT_UNLOCKED: 幻想シアターが開放されていません！
+CHARACTER_NOT_IN_ACCOUNT: あなたのアカウントにキャラクター`{name}`が見つかりませんでした！
+ONSLAUGHT_NOT_UNLOCKED: 幽境の激戦が開放されていません！
 ONSLAUGHT_COMMAND_FOOTER: "注: 幽境の激戦のデータ更新には、1〜3時間ほどかかる場合があります。"
-NO_ONSLAUGHT_DATA: "No Stygian Onslaught Data"
-ONSLAUGHT_COMMAND_STATISTICS_CREDIT: User {name}'s Stygian Onslaught Stats
-CURRENT_ONSLAUGHT_PHASE_DESCRIPTION: View Current Stygian Onslaught Stats Progression
-PREVIOUS_ONSLAUGHT_PHASE_DESCRIPTION: View Previous Stygian Onslaught Stats Progression
+NO_ONSLAUGHT_DATA: "幽境の激戦データなし"
+ONSLAUGHT_COMMAND_STATISTICS_CREDIT: ユーザー{name}の幽境の激戦・戦績
+CURRENT_ONSLAUGHT_PHASE_DESCRIPTION: 今期の幽境の激戦の戦績を確認
+PREVIOUS_ONSLAUGHT_PHASE_DESCRIPTION: 前期の幽境の激戦の戦績を確認
 ONSLAUGHT_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **幽境の激戦アーカイブ**
   **開始時刻:** <t:{timestamp_start}:F>
@@ -1832,22 +1832,22 @@ ONSLAUGHT_ARCHIVE_DESCRIPTION: |
 ONSLAUGHT_LEADERBOARD_PLACEHOLDER: 表示したい期を選択…
 ONSLAUGHT_ARCHIVES_KEY: 幽境の激戦アーカイブ
 STYGIAN_ONSLAUGHT_KEY: 幽境の激戦
-ONSLAUGHT_DESCRIPTION: View your Stygian Onslaught progression stats
-APP_COMMAND_ONSLAUGHT_DESCRIPTION: View your Genshin account's Stygian Onslaught progress.
-APP_COMMAND_THEATER_DESCRIPTION: View your Genshin account's Imaginarium Theater progress.
-ONSLAUGHT_DETAIL_NORMAL: "Stygian Onslaught Details: Normal Mode"
-ONSLAUGHT_DETAIL_ADVANCING: "Stygian Onslaught Details: Advancing Mode"
-ONSLAUGHT_DETAIL_HARD: "Stygian Onslaught Details: Hard Mode"
-ONSLAUGHT_DETAIL_MENACING: "Stygian Onslaught Details: Menacing Mode"
-ONSLAUGHT_DETAIL_FEARLESS: "Stygian Onslaught Details: Fearless Mode"
-ONSLAUGHT_DETAIL_DIRE: "Stygian Onslaught Details: Dire Mode"
+ONSLAUGHT_DESCRIPTION: 幽境の激戦の進捗を確認
+APP_COMMAND_ONSLAUGHT_DESCRIPTION: あなたの原神アカウントの「幽境の激戦」進捗を確認
+APP_COMMAND_THEATER_DESCRIPTION: あなたの原神アカウントの「幻想シアター」進捗を確認
+ONSLAUGHT_DETAIL_NORMAL: "幽境の激戦・戦績：イージー（Ⅰ）"
+ONSLAUGHT_DETAIL_ADVANCING: "幽境の激戦・戦績：ノーマル（Ⅱ）"
+ONSLAUGHT_DETAIL_HARD: "幽境の激戦・戦績：ハード（Ⅲ）"
+ONSLAUGHT_DETAIL_MENACING: "幽境の激戦・戦績：マスター （Ⅳ）"
+ONSLAUGHT_DETAIL_FEARLESS: "幽境の激戦・戦績：エクストラ（Ⅴ）"
+ONSLAUGHT_DETAIL_DIRE: "幽境の激戦・戦績：アルティメット （Ⅵ）"
 BATTLE_FIELD_KEY: "戦場 {battle_field_id}"
 HIGHEST_TOTAL_DAMAGE_DEALT_LABEL: 最大合計ダメージ
 BEST_RECORD_KEY: 最高記録
 BATTLE_TIME_KEY: "クリアタイム: {time}秒"
-WEAK_AGAINST_KEY: 弱点
-STRONG_AGAINST_KEY: Strong Against
-ONSLAUGHT_SCHEDULE_RECORD: Schedule Record
+WEAK_AGAINST_KEY: 推奨元素
+STRONG_AGAINST_KEY: 不利元素
+ONSLAUGHT_SCHEDULE_RECORD: スケジュール記録
 SINGLE_PLAYER_KEY: ソロプレイ
 MULTI_PLAYER_KEY: マルチプレイ
 BATTLE_SYNOPSIS_KEY: 戦績概要
@@ -1866,37 +1866,37 @@ PREVIOUS_PHASE_DESCRIPTION: |
   **開始時間:** <t:{timestamp_start}:F>
   **終了時間:** <t:{timestamp_end}:F>
 PHASE_NO_DATA: 旅人！この期のデータがないみたいだ... あとでもういっかい試してみてくれ。もしこれが続くようなら、Genshin Wizardのサポートチームに連絡してみてくれよな。
-CHANNEL_NOT_FOUND: The channel you provided does not exist or is not accessible.
+CHANNEL_NOT_FOUND: 指定したチャンネルが存在しないか、アクセスできません。
 INITIALIZE_WEBHOOK_BUTTON: Webhookを更新・初期化
-CHANNEL_SETUP_SUCCESS: The channel {channel} has been successfully set! Please enable/initialize the webhook by clicking the button in the panel configuration view.
-WEBHOOK_INITIALIZED: Successfully initialized the plugin, please enable the plugin if you haven't already. You're all set to go!
+CHANNEL_SETUP_SUCCESS: チャンネル {channel} の設定が完了しました！パネル設定画面のボタンをクリックして、Webhook を有効化・初期化してください。
+WEBHOOK_INITIALIZED: プラグインの初期化に成功しました。まだ有効化していない場合は、プラグインを有効化してください。これで準備完了です！
 PREMIUM_MANAGE_BILLING: Manage Billing
-MAX_OUT_PRIMOGEMS: Max Out Primogems
+MAX_OUT_PRIMOGEMS: 樹脂溢れ
 PREMIUM_FEATURE_CONSIDER_UPGRADE: 旅人！このコマンドはプレミアム会員限定みたいだ... この機能が使いたいときは、アップグレードすることをお勧めするぞ！
-NO_ROLE_KEY: No Role
+NO_ROLE_KEY: ロールなし
 THEATER_STATISTICS_KEY: 幻想シアター・公演振り返り
 ONSLAUGHT_STATISTICS_KEY: 幽境の激戦・戦績の振り返り
 LEADERBOARD_THEATER_FOOTER: 幻想シアターの公演振り返りは「幻想シアターの進行状況」コマンドで更新されます。最新の統計値を確認するには、頻繁に進行状況をチェックしてくださいね！
-LEADERBOARD_ONSLAUGHT_FOOTER: Stygian Onslaught statistics are updated via the stygian onslaught progression command, check your stygian onslaught progression frequently to get an updated statistics measurement!
+LEADERBOARD_ONSLAUGHT_FOOTER: 幽境の激戦の統計は「幽境の激戦・戦績」コマンドで更新されます。最新の情報を取得するには、頻繁に進捗を確認してください！
 THEATER_LEADERBOARD_ALL_TIME: 歴代ランキング
 THEATER_LEADERBOARD_ALL_TIME_DESCRIPTION: 幻想シアターの全公演記録を表示
 ONSLAUGHT_LEADERBOARD_ALL_TIME: 歴代ランキング
-ONSLAUGHT_LEADERBOARD_ALL_TIME_DESCRIPTION: View records from all Stygian Onslaught phases.
+ONSLAUGHT_LEADERBOARD_ALL_TIME_DESCRIPTION: 幽境の激戦の全期間の記録を表示
 THEATER_STATISTICS_DESCRIPTION: Genshin Wizardの幻想シアターランキングを表示
-ONSLAUGHT_STATISTICS_DESCRIPTION: View Genshin Wizard's Stygian Onslaught leaderboard.
-ACCOUNT_PREFERENCE_EVENT_TITLE: Account Preferences Updated
-AUTOCLAIM_EVENT_UNSUBSCRIBE_DESCRIPTION: "You have successfully **unsubscribed** from the auto-claim feature. You will no longer receive any notifications regarding auto-claim for the following account: **{uid}**."
-AUTOCLAIM_EVENT_DISABLE_DESCRIPTION: "You have successfully **disabled** the auto-claim feature. You will no longer receive any notifications regarding auto-claim for the following account: **{uid}**."
-STATS_MAX_FRIENDSHIP_COUNT_KEY: Max Friendship Characters
-PARTNER_ONLY_CONFIGURATION: Hey Traveler, this configuration is reserved for **partners** of Genshin Wizard. Please select a different role-integration to configure or consider partnering with our **[Discord Server](https://genshinwizard.com/discord)**!
+ONSLAUGHT_STATISTICS_DESCRIPTION: Genshin Wizardの幽境の激戦ランキングを表示
+ACCOUNT_PREFERENCE_EVENT_TITLE: アカウント設定が更新されました
+AUTOCLAIM_EVENT_UNSUBSCRIBE_DESCRIPTION: "自動デイリーログイン機能を**解除**しました。次のアカウントに関する自動デイリーログインの通知は今後届かなくなります。**{uid}**"
+AUTOCLAIM_EVENT_DISABLE_DESCRIPTION: "自動デイリーログインを**無効**にしました。次のアカウントの自動デイリーログインに関する通知は今後届かなくなります。**{uid}**"
+STATS_MAX_FRIENDSHIP_COUNT_KEY: 好感度最大のキャラクター
+PARTNER_ONLY_CONFIGURATION: 旅人さん、この設定はGenshin Wizardの**パートナー**専用です。設定するには別のロール統合を選択するか、私たちの**[Discordサーバー](https://genshinwizard.com/discord)**との提携をご検討ください！
 CLUSTER_KEY: Cluster
-VOTE_GENSHIN_WIZARD: Vote for Genshin Wizard!
-SUPPORT_VOTE_DESCRIPTION: Support the Genshin Wizard bot by voting on bot discovery platforms and earn free rewards in the process!
-VOTE_FOR_BOT: Vote for Genshin Wizard Bot!
-VOTE_FOR_SERVER: Vote for Genshin Wizard Server!
-VOTE_PERIOD_NOTICE: You can vote once every **12 hours**!
-REAUTHENTICATE_TITLE: Reauthenticate HoYoLAB Account
-REAUTHENTICATE_DESCRIPTION: Reauthenticate your HoYoLAB account to continue using select Genshin Wizard features. This may be required if your cookie has **expired** or is invalid.
+VOTE_GENSHIN_WIZARD: Genshin Wizardに投票！
+SUPPORT_VOTE_DESCRIPTION: Genshin Wizard BotをBotプラットフォームで投票して支援し、その過程で無料の報酬を獲得しましょう！
+VOTE_FOR_BOT: Genshin Wizard Botに投票！
+VOTE_FOR_SERVER: Genshin Wizard サーバーに投票！
+VOTE_PERIOD_NOTICE: '**12時間**ごとに投票できます！'
+REAUTHENTICATE_TITLE: HoYoLAB アカウントの再認証
+REAUTHENTICATE_DESCRIPTION: 一部のGenshin Wizardの機能を引き続きご利用いただくため、HoYoLABアカウントの再認証を行ってください。これは、Cookieが**期限切れ**、または無効になっている場合に発生する可能性があります。
 REGISTER_DEVTOOLS_BUTTONS: Register using DevTools (Desktop Only)
 APP_COMMAND_REAUTHENTICATE_DESCRIPTION: Reauthenticate your HoYoLAB account if login has expired.
 REAUTHENTICATE_KEY: Reauthenticate
