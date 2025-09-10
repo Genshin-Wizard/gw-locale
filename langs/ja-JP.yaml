@@ -53,14 +53,14 @@ TRUTH_COMMAND_RESPONSES:
   - オイラが思うに... 大丈夫だな！
   - 当たり前だよな！
   - 当然だよな！
-  - そうに決まってるぞ！
+  - そうに決まってるぜ！
   - そうに決まってるぞ！
   - たぶんな！
   - 可能性は高そうだ！
   - だめそうだ...
   - 無理じゃないか...？
-  - 否っ！
-  - とある情報筋によると... 無理。
+  - できないぞ...
+  - また後で来よう、今は他を探索しよう。
   - 考えられないぞ...
   - かもな。
   - なんとも言えないぞ...
@@ -102,7 +102,7 @@ SEND_CODES_REDEMPTION_CODES_CONFIRMATION: '{channel} に引き換えコードを
 MESSAGE_LINK: メッセージリンク
 CLICK_HERE: ここをクリック
 INFO_SELECT_CHARACTER: キャラクターを選択
-INFO_CHARACTER_SOURCE: "Source: Saved Builds"
+INFO_CHARACTER_SOURCE: "ソース: 保存されたビルド"
 INFO_USER_CACHE: ユーザーキャッシュ
 INTERMISSION_MESSAGE: 画像を生成中！**少々**お待ちを...
 MENU_COOLDOWN_TITLE: メニューはクールダウン中です！
@@ -177,19 +177,19 @@ APP_COMMAND_MONTHLY_DESCRIPTION: 今月のHoYoLABデイリーログインボー�
 APP_COMMAND_DIARY_DESCRIPTION: HoYoLABの旅人手帳を見る
 APP_COMMAND_REDEEM_DESCRIPTION: 原神の交換コードを交換します。
 APP_COMMAND_HOYO_DESCRIPTION: Genshin WizardからHoYoLABアカウントを確認することができます。
-APP_COMMAND_CHARACTERS_DESCRIPTION: View your Genshin account's Character Summary.
+APP_COMMAND_CHARACTERS_DESCRIPTION: 原神アカウントのキャラクター概要を表示します。
 APP_COMMAND_TCG_DESCRIPTION: 七聖召喚のラインナップを見ることができます。
-APP_COMMAND_IMPORT_DESCRIPTION: Import your gacha wish history from other popular sites.
-APP_COMMAND_LEADERBOARD_DESCRIPTION: View Genshin Wizard's leaderboards.
-APP_COMMAND_LOCATION_DESCRIPTION: Display the known location(s) for the resource given.
-APP_COMMAND_LOCATIONS_DESCRIPTION: Display a list of available resource locations.
-APP_COMMAND_CALC_DESCRIPTION: Calculate required ascension materials for a given character.
-APP_COMMAND_BANNER_DESCRIPTION: Change your Genshin Wizard profile's banner.
-APP_COMMAND_PROFILE_DESCRIPTION: View your personal Genshin Wizard profile.
-APP_COMMAND_SETTINGS_DESCRIPTION: Change your Genshin Wizard profile settings.
-APP_COMMAND_STATS_DESCRIPTION: View your Genshin account's statistics.
-APP_COMMAND_ABYSS_DESCRIPTION: View your Genshin account's abyss progression.
-APP_COMMAND_EXPLORATION_DESCRIPTION: View your Genshin account's exploration progression.
+APP_COMMAND_IMPORT_DESCRIPTION: 他の人気サイトからあなたの祈願履歴を取り込みます。
+APP_COMMAND_LEADERBOARD_DESCRIPTION: Genshin Wizardのランキングを表示します。
+APP_COMMAND_LOCATION_DESCRIPTION: 指定されたリソースの既知の場所を表示します。
+APP_COMMAND_LOCATIONS_DESCRIPTION: 利用可能なリソースの場所の一覧を表示します。
+APP_COMMAND_CALC_DESCRIPTION: 指定されたキャラクターの育成に必要な材料を計算します。
+APP_COMMAND_BANNER_DESCRIPTION: Genshin Wizard プロフィールのバナーを変更します。
+APP_COMMAND_PROFILE_DESCRIPTION: Genshin Wizardのプロフィールを表示します。
+APP_COMMAND_SETTINGS_DESCRIPTION: Genshin Wizard プロフィール設定を変更します。
+APP_COMMAND_STATS_DESCRIPTION: 原神アカウントの統計情報を確認できます。
+APP_COMMAND_ABYSS_DESCRIPTION: 原神アカウントの螺旋進行状況を表示します。
+APP_COMMAND_EXPLORATION_DESCRIPTION: 原神アカウントの探索度を表示します。
 APP_COMMAND_UID_DESCRIPTION: ユーザーのGenshin UID/Regionを検索します。
 APP_COMMAND_REGISTER_DESCRIPTION: Genshin Wizardにあなたの原神アカウントを登録する。
 APP_COMMAND_REFRESH_DESCRIPTION: 祈願履歴のリンクを更新します。（リンクは24時間で失効します）
@@ -429,23 +429,23 @@ HOYOLAB_REGISTER_SCRIPT: |
   ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('一度ログアウトして、またログインしてください。Cookieが現在期限切れ、または無効です！'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">クリックしてコピー！</button>`)```
 HOYOLAB_REGISTER_LOGIN_TITLE: 登録 | ログイン方式
 HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin, select the `Register` button down below.
-  > **2.** In the input fields, enter your HoYoLAB account login details, remember to use your **email** and password.
-  > **3.** Once you've successfully entered your account details, wait for Genshin Wizard to process your registration request, bear in mind that this may take a minute or two.
-  > **4.** Finally, if all the steps are done correctly, you will receive a **confirmation message** via DMs indicating that your account has been successfully linked.
+  **HoYoLAB アカウントと Genshin Wizard 連携方法**
+  > **1.** まず、下部の`登録`ボタンを選択してください。
+  > **2.** 入力欄にHoYoLABアカウントのログイン情報を入力します。必ずあなたの**メールアドレス**とパスワードを使用してください。
+  > **3.** アカウント情報の入力が完了したら、Genshin Wizardが登録要求を処理するまでお待ちください。処理には1～2分かかる場合があります。
+  > **4.** すべての手順が正しく完了すると、アカウントの連携が成功したことを示す**確認メッセージ**がDMで届きます。
 
-  <:information:1021014187197083668> **Note:** This method is simply here for convenience/QOL. If you're concerned about your account security, please use the script method or another form of registration instead.
-HOYOLAB_REGISTER_LOGIN_FOOTER: A friendly reminder that Genshin Wizard does not store any of your account details! This registration method retrieves the necessary cookies required to view your account statistics.
+  <:information:1021014187197083668> **注意：** この方法は利便性、QOL向上のためのものであり、アカウントのセキュリティを懸念される場合は、スクリプト方式または他の登録方法をご利用ください。
+HOYOLAB_REGISTER_LOGIN_FOOTER: Genshin Wizardはお客様のアカウント情報を一切保存しておりません。この登録方法では、アカウント統計情報を表示するために必要なCookieを取得します。
 ARE_YOU_SURE: よろしいですか？
 HOYOLAB_COMMAND_UNLINK_CONFIRMATION: |
-  You have requested to **unlink** your HoYoLAB account from Genshin Wizard.
-  This means that you will no longer be able to *claim your daily rewards*, view your *full abyss progression*, and other extended features such as *viewing all your characters*.
-UNLINKING_SUCCESSFUL: Unlinking successful!
-UNLINKING_SUCCESSFUL_DESCRIPTION: Your account has been successfully unlinked from Genshin Wizard!
-UNLINKING_UNSUCCESSFUL: Unlinking unsuccessful!
-UNLINKING_UNSUCCESSFUL_DESCRIPTION: Oops! Unlinking was unsuccessful, there was an error. Please try again or contact a staff member!
-UNLINKING_CANCELLED: Unlinking cancelled!
+  HoYoLABアカウントとGenshin Wizardの**連携解除**を申請しました。
+  これにより、**デイリーログインボーナスの受け取り**、**螺旋の進行状況の詳細な表示**、**全キャラクターの閲覧**などの拡張機能が利用できなくなります。
+UNLINKING_SUCCESSFUL: 連携を解除しました！
+UNLINKING_SUCCESSFUL_DESCRIPTION: あなたのアカウントは、Genshin Wizardから連携を解除されました！
+UNLINKING_UNSUCCESSFUL: 連携を解除できませんでした！
+UNLINKING_UNSUCCESSFUL_DESCRIPTION: しまった！連携の解除に失敗し、エラーが発生しました。もう一度試すか、管理者に報告してください！
+UNLINKING_CANCELLED: 連携解除がキャンセルされました！
 UNLINKING_CANCELLED_DESCRIPTION: 連携解除の要求をキャンセルしました！
 OBTAINED_KEY: 獲得済
 NOT_OWNED_KEY: 未所持
@@ -485,10 +485,10 @@ LEADERBOARD_EXPERIENCE_FOOTER: サーバーで積極的に活動することで�
 LEADERBOARD_WISHES_FOOTER: 祈願はバナーのサマリーとリフレッシュコマンドで更新されます。最新の祈願数を取得するには、バナーを確認してください！
 LEADERBOARD_PLAYTIME_FOOTER: プレイ時間は統計・情報コマンドで更新されます。統計・ビルドを頻繁に確認し、プレイ時間を積極的に更新してください！
 LEADERBOARD_ACHIEVEMENTS_FOOTER: 実績は統計・情報コマンドで更新されます。実績の進捗を積極的に確認するには、頻繁に統計・ビルドをチェックしてください！
-LEADERBOARD_CHESTS_FOOTER: Chests are updated via stats commands, check your stats frequently to actively get an updated chest count!
-LEADERBOARD_GACHA_SIMULATOR_FOOTER: Simulator leaderboards are updated via gacha simulator commands, use the gacha simulator actively to climb the ranks!
-LEADERBOARD_ARTIFACT_FOOTER: Artifact information is updated via info commands, check your builds frequently to actively get updated artifact stats!
-LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Character stats information is updated via info commands, check your builds frequently to actively get updated character stats!
+LEADERBOARD_CHESTS_FOOTER: 宝箱のランキングはステータスコマンドを実行することで更新されます。宝箱の数を常に最新の状態に保つため、頻繁にステータスを確認してください！
+LEADERBOARD_GACHA_SIMULATOR_FOOTER: ガチャシミュレーターのランキングはガチャシミュレーターコマンドの実行により更新されます。積極的にガチャシミュレーターを活用して順位を上げましょう！
+LEADERBOARD_ARTIFACT_FOOTER: 聖遺物情報はコマンドの実行により更新されます。頻繁にビルドを確認し、最新の聖遺物統計を積極的に入手しましょう！
+LEADERBOARD_CHARACTER_STATISTICS_FOOTER: キャラクターのステータス情報はコマンドの実行により更新されます。頻繁にビルドを確認し、積極的に最新のステータス情報を入手しましょう！
 LEADERBOARD_ABYSS_FOOTER: 淵月螺旋の統計は淵月螺旋の進捗確認コマンドで更新されます。最新の統計値を確認するため、頻繁に淵月螺旋の進捗を確認してください！
 LEADERBOARD_DONATION_FOOTER: /donate コマンド内のサポートリンクから寄付を行い、この素晴らしいリーダーボードの席を獲得しましょう！
 LEADERBOARD_CRUNCHING_DATA_INTERMISSION: "データを収集しています。**少々お待ちください**..."
@@ -499,8 +499,8 @@ LOCATION_COMMAND_MAP_TITLE: "{resource} Map Locations"
 LOCATION_COMMAND_REGION_DESCRIPTION: "Local {region} Specialty:"
 LOCATION_COMMAND_FARMABLE_FOOTER: Farmable locations for specified material
 CALC_CHARACTER_INVALID_CHARACTER: 有効なキャラクターを指定してください！
-CALC_CHARACTER_INVALID_STARTING_LEVEL: You need to specify a valid starting level!
-CALC_CHARACTER_INVALID_TARGET_LEVEL: You need to specify a valid target level!
+CALC_CHARACTER_INVALID_STARTING_LEVEL: 有効な開始レベルを指定してください！
+CALC_CHARACTER_INVALID_TARGET_LEVEL: 有効な目標レベルを指定してください！
 CALC_CHARACTER_REQUIREMENT_SURPASSED: キャラクターはすでに目標レベルを**上回っています**！
 CALC_CHARACTER_REQUIREMENT_MET: キャラクターはすでに目標レベルに**到達しています**！
 CALC_CHARACTER_TITLE: Genshin Wizard | キャラクター計算ツール
@@ -655,7 +655,7 @@ REGISTER_COMMAND_IOS_DIRECTIONS: |
   9. Finally, tap Copy Url
   10. Click the button below and paste the link in the input field.
 RESELECT_PLATFORM_KEY: プラットフォームを再選択
-REGISTER_COMMAND_CONSOLE_DIRECTIONS: Following the 2.3 update event links don't work anymore. This being said, it is still possible to obtain the key by linking your Playstation account with a Mihoyo account and using the pc/mobile method instead.
+REGISTER_COMMAND_CONSOLE_DIRECTIONS: バージョン2.3アップデート後、イベントリンクが機能しなくなりました。ただし、PlayStationアカウントをMihoyoアカウントとリンクさせ、Pc、モバイル版から入手する方法であれば、引き続きキーを取得することが可能です。
 REGISTER_COMMAND_PLATFORM_SELECTION: 原神をどのプラットフォームでプレイしていますか？
 REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | 祈願履歴登録
 REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
@@ -711,22 +711,22 @@ LINKED_UID_KEY: 紐付けされたUID
 LINKED_KEY: 連携済
 NOT_LINKED_KEY: 未連携
 LINKING_UID_DIRECTIONS: |
-  Hello Traveler! To continue linking the requested UID to Genshin Wizard, we're going to need to **verify** that this account is actually yours!
+  リクエストされたUIDをGenshin Wizardに引き続き連携するには、このアカウントが実際にあなたのものであることを**確認**する必要があります！
 
-  **Unique Verification Key**
+  **確認キー**
   ```yaml
   {key}```
-  **Expires in:**
+  **有効期限:**
   <t:{timeout}:R>
 
-  How to complete verification?
-  > **1)** Go in-game and add the key above **anywhere** in your profile signature or nickname.
-  > **2)** Make sure you copy the key above **exactly** how it is written or else the bot will not be able to verify your account.
-  > **3)** *That's it*! Please wait patiently until our bot can verify you.
-LINKING_UID_FOOTER: Please be patient while we verify your account! These changes can take anywhere from 5-10 minutes to appear on our end.
-LINKING_UID_KEY_EXPIRED: It looks like this key is now **expired**! Unfortunately, we were unable to verify you at this time, please try again later.
-REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | Refresh Wish History
-FORCE_REFRESH_FOOTER: If you'd prefer to force-refresh to prolong the expiry of your current history link, you may do so by clicking one of the buttons below.
+  認証方法
+  > **1)** ゲーム内で、ステータスメッセージまたはニックネームの**任意の場所**に上記の認証キーを追加してください。
+  > **2)** 認証キーを**正確に**コピーしてください。間違えると、Botがアカウントを認証できません。
+  > **3)** これで以上です！ボットによる認証が完了するまでお待ちください。
+LINKING_UID_FOOTER: アカウントの確認作業中ですので、少々お待ちください。これらの変更がこちらに反映されるまで、5〜10分程度かかる場合がございます。
+LINKING_UID_KEY_EXPIRED: このキーが**期限切れ**のようです！残念ながら、現時点ではご本人様確認ができませんでした。後でもう一度お試しください。
+REFRESH_WISH_HISTORY_TITLE: Genshin Wizard | 祈願履歴の更新
+FORCE_REFRESH_FOOTER: 現在の履歴リンクの有効期限延長のために強制更新をご希望の場合は、以下のいずれかのボタンをクリックしてください。
 UNLINKING_CENTRE_TITLE: Genshin Wizard | 連携解除センター
 UNLINKING_CENTRE_DESCRIPTION: 旅人！Genshin Wizardの連携解除センターへようこそ〜！紐付けデータは下のボタンから管理できるぞ。連携を解除するとGenshin Wizardから**ぜんぶのデータが消去**されちゃって、**元には戻せない**から、気を付けてくれよな！！
 INVALID_COOKIE_RESPONSE: ":no_entry: 有効な**HoYoLAB** Cookieを入力しませんでした！"
@@ -822,7 +822,7 @@ SET_RESIN_REMINDER_KEY: 樹脂のリマインダーを設定！
 API_ISSUE: API の問題が発生しました。
 HOW_TO_SOLVE_TITLE: これを解決するには？
 ENABLE_CHRONICLES: "コマンド</hoyolab-privacy:{command_id}>を使うか、[**HoYoLAB 設定**] (https://www.hoyolab.com/setting/privacy/)にアクセスし、**戦績のプライバシー設定**を全て有効にして、あなたの原神プロフィールを公開してください。"
-PLEASE_WAIT_DESCRIPTION: Waiting! There is nothing you can do to get past this at the moment.
+PLEASE_WAIT_DESCRIPTION: お待ちください！現時点では、これを回避する方法はありません。
 PLAYER_TITLE: プレーヤー {player}
 USER_TITLE: ユーザー {user}
 OVERVIEW_KEY: 概要
@@ -1220,7 +1220,7 @@ PYRO_KEY: 炎元素
 RESET_SETTINGS_BUTTON: 設定をリセット
 MASTER_PRIVACY_BUTTON: マスタープライバシー設定
 UPDATE_BANNER_MODAL_TITLE: バナーを更新
-UPDATE_BANNER_MODAL_URL_INPUT: Link to desired image for banner
+UPDATE_BANNER_MODAL_URL_INPUT: 目的のバナー画像へのリンク
 UPDATE_BANNER_MODAL_URL_PLACEHOLDER: https://example.com/xxxx/yyyyy.png
 UPDATE_BIO_MODAL_TITLE: プロフィールを更新
 UPDATE_BIO_MODAL_LABEL: おまえの自己紹介を入力してくれ！（200文字以内）
@@ -1347,11 +1347,11 @@ WEAPON_REQUIREMENT_LABEL: Weapon Requirement
 WEAPON_REQUIREMENT_PLACEHOLDER: Number of {refinement} 5-Star Weapons...
 DUAL_REQUIREMENT_LABEL: "{constellation_num} 5-Star Character & {refinement} Weapon Requirement"
 DUAL_REQUIREMENT_PLACEHOLDER: Number of {constellation_num} 5-Star Characters & {refinement} 5-Star Weapons...
-PREMIUM_SELECT_PLACEHOLDER: Select a tier to view perks for...
-WITCH_OF_PURPLE_ROSE: Witch of Purple Rose
-ASTRAL_REFLECTION: Astral Reflection
-CRIMSON_WITCH_OF_FLAMES: Crimson Witch of Flames
-ELDER_OF_THE_HEXENZIRKEL: Elder of the Hexenzirkel
+PREMIUM_SELECT_PLACEHOLDER: 特典を表示するTierを選択...
+WITCH_OF_PURPLE_ROSE: 薔薇の魔女
+ASTRAL_REFLECTION: 星天水鏡
+CRIMSON_WITCH_OF_FLAMES: 燃え盛る炎の魔女
+ELDER_OF_THE_HEXENZIRKEL: 魔女会古参・コードA
 PREMIUM_PLAN_TIER_ONE: "プレミアムプラン：Tier 1"
 PREMIUM_PLAN_TIER_TWO: "プレミアムプラン：Tier 2"
 PREMIUM_PLAN_TIER_THREE: "プレミアムプラン：Tier 3"
@@ -1897,15 +1897,15 @@ VOTE_FOR_SERVER: Genshin Wizard サーバーに投票！
 VOTE_PERIOD_NOTICE: '**12時間**ごとに投票できます！'
 REAUTHENTICATE_TITLE: HoYoLAB アカウントの再認証
 REAUTHENTICATE_DESCRIPTION: 一部のGenshin Wizardの機能を引き続きご利用いただくため、HoYoLABアカウントの再認証を行ってください。これは、Cookieが**期限切れ**、または無効になっている場合に発生する可能性があります。
-REGISTER_DEVTOOLS_BUTTONS: Register using DevTools (Desktop Only)
-APP_COMMAND_REAUTHENTICATE_DESCRIPTION: Reauthenticate your HoYoLAB account if login has expired.
-REAUTHENTICATE_KEY: Reauthenticate
+REGISTER_DEVTOOLS_BUTTONS: DevTools（デスクトップ限定）を使用して登録する
+APP_COMMAND_REAUTHENTICATE_DESCRIPTION: ログインの有効期限が切れた場合は、HoYoLABアカウントを再認証してください。
+REAUTHENTICATE_KEY: 再認証
 ACTION_LOADING_LABEL: "Loading..."
-SETUP_REMINDERS_BUTTON: Setup Account Reminders (Resin, Teapot, etc.)
+SETUP_REMINDERS_BUTTON: アカウントリマインダーの設定（天然樹脂、塵歌壺など）
 ACCOUNT_OVERVIEW_KEY: アカウント概要
-ACCOUNT_OVERVIEW_DESCRIPTION: View current resin, teapot currency, expeditions, and more!
-MONTHLY_REWARDS_DESCRIPTION: View your monthly HoYoLAB check-in rewards and claim status.
-VIEW_CHARACTERS_DESCRIPTION: View your Genshin Impact characters and their details.
+ACCOUNT_OVERVIEW_DESCRIPTION: 現在の天然樹脂、洞天宝銭、探索派遣などを表示します！
+MONTHLY_REWARDS_DESCRIPTION: 毎月のHoYoLABログインボーナスの状況を表示します。
+VIEW_CHARACTERS_DESCRIPTION: 原神のキャラクターとその詳細を確認できます。
 VIEW_TRAVELER_DIARY_DESCRIPTION: 旅人手帳の概要を表示
 SELECT_HOYO_OPTION: 表示するカテゴリを選択…
 LOGIN_ACCOUNT_REGISTRATION: Genshin Wizard HoYoLABアカウント登録
@@ -1928,5 +1928,5 @@ EMAIL_VERIFICATION_KEY: Eメール認証
 VERIFICATION_CODE_KEY: 認証コード
 LOGIN_STATUS_SUCCESS_DESCRIPTION: おめでとうございます！あなたのHoYoLABアカウントはGenshin Wizardに登録されました。一部のGenshin Wizardの機能をご利用いただけます。
 EMAIL_VERIFICATION_FAILURE: Eメール認証失敗
-ENTER_VERIFICATION_CODE: Enter Verification Code
-NEED_MORE_HELP: Need More Help?
+ENTER_VERIFICATION_CODE: 認証コードを入力
+NEED_MORE_HELP: さらにヘルプが必要？
