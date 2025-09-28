@@ -118,25 +118,25 @@ SUCCESSFUL_KEY: Pomyślnie!
 ERROR_MISSING_PERMISSION: Nie masz wymaganych uprawnień do używania tej komendy!
 EXCLUSIVE_COMMAND_TITLE: Kreator genów | Ekskluzywne polecenie
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
+  Hej Podróżniku! Jesteś **nie możesz** użyć tej komendy tutaj, to polecenie może być użyte tylko na serwerze!
 
-  If you'd like use this command, consider joining our [Official Discord](https://genshinwizard.com/discord).
+  Jeśli chcesz użyć tej komendy, rozważ dołączenie do naszego [oficjalnego Discorda](https://discord.gg/genshinwizard).
 ERROR_COMMAND_INVOKE: Upewnij się, że używasz właściwych parametrów dla tej komendy!
 ERROR_PRIVACY_SETTING_TITLE: Ukryte | Nic do zobaczenia!
 ERROR_PRIVACY_SETTING_DESCRIPTION: Hej Podróżnik! Niestety, osoba, której szukasz ma włączone **ustawienia prywatności**!
 ERROR_ONGOING_UPDATE_TITLE: Kreator Genshin | Trwające aktualizacje!
 ERROR_ONGOING_UPDATE_DESCRIPTION: Hej Podróżnik! Kreator Genshin jest obecnie **w trakcie konserwacji** i ta komenda została *wyłączona* na chwilę. Spróbuj ponownie *później*.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this is a Genshin Wizard server {command_type}*exclusive* command!
+  Hej Podróżniku! Jesteś **nie możesz** użyć tej komendy tutaj, to jest {command_type}*ekskluzywna* komenda serwera Genshin Wizard!  
 
-  If you'd like use this command, consider joining our [Official Discord](https://genshinwizard.com/discord).
+  Jeśli chcesz użyć tej komendy, rozważ dołączenie do naszego [oficjalnego Discorda](https://discord.gg/genshinwizard).
 ERROR_PREMIUM_COMMAND_TITLE: Zaproszenie Genshin Wizard
 ERROR_PREMIUM_COMMAND_DESCRIPTION: Hej Podróżnik! Jesteś **niedozwolony** do użycia tego polecenia, ta komenda jest dostępna tylko dla **Subskrybentów Premium**. Jeśli chcesz korzystać z tej funkcji, rozważ uczenie się więcej za pomocą polecenia </premium:{command_id}>.
 ERROR_BLACKLISTED_TITLE: Kreator Genshin | Czarna lista
 ERROR_BLACKLISTED_DESCRIPTION: |
-  Hey Traveler! You have been **banned** from using Genshin Wizard!
+  Hej Podróżniku! Zostałeś **zbanowany**!
 
-  If you believe for this to be an error, consider joining our [Official Discord](https://genshinwizard.com/discord)
+  Jeśli uważasz, że to błąd, rozważ dołączenie do naszego [Oficjalnego Discorda](https://discord.gg/genshinwizard).
 ERROR_MEMBER_NOT_FOUND_TITLE: Kreator Genshin | Nie znaleziono użytkownika
 ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Upewnij się, że osoba, którą próbujesz zobaczyć, jest nadal na serwerze.
 ERROR_MISSING_REQUIRED_ARGUMENT: "Zapomniałeś podać argument, proszę użyć prawidłowego formatu: ```{usage}```"
@@ -146,7 +146,7 @@ ERROR_MISSING_SEND_MESSAGE: Witaj Podróżniku, nie mam uprawnień do `Wyślij w
 MESSAGE_KEY: Wiadomość
 ERROR_EMPTY_BACKPACK: Twój plecak jest **pusty**! Aby rozpocząć podróż, użyj polecenia </wishsimulator:{command_id}>!
 ERROR_INTERACTION_MISMATCH: Cześć Podróżniku! To **nie jest twoja interakcja** do kontaktu! Użyj polecenia {command} jeśli chcesz użyć tej komendy dla siebie!
-ERROR_INTERACTION_COOLDOWN: Hey Traveler! You're **clicking too quickly**! Please wait **{cooldown} seconds** before trying again.
+ERROR_INTERACTION_COOLDOWN: Hej Podróżniku! **Klikasz zbyt szybko**! Proszę, odczekaj **{cooldown} sekund** przed ponowną próbą.
 ERROR_MESSAGE: Wystąpił błąd!
 FEEDBACK_CONFIRMATION_TITLE: Kreator Genshin | Opinie
 FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Twoja opinia została pomyślnie wysłana do programistów!*
@@ -171,14 +171,14 @@ GENSHIN_WIZARD_INFORMATION: |
 CODE_REDEEM_SUCCESS: "*Kody zostały pomyślnie przetworzone!*"
 CODE_REDEEM_FAILURE: "*Wystąpił błąd podczas przetwarzania kodów promocyjnych!*"
 APP_COMMAND_INFO_DESCRIPTION: Pokazuje kompilacje dla postaci użytkownika w grze.
-APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in UIGF v4.0 format via direct message.
+APP_COMMAND_EXPORT_DESCRIPTION: Eksportuj historię życzeń Genshin do formatu UIGF v4.0 poprzez wiadomość bezpośrednią.
 APP_COMMAND_HISTORY_DESCRIPTION: Zobacz historię życzeń swojego konta Genshin.
 APP_COMMAND_DAILY_DESCRIPTION: Odbierz swoje codzienne nagrody logowania HoYoLAB.
 APP_COMMAND_MONTHLY_DESCRIPTION: Zobacz codzienne nagrody HoYoLAB za dany miesiąc.
 APP_COMMAND_DIARY_DESCRIPTION: Zobacz swój Dziennik Podróżnika HoYoLAB.
 APP_COMMAND_REDEEM_DESCRIPTION: Zrealizuj kody promocyjne Genshin Impact.
 APP_COMMAND_HOYO_DESCRIPTION: Sprawdź swoje konto HoYoLAB poprzez Genhsin Wizard.
-APP_COMMAND_CHARACTERS_DESCRIPTION: View your Genshin account's Character Summary.
+APP_COMMAND_CHARACTERS_DESCRIPTION: Zobacz Podsumowanie Postaci swojego konta Genshina.
 APP_COMMAND_TCG_DESCRIPTION: View your Genius Invokation TCG Account Showcase.
 APP_COMMAND_IMPORT_DESCRIPTION: Import your gacha wish history from other popular sites.
 APP_COMMAND_LEADERBOARD_DESCRIPTION: Zobacz rankingi Genshin Wizard.
@@ -199,11 +199,11 @@ APP_COMMAND_REMINDERS_DESCRIPTION: Setup reminders to notify for resin, teapot a
 APP_COMMAND_RESIN_DESCRIPTION: Setup a Resin reminder to notify you when your resin is recharged.
 APP_COMMAND_GACHA_DESCRIPTION: Display an updated infographic showcasing your entire wish history for the specified banner.
 APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Test your gacha luck with Genshin Wish Simulator!
-APP_COMMAND_INVENTORY_DESCRIPTION: View your virtual Genshin Wizard inventory.
-APP_COMMAND_SHOP_DESCRIPTION: View your Genshin Wizard's Shop.
+APP_COMMAND_INVENTORY_DESCRIPTION: Zobacz swój wirtualny ekwipunek Genshin Wizard.
+APP_COMMAND_SHOP_DESCRIPTION: Zobacz swój sklep Genshin Wizard.
 APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: View your Genshin Wizard's Character Archives.
 APP_COMMAND_COMMISSIONS_DESCRIPTION: Claim your Daily Commission rewards.
-APP_COMMAND_BALANCE_DESCRIPTION: View your Genshin Wizard account's balance.
+APP_COMMAND_BALANCE_DESCRIPTION: Zobacz saldo swojego konta Kreatora Genshina.
 APP_COMMAND_EDIT_DESCRIPTION: Edit genshin wizard's character details database.
 APP_COMMAND_EDIT_ADD_DESCRIPTION: Dodaj nowy build dla konkretnej postaci.
 APP_COMMAND_DESCRIBE_EDIT_ADD_CHARACTER: Nazwa postaci, której chcesz dodać builda.
@@ -1929,9 +1929,9 @@ REAUTHENTICATION_SUCCESS: You have **successfully** reauthenticated your HoYoLAB
 NO_REAUTH_ACCOUNT_FOUND: No existing HoYoLab account found to reauthenticate!
 REAUTHENTICATION_FAILED_TITLE: Reauthentication Failed
 REAUTHENTICATION_FAILED: Hello Traveler, it seems that we were unable to reauthenticate your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error.
-EMAIL_VERIFICATION_KEY: Email Verification
-VERIFICATION_CODE_KEY: Verification Code
+EMAIL_VERIFICATION_KEY: Weryfikacja adresu e-mail
+VERIFICATION_CODE_KEY: Kod weryfikacyjny
 LOGIN_STATUS_SUCCESS_DESCRIPTION: Congratulations! You have successfully registered your HoYoLAB account with Genshin Wizard. You may now use select Genshin Wizard features.
-EMAIL_VERIFICATION_FAILURE: Email Verification Failed
-ENTER_VERIFICATION_CODE: Enter Verification Code
-NEED_MORE_HELP: Need More Help?
+EMAIL_VERIFICATION_FAILURE: Weryfikacja e-maila nie powiodła się
+ENTER_VERIFICATION_CODE: Wprowadź kod weryfikacyjny
+NEED_MORE_HELP: Potrzebujesz więcej pomocy?
