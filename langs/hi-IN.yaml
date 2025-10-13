@@ -845,7 +845,7 @@ ABYSS_CONGRATULATE_MESSAGE: |
   Congratulations {user} on perfectly *clearing* the Spiral Abyss!
   <:spiralabyss:1000079902596411482> <@&{role_id}> Role Given <a:check:956327345717907507>
 THEATER_CONGRATULATE_MESSAGE: |
-  Congratulations {user} on perfectly *clearing* Act 10 of **Visionary Mode** in Imaginarium Theater!
+  Congratulations {user} on perfectly *clearing* Imaginarium Theater in **Lunar Mode**!
   {heraldry_emoji} <@&{role_id}> Role Given <a:check:956327345717907507>
 ONSLAUGHT_CONGRATULATE_MESSAGE: |
   Congratulations {user} on perfectly *clearing* **Difficulty {difficulty_level}** for Stygian Onslaught!
@@ -1153,8 +1153,6 @@ INVOKATION_RETURN_SHOWCASE: Return to Showcase
 GLOBAL_BUTTON: वैश्विक
 SERVER_BUTTON: Server
 PERSONAL_BUTTON: व्यक्तिगत
-ABYSS_LEADERBOARD_WANING_PHASE_LABEL: "{date} Waning Phase"
-ABYSS_LEADERBOARD_WAXING_PHASE_LABEL: "{date} Waxing Phase"
 PERIOD_KEY: Period
 ABYSS_LEADERBOARD_ALL_TIME: All-time Leaderboard
 ABYSS_LEADERBOARD_ALL_TIME_DESCRIPTION: View records from all Abyss phases.
@@ -1238,10 +1236,6 @@ GENSHIN_STATISTICS_DESCRIPTION: View your Genshin stats
 SPIRAL_ABYSS_STATISTICS_KEY: Spiral Abyss Stats
 SPIRAL_ABYSS_STATISTICS_DESCRIPTION: View your Spiral Abyss progression stats
 COPY_UID_KEY: Copy UID
-CURRENT_ABYSS_PHASE: Current Abyssal Phase
-CURRENT_ABYSS_PHASE_DESCRIPTION: View Current Abyssal Stats Progression
-PREVIOUS_ABYSS_PHASE: Previous Abyssal Phase
-PREVIOUS_ABYSS_PHASE_DESCRIPTION: View Previous Abyssal Stats Progression
 ENTER_LINK_BUTTON: Enter link
 LINK_UID_MODAL_TITLE: Link UID
 LINK_UID_MODAL_LABEL: Genshin Impact UID
@@ -1783,6 +1777,7 @@ THEATER_DETAIL_EASY: "Theater Details: Easy Mode"
 THEATER_DETAIL_NORMAL: "Theater Details: Normal Mode"
 THEATER_DETAIL_HARD: "Theater Details: Hard Mode"
 THEATER_DETAIL_VISIONARY: "Theater Details: Visionary Mode"
+THEATER_DETAIL_LUNAR: "Theater Details: Lunar Mode"
 THEATER_DETAIL: "Theater Details"
 NO_IMAGINARIUM_THEATER_DATA: "No Imaginarium Theater Data"
 FANTASIA_FLOWERS_USED: Fantasia Flowers Used
@@ -1790,6 +1785,7 @@ EXTERNAL_AUDIENCE_SUPPORT: Triggered External Audience Support
 SUPPORT_CAST_ASSIST: Supporting Cast Characters Assist Other Players
 TOTAL_CAST_TIME: Total Cast Time
 THEATER_ACT_KEY: Act {act_id}
+ARCANA_CHALLENGE_KEY: Arcana Challenge {tarot_serial_no}
 FASTEST_ACT_KEY: Fastest Act
 HIGHEST_DAMAGE_DEALT_LABEL: Highest Damage Dealt
 TRIAL_KEY: Trial
@@ -1798,10 +1794,7 @@ THEATER_COMMAND_FOOTER: "Note: Theater data may be incorrectly shown or missing 
 IMAGINARIUM_THEATER_DESCRIPTION: View your Imaginarium Theater progression stats
 THEATER_LEADERBOARD_PLACEHOLDER: Choose a lunar phase to view...
 VIEW_THEATER_TEAM: Viewing Imaginarium Theater Lineup
-CURRENT_THEATER_PHASE_DESCRIPTION: View Current Theater Stats Progression
-PREVIOUS_THEATER_PHASE_DESCRIPTION: View Previous Theater Stats Progression
 THEATER_COMMAND_STATISTICS_CREDIT: User {name}'s Imaginarium Theater Stats
-THEATER_ARCHIVES_KEY: Theaterical Archives
 THEATER_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Theatrical Archives**
   **Start Time:** <t:{timestamp_start}:F>
@@ -1828,14 +1821,11 @@ ONSLAUGHT_NOT_UNLOCKED: The Stygian Onslaught is not yet unlocked for your accou
 ONSLAUGHT_COMMAND_FOOTER: "Note: Stygian Onslaught data may be incorrectly shown or missing data, if this is the case, do keep in mind that Stygian Onslaught data can generally take anywhere from 1-3 hours to update!"
 NO_ONSLAUGHT_DATA: "No Stygian Onslaught Data"
 ONSLAUGHT_COMMAND_STATISTICS_CREDIT: User {name}'s Stygian Onslaught Stats
-CURRENT_ONSLAUGHT_PHASE_DESCRIPTION: View Current Stygian Onslaught Stats Progression
-PREVIOUS_ONSLAUGHT_PHASE_DESCRIPTION: View Previous Stygian Onslaught Stats Progression
 ONSLAUGHT_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Stygian Onslaught Archives**
   **Start Time:** <t:{timestamp_start}:F>
   **End Time:** <t:{timestamp_end}:F>
 ONSLAUGHT_LEADERBOARD_PLACEHOLDER: Choose a lunar phase to view...
-ONSLAUGHT_ARCHIVES_KEY: Stygian Onslaught Archives
 STYGIAN_ONSLAUGHT_KEY: Stygian Onslaught
 ONSLAUGHT_DESCRIPTION: View your Stygian Onslaught progression stats
 APP_COMMAND_ONSLAUGHT_DESCRIPTION: View your Genshin account's Stygian Onslaught progress.
@@ -1860,7 +1850,6 @@ BATTLE_INDEX_KEY: Battle {battle_field_id}
 FASTEST_KEY: Fastest
 COMPLETE_KEY: Complete
 NO_TEAM_DETAILS: No Team Details
-CURRENT_PHASE_KEY: Current Phase
 PREVIOUS_PHASE_KEY: Previous Phase
 CURRENT_PHASE_DESCRIPTION: |
   **Current Phase**
@@ -1937,3 +1926,4 @@ LOGIN_STATUS_SUCCESS_DESCRIPTION: Congratulations! You have successfully registe
 EMAIL_VERIFICATION_FAILURE: Email Verification Failed
 ENTER_VERIFICATION_CODE: Enter Verification Code
 NEED_MORE_HELP: Need More Help?
+INVOKATION_SHOWCASE_TITLE: Genius Invokation TCG Showcase

@@ -840,7 +840,7 @@ ABYSS_CONGRATULATE_MESSAGE: |
   나선비경을 완벽하게 *클리어*한 {user}님을 축하합니다!
    <:spiralabyss:1000079902596411482> <@&{role_id}> 역할을 수여합니다 <a:check:956327345717907507>
 THEATER_CONGRATULATE_MESSAGE: |
-  Congratulations {user} on perfectly *clearing* Act 10 of **Visionary Mode** in Imaginarium Theater!
+  Congratulations {user} on perfectly *clearing* Imaginarium Theater in **Lunar Mode**!
   {heraldry_emoji} <@&{role_id}> Role Given <a:check:956327345717907507>
 ONSLAUGHT_CONGRATULATE_MESSAGE: |
   Congratulations {user} on perfectly *clearing* **Difficulty {difficulty_level}** for Stygian Onslaught!
@@ -1151,8 +1151,6 @@ INVOKATION_RETURN_SHOWCASE: 쇼케이스로 돌아가기
 GLOBAL_BUTTON: 글로벌
 SERVER_BUTTON: 서버
 PERSONAL_BUTTON: 개인
-ABYSS_LEADERBOARD_WANING_PHASE_LABEL: "{date} 하반부"
-ABYSS_LEADERBOARD_WAXING_PHASE_LABEL: "{date} 상반부"
 PERIOD_KEY: 기간
 ABYSS_LEADERBOARD_ALL_TIME: 역대 래더보드
 ABYSS_LEADERBOARD_ALL_TIME_DESCRIPTION: 모든 나선비경 기록을 확인.
@@ -1236,10 +1234,6 @@ GENSHIN_STATISTICS_DESCRIPTION: 나의 원신 통계 보기
 SPIRAL_ABYSS_STATISTICS_KEY: 나선비경 통계
 SPIRAL_ABYSS_STATISTICS_DESCRIPTION: 나선비경 진행 통계 보기
 COPY_UID_KEY: UID 복사
-CURRENT_ABYSS_PHASE: 현재 나선비경
-CURRENT_ABYSS_PHASE_DESCRIPTION: 현재 나선 진행상황 보기
-PREVIOUS_ABYSS_PHASE: 이전 나선비경
-PREVIOUS_ABYSS_PHASE_DESCRIPTION: 이전 나선 진행상황 보기
 ENTER_LINK_BUTTON: 링크 입력
 LINK_UID_MODAL_TITLE: 링크 UID
 LINK_UID_MODAL_LABEL: 원신 UID
@@ -1781,6 +1775,7 @@ THEATER_DETAIL_EASY: "Theater Details: Easy Mode"
 THEATER_DETAIL_NORMAL: "Theater Details: Normal Mode"
 THEATER_DETAIL_HARD: "Theater Details: Hard Mode"
 THEATER_DETAIL_VISIONARY: "Theater Details: Visionary Mode"
+THEATER_DETAIL_LUNAR: "Theater Details: Lunar Mode"
 THEATER_DETAIL: "Theater Details"
 NO_IMAGINARIUM_THEATER_DATA: "No Imaginarium Theater Data"
 FANTASIA_FLOWERS_USED: Fantasia Flowers Used
@@ -1788,6 +1783,7 @@ EXTERNAL_AUDIENCE_SUPPORT: Triggered External Audience Support
 SUPPORT_CAST_ASSIST: Supporting Cast Characters Assist Other Players
 TOTAL_CAST_TIME: Total Cast Time
 THEATER_ACT_KEY: Act {act_id}
+ARCANA_CHALLENGE_KEY: Arcana Challenge {tarot_serial_no}
 FASTEST_ACT_KEY: Fastest Act
 HIGHEST_DAMAGE_DEALT_LABEL: Highest Damage Dealt
 TRIAL_KEY: Trial
@@ -1796,10 +1792,7 @@ THEATER_COMMAND_FOOTER: "Note: Theater data may be incorrectly shown or missing 
 IMAGINARIUM_THEATER_DESCRIPTION: View your Imaginarium Theater progression stats
 THEATER_LEADERBOARD_PLACEHOLDER: Choose a lunar phase to view...
 VIEW_THEATER_TEAM: Viewing Imaginarium Theater Lineup
-CURRENT_THEATER_PHASE_DESCRIPTION: View Current Theater Stats Progression
-PREVIOUS_THEATER_PHASE_DESCRIPTION: View Previous Theater Stats Progression
 THEATER_COMMAND_STATISTICS_CREDIT: User {name}'s Imaginarium Theater Stats
-THEATER_ARCHIVES_KEY: Theaterical Archives
 THEATER_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Theatrical Archives**
   **Start Time:** <t:{timestamp_start}:F>
@@ -1826,14 +1819,11 @@ ONSLAUGHT_NOT_UNLOCKED: The Stygian Onslaught is not yet unlocked for your accou
 ONSLAUGHT_COMMAND_FOOTER: "Note: Stygian Onslaught data may be incorrectly shown or missing data, if this is the case, do keep in mind that Stygian Onslaught data can generally take anywhere from 1-3 hours to update!"
 NO_ONSLAUGHT_DATA: "No Stygian Onslaught Data"
 ONSLAUGHT_COMMAND_STATISTICS_CREDIT: User {name}'s Stygian Onslaught Stats
-CURRENT_ONSLAUGHT_PHASE_DESCRIPTION: View Current Stygian Onslaught Stats Progression
-PREVIOUS_ONSLAUGHT_PHASE_DESCRIPTION: View Previous Stygian Onslaught Stats Progression
 ONSLAUGHT_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Stygian Onslaught Archives**
   **Start Time:** <t:{timestamp_start}:F>
   **End Time:** <t:{timestamp_end}:F>
 ONSLAUGHT_LEADERBOARD_PLACEHOLDER: Choose a lunar phase to view...
-ONSLAUGHT_ARCHIVES_KEY: Stygian Onslaught Archives
 STYGIAN_ONSLAUGHT_KEY: Stygian Onslaught
 ONSLAUGHT_DESCRIPTION: View your Stygian Onslaught progression stats
 APP_COMMAND_ONSLAUGHT_DESCRIPTION: View your Genshin account's Stygian Onslaught progress.
@@ -1858,7 +1848,6 @@ BATTLE_INDEX_KEY: Battle {battle_field_id}
 FASTEST_KEY: Fastest
 COMPLETE_KEY: Complete
 NO_TEAM_DETAILS: No Team Details
-CURRENT_PHASE_KEY: Current Phase
 PREVIOUS_PHASE_KEY: Previous Phase
 CURRENT_PHASE_DESCRIPTION: |
   **Current Phase**
@@ -1935,3 +1924,4 @@ LOGIN_STATUS_SUCCESS_DESCRIPTION: Congratulations! You have successfully registe
 EMAIL_VERIFICATION_FAILURE: Email Verification Failed
 ENTER_VERIFICATION_CODE: Enter Verification Code
 NEED_MORE_HELP: Need More Help?
+INVOKATION_SHOWCASE_TITLE: Genius Invokation TCG Showcase

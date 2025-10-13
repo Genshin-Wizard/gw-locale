@@ -118,25 +118,25 @@ SUCCESSFUL_KEY: Pomyślnie!
 ERROR_MISSING_PERMISSION: Nie masz wymaganych uprawnień do używania tej komendy!
 EXCLUSIVE_COMMAND_TITLE: Kreator genów | Ekskluzywne polecenie
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this command can only be used in a server!
+  Hej Podróżniku! Jesteś **nie możesz** użyć tej komendy tutaj, to polecenie może być użyte tylko na serwerze!
 
-  If you'd like use this command, consider joining our [Official Discord](https://genshinwizard.com/discord).
+  Jeśli chcesz użyć tej komendy, rozważ dołączenie do naszego [oficjalnego Discorda](https://discord.gg/genshinwizard).
 ERROR_COMMAND_INVOKE: Upewnij się, że używasz właściwych parametrów dla tej komendy!
 ERROR_PRIVACY_SETTING_TITLE: Ukryte | Nic do zobaczenia!
 ERROR_PRIVACY_SETTING_DESCRIPTION: Hej Podróżnik! Niestety, osoba, której szukasz ma włączone **ustawienia prywatności**!
 ERROR_ONGOING_UPDATE_TITLE: Kreator Genshin | Trwające aktualizacje!
 ERROR_ONGOING_UPDATE_DESCRIPTION: Hej Podróżnik! Kreator Genshin jest obecnie **w trakcie konserwacji** i ta komenda została *wyłączona* na chwilę. Spróbuj ponownie *później*.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
-  Hey Traveler! You're **not allowed** to use this command here, this is a Genshin Wizard server {command_type}*exclusive* command!
+  Hej Podróżniku! Jesteś **nie możesz** użyć tej komendy tutaj, to jest {command_type}*ekskluzywna* komenda serwera Genshin Wizard!  
 
-  If you'd like use this command, consider joining our [Official Discord](https://genshinwizard.com/discord).
+  Jeśli chcesz użyć tej komendy, rozważ dołączenie do naszego [oficjalnego Discorda](https://discord.gg/genshinwizard).
 ERROR_PREMIUM_COMMAND_TITLE: Zaproszenie Genshin Wizard
 ERROR_PREMIUM_COMMAND_DESCRIPTION: Hej Podróżnik! Jesteś **niedozwolony** do użycia tego polecenia, ta komenda jest dostępna tylko dla **Subskrybentów Premium**. Jeśli chcesz korzystać z tej funkcji, rozważ uczenie się więcej za pomocą polecenia </premium:{command_id}>.
 ERROR_BLACKLISTED_TITLE: Kreator Genshin | Czarna lista
 ERROR_BLACKLISTED_DESCRIPTION: |
-  Hey Traveler! You have been **banned** from using Genshin Wizard!
+  Hej Podróżniku! Zostałeś **zbanowany**!
 
-  If you believe for this to be an error, consider joining our [Official Discord](https://genshinwizard.com/discord)
+  Jeśli uważasz, że to błąd, rozważ dołączenie do naszego [Oficjalnego Discorda](https://discord.gg/genshinwizard).
 ERROR_MEMBER_NOT_FOUND_TITLE: Kreator Genshin | Nie znaleziono użytkownika
 ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Upewnij się, że osoba, którą próbujesz zobaczyć, jest nadal na serwerze.
 ERROR_MISSING_REQUIRED_ARGUMENT: "Zapomniałeś podać argument, proszę użyć prawidłowego formatu: ```{usage}```"
@@ -146,7 +146,7 @@ ERROR_MISSING_SEND_MESSAGE: Witaj Podróżniku, nie mam uprawnień do `Wyślij w
 MESSAGE_KEY: Wiadomość
 ERROR_EMPTY_BACKPACK: Twój plecak jest **pusty**! Aby rozpocząć podróż, użyj polecenia </wishsimulator:{command_id}>!
 ERROR_INTERACTION_MISMATCH: Cześć Podróżniku! To **nie jest twoja interakcja** do kontaktu! Użyj polecenia {command} jeśli chcesz użyć tej komendy dla siebie!
-ERROR_INTERACTION_COOLDOWN: Hey Traveler! You're **clicking too quickly**! Please wait **{cooldown} seconds** before trying again.
+ERROR_INTERACTION_COOLDOWN: Hej Podróżniku! **Klikasz zbyt szybko**! Proszę, odczekaj **{cooldown} sekund** przed ponowną próbą.
 ERROR_MESSAGE: Wystąpił błąd!
 FEEDBACK_CONFIRMATION_TITLE: Kreator Genshin | Opinie
 FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Twoja opinia została pomyślnie wysłana do programistów!*
@@ -171,14 +171,14 @@ GENSHIN_WIZARD_INFORMATION: |
 CODE_REDEEM_SUCCESS: "*Kody zostały pomyślnie przetworzone!*"
 CODE_REDEEM_FAILURE: "*Wystąpił błąd podczas przetwarzania kodów promocyjnych!*"
 APP_COMMAND_INFO_DESCRIPTION: Pokazuje kompilacje dla postaci użytkownika w grze.
-APP_COMMAND_EXPORT_DESCRIPTION: Export your Genshin wish history in UIGF v4.0 format via direct message.
+APP_COMMAND_EXPORT_DESCRIPTION: Eksportuj historię życzeń Genshin do formatu UIGF v4.0 poprzez wiadomość bezpośrednią.
 APP_COMMAND_HISTORY_DESCRIPTION: Zobacz historię życzeń swojego konta Genshin.
 APP_COMMAND_DAILY_DESCRIPTION: Odbierz swoje codzienne nagrody logowania HoYoLAB.
 APP_COMMAND_MONTHLY_DESCRIPTION: Zobacz codzienne nagrody HoYoLAB za dany miesiąc.
 APP_COMMAND_DIARY_DESCRIPTION: Zobacz swój Dziennik Podróżnika HoYoLAB.
 APP_COMMAND_REDEEM_DESCRIPTION: Zrealizuj kody promocyjne Genshin Impact.
 APP_COMMAND_HOYO_DESCRIPTION: Sprawdź swoje konto HoYoLAB poprzez Genhsin Wizard.
-APP_COMMAND_CHARACTERS_DESCRIPTION: View your Genshin account's Character Summary.
+APP_COMMAND_CHARACTERS_DESCRIPTION: Zobacz Podsumowanie Postaci swojego konta Genshina.
 APP_COMMAND_TCG_DESCRIPTION: View your Genius Invokation TCG Account Showcase.
 APP_COMMAND_IMPORT_DESCRIPTION: Import your gacha wish history from other popular sites.
 APP_COMMAND_LEADERBOARD_DESCRIPTION: Zobacz rankingi Genshin Wizard.
@@ -199,11 +199,11 @@ APP_COMMAND_REMINDERS_DESCRIPTION: Setup reminders to notify for resin, teapot a
 APP_COMMAND_RESIN_DESCRIPTION: Setup a Resin reminder to notify you when your resin is recharged.
 APP_COMMAND_GACHA_DESCRIPTION: Display an updated infographic showcasing your entire wish history for the specified banner.
 APP_COMMAND_WISHSIMULATOR_DESCRIPTION: Test your gacha luck with Genshin Wish Simulator!
-APP_COMMAND_INVENTORY_DESCRIPTION: View your virtual Genshin Wizard inventory.
-APP_COMMAND_SHOP_DESCRIPTION: View your Genshin Wizard's Shop.
+APP_COMMAND_INVENTORY_DESCRIPTION: Zobacz swój wirtualny ekwipunek Genshin Wizard.
+APP_COMMAND_SHOP_DESCRIPTION: Zobacz swój sklep Genshin Wizard.
 APP_COMMAND_CHARACTERARCHIVE_DESCRIPTION: View your Genshin Wizard's Character Archives.
 APP_COMMAND_COMMISSIONS_DESCRIPTION: Claim your Daily Commission rewards.
-APP_COMMAND_BALANCE_DESCRIPTION: View your Genshin Wizard account's balance.
+APP_COMMAND_BALANCE_DESCRIPTION: Zobacz saldo swojego konta Kreatora Genshina.
 APP_COMMAND_EDIT_DESCRIPTION: Edit genshin wizard's character details database.
 APP_COMMAND_EDIT_ADD_DESCRIPTION: Dodaj nowy build dla konkretnej postaci.
 APP_COMMAND_DESCRIBE_EDIT_ADD_CHARACTER: Nazwa postaci, której chcesz dodać builda.
@@ -843,7 +843,7 @@ ABYSS_CONGRATULATE_MESSAGE: |
   Congratulations {user} on perfectly *clearing* the Spiral Abyss!
   <:spiralabyss:1000079902596411482> <@&{role_id}> Role Given <a:check:956327345717907507>
 THEATER_CONGRATULATE_MESSAGE: |
-  Congratulations {user} on perfectly *clearing* Act 10 of **Visionary Mode** in Imaginarium Theater!
+  Congratulations {user} on perfectly *clearing* Imaginarium Theater in **Lunar Mode**!
   {heraldry_emoji} <@&{role_id}> Role Given <a:check:956327345717907507>
 ONSLAUGHT_CONGRATULATE_MESSAGE: |
   Congratulations {user} on perfectly *clearing* **Difficulty {difficulty_level}** for Stygian Onslaught!
@@ -1151,8 +1151,6 @@ INVOKATION_RETURN_SHOWCASE: Return to Showcase
 GLOBAL_BUTTON: Global
 SERVER_BUTTON: Serwer
 PERSONAL_BUTTON: Personal
-ABYSS_LEADERBOARD_WANING_PHASE_LABEL: "{date} Waning Phase"
-ABYSS_LEADERBOARD_WAXING_PHASE_LABEL: "{date} Waxing Phase"
 PERIOD_KEY: Period
 ABYSS_LEADERBOARD_ALL_TIME: All-time Leaderboard
 ABYSS_LEADERBOARD_ALL_TIME_DESCRIPTION: View records from all Abyss phases.
@@ -1236,10 +1234,6 @@ GENSHIN_STATISTICS_DESCRIPTION: View your Genshin stats
 SPIRAL_ABYSS_STATISTICS_KEY: Spiral Abyss Stats
 SPIRAL_ABYSS_STATISTICS_DESCRIPTION: View your Spiral Abyss progression stats
 COPY_UID_KEY: Copy UID
-CURRENT_ABYSS_PHASE: Current Abyssal Phase
-CURRENT_ABYSS_PHASE_DESCRIPTION: View Current Abyssal Stats Progression
-PREVIOUS_ABYSS_PHASE: Previous Abyssal Phase
-PREVIOUS_ABYSS_PHASE_DESCRIPTION: View Previous Abyssal Stats Progression
 ENTER_LINK_BUTTON: Enter link
 LINK_UID_MODAL_TITLE: Link UID
 LINK_UID_MODAL_LABEL: Genshin Impact UID
@@ -1781,6 +1775,7 @@ THEATER_DETAIL_EASY: "Theater Details: Easy Mode"
 THEATER_DETAIL_NORMAL: "Theater Details: Normal Mode"
 THEATER_DETAIL_HARD: "Theater Details: Hard Mode"
 THEATER_DETAIL_VISIONARY: "Theater Details: Visionary Mode"
+THEATER_DETAIL_LUNAR: "Theater Details: Lunar Mode"
 THEATER_DETAIL: "Theater Details"
 NO_IMAGINARIUM_THEATER_DATA: "No Imaginarium Theater Data"
 FANTASIA_FLOWERS_USED: Fantasia Flowers Used
@@ -1788,6 +1783,7 @@ EXTERNAL_AUDIENCE_SUPPORT: Triggered External Audience Support
 SUPPORT_CAST_ASSIST: Supporting Cast Characters Assist Other Players
 TOTAL_CAST_TIME: Total Cast Time
 THEATER_ACT_KEY: Act {act_id}
+ARCANA_CHALLENGE_KEY: Arcana Challenge {tarot_serial_no}
 FASTEST_ACT_KEY: Fastest Act
 HIGHEST_DAMAGE_DEALT_LABEL: Highest Damage Dealt
 TRIAL_KEY: Trial
@@ -1796,10 +1792,7 @@ THEATER_COMMAND_FOOTER: "Note: Theater data may be incorrectly shown or missing 
 IMAGINARIUM_THEATER_DESCRIPTION: View your Imaginarium Theater progression stats
 THEATER_LEADERBOARD_PLACEHOLDER: Choose a lunar phase to view...
 VIEW_THEATER_TEAM: Viewing Imaginarium Theater Lineup
-CURRENT_THEATER_PHASE_DESCRIPTION: View Current Theater Stats Progression
-PREVIOUS_THEATER_PHASE_DESCRIPTION: View Previous Theater Stats Progression
 THEATER_COMMAND_STATISTICS_CREDIT: User {name}'s Imaginarium Theater Stats
-THEATER_ARCHIVES_KEY: Theaterical Archives
 THEATER_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Theatrical Archives**
   **Start Time:** <t:{timestamp_start}:F>
@@ -1826,14 +1819,11 @@ ONSLAUGHT_NOT_UNLOCKED: The Stygian Onslaught is not yet unlocked for your accou
 ONSLAUGHT_COMMAND_FOOTER: "Note: Stygian Onslaught data may be incorrectly shown or missing data, if this is the case, do keep in mind that Stygian Onslaught data can generally take anywhere from 1-3 hours to update!"
 NO_ONSLAUGHT_DATA: "No Stygian Onslaught Data"
 ONSLAUGHT_COMMAND_STATISTICS_CREDIT: User {name}'s Stygian Onslaught Stats
-CURRENT_ONSLAUGHT_PHASE_DESCRIPTION: View Current Stygian Onslaught Stats Progression
-PREVIOUS_ONSLAUGHT_PHASE_DESCRIPTION: View Previous Stygian Onslaught Stats Progression
 ONSLAUGHT_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Stygian Onslaught Archives**
   **Start Time:** <t:{timestamp_start}:F>
   **End Time:** <t:{timestamp_end}:F>
 ONSLAUGHT_LEADERBOARD_PLACEHOLDER: Choose a lunar phase to view...
-ONSLAUGHT_ARCHIVES_KEY: Stygian Onslaught Archives
 STYGIAN_ONSLAUGHT_KEY: Stygian Onslaught
 ONSLAUGHT_DESCRIPTION: View your Stygian Onslaught progression stats
 APP_COMMAND_ONSLAUGHT_DESCRIPTION: View your Genshin account's Stygian Onslaught progress.
@@ -1858,7 +1848,6 @@ BATTLE_INDEX_KEY: Battle {battle_field_id}
 FASTEST_KEY: Fastest
 COMPLETE_KEY: Complete
 NO_TEAM_DETAILS: No Team Details
-CURRENT_PHASE_KEY: Current Phase
 PREVIOUS_PHASE_KEY: Previous Phase
 CURRENT_PHASE_DESCRIPTION: |
   **Current Phase**
@@ -1892,22 +1881,22 @@ AUTOCLAIM_EVENT_UNSUBSCRIBE_DESCRIPTION: "You have successfully **unsubscribed**
 AUTOCLAIM_EVENT_DISABLE_DESCRIPTION: "You have successfully **disabled** the auto-claim feature. You will no longer receive any notifications regarding auto-claim for the following account: **{uid}**."
 AUTOREDEEM_EVENT_UNSUBSCRIBE_DESCRIPTION: "You have successfully **unsubscribed** from the auto-redeem feature. You will no longer receive any notifications regarding auto-redeem for the following account: **{uid}**."
 AUTOREDEEM_EVENT_DISABLE_DESCRIPTION: "You have successfully **disabled** the auto-redeem feature. You will no longer receive any notifications regarding auto-redeem for the following account: **{uid}**."
-STATS_MAX_FRIENDSHIP_COUNT_KEY: Max Friendship Characters
+STATS_MAX_FRIENDSHIP_COUNT_KEY: Maksymalna ilość zaprzyjaźnionych postaci
 PARTNER_ONLY_CONFIGURATION: Hey Traveler, this configuration is reserved for **partners** of Genshin Wizard. Please select a different role-integration to configure or consider partnering with our **[Discord Server](https://genshinwizard.com/discord)**!
 CLUSTER_KEY: Cluster
-VOTE_GENSHIN_WIZARD: Vote for Genshin Wizard!
-SUPPORT_VOTE_DESCRIPTION: Support the Genshin Wizard bot by voting on bot discovery platforms and earn free rewards in the process!
-VOTE_FOR_BOT: Vote for Genshin Wizard Bot!
-VOTE_FOR_SERVER: Vote for Genshin Wizard Server!
-VOTE_PERIOD_NOTICE: You can vote once every **12 hours**!
-REAUTHENTICATE_TITLE: Reauthenticate HoYoLAB Account
+VOTE_GENSHIN_WIZARD: Głosuj na Genshin Wizard!
+SUPPORT_VOTE_DESCRIPTION: Wspieraj bota Genshin Wizard głosując na platformach wyszukiwania botów i zdobywaj darmowe nagrody w tym procesie!
+VOTE_FOR_BOT: Głosuj na bota Genshin Wizard!
+VOTE_FOR_SERVER: Głosuj na serwer Genshin Wizard!
+VOTE_PERIOD_NOTICE: Możesz głosować raz na **12 godzin**!
+REAUTHENTICATE_TITLE: Ponowne uwierzytelnienie konta HoYoLAB
 REAUTHENTICATE_DESCRIPTION: Reauthenticate your HoYoLAB account to continue using select Genshin Wizard features. This may be required if your cookie has **expired** or is invalid.
 REGISTER_DEVTOOLS_BUTTONS: Register using DevTools (Desktop Only)
 APP_COMMAND_REAUTHENTICATE_DESCRIPTION: Reauthenticate your HoYoLAB account if login has expired.
-REAUTHENTICATE_KEY: Reauthenticate
+REAUTHENTICATE_KEY: Ponowne uwierzytelnienie
 ACTION_LOADING_LABEL: "Loading..."
 SETUP_REMINDERS_BUTTON: Setup Account Reminders (Resin, Teapot, etc.)
-ACCOUNT_OVERVIEW_KEY: Account Overview
+ACCOUNT_OVERVIEW_KEY: Przegląd konta
 ACCOUNT_OVERVIEW_DESCRIPTION: View current resin, teapot currency, expeditions, and more!
 MONTHLY_REWARDS_DESCRIPTION: View your monthly HoYoLAB check-in rewards and claim status.
 VIEW_CHARACTERS_DESCRIPTION: View your Genshin Impact characters and their details.
@@ -1916,22 +1905,23 @@ SELECT_HOYO_OPTION: Select a category to view...
 LOGIN_ACCOUNT_REGISTRATION: Genshin Wizard HoYoLAB Account Registration
 LOGIN_ACCOUNT_EMAIL_VERIFICATION: Account Registration | Email Verification Required
 LOGIN_ACCOUNT_REGISTRATION_PROCESSING: Hello Traveler, we are processing your account registration request. Please wait while we take a moment to gather your account details.
-LOGIN_ACCOUNT_REGISTRATION_FAILED: Account Registration Failed
+LOGIN_ACCOUNT_REGISTRATION_FAILED: Rejestracja konta nie powiodła się
 LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: Hello Traveler, it seems that we were unable to register your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error.
-LOGIN_REGISTRATION_METHOD: "Registration Method: **{method}**"
+LOGIN_REGISTRATION_METHOD: "Metoda rejestracji: **{method}**"
 LOGIN_REGISTRATION_STATUS: "Status: **{status}**"
-LOGIN_STATUS_PROCESSING: Processing
-LOGIN_STATUS_EMAIL_VERIFICATION_PENDING: Email Verification Pending
-LOGIN_STATUS_FAILED: Registration Failed
-LOGIN_STATUS_SUCCESS: Registration Successful
-REAUTHENTICATION_SUCCESS_TITLE: Reauthentication Successful
+LOGIN_STATUS_PROCESSING: Przetwarzanie
+LOGIN_STATUS_EMAIL_VERIFICATION_PENDING: Weryfikacja adresu e-mail oczekuje
+LOGIN_STATUS_FAILED: Rejestracja nieudana
+LOGIN_STATUS_SUCCESS: Rejestracja zakończona pomyślnie
+REAUTHENTICATION_SUCCESS_TITLE: Ponowne uwierzytelnianie zakończone
 REAUTHENTICATION_SUCCESS: You have **successfully** reauthenticated your HoYoLAB account! You may now use select Genshin Wizard features again.
 NO_REAUTH_ACCOUNT_FOUND: No existing HoYoLab account found to reauthenticate!
-REAUTHENTICATION_FAILED_TITLE: Reauthentication Failed
+REAUTHENTICATION_FAILED_TITLE: Ponowna autoryzacja nie powiodła się
 REAUTHENTICATION_FAILED: Hello Traveler, it seems that we were unable to reauthenticate your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error.
-EMAIL_VERIFICATION_KEY: Email Verification
-VERIFICATION_CODE_KEY: Verification Code
+EMAIL_VERIFICATION_KEY: Weryfikacja adresu e-mail
+VERIFICATION_CODE_KEY: Kod weryfikacyjny
 LOGIN_STATUS_SUCCESS_DESCRIPTION: Congratulations! You have successfully registered your HoYoLAB account with Genshin Wizard. You may now use select Genshin Wizard features.
-EMAIL_VERIFICATION_FAILURE: Email Verification Failed
-ENTER_VERIFICATION_CODE: Enter Verification Code
-NEED_MORE_HELP: Need More Help?
+EMAIL_VERIFICATION_FAILURE: Weryfikacja e-maila nie powiodła się
+ENTER_VERIFICATION_CODE: Wprowadź kod weryfikacyjny
+NEED_MORE_HELP: Potrzebujesz więcej pomocy?
+INVOKATION_SHOWCASE_TITLE: Genius Invokation TCG Showcase
