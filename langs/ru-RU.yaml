@@ -626,18 +626,18 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "Консоль"
 REGISTER_IOS_METHOD: "iOS (Метод трансляции приложения)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Посмотрите нашу [Документацию на Github](https://github.com/Genshin-Wizard/historyLink) для детальных шагов с изображениями.
+  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
 
-  1. Откройте игру Genshin Impact на своем компьютере
-  2. Перейдите на страницу истории молитв и дождитесь ее загрузки
-  3. Вернитесь к Windows/рабочему столу
-  4. В меню "Пуск" найдите "PowerShell" и откройте "Windows PowerShell"
-  5. Затем скопируйте следующий код и вставьте его в окно Powershell
+  1. Open Genshin Impact Game on your PC
+  2. Go to the wish history page and wait for it to load
+  3. Go back to Windows/Desktop
+  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
+  5. Then copy the following code and paste it in the Powershell window
   ```ps
-  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
+  iwr https://www.genshinwizard.com/file/history -UseBasicParsing | iex
   ```
-  6. Нажмите `ENTER`, чтобы скопировать ссылку в ваш буфер обмена
-  7. Нажмите на кнопку ниже и вставьте ссылку в поле ввода
+  6. Hit `ENTER` to have the link copied to your clipboard
+  7. Click the button below and paste the link in the input field
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   После обновления 3.0 пользователи больше не могут просто копировать и вставлять ссылку на историю на устройствах Android.
 
