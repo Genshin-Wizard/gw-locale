@@ -630,7 +630,7 @@ REGISTER_COMMAND_PC_DIRECTIONS: |
   4. In the start menu search for "PowerShell" and open "Windows PowerShell"
   5. Then copy the following code and paste it in the Powershell window
   ```ps
-  iwr https://www.genshinwizard.com/file/history | iex
+  iwr https://www.genshinwizard.com/file/history -UseBasicParsing | iex
   ```
   6. Hit `ENTER` to have the link copied to your clipboard
   7. Click the button below and paste the link in the input field
