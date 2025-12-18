@@ -631,13 +631,21 @@ REGISTER_COMMAND_PC_DIRECTIONS: |
   6. Hit `ENTER` to have the link copied to your clipboard
   7. Click the button below and paste the link in the input field
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
-  Follow the instructions in this video to get your wish history URL:
+  After the 3.0 update, users can no longer simply copy and paste the history link on Android devices anymore.
 
-  https://youtu.be/CeQQoFKLwPY
+  We are currently looking for a way to retrieve the history link on Android devices. Please check back later.
 REGISTER_COMMAND_IOS_DIRECTIONS: |
-  Follow the instructions in this video to get your wish history URL:
-
-  https://youtu.be/m833g8ZNWVA
+  查看 Kaizer 的 [Stream App Guide](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) 以了解帶有圖片的詳細步驟。
+  1.打開原神並轉到Wish屏幕
+  2. 當 原神 仍然打開時，轉到 Stream 應用程序並點擊立即嗅探
+  3.返回原神並打開你想要的歷史
+  4. 加載願望清單後，返回 Stream 應用並點擊停止嗅探
+  5. 然後點擊 祈願歷史 並選擇列表中的第一項
+  6. 點擊以“GET https://hk4e-api-os/...”開頭的請求
+  7. 點擊請求選項卡
+  8. 點擊以 `GET /event/gacha_info...` 開頭的長文本
+  9. 最後，點擊複製網址
+  10. 單擊下面的按鈕並將鏈接粘貼到輸入字段中。
 RESELECT_PLATFORM_KEY: Re-Select Platform
 REGISTER_COMMAND_CONSOLE_DIRECTIONS: Following the 2.3 update event links don't work anymore. This being said, it is still possible to obtain the key by linking your Playstation account with a Mihoyo account and using the pc/mobile method instead.
 REGISTER_COMMAND_PLATFORM_SELECTION: Which platform do you use to play Genshin Impact?
