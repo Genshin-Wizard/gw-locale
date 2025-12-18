@@ -636,13 +636,22 @@ REGISTER_COMMAND_PC_DIRECTIONS: |
   6. Hit `ENTER` to have the link copied to your clipboard
   7. Click the button below and paste the link in the input field
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
-  Follow the instructions in this video to get your wish history URL:
+  3.0 업데이트 이후 사용자는 더 이상 Android 기기에서 단순히 기록 링크를 복사하여 붙여넣을 수 없습니다.
 
-  https://youtu.be/CeQQoFKLwPY
+  현재 Android 기기에서 기록 링크를 검색하는 방법을 찾고 있습니다. 나중에 다시 확인해주세요.
 REGISTER_COMMAND_IOS_DIRECTIONS: |
-  Follow the instructions in this video to get your wish history URL:
+  Kaizer의 [스트림 앱 가이드](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing)에서 사진과 함께 자세한 단계를 확인하세요.
 
-  https://youtu.be/m833g8ZNWVA
+  1. Genshin Impact를 열고 기원 화면으로 이동
+  2. Genshin Impact가 열려 있는 동안 Stream 앱으로 이동하여 Sniff Now를 누릅니다.
+  3. Genshin Impact로 돌아가 기원기록을 엽니다.
+  4. 위시리스트가 로드되면 Stream 앱으로 돌아가 스니핑 중지를 누릅니다.
+  5. 그런 다음 Sniff History를 탭하고 목록에서 첫 번째 항목을 선택합니다.
+  6. `GET https://hk4e-api-os/...`로 시작하는 요청을 누릅니다.
+  7. 요청 탭을 누릅니다.
+  8. `GET /event/gacha_info...`로 시작하는 긴 텍스트를 누릅니다.
+  9. 마지막으로 URL 복사를 누릅니다.
+  10. 아래 버튼을 클릭하고 입력 필드에 링크를 붙여넣습니다.
 RESELECT_PLATFORM_KEY: 플랫폼 재선택
 REGISTER_COMMAND_CONSOLE_DIRECTIONS: 2.3 업데이트 이벤트 링크는 더 이상 작동하지 않습니다. 즉, Playstation 계정을 Mihoyo 계정과 연결하고 대신 pc/모바일 방법을 사용하여 키를 얻을 수 있습니다.
 REGISTER_COMMAND_PLATFORM_SELECTION: Genshin Impact를 플레이하기 위해 어떤 플랫폼을 사용하시나요?
