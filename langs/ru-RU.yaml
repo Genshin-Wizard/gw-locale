@@ -626,35 +626,26 @@ IOS_KEY: "iOS"
 CONSOLE_KEY: "Консоль"
 REGISTER_IOS_METHOD: "iOS (Метод трансляции приложения)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
-  Посмотрите нашу [Документацию на Github](https://github.com/Genshin-Wizard/historyLink) для детальных шагов с изображениями.
+  Check out our [Github Documentation](https://github.com/Genshin-Wizard/historyLink) for detailed steps with pictures.
 
-  1. Откройте игру Genshin Impact на своем компьютере
-  2. Перейдите на страницу истории молитв и дождитесь ее загрузки
-  3. Вернитесь к Windows/рабочему столу
-  4. В меню "Пуск" найдите "PowerShell" и откройте "Windows PowerShell"
-  5. Затем скопируйте следующий код и вставьте его в окно Powershell
+  1. Open Genshin Impact Game on your PC
+  2. Go to the wish history page and wait for it to load
+  3. Go back to Windows/Desktop
+  4. In the start menu search for "PowerShell" and open "Windows PowerShell"
+  5. Then copy the following code and paste it in the Powershell window
   ```ps
-  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex "&{$((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Genshin-Wizard/historyLink/master/historykey.ps1'))} global"
+  iwr https://www.genshinwizard.com/file/history -UseBasicParsing | iex
   ```
-  6. Нажмите `ENTER`, чтобы скопировать ссылку в ваш буфер обмена
-  7. Нажмите на кнопку ниже и вставьте ссылку в поле ввода
+  6. Hit `ENTER` to have the link copied to your clipboard
+  7. Click the button below and paste the link in the input field
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
-  После обновления 3.0 пользователи больше не могут просто копировать и вставлять ссылку на историю на устройствах Android.
+  Follow the instructions in this video to get your wish history URL:
 
-  В настоящее время мы ищем способ получить ссылку на историю на устройствах Android. Пожалуйста, проверьте позже.
+  https://youtu.be/CeQQoFKLwPY
 REGISTER_COMMAND_IOS_DIRECTIONS: |
-  Посмотрите руководство Kaizer [По трансляции приложения](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) для детальных шагов с изображениями.
+  Follow the instructions in this video to get your wish history URL:
 
-  1. Откройте Genshin Impact и перейдите к экрану молитв
-  2. Пока Genshin Impact все еще открыт, перейдите в приложение Stream и нажмите Sniff Now
-  3. Вернитесь к Genshin Impact и откройте историю молитв
-  4. Когда ваш список молитв будет загружен, вернитесь в приложение Stream и нажмите Stop sniffing
-  5. Затем нажмите на Sniff History и выберите первый элемент в списке
-  6. Нажмите на запрос, начинающийся с `GET https://hk4e-api-os/...`
-  7. Перейдите на вкладку запрос
-  8. Коснитесь длинного текста, начинающегося с `GET /event/gacha_info...`
-  9. Наконец, нажмите Copy Url
-  10. Нажмите на кнопку ниже и вставьте ссылку в поле ввода.
+  https://youtu.be/m833g8ZNWVA
 RESELECT_PLATFORM_KEY: Перевыбрать платформу
 REGISTER_COMMAND_CONSOLE_DIRECTIONS: После обновления 2.3 ссылки на события больше не работают. При этом по-прежнему возможно получить ключ, связав свой аккаунт Playstation с аккаунтом Mihoyo и используя вместо этого метод PC/мобильного устройства.
 REGISTER_COMMAND_PLATFORM_SELECTION: На какой платформе вы играете в Genshin Impact?
