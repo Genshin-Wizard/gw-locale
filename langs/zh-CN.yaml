@@ -74,20 +74,15 @@ QUESTION_KEY: 疑问
 RESPONSE_KEY: 回應
 PREFIX_COMMAND_CURRENT: The prefix for this server is `{prefix}`
 PREFIX_TOO_LONG: 前缀不能超过 5 个字符。
-PREFIX_TOO_SHORT: The prefix cannot be shorter than 1 character.
-PREFIX_CHANGED_TITLE: Genshin Wizard | Prefix Change
+PREFIX_TOO_SHORT: '。'
+PREFIX_CHANGED_TITLE: "Hi\n"
 PREFIX_CHANGED_DESCRIPTION: |
-  Successfully changed **Genshin Wizard's** prefix! Commands will now be invoked using this new prefix.
-
-  **Old Prefix:** `{old_prefix}`
-  **New Prefix:** `{new_prefix}`
+  {new_prefix}{old_prefix}
 PREFIX_CHANGED_FOOTER: Genshin Wizard 前缀设置
 MATH_COMMAND_COMPUTE_ERROR: ":no_entry: 计算错误. 请尝试改写措辞！"
 MATH_COMMAND_RESULT: |
-  **Expression:** `{expression}`
-  **Result:**
-  ```{result}```
-RECENT_GENSHIN_EVENTS: Recent Genshin Events
+  {result}{expression}
+RECENT_GENSHIN_EVENTS: "Recent Genshin Events\n"
 SEND_CODES_COMMAND_TITLE: Genshin Wizard | Active Codes
 SEND_CODES_COMMAND_DESCRIPTION: |
   <:blurplelink:1020155547187691600> [***Redeemable by clicking on the buttons below!***](https://genshin.mihoyo.com/en/gift)
