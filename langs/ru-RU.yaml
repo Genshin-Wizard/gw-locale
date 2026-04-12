@@ -292,19 +292,19 @@ INFO_COMMAND_CACHE_DESCRIPTION: |
   <:na:975828401900359711> **Что делать, если я хочу удалить старые сборки?**
   Не бойтесь! Вы сможете управлять своими кэшированными сборками прямо из этого сообщения! Используйте приведенный ниже пользовательский интерфейс, чтобы удалить конкретных или всех персонажей из кэша Genshin Wizard.
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard Custom Art Feature**
-  Hey Traveler, it looks like you're trying to use Genshin Wizard's **Custom Art** feature! This feature is only available to Genshin Wizard Premium users.
+  <:information:1034639378410115103> **Функция пользовательского искусства Genshin Wizard**
+  Привет, Путешественник! Похоже, ты пытаешься использовать функцию **Пользовательское Искусство** Genshin Wizard! Эта функция доступна только пользователям Genshin Wizard Premium.
 
-  You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Premium Page Information**](https://)!
+  Ты можешь узнать больше о Genshin Wizard Premium, используя команду </premium:{command_id}>, или посетив нашу [**Информацию о Премиум-странице**](https://)!
 PURCHASE_PREMIUM: Купить Премиум
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Эй, Путешественник, ты можешь управлять индивидуальным оформлением только для своих **собственных персонажей**!
 GENSHIN_WIZARD_CUSTOM_ART: Индивидуальное Оформление Genshin Wizard
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
+  **Настройка инфографического искусства**
+  Привет, Путешественник! Нажми на ссылку или кнопку ниже, чтобы **настроить** инфографическое искусство для этого персонажа! <a:PaimonCookies:992302701838864454>
   ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://genshinwizard.com/premium)
+  Инфографика для {character}```
+  > <:Settings:1046877233626742925> [**Нажми здесь, чтобы настроить искусство**](https://genshinwizard.com/user/art)
 GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Перейти к панели управления
 REMOVE_CHARACTERS_FROM_CACHE: Удаление персонажей из кэша...
 INFO_COMMAND_CACHE_DELETE_SELECTED: Успешно удалены выбранные персонажи из кэша Genshin Wizard!
@@ -528,25 +528,28 @@ PRIVACY_SETTING_TITLE: Настройки конфиденциальности G
 PRIVACY_SETTING_DESCRIPTION: Измените настройки конфиденциальности Genshin Wizard здесь.
 PRIVACY_SETTING_KEY: Настройки конфиденциальности
 PRIVACY_SETTING_BRIEF: |
-  **UID Privacy:** {uid_privacy}
-  **Wish History Privacy:** {wish_privacy}
-  **Stats Privacy:** {stats_privacy}
-  **Abyss Privacy:** {abyss_privacy}
-  **Info Privacy:** {info_privacy}
-  **Imaginarium Theater Privacy:** {theater_privacy}
+  **Конфиденциальность UID:** {uid_privacy}
+  **Конфиденциальность истории желаний:** {wish_privacy}
+  **Конфиденциальность статистики:** {stats_privacy}
+  **Конфиденциальность витрины персонажей:** {info_privacy}
+  **Конфиденциальность Спирального Бездна:** {abyss_privacy}
+  **Конфиденциальность театра Имагинария:** {theater_privacy}
+  **Конфиденциальность Стягивающего Налета:** {onslaught_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **UID Privacy:** {uid_privacy}
-  > *Hide your UID from showing up anywhere*
-  **Wish History Privacy:** {wish_privacy}
-  > *Hide your Wish History from showing up anywhere (`/history`)*
-  **Stats Privacy:** {stats_privacy}
-  > *Hide your Genshin Stats Progression from showing up anywhere (`/statistics`)*
-  **Abyss Privacy:** {abyss_privacy}
-  > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
-  **Info Privacy:** {info_privacy}
-  > *Hide your showcase builds information from showing up anywhere (`/info`)*
-  **Imaginarium Theater Privacy:** {theater_privacy}
-  > *Hide your Imaginarium Theater Progression from showing up anywhere (`/imaginarium-theater`)
+  **Конфиденциальность UID:** {uid_privacy}
+  > *Скрыть свой UID от отображения везде*
+  **Конфиденциальность истории желаний:** {wish_privacy}
+  > *Скрыть свою историю желаний от отображения везде (`/history`)*
+  **Конфиденциальность статистики:** {stats_privacy}
+  > *Скрыть свой прогресс в статистике Genshin от отображения везде (`/statistics`)*
+  **Конфиденциальность витрины персонажей:** {info_privacy}
+  > *Скрыть информацию о своих сборках витрины от отображения везде (`/character-showcase`)*
+  **Конфиденциальность Спирального Бездна:** {abyss_privacy}
+  > *Скрыть свой прогресс в Спиральном Бездна от отображения везде (`/abyss`)*
+  **Конфиденциальность театра Имагинария:** {theater_privacy}
+  > *Скрыть свой прогресс в театре Имагинария от отображения везде (`/imaginarium-theater`)*
+  **Конфиденциальность Стягивающего Налета:** {onslaught_privacy}
+  > *Скрыть свой прогресс в Стягивающем Налете от отображения везде (`/stygian-onslaught`)*
 ALL_KEY: Все
 RESET_KEY: Сброс
 WISH_HISTORY_KEY: История молитв
@@ -1026,12 +1029,12 @@ PREMIUM_TIER_ONE_PERKS: |
   <:blurplejoinarrow:932413900073369621> Бонус **<:Primogem:951924423340994610>24,000** Примогемы на день для симулятора исполнения желаний Genshin Wizard при использовании </commissions:{commissions_id}>.
   <:blurplejoinarrow:932413900073369621> Эксклюзив **<:gw_tier2:1045526666354643034> Астральный Роль отражения**.
 PREMIUM_TIER_TWO_PERKS: |
-  <:information:1034639378410115103> **Premium Perks: $10 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
-  <:blurplejoinarrow:932413900073369621> All previous tiers' benefits.
-  <:blurplejoinarrow:932413900073369621> The ability to select a server of your choice to gain Genshin Wizard Partner perks, no questions asked. This includes access to /abyss, /stats and automatic role integration for 36 star abyss clears and C6 characters (role integration dashboard).
-  <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>24,000** Primogems a day for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
-  <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier2:1045526666354643034> Astral Reflection** role.
+  <:information:1034639378410115103> **Преимущества Premium: $10 в месяц**
+  **ГОРЯЧО!** 🔥 Возможность выбирать пользовательские изображения для карточек персонажей, созданных с помощью </character-showcase:{info_id}>.
+  <:blurplejoinarrow:932413900073369621> Все преимущества предыдущих уровней.
+  <:blurplejoinarrow:932413900073369621> Возможность выбрать сервер по своему выбору для получения преимуществ партнера Genshin Wizard, без вопросов. Это включает доступ к автоматической интеграции ролей для 36 звездных очисток бездны и персонажей C6 (панель интеграции ролей).
+  <:blurplejoinarrow:932413900073369621> Бонус **<:Primogem:951924423340994610>24,000** примогемов в день для Симулятора Желаний Genshin Wizard при использовании </commissions:{commissions_id}>.
+  <:blurplejoinarrow:932413900073369621> Эксклюзивная роль **<:gw_tier2:1045526666354643034> Астральное Отражение**.
 PREMIUM_TIER_THREE_PERKS: |
   <:information:1034639378410115103> **Премиальные льготы: ежемесячный план на сумму 10 долларов**
   ** ГОРЯЧО! ** 🔥 Возможность выбора пользовательских изображений для карточек персонажей, созданных с помощью </info:{info_id}>.
@@ -1627,7 +1630,7 @@ INVOKATION_SHOWCASE: "Карточка"
 INVOKATION_SUMMARY: "Сводка по торговой карте"
 DAILY_ALREADY_CLAIMED: Вы уже получили свою ежедневную награду.
 UNABLE_TO_CLAIM: Не удалось получить ежедневную награду.
-COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </accounts:{command_id}> to register.
+COOKIE_RESET_MESSAGE: При сбросе пароля вашей учетной записи Genshin, куки **сбрасываются**, чтобы использовать эту команду, вам нужно будет **повторно аутентифицироваться** в своей учетной записи HoYoLAB. Используйте команду </reauthenticate:{command_id}>, чтобы повторно аутентифицироваться.
 INVALID_COOKIE_KEY: Неверный cookie
 TEST_NOTIFICATION_KEY: Тестовое уведомление
 TEST_NOTIFICATION_TITLE: Мастер Гэншина | Проверка уведомлений
