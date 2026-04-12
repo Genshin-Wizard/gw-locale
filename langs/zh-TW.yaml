@@ -290,19 +290,19 @@ INFO_COMMAND_CACHE_DESCRIPTION: |
    <:na:975828401900359711> **如果我想刪除舊版本怎麼辦？**
   不要害怕！您將能夠直接從此消息管理您的構建緩存！使用下面的 UI 從您的 Genshin Wizard 緩存中刪除特定字符或全部。
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard Custom Art Feature**
-  Hey Traveler, it looks like you're trying to use Genshin Wizard's **Custom Art** feature! This feature is only available to Genshin Wizard Premium users.
+  <:information:1034639378410115103> **Genshin Wizard 自訂藝術功能**
+  嘿，旅行者，看起來您正在嘗試使用 Genshin Wizard 的 **自訂藝術** 功能！此功能僅對 Genshin Wizard Premium 用戶可用。
 
-  You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Premium Page Information**](https://)!
+  您可以使用 </premium:{command_id}> 指令了解更多關於 Genshin Wizard Premium 的資訊，或訪問我們的 [**Premium 頁面資訊**](https://)！
 PURCHASE_PREMIUM: 購買高級版
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: 嘿旅行者，您只能管理您**自己的角色**的自定義聖遺物！
 GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard 聖遺物定義
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
+  **自訂資訊圖表藝術**
+  嘿，旅行者，點擊下面的連結或按鈕來 **自訂** 此角色的資訊圖表藝術！ <a:PaimonCookies:992302701838864454>
   ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://genshinwizard.com/premium)
+  {character} 的資訊圖表```
+  > <:Settings:1046877233626742925> [**點擊這裡自訂藝術**](https://genshinwizard.com/user/art)
 GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: 前往儀表板
 REMOVE_CHARACTERS_FROM_CACHE: 從快取中移除角色...
 INFO_COMMAND_CACHE_DELETE_SELECTED: 成功從 Genshin Wizard 的快取中刪除選定的角色！
@@ -452,9 +452,9 @@ USE_COUNT_KEY: 使用次數
 IMPORT_ERROR: 匯入錯誤!
 FOOTER_ERROR_DESCRIPTION: 如果您認為這是一個錯誤，請聯繫工作人員。
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  您嘗試導入的數據不被 **支持**。我們目前 *僅* 允許從以下格式導入：
   {supported_file_types}
-  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
+  請參考我們的 [**文件**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) 獲取更多資訊。
 IMPORT_COMMAND_TITLE: Genshin Wizard | 匯入願望歷史
 IMPORT_COMMAND_FILE_DETECTED: |
   **檢測到匯入來源：`{source}`**
@@ -522,25 +522,28 @@ PRIVACY_SETTING_TITLE: Genshin Wizard 隱私設置
 PRIVACY_SETTING_DESCRIPTION: 在這裡更改您的 Genshin Wizard 隱私設置。
 PRIVACY_SETTING_KEY: 隱私設置
 PRIVACY_SETTING_BRIEF: |
-  **UID Privacy:** {uid_privacy}
-  **Wish History Privacy:** {wish_privacy}
-  **Stats Privacy:** {stats_privacy}
-  **Abyss Privacy:** {abyss_privacy}
-  **Info Privacy:** {info_privacy}
-  **Imaginarium Theater Privacy:** {theater_privacy}
+  **UID 隱私：** {uid_privacy}
+  **願望歷史隱私：** {wish_privacy}
+  **統計隱私：** {stats_privacy}
+  **角色展示隱私：** {info_privacy}
+  **螺旋深淵隱私：** {abyss_privacy}
+  **想像劇院隱私：** {theater_privacy}
+  **冥界突襲隱私：** {onslaught_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **UID Privacy:** {uid_privacy}
-  > *Hide your UID from showing up anywhere*
-  **Wish History Privacy:** {wish_privacy}
-  > *Hide your Wish History from showing up anywhere (`/history`)*
-  **Stats Privacy:** {stats_privacy}
-  > *Hide your Genshin Stats Progression from showing up anywhere (`/statistics`)*
-  **Abyss Privacy:** {abyss_privacy}
-  > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
-  **Info Privacy:** {info_privacy}
-  > *Hide your showcase builds information from showing up anywhere (`/info`)*
-  **Imaginarium Theater Privacy:** {theater_privacy}
-  > *Hide your Imaginarium Theater Progression from showing up anywhere (`/imaginarium-theater`)
+  **UID 隱私：** {uid_privacy}
+  > *隱藏您的 UID 以免顯示在任何地方*
+  **願望歷史隱私：** {wish_privacy}
+  > *隱藏您的願望歷史以免顯示在任何地方 (`/history`)*
+  **統計隱私：** {stats_privacy}
+  > *隱藏您的 Genshin 統計進度以免顯示在任何地方 (`/statistics`)*
+  **角色展示隱私：** {info_privacy}
+  > *隱藏您的展示構建資訊以免顯示在任何地方 (`/character-showcase`)*
+  **螺旋深淵隱私：** {abyss_privacy}
+  > *隱藏您的 Genshin 螺旋深淵進度以免顯示在任何地方 (`/abyss`)*
+  **想像劇院隱私：** {theater_privacy}
+  > *隱藏您的想像劇院進度以免顯示在任何地方 (`/imaginarium-theater`)*
+  **冥界突襲隱私：** {onslaught_privacy}
+  > *隱藏您的冥界突襲進度以免顯示在任何地方 (`/stygian-onslaught`)*
 ALL_KEY: 全部
 RESET_KEY: 重置
 WISH_HISTORY_KEY: 祈願記錄
@@ -631,9 +634,9 @@ REGISTER_COMMAND_PC_DIRECTIONS: |
   6. 按 `ENTER` 將鏈接複製到剪貼板
   7. 點擊下面的按鈕並在輸入框中粘貼鏈接
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
-  After the 3.0 update, users can no longer simply copy and paste the history link on Android devices anymore.
+  請按照這段視頻中的說明獲取您的願望歷史 URL：
 
-  We are currently looking for a way to retrieve the history link on Android devices. Please check back later.
+  https://youtu.be/CeQQoFKLwPY
 REGISTER_COMMAND_IOS_DIRECTIONS: |
   查看 Kaizer 的 [Stream App Guide](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) 以了解帶有圖片的詳細步驟。
   1.打開原神並轉到Wish屏幕
@@ -830,8 +833,8 @@ CONGRATULATIONS_KEY: 恭喜！
 ABYSS_CONGRATULATE_MESSAGE: |
   恭喜{user}完美*掃蕩*螺旋深淵！ <:spiralabyss:1000079902596411482> <@&{role_id}> 指定角色 <a:check:956327345717907507>
 THEATER_CONGRATULATE_MESSAGE: |
-  Congratulations {user} on perfectly *clearing* Act 10 of **Visionary Mode** in Imaginarium Theater!
-  {heraldry_emoji} <@&{role_id}> Role Given <a:check:956327345717907507>
+  恭喜 {user} 完美 *清除* 想像劇院的 **月亮模式**！
+  {heraldry_emoji} <@&{role_id}> 角色已授予 <a:check:956327345717907507>
 ONSLAUGHT_CONGRATULATE_MESSAGE: |
   恭喜 {user} 完美*清除* **難度 {difficulty_level}** 的冥界襲擊！
   {dire_emoji} <@&{role_id}> 角色已給予 <a:check:956327345717907507>
@@ -1612,7 +1615,7 @@ INVOKATION_SHOWCASE: "卡牌展示櫃"
 INVOKATION_SUMMARY: "交易卡摘要"
 DAILY_ALREADY_CLAIMED: 您已經領取了每日獎勵。
 UNABLE_TO_CLAIM: 無法領取每日獎勵。
-COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </accounts:{command_id}> to register.
+COOKIE_RESET_MESSAGE: 在重置您的 Genshin 帳號密碼後，cookies 將會 **重置**，為了使用此指令，您必須 **重新驗證** 您的 HoYoLAB 帳號。使用指令 </reauthenticate:{command_id}> 進行重新驗證。
 INVALID_COOKIE_KEY: 無效的 Cookie
 TEST_NOTIFICATION_KEY: 測試通知
 TEST_NOTIFICATION_TITLE: Genshin Wizard | 通知測試
@@ -1744,9 +1747,9 @@ ERROR_GENSHIN_COMMAND_ONLY_DESCRIPTION: |
 CHARACTER_GUIDE_LIST_SECTION_TITLE: Genshin Impact 角色指南
 PROCESSING_MESSAGE: 正在處理請求/操作，請稍候 **耐心**...
 ACCOUNT_CANNOT_REDEEM: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard or your account was not properly configured initially.
+  你好，旅行者！抱歉造成不便，但看起來您的帳號目前 **無法兌換代碼**。您必須重新驗證您的 HoYoLAB 帳號才能兌換代碼！
 
-  In order to use this command/feature, you must relink your HoYoLAB account through </accounts:{command_id}>.
+  為了使用此指令/功能，您必須通過 </reauthenticate:{command_id}> 重新驗證您的 HoYoLAB 帳號。
 VIEW_ACCOUNTS_KEYS: 查看帳號
 NOT_YET_EXPLORED: 尚未探索！
 EXPLORATION_PROGRESS: 探索進度
@@ -1769,7 +1772,7 @@ FASTEST_ACT_KEY: 最快的幕
 HIGHEST_DAMAGE_DEALT_LABEL: 最高傷害
 TRIAL_KEY: 試煉
 SUPPORT_KEY: 支援
-THEATER_COMMAND_FOOTER: "Note: Theater data may be incorrectly shown or missing data, if this is the case, do keep in mind that theater data can generally take anywhere from 1-3 hours to update!"
+THEATER_COMMAND_FOOTER: "注意：想像劇院數據可能需要 1-3 小時才能更新，因為 Hoyo 的 API 限制。"
 IMAGINARIUM_THEATER_DESCRIPTION: 查看您的想像劇場進度統計
 THEATER_LEADERBOARD_PLACEHOLDER: 選擇一個月相以查看...
 VIEW_THEATER_TEAM: 查看想像劇場陣容
@@ -1797,7 +1800,7 @@ MAGIC_LABEL: 卓越
 THEATER_NOT_UNLOCKED: 想像劇院尚未為您的帳號解鎖！
 CHARACTER_NOT_IN_ACCOUNT: 在您的帳號中找不到角色 `{name}`！
 ONSLAUGHT_NOT_UNLOCKED: 冥界突襲尚未為您的帳號解鎖！
-ONSLAUGHT_COMMAND_FOOTER: "Note: Stygian Onslaught data may be incorrectly shown or missing data, if this is the case, do keep in mind that Stygian Onslaught data can generally take anywhere from 1-3 hours to update!"
+ONSLAUGHT_COMMAND_FOOTER: "注意：冥界突襲數據可能需要 1-3 小時才能更新，因為 Hoyo 的 API 限制。"
 NO_ONSLAUGHT_DATA: "沒有冥界突襲數據"
 ONSLAUGHT_COMMAND_STATISTICS_CREDIT: 用戶 {name} 的冥界突襲統計
 ONSLAUGHT_ARCHIVE_DESCRIPTION: |
@@ -1887,7 +1890,7 @@ LOGIN_ACCOUNT_REGISTRATION: Genshin Wizard HoYoLAB帳戶註冊
 LOGIN_ACCOUNT_EMAIL_VERIFICATION: 帳戶註冊 | 需要電子郵件驗證
 LOGIN_ACCOUNT_REGISTRATION_PROCESSING: 您好，旅行者，我們正在處理您的帳戶註冊請求。請稍候，我們將花一些時間來收集您的帳戶詳細信息。
 LOGIN_ACCOUNT_REGISTRATION_FAILED: 帳戶註冊失敗
-LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: Hello Traveler, it seems that we were unable to register your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error.
+LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: 你好，旅行者，看起來我們無法註冊您的帳號。請稍後再試，或聯繫 **[Genshin Wizard 支持團隊](https://genshinwizard.com/support)** 如果您認為這是一個錯誤。
 LOGIN_REGISTRATION_METHOD: "註冊方式：**{method}**"
 LOGIN_REGISTRATION_STATUS: "狀態：**{status}**"
 LOGIN_STATUS_PROCESSING: 處理中
@@ -1898,7 +1901,7 @@ REAUTHENTICATION_SUCCESS_TITLE: 重新驗證成功
 REAUTHENTICATION_SUCCESS: 您已**成功**重新驗證您的HoYoLAB帳戶！您現在可以再次使用某些Genshin Wizard功能。
 NO_REAUTH_ACCOUNT_FOUND: 未找到可重新驗證的現有HoYoLab帳戶！
 REAUTHENTICATION_FAILED_TITLE: 重新驗證失敗
-REAUTHENTICATION_FAILED: Hello Traveler, it seems that we were unable to reauthenticate your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error.
+REAUTHENTICATION_FAILED: 你好，旅行者，看起來我們無法重新驗證您的帳號。請稍後再試，或聯繫 **[Genshin Wizard 支持團隊](https://genshinwizard.com/support)** 如果您認為這是一個錯誤。
 EMAIL_VERIFICATION_KEY: 電子郵件驗證
 VERIFICATION_CODE_KEY: 驗證碼
 LOGIN_STATUS_SUCCESS_DESCRIPTION: 恭喜！您已成功註冊Genshin Wizard的HoYoLAB帳戶。您現在可以使用某些Genshin Wizard功能。
