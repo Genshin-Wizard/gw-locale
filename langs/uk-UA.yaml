@@ -162,7 +162,7 @@ CODE_REDEEM_PROGRESS: |
   *Будь ласка, почекайте, поки ми обробимо ваш код обміну...*
   <a:loading:1015667958237900801> Спроба обміняти код `{code}`
 HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Прострочені куки
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Привіт, Подорожуючий! Схоже, що ваші куки для викупу кодів HoYoLAB **вичерпалися**! Використайте команду </reauthenticate:{command_id}> та заверште процес повторної аутентифікації облікового запису, щоб **оновити** свої куки облікового запису HoYoLAB.
 GENSHIN_WIZARD_INFORMATION: |
 
 CODE_REDEEM_SUCCESS: "*Коди обміну успішно оброблені!*"
@@ -289,19 +289,19 @@ INFO_COMMAND_CACHE_DESCRIPTION: |
   <:na:975828401900359711> **А що, якщо я хочу видалити старі побудови?**
   Не бійтеся! Ви зможете керувати своїми кешованими побудовами прямо з цього повідомлення! Використовуйте інтерфейс нижче, щоб видалити конкретних персонажів або всіх з кешу Genshin Wizard.
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard Custom Art Feature**
-  Hey Traveler, it looks like you're trying to use Genshin Wizard's **Custom Art** feature! This feature is only available to Genshin Wizard Premium users.
+  <:information:1034639378410115103> **Функція Кастомного Мистецтва Genshin Wizard**
+  Привіт, Подорожуючий, здається, ви намагаєтеся використовувати функцію **Кастомного Мистецтва** Genshin Wizard! Ця функція доступна лише для користувачів Genshin Wizard Premium.
 
-  You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Premium Page Information**](https://)!
+  Ви можете дізнатися більше про Genshin Wizard Premium, використавши команду </premium:{command_id}>, або відвідавши нашу [**Сторінку інформації про Premium**](https://)!
 PURCHASE_PREMIUM: Придбати Преміум
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Привіт, Подорожуюче, ви можете керувати лише кастомним мистецтвом для своїх **власних персонажів**!
 GENSHIN_WIZARD_CUSTOM_ART: Кастомне мистецтво Genshin Wizard
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
+  **Налаштуйте інфографіку**
+  Привіт, Подорожуючий, натисніть на посилання або кнопку нижче, щоб **налаштувати** інфографіку для цього персонажа! <a:PaimonCookies:992302701838864454>
   ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://genshinwizard.com/premium)
+  Інфографіка для {character}```
+  > <:Settings:1046877233626742925> [**Натисніть тут, щоб налаштувати мистецтво**](https://genshinwizard.com/user/art)
 GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Перейти до панелі управління
 REMOVE_CHARACTERS_FROM_CACHE: Видалити персонажів з кешу...
 INFO_COMMAND_CACHE_DELETE_SELECTED: Успішно видалено вибраних персонажів з кешу Genshin Wizard!
@@ -455,9 +455,9 @@ USE_COUNT_KEY: Кількість використань
 IMPORT_ERROR: Помилка імпорту!
 FOOTER_ERROR_DESCRIPTION: Якщо ви вважаєте, що це помилка, будь ласка, зв'яжіться з членом команди.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  Дані, які ви намагаєтеся імпортувати, не **підтримуються**. Ми наразі *дозволяємо* імпорт лише з наступних:
   {supported_file_types}
-  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
+  Зверніться до нашої [**Документації**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) для отримання додаткової інформації.
 IMPORT_COMMAND_TITLE: Genshin Wizard | Імпорт історії бажань
 IMPORT_COMMAND_FILE_DETECTED: |
   **Виявлено джерело імпорту: `{source}`**
@@ -466,15 +466,15 @@ IMPORT_COMMAND_TAMPERED: Дані, які ви намагаєтеся імпор
 IMPORT_COMMAND_BANNER_IMPORTED: Успішно імпортовано `{number_wishes}` бажань для банера {banner_name}!
 IMPORT_COMMAND_SUCCESS: Успішно імпортовано `{total_wishes}` нових бажань з усіх банерів! Тепер ви можете використовувати команду </history:{command_id}> для перегляду додаткової інформації про ваші бажання.
 IMPORT_COMMAND_LOG: |
-  **User:** {user} | `{user_id}`
-  **Name:** `{name}`
-  **Guild:** `{guild_id}` | `{guild_name}`
+  **Користувач:** {user} | `{user_id}`
+  **Ім'я:** `{name}`
+  **Гільдія:** `{guild_id}` | `{guild_name}`
 
-  **Detected Import Source:** `{source}`
-  **Total:** `{total}` wishes imported!
-  > 3-Stars: `{three_star}`
-  > 4-Stars: `{four_star}`
-  > 5-Stars: `{five_star}`
+  **Виявлене джерело імпорту:** `{source}`
+  **Всього:** `{total}` бажань імпортовано!
+  > 3-Зірки: `{three_star}`
+  > 4-Зірки: `{four_star}`
+  > 5-Зірки: `{five_star}`
 IMPORT_COMMAND_NOT_REGISTERED: Ви повинні вже бути **зареєстровані**, щоб імпортувати існуючу історію бажань! Спробуйте імпортувати знову після реєстрації за допомогою команди </accounts:{command_id}>.
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: Посилання на історію закінчилося!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Ваше посилання на історію **закінчилося**! Будь ласка, оновіть за допомогою команди </refresh:{command_id}> перед спробою імпорту!
@@ -525,25 +525,28 @@ PRIVACY_SETTING_TITLE: Налаштування конфіденційності
 PRIVACY_SETTING_DESCRIPTION: Змініть налаштування конфіденційності Genshin Wizard тут.
 PRIVACY_SETTING_KEY: Налаштування конфіденційності
 PRIVACY_SETTING_BRIEF: |
-  **UID Privacy:** {uid_privacy}
-  **Wish History Privacy:** {wish_privacy}
-  **Stats Privacy:** {stats_privacy}
-  **Abyss Privacy:** {abyss_privacy}
-  **Info Privacy:** {info_privacy}
-  **Imaginarium Theater Privacy:** {theater_privacy}
+  **Приватність UID:** {uid_privacy}
+  **Приватність історії бажань:** {wish_privacy}
+  **Приватність статистики:** {stats_privacy}
+  **Приватність виставки персонажів:** {info_privacy}
+  **Приватність Спірального Безодні:** {abyss_privacy}
+  **Приватність Театру Імаджинарію:** {theater_privacy}
+  **Приватність Стегійського Наступу:** {onslaught_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **UID Privacy:** {uid_privacy}
-  > *Hide your UID from showing up anywhere*
-  **Wish History Privacy:** {wish_privacy}
-  > *Hide your Wish History from showing up anywhere (`/history`)*
-  **Stats Privacy:** {stats_privacy}
-  > *Hide your Genshin Stats Progression from showing up anywhere (`/statistics`)*
-  **Abyss Privacy:** {abyss_privacy}
-  > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
-  **Info Privacy:** {info_privacy}
-  > *Hide your showcase builds information from showing up anywhere (`/info`)*
-  **Imaginarium Theater Privacy:** {theater_privacy}
-  > *Hide your Imaginarium Theater Progression from showing up anywhere (`/imaginarium-theater`)
+  **Приватність UID:** {uid_privacy}
+  > *Сховати ваш UID, щоб він не з'являвся ніде*
+  **Приватність історії бажань:** {wish_privacy}
+  > *Сховати вашу історію бажань, щоб вона не з'являлася ніде (`/history`)*
+  **Приватність статистики:** {stats_privacy}
+  > *Сховати вашу прогресію статистики Genshin, щоб вона не з'являлася ніде (`/statistics`)*
+  **Приватність виставки персонажів:** {info_privacy}
+  > *Сховати інформацію про ваші виставкові збірки, щоб вона не з'являлася ніде (`/character-showcase`)*
+  **Приватність Спірального Безодні:** {abyss_privacy}
+  > *Сховати вашу прогресію Спірального Безодні Genshin, щоб вона не з'являлася ніде (`/abyss`)*
+  **Приватність Театру Імаджинарію:** {theater_privacy}
+  > *Сховати вашу прогресію Театру Імаджинарію, щоб вона не з'являлася ніде (`/imaginarium-theater`)*
+  **Приватність Стегійського Наступу:** {onslaught_privacy}
+  > *Сховати вашу прогресію Стегійського Наступу, щоб вона не з'являлася ніде (`/stygian-onslaught`)*
 ALL_KEY: Всі
 RESET_KEY: Скинути
 WISH_HISTORY_KEY: Історія бажань
@@ -589,7 +592,7 @@ PREVIOUS_ABYSS_DESCRIPTION: |
   **Попередня місячна фаза**
   **Час початку:** <t:{timestamp_start}:F>
   **Час закінчення:** <t:{timestamp_end}:F>
-ABYSS_COMMAND_FOOTER: "Note: Abyss data may be incorrectly shown or missing data, if this is the case, do keep in mind that abyss data can generally take anywhere from 1-3 hours to update!"
+ABYSS_COMMAND_FOOTER: "Примітка: дані Спірального Безодні можуть оновлюватися від 1 до 3 годин через обмеження API Hoyo."
 ABYSS_MISSING_DATA_FOOTER: "Примітка: Ці дані, здається, не містять деякої інформації! Це, ймовірно, пов'язано з тим, що ця інформація раніше не зберігалася в базі даних або дані ще не були оновлені."
 ABYSSAL_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Безодня Архіви**
@@ -636,22 +639,13 @@ REGISTER_COMMAND_PC_DIRECTIONS: |
   6. Натисніть `ENTER`, щоб скопіювати посилання в буфер обміну
   7. Натисніть кнопку нижче та вставте посилання в поле введення
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
-  After the 3.0 update, users can no longer simply copy and paste the history link on Android devices anymore.
+  Слідуйте інструкціям у цьому відео, щоб отримати URL вашої історії бажань:
 
-  We are currently looking for a way to retrieve the history link on Android devices. Please check back later.
+  https://youtu.be/CeQQoFKLwPY
 REGISTER_COMMAND_IOS_DIRECTIONS: |
-  Check out Kaizer's [Stream App Guide](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) for detailed steps with pictures.
+  Слідуйте інструкціям у цьому відео, щоб отримати URL вашої історії бажань:
 
-  1. Open Genshin Impact and go to the Wish screen
-  2. While Genshin Impact is still open, go to Stream app and tap Sniff Now
-  3. Go back to Genshin Impact and open you wish history
-  4. When your wish list is loaded go back to Stream app and tap Stop sniffing
-  5. Then tap on Sniff History and choose the first item in the list
-  6. Tap the request starting by `GET https://hk4e-api-os/...`
-  7. Tap the request tab
-  8. Tap the long text starting by `GET /event/gacha_info...`
-  9. Finally, tap Copy Url
-  10. Click the button below and paste the link in the input field.
+  https://youtu.be/m833g8ZNWVA
 RESELECT_PLATFORM_KEY: Перезберіть платформу
 REGISTER_COMMAND_CONSOLE_DIRECTIONS: Після оновлення 2.3 посилання більше не працюють. Однак, все ще можливо отримати ключ, зв'язавши свій обліковий запис Playstation з обліковим записом Mihoyo та використовуючи метод ПК/мобільний.
 REGISTER_COMMAND_PLATFORM_SELECTION: Яку платформу ви використовуєте для гри в Genshin Impact?
@@ -826,12 +820,12 @@ USER_TITLE: Користувач {user}
 OVERVIEW_KEY: Огляд
 GENERAL_OVERVIEW_KEY: Загальний огляд
 GENERAL_OVERVIEW_SECTION: |
-  Adventure Rank: {adventure_rank}
-  Total achievements: {achievement_number}
-  Total active days: {playtime}
-  Characters: **{char_count}**/{total_char}
-  Spiral Abyss: {abyss}
-  Region: {region}
+  -# Ранг пригод: {adventure_rank}
+  -# Загальна кількість досягнень: {achievement_number}
+  -# Загальна кількість активних днів: {playtime}
+  -# Персонажі: **{char_count}**/{total_char}
+  -# Спіральна Безодня: {abyss}
+  -# Регіон: {region}
 CHEST_PROGRESSION_KEY: Прогрес скарбів
 EXPLORATION_AND_OCULI: Дослідження та Окуляри
 NOT_YET_UNLOCKED: Ще не розблоковано!
@@ -841,8 +835,8 @@ ABYSS_CONGRATULATE_MESSAGE: |
   Вітаємо {user} з ідеальним *очищенням* Спірального Безодні!
   <:spiralabyss:1000079902596411482> Роль <@&{role_id}> надано <a:check:956327345717907507>
 THEATER_CONGRATULATE_MESSAGE: |
-  Congratulations {user} on perfectly *clearing* Act 10 of **Visionary Mode** in Imaginarium Theater!
-  {heraldry_emoji} <@&{role_id}> Role Given <a:check:956327345717907507>
+  Вітаємо {user} з ідеальним *очищенням* Театру Імаджинарію в **Лунному Режимі**!
+  {heraldry_emoji} <@&{role_id}> Роль надана <a:check:956327345717907507>
 ONSLAUGHT_CONGRATULATE_MESSAGE: |
   Вітаємо {user} з ідеальним *очищенням* **Складності {difficulty_level}** для Стигійського Наступу!
   {dire_emoji} Роль <@&{role_id}> надано <a:check:956327345717907507>
@@ -1093,14 +1087,14 @@ GACHA_NO_BANNER_WISHES: У вас немає бажань для банера {b
 GACHA_SUMMARY_FOOTER: "Резюме бажань Genshin для: {user}"
 GENSHIN_WISH_SUMMARY: Резюме бажань Genshin
 SLASH_COMMAND_NEED_HELP: |
-  <:blurpleannouncement:1020402170127982712> **HAVING ISSUES? FEAR NOT!** <:KeqingHeart:952837574878199808>
+  <:blurpleannouncement:1020402170127982712> **Є ПРОБЛЕМИ? НЕ БІЙТЕСЯ!** <:KeqingHeart:952837574878199808>
 
-  Hello Traveler, it looks like you're having difficulty using **slash commands**!
+  Привіт, Подорожуючий, здається, у вас виникли труднощі з використанням **слеш-команд**!
 
-  Remember to **__click__** on the command you want to use and keep in mind that you **do not** have to pass your own name as a parameter!
+  Не забудьте **__натиснути__** на команду, яку ви хочете використовувати, і пам'ятайте, що вам **не потрібно** передавати своє ім'я як параметр!
 
-  <a:7094whitecheck:1020160260637462618> Happy Wishing Fellow Traveler,
-  Paimon
+  <a:7094whitecheck:1020160260637462618> Щасливого бажання, товаришу Подорожуючий,
+  Паймон
 SLASH_COMMAND_HELP_GUIDE: <:verifiedlight:939225784936202241> Для **допомоги** використайте команду </help:982685016012226590>!
 GENSHIN_WIZARD_SERVER_JOIN_TITLE: Genshin Wizard прибув!
 GENSHIN_WIZARD_SERVER_JOIN_DESCRIPTION: |
@@ -1629,7 +1623,7 @@ INVOKATION_SHOWCASE: "Вітрина Карт"
 INVOKATION_SUMMARY: "Резюме Торгових Карт"
 DAILY_ALREADY_CLAIMED: Ви вже отримали свою щоденну винагороду.
 UNABLE_TO_CLAIM: Не вдалося отримати вашу щоденну винагороду.
-COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </accounts:{command_id}> to register.
+COOKIE_RESET_MESSAGE: Після скидання пароля вашого облікового запису Genshin куки **скидаються**, щоб використовувати цю команду, вам потрібно **повторно аутентифікувати** свій обліковий запис HoYoLAB. Використайте команду </reauthenticate:{command_id}> для повторної аутентифікації.
 INVALID_COOKIE_KEY: Недійсний Кукі
 TEST_NOTIFICATION_KEY: Тестове Повідомлення
 TEST_NOTIFICATION_TITLE: Genshin Wizard | Тест Повідомлення
@@ -1761,9 +1755,9 @@ ERROR_GENSHIN_COMMAND_ONLY_DESCRIPTION: |
 CHARACTER_GUIDE_LIST_SECTION_TITLE: Посібники по Персонажах Genshin Impact
 PROCESSING_MESSAGE: Обробка запиту/дії, будь ласка, будь **терплячим**...
 ACCOUNT_CANNOT_REDEEM: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard or your account was not properly configured initially.
+  Привіт, Подорожуючий! Вибачте за незручності, але, здається, ваш обліковий запис **не може викупити коди** в даний момент. Вам потрібно повторно аутентифікувати свій обліковий запис HoYoLAB, щоб викупити коди!
 
-  In order to use this command/feature, you must relink your HoYoLAB account through </accounts:{command_id}>.
+  Щоб використовувати цю команду/функцію, вам потрібно повторно аутентифікувати свій обліковий запис HoYoLAB через </reauthenticate:{command_id}>.
 VIEW_ACCOUNTS_KEYS: Переглянути Акаунт(и)
 NOT_YET_EXPLORED: Ще Не Досліджено!
 EXPLORATION_PROGRESS: Прогрес Дослідження
@@ -1786,7 +1780,7 @@ FASTEST_ACT_KEY: Найшвидший акт
 HIGHEST_DAMAGE_DEALT_LABEL: Найвищий завданий шкоди
 TRIAL_KEY: Випробування
 SUPPORT_KEY: Підтримка
-THEATER_COMMAND_FOOTER: "Note: Theater data may be incorrectly shown or missing data, if this is the case, do keep in mind that theater data can generally take anywhere from 1-3 hours to update!"
+THEATER_COMMAND_FOOTER: "Примітка: дані Театру Імаджинарію можуть оновлюватися від 1 до 3 годин через обмеження API Hoyo."
 IMAGINARIUM_THEATER_DESCRIPTION: Перегляньте статистику прогресу вашого Імаджинаріуму
 THEATER_LEADERBOARD_PLACEHOLDER: Виберіть місячну фазу для перегляду...
 VIEW_THEATER_TEAM: Перегляд складу Імаджинаріуму
@@ -1814,7 +1808,7 @@ MAGIC_LABEL: Вражаючий
 THEATER_NOT_UNLOCKED: Імаджинаріум ще не розблоковано для вашого акаунту!
 CHARACTER_NOT_IN_ACCOUNT: Персонаж `{name}` не знайдено у вашому акаунті!
 ONSLAUGHT_NOT_UNLOCKED: Стигійський наступ ще не розблоковано для вашого акаунту!
-ONSLAUGHT_COMMAND_FOOTER: "Note: Stygian Onslaught data may be incorrectly shown or missing data, if this is the case, do keep in mind that Stygian Onslaught data can generally take anywhere from 1-3 hours to update!"
+ONSLAUGHT_COMMAND_FOOTER: "Примітка: дані Стегійського Наступу можуть оновлюватися від 1 до 3 годин через обмеження API Hoyo."
 NO_ONSLAUGHT_DATA: "Немає даних про стигійський наступ"
 ONSLAUGHT_COMMAND_STATISTICS_CREDIT: Статистика стигійського наступу користувача {name}
 ONSLAUGHT_ARCHIVE_DESCRIPTION: |
@@ -1904,7 +1898,7 @@ LOGIN_ACCOUNT_REGISTRATION: Реєстрація облікового запис
 LOGIN_ACCOUNT_EMAIL_VERIFICATION: Реєстрація облікового запису | Потрібна перевірка електронної пошти
 LOGIN_ACCOUNT_REGISTRATION_PROCESSING: Привіт, Подорожуюче, ми обробляємо ваш запит на реєстрацію облікового запису. Будь ласка, зачекайте, поки ми зберемо деталі вашого облікового запису.
 LOGIN_ACCOUNT_REGISTRATION_FAILED: Не вдалося зареєструвати обліковий запис
-LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: Hello Traveler, it seems that we were unable to register your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error.
+LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: Привіт, Подорожуючий, здається, ми не змогли зареєструвати ваш обліковий запис. Будь ласка, спробуйте ще раз пізніше або зв'яжіться з **[Командою підтримки Genshin Wizard](https://genshinwizard.com/support)**, якщо ви вважаєте, що це помилка.
 LOGIN_REGISTRATION_METHOD: "Метод реєстрації: **{method}**"
 LOGIN_REGISTRATION_STATUS: "Статус: **{status}**"
 LOGIN_STATUS_PROCESSING: Обробка
@@ -1915,7 +1909,7 @@ REAUTHENTICATION_SUCCESS_TITLE: Повторна автентифікація у
 REAUTHENTICATION_SUCCESS: Ви **успішно** повторно авторизували свій обліковий запис HoYoLAB! Тепер ви знову можете використовувати вибрані функції Genshin Wizard.
 NO_REAUTH_ACCOUNT_FOUND: Не знайдено існуючого облікового запису HoYoLab для повторної авторизації!
 REAUTHENTICATION_FAILED_TITLE: Не вдалося повторно авторизуватися
-REAUTHENTICATION_FAILED: Hello Traveler, it seems that we were unable to reauthenticate your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error.
+REAUTHENTICATION_FAILED: Привіт, Подорожуючий, здається, ми не змогли повторно аутентифікувати ваш обліковий запис. Будь ласка, спробуйте ще раз пізніше або зв'яжіться з **[Командою підтримки Genshin Wizard](https://genshinwizard.com/support)**, якщо ви вважаєте, що це помилка.
 EMAIL_VERIFICATION_KEY: Перевірка електронної пошти
 VERIFICATION_CODE_KEY: Код перевірки
 LOGIN_STATUS_SUCCESS_DESCRIPTION: Вітаємо! Ви успішно зареєстрували свій обліковий запис HoYoLAB у Genshin Wizard. Тепер ви можете використовувати вибрані функції Genshin Wizard.
