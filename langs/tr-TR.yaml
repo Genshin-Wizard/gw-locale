@@ -23,7 +23,7 @@ PING_KEY: Gecikme
 UNKNOWN_KEY: Bilinmeyen
 USER_NOT_PUBLIC: Kullanıcı verisi herkese açık değil.
 INVITE_INFORMATION: Bu botu kendi sunucunuza davet etmek için aşağıdaki bağlantıyı kullanın.
-REQUESTED_BY: "{user} tarafından talep edildi"
+REQUESTED_BY: '{user} tarafından talep edildi'
 SUPPORT_GWIZ_TITLE: Genshin Sihirbazı'nı Destekleyin
 SUPPORT_GWIZ_DESC: Genshin Sihirbazı'nın gelişimini destekleyin.
 DONATE_KEY: Bağışta Bulun
@@ -33,8 +33,8 @@ VOTE_BOT: Bot için Oy Ver
 VOTE_SERVER: Sunucu için Oy Ver
 VOTE_BOT_LINK: Bot Oy Verme Bağlantısı
 VOTE_SERVER_LINK: Sunucu Oy Verme Bağlantısı
-VOTE_BOT_BUTTON: "Oy Ver [Bot]"
-VOTE_SERVER_BUTTON: "Oy Ver [Server]"
+VOTE_BOT_BUTTON: Oy Ver [Bot]
+VOTE_SERVER_BUTTON: Oy Ver [Server]
 DEVELOPERS_KEY: Geliştiriciler
 SERVER_KEY: Sunucu
 SERVERS_KEY: Sunucular
@@ -72,13 +72,13 @@ TRUTH_COMMAND_RESPONSES:
 TRUTH_COMMAND_TITLE: Paimon'un İlmi
 QUESTION_KEY: Soru
 RESPONSE_KEY: Yanıt
-PREFIX_COMMAND_CURRENT: "Bu sunucu için komut başlangıcı `{prefix}`"
+PREFIX_COMMAND_CURRENT: Bu sunucu için komut başlangıcı `{prefix}`
 PREFIX_TOO_LONG: Komut başlangıcı 5 karakterden fazla olamaz.
 PREFIX_TOO_SHORT: Komut başlangıcı 1 karakterden az olamaz.
 PREFIX_CHANGED_TITLE: Genshin Wizard | Komut başlangıcı değiştirme
 PREFIX_CHANGED_DESCRIPTION: |
   Komut başlangıcı başarıyla değiştirildi! Komutlar artık yeni başlangıç ile kullanılabilecek.
-  
+
   **Eski Komut başlagıcı** `{old_prefix}`
   **Yeni Komut başlangıcı:** `{new_prefix}`
 PREFIX_CHANGED_FOOTER: Genshin Wizard Komut Başlangıcı Ayarı
@@ -92,13 +92,13 @@ SEND_CODES_COMMAND_TITLE: Genshin Wizard | Geçerli Kodlar
 SEND_CODES_COMMAND_DESCRIPTION: |
   <:blurplelink:1020155547187691600> [***Aşşağıdaki butonlara basarak kullanılabilir!***](https://genshin.mihoyo.com/en/gift)
   <:blurpleannouncement:1020402170127982712> **Not:** Kodların süresi hızlıca biter, bu yüzden onları en kısa sürede kullandığınıza emin olun!
-  
+
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
 SEND_CODES_REDEEM_AUTOMATICALLY: Kodları Otomatik Kullan
 SEND_CODES_DIRECT_LINK: Direkt link
 SEND_CODES_REDEEMABLE_CODES: Kullanılabilir Kodlar
 SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | Kullanılabilir Kodlar
-SEND_CODES_REDEMPTION_CODES_CONFIRMATION: "Successfully sent redemption codes to {channel}!*"
+SEND_CODES_REDEMPTION_CODES_CONFIRMATION: Successfully sent redemption codes to {channel}!*
 MESSAGE_LINK: Mesaj Bağlantısı
 CLICK_HERE: Buraya Tıkla
 INFO_SELECT_CHARACTER: Karakter Seçin
@@ -108,18 +108,18 @@ INTERMISSION_MESSAGE: İnfografik oluşturuluyor, lütfen **sabırlı** olun...
 MENU_COOLDOWN_TITLE: O menü bekleme süresinde!
 BUTTON_COOLDOWN_TITLE: O buton bekleme süresinde!
 COMMAND_COOLDOWN_TITLE: O komut bekleme süresinde!
-MENU_COOLDOWN_VALUE: "Özelliklere çok hızlı tıklıyorsun! Lütfen **{cooldown}** saniye sonra tekrar dene."
+MENU_COOLDOWN_VALUE: Özelliklere çok hızlı tıklıyorsun! Lütfen **{cooldown}** saniye sonra tekrar dene.
 CHARACTER_SHOWCASE_TITLE: Karakter Tanıtımı
 ERROR_RATELIMIT: Kullanıcı şu anda hız sınırlamasına tabi.
-ERROR_COMMAND_COOLDOWN_VALUE: "Bu komutu tekrar {cooldown} saniye içinde kullanmayı deneyin."
-ERROR_COMMAND_LONG_COOLDOWN_VALUE: "Bu komutu tekrar <t:{cooldown}:R> içinde kullanmayı deneyin."
+ERROR_COMMAND_COOLDOWN_VALUE: Bu komutu tekrar {cooldown} saniye içinde kullanmayı deneyin.
+ERROR_COMMAND_LONG_COOLDOWN_VALUE: Bu komutu tekrar <t:{cooldown}:R> içinde kullanmayı deneyin.
 ERROR_KEY: Hata!
 SUCCESSFUL_KEY: Başarılı!
 ERROR_MISSING_PERMISSION: Bu komudu kullanmak için yetkiniz yok!
 EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | Özel Komut
 EXCLUSIVE_COMMAND_DESCRIPTION: |
   Merhaba Seyyah! Bu komutu burada **kullanamazsın**, bu komut yalnızca bir sunucuda kullanılabilir!
-  
+
   Bu komutu kullanmak istiyorsan, [Resmi Discord'umuza](https://genshinwizard.com/discord) katılmayı düşünebilirsin.
 ERROR_COMMAND_INVOKE: Bu komut için doğru parametreleri kullandığından emin ol!
 ERROR_PRIVACY_SETTING_TITLE: Gizli | Görecek bir şey yok!
@@ -128,41 +128,41 @@ ERROR_ONGOING_UPDATE_TITLE: Genshin Wizard | Devam Eden Güncelleme!
 ERROR_ONGOING_UPDATE_DESCRIPTION: Merhaba Seyyah! Genshin Wizard şu anda **bakımda** ve bu komut geçici olarak *devre dışı bırakıldı*. Lütfen *daha sonra* tekrar dene.
 ERROR_PRIVATE_COMMAND_DESCRIPTION: |
   Merhaba Seyyah! Bu komutu burada **kullanamazsın**, bu bir Genshin Wizard sunucu {command_type}*özel* komutudur!
-  
+
   Bu komutu kullanmak istiyorsan, [Resmi Discord'umuza](https://genshinwizard.com/discord) katılmayı düşünebilirsin.
 ERROR_PREMIUM_COMMAND_TITLE: Genshin Sihirbazı Premium
-ERROR_PREMIUM_COMMAND_DESCRIPTION: "Merhaba Seyyah! Bu komutu **kullanamazsın**, bu komut yalnızca **Premium Abonelere** açıktır. Bu özelliği kullanmak istiyorsan, </premium:{command_id}> komutunu kullanarak daha fazla bilgi almayı düşünebilirsin."
+ERROR_PREMIUM_COMMAND_DESCRIPTION: Merhaba Seyyah! Bu komutu **kullanamazsın**, bu komut yalnızca **Premium Abonelere** açıktır. Bu özelliği kullanmak istiyorsan, </premium:{command_id}> komutunu kullanarak daha fazla bilgi almayı düşünebilirsin.
 ERROR_BLACKLISTED_TITLE: Genshin Sihirbazı | Kara Listede
 ERROR_BLACKLISTED_DESCRIPTION: |
   Merhaba Seyyah! Genshin Wizard'dan **yasaklandın**!
-  
+
   Bunun bir hata olduğunu düşünüyorsan, [Resmi Discord'umuza](https://genshinwizard.com/discord) katılmayı düşünebilirsin.
 ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Sihirbazı | Üye Bulunamadı
 ERROR_MEMBER_NOT_FOUND_DESCRIPTION: Görmeye çalıştığın kişinin sunucuda hala bulunduğundan emin ol.
 ERROR_MISSING_REQUIRED_ARGUMENT: "Bir argümanı sağlamayı unuttun, lütfen doğru formatı kullan: ```{usage}```"
 ERROR_MISSING_REQUIRED_ATTACHMENT: "Bir ek sağlamayı unuttun, lütfen doğru formatı kullan: ```{usage} doğru ek ile.```"
-ERROR_MISSING_MANAGE_MESSAGE: "Merhaba Seyyah, bu kanal/guild içinde `Mesajları Yönet` iznine sahip değilim. Lütfen bu izni etkinleştir ve tekrar dene."
-ERROR_MISSING_SEND_MESSAGE: "Merhaba Seyyah, bu kanal/guild içinde `Mesaj Gönder` iznine sahip değilim. Lütfen bu izni etkinleştir ve tekrar dene."
+ERROR_MISSING_MANAGE_MESSAGE: Merhaba Seyyah, bu kanal/guild içinde `Mesajları Yönet` iznine sahip değilim. Lütfen bu izni etkinleştir ve tekrar dene.
+ERROR_MISSING_SEND_MESSAGE: Merhaba Seyyah, bu kanal/guild içinde `Mesaj Gönder` iznine sahip değilim. Lütfen bu izni etkinleştir ve tekrar dene.
 MESSAGE_KEY: Mesaj
-ERROR_EMPTY_BACKPACK: "Sırt çantan **boş**! Yolculuğuna başlamak için </wishsimulator:{command_id}> komutunu kullan!"
-ERROR_INTERACTION_MISMATCH: "Merhaba Seyyah! Bu **senin etkileşimin değil**! Bu komutu kendin kullanmak istiyorsan {command} komutunu kullan!"
-ERROR_INTERACTION_COOLDOWN: "Merhaba Seyyah! **Çok hızlı tıklıyorsun**! Lütfen tekrar denemeden önce **{cooldown} saniye** bekle."
+ERROR_EMPTY_BACKPACK: Sırt çantan **boş**! Yolculuğuna başlamak için </wishsimulator:{command_id}> komutunu kullan!
+ERROR_INTERACTION_MISMATCH: Merhaba Seyyah! Bu **senin etkileşimin değil**! Bu komutu kendin kullanmak istiyorsan {command} komutunu kullan!
+ERROR_INTERACTION_COOLDOWN: Merhaba Seyyah! **Çok hızlı tıklıyorsun**! Lütfen tekrar denemeden önce **{cooldown} saniye** bekle.
 ERROR_MESSAGE: Bir hata oluştu!
 FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | Geri Bildirim
-FEEDBACK_CONFIRMATION_DESCRIPTION: "<:yescheck:1021114525858136074> *Geri bildiriminiz başarıyla geliştiricilere gönderildi!*"
+FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *Geri bildiriminiz başarıyla geliştiricilere gönderildi!*
 FEEDBACK_LOG_RESPONSE: |
   > Kullanıcı: **{author_name}** | {author_mention}
   > Discord ID: `{author_id}`
-  
+
   **Geri Bildirim:**```{feedback}```
-NO_HOYOLAB_LINKED: "Henüz HoYoLAB hesabını bağlamadın. Hesabını bağlamak için </accounts:{command_id}> komutunu kullan."
+NO_HOYOLAB_LINKED: Henüz HoYoLAB hesabını bağlamadın. Hesabını bağlamak için </accounts:{command_id}> komutunu kullan.
 CODE_REDEEM_TITLE: Genshin Wizard | HoYoLAB Kod İade
 CODE_REDEEM_DESCRIPTION: "*İade kodunuzu işlerken lütfen bekleyin...*"
 CODE_REDEEM_PROGRESS: |
   *İade kodunuzu işlerken lütfen bekleyin...*
   <a:loading:1015667958237900801> `{code}` kodunu iade etmeye çalışılıyor
 HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Süresi Dolmuş Çerezler
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: "Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies."
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Bot'u Davet Et](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[Resmî Web Sitesi](https://www.genshinwizard.com)**
@@ -262,39 +262,39 @@ APP_COMMAND_DELETE_DESCRIPTION: Bir kullanıcının Genshin Wizard profilini sil
 APP_COMMAND_BLACKLIST_DESCRIPTION: Bir kullanıcıyı Genshin Wizard kullanmaktan yasakla.
 APP_COMMAND_DELIMPORT_DESCRIPTION: Bir kullanıcının içe aktarılan dilek geçmişi verilerini sil.
 EXPORT_NO_WISHES: İhracat için dilek yok.
-EXPORT_NO_BANNER_WISHES: "{banner} banner dilekleri bulunamadı."
+EXPORT_NO_BANNER_WISHES: '{banner} banner dilekleri bulunamadı.'
 EXPORT_NO_MESSAGE_PERMISSION: "Botun size özel bir mesaj gönderme izni **yok**. Lütfen *Discord gizlilik ayarlarınızda* `Sunucu üyelerinden doğrudan mesajlara izin ver` ayarının **açık** olduğundan emin olun."
 EXPORT_MESSAGE_SUCCESS: Dilek geçmişiniz başarıyla dışa aktarıldı ve size DM'ler aracılığıyla gönderildi.
-EXPORT_DM_DESCRIPTION: "Genshin Wizard, birçok popüler üçüncü taraf araç tarafından kullanılan [**UIGF v4.0**](https://uigf.org/en/) standardını destekler. Yedek verilerinizi güvenli bir yerde sakladığınızdan emin olun."
+EXPORT_DM_DESCRIPTION: Genshin Wizard, birçok popüler üçüncü taraf araç tarafından kullanılan [**UIGF v4.0**](https://uigf.org/en/) standardını destekler. Yedek verilerinizi güvenli bir yerde sakladığınızdan emin olun.
 INFO_COMMAND_INVALID_ARGUMENT: |
   **Geçersiz argüman geçirildi.**
-  
+
   Başka bir oyuncunun istatistiklerini görüntülemek için lütfen ya Discord Kullanıcısı **ya da** bir Genshin UID girin. İkisini birden girmek hata ile sonuçlanacaktır.
 INVALID_ARGUMENT_PASSED: |
   Geçersiz argüman geçirildi.
   Geçerli argüman `<discord user>`/`<genshin uid>`
-INFO_COMMAND_ENKA_ISSUE: "[**Enka.Network**](https://enka.network/u/{uid}) ile ilgili bir sorun var gibi görünüyor. Lütfen daha sonra tekrar deneyin."
+INFO_COMMAND_ENKA_ISSUE: '[**Enka.Network**](https://enka.network/u/{uid}) ile ilgili bir sorun var gibi görünüyor. Lütfen daha sonra tekrar deneyin.'
 ERROR_NO_USER_DATA: Bu kullanıcı için veri bulunamadı.
 WHAT_HAPPENED_TITLE: Ne oldu?
-WHAT_HAPPENED_VALUE: "The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference."
+WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
 WHAT_HAPPENED_FOOTER: Genshin Wizard, oyunda yapılan son değişiklikleri tanımak için beş dakikaya kadar zaman alabilir, lütfen bizimle sabırlı olun.
 INFO_COMMAND_SHOWCASE_TITLE: Karakter Tanıtımı
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: Enka.Network'te görüntüle
 REFRESHES_KEY: Yenilemeler
 INFO_COMMAND_CHARACTER_DETAILS: Karakter
-INFO_COMMAND_NOT_OWNER: "You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!"
+INFO_COMMAND_NOT_OWNER: You can only manage cached builds for your own characters! Use the </info:{command_id}> for more information!
 INFO_COMMAND_CACHE_DESCRIPTION: |
   **Genshin Wizard Önbelleği **<:INFORMATION_0_0:1019599343763857501><:INFORMATION_1_0:1019599344753717299><:INFORMATION_2_0:1019599345974247475>
-  
+
   <:information:1034639378410115103> **Önbellek nedir?**
   Genshin Wizard, tanıtımlarınızı *otomatik olarak* önbelleğe alır, böylece tanıtımınızı tekrar tekrar değiştirmekle endişelenmenize gerek kalmaz!
-  
+
   <:na:975828401900359711> **Eski tanıtımları silmek istersem ne olur?**
   Korkmayın! Önbelleğe alınmış tanıtımlarınızı bu mesajdan doğrudan yönetebileceksiniz! Belirli karakterleri veya hepsini Genshin Wizard önbelleğinizden silmek için aşağıdaki UI'yi kullanın.
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
   <:information:1034639378410115103> **Genshin Wizard Custom Art Feature**
   Hey Traveler, it looks like you're trying to use Genshin Wizard's **Custom Art** feature! This feature is only available to Genshin Wizard Premium users.
-  
+
   You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Premium Page Information**](https://)!
 PURCHASE_PREMIUM: Premium Satın Al
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Merhaba Seyyah, yalnızca **kendi karakterleriniz** için özel sanatı yönetebilirsiniz!
@@ -358,9 +358,9 @@ APP_CONTEXT_MENU_CHARACTERS: Karakterler
 APP_CONTEXT_MENU_WISH_HISTORY: Dilek Geçmişi
 WHITELIST_KEY_LOWERCASE: beyaz liste
 HISTORY_COMMAND_BANNER_TITLE: "{banner_name} Banner Dilekleri"
-SLASH_PAGINATION: "Sayfa {current_page}/{total_pages}"
-OF_PAGINATION: "{total_pages} sayfasından {current_page}. sayfa"
-HISTORY_COMMAND_TABLE_HEADER: Rarity | Pity | Name | Date
+SLASH_PAGINATION: Sayfa {current_page}/{total_pages}
+OF_PAGINATION: '{total_pages} sayfasından {current_page}. sayfa'
+HISTORY_COMMAND_TABLE_HEADER: "Rarity | Pity | Name | Date"
 HISTORY_COMMAND_GUARANTEE_INDICATOR: "**Garanti Pity: {indicator}**"
 HISTORY_LINK_EXPIRED: Geçmiş Bağlantısı Süresi Dolmuş
 HISTORY_COMMAND_LIFETIME_PULLS: Ömür Boyu Çekimler
@@ -382,14 +382,14 @@ LINK_HOYOLAB_TITLE: Genshin Wizard | HoYoLAB Hesabını Bağla
 LINKING_UID_TITLE: Genshin Wizard | UID Bağlama
 LINK_HOYOLAB_DESCRIPTION: |
   Genshin Wizard'ın HoYoLAB hesap bağlama sistemine hoş geldiniz.
-  
+
   **Bağlama Özellikleri:**
   > **1.** Oyun içindeki reçinelerinizi gerçek zamanlı olarak takip edin (otomatik bildirimleri ayarlayın).
   > **2.** Oyun içindeki sefer durumunu gerçek zamanlı olarak takip edin.
   > **3.** *Günlük Kontrol Ödülünüzü* doğrudan Discord'dan talep edin.
   > **4.** Spiral Abyss ilerlemeniz hakkında derinlemesine bilgi görüntüleyin.
   > **5.** Tüm mevcut karakterlerinizi içeren bir infografik görüntüleyin.
-  
+
   Başlamak için aşağıdaki kullanıcı kayıt seçeneklerinden birine tıklayın!
 HOYOLAB_AUTOCLAIM_TITLE: Genshin Wizard | Otomatik Günlük Giriş
 AUTOCLAIM_ALREADY_DISABLED: Otomatik HoYoLAB günlük girişi zaten devre dışı bırakıldı.
@@ -400,7 +400,7 @@ AUTOCLAIM_VOTE_REQUIREMENT: Otomatik talep etkinleştirmek için önce sunucumuz
 HOYOLAB_SIGN_IN_TITLE: Genshin Wizard | HoYoLAB Günlük Girişi
 HOYOLAB_SIGN_IN_REWARDS: |
   Günlük ödül başarıyla **talep edildi**!
-  
+
   Talep Edilen Ödüller: `{rewards}`
   Miktar: `x{amount}`
 HOYOLAB_MONTHLY_REWARDS_TITLE: Genshin Wizard | HoYoLAB Aylık Ödüller
@@ -412,14 +412,14 @@ HOYOLAB_INVALID_REDEEM: |
 CHINA_NOT_ALLOWED: CN kullanıcıları için kod talep etmek **desteklenmiyor**.
 HOYOLAB_OVERVIEW_TITLE: Genshin Wizard | HoYoLAB Genel Bakış
 HOYOLAB_LOADING_ACCOUNT: Hesap bilgileri yükleniyor...
-HOYOLAB_NOTES_UNAVAILABLE: "<:Error:1021889679857037372> Hesabınızın **Gerçek Zamanlı Notlar** bilgilerini alırken bir hata oluştu! Lütfen *daha sonra* tekrar deneyin veya yardım için [**Resmi Destek Sunucumuza**](https://genshinwizard.com/discord) katılın."
-HOYOLAB_GAME_RECORD_UNAVAILABLE: "<:Error:1021889679857037372> Hesabınızın **Oyun Kaydı** bilgilerini alırken bir hata oluştu! Lütfen *daha sonra* tekrar deneyin veya yardım için [**Resmi Destek Sunucumuza**](https://genshinwizard.com/discord) katılın."
+HOYOLAB_NOTES_UNAVAILABLE: <:Error:1021889679857037372> Hesabınızın **Gerçek Zamanlı Notlar** bilgilerini alırken bir hata oluştu! Lütfen *daha sonra* tekrar deneyin veya yardım için [**Resmi Destek Sunucumuza**](https://genshinwizard.com/discord) katılın.
+HOYOLAB_GAME_RECORD_UNAVAILABLE: <:Error:1021889679857037372> Hesabınızın **Oyun Kaydı** bilgilerini alırken bir hata oluştu! Lütfen *daha sonra* tekrar deneyin veya yardım için [**Resmi Destek Sunucumuza**](https://genshinwizard.com/discord) katılın.
 HOYOLAB_ACCOUNT_ERROR: Hesabınızın bilgilerini alırken bir hata oluştu! Lütfen *daha sonra* tekrar deneyin.
 HOYOLAB_ACCOUNT_MANAGE: HoYoLAB hesabınızı Genshin Wizard üzerinden yönetin
 HOYOLAB_CHARACTER_SUMMARY_TITLE: Genshin Wizard | Karakter Özeti
-CHARACTER_SUMMARY_NOT_FULL: "Karakter Özeti, gacha çekim geçmişinize dayanmaktadır. Tam ve en doğru Karakter Özeti'ni (seviye, arkadaşlık, burçlar ve AR seviyesi) görmek için lütfen HoYoLAB hesabınızı </accounts:{command_id}> kullanarak bağlayın veya **[Genshin Wizard Kontrol Panelinize](https://genshinwizard.com/user)** gidin!"
+CHARACTER_SUMMARY_NOT_FULL: Karakter Özeti, gacha çekim geçmişinize dayanmaktadır. Tam ve en doğru Karakter Özeti'ni (seviye, arkadaşlık, burçlar ve AR seviyesi) görmek için lütfen HoYoLAB hesabınızı </accounts:{command_id}> kullanarak bağlayın veya **[Genshin Wizard Kontrol Panelinize](https://genshinwizard.com/user)** gidin!
 GCG_NO_CARDS_FOUND: Kart Bulunamadı!
-GCG_NO_CARDS_FOUND_DESCRIPTION: "Merhaba Seyyah! Ne yazık ki, {member} henüz **kartlara** sahip değil! Bu komutu kullanmadan önce Genshin Impact'te biraz TCG oynamaya dal."
+GCG_NO_CARDS_FOUND_DESCRIPTION: Merhaba Seyyah! Ne yazık ki, {member} henüz **kartlara** sahip değil! Bu komutu kullanmadan önce Genshin Impact'te biraz TCG oynamaya dal.
 HOYOLAB_REGISTER_SCRIPT_TITLE: Kayıt | Script Yöntemi
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
   **How to link your HoYoLAB account with Genshin Wizard**
@@ -436,7 +436,7 @@ HOYOLAB_REGISTER_LOGIN_DESCRIPTION: |
   > **2.** Giriş alanlarına, HoYoLAB hesabınızın giriş bilgilerini girin, **e-posta** ve şifrenizi kullanmayı unutmayın.
   > **3.** Hesap bilgilerinizi başarıyla girdikten sonra, Genshin Wizard'ın kayıt talebinizi işlemesini bekleyin, bunun bir veya iki dakika sürebileceğini unutmayın.
   > **4.** Son olarak, tüm adımlar doğru yapıldıysa, hesabınızın başarıyla bağlandığını belirten bir **onay mesajı** DM'lerinizde alacaksınız.
-  
+
   <:information:1021014187197083668> **Not:** Bu yöntem sadece kolaylık/QOL için burada. Hesap güvenliğinizle ilgili endişeleriniz varsa, lütfen script yöntemini veya başka bir kayıt biçimini kullanın.
 HOYOLAB_REGISTER_LOGIN_FOOTER: Genshin Wizard'ın hesap bilgilerinizi saklamadığını hatırlatmak isteriz! Bu kayıt yöntemi, hesap istatistiklerinizi görüntülemek için gerekli çerezleri alır.
 ARE_YOU_SURE: Emin misin?
@@ -464,23 +464,23 @@ IMPORT_COMMAND_FILE_DETECTED: |
   **Tespit Edilen İçe Aktarma Kaynağı: `{source}`**
   *Dilek geçmişinizi içe aktarırken lütfen bekleyin...*
 IMPORT_COMMAND_TAMPERED: İçe aktarmaya çalıştığınız veri **değiştirilmiş**. Lütfen içe aktarmadan önce dosyalar içinde hiçbir şeyi **değiştirmeyin**, veriyi yeniden indirmeyi ve *tekrar* içe aktarmayı deneyin.
-IMPORT_COMMAND_BANNER_IMPORTED: "{banner_name} afişi için `{number_wishes}` dilek başarıyla içe aktarıldı!"
-IMPORT_COMMAND_SUCCESS: "Tüm afişlerden `{total_wishes}` yeni dilek başarıyla içe aktarıldı! Artık dileklerinizle ilgili daha fazla bilgi görüntülemek için </history:{command_id}> komutunu kullanabilirsiniz."
+IMPORT_COMMAND_BANNER_IMPORTED: '{banner_name} afişi için `{number_wishes}` dilek başarıyla içe aktarıldı!'
+IMPORT_COMMAND_SUCCESS: Tüm afişlerden `{total_wishes}` yeni dilek başarıyla içe aktarıldı! Artık dileklerinizle ilgili daha fazla bilgi görüntülemek için </history:{command_id}> komutunu kullanabilirsiniz.
 IMPORT_COMMAND_LOG: |
   **User:** {user} | `{user_id}`
   **Name:** `{name}`
   **Guild:** `{guild_id}` | `{guild_name}`
-  
+
   **Detected Import Source:** `{source}`
   **Total:** `{total}` wishes imported!
   > 3-Stars: `{three_star}`
   > 4-Stars: `{four_star}`
   > 5-Stars: `{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: "Önceden var olan bir dilek geçmişini içe aktarmak için **kayıtlı** olmalısınız! Kayıt olduktan sonra tekrar içe aktarmayı deneyin, komutu kullanarak </accounts:{command_id}>."
+IMPORT_COMMAND_NOT_REGISTERED: Önceden var olan bir dilek geçmişini içe aktarmak için **kayıtlı** olmalısınız! Kayıt olduktan sonra tekrar içe aktarmayı deneyin, komutu kullanarak </accounts:{command_id}>.
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: Geçmiş Bağlantısı Süresi Dolmuş!
-IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: "Geçmiş bağlantınız **süresi dolmuş**! Lütfen içe aktarmadan önce </refresh:{command_id}> komutunu kullanarak yenileyin!"
-IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: "Bu dosya türü **desteklenmiyor**. Eğer `Paimon.moe`'dan veri içe aktarmaya çalışıyorsanız, lütfen [ayarlar](https://paimon.moe/settings) sayfasından **JSON** dışa aktarma indirdiğinizden emin olun. Daha fazla bilgi için [**Belgelerimize**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) bakın."
-IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: "Bu dosya türü **desteklenmiyor**. Lütfen içe aktarmadan önce dosya türünü *değiştirmediğinizden* emin olun. Daha fazla bilgi için [**Belgelerimize**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) bakın."
+IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: Geçmiş bağlantınız **süresi dolmuş**! Lütfen içe aktarmadan önce </refresh:{command_id}> komutunu kullanarak yenileyin!
+IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: Bu dosya türü **desteklenmiyor**. Eğer `Paimon.moe`'dan veri içe aktarmaya çalışıyorsanız, lütfen [ayarlar](https://paimon.moe/settings) sayfasından **JSON** dışa aktarma indirdiğinizden emin olun. Daha fazla bilgi için [**Belgelerimize**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) bakın.
+IMPORT_COMMAND_UNSUPPORTED_UNKNOWN: Bu dosya türü **desteklenmiyor**. Lütfen içe aktarmadan önce dosya türünü *değiştirmediğinizden* emin olun. Daha fazla bilgi için [**Belgelerimize**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) bakın.
 IMPORT_COMMAND_UID_MISMATCH: İçe aktarılan dosyadaki UID, hesabınızdaki mevcut UID ile eşleşmiyor. Lütfen doğru dosyayı içe aktardığınızdan emin olun veya hesabınızı doğru olanla değiştirin.
 LEADERBOARD_NO_DATA: Bu özel sorgu için veri bulunamadı!
 LEADERBOARD_EXPERIENCE_FOOTER: Deneyim, sunucuda aktif olarak bulunarak kazanılabilir. Genshin Wizard sıralama seviyenizi artırmak için daha fazla sohbet edin!
@@ -493,7 +493,7 @@ LEADERBOARD_ARTIFACT_FOOTER: Artifact bilgileri, bilgi komutları aracılığıy
 LEADERBOARD_CHARACTER_STATISTICS_FOOTER: Karakter istatistik bilgileri, bilgi komutları aracılığıyla güncellenir, güncel karakter istatistiklerini almak için binalarınızı sık sık kontrol edin!
 LEADERBOARD_ABYSS_FOOTER: Derinlik istatistikleri, derinlik ilerleme komutu aracılığıyla güncellenir, güncel istatistik ölçümünü almak için derinlik ilerlemenizi sık sık kontrol edin!
 LEADERBOARD_DONATION_FOOTER: /donate komutunda bulunan destek bağlantıları aracılığıyla bağış yaparak bu muhteşem sıralamada bir yer edinin!
-LEADERBOARD_CRUNCHING_DATA_INTERMISSION: Veri işleniyor, lütfen **sabırlı** olun...
+LEADERBOARD_CRUNCHING_DATA_INTERMISSION: "Veri işleniyor, lütfen **sabırlı** olun..."
 ERROR_GUILD_ONLY_BUTTON: ":no_entry: Bu butonu kullanmak için bir guild'da olmalısınız!"
 QUERY_NO_RESULTS: "`{input}` için sonuç bulunamadı. Lütfen yeniden ifade edin ve tekrar deneyin!"
 LOCATION_COMMAND_ROUTES_TITLE: Tarım Rotaları Genel Görünümü
@@ -514,7 +514,7 @@ GENSHIN_WIZARD_USER_PROFILE: "{user}'ın Genshin Wizard Profili"
 PROFILE_SUMMARY_KEY: Profil Özeti
 GENSHIN_WISH_STATS_KEY: Genshin Dilek İstatistikleri
 PROFILE_COMMAND_FOOTER: Profil istatistikleri, banner özeti ve yenileme komutları aracılığıyla güncellenir. Güncel bir /profile almak için banner'larını kontrol et!
-GENERATE_IMAGE_COOLDOWN: "Görüntüleri çok hızlı üretiyorsun! Bu butonu **{seconds}** saniye içinde tekrar kullanmayı dene."
+GENERATE_IMAGE_COOLDOWN: Görüntüleri çok hızlı üretiyorsun! Bu butonu **{seconds}** saniye içinde tekrar kullanmayı dene.
 GENSHIN_STATISTICS_INFOGRAPHIC: Genshin İstatistikleri Infografiği
 GENSHIN_STATISTICS_INFOGRAPHIC_DESCRIPTION: Merhaba Seyyah! İşte talep ettiğin **eşsiz** üretilmiş Genshin istatistikleri/ilerleme infografiği!
 HIDDEN_KEY: Gizli
@@ -570,7 +570,7 @@ FANART_KEY: Fanart
 OFFICIAL_ART_KEY: Resmi Sanat
 GENSHIN_WIZARD_PROFILE_SETTING_DESCRIPTION: |
   Genshin Wizard profil ayarlarını burada değiştir.
-  
+
   **Profil Özeti**
 GENSHIN_WIZARD_PROFILE_TITLE: Genshin Wizard Profil Ayarları
 MISSING_REGISTRATION_INSTRUCTIONS: |
@@ -581,7 +581,7 @@ MISSING_IMAGE: Banner'ını güncellemek için lütfen bir resim veya resim bağ
 PROFILE_BANNER_UPDATE_TITLE: Genshin Wizard | Profil Banner Bağlantısı Güncellendi
 IMAGE_LINK_KEY: Görüntü Bağlantısı
 UPDATE_DATE_KEY: Güncelleme Tarihi
-SETTING_COMMAND_REQUIRE_SLASH: "Bir **slash komutu** kullanmalısın (</settings:{command_id}>) veya bunu profilin üzerinden erişmelisin."
+SETTING_COMMAND_REQUIRE_SLASH: Bir **slash komutu** kullanmalısın (</settings:{command_id}>) veya bunu profilin üzerinden erişmelisin.
 CURRENT_ABYSS_DESCRIPTION: |
   **Mevcut Ay Fazı**
   **Başlangıç Zamanı:** <t:{timestamp_start}:F>
@@ -607,7 +607,7 @@ LOCATION_KEY: Konum
 TOP_ROLE_KEY: En Üst Rol
 RECENT_FIVE_STAR_CHARACTER: "**Son 5 :star: Karakter**"
 RECENT_FIVE_STAR_WEAPON: "**Son 5 :star: Silahlar**"
-WISHES_WORTH_KEY: Değerli Dilekler
+WISHES_WORTH_KEY: Dileklerin Değeri
 OVERALL_SUMMARY_KEY: Genel Özet
 OVERALL_STATS_KEY: Genel İstatistikler
 PERCENTAGE_KEY: Yüzde
@@ -618,14 +618,14 @@ NUMBER_FIVE_STAR: 5 yıldız sayısı
 TOTAL_FOUR_STAR: Toplam 4 yıldız
 NUMBER_FOUR_STAR: 4 yıldız sayısı
 TOTAL_THREE_STAR: Toplam 3 yıldız
-REGISTER_PC_METHOD: PC
-REGISTER_ANDROID_METHOD: Android
-IOS_KEY: iOS
-CONSOLE_KEY: Konsol
-REGISTER_IOS_METHOD: iOS (Akış Uygulama Yöntemi)
+REGISTER_PC_METHOD: "PC"
+REGISTER_ANDROID_METHOD: "Android"
+IOS_KEY: "iOS"
+CONSOLE_KEY: "Konsol"
+REGISTER_IOS_METHOD: "iOS (Akış Uygulama Yöntemi)"
 REGISTER_COMMAND_PC_DIRECTIONS: |
   Detaylı adımlar için [Github Dokümantasyonumuzu](https://github.com/Genshin-Wizard/historyLink) kontrol edin.
-  
+
   1. PC'nizde Genshin Impact Oyununu açın
   2. Dilek geçmişi sayfasına gidin ve yüklenmesini bekleyin
   3. Windows/Masaüstüne geri dönün
@@ -638,11 +638,11 @@ REGISTER_COMMAND_PC_DIRECTIONS: |
   7. Aşağıdaki butona tıklayın ve bağlantıyı giriş alanına yapıştırın
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
   After the 3.0 update, users can no longer simply copy and paste the history link on Android devices anymore.
-  
+
   We are currently looking for a way to retrieve the history link on Android devices. Please check back later.
 REGISTER_COMMAND_IOS_DIRECTIONS: |
   Check out Kaizer's [Stream App Guide](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) for detailed steps with pictures.
-  
+
   1. Open Genshin Impact and go to the Wish screen
   2. While Genshin Impact is still open, go to Stream app and tap Sniff Now
   3. Go back to Genshin Impact and open you wish history
@@ -659,14 +659,14 @@ REGISTER_COMMAND_PLATFORM_SELECTION: Genshin Impact oynamak için hangi platform
 REGISTER_COMMAND_PLATFORM_SELECTION_TITLE: Genshin Wizard | Dilek Geçmişi Kaydı
 REGISTER_COMMAND_PLATFORM_SELECTION_DIRECTIONS: |
   Genshin Wizard'ın Kayıt sistemine hoş geldiniz.
-  
+
   **Bağlantı Özellikleri:**
   > **1.** Dilek geçmişinizi takip edin.
   > **2.** Dilek geçmişi istatistiklerinizi ve banner şanssızlıklarınızı detaylı bir şekilde görüntüleyin.
   > **3.** Garantili sınırlı şanssızlıkta olup olmadığınızı görün.
   > **4.** Tam Genshin Wizard profil yetenekleri.
   > **5.** [**UID Bağlama**](https://docs.genshinwizard.com/wishing-centre/getting-started#linking-genshin-uid-partial-registration) ile erişilebilen tüm komutlara erişim.
-  
+
   Genshin Impact oynamak için hangi platformu kullanıyorsunuz?
 ERROR_INVALID_UID: Lütfen Genshin hesabınızı Discord hesabınıza bağlamak için geçerli bir UID sağlayın.
 ERROR_INVALID_REGISTRATION_URL: Merhaba Seyyah, bu bir **geçersiz bağlantı!** Adımları doğru takip ettiğinizden emin olun ve tekrar deneyin.
@@ -678,17 +678,17 @@ REGISTER_COMMAND_NO_WISHES_DESCRIPTION: |
 REFRESHING_USER: Kullanıcıyı yeniliyor...
 REGISTERING_USER: Kullanıcı kaydediliyor...
 RETRIEIVING_WISH_HISTORY: Dilek geçmişinizi alıyor...
-REGISTER_BANNER_SYNCED: "{banner_name} banner'ı başarıyla senkronize edildi!"
-REGISTER_BANNER_SYNC_COMPLETE: "Tüm banner'lar başarıyla senkronize edildi! Artık dileklerinizle ilgili daha fazla bilgi görüntülemek için </history:{command_id}> komutunu kullanabilirsiniz."
+REGISTER_BANNER_SYNCED: '{banner_name} banner''ı başarıyla senkronize edildi!'
+REGISTER_BANNER_SYNC_COMPLETE: Tüm banner'lar başarıyla senkronize edildi! Artık dileklerinizle ilgili daha fazla bilgi görüntülemek için </history:{command_id}> komutunu kullanabilirsiniz.
 SUCCESSFULLY_REGISTERED: Başarıyla Kaydedildi!
 SUCCESSFULLY_REFRESHED: Başarıyla Yenilendi!
 SUCCESSFULLY_UPDATED_UID: |
   Tebrikler Seyyah! `UID`'nizi **başarıyla** güncellediniz!
-  
+
   Daha fazla bilgi için </help:{command_id}> komutuna bakın.
 SUCCESSFULLY_REGISTERED_RESPONSE: |
   Hey Traveler! Congratulations, your account was **successfully** registered!
-  
+
   You can now access several new gacha-related command within Genshin Wizard and more! For more information, check out the </help:{command_id}> command or visit our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/commands)!
 GENSHIN_WIZARD_REGISTRATION: Genshin Wizard Kaydı
 UNLINK_GENSHIN_ACCOUNT: Unlink Genshin Account
@@ -711,13 +711,13 @@ LINKED_KEY: Bağlı
 NOT_LINKED_KEY: Bağlı Değil
 LINKING_UID_DIRECTIONS: |
   Merhaba Seyyah! İstenen UID'yi Genshin Wizard'a bağlamaya devam etmek için, bu hesabın gerçekten size ait olduğunu **doğrulamamız** gerekiyor!
-  
+
   **Benzersiz Doğrulama Anahtarı**
   ```yaml
   {key}```
   **Son Kullanım:**
   <t:{timeout}:R>
-  
+
   Doğrulamayı nasıl tamamlayabilirim?
   > **1)** Oyuna girin ve yukarıdaki anahtarı profil imzanızda veya takma adınızda **herhangi bir yere** ekleyin.
   > **2)** Yukarıdaki anahtarı **tam olarak** yazıldığı gibi kopyaladığınızdan emin olun, aksi takdirde bot hesabınızı doğrulayamayacaktır.
@@ -730,28 +730,28 @@ UNLINKING_CENTRE_TITLE: Genshin Wizard | Ayırma Merkezi
 UNLINKING_CENTRE_DESCRIPTION: Merhaba Seyyah! Genshin Wizard'ın ayırma merkezine hoş geldiniz. Aşağıdaki butonlar aracılığıyla bağlı verilerinizi yönetin. Herhangi bir ayırma yöntemiyle **tüm verilerinizi sileceğinizi** unutmayın. Bu işlem **geri alınamaz**.
 INVALID_COOKIE_RESPONSE: ":no_entry: Geçerli bir **HoYoLAB** çerezi girmediniz!"
 RETRIEVING_ACCOUNT_INFORMATION: "*Hesap bilgilerinizi alıyor...*"
-SYNCED_HOYOLAB_UID: "**HoYoLAB** UID başarıyla senkronize edildi!"
-SYNCED_IN_GAME_UID: "**Oyun İçi** UID başarıyla senkronize edildi!"
+SYNCED_HOYOLAB_UID: '**HoYoLAB** UID başarıyla senkronize edildi!'
+SYNCED_IN_GAME_UID: '**Oyun İçi** UID başarıyla senkronize edildi!'
 ERROR_NO_ACCOUNTS: ":no_entry: There are **no accounts** associated with this token!"
 SUCCESSFULLY_LINKED_KEY: Başarıyla Bağlandı!
 SUCCESSFULLY_LINKED_HOYOLAB: |
   Successfully synced in-game account progression.
-  
+
   Successfully synced your HoYoLAB account! You can now access the **HoYoLAB account menu** by using the command </hoyo:{command_id}>!
 REGISTRATION_FAILED: Kayıt Başarısız!
-REGISTRATION_FAILED_DESCRIPTION: "<:Error:1021889679857037372> Hesabınızı kaydetme işlemi **başarısız** oldu! Lütfen tekrar deneyin veya sorun devam ederse [**destek ekibiyle**](https://genshinwizard.com/discord) iletişime geçin. Bu sorun genellikle geçersiz bir e-posta/şifre kombinasyonundan kaynaklanır."
+REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> Hesabınızı kaydetme işlemi **başarısız** oldu! Lütfen tekrar deneyin veya sorun devam ederse [**destek ekibiyle**](https://genshinwizard.com/discord) iletişime geçin. Bu sorun genellikle geçersiz bir e-posta/şifre kombinasyonundan kaynaklanır.
 INVALID_HOYOLAB_EMAIL_PROMPT: Lütfen geçerli bir e-posta adresi girin! **HoYoLAB** hesabınıza giriş yapmak için kullandığınız e-posta adresini kullanmalısınız.
 HOYOLAB_REGISTRATION_TITLE: Genshin Wizard | HoYoLAB Kaydı
 HOYOLAB_REGISTRATION_DESCRIPTION: |
   Merhaba Seyyah! Kayıt talebinizi işlerken lütfen bekleyin, bu biraz zaman alabilir.
-  
+
   <a:FlowersBlue:955579121562423348> **Günün Genshin Eğlenceli Bilgisi:**
   `"{fun_fact}"`
 PROCESSING_REGISTRATION_REQUEST: Kayıt Talebi İşleniyor
 ACCOUNT_RETREIVAL_FAILED: İstenilen UID ile bilgi alımında bir hata oluştu gibi görünüyor. Lütfen doğru UID'yi girdiğinizden emin olun ve tekrar deneyin.
 REMINDER_COMMAND_OVERVIEW_DESCRIPTION: |
   Genshin Wizard'ın :bell: **Hatırlatıcı Paneli**ne hoş geldiniz! Hatırlatıcıları ayarlamaya başlamak için aşağıdaki seçeneklerden birini seçebilir ve ilgili panelden etkinleştirebilirsiniz.
-  
+
   <a:4396ringingbell:1030221006918385664> **MEVCUT HATIRLATILAR**
   **Reçin Hatırlatıcıları <:fragileresin:1029984988583706654>**
   > **Otomatik Hatırlatıcı:** {automatic_resin}
@@ -794,21 +794,21 @@ TEAPOT_AUTOMATIC_REMINDER_FOOTER: Çaydanlık para biriminiz dolduğunda bildiri
 PARAMETRIC_AUTOMATIC_REMINDER_FOOTER: Parametrik dönüştürücünüz kullanıma hazır olduğunda bildirim almak için otomatik bir hatırlatıcı ayarlayın!
 ERROR_NO_TRANSFORMER: Merhaba Seyyah! Henüz **<:parametrictransformer:1029984451670847568>Parametrik Dönüştürücü** edinmediniz!
 REMINDERS_CLEARED_CONFIRMATION: Tüm hatırlatıcılarınız başarıyla **temizlendi**!
-SPECIFIC_REMINDER_CLEARED: "Tüm {rmd_type} hatırlatıcılarınız başarıyla **temizlendi**!"
+SPECIFIC_REMINDER_CLEARED: Tüm {rmd_type} hatırlatıcılarınız başarıyla **temizlendi**!
 TEAPOT_ALREADY_SET: Çaydanlık için **zaten** bir hatırlatıcı ayarladınız!
-RESIN_ALREADY_SET: "Reçine için **zaten** bir hatırlatıcı ayarladınız **<:fragileresin:1029984988583706654>{resin}!**"
+RESIN_ALREADY_SET: Reçine için **zaten** bir hatırlatıcı ayarladınız **<:fragileresin:1029984988583706654>{resin}!**
 TEAPOT_AUTOMATIC_ALREADY_SET: Çaydanlık için **zaten** bir otomatik hatırlatıcı ayarladınız!
-TEAPOT_REMINDER_SET: "<:realmcurrency:1029984449565310976><t:{time}:F> için hatırlatıcı başarıyla ayarlandı!"
+TEAPOT_REMINDER_SET: <:realmcurrency:1029984449565310976><t:{time}:F> için hatırlatıcı başarıyla ayarlandı!
 AUTOMATIC_TEAPOT_EXPLANATION: Bu hatırlatıcı **otomatik** hatırlatıcı olarak ayarlandı! Bu, çaydanlığınız dolduğunda *her seferinde* hatırlatılacağınız anlamına geliyor!
 EXPEDITION_ALREADY_SET: Bu keşif için **zaten** bir hatırlatıcı ayarladınız!
-EXPEDITION_REMINDER_SET: "Hatırlatıcı başarıyla **{char_emote} <t:{time}:F>!** için ayarlandı!"
+EXPEDITION_REMINDER_SET: Hatırlatıcı başarıyla **{char_emote} <t:{time}:F>!** için ayarlandı!
 PARAMETRIC_ALREADY_SET: Parametrik dönüştürücü için **zaten** bir hatırlatıcı ayarladınız!
 PARAMETRIC_AUTOMATIC_ALREADY_SET: Parametrik dönüştürücü için **zaten** bir otomatik hatırlatıcı ayarladınız!
-PARAMETRIC_REMINDER_SET: "Hatırlatıcı başarıyla <:parametrictransformer:1029984451670847568><t:{time}:F>! için ayarlandı!"
+PARAMETRIC_REMINDER_SET: Hatırlatıcı başarıyla <:parametrictransformer:1029984451670847568><t:{time}:F>! için ayarlandı!
 AUTOMATIC_PARAMETRIC_EXPLANATION: Bu hatırlatıcı **otomatik** hatırlatıcı olarak ayarlandı! Bu, parametrik dönüştürücünüz kullanıma hazır olduğunda *her seferinde* hatırlatılacağınız anlamına geliyor!
 INVALID_RESIN_AMOUNT: Geçerli bir reçine miktarı belirtmelisiniz.
 RESIN_AMOUNT_LOWER: Lütfen mevcut reçinenizden **daha yüksek** bir reçine miktarı girin!
-RESIN_REMINDER_SET: "Hatırlatıcı başarıyla **<:fragileresin:1029984988583706654>{resin}** reçine için <t:{rmd_time}:F> ayarlandı!"
+RESIN_REMINDER_SET: Hatırlatıcı başarıyla **<:fragileresin:1029984988583706654>{resin}** reçine için <t:{rmd_time}:F> ayarlandı!
 ENTER_CUSTOM_AMOUNT_KEY: Özel Miktar Girin
 ENABLE_AUTOMATIC_REMINDER_KEY: Otomatik Hatırlatıcıyı Etkinleştir
 CURRENT_ONGOING_EXPEDITIONS_DESCRIPTION: "Merhaba Seyyah! Şu anda devam eden keşifleriniz:"
@@ -822,8 +822,8 @@ API_ISSUE: Bir API Sorunu oluştu.
 HOW_TO_SOLVE_TITLE: Bunu nasıl çözebilirim?
 ENABLE_CHRONICLES: "Komutu kullanın </hoyolab-privacy:{command_id}> veya [**HoYoLAB Ayarları**](https://www.hoyolab.com/setting/privacy/) sayfasını ziyaret edin ve *Savaş Günlüğü gizliliğini* etkinleştirerek Genshin profilinizi herkese açık hale getirin."
 PLEASE_WAIT_DESCRIPTION: Bekleniyor! Şu anda bunu aşmak için yapabileceğiniz bir şey yok.
-PLAYER_TITLE: "Oyuncu {player}"
-USER_TITLE: "Kullanıcı {user}"
+PLAYER_TITLE: Oyuncu {player}
+USER_TITLE: Kullanıcı {user}
 OVERVIEW_KEY: Genel Bakış
 GENERAL_OVERVIEW_KEY: Genel Bakış
 GENERAL_OVERVIEW_SECTION: |
@@ -839,15 +839,15 @@ NOT_YET_UNLOCKED: Henüz Kilitlenmedi!
 STATISTICS_COMMAND_FOOTER: "Not: İstatistikler yanlış gösterilebilir veya veri eksik olabilir, bunu önlemek için elimizden bir şey gelmiyor, bu HoYoLAB tarafında bir API hatası."
 CONGRATULATIONS_KEY: Tebrikler!
 ABYSS_CONGRATULATE_MESSAGE: |
-  Tebrikler {user}, Spiral Abyss'i mükemmel bir şekilde *temizledin*! 
+  Tebrikler {user}, Spiral Abyss'i mükemmel bir şekilde *temizledin*!
   <:spiralabyss:1000079902596411482> <@&{role_id}> Rol Verildi <a:check:956327345717907507>
 THEATER_CONGRATULATE_MESSAGE: |
   Congratulations {user} on perfectly *clearing* Act 10 of **Visionary Mode** in Imaginarium Theater!
   {heraldry_emoji} <@&{role_id}> Role Given <a:check:956327345717907507>
 ONSLAUGHT_CONGRATULATE_MESSAGE: |
-  Tebrikler {user}, Stygian Onslaught için **Zorluk {difficulty_level}**'i mükemmel bir şekilde *temizledin*! 
+  Tebrikler {user}, Stygian Onslaught için **Zorluk {difficulty_level}**'i mükemmel bir şekilde *temizledin*!
   {dire_emoji} <@&{role_id}> Rol Verildi <a:check:956327345717907507>
-ABYSS_COMMAND_STATISTICS_CREDIT: "Kullanıcı {name}'in Spiral Abyss İstatistikleri"
+ABYSS_COMMAND_STATISTICS_CREDIT: Kullanıcı {name}'in Spiral Abyss İstatistikleri
 CURRENT_LUNAR_PHASE_DESCRIPTION: |
   **Mevcut Ay Fazı**
   **Başlangıç Zamanı:** {start}
@@ -855,7 +855,7 @@ CURRENT_LUNAR_PHASE_DESCRIPTION: |
 MISSING_PERMISSION_MANAGE_ROLES: ":no_entry: Genshin Wizard'ın `Rolleri Yönet` izni eksik. Lütfen bu izni etkinleştir ve tekrar dene."
 ROLE_NOT_FOUND: ":no_entry: Rolü alırken bir hata oluştu. Lütfen bu entegrasyon altındaki rol bilgilerini kontrol et."
 GENSHIN_STATS_HEADER: "{name}'in Genshin İstatistikleri"
-PROCESSING_BANNER_TRANSITION: "{banner} Afişi İşleniyor..."
+PROCESSING_BANNER_TRANSITION: '{banner} Afişi İşleniyor...'
 CHRONICLED_KEY: Kronik
 WEAPON_KEY: Silah
 PERMANENT_KEY: Kalıcı
@@ -867,14 +867,14 @@ STARGLITTER_KEY: Yıldız Parıltısı
 GENSHIN_WIZARD_SHOP_TITLE: Genshin Wizard Dükkanı
 GENSHIN_WIZARD_SHOP_DESCRIPTION: |
   Paimon'un Pazarlıklarına Hoş Geldin! Burada yolculuğunda sana yardımcı olacak eşyaları satın alabilirsin. Şu anda Genshin Wizard envanterinde <:Primogem:951924423340994610>**{primogems} Primogem** bulunuyor.
-  
+
   <:MasterlessStardust:951924423332626522> **Yıldız Tozu:** {stardust}
   <:MasterlessStarglitter:951924423059980290> **Yıldız Parıltısı:** {starglitter}
-  
+
   <:GreyPin:949815085335986246> **__MEVCUT DÜKKAN__ [ Fiyat | Eşya ]**
 SIMULATOR_NO_PRIMOGEMS: |
   <:Error:1021889679857037372> Hey Seyyah, bugün daha fazla **primogem**'in yok! *Başka* on çekim yapmak için en az <:Primogem:951924423340994610>**1,600** primogeme ihtiyacın var. Mevcut bakiyeni görüntülemek için **</balance:{balance_id}>** komutunu kullan.
-  
+
   **__Yenilemeye Mi İhtiyacın Var?__**
   <:blurplelink:1020155547187691600> **</commissions:{commission_id}> komutunu kullan. [16,000 Primogem]**
   > <:GreyPin:949815085335986246> **[Genshin Wizard Guild](https://genshinwizard.com/discord) [16,000 Primogem]** için **Macera**'lara ekstra ödüller
@@ -900,7 +900,7 @@ COMMISSION_COMPLETE_MESSAGE: |
 PRIVATE_MESSAGE_KEY: Özel Mesaj
 SIMULATOR_BALANCE_MESSAGE: |
   <:blurpleannouncement:1020402170127982712> **Not:** Günlük Komisyon ödüllerini günde **bir kez** talep edebilirsin.
-  
+
   **__MEVCUT BAKİYELER__**
   <:MasterlessStardust:951924423332626522> **Yıldız Tozu:** {stardust}
   <:MasterlessStarglitter:951924423059980290> **Yıldız Parıltısı:** {starglitter}
@@ -920,40 +920,40 @@ SIMULATOR_EXCLUSIVE_TITLE: Özel Dükkan
 SIMULATOR_NO_CHARACTERS: Envanterinde hiç karakter yok!
 PRIMOGEM_KEY: Primogem
 PRIMOGEMS_KEY: Primogemler
-SIMULATOR_NOT_ENOUGH_STARDUST: "<:Error:1021889679857037372> Bu eşyayı satın almak için yeterli **<:MasterlessStardust:951924423332626522> Yıldız Tozu**'na sahip değilsin!"
-SIMULATOR_NOT_ENOUGH_STARGLITTER: "<:Error:1021889679857037372> Bu eşyayı satın almak için yeterli **<:MasterlessStarglitter:951924423059980290> Yıldız Parıltısı**'na sahip değilsin!"
-SIMULATOR_PURCHASED_PRIMOGEMS: "<:yescheck:1021114525858136074> **<:Primogem:951924423340994610>{primogems} Primogem**'i **{emote} {price} {item}** için başarıyla satın aldın!"
-SIMULATOR_TOO_FAST: "Gacha bağımlılığını çok hızlı besliyorsun! Bu butonu **{time}** saniye içinde tekrar kullanmayı dene."
+SIMULATOR_NOT_ENOUGH_STARDUST: <:Error:1021889679857037372> Bu eşyayı satın almak için yeterli **<:MasterlessStardust:951924423332626522> Yıldız Tozu**'na sahip değilsin!
+SIMULATOR_NOT_ENOUGH_STARGLITTER: <:Error:1021889679857037372> Bu eşyayı satın almak için yeterli **<:MasterlessStarglitter:951924423059980290> Yıldız Parıltısı**'na sahip değilsin!
+SIMULATOR_PURCHASED_PRIMOGEMS: <:yescheck:1021114525858136074> **<:Primogem:951924423340994610>{primogems} Primogem**'i **{emote} {price} {item}** için başarıyla satın aldın!
+SIMULATOR_TOO_FAST: Gacha bağımlılığını çok hızlı besliyorsun! Bu butonu **{time}** saniye içinde tekrar kullanmayı dene.
 SIMULATOR_BEGIN_JOURNEY: "{user}, envanterinde hiç karakter yok. Şansını denemek için </wishsimulator:{command_id}> komutunu kullan!"
 SIMULATOR_DUMP_UNSUCCESSFUL: Aman Tanrım! Sırt çantanı boşaltmak başarısız oldu, bir hata oluştu. Lütfen tekrar dene veya bir personel üyesiyle iletişime geç!
-SIMULATOR_DUMP_SUCCESSFUL: "<:yescheck:1021114525858136074> Envanterini başarıyla boşalttın!"
+SIMULATOR_DUMP_SUCCESSFUL: <:yescheck:1021114525858136074> Envanterini başarıyla boşalttın!
 SIMULATOR_DUMP_CANCELLED: "**<:yescheck:1021114525858136074> Başarıyla İptal Edildi!**"
-FARM_COMMAND_DOMAIN_TITLE: "Bölge Takvim Genel Bakışı [{region}]"
+FARM_COMMAND_DOMAIN_TITLE: Bölge Takvim Genel Bakışı [{region}]
 SERVER_RESET_KEY: Sunucu Sıfırlama
 ARTIFACT_GUIDE_FOOTER: Bir eser hakkında daha fazla bilgi almak için /artifact <eser_adı> komutunu kullan.
 ARTIFACT_GUIDE_TITLE: Eserler Genel Bakışı
 NO_ASSET_INPUT: ":no_entry: Lütfen bakmak için bir varlık ID'si sağlayın."
-WEAPON_INFORMATION_TITLE: "Silah Bilgisi | {weapon}"
+WEAPON_INFORMATION_TITLE: Silah Bilgisi | {weapon}
 WEAPON_INFORMATION_FOOTER: "Silah Rehberi • Bilgi Grafiği: {weapon}"
-WEAPON_GUIDE_TITLE: "Silah Rehberi | {weapon}"
+WEAPON_GUIDE_TITLE: Silah Rehberi | {weapon}
 ASSET_NOT_FOUND: ":no_entry: {asset} için sonuç bulunamadı! Lütfen sağlanan ID'nin oyunda mevcut olduğundan emin olun."
 DEFAULT_SYNERGY_DESCRIPTION: Bu karakterin takım kompozisyonu ve sinerjisi hakkında bilgi.
 GUIDES_SUGGESTION_TITLE: Bu rehberde değişiklik önermek ister misin?
-GUIDES_SUGGESTION_DESCRIPTION: "[**Resmi Discord**](https://genshinwizard.com/discord)'a katıl ve bu rehberde değişiklik önermek için <:blurplelink:1020155547187691600> [**__Rehberler Tartışması__**](https://discord.com/channels/951370297582436392/1007382105417854997) forumuna git!"
+GUIDES_SUGGESTION_DESCRIPTION: '[**Resmi Discord**](https://genshinwizard.com/discord)''a katıl ve bu rehberde değişiklik önermek için <:blurplelink:1020155547187691600> [**__Rehberler Tartışması__**](https://discord.com/channels/951370297582436392/1007382105417854997) forumuna git!'
 JOIN_OFFICIAL_DISCORD: Resmî Discord'a Katıl
 CHARACTER_GUIDE_OVERVIEW: Karakter Rehberleri Genel Bakış
 TALENT_BOOK_OVERVIEW: Yetenek Kitabı Genel Bakış
 WEAPON_ASCENSION_OVERVIEW: Silah Yükseltme Malzemeleri Genel Bakış
-REFERENCE_SHEET_GUIDE_FOOTER: Referans Sayfası Genel Bakış
+REFERENCE_SHEET_GUIDE_FOOTER: "Referans Sayfası Genel Bakış"
 REFERENCE_SHEET_GUIDE_TITLE: Mevcut Referans Sayfaları
 EVENT_BANNER_DAILY: |
-  ☑️ Şimdi **[Hoyolab](https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us)** için giriş yap (veya `/daily` kullan)! 
-  ☑️ Günlük Komisyon, Reçinayı Kontrol Et 
-  ☑️ Günlük Maden İşleme ve Madencilik 
+  ☑️ Şimdi **[Hoyolab](https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us)** için giriş yap (veya `/daily` kullan)!
+  ☑️ Günlük Komisyon, Reçinayı Kontrol Et
+  ☑️ Günlük Maden İşleme ve Madencilik
   ☑️ Serenitea Pot: Mobilya, Paralar ve Bitkiler
 EVENT_BANNER_WEEKLY: |
-  ☑️ Parametrik Dönüştürücü 
-  ☑️ Haftalık Savaş Geçiş Görevleri 
+  ☑️ Parametrik Dönüştürücü
+  ☑️ Haftalık Savaş Geçiş Görevleri
   ☑️ Haftalık Patron, Satıcılar, vb.
 CONFIGURATION_PANEL_TITLE: Genshin Wizard | Konfigürasyon Paneli
 CONFIGURATION_CHANGE_MESSAGE: "Genshin Wizard'ın konfigürasyon panelinde değişiklik yapın. Daha fazla bilgi için [**Belgelerimize**](https://docs.genshinwizard.com/overview/server-panels) göz atın."
@@ -968,14 +968,14 @@ GENSHIN_EVENT_BANNERS: Genshin Etkinlik Afişleri
 START_KEY: Başla
 END_KEY: Bitiş
 SERVER_TIME_KEY: Sunucu Zamanı
-CONFIGURATION_SETTINGS_RESET: "<:yescheck:1021114525858136074> Ayarlar **sıfırlandı**!"
+CONFIGURATION_SETTINGS_RESET: <:yescheck:1021114525858136074> Ayarlar **sıfırlandı**!
 CHANNEL_SETUP_MISSING: Öncelikle bir kanal ayarlamanız gerekiyor!
 TIME_FOR_ADVENTURE: Macera Zamanı!
 INVALID_ROLE_MESSAGE: Bu entegrasyon için **Geçerli Rol ID'si** kullanmalısınız! Lütfen tekrar deneyin.
 INVALID_GUILD_MESSAGE: Bu entegrasyon için **Geçerli Gilda ID'si** kullanmalısınız! Lütfen tekrar deneyin.
 INVALID_CHANNEL_MESSAGE: Bu entegrasyon için **Geçerli Kanal ID'si** kullanmalısınız! Lütfen tekrar deneyin.
 CANNOT_FIND_GUILD: Hey Traveler, aradığın sunucuyu **bulamadım**. Lütfen tekrar dene.
-MISSING_WEBHOOK_PERMISSION: "Bu sunucu/kanalda `Web Kancalarını Yönet` iznim yok!"
+MISSING_WEBHOOK_PERMISSION: Bu sunucu/kanalda `Web Kancalarını Yönet` iznim yok!
 CHANGE_ROLE_INTEGRATION: Genshin Wizard'ın otomatik rol entegrasyonunda değişiklik yapın.
 SETUP_COMMAND_TITLE: Genshin Wizard | Kurulum Paneli
 UPDATED_INTEGRATION_RESPONSE: "Başarıyla güncellendi entegrasyon: **{integration}**!"
@@ -983,15 +983,15 @@ PREMIUM_ART_SETTINGS_TITLE: Genshin Wizard Özel Sanat Ayarları
 PREMIUM_ART_SETTINGS_DESCRIPTION: |
   <:information:1034639378410115103> **Manage your Genshin Wizard </info:{command_id}> Art Settings**
   Tired of the default art that Genshin Wizard delivers? Well, you can now choose your own custom art for your character cards!
-  
+
   <:na:975828401900359711> **What if I want to delete previously saved custom art?**
   You'll be able to manage your saved builds art straight from this message. Use the UI below to delete specific characters, or all, from your saved custom art list.
-  
+
   <:blurpleannouncement:1020402170127982712> **CUSTOM ART OVERVIEW**
   {setting_details}
   **Adaptive Art on Infographics:** {adaptive_art}
 NO_CUSTOM_ART_FOUND: "`❌ Hiçbir karakter için özel sanat ayarlamadınız.`"
-CUSTOM_ART_STATISTICS: "**{characters}/{total_characters}** karakter için özel karakter sanatı etkinleştirdiniz!"
+CUSTOM_ART_STATISTICS: '**{characters}/{total_characters}** karakter için özel karakter sanatı etkinleştirdiniz!'
 PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
   <:information:1034639378410115103> **Genshin Wizard Özel Rol Ayarları**
   Rol Durumu: {role_bool}
@@ -1005,16 +1005,16 @@ PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard Premium Sunucu Ayarları
 PREMIUM_SERVER_SETTINGS_DESCRIPTION: |
   **<:information:1034639378410115103> Premium sunucular nedir?**
   Premium bir kullanıcı olarak, seviyenize bağlı olarak, premium avantajlar elde etmek için 3'e kadar sunucu seçebilirsiniz.
-  
+
   Mevcut Premium Sunucu Slotları: **{remaining}**
   Premium sunucularınızı yönetmek için aşağıdaki butonları kullanın.
-  
+
   **Aktif Sunucular**
   {servers}
 NO_PREMIUM_SERVERS_ADDED: Hiç premium sunucu eklemediniz.
 PREMIUM_USER_DETAILS: |
   Hey <@{user_id}>, Genshin Wizard Premium'a hoş geldin. Şu anda **premium** bir kullanıcıyız. Botu desteklediğiniz için teşekkürler! Premium avantajlarınızı/hesabınızı yönetmek için aşağıdaki butonları kullanın.
-  
+
   **Üyelik Detayları:**
   Plan: **{plan_name}** (Seviye {plan_tier})
 LINK_TO_PREMIUM: Genshin Wizard premium satın almak için aşağıdaki bağlantılara tıklayın.
@@ -1051,65 +1051,65 @@ PREMIUM_TIER_FOUR_PERKS: |
   <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier4:1045526663447969813> Elder of the Hexenzirkel** role.
 PREMIUM_UNKNOWN_TIER: Bilinmeyen Seviye Seçildi
 PREMIUM_PLAN: Premium Plan
-PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: "Genshin Wizard Sunucusu [Özel Rol]"
-PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: "Hey Traveler, bu **özel rol** özelliği yalnızca resmi [**Genshin Wizard Discord Sunucusu**](https://genshinwizard.com/discord)'nda mevcuttur."
+PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Genshin Wizard Sunucusu [Özel Rol]
+PREMIUM_CUSTOM_ROLE_WRONG_GUILD_DESCRIPTION: Hey Traveler, bu **özel rol** özelliği yalnızca resmi [**Genshin Wizard Discord Sunucusu**](https://genshinwizard.com/discord)'nda mevcuttur.
 PREMIUM_CUSTOM_ROLE_FOOTER: Genshin Wizard Özel Rol Ayarları
-PREMIUM_TIER_ONE_REQUIRED: "<:Error:1021889679857037372> Hey Traveler, bu özelliği kullanmak için **Seviye 1** veya daha yüksek bir premium kullanıcı olmalısınız. Bu harika özelliği açmak için bir [**__yükseltme__**](https://genshinwizard.com/premium) satın almayı düşünün."
-PREMIUM_ROLE_NAME_CHANGED: "<:yescheck:1021114525858136074> Rol adı **{name}** olarak değiştirildi."
-PREMIUM_ROLE_COLOR_CHANGED: "<:yescheck:1021114525858136074> Role color changed to **#{color}**."
+PREMIUM_TIER_ONE_REQUIRED: <:Error:1021889679857037372> Hey Traveler, bu özelliği kullanmak için **Seviye 1** veya daha yüksek bir premium kullanıcı olmalısınız. Bu harika özelliği açmak için bir [**__yükseltme__**](https://genshinwizard.com/premium) satın almayı düşünün.
+PREMIUM_ROLE_NAME_CHANGED: <:yescheck:1021114525858136074> Rol adı **{name}** olarak değiştirildi.
+PREMIUM_ROLE_COLOR_CHANGED: '<:yescheck:1021114525858136074> Role color changed to **#{color}**.'
 HEX_NOT_PARSED: Verdiğiniz HEX renk kodunu çözemedim. Lütfen tekrar deneyin.
-PREMIUM_ROLE_CLAIMED_ALREADY: "<:Error:1021889679857037372> Hey Traveler, zaten bir özel rolünüz var. Eğer bunu değiştirmek isterseniz, lütfen aşağıdaki butonları kullanın."
+PREMIUM_ROLE_CLAIMED_ALREADY: <:Error:1021889679857037372> Hey Traveler, zaten bir özel rolünüz var. Eğer bunu değiştirmek isterseniz, lütfen aşağıdaki butonları kullanın.
 PREMIUM_CUSTOM_ROLE_TITLE: "{user}'ın Özel Rolü"
 PREMIUM_ROLE_CREATED: "<:yescheck:1021114525858136074> Özel rol ({role}) başarıyla oluşturuldu. Lütfen aşağıdaki butonları kullanarak benzersiz rolünüzün adını ve rengini değiştirin."
-PREMIUM_CUSTOM_ROLE_UNCLAIMED: "<:Error:1021889679857037372> Merhaba Seyyah, henüz bir özel rol oluşturmadınız. Lütfen önce bir tane oluşturun."
-PREMIUM_CUSTOM_ROLE_DELETED: "<:yescheck:1021114525858136074> Özel rolünüz başarıyla silindi."
-PREMIUM_CUSTOM_ROLE_INFORMATION: "<:information:1034639378410115103> Merhaba Seyyah, Genshin Wizard'ın **premium abonesi** olarak, *özel* bir role erişiminiz olacak! Rolünüzün adını ve rengini istediğiniz zaman değiştirebilirsiniz. Ayrıca, özel rolünüzü istediğiniz zaman silebilirsiniz. Herhangi bir sorunuz varsa, lütfen **__destek ekibiyle__** iletişime geçin."
-PREMIUM_SERVER_MAXIMUM_REACHED: "Merhaba Seyyah, ekleyebileceğiniz premium sunucu sayısına ulaştınız. Mevcut aboneliğinizle en fazla **{servers}** premium sunucu ekleyebilirsiniz."
-PREMIUM_NO_SERVERS_SELECTED: "<:Error:1021889679857037372> Merhaba Seyyah, silmek için **seçtiğiniz** herhangi bir sunucu yok."
+PREMIUM_CUSTOM_ROLE_UNCLAIMED: <:Error:1021889679857037372> Merhaba Seyyah, henüz bir özel rol oluşturmadınız. Lütfen önce bir tane oluşturun.
+PREMIUM_CUSTOM_ROLE_DELETED: <:yescheck:1021114525858136074> Özel rolünüz başarıyla silindi.
+PREMIUM_CUSTOM_ROLE_INFORMATION: <:information:1034639378410115103> Merhaba Seyyah, Genshin Wizard'ın **premium abonesi** olarak, *özel* bir role erişiminiz olacak! Rolünüzün adını ve rengini istediğiniz zaman değiştirebilirsiniz. Ayrıca, özel rolünüzü istediğiniz zaman silebilirsiniz. Herhangi bir sorunuz varsa, lütfen **__destek ekibiyle__** iletişime geçin.
+PREMIUM_SERVER_MAXIMUM_REACHED: Merhaba Seyyah, ekleyebileceğiniz premium sunucu sayısına ulaştınız. Mevcut aboneliğinizle en fazla **{servers}** premium sunucu ekleyebilirsiniz.
+PREMIUM_NO_SERVERS_SELECTED: <:Error:1021889679857037372> Merhaba Seyyah, silmek için **seçtiğiniz** herhangi bir sunucu yok.
 PREMIUM_SERVER_REMOVED: Merhaba Seyyah, seçilen sunucuları başarıyla **sildiniz**.
 PREMIUM_SERVER_CLEARED: Merhaba Seyyah, tüm premium sunucularınızı başarıyla **sildiniz**.
 PREMIUM_SERVER_ALREADY: Merhaba Seyyah, bu sunucuda zaten **premium** etkin görünüyor. Bu avantajı başka bir sunucuda kullanmayı düşünün!
-PREMIUM_SERVER_ADDED: "Merhaba Seyyah, **{guild}** sunucusunu premium sunucu olarak başarıyla eklediniz!"
-PREMIUM_CUSTOM_ART_GUIDE: "<:information:1034639378410115103> Hey Traveler, if you wish to add **Custom Art Infographics** for your characters, simply use the </info:{command_id}> command and press the **Add Custom Art** button. You'll be brought to a webpage where you can upload your own artchoice and save it directly to your Genshin Wizard account."
-PREMIUM_CUSTOM_ART_NOT_SELECTED: "<:Error:1021889679857037372> Merhaba Seyyah, silmek için **seçtiğiniz** herhangi bir özel sanat karakteri yok."
+PREMIUM_SERVER_ADDED: Merhaba Seyyah, **{guild}** sunucusunu premium sunucu olarak başarıyla eklediniz!
+PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hey Traveler, if you wish to add **Custom Art Infographics** for your characters, simply use the </info:{command_id}> command and press the **Add Custom Art** button. You'll be brought to a webpage where you can upload your own artchoice and save it directly to your Genshin Wizard account.
+PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> Merhaba Seyyah, silmek için **seçtiğiniz** herhangi bir özel sanat karakteri yok.
 PREMIUM_CUSTOM_ART_REMOVED: Merhaba Seyyah, seçilen karakterleri başarıyla **sildiniz**.
 PREMIUM_CUSTOM_ART_CLEARED: Merhaba Seyyah, tüm kaydedilmiş özel sanat karakterlerinizi başarıyla **sildiniz**.
 PREMIUM_ADAPTIVE_ART_SETTING_UPDATED: "Uyarlanabilir sanat ayarları başarıyla değiştirildi: {adaptive_art}"
-HELP_COMMAND_TITLE: "Genshin Wizard | {category} Komutları"
-HELP_COMMAND_FOOTER: "Genshin Wizard | {category} Komut Dizini"
+HELP_COMMAND_TITLE: Genshin Wizard | {category} Komutları
+HELP_COMMAND_FOOTER: Genshin Wizard | {category} Komut Dizini
 NO_DESCRIPTION: Açıklama sağlanmadı.
 ROLE_REQUIREMENTS_NOT_MET: Merhaba Seyyah, maalesef **rol gereksinimlerini** karşılamıyorsunuz!
 ROLE_REQUIREMENTS_TRY_AGAIN_LATER: Lütfen gerekli gereksinimleri **karşıladığınızda** bu komutu daha sonra tekrar deneyin!
 OBTAINABLE_ROLES: Elde Edilebilir Roller
-SUCCESSFULLY_ADDED_ROLE: "Kullanıcıya {role} rolü başarıyla eklendi!"
+SUCCESSFULLY_ADDED_ROLE: Kullanıcıya {role} rolü başarıyla eklendi!
 SUCCESSFULLY_UPDATED_ROLES: "**Başarıyla** kullanıcının rollerini güncellediniz!"
 CHARACTER_REQUIREMENTS_NOT_MET: |
   Karakter `{name}` herhangi bir **rol gereksinimini** karşılamıyor!\n\nLütfen karakteriniz gerekli **gereksinimleri** karşıladığında bu komutu daha sonra tekrar deneyin.
-CHARACTER_NOT_IN_SHOWCASE: "Karakter `{name}` oyun içi karakter vitrininde bulunamadı!"
-GACHA_COMMAND_LINK_EXPIRED: "Dilek geçmişi bağlantınızın süresi doldu! Dileklerinizi güncellemek için </refresh:{command_id}> komutunu kullanın."
+CHARACTER_NOT_IN_SHOWCASE: Karakter `{name}` oyun içi karakter vitrininde bulunamadı!
+GACHA_COMMAND_LINK_EXPIRED: Dilek geçmişi bağlantınızın süresi doldu! Dileklerinizi güncellemek için </refresh:{command_id}> komutunu kullanın.
 GACHA_COMMAND_LINK_EXPIRED_FOOTER: "Not: Dilek geçmişi bağlantınızın süresi dolduğundan, yukarıdaki bilgiler yanlış olabilir. Dileklerinizi güncellemek için /refresh komutunu kullanarak dilek geçmişi bağlantınızı güncellemeniz önerilir!"
 SOMETHING_WENT_WRONG: Bir şeyler ters gitti!
 SOMETHING_WENT_WRONG_FOOTER: Bu hata devam ederse, lütfen bir bot yöneticisiyle iletişime geçin!
-GACHA_NO_BANNER_WISHES: "{banner} afişi için dilekleriniz yok!"
+GACHA_NO_BANNER_WISHES: '{banner} afişi için dilekleriniz yok!'
 GACHA_SUMMARY_FOOTER: "Genshin Dilek Özeti için: {user}"
 GENSHIN_WISH_SUMMARY: Genshin Dilek Özeti
 SLASH_COMMAND_NEED_HELP: |
   <:blurpleannouncement:1020402170127982712> **HAVING ISSUES? FEAR NOT!** <:KeqingHeart:952837574878199808>
-  
+
   Hello Traveler, it looks like you're having difficulty using **slash commands**!
-  
+
   Remember to **__click__** on the command you want to use and keep in mind that you **do not** have to pass your own name as a parameter!
-  
+
   <a:7094whitecheck:1020160260637462618> Happy Wishing Fellow Traveler,
   Paimon
-SLASH_COMMAND_HELP_GUIDE: "<:verifiedlight:939225784936202241> **yardım** için, </help:982685016012226590> komutunu kullanın!"
+SLASH_COMMAND_HELP_GUIDE: <:verifiedlight:939225784936202241> **yardım** için, </help:982685016012226590> komutunu kullanın!
 GENSHIN_WIZARD_SERVER_JOIN_TITLE: Genshin Wizard geldi!
 GENSHIN_WIZARD_SERVER_JOIN_DESCRIPTION: |
   Merhaba Seyyah! **Genshin Wizard**'ı mütevazı mekanınıza davet ettiğiniz için teşekkür ederiz. Başlamadan önce dikkat edilmesi gereken bazı noktalar:
-  
+
   **Komut Ön Eki:** `g!` veya `/`
   > Tebrikler! Bu sunucu, Genshin Wizard'ı davet eden **{guilds}** sunucusu! 🎉
-  
+
   Beni nasıl kullanacağınız hakkında daha fazla bilgi için [**Belgelerimize**](https://docs.genshinwizard.com/) bakın veya </help:{command_id}> komutunu kullanın!
 SHOWCASE_KEY: Vitrin
 CUSTOM_ART_KEY: Özel Sanat
@@ -1142,7 +1142,7 @@ MONTHLY_REWARDS_BUTTON: Aylık Ödüller
 VIEW_TRAVELER_DIARY_BUTTON: Gezginin Günlüğünü Görüntüle
 RELINK_ACCOUNT_BUTTON: Hesabı Yeniden Bağla
 UNLINK_ACCOUNT_BUTTON: Hesabı Bağlantısını Kes
-DIARY_MONTH_DESCRIPTION: "{month} ayı için Gezginin Günlüğünü görüntüle."
+DIARY_MONTH_DESCRIPTION: '{month} ayı için Gezginin Günlüğünü görüntüle.'
 DIARY_MONTH_LABEL: "{month} Günlüğü"
 DIARY_MONTH_PLACEHOLDER: Görüntülemek için bir ay seçin...
 INVOKATION_ARCHIVE_LABEL: Genius Invokation TCG Arşivini Görüntüle
@@ -1175,36 +1175,36 @@ WISHES_DESCRIPTION: Genshin Wizard'ın dilekler sıralamasını görüntüle.
 DONATIONS_DESCRIPTION: Genshin Wizard'ın bağışlar sıralamasını görüntüle.
 LEVELS_DESCRIPTION: Genshin Wizard'ın seviye sıralamasını görüntüle.
 LEADERBOARD_PLACEHOLDER: Bir sıralama kategorisi seçin...
-COMMON_LABEL: Ortak
-EXQUISITE_LABEL: Nadir
-PRECIOUS_LABEL: Değerli
-LUXURIOUS_LABEL: Lüks
-REMARKABLE_LABEL: Dikkate Değer
-ALL_CHESTS_LABEL: Tüm Sandıklar
-STRONGEST_STRIKE_LABEL: En Güçlü Darbe
-MOST_BURSTS_USED_LABEL: En Çok Patlama Kullanıldı
-MOST_SKILLS_USED_LABEL: En Çok Yetenek Kullanıldı
-MOST_DAMAGE_TAKEN_LABEL: En Çok Alınan Hasar
-MOST_DEFEATS_LABEL: En Çok Yenilgi
-MAX_HP_LABEL: Maks HP
-HP_LABEL: HP
-HP_PERCENT_LABEL: HP%
-ATK_LABEL: ATK
-ATK_PERCENT_LABEL: ATK%
-DEF_LABEL: DEF
-DEF_PERCENT_LABEL: DEF%
-CRIT_VALUE_LABEL: KRİT Değeri
-CRIT_RATE_LABEL: KRİT Oranı
-CRIT_DMG_LABEL: KRİT DMG
-ENERGY_RECHARGE_LABEL: Enerji Yenileme
-ELEMENTAL_MASTERY_LABEL: Elementsel Ustalık
-TOTAL_WISHES_LABEL: Toplam Dilek
-PRIMOGEM_COUNT_LABEL: Toplam Primogem
-STARDUST_COUNT_LABEL: Yıldız Tozu Sayısı
-STARGLITTER_COUNT_LABEL: Yıldız Parıltısı Sayısı
-THREE_STAR_LABEL: Üç Yıldız
-FOUR_STAR_LABEL: Dört Yıldız
-FIVE_STAR_LABEL: Beş Yıldız
+COMMON_LABEL: "Ortak"
+EXQUISITE_LABEL: "Nadir"
+PRECIOUS_LABEL: "Değerli"
+LUXURIOUS_LABEL: "Lüks"
+REMARKABLE_LABEL: "Dikkate Değer"
+ALL_CHESTS_LABEL: "Tüm Sandıklar"
+STRONGEST_STRIKE_LABEL: "En Güçlü Darbe"
+MOST_BURSTS_USED_LABEL: "En Çok Patlama Kullanıldı"
+MOST_SKILLS_USED_LABEL: "En Çok Yetenek Kullanıldı"
+MOST_DAMAGE_TAKEN_LABEL: "En Çok Alınan Hasar"
+MOST_DEFEATS_LABEL: "En Çok Yenilgi"
+MAX_HP_LABEL: "Maks HP"
+HP_LABEL: "HP"
+HP_PERCENT_LABEL: "HP%"
+ATK_LABEL: "ATK"
+ATK_PERCENT_LABEL: "ATK%"
+DEF_LABEL: "DEF"
+DEF_PERCENT_LABEL: "DEF%"
+CRIT_VALUE_LABEL: "KRİT Değeri"
+CRIT_RATE_LABEL: "KRİT Oranı"
+CRIT_DMG_LABEL: "KRİT DMG"
+ENERGY_RECHARGE_LABEL: "Enerji Yenileme"
+ELEMENTAL_MASTERY_LABEL: "Elementsel Ustalık"
+TOTAL_WISHES_LABEL: "Toplam Dilekler"
+PRIMOGEM_COUNT_LABEL: "Toplam Primogem"
+STARDUST_COUNT_LABEL: "Yıldız Tozu Sayısı"
+STARGLITTER_COUNT_LABEL: "Yıldız Parıltısı Sayısı"
+THREE_STAR_LABEL: "Üç Yıldız"
+FOUR_STAR_LABEL: "Dört Yıldız"
+FIVE_STAR_LABEL: "Beş Yıldız"
 PREVIOUS_BUTTON: Önceki
 NEXT_BUTTON: Sonraki
 GENERATE_IMAGE_BUTTON: Görüntü Oluştur
@@ -1247,7 +1247,7 @@ TEAPOT_KEY: Çaydanlık
 EXPEDITIONS_KEY: Keşifler
 PARAMETRIC_TRANSFORMER_KEY: Parametrik Dönüştürücü
 CLEAR_ALL_REMINDERS_BUTTON: Tüm Hatırlatıcıları Temizle
-CLEAR_REMINDER_BUTTON: "{reminder_type} Hatırlatıcılarını Temizle"
+CLEAR_REMINDER_BUTTON: '{reminder_type} Hatırlatıcılarını Temizle'
 SET_REMINDER_KEY: Hatırlatıcı Ayarla
 RESIN_THRESHOLD_MODAL_TITLE: Reçine miktarını girin
 RESIN_THRESHOLD_LABEL: Reçine Eşiği
@@ -1336,13 +1336,13 @@ WHALE_KEY: Bale
 LEVIATHAN_KEY: Leviathan
 ROLE_ID_KEY: Rol ID
 STANDARD_CHARACTER_MODAL_LABEL: Standart Karakter Gereksinimi
-STANDARD_CHARACTER_MODAL_PLACEHOLDER: "{constellation_num} 5-Yıldızlı Standart Karakter Sayısı..."
+STANDARD_CHARACTER_MODAL_PLACEHOLDER: '{constellation_num} 5-Yıldızlı Standart Karakter Sayısı...'
 FIVE_STAR_CHARACTER_REQUIREMENT_LABEL: 5-Yıldızlı Karakter Gereksinimi
-FIVE_STAR_CHARACTER_REQUIREMENT_PLACEHOLDER: "{constellation_num} 5-Yıldızlı Karakter Sayısı..."
+FIVE_STAR_CHARACTER_REQUIREMENT_PLACEHOLDER: '{constellation_num} 5-Yıldızlı Karakter Sayısı...'
 WEAPON_REQUIREMENT_LABEL: Silah Gereksinimi
-WEAPON_REQUIREMENT_PLACEHOLDER: "{refinement} 5-Yıldızlı Silah Sayısı..."
+WEAPON_REQUIREMENT_PLACEHOLDER: '{refinement} 5-Yıldızlı Silah Sayısı...'
 DUAL_REQUIREMENT_LABEL: "{constellation_num} 5-Yıldızlı Karakter & {refinement} Silah Gereksinimi"
-DUAL_REQUIREMENT_PLACEHOLDER: "{constellation_num} 5-Yıldızlı Karakter & {refinement} 5-Yıldızlı Silah Sayısı..."
+DUAL_REQUIREMENT_PLACEHOLDER: '{constellation_num} 5-Yıldızlı Karakter & {refinement} 5-Yıldızlı Silah Sayısı...'
 PREMIUM_SELECT_PLACEHOLDER: Ayrıcalıkları görüntülemek için bir seviye seçin...
 WITCH_OF_PURPLE_ROSE: Mor Gül Cadısı
 ASTRAL_REFLECTION: Astral Yansıma
@@ -1364,7 +1364,7 @@ CUSTOM_ROLE_DELETE_BUTTON: Özel Rol Sil
 CUSTOM_ROLE_NAME_CHANGE_BUTTON: Rol Adını Değiştir
 CUSTOM_ROLE_COLOR_CHANGE_BUTTON: Rol Rengini Değiştir
 PREMIUM_SERVER_REMOVE: Kaldırılacak bir sunucu seçin...
-PREMIUM_SERVER_TIMESTAMP: "Premium {date} tarihinden beri"
+PREMIUM_SERVER_TIMESTAMP: Premium {date} tarihinden beri
 GUILD_OR_SERVER_ID: Gild/Sunucu ID
 GUILD_OR_SERVER_ID_PLACEHOLDER: Buraya Gild/Sunucu ID'sini girin...
 GUIDE_KEY: Kılavuz
@@ -1399,11 +1399,11 @@ GENSHIN_WIZARD_TRANSLATE_TITLE: Genshin Sihirbazı Çevirilerine Katkıda Bulun
 GENSHIN_WIZARD_TRANSLATE_DESCRIPTION: Genshin Wizard çevirilerine katkıda bulunmak için aşağıdaki bağlantılardan birine tıklayın!
 APP_COMMAND_LANGUAGE_DESCRIPTION: Genshin Wizard için dilinizi değiştirin.
 APP_COMMAND_DESCRIBE_LANGUAGE: Genshin Wizard'ın ayarlanmasını istediğiniz dil.
-GENSHIN_WIZARD_LANGUAGE_SWITCHED: "Genshin Wizard için varsayılan dil **{language}** olarak değiştirildi!"
-GENSHIN_WIZARD_CURRENT_LANGUAGE: "Genshin Wizard için mevcut diliniz **{language}**!"
+GENSHIN_WIZARD_LANGUAGE_SWITCHED: Genshin Wizard için varsayılan dil **{language}** olarak değiştirildi!
+GENSHIN_WIZARD_CURRENT_LANGUAGE: Genshin Wizard için mevcut diliniz **{language}**!
 ABYSS_FLOOR_PROGRESSION: "Mevcut İlerleme: **{stars}/9** {bounty_status}"
-ABYSS_FLOOR_AUTHOR: "Katman {floor} • Spiral Abyss İlerlemesi"
-ABYSS_FLOOR_LABEL: "Kat {floor}"
+ABYSS_FLOOR_AUTHOR: Katman {floor} • Spiral Abyss İlerlemesi
+ABYSS_FLOOR_LABEL: Kat {floor}
 APP_COMMAND_ABYSS_ENEMY_DESCRIPTION: Spiral Abyss için abyss düşmanı bilgilerini görüntüleyin.
 ABYSS_ENEMY_NOT_ONGOING: Şu anda devam eden Spiral Abyss zorlukları yok.
 ABYSS_ENEMY_TITLE: Spiral Abyss Düşmanı Bilgisi
@@ -1414,7 +1414,7 @@ CUSTOM_ROLE_ICON_REQUEST_TIMEOUT: Merhaba Seyyah! Sizden herhangi bir girdi alma
 CUSTOM_ROLE_ICON_NOT_IMAGE: Hey Gezgin! Ek bir **resim** olmalı!
 CUSTOM_ROLE_ICON_SUCCESS: Özel rol simgeniz başarıyla değiştirildi. Bu onay mesajı **10 saniye** içinde silinecek.
 DEFAULT_KEY: Varsayılan
-EDITOR_NOT_WHITELISTED: "Merhaba Seyyah! Kılavuzları düzenlemek için **beyaz listeye alınmadınız**. Elit Sumeru Bilgelerin ekibine katılma şansı için lütfen [**Buradan Başvurun**](https://genshinwizard.com/sumeru/)!"
+EDITOR_NOT_WHITELISTED: Merhaba Seyyah! Kılavuzları düzenlemek için **beyaz listeye alınmadınız**. Elit Sumeru Bilgelerin ekibine katılma şansı için lütfen [**Buradan Başvurun**](https://genshinwizard.com/sumeru/)!
 GENSHIN_WIZARD_CUSTOM_ROLE: Genshin Wizard Özel Rolü
 GENSHIN_WIZARD_INVENTORY_TITLE: Genshin Wizard Envanteri
 HELP_LIST_COMMAND: Komutları Görüntüle
@@ -1427,25 +1427,25 @@ ABYSS_ENEMY_INFORMATION_BUTTON_LABEL: Düşman Sayıları
 APP_COMMAND_HOYOLAB_PRIVACY_DESCRIPTION: Savaş Günlükleri Gizlilik Ayarlarınızı değiştirin.
 VIEW_ON_HOYOLAB: HoYoLAB'da Görüntüle
 CHRONICLES_PRIVACY_SETTING: Karakter Savaş Günlüğü Ayarları
-PRIVACY_SETTING_BUTTON_LABEL: "Gizlilik Ayarı {setting_number}"
+PRIVACY_SETTING_BUTTON_LABEL: Gizlilik Ayarı {setting_number}
 INVALID_PAGE_INPUT: Geçerli bir **sayfa** numarası sağlamalısınız.
 PAGE_MODAL_LABEL: "Görüntülemek istediğiniz sayfa numarası:"
-PAGE_MODAL_PLACEHOLDER: Sayfa numarasını girin...
-RARITY_FILTER_PLACEHOLDER: Bir nadirlik filtresi seçin...
-CHRONICLE_PRIVACY_PLACEHOLDER: Savaş Günlüğü gizlilik ayarlarını yönetin...
-LEADERBOARD_FILTER_PLACEHOLDER: Bu liderlik tablosu için bir filtre seçin...
-VIEW_FULL_TEAM: Tam Takımları Nasıl Görüntülerim?
+PAGE_MODAL_PLACEHOLDER: "Sayfa numarasını girin..."
+RARITY_FILTER_PLACEHOLDER: "Bir nadirlik filtresi seçin..."
+CHRONICLE_PRIVACY_PLACEHOLDER: "Savaş Günlüğü gizlilik ayarlarını yönetin..."
+LEADERBOARD_FILTER_PLACEHOLDER: "Bu liderlik tablosu için bir filtre seçin..."
+VIEW_FULL_TEAM: "Tam Takımları Nasıl Görüntülerim?"
 MANAGE_ART_SETTING_KEY: Sanat Ayarlarını Yönet
 DEFAULT_ART_SETTING: Varsayılan Düzen
 ENKA_ART_SETTING: Enka.Network Düzeni
 ART_SETTING_TITLE: Genshin Wizard Sanat Ayarları
-ART_SETTING_DESCRIPTION: "Manage your Genshin Wizard </info:{command_id}> art settings here."
-ART_LAYOUT_STYLE: Düzen Stili
-ART_CHARACTER_STYLE: Karakter Sanatı
+ART_SETTING_DESCRIPTION: Manage your Genshin Wizard </info:{command_id}> art settings here.
+ART_LAYOUT_STYLE: "Düzen Stili"
+ART_CHARACTER_STYLE: "Karakter Sanatı"
 RESET_PROFILE_SETTINGS: Profil Ayarlarını Sıfırla
-CHOOSE_ART_LAYOUT: Bir sanat düzeni stili seçin...
+CHOOSE_ART_LAYOUT: "Bir sanat düzeni stili seçin..."
 MANAGE_CACHED_DATA: Önbelleğe Alınan Verileri Yönet
-INFO_COMMAND_SETTING_NOT_OWNER: "You can only manage art settings for your own characters! Use the </info:{command_id}> for more information!"
+INFO_COMMAND_SETTING_NOT_OWNER: You can only manage art settings for your own characters! Use the </info:{command_id}> for more information!
 VERTICAL_ART_SETTING: Dikey Kart Düzeni
 DIARY_DATE_LABEL: "{month}/{year} Günlüğü"
 NO_ACTIVE_BONUS: Aktif Bonus Yok
@@ -1476,7 +1476,7 @@ ADVENTURE_RANK_VALUE: "Macera Rütbesi: {adventure_rank}"
 SERVER_KEY_VALUE: "Sunucu: {server}"
 UID_KEY_VALUE: "UID: {uid}"
 HOYO_API_LIMITATION: "*Veri, HoYoLAB API sınırlamaları nedeniyle hatalı olabilir"
-CHECK_IN_GAME: En doğru bilgi için oyunda kontrol et
+CHECK_IN_GAME: "En doğru bilgi için oyunda kontrol et"
 HOYO_COMMISSION_KEY: "Komisyonlar:"
 HOYO_ADVENTURE_RANK_KEY: "Macera Rütbesi:"
 HOYO_DAILY_BONUS_STATUS: "Günlük Giriş:"
@@ -1486,15 +1486,15 @@ HOYO_TRANSFORMER_KEY: "P. Dönüştürücü:"
 TRANSFORMER_READY_KEY: Hazır
 TRANSFORMER_LOCKED_KEY: Kilitli
 GENSHIN_STATS_KEY: Genshin İstatistikleri
-STATS_TOTAL_ACHIEVEMENTS_KEY: Başarılar
-STATS_TOTAL_ACTIVE_DAYS_KEY: Total Active Days
-STATS_TOTAL_CHARACTERS_KEY: Karakterler
-STATS_SPIRAL_ABYSS_KEY: Spiral Abyss
-STATS_IMAGINARIUM_THEATER_KEY: İmaginarium Tiyatrosu
-STATS_STYGIAN_ONSLAUGHT_KEY: Stygian Saldırı
-STATS_REGION_KEY: Bölge
-STATS_WAYPOINTS_KEY: Yol Noktaları
-STATS_DOMAINS_KEY: Alanlar
+STATS_TOTAL_ACHIEVEMENTS_KEY: "Başarılar"
+STATS_TOTAL_ACTIVE_DAYS_KEY: "Total Active Days"
+STATS_TOTAL_CHARACTERS_KEY: "Karakterler"
+STATS_SPIRAL_ABYSS_KEY: "Spiral Abyss"
+STATS_IMAGINARIUM_THEATER_KEY: "İmaginarium Tiyatrosu"
+STATS_STYGIAN_ONSLAUGHT_KEY: "Stygian Onslaught"
+STATS_REGION_KEY: "Bölge"
+STATS_WAYPOINTS_KEY: "Yol Noktaları"
+STATS_DOMAINS_KEY: "Alanlar"
 ANEMOCULUS_KEY: Anemoculus
 GEOCULUS_KEY: Geoculus
 ELECTROCULUS_KEY: Electroculus
@@ -1513,9 +1513,9 @@ BOTTOM_KEY: Alt
 TOP_KEY: Üst
 WISH_STAT_LESS_THAN: "Genshin Wizard Kullanıcılarının % {global_percentile}'inden daha az çekim."
 WISH_STAT_MORE_THAN: "Genshin Wizard Kullanıcılarının % {global_percentile}'inden daha fazla çekim."
-FIVE_STAR_LUCK: 5-Yıldız Şansı
-FOUR_STAR_LUCK: 4-Yıldız Şansı
-THREE_STAR_LUCK: 3-Yıldız Şansı
+FIVE_STAR_LUCK: "5-Yıldız Şansı"
+FOUR_STAR_LUCK: "4-Yıldız Şansı"
+THREE_STAR_LUCK: "3-Yıldız Şansı"
 WISH_LUCK_LESS: "Genshin Wizard Kullanıcılarının % {rarity_percentile}'inden daha az şanslı."
 WISH_LUCK_MORE: "Genshin Wizard Kullanıcılarının % {rarity_percentile}'inden daha şanslı."
 CURRENT_LUNAR_PHASE: Mevcut Ay Fazı
@@ -1530,20 +1530,20 @@ INFORMATION_KEY: Bilgi
 FROM_DIARY_NOTE: "- {nickname}'den"
 TRAVELER_DIARY_KEY: Gezginin Günlüğü
 NICKNAME_KEY_VALUE: "Takma Ad: {nickname}"
-DIARY_MONTH_OF_KEY: Ayı
+DIARY_MONTH_OF_KEY: "Ayı"
 ACQUIRED_MONTH_KEY: Bu ay edinildi
 TOTAL_MORA_KEY: Toplam Mora
 DIARY_MONTHLY_DESCRIPTION: "Bu ay, Primogem elde etmenin ana kaynağı {source} üzerinden, toplamda {primogem_count} Primogem, yani toplamınızın {top_percentage}%'sidir!"
-DIARY_DAILY_DESCRIPTION: "Merhaba Gezgin! Bugün {primogems} Primogem ve {mora} Mora kazandın, ne bereketli bir gün!"
+DIARY_DAILY_DESCRIPTION: Merhaba Gezgin! Bugün {primogems} Primogem ve {mora} Mora kazandın, ne bereketli bir gün!
 TOTAL_PRIMOGEMS_OBTAINED: Elde Edilen Primogemler
 DIARY_DATA_DELAYED: "*Bu veri yaklaşık bir saat gecikmelidir, lütfen güncellenmiş kayıtları daha sonra kontrol edin"
 DIARY_DATA_SOURCE_DESCRIPTION: "*Bu günlük yalnızca yüklemeler dışında elde edilen kaynakları içerir"
 REGION_EXPLORATION_STATUS: "Keşif İlerlemesi: {percentage}%"
 CHARACTER_CARDS_STATUS: "Karakter Kartları: {owned_cards}/{total_cards}"
 ACTION_CARDS_STATUS: "Eylem Kartları: {owned_cards}/{total_cards}"
-UID_HIDDEN_KEY: UID Gizli
-NO_CRIT_VALUE_KEY: Kritik Değer Yok
-NO_CRIT_VALUE_FOUND: Kritik Değer Bulunamadı
+UID_HIDDEN_KEY: "UID Gizli"
+NO_CRIT_VALUE_KEY: "Kritik Değer Yok"
+NO_CRIT_VALUE_FOUND: "Kritik Değer Bulunamadı"
 FRIENDSHIP_LEVEL_KEY: "Arkadaşlık Lv. {friendship_level}"
 ARTIST_CREDIT_STRING: Karakter Sanatçı Kredileri
 CUSTOM_ARTWORK_STRING: Özel Sanat Eseri
@@ -1582,7 +1582,7 @@ TIME_LEFT_KEY: Kalan Zaman
 TEAM_SYNERGY_TITLE: Takım Sinerjileri & Kompozisyonları
 FOUR_STAR_CHARACTER: Dört Yıldızlı Karakter
 FIVE_STAR_CHARACTER: Beş Yıldızlı Karakter
-CHARACTER_ART_INFO: "Sanatçı: {artist}"
+CHARACTER_ART_INFO: 'Sanatçı: {artist}'
 ARTIFACT_SET_KEY: Artifact Seti
 TWO_PIECE_BONUS: 2-parça Set Bonusu
 FOUR_PIECE_BONUS: 4-parça Set Bonusu
@@ -1621,16 +1621,16 @@ FIVE_STAR_PITY: 5-Yıldız Pity
 FOUR_STAR_PITY: 4-Yıldız Pity
 FIVE_STAR_PERCENTAGE: 5-Yıldız Yüzdesi
 FOUR_STAR_PERCENTAGE: 4-Yıldız Yüzdesi
-SIGN_IN_TITLE: "Bu ay {total_days} gün giriş yaptınız."
+SIGN_IN_TITLE: Bu ay {total_days} gün giriş yaptınız.
 SIGN_IN_DESCRIPTION: "*Bir daha asla giriş yapmayı kaçırmamak için /daily komutunu kullanın!"
 INVOKATION_LEVEL: "Seviye:"
 INVOKATION_NICKNAME: "Takma Ad:"
-INVOKATION_TITLE: Genius Invokation TCG
-INVOKATION_SHOWCASE: Kart Vitrini
-INVOKATION_SUMMARY: Ticaret Kartı Özeti
+INVOKATION_TITLE: "Genius Invokation TCG"
+INVOKATION_SHOWCASE: "Kart Vitrini"
+INVOKATION_SUMMARY: "Ticaret Kartı Özeti"
 DAILY_ALREADY_CLAIMED: Günlük ödülünüzü zaten talep ettiniz.
 UNABLE_TO_CLAIM: Günlük ödülünüzü talep edemedim.
-COOKIE_RESET_MESSAGE: "Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </accounts:{command_id}> to register."
+COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </accounts:{command_id}> to register.
 INVALID_COOKIE_KEY: Geçersiz Çerez
 TEST_NOTIFICATION_KEY: Test Bildirimi
 TEST_NOTIFICATION_TITLE: Genshin Wizard | Bildirim Testi
@@ -1656,10 +1656,10 @@ PASSWORD_KEY: Hesap Şifresi
 HYDROCULUS_KEY: Hidroculus
 APP_COMMAND_RECOVER_DESCRIPTION: Erişilemeyen Genshin Wizard hesabınızı kurtarın.
 RECOVER_COMMAND_TITLE: Genshin Wizard Hesap Kurtarma
-RECOVER_COMMAND_ALREADY_REGISTERED: "Zaten bir hesaba **kayıtlısınız**! Önce </unlink:{command_id}> kullanarak bağlantıyı kaldırın, ardından önceki hesabınızı kurtarmaya çalışın."
+RECOVER_COMMAND_ALREADY_REGISTERED: Zaten bir hesaba **kayıtlısınız**! Önce </unlink:{command_id}> kullanarak bağlantıyı kaldırın, ardından önceki hesabınızı kurtarmaya çalışın.
 RECOVER_COMMAND_INSTRUCTIONS: |
   Genshin Wizard hesabınıza erişimi kaybettiniz ve hesabınızı yeniden bağlamak mı istiyorsunuz? Doğru yere geldiniz!
-  
+
   **Hesap kurtarma** sürecine başlamak için aşağıdaki düğmeye tıklayın.
 METHOD_ONE_BUTTON: Yöntem 1
 METHOD_TWO_BUTTON: Yöntem 2
@@ -1711,13 +1711,13 @@ REQUIRED_BY_KEY: Gereken
 REFERENCE_SHEET_KEY: Referans Sayfası
 APP_COMMAND_MEMORY_DESCRIPTION: Genshin Impact hafıza oyunu oynayın.
 MEMORY_COMMAND_COOLDOWN_MESSAGE: Merhaba Seyyah, **yavaşla**! Kartlara çok hızlı tıklıyorsun.
-MEMORY_COMMAND_COMPLETION: "Tebrikler! Mini oyunu **{time_taken}** saniyede **{try_count}** denemeyle tamamladın."
+MEMORY_COMMAND_COMPLETION: Tebrikler! Mini oyunu **{time_taken}** saniyede **{try_count}** denemeyle tamamladın.
 ZENLESS_GAME_KEY: Zenless Zone Zero
 TEARS_GAME_KEY: Tears of Themis
 HELP_FUN_COG_NAME: Eğlence
 HELP_DROPDOWN_FUN_COMMANDS: Eğlenceli Komutlar
 HELP_DROPDOWN_FUN_COMMANDS_DESCRIPTION: Eğlence ile İlgili Komutları Görüntüle
-EXPORT_COMMAND_HISTORY_TITLE: "Kullanıcı {uid}'nin Dilek Geçmişi"
+EXPORT_COMMAND_HISTORY_TITLE: Kullanıcı {uid}'nin Dilek Geçmişi
 REDEEM_SINGLE_CODE: Tek Kod Kullan
 REDEEM_ALL_CODES: Tüm Mevcut Kod(ları) Kullan
 AUTO_REDEEM_MESSAGE: Hesabınız için kodları otomatik olarak kullanın! Aşağıdan ödüllerinizi talep etmek için bir oyun seçin.
@@ -1736,12 +1736,12 @@ PYROCULUS_KEY: Pyroculus
 SELECT_ACCOUNT_KEY: Hesap Seç
 SELECT_ACCOUNT_DESCRIPTION: |
   Please select the account you wish to link from the below select menu.
-  
+
   Genshin Wizard has found **{num_accounts}** different game accounts linked with the provided details.
 NO_NICKNAME_KEY: Takma Ad Yok
 GENSHIN_WIZARD_CURRENT_ACCOUNT_DESCRIPTION: |
   Register your Genshin/HoYoLAB account to Genshin Wizard.
-  
+
   Active Account: **{account}**
   Nickname: **{nickname}**
 EDIT_NICKNAME_KEY: Takma Adı Düzenle
@@ -1752,8 +1752,8 @@ ADD_ACCOUNT_REGISTER_TITLE: Genshin Wizard Hesap Kaydı
 ADD_ACCOUNT_REGISTER_DESCRIPTION: Genshin Impact hesabınızı Genshin Wizard ile kaydetmek için aşağıdaki butonları kullanın.
 PREMIUM_REQUIRED_TITLE: Genshin Wizard Premium Gerekiyor
 MAX_ACCOUNTS_REACHED: "Maksimum **{tier_notation}** hesap sayısına ulaştınız. Daha fazla hesap eklemek için premium'a yükseltmeyi düşünün. Yükseltme ile ilgileniyorsanız, </premium:{command_id}> komutunu kullanın."
-YES_BUTTON: Evet
-NO_BUTTON: Hayır
+YES_BUTTON: "Evet"
+NO_BUTTON: "Hayır"
 REMOVE_ACCOUNT_TITLE: Genshin Wizard'dan Hesabı Kaldır
 REMOVE_ACCOUNT_DESCRIPTION: Genshin Impact hesabınızı Genshin Wizard'dan kaldırmak için aşağıdaki butonları kullanın.
 ERROR_GENSHIN_COMMAND_ONLY_TITLE: Genshin Wizard | Hata
@@ -1763,7 +1763,7 @@ CHARACTER_GUIDE_LIST_SECTION_TITLE: Genshin Impact Karakter Rehberleri
 PROCESSING_MESSAGE: İstek/işlem işleniyor, lütfen **sabırlı** olun...
 ACCOUNT_CANNOT_REDEEM: |
   Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard or your account was not properly configured initially.
-  
+
   In order to use this command/feature, you must relink your HoYoLAB account through </accounts:{command_id}>.
 VIEW_ACCOUNTS_KEYS: Hesap(ları) Görüntüle
 NOT_YET_EXPLORED: Henüz Keşfedilmedi!
@@ -1775,14 +1775,14 @@ THEATER_DETAIL_NORMAL: "Tiyatro Detayları: Normal Mod"
 THEATER_DETAIL_HARD: "Tiyatro Detayları: Zor Mod"
 THEATER_DETAIL_VISIONARY: "Tiyatro Detayları: Vizyoner Mod"
 THEATER_DETAIL_LUNAR: "Tiyatro Detayları: Ay Modu"
-THEATER_DETAIL: Tiyatro Detayları
-NO_IMAGINARIUM_THEATER_DATA: İmaginarium Tiyatrosu Verisi Yok
+THEATER_DETAIL: "Tiyatro Detayları"
+NO_IMAGINARIUM_THEATER_DATA: "İmaginarium Tiyatrosu Verisi Yok"
 FANTASIA_FLOWERS_USED: Kullanılan Fantasia Çiçekleri
 EXTERNAL_AUDIENCE_SUPPORT: Dış İzleyici Desteği Aktif
 SUPPORT_CAST_ASSIST: Destekleyici Karakterler Diğer Oyunculara Yardımcı Olur
 TOTAL_CAST_TIME: Toplam Süre
-THEATER_ACT_KEY: "Perde {act_id}"
-ARCANA_CHALLENGE_KEY: "Arcana Mücadelesi {tarot_serial_no}"
+THEATER_ACT_KEY: Perde {act_id}
+ARCANA_CHALLENGE_KEY: Arcana Mücadelesi {tarot_serial_no}
 FASTEST_ACT_KEY: En Hızlı Perde
 HIGHEST_DAMAGE_DEALT_LABEL: En Yüksek Verilen Hasar
 TRIAL_KEY: Deneme
@@ -1791,7 +1791,7 @@ THEATER_COMMAND_FOOTER: "Note: Theater data may be incorrectly shown or missing 
 IMAGINARIUM_THEATER_DESCRIPTION: İmaginarium Tiyatrosu ilerleme istatistiklerinizi görüntüleyin
 THEATER_LEADERBOARD_PLACEHOLDER: Görüntülemek için bir ay evresi seçin...
 VIEW_THEATER_TEAM: İmaginarium Tiyatrosu Kadrosunu Görüntüleme
-THEATER_COMMAND_STATISTICS_CREDIT: "Kullanıcı {name}'ın İmaginarium Tiyatrosu İstatistikleri"
+THEATER_COMMAND_STATISTICS_CREDIT: Kullanıcı {name}'ın İmaginarium Tiyatrosu İstatistikleri
 THEATER_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Tiyatro Arşivleri**
   **Başlangıç Zamanı:** <t:{timestamp_start}:F>
@@ -1805,24 +1805,24 @@ MONSTER_GUIDE_LIST_SECTION_TITLE: Genshin Impact Canavar Listesi
 GCG_GUIDE_LIST_SECTION_TITLE: Genshin Impact TCD Kart Listesi
 FURNISHING_GUIDE_LIST_SECTION_TITLE: Genshin Impact Dekorasyon Listesi
 UPDATE_CHARACTER_ROLE_CONFIGURATION: Karakter Odaklı Rol Yapılandırmasını Güncelle
-ERROR_CHANNEL_NOT_EXIST: "Verdiğiniz kanal (<#{channel_id}) mevcut değil!"
-ERROR_ROLE_NOT_EXIST: "Verdiğiniz rol (<@&{role_id}>) mevcut değil!"
+ERROR_CHANNEL_NOT_EXIST: 'Verdiğiniz kanal (<#{channel_id}) mevcut değil!'
+ERROR_ROLE_NOT_EXIST: Verdiğiniz rol (<@&{role_id}>) mevcut değil!
 ROLE_COMMAND_EMBED_TITLE: Otomatik Rol Atama
 ROLE_COMMAND_IN_PROGRESS: Kullanıcının karakterleri kontrol ediliyor...
 APP_COMMAND_WEAPON_LIST_DESCRIPTION: Genshin Impact'teki mevcut silahların listesini görüntüle.
-USER_NOT_REGISTERED_ERROR: "Üzgünüm, bu kullanıcı **kayıtlı değil** veya aktif hesabı Genshin Impact hesabı değil! Lütfen bu komutu kullanmadan önce </accounts:{command_id}> ile kayıt olun/hesap değiştirin."
+USER_NOT_REGISTERED_ERROR: Üzgünüm, bu kullanıcı **kayıtlı değil** veya aktif hesabı Genshin Impact hesabı değil! Lütfen bu komutu kullanmadan önce </accounts:{command_id}> ile kayıt olun/hesap değiştirin.
 MAGIC_LABEL: Dikkate Değer
 THEATER_NOT_UNLOCKED: İmginarium Tiyatrosu henüz hesabınız için açılmamış!
-CHARACTER_NOT_IN_ACCOUNT: "Karakter `{name}` hesabınızda bulunamadı!"
+CHARACTER_NOT_IN_ACCOUNT: Karakter `{name}` hesabınızda bulunamadı!
 ONSLAUGHT_NOT_UNLOCKED: Stygian Onslaught henüz hesabınız için açılmamış!
 ONSLAUGHT_COMMAND_FOOTER: "Note: Stygian Onslaught data may be incorrectly shown or missing data, if this is the case, do keep in mind that Stygian Onslaught data can generally take anywhere from 1-3 hours to update!"
-NO_ONSLAUGHT_DATA: Stygian Onslaught Verisi Yok
-ONSLAUGHT_COMMAND_STATISTICS_CREDIT: "Kullanıcı {name}'ın Stygian Onslaught İstatistikleri"
+NO_ONSLAUGHT_DATA: "Stygian Onslaught Verisi Yok"
+ONSLAUGHT_COMMAND_STATISTICS_CREDIT: Kullanıcı {name}'ın Stygian Onslaught İstatistikleri
 ONSLAUGHT_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Stygian Onslaught Arşivleri**
   **Başlangıç Zamanı:** <t:{timestamp_start}:F>
   **Bitiş Zamanı:** <t:{timestamp_end}:F>
-ONSLAUGHT_LEADERBOARD_PLACEHOLDER: Görmek için bir ay evresi seçin...
+ONSLAUGHT_LEADERBOARD_PLACEHOLDER: Görüntülemek için bir ay evresi seçin...
 STYGIAN_ONSLAUGHT_KEY: Stygian Onslaught
 ONSLAUGHT_DESCRIPTION: Stygian Onslaught ilerleme istatistiklerinizi görüntüleyin
 APP_COMMAND_ONSLAUGHT_DESCRIPTION: Genshin hesabınızın Stygian Onslaught ilerlemesini görüntüleyin.
@@ -1843,7 +1843,7 @@ ONSLAUGHT_SCHEDULE_RECORD: Program Kaydı
 SINGLE_PLAYER_KEY: Tek Oyuncu
 MULTI_PLAYER_KEY: Çoklu Oyuncu
 BATTLE_SYNOPSIS_KEY: Savaş Özeti
-BATTLE_INDEX_KEY: "Savaş {battle_field_id}"
+BATTLE_INDEX_KEY: Savaş {battle_field_id}
 FASTEST_KEY: En Hızlı
 COMPLETE_KEY: Tamamla
 NO_TEAM_DETAILS: Takım Detayı Yok
@@ -1859,9 +1859,9 @@ PREVIOUS_PHASE_DESCRIPTION: |
 PHASE_NO_DATA: Hey Seyyah, bu aşama için şu anda veri yok gibi görünüyor. Lütfen daha sonra tekrar deneyin veya bunun bir hata olduğunu düşünüyorsanız Genshin Wizard destek ekibiyle iletişime geçin.
 CHANNEL_NOT_FOUND: Verdiğiniz kanal mevcut değil veya erişilemez.
 INITIALIZE_WEBHOOK_BUTTON: Webhook'u Başlat/Yenile
-CHANNEL_SETUP_SUCCESS: "{channel} kanalı başarıyla ayarlandı! Lütfen panel yapılandırma görünümündeki butona tıklayarak webhook'u etkinleştirin/başlatın."
+CHANNEL_SETUP_SUCCESS: '{channel} kanalı başarıyla ayarlandı! Lütfen panel yapılandırma görünümündeki butona tıklayarak webhook''u etkinleştirin/başlatın.'
 WEBHOOK_INITIALIZED: Eklenti başarıyla başlatıldı, eğer henüz yapmadıysanız lütfen eklentiyi etkinleştirin. Hazırsınız!
-PREMIUM_MANAGE_BILLING: Faturalandırmayı Yönet
+PREMIUM_MANAGE_BILLING: Faturalamayı Yönet
 MAX_OUT_PRIMOGEMS: Primogemleri Maksimize Et
 PREMIUM_FEATURE_CONSIDER_UPGRADE: Hey Seyyah! Bu komutu kullanmanıza **izin verilmiyor**, bu komut yalnızca **Premium Abonelere** açıktır. Bu özelliği kullanmak istiyorsanız, yükseltmeyi düşünün!
 NO_ROLE_KEY: Rol Yok
@@ -1869,9 +1869,9 @@ THEATER_STATISTICS_KEY: İmginarium Tiyatrosu İstatistikleri
 ONSLAUGHT_STATISTICS_KEY: Stygian Onslaught İstatistikleri
 LEADERBOARD_THEATER_FOOTER: İmginarium Tiyatrosu istatistikleri, imaginarium tiyatro ilerleme komutu aracılığıyla güncellenir, güncellenmiş istatistik ölçümü almak için imaginarium tiyatro ilerlemenizi sık sık kontrol edin!
 LEADERBOARD_ONSLAUGHT_FOOTER: Stygian Onslaught istatistikleri, stygian onslaught ilerleme komutu aracılığıyla güncellenir, güncellenmiş istatistik ölçümü almak için stygian onslaught ilerlemenizi sık sık kontrol edin!
-THEATER_LEADERBOARD_ALL_TIME: Tüm Zamanların Lider Tablosu
+THEATER_LEADERBOARD_ALL_TIME: Tüm Zamanların Sıralaması
 THEATER_LEADERBOARD_ALL_TIME_DESCRIPTION: Tüm İmginarium Tiyatrosu aşamalarından kayıtları görüntüleyin.
-ONSLAUGHT_LEADERBOARD_ALL_TIME: Tüm Zamanların Lider Tablosu
+ONSLAUGHT_LEADERBOARD_ALL_TIME: Tüm Zamanların Sıralaması
 ONSLAUGHT_LEADERBOARD_ALL_TIME_DESCRIPTION: Tüm Stygian Onslaught aşamalarından kayıtları görüntüleyin.
 THEATER_STATISTICS_DESCRIPTION: Genshin Wizard'ın İmginarium Tiyatrosu lider tablosunu görüntüleyin.
 ONSLAUGHT_STATISTICS_DESCRIPTION: Genshin Wizard'ın Stygian Onslaught lider tablosunu görüntüleyin.
@@ -1881,7 +1881,7 @@ AUTOCLAIM_EVENT_DISABLE_DESCRIPTION: "Otomatik talep özelliğini başarıyla **
 AUTOREDEEM_EVENT_UNSUBSCRIBE_DESCRIPTION: "Otomatik geri alma özelliğinden başarıyla **aboneliğinizi iptal ettiniz**. Aşağıdaki hesap için otomatik geri alma ile ilgili bildirim almayacaksınız: **{uid}**."
 AUTOREDEEM_EVENT_DISABLE_DESCRIPTION: "Otomatik geri alma özelliğini başarıyla **devre dışı bıraktınız**. Aşağıdaki hesap için otomatik geri alma ile ilgili bildirim almayacaksınız: **{uid}**."
 STATS_MAX_FRIENDSHIP_COUNT_KEY: Maksimum Arkadaşlık Karakterleri
-PARTNER_ONLY_CONFIGURATION: "Merhaba Seyyah, bu yapılandırma Genshin Wizard'ın **ortakları** için ayrılmıştır. Lütfen yapılandırmak için farklı bir rol entegrasyonu seç veya **[Discord Sunucumuz](https://genshinwizard.com/discord)** ile ortaklık kurmayı düşün!"
+PARTNER_ONLY_CONFIGURATION: Merhaba Seyyah, bu yapılandırma Genshin Wizard'ın **ortakları** için ayrılmıştır. Lütfen yapılandırmak için farklı bir rol entegrasyonu seç veya **[Discord Sunucumuz](https://genshinwizard.com/discord)** ile ortaklık kurmayı düşün!
 CLUSTER_KEY: Küme
 VOTE_GENSHIN_WIZARD: Genshin Wizard için Oy Ver!
 SUPPORT_VOTE_DESCRIPTION: Bot keşif platformlarında oy vererek Genshin Wizard botunu destekleyin ve bu süreçte ücretsiz ödüller kazanın!
@@ -1893,7 +1893,7 @@ REAUTHENTICATE_DESCRIPTION: Seçili Genshin Wizard özelliklerini kullanmaya dev
 REGISTER_DEVTOOLS_BUTTONS: Geliştirici Araçları ile Kaydol (Sadece Masaüstü)
 APP_COMMAND_REAUTHENTICATE_DESCRIPTION: Giriş süresi dolmuşsa HoYoLAB hesabınızı yeniden doğrulayın.
 REAUTHENTICATE_KEY: Yeniden Doğrula
-ACTION_LOADING_LABEL: Yükleniyor...
+ACTION_LOADING_LABEL: "Yükleniyor..."
 SETUP_REMINDERS_BUTTON: Hesap Hatırlatıcılarını Kur (Reçin, Çaydanlık, vb.)
 ACCOUNT_OVERVIEW_KEY: Hesap Özeti
 ACCOUNT_OVERVIEW_DESCRIPTION: Mevcut reçine, çaydanlık parası, seferler ve daha fazlasını görüntüleyin!
@@ -1905,7 +1905,7 @@ LOGIN_ACCOUNT_REGISTRATION: Genshin Wizard HoYoLAB Hesap Kaydı
 LOGIN_ACCOUNT_EMAIL_VERIFICATION: Hesap Kaydı | E-posta Doğrulaması Gerekli
 LOGIN_ACCOUNT_REGISTRATION_PROCESSING: Merhaba Seyyah, hesap kayıt talebinizi işliyoruz. Lütfen hesap bilgilerinizi toplamak için bir an bekleyin.
 LOGIN_ACCOUNT_REGISTRATION_FAILED: Hesap Kaydı Başarısız
-LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: "Hello Traveler, it seems that we were unable to register your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error."
+LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: Hello Traveler, it seems that we were unable to register your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error.
 LOGIN_REGISTRATION_METHOD: "Kayıt Yöntemi: **{method}**"
 LOGIN_REGISTRATION_STATUS: "Durum: **{status}**"
 LOGIN_STATUS_PROCESSING: İşleniyor
@@ -1916,7 +1916,7 @@ REAUTHENTICATION_SUCCESS_TITLE: Yeniden Doğrulama Başarılı
 REAUTHENTICATION_SUCCESS: HoYoLAB hesabınızı **başarıyla** yeniden doğruladınız! Artık seçili Genshin Wizard özelliklerini tekrar kullanabilirsiniz.
 NO_REAUTH_ACCOUNT_FOUND: Yeniden doğrulamak için mevcut bir HoYoLab hesabı bulunamadı!
 REAUTHENTICATION_FAILED_TITLE: Yeniden Doğrulama Başarısız
-REAUTHENTICATION_FAILED: "Hello Traveler, it seems that we were unable to reauthenticate your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error."
+REAUTHENTICATION_FAILED: Hello Traveler, it seems that we were unable to reauthenticate your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error.
 EMAIL_VERIFICATION_KEY: E-posta Doğrulaması
 VERIFICATION_CODE_KEY: Doğrulama Kodu
 LOGIN_STATUS_SUCCESS_DESCRIPTION: Tebrikler! Genshin Wizard ile HoYoLAB hesabınızı başarıyla kaydettiniz. Artık seçili Genshin Wizard özelliklerini kullanabilirsiniz.
