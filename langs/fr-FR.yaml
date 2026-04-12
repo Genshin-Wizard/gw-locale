@@ -292,19 +292,19 @@ INFO_COMMAND_CACHE_DESCRIPTION: |
   <:na:975828401900359711> **Que faire si je veux supprimer les anciens builds ?**
   N'ayez crainte ! Vous serez en mesure de gérer vos builds en cache directement à partir de ce messafe ! Utilisez l'interface ci-dessous pour suprimer des personnages spécifiques, ou tous, de votre cache Genshin Wizard.
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard Custom Art Feature**
-  Hey Traveler, it looks like you're trying to use Genshin Wizard's **Custom Art** feature! This feature is only available to Genshin Wizard Premium users.
+  <:information:1034639378410115103> **Fonctionnalité d'Art Personnalisé de Genshin Wizard**
+  Salut Voyageur, il semble que tu essaies d'utiliser la fonctionnalité **Art Personnalisé** de Genshin Wizard ! Cette fonctionnalité est uniquement disponible pour les utilisateurs de Genshin Wizard Premium.
 
-  You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Premium Page Information**](https://)!
+  Tu peux en savoir plus sur Genshin Wizard Premium en utilisant la commande </premium:{command_id}>, ou en visitant notre [**Page d'Information Premium**](https://)!
 PURCHASE_PREMIUM: Achat Premium
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Hey Voyageur, vous ne pouvez gérer de l'art personnalisé que pour vos **propres personnages** !
 GENSHIN_WIZARD_CUSTOM_ART: Art Personnalisé Genshin Wizard
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
+  **Personnaliser l'Art Infographique**
+  Salut Voyageur, clique sur le lien ou le bouton ci-dessous pour **personnaliser** l'art infographique pour ce personnage ! <a:PaimonCookies:992302701838864454>
   ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://genshinwizard.com/premium)
+  Infographie pour {character}```
+  > <:Settings:1046877233626742925> [**Clique ici pour personnaliser l'art**](https://genshinwizard.com/user/art)
 GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Accéder au Tableau de bord
 REMOVE_CHARACTERS_FROM_CACHE: Supprimer les personnages du cache...
 INFO_COMMAND_CACHE_DELETE_SELECTED: Les personnages sélectionnés ont été supprimés du cache de Genshin Wizard avec succès !
@@ -1628,7 +1628,7 @@ INVOKATION_SHOWCASE: "Vitrine de Cartes"
 INVOKATION_SUMMARY: "Résumé des Cartes à Jouer"
 DAILY_ALREADY_CLAIMED: Vous avez déjà réclamé votre récompense quotidienne.
 UNABLE_TO_CLAIM: Impossible de réclamer votre récompense quotidienne.
-COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </accounts:{command_id}> to register.
+COOKIE_RESET_MESSAGE: Lors de la réinitialisation de ton mot de passe de compte Genshin, les cookies sont **réinitialisés**, pour utiliser cette commande, tu devras **réauthentifier** ton compte HoYoLAB. Utilise la commande </reauthenticate:{command_id}> pour réauthentifier.
 INVALID_COOKIE_KEY: Cookie Invalide
 TEST_NOTIFICATION_KEY: Notification de Test
 TEST_NOTIFICATION_TITLE: Genshin Wizard | Test de Notification
@@ -1733,9 +1733,9 @@ SEND_CODE_NO_ROLE_SELECTED: Aucun rôle sélectionné
 PYROCULUS_KEY: Pyrocule
 SELECT_ACCOUNT_KEY: Sélectionner un Compte
 SELECT_ACCOUNT_DESCRIPTION: |
-  Please select the account you wish to link from the below select menu.
+  Veuillez sélectionner les comptes que vous souhaitez lier dans le menu déroulant ci-dessous.
 
-  Genshin Wizard has found **{num_accounts}** different game accounts linked with the provided details.
+  Genshin Wizard a trouvé **{num_accounts}** comptes de jeu différents liés avec les détails fournis.
 NO_NICKNAME_KEY: Pas de Surnom
 GENSHIN_WIZARD_CURRENT_ACCOUNT_DESCRIPTION: |
   Register your Genshin/HoYoLAB account to Genshin Wizard.
@@ -1760,9 +1760,9 @@ ERROR_GENSHIN_COMMAND_ONLY_DESCRIPTION: |
 CHARACTER_GUIDE_LIST_SECTION_TITLE: Guides des Personnages de Genshin Impact
 PROCESSING_MESSAGE: Traitement de la demande/action, veuillez être **patient**...
 ACCOUNT_CANNOT_REDEEM: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard or your account was not properly configured initially.
+  Bonjour Voyageur ! Désolé pour le désagrément, mais il semble que votre compte soit **incapable de récupérer des codes** pour le moment. Vous devez réauthentifier votre compte HoYoLAB afin de récupérer des codes !
 
-  In order to use this command/feature, you must relink your HoYoLAB account through </accounts:{command_id}>.
+  Pour utiliser cette commande/fonction, vous devez réauthentifier votre compte HoYoLAB via </reauthenticate:{command_id}>.
 VIEW_ACCOUNTS_KEYS: Voir le(s) compte(s)
 NOT_YET_EXPLORED: Pas encore exploré !
 EXPLORATION_PROGRESS: Progression de l'exploration
@@ -1785,7 +1785,7 @@ FASTEST_ACT_KEY: Acte le plus rapide
 HIGHEST_DAMAGE_DEALT_LABEL: Dégâts les plus élevés infligés
 TRIAL_KEY: Essai
 SUPPORT_KEY: Soutien
-THEATER_COMMAND_FOOTER: "Note: Theater data may be incorrectly shown or missing data, if this is the case, do keep in mind that theater data can generally take anywhere from 1-3 hours to update!"
+THEATER_COMMAND_FOOTER: "Remarque : Les données du Théâtre Imaginarium peuvent prendre entre 1 et 3 heures pour se mettre à jour en raison des limitations de l'API de Hoyo."
 IMAGINARIUM_THEATER_DESCRIPTION: Voir vos statistiques de progression du Théâtre de l'Imaginarium
 THEATER_LEADERBOARD_PLACEHOLDER: Choisissez une phase lunaire à afficher...
 VIEW_THEATER_TEAM: Visualisation de la distribution du Théâtre de l'Imaginarium
@@ -1813,7 +1813,7 @@ MAGIC_LABEL: Remarquable
 THEATER_NOT_UNLOCKED: Le Théâtre de l'Imaginarium n'est pas encore débloqué pour votre compte !
 CHARACTER_NOT_IN_ACCOUNT: Le personnage `{name}` n'a pas été trouvé dans votre compte !
 ONSLAUGHT_NOT_UNLOCKED: L'Assaut Stygien n'est pas encore débloqué pour votre compte !
-ONSLAUGHT_COMMAND_FOOTER: "Note: Stygian Onslaught data may be incorrectly shown or missing data, if this is the case, do keep in mind that Stygian Onslaught data can generally take anywhere from 1-3 hours to update!"
+ONSLAUGHT_COMMAND_FOOTER: "Remarque : Les données de Stygian Onslaught peuvent prendre entre 1 et 3 heures pour se mettre à jour en raison des limitations de l'API de Hoyo."
 NO_ONSLAUGHT_DATA: "Aucune donnée de l'Assaut Stygien"
 ONSLAUGHT_COMMAND_STATISTICS_CREDIT: Statistiques de l'Assaut Stygien de l'utilisateur {name}
 ONSLAUGHT_ARCHIVE_DESCRIPTION: |
