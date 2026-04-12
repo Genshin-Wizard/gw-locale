@@ -162,7 +162,7 @@ CODE_REDEEM_PROGRESS: |
   *İade kodunuzu işlerken lütfen bekleyin...*
   <a:loading:1015667958237900801> `{code}` kodunu iade etmeye çalışılıyor
 HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | Süresi Dolmuş Çerezler
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Merhaba Seyyah! Görünüşe göre HoYoLAB kodu ile ilgili çerezleriniz **sona erdi**! Hesap yeniden kimlik doğrulama sürecini tamamlamak için </reauthenticate:{command_id}> komutunu kullanın ve HoYoLAB hesap çerezlerinizi **yenileyin**.
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Bot'u Davet Et](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[Resmî Web Sitesi](https://www.genshinwizard.com)**
@@ -276,7 +276,7 @@ INVALID_ARGUMENT_PASSED: |
 INFO_COMMAND_ENKA_ISSUE: '[**Enka.Network**](https://enka.network/u/{uid}) ile ilgili bir sorun var gibi görünüyor. Lütfen daha sonra tekrar deneyin.'
 ERROR_NO_USER_DATA: Bu kullanıcı için veri bulunamadı.
 WHAT_HAPPENED_TITLE: Ne oldu?
-WHAT_HAPPENED_VALUE: The most common reason for this issue is that the genshin account you are trying to search has not yet been set to public. To fix this, enable `Show Character Details` on your Profile in Genshin. Refer to the image below for reference.
+WHAT_HAPPENED_VALUE: Bu sorunun en yaygın nedeni, aramaya çalıştığınız Genshin hesabının henüz herkese açık olmamasıdır. Bunu düzeltmek için Genshin'deki Profilinizde `Karakter Detaylarını Göster` seçeneğini etkinleştirin. Referans için aşağıdaki resme bakın. Ayrıca, "Karakter Vitrini" bölümünüzün boş olmadığından emin olun.
 WHAT_HAPPENED_FOOTER: Genshin Wizard, oyunda yapılan son değişiklikleri tanımak için beş dakikaya kadar zaman alabilir, lütfen bizimle sabırlı olun.
 INFO_COMMAND_SHOWCASE_TITLE: Karakter Tanıtımı
 INFO_COMMAND_SHOWCASE_VIEW_ENKA: Enka.Network'te görüntüle
@@ -292,19 +292,19 @@ INFO_COMMAND_CACHE_DESCRIPTION: |
   <:na:975828401900359711> **Eski tanıtımları silmek istersem ne olur?**
   Korkmayın! Önbelleğe alınmış tanıtımlarınızı bu mesajdan doğrudan yönetebileceksiniz! Belirli karakterleri veya hepsini Genshin Wizard önbelleğinizden silmek için aşağıdaki UI'yi kullanın.
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard Custom Art Feature**
-  Hey Traveler, it looks like you're trying to use Genshin Wizard's **Custom Art** feature! This feature is only available to Genshin Wizard Premium users.
+  <:information:1034639378410115103> **Genshin Wizard Özel Sanat Özelliği**
+  Merhaba Seyyah, Genshin Wizard'ın **Özel Sanat** özelliğini kullanmaya çalışıyorsunuz gibi görünüyor! Bu özellik yalnızca Genshin Wizard Premium kullanıcılarına açıktır.
 
-  You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Premium Page Information**](https://)!
+  Genshin Wizard Premium hakkında daha fazla bilgi almak için </premium:{command_id}> komutunu kullanabilir veya [**Premium Sayfa Bilgisi**](https://) sayfamızı ziyaret edebilirsiniz!
 PURCHASE_PREMIUM: Premium Satın Al
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: Merhaba Seyyah, yalnızca **kendi karakterleriniz** için özel sanatı yönetebilirsiniz!
 GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizard Özel Sanatı
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
+  **İnfografik Sanatı Özelleştir**
+  Merhaba Seyyah, bu karakter için infografik sanatını **özelleştirmek** için aşağıdaki bağlantıya veya düğmeye tıklayın! <a:PaimonCookies:992302701838864454>
   ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://genshinwizard.com/premium)
+  {character} için infografik```
+  > <:Settings:1046877233626742925> [**Sanatı Özelleştirmek İçin Buraya Tıklayın**](https://genshinwizard.com/user/art)
 GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: Gösterge Paneline Git
 REMOVE_CHARACTERS_FROM_CACHE: Önbellekten karakterleri kaldır...
 INFO_COMMAND_CACHE_DELETE_SELECTED: Seçilen karakterler Genshin Wizard'ın önbelleğinden başarıyla silindi!
@@ -422,11 +422,13 @@ GCG_NO_CARDS_FOUND: Kart Bulunamadı!
 GCG_NO_CARDS_FOUND_DESCRIPTION: Merhaba Seyyah! Ne yazık ki, {member} henüz **kartlara** sahip değil! Bu komutu kullanmadan önce Genshin Impact'te biraz TCG oynamaya dal.
 HOYOLAB_REGISTER_SCRIPT_TITLE: Kayıt | Script Yöntemi
 HOYOLAB_REGISTER_SCRIPT_DESCRIPTION: |
-  **How to link your HoYoLAB account with Genshin Wizard**
-  > **1.** To begin with, login to your [**HoYoLAB**](https://www.hoyolab.com/home) account.
-  > **2.** Type `java` in the address bar followed by the script down below.
-  > **3.** Once you've successfully ran the script, click the `Click here to copy!` button to copy the cookie.
-  > **4.** Finally, you're able to register by clicking the `Enter Token` button below and pasting the token you copied.
+  **HoYoLAB hesabınızı Genshin Wizard ile nasıl bağlayabilirsiniz**
+  > **1.** Öncelikle, [**HoYoLAB**](https://www.hoyolab.com/home) hesabınıza giriş yapın.
+  > **2.** Adres çubuğuna `java` yazın ve aşağıdaki scripti ekleyin.
+  > **3.** Scripti başarıyla çalıştırdıktan sonra, çerezi kopyalamak için `Buraya Tıklayın!` butonuna tıklayın.
+  > **4.** Aşağıdaki `Token Gir` butonuna tıklayın ve kopyalanan token'ı ilk giriş alanına yapıştırın.
+  > **5.** Kalan iki giriş için daha fazla bilgi için [**HoYoLAB Kayıt Kılavuzumuza**](https://docs.genshinwizard.com/overview/hoyolab-registration) göz atın.
+  > **6.** Son olarak, kayıt sürecini tamamlamak için `Gönder` butonuna tıklayın.
 HOYOLAB_REGISTER_SCRIPT: |
   ```script:check = document.cookie.includes('account_id') && document.cookie.includes('cookie_token') || alert('Lütfen tekrar denemeden önce çıkış yapın ve tekrar giriş yapın, çerez şu anda süresi dolmuş/geçersiz!'); cookie=document.cookie.match(/(lt(oken|uid)|cookie_token)=(.*?);/gm).join(" "); check && document.write(cookie + `<br><button onclick="navigator.clipboard.writeText('${cookie}')">Buraya tıklayarak kopyalayın!</button>`)```
 HOYOLAB_REGISTER_LOGIN_TITLE: Kayıt | Giriş Yöntemi
@@ -456,9 +458,9 @@ USE_COUNT_KEY: Kullanım Sayısı
 IMPORT_ERROR: İçe Aktarma Hatası!
 FOOTER_ERROR_DESCRIPTION: Bunun bir hata olduğunu düşünüyorsanız, lütfen bir personel üyesiyle iletişime geçin.
 IMPORT_COMMAND_UNSUPPORTED_FILE_TYPE: |
-  The data you are trying to import is not **supported**. We currently *only* allow imports from the following:
+  İçe aktarmaya çalıştığınız veri **desteklenmiyor**. Şu anda yalnızca aşağıdakilerden içe aktarmaya izin veriyoruz:
   {supported_file_types}
-  Refer to our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) for more information.
+  Daha fazla bilgi için [**Dokümantasyonumuza**](https://docs.genshinwizard.com/wishing-centre/importing-wishes) göz atın.
 IMPORT_COMMAND_TITLE: Genshin Wizard | Dilek Geçmişini İçe Aktar
 IMPORT_COMMAND_FILE_DETECTED: |
   **Tespit Edilen İçe Aktarma Kaynağı: `{source}`**
@@ -590,7 +592,7 @@ PREVIOUS_ABYSS_DESCRIPTION: |
   **Önceki Ay Fazı**
   **Başlangıç Zamanı:** <t:{timestamp_start}:F>
   **Bitiş Zamanı:** <t:{timestamp_end}:F>
-ABYSS_COMMAND_FOOTER: "Note: Abyss data may be incorrectly shown or missing data, if this is the case, do keep in mind that abyss data can generally take anywhere from 1-3 hours to update!"
+ABYSS_COMMAND_FOOTER: "Not: Spiral Abyss verileri, Hoyo'nun API sınırlamaları nedeniyle güncellenmesi 1-3 saat sürebilir."
 ABYSS_MISSING_DATA_FOOTER: "Not: Bu verinin bazı bilgileri eksik görünüyor! Bu, muhtemelen bu bilginin daha önce veritabanında saklanmamasından veya verilerin henüz güncellenmemesinden kaynaklanıyor."
 ABYSSAL_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **Abyssal Arşivler**
@@ -637,22 +639,13 @@ REGISTER_COMMAND_PC_DIRECTIONS: |
   6. Bağlantıyı panonuza kopyalamak için `ENTER` tuşuna basın
   7. Aşağıdaki butona tıklayın ve bağlantıyı giriş alanına yapıştırın
 REGISTER_COMMAND_ANDROID_DIRECTIONS: |
-  After the 3.0 update, users can no longer simply copy and paste the history link on Android devices anymore.
+  Dilek geçmişi URL'nizi almak için bu videodaki talimatları izleyin:
 
-  We are currently looking for a way to retrieve the history link on Android devices. Please check back later.
+  https://youtu.be/CeQQoFKLwPY
 REGISTER_COMMAND_IOS_DIRECTIONS: |
-  Check out Kaizer's [Stream App Guide](https://drive.google.com/file/d/14Q_6v60qLPunrpmA9Bf1KlvsKhaRyPzz/view?usp=sharing) for detailed steps with pictures.
+  Dilek geçmişi URL'nizi almak için bu videodaki talimatları izleyin:
 
-  1. Open Genshin Impact and go to the Wish screen
-  2. While Genshin Impact is still open, go to Stream app and tap Sniff Now
-  3. Go back to Genshin Impact and open you wish history
-  4. When your wish list is loaded go back to Stream app and tap Stop sniffing
-  5. Then tap on Sniff History and choose the first item in the list
-  6. Tap the request starting by `GET https://hk4e-api-os/...`
-  7. Tap the request tab
-  8. Tap the long text starting by `GET /event/gacha_info...`
-  9. Finally, tap Copy Url
-  10. Click the button below and paste the link in the input field.
+  https://youtu.be/m833g8ZNWVA
 RESELECT_PLATFORM_KEY: Platformu Yeniden Seç
 REGISTER_COMMAND_CONSOLE_DIRECTIONS: 2.3 güncelleme etkinliğinden sonra bağlantılar artık çalışmıyor. Bununla birlikte, Playstation hesabınızı Mihoyo hesabınızla bağlayarak ve PC/mobil yöntemini kullanarak anahtarı almak hala mümkündür.
 REGISTER_COMMAND_PLATFORM_SELECTION: Genshin Impact oynamak için hangi platformu kullanıyorsunuz?
@@ -687,9 +680,9 @@ SUCCESSFULLY_UPDATED_UID: |
 
   Daha fazla bilgi için </help:{command_id}> komutuna bakın.
 SUCCESSFULLY_REGISTERED_RESPONSE: |
-  Hey Traveler! Congratulations, your account was **successfully** registered!
+  Merhaba Seyyah! Tebrikler, hesabınız **başarıyla** kaydedildi!
 
-  You can now access several new gacha-related command within Genshin Wizard and more! For more information, check out the </help:{command_id}> command or visit our [**Documentation**](https://docs.genshinwizard.com/wishing-centre/commands)!
+  Artık Genshin Wizard içinde birkaç yeni gacha ile ilgili komuta ve daha fazlasına erişebilirsiniz! Daha fazla bilgi için </help:{command_id}> komutuna göz atın veya [**Dokümantasyonumuza**](https://genshinwizard.com/commands) gidin!
 GENSHIN_WIZARD_REGISTRATION: Genshin Wizard Kaydı
 UNLINK_GENSHIN_ACCOUNT: Unlink Genshin Account
 UNLINK_GENSHIN_ACCOUNT_DESCRIPTION: Genshin Impact hesabınızı Genshin Wizard'dan tamamen ayırın. Bu, dilek geçmişiniz, dilek istatistikleriniz ve daha fazlası dahil olmak üzere Genshin Wizard'daki tüm verilerinizi siler. Bu işlem **geri alınamaz**. Devam etmek istediğinizden emin misiniz?
@@ -735,9 +728,9 @@ SYNCED_IN_GAME_UID: '**Oyun İçi** UID başarıyla senkronize edildi!'
 ERROR_NO_ACCOUNTS: ":no_entry: There are **no accounts** associated with this token!"
 SUCCESSFULLY_LINKED_KEY: Başarıyla Bağlandı!
 SUCCESSFULLY_LINKED_HOYOLAB: |
-  Successfully synced in-game account progression.
+  Oyun içi hesap ilerlemesi başarıyla senkronize edildi.
 
-  Successfully synced your HoYoLAB account! You can now access the **HoYoLAB account menu** by using the command </hoyo:{command_id}>!
+  HoYoLAB hesabınızı başarıyla senkronize ettiniz! Artık </hoyolab-info:{command_id}> komutunu kullanarak **HoYoLAB hesap menüsüne** erişebilirsiniz!
 REGISTRATION_FAILED: Kayıt Başarısız!
 REGISTRATION_FAILED_DESCRIPTION: <:Error:1021889679857037372> Hesabınızı kaydetme işlemi **başarısız** oldu! Lütfen tekrar deneyin veya sorun devam ederse [**destek ekibiyle**](https://genshinwizard.com/discord) iletişime geçin. Bu sorun genellikle geçersiz bir e-posta/şifre kombinasyonundan kaynaklanır.
 INVALID_HOYOLAB_EMAIL_PROMPT: Lütfen geçerli bir e-posta adresi girin! **HoYoLAB** hesabınıza giriş yapmak için kullandığınız e-posta adresini kullanmalısınız.
@@ -981,15 +974,15 @@ SETUP_COMMAND_TITLE: Genshin Wizard | Kurulum Paneli
 UPDATED_INTEGRATION_RESPONSE: "Başarıyla güncellendi entegrasyon: **{integration}**!"
 PREMIUM_ART_SETTINGS_TITLE: Genshin Wizard Özel Sanat Ayarları
 PREMIUM_ART_SETTINGS_DESCRIPTION: |
-  <:information:1034639378410115103> **Manage your Genshin Wizard </info:{command_id}> Art Settings**
-  Tired of the default art that Genshin Wizard delivers? Well, you can now choose your own custom art for your character cards!
+  <:information:1034639378410115103> **Genshin Wizard </character-showcase:{command_id}> Sanat Ayarlarınızı Yönetin**
+  Genshin Wizard'ın sunduğu varsayılan sanattan bıktınız mı? Artık karakter kartlarınız için kendi özel sanatınızı seçebilirsiniz!
 
-  <:na:975828401900359711> **What if I want to delete previously saved custom art?**
-  You'll be able to manage your saved builds art straight from this message. Use the UI below to delete specific characters, or all, from your saved custom art list.
+  <:na:975828401900359711> **Daha önce kaydedilmiş özel sanatı silmek istersem ne olur?**
+  Kaydedilmiş yapılarınızı bu mesajdan doğrudan yönetebileceksiniz. Belirli karakterleri veya hepsini kaydedilmiş özel sanat listenizden silmek için aşağıdaki arayüzü kullanın.
 
-  <:blurpleannouncement:1020402170127982712> **CUSTOM ART OVERVIEW**
+  <:blurpleannouncement:1020402170127982712> **ÖZEL SANAT GÖRÜNÜMÜ**
   {setting_details}
-  **Adaptive Art on Infographics:** {adaptive_art}
+  **İnfografiklerde Uyarlanabilir Sanat:** {adaptive_art}
 NO_CUSTOM_ART_FOUND: "`❌ Hiçbir karakter için özel sanat ayarlamadınız.`"
 CUSTOM_ART_STATISTICS: '**{characters}/{total_characters}** karakter için özel karakter sanatı etkinleştirdiniz!'
 PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
@@ -1042,13 +1035,13 @@ PREMIUM_TIER_THREE_PERKS: |
   <:blurplejoinarrow:932413900073369621> A bonus **<:Primogem:951924423340994610>32,000** Primogems a day for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
   <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier3:1045526664513323039> Crimson Witch of Flames** role.
 PREMIUM_TIER_FOUR_PERKS: |
-  <:information:1034639378410115103> **Premium Perks: $50 Monthly Plan**
-  **HOT!** 🔥 The ability to choose custom images for character cards generated using </info:{info_id}>.
-  <:blurplejoinarrow:932413900073369621> All previous tiers' benefits.
-  <:blurplejoinarrow:932413900073369621> You may opt to have either the Elder of the Hexenzirkel role or your custom role to be displayed at the very top of the Genshin Wizard Discord server.
-  <:blurplejoinarrow:932413900073369621> The ability to select up to three servers of your choice to gain Genshin Wizard Partner perks.
-  <:blurplejoinarrow:932413900073369621> A bonus of **<:Primogem:951924423340994610>40,000** Primogems a day for the Genshin Wizard Wish Simulator when using </commissions:{commissions_id}>.
-  <:blurplejoinarrow:932413900073369621> Exclusive **<:gw_tier4:1045526663447969813> Elder of the Hexenzirkel** role.
+  <:information:1034639378410115103> **Premium Avantajlar: Aylık $50 Planı**
+  **SICAK!** 🔥 </character-showcase:{info_id}> kullanarak oluşturulan karakter kartları için özel resimler seçme yeteneği.
+  <:blurplejoinarrow:932413900073369621> Tüm önceki katmanların avantajları.
+  <:blurplejoinarrow:932413900073369621> Genshin Wizard Discord sunucusunun en üstünde ya Elder of the Hexenzirkel rolünü ya da özel rolünüzü görüntülemek için tercih edebilirsiniz.
+  <:blurplejoinarrow:932413900073369621> Genshin Wizard Partner avantajlarını kazanmak için seçtiğiniz üç sunucuyu seçme yeteneği.
+  <:blurplejoinarrow:932413900073369621> </commissions:{commissions_id}> kullanırken Genshin Wizard Dilek Simülatörü için günde **<:Primogem:951924423340994610>40,000** Primogem bonusu.
+  <:blurplejoinarrow:932413900073369621> Özel **<:gw_tier4:1045526663447969813> Elder of the Hexenzirkel** rolü.
 PREMIUM_UNKNOWN_TIER: Bilinmeyen Seviye Seçildi
 PREMIUM_PLAN: Premium Plan
 PREMIUM_CUSTOM_ROLE_WRONG_GUILD_TITLE: Genshin Wizard Sunucusu [Özel Rol]
@@ -1070,7 +1063,7 @@ PREMIUM_SERVER_REMOVED: Merhaba Seyyah, seçilen sunucuları başarıyla **sildi
 PREMIUM_SERVER_CLEARED: Merhaba Seyyah, tüm premium sunucularınızı başarıyla **sildiniz**.
 PREMIUM_SERVER_ALREADY: Merhaba Seyyah, bu sunucuda zaten **premium** etkin görünüyor. Bu avantajı başka bir sunucuda kullanmayı düşünün!
 PREMIUM_SERVER_ADDED: Merhaba Seyyah, **{guild}** sunucusunu premium sunucu olarak başarıyla eklediniz!
-PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Hey Traveler, if you wish to add **Custom Art Infographics** for your characters, simply use the </info:{command_id}> command and press the **Add Custom Art** button. You'll be brought to a webpage where you can upload your own artchoice and save it directly to your Genshin Wizard account.
+PREMIUM_CUSTOM_ART_GUIDE: <:information:1034639378410115103> Merhaba Seyyah, karakterleriniz için **Özel Sanat İnfografikleri** eklemek isterseniz, sadece </character-showcase:{command_id}> komutunu kullanın ve **Özel Sanat Ekle** butonuna basın. Kendi sanat seçiminizi yükleyebileceğiniz ve doğrudan Genshin Wizard hesabınıza kaydedebileceğiniz bir web sayfasına yönlendirileceksiniz.
 PREMIUM_CUSTOM_ART_NOT_SELECTED: <:Error:1021889679857037372> Merhaba Seyyah, silmek için **seçtiğiniz** herhangi bir özel sanat karakteri yok.
 PREMIUM_CUSTOM_ART_REMOVED: Merhaba Seyyah, seçilen karakterleri başarıyla **sildiniz**.
 PREMIUM_CUSTOM_ART_CLEARED: Merhaba Seyyah, tüm kaydedilmiş özel sanat karakterlerinizi başarıyla **sildiniz**.
@@ -1094,13 +1087,13 @@ GACHA_NO_BANNER_WISHES: '{banner} afişi için dilekleriniz yok!'
 GACHA_SUMMARY_FOOTER: "Genshin Dilek Özeti için: {user}"
 GENSHIN_WISH_SUMMARY: Genshin Dilek Özeti
 SLASH_COMMAND_NEED_HELP: |
-  <:blurpleannouncement:1020402170127982712> **HAVING ISSUES? FEAR NOT!** <:KeqingHeart:952837574878199808>
+  <:blurpleannouncement:1020402170127982712> **SORUN MU YAŞIYORSUNUZ? KORKMAYIN!** <:KeqingHeart:952837574878199808>
 
-  Hello Traveler, it looks like you're having difficulty using **slash commands**!
+  Merhaba Seyyah, **slash komutlarını** kullanmakta zorluk çekiyorsunuz gibi görünüyor!
 
-  Remember to **__click__** on the command you want to use and keep in mind that you **do not** have to pass your own name as a parameter!
+  Kullanmak istediğiniz komuta **__tıklamayı__** unutmayın ve kendi adınızı bir parametre olarak geçmeniz gerekmediğini unutmayın!
 
-  <a:7094whitecheck:1020160260637462618> Happy Wishing Fellow Traveler,
+  <a:7094whitecheck:1020160260637462618> Mutlu Dilekler Sevgili Seyyah,
   Paimon
 SLASH_COMMAND_HELP_GUIDE: <:verifiedlight:939225784936202241> **yardım** için, </help:982685016012226590> komutunu kullanın!
 GENSHIN_WIZARD_SERVER_JOIN_TITLE: Genshin Wizard geldi!
@@ -1630,7 +1623,7 @@ INVOKATION_SHOWCASE: "Kart Vitrini"
 INVOKATION_SUMMARY: "Ticaret Kartı Özeti"
 DAILY_ALREADY_CLAIMED: Günlük ödülünüzü zaten talep ettiniz.
 UNABLE_TO_CLAIM: Günlük ödülünüzü talep edemedim.
-COOKIE_RESET_MESSAGE: Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </accounts:{command_id}> to register.
+COOKIE_RESET_MESSAGE: Genshin hesabınızın şifresini sıfırladığınızda, çerezler **sıfırlanır**, bu komutu kullanmak için HoYoLAB hesabınızı **yeniden kimlik doğrulamanız** gerekecek. Yeniden kimlik doğrulama için </reauthenticate:{command_id}> komutunu kullanın.
 INVALID_COOKIE_KEY: Geçersiz Çerez
 TEST_NOTIFICATION_KEY: Test Bildirimi
 TEST_NOTIFICATION_TITLE: Genshin Wizard | Bildirim Testi
@@ -1735,9 +1728,9 @@ SEND_CODE_NO_ROLE_SELECTED: Hiçbir rol seçilmedi
 PYROCULUS_KEY: Pyroculus
 SELECT_ACCOUNT_KEY: Hesap Seç
 SELECT_ACCOUNT_DESCRIPTION: |
-  Please select the account you wish to link from the below select menu.
+  Lütfen aşağıdaki seçim menüsünden bağlamak istediğiniz hesapları seçin.
 
-  Genshin Wizard has found **{num_accounts}** different game accounts linked with the provided details.
+  Genshin Wizard, sağlanan bilgilerle bağlantılı **{num_accounts}** farklı oyun hesabı buldu.
 NO_NICKNAME_KEY: Takma Ad Yok
 GENSHIN_WIZARD_CURRENT_ACCOUNT_DESCRIPTION: |
   Register your Genshin/HoYoLAB account to Genshin Wizard.
@@ -1762,9 +1755,9 @@ ERROR_GENSHIN_COMMAND_ONLY_DESCRIPTION: |
 CHARACTER_GUIDE_LIST_SECTION_TITLE: Genshin Impact Karakter Rehberleri
 PROCESSING_MESSAGE: İstek/işlem işleniyor, lütfen **sabırlı** olun...
 ACCOUNT_CANNOT_REDEEM: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard or your account was not properly configured initially.
+  Merhaba Seyyah! Verdiğimiz rahatsızlık için özür dileriz ama görünüşe göre hesabınız şu anda **kodları kullanamıyor**. Kodları kullanabilmek için HoYoLAB hesabınızı yeniden doğrulamanız gerekiyor!
 
-  In order to use this command/feature, you must relink your HoYoLAB account through </accounts:{command_id}>.
+  Bu komutu/özelliği kullanabilmek için, HoYoLAB hesabınızı </reauthenticate:{command_id}> üzerinden yeniden doğrulamanız gerekiyor.
 VIEW_ACCOUNTS_KEYS: Hesap(ları) Görüntüle
 NOT_YET_EXPLORED: Henüz Keşfedilmedi!
 EXPLORATION_PROGRESS: Keşif İlerlemesi
@@ -1787,7 +1780,7 @@ FASTEST_ACT_KEY: En Hızlı Perde
 HIGHEST_DAMAGE_DEALT_LABEL: En Yüksek Verilen Hasar
 TRIAL_KEY: Deneme
 SUPPORT_KEY: Destek
-THEATER_COMMAND_FOOTER: "Note: Theater data may be incorrectly shown or missing data, if this is the case, do keep in mind that theater data can generally take anywhere from 1-3 hours to update!"
+THEATER_COMMAND_FOOTER: "Not: Imaginarium Tiyatrosu verilerinin güncellenmesi Hoyo'nun API sınırlamaları nedeniyle 1-3 saat sürebilir."
 IMAGINARIUM_THEATER_DESCRIPTION: İmaginarium Tiyatrosu ilerleme istatistiklerinizi görüntüleyin
 THEATER_LEADERBOARD_PLACEHOLDER: Görüntülemek için bir ay evresi seçin...
 VIEW_THEATER_TEAM: İmaginarium Tiyatrosu Kadrosunu Görüntüleme
@@ -1815,7 +1808,7 @@ MAGIC_LABEL: Dikkate Değer
 THEATER_NOT_UNLOCKED: İmginarium Tiyatrosu henüz hesabınız için açılmamış!
 CHARACTER_NOT_IN_ACCOUNT: Karakter `{name}` hesabınızda bulunamadı!
 ONSLAUGHT_NOT_UNLOCKED: Stygian Onslaught henüz hesabınız için açılmamış!
-ONSLAUGHT_COMMAND_FOOTER: "Note: Stygian Onslaught data may be incorrectly shown or missing data, if this is the case, do keep in mind that Stygian Onslaught data can generally take anywhere from 1-3 hours to update!"
+ONSLAUGHT_COMMAND_FOOTER: "Not: Stygian Onslaught verilerinin güncellenmesi Hoyo'nun API sınırlamaları nedeniyle 1-3 saat sürebilir."
 NO_ONSLAUGHT_DATA: "Stygian Onslaught Verisi Yok"
 ONSLAUGHT_COMMAND_STATISTICS_CREDIT: Kullanıcı {name}'ın Stygian Onslaught İstatistikleri
 ONSLAUGHT_ARCHIVE_DESCRIPTION: |
@@ -1905,7 +1898,7 @@ LOGIN_ACCOUNT_REGISTRATION: Genshin Wizard HoYoLAB Hesap Kaydı
 LOGIN_ACCOUNT_EMAIL_VERIFICATION: Hesap Kaydı | E-posta Doğrulaması Gerekli
 LOGIN_ACCOUNT_REGISTRATION_PROCESSING: Merhaba Seyyah, hesap kayıt talebinizi işliyoruz. Lütfen hesap bilgilerinizi toplamak için bir an bekleyin.
 LOGIN_ACCOUNT_REGISTRATION_FAILED: Hesap Kaydı Başarısız
-LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: Hello Traveler, it seems that we were unable to register your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error.
+LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: Merhaba Seyyah, hesabınızı kaydedemedik gibi görünüyor. Lütfen daha sonra tekrar deneyin veya bunun bir hata olduğunu düşünüyorsanız **[Genshin Wizard Destek Ekibi](https://genshinwizard.com/support)** ile iletişime geçin.
 LOGIN_REGISTRATION_METHOD: "Kayıt Yöntemi: **{method}**"
 LOGIN_REGISTRATION_STATUS: "Durum: **{status}**"
 LOGIN_STATUS_PROCESSING: İşleniyor
@@ -1916,7 +1909,7 @@ REAUTHENTICATION_SUCCESS_TITLE: Yeniden Doğrulama Başarılı
 REAUTHENTICATION_SUCCESS: HoYoLAB hesabınızı **başarıyla** yeniden doğruladınız! Artık seçili Genshin Wizard özelliklerini tekrar kullanabilirsiniz.
 NO_REAUTH_ACCOUNT_FOUND: Yeniden doğrulamak için mevcut bir HoYoLab hesabı bulunamadı!
 REAUTHENTICATION_FAILED_TITLE: Yeniden Doğrulama Başarısız
-REAUTHENTICATION_FAILED: Hello Traveler, it seems that we were unable to reauthenticate your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error.
+REAUTHENTICATION_FAILED: Merhaba Seyyah, hesabınızı yeniden doğrulayamamışız gibi görünüyor. Lütfen daha sonra tekrar deneyin veya bunun bir hata olduğunu düşünüyorsanız **[Genshin Wizard Destek Ekibi](https://genshinwizard.com/support)** ile iletişime geçin.
 EMAIL_VERIFICATION_KEY: E-posta Doğrulaması
 VERIFICATION_CODE_KEY: Doğrulama Kodu
 LOGIN_STATUS_SUCCESS_DESCRIPTION: Tebrikler! Genshin Wizard ile HoYoLAB hesabınızı başarıyla kaydettiniz. Artık seçili Genshin Wizard özelliklerini kullanabilirsiniz.
