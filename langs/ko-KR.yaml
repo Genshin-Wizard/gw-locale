@@ -293,19 +293,19 @@ INFO_COMMAND_CACHE_DESCRIPTION: |
   <:na:975828401900359711> **이전 정보를 지우고 싶으면 어떻게 해야해?**
   걱정마, 여행자! 이 메시지를 이용해서 여행자의 캐시 정보를 수정할 수 있어! 지금 보이는 메시지 아래에있는 UI를 이용해서 특정 캐릭터나 모든 캐릭터의 캐시를 삭제할 수 있어.
 INFO_COMMAND_CUSTOM_ART_DESCRIPTION: |
-  <:information:1034639378410115103> **Genshin Wizard Custom Art Feature**
-  Hey Traveler, it looks like you're trying to use Genshin Wizard's **Custom Art** feature! This feature is only available to Genshin Wizard Premium users.
+  <:information:1034639378410115103> **Genshin Wizard 커스텀 아트 기능**
+  안녕하세요 여행자, Genshin Wizard의 **커스텀 아트** 기능을 사용하려고 하시는 것 같군요! 이 기능은 Genshin Wizard 프리미엄 사용자만 사용할 수 있습니다.
   
-  You can learn more about Genshin Wizard Premium by using the </premium:{command_id}> command, or by visiting our [**Premium Page Information**](https://)!
+  </premium:{command_id}> 명령어를 사용하거나 [**프리미엄 페이지 정보**](https://)를 방문하여 Genshin Wizard 프리미엄에 대해 더 알아보세요!
 PURCHASE_PREMIUM: 프리미엄 구매하기
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: 여행자! 미안하지만 여행자가 **갖고있는 캐릭터**만 이미지를 수정할 수 있어!
 GENSHIN_WIZARD_CUSTOM_ART: 원신 위자드 커스텀 아트
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
+  **인포그래픽 아트 커스터마이즈**
+  안녕하세요 여행자, 아래 링크나 버튼을 클릭하여 이 캐릭터의 인포그래픽 아트를 **커스터마이즈**하세요! <a:PaimonCookies:992302701838864454>
   ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://genshinwizard.com/premium)
+  {character}의 인포그래픽``` 
+  > <:Settings:1046877233626742925> [**아트 커스터마이즈 하러 가기**](https://genshinwizard.com/user/art)
 GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: 대시보드로 이동
 REMOVE_CHARACTERS_FROM_CACHE: 저장된 캐릭터 정보 제거
 INFO_COMMAND_CACHE_DELETE_SELECTED: 원신 위자드에 등록된 캐릭터의 정보를 성공적으로 제거했어!
@@ -477,7 +477,7 @@ IMPORT_COMMAND_LOG: |
   > 3성: `{three_star}`
   > 4성: `{four_star}`
   > 5성: `{five_star}`
-IMPORT_COMMAND_NOT_REGISTERED: "You must already be **registered** to /accountspre-existing wish history! Try to import again after registering using the command </accounts:{command_id}>."
+IMPORT_COMMAND_NOT_REGISTERED: "기존의 소원 기록을 가져오려면 먼저 **등록**되어 있어야 합니다! </accounts:{command_id}> 명령어를 사용하여 등록한 후 다시 가져와 보세요."
 IMPORT_COMMAND_LINK_EXPIRED_TITLE: 기록 링크가 만료됨!
 IMPORT_COMMAND_LINK_EXPIRED_DESCRIPTION: "기록 링크가 **만료**되었습니다! 가져오기를 시도하기 전에 </refresh:{command_id}> 명령을 사용하여 새로 고쳐주세요!"
 IMPORT_COMMAND_UNSUPPORTED_PAIMON_MOE: "지원되지 않는 파일 형식입니다. `Paimon.moe`에서 데이터를 가져오려는 경우 (https://paimon.moe/wish)의 페이지 설정에서 엑셀 시트를 다운로드했는지 확인하세요. 자세한 내용은 [**문서**](https://docs.genshinwizard.com/wishing-centre/importing-wishes)를 참조하세요."
@@ -527,25 +527,28 @@ PRIVACY_SETTING_TITLE: Genshin Wizard 개인정보 설정
 PRIVACY_SETTING_DESCRIPTION: 여기서 Genshin Wizard 개인 정보 설정을 변경하세요
 PRIVACY_SETTING_KEY: 개인정보 설정
 PRIVACY_SETTING_BRIEF: |
-  **UID Privacy:** {uid_privacy}
-  **Wish History Privacy:** {wish_privacy}
-  **Stats Privacy:** {stats_privacy}
-  **Abyss Privacy:** {abyss_privacy}
-  **Info Privacy:** {info_privacy}
-  **Imaginarium Theater Privacy:** {theater_privacy}
+  **UID 개인정보:** {uid_privacy}
+  **소원 기록 개인정보:** {wish_privacy}
+  **통계 개인정보:** {stats_privacy}
+  **캐릭터 쇼케이스 개인정보:** {info_privacy}
+  **스파이럴 어비스 개인정보:** {abyss_privacy}
+  **이매지나리움 극장 개인정보:** {theater_privacy}
+  **스티지안 온슬라우트 개인정보:** {onslaught_privacy}
 PRIVACY_SETTING_OVERVIEW: |
-  **UID Privacy:** {uid_privacy}
-  > *Hide your UID from showing up anywhere*
-  **Wish History Privacy:** {wish_privacy}
-  > *Hide your Wish History from showing up anywhere (`/history`)*
-  **Stats Privacy:** {stats_privacy}
-  > *Hide your Genshin Stats Progression from showing up anywhere (`/statistics`)*
-  **Abyss Privacy:** {abyss_privacy}
-  > *Hide your Genshin Abyss Progression from showing up anywhere (`/abyss`)*
-  **Info Privacy:** {info_privacy}
-  > *Hide your showcase builds information from showing up anywhere (`/info`)*
-  **Imaginarium Theater Privacy:** {theater_privacy}
-  > *Hide your Imaginarium Theater Progression from showing up anywhere (`/imaginarium-theater`)
+  **UID 개인정보:** {uid_privacy}
+  > *어디에도 UID가 표시되지 않도록 숨깁니다*
+  **소원 기록 개인정보:** {wish_privacy}
+  > *어디에도 소원 기록이 표시되지 않도록 숨깁니다 (`/history`)*
+  **통계 개인정보:** {stats_privacy}
+  > *어디에도 Genshin 통계 진행 상황이 표시되지 않도록 숨깁니다 (`/statistics`)*
+  **캐릭터 쇼케이스 개인정보:** {info_privacy}
+  > *어디에도 쇼케이스 빌드 정보가 표시되지 않도록 숨깁니다 (`/character-showcase`)*
+  **스파이럴 어비스 개인정보:** {abyss_privacy}
+  > *어디에도 Genshin 스파이럴 어비스 진행 상황이 표시되지 않도록 숨깁니다 (`/abyss`)*
+  **이매지나리움 극장 개인정보:** {theater_privacy}
+  > *어디에도 이매지나리움 극장 진행 상황이 표시되지 않도록 숨깁니다 (`/imaginarium-theater`)*
+  **스티지안 온슬라우트 개인정보:** {onslaught_privacy}
+  > *어디에도 스티지안 온슬라우트 진행 상황이 표시되지 않도록 숨깁니다 (`/stygian-onslaught`)*
 ALL_KEY: 전체
 RESET_KEY: 재설정
 WISH_HISTORY_KEY: 기원 기록
@@ -849,8 +852,8 @@ ABYSS_CONGRATULATE_MESSAGE: |
   나선비경을 완벽하게 *클리어*한 {user}님을 축하합니다!
    <:spiralabyss:1000079902596411482> <@&{role_id}> 역할을 수여합니다 <a:check:956327345717907507>
 THEATER_CONGRATULATE_MESSAGE: |
-  Congratulations {user} on perfectly *clearing* Act 10 of **Visionary Mode** in Imaginarium Theater!
-  {heraldry_emoji} <@&{role_id}> Role Given <a:check:956327345717907507>
+  축하합니다 {user}! **루나 모드**에서 이매지나리움 극장을 완벽하게 *클리어*하셨습니다!
+  {heraldry_emoji} <@&{role_id}> 역할이 부여되었습니다 <a:check:956327345717907507>
 ONSLAUGHT_CONGRATULATE_MESSAGE: |
   {user}님이 Stygian Onslaught **난이도 {difficulty_level}**을 완벽하게 *클리어*했습니다!
   {dire_emoji} <@&{role_id}> 역할 부여됨 <a:check:956327345717907507>
@@ -1640,7 +1643,7 @@ INVOKATION_SHOWCASE: 일곱 성인의 소환 카드 쇼케이스
 INVOKATION_SUMMARY: 일곱성인의 소환 카드 개요
 DAILY_ALREADY_CLAIMED: 이미 오늘의 일일 출석체크 보상을 수령했어!
 UNABLE_TO_CLAIM: 일일 출석체크 보상을 수령할 수 없어.
-COOKIE_RESET_MESSAGE: "Upon resetting your Genshin account password, cookies are **reset**, in order to use this command, you will have to go through the *registration process* once more. Use the command </accounts:{command_id}> to register."
+COOKIE_RESET_MESSAGE: "Genshin 계정 비밀번호를 재설정하면 쿠키가 **재설정**됩니다. 이 명령어를 사용하려면 HoYoLAB 계정을 **재인증**해야 합니다. </reauthenticate:{command_id}> 명령어를 사용하여 재인증하세요."
 INVALID_COOKIE_KEY: 유효하지 않은 쿠키
 TEST_NOTIFICATION_KEY: 테스트 알림
 TEST_NOTIFICATION_TITLE: 원신 위자드 | 테스트 알림
@@ -1747,15 +1750,16 @@ SEND_CODE_NO_ROLE_SELECTED: 선택된 역할 없음
 PYROCULUS_KEY: 파이로쿨루스
 SELECT_ACCOUNT_KEY: 계정 선택
 SELECT_ACCOUNT_DESCRIPTION: |
-  Please select the account you wish to link from the below select menu.
+  아래 선택 메뉴에서 연결할 계정을 선택하세요.
   
-  Genshin Wizard has found **{num_accounts}** different game accounts linked with the provided details.
+  Genshin Wizard가 제공된 정보로 **{num_accounts}**개의 서로 다른 게임 계정을 찾았습니다.
 NO_NICKNAME_KEY: 닉네임 없음
 GENSHIN_WIZARD_CURRENT_ACCOUNT_DESCRIPTION: |
-  Register your Genshin/HoYoLAB account to Genshin Wizard.
+  Genshin/HoYoLAB 계정을 Genshin Wizard에 등록하세요.
   
-  Active Account: **{account}**
-  Nickname: **{nickname}**
+  활성 계정: **{account}**
+  닉네임: **{nickname}**
+  게임: **{game}**
 EDIT_NICKNAME_KEY: 닉네임 편집
 ADD_ACCOUNT_KEY: 계정 추가
 REMOVE_ACCOUNT_KEY: 계정 제거
@@ -1774,9 +1778,9 @@ ERROR_GENSHIN_COMMAND_ONLY_DESCRIPTION: |
 CHARACTER_GUIDE_LIST_SECTION_TITLE: Genshin Impact 캐릭터 가이드
 PROCESSING_MESSAGE: 요청/작업 처리 중, **잠시** 기다려 주세요...
 ACCOUNT_CANNOT_REDEEM: |
-  Hello Traveler! Sorry for the inconvenience but this feature was implemented **after** you registered your `HoYoLAB` account to Genshin Wizard or your account was not properly configured initially.
+  안녕하세요 여행자! 불편을 드려 죄송하지만 현재 귀하의 계정은 **코드를 사용할 수 없습니다**. 코드를 사용하려면 HoYoLAB 계정을 재인증해야 합니다!
   
-  In order to use this command/feature, you must relink your HoYoLAB account through </accounts:{command_id}>.
+  이 명령어/기능을 사용하려면 </reauthenticate:{command_id}>를 통해 HoYoLAB 계정을 재인증해야 합니다.
 VIEW_ACCOUNTS_KEYS: 계정 보기
 NOT_YET_EXPLORED: 아직 탐험하지 않음!
 EXPLORATION_PROGRESS: 탐험 진행도
@@ -1799,7 +1803,7 @@ FASTEST_ACT_KEY: 최속 막
 HIGHEST_DAMAGE_DEALT_LABEL: 최고 피해량
 TRIAL_KEY: 시험
 SUPPORT_KEY: 지원
-THEATER_COMMAND_FOOTER: "Note: Theater data may be incorrectly shown or missing data, if this is the case, do keep in mind that theater data can generally take anywhere from 1-3 hours to update!"
+THEATER_COMMAND_FOOTER: "참고: 이매지나리움 극장 데이터는 Hoyo의 API 제한으로 인해 업데이트하는 데 1-3시간이 걸릴 수 있습니다."
 IMAGINARIUM_THEATER_DESCRIPTION: Imaginarium Theater 진행 통계를 확인합니다.
 THEATER_LEADERBOARD_PLACEHOLDER: 볼 달빛 단계를 선택하세요...
 VIEW_THEATER_TEAM: Imaginarium Theater 라인업 보기
@@ -1827,7 +1831,7 @@ MAGIC_LABEL: 흥미로움
 THEATER_NOT_UNLOCKED: 아직 계정에서 Imaginarium Theater가 잠금 해제되지 않았습니다!
 CHARACTER_NOT_IN_ACCOUNT: "캐릭터 `{name}`을(를) 계정에서 찾을 수 없습니다!"
 ONSLAUGHT_NOT_UNLOCKED: 아직 계정에서 Stygian Onslaught가 잠금 해제되지 않았습니다!
-ONSLAUGHT_COMMAND_FOOTER: "Note: Stygian Onslaught data may be incorrectly shown or missing data, if this is the case, do keep in mind that Stygian Onslaught data can generally take anywhere from 1-3 hours to update!"
+ONSLAUGHT_COMMAND_FOOTER: "참고: 스티지안 온슬라우트 데이터는 Hoyo의 API 제한으로 인해 업데이트하는 데 1-3시간이 걸릴 수 있습니다."
 NO_ONSLAUGHT_DATA: Stygian Onslaught 데이터 없음
 ONSLAUGHT_COMMAND_STATISTICS_CREDIT: "{name}님의 Stygian Onslaught 통계"
 ONSLAUGHT_ARCHIVE_DESCRIPTION: |
@@ -1917,7 +1921,7 @@ LOGIN_ACCOUNT_REGISTRATION: Genshin Wizard HoYoLAB 계정 등록
 LOGIN_ACCOUNT_EMAIL_VERIFICATION: 계정 등록 | 이메일 인증 필요
 LOGIN_ACCOUNT_REGISTRATION_PROCESSING: 여행자님, 계정 등록 요청을 처리 중입니다. 계정 정보를 수집하는 동안 잠시 기다려 주세요.
 LOGIN_ACCOUNT_REGISTRATION_FAILED: 계정 등록 실패
-LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: "Hello Traveler, it seems that we were unable to register your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error."
+LOGIN_ACCOUNT_REGISTRATION_FAILED_DESCRIPTION: "안녕하세요 여행자, 계정을 등록할 수 없는 것 같습니다. 나중에 다시 시도하시거나 **[Genshin Wizard 지원팀](https://genshinwizard.com/support)**에 문의해 주세요. 이 문제가 오류라고 생각되면 연락해 주세요."
 LOGIN_REGISTRATION_METHOD: "등록 방법: **{method}**"
 LOGIN_REGISTRATION_STATUS: "상태: **{status}**"
 LOGIN_STATUS_PROCESSING: 처리 중
@@ -1928,7 +1932,7 @@ REAUTHENTICATION_SUCCESS_TITLE: 재인증 성공
 REAUTHENTICATION_SUCCESS: HoYoLAB 계정을 **성공적으로** 재인증했습니다! 이제 일부 Genshin Wizard 기능을 다시 사용할 수 있습니다.
 NO_REAUTH_ACCOUNT_FOUND: 재인증할 기존 HoYoLAB 계정을 찾을 수 없습니다!
 REAUTHENTICATION_FAILED_TITLE: 재인증 실패
-REAUTHENTICATION_FAILED: "Hello Traveler, it seems that we were unable to reauthenticate your account. Please try again later or contact the **[Genshin Wizard support team]**(https://genshinwizard.com/support) if you believe this is an error."
+REAUTHENTICATION_FAILED: "안녕하세요 여행자, 계정을 재인증할 수 없는 것 같습니다. 나중에 다시 시도하시거나 **[Genshin Wizard 지원팀](https://genshinwizard.com/support)**에 문의해 주세요. 이 문제가 오류라고 생각되면 연락해 주세요."
 EMAIL_VERIFICATION_KEY: 이메일 인증
 VERIFICATION_CODE_KEY: 인증 코드
 LOGIN_STATUS_SUCCESS_DESCRIPTION: 축하합니다! Genshin Wizard에 HoYoLAB 계정을 성공적으로 등록했습니다. 이제 일부 Genshin Wizard 기능을 사용할 수 있습니다.
