@@ -162,7 +162,7 @@ CODE_REDEEM_PROGRESS: |
   *交換コードの処理が完了するまで、お待ちください...*
   <a:loading:1015667958237900801> コード `{code}` を交換しています...
 HOYOLAB_EXPIRED_COOKIE_TITLE: Genshin Wizard | 期限切れのCookie
-HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: Hey Traveler! It seems that your HoYoLAB code redemption cookies have **expired**! Use the command </hoyo:{command_id}> and complete the account relinking process to **refresh** your HoYoLAB account cookies.
+HOYOLAB_EXPIRED_COOKIE_DESCRIPTION: こんにちは、Traveler！あなたのHoYoLABコード引き換えクッキーが**期限切れ**のようです！コマンド</reauthenticate:{command_id}>を使用して、アカウントの再認証プロセスを完了し、HoYoLABアカウントのクッキーを**更新**してください。
 GENSHIN_WIZARD_INFORMATION: |
   <a:blue_arrow:1005981235966910494> **[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=782099719718699009&permissions=537133056&scope=bot%20applications.commands)**
   <a:blue_arrow:1005981235966910494> **[Official Website](https://www.genshinwizard.com)**
@@ -300,11 +300,11 @@ PURCHASE_PREMIUM: プレミアム会員に加入
 INFO_COMMAND_CUSTOM_ART_NOT_OWNER: 旅人！カスタムアートを管理できるのは**自分のキャラクター**だけだぞ！
 GENSHIN_WIZARD_CUSTOM_ART: Genshin Wizardカスタムアート
 GENSHIN_WIZARD_CUSTOM_ART_DESCRIPTION: |
-  **Customize Infographic Art**
-  Hey Traveler, click the link or button below to **customize** the infographic art for this character! <a:PaimonCookies:992302701838864454>
+  **インフォグラフィックアートをカスタマイズ**
+  こんにちは、Traveler。このキャラクターのインフォグラフィックアートを**カスタマイズ**するには、以下のリンクまたはボタンをクリックしてください！ <a:PaimonCookies:992302701838864454>
   ```fix
-  Infographic for {character}```
-  > <:Settings:1046877233626742925> [**Click Here to Customize Art**](https://genshinwizard.com/premium)
+  {character}のインフォグラフィック```
+  > <:Settings:1046877233626742925> [**アートをカスタマイズするにはここをクリック**](https://genshinwizard.com/user/art)
 GENSHIN_WIZARD_CUSTOM_ART_DASHBOARD: ダッシュボードに行く
 REMOVE_CHARACTERS_FROM_CACHE: キャッシュからキャラクターを消去...
 INFO_COMMAND_CACHE_DELETE_SELECTED: Genshin Wizardのキャッシュから、選択されたキャラクターを消去しました！
@@ -592,7 +592,7 @@ PREVIOUS_ABYSS_DESCRIPTION: |
   **前期の戦績**
   **開始時刻:** <t:{timestamp_start}:F>
   **終了時刻:** <t:{timestamp_end}:F>
-ABYSS_COMMAND_FOOTER: "Note: Abyss data may be incorrectly shown or missing data, if this is the case, do keep in mind that abyss data can generally take anywhere from 1-3 hours to update!"
+ABYSS_COMMAND_FOOTER: "注意：スパイラルアビスのデータは、HoyoのAPI制限により、更新に1〜3時間かかる場合があります。"
 ABYSS_MISSING_DATA_FOOTER: "注：このデータには情報が不足しているようです！これは、情報が以前にデータベースに保存されていなかったか、データがまだ更新されていないことが原因である可能性があります。"
 ABYSSAL_ARCHIVE_DESCRIPTION: |
   <:previous_abyss:1028377675989000215> **深境螺旋アーカイブ**
@@ -905,13 +905,13 @@ SIMULATOR_BALANCE_MESSAGE: |
   <:Primogem:951924423340994610> **原石** × {primogems}
 SIMULATOR_RESET_INVENTORY: インベントリをリセットしてもよろしいですか？この操作により、祈願シミュレータのコマンドで入手したキャラクターが全て削除され、**復元はできません**！
 SIMULATOR_STARDUST_SHOP_OPTIONS: |
-  **<:MasterlessStardust:951924423332626522> × 75 | <:Primogem:951924423340994610> × 160**
-  **<:MasterlessStardust:951924423332626522> × 750 | <:Primogem:951924423340994610> × 1600**
-  **<:MasterlessStardust:951924423332626522> × 7500 | <:Primogem:951924423340994610> × 16000**
+  **<:MasterlessStardust:951924423332626522> 75 | 160原石 <:Primogem:951924423340994610>**
+  **<:MasterlessStardust:951924423332626522> 750 | 1600原石 <:Primogem:951924423340994610>**
+  **<:MasterlessStardust:951924423332626522> 7500 | 16000原石 <:Primogem:951924423340994610>**
 SIMULATOR_STARGLITTER_SHOP_OPTIONS: |
-  **<:MasterlessStarglitter:951924423059980290> × 5 | <:Primogem:951924423340994610> × 160**
-  **<:MasterlessStarglitter:951924423059980290> × 50 | <:Primogem:951924423340994610> × 1600**
-  **<:MasterlessStarglitter:951924423059980290> × 500 | <:Primogem:951924423340994610> × 16000**
+  **<:MasterlessStarglitter:951924423059980290> 5 | 160原石 <:Primogem:951924423340994610>**
+  **<:MasterlessStarglitter:951924423059980290> 50 | 1600原石 <:Primogem:951924423340994610>**
+  **<:MasterlessStarglitter:951924423059980290> 500 | 16000原石 <:Primogem:951924423340994610>**
 SIMULATOR_BADGES_TITLE: バッジショップ
 SIMULATOR_MISCELLANEOUS_TITLE: その他ショップ
 SIMULATOR_EXCLUSIVE_TITLE: 専用ショップ
