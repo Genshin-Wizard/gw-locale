@@ -55,3 +55,13 @@ jobs:
             git commit -m "chore(i18n): auto-translate new strings [skip ci]"
             git push
           fi
+
+      - name: Upload translations to Crowdin
+        uses: crowdin/github-action@v2
+        with:
+          upload_translations: true
+          upload_sources: false
+          crowdin_branch_name: master
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
