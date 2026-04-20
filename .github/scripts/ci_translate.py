@@ -70,40 +70,46 @@ def _quote_scalar(value: str) -> str:
     return f'"{escaped}"'
 
 
-def write_yaml(path, data: dict, source_data: dict):
-    """Write a locale dict to path, preserving source key order."""
-    lines = ["---\n"]
-    for key in source_data:
-        if key not in data:
-            continue
-        value = data[key]
-
-        if isinstance(value, list):
-            lines.append(f"{key}:\n")
-            for item in value:
-                s = str(item)
-                if "\n" in s or _needs_quoting(s):
-                    lines.append(f"  - {_quote_scalar(s)}\n")
-                else:
-                    lines.append(f"  - {s}\n")
-
-        elif isinstance(value, str) and "\n" in value:
-            block_lines = value.rstrip("\n").split("\n")
-            lines.append(f"{key}: |\n")
-            for bl in block_lines:
-                lines.append(f"  {bl}\n")
-
-        elif isinstance(value, str):
-            if _needs_quoting(value):
-                lines.append(f"{key}: {_quote_scalar(value)}\n")
+def _serialize_key(key: str, value) -> str:
+    """Serialize a single key-value pair to YAML lines (no trailing newline on last line)."""
+    lines = []
+    if isinstance(value, list):
+        lines.append(f"{key}:")
+        for item in value:
+            s = str(item)
+            if "\n" in s or _needs_quoting(s):
+                lines.append(f"  - {_quote_scalar(s)}")
             else:
-                lines.append(f"{key}: {value}\n")
-
+                lines.append(f"  - {s}")
+    elif isinstance(value, str) and "\n" in value:
+        block_lines = value.rstrip("\n").split("\n")
+        lines.append(f"{key}: |")
+        for bl in block_lines:
+            lines.append(f"  {bl}")
+    elif isinstance(value, str):
+        if _needs_quoting(value):
+            lines.append(f"{key}: {_quote_scalar(value)}")
         else:
-            lines.append(f"{key}: {value}\n")
+            lines.append(f"{key}: {value}")
+    else:
+        lines.append(f"{key}: {value}")
+    return "\n".join(lines)
 
-    with open(path, "w", encoding="utf-8") as f:
-        f.writelines(lines)
+
+def append_yaml_keys(path, translations: dict):
+    """Append only the given key-value pairs to an existing YAML file."""
+    with open(path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    new_lines = []
+    for key, value in translations.items():
+        new_lines.append(_serialize_key(key, value))
+
+    # Ensure the file ends with exactly one newline before appending
+    suffix = ("" if content.endswith("\n") else "\n") + "\n".join(new_lines) + "\n"
+
+    with open(path, "a", encoding="utf-8") as f:
+        f.write(suffix)
 
 # ---------------------------------------------------------------------------
 # Configuration (mirrors batch_translate.py)
@@ -266,15 +272,11 @@ def translate_batch(keys_dict: dict, lang_code: str, lang_name: str, folder: str
 
 def process_language(lang_code: str, lang_name: str, folder: str, new_keys: dict) -> tuple:
     """Translate the given new_keys for one language+folder. Returns (lang, folder, count)."""
-    en_path   = ROOT / folder / "en-US.yaml"
     lang_path = ROOT / folder / f"{lang_code}.yaml"
 
     if not lang_path.exists():
         tprint(f"  [SKIP] {lang_code}/{folder} — file not found")
         return lang_code, folder, 0
-
-    en       = load_yaml(en_path)
-    existing = load_yaml(lang_path)
 
     n_batches = max(1, ((len(new_keys) - 1) // BATCH_SIZE) + 1)
     tprint(f"  [START] {lang_code}/{folder} — {len(new_keys)} keys in {n_batches} batch(es)")
@@ -283,15 +285,16 @@ def process_language(lang_code: str, lang_name: str, folder: str, new_keys: dict
     batches = [dict(items[i:i + BATCH_SIZE]) for i in range(0, len(items), BATCH_SIZE)]
 
     total_applied = 0
+    translated = {}
     for i, batch in enumerate(batches):
         result = translate_batch(batch, lang_code, lang_name, folder)
-        for k, v in result.items():
-            existing[k] = v
+        translated.update(result)
         total_applied += len(result)
         tprint(f"  [{lang_code}/{folder}] batch {i+1}/{n_batches} — {len(result)}/{len(batch)} keys translated")
 
-    write_yaml(lang_path, existing, en)
-    tprint(f"  [WRITTEN] {lang_code}/{folder} — {total_applied} keys applied")
+    if translated:
+        append_yaml_keys(lang_path, translated)
+    tprint(f"  [WRITTEN] {lang_code}/{folder} — {total_applied} keys appended")
     return lang_code, folder, total_applied
 
 
