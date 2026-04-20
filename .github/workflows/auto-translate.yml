@@ -3,7 +3,7 @@ name: Auto-translate new strings
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - "langs/en-US.yaml"
       - "website-langs/en-US.yaml"
