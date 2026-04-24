@@ -45,9 +45,37 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 # YAML helpers (self-contained, no external deps)
 # ---------------------------------------------------------------------------
 
+class DuplicateKeySafeLoader(yaml.SafeLoader):
+    pass
+
+
+def _construct_mapping_no_duplicates(loader, node, deep=False):
+    mapping = {}
+    for key_node, value_node in node.value:
+        key = loader.construct_object(key_node, deep=deep)
+        if key in mapping:
+            raise yaml.constructor.ConstructorError(
+                "while constructing a mapping",
+                node.start_mark,
+                f"found duplicate key {key!r}",
+                key_node.start_mark,
+            )
+        mapping[key] = loader.construct_object(value_node, deep=deep)
+    return mapping
+
+
+DuplicateKeySafeLoader.add_constructor(
+    yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG,
+    _construct_mapping_no_duplicates,
+)
+
 def load_yaml(path):
     with open(path, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f) or {}
+        return yaml.load(f, Loader=DuplicateKeySafeLoader) or {}
+
+
+def load_yaml_string(content: str):
+    return yaml.load(content, Loader=DuplicateKeySafeLoader) or {}
 
 
 def _needs_quoting(value: str) -> bool:
@@ -101,6 +129,13 @@ def append_yaml_keys(path, translations: dict):
     with open(path, "r", encoding="utf-8") as f:
         content = f.read()
 
+    existing_data = load_yaml_string(content)
+    duplicate_keys = sorted(set(translations) & set(existing_data))
+    if duplicate_keys:
+        raise ValueError(
+            f"Refusing to append duplicate key(s) to {path.name}: {', '.join(duplicate_keys)}"
+        )
+
     new_lines = []
     for key, value in translations.items():
         new_lines.append(_serialize_key(key, value))
@@ -110,6 +145,22 @@ def append_yaml_keys(path, translations: dict):
 
     with open(path, "a", encoding="utf-8") as f:
         f.write(suffix)
+
+
+def validate_yaml_files(folders: list[str]) -> list[str]:
+    """Validate locale YAML files and report duplicate-key / parse issues."""
+    errors = []
+    for folder in folders:
+        for path in sorted((ROOT / folder).glob("*.yaml")):
+            try:
+                data = load_yaml(path)
+                if not isinstance(data, dict):
+                    errors.append(f"{path.relative_to(ROOT)}: top-level YAML value must be a mapping")
+            except yaml.YAMLError as exc:
+                errors.append(f"{path.relative_to(ROOT)}: {exc}")
+            except Exception as exc:
+                errors.append(f"{path.relative_to(ROOT)}: {exc}")
+    return errors
 
 # ---------------------------------------------------------------------------
 # Configuration (mirrors batch_translate.py)
@@ -207,7 +258,7 @@ def get_new_keys(folder: str) -> dict:
         if result.returncode != 0:
             tprint(f"  [INFO] No HEAD~1 for {folder}/en-US.yaml — skipping new-key detection")
             return {}
-        old_data = yaml.safe_load(result.stdout) or {}
+        old_data = load_yaml_string(result.stdout)
     except Exception as e:
         tprint(f"  [WARN] Could not read HEAD~1 for {folder}/en-US.yaml: {e}")
         return {}
@@ -351,6 +402,14 @@ def main():
                 tprint(f"  [ERROR] {lc}/{f}: {e}")
 
     elapsed = time.time() - start
+
+    validation_errors = validate_yaml_files(folders)
+    if validation_errors:
+        print("\nYAML validation failed:")
+        for error in validation_errors:
+            print(f"  - {error}")
+        raise SystemExit(1)
+
     print(f"\nDone! {total_applied} keys translated in {elapsed:.1f}s")
 
 
