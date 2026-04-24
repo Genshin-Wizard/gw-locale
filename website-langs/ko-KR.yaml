@@ -1522,38 +1522,38 @@ CAPTCHA_CHALLENGE_NOT_FOUND_ERROR: "캡차 챌린지를 찾을 수 없거나 만
 CAPTCHA_SERVER_ERROR: "서버 오류: {status}"
 CAPTCHA_LOAD_FAILED_ERROR: "캡차 챌린지를 로드하지 못했습니다."
 CAPTCHA_SUBMIT_FAILED_ERROR: "캡차 결과 제출에 실패했습니다."
-SERVER_COOP_ROLE_EUROPE: 유럽 역할
-SERVER_COOP_BAN_USER_ID_LABEL: Discord 사용자 ID
-SERVER_COOP_BAN_ADDED: 사용자가 협동 금지 목록에 추가되었습니다.
-SERVER_COOP_PLUGIN_DESCRIPTION: 역할 핑, 전용 채널 및 금지 목록을 포함하여 서버의 협동 요청 기능을 구성합니다.
-SERVER_COOP_ROLES_TITLE: 역할 핑
-SERVER_COOP_PLUGIN_NAME: 협동 요청 통합
-SERVER_COOP_DISABLED: 협동 요청이 비활성화되었습니다.
-SERVER_COOP_FEATURE_TOGGLE_TITLE: 기능 전환
-SERVER_COOP_BAN_LIST_TITLE: 협동 금지 목록
-SERVER_COOP_BAN_LIST_EMPTY: 현재 협동 요청에서 금지된 사용자가 없습니다.
-SERVER_COOP_CHANNEL_LABEL: 협동 요청 채널
-ERROR_LOAD_SETTINGS: 설정을 불러오는 데 실패했습니다. 새로 고침하고 다시 시도하세요.
-SERVER_COOP_CHANNEL_DESCRIPTION: 협동 요청이 게시될 전용 채널을 선택하세요. 설정하지 않으면, 요청은 명령이 사용된 채널에 게시됩니다.
-SERVER_COOP_REGION_ROLES_DESCRIPTION: 이 역할은 일치하는 서버 지역에서 요청이 있을 때만 핑됩니다. 미국과 유럽은 아시아 및 SAR과 협동할 수 없습니다.
-SERVER_COOP_BAN_REMOVED: 사용자가 협동 금지 목록에서 제거되었습니다.
-SERVER_COOP_ROLE_SAR_DESCRIPTION: SAR(특별행정구) 서버에 대한 협동 요청이 게시될 때 핑됩니다.
-SERVER_COOP_ROLE_AMERICA: 미국 역할
-SERVER_COOP_ROLE_AMERICA_DESCRIPTION: 미국 서버에 대한 협동 요청이 게시될 때 핑됩니다.
-SERVER_COOP_ROLES_DESCRIPTION: 협동 요청이 게시될 때 어떤 역할이 핑되는지 구성합니다. 모든 요청에 대한 일반 역할 및/또는 서버 지역별로 별도의 역할을 설정할 수 있습니다.
-SERVER_COOP_ROLE_ASIA: 아시아 역할
-SERVER_COOP_CONFIG_TITLE: 협동 요청 설정
-SERVER_COOP_ROLE_EUROPE_DESCRIPTION: 유럽 서버에 대한 협동 요청이 게시될 때 핑됩니다.
-SERVER_COOP_ROLE_ASIA_DESCRIPTION: 아시아 서버에 대한 협동 요청이 게시될 때 핑됩니다.
-SERVER_COOP_GENERAL_ROLE: 일반 핑 역할
-SERVER_COOP_FEATURE_TOGGLE_DESCRIPTION: 이 서버에 대한 협동 요청 기능을 활성화하거나 비활성화합니다. 비활성화되면, 구성원은 협동 요청을 게시할 수 없습니다.
-SERVER_COOP_GENERAL_ROLE_DESCRIPTION: 이 역할은 지역에 관계없이 모든 협동 요청에 대해 핑됩니다.
+SERVER_COOP_PLUGIN_NAME: "협동 요청 통합"
+SERVER_COOP_PLUGIN_DESCRIPTION: "역할 핑, 전용 채널 및 금지 목록을 포함하여 서버의 협동 요청 기능을 구성합니다."
+SERVER_COOP_CONFIG_TITLE: "협동 요청 설정"
+SERVER_COOP_FEATURE_TOGGLE_TITLE: "기능 전환"
+SERVER_COOP_FEATURE_TOGGLE_DESCRIPTION: "이 서버에 대한 협동 요청 기능을 활성화하거나 비활성화합니다. 비활성화되면, 구성원은 협동 요청을 게시할 수 없습니다."
+SERVER_COOP_ENABLED: "협동 요청이 활성화되었습니다."
+SERVER_COOP_DISABLED: "협동 요청이 비활성화되었습니다."
+SERVER_COOP_CHANNEL_TITLE: "요청 채널"
+SERVER_COOP_CHANNEL_DESCRIPTION: "협동 요청이 게시될 전용 채널을 선택하세요. 설정하지 않으면, 요청은 명령이 사용된 채널에 게시됩니다."
+SERVER_COOP_CHANNEL_LABEL: "협동 요청 채널"
+SERVER_COOP_ROLES_TITLE: "역할 핑"
+SERVER_COOP_ROLES_DESCRIPTION: "협동 요청이 게시될 때 어떤 역할이 핑되는지 구성합니다. 모든 요청에 대한 일반 역할 및/또는 서버 지역별로 별도의 역할을 설정할 수 있습니다."
+SERVER_COOP_GENERAL_ROLE: "일반 핑 역할"
+SERVER_COOP_GENERAL_ROLE_DESCRIPTION: "이 역할은 지역에 관계없이 모든 협동 요청에 대해 핑됩니다."
+SERVER_COOP_REGION_ROLES_TITLE: "지역별 역할"
+SERVER_COOP_REGION_ROLES_DESCRIPTION: "이 역할은 일치하는 서버 지역에서 요청이 있을 때만 핑됩니다. 미국과 유럽은 아시아 및 SAR과 협동할 수 없습니다."
+SERVER_COOP_ROLE_AMERICA: "미국 역할"
+SERVER_COOP_ROLE_AMERICA_DESCRIPTION: "미국 서버에 대한 협동 요청이 게시될 때 핑됩니다."
+SERVER_COOP_ROLE_EUROPE: "유럽 역할"
+SERVER_COOP_ROLE_EUROPE_DESCRIPTION: "유럽 서버에 대한 협동 요청이 게시될 때 핑됩니다."
+SERVER_COOP_ROLE_ASIA: "아시아 역할"
+SERVER_COOP_ROLE_ASIA_DESCRIPTION: "아시아 서버에 대한 협동 요청이 게시될 때 핑됩니다."
+SERVER_COOP_ROLE_SAR: "SAR 역할"
+SERVER_COOP_ROLE_SAR_DESCRIPTION: "SAR(특별행정구) 서버에 대한 협동 요청이 게시될 때 핑됩니다."
+SERVER_COOP_BAN_LIST_TITLE: "협동 금지 목록"
+SERVER_COOP_BAN_LIST_DESCRIPTION: "이 목록에 있는 사용자는 이 서버에서 협동 요청을 게시할 수 없습니다. 추가할 Discord 사용자 ID를 입력하세요."
+SERVER_COOP_BAN_USER_ID_LABEL: "Discord 사용자 ID"
 SERVER_COOP_BAN_USER_ID_PLACEHOLDER: "예: 123456789012345678"
-SERVER_COOP_ENABLED: 협동 요청이 활성화되었습니다.
-SERVER_COOP_BAN_LIST_DESCRIPTION: 이 목록에 있는 사용자는 이 서버에서 협동 요청을 게시할 수 없습니다. 추가할 Discord 사용자 ID를 입력하세요.
-SERVER_COOP_BAN_ADD_BTN: 사용자 금지
-SERVER_COOP_REGION_ROLES_TITLE: 지역별 역할
-SERVER_COOP_ROLE_SAR: SAR 역할
-SERVER_COOP_CHANNEL_TITLE: 요청 채널
-SERVER_COOP_BAN_ALREADY_BANNED: 이 사용자는 이미 금지 목록에 있습니다.
-NO_ROLES_FOUND: 역할을 찾을 수 없습니다
+SERVER_COOP_BAN_ADD_BTN: "사용자 금지"
+SERVER_COOP_BAN_ALREADY_BANNED: "이 사용자는 이미 금지 목록에 있습니다."
+SERVER_COOP_BAN_ADDED: "사용자가 협동 금지 목록에 추가되었습니다."
+SERVER_COOP_BAN_REMOVED: "사용자가 협동 금지 목록에서 제거되었습니다."
+SERVER_COOP_BAN_LIST_EMPTY: "현재 협동 요청에서 금지된 사용자가 없습니다."
+ERROR_LOAD_SETTINGS: "설정을 불러오는 데 실패했습니다. 새로 고침하고 다시 시도하세요."
+NO_ROLES_FOUND: "역할을 찾을 수 없습니다"
