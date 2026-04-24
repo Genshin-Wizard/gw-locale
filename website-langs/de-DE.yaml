@@ -1522,38 +1522,38 @@ CAPTCHA_CHALLENGE_NOT_FOUND_ERROR: "Captcha-Herausforderung nicht gefunden oder 
 CAPTCHA_SERVER_ERROR: "Serverfehler: {status}"
 CAPTCHA_LOAD_FAILED_ERROR: "Fehler beim Laden der CAPTCHA-Herausforderung."
 CAPTCHA_SUBMIT_FAILED_ERROR: "Fehler beim Einreichen des CAPTCHA-Ergebnisses."
-SERVER_COOP_ROLE_EUROPE: Europa Rolle
-SERVER_COOP_BAN_USER_ID_LABEL: Discord Benutzer-ID
-SERVER_COOP_BAN_ADDED: Benutzer wurde zur Co-op-Sperrliste hinzugefügt.
-SERVER_COOP_PLUGIN_DESCRIPTION: Konfigurieren Sie die Co-op-Anforderungsfunktion für Ihren Server, einschließlich Rollen-Pings, einem speziellen Kanal und einer Sperrliste.
-SERVER_COOP_ROLES_TITLE: Rollen-Pings
-SERVER_COOP_PLUGIN_NAME: Co-op-Anfragen Integration
-SERVER_COOP_DISABLED: Co-op-Anfragen deaktiviert
-SERVER_COOP_FEATURE_TOGGLE_TITLE: Funktionsumschaltung
-SERVER_COOP_BAN_LIST_TITLE: Co-op-Sperrliste
-SERVER_COOP_BAN_LIST_EMPTY: Derzeit sind keine Benutzer von Co-op-Anfragen ausgeschlossen.
-SERVER_COOP_CHANNEL_LABEL: Co-op-Anfrage Kanal
-ERROR_LOAD_SETTINGS: Fehler beim Laden der Einstellungen. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut.
-SERVER_COOP_CHANNEL_DESCRIPTION: Wählen Sie einen speziellen Kanal, in dem Co-op-Anfragen gepostet werden. Wenn nicht festgelegt, werden Anfragen in dem Kanal gepostet, in dem der Befehl verwendet wurde.
-SERVER_COOP_REGION_ROLES_DESCRIPTION: Diese Rollen werden nur für Anfragen aus der entsprechenden Serverregion gepingt. Amerika und Europa können nicht mit Asien und SAR kooperieren.
-SERVER_COOP_BAN_REMOVED: Benutzer wurde von der Co-op-Sperrliste entfernt.
-SERVER_COOP_ROLE_SAR_DESCRIPTION: Wird gepingt, wenn eine Co-op-Anfrage für den SAR (Sonderverwaltungsregion) Server gepostet wird.
-SERVER_COOP_ROLE_AMERICA: Amerika Rolle
-SERVER_COOP_ROLE_AMERICA_DESCRIPTION: Wird gepingt, wenn eine Co-op-Anfrage für den Amerika Server gepostet wird.
-SERVER_COOP_ROLES_DESCRIPTION: Konfigurieren Sie, welche Rollen gepingt werden, wenn eine Co-op-Anfrage gepostet wird. Sie können eine allgemeine Rolle für alle Anfragen und/oder separate Rollen pro Serverregion festlegen.
-SERVER_COOP_ROLE_ASIA: Asien Rolle
-SERVER_COOP_CONFIG_TITLE: Co-op-Anfrage Einstellungen
-SERVER_COOP_ROLE_EUROPE_DESCRIPTION: Wird gepingt, wenn eine Co-op-Anfrage für den Europa Server gepostet wird.
-SERVER_COOP_ROLE_ASIA_DESCRIPTION: Wird gepingt, wenn eine Co-op-Anfrage für den Asien Server gepostet wird.
-SERVER_COOP_GENERAL_ROLE: Allgemeine Ping-Rolle
-SERVER_COOP_FEATURE_TOGGLE_DESCRIPTION: Aktivieren oder deaktivieren Sie die Co-op-Anforderungsfunktion für diesen Server. Wenn deaktiviert, können Mitglieder keine Co-op-Anfragen posten.
-SERVER_COOP_GENERAL_ROLE_DESCRIPTION: Diese Rolle wird für jede Co-op-Anfrage unabhängig von der Region gepingt.
-SERVER_COOP_BAN_USER_ID_PLACEHOLDER: z.B. 123456789012345678
-SERVER_COOP_ENABLED: Co-op-Anfragen aktiviert
-SERVER_COOP_BAN_LIST_DESCRIPTION: Benutzer auf dieser Liste sind daran gehindert, Co-op-Anfragen in diesem Server zu posten. Geben Sie eine Discord Benutzer-ID ein, um sie hinzuzufügen.
-SERVER_COOP_BAN_ADD_BTN: Benutzer sperren
-SERVER_COOP_REGION_ROLES_TITLE: Regionale Rollen
-SERVER_COOP_ROLE_SAR: SAR Rolle
-SERVER_COOP_CHANNEL_TITLE: Anfrage Kanal
-SERVER_COOP_BAN_ALREADY_BANNED: Dieser Benutzer ist bereits auf der Sperrliste.
-NO_ROLES_FOUND: Keine Rollen gefunden
+SERVER_COOP_PLUGIN_NAME: "Co-op-Anfragen Integration"
+SERVER_COOP_PLUGIN_DESCRIPTION: "Konfigurieren Sie die Co-op-Anforderungsfunktion für Ihren Server, einschließlich Rollen-Pings, einem speziellen Kanal und einer Sperrliste."
+SERVER_COOP_CONFIG_TITLE: "Co-op-Anfrage Einstellungen"
+SERVER_COOP_FEATURE_TOGGLE_TITLE: "Funktionsumschaltung"
+SERVER_COOP_FEATURE_TOGGLE_DESCRIPTION: "Aktivieren oder deaktivieren Sie die Co-op-Anforderungsfunktion für diesen Server. Wenn deaktiviert, können Mitglieder keine Co-op-Anfragen posten."
+SERVER_COOP_ENABLED: "Co-op-Anfragen aktiviert"
+SERVER_COOP_DISABLED: "Co-op-Anfragen deaktiviert"
+SERVER_COOP_CHANNEL_TITLE: "Anfrage Kanal"
+SERVER_COOP_CHANNEL_DESCRIPTION: "Wählen Sie einen speziellen Kanal, in dem Co-op-Anfragen gepostet werden. Wenn nicht festgelegt, werden Anfragen in dem Kanal gepostet, in dem der Befehl verwendet wurde."
+SERVER_COOP_CHANNEL_LABEL: "Co-op-Anfrage Kanal"
+SERVER_COOP_ROLES_TITLE: "Rollen-Pings"
+SERVER_COOP_ROLES_DESCRIPTION: "Konfigurieren Sie, welche Rollen gepingt werden, wenn eine Co-op-Anfrage gepostet wird. Sie können eine allgemeine Rolle für alle Anfragen und/oder separate Rollen pro Serverregion festlegen."
+SERVER_COOP_GENERAL_ROLE: "Allgemeine Ping-Rolle"
+SERVER_COOP_GENERAL_ROLE_DESCRIPTION: "Diese Rolle wird für jede Co-op-Anfrage unabhängig von der Region gepingt."
+SERVER_COOP_REGION_ROLES_TITLE: "Regionale Rollen"
+SERVER_COOP_REGION_ROLES_DESCRIPTION: "Diese Rollen werden nur für Anfragen aus der entsprechenden Serverregion gepingt. Amerika und Europa können nicht mit Asien und SAR kooperieren."
+SERVER_COOP_ROLE_AMERICA: "Amerika Rolle"
+SERVER_COOP_ROLE_AMERICA_DESCRIPTION: "Wird gepingt, wenn eine Co-op-Anfrage für den Amerika Server gepostet wird."
+SERVER_COOP_ROLE_EUROPE: "Europa Rolle"
+SERVER_COOP_ROLE_EUROPE_DESCRIPTION: "Wird gepingt, wenn eine Co-op-Anfrage für den Europa Server gepostet wird."
+SERVER_COOP_ROLE_ASIA: "Asien Rolle"
+SERVER_COOP_ROLE_ASIA_DESCRIPTION: "Wird gepingt, wenn eine Co-op-Anfrage für den Asien Server gepostet wird."
+SERVER_COOP_ROLE_SAR: "SAR Rolle"
+SERVER_COOP_ROLE_SAR_DESCRIPTION: "Wird gepingt, wenn eine Co-op-Anfrage für den SAR (Sonderverwaltungsregion) Server gepostet wird."
+SERVER_COOP_BAN_LIST_TITLE: "Co-op-Sperrliste"
+SERVER_COOP_BAN_LIST_DESCRIPTION: "Benutzer auf dieser Liste sind daran gehindert, Co-op-Anfragen in diesem Server zu posten. Geben Sie eine Discord Benutzer-ID ein, um sie hinzuzufügen."
+SERVER_COOP_BAN_USER_ID_LABEL: "Discord Benutzer-ID"
+SERVER_COOP_BAN_USER_ID_PLACEHOLDER: "z.B. 123456789012345678"
+SERVER_COOP_BAN_ADD_BTN: "Benutzer sperren"
+SERVER_COOP_BAN_ALREADY_BANNED: "Dieser Benutzer ist bereits auf der Sperrliste."
+SERVER_COOP_BAN_ADDED: "Benutzer wurde zur Co-op-Sperrliste hinzugefügt."
+SERVER_COOP_BAN_REMOVED: "Benutzer wurde von der Co-op-Sperrliste entfernt."
+SERVER_COOP_BAN_LIST_EMPTY: "Derzeit sind keine Benutzer von Co-op-Anfragen ausgeschlossen."
+ERROR_LOAD_SETTINGS: "Fehler beim Laden der Einstellungen. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut."
+NO_ROLES_FOUND: "Keine Rollen gefunden"
