@@ -1522,37 +1522,38 @@ CAPTCHA_CHALLENGE_NOT_FOUND_ERROR: "Tantangan captcha tidak ditemukan atau telah
 CAPTCHA_SERVER_ERROR: "Kesalahan server: {status}"
 CAPTCHA_LOAD_FAILED_ERROR: "Gagal memuat tantangan captcha."
 CAPTCHA_SUBMIT_FAILED_ERROR: "Gagal mengirimkan hasil captcha."
-SERVER_COOP_ROLE_EUROPE: Peran Eropa
-SERVER_COOP_BAN_USER_ID_LABEL: ID Pengguna Discord
-SERVER_COOP_BAN_ADDED: Pengguna telah ditambahkan ke daftar larangan co-op.
-SERVER_COOP_PLUGIN_DESCRIPTION: Konfigurasikan fitur permintaan co-op untuk server Anda, termasuk ping peran, saluran khusus, dan daftar larangan.
-SERVER_COOP_ROLES_TITLE: Ping Peran
-SERVER_COOP_PLUGIN_NAME: Integrasi Permintaan Co-op
-SERVER_COOP_DISABLED: Permintaan co-op dinonaktifkan
-SERVER_COOP_FEATURE_TOGGLE_TITLE: Pengalih Fitur
-SERVER_COOP_BAN_LIST_TITLE: Daftar Larangan Co-op
-SERVER_COOP_BAN_LIST_EMPTY: Tidak ada pengguna yang saat ini dilarang dari permintaan co-op.
-SERVER_COOP_CHANNEL_LABEL: Saluran Permintaan Co-op
-ERROR_LOAD_SETTINGS: Gagal memuat pengaturan. Silakan segarkan dan coba lagi.
-SERVER_COOP_CHANNEL_DESCRIPTION: Pilih saluran khusus di mana permintaan co-op akan diposting. Jika tidak diatur, permintaan diposting di saluran tempat perintah digunakan.
-SERVER_COOP_REGION_ROLES_DESCRIPTION: Peran ini hanya diping untuk permintaan dari wilayah server yang cocok. Amerika dan Eropa tidak dapat co-op dengan Asia dan SAR.
-SERVER_COOP_BAN_REMOVED: Pengguna telah dihapus dari daftar larangan co-op.
-SERVER_COOP_ROLE_SAR_DESCRIPTION: Dipanggil ketika permintaan co-op diposting untuk server SAR (Wilayah Administratif Khusus).
-SERVER_COOP_ROLE_AMERICA: Peran Amerika
-SERVER_COOP_ROLE_AMERICA_DESCRIPTION: Dipanggil ketika permintaan co-op diposting untuk server Amerika.
-SERVER_COOP_ROLES_DESCRIPTION: Konfigurasikan peran mana yang diping ketika permintaan co-op diposting. Anda dapat mengatur peran umum untuk semua permintaan dan/atau peran terpisah per wilayah server.
-SERVER_COOP_ROLE_ASIA: Peran Asia
-SERVER_COOP_CONFIG_TITLE: Pengaturan Permintaan Co-op
-SERVER_COOP_ROLE_EUROPE_DESCRIPTION: Dipanggil ketika permintaan co-op diposting untuk server Eropa.
-SERVER_COOP_ROLE_ASIA_DESCRIPTION: Dipanggil ketika permintaan co-op diposting untuk server Asia.
-SERVER_COOP_GENERAL_ROLE: Peran Ping Umum
-SERVER_COOP_FEATURE_TOGGLE_DESCRIPTION: Aktifkan atau nonaktifkan fitur permintaan co-op untuk server ini. Ketika dinonaktifkan, anggota tidak akan dapat memposting permintaan co-op.
-SERVER_COOP_GENERAL_ROLE_DESCRIPTION: Peran ini diping untuk setiap permintaan co-op terlepas dari wilayah.
-SERVER_COOP_BAN_USER_ID_PLACEHOLDER: mis. 123456789012345678
-SERVER_COOP_ENABLED: Permintaan co-op diaktifkan
-SERVER_COOP_BAN_LIST_DESCRIPTION: Pengguna dalam daftar ini diblokir dari memposting permintaan co-op di server ini. Masukkan ID pengguna Discord untuk menambahkannya.
-SERVER_COOP_BAN_ADD_BTN: Larangkan Pengguna
-SERVER_COOP_REGION_ROLES_TITLE: Peran Khusus Wilayah
-SERVER_COOP_ROLE_SAR: Peran SAR
-SERVER_COOP_CHANNEL_TITLE: Saluran Permintaan
-SERVER_COOP_BAN_ALREADY_BANNED: Pengguna ini sudah ada di daftar larangan.
+SERVER_COOP_PLUGIN_NAME: "Integrasi Permintaan Co-op"
+SERVER_COOP_PLUGIN_DESCRIPTION: "Konfigurasikan fitur permintaan co-op untuk server Anda, termasuk ping peran, saluran khusus, dan daftar larangan."
+SERVER_COOP_CONFIG_TITLE: "Pengaturan Permintaan Co-op"
+SERVER_COOP_FEATURE_TOGGLE_TITLE: "Pengalih Fitur"
+SERVER_COOP_FEATURE_TOGGLE_DESCRIPTION: "Aktifkan atau nonaktifkan fitur permintaan co-op untuk server ini. Ketika dinonaktifkan, anggota tidak akan dapat memposting permintaan co-op."
+SERVER_COOP_ENABLED: "Permintaan co-op diaktifkan"
+SERVER_COOP_DISABLED: "Permintaan co-op dinonaktifkan"
+SERVER_COOP_CHANNEL_TITLE: "Saluran Permintaan"
+SERVER_COOP_CHANNEL_DESCRIPTION: "Pilih saluran khusus di mana permintaan co-op akan diposting. Jika tidak diatur, permintaan diposting di saluran tempat perintah digunakan."
+SERVER_COOP_CHANNEL_LABEL: "Saluran Permintaan Co-op"
+SERVER_COOP_ROLES_TITLE: "Ping Peran"
+SERVER_COOP_ROLES_DESCRIPTION: "Konfigurasikan peran mana yang diping ketika permintaan co-op diposting. Anda dapat mengatur peran umum untuk semua permintaan dan/atau peran terpisah per wilayah server."
+SERVER_COOP_GENERAL_ROLE: "Peran Ping Umum"
+SERVER_COOP_GENERAL_ROLE_DESCRIPTION: "Peran ini diping untuk setiap permintaan co-op terlepas dari wilayah."
+SERVER_COOP_REGION_ROLES_TITLE: "Peran Khusus Wilayah"
+SERVER_COOP_REGION_ROLES_DESCRIPTION: "Peran ini hanya diping untuk permintaan dari wilayah server yang cocok. Amerika dan Eropa tidak dapat co-op dengan Asia dan SAR."
+SERVER_COOP_ROLE_AMERICA: "Peran Amerika"
+SERVER_COOP_ROLE_AMERICA_DESCRIPTION: "Dipanggil ketika permintaan co-op diposting untuk server Amerika."
+SERVER_COOP_ROLE_EUROPE: "Peran Eropa"
+SERVER_COOP_ROLE_EUROPE_DESCRIPTION: "Dipanggil ketika permintaan co-op diposting untuk server Eropa."
+SERVER_COOP_ROLE_ASIA: "Peran Asia"
+SERVER_COOP_ROLE_ASIA_DESCRIPTION: "Dipanggil ketika permintaan co-op diposting untuk server Asia."
+SERVER_COOP_ROLE_SAR: "Peran SAR"
+SERVER_COOP_ROLE_SAR_DESCRIPTION: "Dipanggil ketika permintaan co-op diposting untuk server SAR (Wilayah Administratif Khusus)."
+SERVER_COOP_BAN_LIST_TITLE: "Daftar Larangan Co-op"
+SERVER_COOP_BAN_LIST_DESCRIPTION: "Pengguna dalam daftar ini diblokir dari memposting permintaan co-op di server ini. Masukkan ID pengguna Discord untuk menambahkannya."
+SERVER_COOP_BAN_USER_ID_LABEL: "ID Pengguna Discord"
+SERVER_COOP_BAN_USER_ID_PLACEHOLDER: "mis. 123456789012345678"
+SERVER_COOP_BAN_ADD_BTN: "Larangkan Pengguna"
+SERVER_COOP_BAN_ALREADY_BANNED: "Pengguna ini sudah ada di daftar larangan."
+SERVER_COOP_BAN_ADDED: "Pengguna telah ditambahkan ke daftar larangan co-op."
+SERVER_COOP_BAN_REMOVED: "Pengguna telah dihapus dari daftar larangan co-op."
+SERVER_COOP_BAN_LIST_EMPTY: "Tidak ada pengguna yang saat ini dilarang dari permintaan co-op."
+ERROR_LOAD_SETTINGS: "Gagal memuat pengaturan. Silakan segarkan dan coba lagi."
+NO_ROLES_FOUND: "Tidak Ada Peran Ditemukan"

@@ -1522,37 +1522,38 @@ CAPTCHA_CHALLENGE_NOT_FOUND_ERROR: "Sfida CAPTCHA non trovata o scaduta."
 CAPTCHA_SERVER_ERROR: "Errore del server: {status}"
 CAPTCHA_LOAD_FAILED_ERROR: "Impossibile caricare la sfida CAPTCHA."
 CAPTCHA_SUBMIT_FAILED_ERROR: "Impossibile inviare il risultato CAPTCHA."
-SERVER_COOP_ROLE_EUROPE: Ruolo Europa
-SERVER_COOP_BAN_USER_ID_LABEL: ID Utente Discord
-SERVER_COOP_BAN_ADDED: L'utente è stato aggiunto alla lista di ban della co-op.
-SERVER_COOP_PLUGIN_DESCRIPTION: Configura la funzione di richiesta di co-op per il tuo server, inclusi i ping dei ruoli, un canale dedicato e una lista di ban.
-SERVER_COOP_ROLES_TITLE: Ping dei Ruoli
-SERVER_COOP_PLUGIN_NAME: Integrazione Richieste Co-op
-SERVER_COOP_DISABLED: Richieste di co-op disabilitate
-SERVER_COOP_FEATURE_TOGGLE_TITLE: Attivazione Funzione
-SERVER_COOP_BAN_LIST_TITLE: Lista di Ban Co-op
-SERVER_COOP_BAN_LIST_EMPTY: Attualmente non ci sono utenti bannati dalle richieste di co-op.
-SERVER_COOP_CHANNEL_LABEL: Canale Richiesta Co-op
-ERROR_LOAD_SETTINGS: Impossibile caricare le impostazioni. Riprova e aggiorna.
-SERVER_COOP_CHANNEL_DESCRIPTION: Scegli un canale dedicato dove verranno pubblicate le richieste di co-op. Se non impostato, le richieste vengono pubblicate nel canale in cui è stato utilizzato il comando.
-SERVER_COOP_REGION_ROLES_DESCRIPTION: Questi ruoli vengono pingati solo per le richieste dalla regione del server corrispondente. America ed Europa non possono fare co-op con Asia e SAR.
-SERVER_COOP_BAN_REMOVED: L'utente è stato rimosso dalla lista di ban della co-op.
-SERVER_COOP_ROLE_SAR_DESCRIPTION: Pingato quando viene pubblicata una richiesta di co-op per il server SAR (Regione Amministrativa Speciale).
-SERVER_COOP_ROLE_AMERICA: Ruolo America
-SERVER_COOP_ROLE_AMERICA_DESCRIPTION: Pingato quando viene pubblicata una richiesta di co-op per il server America.
-SERVER_COOP_ROLES_DESCRIPTION: Configura quali ruoli vengono pingati quando viene pubblicata una richiesta di co-op. Puoi impostare un ruolo generale per tutte le richieste e/o ruoli separati per regione del server.
-SERVER_COOP_ROLE_ASIA: Ruolo Asia
-SERVER_COOP_CONFIG_TITLE: Impostazioni Richiesta Co-op
-SERVER_COOP_ROLE_EUROPE_DESCRIPTION: Pingato quando viene pubblicata una richiesta di co-op per il server Europa.
-SERVER_COOP_ROLE_ASIA_DESCRIPTION: Pingato quando viene pubblicata una richiesta di co-op per il server Asia.
-SERVER_COOP_GENERAL_ROLE: Ruolo Ping Generale
-SERVER_COOP_FEATURE_TOGGLE_DESCRIPTION: Abilita o disabilita la funzione di richiesta di co-op per questo server. Quando disabilitata, i membri non potranno pubblicare richieste di co-op.
-SERVER_COOP_GENERAL_ROLE_DESCRIPTION: Questo ruolo viene pingato per ogni richiesta di co-op indipendentemente dalla regione.
-SERVER_COOP_BAN_USER_ID_PLACEHOLDER: es. 123456789012345678
-SERVER_COOP_ENABLED: Richieste di co-op abilitate
-SERVER_COOP_BAN_LIST_DESCRIPTION: Gli utenti su questa lista sono bloccati dalla pubblicazione di richieste di co-op in questo server. Inserisci un ID utente Discord per aggiungerli.
-SERVER_COOP_BAN_ADD_BTN: Banna Utente
-SERVER_COOP_REGION_ROLES_TITLE: Ruoli Specifici per Regione
-SERVER_COOP_ROLE_SAR: Ruolo SAR
-SERVER_COOP_CHANNEL_TITLE: Canale Richiesta
-SERVER_COOP_BAN_ALREADY_BANNED: Questo utente è già nella lista di ban.
+SERVER_COOP_PLUGIN_NAME: "Integrazione Richieste Co-op"
+SERVER_COOP_PLUGIN_DESCRIPTION: "Configura la funzione di richiesta di co-op per il tuo server, inclusi i ping dei ruoli, un canale dedicato e una lista di ban."
+SERVER_COOP_CONFIG_TITLE: "Impostazioni Richiesta Co-op"
+SERVER_COOP_FEATURE_TOGGLE_TITLE: "Attivazione Funzione"
+SERVER_COOP_FEATURE_TOGGLE_DESCRIPTION: "Abilita o disabilita la funzione di richiesta di co-op per questo server. Quando disabilitata, i membri non potranno pubblicare richieste di co-op."
+SERVER_COOP_ENABLED: "Richieste di co-op abilitate"
+SERVER_COOP_DISABLED: "Richieste di co-op disabilitate"
+SERVER_COOP_CHANNEL_TITLE: "Canale Richiesta"
+SERVER_COOP_CHANNEL_DESCRIPTION: "Scegli un canale dedicato dove verranno pubblicate le richieste di co-op. Se non impostato, le richieste vengono pubblicate nel canale in cui è stato utilizzato il comando."
+SERVER_COOP_CHANNEL_LABEL: "Canale Richiesta Co-op"
+SERVER_COOP_ROLES_TITLE: "Ping dei Ruoli"
+SERVER_COOP_ROLES_DESCRIPTION: "Configura quali ruoli vengono pingati quando viene pubblicata una richiesta di co-op. Puoi impostare un ruolo generale per tutte le richieste e/o ruoli separati per regione del server."
+SERVER_COOP_GENERAL_ROLE: "Ruolo Ping Generale"
+SERVER_COOP_GENERAL_ROLE_DESCRIPTION: "Questo ruolo viene pingato per ogni richiesta di co-op indipendentemente dalla regione."
+SERVER_COOP_REGION_ROLES_TITLE: "Ruoli Specifici per Regione"
+SERVER_COOP_REGION_ROLES_DESCRIPTION: "Questi ruoli vengono pingati solo per le richieste dalla regione del server corrispondente. America ed Europa non possono fare co-op con Asia e SAR."
+SERVER_COOP_ROLE_AMERICA: "Ruolo America"
+SERVER_COOP_ROLE_AMERICA_DESCRIPTION: "Pingato quando viene pubblicata una richiesta di co-op per il server America."
+SERVER_COOP_ROLE_EUROPE: "Ruolo Europa"
+SERVER_COOP_ROLE_EUROPE_DESCRIPTION: "Pingato quando viene pubblicata una richiesta di co-op per il server Europa."
+SERVER_COOP_ROLE_ASIA: "Ruolo Asia"
+SERVER_COOP_ROLE_ASIA_DESCRIPTION: "Pingato quando viene pubblicata una richiesta di co-op per il server Asia."
+SERVER_COOP_ROLE_SAR: "Ruolo SAR"
+SERVER_COOP_ROLE_SAR_DESCRIPTION: "Pingato quando viene pubblicata una richiesta di co-op per il server SAR (Regione Amministrativa Speciale)."
+SERVER_COOP_BAN_LIST_TITLE: "Lista di Ban Co-op"
+SERVER_COOP_BAN_LIST_DESCRIPTION: "Gli utenti su questa lista sono bloccati dalla pubblicazione di richieste di co-op in questo server. Inserisci un ID utente Discord per aggiungerli."
+SERVER_COOP_BAN_USER_ID_LABEL: "ID Utente Discord"
+SERVER_COOP_BAN_USER_ID_PLACEHOLDER: "es. 123456789012345678"
+SERVER_COOP_BAN_ADD_BTN: "Banna Utente"
+SERVER_COOP_BAN_ALREADY_BANNED: "Questo utente è già nella lista di ban."
+SERVER_COOP_BAN_ADDED: "L'utente è stato aggiunto alla lista di ban della co-op."
+SERVER_COOP_BAN_REMOVED: "L'utente è stato rimosso dalla lista di ban della co-op."
+SERVER_COOP_BAN_LIST_EMPTY: "Attualmente non ci sono utenti bannati dalle richieste di co-op."
+ERROR_LOAD_SETTINGS: "Impossibile caricare le impostazioni. Riprova e aggiorna."
+NO_ROLES_FOUND: "Nessun Ruolo Trovato"

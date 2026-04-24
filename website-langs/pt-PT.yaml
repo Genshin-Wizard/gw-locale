@@ -1522,37 +1522,38 @@ CAPTCHA_CHALLENGE_NOT_FOUND_ERROR: "Desafio CAPTCHA não encontrado ou expirou."
 CAPTCHA_SERVER_ERROR: "Erro de servidor: {status}"
 CAPTCHA_LOAD_FAILED_ERROR: "Falha ao carregar o desafio CAPTCHA."
 CAPTCHA_SUBMIT_FAILED_ERROR: "Falha ao submeter o resultado do CAPTCHA."
-SERVER_COOP_ROLE_EUROPE: Papel da Europa
-SERVER_COOP_BAN_USER_ID_LABEL: ID de Utilizador do Discord
-SERVER_COOP_BAN_ADDED: O utilizador foi adicionado à lista de banimento da co-op.
-SERVER_COOP_PLUGIN_DESCRIPTION: Configure a funcionalidade de pedidos de co-op para o seu servidor, incluindo pings de papéis, um canal dedicado e uma lista de banimento.
-SERVER_COOP_ROLES_TITLE: Pings de Papéis
-SERVER_COOP_PLUGIN_NAME: Integração de Pedidos de Co-op
-SERVER_COOP_DISABLED: Pedidos de co-op desativados
-SERVER_COOP_FEATURE_TOGGLE_TITLE: Ativação de Funcionalidade
-SERVER_COOP_BAN_LIST_TITLE: Lista de Banimento da Co-op
-SERVER_COOP_BAN_LIST_EMPTY: Atualmente, não há utilizadores banidos de pedidos de co-op.
-SERVER_COOP_CHANNEL_LABEL: Canal de Pedidos de Co-op
-ERROR_LOAD_SETTINGS: Falha ao carregar as definições. Por favor, atualize e tente novamente.
-SERVER_COOP_CHANNEL_DESCRIPTION: Escolha um canal dedicado onde os pedidos de co-op serão publicados. Se não for definido, os pedidos são publicados no canal onde o comando foi utilizado.
-SERVER_COOP_REGION_ROLES_DESCRIPTION: Estes papéis são notificados apenas para pedidos da região do servidor correspondente. A América e a Europa não podem fazer co-op com a Ásia e a SAR.
-SERVER_COOP_BAN_REMOVED: O utilizador foi removido da lista de banimento da co-op.
-SERVER_COOP_ROLE_SAR_DESCRIPTION: Notificado quando um pedido de co-op é publicado para o servidor da SAR (Região Administrativa Especial).
-SERVER_COOP_ROLE_AMERICA: Papel da América
-SERVER_COOP_ROLE_AMERICA_DESCRIPTION: Notificado quando um pedido de co-op é publicado para o servidor da América.
-SERVER_COOP_ROLES_DESCRIPTION: Configure quais papéis são notificados quando um pedido de co-op é publicado. Pode definir um papel geral para todos os pedidos e/ou papéis separados por região do servidor.
-SERVER_COOP_ROLE_ASIA: Papel da Ásia
-SERVER_COOP_CONFIG_TITLE: Definições de Pedidos de Co-op
-SERVER_COOP_ROLE_EUROPE_DESCRIPTION: Notificado quando um pedido de co-op é publicado para o servidor da Europa.
-SERVER_COOP_ROLE_ASIA_DESCRIPTION: Notificado quando um pedido de co-op é publicado para o servidor da Ásia.
-SERVER_COOP_GENERAL_ROLE: Papel de Ping Geral
-SERVER_COOP_FEATURE_TOGGLE_DESCRIPTION: Ative ou desative a funcionalidade de pedidos de co-op para este servidor. Quando desativado, os membros não poderão publicar pedidos de co-op.
-SERVER_COOP_GENERAL_ROLE_DESCRIPTION: Este papel é notificado para cada pedido de co-op, independentemente da região.
-SERVER_COOP_BAN_USER_ID_PLACEHOLDER: ex. 123456789012345678
-SERVER_COOP_ENABLED: Pedidos de co-op ativados
-SERVER_COOP_BAN_LIST_DESCRIPTION: Os utilizadores nesta lista estão bloqueados de publicar pedidos de co-op neste servidor. Insira um ID de utilizador do Discord para os adicionar.
-SERVER_COOP_BAN_ADD_BTN: Banir Utilizador
-SERVER_COOP_REGION_ROLES_TITLE: Papéis Específicos da Região
-SERVER_COOP_ROLE_SAR: Papel da SAR
-SERVER_COOP_CHANNEL_TITLE: Canal de Pedidos
-SERVER_COOP_BAN_ALREADY_BANNED: Este utilizador já está na lista de banimento.
+SERVER_COOP_PLUGIN_NAME: "Integração de Pedidos de Co-op"
+SERVER_COOP_PLUGIN_DESCRIPTION: "Configure a funcionalidade de pedidos de co-op para o seu servidor, incluindo pings de papéis, um canal dedicado e uma lista de banimento."
+SERVER_COOP_CONFIG_TITLE: "Definições de Pedidos de Co-op"
+SERVER_COOP_FEATURE_TOGGLE_TITLE: "Ativação de Funcionalidade"
+SERVER_COOP_FEATURE_TOGGLE_DESCRIPTION: "Ative ou desative a funcionalidade de pedidos de co-op para este servidor. Quando desativado, os membros não poderão publicar pedidos de co-op."
+SERVER_COOP_ENABLED: "Pedidos de co-op ativados"
+SERVER_COOP_DISABLED: "Pedidos de co-op desativados"
+SERVER_COOP_CHANNEL_TITLE: "Canal de Pedidos"
+SERVER_COOP_CHANNEL_DESCRIPTION: "Escolha um canal dedicado onde os pedidos de co-op serão publicados. Se não for definido, os pedidos são publicados no canal onde o comando foi utilizado."
+SERVER_COOP_CHANNEL_LABEL: "Canal de Pedidos de Co-op"
+SERVER_COOP_ROLES_TITLE: "Pings de Papéis"
+SERVER_COOP_ROLES_DESCRIPTION: "Configure quais papéis são notificados quando um pedido de co-op é publicado. Pode definir um papel geral para todos os pedidos e/ou papéis separados por região do servidor."
+SERVER_COOP_GENERAL_ROLE: "Papel de Ping Geral"
+SERVER_COOP_GENERAL_ROLE_DESCRIPTION: "Este papel é notificado para cada pedido de co-op, independentemente da região."
+SERVER_COOP_REGION_ROLES_TITLE: "Papéis Específicos da Região"
+SERVER_COOP_REGION_ROLES_DESCRIPTION: "Estes papéis são notificados apenas para pedidos da região do servidor correspondente. A América e a Europa não podem fazer co-op com a Ásia e a SAR."
+SERVER_COOP_ROLE_AMERICA: "Papel da América"
+SERVER_COOP_ROLE_AMERICA_DESCRIPTION: "Notificado quando um pedido de co-op é publicado para o servidor da América."
+SERVER_COOP_ROLE_EUROPE: "Papel da Europa"
+SERVER_COOP_ROLE_EUROPE_DESCRIPTION: "Notificado quando um pedido de co-op é publicado para o servidor da Europa."
+SERVER_COOP_ROLE_ASIA: "Papel da Ásia"
+SERVER_COOP_ROLE_ASIA_DESCRIPTION: "Notificado quando um pedido de co-op é publicado para o servidor da Ásia."
+SERVER_COOP_ROLE_SAR: "Papel da SAR"
+SERVER_COOP_ROLE_SAR_DESCRIPTION: "Notificado quando um pedido de co-op é publicado para o servidor da SAR (Região Administrativa Especial)."
+SERVER_COOP_BAN_LIST_TITLE: "Lista de Banimento da Co-op"
+SERVER_COOP_BAN_LIST_DESCRIPTION: "Os utilizadores nesta lista estão bloqueados de publicar pedidos de co-op neste servidor. Insira um ID de utilizador do Discord para os adicionar."
+SERVER_COOP_BAN_USER_ID_LABEL: "ID de Utilizador do Discord"
+SERVER_COOP_BAN_USER_ID_PLACEHOLDER: "ex. 123456789012345678"
+SERVER_COOP_BAN_ADD_BTN: "Banir Utilizador"
+SERVER_COOP_BAN_ALREADY_BANNED: "Este utilizador já está na lista de banimento."
+SERVER_COOP_BAN_ADDED: "O utilizador foi adicionado à lista de banimento da co-op."
+SERVER_COOP_BAN_REMOVED: "O utilizador foi removido da lista de banimento da co-op."
+SERVER_COOP_BAN_LIST_EMPTY: "Atualmente, não há utilizadores banidos de pedidos de co-op."
+ERROR_LOAD_SETTINGS: "Falha ao carregar as definições. Por favor, atualize e tente novamente."
+NO_ROLES_FOUND: "Nenhum Papel Encontrado"

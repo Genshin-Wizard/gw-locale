@@ -1522,37 +1522,38 @@ CAPTCHA_CHALLENGE_NOT_FOUND_ERROR: "Captcha-utmaning hittades inte eller har gå
 CAPTCHA_SERVER_ERROR: "Serverfel: {status}"
 CAPTCHA_LOAD_FAILED_ERROR: "Misslyckades med att ladda captcha-utmaningen."
 CAPTCHA_SUBMIT_FAILED_ERROR: "Misslyckades med att skicka captcha-resultatet."
-SERVER_COOP_ROLE_EUROPE: Europa Roll
-SERVER_COOP_BAN_USER_ID_LABEL: Discord Användar-ID
-SERVER_COOP_BAN_ADDED: Användaren har lagts till i co-op banlistan.
-SERVER_COOP_PLUGIN_DESCRIPTION: Konfigurera co-op begärningsfunktionen för din server, inklusive rollnotifikationer, en dedikerad kanal och en banlista.
-SERVER_COOP_ROLES_TITLE: Rollnotifikationer
-SERVER_COOP_PLUGIN_NAME: Co-op Begärningar Integration
-SERVER_COOP_DISABLED: Co-op begärningar inaktiverade
-SERVER_COOP_FEATURE_TOGGLE_TITLE: Funktion Växla
-SERVER_COOP_BAN_LIST_TITLE: Co-op Banlista
-SERVER_COOP_BAN_LIST_EMPTY: Inga användare är för närvarande bannade från co-op begärningar.
-SERVER_COOP_CHANNEL_LABEL: Co-op Begärningskanal
-ERROR_LOAD_SETTINGS: Misslyckades med att ladda inställningar. Vänligen uppdatera och försök igen.
-SERVER_COOP_CHANNEL_DESCRIPTION: Välj en dedikerad kanal där co-op begärningar kommer att publiceras. Om det inte är inställt, publiceras begärningar i den kanal där kommandot användes.
-SERVER_COOP_REGION_ROLES_DESCRIPTION: Dessa roller pingas endast för begärningar från den matchande serverregionen. Amerika och Europa kan inte co-op med Asien och SAR.
-SERVER_COOP_BAN_REMOVED: Användaren har tagits bort från co-op banlistan.
-SERVER_COOP_ROLE_SAR_DESCRIPTION: Pingas när en co-op begäran publiceras för SAR (Särskild Administrativ Region) servern.
-SERVER_COOP_ROLE_AMERICA: Amerika Roll
-SERVER_COOP_ROLE_AMERICA_DESCRIPTION: Pingas när en co-op begäran publiceras för Amerika servern.
-SERVER_COOP_ROLES_DESCRIPTION: Konfigurera vilka roller som pingas när en co-op begäran publiceras. Du kan ställa in en allmän roll för alla begärningar och/eller separata roller per serverregion.
-SERVER_COOP_ROLE_ASIA: Asien Roll
-SERVER_COOP_CONFIG_TITLE: Co-op Begärningsinställningar
-SERVER_COOP_ROLE_EUROPE_DESCRIPTION: Pingas när en co-op begäran publiceras för Europa servern.
-SERVER_COOP_ROLE_ASIA_DESCRIPTION: Pingas när en co-op begäran publiceras för Asien servern.
-SERVER_COOP_GENERAL_ROLE: Allmän Ping Roll
-SERVER_COOP_FEATURE_TOGGLE_DESCRIPTION: Aktivera eller inaktivera co-op begärningsfunktionen för denna server. När den är inaktiverad kan medlemmar inte publicera co-op begärningar.
-SERVER_COOP_GENERAL_ROLE_DESCRIPTION: Denna roll pingas för varje co-op begäran oavsett region.
-SERVER_COOP_BAN_USER_ID_PLACEHOLDER: t.ex. 123456789012345678
-SERVER_COOP_ENABLED: Co-op begärningar aktiverade
-SERVER_COOP_BAN_LIST_DESCRIPTION: Användare på denna lista är blockerade från att publicera co-op begärningar på denna server. Ange ett Discord användar-ID för att lägga till dem.
-SERVER_COOP_BAN_ADD_BTN: Banna Användare
-SERVER_COOP_REGION_ROLES_TITLE: Regionspecifika Roller
-SERVER_COOP_ROLE_SAR: SAR Roll
-SERVER_COOP_CHANNEL_TITLE: Begärningskanal
-SERVER_COOP_BAN_ALREADY_BANNED: Denna användare är redan på banlistan.
+SERVER_COOP_PLUGIN_NAME: "Co-op Begärningar Integration"
+SERVER_COOP_PLUGIN_DESCRIPTION: "Konfigurera co-op begärningsfunktionen för din server, inklusive rollnotifikationer, en dedikerad kanal och en banlista."
+SERVER_COOP_CONFIG_TITLE: "Co-op Begärningsinställningar"
+SERVER_COOP_FEATURE_TOGGLE_TITLE: "Funktion Växla"
+SERVER_COOP_FEATURE_TOGGLE_DESCRIPTION: "Aktivera eller inaktivera co-op begärningsfunktionen för denna server. När den är inaktiverad kan medlemmar inte publicera co-op begärningar."
+SERVER_COOP_ENABLED: "Co-op begärningar aktiverade"
+SERVER_COOP_DISABLED: "Co-op begärningar inaktiverade"
+SERVER_COOP_CHANNEL_TITLE: "Begärningskanal"
+SERVER_COOP_CHANNEL_DESCRIPTION: "Välj en dedikerad kanal där co-op begärningar kommer att publiceras. Om det inte är inställt, publiceras begärningar i den kanal där kommandot användes."
+SERVER_COOP_CHANNEL_LABEL: "Co-op Begärningskanal"
+SERVER_COOP_ROLES_TITLE: "Rollnotifikationer"
+SERVER_COOP_ROLES_DESCRIPTION: "Konfigurera vilka roller som pingas när en co-op begäran publiceras. Du kan ställa in en allmän roll för alla begärningar och/eller separata roller per serverregion."
+SERVER_COOP_GENERAL_ROLE: "Allmän Ping Roll"
+SERVER_COOP_GENERAL_ROLE_DESCRIPTION: "Denna roll pingas för varje co-op begäran oavsett region."
+SERVER_COOP_REGION_ROLES_TITLE: "Regionspecifika Roller"
+SERVER_COOP_REGION_ROLES_DESCRIPTION: "Dessa roller pingas endast för begärningar från den matchande serverregionen. Amerika och Europa kan inte co-op med Asien och SAR."
+SERVER_COOP_ROLE_AMERICA: "Amerika Roll"
+SERVER_COOP_ROLE_AMERICA_DESCRIPTION: "Pingas när en co-op begäran publiceras för Amerika servern."
+SERVER_COOP_ROLE_EUROPE: "Europa Roll"
+SERVER_COOP_ROLE_EUROPE_DESCRIPTION: "Pingas när en co-op begäran publiceras för Europa servern."
+SERVER_COOP_ROLE_ASIA: "Asien Roll"
+SERVER_COOP_ROLE_ASIA_DESCRIPTION: "Pingas när en co-op begäran publiceras för Asien servern."
+SERVER_COOP_ROLE_SAR: "SAR Roll"
+SERVER_COOP_ROLE_SAR_DESCRIPTION: "Pingas när en co-op begäran publiceras för SAR (Särskild Administrativ Region) servern."
+SERVER_COOP_BAN_LIST_TITLE: "Co-op Banlista"
+SERVER_COOP_BAN_LIST_DESCRIPTION: "Användare på denna lista är blockerade från att publicera co-op begärningar på denna server. Ange ett Discord användar-ID för att lägga till dem."
+SERVER_COOP_BAN_USER_ID_LABEL: "Discord Användar-ID"
+SERVER_COOP_BAN_USER_ID_PLACEHOLDER: "t.ex. 123456789012345678"
+SERVER_COOP_BAN_ADD_BTN: "Banna Användare"
+SERVER_COOP_BAN_ALREADY_BANNED: "Denna användare är redan på banlistan."
+SERVER_COOP_BAN_ADDED: "Användaren har lagts till i co-op banlistan."
+SERVER_COOP_BAN_REMOVED: "Användaren har tagits bort från co-op banlistan."
+SERVER_COOP_BAN_LIST_EMPTY: "Inga användare är för närvarande bannade från co-op begärningar."
+ERROR_LOAD_SETTINGS: "Misslyckades med att ladda inställningar. Vänligen uppdatera och försök igen."
+NO_ROLES_FOUND: "Inga roller hittades"

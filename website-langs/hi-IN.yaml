@@ -1522,37 +1522,38 @@ CAPTCHA_CHALLENGE_NOT_FOUND_ERROR: "कैप्चा चुनौती नह
 CAPTCHA_SERVER_ERROR: "सर्वर त्रुटि: {status}"
 CAPTCHA_LOAD_FAILED_ERROR: "कैप्चा चुनौती लोड करने में विफल।"
 CAPTCHA_SUBMIT_FAILED_ERROR: "कैप्चा परिणाम जमा करने में विफल।"
-SERVER_COOP_ROLE_EUROPE: यूरोप भूमिका
-SERVER_COOP_BAN_USER_ID_LABEL: Discord उपयोगकर्ता ID
-SERVER_COOP_BAN_ADDED: उपयोगकर्ता को सहकारी प्रतिबंध सूची में जोड़ा गया है।
-SERVER_COOP_PLUGIN_DESCRIPTION: अपने सर्वर के लिए सहकारी अनुरोध सुविधा को कॉन्फ़िगर करें, जिसमें भूमिका पिंग, एक समर्पित चैनल और एक प्रतिबंध सूची शामिल है।
-SERVER_COOP_ROLES_TITLE: भूमिका पिंग
-SERVER_COOP_PLUGIN_NAME: सहकारी अनुरोध एकीकरण
-SERVER_COOP_DISABLED: सहकारी अनुरोध अक्षम
-SERVER_COOP_FEATURE_TOGGLE_TITLE: विशेषता टॉगल
-SERVER_COOP_BAN_LIST_TITLE: सहकारी प्रतिबंध सूची
-SERVER_COOP_BAN_LIST_EMPTY: वर्तमान में सहकारी अनुरोधों से कोई उपयोगकर्ता प्रतिबंधित नहीं है।
-SERVER_COOP_CHANNEL_LABEL: सहकारी अनुरोध चैनल
-ERROR_LOAD_SETTINGS: सेटिंग्स लोड करने में विफल। कृपया रिफ्रेश करें और फिर से प्रयास करें।
-SERVER_COOP_CHANNEL_DESCRIPTION: एक समर्पित चैनल चुनें जहाँ सहकारी अनुरोध पोस्ट किए जाएंगे। यदि सेट नहीं किया गया है, तो अनुरोध उस चैनल में पोस्ट किए जाते हैं जहाँ कमांड का उपयोग किया गया था।
-SERVER_COOP_REGION_ROLES_DESCRIPTION: ये भूमिकाएँ केवल मेल खाने वाले सर्वर क्षेत्र से अनुरोधों के लिए पिंग की जाती हैं। अमेरिका और यूरोप एशिया और SAR के साथ सहकारी नहीं कर सकते।
-SERVER_COOP_BAN_REMOVED: उपयोगकर्ता को सहकारी प्रतिबंध सूची से हटा दिया गया है।
-SERVER_COOP_ROLE_SAR_DESCRIPTION: जब SAR (विशेष प्रशासनिक क्षेत्र) सर्वर के लिए सहकारी अनुरोध पोस्ट किया जाता है, तो पिंग किया जाता है।
-SERVER_COOP_ROLE_AMERICA: अमेरिका भूमिका
-SERVER_COOP_ROLE_AMERICA_DESCRIPTION: जब अमेरिका सर्वर के लिए सहकारी अनुरोध पोस्ट किया जाता है, तो पिंग किया जाता है।
-SERVER_COOP_ROLES_DESCRIPTION: कॉन्फ़िगर करें कि सहकारी अनुरोध पोस्ट किए जाने पर कौन सी भूमिकाएँ पिंग की जाती हैं। आप सभी अनुरोधों के लिए एक सामान्य भूमिका और/या प्रत्येक सर्वर क्षेत्र के लिए अलग-अलग भूमिकाएँ सेट कर सकते हैं।
-SERVER_COOP_ROLE_ASIA: एशिया भूमिका
-SERVER_COOP_CONFIG_TITLE: सहकारी अनुरोध सेटिंग्स
-SERVER_COOP_ROLE_EUROPE_DESCRIPTION: जब यूरोप सर्वर के लिए सहकारी अनुरोध पोस्ट किया जाता है, तो पिंग किया जाता है।
-SERVER_COOP_ROLE_ASIA_DESCRIPTION: जब एशिया सर्वर के लिए सहकारी अनुरोध पोस्ट किया जाता है, तो पिंग किया जाता है।
-SERVER_COOP_GENERAL_ROLE: सामान्य पिंग भूमिका
-SERVER_COOP_FEATURE_TOGGLE_DESCRIPTION: इस सर्वर के लिए सहकारी अनुरोध सुविधा को सक्षम या अक्षम करें। जब अक्षम किया जाता है, तो सदस्य सहकारी अनुरोध पोस्ट नहीं कर पाएंगे।
-SERVER_COOP_GENERAL_ROLE_DESCRIPTION: यह भूमिका हर सहकारी अनुरोध के लिए क्षेत्र की परवाह किए बिना पिंग की जाती है।
+SERVER_COOP_PLUGIN_NAME: "सहकारी अनुरोध एकीकरण"
+SERVER_COOP_PLUGIN_DESCRIPTION: "अपने सर्वर के लिए सहकारी अनुरोध सुविधा को कॉन्फ़िगर करें, जिसमें भूमिका पिंग, एक समर्पित चैनल और एक प्रतिबंध सूची शामिल है।"
+SERVER_COOP_CONFIG_TITLE: "सहकारी अनुरोध सेटिंग्स"
+SERVER_COOP_FEATURE_TOGGLE_TITLE: "विशेषता टॉगल"
+SERVER_COOP_FEATURE_TOGGLE_DESCRIPTION: "इस सर्वर के लिए सहकारी अनुरोध सुविधा को सक्षम या अक्षम करें। जब अक्षम किया जाता है, तो सदस्य सहकारी अनुरोध पोस्ट नहीं कर पाएंगे।"
+SERVER_COOP_ENABLED: "सहकारी अनुरोध सक्षम"
+SERVER_COOP_DISABLED: "सहकारी अनुरोध अक्षम"
+SERVER_COOP_CHANNEL_TITLE: "अनुरोध चैनल"
+SERVER_COOP_CHANNEL_DESCRIPTION: "एक समर्पित चैनल चुनें जहाँ सहकारी अनुरोध पोस्ट किए जाएंगे। यदि सेट नहीं किया गया है, तो अनुरोध उस चैनल में पोस्ट किए जाते हैं जहाँ कमांड का उपयोग किया गया था।"
+SERVER_COOP_CHANNEL_LABEL: "सहकारी अनुरोध चैनल"
+SERVER_COOP_ROLES_TITLE: "भूमिका पिंग"
+SERVER_COOP_ROLES_DESCRIPTION: "कॉन्फ़िगर करें कि सहकारी अनुरोध पोस्ट किए जाने पर कौन सी भूमिकाएँ पिंग की जाती हैं। आप सभी अनुरोधों के लिए एक सामान्य भूमिका और/या प्रत्येक सर्वर क्षेत्र के लिए अलग-अलग भूमिकाएँ सेट कर सकते हैं।"
+SERVER_COOP_GENERAL_ROLE: "सामान्य पिंग भूमिका"
+SERVER_COOP_GENERAL_ROLE_DESCRIPTION: "यह भूमिका हर सहकारी अनुरोध के लिए क्षेत्र की परवाह किए बिना पिंग की जाती है।"
+SERVER_COOP_REGION_ROLES_TITLE: "क्षेत्र-विशिष्ट भूमिकाएँ"
+SERVER_COOP_REGION_ROLES_DESCRIPTION: "ये भूमिकाएँ केवल मेल खाने वाले सर्वर क्षेत्र से अनुरोधों के लिए पिंग की जाती हैं। अमेरिका और यूरोप एशिया और SAR के साथ सहकारी नहीं कर सकते।"
+SERVER_COOP_ROLE_AMERICA: "अमेरिका भूमिका"
+SERVER_COOP_ROLE_AMERICA_DESCRIPTION: "जब अमेरिका सर्वर के लिए सहकारी अनुरोध पोस्ट किया जाता है, तो पिंग किया जाता है।"
+SERVER_COOP_ROLE_EUROPE: "यूरोप भूमिका"
+SERVER_COOP_ROLE_EUROPE_DESCRIPTION: "जब यूरोप सर्वर के लिए सहकारी अनुरोध पोस्ट किया जाता है, तो पिंग किया जाता है।"
+SERVER_COOP_ROLE_ASIA: "एशिया भूमिका"
+SERVER_COOP_ROLE_ASIA_DESCRIPTION: "जब एशिया सर्वर के लिए सहकारी अनुरोध पोस्ट किया जाता है, तो पिंग किया जाता है।"
+SERVER_COOP_ROLE_SAR: "SAR भूमिका"
+SERVER_COOP_ROLE_SAR_DESCRIPTION: "जब SAR (विशेष प्रशासनिक क्षेत्र) सर्वर के लिए सहकारी अनुरोध पोस्ट किया जाता है, तो पिंग किया जाता है।"
+SERVER_COOP_BAN_LIST_TITLE: "सहकारी प्रतिबंध सूची"
+SERVER_COOP_BAN_LIST_DESCRIPTION: "इस सूची में उपयोगकर्ता इस सर्वर में सहकारी अनुरोध पोस्ट करने से ब्लॉक हैं। उन्हें जोड़ने के लिए एक Discord उपयोगकर्ता ID दर्ज करें।"
+SERVER_COOP_BAN_USER_ID_LABEL: "Discord उपयोगकर्ता ID"
 SERVER_COOP_BAN_USER_ID_PLACEHOLDER: "उदाहरण: 123456789012345678"
-SERVER_COOP_ENABLED: सहकारी अनुरोध सक्षम
-SERVER_COOP_BAN_LIST_DESCRIPTION: इस सूची में उपयोगकर्ता इस सर्वर में सहकारी अनुरोध पोस्ट करने से ब्लॉक हैं। उन्हें जोड़ने के लिए एक Discord उपयोगकर्ता ID दर्ज करें।
-SERVER_COOP_BAN_ADD_BTN: उपयोगकर्ता को प्रतिबंधित करें
-SERVER_COOP_REGION_ROLES_TITLE: क्षेत्र-विशिष्ट भूमिकाएँ
-SERVER_COOP_ROLE_SAR: SAR भूमिका
-SERVER_COOP_CHANNEL_TITLE: अनुरोध चैनल
-SERVER_COOP_BAN_ALREADY_BANNED: यह उपयोगकर्ता पहले से ही प्रतिबंध सूची में है।
+SERVER_COOP_BAN_ADD_BTN: "उपयोगकर्ता को प्रतिबंधित करें"
+SERVER_COOP_BAN_ALREADY_BANNED: "यह उपयोगकर्ता पहले से ही प्रतिबंध सूची में है।"
+SERVER_COOP_BAN_ADDED: "उपयोगकर्ता को सहकारी प्रतिबंध सूची में जोड़ा गया है।"
+SERVER_COOP_BAN_REMOVED: "उपयोगकर्ता को सहकारी प्रतिबंध सूची से हटा दिया गया है।"
+SERVER_COOP_BAN_LIST_EMPTY: "वर्तमान में सहकारी अनुरोधों से कोई उपयोगकर्ता प्रतिबंधित नहीं है।"
+ERROR_LOAD_SETTINGS: "सेटिंग्स लोड करने में विफल। कृपया रिफ्रेश करें और फिर से प्रयास करें।"
+NO_ROLES_FOUND: "कोई भूमिका नहीं मिली"
