@@ -74,15 +74,20 @@ QUESTION_KEY: 疑问
 RESPONSE_KEY: 回應
 PREFIX_COMMAND_CURRENT: 该服务器的前缀是 `{prefix}`
 PREFIX_TOO_LONG: 前缀不能超过 5 个字符。
-PREFIX_TOO_SHORT: '。'
-PREFIX_CHANGED_TITLE: Hi
+PREFIX_TOO_SHORT: 不能设置空白前缀。
+PREFIX_CHANGED_TITLE: Genshin Wizard | 改善前缀
 PREFIX_CHANGED_DESCRIPTION: |
-  {new_prefix}{old_prefix}
+  成功设置 **Genshin Wizard** 的前缀！ 该服务器会使用这个前缀。
+
+  **旧前缀：** `{old_prefix}`
+  **新前缀：** `{new_prefix}`
 PREFIX_CHANGED_FOOTER: Genshin Wizard 前缀设置
 MATH_COMMAND_COMPUTE_ERROR: ":no_entry: 计算错误. 请尝试改写措辞！"
 MATH_COMMAND_RESULT: |
-  {result}{expression}
-RECENT_GENSHIN_EVENTS: "Recent Genshin Events\n"
+  **查询:** `{expression}`
+  **结果:**
+  ```{result}```
+RECENT_GENSHIN_EVENTS: 原神版本活动
 SEND_CODES_COMMAND_TITLE: Genshin Wizard | 活动码
 SEND_CODES_COMMAND_DESCRIPTION: |
   <:blurplelink:1020155547187691600> [***通过点击下面的按钮进行兑换！***](https://genshin.mihoyo.com/en/gift)
@@ -91,7 +96,7 @@ SEND_CODES_COMMAND_DESCRIPTION: |
   <:codes01:1020400818022780988><:codes02:1020400818987483216><:codes03:1020400816709959833>
 SEND_CODES_REDEEM_AUTOMATICALLY: 自动兑换
 SEND_CODES_DIRECT_LINK: 直接链接
-SEND_CODES_REDEEMABLE_CODES: 有效换码
+SEND_CODES_REDEEMABLE_CODES: 活换码
 SEND_CODES_REDEMPTION_CODES_TITLE: Genshin Wizard | 兑换码
 SEND_CODES_REDEMPTION_CODES_CONFIRMATION: 成功将兑换码发送到 {channel}！
 MESSAGE_LINK: 消息链接
@@ -99,7 +104,7 @@ CLICK_HERE: 点击这里
 INFO_SELECT_CHARACTER: 选择一个角色
 INFO_CHARACTER_SOURCE: "来源：保存的构建"
 INFO_USER_CACHE: 用户缓存
-INTERMISSION_MESSAGE: 正在生成信息图，请稍候 **耐心**...
+INTERMISSION_MESSAGE: 正在画图，请**耐心**稍候……
 MENU_COOLDOWN_TITLE: 菜单在冷却中！
 BUTTON_COOLDOWN_TITLE: 选项在冷却中！
 COMMAND_COOLDOWN_TITLE: 此命令在冷却中！
@@ -113,7 +118,7 @@ SUCCESSFUL_KEY: 成功！
 ERROR_MISSING_PERMISSION: 您没有使用此命令的权限！
 EXCLUSIVE_COMMAND_TITLE: Genshin Wizard | 专属命令
 EXCLUSIVE_COMMAND_DESCRIPTION: |
-  嘿，旅行者！你在这里**不允许**使用此命令，此命令只能在服务器中使用！
+  旅行者，你在这里**不允许**使用此命令，此命令只能在服务器中使用！
 
   如果你想使用此命令，请考虑加入我们的 [官方 Discord](https://genshinwizard.com/discord)。
 ERROR_COMMAND_INVOKE: 请确保您使用此命令的正确参数！
@@ -125,11 +130,11 @@ ERROR_PRIVATE_COMMAND_DESCRIPTION: |
   嘿，旅行者！你在这里**不允许**使用此命令，这是一个 Genshin Wizard 服务器 {command_type}*专属*命令！
 
   如果你想使用此命令，请考虑加入我们的 [官方 Discord](https://genshinwizard.com/discord)。
-ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard Premium
+ERROR_PREMIUM_COMMAND_TITLE: Genshin Wizard 高级版
 ERROR_PREMIUM_COMMAND_DESCRIPTION: 嘿，旅行者！你**不允许**使用此命令，此命令仅对**高级订阅者**可用。如果你想使用此功能，请考虑使用 </premium:{command_id}> 命令了解更多信息。
 ERROR_BLACKLISTED_TITLE: Genshin Wizard | 黑名单
 ERROR_BLACKLISTED_DESCRIPTION: |
-  嘿，旅行者！你已被**禁止**使用 Genshin Wizard！
+  旅行者，你已被**禁止**使用 Genshin Wizard！
 
   如果你认为这是一个错误，请考虑加入我们的 [官方 Discord](https://genshinwizard.com/discord)
 ERROR_MEMBER_NOT_FOUND_TITLE: Genshin Wizard | 找不到成员
@@ -142,7 +147,7 @@ MESSAGE_KEY: 消息
 ERROR_EMPTY_BACKPACK: 你的背包**是空的**！要开始你的旅程，请使用 </wishsimulator:{command_id}> 命令！
 ERROR_INTERACTION_MISMATCH: 嘿，旅行者！这**不是你的互动**！如果你想为自己使用此命令，请使用命令 {command}！
 ERROR_INTERACTION_COOLDOWN: 嘿，旅行者！你**点击太快了**！请等待 **{cooldown} 秒** 后再试。
-ERROR_MESSAGE: 发生了一个错误！
+ERROR_MESSAGE: 发生了错误！
 FEEDBACK_CONFIRMATION_TITLE: Genshin Wizard | 反馈
 FEEDBACK_CONFIRMATION_DESCRIPTION: <:yescheck:1021114525858136074> *你的反馈已成功发送给开发者！*
 FEEDBACK_LOG_RESPONSE: |
@@ -616,9 +621,9 @@ NUMBER_FIVE_STAR: 5星数量
 TOTAL_FOUR_STAR: 总计4星
 NUMBER_FOUR_STAR: 4星数量
 TOTAL_THREE_STAR: 总计3星
-REGISTER_PC_METHOD: "PC"
-REGISTER_ANDROID_METHOD: "Android"
-IOS_KEY: "iOS"
+REGISTER_PC_METHOD: "电脑"
+REGISTER_ANDROID_METHOD: "安卓手机"
+IOS_KEY: "苹果手机"
 CONSOLE_KEY: "控制台"
 REGISTER_IOS_METHOD: "iOS（流媒体应用方法）"
 REGISTER_COMMAND_PC_DIRECTIONS: |
@@ -988,7 +993,7 @@ PREMIUM_CUSTOM_ROLE_DESCRIPTION: |
   角色: {role_mention}
   角色名称: {role_name}
   角色颜色: `{role_color}`
-GENSHIN_WIZARD_PREMIUM: Genshin Wizard Premium
+GENSHIN_WIZARD_PREMIUM: Genshin Wizard 高级版
 CLAIMED_KEY: 已领取
 UNCLAIMED_KEY: 未领取
 PREMIUM_SERVER_SETTINGS_TITLE: Genshin Wizard 高级服务器设置
